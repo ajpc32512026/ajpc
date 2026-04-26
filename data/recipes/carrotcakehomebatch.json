@@ -1,0 +1,168 @@
+{
+  "id": "carrotcakehomebatch",
+  "title": "Carrot Cake – Home Batch",
+  "emoji": "🍰",
+  "category": "Baking",
+  "description": "A dense, old-school carrot cake baked low and slow — modest in size, serious in character.",
+  "prepTime": "20 min",
+  "cookTime": "1 hr 10 min",
+  "totalTime": "1 hr 30 min",
+  "servings": "8 slices",
+  "difficulty": "Easy",
+  "tags": [
+    "Baked",
+    "Classic",
+    "Sweet",
+    "Under 30 Minutes",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "quantity": "3",
+      "unit": "",
+      "item": "Eggs",
+      "ingredientKey": "Eggs"
+    },
+    {
+      "quantity": "200",
+      "unit": "g",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "190",
+      "unit": "g",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "7.5",
+      "unit": "ml",
+      "item": "Vanilla",
+      "ingredientKey": "Vanilla"
+    },
+    {
+      "quantity": "80",
+      "unit": "ml",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "6",
+      "unit": "g",
+      "item": "Baking Powder",
+      "ingredientKey": "Baking Powder"
+    },
+    {
+      "quantity": "3",
+      "unit": "g",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "3",
+      "unit": "g",
+      "item": "Cinnamon",
+      "ingredientKey": "Cinnamon"
+    },
+    {
+      "quantity": "300",
+      "unit": "g",
+      "item": "Carrots",
+      "ingredientKey": "Carrots"
+    },
+    {
+      "quantity": "150",
+      "unit": "g",
+      "item": "Sultanas",
+      "ingredientKey": "Sultanas"
+    },
+    {
+      "quantity": "75",
+      "unit": "g",
+      "item": "Walnuts",
+      "ingredientKey": "Walnuts"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 150°C. Grease and line a 20 cm × 5 cm round cake tin."
+    },
+    {
+      "step": 2,
+      "instruction": "In a large bowl, beat eggs, sugar, flour, vanilla, oil, baking powder, salt, and cinnamon until smooth."
+    },
+    {
+      "step": 3,
+      "instruction": "Fold in grated carrots, sultanas, and ground walnuts evenly."
+    },
+    {
+      "step": 4,
+      "instruction": "Pour batter into prepared tin and level the surface."
+    },
+    {
+      "step": 5,
+      "instruction": "Place a deep tray of hot water on the lower oven rack to maintain moisture."
+    },
+    {
+      "step": 6,
+      "instruction": "Bake for 1 hour, checking with a wooden skewer for doneness."
+    },
+    {
+      "step": 7,
+      "instruction": "Cool in the tin for 10 minutes, then turn out onto a wire rack and cool completely before slicing."
+    }
+  ],
+  "notes": [
+    {
+      "type": "yield",
+      "title": "Yield",
+      "content": "Makes one 20 cm × 5 cm round cake."
+    },
+    {
+      "type": "technique",
+      "title": "Low and Slow",
+      "content": "Deeper tins require longer baking at low heat to set the crumb without drying the cake."
+    },
+    {
+      "type": "copyright",
+      "title": "Copyright",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    },
+    {
+      "title": "Eggs",
+      "content": "large, approx. 150 g without shell"
+    },
+    {
+      "title": "Carrots",
+      "content": "finely grated"
+    },
+    {
+      "title": "Walnuts",
+      "content": "ground"
+    }
+  ],
+  "related": [
+    {
+      "id": "carrotcake",
+      "title": "Classic Carrot Cake"
+    },
+    {
+      "id": "blueberrymuffins",
+      "title": "Heavenly Blueberry Muffins"
+    },
+    {
+      "id": "chocmuffins",
+      "title": "Chocolate Muffins with Ganache"
+    },
+    {
+      "id": "apricotflan",
+      "title": "Apricot Flan"
+    },
+    {
+      "id": "chocchipcookies",
+      "title": "Double Chocolate Chip Cookies"
+    }
+  ]
+}

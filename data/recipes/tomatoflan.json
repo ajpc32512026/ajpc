@@ -1,0 +1,188 @@
+{
+  "id": "tomatoandoliveflan",
+  "title": "Tomato and Olive Flan",
+  "emoji": "🍅",
+  "description": "A savoury baked flan filled with tomatoes, olives, basil, and Gruyère cheese.",
+  "prepTime": "30 min",
+  "cookTime": "35 min",
+  "totalTime": "1 hour 35 min",
+  "servings": "4–6",
+  "difficulty": "Medium",
+  "tags": [
+    "Baked",
+    "Cheese",
+    "Dinner",
+    "French",
+    "Pastry",
+    "Rich",
+    "Savoury",
+    "Tomato",
+    "Under 1 Hour",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "quantity": "250",
+      "unit": "g",
+      "item": "plain flour"
+    },
+    {
+      "quantity": "90",
+      "unit": "g",
+      "item": "butter",
+      "notes": "chilled and cubed"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "egg yolk"
+    },
+    {
+      "quantity": "1",
+      "unit": "tbsp",
+      "item": "cold water"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "olive oil"
+    },
+    {
+      "quantity": "1 - 2",
+      "unit": "tsp",
+      "item": "french mustard",
+      "notes": "or Dijon mustard"
+    },
+    {
+      "quantity": "15",
+      "unit": "g",
+      "item": "butter",
+      "notes": "extra"
+    },
+    {
+      "quantity": "6",
+      "unit": "small",
+      "item": "tomatoes",
+      "notes": "chopped"
+    },
+    {
+      "quantity": "3",
+      "unit": "large",
+      "item": "onions",
+      "notes": "sliced"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "sugar"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "fresh basil",
+      "notes": "chopped"
+    },
+    {
+      "quantity": "1",
+      "unit": "cup",
+      "item": "black olives",
+      "notes": "pitted"
+    },
+    {
+      "quantity": "1",
+      "unit": "cup",
+      "item": "Gruyère cheese",
+      "notes": "grated"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 210°C. Brush a 20 cm deep flan tin with butter or oil and lightly flour the base and sides."
+    },
+    {
+      "step": 2,
+      "instruction": "To make the pastry, place flour and butter in a food processor and process until the mixture resembles fine crumbs."
+    },
+    {
+      "step": 3,
+      "instruction": "Add egg yolk and water and process until the dough just comes together."
+    },
+    {
+      "step": 4,
+      "instruction": "Turn out onto a lightly floured surface, wrap, and refrigerate for 30 minutes."
+    },
+    {
+      "step": 5,
+      "instruction": "Roll pastry to fit the prepared tin. Line with baking paper and fill with dried beans."
+    },
+    {
+      "step": 6,
+      "instruction": "Bake for 15 minutes. Remove paper and beans and allow the pastry shell to cool slightly."
+    },
+    {
+      "step": 7,
+      "instruction": "Mix olive oil and mustard to a smooth paste and spread evenly over the pastry base."
+    },
+    {
+      "step": 8,
+      "instruction": "Heat butter in a pan and cook tomatoes and onions until soft. Drain off excess liquid."
+    },
+    {
+      "step": 9,
+      "instruction": "Spoon the tomato mixture evenly over the pastry base."
+    },
+    {
+      "step": 10,
+      "instruction": "Combine sugar, basil, and olives and scatter over the tomatoes."
+    },
+    {
+      "step": 11,
+      "instruction": "Top with grated Gruyère cheese."
+    },
+    {
+      "step": 12,
+      "instruction": "Bake for 20 minutes or until the pastry is crisp and the cheese is golden."
+    }
+  ],
+  "notes": [
+    {
+      "type": "serving",
+      "title": "Olives",
+      "content": "Use good-quality olives such as Kalamata or Niçoise for best flavour."
+    },
+    {
+      "type": "serving",
+      "title": "Recipe Source",
+      "content": "Reproduced and adapted from The Essential Vegetarian Cook Book, published by Murdoch Books. ISBN: 0-86411-540-5."
+    },
+    {
+      "type": "serving",
+      "title": "Copyright",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    }
+  ],
+  "related": [
+    {
+      "id": "bistro-vealcordonbleu",
+      "title": "Veal Cordon Bleu"
+    },
+    {
+      "id": "beefstockpot",
+      "title": "20 Minute Beef Stock Pot"
+    },
+    {
+      "id": "bistro-chickenpicante",
+      "title": "Chicken Picante"
+    },
+    {
+      "id": "chouxpastry",
+      "title": "Choux Pastry (Profiteroles)"
+    },
+    {
+      "id": "crepes",
+      "title": "Crepes with Maple Syrup & Butter"
+    }
+  ],
+  "category": "Dinner"
+}

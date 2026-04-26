@@ -1,0 +1,119 @@
+{
+  "id": "chiligarlicopil",
+  "title": "Chili Garlic Oil",
+  "emoji": "🧄",
+  "category": "Sauces",
+  "description": "A fragrant Asian condiment — fiery, aromatic, and incredibly versatile. Elevates everything it touches.",
+  "prepTime": "5 min",
+  "cookTime": "10 min",
+  "totalTime": "15 min",
+  "servings": "8 servings",
+  "difficulty": "Easy",
+  "tags": [
+    "Chilli",
+    "Condiment",
+    "Garlic",
+    "Make Ahead",
+    "Sauce",
+    "Spicy",
+    "Under 30 Minutes",
+    "Vegan"
+  ],
+  "ingredients": [
+    {
+      "quantity": "1",
+      "unit": "cup",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "1/4",
+      "unit": "cup",
+      "item": "Red Chili",
+      "ingredientKey": "Red Chili"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Garlic",
+      "ingredientKey": "Garlic"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "1",
+      "unit": "tbsp",
+      "item": "Sauces",
+      "ingredientKey": "Sauces"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Heat oil in a pan on low heat."
+    },
+    {
+      "step": 2,
+      "instruction": "Add garlic and cook gently until lightly golden."
+    },
+    {
+      "step": 3,
+      "instruction": "Add chili flakes, salt, soy sauce, and sugar."
+    },
+    {
+      "step": 4,
+      "instruction": "Stir for 1–2 minutes, then remove from heat."
+    },
+    {
+      "step": 5,
+      "instruction": "Cool completely before storing."
+    }
+  ],
+  "notes": [
+    {
+      "type": "serving",
+      "title": "Serving Tip",
+      "content": "Drizzle over noodles, dumplings, or rice. Store in a jar in the fridge for up to a month."
+    },
+    {
+      "title": "Oil",
+      "content": "vegetable or olive oil"
+    },
+    {
+      "title": "Garlic Bulb",
+      "content": "minced"
+    }
+  ],
+  "related": [
+    {
+      "id": "honeygarlicsauce",
+      "title": "Honey Garlic Sauce"
+    },
+    {
+      "id": "sweetchilisauce",
+      "title": "Sweet Chili Sauce"
+    },
+    {
+      "id": "teriyakisauce",
+      "title": "Teriyaki Sauce"
+    },
+    {
+      "id": "sweetspicyorangesauce",
+      "title": "Sweet & Spicy Orange Sauce"
+    },
+    {
+      "id": "tacoseasoning",
+      "title": "Taco Seasoning — Old El Paso Style (From Scratch)"
+    }
+  ]
+}

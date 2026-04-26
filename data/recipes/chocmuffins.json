@@ -1,0 +1,233 @@
+{
+  "id": "chocolatemuffinswithganache",
+  "title": "Chocolate Muffins with Ganache",
+  "emoji": "🧁",
+  "category": "Baking",
+  "description": "Tall domes like bakery royalty, fluffy like a hymn, dipped in butter-rich ganache — decadent perfection.",
+  "prepTime": "20 min",
+  "cookTime": "25 min",
+  "totalTime": "45 min",
+  "servings": "12 muffins",
+  "difficulty": "Medium",
+  "tags": [
+    "Baked",
+    "Breakfast",
+    "Chocolate",
+    "Coffee",
+    "Creamy",
+    "Dessert",
+    "Rich",
+    "Sweet",
+    "Under 1 Hour",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "quantity": "220",
+      "unit": "g",
+      "item": "Plain Flour"
+    },
+    {
+      "quantity": "35",
+      "unit": "g",
+      "item": "Cocoa Powder"
+    },
+    {
+      "quantity": "110-150",
+      "unit": "g",
+      "item": "Sugar"
+    },
+    {
+      "quantity": "4",
+      "unit": "g",
+      "item": "Baking Powder"
+    },
+    {
+      "quantity": "1-2",
+      "unit": "g",
+      "item": "Bi-Carb Soda"
+    },
+    {
+      "quantity": "2",
+      "unit": "g",
+      "item": "Coffee",
+      "notes": "Granuls"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Butter",
+      "notes": "Unsalted"
+    },
+    {
+      "quantity": "60",
+      "unit": "ml",
+      "item": "Oil",
+      "notes": "Vegetable"
+    },
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Eggs"
+    },
+    {
+      "quantity": "180",
+      "unit": "ml",
+      "item": "Milk"
+    },
+    {
+      "quantity": "5",
+      "unit": "ml",
+      "item": "Vanilla"
+    },
+    {
+      "quantity": "60",
+      "unit": "ml",
+      "item": "Cream"
+    },
+    {
+      "quantity": "120",
+      "unit": "g",
+      "item": "dark cooking chocolate",
+      "notes": "70-80% cocoa"
+    },
+    {
+      "heading": "Ganache"
+    },
+    {
+      "quantity": "200",
+      "unit": "g",
+      "item": "dark cooking chocolate",
+      "notes": "70-80% cocoa"
+    },
+    {
+      "quantity": "200",
+      "unit": "ml",
+      "item": "Cream"
+    },
+    {
+      "quantity": "20-30",
+      "unit": "g",
+      "item": "Butter",
+      "notes": "Unsalted"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Vanilla",
+      "notes": "Essence"
+    },
+    {
+      "quantity": "2-3",
+      "unit": "g",
+      "item": "Coffee",
+      "notes": "Granuls"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 175°C (350°F). Line a 12-cup muffin tin with paper liners."
+    },
+    {
+      "step": 2,
+      "instruction": "In a large bowl, whisk together flour, cocoa powder, sugar, baking powder, baking soda, and instant coffee (if using)."
+    },
+    {
+      "step": 3,
+      "instruction": "In another bowl, whisk together melted butter, oil, eggs, milk, cream, and vanilla until well combined."
+    },
+    {
+      "step": 4,
+      "instruction": "Pour the wet mixture into the dry ingredients. Stir gently until just combined — do not overmix. A few small lumps are fine."
+    },
+    {
+      "step": 5,
+      "instruction": "Fold in chocolate chips gently with a spatula."
+    },
+    {
+      "step": 6,
+      "instruction": "Fill muffin cups about 3/4 full using a large spoon or ice cream scoop."
+    },
+    {
+      "step": 7,
+      "instruction": "Bake at 175°C for 22-25 minutes, or until a skewer inserted into the center comes out with just a few moist crumbs."
+    },
+    {
+      "step": 8,
+      "instruction": "Cool in the tin for 5 minutes, then transfer to a wire rack to cool completely before dipping in ganache."
+    },
+    {
+      "step": 9,
+      "instruction": "For the ganache: Heat cream in a small pot until steaming but not boiling."
+    },
+    {
+      "step": 10,
+      "instruction": "Place chocolate chips in a heatproof bowl and pour the hot cream over them."
+    },
+    {
+      "step": 11,
+      "instruction": "Let sit for 5 minutes without stirring, then stir gently from the center outward until smooth and glossy."
+    },
+    {
+      "step": 12,
+      "instruction": "Add softened butter and stir until fully incorporated and silky. Add vanilla and instant coffee if using."
+    },
+    {
+      "step": 13,
+      "instruction": "Let ganache rest until it reaches your desired consistency: 10-15 minutes for dipping, longer for spreading, or cool to room temperature for piping or filling."
+    },
+    {
+      "step": 14,
+      "instruction": "Dip muffin domes directly into the ganache or spoon ganache over the tops."
+    },
+    {
+      "step": 15,
+      "instruction": "Chill briefly in the fridge (10-15 minutes) if you want the ganache to set firmly."
+    }
+  ],
+  "notes": [
+    {
+      "type": "tip",
+      "title": "Extra Soft Texture",
+      "content": "Add an extra tablespoon of oil if you prefer an ultra-soft, tender crumb."
+    },
+    {
+      "type": "tip",
+      "title": "Crumbly Texture Fix",
+      "content": "These muffins are intentionally soft and plush. If they feel too crumbly or fall apart when cold or reheated, try reducing the baking time by 2-3 minutes or adding an extra tablespoon of cream next time."
+    },
+    {
+      "type": "tip",
+      "title": "Getting That Dome",
+      "content": "If the muffins don't dome beautifully, increase the oven temperature by 10-20°C for the first 5 minutes of baking, then reduce to 175°C for the remainder."
+    },
+    {
+      "type": "acknowledgement",
+      "title": "Copyright",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    }
+  ],
+  "related": [
+    {
+      "id": "blueberrymuffins",
+      "title": "Heavenly Blueberry Muffins"
+    },
+    {
+      "id": "chocchipcookies",
+      "title": "Double Chocolate Chip Cookies"
+    },
+    {
+      "id": "carrotcake",
+      "title": "Classic Carrot Cake"
+    },
+    {
+      "id": "applecinnscrolls",
+      "title": "Apple & Cinnamon Scrolls"
+    },
+    {
+      "id": "carrotcakehomebatch",
+      "title": "Carrot Cake – Home Batch"
+    }
+  ]
+}

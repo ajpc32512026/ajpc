@@ -1,0 +1,274 @@
+{
+  "id": "tangzhongseed",
+  "title": "Tangzhong Grain & Seed Bread",
+  "emoji": "🍞",
+  "category": "Baking",
+  "description": "A soft, generous loaf with the soul of old-world baking — built on modern tangzhong and a hearty, soaked grain-and-seed mix that gives depth without stealing moisture.",
+  "prepTime": "45 min (includes soaking time)",
+  "cookTime": "35 min",
+  "totalTime": "3 hours 30 min",
+  "servings": "1 large loaf",
+  "difficulty": "Medium",
+  "ingredients": [
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "190",
+      "unit": "g",
+      "item": "water (adjusted to account for evaporation in tangzhong)"
+    },
+    {
+      "quantity": "560",
+      "unit": "g",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "180",
+      "unit": "ml",
+      "item": "water"
+    },
+    {
+      "quantity": "20",
+      "unit": "ml",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "7",
+      "unit": "g",
+      "item": "Yeast",
+      "ingredientKey": "Yeast"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Bread Improver",
+      "ingredientKey": "Bread Improver"
+    },
+    {
+      "quantity": "15",
+      "unit": "g",
+      "item": "Rolled Oats",
+      "ingredientKey": "Rolled Oats"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Flaxseed Meal, Brown",
+      "ingredientKey": "Flaxseed Meal, Brown"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Linseed",
+      "ingredientKey": "Linseed"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Sesame Seeds",
+      "ingredientKey": "Sesame Seeds"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Quinoa",
+      "ingredientKey": "Quinoa"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Quinoa",
+      "ingredientKey": "Quinoa"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Chia Seeds",
+      "ingredientKey": "Chia Seeds"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Chia Seeds",
+      "ingredientKey": "Chia Seeds"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Sunflower Seeds",
+      "ingredientKey": "Sunflower Seeds"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Pumpkin Kernel",
+      "ingredientKey": "Pumpkin Kernel"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Bulgur Wheat",
+      "ingredientKey": "Bulgur Wheat"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Freekeh, Whole Grain",
+      "ingredientKey": "Freekeh, Whole Grain"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Poppy Seed",
+      "ingredientKey": "Poppy Seed"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Hemp, Protein Powder",
+      "ingredientKey": "Hemp, Protein Powder"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Hemp, Seeds",
+      "ingredientKey": "Hemp, Seeds"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Psyllium Husk",
+      "ingredientKey": "Psyllium Husk"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Bran",
+      "ingredientKey": "Bran"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Soy Lecithin",
+      "ingredientKey": "Soy Lecithin"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Make the tangzhong: In a small saucepan, combine 30g flour and 190g water. Cook over medium heat, whisking constantly, until it thickens into a paste (around 65°C). Remove from heat and let cool to room temperature."
+    },
+    {
+      "step": 2,
+      "instruction": "Prepare the seed and grain mix: Combine all seeds, grains, and add-ins (oats through soy lecithin) in a bowl. Cover with hot water and let soak for 20-30 minutes. Drain thoroughly and squeeze out excess moisture."
+    },
+    {
+      "step": 3,
+      "instruction": "In a large bowl, combine the 560g flour, salt, sugar, yeast, and bread improver (if using)."
+    },
+    {
+      "step": 4,
+      "instruction": "Add the cooled tangzhong, 180ml water, oil, and the drained seed mixture."
+    },
+    {
+      "step": 5,
+      "instruction": "Mix until a rough dough forms. The dough will feel firm initially — this is normal."
+    },
+    {
+      "step": 6,
+      "instruction": "Knead for 12-15 minutes by hand (or 8-10 minutes in a stand mixer) until the dough becomes smooth and elastic. It will relax and become more pliable as you knead."
+    },
+    {
+      "step": 7,
+      "instruction": "Place dough in a lightly oiled bowl, cover with a damp tea towel, and let rise in a warm place for 1.5-2 hours until doubled in size. The seeds make this dough denser, so it may rise more slowly."
+    },
+    {
+      "step": 8,
+      "instruction": "Punch down the dough and shape into a loaf. Place in a greased loaf tin (approximately 20-22cm x 10-12cm)."
+    },
+    {
+      "step": 9,
+      "instruction": "Cover and let rise for another 60-90 minutes until the dough has risen about 2cm above the rim of the tin."
+    },
+    {
+      "step": 10,
+      "instruction": "Preheat oven to 180°C (350°F)."
+    },
+    {
+      "step": 11,
+      "instruction": "Optional: Brush the top with water or milk and sprinkle with extra seeds (oats, sesame, or sunflower)."
+    },
+    {
+      "step": 12,
+      "instruction": "Bake for 32-38 minutes until the top is deep golden brown and the loaf sounds hollow when tapped on the bottom."
+    },
+    {
+      "step": 13,
+      "instruction": "Remove from tin immediately and cool on a wire rack for at least 45 minutes before slicing. This allows the crumb to set properly."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Why Soaking Matters",
+      "content": "The grain-and-seed mix is soaked because components like oats, bran, bulgur, freekeh, flax, chia, psyllium, and hemp absorb moisture. Soaking ensures the dough stays hydrated and the loaf rises tall with a tender crumb."
+    },
+    {
+      "type": "tip",
+      "title": "Tangzhong + Seeds",
+      "content": "The tangzhong keeps the loaf soft for days, while the soaked seeds add hearty flavor and nutrition without weighing it down or stealing moisture from the dough."
+    },
+    {
+      "type": "variation",
+      "title": "Customize Your Mix",
+      "content": "Don't have all the seeds? Use what you have. The total seed/grain weight should be around 145-150g. Popular combinations: oats + sunflower + pumpkin + flax + chia."
+    }
+  ],
+  "tags": [
+    "Bread",
+    "Make Ahead",
+    "Savoury",
+    "Under 30 Minutes",
+    "Vegan"
+  ],
+  "related": [
+    {
+      "id": "pizzadough",
+      "title": "Ultimate Homemade Pizza Dough"
+    },
+    {
+      "id": "darkrye",
+      "title": "Dark Rye Bread"
+    },
+    {
+      "id": "turkishbread",
+      "title": "Traditional Turkish Bread"
+    },
+    {
+      "id": "focaccia",
+      "title": "Focaccia"
+    },
+    {
+      "id": "focaccia-high",
+      "title": "High-Hydration Focaccia"
+    }
+  ]
+}

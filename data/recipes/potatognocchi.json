@@ -1,0 +1,160 @@
+{
+  "id": "potatognocchi",
+  "title": "Potato Gnocchi with Tomato Sauce",
+  "emoji": "🥔",
+  "category": "Dinner",
+  "description": "Soft potato gnocchi served with a simple tomato and basil sauce.",
+  "prepTime": "30 min",
+  "cookTime": "35 min",
+  "totalTime": "1 hour 5 min",
+  "servings": "4",
+  "difficulty": "Medium",
+  "tags": [
+    "Alcohol",
+    "Cheese",
+    "Classic",
+    "Dinner",
+    "Italian",
+    "Rich",
+    "Savoury",
+    "Under 1 Hour",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "quantity": "500",
+      "unit": "g",
+      "item": "potatoes",
+      "ingredientKey": "Potato"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "plain flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Parmesan cheese, grated",
+      "ingredientKey": "Cheese"
+    },
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "butter, melted",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "salt and pepper",
+      "ingredientKey": "Seasoning"
+    },
+    {
+      "quantity": "1",
+      "unit": "kg",
+      "item": "ripe tomatoes, chopped",
+      "ingredientKey": "Tomatoes"
+    },
+    {
+      "quantity": "2",
+      "unit": "cloves",
+      "item": "garlic, crushed",
+      "ingredientKey": "Garlic"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "dry white wine",
+      "ingredientKey": "Wine"
+    },
+    {
+      "quantity": "3",
+      "unit": "tbsp",
+      "item": "fresh basil, chopped",
+      "ingredientKey": "Basil"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Cook potatoes in a pan of boiling water for 15–20 minutes until tender. Drain thoroughly and mash until smooth."
+    },
+    {
+      "step": 2,
+      "instruction": "Transfer to a bowl and allow to cool slightly. Add flour, Parmesan, melted butter, salt, and pepper."
+    },
+    {
+      "step": 3,
+      "instruction": "Using a flat-bladed knife, mix with a cutting motion to form a firm dough."
+    },
+    {
+      "step": 4,
+      "instruction": "Knead briefly on a lightly floured surface until smooth. Do not over-handle or the gnocchi will be tough."
+    },
+    {
+      "step": 5,
+      "instruction": "Roll heaped teaspoons of dough into oval shapes and indent one side with the back of a fork."
+    },
+    {
+      "step": 6,
+      "instruction": "Cook gnocchi in batches in rapidly boiling salted water for 3–5 minutes. When they float, they are cooked."
+    },
+    {
+      "step": 7,
+      "instruction": "Drain well and keep warm while cooking remaining gnocchi."
+    },
+    {
+      "step": 8,
+      "instruction": "To make the tomato sauce, combine tomatoes, garlic, wine, basil, salt, and pepper in a pan."
+    },
+    {
+      "step": 9,
+      "instruction": "Bring to the boil, then reduce heat and simmer gently for 15–20 minutes, stirring occasionally, until slightly thickened."
+    },
+    {
+      "step": 10,
+      "instruction": "Serve gnocchi in warmed bowls with tomato sauce and extra grated Parmesan."
+    }
+  ],
+  "notes": [
+    {
+      "type": "note",
+      "title": "Basil Tip",
+      "content": "Fresh basil should be added at the end of cooking to preserve its flavour. Chop or tear just before using to prevent blackening."
+    },
+    {
+      "type": "acknowledgement",
+      "title": "Recipe Source",
+      "content": "Reproduced and adapted from The Essential Vegetarian Cook Book, published by Murdoch Books. ISBN: 0-86411-540-5."
+    },
+    {
+      "type": "acknowledgement",
+      "title": "Copyright",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    }
+  ],
+  "related": [
+    {
+      "id": "lasagne",
+      "title": "Classic Lasagne — Ragù & Béchamel"
+    },
+    {
+      "id": "chickencacciatore",
+      "title": "Chicken Cacciatore"
+    },
+    {
+      "id": "bistro-vealscaloppine",
+      "title": "Veal Scaloppine"
+    },
+    {
+      "id": "highhydraciab",
+      "title": "Airy High-Hydration Ciabatta"
+    },
+    {
+      "id": "bistro-carpetbag",
+      "title": "Carpet Bag"
+    }
+  ]
+}

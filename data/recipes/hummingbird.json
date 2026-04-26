@@ -1,0 +1,170 @@
+{
+  "id": "hummingbird",
+  "title": "Hummingbird Cake — Cafe Style",
+  "emoji": "🕊️",
+  "category": "Dinner",
+  "description": "A lush, old-fashioned Southern classic — moist, fragrant, packed with fruit, and crowned with Philadelphia Cream Cheese frosting.",
+  "ingredients": [
+    {
+      "quantity": "3",
+      "unit": "cups",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "2",
+      "unit": "cups",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Cinnamon",
+      "ingredientKey": "Cinnamon"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Bi-Carb Soda",
+      "ingredientKey": "Bi-Carb Soda"
+    },
+    {
+      "quantity": "6",
+      "unit": "",
+      "item": "Eggs",
+      "ingredientKey": "Eggs"
+    },
+    {
+      "quantity": "1/2",
+      "unit": "cup",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "4",
+      "unit": "cups",
+      "item": "Banana",
+      "ingredientKey": "Banana"
+    },
+    {
+      "quantity": "1/2",
+      "unit": "cup",
+      "item": "Pecan",
+      "ingredientKey": "Pecan"
+    },
+    {
+      "quantity": "1",
+      "unit": "cup",
+      "item": "Pineapple",
+      "ingredientKey": "Pineapple"
+    },
+    {
+      "quantity": "500",
+      "unit": "g",
+      "item": "Philadelphia Cream Cheese",
+      "ingredientKey": "Philadelphia Cream Cheese"
+    },
+    {
+      "quantity": "150",
+      "unit": "g",
+      "item": "Cream",
+      "ingredientKey": "Cream"
+    },
+    {
+      "quantity": "60",
+      "unit": "g",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "2",
+      "unit": "tsp",
+      "item": "Vanilla",
+      "ingredientKey": "Vanilla"
+    },
+    {
+      "quantity": "1",
+      "unit": "cup",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 170°C. Lightly grease a 20 cm round cake tin and dust with flour, shaking out any excess."
+    },
+    {
+      "step": 2,
+      "instruction": "Sift flour, caster sugar, cinnamon, and bi-carb soda into a large mixing bowl. Whisk briefly to combine."
+    },
+    {
+      "step": 3,
+      "instruction": "Add lightly beaten eggs and oil, then fold in chopped nuts, mashed bananas, and crushed pineapple including syrup."
+    },
+    {
+      "step": 4,
+      "instruction": "Fold gently from bottom upward until no dry patches remain. Avoid overmixing."
+    },
+    {
+      "step": 5,
+      "instruction": "Pour batter into prepared tin, level the top, and bake for about 45–50 minutes or until a skewer comes out clean."
+    },
+    {
+      "step": 6,
+      "instruction": "Cool in the tin for 10 minutes, then transfer to a wire rack. Cool completely before frosting."
+    },
+    {
+      "step": 7,
+      "instruction": "Beat Philadelphia Cream Cheese, sour cream, butter, and vanilla essence together until smooth, pale, and fluffy."
+    },
+    {
+      "step": 8,
+      "instruction": "Gradually beat in sifted icing sugar until thick and silky."
+    },
+    {
+      "step": 9,
+      "instruction": "Spread thickly over the completely cooled cake."
+    }
+  ],
+  "notes": [
+    {
+      "title": "Baker’s Notes",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    }
+  ],
+  "tags": [
+    "Banana",
+    "Cheese",
+    "Creamy",
+    "Dinner",
+    "Party",
+    "Rich",
+    "Savoury",
+    "Sweet",
+    "Vegetarian"
+  ],
+  "related": [
+    {
+      "id": "orangepoppyseed",
+      "title": "Orange & Poppy Seed Cake — Double Batch"
+    },
+    {
+      "id": "lasagne",
+      "title": "Classic Lasagne — Ragù & Béchamel"
+    },
+    {
+      "id": "bistro-reefandbeef",
+      "title": "Reef and Beef"
+    },
+    {
+      "id": "bistro-vealoscar",
+      "title": "Veal Oscar"
+    },
+    {
+      "id": "tomatoflan",
+      "title": "Tomato and Olive Flan"
+    }
+  ]
+}

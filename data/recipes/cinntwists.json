@@ -1,0 +1,209 @@
+{
+  "id": "cinntwists",
+  "title": "Cinnamon Twists",
+  "emoji": "🥨",
+  "category": "Desserts",
+  "description": "A soft, buttery treat with a swirl of spiced sweetness — perfect for breakfast or afternoon tea.",
+  "prepTime": "30 min",
+  "cookTime": "15 min",
+  "totalTime": "2 hours 45 min",
+  "servings": "18-20 twists",
+  "difficulty": "Medium",
+  "ingredients": [
+    {
+      "quantity": "2",
+      "unit": "sachets",
+      "item": "Yeast",
+      "ingredientKey": "Yeast"
+    },
+    {
+      "quantity": "4",
+      "unit": "cups",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "1/4",
+      "unit": "cup",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "1",
+      "unit": "container",
+      "item": "Cream",
+      "ingredientKey": "Cream"
+    },
+    {
+      "quantity": "1/2",
+      "unit": "cup",
+      "item": "Milk",
+      "ingredientKey": "Milk"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Eggs",
+      "ingredientKey": "Eggs"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "1/2",
+      "unit": "cup",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Cinnamon",
+      "ingredientKey": "Cinnamon"
+    },
+    {
+      "quantity": "1",
+      "unit": "tbsp",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "1-2",
+      "unit": "drops",
+      "item": "Vanilla",
+      "ingredientKey": "Vanilla"
+    },
+    {
+      "quantity": "1",
+      "unit": "cup",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "1",
+      "unit": "tbsp",
+      "item": "Milk",
+      "ingredientKey": "Milk"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "In a large bowl, combine flour, yeast, salt, and sugar."
+    },
+    {
+      "step": 2,
+      "instruction": "In a separate bowl, mix warmed sour cream, warmed milk, melted butter, and beaten egg."
+    },
+    {
+      "step": 3,
+      "instruction": "Pour wet ingredients into dry ingredients and mix until a soft dough forms."
+    },
+    {
+      "step": 4,
+      "instruction": "Knead on a lightly floured surface for 8-10 minutes until smooth and elastic."
+    },
+    {
+      "step": 5,
+      "instruction": "Place dough in a lightly greased bowl, cover with a damp tea towel, and let rise in a warm place for 1-1.5 hours or until doubled in size."
+    },
+    {
+      "step": 6,
+      "instruction": "Punch down the dough and roll out into a large rectangle (approximately 30cm x 40cm)."
+    },
+    {
+      "step": 7,
+      "instruction": "Brush the surface with 2 tablespoons melted butter."
+    },
+    {
+      "step": 8,
+      "instruction": "In a small bowl, mix brown sugar and cinnamon. Sprinkle evenly over the buttered dough."
+    },
+    {
+      "step": 9,
+      "instruction": "Fold the dough in half lengthwise, then cut into strips (about 2cm wide)."
+    },
+    {
+      "step": 10,
+      "instruction": "Twist each strip gently and place on a lined baking tray, leaving space between each."
+    },
+    {
+      "step": 11,
+      "instruction": "Cover and let rise for 30 minutes."
+    },
+    {
+      "step": 12,
+      "instruction": "Preheat oven to 180°C (350°F). Bake twists for 12-15 minutes until golden brown."
+    },
+    {
+      "step": 13,
+      "instruction": "While twists cool slightly, make the icing: Beat together butter, vanilla, icing sugar, and milk until smooth and glossy."
+    },
+    {
+      "step": 14,
+      "instruction": "Drizzle icing over warm twists and serve."
+    }
+  ],
+  "notes": [
+    {
+      "type": "tip",
+      "title": "Soft and Tender",
+      "content": "The sour cream in this recipe creates an exceptionally soft, tender dough. Don't skip warming the dairy — it helps activate the yeast faster."
+    },
+    {
+      "type": "serving",
+      "title": "Best Served",
+      "content": "These are best enjoyed fresh and warm. Store leftovers in an airtight container for up to 2 days."
+    }
+  ],
+  "tags": [
+    "Baked",
+    "Bread",
+    "Breakfast",
+    "Cinnamon",
+    "Creamy",
+    "Dessert",
+    "Pastry",
+    "Rich",
+    "Sweet",
+    "Under 1 Hour",
+    "Vegetarian"
+  ],
+  "related": [
+    {
+      "id": "sourdoughcinnrolls",
+      "title": "Soft Sourdough Cinnamon Rolls"
+    },
+    {
+      "id": "chocolatemudcake",
+      "title": "The Ultimate Chocolate Mud Cake"
+    },
+    {
+      "id": "bistro-profiteroles",
+      "title": "Profiteroles"
+    },
+    {
+      "id": "bistro-mudcake",
+      "title": "Mud Cake"
+    },
+    {
+      "id": "lemonmeringuepie",
+      "title": "Lemon Meringue Pie"
+    }
+  ]
+}

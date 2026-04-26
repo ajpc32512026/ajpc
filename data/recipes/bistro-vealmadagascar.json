@@ -1,0 +1,159 @@
+{
+  "id": "bistro-vealmadagascar",
+  "title": "Veal Madagascar",
+  "emoji": "🫑",
+  "category": "Dinner",
+  "description": "Veal in a rich cream and demi glace sauce with bacon, capsicum, tomato, onion, garlic and green peppercorns. Served hot or mild — the customer's choice.",
+  "prepTime": "10 min",
+  "cookTime": "10 min",
+  "totalTime": "20 min",
+  "servings": 1,
+  "difficulty": "Medium",
+  "tags": [
+    "Classic",
+    "Cream",
+    "Creamy",
+    "Dinner",
+    "Rich",
+    "Savoury",
+    "Under 1 Hour",
+    "Under 30 Minutes"
+  ],
+  "ingredients": [
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Veal",
+      "ingredientKey": "Veal"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Bacon",
+      "ingredientKey": "Bacon"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Capsicum",
+      "ingredientKey": "Capsicum"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Onion",
+      "ingredientKey": "Onion"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Tomatoes",
+      "ingredientKey": "Tomatoes"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Garlic",
+      "ingredientKey": "Garlic"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Pepper",
+      "ingredientKey": "Pepper"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Red Chili",
+      "ingredientKey": "Red Chili"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Cream",
+      "ingredientKey": "Cream"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Demi Glace",
+      "ingredientKey": "Demi Glace"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Pan-fry veal until just cooked through. Rest — veal toughens quickly if overdone."
+    },
+    {
+      "step": 2,
+      "instruction": "In the same pan, fry bacon until beginning to crisp."
+    },
+    {
+      "step": 3,
+      "instruction": "Add onion and capsicum and soften."
+    },
+    {
+      "step": 4,
+      "instruction": "Add garlic and chilli (for hot version). Cook briefly."
+    },
+    {
+      "step": 5,
+      "instruction": "Add diced tomato and cook down slightly."
+    },
+    {
+      "step": 6,
+      "instruction": "Add demi glace base and thickened cream. Stir and reduce to a rich sauce."
+    },
+    {
+      "step": 7,
+      "instruction": "Add green peppercorns."
+    },
+    {
+      "step": 8,
+      "instruction": "Return veal to pan briefly to warm through. Plate and spoon sauce generously over."
+    }
+  ],
+  "notes": [
+    {
+      "type": "chef",
+      "title": "Chef's Note",
+      "content": "Hot or mild is the customer's choice — same dish, just adjust chilli. Uses demi glace base. ??? Exact ratio of cream to demi? ??? Was there red wine?"
+    }
+  ],
+  "related": [
+    {
+      "id": "bistro-chickenriverina",
+      "title": "Chicken Riverina"
+    },
+    {
+      "id": "bistro-mediterraneansteak",
+      "title": "Mediterranean Steak"
+    },
+    {
+      "id": "bistro-filetmignon",
+      "title": "Filet Mignon"
+    },
+    {
+      "id": "bistro-vealscaloppine",
+      "title": "Veal Scaloppine"
+    },
+    {
+      "id": "bistro-chickenpicante",
+      "title": "Chicken Picante"
+    }
+  ]
+}

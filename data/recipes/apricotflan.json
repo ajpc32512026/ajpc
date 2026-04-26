@@ -1,0 +1,151 @@
+{
+  "id": "apricotflan",
+  "title": "Apricot Flan",
+  "emoji": "🍑",
+  "category": "Baking",
+  "description": "Not just dessert — this is the one that makes the room go quiet. Soft custard, buttery pastry, and apricots that know their job.",
+  "prepTime": "40 min",
+  "cookTime": "35 min",
+  "totalTime": "1 hr 15 min",
+  "servings": "8 servings",
+  "difficulty": "Medium",
+  "tags": [
+    "Alcohol",
+    "Brandy",
+    "Classic",
+    "Creamy",
+    "Dessert",
+    "Pastry",
+    "Rich",
+    "Sweet",
+    "Under 30 Minutes",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "heading": "Base"
+    },
+    {
+      "quantity": "200",
+      "unit": "g",
+      "item": "Flour"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Sugar"
+    },
+    {
+      "quantity": "50",
+      "unit": "g",
+      "item": "Almonds"
+    },
+    {
+      "quantity": "125",
+      "unit": "g",
+      "item": "Butter"
+    },
+    {
+      "heading": "Filling"
+    },
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Eggs"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Vanilla"
+    },
+    {
+      "quantity": "250",
+      "unit": "ml",
+      "item": "Milk"
+    },
+    {
+      "heading": "Topping"
+    },
+    {
+      "quantity": "150",
+      "unit": "ml",
+      "item": "Cream"
+    },
+    {
+      "quantity": "6–8",
+      "unit": "",
+      "item": "Apricot"
+    },
+    {
+      "quantity": "3",
+      "unit": "tbsp",
+      "item": "Apricot Jam"
+    },
+    {
+      "quantity": "1",
+      "unit": "tbsp",
+      "item": "Brandy"
+    },
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Almonds"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Combine flour, sugar, ground almonds, and butter. Rub together until crumbly, then bring together into a dough. Chill for 30 minutes."
+    },
+    {
+      "step": 2,
+      "instruction": "Roll pastry out and line a flan tin. Blind bake until lightly golden, then cool completely."
+    },
+    {
+      "step": 3,
+      "instruction": "Beat egg yolks with sugar and vanilla. Gradually add warm milk, then cook gently until thickened. Cool slightly and fold through whipped cream."
+    },
+    {
+      "step": 4,
+      "instruction": "Fill cooled pastry shell with custard. Arrange apricot halves over the top."
+    },
+    {
+      "step": 5,
+      "instruction": "Warm apricot jam with brandy and brush over fruit. Finish with flaked almonds and chill until set."
+    }
+  ],
+  "notes": [
+    {
+      "type": "acknowledgement",
+      "title": "Make Ahead",
+      "content": "The pastry shell can be baked a day in advance. Assemble the flan on the day of serving to keep the base crisp."
+    },
+    {
+      "type": "acknowledgement",
+      "title": "Copyright",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    }
+  ],
+  "related": [
+    {
+      "id": "applepie",
+      "title": "Apple Pie"
+    },
+    {
+      "id": "chocchipcookies",
+      "title": "Double Chocolate Chip Cookies"
+    },
+    {
+      "id": "anzacbiscuits",
+      "title": "Traditional ANZAC Biscuits"
+    },
+    {
+      "id": "blueberrymuffins",
+      "title": "Heavenly Blueberry Muffins"
+    },
+    {
+      "id": "bananabread",
+      "title": "Banana Bread"
+    }
+  ]
+}

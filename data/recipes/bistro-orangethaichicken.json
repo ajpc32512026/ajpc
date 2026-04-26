@@ -1,0 +1,131 @@
+{
+  "id": "bistro-orangethaichicken",
+  "title": "Orange Thai Chicken",
+  "emoji": "🍊",
+  "category": "Dinner",
+  "description": "The Thai Chicken's sibling — same ginger and chilli base but brightened with fresh orange juice for a citrus-forward sauce.",
+  "prepTime": "5 min",
+  "cookTime": "8 min",
+  "totalTime": "13 min",
+  "servings": 1,
+  "difficulty": "Easy",
+  "tags": [
+    "Chicken",
+    "Creamy",
+    "Dinner",
+    "Gluten-Free",
+    "Orange",
+    "Rich",
+    "Savoury",
+    "Spicy",
+    "Thai",
+    "Under 30 Minutes"
+  ],
+  "ingredients": [
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Chicken",
+      "ingredientKey": "Chicken"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Ginger",
+      "ingredientKey": "Ginger"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Red Chili",
+      "ingredientKey": "Red Chili"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Juice",
+      "ingredientKey": "Juice"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Cream",
+      "ingredientKey": "Cream"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Orange Zest",
+      "ingredientKey": "Orange Zest"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Onion",
+      "ingredientKey": "Onion"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Pan-fry chicken breast until golden and cooked through. Rest."
+    },
+    {
+      "step": 2,
+      "instruction": "Soften shallots and ginger in butter. Add chilli briefly."
+    },
+    {
+      "step": 3,
+      "instruction": "Deglaze with fresh orange juice. Reduce by half."
+    },
+    {
+      "step": 4,
+      "instruction": "Add thickened cream and reduce to a coating sauce."
+    },
+    {
+      "step": 5,
+      "instruction": "Finish with orange zest. Plate and spoon sauce over chicken."
+    }
+  ],
+  "notes": [
+    {
+      "type": "chef",
+      "title": "Chef's Note",
+      "content": "??? Was it cream-forward with a hint of orange, or orange-forward? No demi."
+    }
+  ],
+  "related": [
+    {
+      "id": "bistro-thaichicken",
+      "title": "Thai Chicken"
+    },
+    {
+      "id": "bistro-chickenpicante",
+      "title": "Chicken Picante"
+    },
+    {
+      "id": "bistro-chickenriverina",
+      "title": "Chicken Riverina"
+    },
+    {
+      "id": "bistro-chickenpapion",
+      "title": "Chicken Papion"
+    },
+    {
+      "id": "butterchicken",
+      "title": "Restaurant-Style Butter Chicken"
+    }
+  ]
+}

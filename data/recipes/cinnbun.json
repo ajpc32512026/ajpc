@@ -1,0 +1,171 @@
+{
+  "id": "cinnbun",
+  "title": "Bakery-Style Cinnamon Buns",
+  "emoji": "🍯",
+  "category": "Dinner",
+  "description": "Soft, pillowy, buttery, and swirled with cinnamon sugar — just like your favourite bakery.",
+  "ingredients": [
+    {
+      "quantity": "250",
+      "unit": "ml",
+      "item": "Milk",
+      "ingredientKey": "Milk"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Yeast",
+      "ingredientKey": "Yeast"
+    },
+    {
+      "quantity": "75",
+      "unit": "g",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "500",
+      "unit": "g",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "7",
+      "unit": "g",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "75",
+      "unit": "g",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "1",
+      "unit": "large",
+      "item": "Eggs",
+      "ingredientKey": "Eggs"
+    },
+    {
+      "quantity": "75",
+      "unit": "g",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "2",
+      "unit": "tsp",
+      "item": "Cinnamon",
+      "ingredientKey": "Cinnamon"
+    },
+    {
+      "quantity": "1/2",
+      "unit": "cup",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "1–2",
+      "unit": "tbsp",
+      "item": "Milk",
+      "ingredientKey": "Milk"
+    },
+    {
+      "quantity": "1/2",
+      "unit": "tsp",
+      "item": "Vanilla",
+      "ingredientKey": "Vanilla"
+    },
+    {
+      "quantity": "pinch",
+      "unit": "",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "In a large bowl, combine milk, yeast, and sugar. Let sit 5 minutes until foamy."
+    },
+    {
+      "step": 2,
+      "instruction": "Add flour, salt, melted butter, and egg. Mix until a smooth, slightly sticky dough forms. Knead 8–10 minutes until elastic."
+    },
+    {
+      "step": 3,
+      "instruction": "Cover and let dough rise until doubled, about 1–1.5 hours."
+    },
+    {
+      "step": 4,
+      "instruction": "Roll dough into a rectangle (~30×40 cm). Brush with melted butter and sprinkle evenly with the cinnamon-sugar mixture."
+    },
+    {
+      "step": 5,
+      "instruction": "Roll the dough tightly into a log, pinch the seam, and cut into 8–12 buns."
+    },
+    {
+      "step": 6,
+      "instruction": "Place buns in a greased tin with space between each. Cover and let rise 30–45 minutes."
+    },
+    {
+      "step": 7,
+      "instruction": "Preheat oven to 180°C. Bake buns 20–25 minutes until golden brown."
+    },
+    {
+      "step": 8,
+      "instruction": "Whisk powdered sugar, milk or cream, vanilla, and salt for the glaze. Drizzle over warm buns."
+    },
+    {
+      "step": 9,
+      "instruction": "Optional: brush a little extra melted butter over the glaze for an ultra-glossy finish."
+    }
+  ],
+  "notes": [
+    {
+      "title": "Notes & Tips",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    }
+  ],
+  "tags": [
+    "Baked",
+    "Bread",
+    "Breakfast",
+    "Cinnamon",
+    "Creamy",
+    "Dinner",
+    "Rich",
+    "Savoury",
+    "Sweet",
+    "Vegetarian"
+  ],
+  "related": [
+    {
+      "id": "hotdog",
+      "title": "Wendy’s-Style Hot Dog Buns"
+    },
+    {
+      "id": "swbtm2",
+      "title": "Tangzhong Pull-Apart Loaf"
+    },
+    {
+      "id": "lamington",
+      "title": "Classic Lamingtons"
+    },
+    {
+      "id": "roulade",
+      "title": "Strawberry Meringue Roulade"
+    },
+    {
+      "id": "highhydraciab",
+      "title": "Airy High-Hydration Ciabatta"
+    }
+  ]
+}

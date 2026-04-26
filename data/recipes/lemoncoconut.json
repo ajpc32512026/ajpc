@@ -1,0 +1,167 @@
+{
+  "id": "lemoncoconut",
+  "title": "Lemon Coconut Cake",
+  "emoji": "🍋",
+  "category": "Dinner",
+  "description": "A simple old-school favourite — bright lemon, soft crumb, and that warm coconut finish.",
+  "ingredients": [
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Juice",
+      "ingredientKey": "Juice"
+    },
+    {
+      "quantity": "1",
+      "unit": "cup",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "3/4",
+      "unit": "cup",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Eggs",
+      "ingredientKey": "Eggs"
+    },
+    {
+      "quantity": "125",
+      "unit": "g",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "1/2",
+      "unit": "cup",
+      "item": "Milk",
+      "ingredientKey": "Milk"
+    },
+    {
+      "quantity": "1",
+      "unit": "cup",
+      "item": "Coconut",
+      "ingredientKey": "Coconut"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Lemon Zest",
+      "ingredientKey": "Lemon Zest"
+    },
+    {
+      "quantity": "3/4",
+      "unit": "cup",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Juice",
+      "ingredientKey": "Juice"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Lemon Zest",
+      "ingredientKey": "Lemon Zest"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Coconut",
+      "ingredientKey": "Coconut"
+    }
+  ],
+  "method": [
+    {
+      "step": "1",
+      "instruction": "Preheat oven to moderate (around 180°C). Grease and line a 20 cm lamington tin."
+    },
+    {
+      "step": "2",
+      "instruction": "In a saucepan, add milk and butter, stir over medium heat until butter is melted. Add the sifted flour and sugar. Stir gently until the sugar dissolves."
+    },
+    {
+      "step": "3",
+      "instruction": "Add the eggs, one at a time mixing between additions, lemon juice, and coconut. Stir only until just combined."
+    },
+    {
+      "step": "4",
+      "instruction": "Add the milk and fold through gently."
+    },
+    {
+      "step": "5",
+      "instruction": "For extra flavour and texture, add lemon zest before pouring into the tin."
+    },
+    {
+      "step": "6",
+      "instruction": "Pour the mixture into the prepared tin and bake for 35–40 minutes or until a skewer comes out clean."
+    },
+    {
+      "step": "7",
+      "instruction": "Allow the cake to cool completely before icing."
+    },
+    {
+      "step": "8",
+      "instruction": "Sift icing sugar into a bowl."
+    },
+    {
+      "step": "9",
+      "instruction": "Add lemon juice slowly, mixing until a thick paste forms."
+    },
+    {
+      "step": "10",
+      "instruction": "Spread over the cooled cake."
+    },
+    {
+      "step": "11",
+      "instruction": "Sprinkle with lemon zest and coconut for decoration."
+    }
+  ],
+  "notes": [
+    {
+      "title": "Baker’s Notes",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    }
+  ],
+  "tags": [
+    "Coconut",
+    "Creamy",
+    "Dessert",
+    "Dinner",
+    "Lemon",
+    "Rich",
+    "Savoury",
+    "Sweet",
+    "Tangy",
+    "Vegetarian"
+  ],
+  "related": [
+    {
+      "id": "lamington",
+      "title": "Classic Lamingtons"
+    },
+    {
+      "id": "bistro-fishoftheday",
+      "title": "Fish of the Day"
+    },
+    {
+      "id": "sataysauce",
+      "title": "Satay Sauce"
+    },
+    {
+      "id": "kormapaste",
+      "title": "Homemade Korma Paste"
+    },
+    {
+      "id": "chouxpastry",
+      "title": "Choux Pastry (Profiteroles)"
+    }
+  ]
+}

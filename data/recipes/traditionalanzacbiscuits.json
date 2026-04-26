@@ -1,0 +1,141 @@
+{
+  "id": "traditionalanzacbiscuits",
+  "title": "Traditional ANZAC Biscuits",
+  "emoji": "🍪",
+  "category": "Baking",
+  "description": "A classic Australian favourite — golden, chewy, and steeped in history. Perfect with a cuppa and a quiet moment.",
+  "prepTime": "15 min",
+  "cookTime": "20 min",
+  "totalTime": "35 min",
+  "servings": "28 biscuits",
+  "tags": [
+    "Australian",
+    "Classic",
+    "Make Ahead",
+    "Pastry",
+    "Rich",
+    "Sweet",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "quantity": "125",
+      "unit": "g",
+      "item": "Flour"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Rolled Oats"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Sugar"
+    },
+    {
+      "quantity": "125",
+      "unit": "g",
+      "item": "Butter"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Golden Syrup"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Water"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Bi-Carb Soda"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 150°C. Line 4 oven trays with baking paper."
+    },
+    {
+      "step": 2,
+      "instruction": "Combine flour, oats, and sugar in a large bowl."
+    },
+    {
+      "step": 3,
+      "instruction": "Gently melt butter, golden syrup, and water in a small saucepan over medium heat."
+    },
+    {
+      "step": 4,
+      "instruction": "Stir in bicarbonate of soda, remove from heat."
+    },
+    {
+      "step": 5,
+      "instruction": "Add syrup mixture to dry ingredients and stir until well combined."
+    },
+    {
+      "step": 6,
+      "instruction": "Roll tablespoons of mixture into 28 balls."
+    },
+    {
+      "step": 7,
+      "instruction": "Place on trays 8 cm apart and flatten slightly."
+    },
+    {
+      "step": 8,
+      "instruction": "Bake for 18–20 minutes until golden brown."
+    },
+    {
+      "step": 9,
+      "instruction": "Cool on trays before transferring to a tin."
+    }
+  ],
+  "notes": [
+    {
+      "type": "serving",
+      "title": "Serving Tip",
+      "content": "Best enjoyed with a strong cup of tea and a good story. Store in an airtight tin — they keep beautifully."
+    }
+  ],
+  "related": [
+    {
+      "id": "chocchipcookies",
+      "title": "Double Chocolate Chip Cookies",
+      "matchingTags": [
+        "Australian",
+        "Baked",
+        "Vegetarian",
+        "Under 30 Minutes",
+        "Snack",
+        "Traditional",
+        "Classic",
+        "Chewy",
+        "Crunchy",
+        "Coconut",
+        "Flour",
+        "Oats",
+        "Butter",
+        "BBQ",
+        "Picnic"
+      ]
+    },
+    {
+      "id": "applepie",
+      "title": "Apple Pie"
+    },
+    {
+      "id": "apricotflan",
+      "title": "Apricot Flan"
+    },
+    {
+      "id": "bananabread",
+      "title": "Banana Bread"
+    },
+    {
+      "id": "applecinnscrolls",
+      "title": "Apple & Cinnamon Scrolls"
+    }
+  ]
+}

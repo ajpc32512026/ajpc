@@ -1,0 +1,170 @@
+{
+  "id": "lambkorma",
+  "title": "Lamb Korma",
+  "emoji": "🍛",
+  "category": "Dinner",
+  "description": "This lamb korma is extremely delicious and flavorful.",
+  "ingredients": [
+    {
+      "quantity": "300",
+      "unit": "g",
+      "item": "Lamb",
+      "ingredientKey": "Lamb"
+    },
+    {
+      "quantity": "1",
+      "unit": "large",
+      "item": "Onion",
+      "ingredientKey": "Onion"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Garlic",
+      "ingredientKey": "Garlic"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Ginger",
+      "ingredientKey": "Ginger"
+    },
+    {
+      "quantity": "2",
+      "unit": "bay",
+      "item": "leaves"
+    },
+    {
+      "quantity": "1 1/2",
+      "unit": "stick",
+      "item": "Cinnamon",
+      "ingredientKey": "Cinnamon"
+    },
+    {
+      "quantity": "1",
+      "unit": "dried",
+      "item": "Red Chili",
+      "ingredientKey": "Red Chili"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Cumin",
+      "ingredientKey": "Cumin"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Nutmeg",
+      "ingredientKey": "Nutmeg"
+    },
+    {
+      "quantity": "1",
+      "unit": "tbsp",
+      "item": "Garam Masala",
+      "ingredientKey": "Garam Masala"
+    },
+    {
+      "quantity": "1 1/2",
+      "unit": "tsp",
+      "item": "Red Chili",
+      "ingredientKey": "Red Chili"
+    },
+    {
+      "quantity": "1 1/2",
+      "unit": "tsp",
+      "item": "Pepper",
+      "ingredientKey": "Pepper"
+    },
+    {
+      "quantity": "1/4",
+      "unit": "cup",
+      "item": "Yogurt",
+      "ingredientKey": "Yogurt"
+    },
+    {
+      "quantity": "1/4",
+      "unit": "cup",
+      "item": "water"
+    },
+    {
+      "quantity": "3",
+      "unit": "tbsp",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Heat oil in a heavy-bottomed pan over medium heat. Add onions and fry until softened."
+    },
+    {
+      "step": 2,
+      "instruction": "Add ginger paste and garlic paste. Fry for a few seconds."
+    },
+    {
+      "step": 3,
+      "instruction": "Add ground spices (cumin, nutmeg, garam masala, and red chili powder). Fry briefly."
+    },
+    {
+      "step": 4,
+      "instruction": "Add lamb pieces. Fry, stirring occasionally, 3–4 minutes until well coated and cooking begins."
+    },
+    {
+      "step": 5,
+      "instruction": "Mix yogurt with water, then add to curry. Stir well. Season with black pepper and salt."
+    },
+    {
+      "step": 6,
+      "instruction": "Cover with lid, bring to boil, then reduce heat and simmer until sauce thickens and lamb is cooked through."
+    }
+  ],
+  "notes": [
+    {
+      "title": "📌 Acknowledgements",
+      "content": "This recipe is adapted from traditional korma recipes."
+    },
+    {
+      "title": "📌 Acknowledgements",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    }
+  ],
+  "tags": [
+    "Creamy",
+    "Curry",
+    "Dinner",
+    "Indian",
+    "Lamb",
+    "Rich",
+    "Savoury"
+  ],
+  "related": [
+    {
+      "id": "lambvindaloo",
+      "title": "Lamb Vindaloo"
+    },
+    {
+      "id": "roganjosh",
+      "title": "Lamb Rogan Josh – Restaurant Style"
+    },
+    {
+      "id": "butterchicken",
+      "title": "Restaurant-Style Butter Chicken"
+    },
+    {
+      "id": "beefvindaloo",
+      "title": "Beef Vindaloo"
+    },
+    {
+      "id": "sataysauce",
+      "title": "Satay Sauce"
+    }
+  ]
+}

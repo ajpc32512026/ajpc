@@ -1,0 +1,112 @@
+{
+  "id": "teriyakisauce",
+  "title": "Teriyaki Sauce",
+  "emoji": "🥢",
+  "category": "Sauces",
+  "description": "A classic Japanese glaze — sweet, umami-rich, and beautifully glossy. Authentic taste, simple method.",
+  "prepTime": "5 min",
+  "cookTime": "5 min",
+  "totalTime": "10 min",
+  "servings": "4 servings",
+  "difficulty": "Easy",
+  "tags": [
+    "Japanese",
+    "Make Ahead",
+    "Sauce",
+    "Sweet",
+    "Under 30 Minutes",
+    "Vegan"
+  ],
+  "ingredients": [
+    {
+      "quantity": "1/4",
+      "unit": "cup",
+      "item": "Sauces",
+      "ingredientKey": "Sauces"
+    },
+    {
+      "quantity": "1/4",
+      "unit": "cup",
+      "item": "Water"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Honey",
+      "ingredientKey": "Honey"
+    },
+    {
+      "quantity": "1",
+      "unit": "tbsp",
+      "item": "Mirin",
+      "ingredientKey": "Mirin"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Garlic",
+      "ingredientKey": "Garlic"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Combine all ingredients in a saucepan."
+    },
+    {
+      "step": 2,
+      "instruction": "Heat on medium, stirring until sugar dissolves."
+    },
+    {
+      "step": 3,
+      "instruction": "Simmer 3–4 minutes until slightly thickened."
+    },
+    {
+      "step": 4,
+      "instruction": "Cool before using."
+    }
+  ],
+  "notes": [
+    {
+      "type": "serving",
+      "title": "Serving Tip",
+      "content": "Brush over grilled chicken, salmon, or beef. Also wonderful as a stir-fry sauce or marinade."
+    },
+    {
+      "title": "Mirin or Sake",
+      "content": "optional"
+    },
+    {
+      "title": "Garlic Clove",
+      "content": "minced"
+    }
+  ],
+  "related": [
+    {
+      "id": "sweetsoursauce_flex",
+      "title": "Sweet & Sour Sauce – Home Chef Flex"
+    },
+    {
+      "id": "sweetchilisauce",
+      "title": "Sweet Chili Sauce"
+    },
+    {
+      "id": "sweetsoursauce_quick",
+      "title": "Sweet & Sour Sauce – Quick Takeout Style"
+    },
+    {
+      "id": "sweetspicyorangesauce",
+      "title": "Sweet & Spicy Orange Sauce"
+    },
+    {
+      "id": "tacoseasoning",
+      "title": "Taco Seasoning — Old El Paso Style (From Scratch)"
+    }
+  ]
+}

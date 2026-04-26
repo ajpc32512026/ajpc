@@ -1,0 +1,184 @@
+{
+  "id": "orangepoppyseed",
+  "title": "Orange & Poppy Seed Cake — Double Batch",
+  "emoji": "🍊",
+  "category": "Dinner",
+  "description": "A bright, citrusy favourite — buttery, fragrant, and layered with a lush orange cream.",
+  "ingredients": [
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Poppy Seed",
+      "ingredientKey": "Poppy Seed"
+    },
+    {
+      "quantity": "1",
+      "unit": "cup",
+      "item": "Milk",
+      "ingredientKey": "Milk"
+    },
+    {
+      "quantity": "740",
+      "unit": "g",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "6",
+      "unit": "tablespoons",
+      "item": "Orange Zest",
+      "ingredientKey": "Orange Zest"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "12",
+      "unit": "",
+      "item": "Eggs",
+      "ingredientKey": "Eggs"
+    },
+    {
+      "quantity": "3",
+      "unit": "cups",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "3",
+      "unit": "cups",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Almonds",
+      "ingredientKey": "Almonds"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Juice",
+      "ingredientKey": "Juice"
+    },
+    {
+      "quantity": "2",
+      "unit": "kg",
+      "item": "Philadelphia Cream Cheese",
+      "ingredientKey": "Philadelphia Cream Cheese"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Cream",
+      "ingredientKey": "Cream"
+    },
+    {
+      "quantity": "8",
+      "unit": "tablespoons",
+      "item": "Orange Zest",
+      "ingredientKey": "Orange Zest"
+    },
+    {
+      "quantity": "3",
+      "unit": "cups",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "4",
+      "unit": "tablespoons",
+      "item": "Juice",
+      "ingredientKey": "Juice"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 180°C (moderate). Grease a deep 22 cm round cake tin and line the base with greaseproof paper."
+    },
+    {
+      "step": 2,
+      "instruction": "Combine the poppy seeds and milk in a bowl. Let stand 20 minutes to soften and bloom."
+    },
+    {
+      "step": 3,
+      "instruction": "Cream butter, orange rind, and caster sugar with an electric mixer until light and fluffy."
+    },
+    {
+      "step": 4,
+      "instruction": "Add eggs one at a time, beating well after each."
+    },
+    {
+      "step": 5,
+      "instruction": "Transfer mixture to a large bowl. Stir in sifted flours, almond meal, poppy seed mixture, and orange juice. Mix until just combined."
+    },
+    {
+      "step": 6,
+      "instruction": "Spread into prepared tin and bake 45 minutes or until a skewer comes out clean."
+    },
+    {
+      "step": 7,
+      "instruction": "Cool on wire rack. Once cold, slice horizontally into three layers."
+    },
+    {
+      "step": 8,
+      "instruction": "Sandwich layers with half the orange cream, then cover top and sides with remaining cream."
+    },
+    {
+      "step": 9,
+      "instruction": "Allow Philadelphia Cream Cheese to soften at room temperature."
+    },
+    {
+      "step": 10,
+      "instruction": "Beat Philadelphia Cream Cheese, sour cream, and orange rind until smooth."
+    },
+    {
+      "step": 11,
+      "instruction": "Add sifted icing sugar and orange juice, then beat until thick, glossy, and silky."
+    }
+  ],
+  "notes": [
+    {
+      "title": "📝 Baker’s Notes",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    }
+  ],
+  "tags": [
+    "Cheese",
+    "Creamy",
+    "Dessert",
+    "Dinner",
+    "Orange",
+    "Rich",
+    "Savoury",
+    "Sweet",
+    "Vegetarian"
+  ],
+  "related": [
+    {
+      "id": "hummingbird",
+      "title": "Hummingbird Cake — Cafe Style"
+    },
+    {
+      "id": "friandsop",
+      "title": "Orange & Poppyseed Friands"
+    },
+    {
+      "id": "lasagne",
+      "title": "Classic Lasagne — Ragù & Béchamel"
+    },
+    {
+      "id": "bistro-reefandbeef",
+      "title": "Reef and Beef"
+    },
+    {
+      "id": "bistro-vealoscar",
+      "title": "Veal Oscar"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "filipinoportoccino",
+  "title": "Filipino Pork Toccino",
+  "emoji": "🥓",
+  "category": "Dinner",
+  "description": "Sweet, caramelized pork — juicy, tender, and perfect for a classic Filipino breakfast.",
+  "ingredients": [
+    {
+      "quantity": "500",
+      "unit": "g",
+      "item": "Pork",
+      "ingredientKey": "Pork"
+    },
+    {
+      "quantity": "1/2",
+      "unit": "cup",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "1/4",
+      "unit": "cup",
+      "item": "Juice",
+      "ingredientKey": "Juice"
+    },
+    {
+      "quantity": "3",
+      "unit": "tbsp",
+      "item": "Sauces",
+      "ingredientKey": "Sauces"
+    },
+    {
+      "quantity": "1",
+      "unit": "tbsp",
+      "item": "Vinegar",
+      "ingredientKey": "Vinegar"
+    },
+    {
+      "quantity": "4",
+      "unit": "cloves",
+      "item": "Garlic",
+      "ingredientKey": "Garlic"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Decorative & Flavour Additives",
+      "ingredientKey": "Decorative & Flavour Additives"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "1/2",
+      "unit": "tsp",
+      "item": "Pepper",
+      "ingredientKey": "Pepper"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Slice pork shoulder into 1/4-inch thick pieces."
+    },
+    {
+      "step": 2,
+      "instruction": "Combine brown sugar, pineapple juice, soy sauce, vinegar, garlic, salt, pepper, and food coloring in a bowl."
+    },
+    {
+      "step": 3,
+      "instruction": "Add pork to the mixture and marinate for 24 hours in the refrigerator."
+    },
+    {
+      "step": 4,
+      "instruction": "Heat oil in a pan over medium-low heat."
+    },
+    {
+      "step": 5,
+      "instruction": "Cook pork for 10–12 minutes, flipping every minute until caramelized on both sides."
+    },
+    {
+      "step": 6,
+      "instruction": "Serve with garlic fried rice (sinangag), fried eggs, or plain rice."
+    }
+  ],
+  "notes": [
+    {
+      "title": "Tips & Serving",
+      "content": "Marinate overnight for maximum flavor. Cook gently to avoid burning sugars. Serve as “Tocilog” with garlic rice and fried egg."
+    },
+    {
+      "title": "Tips & Serving",
+      "content": "Variations: Try chicken tocino or use natural coloring like annatto or beet juice. Adjust sweetness or tanginess to taste."
+    },
+    {
+      "title": "Tips & Serving",
+      "content": "FAQ: Skip food coloring if desired. Marinate at least 4 hours, ideally overnight. Cook low and slow to retain juiciness."
+    },
+    {
+      "title": "Tips & Serving",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    }
+  ],
+  "tags": [
+    "Breakfast",
+    "Dinner",
+    "Filipino",
+    "Make Ahead",
+    "Pork",
+    "Savoury",
+    "Sweet"
+  ],
+  "related": [
+    {
+      "id": "filipinonoodles",
+      "title": "Pancit (Filipino Stir-Fried Noodles)"
+    },
+    {
+      "id": "sweetsourpork",
+      "title": "Better Than Takeaway Sweet & Sour Pork"
+    },
+    {
+      "id": "sausageroll",
+      "title": "Classic Aussie Sausage Rolls"
+    },
+    {
+      "id": "bistro-vealcordonbleu",
+      "title": "Veal Cordon Bleu"
+    },
+    {
+      "id": "cinnbun",
+      "title": "Bakery-Style Cinnamon Buns"
+    }
+  ]
+}

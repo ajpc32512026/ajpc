@@ -1,0 +1,129 @@
+{
+  "id": "bistro-lambcutlets",
+  "title": "Lamb Cutlets",
+  "emoji": "🥩",
+  "category": "Dinner",
+  "description": "Crumbed lamb cutlets with crispy bacon and a rich demi glace gravy. Honest bistro comfort food.",
+  "prepTime": "10 min",
+  "cookTime": "8 min",
+  "totalTime": "18 min",
+  "servings": 1,
+  "difficulty": "Easy",
+  "tags": [
+    "Alcohol",
+    "Australian",
+    "Classic",
+    "Dinner",
+    "Lamb",
+    "Rich",
+    "Savoury",
+    "Under 1 Hour"
+  ],
+  "ingredients": [
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Lamb",
+      "ingredientKey": "Lamb"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Eggs",
+      "ingredientKey": "Eggs"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Breadcrumbs",
+      "ingredientKey": "Breadcrumbs"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Bacon",
+      "ingredientKey": "Bacon"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Demi Glace",
+      "ingredientKey": "Demi Glace"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Onion",
+      "ingredientKey": "Onion"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Dust cutlets with flour, dip in egg wash, coat in breadcrumbs."
+    },
+    {
+      "step": 2,
+      "instruction": "Pan-fry in butter until golden and cooked through."
+    },
+    {
+      "step": 3,
+      "instruction": "Fry bacon in a separate pan until crisp. Set aside."
+    },
+    {
+      "step": 4,
+      "instruction": "For gravy: soften shallots in butter. Add demi glace base and reduce."
+    },
+    {
+      "step": 5,
+      "instruction": "Plate cutlets, lay bacon over and pour gravy alongside or over."
+    }
+  ],
+  "notes": [
+    {
+      "type": "chef",
+      "title": "Chef's Note",
+      "content": "Uses demi glace base. ??? Was the gravy plain demi or did it have extra flavourings — red wine, herbs, mushroom?"
+    }
+  ],
+  "related": [
+    {
+      "id": "bistro-carpetbag",
+      "title": "Carpet Bag"
+    },
+    {
+      "id": "bistro-reefandbeef",
+      "title": "Reef and Beef"
+    },
+    {
+      "id": "bistro-chickenriverina",
+      "title": "Chicken Riverina"
+    },
+    {
+      "id": "meatpie",
+      "title": "Classic Aussie Meat Pies"
+    },
+    {
+      "id": "sausageroll",
+      "title": "Classic Aussie Sausage Rolls"
+    }
+  ]
+}

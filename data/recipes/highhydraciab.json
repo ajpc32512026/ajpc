@@ -1,0 +1,170 @@
+{
+  "id": "highhydraciab",
+  "title": "Airy High-Hydration Ciabatta",
+  "emoji": "🥖",
+  "category": "Dinner",
+  "description": "Soft, open-crumb Italian bread using a liquid-dough method. Big holes, crisp crust, zero nonsense.",
+  "ingredients": [
+    {
+      "quantity": "502",
+      "unit": "ml",
+      "item": "water, divided (includes plus 2 Tbsp for initial mix)"
+    },
+    {
+      "quantity": "1",
+      "unit": "Tbsp",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Yeast",
+      "ingredientKey": "Yeast"
+    },
+    {
+      "quantity": "40",
+      "unit": "ml",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "1000–1050",
+      "unit": "g",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "In a large bowl, mix 250 ml water, sugar, and yeast."
+    },
+    {
+      "step": 2,
+      "instruction": "Add olive oil and 400 g of flour. Mix until smooth."
+    },
+    {
+      "step": 3,
+      "instruction": "Add remaining 252 ml water and rest of the flour (600–650 g)."
+    },
+    {
+      "step": 4,
+      "instruction": "Add salt. Mix to a very wet, sticky dough."
+    },
+    {
+      "step": 5,
+      "instruction": "Cover and rest 20 minutes."
+    },
+    {
+      "step": 6,
+      "instruction": "With wet hands, stretch and fold several times."
+    },
+    {
+      "step": 7,
+      "instruction": "Rest 20 minutes."
+    },
+    {
+      "step": 8,
+      "instruction": "Repeat folds. Rest 20 minutes."
+    },
+    {
+      "step": 9,
+      "instruction": "Oil hands, fold once more."
+    },
+    {
+      "step": 10,
+      "instruction": "Cover and rise 1 hour until bubbly and doubled."
+    },
+    {
+      "step": 11,
+      "instruction": "Heavily flour bench."
+    },
+    {
+      "step": 12,
+      "instruction": "Turn out dough and dust lightly."
+    },
+    {
+      "step": 13,
+      "instruction": "Gently stretch into a rectangle — no kneading."
+    },
+    {
+      "step": 14,
+      "instruction": "Fold once, cut into 6 pieces."
+    },
+    {
+      "step": 15,
+      "instruction": "Transfer to floured tray."
+    },
+    {
+      "step": 16,
+      "instruction": "Rest 20 minutes."
+    },
+    {
+      "step": 17,
+      "instruction": "Bake at 200°C (400°F) for 15–25 minutes until golden."
+    },
+    {
+      "step": 18,
+      "instruction": "Cool fully before slicing to preserve the big holes."
+    }
+  ],
+  "notes": [
+    {
+      "title": "Notes & Tips",
+      "content": "Use wet hands to handle the dough — it’s extremely sticky. For best crust, bake on a preheated tray or stone."
+    },
+    {
+      "title": "Notes & Tips",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    }
+  ],
+  "tags": [
+    "Bread",
+    "Dinner",
+    "Italian",
+    "Savoury",
+    "Vegan",
+    "Vegetarian"
+  ],
+  "related": [
+    {
+      "id": "bistro-vealscaloppine",
+      "title": "Veal Scaloppine"
+    },
+    {
+      "id": "potatognocchi",
+      "title": "Potato Gnocchi with Tomato Sauce"
+    },
+    {
+      "id": "lasagne",
+      "title": "Classic Lasagne — Ragù & Béchamel"
+    },
+    {
+      "id": "chickencacciatore",
+      "title": "Chicken Cacciatore"
+    },
+    {
+      "id": "hotdog",
+      "title": "Wendy’s-Style Hot Dog Buns"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "id": "bistro-chickenkiev",
+  "title": "Chicken Kiev",
+  "emoji": "🍗",
+  "category": "Dinner",
+  "description": "Golden crumbed chicken breast stuffed with garlic butter, served with a simple tomato cream sauce. A showstopper from the bistro era.",
+  "prepTime": "20 min",
+  "cookTime": "8 min",
+  "totalTime": "28 min",
+  "servings": 1,
+  "difficulty": "Medium",
+  "tags": [
+    "Alcohol",
+    "Butter",
+    "Chicken",
+    "Classic",
+    "Creamy",
+    "Dinner",
+    "Garlic",
+    "Rich",
+    "Savoury",
+    "Under 1 Hour"
+  ],
+  "ingredients": [
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Chicken",
+      "ingredientKey": "Chicken"
+    },
+    {
+      "quantity": "125",
+      "unit": "g",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Garlic",
+      "ingredientKey": "Garlic"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Parsley",
+      "ingredientKey": "Parsley"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Eggs",
+      "ingredientKey": "Eggs"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Breadcrumbs",
+      "ingredientKey": "Breadcrumbs"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Onion",
+      "ingredientKey": "Onion"
+    },
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Tomatoes",
+      "ingredientKey": "Tomatoes"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Cream",
+      "ingredientKey": "Cream"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Sauces",
+      "ingredientKey": "Sauces"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Mix softened butter with garlic and parsley. Shape into a log and freeze until firm."
+    },
+    {
+      "step": 2,
+      "instruction": "Cut a deep pocket in each chicken breast. Insert frozen garlic butter log. Seal edges firmly."
+    },
+    {
+      "step": 3,
+      "instruction": "Dust each stuffed breast with flour, dip in egg wash, coat in breadcrumbs. Double crumb for a better seal."
+    },
+    {
+      "step": 4,
+      "instruction": "Deep fry at 180°C until golden and cooked through — approximately 8-10 minutes."
+    },
+    {
+      "step": 5,
+      "instruction": "For sauce: soften diced onion in a little butter until translucent."
+    },
+    {
+      "step": 6,
+      "instruction": "Add diced tomato and cook down briefly."
+    },
+    {
+      "step": 7,
+      "instruction": "Add thickened cream and a splash of tomato sauce. Let thicken to a light coating consistency."
+    },
+    {
+      "step": 8,
+      "instruction": "Plate chicken and spoon sauce over to serve."
+    }
+  ],
+  "notes": [
+    {
+      "type": "chef",
+      "title": "Chef's Note",
+      "content": "The frozen butter log is essential — it melts inside as the chicken cooks, keeping it moist. Make sure edges are well sealed before crumbing or the butter escapes during frying."
+    }
+  ],
+  "related": [
+    {
+      "id": "bistro-chickenpicante",
+      "title": "Chicken Picante"
+    },
+    {
+      "id": "bistro-chickenriverina",
+      "title": "Chicken Riverina"
+    },
+    {
+      "id": "bistro-chickenpapion",
+      "title": "Chicken Papion"
+    },
+    {
+      "id": "bistro-mediterraneansteak",
+      "title": "Mediterranean Steak"
+    },
+    {
+      "id": "bistro-carpetbag",
+      "title": "Carpet Bag"
+    }
+  ]
+}

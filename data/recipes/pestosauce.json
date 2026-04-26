@@ -1,0 +1,122 @@
+{
+  "id": "pestosauce",
+  "title": "Pesto Sauce",
+  "emoji": "🌿",
+  "category": "Sauces",
+  "description": "A vibrant Italian basil sauce — fresh, aromatic, and utterly delicious. Pure summer in a bowl.",
+  "prepTime": "10 min",
+  "cookTime": "0 min",
+  "totalTime": "10 min",
+  "servings": "4 servings",
+  "difficulty": "Easy",
+  "tags": [
+    "Cheese",
+    "Italian",
+    "Sauce",
+    "Under 30 Minutes",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "quantity": "2",
+      "unit": "cup",
+      "item": "Basil",
+      "ingredientKey": "Basil"
+    },
+    {
+      "quantity": "1/3",
+      "unit": "cup",
+      "item": "Pine Nuts",
+      "ingredientKey": "Pine Nuts"
+    },
+    {
+      "quantity": "1/2",
+      "unit": "cup",
+      "item": "Cheese",
+      "ingredientKey": "Cheese"
+    },
+    {
+      "quantity": "1/2",
+      "unit": "cup",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "3",
+      "unit": "",
+      "item": "Garlic",
+      "ingredientKey": "Garlic"
+    },
+    {
+      "quantity": "1/2",
+      "unit": "tsp",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "1/4",
+      "unit": "tsp",
+      "item": "Pepper",
+      "ingredientKey": "Pepper"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Add basil, pine nuts, garlic, and cheese to a blender."
+    },
+    {
+      "step": 2,
+      "instruction": "Blend while slowly adding olive oil."
+    },
+    {
+      "step": 3,
+      "instruction": "Blend until smooth or slightly chunky."
+    },
+    {
+      "step": 4,
+      "instruction": "Season with salt and pepper."
+    },
+    {
+      "step": 5,
+      "instruction": "Use fresh or store chilled."
+    }
+  ],
+  "notes": [
+    {
+      "type": "serving",
+      "title": "Serving Tip",
+      "content": "Toss with hot pasta, spread on bruschetta, or use as a marinade. Store in fridge with a thin layer of olive oil on top."
+    },
+    {
+      "title": "Fresh Basil",
+      "content": "packed"
+    },
+    {
+      "title": "Parmesan Cheese",
+      "content": "grated"
+    }
+  ],
+  "related": [
+    {
+      "id": "alfredosauce",
+      "title": "Alfredo Sauce"
+    },
+    {
+      "id": "marinarasauce",
+      "title": "Marinara Sauce"
+    },
+    {
+      "id": "redsauce",
+      "title": "Red Sauce"
+    },
+    {
+      "id": "arrabbiatazauce",
+      "title": "Arrabbiata Sauce"
+    },
+    {
+      "id": "mornaysauce",
+      "title": "Mornay / Cheese Sauce"
+    }
+  ]
+}

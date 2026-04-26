@@ -1,0 +1,139 @@
+{
+  "id": "chickenteriyaki",
+  "title": "Chicken Teriyaki with Marinade",
+  "emoji": "🍗",
+  "category": "Dinner",
+  "description": "Juicy, tender chicken marinated in a sweet-savory teriyaki sauce — grilled, baked, or stir-fried to perfection. Works with chicken breast or thighs.",
+  "prepTime": "15 min + marinating",
+  "cookTime": "20 min",
+  "totalTime": "35 min + marinating",
+  "servings": "2–3 servings",
+  "difficulty": "Medium",
+  "tags": [
+    "Chicken",
+    "Dinner",
+    "Gluten-Free",
+    "Japanese",
+    "Savoury",
+    "Sweet"
+  ],
+  "ingredients": [
+    {
+      "quantity": "3/4",
+      "unit": "lb",
+      "item": "Chicken",
+      "ingredientKey": "Chicken"
+    },
+    {
+      "quantity": "1",
+      "unit": "tbsp",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "1",
+      "unit": "tbsp",
+      "item": "Sesame Seeds",
+      "ingredientKey": "Sesame Seeds"
+    },
+    {
+      "quantity": "1/3",
+      "unit": "cup",
+      "item": "Sauces",
+      "ingredientKey": "Sauces"
+    },
+    {
+      "quantity": "1/3",
+      "unit": "cup",
+      "item": "Mirin",
+      "ingredientKey": "Mirin"
+    },
+    {
+      "quantity": "1/3",
+      "unit": "cup",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Garlic",
+      "ingredientKey": "Garlic"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Flatten the chicken to about 3/4 inch thick for even cooking. Place in a zipper bag or bowl for marinating."
+    },
+    {
+      "step": 2,
+      "instruction": "Combine soy sauce, mirin, sugar, and garlic/ginger until sugar dissolves."
+    },
+    {
+      "step": 3,
+      "instruction": "Reserve half for glazing. Marinate chicken with remaining half for 15 min to overnight in the fridge."
+    },
+    {
+      "step": 4,
+      "instruction": "Heat grill or pan over medium-high heat and add oil."
+    },
+    {
+      "step": 5,
+      "instruction": "Remove chicken from marinade, wipe excess, cook skin-side down first if using skin-on. Flip when golden."
+    },
+    {
+      "step": 6,
+      "instruction": "During last 3 min, brush with reserved marinade — it will reduce into a glaze. Cook until internal temperature reaches 165°F (75°C)."
+    },
+    {
+      "step": 7,
+      "instruction": "Preheat oven to 400°F (200°C) and line a baking pan."
+    },
+    {
+      "step": 8,
+      "instruction": "Bake chicken for ~20 min, brushing reserved marinade during the last 5–7 min to thicken glaze. Reduce heat if it starts to burn."
+    },
+    {
+      "step": 9,
+      "instruction": "Cut chicken into bite-sized pieces and serve over steamed rice."
+    },
+    {
+      "step": 10,
+      "instruction": "Sprinkle with sesame seeds and spoon remaining glaze over the top."
+    },
+    {
+      "step": 11,
+      "instruction": "Enjoy!"
+    }
+  ],
+  "notes": [
+    {
+      "type": "tip",
+      "title": "💡 Notes & Variations",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    }
+  ],
+  "related": [
+    {
+      "id": "teriyakimarinade",
+      "title": "Teriyaki Marinade"
+    },
+    {
+      "id": "bistro-thaichicken",
+      "title": "Thai Chicken"
+    },
+    {
+      "id": "bistro-chickenpicante",
+      "title": "Chicken Picante"
+    },
+    {
+      "id": "bistro-orangethaichicken",
+      "title": "Orange Thai Chicken"
+    },
+    {
+      "id": "filipinonoodles",
+      "title": "Pancit (Filipino Stir-Fried Noodles)"
+    }
+  ]
+}

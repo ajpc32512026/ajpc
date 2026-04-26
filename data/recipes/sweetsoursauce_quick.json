@@ -1,0 +1,115 @@
+{
+  "id": "sweetsoursauce_quick",
+  "title": "Sweet & Sour Sauce – Quick Takeout Style",
+  "emoji": "🍍",
+  "category": "Sauces",
+  "description": "Fast, tangy, sweet, and irresistibly familiar—your shortcut to classic Chinese takeout flavor at home.",
+  "prepTime": "5 min",
+  "cookTime": "5 min",
+  "totalTime": "10 min",
+  "servings": "6 servings",
+  "difficulty": "Easy",
+  "tags": [
+    "Chinese",
+    "Sauce",
+    "Sweet",
+    "Tangy",
+    "Under 30 Minutes",
+    "Vegan"
+  ],
+  "ingredients": [
+    {
+      "quantity": "1/2",
+      "unit": "cup",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "1/4",
+      "unit": "cup",
+      "item": "Vinegar",
+      "ingredientKey": "Vinegar"
+    },
+    {
+      "quantity": "3",
+      "unit": "tbsp",
+      "item": "Sauces",
+      "ingredientKey": "Sauces"
+    },
+    {
+      "quantity": "1",
+      "unit": "tbsp",
+      "item": "Sauces",
+      "ingredientKey": "Sauces"
+    },
+    {
+      "quantity": "1/3",
+      "unit": "cup",
+      "item": "Juice",
+      "ingredientKey": "Juice"
+    },
+    {
+      "quantity": "1",
+      "unit": "tbsp",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Water"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Combine sugar, vinegar, ketchup, soy sauce, and pineapple juice in a saucepan."
+    },
+    {
+      "step": 2,
+      "instruction": "Bring to a gentle simmer while stirring."
+    },
+    {
+      "step": 3,
+      "instruction": "Mix cornstarch with water to make a slurry, then stir into the sauce until it thickens."
+    },
+    {
+      "step": 4,
+      "instruction": "Cook 1 more minute, then cool slightly before serving."
+    }
+  ],
+  "notes": [
+    {
+      "type": "serving",
+      "title": "Serving Tip",
+      "content": "Perfect with fried chicken, pork, or prawns. Also great as a dipping sauce for spring rolls."
+    },
+    {
+      "type": "style",
+      "title": "Quick Takeout Style",
+      "content": "Fast, sweet, and tangy—ready in 10 minutes, just like your favorite Chinese takeout."
+    }
+  ],
+  "related": [
+    {
+      "id": "sweetsoursauce_flex",
+      "title": "Sweet & Sour Sauce – Home Chef Flex"
+    },
+    {
+      "id": "teriyakisauce",
+      "title": "Teriyaki Sauce"
+    },
+    {
+      "id": "sweetspicyorangesauce",
+      "title": "Sweet & Spicy Orange Sauce"
+    },
+    {
+      "id": "sweetchilisauce",
+      "title": "Sweet Chili Sauce"
+    },
+    {
+      "id": "tacoseasoning",
+      "title": "Taco Seasoning — Old El Paso Style (From Scratch)"
+    }
+  ]
+}

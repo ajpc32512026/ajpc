@@ -1,0 +1,126 @@
+{
+  "id": "bistro-chickenpicante",
+  "title": "Chicken Picante",
+  "emoji": "🌿",
+  "category": "Dinner",
+  "description": "Breast chicken in a cream sauce punched up with Dijon mustard and green peppercorns. Sharp, creamy, and satisfying.",
+  "prepTime": "5 min",
+  "cookTime": "8 min",
+  "totalTime": "13 min",
+  "servings": 1,
+  "difficulty": "Easy",
+  "tags": [
+    "Alcohol",
+    "Chicken",
+    "Classic",
+    "Cream",
+    "Creamy",
+    "Dinner",
+    "French",
+    "Gluten-Free",
+    "Rich",
+    "Savoury",
+    "Under 30 Minutes"
+  ],
+  "ingredients": [
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Chicken",
+      "ingredientKey": "Chicken"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Cream",
+      "ingredientKey": "Cream"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Mustard",
+      "ingredientKey": "Mustard"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Pepper",
+      "ingredientKey": "Pepper"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Onion",
+      "ingredientKey": "Onion"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Wine",
+      "ingredientKey": "Wine"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Pan-fry chicken breast in butter until golden and cooked through. Rest."
+    },
+    {
+      "step": 2,
+      "instruction": "In the same pan, soften shallots in butter. Deglaze with white wine."
+    },
+    {
+      "step": 3,
+      "instruction": "Add thickened cream, Dijon mustard and green peppercorns. Reduce to a coating sauce."
+    },
+    {
+      "step": 4,
+      "instruction": "Adjust seasoning carefully — Dijon is salty, go easy on added salt."
+    },
+    {
+      "step": 5,
+      "instruction": "Plate chicken and spoon sauce generously over."
+    }
+  ],
+  "notes": [
+    {
+      "type": "chef",
+      "title": "Chef's Note",
+      "content": "Green peppercorns from the brine jar — not dried. Dijon gives it the bite. Don't overdo the mustard or it turns bitter. No demi."
+    }
+  ],
+  "related": [
+    {
+      "id": "bistro-vealcordonbleu",
+      "title": "Veal Cordon Bleu"
+    },
+    {
+      "id": "beefstockpot",
+      "title": "20 Minute Beef Stock Pot"
+    },
+    {
+      "id": "tomatoflan",
+      "title": "Tomato and Olive Flan"
+    },
+    {
+      "id": "chouxpastry",
+      "title": "Choux Pastry (Profiteroles)"
+    },
+    {
+      "id": "crepes",
+      "title": "Crepes with Maple Syrup & Butter"
+    }
+  ]
+}

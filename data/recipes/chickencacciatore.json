@@ -1,0 +1,204 @@
+{
+  "id": "chickencacciatore",
+  "title": "Chicken Cacciatore",
+  "emoji": "�",
+  "category": "Dinner",
+  "description": "A hearty Italian classic — tender chicken simmered in a rich tomato and olive sauce, perfect over jasmine rice.",
+  "prepTime": "15 min",
+  "cookTime": "45 min",
+  "totalTime": "1 hr",
+  "servings": "4-6 servings",
+  "difficulty": "Easy",
+  "ingredients": [
+    {
+      "quantity": "4-6",
+      "unit": "",
+      "item": "Chicken",
+      "ingredientKey": "Chicken"
+    },
+    {
+      "quantity": "3",
+      "unit": "tbsp",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "1",
+      "unit": "medium",
+      "item": "Onion",
+      "ingredientKey": "Onion"
+    },
+    {
+      "quantity": "1 1/2",
+      "unit": "tsp",
+      "item": "Garlic",
+      "ingredientKey": "Garlic"
+    },
+    {
+      "quantity": "3/4",
+      "unit": "cup",
+      "item": "Wine",
+      "ingredientKey": "Wine"
+    },
+    {
+      "quantity": "13/4",
+      "unit": "tsp",
+      "item": "Vinegar",
+      "ingredientKey": "Vinegar"
+    },
+    {
+      "quantity": "1-2",
+      "unit": "",
+      "item": "Stock",
+      "ingredientKey": "Stock"
+    },
+    {
+      "quantity": "3/4-1",
+      "unit": "cup",
+      "item": "water"
+    },
+    {
+      "quantity": "1 1/2",
+      "unit": "tsp",
+      "item": "Basil",
+      "ingredientKey": "Basil"
+    },
+    {
+      "quantity": "2",
+      "unit": "tsp",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "600",
+      "unit": "g",
+      "item": "Tomatoes",
+      "ingredientKey": "Tomatoes"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Olives",
+      "ingredientKey": "Olives"
+    },
+    {
+      "quantity": "3/4-1",
+      "unit": "cup",
+      "item": "Milk",
+      "ingredientKey": "Milk"
+    },
+    {
+      "quantity": "1 1/2",
+      "unit": "tsp",
+      "item": "Parsley",
+      "ingredientKey": "Parsley"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Heat 2 tablespoons of olive oil in a large deep pan or Dutch oven over medium-high heat."
+    },
+    {
+      "step": 2,
+      "instruction": "Season chicken breasts with salt and pepper. Brown chicken on both sides (about 3-4 minutes per side) until golden. Remove and set aside."
+    },
+    {
+      "step": 3,
+      "instruction": "In the same pan, add remaining tablespoon of oil. Add chopped onion and sauté for 2-3 minutes until softened."
+    },
+    {
+      "step": 4,
+      "instruction": "Add garlic and cook for 1 minute until fragrant."
+    },
+    {
+      "step": 5,
+      "instruction": "Pour in the white wine and vinegar. Bring to a simmer and cook for 2-3 minutes to reduce slightly."
+    },
+    {
+      "step": 6,
+      "instruction": "Crumble in the stock cubes and add water. Stir to dissolve."
+    },
+    {
+      "step": 7,
+      "instruction": "Add the canned tomatoes (crushing them with your hands or a spoon), basil, and sugar. Stir well."
+    },
+    {
+      "step": 8,
+      "instruction": "Return the browned chicken to the pan. Bring to a gentle simmer, then reduce heat to low. Cover and cook for 25-30 minutes until chicken is cooked through and tender."
+    },
+    {
+      "step": 9,
+      "instruction": "Add Kalamata olives and milk. Stir gently and simmer uncovered for another 5-7 minutes to let the sauce thicken slightly."
+    },
+    {
+      "step": 10,
+      "instruction": "Taste and adjust seasoning with salt and pepper. Stir in chopped parsley just before serving."
+    },
+    {
+      "step": 11,
+      "instruction": "Serve hot over jasmine rice, pasta, or with crusty bread to soak up the sauce."
+    }
+  ],
+  "notes": [
+    {
+      "type": "tip",
+      "title": "Wine and Vinegar Balance",
+      "content": "Adjust wine and vinegar to taste for tanginess. Start with less and add more if you prefer a sharper flavor."
+    },
+    {
+      "type": "variation",
+      "title": "Chicken Thighs",
+      "content": "Chicken thighs can be used instead of breasts for extra juiciness and flavor. Adjust cooking time slightly as thighs may take a bit longer."
+    },
+    {
+      "type": "serving",
+      "title": "Reheating",
+      "content": "This dish tastes even better the next day as the flavors develop. Reheat gently on the stovetop."
+    },
+    {
+      "type": "credit",
+      "title": "Recipe Origin",
+      "content": "This Chicken Cacciatore recipe is adapted from traditional Italian recipes. Full credit to the original creators of this classic, comforting dish."
+    }
+  ],
+  "tags": [
+    "Alcohol",
+    "Chicken",
+    "Creamy",
+    "Dinner",
+    "Italian",
+    "Rich",
+    "Savoury",
+    "Slow-Cooked",
+    "Tomato"
+  ],
+  "related": [
+    {
+      "id": "potatognocchi",
+      "title": "Potato Gnocchi with Tomato Sauce"
+    },
+    {
+      "id": "lasagne",
+      "title": "Classic Lasagne — Ragù & Béchamel"
+    },
+    {
+      "id": "bistro-vealscaloppine",
+      "title": "Veal Scaloppine"
+    },
+    {
+      "id": "highhydraciab",
+      "title": "Airy High-Hydration Ciabatta"
+    },
+    {
+      "id": "bistro-chickenpicante",
+      "title": "Chicken Picante"
+    }
+  ]
+}

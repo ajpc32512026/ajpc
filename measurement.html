@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#16161a">
+    <title>Measurements | AJPC Kitchen Notebook</title>
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        .measure-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: var(--sp-xl);
+            margin-bottom: var(--sp-3xl);
+        }
+        .measure-card {
+            background: var(--surface-card);
+            border: 1px solid var(--border-dim);
+            border-radius: var(--r-lg);
+            overflow: hidden;
+        }
+        .measure-card-header {
+            padding: var(--sp-md) var(--sp-lg);
+            background: var(--surface-2);
+            border-bottom: 1px solid var(--border-dim);
+        }
+        .measure-card-header h2 {
+            font-size: 0.75rem;
+            font-family: var(--font-body);
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--copper);
+            font-weight: 600;
+            margin: 0;
+        }
+        .measure-table { width: 100%; border-collapse: collapse; }
+        .measure-table tr { border-bottom: 1px solid var(--border-dim); }
+        .measure-table tr:last-child { border-bottom: none; }
+        .measure-table td {
+            padding: 0.55rem var(--sp-lg);
+            font-size: 0.875rem;
+            color: var(--cream-dim);
+        }
+        .measure-table td:first-child { color: var(--cream); font-weight: 500; }
+        .measure-table td:last-child { color: var(--cream-muted); text-align: right; }
+
+        .oven-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1px;
+            background: var(--border-dim);
+            border: 1px solid var(--border-dim);
+            border-radius: var(--r-lg);
+            overflow: hidden;
+            margin-bottom: var(--sp-2xl);
+        }
+        .oven-cell {
+            padding: 0.6rem var(--sp-md);
+            background: var(--surface-card);
+            font-size: 0.85rem;
+            text-align: center;
+        }
+        .oven-cell.header {
+            background: var(--surface-2);
+            color: var(--copper);
+            font-size: 0.7rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        .oven-cell:not(.header) { color: var(--cream-dim); }
+    </style>
+</head>
+<body>
+
+    <div class="scroll-progress" id="scrollProgress"></div>
+    <div id="nav-placeholder"></div>
+
+    <div class="content-wrapper">
+        <main class="reference-page">
+            <p style="font-size:0.75rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--copper);font-weight:600;margin-bottom:0.5rem;">Reference</p>
+            <h1>Measurements & Conversions</h1>
+            <p style="color:var(--cream-muted);margin-bottom:var(--sp-2xl);">A practical reference for common kitchen measurements.</p>
+
+            <div class="measure-grid">
+
+                <div class="measure-card">
+                    <div class="measure-card-header"><h2>Volume</h2></div>
+                    <table class="measure-table">
+                        <tr><td>1 teaspoon</td><td>5 ml</td></tr>
+                        <tr><td>1 tablespoon</td><td>20 ml (AU) / 15 ml (US)</td></tr>
+                        <tr><td>1/4 cup</td><td>60 ml</td></tr>
+                        <tr><td>1/3 cup</td><td>80 ml</td></tr>
+                        <tr><td>1/2 cup</td><td>125 ml</td></tr>
+                        <tr><td>1 cup</td><td>250 ml</td></tr>
+                        <tr><td>1 pint (US)</td><td>473 ml</td></tr>
+                        <tr><td>1 quart (US)</td><td>946 ml</td></tr>
+                        <tr><td>1 litre</td><td>4 cups (AU)</td></tr>
+                    </table>
+                </div>
+
+                <div class="measure-card">
+                    <div class="measure-card-header"><h2>Weight</h2></div>
+                    <table class="measure-table">
+                        <tr><td>1 oz</td><td>28 g</td></tr>
+                        <tr><td>4 oz (1/4 lb)</td><td>115 g</td></tr>
+                        <tr><td>8 oz (1/2 lb)</td><td>225 g</td></tr>
+                        <tr><td>12 oz (3/4 lb)</td><td>340 g</td></tr>
+                        <tr><td>1 lb</td><td>455 g</td></tr>
+                        <tr><td>500 g</td><td>1.1 lb</td></tr>
+                        <tr><td>1 kg</td><td>2.2 lb</td></tr>
+                    </table>
+                </div>
+
+                <div class="measure-card">
+                    <div class="measure-card-header"><h2>Common Ingredients by Weight</h2></div>
+                    <table class="measure-table">
+                        <tr><td>1 cup plain flour</td><td>~150 g</td></tr>
+                        <tr><td>1 cup bread flour</td><td>~130 g</td></tr>
+                        <tr><td>1 cup caster sugar</td><td>~220 g</td></tr>
+                        <tr><td>1 cup brown sugar (packed)</td><td>~200 g</td></tr>
+                        <tr><td>1 cup icing sugar</td><td>~120 g</td></tr>
+                        <tr><td>1 cup butter</td><td>~225 g</td></tr>
+                        <tr><td>1 cup rolled oats</td><td>~90 g</td></tr>
+                        <tr><td>1 cup rice</td><td>~200 g</td></tr>
+                        <tr><td>1 cup honey</td><td>~340 g</td></tr>
+                    </table>
+                </div>
+
+                <div class="measure-card">
+                    <div class="measure-card-header"><h2>Length</h2></div>
+                    <table class="measure-table">
+                        <tr><td>1/4 inch</td><td>6 mm</td></tr>
+                        <tr><td>1/2 inch</td><td>12 mm</td></tr>
+                        <tr><td>1 inch</td><td>2.5 cm</td></tr>
+                        <tr><td>6 inches</td><td>15 cm</td></tr>
+                        <tr><td>8 inches</td><td>20 cm</td></tr>
+                        <tr><td>9 inches</td><td>23 cm</td></tr>
+                        <tr><td>10 inches</td><td>25 cm</td></tr>
+                        <tr><td>12 inches</td><td>30 cm</td></tr>
+                    </table>
+                </div>
+
+            </div>
+
+            <h2 style="font-size:0.75rem;font-family:var(--font-body);letter-spacing:0.2em;text-transform:uppercase;color:var(--copper);font-weight:600;margin-bottom:var(--sp-lg);padding-bottom:var(--sp-sm);border-bottom:1px solid var(--border-dim);">Oven Temperatures</h2>
+
+            <div class="oven-grid">
+                <div class="oven-cell header">Description</div>
+                <div class="oven-cell header">Celsius</div>
+                <div class="oven-cell header">Fahrenheit</div>
+                <div class="oven-cell header">Gas Mark</div>
+
+                <div class="oven-cell">Very slow / warm</div><div class="oven-cell">120&deg;C</div><div class="oven-cell">250&deg;F</div><div class="oven-cell">1/2</div>
+                <div class="oven-cell">Slow</div><div class="oven-cell">150&deg;C</div><div class="oven-cell">300&deg;F</div><div class="oven-cell">2</div>
+                <div class="oven-cell">Moderate slow</div><div class="oven-cell">160&deg;C</div><div class="oven-cell">325&deg;F</div><div class="oven-cell">3</div>
+                <div class="oven-cell">Moderate</div><div class="oven-cell">180&deg;C</div><div class="oven-cell">350&deg;F</div><div class="oven-cell">4</div>
+                <div class="oven-cell">Moderate hot</div><div class="oven-cell">190&deg;C</div><div class="oven-cell">375&deg;F</div><div class="oven-cell">5</div>
+                <div class="oven-cell">Hot</div><div class="oven-cell">200&deg;C</div><div class="oven-cell">400&deg;F</div><div class="oven-cell">6</div>
+                <div class="oven-cell">Very hot</div><div class="oven-cell">220&deg;C</div><div class="oven-cell">425&deg;F</div><div class="oven-cell">7</div>
+                <div class="oven-cell">Extremely hot</div><div class="oven-cell">230&deg;C</div><div class="oven-cell">450&deg;F</div><div class="oven-cell">8</div>
+                <div class="oven-cell">Pizza hot</div><div class="oven-cell">250&deg;C+</div><div class="oven-cell">480&deg;F+</div><div class="oven-cell">9</div>
+            </div>
+
+        </main>
+
+        <footer>
+            <div class="footer-inner">
+                <span class="footer-brand">AJPC</span>
+                <p class="footer-copy">&copy; 2026 Ana &amp; John's Kitchen Notebook.</p>
+            </div>
+        </footer>
+    </div>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">&#8593;</button>
+    <script src="js/nav-loader.js"></script>
+</body>
+</html>

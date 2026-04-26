@@ -1,0 +1,122 @@
+{
+  "id": "bistro-rackoflamb",
+  "title": "Rack of Lamb",
+  "emoji": "🍖",
+  "category": "Dinner",
+  "description": "French-trimmed rack of lamb oven-baked and served with a spiced plum and demi glace sauce.",
+  "prepTime": "10 min",
+  "cookTime": "18 min",
+  "totalTime": "28 min",
+  "servings": 1,
+  "difficulty": "Medium",
+  "tags": [
+    "Alcohol",
+    "Baked",
+    "Classic",
+    "Dinner",
+    "Lamb",
+    "Savoury",
+    "Under 1 Hour"
+  ],
+  "ingredients": [
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Lamb",
+      "ingredientKey": "Lamb"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Plum",
+      "ingredientKey": "Plum"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Red Chili",
+      "ingredientKey": "Red Chili"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Garlic",
+      "ingredientKey": "Garlic"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Sauces",
+      "ingredientKey": "Sauces"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Wine",
+      "ingredientKey": "Wine"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Demi Glace",
+      "ingredientKey": "Demi Glace"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Season rack of lamb and sear in a hot pan until browned all over."
+    },
+    {
+      "step": 2,
+      "instruction": "Roast at 200°C to desired doneness — medium rare approximately 15-18 minutes. Rest 5 minutes."
+    },
+    {
+      "step": 3,
+      "instruction": "For sauce: combine plum jam, chilli, garlic, soy and wine in a small pan."
+    },
+    {
+      "step": 4,
+      "instruction": "Add demi glace base and reduce to a glossy spiced plum sauce."
+    },
+    {
+      "step": 5,
+      "instruction": "Carve into cutlets. Plate and spoon sauce over."
+    }
+  ],
+  "notes": [
+    {
+      "type": "chef",
+      "title": "Chef's Note",
+      "content": "Uses demi glace base. ??? Was the plum sauce made in-house from jam or a commercial base? ??? How spicy?"
+    }
+  ],
+  "related": [
+    {
+      "id": "bistro-lambcutlets",
+      "title": "Lamb Cutlets"
+    },
+    {
+      "id": "bistro-carpetbag",
+      "title": "Carpet Bag"
+    },
+    {
+      "id": "bistro-chickenkiev",
+      "title": "Chicken Kiev"
+    },
+    {
+      "id": "potatognocchi",
+      "title": "Potato Gnocchi with Tomato Sauce"
+    },
+    {
+      "id": "bistro-mediterraneansteak",
+      "title": "Mediterranean Steak"
+    }
+  ]
+}

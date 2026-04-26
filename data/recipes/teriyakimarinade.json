@@ -1,0 +1,84 @@
+{
+  "id": "teriyakimarinade",
+  "title": "Teriyaki Marinade",
+  "emoji": "🍖",
+  "category": "Dinner",
+  "description": "A sweet-savory marinade that makes chicken tender, juicy, and full of flavour. Perfect for grilling, baking, or stir-frying.",
+  "ingredients": [
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Sauces",
+      "ingredientKey": "Sauces"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Mirin",
+      "ingredientKey": "Mirin"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "1",
+      "unit": "teaspoon",
+      "item": "Garlic",
+      "ingredientKey": "Garlic"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Combine all ingredients in a bowl until the sugar dissolves."
+    },
+    {
+      "step": 2,
+      "instruction": "Reserve half for glazing cooked chicken, and use the remaining half to marinate chicken for 15 minutes up to overnight in the fridge."
+    },
+    {
+      "step": 3,
+      "instruction": "Use as a glaze by brushing over chicken during the last minutes of cooking until thick and shiny."
+    }
+  ],
+  "notes": [
+    {
+      "title": "Notes & Tips",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    }
+  ],
+  "tags": [
+    "Dinner",
+    "Gluten-Free",
+    "Japanese",
+    "Make Ahead",
+    "Savoury",
+    "Sweet",
+    "Vegan"
+  ],
+  "related": [
+    {
+      "id": "chickenteriyaki",
+      "title": "Chicken Teriyaki with Marinade"
+    },
+    {
+      "id": "mongoliansauce",
+      "title": "Mongolian Stir-Fry Sauce"
+    },
+    {
+      "id": "sataysauce",
+      "title": "Satay Sauce"
+    },
+    {
+      "id": "vindaloopaste",
+      "title": "Vindaloo Paste"
+    },
+    {
+      "id": "kormapaste",
+      "title": "Homemade Korma Paste"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": "bistro-vealoscar",
+  "title": "Veal Oscar",
+  "emoji": "🌿",
+  "category": "Dinner",
+  "description": "Pan-fried veal topped with blanched asparagus, seafood Mornay and melted cheese — finished under the salamander. A classic fine dining preparation.",
+  "prepTime": "10 min",
+  "cookTime": "10 min",
+  "totalTime": "20 min",
+  "servings": 1,
+  "difficulty": "Medium",
+  "tags": [
+    "Cheese",
+    "Classic",
+    "Creamy",
+    "Dinner",
+    "Rich",
+    "Savoury",
+    "Seafood",
+    "Under 1 Hour",
+    "Under 30 Minutes"
+  ],
+  "ingredients": [
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Veal",
+      "ingredientKey": "Veal"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Fruit",
+      "ingredientKey": "Fruit"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Seafood",
+      "ingredientKey": "Seafood"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Milk",
+      "ingredientKey": "Milk"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Cheese",
+      "ingredientKey": "Cheese"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Extra grated cheese for topping"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Pan-fry veal until just cooked through. Place in an ovenproof dish."
+    },
+    {
+      "step": 2,
+      "instruction": "Lay blanched asparagus over the veal."
+    },
+    {
+      "step": 3,
+      "instruction": "Make Mornay sauce: melt butter, add flour, cook roux. Add warm milk gradually whisking until smooth. Add cheese off heat and season."
+    },
+    {
+      "step": 4,
+      "instruction": "Fold seafood into Mornay and heat through gently."
+    },
+    {
+      "step": 5,
+      "instruction": "Spoon seafood Mornay over veal and asparagus. Top with extra grated cheese."
+    },
+    {
+      "step": 6,
+      "instruction": "Grill under salamander until cheese is golden and bubbling."
+    }
+  ],
+  "notes": [
+    {
+      "type": "chef",
+      "title": "Chef's Note",
+      "content": "Same Mornay base as Reef and Beef. No demi. ??? Was the veal crumbed or plain pan-fried?"
+    }
+  ],
+  "related": [
+    {
+      "id": "bistro-reefandbeef",
+      "title": "Reef and Beef"
+    },
+    {
+      "id": "bistro-mediterraneansteak",
+      "title": "Mediterranean Steak"
+    },
+    {
+      "id": "bistro-carpetbag",
+      "title": "Carpet Bag"
+    },
+    {
+      "id": "bistro-fishoftheday",
+      "title": "Fish of the Day"
+    },
+    {
+      "id": "bistro-chickenpapion",
+      "title": "Chicken Papion"
+    }
+  ]
+}

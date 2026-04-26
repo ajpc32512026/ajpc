@@ -1,0 +1,119 @@
+{
+  "id": "bistro-chickenpapion",
+  "title": "Chicken Papion",
+  "emoji": "🦪",
+  "category": "Dinner",
+  "description": "Pan-fried chicken breast with fresh oysters folded into a cream sauce. Unusual, elegant, and utterly of its era.",
+  "prepTime": "10 min",
+  "cookTime": "8 min",
+  "totalTime": "18 min",
+  "servings": 1,
+  "difficulty": "Medium",
+  "tags": [
+    "Alcohol",
+    "Chicken",
+    "Classic",
+    "Cream",
+    "Creamy",
+    "Dinner",
+    "Rich",
+    "Savoury",
+    "Seafood",
+    "Under 30 Minutes"
+  ],
+  "ingredients": [
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Chicken",
+      "ingredientKey": "Chicken"
+    },
+    {
+      "quantity": "6",
+      "unit": "",
+      "item": "Seafood",
+      "ingredientKey": "Seafood"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Cream",
+      "ingredientKey": "Cream"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Onion",
+      "ingredientKey": "Onion"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Wine",
+      "ingredientKey": "Wine"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Pan-fry chicken breast in butter until golden and cooked through. Remove and rest."
+    },
+    {
+      "step": 2,
+      "instruction": "In the same pan, soften shallots in butter."
+    },
+    {
+      "step": 3,
+      "instruction": "Deglaze with a splash of white wine. Add thickened cream and reduce to a coating consistency."
+    },
+    {
+      "step": 4,
+      "instruction": "Add oysters to the sauce in the last minute — just enough to warm through. Do not overcook."
+    },
+    {
+      "step": 5,
+      "instruction": "Return chicken to pan briefly to warm. Plate and spoon sauce and oysters over."
+    }
+  ],
+  "notes": [
+    {
+      "type": "chef",
+      "title": "Chef's Note",
+      "content": "The oysters go in last — seconds only in the warm cream sauce. Overcooking makes them rubbery and defeats the dish entirely. No demi."
+    }
+  ],
+  "related": [
+    {
+      "id": "bistro-mediterraneansteak",
+      "title": "Mediterranean Steak"
+    },
+    {
+      "id": "bistro-chickenpicante",
+      "title": "Chicken Picante"
+    },
+    {
+      "id": "bistro-fishoftheday",
+      "title": "Fish of the Day"
+    },
+    {
+      "id": "bistro-chickenriverina",
+      "title": "Chicken Riverina"
+    },
+    {
+      "id": "bistro-brandymustardsteak",
+      "title": "Brandy Mustard Steak"
+    }
+  ]
+}

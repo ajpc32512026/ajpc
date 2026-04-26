@@ -1,0 +1,108 @@
+{
+  "id": "chocolaterumballs",
+  "title": "Chocolate Rum Balls",
+  "emoji": "🍫",
+  "category": "Dinner",
+  "description": "Quick, fun, and dangerously delicious — the ultimate no-bake chocolate treat.",
+  "ingredients": [
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Cake Crumbs",
+      "ingredientKey": "Cake Crumbs"
+    },
+    {
+      "quantity": "1/2",
+      "unit": "cup",
+      "item": "Cocoa Powder",
+      "ingredientKey": "Cocoa Powder"
+    },
+    {
+      "quantity": "1/4",
+      "unit": "cup",
+      "item": "Apricot Jam",
+      "ingredientKey": "Apricot Jam"
+    },
+    {
+      "quantity": "1",
+      "unit": "cup",
+      "item": "Rum",
+      "ingredientKey": "Rum"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "water"
+    },
+    {
+      "quantity": "as needed",
+      "unit": "",
+      "item": "Chocolate",
+      "ingredientKey": "Chocolate"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Place cake crumbs and cocoa powder into a large mixing bowl and combine."
+    },
+    {
+      "step": 2,
+      "instruction": "Add warmed apricot jam, dark rum, and water. Mix until the dough is sticky but rollable."
+    },
+    {
+      "step": 3,
+      "instruction": "Scoop approximately 2 teaspoons of mixture and roll into balls. Repeat until all dough is used."
+    },
+    {
+      "step": 4,
+      "instruction": "Roll each ball in chocolate sprinkles until fully coated."
+    },
+    {
+      "step": 5,
+      "instruction": "Chill in the fridge for at least 2 hours before serving to allow flavours to meld and the balls to firm up."
+    }
+  ],
+  "notes": [
+    {
+      "title": "Notes & Tips",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    }
+  ],
+  "tags": [
+    "Alcohol",
+    "Chocolate",
+    "Dessert",
+    "Dinner",
+    "Make Ahead",
+    "No-Bake",
+    "Party",
+    "Rich",
+    "Savoury",
+    "Snack",
+    "Sweet",
+    "Vegan"
+  ],
+  "related": [
+    {
+      "id": "mongoliansauce",
+      "title": "Mongolian Stir-Fry Sauce"
+    },
+    {
+      "id": "lamington",
+      "title": "Classic Lamingtons"
+    },
+    {
+      "id": "bistro-mediterraneansteak",
+      "title": "Mediterranean Steak"
+    },
+    {
+      "id": "mongolianbeef",
+      "title": "Mongolian Beef Stir-Fry"
+    },
+    {
+      "id": "beefstockpot",
+      "title": "20 Minute Beef Stock Pot"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "id": "sub",
+  "title": "Homemade Sub Buns",
+  "emoji": "🥖",
+  "category": "Baking",
+  "description": "Soft, sturdy sandwich rolls perfect for loaded subs, hoagies, or heroes.",
+  "prepTime": "20 min",
+  "cookTime": "15 min",
+  "totalTime": "2 hours 35 min",
+  "servings": "5-8 sub buns",
+  "difficulty": "Medium",
+  "ingredients": [
+    {
+      "quantity": "180",
+      "unit": "ml",
+      "item": "Milk",
+      "ingredientKey": "Milk"
+    },
+    {
+      "quantity": "13",
+      "unit": "g",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "7",
+      "unit": "g",
+      "item": "Yeast",
+      "ingredientKey": "Yeast"
+    },
+    {
+      "quantity": "1",
+      "unit": "large",
+      "item": "Eggs",
+      "ingredientKey": "Eggs"
+    },
+    {
+      "quantity": "15",
+      "unit": "ml",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "120",
+      "unit": "ml",
+      "item": "water, lukewarm"
+    },
+    {
+      "quantity": "3",
+      "unit": "g",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "440-500",
+      "unit": "g",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Eggs",
+      "ingredientKey": "Eggs"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Optional: grated cheese + Italian seasoning for topping"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "In a large bowl, combine lukewarm milk, sugar, and instant yeast. Let stand 5 minutes until foamy."
+    },
+    {
+      "step": 2,
+      "instruction": "Add egg, oil, lukewarm water, and salt. Stir to combine."
+    },
+    {
+      "step": 3,
+      "instruction": "Gradually add flour, starting with 440g. Mix until a soft dough forms. Add more flour if the dough is too sticky."
+    },
+    {
+      "step": 4,
+      "instruction": "Knead for 8-10 minutes by hand (or 5-6 minutes in a stand mixer) until smooth and elastic."
+    },
+    {
+      "step": 5,
+      "instruction": "Place dough in a lightly oiled bowl, cover with a damp tea towel, and let rise in a warm place for 1-1.5 hours until doubled in size."
+    },
+    {
+      "step": 6,
+      "instruction": "Punch down the dough and divide into portions: 8 rolls (≈120-130g each) for smaller subs, or 5 rolls (≈200-225g each) for large subs."
+    },
+    {
+      "step": 7,
+      "instruction": "Shape each portion into an oval/torpedo shape by rolling it under your palms with firm, even pressure. Taper the ends slightly."
+    },
+    {
+      "step": 8,
+      "instruction": "Place shaped rolls on a lined baking tray, leaving space between each. Cover and let rise 30-45 minutes until puffy."
+    },
+    {
+      "step": 9,
+      "instruction": "Preheat oven to 190°C (375°F)."
+    },
+    {
+      "step": 10,
+      "instruction": "Brush rolls with egg wash. If desired, sprinkle with grated cheese and Italian seasoning."
+    },
+    {
+      "step": 11,
+      "instruction": "Bake for 12-15 minutes (small rolls) or 15-18 minutes (large rolls) until golden brown and hollow-sounding when tapped on the bottom."
+    },
+    {
+      "step": 12,
+      "instruction": "Cool on a wire rack before slicing horizontally for sandwiches."
+    }
+  ],
+  "notes": [
+    {
+      "type": "tip",
+      "title": "Shape Matters",
+      "content": "For authentic sub shape, roll firmly with steady pressure to create an even cylinder. Tapered ends give that classic torpedo look."
+    },
+    {
+      "type": "variation",
+      "title": "Toppings",
+      "content": "Try sesame seeds, poppy seeds, everything bagel seasoning, or garlic butter brushed on after baking."
+    },
+    {
+      "type": "storage",
+      "title": "Storage",
+      "content": "Store in an airtight container for 2-3 days, or freeze for up to 2 months. Thaw and warm before using."
+    }
+  ],
+  "tags": [
+    "Baked",
+    "Bread",
+    "Cheese",
+    "Creamy",
+    "Italian",
+    "Savoury",
+    "Soft",
+    "Under 1 Hour",
+    "Vegetarian"
+  ],
+  "related": [
+    {
+      "id": "garlicbread",
+      "title": "Garlic Butter Crusty Bread"
+    },
+    {
+      "id": "focaccia",
+      "title": "Focaccia"
+    },
+    {
+      "id": "focaccia-high",
+      "title": "High-Hydration Focaccia"
+    },
+    {
+      "id": "pizzadough",
+      "title": "Ultimate Homemade Pizza Dough"
+    },
+    {
+      "id": "hamburger",
+      "title": "Hamburger Buns"
+    }
+  ]
+}

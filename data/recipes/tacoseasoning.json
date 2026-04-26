@@ -1,0 +1,133 @@
+{
+  "id": "tacoseasoning",
+  "title": "Taco Seasoning — Old El Paso Style (From Scratch)",
+  "emoji": "🌶️",
+  "category": "Sauces",
+  "description": "A homemade taco seasoning that replicates the Old El Paso packet blend — but fresher, deeper, and completely under your control. One batch equals roughly one standard 35 g packet. Scale up and store in a jar for months.",
+  "prepTime": "5 min",
+  "cookTime": "0 min",
+  "totalTime": "5 min",
+  "servings": "1 batch (equiv. 1 packet)",
+  "difficulty": "Easy",
+  "ingredients": [
+    {
+      "quantity": "2",
+      "unit": "tsp",
+      "item": "Cumin",
+      "ingredientKey": "Cumin"
+    },
+    {
+      "quantity": "2",
+      "unit": "tsp",
+      "item": "Paprika",
+      "ingredientKey": "Paprika"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Red Chili",
+      "ingredientKey": "Red Chili"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Garlic",
+      "ingredientKey": "Garlic"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Onion",
+      "ingredientKey": "Onion"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Oregano",
+      "ingredientKey": "Oregano"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "1/2",
+      "unit": "tsp",
+      "item": "Pepper",
+      "ingredientKey": "Pepper"
+    },
+    {
+      "quantity": "1/2",
+      "unit": "tsp",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Measure all spices into a small bowl."
+    },
+    {
+      "step": 2,
+      "instruction": "Mix thoroughly until evenly combined."
+    },
+    {
+      "step": 3,
+      "instruction": "Use immediately or store in an airtight jar. Label with the date. Keeps well for up to 6 months."
+    }
+  ],
+  "notes": [
+    {
+      "type": "tip",
+      "title": "Old El Paso Packet Comparison",
+      "content": "The commercial packet lists Corn Starch, Chili Pepper, Maltodextrin, Salt, Spice, and Onion Powder — the 'Spice' is where they hide everything. This from-scratch blend delivers the same flavour profile but with proper depth from fresh ground cumin and real paprika. The small amount of plain flour acts as the thickener (replacing their corn starch and maltodextrin)."
+    },
+    {
+      "type": "tip",
+      "title": "Heat Level",
+      "content": "The 1 tsp chili powder gives a mild-medium heat matching the standard Old El Paso packet. Reduce to 1/2 tsp for mild, increase to 1 1/2 to 2 tsp for hot. A pinch of cayenne on top of the chili powder gives it an extra kick if you want it."
+    },
+    {
+      "type": "variation",
+      "title": "Trevor's Touch",
+      "content": "If your chef Trevor's version was notably better than the packet, the secret is almost always toasting the cumin and coriander seeds in a dry pan first, then grinding them fresh. It transforms the depth of the blend completely — try 1 tsp whole cumin seeds and 1/2 tsp coriander seeds, toasted 2–3 minutes in a dry pan until fragrant, then ground fine in a mortar."
+    },
+    {
+      "type": "tip",
+      "title": "Scaling Up",
+      "content": "This recipe equals one 35 g packet. To make a bulk jar, simply multiply everything by 4 or 6 and store. Use 2 heaped tbsp per 500 g of mince — same as the packet instructions."
+    }
+  ],
+  "tags": [
+    "Make Ahead",
+    "Mexican",
+    "Sauce",
+    "Under 30 Minutes",
+    "Vegan"
+  ],
+  "related": [
+    {
+      "id": "teriyakisauce",
+      "title": "Teriyaki Sauce"
+    },
+    {
+      "id": "sweetsoursauce_flex",
+      "title": "Sweet & Sour Sauce – Home Chef Flex"
+    },
+    {
+      "id": "chiligarlicopil",
+      "title": "Chili Garlic Oil"
+    },
+    {
+      "id": "sweetchilisauce",
+      "title": "Sweet Chili Sauce"
+    },
+    {
+      "id": "sweetsoursauce_quick",
+      "title": "Sweet & Sour Sauce – Quick Takeout Style"
+    }
+  ]
+}

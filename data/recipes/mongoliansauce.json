@@ -1,0 +1,124 @@
+{
+  "id": "mongoliansauce",
+  "title": "Mongolian Stir-Fry Sauce",
+  "emoji": "🐂",
+  "category": "Dinner",
+  "description": "A rich, sticky, savoury-sweet sauce perfect with beef, chicken, or vegetables.",
+  "ingredients": [
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "2",
+      "unit": "tsp",
+      "item": "Sauces",
+      "ingredientKey": "Sauces"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Sauces",
+      "ingredientKey": "Sauces"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Sambal Oelek",
+      "ingredientKey": "Sambal Oelek"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Sauces",
+      "ingredientKey": "Sauces"
+    },
+    {
+      "quantity": "1",
+      "unit": "tbsp",
+      "item": "Wine",
+      "ingredientKey": "Wine"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Chinese Five Spice",
+      "ingredientKey": "Chinese Five Spice"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "1/4 cup water"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Mix cornflour with both soy sauces until smooth."
+    },
+    {
+      "step": 2,
+      "instruction": "Add sambal oelek, hoisin sauce, Shaoxing wine, five-spice, water, and sesame oil. Stir well."
+    },
+    {
+      "step": 3,
+      "instruction": "Heat gently in a small saucepan or wok until sauce thickens, about 2–3 minutes."
+    },
+    {
+      "step": 4,
+      "instruction": "Pour over cooked meat or vegetables, or refrigerate in an airtight jar up to 1 week."
+    }
+  ],
+  "notes": [
+    {
+      "title": "Notes & Acknowledgment",
+      "content": "Adapted from traditional Chinese stir-fry sauces, balancing heat, sweetness, and umami."
+    },
+    {
+      "title": "Notes & Acknowledgment",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    }
+  ],
+  "tags": [
+    "Alcohol",
+    "Chinese",
+    "Dinner",
+    "Make Ahead",
+    "Sauce",
+    "Savoury",
+    "Stir-Fried",
+    "Sweet",
+    "Under 30 Minutes",
+    "Vegan"
+  ],
+  "related": [
+    {
+      "id": "mongolianbeef",
+      "title": "Mongolian Beef Stir-Fry"
+    },
+    {
+      "id": "mongolianlamb",
+      "title": "Mongolian Lamb"
+    },
+    {
+      "id": "sweetsourpork",
+      "title": "Better Than Takeaway Sweet & Sour Pork"
+    },
+    {
+      "id": "chocolaterumballs",
+      "title": "Chocolate Rum Balls"
+    },
+    {
+      "id": "beefstockpot",
+      "title": "20 Minute Beef Stock Pot"
+    }
+  ]
+}

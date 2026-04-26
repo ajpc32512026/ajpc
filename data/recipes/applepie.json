@@ -1,0 +1,137 @@
+{
+  "id": "applepie",
+  "title": "Apple Pie",
+  "emoji": "🍏",
+  "category": "Baking",
+  "description": "The kind of pie that disappears faster than good intentions — crisp pastry, soft spiced apples, and zero leftovers.",
+  "prepTime": "30 min",
+  "cookTime": "45 min",
+  "totalTime": "1 hr 15 min",
+  "servings": "8 servings",
+  "difficulty": "Medium",
+  "tags": [
+    "Apple",
+    "Classic",
+    "Creamy",
+    "Dessert",
+    "Make Ahead",
+    "Pastry",
+    "Rich",
+    "Sweet",
+    "Under 30 Minutes",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "quantity": "6",
+      "unit": "",
+      "item": "Apples",
+      "ingredientKey": "Apples"
+    },
+    {
+      "quantity": "150",
+      "unit": "g",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "1/2",
+      "unit": "tsp",
+      "item": "Cloves",
+      "ingredientKey": "Cloves"
+    },
+    {
+      "quantity": "50",
+      "unit": "ml",
+      "item": "Water"
+    },
+    {
+      "quantity": "125",
+      "unit": "g",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "200",
+      "unit": "g",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "50",
+      "unit": "g",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "1",
+      "unit": "tbsp",
+      "item": "Custard Powder",
+      "ingredientKey": "Custard Powder"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Peel, core, and slice the apples evenly."
+    },
+    {
+      "step": 2,
+      "instruction": "Place apples, sugar, cloves, and water into a saucepan. Simmer gently until apples are just tender. Set aside to cool."
+    },
+    {
+      "step": 3,
+      "instruction": "Sift plain flour, self-raising flour, and custard powder into a bowl. Rub in butter until the mixture resembles fine breadcrumbs."
+    },
+    {
+      "step": 4,
+      "instruction": "Add cold water gradually and bring together into a soft dough. Roll out and line a greased pie tin."
+    },
+    {
+      "step": 5,
+      "instruction": "Fill with cooled apple mixture, cover with remaining pastry, seal edges, and bake at 180°C until golden and crisp."
+    }
+  ],
+  "notes": [
+    {
+      "type": "serving",
+      "title": "Serving Tip",
+      "content": "Allow the pie to rest briefly before slicing. Serve warm with cream, custard, or vanilla ice cream."
+    },
+    {
+      "type": "copyright",
+      "title": "Copyright",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    },
+    {
+      "title": "Granny Smith Apples",
+      "content": "peeled and sliced"
+    },
+    {
+      "title": "Butter",
+      "content": "chilled and diced"
+    }
+  ],
+  "related": [
+    {
+      "id": "applecinnscrolls",
+      "title": "Apple & Cinnamon Scrolls"
+    },
+    {
+      "id": "apricotflan",
+      "title": "Apricot Flan"
+    },
+    {
+      "id": "chocchipcookies",
+      "title": "Double Chocolate Chip Cookies"
+    },
+    {
+      "id": "anzacbiscuits",
+      "title": "Traditional ANZAC Biscuits"
+    },
+    {
+      "id": "bananabread",
+      "title": "Banana Bread"
+    }
+  ]
+}

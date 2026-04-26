@@ -1,0 +1,173 @@
+{
+  "id": "20minutebeefstockpot",
+  "title": "20 Minute Beef Stock Pot",
+  "emoji": "🥩",
+  "category": "Dinner",
+  "description": "A fast, deeply flavoured beef stock base — perfect for rich stews, braises, and hearty sauces.",
+  "prepTime": "10 min",
+  "cookTime": "20 min",
+  "totalTime": "30 min",
+  "servings": "4-6 servings",
+  "difficulty": "Easy",
+  "tags": [
+    "Alcohol",
+    "Beef",
+    "Dinner",
+    "French",
+    "Hearty",
+    "Rich",
+    "Sauce",
+    "Savoury",
+    "Under 30 Minutes"
+  ],
+  "ingredients": [
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Onion"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Carrots"
+    },
+    {
+      "quantity": "2",
+      "unit": "stalks",
+      "item": "Celery"
+    },
+    {
+      "quantity": "3",
+      "unit": "cloves",
+      "item": "Garlic"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Oil"
+    },
+    {
+      "quantity": "150",
+      "unit": "g",
+      "item": "Mushrooms"
+    },
+    {
+      "quantity": "2",
+      "unit": "sprigs",
+      "item": "Thyme"
+    },
+    {
+      "quantity": "2",
+      "unit": "tsp",
+      "item": "Oregano"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Tomatoes"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Sugar"
+    },
+    {
+      "quantity": "1 1/2",
+      "unit": "cups",
+      "item": "Wine"
+    },
+    {
+      "quantity": "500",
+      "unit": "ml",
+      "item": "Stock"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Salt"
+    },
+    {
+      "quantity": "1 1/2",
+      "unit": "tbsp",
+      "item": "Flour"
+    },
+    {
+      "quantity": "60",
+      "unit": "g",
+      "item": "Butter"
+    },
+    {
+      "quantity": "800",
+      "unit": "g",
+      "item": "Beef, Scotch Fillet"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "In a large pot over high heat, add a drizzle of olive oil. Cook onion, carrot, celery, and garlic for 3-4 minutes until softened and fragrant."
+    },
+    {
+      "step": 2,
+      "instruction": "Add mushrooms, thyme, oregano, tomato paste, and brown sugar. Stir well and cook for 2 minutes until the paste darkens slightly."
+    },
+    {
+      "step": 3,
+      "instruction": "Pour in the red wine and bring to a boil. Let it reduce by half, about 3-4 minutes."
+    },
+    {
+      "step": 4,
+      "instruction": "Add beef stock, bring to a simmer, and cook for 10 minutes. Season with salt and pepper to taste."
+    },
+    {
+      "step": 5,
+      "instruction": "While the stock simmers, mash the flour and butter together to form a smooth paste (beurre manié)."
+    },
+    {
+      "step": 6,
+      "instruction": "Whisk the butter-flour paste into the simmering stock to thicken. Continue simmering for 2-3 minutes until the sauce coats the back of a spoon."
+    },
+    {
+      "step": 7,
+      "instruction": "In a separate hot pan with a little oil, sear the diced scotch fillet over high heat until browned on all sides but still medium-rare in the center, about 2-3 minutes."
+    },
+    {
+      "step": 8,
+      "instruction": "Add the seared beef to the sauce, stir gently, and serve immediately over mashed potatoes, polenta, or buttered pasta."
+    }
+  ],
+  "notes": [
+    {
+      "type": "tip",
+      "title": "Wine Substitute",
+      "content": "If you prefer not to use wine, substitute with additional beef stock plus 1 tablespoon of balsamic vinegar for depth."
+    },
+    {
+      "type": "technique",
+      "title": "Beurre Manié",
+      "content": "This butter-flour paste is a French technique for thickening sauces without lumps. Mix it thoroughly before whisking into hot liquid."
+    }
+  ],
+  "related": [
+    {
+      "id": "bistro-chickenpicante",
+      "title": "Chicken Picante"
+    },
+    {
+      "id": "bistro-vealcordonbleu",
+      "title": "Veal Cordon Bleu"
+    },
+    {
+      "id": "tomatoflan",
+      "title": "Tomato and Olive Flan"
+    },
+    {
+      "id": "crepes",
+      "title": "Crepes with Maple Syrup & Butter"
+    },
+    {
+      "id": "chouxpastry",
+      "title": "Choux Pastry (Profiteroles)"
+    }
+  ]
+}

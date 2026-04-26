@@ -1,0 +1,155 @@
+{
+  "id": "swbtm",
+  "title": "Soft White Bread (Tangzhong Method)",
+  "emoji": "🍞",
+  "category": "Baking",
+  "description": "A soft, pale, everyday loaf that stays tender for days without milk, butter, or yellowing — thanks to the tangzhong technique. Note: tangzhong water has been increased to account for evaporation.",
+  "prepTime": "30 min",
+  "cookTime": "30 min",
+  "totalTime": "3 hours",
+  "servings": "1 loaf",
+  "difficulty": "Medium",
+  "ingredients": [
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "190",
+      "unit": "g",
+      "item": "water (accounts for evaporation during cooking tangzhong)"
+    },
+    {
+      "quantity": "560",
+      "unit": "g",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "180",
+      "unit": "g",
+      "item": "water"
+    },
+    {
+      "quantity": "15-20",
+      "unit": "g",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "7",
+      "unit": "g",
+      "item": "Yeast",
+      "ingredientKey": "Yeast"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Bread Improver",
+      "ingredientKey": "Bread Improver"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Make the tangzhong: In a small saucepan, combine 30g flour and 190g water. Cook over medium heat, whisking constantly, until it thickens into a paste (around 65°C). Remove from heat and let cool to room temperature."
+    },
+    {
+      "step": 2,
+      "instruction": "In a large bowl, combine the 560g flour, salt, sugar, yeast, and bread improver (if using)."
+    },
+    {
+      "step": 3,
+      "instruction": "Add the cooled tangzhong, 180g water, and oil to the dry ingredients."
+    },
+    {
+      "step": 4,
+      "instruction": "Mix until a rough dough forms, then knead for 10-12 minutes by hand (or 7-8 minutes in a stand mixer) until smooth, elastic, and slightly tacky but not sticky."
+    },
+    {
+      "step": 5,
+      "instruction": "Place dough in a lightly oiled bowl, cover with a damp tea towel, and let rise in a warm place for 1-1.5 hours until doubled in size."
+    },
+    {
+      "step": 6,
+      "instruction": "Punch down the dough and shape into a loaf. Place in a greased loaf tin (approximately 20cm x 10cm)."
+    },
+    {
+      "step": 7,
+      "instruction": "Cover and let rise for another 45-60 minutes until the dough has risen about 1-2cm above the rim of the tin."
+    },
+    {
+      "step": 8,
+      "instruction": "Preheat oven to 180°C (350°F)."
+    },
+    {
+      "step": 9,
+      "instruction": "Bake for 28-32 minutes until the top is golden brown and the loaf sounds hollow when tapped on the bottom."
+    },
+    {
+      "step": 10,
+      "instruction": "Remove from tin immediately and cool on a wire rack for at least 30 minutes before slicing."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Why Tangzhong Works",
+      "content": "The tangzhong (water roux) pre-gelatinizes the starch, allowing the dough to hold more moisture. This keeps the bread soft and fresh for 2-3 days without refrigeration."
+    },
+    {
+      "type": "tip",
+      "title": "Neutral Oil for Pale Crumb",
+      "content": "Using neutral oil instead of butter keeps the crumb pale white. The tangzhong locks in moisture without making the dough sticky."
+    },
+    {
+      "type": "tip",
+      "title": "Weighing Tangzhong",
+      "content": "For best results, weigh your tangzhong after cooking to ensure hydration is correct. It should weigh approximately 150-160g after cooking."
+    }
+  ],
+  "tags": [
+    "Bread",
+    "Classic",
+    "Make Ahead",
+    "Soft",
+    "Under 1 Hour",
+    "Vegan"
+  ],
+  "related": [
+    {
+      "id": "turkishbread",
+      "title": "Traditional Turkish Bread"
+    },
+    {
+      "id": "darkrye",
+      "title": "Dark Rye Bread"
+    },
+    {
+      "id": "focaccia-high",
+      "title": "High-Hydration Focaccia"
+    },
+    {
+      "id": "pizzadough",
+      "title": "Ultimate Homemade Pizza Dough"
+    },
+    {
+      "id": "hamburger",
+      "title": "Hamburger Buns"
+    }
+  ]
+}

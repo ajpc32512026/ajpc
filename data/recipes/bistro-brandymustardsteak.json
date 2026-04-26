@@ -1,0 +1,120 @@
+{
+  "id": "bistro-brandymustardsteak",
+  "title": "Brandy Mustard Steak",
+  "emoji": "🥃",
+  "category": "Dinner",
+  "description": "Scotch filet in a brandy and mustard cream sauce. Bold, warming, and exactly the kind of dish a 1990s bistro did best.",
+  "prepTime": "5 min",
+  "cookTime": "6 min",
+  "totalTime": "11 min",
+  "servings": 1,
+  "difficulty": "Easy",
+  "tags": [
+    "Alcohol",
+    "Beef",
+    "Brandy",
+    "Classic",
+    "Cream",
+    "Creamy",
+    "Dinner",
+    "Gluten-Free",
+    "Rich",
+    "Savoury",
+    "Under 30 Minutes"
+  ],
+  "ingredients": [
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Beef, Scotch Fillet",
+      "ingredientKey": "Beef, Scotch Fillet"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Brandy",
+      "ingredientKey": "Brandy"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Mustard",
+      "ingredientKey": "Mustard"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Cream",
+      "ingredientKey": "Cream"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Onion",
+      "ingredientKey": "Onion"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Pan-fry scotch filets to desired doneness. Rest. Keep the pan."
+    },
+    {
+      "step": 2,
+      "instruction": "Soften shallots in butter in the same pan."
+    },
+    {
+      "step": 3,
+      "instruction": "Add brandy and either flambé carefully or reduce over heat."
+    },
+    {
+      "step": 4,
+      "instruction": "Add thickened cream and Dijon mustard. Stir and reduce to a coating sauce."
+    },
+    {
+      "step": 5,
+      "instruction": "Season. Plate steak and pour sauce over."
+    }
+  ],
+  "notes": [
+    {
+      "type": "chef",
+      "title": "Chef's Note",
+      "content": "No demi — brandy, mustard and cream only. ??? Dijon or wholegrain mustard? ??? Flambé or just reduce?"
+    }
+  ],
+  "related": [
+    {
+      "id": "bistro-mediterraneansteak",
+      "title": "Mediterranean Steak"
+    },
+    {
+      "id": "bistro-filetmignon",
+      "title": "Filet Mignon"
+    },
+    {
+      "id": "bistro-chickenpicante",
+      "title": "Chicken Picante"
+    },
+    {
+      "id": "bistro-fishoftheday",
+      "title": "Fish of the Day"
+    },
+    {
+      "id": "bistro-chickenpapion",
+      "title": "Chicken Papion"
+    }
+  ]
+}

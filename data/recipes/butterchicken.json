@@ -1,0 +1,220 @@
+{
+  "id": "butterchicken",
+  "title": "Restaurant-Style Butter Chicken",
+  "emoji": "�",
+  "category": "Dinner",
+  "description": "A rich, silky, full-flavoured classic — ready in just 40 minutes.",
+  "prepTime": "15 min",
+  "cookTime": "25 min",
+  "totalTime": "40 min",
+  "servings": "4 servings",
+  "difficulty": "Medium",
+  "ingredients": [
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "1",
+      "unit": "large",
+      "item": "Onion",
+      "ingredientKey": "Onion"
+    },
+    {
+      "quantity": "1 1/2",
+      "unit": "tsp",
+      "item": "Ginger",
+      "ingredientKey": "Ginger"
+    },
+    {
+      "quantity": "1 1/2",
+      "unit": "tsp",
+      "item": "Garlic",
+      "ingredientKey": "Garlic"
+    },
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Bay Leaves",
+      "ingredientKey": "Bay Leaves"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Cumin",
+      "ingredientKey": "Cumin"
+    },
+    {
+      "quantity": "2",
+      "unit": "tsp",
+      "item": "Garam Masala",
+      "ingredientKey": "Garam Masala"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Red Chili",
+      "ingredientKey": "Red Chili"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Juice",
+      "ingredientKey": "Juice"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Tomatoes",
+      "ingredientKey": "Tomatoes"
+    },
+    {
+      "quantity": "1/2",
+      "unit": "cup",
+      "item": "Cream",
+      "ingredientKey": "Cream"
+    },
+    {
+      "quantity": "1",
+      "unit": "tbsp",
+      "item": "Yogurt",
+      "ingredientKey": "Yogurt"
+    },
+    {
+      "quantity": "1/4",
+      "unit": "cup",
+      "item": "Milk",
+      "ingredientKey": "Milk"
+    },
+    {
+      "quantity": "500",
+      "unit": "g",
+      "item": "Chicken",
+      "ingredientKey": "Chicken"
+    },
+    {
+      "quantity": "1/4",
+      "unit": "tsp",
+      "item": "Fenugreek",
+      "ingredientKey": "Fenugreek"
+    },
+    {
+      "quantity": "6-8",
+      "unit": "",
+      "item": "Cashews",
+      "ingredientKey": "Cashews"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Coriander",
+      "ingredientKey": "Coriander"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Naan",
+      "ingredientKey": "Naan"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Heat 1 tbsp oil in a large frying pan over medium-high heat. Add chicken cubes and cook for 5-6 minutes until golden brown and cooked through. Remove and set aside."
+    },
+    {
+      "step": 2,
+      "instruction": "In the same pan (or a large saucepan), heat the remaining 1 tbsp oil and butter over medium heat. Add onion and sauté for 3-4 minutes until soft and translucent."
+    },
+    {
+      "step": 3,
+      "instruction": "Add ginger, garlic, and bay leaves. Cook for 1 minute until fragrant."
+    },
+    {
+      "step": 4,
+      "instruction": "Stir in cumin, garam masala, and red chilli powder. Cook for 30 seconds to release the aromas."
+    },
+    {
+      "step": 5,
+      "instruction": "Add tomato paste and cook for 1-2 minutes, stirring constantly, until it darkens slightly."
+    },
+    {
+      "step": 6,
+      "instruction": "Pour in the cream, yogurt, and milk. Stir well and bring to a gentle simmer. Cook for 3-4 minutes until the sauce thickens slightly."
+    },
+    {
+      "step": 7,
+      "instruction": "Add the cooked chicken and any collected juices back into the sauce. Stir through."
+    },
+    {
+      "step": 8,
+      "instruction": "Add ground fenugreek and ground cashews (if using). Stir well and simmer for another 3-4 minutes."
+    },
+    {
+      "step": 9,
+      "instruction": "Squeeze in the lemon juice, stir, and taste. Adjust seasoning with salt if needed."
+    },
+    {
+      "step": 10,
+      "instruction": "Remove from heat. Garnish with fresh coriander leaves and serve hot with naan or basmati rice."
+    }
+  ],
+  "notes": [
+    {
+      "type": "tip",
+      "title": "Chicken Choice",
+      "content": "Chicken thighs work best for this recipe as they stay tender and juicy. Breast meat can dry out if overcooked."
+    },
+    {
+      "type": "variation",
+      "title": "Extra Richness",
+      "content": "For an even richer sauce, add an extra tablespoon of butter at the end and swirl through just before serving."
+    },
+    {
+      "type": "credit",
+      "title": "Recipe Origin",
+      "content": "This recipe is adapted from traditional Indian butter chicken recipes with home-cook friendly adjustments."
+    }
+  ],
+  "tags": [
+    "Chicken",
+    "Creamy",
+    "Curry",
+    "Dinner",
+    "Greek",
+    "Indian",
+    "Rich",
+    "Savoury",
+    "Under 1 Hour"
+  ],
+  "related": [
+    {
+      "id": "lambkorma",
+      "title": "Lamb Korma"
+    },
+    {
+      "id": "lambvindaloo",
+      "title": "Lamb Vindaloo"
+    },
+    {
+      "id": "beefvindaloo",
+      "title": "Beef Vindaloo"
+    },
+    {
+      "id": "roganjosh",
+      "title": "Lamb Rogan Josh – Restaurant Style"
+    },
+    {
+      "id": "vindaloopaste",
+      "title": "Vindaloo Paste"
+    }
+  ]
+}

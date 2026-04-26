@@ -1,0 +1,117 @@
+{
+  "id": "sweetchilisauce",
+  "title": "Sweet Chili Sauce",
+  "emoji": "🌶️",
+  "category": "Sauces",
+  "description": "A Thai-inspired sweet and spicy sauce — sticky, tangy, and addictive. Perfect as a dip or glaze.",
+  "prepTime": "5 min",
+  "cookTime": "5 min",
+  "totalTime": "10 min",
+  "servings": "6 servings",
+  "difficulty": "Easy",
+  "tags": [
+    "Condiment",
+    "Make Ahead",
+    "Sauce",
+    "Spicy",
+    "Sweet",
+    "Under 30 Minutes",
+    "Vegan"
+  ],
+  "ingredients": [
+    {
+      "quantity": "1/2",
+      "unit": "cup",
+      "item": "Water"
+    },
+    {
+      "quantity": "1/4",
+      "unit": "cup",
+      "item": "Vinegar",
+      "ingredientKey": "Vinegar"
+    },
+    {
+      "quantity": "1/3",
+      "unit": "cup",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Sauces",
+      "ingredientKey": "Sauces"
+    },
+    {
+      "quantity": "2",
+      "unit": "tsp",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "5",
+      "unit": "",
+      "item": "Garlic",
+      "ingredientKey": "Garlic"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "In a saucepan, combine water, vinegar, sugar, chilies, and garlic."
+    },
+    {
+      "step": 2,
+      "instruction": "Bring to a simmer over medium heat, stirring until sugar dissolves."
+    },
+    {
+      "step": 3,
+      "instruction": "Mix cornstarch with 1 tbsp water and add to the sauce."
+    },
+    {
+      "step": 4,
+      "instruction": "Cook until thickened (about 2–3 minutes)."
+    },
+    {
+      "step": 5,
+      "instruction": "Cool and store in a jar."
+    }
+  ],
+  "notes": [
+    {
+      "type": "serving",
+      "title": "Serving Tip",
+      "content": "Excellent with spring rolls, fried chicken, or as a marinade. Keeps in the fridge for up to 2 weeks."
+    },
+    {
+      "title": "Chili Garlic Sauce",
+      "content": "or chopped fresh chilies"
+    },
+    {
+      "title": "Garlic Cloves",
+      "content": "minced"
+    }
+  ],
+  "related": [
+    {
+      "id": "chiligarlicopil",
+      "title": "Chili Garlic Oil"
+    },
+    {
+      "id": "teriyakisauce",
+      "title": "Teriyaki Sauce"
+    },
+    {
+      "id": "sweetspicyorangesauce",
+      "title": "Sweet & Spicy Orange Sauce"
+    },
+    {
+      "id": "sweetsoursauce_flex",
+      "title": "Sweet & Sour Sauce – Home Chef Flex"
+    },
+    {
+      "id": "sweetsoursauce_quick",
+      "title": "Sweet & Sour Sauce – Quick Takeout Style"
+    }
+  ]
+}

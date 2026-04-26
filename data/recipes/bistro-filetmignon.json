@@ -1,0 +1,124 @@
+{
+  "id": "bistro-filetmignon",
+  "title": "Filet Mignon",
+  "emoji": "🥩",
+  "category": "Dinner",
+  "description": "Scotch filet wrapped in bacon with a mushroom and demi glace butter sauce. Simple, rich, and timeless.",
+  "prepTime": "5 min",
+  "cookTime": "8 min",
+  "totalTime": "13 min",
+  "servings": 1,
+  "difficulty": "Easy",
+  "tags": [
+    "Beef",
+    "Classic",
+    "Cream",
+    "Creamy",
+    "Dinner",
+    "Gluten-Free",
+    "Rich",
+    "Savoury",
+    "Under 30 Minutes"
+  ],
+  "ingredients": [
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Beef, Scotch Fillet",
+      "ingredientKey": "Beef, Scotch Fillet"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Bacon",
+      "ingredientKey": "Bacon"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Mushrooms",
+      "ingredientKey": "Mushrooms"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Demi Glace",
+      "ingredientKey": "Demi Glace"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Onion",
+      "ingredientKey": "Onion"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Cream",
+      "ingredientKey": "Cream"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Wrap each filet in bacon. Secure with a toothpick or kitchen twine."
+    },
+    {
+      "step": 2,
+      "instruction": "Pan-fry or grill to desired doneness. Rest. Remove toothpick."
+    },
+    {
+      "step": 3,
+      "instruction": "In the same pan, soften shallots in butter. Add mushrooms and cook until golden."
+    },
+    {
+      "step": 4,
+      "instruction": "Add demi glace base and a splash of cream. Reduce to a glossy sauce."
+    },
+    {
+      "step": 5,
+      "instruction": "Season. Plate filet and spoon mushroom sauce over."
+    }
+  ],
+  "notes": [
+    {
+      "type": "chef",
+      "title": "Chef's Note",
+      "content": "Classic preparation. Uses demi glace base. ??? Was the sauce cream-heavy or demi-forward?"
+    }
+  ],
+  "related": [
+    {
+      "id": "bistro-mediterraneansteak",
+      "title": "Mediterranean Steak"
+    },
+    {
+      "id": "bistro-brandymustardsteak",
+      "title": "Brandy Mustard Steak"
+    },
+    {
+      "id": "bistro-chickenpicante",
+      "title": "Chicken Picante"
+    },
+    {
+      "id": "bistro-fishoftheday",
+      "title": "Fish of the Day"
+    },
+    {
+      "id": "bistro-vealmadagascar",
+      "title": "Veal Madagascar"
+    }
+  ]
+}

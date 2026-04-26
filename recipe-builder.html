@@ -1,0 +1,2668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#16161a">
+    <title>Recipe Builder | AJPC Kitchen Notebook</title>
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        /* Recipe Builder overrides for the new theme */
+        body { background: var(--ink); color: var(--cream); }
+        input, textarea, select {
+            background: var(--surface-2) !important;
+            border: 1px solid var(--border-mid) !important;
+            color: var(--cream) !important;
+            border-radius: var(--r-md) !important;
+            font-family: var(--font-body) !important;
+        }
+        input:focus, textarea:focus, select:focus {
+            outline: none !important;
+            border-color: var(--copper) !important;
+            box-shadow: 0 0 0 3px rgba(201,125,62,0.12) !important;
+        }
+        button:not(.back-to-top):not(.dark-mode-toggle):not(.mobile-menu-toggle):not(.az-btn):not(.cat-btn) {
+            background: rgba(201,125,62,0.15);
+            border: 1px solid var(--border-copper);
+            color: var(--copper-warm);
+            border-radius: var(--r-md);
+            cursor: pointer;
+            padding: 0.5rem 1rem;
+            font-family: var(--font-body);
+            font-size: 0.875rem;
+            transition: all 0.15s ease;
+        }
+        label { color: var(--cream-dim); font-size: 0.875rem; }
+        h1, h2, h3 { font-family: var(--font-display); }
+    </style>
+<body>
+
+<header>
+  <h1>Recipe Builder</h1>
+  <span id="mode-label">New Recipe</span>
+  <div class="header-actions">
+    <button class="btn" onclick="document.getElementById('load-file').click()">Load JSON</button>
+    <input type="file" id="load-file" accept=".json" style="display:none" onchange="loadJSONFile(event)">
+    <button class="btn" onclick="duplicateRecipe()" id="duplicate-btn">📋 Duplicate</button>
+    <button class="btn" onclick="document.getElementById('import-file').click()">Import Recipe</button>
+    <input type="file" id="import-file" accept=".pdf,.html,.htm,.docx,.doc" style="display:none" onchange="importRecipeFile(event)">
+    <button class="btn" onclick="clearForm()">Clear</button>
+    <button class="btn primary" onclick="saveToServer()">💾 Save to Server</button>
+    <button class="btn" onclick="downloadJSON()">Download JSON</button>
+  </div>
+</header>
+
+<!-- ── FORM PANEL ── -->
+<div id="form-panel">
+
+  <!-- BASIC INFO -->
+  <div class="section">
+    <div class="section-title">Basic Info</div>
+    <div class="field">
+      <label>Recipe Title</label>
+      <input type="text" id="title" placeholder="e.g. Sourdough Bread" oninput="update()">
+    </div>
+    <div class="emoji-field">
+      <label>Emoji</label>
+      <input type="hidden" id="emoji">
+      <div class="emoji-trigger" onclick="openEmojiModal()">
+        <span class="emoji-preview" id="emoji-preview">＋</span>
+        <span class="emoji-trigger-text" id="emoji-trigger-text">Choose an emoji…</span>
+        <span class="emoji-trigger-arrow">▼</span>
+      </div>
+    </div>
+    <div class="row row-2">
+      <div class="field">
+        <label>Category</label>
+        <select id="category" onchange="update()">
+          <option value="">Select…</option>
+          <option>Breads</option>
+          <option>Baking</option>
+          <option>Biscuits</option>
+          <option>Entree</option>
+          <option>Dinner</option>
+          <option>Mains</option>
+          <option>Filipino</option>
+          <option>Desserts</option>
+          <option>Sauces</option>
+          <option>Pasta</option>
+          <option>Pizza</option>
+          <option>Soups</option>
+          <option>Salads</option>
+          <option>Sides</option>
+          <option>Snacks</option>
+          <option>Breakfast</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Difficulty</label>
+        <select id="difficulty" onchange="update()">
+          <option value="">Select…</option>
+			<option>Beginner</option>
+			<option>Intermediate</option>
+			<option>Advanced</option>
+        </select>
+      </div>
+    </div>
+    <div class="field">
+      <label>Description</label>
+      <div style="position: relative;">
+        <textarea id="description" placeholder="A short description…" oninput="update()"></textarea>
+        <button class="btn" style="position: absolute; bottom: 0.5rem; right: 0.5rem; padding: 0.3rem 0.6rem; font-size: 0.7rem; border-color: var(--gold-dim);" onclick="insertParagraphBreak(); return false;" title="Insert paragraph break">¶ Break</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TIME & SERVINGS -->
+  <div class="section">
+    <div class="section-title">Time & Servings</div>
+    <div class="row row-4">
+      <div class="field">
+        <label>Prep Time</label>
+        <input type="text" id="prepTime" placeholder="e.g. 15 min" oninput="update()">
+      </div>
+      <div class="field">
+        <label>Cook Time</label>
+        <input type="text" id="cookTime" placeholder="e.g. 30 min" oninput="update()">
+      </div>
+      <div class="field">
+        <label>Total Time</label>
+        <input type="text" id="totalTime" placeholder="e.g. 45 min" oninput="update()">
+      </div>
+      <div class="field">
+        <label>Servings</label>
+        <input type="text" id="servings" placeholder="e.g. 4" oninput="update()">
+      </div>
+    </div>
+  </div>
+
+  <!-- TAGS -->
+  <div class="section">
+    <div class="section-title">Tags</div>
+    <div class="tags-input-wrap" id="tags-wrap" onclick="document.getElementById('tag-input').focus()">
+      <input type="text" id="tag-input" placeholder="Type and press Enter…" onkeydown="handleTagKey(event)">
+    </div>
+  </div>
+
+  <!-- INGREDIENTS -->
+  <div class="section">
+    <div class="section-title">Ingredients <span style="color:var(--text-dim);font-weight:300;font-size:0.6rem;margin-left:0.5rem;">(drag to reorder)</span></div>
+    <div class="dynamic-list" id="ingredients-list"></div>
+    <div class="add-buttons-row">
+      <button class="btn add-half" onclick="addIngredient()">＋ Add Ingredient</button>
+      <button class="btn add-half" onclick="addIngredientHeading()">＋ Add Heading</button>
+    </div>
+  </div>
+
+  <!-- METHOD -->
+  <div class="section">
+    <div class="section-title">Method</div>
+    <div class="dynamic-list" id="steps-list"></div>
+    <div class="add-buttons-row">
+      <button class="btn add-half" onclick="addStep()">＋ Add Step</button>
+      <button class="btn add-half" onclick="addStepHeading()">＋ Add Heading</button>
+    </div>
+  </div>
+
+  <!-- NOTES & TIPS -->
+  <div class="section">
+    <div class="section-title">Notes & Tips <span style="color:var(--text-dim);font-weight:300;font-size:0.6rem;margin-left:0.5rem;">(drag to reorder)</span></div>
+    <div class="dynamic-list" id="notes-list"></div>
+    <button class="btn add" onclick="addNote()">＋ Add Note</button>
+  </div>
+
+  <!-- RECIPE JOURNAL -->
+  <div class="section">
+    <div class="section-title">Recipe Journal <span style="color:var(--text-dim);font-weight:300;font-size:0.6rem;margin-left:0.5rem;">(your experiments & tweaks)</span></div>
+    <div class="dynamic-list" id="journal-list"></div>
+    <button class="btn add" onclick="addJournalEntry()">＋ Add Journal Entry</button>
+  </div>
+
+  <!-- RELATED RECIPES -->
+  <div class="section">
+    <div class="section-title">Related Recipes <span style="color:var(--text-dim);font-weight:300;font-size:0.6rem;margin-left:0.5rem;">(manually curate)</span></div>
+    <div class="dynamic-list" id="related-list"></div>
+    <div class="related-add-controls">
+      <select id="related-recipe-select" style="flex: 1;">
+        <option value="">Loading recipes...</option>
+      </select>
+      <button class="btn" onclick="addRelatedRecipe()">＋ Add</button>
+    </div>
+  </div>
+
+</div>
+
+<!-- ── PREVIEW PANEL ── -->
+<div id="preview-panel">
+
+  <!-- JSON OUTPUT -->
+  <div class="preview-box">
+    <div class="preview-header">
+      <div>
+        <div class="preview-label" id="filename-label">recipe.json</div>
+      </div>
+      <div class="preview-actions">
+        <button class="btn" onclick="copyJSON()">Copy JSON</button>
+      </div>
+    </div>
+    <div class="preview-content">
+      <pre id="json-output">{}</pre>
+    </div>
+  </div>
+
+  <!-- COOKING TIMELINE -->
+  <div class="preview-box" id="timeline-box" style="display:none;">
+    <div class="preview-header">
+      <div>
+        <div class="preview-label">⏰ Cooking Timeline</div>
+        <div style="font-size:0.7rem;color:var(--text-dim);margin-top:0.25rem;">When to start each step</div>
+      </div>
+      <div class="preview-actions">
+        <button class="btn" onclick="generateTimeline()">🔄 Regenerate</button>
+        <button class="btn" onclick="copyTimeline()">📋 Copy</button>
+      </div>
+    </div>
+    <div class="preview-content" id="timeline-output" style="font-family: var(--sans); line-height: 1.8;">
+      <p style="color:var(--text-dim);font-style:italic;">Add prep/cook times and method steps to generate a timeline</p>
+    </div>
+  </div>
+
+  <!-- NUTRITION FACTS -->
+  <div class="preview-box" id="nutrition-box" style="display:none;">
+    <div class="preview-header">
+      <div>
+        <div class="preview-label">📊 Nutrition Facts</div>
+        <div style="font-size:0.7rem;color:var(--text-dim);margin-top:0.25rem;">Estimated per serving</div>
+      </div>
+      <div class="preview-actions">
+        <button class="btn" onclick="calculateNutrition()">🔄 Recalculate</button>
+        <button class="btn" onclick="copyNutrition()">📋 Copy</button>
+      </div>
+    </div>
+    <div class="preview-content" id="nutrition-output" style="font-family: var(--sans);">
+      <p style="color:var(--text-dim);font-style:italic;">Add ingredients with quantities to calculate nutrition</p>
+    </div>
+  </div>
+
+  <!-- NAV SNIPPET -->
+  <div class="preview-box">
+    <div class="preview-header">
+      <div>
+        <div class="preview-label">Nav Snippet</div>
+        <div style="font-size:0.7rem;color:var(--text-dim);margin-top:0.25rem;" id="nav-note">Fill in Title and Category to generate the nav snippet.</div>
+      </div>
+      <div class="preview-actions">
+        <button class="btn" onclick="copyNav()">Copy Link</button>
+      </div>
+    </div>
+    <div class="preview-content">
+      <pre id="nav-output"><span style="color:var(--text-dim);font-style:italic">— waiting for title & category —</span></pre>
+    </div>
+  </div>
+
+</div>
+
+<!-- ── EMOJI MODAL ── -->
+<div id="emoji-modal" onclick="closeEmojiIfOutside(event)">
+  <div class="emoji-modal-box">
+    <div class="emoji-modal-header">
+      <span>Choose Emoji</span>
+      <button class="emoji-modal-close" onclick="closeEmojiModal()">×</button>
+    </div>
+    <div class="emoji-modal-search">
+      <input type="text" id="emoji-search" placeholder="Search…" oninput="filterEmoji(this.value)">
+    </div>
+    <div class="emoji-modal-body" id="emoji-modal-body"></div>
+  </div>
+</div>
+
+<div id="toast">Copied!</div>
+
+<!-- ── LOADING MODAL ── -->
+<div id="loading-modal" style="display:none;position:fixed;inset:0;z-index:300;align-items:center;justify-content:center;background:rgba(0,0,0,0.85);">
+  <div style="background:var(--surface);border:1px solid var(--border2);border-radius:6px;padding:2rem 3rem;text-align:center;max-width:400px;">
+    <div style="font-family:var(--mono);font-size:0.75rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;">Processing Recipe</div>
+    <div style="color:var(--text-mid);font-size:0.9rem;line-height:1.6;" id="loading-message">Reading file...</div>
+    <div style="margin-top:1.5rem;height:3px;background:var(--border);border-radius:2px;overflow:hidden;">
+      <div style="height:100%;width:30%;background:var(--gold);animation:slide 1.5s ease-in-out infinite;"></div>
+    </div>
+  </div>
+</div>
+
+<style>
+@keyframes slide {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(400%); }
+}
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
+
+<script>
+// ─────────────────────────────────────────────────────────
+// PDF.JS CONFIGURATION
+// ─────────────────────────────────────────────────────────
+pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+// ─────────────────────────────────────────────────────────
+// EMOJI DATA
+// ─────────────────────────────────────────────────────────
+const EMOJI_GROUPS = [
+  { label: 'Bread & Baked', emojis: ['🍞','🥖','🥐','🫓','🥨','🥯','🧁','🍰','🎂','🍮','🥧','🫕','🥞','🧇'] },
+  { label: 'Biscuits & Sweets', emojis: ['🍪','🍩','🍫','🍬','🍭','🍮','🍯','🧆','🍡','🍢','🍣','🍧','🍨','🍦'] },
+  { label: 'Meat & Poultry', emojis: ['🥩','🍖','🍗','🥓','🌭','🍔','🍟','🌮','🌯','🫔','🧆','🥚','🍳'] },
+  { label: 'Seafood', emojis: ['🦐','🦞','🦀','🦑','🐙','🦈','🐟','🐠','🐡','🦪','🍣','🍤','🍱'] },
+  { label: 'Vegetables', emojis: ['🥦','🥕','🌽','🍅','🧅','🧄','🥔','🍆','🫑','🌶️','🥑','🥒','🫒','🍄','🧅','🥬','🥗','🫛','🌿'] },
+  { label: 'Fruits', emojis: ['🍎','🍊','🍋','🍇','🍓','🫐','🍈','🍑','🍒','🥭','🍍','🥥','🍌','🍉','🍏','🍐','🫙'] },
+  { label: 'Pasta & Rice', emojis: ['🍝','🍜','🍲','🍛','🍚','🍙','🍘','🥟','🥠','🫕','🥘'] },
+  { label: 'Dairy & Eggs', emojis: ['🧀','🥛','🍼','🧈','🥚','🍳','🫙'] },
+  { label: 'Sauces & Condiments', emojis: ['🫙','🧂','🧃','🍶','🫗','🧴','🫖','🍵','🥫'] },
+  { label: 'Herbs & Spices', emojis: ['🌿','🍃','🌱','🌾','🫚','🫛','🧄','🌶️','🍂'] },
+  { label: 'Drinks', emojis: ['☕','🍵','🧋','🥤','🍹','🍷','🥂','🍾','🧊','🫖'] },
+  { label: 'Kitchen & Tools', emojis: ['🍽️','🥣','🥗','🍴','🥄','🔪','🫕','🥘','🍲','🫙','⚗️','🧪','🌡️','⏱️','🔥','❄️'] },
+  { label: 'Misc Food', emojis: ['🥙','🧆','🥗','🥪','🫔','🍱','🥡','🍿','🧂','🍽️','🛒','🌍'] }
+];
+
+let selectedEmoji = '';
+let tags = [];
+
+// ─────────────────────────────────────────────────────────
+// EMOJI MODAL
+// ─────────────────────────────────────────────────────────
+function openEmojiModal() { renderEmojiModal(''); document.getElementById('emoji-modal').classList.add('open'); setTimeout(() => document.getElementById('emoji-search').focus(),50); }
+function closeEmojiModal() { document.getElementById('emoji-modal').classList.remove('open'); document.getElementById('emoji-search').value=''; }
+function closeEmojiIfOutside(e) { if(e.target===document.getElementById('emoji-modal')) closeEmojiModal(); }
+
+function renderEmojiModal(filter) {
+  const body = document.getElementById('emoji-modal-body');
+  const q = filter.toLowerCase();
+  const seen = new Set();
+  let html='';
+
+  if(q){
+    const matches=[];
+    EMOJI_GROUPS.forEach(g=>g.emojis.forEach(e=>{ if(!seen.has(e)){seen.add(e); matches.push(e);} }));
+    html='<div class="emoji-group-label">All</div><div class="emoji-grid">';
+    matches.forEach(e=>{ html+=`<button class="emoji-btn${e===selectedEmoji?' selected':''}" onclick="pickEmoji('${e}')" title="${e}">${e}</button>`; });
+    html+='</div>';
+  } else {
+    EMOJI_GROUPS.forEach(g=>{
+      const unique=g.emojis.filter(e=>!seen.has(e));
+      unique.forEach(e=>seen.add(e));
+      if(!unique.length) return;
+      html+=`<div class="emoji-group-label">${g.label}</div><div class="emoji-grid">`;
+      unique.forEach(e=>{ html+=`<button class="emoji-btn${e===selectedEmoji?' selected':''}" onclick="pickEmoji('${e}')" title="${e}">${e}</button>`; });
+      html+='</div>';
+    });
+  }
+
+  body.innerHTML=html;
+}
+
+function filterEmoji(val){ renderEmojiModal(val); }
+function pickEmoji(e){ selectedEmoji=e; document.getElementById('emoji').value=e; document.getElementById('emoji-preview').textContent=e; document.getElementById('emoji-trigger-text').textContent=e+'  — click to change'; document.getElementById('emoji-trigger-text').style.color='var(--text)'; closeEmojiModal(); update(); }
+
+// ─────────────────────────────────────────────────────────
+// TAGS
+// ─────────────────────────────────────────────────────────
+function handleTagKey(e){
+  if(e.key==='Enter'||e.key===','){ e.preventDefault(); const v=e.target.value.replace(/,/g,'').trim(); if(v&&!tags.includes(v)){tags.push(v); renderTags(); update();} e.target.value=''; }
+  else if(e.key==='Backspace' && e.target.value==='' && tags.length){ tags.pop(); renderTags(); update(); }
+}
+function renderTags(){
+  const wrap=document.getElementById('tags-wrap'); const input=document.getElementById('tag-input');
+  wrap.querySelectorAll('.tag-chip').forEach(c=>c.remove());
+  tags.forEach((t,i)=>{ const chip=document.createElement('div'); chip.className='tag-chip'; chip.innerHTML=`${t}<button onclick="removeTag(${i})">×</button>`; wrap.insertBefore(chip,input); });
+}
+function removeTag(i){ tags.splice(i,1); renderTags(); update(); }
+
+// ─────────────────────────────────────────────────────────
+// INGREDIENTS — DRAGGABLE WITH AUTOCOMPLETE
+// ─────────────────────────────────────────────────────────
+let draggedIngredientElement = null;
+let currentAutocompleteInput = null;
+let selectedAutocompleteIndex = -1;
+
+function addIngredient(qty='', unit='', item='', notes='') {
+  const list = document.getElementById('ingredients-list');
+  const row = document.createElement('div');
+  row.className = 'ingredient-row';
+  row.draggable = true;
+  
+  row.innerHTML = `
+    <div class="drag-handle">⋮⋮</div>
+    <input type="text" placeholder="Quantity" value="${qty}" oninput="update()" onkeydown="ingEnterKey(event, this, 0)">
+    <input type="text" placeholder="Unit" value="${unit}" oninput="update()" onkeydown="ingEnterKey(event, this, 1)">
+    <div class="autocomplete-wrapper" style="position: relative;">
+      <input type="text" placeholder="Item" value="${item}" oninput="handleIngredientInput(this); update()" onfocus="handleIngredientFocus(this)" onblur="handleIngredientBlur(this)" onkeydown="handleIngredientKeydown(event, this)">
+      <div class="autocomplete-dropdown"></div>
+    </div>
+    <input type="text" placeholder="Notes (optional)" value="${notes}" oninput="update()" onkeydown="ingEnterKey(event, this, 3)">
+    <button class="btn danger" onclick="removeRow(this)">✕</button>
+  `;
+  
+  // Add drag event listeners
+  row.addEventListener('dragstart', handleIngredientDragStart);
+  row.addEventListener('dragend', handleIngredientDragEnd);
+  row.addEventListener('dragover', handleIngredientDragOver);
+  row.addEventListener('drop', handleIngredientDrop);
+  row.addEventListener('dragleave', handleIngredientDragLeave);
+  
+  list.appendChild(row);
+  update();
+
+  // Auto-focus quantity field only if adding fresh (no pre-filled values)
+  if (!qty && !unit && !item && !notes) {
+    const firstInput = row.querySelector('input');
+    if (firstInput) firstInput.focus();
+  }
+}
+
+// Handle Enter key in ingredient fields - tab through qty > unit > item > notes > new row
+function ingEnterKey(e, input, fieldIndex) {
+  if (e.key !== 'Enter') return;
+  e.preventDefault();
+  const row = input.closest('.ingredient-row');
+  const inputs = row.querySelectorAll('input');
+  
+  if (fieldIndex === 0) { // Quantity → Unit
+    inputs[1].focus();
+  } else if (fieldIndex === 1) { // Unit → Item
+    inputs[2].focus();
+  } else if (fieldIndex === 3) { // Notes → New ingredient row
+    addIngredient();
+  }
+}
+
+function addIngredientHeading(heading='') {
+  const list = document.getElementById('ingredients-list');
+  const row = document.createElement('div');
+  row.className = 'ingredient-heading-row';
+  row.draggable = true;
+  
+  row.innerHTML = `
+    <div class="drag-handle">⋮⋮</div>
+    <input type="text" class="ingredient-heading-input" value="${heading}" oninput="update()" placeholder="e.g. For the Base, For the Filling, Topping…" onkeydown="headingEnterKey(event, this)">
+    <button class="btn danger" onclick="removeRow(this)">✕</button>
+  `;
+  
+  // Add drag event listeners
+  row.addEventListener('dragstart', handleIngredientDragStart);
+  row.addEventListener('dragend', handleIngredientDragEnd);
+  row.addEventListener('dragover', handleIngredientDragOver);
+  row.addEventListener('drop', handleIngredientDrop);
+  row.addEventListener('dragleave', handleIngredientDragLeave);
+  
+  list.appendChild(row);
+  update();
+
+  // Auto-focus if adding fresh
+  if (!heading) {
+    row.querySelector('input').focus();
+  }
+}
+
+// Enter on a heading input - commit and add a new ingredient ready to type
+function headingEnterKey(e, input) {
+  if (e.key !== 'Enter') return;
+  e.preventDefault();
+  input.blur(); // Commit the heading
+  addIngredient(); // Start next ingredient immediately
+}
+
+// ─────────────────────────────────────────────────────────
+// INGREDIENT DRAG HANDLERS
+// ─────────────────────────────────────────────────────────
+function handleIngredientDragStart(e) {
+  draggedIngredientElement = this;
+  this.classList.add('dragging');
+  e.dataTransfer.effectAllowed = 'move';
+  e.dataTransfer.setData('text/html', this.innerHTML);
+}
+
+function handleIngredientDragEnd(e) {
+  this.classList.remove('dragging');
+  // Remove all drag-over classes
+  document.querySelectorAll('.ingredient-row, .ingredient-heading-row').forEach(row => {
+    row.classList.remove('drag-over');
+  });
+}
+
+function handleIngredientDragOver(e) {
+  if (e.preventDefault) {
+    e.preventDefault();
+  }
+  e.dataTransfer.dropEffect = 'move';
+  
+  if (this !== draggedIngredientElement) {
+    this.classList.add('drag-over');
+  }
+  
+  return false;
+}
+
+function handleIngredientDragLeave(e) {
+  this.classList.remove('drag-over');
+}
+
+function handleIngredientDrop(e) {
+  if (e.stopPropagation) {
+    e.stopPropagation();
+  }
+  
+  this.classList.remove('drag-over');
+  
+  if (draggedIngredientElement !== this) {
+    const list = document.getElementById('ingredients-list');
+    const allIngredients = [...list.children];
+    const draggedIndex = allIngredients.indexOf(draggedIngredientElement);
+    const targetIndex = allIngredients.indexOf(this);
+    
+    if (draggedIndex < targetIndex) {
+      this.parentNode.insertBefore(draggedIngredientElement, this.nextSibling);
+    } else {
+      this.parentNode.insertBefore(draggedIngredientElement, this);
+    }
+    
+    update();
+  }
+  
+  return false;
+}
+
+// ─────────────────────────────────────────────────────────
+// INGREDIENT AUTOCOMPLETE
+// ─────────────────────────────────────────────────────────
+function handleIngredientInput(input) {
+  const query = input.value.toLowerCase().trim();
+  const dropdown = input.parentElement.querySelector('.autocomplete-dropdown');
+  
+  if (query.length < 2) {
+    dropdown.classList.remove('show');
+    return;
+  }
+  
+  const ingredients = getIngredientSuggestions(query);
+  
+  if (ingredients.length === 0) {
+    dropdown.classList.remove('show');
+    return;
+  }
+  
+  renderAutocompleteSuggestions(dropdown, ingredients, input);
+  currentAutocompleteInput = input;
+  selectedAutocompleteIndex = -1;
+}
+
+function handleIngredientFocus(input) {
+  const query = input.value.toLowerCase().trim();
+  if (query.length >= 2) {
+    handleIngredientInput(input);
+  }
+}
+
+function handleIngredientBlur(input) {
+  // Delay hiding to allow click on dropdown
+  setTimeout(() => {
+    const dropdown = input.parentElement.querySelector('.autocomplete-dropdown');
+    dropdown.classList.remove('show');
+    currentAutocompleteInput = null;
+    selectedAutocompleteIndex = -1;
+  }, 200);
+}
+
+function handleIngredientKeydown(event, input) {
+  const dropdown = input.parentElement.querySelector('.autocomplete-dropdown');
+  const dropdownShowing = dropdown.classList.contains('show');
+
+  if (event.key === 'ArrowDown' && dropdownShowing) {
+    event.preventDefault();
+    const items = dropdown.querySelectorAll('.autocomplete-item');
+    selectedAutocompleteIndex = Math.min(selectedAutocompleteIndex + 1, items.length - 1);
+    updateAutocompleteSelection(items);
+  } else if (event.key === 'ArrowUp' && dropdownShowing) {
+    event.preventDefault();
+    const items = dropdown.querySelectorAll('.autocomplete-item');
+    selectedAutocompleteIndex = Math.max(selectedAutocompleteIndex - 1, -1);
+    updateAutocompleteSelection(items);
+  } else if (event.key === 'Enter') {
+    event.preventDefault();
+    const items = dropdown.querySelectorAll('.autocomplete-item');
+    if (dropdownShowing && selectedAutocompleteIndex >= 0 && items[selectedAutocompleteIndex]) {
+      // Select autocomplete item then move to notes
+      selectAutocompleteItem(items[selectedAutocompleteIndex].textContent.split('(')[0].trim(), input);
+    } else {
+      // Move to Notes field
+      dropdown.classList.remove('show');
+      const row = input.closest('.ingredient-row');
+      const notesInput = row.querySelector('input:nth-of-type(4)');
+      if (notesInput) notesInput.focus();
+    }
+  } else if (event.key === 'Escape') {
+    dropdown.classList.remove('show');
+  }
+}
+
+function updateAutocompleteSelection(items) {
+  items.forEach((item, index) => {
+    if (index === selectedAutocompleteIndex) {
+      item.classList.add('selected');
+      item.scrollIntoView({ block: 'nearest' });
+    } else {
+      item.classList.remove('selected');
+    }
+  });
+}
+
+function renderAutocompleteSuggestions(dropdown, ingredients, input) {
+  dropdown.innerHTML = ingredients.map(ing => {
+    const count = ing.count > 1 ? `<span class="autocomplete-count">(used ${ing.count}x)</span>` : '';
+    return `<div class="autocomplete-item" onclick="selectAutocompleteItem('${ing.name.replace(/'/g, "\\'")}', this.parentElement.previousElementSibling)">${ing.name}${count}</div>`;
+  }).join('');
+  
+  dropdown.classList.add('show');
+}
+
+function selectAutocompleteItem(itemName, input) {
+  input.value = itemName;
+  const dropdown = input.parentElement.querySelector('.autocomplete-dropdown');
+  dropdown.classList.remove('show');
+  update();
+  
+  // Move focus to notes field
+  const notesField = input.closest('.ingredient-row').querySelector('input:nth-of-type(4)');
+  if (notesField) notesField.focus();
+}
+
+function getIngredientSuggestions(query) {
+  // Get all ingredients from current recipe
+  const currentIngredients = [];
+  document.querySelectorAll('#ingredients-list .ingredient-row').forEach(row => {
+    const inputs = row.querySelectorAll('input');
+    const item = inputs[2]?.value.trim().toLowerCase();
+    if (item && item.includes(query)) {
+      currentIngredients.push(item);
+    }
+  });
+  
+  // Get ingredients from localStorage (from previously saved recipes)
+  const savedIngredients = JSON.parse(localStorage.getItem('ingredientLibrary') || '{}');
+  
+  // Combine and filter
+  const matches = {};
+  
+  // Add matches from saved ingredients
+  Object.keys(savedIngredients).forEach(key => {
+    if (key.includes(query)) {
+      matches[key] = savedIngredients[key];
+    }
+  });
+  
+  // Convert to array and sort by usage count
+  return Object.keys(matches)
+    .map(name => ({ name, count: matches[name] }))
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 8); // Show top 8 matches
+}
+
+function updateIngredientLibrary() {
+  const library = JSON.parse(localStorage.getItem('ingredientLibrary') || '{}');
+  
+  // Add ingredients from current recipe
+  document.querySelectorAll('#ingredients-list .ingredient-row').forEach(row => {
+    const inputs = row.querySelectorAll('input');
+    const item = inputs[2]?.value.trim().toLowerCase();
+    if (item && !row.classList.contains('ingredient-heading-row')) {
+      library[item] = (library[item] || 0) + 1;
+    }
+  });
+  
+  localStorage.setItem('ingredientLibrary', JSON.stringify(library));
+}
+
+// ─────────────────────────────────────────────────────────
+// STEPS
+// ─────────────────────────────────────────────────────────
+function addStep(text=''){
+  const list=document.getElementById('steps-list'); 
+  const row=document.createElement('div'); 
+  row.className='step-row';
+  row.innerHTML=`
+    <span class="step-num">${list.querySelectorAll('.step-row').length+1}</span>
+    <textarea placeholder="Describe this step… (Shift+Enter for new line, Enter for next step)" oninput="autoResize(this); update()" onkeydown="stepEnterKey(event, this)">${text}</textarea>
+    <button class="btn danger" onclick="removeRow(this); renumberSteps()">✕</button>
+  `;
+  list.appendChild(row); 
+  update();
+
+  // Auto-focus if adding fresh
+  if (!text) {
+    const ta = row.querySelector('textarea');
+    ta.focus();
+    autoResize(ta);
+  }
+}
+
+// Enter = new step, Shift+Enter = new line within step
+function stepEnterKey(e, textarea) {
+  if (e.key === 'Enter' && !e.shiftKey) {
+    e.preventDefault();
+    addStep();
+  }
+  // Shift+Enter falls through naturally - browser inserts newline
+}
+
+function addStepHeading(heading='') {
+  const list = document.getElementById('steps-list');
+  const row = document.createElement('div');
+  row.className = 'step-heading-row';
+  row.draggable = true;
+
+  row.innerHTML = `
+    <div class="drag-handle">⋮⋮</div>
+    <input type="text" placeholder="e.g. Make the Sauce, Assemble, To Serve…" value="${heading}" oninput="update()" onkeydown="stepHeadingEnterKey(event, this)">
+    <button class="btn danger" onclick="removeRow(this); renumberSteps()">✕</button>
+  `;
+
+  list.appendChild(row);
+  update();
+
+  // Auto-focus if adding fresh
+  if (!heading) {
+    row.querySelector('input').focus();
+  }
+}
+
+// Enter on step heading - commit and add next step
+function stepHeadingEnterKey(e, input) {
+  if (e.key !== 'Enter') return;
+  e.preventDefault();
+  input.blur();
+  addStep();
+}
+
+function renumberSteps(){ 
+  let stepCount = 0;
+  document.querySelectorAll('#steps-list .step-row').forEach(row => {
+    stepCount++;
+    row.querySelector('.step-num').textContent = stepCount;
+  });
+  update(); 
+}
+function autoResize(el){ el.style.height='auto'; el.style.height=el.scrollHeight+'px'; }
+
+// ─────────────────────────────────────────────────────────
+// NOTES — DRAGGABLE
+// ─────────────────────────────────────────────────────────
+let draggedNoteElement = null;
+
+function addNote(type='serving', title='', content=''){
+  const list=document.getElementById('notes-list'); 
+  const row=document.createElement('div'); 
+  row.className='note-row';
+  row.draggable = true;
+  
+  row.innerHTML=`
+    <div class="drag-handle">⋮⋮</div>
+    <select onchange="update()">
+      <option value="acknowledgement" ${type==='acknowledgement'?'selected':''}>Acknowledgement</option>
+      <option value="serving" ${type==='serving'?'selected':''}>Serving</option>
+      <option value="technique" ${type==='technique'?'selected':''}>Technique</option>
+      <option value="storage" ${type==='storage'?'selected':''}>Storage</option>
+      <option value="substitution" ${type==='substitution'?'selected':''}>Substitution</option>
+      <option value="variation" ${type==='variation'?'selected':''}>Variation</option>
+      <option value="tip" ${type==='tip'?'selected':''}>Tip</option>
+    </select>
+    <div class="note-inner">
+      <input type="text" placeholder="Title" value="${title}" oninput="update()">
+      <textarea placeholder="Content…" oninput="autoResize(this); update()">${content}</textarea>
+    </div>
+    <button class="btn danger" onclick="removeRow(this)">✕</button>
+  `;
+  
+  // Add drag event listeners
+  row.addEventListener('dragstart', handleNoteDragStart);
+  row.addEventListener('dragend', handleNoteDragEnd);
+  row.addEventListener('dragover', handleNoteDragOver);
+  row.addEventListener('drop', handleNoteDrop);
+  row.addEventListener('dragleave', handleNoteDragLeave);
+  
+  list.appendChild(row); 
+  update();
+}
+
+function handleNoteDragStart(e) {
+  draggedNoteElement = this;
+  this.classList.add('dragging');
+  e.dataTransfer.effectAllowed = 'move';
+  e.dataTransfer.setData('text/html', this.innerHTML);
+}
+
+function handleNoteDragEnd(e) {
+  this.classList.remove('dragging');
+  // Remove all drag-over classes
+  document.querySelectorAll('.note-row').forEach(row => {
+    row.classList.remove('drag-over');
+  });
+}
+
+function handleNoteDragOver(e) {
+  if (e.preventDefault) {
+    e.preventDefault();
+  }
+  e.dataTransfer.dropEffect = 'move';
+  
+  if (this !== draggedNoteElement) {
+    this.classList.add('drag-over');
+  }
+  
+  return false;
+}
+
+function handleNoteDragLeave(e) {
+  this.classList.remove('drag-over');
+}
+
+function handleNoteDrop(e) {
+  if (e.stopPropagation) {
+    e.stopPropagation();
+  }
+  
+  this.classList.remove('drag-over');
+  
+  if (draggedNoteElement !== this) {
+    const list = document.getElementById('notes-list');
+    const allNotes = [...list.children];
+    const draggedIndex = allNotes.indexOf(draggedNoteElement);
+    const targetIndex = allNotes.indexOf(this);
+    
+    if (draggedIndex < targetIndex) {
+      this.parentNode.insertBefore(draggedNoteElement, this.nextSibling);
+    } else {
+      this.parentNode.insertBefore(draggedNoteElement, this);
+    }
+    
+    update();
+  }
+  
+  return false;
+}
+
+// ─────────────────────────────────────────────────────────
+// REMOVE ROW
+// ─────────────────────────────────────────────────────────
+function removeRow(btn){ btn.closest('[class$="-row"]').remove(); update(); }
+
+// ─────────────────────────────────────────────────────────
+// BUILD JSON
+// ─────────────────────────────────────────────────────────
+function buildJSON(){
+  const title=val('title'); const id=title.toLowerCase().replace(/[^a-z0-9\s]/g,'').replace(/\s+/g,'').trim();
+  
+  const ingredients=[];
+  document.querySelectorAll('#ingredients-list > div').forEach(row=>{
+    if(row.classList.contains('ingredient-heading-row')){
+      const headingText = row.querySelector('.ingredient-heading-input').value.trim();
+      if(headingText) ingredients.push({ heading: headingText });
+    } else {
+      const inputs=row.querySelectorAll('input');
+      const qty=inputs[0].value.trim(); const unit=inputs[1].value.trim();
+      const item=inputs[2].value.trim(); const note=inputs[3].value.trim();
+      if(!item) return;
+      const ing={quantity:qty,unit,item}; if(note) ing.notes=note;
+      ingredients.push(ing);
+    }
+  });
+
+  const method=[];
+  let stepNum = 0;
+  document.querySelectorAll('#steps-list > div').forEach(row => {
+    if (row.classList.contains('step-heading-row')) {
+      const heading = row.querySelector('input')?.value.trim();
+      if (heading) method.push({ heading });
+    } else if (row.classList.contains('step-row')) {
+      const txt = row.querySelector('textarea')?.value.trim();
+      if (txt) { stepNum++; method.push({ step: stepNum, instruction: txt }); }
+    }
+  });
+
+  const notes=[];
+  document.querySelectorAll('#notes-list .note-row').forEach(row=>{
+    const type=row.querySelector('select').value;
+    const title=row.querySelector('input').value.trim();
+    const content=row.querySelector('textarea').value.trim();
+    if(title||content) notes.push({type,title,content});
+  });
+
+  const journal=[];
+  document.querySelectorAll('#journal-list .journal-row').forEach(row=>{
+    const date=row.querySelector('input[type="date"]').value;
+    const content=row.querySelector('textarea').value.trim();
+    if(content) journal.push({date,content});
+  });
+
+  const related=[];
+  document.querySelectorAll('#related-list .related-row').forEach(row=>{
+    const id=row.dataset.id;
+    const title=row.dataset.title;
+    const matchingTags=JSON.parse(row.dataset.tags || '[]');
+    const rel={id,title};
+    if(matchingTags.length) rel.matchingTags=matchingTags;
+    related.push(rel);
+  });
+
+  const obj={id,title};
+  if(val('emoji')) obj.emoji=val('emoji');
+  if(val('category')) obj.category=val('category');
+  if(val('description')) obj.description=val('description');
+  if(val('prepTime')) obj.prepTime=val('prepTime');
+  if(val('cookTime')) obj.cookTime=val('cookTime');
+  if(val('totalTime')) obj.totalTime=val('totalTime');
+  if(val('servings')) obj.servings=val('servings');
+  if(val('difficulty')) obj.difficulty=val('difficulty');
+  if(tags.length) obj.tags=[...tags];
+  if(ingredients.length) obj.ingredients=ingredients;
+  if(method.length) obj.method=method;
+  if(notes.length) obj.notes=notes;
+  if(journal.length) obj.journal=journal;
+  if(related.length) obj.related=related;
+  return {obj,id,title};
+}
+
+function val(id){ return document.getElementById(id).value.trim(); }
+
+// ─────────────────────────────────────────────────────────
+// NAV SNIPPET
+// ─────────────────────────────────────────────────────────
+const NAV_GROUP_MAP={ 'Breads':'Bread','Baking':'Bread','Biscuits':'Biscuits','Entree':'Entree','Dinner':'Dinner','Mains':'Dinner','Filipino':'Filipino','Desserts':'Dessert','Sauces':'Sauces','Pasta':'Dinner','Pizza':'Bread','Soups':'Dinner','Salads':'Dinner','Sides':'Dinner','Snacks':'Dinner','Breakfast':'Dinner','Other':'Dinner' };
+const BREAD_SUBGROUP_MAP={ 'Breads':'Bread','Baking':'Pastry & Sweet','Pizza':'Pastry & Sweet' };
+
+function buildNavSnippet(id,title,category){
+  if(!id||!title||!category) return {snippet:'',note:''};
+  const group=NAV_GROUP_MAP[category]||'Dinner';
+  const link=`<a href="recipe.html?id=${id}">${title}</a>`;
+  let snippet='',note='';
+  if(group==='Bread'){
+    const sub=BREAD_SUBGROUP_MAP[category]||'Bread';
+    snippet=`<!-- Add inside the Bread dropdown, under the <h4>${sub}</h4> sub-heading -->\n${link}`;
+    note=`<strong>Nav group:</strong> Bread → ${sub} sub-section`;
+  } else { snippet=`<!-- Add inside the ${group} dropdown -->\n${link}`; note=`<strong>Nav group:</strong> ${group}`; }
+  return {snippet,note};
+}
+
+// ─────────────────────────────────────────────────────────
+// UPDATE PREVIEW
+// ─────────────────────────────────────────────────────────
+function update(){
+  const {obj,id,title}=buildJSON();
+  const filename=id?`${id}.json`:'recipe.json';
+  document.getElementById('filename-label').textContent=filename;
+  document.getElementById('json-output').innerHTML=highlight(JSON.stringify(obj,null,2));
+
+  const category=val('category');
+  const {snippet,note}=buildNavSnippet(id,title,category);
+  document.getElementById('nav-note').innerHTML=note?`Paste this line into <strong>nav.html</strong> — ${note}`:'Fill in Title and Category to generate the nav snippet.';
+  document.getElementById('nav-output').innerHTML=snippet?highlightHTML(snippet):'<span style="color:var(--text-dim);font-style:italic">— waiting for title &amp; category —</span>';
+  
+  // Auto-generate timeline if we have method steps
+  if (obj.method && obj.method.length > 0) {
+    generateTimeline();
+  } else {
+    document.getElementById('timeline-box').style.display = 'none';
+  }
+  
+  // Auto-calculate nutrition if we have ingredients
+  if (obj.ingredients && obj.ingredients.length > 0) {
+    calculateNutrition();
+  } else {
+    document.getElementById('nutrition-box').style.display = 'none';
+  }
+  
+  // Update duplicate button visibility
+  updateDuplicateButton();
+}
+
+// ─────────────────────────────────────────────────────────
+// HIGHLIGHT
+// ─────────────────────────────────────────────────────────
+function highlight(json){ return json.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g,m=>{ if(/^"/.test(m)){ if(/:$/.test(m)) return `<span class="j-key">${m}</span>`; return `<span class="j-str">${m}</span>`;} if(/true|false/.test(m)) return `<span class="j-bool">${m}</span>`; if(/null/.test(m)) return `<span class="j-null">${m}</span>`; return `<span class="j-num">${m}</span>`; }); }
+function highlightHTML(html){ return html.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/(&lt;!--.*?--&gt;)/g,'<span class="h-comment">$1</span>').replace(/(&lt;\/?[a-z][a-z0-9]*)/gi,'<span class="h-tag">$1</span>').replace(/([a-z]+)=(&quot;|")/gi,'<span class="h-attr">$1</span>=<span class="h-val">"').replace(/(&gt;)([^&<\n]+)(&lt;)/g,'$1<span class="h-text">$2</span>$3').replace(/&gt;/g,'<span class="h-tag">&gt;</span>'); }
+
+// ─────────────────────────────────────────────────────────
+// DOWNLOAD / COPY
+// ─────────────────────────────────────────────────────────
+function downloadJSON(){ 
+  updateIngredientLibrary();
+  const {obj,id}=buildJSON(); 
+  if(!obj.title){alert('Add a title first.'); return;}
+
+  // ── Inject nutrition snapshot ──
+  const nutritionOutput = document.getElementById('nutrition-output');
+  if(nutritionOutput && nutritionOutput.querySelector('.nutrition-calories')) {
+    const calEl = nutritionOutput.querySelector('.nutrition-calories span:last-child');
+    const rows = nutritionOutput.querySelectorAll('.nutrition-row');
+    const getNutrientVal = (label) => {
+      for(let row of rows) {
+        if(row.querySelector('.nutrition-label-text')?.textContent.includes(label))
+          return parseInt(row.querySelector('span:last-child')?.textContent) || 0;
+      }
+      return 0;
+    };
+    const coverageEl = nutritionOutput.querySelector('.nutrition-coverage');
+    const coverageMatch = coverageEl ? coverageEl.textContent.match(/(\d+)%/) : null;
+    obj.nutrition = {
+      servings: parseInt(val('servings')) || 1,
+      cal: parseInt(calEl?.textContent) || 0,
+      protein: getNutrientVal('Protein'),
+      carbs: getNutrientVal('Carbohydrate'),
+      fat: getNutrientVal('Fat'),
+      fiber: getNutrientVal('Fiber'),
+      coverage: coverageMatch ? parseInt(coverageMatch[1]) : null
+    };
+  }
+
+  // ── Inject timeline snapshot ──
+  const timelineOutput = document.getElementById('timeline-output');
+  if(timelineOutput) {
+    const timelineItems = [];
+    timelineOutput.querySelectorAll('div').forEach(row => {
+      const time = row.querySelector('span:first-child')?.textContent?.trim();
+      const event = row.querySelector('span:last-child')?.textContent?.trim();
+      if(time && event && time !== event) timelineItems.push({ time, event });
+    });
+    if(timelineItems.length) obj.timeline = timelineItems;
+  }
+
+  const blob=new Blob([JSON.stringify(obj,null,2)],{type:'application/json'}); 
+  const a=document.createElement('a'); 
+  a.href=URL.createObjectURL(blob); 
+  a.download=`${id||'recipe'}.json`; 
+  a.click(); 
+  URL.revokeObjectURL(a.href); 
+}
+function copyJSON(){ const {obj}=buildJSON(); navigator.clipboard.writeText(JSON.stringify(obj,null,2)).then(()=>toast('JSON copied!')); }
+function copyNav(){ const {id,title}=buildJSON(); const category=val('category'); const {snippet}=buildNavSnippet(id,title,category); if(!snippet){alert('Fill in title and category first.'); return;} const justLink=snippet.split('\n').find(l=>l.trim().startsWith('<a')); navigator.clipboard.writeText(justLink||snippet).then(()=>toast('Nav link copied!')); }
+function toast(msg){ const t=document.getElementById('toast'); t.textContent=msg; t.classList.add('show'); setTimeout(()=>t.classList.remove('show'),2200); }
+
+// ─────────────────────────────────────────────────────────
+// CLEAR
+// ─────────────────────────────────────────────────────────
+function clearForm(){
+  if(!confirm('Clear everything and start fresh?')) return;
+  ['title','category','difficulty','description','prepTime','cookTime','totalTime','servings'].forEach(id=>{ const el=document.getElementById(id); if(el.tagName==='SELECT') el.selectedIndex=0; else el.value=''; });
+  selectedEmoji=''; document.getElementById('emoji').value=''; document.getElementById('emoji-preview').textContent='＋'; document.getElementById('emoji-trigger-text').textContent='Choose an emoji…'; document.getElementById('emoji-trigger-text').style.color=''; tags=[]; renderTags();
+  document.getElementById('ingredients-list').innerHTML=''; document.getElementById('steps-list').innerHTML=''; document.getElementById('notes-list').innerHTML=''; document.getElementById('journal-list').innerHTML=''; update();
+}
+
+// ─────────────────────────────────────────────────────────
+// LOAD / EDIT JSON
+// ─────────────────────────────────────────────────────────
+function loadJSONFile(event){
+  const file=event.target.files[0]; if(!file) return;
+  const reader=new FileReader();
+  reader.onload=e=>{
+    try{ const data=JSON.parse(e.target.result); populateForm(data); document.getElementById('mode-label').textContent='✎ Editing: '+file.name; document.getElementById('mode-label').style.color='var(--gold)'; toast('Loaded: '+file.name); }
+    catch(err){ alert('Could not parse JSON: '+err.message); }
+  };
+  reader.readAsText(file); event.target.value='';
+}
+
+function populateForm(data){
+  ['title','category','difficulty','description','prepTime','cookTime','totalTime','servings'].forEach(id=>{
+    const el=document.getElementById(id); if(!el) return; if(el.tagName==='SELECT') el.selectedIndex=0; else el.value='';
+  });
+  selectedEmoji=''; document.getElementById('emoji').value=''; document.getElementById('emoji-preview').textContent='＋'; document.getElementById('emoji-trigger-text').textContent='Choose an emoji…'; document.getElementById('emoji-trigger-text').style.color=''; tags=[]; document.getElementById('ingredients-list').innerHTML=''; document.getElementById('steps-list').innerHTML=''; document.getElementById('notes-list').innerHTML=''; document.getElementById('journal-list').innerHTML=''; document.getElementById('related-list').innerHTML='';
+
+  if(data.title) document.getElementById('title').value=data.title;
+  if(data.description) document.getElementById('description').value=data.description;
+  if(data.prepTime) document.getElementById('prepTime').value=data.prepTime;
+  if(data.cookTime) document.getElementById('cookTime').value=data.cookTime;
+  if(data.totalTime) document.getElementById('totalTime').value=data.totalTime;
+  if(data.servings) document.getElementById('servings').value=data.servings;
+
+  if(data.category){
+    const sel=document.getElementById('category'); for(let i=0;i<sel.options.length;i++){ if(sel.options[i].text===data.category){ sel.selectedIndex=i; break; } }
+  }
+
+  if(data.difficulty){
+    const sel=document.getElementById('difficulty'); for(let i=0;i<sel.options.length;i++){ if(sel.options[i].text===data.difficulty){ sel.selectedIndex=i; break; } }
+  }
+
+  if(data.emoji) pickEmoji(data.emoji);
+
+  tags=Array.isArray(data.tags)?[...data.tags]:[]; renderTags();
+
+  if(Array.isArray(data.ingredients)) data.ingredients.forEach(ing=>{
+    if(ing.heading) addIngredientHeading(ing.heading);
+    else addIngredient(ing.quantity||'',ing.unit||'',ing.item||'',ing.notes||'');
+  });
+
+  if(Array.isArray(data.method)) data.method.forEach(step=>{
+    if(step.heading) addStepHeading(step.heading);
+    else addStep(step.instruction||'');
+  });
+  if(Array.isArray(data.notes)) data.notes.forEach(note=>{ 
+    if(note.type) addNote(note.type,note.title||'',note.content||''); 
+  });
+  if(Array.isArray(data.journal)) data.journal.forEach(entry=>{
+    addJournalEntry(entry.date||'',entry.content||'');
+  });
+  if(Array.isArray(data.related)) data.related.forEach(rel=>{
+    loadRelatedRecipe(rel.id, rel.title, rel.matchingTags || []);
+  });
+
+  update();
+}
+
+function loadRelatedRecipe(id, title, matchingTags) {
+  const list = document.getElementById('related-list');
+  const row = document.createElement('div');
+  row.className = 'related-row';
+  row.draggable = true;
+  row.dataset.id = id;
+  row.dataset.title = title;
+  row.dataset.tags = JSON.stringify(matchingTags);
+  
+  const tagHtml = matchingTags.length 
+    ? matchingTags.map(t => `<span class="tag-pill" onclick="removeTagFromRelated(this, '${t}')">${t}</span>`).join('')
+    : '';
+  
+  row.innerHTML = `
+    <div class="drag-handle">⋮⋮</div>
+    <div>
+      <div style="font-weight:500;margin-bottom:0.25rem;">${title}</div>
+      <div style="font-size:0.7rem;color:var(--text-dim);font-family:var(--mono);">${id}</div>
+    </div>
+    <div class="tag-container">
+      ${tagHtml}
+      <button class="add-tag-btn" onclick="openTagPicker(this.closest('.related-row'))">+ Add Tags</button>
+    </div>
+    <button class="btn remove" onclick="this.closest('.related-row').remove();update();">✕</button>
+  `;
+  
+  list.appendChild(row);
+  setupDragHandlers(row);
+}
+
+// ─────────────────────────────────────────────────────────
+// IMPORT RECIPE FROM PDF/HTML/DOCX
+// ─────────────────────────────────────────────────────────
+function showLoading(message) {
+  document.getElementById('loading-message').textContent = message;
+  document.getElementById('loading-modal').style.display = 'flex';
+}
+
+function hideLoading() {
+  document.getElementById('loading-modal').style.display = 'none';
+}
+
+async function importRecipeFile(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  
+  const fileName = file.name.toLowerCase();
+  let recipeText = '';
+  
+  try {
+    showLoading('Reading file...');
+    
+    if (fileName.endsWith('.pdf')) {
+      recipeText = await extractTextFromPDF(file);
+    } else if (fileName.endsWith('.html') || fileName.endsWith('.htm')) {
+      recipeText = await extractTextFromHTML(file);
+    } else if (fileName.endsWith('.docx') || fileName.endsWith('.doc')) {
+      recipeText = await extractTextFromDOCX(file);
+    }
+    
+    if (!recipeText || recipeText.trim().length < 50) {
+      hideLoading();
+      alert('Could not extract enough text from the file. Please try a different file.');
+      event.target.value = '';
+      return;
+    }
+    
+    showLoading('Parsing recipe...');
+    
+    let parsedRecipe = parseRecipeText(recipeText);
+    
+    if (parsedRecipe && (parsedRecipe.ingredients?.length > 0 || parsedRecipe.method?.length > 0)) {
+      hideLoading();
+      populateForm(parsedRecipe);
+      document.getElementById('mode-label').textContent = '✎ Imported: ' + file.name;
+      document.getElementById('mode-label').style.color = 'var(--gold)';
+      toast('Recipe imported! Please review and adjust as needed.');
+    } else {
+      hideLoading();
+      navigator.clipboard.writeText(recipeText).catch(()=>{});
+      alert('Could not parse the recipe automatically. The text has been copied to your clipboard.');
+    }
+    
+  } catch (error) {
+    hideLoading();
+    console.error('Import error:', error);
+    alert('Error importing recipe: ' + error.message);
+  }
+  
+  event.target.value = '';
+}
+
+// ─────────────────────────────────────────────────────────
+// SMART RECIPE PARSER — No API needed
+// ─────────────────────────────────────────────────────────
+function parseRecipeText(rawText) {
+  try {
+    const recipe = { title: '', description: '', servings: '', prepTime: '', cookTime: '', totalTime: '', ingredients: [], method: [], notes: [] };
+
+    // ── Strip emoji and garbage unicode from a line, return clean text ──
+    function stripEmoji(s) {
+      return s
+        .replace(/[\u{1F000}-\u{1FFFF}]/gu, '')   // emoji block
+        .replace(/[\u{2600}-\u{26FF}]/gu, '')       // misc symbols
+        .replace(/[\u{2700}-\u{27BF}]/gu, '')       // dingbats
+        .replace(/[\u0080-\u009F]/g, '')             // control chars
+        .replace(/[\uD800-\uDFFF]/g, '')             // surrogates (PDF garbage)
+        .replace(/[^\x20-\x7E\u00A0-\u024F\u2013\u2014\u2018\u2019\u201C\u201D\u00B0\u00B7\u2192\u00A9]/g, ' ')
+        .replace(/\s{2,}/g, ' ')
+        .trim();
+    }
+
+    // ── Split raw text into clean lines ──
+    const lines = rawText
+      .split('\n')
+      .map(l => l.trim())
+      .filter(l => l.length > 0);
+
+    // ── JUNK patterns - always discard these lines ──
+    const JUNK = [
+      /^a\s*[&+]\s*j\s+personal/i,
+      /cooked once/i,
+      /always repeated/i,
+      /all rights reserved/i,
+      /^©|^\u00A9/,
+      /^page \d+/i,
+      /^my notes:?\s*$/i,
+      /print (recipe|option)/i,
+      /download full pdf/i,
+      /←\s*back/i,
+      /netlify|porkbun|brevo/i,
+      /handcrafted in the philippines/i,
+      /tradition\.\s*love\.\s*patience/i,
+      /^sitemap|privacy policy|terms of/i,
+      /follow us on/i,
+      /pinterest|twitter|facebook/i,
+    ];
+    const isJunk = raw => {
+      const s = stripEmoji(raw).toLowerCase();
+      return JUNK.some(r => r.test(s) || r.test(raw));
+    };
+
+    // ── PART heading: "Part 1: Sponge Cake Base" (with any emoji prefix) ──
+    function matchPart(raw) {
+      const s = stripEmoji(raw).replace(/^\W+/, '').trim();
+      const m = s.match(/^part\s+\d+\s*[:–—-]\s*(.+)/i);
+      return m ? m[1].trim() : null;
+    }
+
+    // ── Metadata signals ──
+    function matchServes(raw) {
+      const s = stripEmoji(raw).trim();
+      const m = s.match(/^(?:serves?|servings?|portions?):?\s*([\d][\d\s\-–]+(?:slices?|portions?|people|servings?)?)/i);
+      return m ? m[1].replace(/\(.*\)/, '').trim() : null;
+    }
+    function matchTime(raw) {
+      const s = stripEmoji(raw).trim();
+      const m = s.match(/^(prep|cook(?:ing)?|total)\s*(?:time)?:?\s*(.+)/i);
+      if (m) return { type: m[1].toLowerCase().replace('cooking','cook'), val: m[2].replace(/\(.*?\)/g,'').trim() };
+      // "Time Required: ..." or "Time: ..."
+      const m2 = s.match(/^time(?:\s+required)?:?\s*(.+)/i);
+      if (m2) return { type: 'total', val: m2[1].replace(/\(.*?\)/g,'').replace(/·.*/,'').trim() };
+      return null;
+    }
+
+    // ── Is this a SECTION signal (triggers state change but is not content) ──
+    const ING_TRIGGERS = [
+      /^(?:you['']?ll need|what you['']?ll need|what you need|mix together|you need|ingredients?)\s*:?\s*$/i,
+    ];
+    const METHOD_TRIGGERS = [
+      /^(?:method|instructions?|directions?|steps?|how to (?:make|whip|prepare|cook|assemble)|now build|method\s*[:\-—])\s*:?\s*$/i,
+      /^how to whip it\s*:?\s*$/i,
+    ];
+    const NOTE_TRIGGERS = [
+      /^(?:chef['']?s?\s*notes?|tips?|notes?|bonus\s*tip|important\s*tip|make[\- ]ahead|storage|serving\s*suggestions?)\s*:?\s*$/i,
+      /^when you['']?re ready to serve/i,
+    ];
+    const isTrigger = (raw, list) => {
+      const s = stripEmoji(raw).trim();
+      return list.some(r => r.test(s));
+    };
+
+    // ── Is a SERVES-like heading ("Serves", "‍🍳 Serves") ──
+    const SERVES_HEADING = /^(?:serves?|servings?)\s*:?\s*$/i;
+    // ── Is a TIME-like heading ("⏱ Time Required") ──
+    const TIME_HEADING = /^time(?:\s+required)?\s*:?\s*$/i;
+
+    // ── Is this a sub-heading within a section? ──
+    function isSubHeading(raw) {
+      const s = stripEmoji(raw).trim();
+      if (s.length < 2 || s.length > 65) return false;
+      if (/^\d/.test(s)) return false;                         // starts with number
+      if (/^(\d+)[.)]\s/.test(s)) return false;               // numbered step
+      if (/^[-•*◆▪·]\s/.test(s)) return false;               // bullet
+      if (/[.!?]$/.test(s) && s.length > 20) return false;   // ends with punctuation = sentence
+      if (/\b(and|fold|whisk|bake|cook|stir|add|place|pour|mix|beat|remove|brush)\b/i.test(s) && s.length > 25) return false; // verb sentence
+      return true;
+    }
+
+    // ── UNITLESS ingredients: "Pinch of salt", "Zest of 1 orange" ──
+    const UNITLESS_RE = /^(pinch|dash|splash|handful|bunch|drizzle|squeeze|knob|sprig|sprigs|zest of|juice of|to taste|as needed|as required)\b/i;
+
+    // ── Parse ingredient line → {quantity, unit, item, notes} ──
+    function parseIng(raw) {
+      let line = stripEmoji(raw).replace(/^[-•*◆▪·]\s+/, '').replace(/^\s+/, '').trim();
+      if (!line || line.length < 2) return null;
+
+      if (UNITLESS_RE.test(line)) return { quantity: '', unit: '', item: line, notes: '' };
+
+      // qty + unit + item
+      const m = line.match(
+        /^([\d¼½¾⅓⅔⅛⅜⅝⅞]+(?:[\/\.\s][\d]+)?)\s*(g|kg|ml|l|litre|litres|tsp|tbsp|tablespoons?|teaspoons?|cups?|oz|lbs?|pinch|handful|bunch|cloves?|slices?|sheets?|rashers?|sprigs?|heads?|cans?|tins?|pkts?|packs?|pieces?|sticks?|strips?)\.?\s*(.*)/i
+      );
+      if (m) {
+        let qty = m[1].trim(), unit = m[2].trim().toLowerCase(), rest = m[3].trim(), notes = '';
+        const commaM = rest.match(/^(.+?),\s*(sifted|softened|melted|chopped|sliced|diced|grated|optional|to taste|roughly|finely|lightly|cold|room temp|divided|plus extra|separated|beaten|whisked|cooled)(.*)$/i);
+        if (commaM) { rest = commaM[1].trim(); notes = (commaM[2] + (commaM[3]||'')).trim(); }
+        // clean "optional" from item
+        rest = rest.replace(/\s*\(optional[^)]*\)/i, '').trim();
+        return { quantity: qty, unit, item: rest, notes };
+      }
+      // qty only: "4 eggs"
+      const m2 = line.match(/^([\d¼½¾⅓⅔⅛⅜⅝⅞]+(?:[\/\.][\d]+)?)\s+(.+)/);
+      if (m2) return { quantity: m2[1].trim(), unit: '', item: m2[2].trim(), notes: '' };
+      // plain item
+      return { quantity: '', unit: '', item: line, notes: '' };
+    }
+
+    // ── Tip prefix inline: "Important tip: ..." / "Bonus tip: ..." ──
+    const TIP_PREFIX_RE = /^(important\s*tip|bonus\s*tip|tip|note)\s*:\s*/i;
+
+    // ── Assembly/Topping/Presentation sections = method not ingredients ──
+    const METHOD_PART_RE = /^(assembly|topping|topping\s*[&+]\s*presentation|presentation|to\s*serve|serving)/i;
+
+    // ── Chef's notes section name ──
+    const NOTES_PART_RE = /^(chef['']?s?\s*notes?|notes?)/i;
+
+    // ──────────────────────────────────────────────
+    // STATE MACHINE
+    // ──────────────────────────────────────────────
+    let section = 'header';
+    let titleDone = false;
+    let descDone = false;
+    let awaitingServes = false;   // next line after "Serves" heading
+    let awaitingTime = false;     // next line after "Time Required" heading
+    let stepNum = 1;
+
+    for (let i = 0; i < lines.length; i++) {
+      const raw = lines[i];
+      const clean = stripEmoji(raw).trim();
+
+      if (!clean || clean.length < 2) continue;
+      if (isJunk(raw)) continue;
+
+      // ── Handle "awaiting" state for serves/time headings ──
+      if (awaitingServes) {
+        awaitingServes = false;
+        // "8–10 slices (or just you...)" → extract the number part
+        const m = clean.match(/([\d][\d\s\-–]+)/);
+        if (m) recipe.servings = m[1].replace(/\u2013/g,'-').trim();
+        continue;
+      }
+      if (awaitingTime) {
+        awaitingTime = false;
+        // "1 hour hands-on · 4–6 hours chill time ..."  → take just the first time bit
+        const m = clean.match(/^(.+?)(?:\s*[·•]\s*|\s{3,})/);
+        recipe.totalTime = m ? m[1].trim() : clean.replace(/\(.*?\)/g,'').trim();
+        continue;
+      }
+
+      // ── GLOBAL: Part heading detection (works in any section) ──
+      const partName = matchPart(raw);
+      if (partName) {
+        if (METHOD_PART_RE.test(partName)) {
+          section = 'method';
+          recipe.method.push({ heading: partName });
+        } else if (NOTES_PART_RE.test(partName)) {
+          section = 'notes';
+        } else {
+          section = 'ingredients';
+          recipe.ingredients.push({ heading: partName });
+        }
+        continue;
+      }
+
+      // ── GLOBAL: "Serves" heading ──
+      if (SERVES_HEADING.test(clean)) { awaitingServes = true; continue; }
+
+      // ── GLOBAL: Inline serves "Serves: 8-10" ──
+      const servesM = matchServes(clean);
+      if (servesM) { recipe.servings = servesM; continue; }
+
+      // ── GLOBAL: Time heading ──
+      if (TIME_HEADING.test(clean)) { awaitingTime = true; continue; }
+
+      // ── GLOBAL: Inline time ──
+      const timeM = matchTime(raw);
+      if (timeM) {
+        if (timeM.type.startsWith('prep')) recipe.prepTime = timeM.val;
+        else if (timeM.type.startsWith('cook')) recipe.cookTime = timeM.val;
+        else recipe.totalTime = timeM.val;
+        continue;
+      }
+
+      // ── GLOBAL: Section triggers ──
+      if (isTrigger(raw, ING_TRIGGERS)) continue; // skip "You'll need" etc silently
+      if (isTrigger(raw, METHOD_TRIGGERS)) { section = 'method'; continue; }
+      if (isTrigger(raw, NOTE_TRIGGERS)) { section = 'notes'; continue; }
+
+      // ── GLOBAL: Tip prefix ──
+      if (TIP_PREFIX_RE.test(clean)) {
+        const content = clean.replace(TIP_PREFIX_RE, '').trim();
+        if (content.length > 3) recipe.notes.push({ type: 'tip', title: "Chef's Tip", content });
+        continue;
+      }
+
+      // ── "Chef's Notes" as a part-like heading ──
+      if (NOTES_PART_RE.test(clean)) { section = 'notes'; continue; }
+
+      // ══════════════════════
+      // HEADER
+      // ══════════════════════
+      if (section === 'header') {
+        if (!titleDone) {
+          recipe.title = clean;
+          titleDone = true;
+          continue;
+        }
+        if (!descDone) {
+          // "With Tia Maria & Grand Marnier" style subtitle → append to description
+          if (/^with\s+/i.test(clean)) {
+            recipe.description = recipe.description ? recipe.description + ' ' + clean : clean;
+            continue;
+          }
+          // Evocative description line
+          if (clean.length > 10 && !SERVES_HEADING.test(clean) && !TIME_HEADING.test(clean)) {
+            recipe.description = clean.replace(/^[""\u201C]|[""\u201D]$/g,'').trim();
+            descDone = true;
+          }
+          continue;
+        }
+        continue;
+      }
+
+      // ══════════════════════
+      // INGREDIENTS
+      // ══════════════════════
+      if (section === 'ingredients') {
+        // Method signal mid-ingredients
+        if (isTrigger(raw, METHOD_TRIGGERS)) { section = 'method'; continue; }
+
+        // "Pinch of salt" — unitless ingredient, NOT a heading
+        if (UNITLESS_RE.test(clean)) {
+          recipe.ingredients.push({ quantity: '', unit: '', item: clean, notes: '' });
+          continue;
+        }
+
+        // Sub-heading (e.g. "Topping", "For the Sauce")
+        if (isSubHeading(clean) && !UNITLESS_RE.test(clean)) {
+          // But only if it doesn't look like an ingredient with no qty
+          const testParsed = parseIng(clean);
+          if (!testParsed || !testParsed.quantity) {
+            recipe.ingredients.push({ heading: clean.replace(/:$/,'').trim() });
+            continue;
+          }
+        }
+
+        const parsed = parseIng(clean);
+        if (parsed) {
+          // Long sentence with cooking verb = probably a tip, not an ingredient
+          if (!parsed.quantity && parsed.item.length > 55 &&
+              /\b(fold|whisk|bake|cook|stir|add|place|pour|mix|beat|remove|brush|chill)\b/i.test(parsed.item)) {
+            recipe.notes.push({ type: 'tip', title: 'Note', content: parsed.item });
+          } else {
+            recipe.ingredients.push(parsed);
+          }
+        }
+        continue;
+      }
+
+      // ══════════════════════
+      // METHOD
+      // ══════════════════════
+      if (section === 'method') {
+        if (isTrigger(raw, NOTE_TRIGGERS)) { section = 'notes'; continue; }
+        if (NOTES_PART_RE.test(clean)) { section = 'notes'; continue; }
+
+        // Numbered step "1. Preheat..."
+        const stepM = clean.match(/^(\d+)[.)]\s+(.+)/);
+        if (stepM) {
+          recipe.method.push({ step: stepNum++, instruction: stepM[2].trim() });
+          continue;
+        }
+
+        // Bullet in method - check if ingredient or instruction
+        const bulletM = clean.match(/^[-•*◆▪·]\s+(.+)/);
+        if (bulletM) {
+          const content = bulletM[1].trim();
+          // Short item with quantity = topping ingredient
+          const parsed = parseIng(content);
+          if (parsed && parsed.quantity && content.length < 50) {
+            recipe.ingredients.push(parsed);
+          } else {
+            recipe.method.push({ step: stepNum++, instruction: content });
+          }
+          continue;
+        }
+
+        // Sub-heading in method
+        if (isSubHeading(clean)) {
+          recipe.method.push({ heading: clean.replace(/:$/,'').trim() });
+          continue;
+        }
+
+        // Regular instruction line
+        if (clean.length > 8) {
+          // Check if it continues the previous step (PDF line split)
+          const last = recipe.method[recipe.method.length - 1];
+          if (last && last.instruction && !last.instruction.match(/[.!?]$/) && clean.length < 60 && !/^[A-Z]/.test(clean)) {
+            last.instruction += ' ' + clean;
+          } else {
+            recipe.method.push({ step: stepNum++, instruction: clean });
+          }
+        }
+        continue;
+      }
+
+      // ══════════════════════
+      // NOTES
+      // ══════════════════════
+      if (section === 'notes') {
+        const bulletM = clean.match(/^[-•*◆▪·]\s+(.+)/);
+        const content = bulletM ? bulletM[1].trim() : clean;
+        if (content.length > 4 && !isJunk(content)) {
+          recipe.notes.push({ type: 'tip', title: "Chef's Note", content });
+        }
+        continue;
+      }
+
+    } // end for loop
+
+    // ── Renumber method steps cleanly ──
+    let s = 0;
+    recipe.method = recipe.method.map(item => item.heading ? item : { step: ++s, instruction: item.instruction });
+
+    if (recipe.ingredients.length === 0 && recipe.method.length === 0) return null;
+    return recipe;
+
+  } catch(e) {
+    console.error('Parser error:', e);
+    return null;
+  }
+}
+
+// ─────────────────────────────────────────────────────────
+// COOKING TIMELINE GENERATOR
+// ─────────────────────────────────────────────────────────
+function generateTimeline() {
+  const {obj} = buildJSON();
+  
+  // Check if we have enough data
+  if (!obj.method || obj.method.length === 0) {
+    document.getElementById('timeline-output').innerHTML = '<p style="color:var(--text-dim);font-style:italic;">Add method steps to generate a timeline</p>';
+    document.getElementById('timeline-box').style.display = 'none';
+    return;
+  }
+  
+  // Parse times
+  const prepMinutes = parseTimeToMinutes(obj.prepTime || '0');
+  const cookMinutes = parseTimeToMinutes(obj.cookTime || '0');
+  const totalMinutes = parseTimeToMinutes(obj.totalTime || '') || (prepMinutes + cookMinutes);
+  
+  if (totalMinutes === 0) {
+    document.getElementById('timeline-output').innerHTML = '<p style="color:var(--text-dim);font-style:italic;">Add prep/cook times to generate a timeline</p>';
+    document.getElementById('timeline-box').style.display = 'none';
+    return;
+  }
+  
+  // Generate timeline
+  const now = new Date();
+  const servingTime = new Date(now.getTime() + totalMinutes * 60000);
+  
+  const timeline = [];
+  
+  // Start time
+  timeline.push({
+    time: formatTime(now),
+    event: '🏁 Start cooking',
+    style: 'font-weight: 600; color: var(--green);'
+  });
+  
+  // Estimate time per step
+  const methodSteps = obj.method.length;
+  const avgMinutesPerStep = totalMinutes / (methodSteps + 1);
+  
+  // Add prep phase if exists
+  if (prepMinutes > 0) {
+    const prepEnd = new Date(now.getTime() + prepMinutes * 60000);
+    timeline.push({
+      time: formatTime(now),
+      event: `📋 Prep ingredients (${obj.prepTime})`,
+      style: 'margin-left: 1rem;'
+    });
+    timeline.push({
+      time: formatTime(prepEnd),
+      event: '✓ Prep complete',
+      style: 'color: var(--text-dim); font-style: italic; margin-left: 1rem;'
+    });
+  }
+  
+  // Add method steps
+  obj.method.forEach((step, index) => {
+    const stepTime = new Date(now.getTime() + ((index + 1) * avgMinutesPerStep) * 60000);
+    const instruction = step.instruction;
+    
+    timeline.push({
+      time: formatTime(stepTime),
+      event: `${index + 1}. ${instruction}`,
+      style: 'margin-left: 1rem; align-items: start;'
+    });
+  });
+  
+  // Serving time
+  timeline.push({
+    time: formatTime(servingTime),
+    event: '🍽️ Ready to serve!',
+    style: 'font-weight: 600; color: var(--gold); margin-top: 0.5rem;'
+  });
+  
+  // Render timeline
+  const html = timeline.map(item => 
+    `<div style="display: grid; grid-template-columns: 90px 1fr; gap: 1rem; margin-bottom: 0.6rem; align-items: start; ${item.style || ''}">
+      <span style="font-family: var(--mono); color: var(--gold); font-size: 0.8rem; padding-top: 0.1rem; white-space: nowrap;">${item.time}</span>
+      <span style="line-height: 1.5; word-break: break-word;">${item.event}</span>
+    </div>`
+  ).join('');
+  
+  document.getElementById('timeline-output').innerHTML = html;
+  document.getElementById('timeline-box').style.display = 'block';
+}
+
+function parseTimeToMinutes(timeStr) {
+  if (!timeStr) return 0;
+  
+  const str = timeStr.toLowerCase();
+  let total = 0;
+  
+  // Match hours
+  const hours = str.match(/(\d+)\s*(h|hr|hour)/);
+  if (hours) total += parseInt(hours[1]) * 60;
+  
+  // Match minutes
+  const minutes = str.match(/(\d+)\s*(m|min|minute)/);
+  if (minutes) total += parseInt(minutes[1]);
+  
+  return total;
+}
+
+function formatTime(date) {
+  let hours = date.getHours();
+  const minutes = date.getMinutes();
+  const ampm = hours >= 12 ? 'PM' : 'AM';
+  hours = hours % 12 || 12;
+  const minutesStr = minutes.toString().padStart(2, '0');
+  return `${hours}:${minutesStr} ${ampm}`;
+}
+
+function copyTimeline() {
+  const timelineEl = document.getElementById('timeline-output');
+  const text = Array.from(timelineEl.querySelectorAll('div')).map(div => {
+    const spans = div.querySelectorAll('span');
+    const time = spans[0]?.textContent?.trim() || '';
+    const event = spans[1]?.textContent?.trim() || '';
+    return `${time}  ${event}`;
+  }).filter(line => line.trim()).join('\n');
+  
+  navigator.clipboard.writeText(text).then(() => toast('Timeline copied!'));
+}
+
+// ─────────────────────────────────────────────────────────
+// NUTRITION CALCULATOR
+// ─────────────────────────────────────────────────────────
+// Comprehensive nutrition database (per 100g unless noted)
+const NUTRITION_DB = {
+  // Flours & Grains
+  'flour': { cal: 364, protein: 10, carbs: 76, fat: 1, fiber: 2.7 },
+  'flour (all-purpose)': { cal: 364, protein: 10, carbs: 76, fat: 1, fiber: 2.7 },
+  'flour (bread)': { cal: 361, protein: 12, carbs: 72, fat: 1.5, fiber: 2.4 },
+  'flour (whole wheat)': { cal: 340, protein: 13, carbs: 72, fat: 2, fiber: 11 },
+  'flour (00)': { cal: 364, protein: 11, carbs: 76, fat: 0.9, fiber: 2.5 },
+  'rice': { cal: 130, protein: 2.7, carbs: 28, fat: 0.3, fiber: 0.4 },
+  'pasta': { cal: 371, protein: 13, carbs: 75, fat: 1.5, fiber: 3 },
+  'bread': { cal: 265, protein: 9, carbs: 49, fat: 3.2, fiber: 2.7 },
+  'oats': { cal: 389, protein: 17, carbs: 66, fat: 7, fiber: 11 },
+  
+  // Sugars & Sweeteners
+  'sugar': { cal: 387, protein: 0, carbs: 100, fat: 0, fiber: 0 },
+  'sugar (caster)': { cal: 387, protein: 0, carbs: 100, fat: 0, fiber: 0 },
+  'sugar (brown)': { cal: 380, protein: 0, carbs: 98, fat: 0, fiber: 0 },
+  'honey': { cal: 304, protein: 0.3, carbs: 82, fat: 0, fiber: 0.2 },
+  'maple syrup': { cal: 260, protein: 0, carbs: 67, fat: 0.2, fiber: 0 },
+  
+  // Dairy
+  'milk': { cal: 61, protein: 3.2, carbs: 4.8, fat: 3.3, fiber: 0 },
+  'cream': { cal: 340, protein: 2.2, carbs: 3.4, fat: 36, fiber: 0 },
+  'butter': { cal: 717, protein: 0.9, carbs: 0.1, fat: 81, fiber: 0 },
+  'butter (unsalted)': { cal: 717, protein: 0.9, carbs: 0.1, fat: 81, fiber: 0 },
+  'cheese': { cal: 402, protein: 25, carbs: 1.3, fat: 33, fiber: 0 },
+  'yogurt': { cal: 59, protein: 3.5, carbs: 4.7, fat: 3.3, fiber: 0 },
+  'egg': { cal: 155, protein: 13, carbs: 1.1, fat: 11, fiber: 0, per: 'each' }, // per egg
+  'eggs': { cal: 155, protein: 13, carbs: 1.1, fat: 11, fiber: 0, per: 'each' },
+  
+  // Oils & Fats
+  'olive oil': { cal: 884, protein: 0, carbs: 0, fat: 100, fiber: 0 },
+  'oil': { cal: 884, protein: 0, carbs: 0, fat: 100, fiber: 0 },
+  'coconut oil': { cal: 862, protein: 0, carbs: 0, fat: 100, fiber: 0 },
+  
+  // Vegetables
+  'tomato': { cal: 18, protein: 0.9, carbs: 3.9, fat: 0.2, fiber: 1.2 },
+  'onion': { cal: 40, protein: 1.1, carbs: 9.3, fat: 0.1, fiber: 1.7 },
+  'garlic': { cal: 149, protein: 6.4, carbs: 33, fat: 0.5, fiber: 2.1 },
+  'potato': { cal: 77, protein: 2, carbs: 17, fat: 0.1, fiber: 2.1 },
+  'carrot': { cal: 41, protein: 0.9, carbs: 10, fat: 0.2, fiber: 2.8 },
+  'spinach': { cal: 23, protein: 2.9, carbs: 3.6, fat: 0.4, fiber: 2.2 },
+  'broccoli': { cal: 34, protein: 2.8, carbs: 7, fat: 0.4, fiber: 2.6 },
+  
+  // Fruits
+  'apple': { cal: 52, protein: 0.3, carbs: 14, fat: 0.2, fiber: 2.4 },
+  'banana': { cal: 89, protein: 1.1, carbs: 23, fat: 0.3, fiber: 2.6 },
+  'lemon': { cal: 29, protein: 1.1, carbs: 9.3, fat: 0.3, fiber: 2.8 },
+  'strawberry': { cal: 32, protein: 0.7, carbs: 7.7, fat: 0.3, fiber: 2 },
+  
+  // Proteins
+  'chicken': { cal: 239, protein: 27, carbs: 0, fat: 14, fiber: 0 },
+  'beef': { cal: 250, protein: 26, carbs: 0, fat: 17, fiber: 0 },
+  'pork': { cal: 242, protein: 27, carbs: 0, fat: 14, fiber: 0 },
+  'fish': { cal: 206, protein: 22, carbs: 0, fat: 12, fiber: 0 },
+  'salmon': { cal: 208, protein: 20, carbs: 0, fat: 13, fiber: 0 },
+  'tuna': { cal: 144, protein: 24, carbs: 0, fat: 5, fiber: 0 },
+  'bacon': { cal: 541, protein: 37, carbs: 1.4, fat: 42, fiber: 0 },
+  
+  // Nuts & Seeds
+  'almonds': { cal: 579, protein: 21, carbs: 22, fat: 50, fiber: 12 },
+  'walnuts': { cal: 654, protein: 15, carbs: 14, fat: 65, fiber: 7 },
+  'peanuts': { cal: 567, protein: 26, carbs: 16, fat: 49, fiber: 9 },
+  
+  // Baking essentials
+  'yeast': { cal: 325, protein: 40, carbs: 41, fat: 7, fiber: 27 },
+  'baking powder': { cal: 53, protein: 0, carbs: 28, fat: 0, fiber: 0 },
+  'vanilla': { cal: 288, protein: 0, carbs: 13, fat: 0, fiber: 0 },
+  'chocolate': { cal: 546, protein: 6, carbs: 59, fat: 31, fiber: 7 },
+  'cocoa powder': { cal: 228, protein: 20, carbs: 58, fat: 14, fiber: 33 },
+  'salt': { cal: 0, protein: 0, carbs: 0, fat: 0, fiber: 0 }
+};
+
+function calculateNutrition() {
+  const {obj} = buildJSON();
+  
+  if (!obj.ingredients || obj.ingredients.length === 0) {
+    document.getElementById('nutrition-box').style.display = 'none';
+    return;
+  }
+  
+  const servings = parseInt(obj.servings) || 1;
+  let totalNutrition = { cal: 0, protein: 0, carbs: 0, fat: 0, fiber: 0 };
+  let foundIngredients = 0;
+  let totalIngredients = 0;
+  
+  obj.ingredients.forEach(ing => {
+    if (ing.heading) return; // Skip headings
+    
+    totalIngredients++;
+    const itemName = (ing.item || '').toLowerCase().trim();
+    const quantity = parseFloat(ing.quantity) || 0;
+    const unit = (ing.unit || '').toLowerCase().trim();
+    
+    if (!itemName || !quantity) return;
+    
+    // Find matching ingredient in database
+    let nutritionData = null;
+    
+    // Exact match
+    if (NUTRITION_DB[itemName]) {
+      nutritionData = NUTRITION_DB[itemName];
+    } else {
+      // Fuzzy match - check if item contains database key
+      for (let key in NUTRITION_DB) {
+        if (itemName.includes(key) || key.includes(itemName)) {
+          nutritionData = NUTRITION_DB[key];
+          break;
+        }
+      }
+    }
+    
+    if (!nutritionData) return;
+    
+    foundIngredients++;
+    
+    // Convert quantity to grams
+    let grams = 0;
+    
+    if (nutritionData.per === 'each') {
+      // Counted items (eggs, etc)
+      grams = quantity * 50; // Assume 50g per item for calculation
+      const factor = quantity;
+      totalNutrition.cal += nutritionData.cal * factor;
+      totalNutrition.protein += nutritionData.protein * factor;
+      totalNutrition.carbs += nutritionData.carbs * factor;
+      totalNutrition.fat += nutritionData.fat * factor;
+      totalNutrition.fiber += nutritionData.fiber * factor;
+    } else {
+      // Weight/volume based
+      grams = convertToGrams(quantity, unit, itemName);
+      const factor = grams / 100; // Database is per 100g
+      totalNutrition.cal += nutritionData.cal * factor;
+      totalNutrition.protein += nutritionData.protein * factor;
+      totalNutrition.carbs += nutritionData.carbs * factor;
+      totalNutrition.fat += nutritionData.fat * factor;
+      totalNutrition.fiber += nutritionData.fiber * factor;
+    }
+  });
+  
+  if (foundIngredients === 0) {
+    document.getElementById('nutrition-output').innerHTML = '<p style="color:var(--text-dim);font-style:italic;">Could not find nutrition data for ingredients. Try using common names like "flour", "sugar", "butter".</p>';
+    document.getElementById('nutrition-box').style.display = 'block';
+    return;
+  }
+  
+  // Calculate per serving
+  const perServing = {
+    cal: Math.round(totalNutrition.cal / servings),
+    protein: Math.round(totalNutrition.protein / servings),
+    carbs: Math.round(totalNutrition.carbs / servings),
+    fat: Math.round(totalNutrition.fat / servings),
+    fiber: Math.round(totalNutrition.fiber / servings)
+  };
+  
+  // Render nutrition label
+  const coverage = Math.round((foundIngredients / totalIngredients) * 100);
+  const html = `
+    <div style="border: 2px solid var(--border); border-radius: 8px; padding: 1rem; max-width: 400px; font-family: var(--sans);">
+      <div style="font-weight: 600; font-size: 1.2rem; border-bottom: 4px solid var(--text-primary); padding-bottom: 0.5rem; margin-bottom: 0.5rem;">Nutrition Facts</div>
+      <div style="font-size: 0.85rem; margin-bottom: 0.5rem;">Serving Size: 1 serving (${servings} servings)</div>
+      <div style="border-top: 1px solid var(--border); padding-top: 0.5rem;">
+        <div style="display: flex; justify-content: space-between; font-weight: 600; font-size: 1.1rem; margin-bottom: 0.5rem;">
+          <span>Calories</span>
+          <span>${perServing.cal}</span>
+        </div>
+        <div style="border-top: 4px solid var(--text-primary); margin: 0.5rem 0;"></div>
+        <div style="font-size: 0.75rem; font-weight: 600; margin-bottom: 0.25rem; text-align: right;">Amount / serving</div>
+        <div style="display: flex; justify-content: space-between; padding: 0.25rem 0; border-bottom: 1px solid var(--border);">
+          <span style="font-weight: 600;">Protein</span>
+          <span>${perServing.protein}g</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; padding: 0.25rem 0; border-bottom: 1px solid var(--border);">
+          <span style="font-weight: 600;">Total Carbs</span>
+          <span>${perServing.carbs}g</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; padding: 0.25rem 0 0.25rem 1rem; border-bottom: 1px solid var(--border); font-size: 0.9rem;">
+          <span>Dietary Fiber</span>
+          <span>${perServing.fiber}g</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; padding: 0.25rem 0; border-bottom: 4px solid var(--text-primary);">
+          <span style="font-weight: 600;">Total Fat</span>
+          <span>${perServing.fat}g</span>
+        </div>
+      </div>
+      <div style="margin-top: 0.75rem; font-size: 0.75rem; color: var(--text-dim); font-style: italic;">
+        ℹ️ Estimates based on ${foundIngredients}/${totalIngredients} ingredients (${coverage}% coverage)
+      </div>
+    </div>
+  `;
+  
+  document.getElementById('nutrition-output').innerHTML = html;
+  document.getElementById('nutrition-box').style.display = 'block';
+}
+
+function convertToGrams(quantity, unit, itemName) {
+  // Convert common units to grams
+  const conversions = {
+    'g': 1,
+    'gram': 1,
+    'grams': 1,
+    'kg': 1000,
+    'kilogram': 1000,
+    'ml': 1, // Approximate for liquids
+    'l': 1000,
+    'liter': 1000,
+    'cup': 240, // Approximate
+    'cups': 240,
+    'tbsp': 15,
+    'tablespoon': 15,
+    'tsp': 5,
+    'teaspoon': 5,
+    'oz': 28,
+    'ounce': 28,
+    'lb': 454,
+    'pound': 454
+  };
+  
+  return quantity * (conversions[unit] || 100); // Default to 100g if unknown unit
+}
+
+function copyNutrition() {
+  const {obj} = buildJSON();
+  const servings = parseInt(obj.servings) || 1;
+  
+  // Get nutrition data
+  const nutritionEl = document.getElementById('nutrition-output');
+  const cal = nutritionEl.querySelector('div > div > span:last-child')?.textContent || '0';
+  
+  const text = `Nutrition Facts (per serving of ${servings}):
+Calories: ${cal}
+Full details available in recipe builder`;
+  
+  navigator.clipboard.writeText(text).then(() => toast('Nutrition info copied!'));
+}
+
+// ─────────────────────────────────────────────────────────
+// EXTRACT TEXT FROM PDF
+// ─────────────────────────────────────────────────────────
+async function extractTextFromPDF(file) {
+  const arrayBuffer = await file.arrayBuffer();
+  const pdf = await pdfjsLib.getDocument({ data: arrayBuffer }).promise;
+  let fullText = '';
+  
+  for (let i = 1; i <= pdf.numPages; i++) {
+    const page = await pdf.getPage(i);
+    const textContent = await page.getTextContent();
+    
+    // Group items by their Y position to preserve line breaks
+    const lines = {};
+    textContent.items.forEach(item => {
+      const y = Math.round(item.transform[5]);
+      if (!lines[y]) lines[y] = [];
+      lines[y].push(item.str);
+    });
+    
+    // Sort by Y descending (top to bottom) and join
+    const pageText = Object.keys(lines)
+      .sort((a, b) => b - a)
+      .map(y => lines[y].join(' ').trim())
+      .filter(l => l.length > 0)
+      .join('\n');
+    
+    fullText += pageText + '\n\n';
+  }
+  
+  return fullText;
+}
+
+// ─────────────────────────────────────────────────────────
+// EXTRACT TEXT FROM HTML
+// ─────────────────────────────────────────────────────────
+async function extractTextFromHTML(file) {
+  const text = await file.text();
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(text, 'text/html');
+  
+  // Remove script, style, nav, footer tags
+  doc.querySelectorAll('script, style, nav, footer, .print-cue').forEach(el => el.remove());
+  
+  // Add newlines after block elements so structure is preserved
+  doc.querySelectorAll('h1,h2,h3,h4,li,p,br,tr,div').forEach(el => {
+    el.insertAdjacentText('afterend', '\n');
+  });
+  
+  return doc.body.textContent || '';
+}
+
+// ─────────────────────────────────────────────────────────
+// EXTRACT TEXT FROM DOCX
+// ─────────────────────────────────────────────────────────
+async function extractTextFromDOCX(file) {
+  const arrayBuffer = await file.arrayBuffer();
+  const result = await mammoth.extractRawText({ arrayBuffer: arrayBuffer });
+  return result.value;
+}
+
+// ─────────────────────────────────────────────────────────
+// RECIPE JOURNAL — DRAGGABLE
+// ─────────────────────────────────────────────────────────
+let draggedJournalElement = null;
+let draggedRelatedElement = null;
+
+function addJournalEntry(date='', content='') {
+  const list = document.getElementById('journal-list');
+  const row = document.createElement('div');
+  row.className = 'journal-row';
+  row.draggable = true;
+  
+  // Default to today's date if not provided
+  const today = date || new Date().toISOString().split('T')[0];
+  
+  row.innerHTML = `
+    <div class="drag-handle">⋮⋮</div>
+    <input type="date" value="${today}" oninput="update()">
+    <textarea placeholder="What did you try? How did it turn out?" oninput="autoResize(this); update()">${content}</textarea>
+    <button class="btn danger" onclick="removeRow(this)">✕</button>
+  `;
+  
+  // Add drag event listeners
+  row.addEventListener('dragstart', handleJournalDragStart);
+  row.addEventListener('dragend', handleJournalDragEnd);
+  row.addEventListener('dragover', handleJournalDragOver);
+  row.addEventListener('drop', handleJournalDrop);
+  row.addEventListener('dragleave', handleJournalDragLeave);
+  
+  list.appendChild(row);
+  
+  // Auto-resize the textarea if it has content
+  if (content) {
+    const textarea = row.querySelector('textarea');
+    autoResize(textarea);
+  }
+  
+  update();
+}
+
+function handleJournalDragStart(e) {
+  draggedJournalElement = this;
+  this.classList.add('dragging');
+  e.dataTransfer.effectAllowed = 'move';
+  e.dataTransfer.setData('text/html', this.innerHTML);
+}
+
+function handleJournalDragEnd(e) {
+  this.classList.remove('dragging');
+  document.querySelectorAll('.journal-row').forEach(row => {
+    row.classList.remove('drag-over');
+  });
+}
+
+function handleJournalDragOver(e) {
+  if (e.preventDefault) {
+    e.preventDefault();
+  }
+  e.dataTransfer.dropEffect = 'move';
+  
+  if (this !== draggedJournalElement) {
+    this.classList.add('drag-over');
+  }
+  
+  return false;
+}
+
+function handleJournalDragLeave(e) {
+  this.classList.remove('drag-over');
+}
+
+function handleJournalDrop(e) {
+  if (e.stopPropagation) {
+    e.stopPropagation();
+  }
+  
+  this.classList.remove('drag-over');
+  
+  if (draggedJournalElement !== this) {
+    const list = document.getElementById('journal-list');
+    const allEntries = [...list.children];
+    const draggedIndex = allEntries.indexOf(draggedJournalElement);
+    const targetIndex = allEntries.indexOf(this);
+    
+    if (draggedIndex < targetIndex) {
+      this.parentNode.insertBefore(draggedJournalElement, this.nextSibling);
+    } else {
+      this.parentNode.insertBefore(draggedJournalElement, this);
+    }
+    
+    update();
+  }
+  
+  return false;
+}
+
+// ─────────────────────────────────────────────────────────
+// RELATED RECIPES - DRAG AND DROP
+// ─────────────────────────────────────────────────────────
+function setupDragHandlers(row) {
+  row.addEventListener('dragstart', handleRelatedDragStart);
+  row.addEventListener('dragend', handleRelatedDragEnd);
+  row.addEventListener('dragover', handleRelatedDragOver);
+  row.addEventListener('dragleave', handleRelatedDragLeave);
+  row.addEventListener('drop', handleRelatedDrop);
+}
+
+function handleRelatedDragStart(e) {
+  draggedRelatedElement = this;
+  this.classList.add('dragging');
+  e.dataTransfer.effectAllowed = 'move';
+  e.dataTransfer.setData('text/html', this.innerHTML);
+}
+
+function handleRelatedDragEnd(e) {
+  this.classList.remove('dragging');
+  document.querySelectorAll('.related-row').forEach(row => {
+    row.classList.remove('drag-over');
+  });
+}
+
+function handleRelatedDragOver(e) {
+  if (e.preventDefault) {
+    e.preventDefault();
+  }
+  e.dataTransfer.dropEffect = 'move';
+  
+  if (this !== draggedRelatedElement) {
+    this.classList.add('drag-over');
+  }
+  
+  return false;
+}
+
+function handleRelatedDragLeave(e) {
+  this.classList.remove('drag-over');
+}
+
+function handleRelatedDrop(e) {
+  if (e.stopPropagation) {
+    e.stopPropagation();
+  }
+  
+  this.classList.remove('drag-over');
+  
+  if (draggedRelatedElement !== this) {
+    const list = document.getElementById('related-list');
+    const allItems = [...list.children];
+    const draggedIndex = allItems.indexOf(draggedRelatedElement);
+    const targetIndex = allItems.indexOf(this);
+    
+    if (draggedIndex < targetIndex) {
+      this.parentNode.insertBefore(draggedRelatedElement, this.nextSibling);
+    } else {
+      this.parentNode.insertBefore(draggedRelatedElement, this);
+    }
+    
+    update();
+  }
+  
+  return false;
+}
+
+// ─────────────────────────────────────────────────────────
+// DUPLICATE RECIPE
+// ─────────────────────────────────────────────────────────
+function duplicateRecipe() {
+  const currentData = buildJSON().obj;
+  
+  // Create a copy with modified title
+  const duplicateData = JSON.parse(JSON.stringify(currentData));
+  
+  // Modify the title and ID
+  if (duplicateData.title) {
+    duplicateData.title = duplicateData.title + ' (Copy)';
+  } else {
+    duplicateData.title = 'Recipe Copy';
+  }
+  
+  // Generate new ID from new title
+  const newId = duplicateData.title.toLowerCase().replace(/[^a-z0-9\s]/g, '').replace(/\s+/g, '').trim();
+  duplicateData.id = newId;
+  
+  // Clear the form and populate with duplicate data
+  clearForm();
+  populateForm(duplicateData);
+  
+  // Update the mode label
+  document.getElementById('mode-label').textContent = '📋 Duplicated - Edit & Save';
+  document.getElementById('mode-label').style.color = 'var(--accent)';
+  
+  toast('Recipe duplicated! Edit and download when ready.');
+  
+  // Scroll to title so user can rename
+  document.getElementById('title').focus();
+  document.getElementById('title').select();
+}
+
+// Show/hide duplicate button based on whether there's recipe data
+function updateDuplicateButton() {
+  const {obj} = buildJSON();
+  const hasContent = obj.title || (obj.ingredients && obj.ingredients.length > 0) || (obj.method && obj.method.length > 0);
+  const duplicateBtn = document.getElementById('duplicate-btn');
+  if (duplicateBtn) {
+    duplicateBtn.style.display = hasContent ? 'inline-block' : 'none';
+  }
+}
+
+// ─────────────────────────────────────────────────────────
+// DUPLICATE RECIPE
+// ─────────────────────────────────────────────────────────
+function duplicateRecipe() {
+  const currentTitle = document.getElementById('title').value.trim();
+  
+  if (!currentTitle) {
+    alert('Please fill in a recipe title first before duplicating.');
+    return;
+  }
+  
+  // Ask user for new recipe name
+  const newTitle = prompt(`Create a variation of "${currentTitle}".\n\nEnter new recipe name:`, `${currentTitle} - Variation`);
+  
+  if (!newTitle || newTitle.trim() === '') {
+    return; // User cancelled
+  }
+  
+  // Update the title
+  document.getElementById('title').value = newTitle.trim();
+  
+  // Update the mode label
+  document.getElementById('mode-label').textContent = '📋 Duplicated from: ' + currentTitle;
+  document.getElementById('mode-label').style.color = 'var(--gold)';
+  
+  // Trigger update to regenerate JSON with new title/ID
+  update();
+  
+  // Show success message
+  toast(`Recipe duplicated! Now editing: ${newTitle}`);
+  
+  // Scroll to top so user sees the new title
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// ─────────────────────────────────────────────────────────
+// INSERT PARAGRAPH BREAK IN DESCRIPTION
+// ─────────────────────────────────────────────────────────
+function insertParagraphBreak() {
+  const textarea = document.getElementById('description');
+  const cursorPos = textarea.selectionStart;
+  const textBefore = textarea.value.substring(0, cursorPos);
+  const textAfter = textarea.value.substring(cursorPos);
+  
+  // Insert double newline (paragraph break)
+  textarea.value = textBefore + '\n\n' + textAfter;
+  
+  // Move cursor after the inserted break
+  textarea.selectionStart = textarea.selectionEnd = cursorPos + 2;
+  
+  // Focus back on textarea
+  textarea.focus();
+  
+  // Trigger update
+  update();
+}
+
+// ─────────────────────────────────────────────────────────
+// RELATED RECIPES
+// ─────────────────────────────────────────────────────────
+let recipeIndex = [];
+let currentRelatedRow = null;
+let tagPickerSelections = new Set(); // Track selections across category switches
+let officialTagVocabulary = []; // All official tags
+
+// Load recipe index on page load
+fetch('json/recipe-index.json?t=' + new Date().getTime())
+  .then(r => r.json())
+  .then(data => {
+    recipeIndex = data;
+    populateRelatedRecipeDropdown();
+  })
+  .catch(err => {
+    console.warn('Could not load recipe index:', err);
+    document.getElementById('related-recipe-select').innerHTML = '<option value="">Recipe index not found</option>';
+  });
+
+// Load official tag vocabulary
+fetch('json/official-tag-vocabulary.json?t=' + new Date().getTime())
+  .then(r => r.json())
+  .then(data => {
+    tagVocabularyData = data; // Store full structure
+    officialTagVocabulary = data.flatList || [];
+    console.log('✅ Tag vocabulary loaded:', officialTagVocabulary.length, 'tags');
+  })
+  .catch(err => {
+    console.warn('Could not load tag vocabulary, using fallback');
+    officialTagVocabulary = [];
+    tagVocabularyData = null;
+  });
+
+function populateRelatedRecipeDropdown() {
+  const select = document.getElementById('related-recipe-select');
+  select.innerHTML = '<option value="">-- Select a recipe --</option>';
+  recipeIndex.forEach(recipe => {
+    const opt = document.createElement('option');
+    opt.value = recipe.id;
+    opt.textContent = `${recipe.emoji ? recipe.emoji + ' ' : ''}${recipe.title}`;
+    opt.dataset.title = recipe.title;
+    opt.dataset.tags = JSON.stringify(recipe.tags || []);
+    select.appendChild(opt);
+  });
+}
+
+function addRelatedRecipe() {
+  const select = document.getElementById('related-recipe-select');
+  const selectedOption = select.options[select.selectedIndex];
+  
+  if (!selectedOption.value) {
+    toast('Please select a recipe first');
+    return;
+  }
+  
+  const recipeId = selectedOption.value;
+  const recipeTitle = selectedOption.dataset.title;
+  const recipeTags = JSON.parse(selectedOption.dataset.tags || '[]');
+  
+  const list = document.getElementById('related-list');
+  const row = document.createElement('div');
+  row.className = 'related-row';
+  row.draggable = true;
+  row.dataset.id = recipeId;
+  row.dataset.title = recipeTitle;
+  row.dataset.tags = JSON.stringify([]);
+  
+  row.innerHTML = `
+    <div class="drag-handle">⋮⋮</div>
+    <div>
+      <div style="font-weight:500;margin-bottom:0.25rem;">${recipeTitle}</div>
+      <div style="font-size:0.7rem;color:var(--text-dim);font-family:var(--mono);">${recipeId}</div>
+    </div>
+    <div class="tag-container">
+      <button class="add-tag-btn" onclick="openTagPicker(this.closest('.related-row'))">+ Add Tags</button>
+    </div>
+    <button class="btn remove" onclick="this.closest('.related-row').remove();update();">✕</button>
+  `;
+  
+  list.appendChild(row);
+  
+  // Reset dropdown
+  select.selectedIndex = 0;
+  
+  // Set up drag handlers
+  setupDragHandlers(row);
+  
+  update();
+}
+
+function openTagPicker(row) {
+  currentRelatedRow = row;
+  const currentTags = JSON.parse(row.dataset.tags || '[]');
+  
+  // Initialize the selection set with existing tags
+  tagPickerSelections = new Set(currentTags);
+  
+  // Populate "Copy from recipe" dropdown
+  populateCopyTagsDropdown();
+  
+  // Use official tag vocabulary (all 150 tags)
+  const allTags = officialTagVocabulary.length > 0 
+    ? officialTagVocabulary 
+    : Array.from(new Set([...tags])); // Fallback to current recipe tags
+  
+  const grid = document.getElementById('tag-picker-grid');
+  grid.innerHTML = '';
+  
+  allTags.forEach(tag => {
+    const item = document.createElement('div');
+    item.className = 'tag-picker-item';
+    item.textContent = tag;
+    if (tagPickerSelections.has(tag)) {
+      item.classList.add('selected');
+    }
+    item.onclick = () => {
+      item.classList.toggle('selected');
+      // Update the persistent set
+      if (item.classList.contains('selected')) {
+        tagPickerSelections.add(tag);
+      } else {
+        tagPickerSelections.delete(tag);
+      }
+    };
+    grid.appendChild(item);
+  });
+  
+  document.getElementById('tag-picker-modal').style.display = 'flex';
+}
+
+function populateCopyTagsDropdown() {
+  const select = document.getElementById('copy-tags-from');
+  select.innerHTML = '<option value="">📋 Copy tags from another recipe...</option>';
+  
+  recipeIndex.forEach(recipe => {
+    if (recipe.tags && recipe.tags.length > 0) {
+      const opt = document.createElement('option');
+      opt.value = recipe.id;
+      opt.textContent = `${recipe.emoji ? recipe.emoji + ' ' : ''}${recipe.title} (${recipe.tags.length} tags)`;
+      opt.dataset.tags = JSON.stringify(recipe.tags);
+      select.appendChild(opt);
+    }
+  });
+}
+
+function copyTagsFromRecipe() {
+  const select = document.getElementById('copy-tags-from');
+  const selectedOption = select.options[select.selectedIndex];
+  
+  if (!selectedOption.value) {
+    toast('⚠️ Please select a recipe first');
+    return;
+  }
+  
+  const tagsFromRecipe = JSON.parse(selectedOption.dataset.tags || '[]');
+  
+  // Add all tags from that recipe to the selection set
+  tagsFromRecipe.forEach(tag => tagPickerSelections.add(tag));
+  
+  // Rebuild the grid to show new selections
+  filterTagCategory('all');
+  
+  // Reset dropdown
+  select.selectedIndex = 0;
+  
+  toast(`✅ Copied ${tagsFromRecipe.length} tags from ${selectedOption.textContent.split('(')[0].trim()}`);
+}
+
+function closeTagPicker() {
+  document.getElementById('tag-picker-modal').style.display = 'none';
+  currentRelatedRow = null;
+  
+  // Reset search and category
+  document.getElementById('tag-search').value = '';
+  document.querySelectorAll('.tag-category-btn').forEach(btn => btn.classList.remove('active'));
+  document.querySelector('.tag-category-btn').classList.add('active');
+}
+
+function filterTagPicker(searchText) {
+  const items = document.querySelectorAll('.tag-picker-item');
+  const query = searchText.toLowerCase();
+  
+  items.forEach(item => {
+    const tagText = item.textContent.toLowerCase();
+    if (tagText.includes(query)) {
+      item.style.display = '';
+    } else {
+      item.style.display = 'none';
+    }
+  });
+}
+
+let tagVocabularyData = null; // Store full vocabulary structure
+
+function filterTagCategory(category) {
+  // Update active button
+  document.querySelectorAll('.tag-category-btn').forEach(btn => btn.classList.remove('active'));
+  event.target.classList.add('active');
+  
+  // Clear search
+  document.getElementById('tag-search').value = '';
+  
+  // Get tags for category
+  let tagsToShow = [];
+  if (category === 'all') {
+    tagsToShow = officialTagVocabulary;
+  } else if (tagVocabularyData && tagVocabularyData.tagVocabulary[category]) {
+    tagsToShow = tagVocabularyData.tagVocabulary[category];
+  }
+  
+  // Rebuild grid using the persistent selection set
+  const grid = document.getElementById('tag-picker-grid');
+  grid.innerHTML = '';
+  
+  tagsToShow.forEach(tag => {
+    const item = document.createElement('div');
+    item.className = 'tag-picker-item';
+    item.textContent = tag;
+    // Check the persistent set
+    if (tagPickerSelections.has(tag)) {
+      item.classList.add('selected');
+    }
+    item.onclick = () => {
+      item.classList.toggle('selected');
+      // Update the persistent set
+      if (item.classList.contains('selected')) {
+        tagPickerSelections.add(tag);
+      } else {
+        tagPickerSelections.delete(tag);
+      }
+    };
+    grid.appendChild(item);
+  });
+}
+
+function closeTagPickerIfOutside(e) {
+  if (e.target === document.getElementById('tag-picker-modal')) {
+    closeTagPicker();
+  }
+}
+
+function confirmTagSelection() {
+  if (!currentRelatedRow) return;
+  
+  // Use the persistent set instead of querying DOM
+  const selectedTags = Array.from(tagPickerSelections);
+  
+  currentRelatedRow.dataset.tags = JSON.stringify(selectedTags);
+  
+  // Update the tag display
+  const tagContainer = currentRelatedRow.querySelector('.tag-container');
+  tagContainer.innerHTML = selectedTags.map(tag => 
+    `<span class="tag-pill" onclick="removeTagFromRelated(this, '${tag}')">${tag}</span>`
+  ).join('');
+  tagContainer.innerHTML += `<button class="add-tag-btn" onclick="openTagPicker(this.closest('.related-row'))">+ Add Tags</button>`;
+  
+  closeTagPicker();
+  update();
+}
+
+function removeTagFromRelated(pill, tag) {
+  const row = pill.closest('.related-row');
+  const currentTags = JSON.parse(row.dataset.tags || '[]');
+  const newTags = currentTags.filter(t => t !== tag);
+  row.dataset.tags = JSON.stringify(newTags);
+  
+  const tagContainer = row.querySelector('.tag-container');
+  tagContainer.innerHTML = newTags.map(t => 
+    `<span class="tag-pill" onclick="removeTagFromRelated(this, '${t}')">${t}</span>`
+  ).join('');
+  tagContainer.innerHTML += `<button class="add-tag-btn" onclick="openTagPicker(this.closest('.related-row'))">+ Add Tags</button>`;
+  
+  update();
+}
+
+// ─────────────────────────────────────────────────────────
+// API COMMUNICATION - Save to Local Server
+// ─────────────────────────────────────────────────────────
+const API_BASE = 'http://localhost:5001';
+
+async function saveToServer() {
+  const {obj, id, title} = buildJSON();
+  
+  if (!title) {
+    toast('⚠️ Please enter a recipe title first');
+    return;
+  }
+  
+  try {
+    showLoading('Saving to server...');
+    
+    const response = await fetch(`${API_BASE}/save-recipe`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(obj)
+    });
+    
+    if (!response.ok) {
+      const error = await response.json();
+      throw new Error(error.error || 'Save failed');
+    }
+    
+    const result = await response.json();
+    hideLoading();
+    
+    toast(`✅ ${result.message}`);
+    document.getElementById('mode-label').textContent = '✅ Saved: ' + title;
+    document.getElementById('mode-label').style.color = 'var(--green)';
+    
+    // Reload recipe index for related recipes dropdown
+    loadRecipeIndexForRelated();
+    
+  } catch (error) {
+    hideLoading();
+    console.error('Save error:', error);
+    
+    if (error.message.includes('Failed to fetch')) {
+      alert('❌ Cannot connect to API server!\n\nMake sure you have started the Python server:\n  python recipe-api-server.py\n\nThen try again.');
+    } else {
+      alert('❌ Save failed: ' + error.message);
+    }
+  }
+}
+
+async function checkServerStatus() {
+  try {
+    const response = await fetch(`${API_BASE}/ping`, { method: 'GET' });
+    if (response.ok) {
+      const data = await response.json();
+      console.log('✅ API Server connected:', data.message);
+      return true;
+    }
+  } catch (e) {
+    console.warn('⚠️ API Server not running - Save to Server button will show connection error');
+    return false;
+  }
+}
+
+function loadRecipeIndexForRelated() {
+  fetch('json/recipe-index.json?t=' + new Date().getTime())
+    .then(r => r.json())
+    .then(data => {
+      recipeIndex = data;
+      populateRelatedRecipeDropdown();
+    })
+    .catch(err => console.warn('Could not reload recipe index:', err));
+}
+
+// ─────────────────────────────────────────────────────────
+// INIT
+// ─────────────────────────────────────────────────────────
+addIngredient(); addIngredient(); addIngredient(); addStep(); addStep(); update();
+
+// Always start at the very top
+window.history.scrollRestoration = 'manual';
+window.scrollTo(0, 0);
+
+// Check if API server is running
+checkServerStatus();
+</script>
+
+
+<!-- Tag Picker Modal -->
+<div class="tag-picker-modal" id="tag-picker-modal" onclick="closeTagPickerIfOutside(event)">
+  <div class="tag-picker-content">
+    <h3>Select Tags</h3>
+    
+    <!-- Search box -->
+    <input type="text" id="tag-search" placeholder="🔍 Search tags..." style="width:100%;padding:0.5rem;margin-bottom:0.5rem;background:var(--surface2);border:1px solid var(--border);color:var(--text);border-radius:3px;font-size:0.9rem;" oninput="filterTagPicker(this.value)">
+    
+    <!-- Copy tags from another recipe -->
+    <div style="display:flex;gap:0.5rem;margin-bottom:1rem;align-items:center;">
+      <select id="copy-tags-from" style="flex:1;padding:0.5rem;background:var(--surface2);border:1px solid var(--border);color:var(--text);border-radius:3px;font-size:0.85rem;">
+        <option value="">📋 Copy tags from another recipe...</option>
+      </select>
+      <button class="btn" onclick="copyTagsFromRecipe()" style="padding:0.5rem 1rem;font-size:0.85rem;">Copy</button>
+    </div>
+    
+    <!-- Category filter tabs -->
+    <div style="display:flex;gap:0.5rem;flex-wrap:wrap;margin-bottom:1rem;font-size:0.75rem;">
+      <button class="tag-category-btn active" onclick="filterTagCategory('all')">All</button>
+      <button class="tag-category-btn" onclick="filterTagCategory('cuisine')">Cuisine</button>
+      <button class="tag-category-btn" onclick="filterTagCategory('cookingMethod')">Method</button>
+      <button class="tag-category-btn" onclick="filterTagCategory('dietary')">Dietary</button>
+      <button class="tag-category-btn" onclick="filterTagCategory('time')">Time</button>
+      <button class="tag-category-btn" onclick="filterTagCategory('mealType')">Meal</button>
+      <button class="tag-category-btn" onclick="filterTagCategory('characteristics')">Style</button>
+      <button class="tag-category-btn" onclick="filterTagCategory('protein')">Protein</button>
+      <button class="tag-category-btn" onclick="filterTagCategory('keyIngredients')">Ingredients</button>
+      <button class="tag-category-btn" onclick="filterTagCategory('specificCheeses')">Cheese</button>
+      <button class="tag-category-btn" onclick="filterTagCategory('specificLiqueurs')">Liqueur</button>
+      <button class="tag-category-btn" onclick="filterTagCategory('occasion')">Occasion</button>
+    </div>
+    
+    <div class="tag-picker-grid" id="tag-picker-grid"></div>
+    <div style="display:flex;gap:0.5rem;margin-top:1rem;">
+      <button class="btn" onclick="confirmTagSelection()" style="flex:1;">Done</button>
+      <button class="btn" onclick="closeTagPicker()" style="background:var(--red);">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<script src="js/nav-loader.js"></script>
+</body>
+</html>

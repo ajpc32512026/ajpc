@@ -1,0 +1,136 @@
+{
+  "id": "kormapaste",
+  "title": "Homemade Korma Paste",
+  "emoji": "🌿",
+  "category": "Dinner",
+  "description": "Create the perfect korma curry with this rich and flavorful paste.",
+  "ingredients": [
+    {
+      "quantity": "2",
+      "unit": "tsp",
+      "item": "Cumin",
+      "ingredientKey": "Cumin"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Coriander",
+      "ingredientKey": "Coriander"
+    },
+    {
+      "quantity": "1/2",
+      "unit": "tsp",
+      "item": "Turmeric",
+      "ingredientKey": "Turmeric"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Garam Masala",
+      "ingredientKey": "Garam Masala"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Red Chili",
+      "ingredientKey": "Red Chili"
+    },
+    {
+      "quantity": "1",
+      "unit": "tbsp",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "3",
+      "unit": "cloves",
+      "item": "Garlic",
+      "ingredientKey": "Garlic"
+    },
+    {
+      "quantity": "2",
+      "unit": "inch",
+      "item": "Ginger",
+      "ingredientKey": "Ginger"
+    },
+    {
+      "quantity": "1",
+      "unit": "tbsp",
+      "item": "Tomatoes",
+      "ingredientKey": "Tomatoes"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Coconut",
+      "ingredientKey": "Coconut"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Cashews",
+      "ingredientKey": "Cashews"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Coriander",
+      "ingredientKey": "Coriander"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Place cumin and coriander seeds in a frying pan over low heat. Roast, stirring constantly, for 2 minutes or until slightly browned. Remove from heat and let cool."
+    },
+    {
+      "step": 2,
+      "instruction": "Transfer to a food processor. Add turmeric, garam masala, red chili powder, garlic, ginger, tomato paste, desiccated coconut, cashews, oil, and coriander leaves."
+    },
+    {
+      "step": 3,
+      "instruction": "Grind to a smooth paste. Store in the refrigerator for 2–3 days."
+    }
+  ],
+  "notes": [
+    {
+      "title": "📌 Acknowledgements",
+      "content": "This recipe is adapted from traditional korma recipes."
+    },
+    {
+      "title": "📌 Acknowledgements",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    }
+  ],
+  "tags": [
+    "Coconut",
+    "Dinner",
+    "Gluten-Free",
+    "Indian",
+    "Make Ahead",
+    "Savoury",
+    "Vegan"
+  ],
+  "related": [
+    {
+      "id": "sataysauce",
+      "title": "Satay Sauce"
+    },
+    {
+      "id": "vindaloopaste",
+      "title": "Vindaloo Paste"
+    },
+    {
+      "id": "lambvindaloo",
+      "title": "Lamb Vindaloo"
+    },
+    {
+      "id": "beefvindaloo",
+      "title": "Beef Vindaloo"
+    },
+    {
+      "id": "butterchicken",
+      "title": "Restaurant-Style Butter Chicken"
+    }
+  ]
+}

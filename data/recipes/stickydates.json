@@ -1,0 +1,216 @@
+{
+  "id": "stickydates",
+  "title": "Sticky Date Pudding with Caramel Sauce",
+  "emoji": "🍮",
+  "category": "Desserts",
+  "description": "Microwave marvel — rich, sticky, and surprisingly fast.",
+  "prepTime": "20 min",
+  "cookTime": "15 min (microwave)",
+  "totalTime": "35 min",
+  "servings": "8-10 servings",
+  "difficulty": "Easy",
+  "ingredients": [
+    {
+      "quantity": "1",
+      "unit": "medium",
+      "item": "Carrots",
+      "ingredientKey": "Carrots"
+    },
+    {
+      "quantity": "1",
+      "unit": "medium",
+      "item": "Apples",
+      "ingredientKey": "Apples"
+    },
+    {
+      "quantity": "200",
+      "unit": "g",
+      "item": "Dates",
+      "ingredientKey": "Dates"
+    },
+    {
+      "quantity": "3/4",
+      "unit": "cup",
+      "item": "boiling water"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Bi-Carb Soda",
+      "ingredientKey": "Bi-Carb Soda"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "3/4",
+      "unit": "cup",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "1/4",
+      "unit": "cup",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "2",
+      "unit": "eggs",
+      "item": "(70g each)"
+    },
+    {
+      "quantity": "11/4",
+      "unit": "cups",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "1/2",
+      "unit": "tsp",
+      "item": "Cinnamon",
+      "ingredientKey": "Cinnamon"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Cream",
+      "ingredientKey": "Cream"
+    },
+    {
+      "quantity": "3/4",
+      "unit": "cup",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "40",
+      "unit": "g",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "150",
+      "unit": "ml",
+      "item": "Cream",
+      "ingredientKey": "Cream"
+    },
+    {
+      "quantity": "1",
+      "unit": "tbsp",
+      "item": "Orange Liqueur",
+      "ingredientKey": "Orange Liqueur"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Lightly grease a 2L microwave-safe glass bowl and set aside."
+    },
+    {
+      "step": 2,
+      "instruction": "Shred the carrot and apple using a slicer or grater."
+    },
+    {
+      "step": 3,
+      "instruction": "Place dates and boiling water in a saucepan, bring to a boil, then stir in bicarbonate of soda. Set aside to cool."
+    },
+    {
+      "step": 4,
+      "instruction": "In a large bowl, cream butter and both sugars with an electric mixer on medium speed for about 3 minutes until light and fluffy."
+    },
+    {
+      "step": 5,
+      "instruction": "Add eggs one at a time, beating for 2 minutes after each addition."
+    },
+    {
+      "step": 6,
+      "instruction": "Fold in the cooled shredded carrot, apple, date mixture, sifted flour, and cinnamon. Mix just until combined — do not overmix."
+    },
+    {
+      "step": 7,
+      "instruction": "Pour batter into the prepared bowl, cover with plastic wrap (leaving a small vent), and microwave on Medium High (650W) for 10-13 minutes."
+    },
+    {
+      "step": 8,
+      "instruction": "Let stand for 5 minutes after cooking. The pudding will continue to set during this time."
+    },
+    {
+      "step": 9,
+      "instruction": "For the caramel sauce: Combine brown sugar, butter, cream, and orange liqueur (if using) in a microwave-safe bowl."
+    },
+    {
+      "step": 10,
+      "instruction": "Cook on High for 5 minutes, stirring every minute to prevent burning."
+    },
+    {
+      "step": 11,
+      "instruction": "Let the sauce stand for a few minutes to thicken before serving."
+    },
+    {
+      "step": 12,
+      "instruction": "Turn the pudding out onto a serving plate. Dust with icing sugar."
+    },
+    {
+      "step": 13,
+      "instruction": "Drench generously with warm caramel sauce and serve with thickened cream on the side."
+    }
+  ],
+  "notes": [
+    {
+      "type": "tip",
+      "title": "Microwave Power",
+      "content": "This recipe was tested in an 800W microwave. Adjust cooking time for different wattages: lower power = longer time, higher power = shorter time."
+    },
+    {
+      "type": "technique",
+      "title": "Resting is Essential",
+      "content": "The 5-minute rest after cooking ensures a moist, tender pudding. Don't skip this step!"
+    },
+    {
+      "type": "warning",
+      "title": "Watch Carefully",
+      "content": "Overcooking will dry out the pudding. Check at 10 minutes and add time in 1-minute increments if needed."
+    },
+    {
+      "type": "serving",
+      "title": "Serving Suggestion",
+      "content": "Best served warm with the caramel sauce poured over generously and a dollop of whipped cream or vanilla ice cream."
+    }
+  ],
+  "tags": [
+    "Alcohol",
+    "Baked",
+    "Classic",
+    "Creamy",
+    "Dessert",
+    "Rich",
+    "Sweet",
+    "Vegetarian"
+  ],
+  "related": [
+    {
+      "id": "tiramisu",
+      "title": "Chef-Style Tiramisu Gateau"
+    },
+    {
+      "id": "bistro-mudcake",
+      "title": "Mud Cake"
+    },
+    {
+      "id": "plain-cheesecake",
+      "title": "Plain Cheesecake (Classic No Bake)"
+    },
+    {
+      "id": "baked-cheesecake",
+      "title": "Baked Cheesecake"
+    },
+    {
+      "id": "bistro-profiteroles",
+      "title": "Profiteroles"
+    }
+  ]
+}

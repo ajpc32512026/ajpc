@@ -1,0 +1,118 @@
+{
+  "id": "honeygarlicsauce",
+  "title": "Honey Garlic Sauce",
+  "emoji": "🍯",
+  "category": "Sauces",
+  "description": "A sweet and savoury Asian glaze — sticky, garlicky, and impossible to resist. A family favourite.",
+  "prepTime": "5 min",
+  "cookTime": "5 min",
+  "totalTime": "10 min",
+  "servings": "4 servings",
+  "difficulty": "Easy",
+  "tags": [
+    "Garlic",
+    "Sauce",
+    "Savoury",
+    "Sweet",
+    "Under 30 Minutes",
+    "Vegan"
+  ],
+  "ingredients": [
+    {
+      "quantity": "1/3",
+      "unit": "cup",
+      "item": "Honey",
+      "ingredientKey": "Honey"
+    },
+    {
+      "quantity": "1/4",
+      "unit": "cup",
+      "item": "Sauces",
+      "ingredientKey": "Sauces"
+    },
+    {
+      "quantity": "4",
+      "unit": "",
+      "item": "Garlic",
+      "ingredientKey": "Garlic"
+    },
+    {
+      "quantity": "1",
+      "unit": "tbsp",
+      "item": "Vinegar",
+      "ingredientKey": "Vinegar"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "1",
+      "unit": "tbsp",
+      "item": "Water"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Sesame Seeds",
+      "ingredientKey": "Sesame Seeds"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Combine honey, soy sauce, garlic, and vinegar in a saucepan."
+    },
+    {
+      "step": 2,
+      "instruction": "Heat over medium and stir."
+    },
+    {
+      "step": 3,
+      "instruction": "Add cornstarch slurry and cook until thick."
+    },
+    {
+      "step": 4,
+      "instruction": "Sprinkle sesame seeds if desired."
+    }
+  ],
+  "notes": [
+    {
+      "type": "serving",
+      "title": "Serving Tip",
+      "content": "Perfect glaze for chicken wings, salmon, or stir-fried vegetables. Sprinkle with extra sesame seeds for garnish."
+    },
+    {
+      "title": "Garlic Cloves",
+      "content": "minced"
+    },
+    {
+      "title": "Sesame Seeds",
+      "content": "optional"
+    }
+  ],
+  "related": [
+    {
+      "id": "chiligarlicopil",
+      "title": "Chili Garlic Oil"
+    },
+    {
+      "id": "tacoseasoning",
+      "title": "Taco Seasoning — Old El Paso Style (From Scratch)"
+    },
+    {
+      "id": "marinarasauce",
+      "title": "Marinara Sauce"
+    },
+    {
+      "id": "redsauce",
+      "title": "Red Sauce"
+    },
+    {
+      "id": "arrabbiatazauce",
+      "title": "Arrabbiata Sauce"
+    }
+  ]
+}

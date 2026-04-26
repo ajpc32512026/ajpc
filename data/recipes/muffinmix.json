@@ -1,0 +1,183 @@
+{
+  "id": "muffinmix",
+  "title": "Basic Muffin Mix",
+  "emoji": "🧁",
+  "category": "Desserts",
+  "description": "A simple, dependable base recipe — sweet or savoury, load it up any way you like.",
+  "prepTime": "10 min",
+  "cookTime": "20 min",
+  "totalTime": "30 min",
+  "servings": "12 muffins",
+  "difficulty": "Easy",
+  "ingredients": [
+    {
+      "quantity": "1",
+      "unit": "cup",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "1",
+      "unit": "cup",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "1/2",
+      "unit": "cup",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "1/4",
+      "unit": "cup",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "1",
+      "unit": "cup",
+      "item": "Milk",
+      "ingredientKey": "Milk"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Eggs",
+      "ingredientKey": "Eggs"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Vanilla",
+      "ingredientKey": "Vanilla"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Chocolate",
+      "ingredientKey": "Chocolate"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Dried fruit - sultanas, apricots, cranberries (optional)"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Tinned or frozen fruit (optional)"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Apple & cinnamon (optional)"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Cocoa Powder",
+      "ingredientKey": "Cocoa Powder"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Cheese & bacon (optional, for savoury)"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Spinach & feta (optional, for savoury)"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Pumpkin & fennel seeds (optional, for savoury)"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 180°C (350°F). Grease a 12-cup muffin tin or line with paper liners."
+    },
+    {
+      "step": 2,
+      "instruction": "In a large bowl, mix the dry ingredients (both flours and sugar). Add your chosen additions (chocolate chips, fruit, etc.) and stir to combine."
+    },
+    {
+      "step": 3,
+      "instruction": "In a separate bowl, whisk together the oil, egg, and milk until well combined."
+    },
+    {
+      "step": 4,
+      "instruction": "Pour the wet ingredients into the dry ingredients. Mix gently with a spatula until just combined — the batter should be slightly lumpy. Do not overmix or the muffins will be tough."
+    },
+    {
+      "step": 5,
+      "instruction": "Divide the mixture evenly between the muffin cups, filling each about 3/4 full."
+    },
+    {
+      "step": 6,
+      "instruction": "Bake for 18-22 minutes, or until a skewer inserted into the center comes out clean and the tops are golden and spring back when lightly touched."
+    },
+    {
+      "step": 7,
+      "instruction": "Cool in the tin for 5 minutes, then transfer to a wire rack. Serve warm or at room temperature."
+    }
+  ],
+  "notes": [
+    {
+      "type": "tip",
+      "title": "Don't Overmix",
+      "content": "The secret to tender muffins is gentle mixing. Lumpy batter is perfect — overmixing develops gluten and makes muffins tough and dense."
+    },
+    {
+      "type": "variation",
+      "title": "Sweet Variations",
+      "content": "Try blueberry, chocolate chip, apple cinnamon, lemon poppy seed, or banana walnut. Add 1/2-1 cup of your chosen mix-ins."
+    },
+    {
+      "type": "variation",
+      "title": "Savoury Variations",
+      "content": "Reduce sugar to 1 tablespoon. Add cheese & bacon, spinach & feta, corn & jalapeño, or pumpkin & seeds."
+    },
+    {
+      "type": "storage",
+      "title": "Storage",
+      "content": "Store in an airtight container for 2-3 days, or freeze for up to 2 months."
+    }
+  ],
+  "tags": [
+    "Breakfast",
+    "Cheese",
+    "Chocolate",
+    "Creamy",
+    "Dessert",
+    "Greek",
+    "Rich",
+    "Sweet",
+    "Under 30 Minutes"
+  ],
+  "related": [
+    {
+      "id": "tiramisu",
+      "title": "Chef-Style Tiramisu Gateau"
+    },
+    {
+      "id": "sourdoughcinnrolls",
+      "title": "Soft Sourdough Cinnamon Rolls"
+    },
+    {
+      "id": "chocolatemousse",
+      "title": "Chocolate Mousse"
+    },
+    {
+      "id": "chocolatecake",
+      "title": "Ultimate Chocolate Cake"
+    },
+    {
+      "id": "bistro-profiteroles",
+      "title": "Profiteroles"
+    }
+  ]
+}

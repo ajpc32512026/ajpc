@@ -1,0 +1,129 @@
+{
+  "id": "sweetsoursauce_flex",
+  "title": "Sweet & Sour Sauce – Home Chef Flex",
+  "emoji": "🍍",
+  "category": "Sauces",
+  "description": "Tangy, sweet, and versatile—adjust sweetness, tang, or add heat. Perfect for home cooking and fridge-friendly storage.",
+  "prepTime": "5 min",
+  "cookTime": "10 min",
+  "totalTime": "15 min",
+  "servings": "About 1 1/2 cups",
+  "difficulty": "Easy",
+  "tags": [
+    "Chinese",
+    "Make Ahead",
+    "Sauce",
+    "Sweet",
+    "Tangy",
+    "Under 30 Minutes",
+    "Vegan"
+  ],
+  "ingredients": [
+    {
+      "quantity": "1/2",
+      "unit": "cup",
+      "item": "Sauces",
+      "ingredientKey": "Sauces"
+    },
+    {
+      "quantity": "1/2",
+      "unit": "cup",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "4",
+      "unit": "tbsp",
+      "item": "Vinegar",
+      "ingredientKey": "Vinegar"
+    },
+    {
+      "quantity": "1/2",
+      "unit": "cup",
+      "item": "Juice",
+      "ingredientKey": "Juice"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Sauces",
+      "ingredientKey": "Sauces"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "In a small saucepan, combine ketchup, brown sugar, white vinegar, pineapple juice (if using), and soy sauce."
+    },
+    {
+      "step": 2,
+      "instruction": "Place over medium heat and stir until the sugar dissolves completely."
+    },
+    {
+      "step": 3,
+      "instruction": "Bring to a gentle simmer and cook for 5-7 minutes, stirring occasionally."
+    },
+    {
+      "step": 4,
+      "instruction": "If you want a thicker sauce, stir the cornflour mixture to ensure it's smooth, then add it to the simmering sauce."
+    },
+    {
+      "step": 5,
+      "instruction": "Cook for another 2-3 minutes, stirring constantly, until the sauce thickens to your desired consistency."
+    },
+    {
+      "step": 6,
+      "instruction": "Remove from heat and use immediately, or let cool and store in an airtight container in the fridge for up to 1 week."
+    }
+  ],
+  "notes": [
+    {
+      "type": "tip",
+      "title": "Balance the Flavors",
+      "content": "Taste and adjust: add more vinegar for tang, more sugar for sweetness, or a splash of soy sauce for depth."
+    },
+    {
+      "type": "variation",
+      "title": "Add Heat",
+      "content": "Stir in 1/2-1 tsp of chili flakes or a dash of sriracha for a spicy kick."
+    },
+    {
+      "type": "serving",
+      "title": "Uses",
+      "content": "Perfect for sweet and sour pork, chicken stir-fries, spring rolls, or as a dipping sauce for fried appetizers."
+    },
+    {
+      "type": "style",
+      "title": "Home Chef Flex",
+      "content": "Versatile, adjustable, and fridge-friendly—ideal for home cooking with options to tweak sweetness, tang, or spice."
+    }
+  ],
+  "related": [
+    {
+      "id": "sweetsoursauce_quick",
+      "title": "Sweet & Sour Sauce – Quick Takeout Style"
+    },
+    {
+      "id": "teriyakisauce",
+      "title": "Teriyaki Sauce"
+    },
+    {
+      "id": "sweetchilisauce",
+      "title": "Sweet Chili Sauce"
+    },
+    {
+      "id": "sweetspicyorangesauce",
+      "title": "Sweet & Spicy Orange Sauce"
+    },
+    {
+      "id": "tacoseasoning",
+      "title": "Taco Seasoning — Old El Paso Style (From Scratch)"
+    }
+  ]
+}

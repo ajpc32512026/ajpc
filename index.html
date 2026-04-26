@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ana and John's Kitchen Notebook — 114 real recipes, written down so they don't get lost.">
+    <meta name="theme-color" content="#16161a">
+    <title>Ana & John's Kitchen Notebook</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Navigation -->
+    <div id="nav-placeholder"></div>
+
+    <!-- Main Content -->
+    <div class="content-wrapper">
+        <main>
+
+            <!-- Hero -->
+            <section class="hero-section animate-in">
+                <p class="hero-eyebrow">Est. 2025 &mdash; Sydney, Australia</p>
+                <div class="hero-rule"></div>
+                <h1>Ana &amp; John's<br><em>Kitchen Notebook</em></h1>
+                <p class="hero-tagline">Not a blog, not a brand &mdash; just the recipes we actually cook, written down so they don't get lost to time or temperamental memory.</p>
+            </section>
+
+            <!-- About + Sidebar -->
+            <section class="about-section animate-in animate-in-delay-1">
+                <div class="about-text">
+                    <h2>Our Story</h2>
+                    <p>Once upon a kitchen, there was John &mdash; a cook by habit, instinct, and stubborn repetition. Every dish he makes has a purpose: food that works, feeds properly, and never needs explaining twice. By his side is Ana, the eager taster, cheerleader, and occasional critic. She mostly observes from the other room, offering encouragement, tasting bites at perfect moments, and passing judgment with a grin. Together, they form a quiet, unstoppable culinary duo.</p>
+                    <p>From the hum of everyday meals to the rituals of baking and roasting, they've built AJPC &mdash; a collection of recipes honed through repetition, trial, and sometimes gentle swearing until every dish behaves. There are no fleeting trends here, no flashy fads. Instead, you'll find the timeless rhythms of bread, pastry, sauces, roasts, and sweets &mdash; the techniques and flavours that endure because they simply work.</p>
+                    <p>Most recipes have origins worth noting. When they borrow a recipe, credit is given plainly and honestly. When there's no acknowledgment, it means the recipe has been adapted &mdash; adjusted for taste, sometimes less salt, more sugar, or just a little extra butter. AJPC captures this process, preserving each tweak, each improvement, so the good stuff is never lost.</p>
+                    <p>Welcome to AJPC. Welcome to the kitchen where tradition meets experimentation, where every recipe tells a story, and where good food is always ready, repeatable, and made with care.</p>
+                </div>
+
+                <aside class="about-sidebar">
+                    <div class="sidebar-card">
+                        <p class="sidebar-card-label">At a glance</p>
+                        <div style="display:flex;flex-direction:column;gap:1rem;">
+                            <div>
+                                <div style="font-size:2rem;font-family:var(--font-display);color:var(--cream);">114</div>
+                                <div style="font-size:0.8rem;color:var(--cream-muted);">Recipes in the notebook</div>
+                            </div>
+                            <hr style="border-color:var(--border-dim);">
+                            <div>
+                                <div style="font-size:0.85rem;color:var(--cream-dim);margin-bottom:0.5rem;">Covers</div>
+                                <div style="display:flex;flex-wrap:wrap;gap:0.35rem;">
+                                    <span style="font-size:0.72rem;padding:0.15rem 0.5rem;background:var(--surface-2);border:1px solid var(--border-dim);border-radius:3px;color:var(--cream-muted);">Bread</span>
+                                    <span style="font-size:0.72rem;padding:0.15rem 0.5rem;background:var(--surface-2);border:1px solid var(--border-dim);border-radius:3px;color:var(--cream-muted);">Pastry</span>
+                                    <span style="font-size:0.72rem;padding:0.15rem 0.5rem;background:var(--surface-2);border:1px solid var(--border-dim);border-radius:3px;color:var(--cream-muted);">Desserts</span>
+                                    <span style="font-size:0.72rem;padding:0.15rem 0.5rem;background:var(--surface-2);border:1px solid var(--border-dim);border-radius:3px;color:var(--cream-muted);">Dinner</span>
+                                    <span style="font-size:0.72rem;padding:0.15rem 0.5rem;background:var(--surface-2);border:1px solid var(--border-dim);border-radius:3px;color:var(--cream-muted);">Sauces</span>
+                                    <span style="font-size:0.72rem;padding:0.15rem 0.5rem;background:var(--surface-2);border:1px solid var(--border-dim);border-radius:3px;color:var(--cream-muted);">Filipino</span>
+                                    <span style="font-size:0.72rem;padding:0.15rem 0.5rem;background:var(--surface-2);border:1px solid var(--border-dim);border-radius:3px;color:var(--cream-muted);">Biscuits</span>
+                                </div>
+                            </div>
+                            <hr style="border-color:var(--border-dim);">
+                            <a href="search.html" style="display:block;text-align:center;padding:0.6rem;background:rgba(201,125,62,0.12);border:1px solid var(--border-copper);border-radius:6px;color:var(--copper-warm);font-size:0.85rem;font-weight:500;text-decoration:none;transition:all 0.15s ease;">Browse all recipes &rarr;</a>
+                        </div>
+                    </div>
+                </aside>
+            </section>
+
+            <!-- Kitchen Truths -->
+            <section class="kitchen-truths-section animate-in animate-in-delay-2">
+                <h2>Kitchen Truths</h2>
+                <div class="truth-display">
+                    <blockquote class="truth-quote" id="kitchenTruth" aria-live="polite"></blockquote>
+                </div>
+                <p class="truth-counter" id="truthCounter"></p>
+            </section>
+
+            <!-- Featured Recipes -->
+            <section class="featured-section animate-in animate-in-delay-3">
+                <div class="section-header">
+                    <span class="section-label">Featured This Week</span>
+                    <span class="section-note">Changes every Monday</span>
+                </div>
+                <div class="recipe-grid">
+                    <!-- Populated by featured-recipes-rotator.js -->
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="footer-inner">
+                <span class="footer-brand">AJPC</span>
+                <p class="footer-copy">&copy; 2026 Ana &amp; John's Kitchen Notebook. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="search.html">Recipes</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="measurement.html">Measurements</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">&#8593;</button>
+
+    <script src="js/nav-loader.js"></script>
+    <script src="js/kitchen-truths-animator.js"></script>
+    <script src="js/featured-recipes-rotator.js"></script>
+</body>
+</html>

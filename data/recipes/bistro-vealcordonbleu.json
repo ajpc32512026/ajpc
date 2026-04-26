@@ -1,0 +1,156 @@
+{
+  "id": "bistro-vealcordonbleu",
+  "title": "Veal Cordon Bleu",
+  "emoji": "🧀",
+  "category": "Dinner",
+  "description": "Thin veal escalopes wrapped around smoked ham and Swiss cheese, crumbed and deep-fried to golden perfection. Served with a Dijon cream sauce.",
+  "prepTime": "15 min",
+  "cookTime": "5 min",
+  "totalTime": "20 min",
+  "servings": 1,
+  "difficulty": "Medium",
+  "tags": [
+    "Alcohol",
+    "Cheese",
+    "Classic",
+    "Creamy",
+    "Dinner",
+    "French",
+    "Pork",
+    "Savoury",
+    "Under 30 Minutes"
+  ],
+  "ingredients": [
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Veal",
+      "ingredientKey": "Veal"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Pork",
+      "ingredientKey": "Pork"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Cheese",
+      "ingredientKey": "Cheese"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Eggs",
+      "ingredientKey": "Eggs"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Breadcrumbs",
+      "ingredientKey": "Breadcrumbs"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Onion",
+      "ingredientKey": "Onion"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Wine",
+      "ingredientKey": "Wine"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Cream",
+      "ingredientKey": "Cream"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Mustard",
+      "ingredientKey": "Mustard"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Pound veal escalopes thin between plastic wrap."
+    },
+    {
+      "step": 2,
+      "instruction": "Lay ham and cheese on one half of each escalope. Fold veal over to encase the filling. Press edges firmly to seal."
+    },
+    {
+      "step": 3,
+      "instruction": "Dust with flour, dip in egg wash, coat in breadcrumbs."
+    },
+    {
+      "step": 4,
+      "instruction": "Deep fry at 180°C until golden and cooked through — approximately 4-5 minutes. Drain."
+    },
+    {
+      "step": 5,
+      "instruction": "For Dijon cream sauce: soften shallots in butter. Deglaze with white wine and reduce by half."
+    },
+    {
+      "step": 6,
+      "instruction": "Add thickened cream and Dijon mustard. Reduce to a coating consistency. Season."
+    },
+    {
+      "step": 7,
+      "instruction": "Plate and serve sauce alongside — not poured over — to preserve the crumb."
+    }
+  ],
+  "notes": [
+    {
+      "type": "chef",
+      "title": "Chef's Note",
+      "content": "No original sauce on the menu — Dijon cream added as the crumb is too dry without it. Keep sauce on the side to protect the crumb texture. No demi."
+    }
+  ],
+  "related": [
+    {
+      "id": "bistro-chickenpicante",
+      "title": "Chicken Picante"
+    },
+    {
+      "id": "beefstockpot",
+      "title": "20 Minute Beef Stock Pot"
+    },
+    {
+      "id": "tomatoflan",
+      "title": "Tomato and Olive Flan"
+    },
+    {
+      "id": "chouxpastry",
+      "title": "Choux Pastry (Profiteroles)"
+    },
+    {
+      "id": "crepes",
+      "title": "Crepes with Maple Syrup & Butter"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "marinarasauce",
+  "title": "Marinara Sauce",
+  "emoji": "🍝",
+  "category": "Sauces",
+  "description": "A traditional Italian tomato sauce — fresh, herby, and full of character. Simple ingredients, perfect taste.",
+  "prepTime": "10 min",
+  "cookTime": "25 min",
+  "totalTime": "35 min",
+  "servings": "4 servings",
+  "difficulty": "Easy",
+  "tags": [
+    "Classic",
+    "Italian",
+    "Sauce",
+    "Tomato",
+    "Under 30 Minutes",
+    "Vegan",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "quantity": "2",
+      "unit": "cup",
+      "item": "Tomatoes",
+      "ingredientKey": "Tomatoes"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "3",
+      "unit": "",
+      "item": "Garlic",
+      "ingredientKey": "Garlic"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Onion",
+      "ingredientKey": "Onion"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Basil",
+      "ingredientKey": "Basil"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Oregano",
+      "ingredientKey": "Oregano"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "1/2",
+      "unit": "tsp",
+      "item": "Pepper",
+      "ingredientKey": "Pepper"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Heat olive oil in a pan."
+    },
+    {
+      "step": 2,
+      "instruction": "Sauté onion until translucent."
+    },
+    {
+      "step": 3,
+      "instruction": "Add garlic and cook briefly."
+    },
+    {
+      "step": 4,
+      "instruction": "Add crushed tomatoes."
+    },
+    {
+      "step": 5,
+      "instruction": "Stir in basil and oregano."
+    },
+    {
+      "step": 6,
+      "instruction": "Simmer for 20–25 minutes."
+    },
+    {
+      "step": 7,
+      "instruction": "Season with salt and pepper."
+    }
+  ],
+  "notes": [
+    {
+      "type": "serving",
+      "title": "Serving Tip",
+      "content": "A versatile sauce perfect for pasta, pizza, or as a base for other dishes. Freezes beautifully."
+    },
+    {
+      "title": "Tomatoes",
+      "content": "crushed"
+    },
+    {
+      "title": "Garlic Cloves",
+      "content": "minced"
+    },
+    {
+      "title": "Onion",
+      "content": "chopped"
+    },
+    {
+      "title": "Basil",
+      "content": "dried"
+    },
+    {
+      "title": "Oregano",
+      "content": "dried"
+    }
+  ],
+  "related": [
+    {
+      "id": "redsauce",
+      "title": "Red Sauce"
+    },
+    {
+      "id": "arrabbiatazauce",
+      "title": "Arrabbiata Sauce"
+    },
+    {
+      "id": "alfredosauce",
+      "title": "Alfredo Sauce"
+    },
+    {
+      "id": "pestosauce",
+      "title": "Pesto Sauce"
+    },
+    {
+      "id": "whitesauce",
+      "title": "White Sauce (Béchamel)"
+    }
+  ]
+}

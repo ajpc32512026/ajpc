@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#16161a">
+    <title>Recipe | AJPC Kitchen Notebook</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="recipe-page">
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Navigation -->
+    <div id="nav-placeholder"></div>
+
+    <!-- Main Content -->
+    <div class="content-wrapper">
+        <main id="recipe-container">
+            <div class="loading-state">
+                <div class="loading-spinner"></div>
+                <p>Loading recipe...</p>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-inner">
+                <span class="footer-brand">AJPC</span>
+                <p class="footer-copy">&copy; 2026 Ana &amp; John's Kitchen Notebook.</p>
+                <button class="print-btn" onclick="window.print()">Print Recipe</button>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">&#8593;</button>
+
+    <script src="js/nav-loader.js"></script>
+    <script src="js/recipe-renderer.js"></script>
+</body>
+</html>

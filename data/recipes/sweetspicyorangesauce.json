@@ -1,0 +1,109 @@
+{
+  "id": "sweetspicyorangesauce",
+  "title": "Sweet & Spicy Orange Sauce",
+  "emoji": "🍊",
+  "category": "Sauces",
+  "description": "A zesty Asian-inspired sauce — citrusy, fiery, and utterly moreish. Restaurant quality at home.",
+  "prepTime": "5 min",
+  "cookTime": "8 min",
+  "totalTime": "13 min",
+  "servings": "4 servings",
+  "difficulty": "Easy",
+  "tags": [
+    "Orange",
+    "Sauce",
+    "Spicy",
+    "Sweet",
+    "Under 30 Minutes",
+    "Vegan"
+  ],
+  "ingredients": [
+    {
+      "quantity": "1/4",
+      "unit": "cup",
+      "item": "Juice",
+      "ingredientKey": "Juice"
+    },
+    {
+      "quantity": "1/3",
+      "unit": "cup",
+      "item": "Honey",
+      "ingredientKey": "Honey"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Sauces",
+      "ingredientKey": "Sauces"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Vinegar",
+      "ingredientKey": "Vinegar"
+    },
+    {
+      "quantity": "1",
+      "unit": "tbsp",
+      "item": "Sauces",
+      "ingredientKey": "Sauces"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Orange Zest",
+      "ingredientKey": "Orange Zest"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Mix all ingredients in a saucepan."
+    },
+    {
+      "step": 2,
+      "instruction": "Heat over medium until bubbling."
+    },
+    {
+      "step": 3,
+      "instruction": "Simmer 3–5 minutes until slightly thickened."
+    },
+    {
+      "step": 4,
+      "instruction": "Remove from heat and let cool."
+    }
+  ],
+  "notes": [
+    {
+      "type": "serving",
+      "title": "Serving Tip",
+      "content": "Fantastic with crispy chicken or tofu. The orange zest adds a lovely fresh note."
+    },
+    {
+      "title": "Chili Garlic Sauce",
+      "content": "or red pepper flakes"
+    }
+  ],
+  "related": [
+    {
+      "id": "sweetchilisauce",
+      "title": "Sweet Chili Sauce"
+    },
+    {
+      "id": "sweetsoursauce_quick",
+      "title": "Sweet & Sour Sauce – Quick Takeout Style"
+    },
+    {
+      "id": "teriyakisauce",
+      "title": "Teriyaki Sauce"
+    },
+    {
+      "id": "sweetsoursauce_flex",
+      "title": "Sweet & Sour Sauce – Home Chef Flex"
+    },
+    {
+      "id": "chiligarlicopil",
+      "title": "Chili Garlic Oil"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "id": "hamburger",
+  "title": "Hamburger Buns",
+  "emoji": "🍔",
+  "category": "Baking",
+  "description": "Soft, golden, and pillowy — the perfect base for your ultimate burger creations.",
+  "prepTime": "25 min",
+  "cookTime": "15 min",
+  "totalTime": "2 hours 40 min",
+  "servings": "8 buns",
+  "difficulty": "Medium",
+  "ingredients": [
+    {
+      "quantity": "500",
+      "unit": "g",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "300",
+      "unit": "ml",
+      "item": "Milk",
+      "ingredientKey": "Milk"
+    },
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "7",
+      "unit": "g",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "7",
+      "unit": "g",
+      "item": "Yeast",
+      "ingredientKey": "Yeast"
+    },
+    {
+      "quantity": "40",
+      "unit": "g",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Optional glaze: splash of milk before baking, or melted butter after"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Sesame Seeds",
+      "ingredientKey": "Sesame Seeds"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "In a large bowl, combine lukewarm liquid (milk/water), sugar, and instant yeast. Let sit for 5 minutes until foamy."
+    },
+    {
+      "step": 2,
+      "instruction": "Add flour, salt, and oil. Mix until a rough dough forms."
+    },
+    {
+      "step": 3,
+      "instruction": "Knead for 8-10 minutes (by hand or in a stand mixer) until the dough is smooth, soft, and elastic."
+    },
+    {
+      "step": 4,
+      "instruction": "Place dough in a lightly oiled bowl, cover with a damp tea towel, and let rise in a warm place for 1-1.5 hours or until doubled in size."
+    },
+    {
+      "step": 5,
+      "instruction": "Punch down the dough and divide into 8 equal pieces (approximately 105-110g each)."
+    },
+    {
+      "step": 6,
+      "instruction": "Shape each piece into a smooth ball by tucking the edges underneath, then flatten slightly into a disc shape."
+    },
+    {
+      "step": 7,
+      "instruction": "Place buns on a lined baking tray, leaving space between each (they will expand)."
+    },
+    {
+      "step": 8,
+      "instruction": "Cover and let rise for 45-60 minutes until puffy and nearly doubled."
+    },
+    {
+      "step": 9,
+      "instruction": "Preheat oven to 180°C fan (200°C conventional / 400°F)."
+    },
+    {
+      "step": 10,
+      "instruction": "Brush tops lightly with milk and sprinkle with sesame seeds if desired."
+    },
+    {
+      "step": 11,
+      "instruction": "Bake for 12-15 minutes until the tops are golden brown but still soft."
+    },
+    {
+      "step": 12,
+      "instruction": "Remove from oven and brush with melted butter for extra softness (optional)."
+    },
+    {
+      "step": 13,
+      "instruction": "Cool on a wire rack before slicing horizontally for burgers."
+    }
+  ],
+  "notes": [
+    {
+      "type": "tip",
+      "title": "Perfect Shape",
+      "content": "For uniform buns, weigh each dough portion to ensure they're all the same size (105-110g each)."
+    },
+    {
+      "type": "storage",
+      "title": "Storage",
+      "content": "Store in an airtight container for 2-3 days, or freeze for up to 2 months. Thaw and warm before using."
+    },
+    {
+      "type": "variation",
+      "title": "Brioche-Style",
+      "content": "For richer, brioche-style buns, replace water with all milk and add 1 beaten egg to the dough."
+    }
+  ],
+  "tags": [
+    "American",
+    "Baked",
+    "Bread",
+    "Creamy",
+    "Rich",
+    "Savoury",
+    "Soft",
+    "Under 1 Hour"
+  ],
+  "related": [
+    {
+      "id": "garlicbread",
+      "title": "Garlic Butter Crusty Bread"
+    },
+    {
+      "id": "sub",
+      "title": "Homemade Sub Buns"
+    },
+    {
+      "id": "swbtm",
+      "title": "Soft White Bread (Tangzhong Method)"
+    },
+    {
+      "id": "darkrye",
+      "title": "Dark Rye Bread"
+    },
+    {
+      "id": "turkishbread",
+      "title": "Traditional Turkish Bread"
+    }
+  ]
+}

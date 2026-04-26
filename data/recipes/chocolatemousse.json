@@ -1,0 +1,134 @@
+{
+  "id": "chocolatemousse",
+  "title": "Chocolate Mousse",
+  "category": "Desserts",
+  "description": "The essence of a mousse is lightness, indicated by it's French name meaning foam or froth. This favourite is delicate yet rich with cream and chocolate.",
+  "prepTime": "10 Minutes",
+  "cookTime": "5 Minutes",
+  "totalTime": "15 Minutes",
+  "servings": "6",
+  "difficulty": "Easy",
+  "tags": [
+    "Chocolate",
+    "Creamy",
+    "Dessert",
+    "French",
+    "Make Ahead",
+    "No-Bake",
+    "Rich",
+    "Sweet",
+    "Under 30 Minutes",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "quantity": "200",
+      "unit": "g",
+      "item": "Dark Cooking Chocolate",
+      "notes": "70-80% cocoa - chopped"
+    },
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Butter",
+      "notes": "unsalted - cubed"
+    },
+    {
+      "quantity": "3",
+      "unit": "",
+      "item": "Eggs",
+      "notes": "separated"
+    },
+    {
+      "quantity": "300",
+      "unit": "ml",
+      "item": "Cream",
+      "notes": "whipped"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Place chocolate in heatproof bowl and place over pan of simmering water. Stir choclate until melts then remove from heat."
+    },
+    {
+      "step": 2,
+      "instruction": "Add butter, stir until melted. Stir in egg yolks, 1 at a time; transfer mixture to a large bowl, cover, cool."
+    },
+    {
+      "step": 3,
+      "instruction": "Beat egg whites in a small bowl with electric mixer until medium soft peaks form."
+    },
+    {
+      "step": 4,
+      "instruction": "Whip the cream until stiff DO NOT OVER MIX... We already have the butter... \nSoft peaks"
+    },
+    {
+      "step": 5,
+      "instruction": "Gently fold in cream and egg whites alternatly a third at a time into the cooled chocolate mixture."
+    },
+    {
+      "step": 6,
+      "instruction": "Pour or spoon into serving dishes, cover with plastic wrap, refigerate over night."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Whipping Egg Whites",
+      "content": "DO NOT over-whip the whites or you will get a grainy texture in the final result..."
+    },
+    {
+      "type": "serving",
+      "title": "Restaurant finish",
+      "content": "Serve with extra whipped cream and chocolate curls, if desired."
+    },
+    {
+      "type": "storage",
+      "title": "Storage",
+      "content": "Covered, in refrigerator."
+    },
+    {
+      "type": "storage",
+      "title": "Freeze",
+      "content": "Not Suitable."
+    },
+    {
+      "type": "technique",
+      "title": "Microwave",
+      "content": "Chocolate and butter suitable."
+    },
+    {
+      "type": "acknowledgement",
+      "title": "Recipe Source",
+      "content": "The Australian Woman's Weekly Home Library ~ Sweet Old-Fashioned Favourites ISBN: 0-949128-82-1. ~ Page 34"
+    },
+    {
+      "type": "acknowledgement",
+      "title": "Copyright",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    }
+  ],
+  "related": [
+    {
+      "id": "bistro-profiteroles",
+      "title": "Profiteroles"
+    },
+    {
+      "id": "tiramisu",
+      "title": "Chef-Style Tiramisu Gateau"
+    },
+    {
+      "id": "chocolatemudcake",
+      "title": "The Ultimate Chocolate Mud Cake"
+    },
+    {
+      "id": "chocolatecake",
+      "title": "Ultimate Chocolate Cake"
+    },
+    {
+      "id": "bistro-mudcake",
+      "title": "Mud Cake"
+    }
+  ]
+}

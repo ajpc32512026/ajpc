@@ -1,0 +1,134 @@
+{
+  "id": "mornaysauce",
+  "title": "Mornay / Cheese Sauce",
+  "emoji": "🧀",
+  "category": "Sauces",
+  "description": "A smooth, creamy cheese sauce made the right way — starting with a proper roux, then béchamel, then cheese.",
+  "prepTime": "5 min",
+  "cookTime": "15 min",
+  "totalTime": "20 min",
+  "servings": "500ml (2 cups)",
+  "difficulty": "Easy",
+  "ingredients": [
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "500",
+      "unit": "ml",
+      "item": "Milk",
+      "ingredientKey": "Milk"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Nutmeg",
+      "ingredientKey": "Nutmeg"
+    },
+    {
+      "quantity": "100-150",
+      "unit": "g",
+      "item": "Cheese",
+      "ingredientKey": "Cheese"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Melt butter in a medium saucepan over medium heat."
+    },
+    {
+      "step": 2,
+      "instruction": "Add flour and whisk constantly for 1-2 minutes to cook out the raw flour taste. This is your roux — it should be smooth and pale golden, not browned."
+    },
+    {
+      "step": 3,
+      "instruction": "Gradually pour in the warmed milk, whisking constantly to prevent lumps from forming."
+    },
+    {
+      "step": 4,
+      "instruction": "Continue whisking over medium heat until the sauce thickens and comes to a gentle simmer, about 5-7 minutes."
+    },
+    {
+      "step": 5,
+      "instruction": "Once thickened to a coating consistency, reduce heat to low. Season with salt, white pepper, and nutmeg (if using)."
+    },
+    {
+      "step": 6,
+      "instruction": "Remove from heat and stir in the grated cheese. Mix until completely melted and smooth."
+    },
+    {
+      "step": 7,
+      "instruction": "Taste and adjust seasoning if needed. Use immediately while hot, or cover with plastic wrap pressed directly onto the surface to prevent a skin forming."
+    }
+  ],
+  "notes": [
+    {
+      "type": "tip",
+      "title": "Smooth Sauce Secret",
+      "content": "Warm milk prevents lumps and helps the sauce come together smoothly. Cold milk works too, but takes longer and requires more whisking."
+    },
+    {
+      "type": "tip",
+      "title": "Cheese Choice",
+      "content": "Strong cheddar gives classic flavour. Gruyère adds sophistication. Parmesan brings umami. Mix cheeses for complexity."
+    },
+    {
+      "type": "technique",
+      "title": "Thickness Control",
+      "content": "For a thicker sauce, cook longer or add a bit more flour/cheese. For thinner, add more milk. The sauce will thicken slightly as it cools."
+    },
+    {
+      "type": "reference",
+      "title": "More Cheese Sauce Tips",
+      "content": "Get full cheese sauce insights and tips in our comprehensive Cheese Sauce Tips guide."
+    }
+  ],
+  "tags": [
+    "Cheese",
+    "Classic",
+    "Creamy",
+    "French",
+    "Rich",
+    "Sauce",
+    "Under 30 Minutes",
+    "Vegetarian"
+  ],
+  "related": [
+    {
+      "id": "whitesauce",
+      "title": "White Sauce (Béchamel)"
+    },
+    {
+      "id": "alfredosauce",
+      "title": "Alfredo Sauce"
+    },
+    {
+      "id": "pestosauce",
+      "title": "Pesto Sauce"
+    },
+    {
+      "id": "marinarasauce",
+      "title": "Marinara Sauce"
+    },
+    {
+      "id": "redsauce",
+      "title": "Red Sauce"
+    }
+  ]
+}

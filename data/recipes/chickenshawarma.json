@@ -1,0 +1,147 @@
+{
+  "id": "chickenshawarma",
+  "title": "Chicken Shawarma",
+  "emoji": "🥙",
+  "category": "Dinner",
+  "description": "Oven-roasted Middle Eastern chicken, marinated with authentic spices.",
+  "prepTime": "15 min + marinating",
+  "cookTime": "15 min",
+  "totalTime": "1 hr 30 min (including minimum marinating)",
+  "servings": "4 servings",
+  "difficulty": "Medium",
+  "tags": [
+    "Chicken",
+    "Dinner",
+    "Middle Eastern",
+    "Savoury",
+    "Under 30 Minutes"
+  ],
+  "ingredients": [
+    {
+      "quantity": "1",
+      "unit": "lb",
+      "item": "Chicken",
+      "ingredientKey": "Chicken"
+    },
+    {
+      "quantity": "1",
+      "unit": "lb",
+      "item": "Chicken",
+      "ingredientKey": "Chicken"
+    },
+    {
+      "quantity": "1/4",
+      "unit": "cup",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "3",
+      "unit": "tbsp",
+      "item": "Juice",
+      "ingredientKey": "Juice"
+    },
+    {
+      "quantity": "6",
+      "unit": "cloves",
+      "item": "Garlic",
+      "ingredientKey": "Garlic"
+    },
+    {
+      "quantity": "2",
+      "unit": "tsp",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Paprika",
+      "ingredientKey": "Paprika"
+    },
+    {
+      "quantity": "3/4",
+      "unit": "tsp",
+      "item": "Cardamom Pods, Green",
+      "ingredientKey": "Cardamom Pods, Green"
+    },
+    {
+      "quantity": "3/4",
+      "unit": "tsp",
+      "item": "Cumin",
+      "ingredientKey": "Cumin"
+    },
+    {
+      "quantity": "1/4",
+      "unit": "tsp",
+      "item": "Red Chili",
+      "ingredientKey": "Red Chili"
+    },
+    {
+      "quantity": "1/4",
+      "unit": "tsp",
+      "item": "Cinnamon",
+      "ingredientKey": "Cinnamon"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "In a large bowl, whisk together olive oil, lemon juice, garlic, salt, paprika, cumin, cardamom, crushed red pepper, and cinnamon."
+    },
+    {
+      "step": 2,
+      "instruction": "Add chicken to the marinade and stir to coat evenly. Cover and refrigerate for at least 1 hour or up to 24 hours."
+    },
+    {
+      "step": 3,
+      "instruction": "Preheat oven to 400°F (200°C). Line a rimmed baking sheet with parchment paper."
+    },
+    {
+      "step": 4,
+      "instruction": "Arrange chicken on the prepared sheet and roast for 15 minutes, turning halfway, until cooked through."
+    },
+    {
+      "step": 5,
+      "instruction": "Remove from oven and thinly slice the chicken. For seared edges, sauté slices in a skillet with juices for 5 minutes, avoiding overcrowding."
+    },
+    {
+      "step": 6,
+      "instruction": "Serve over rice or in pita with pickles, tomatoes, lettuce, and garlic or tahini sauce."
+    }
+  ],
+  "notes": [
+    {
+      "type": "acknowledgment",
+      "title": "Acknowledgment",
+      "content": "Recipe inspired by traditional Middle Eastern shawarma techniques."
+    },
+    {
+      "type": "acknowledgment",
+      "title": "Acknowledgment",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    }
+  ],
+  "related": [
+    {
+      "id": "bistro-thaichicken",
+      "title": "Thai Chicken"
+    },
+    {
+      "id": "bistro-chickenpicante",
+      "title": "Chicken Picante"
+    },
+    {
+      "id": "bistro-chickenriverina",
+      "title": "Chicken Riverina"
+    },
+    {
+      "id": "bistro-chickenpapion",
+      "title": "Chicken Papion"
+    },
+    {
+      "id": "chickenbaconpies",
+      "title": "Chicken, Mushroom & Bacon Pies"
+    }
+  ]
+}

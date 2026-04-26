@@ -1,0 +1,175 @@
+{
+  "id": "swbtm2",
+  "title": "Tangzhong Pull-Apart Loaf",
+  "emoji": "🍞",
+  "category": "Dinner",
+  "description": "A soft, airy loaf with a tender crumb, made using tangzhong and hand-rolled sections for perfect pull-apart perfection.",
+  "ingredients": [
+    {
+      "quantity": "560",
+      "unit": "g",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "180",
+      "unit": "g",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "180",
+      "unit": "ml",
+      "item": "water"
+    },
+    {
+      "quantity": "20",
+      "unit": "ml",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Bread Improver",
+      "ingredientKey": "Bread Improver"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Yeast",
+      "ingredientKey": "Yeast"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Milk",
+      "ingredientKey": "Milk"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Make the tangzhong by cooking 30 g flour with 190 ml water until thickened. Let cool."
+    },
+    {
+      "step": 2,
+      "instruction": "Mix all dry ingredients (flour, salt, bread improver, yeast) in a large bowl."
+    },
+    {
+      "step": 3,
+      "instruction": "Add tangzhong, water, and oil to the dry mix. Knead by hand until smooth and elastic."
+    },
+    {
+      "step": 4,
+      "instruction": "Let the dough rise for the first proof until doubled in size."
+    },
+    {
+      "step": 5,
+      "instruction": "Perform a gentle second knead after the first rise to redistribute air and improve crumb."
+    },
+    {
+      "step": 6,
+      "instruction": "Divide the dough into three equal portions."
+    },
+    {
+      "step": 7,
+      "instruction": "Roll each portion into a loose ball, then use the “tiny tension trick”: cup it in one hand and tuck edges underneath while rotating gently, creating a smooth, taut dome."
+    },
+    {
+      "step": 8,
+      "instruction": "Place the balls snugly into a greased loaf pan (approx. 8 × 18 cm), edges touching lightly."
+    },
+    {
+      "step": 9,
+      "instruction": "Cover loosely and let the dough rise until puffed and slightly jiggly, testing with a gentle poke."
+    },
+    {
+      "step": 10,
+      "instruction": "Lightly brush the top of the dough with milk before baking."
+    },
+    {
+      "step": 11,
+      "instruction": "Preheat oven to 180–185°C and bake for 25–30 minutes. If browning is slow, increase to 190°C for the last few minutes."
+    },
+    {
+      "step": 12,
+      "instruction": "Remove from oven and immediately brush the warm loaf with melted butter."
+    },
+    {
+      "step": 13,
+      "instruction": "Let the loaf rest 5–10 minutes in the pan, then gently lift out and cool slightly before slicing."
+    }
+  ],
+  "notes": [
+    {
+      "title": "Notes & Tips",
+      "content": "- Small balls in the pan support each other and prevent sagging sides."
+    },
+    {
+      "title": "Notes & Tips",
+      "content": "- Keep the surface of each ball taut to hold the shape during baking."
+    },
+    {
+      "title": "Notes & Tips",
+      "content": "- Wallaby’s bakers flour gives a softer, smoother dough and a better rise compared to plain flour."
+    },
+    {
+      "title": "Notes & Tips",
+      "content": "- Dust hands lightly when kneading if the dough is sticky, but avoid drying it out."
+    },
+    {
+      "title": "Notes & Tips",
+      "content": "- Brushing milk before baking gives a soft, golden crust; brushing melted butter after baking adds flavor and a glossy finish."
+    },
+    {
+      "title": "Notes & Tips",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    }
+  ],
+  "tags": [
+    "Bread",
+    "Creamy",
+    "Dinner",
+    "Make Ahead",
+    "Rich",
+    "Savoury",
+    "Soft",
+    "Sweet",
+    "Vegetarian"
+  ],
+  "related": [
+    {
+      "id": "cinnbun",
+      "title": "Bakery-Style Cinnamon Buns"
+    },
+    {
+      "id": "hotdog",
+      "title": "Wendy’s-Style Hot Dog Buns"
+    },
+    {
+      "id": "highhydraciab",
+      "title": "Airy High-Hydration Ciabatta"
+    },
+    {
+      "id": "lemoncoconut",
+      "title": "Lemon Coconut Cake"
+    },
+    {
+      "id": "hummingbird",
+      "title": "Hummingbird Cake — Cafe Style"
+    }
+  ]
+}

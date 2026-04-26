@@ -1,0 +1,127 @@
+{
+  "id": "bistro-fishoftheday",
+  "title": "Fish of the Day",
+  "emoji": "🐟",
+  "category": "Dinner",
+  "description": "Poached or grilled fresh fish fillet with a light lemon and white wine cream sauce. The menu said market price — and it meant it.",
+  "prepTime": "5 min",
+  "cookTime": "6 min",
+  "totalTime": "11 min",
+  "servings": 1,
+  "difficulty": "Easy",
+  "tags": [
+    "Alcohol",
+    "Classic",
+    "Cream",
+    "Creamy",
+    "Dinner",
+    "Fish",
+    "Gluten-Free",
+    "Lemon",
+    "Rich",
+    "Savoury",
+    "Seafood",
+    "Under 30 Minutes"
+  ],
+  "ingredients": [
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Seafood",
+      "ingredientKey": "Seafood"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Juice",
+      "ingredientKey": "Juice"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Wine",
+      "ingredientKey": "Wine"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Cream",
+      "ingredientKey": "Cream"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Onion",
+      "ingredientKey": "Onion"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Parsley",
+      "ingredientKey": "Parsley"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "POACHED: Poach fish in lightly salted water with lemon until just cooked through."
+    },
+    {
+      "step": 2,
+      "instruction": "GRILLED: Brush with butter and grill until just cooked through."
+    },
+    {
+      "step": 3,
+      "instruction": "For sauce: soften shallots in butter. Deglaze with white wine."
+    },
+    {
+      "step": 4,
+      "instruction": "Add thickened cream and lemon juice. Reduce to a light coating sauce."
+    },
+    {
+      "step": 5,
+      "instruction": "Finish with fresh herbs. Plate fish and spoon sauce over."
+    }
+  ],
+  "notes": [
+    {
+      "type": "chef",
+      "title": "Chef's Note",
+      "content": "No demi — cream and wine sauce only. Light, not heavy. ??? Standard fish or genuinely changed daily? ??? Lemon butter or white wine cream — preferred sauce?"
+    }
+  ],
+  "related": [
+    {
+      "id": "bistro-mediterraneansteak",
+      "title": "Mediterranean Steak"
+    },
+    {
+      "id": "bistro-chickenpicante",
+      "title": "Chicken Picante"
+    },
+    {
+      "id": "bistro-chickenpapion",
+      "title": "Chicken Papion"
+    },
+    {
+      "id": "bistro-brandymustardsteak",
+      "title": "Brandy Mustard Steak"
+    },
+    {
+      "id": "bistro-filetmignon",
+      "title": "Filet Mignon"
+    }
+  ]
+}

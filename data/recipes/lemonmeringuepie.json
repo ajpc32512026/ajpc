@@ -1,0 +1,211 @@
+{
+  "id": "lemonmeringuepie",
+  "title": "Lemon Meringue Pie",
+  "emoji": "🍋",
+  "category": "Desserts",
+  "description": "A classic tart with buttery pastry, tangy lemon filling, and light fluffy meringue topping.\n\nThe Meringue is belived to have been invented by a Swiss pastry-cook called Gasparini in 1720. It quickly becaome a favourite of the French court and Marie-Antoinette was apparently so fond of it that she used to make it with her own regal bands!",
+  "prepTime": "40-45 mins",
+  "cookTime": "25-30 mins",
+  "totalTime": "1 Hour, 10 - 15 Min",
+  "servings": "6-8",
+  "difficulty": "Medium",
+  "tags": [
+    "Baked",
+    "Classic",
+    "Dessert",
+    "Lemon",
+    "Pastry",
+    "Rich",
+    "Sweet",
+    "Tangy",
+    "Under 30 Minutes",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "heading": "Base"
+    },
+    {
+      "quantity": "1 1/2",
+      "unit": "cups",
+      "item": "Flour",
+      "notes": "sifted"
+    },
+    {
+      "quantity": "3",
+      "unit": "tsp",
+      "item": "Sugar"
+    },
+    {
+      "quantity": "140",
+      "unit": "g",
+      "item": "Butter"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Egg",
+      "notes": "separated, lightly beaten"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "water",
+      "notes": "approx. cold"
+    },
+    {
+      "heading": "Filling"
+    },
+    {
+      "quantity": "1/2",
+      "unit": "cup",
+      "item": "Cornflour"
+    },
+    {
+      "quantity": "1",
+      "unit": "cup",
+      "item": "Sugar"
+    },
+    {
+      "quantity": "1/2",
+      "unit": "cup",
+      "item": "Lemon Juice"
+    },
+    {
+      "quantity": "1 1/4",
+      "unit": "cups",
+      "item": "water",
+      "notes": "cold"
+    },
+    {
+      "quantity": "2",
+      "unit": "tsp",
+      "item": "Lemon Zest"
+    },
+    {
+      "quantity": "3",
+      "unit": "",
+      "item": "Eggs",
+      "notes": "separated"
+    },
+    {
+      "heading": "Topping"
+    },
+    {
+      "quantity": "60",
+      "unit": "g",
+      "item": "Butter",
+      "notes": "unsalted"
+    },
+    {
+      "quantity": "3",
+      "unit": "",
+      "item": "Egg Whites"
+    },
+    {
+      "quantity": "1/4",
+      "unit": "cup",
+      "item": "Sugar"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Lightly grease a 24 cm flan tin."
+    },
+    {
+      "step": 2,
+      "instruction": "Sift flour and icing sugar into a bowl. Rub in butter. Add yolk and enough water to bind ingredients."
+    },
+    {
+      "step": 3,
+      "instruction": "Form dough into a ball, knead gently on a lightly floured surface until smooth. Cover and refrigerate 30 minutes."
+    },
+    {
+      "step": 4,
+      "instruction": "Roll dough to line prepared tin. Trim edges. Place tin on oven tray, line with paper and fill with rice or dried beans."
+    },
+    {
+      "step": 5,
+      "instruction": "Bake in moderate oven 10 minutes. Remove paper and beans, bake further 10 minutes until lightly browned. Cool to room temperature."
+    },
+    {
+      "step": 6,
+      "instruction": "Combine cornflour and sugar in a pan. Gradually stir in lemon juice and water until smooth."
+    },
+    {
+      "step": 7,
+      "instruction": "Cook over heat until mixture boils and thickens (should be very thick)."
+    },
+    {
+      "step": 8,
+      "instruction": "Reduce heat, quickly stir in lemon rind, yolks, and butter. Stir until butter melts. Cover and cool to room temperature."
+    },
+    {
+      "step": 9,
+      "instruction": "Spread filling into cooled pastry case."
+    },
+    {
+      "step": 10,
+      "instruction": "Beat egg whites in a small bowl with an electric mixer until soft peaks form. Gradually add sugar, beating until dissolved and mixture is thick and glossy."
+    },
+    {
+      "step": 11,
+      "instruction": "Spread meringue over lemon filling and bake in moderate oven about 5 minutes or until lightly browned."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Technique",
+      "content": "Can be made a day ahead"
+    },
+    {
+      "type": "storage",
+      "title": "Storage",
+      "content": "Covered in refigerator"
+    },
+    {
+      "type": "storage",
+      "title": "Storage",
+      "content": "Freeze not Suitable"
+    },
+    {
+      "type": "storage",
+      "title": "Storage",
+      "content": "Microwave not Suitable"
+    },
+    {
+      "type": "acknowledgement",
+      "title": "Recipe Source",
+      "content": "The Australian Woman's Weekly Home Library ~ Sweet Old-Fashioned Favourites ISBN: 0-949128-82-1. ~ Page 71"
+    },
+    {
+      "type": "acknowledgement",
+      "title": "Copyright",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    }
+  ],
+  "related": [
+    {
+      "id": "bistro-lemonmeringuepie",
+      "title": "Lemon Meringue Pie"
+    },
+    {
+      "id": "bistro-profiteroles",
+      "title": "Profiteroles"
+    },
+    {
+      "id": "bistro-mudcake",
+      "title": "Mud Cake"
+    },
+    {
+      "id": "cinntwists",
+      "title": "Cinnamon Twists"
+    },
+    {
+      "id": "plain-cheesecake",
+      "title": "Plain Cheesecake (Classic No Bake)"
+    }
+  ]
+}

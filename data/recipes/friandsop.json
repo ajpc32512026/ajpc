@@ -1,0 +1,135 @@
+{
+  "id": "friandsop",
+  "title": "Orange & Poppyseed Friands",
+  "emoji": "🌞",
+  "category": "Dinner",
+  "description": "Fluffy little citrus pillows that taste like sunshine… and maybe just a bit of smug satisfaction.",
+  "ingredients": [
+    {
+      "quantity": "180",
+      "unit": "g",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "6",
+      "unit": "egg",
+      "item": "Eggs",
+      "ingredientKey": "Eggs"
+    },
+    {
+      "quantity": "1",
+      "unit": "tbsp",
+      "item": "Orange Zest",
+      "ingredientKey": "Orange Zest"
+    },
+    {
+      "quantity": "150",
+      "unit": "g",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "75",
+      "unit": "g",
+      "item": "Almonds",
+      "ingredientKey": "Almonds"
+    },
+    {
+      "quantity": "60",
+      "unit": "g",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Poppy Seed",
+      "ingredientKey": "Poppy Seed"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Vanilla",
+      "ingredientKey": "Vanilla"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Juice",
+      "ingredientKey": "Juice"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 180°C (fan-forced). Grease friand tins thoroughly."
+    },
+    {
+      "step": 2,
+      "instruction": "In a large bowl, combine icing sugar, almond meal, flour, poppy seeds, and orange zest."
+    },
+    {
+      "step": 3,
+      "instruction": "In a separate jug, whisk egg whites until just frothy (no stiff peaks)."
+    },
+    {
+      "step": 4,
+      "instruction": "Add melted butter, vanilla, and orange juice to the egg whites. Stir gently."
+    },
+    {
+      "step": 5,
+      "instruction": "Fold the dry ingredients into the wet until just combined."
+    },
+    {
+      "step": 6,
+      "instruction": "Pour batter into a 2-litre jug for easy pouring into tins."
+    },
+    {
+      "step": 7,
+      "instruction": "Fill each friand tin about 3/4 full. Bake 20–25 minutes until golden and domed."
+    },
+    {
+      "step": 8,
+      "instruction": "Cool 5 minutes, then release onto a wire rack."
+    }
+  ],
+  "notes": [
+    {
+      "title": "Chef’s Notes",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    }
+  ],
+  "tags": [
+    "Dessert",
+    "Dinner",
+    "Gluten-Free",
+    "Orange",
+    "Rich",
+    "Savoury",
+    "Sweet",
+    "Vegetarian"
+  ],
+  "related": [
+    {
+      "id": "orangepoppyseed",
+      "title": "Orange & Poppy Seed Cake — Double Batch"
+    },
+    {
+      "id": "bistro-orangethaichicken",
+      "title": "Orange Thai Chicken"
+    },
+    {
+      "id": "lemoncoconut",
+      "title": "Lemon Coconut Cake"
+    },
+    {
+      "id": "chouxpastry",
+      "title": "Choux Pastry (Profiteroles)"
+    },
+    {
+      "id": "crepes",
+      "title": "Crepes with Maple Syrup & Butter"
+    }
+  ]
+}

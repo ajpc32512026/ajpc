@@ -1,0 +1,184 @@
+{
+  "id": "mongolianbeef",
+  "title": "Mongolian Beef Stir-Fry",
+  "emoji": "🥢",
+  "category": "Dinner",
+  "description": "Serve this sizzling stir-fry in a cast-iron pan for full restaurant-style drama — the sizzling, spitting finish brings the flavour alive.",
+  "ingredients": [
+    {
+      "quantity": "350",
+      "unit": "g",
+      "item": "Beef",
+      "ingredientKey": "Beef"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Bi-Carb Soda",
+      "ingredientKey": "Bi-Carb Soda"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "1",
+      "unit": "tbsp",
+      "item": "Sauces",
+      "ingredientKey": "Sauces"
+    },
+    {
+      "quantity": "1",
+      "unit": "tbsp",
+      "item": "Wine",
+      "ingredientKey": "Wine"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "2",
+      "unit": "tsp",
+      "item": "Sauces",
+      "ingredientKey": "Sauces"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Sauces",
+      "ingredientKey": "Sauces"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Sambal Oelek",
+      "ingredientKey": "Sambal Oelek"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Sauces",
+      "ingredientKey": "Sauces"
+    },
+    {
+      "quantity": "1",
+      "unit": "tbsp",
+      "item": "Wine",
+      "ingredientKey": "Wine"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Chinese Five Spice",
+      "ingredientKey": "Chinese Five Spice"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "1/4 cup water"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "3",
+      "unit": "tbsp",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Onion",
+      "ingredientKey": "Onion"
+    },
+    {
+      "quantity": "3",
+      "unit": "spring",
+      "item": "Onion",
+      "ingredientKey": "Onion"
+    },
+    {
+      "quantity": "2",
+      "unit": "garlic",
+      "item": "Garlic",
+      "ingredientKey": "Garlic"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Combine beef with marinade ingredients, mixing well. Set aside for 1 hour."
+    },
+    {
+      "step": 2,
+      "instruction": "Mix cornflour with soy sauces, then stir in remaining sauce ingredients. Set aside."
+    },
+    {
+      "step": 3,
+      "instruction": "Heat oil in a wok on high. Stir-fry onion and the white parts of spring onions for 1 minute. Add garlic and cook 10 seconds."
+    },
+    {
+      "step": 4,
+      "instruction": "Add marinated beef and stir-fry until no longer red, about 2 minutes."
+    },
+    {
+      "step": 5,
+      "instruction": "Pour in the sauce and cook until reduced and caramelised, about 3 minutes."
+    },
+    {
+      "step": 6,
+      "instruction": "Toss through the green parts of the spring onions until just wilted. Serve immediately — ideally in a hot cast-iron pan for sizzling effect."
+    }
+  ],
+  "notes": [
+    {
+      "title": "📖 Notes & Acknowledgment",
+      "content": "This Mongolian Beef Stir-Fry recipe draws inspiration from traditional Chinese banquet cooking methods."
+    },
+    {
+      "title": "📖 Notes & Acknowledgment",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    }
+  ],
+  "tags": [
+    "Alcohol",
+    "Beef",
+    "Chinese",
+    "Dinner",
+    "Savoury",
+    "Stir-Fried",
+    "Sweet",
+    "Under 30 Minutes"
+  ],
+  "related": [
+    {
+      "id": "mongoliansauce",
+      "title": "Mongolian Stir-Fry Sauce"
+    },
+    {
+      "id": "mongolianlamb",
+      "title": "Mongolian Lamb"
+    },
+    {
+      "id": "sweetsourpork",
+      "title": "Better Than Takeaway Sweet & Sour Pork"
+    },
+    {
+      "id": "bistro-mediterraneansteak",
+      "title": "Mediterranean Steak"
+    },
+    {
+      "id": "beefstockpot",
+      "title": "20 Minute Beef Stock Pot"
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "id": "lasagne",
+  "title": "Classic Lasagne — Ragù & Béchamel",
+  "emoji": "🍝",
+  "category": "Dinner",
+  "description": "A traditional layered lasagne that warms the ribs and calms the spirit.",
+  "ingredients": [
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Onion",
+      "ingredientKey": "Onion"
+    },
+    {
+      "quantity": "2",
+      "unit": "cloves",
+      "item": "Garlic",
+      "ingredientKey": "Garlic"
+    },
+    {
+      "quantity": "500",
+      "unit": "g",
+      "item": "Minced Meat",
+      "ingredientKey": "Minced Meat"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Tomatoes",
+      "ingredientKey": "Tomatoes"
+    },
+    {
+      "quantity": "800",
+      "unit": "g",
+      "item": "Tomatoes",
+      "ingredientKey": "Tomatoes"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "2",
+      "unit": "tsp",
+      "item": "Herbs, Italian",
+      "ingredientKey": "Herbs, Italian"
+    },
+    {
+      "quantity": "2",
+      "unit": "tsp",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "50",
+      "unit": "g",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "50",
+      "unit": "g",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "600",
+      "unit": "ml",
+      "item": "Milk",
+      "ingredientKey": "Milk"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Nutmeg",
+      "ingredientKey": "Nutmeg"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "250",
+      "unit": "g",
+      "item": "Pasta",
+      "ingredientKey": "Pasta"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Cheese",
+      "ingredientKey": "Cheese"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Cheese",
+      "ingredientKey": "Cheese"
+    }
+  ],
+  "method": [
+    {
+      "step": "1",
+      "instruction": "Heat olive oil in a large pan. Sauté onion and garlic for 5–6 minutes until softened."
+    },
+    {
+      "step": "2",
+      "instruction": "Add mince and brown well, breaking up lumps."
+    },
+    {
+      "step": "3",
+      "instruction": "Stir in tomato paste, then add tomatoes, sugar, Italian herbs, salt, pepper, and wine (if using)."
+    },
+    {
+      "step": "4",
+      "instruction": "Simmer on low for 45–60 minutes until thick and rich."
+    },
+    {
+      "step": "5",
+      "instruction": "Melt butter in a saucepan. Whisk in flour and cook 1–2 minutes."
+    },
+    {
+      "step": "6",
+      "instruction": "Slowly whisk in milk until smooth and thickened (5–7 minutes)."
+    },
+    {
+      "step": "7",
+      "instruction": "Season with salt, pepper, nutmeg, and Parmesan (optional)."
+    },
+    {
+      "step": "8",
+      "instruction": "Preheat oven to 180°C (350°F)."
+    },
+    {
+      "step": "9",
+      "instruction": "Spread a thin layer of ragù in a 23×33 cm dish."
+    },
+    {
+      "step": "10",
+      "instruction": "Layer: pasta → ragù → béchamel → mozzarella. Repeat 2–3 times."
+    },
+    {
+      "step": "11",
+      "instruction": "Finish with béchamel and Parmesan."
+    },
+    {
+      "step": "12",
+      "instruction": "Cover with foil and bake 30 minutes."
+    },
+    {
+      "step": "13",
+      "instruction": "Uncover and bake 15–20 minutes until golden and bubbling."
+    },
+    {
+      "step": "14",
+      "instruction": "Rest 10 minutes before slicing."
+    }
+  ],
+  "notes": [
+    {
+      "title": "Additions & Notes",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    }
+  ],
+  "tags": [
+    "Baked",
+    "Beef",
+    "Cheese",
+    "Classic",
+    "Creamy",
+    "Dinner",
+    "Italian",
+    "Make Ahead",
+    "Rich",
+    "Savoury"
+  ],
+  "related": [
+    {
+      "id": "potatognocchi",
+      "title": "Potato Gnocchi with Tomato Sauce"
+    },
+    {
+      "id": "bistro-vealscaloppine",
+      "title": "Veal Scaloppine"
+    },
+    {
+      "id": "chickencacciatore",
+      "title": "Chicken Cacciatore"
+    },
+    {
+      "id": "highhydraciab",
+      "title": "Airy High-Hydration Ciabatta"
+    },
+    {
+      "id": "bistro-vealmozzarella",
+      "title": "Veal Mozzarella"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "bistro-thaichicken",
+  "title": "Thai Chicken",
+  "emoji": "🌶️",
+  "category": "Dinner",
+  "description": "Breast chicken in a ginger, chilli and cream sauce. Warmth without the fire — a nod to Thai flavours in a classic bistro setting.",
+  "prepTime": "5 min",
+  "cookTime": "8 min",
+  "totalTime": "13 min",
+  "servings": 1,
+  "difficulty": "Easy",
+  "tags": [
+    "Chicken",
+    "Chilli",
+    "Cream",
+    "Creamy",
+    "Dinner",
+    "Gluten-Free",
+    "Rich",
+    "Savoury",
+    "Spicy",
+    "Thai",
+    "Under 30 Minutes"
+  ],
+  "ingredients": [
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Chicken",
+      "ingredientKey": "Chicken"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Ginger",
+      "ingredientKey": "Ginger"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Red Chili",
+      "ingredientKey": "Red Chili"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Cream",
+      "ingredientKey": "Cream"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Onion",
+      "ingredientKey": "Onion"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Pan-fry chicken breast until golden and cooked through. Rest."
+    },
+    {
+      "step": 2,
+      "instruction": "In the same pan, soften shallots and ginger in butter."
+    },
+    {
+      "step": 3,
+      "instruction": "Add chilli and cook briefly."
+    },
+    {
+      "step": 4,
+      "instruction": "Add thickened cream and reduce to a coating sauce. Season."
+    },
+    {
+      "step": 5,
+      "instruction": "Plate chicken and spoon sauce over."
+    }
+  ],
+  "notes": [
+    {
+      "type": "chef",
+      "title": "Chef's Note",
+      "content": "??? Chilli type — fresh red, sambal or paste? Quantity to confirm. No demi."
+    }
+  ],
+  "related": [
+    {
+      "id": "bistro-orangethaichicken",
+      "title": "Orange Thai Chicken"
+    },
+    {
+      "id": "bistro-chickenpicante",
+      "title": "Chicken Picante"
+    },
+    {
+      "id": "bistro-mediterraneansteak",
+      "title": "Mediterranean Steak"
+    },
+    {
+      "id": "bistro-filetmignon",
+      "title": "Filet Mignon"
+    },
+    {
+      "id": "bistro-chickenriverina",
+      "title": "Chicken Riverina"
+    }
+  ]
+}

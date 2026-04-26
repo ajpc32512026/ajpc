@@ -1,0 +1,128 @@
+{
+  "id": "chouxpastry",
+  "title": "Choux Pastry (Profiteroles)",
+  "emoji": "🥐",
+  "category": "Dinner",
+  "description": "Light, crisp, and ready to cradle cream — the classic French pastry that never goes out of style.",
+  "ingredients": [
+    {
+      "quantity": "100",
+      "unit": "ml",
+      "item": "water"
+    },
+    {
+      "quantity": "100",
+      "unit": "ml",
+      "item": "Milk",
+      "ingredientKey": "Milk"
+    },
+    {
+      "quantity": "85",
+      "unit": "g",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "pinch",
+      "unit": "",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "3",
+      "unit": "",
+      "item": "Eggs",
+      "ingredientKey": "Eggs"
+    },
+    {
+      "quantity": "1",
+      "unit": "cup",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 210°C. Line baking trays with parchment paper."
+    },
+    {
+      "step": 2,
+      "instruction": "In a medium saucepan, combine water, milk, butter, salt, and sugar. Heat until butter melts and mixture begins to simmer."
+    },
+    {
+      "step": 3,
+      "instruction": "Add flour all at once, stirring vigorously until the mixture pulls away from the sides of the pan and forms a smooth ball."
+    },
+    {
+      "step": 4,
+      "instruction": "Transfer dough to a stand mixer fitted with a paddle attachment. Add eggs one at a time on low speed, mixing well after each."
+    },
+    {
+      "step": 5,
+      "instruction": "After the last egg, increase speed to high and mix 5–10 minutes until dough is smooth, glossy, and slightly elastic."
+    },
+    {
+      "step": 6,
+      "instruction": "Pipe or spoon small portions (~1.5–2 inch) onto prepared trays, leaving ~5 cm space between each."
+    },
+    {
+      "step": 7,
+      "instruction": "Lightly sprinkle cold water on the tray to help steam and maintain shape during baking."
+    },
+    {
+      "step": 8,
+      "instruction": "Bake at 210°C for 10 minutes, then reduce to 165°C for 10–15 minutes until puffed and crisp. Do not open the oven early."
+    },
+    {
+      "step": 9,
+      "instruction": "Cool completely on a wire rack before filling with stiff custard, ice cream, or flavored creams."
+    }
+  ],
+  "notes": [
+    {
+      "title": "Notes & Tips",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    }
+  ],
+  "tags": [
+    "Classic",
+    "Creamy",
+    "Dessert",
+    "Dinner",
+    "French",
+    "Pastry",
+    "Rich",
+    "Savoury",
+    "Sweet",
+    "Vegetarian"
+  ],
+  "related": [
+    {
+      "id": "crepes",
+      "title": "Crepes with Maple Syrup & Butter"
+    },
+    {
+      "id": "bistro-chickenpicante",
+      "title": "Chicken Picante"
+    },
+    {
+      "id": "tomatoflan",
+      "title": "Tomato and Olive Flan"
+    },
+    {
+      "id": "bistro-vealcordonbleu",
+      "title": "Veal Cordon Bleu"
+    },
+    {
+      "id": "beefstockpot",
+      "title": "20 Minute Beef Stock Pot"
+    }
+  ]
+}

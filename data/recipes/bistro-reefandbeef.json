@@ -1,0 +1,124 @@
+{
+  "id": "bistro-reefandbeef",
+  "title": "Reef and Beef",
+  "emoji": "🌊",
+  "category": "Dinner",
+  "description": "Scotch filet topped with a generous seafood Mornay sauce. The ultimate bistro surf and turf.",
+  "prepTime": "10 min",
+  "cookTime": "10 min",
+  "totalTime": "20 min",
+  "servings": 1,
+  "difficulty": "Medium",
+  "tags": [
+    "Australian",
+    "Beef",
+    "Cheese",
+    "Classic",
+    "Creamy",
+    "Dinner",
+    "Rich",
+    "Savoury",
+    "Seafood",
+    "Under 1 Hour",
+    "Under 30 Minutes"
+  ],
+  "ingredients": [
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Beef, Scotch Fillet",
+      "ingredientKey": "Beef, Scotch Fillet"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Seafood",
+      "ingredientKey": "Seafood"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Milk",
+      "ingredientKey": "Milk"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Cheese",
+      "ingredientKey": "Cheese"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Grill or pan-fry steaks to desired doneness. Rest."
+    },
+    {
+      "step": 2,
+      "instruction": "Melt butter in a saucepan. Add flour and cook roux for 1 minute."
+    },
+    {
+      "step": 3,
+      "instruction": "Add warm milk gradually, whisking constantly until smooth and thickened."
+    },
+    {
+      "step": 4,
+      "instruction": "Remove from heat. Add grated cheese and stir through. Season with salt, white pepper and nutmeg."
+    },
+    {
+      "step": 5,
+      "instruction": "Fold seafood into Mornay sauce and warm through gently — do not boil."
+    },
+    {
+      "step": 6,
+      "instruction": "Plate steak and spoon seafood Mornay generously over the top."
+    }
+  ],
+  "notes": [
+    {
+      "type": "chef",
+      "title": "Chef's Note",
+      "content": "No demi — pure béchamel-cheese sauce. Same Mornay base used for oysters Mornay (entrée) and Veal Oscar."
+    }
+  ],
+  "related": [
+    {
+      "id": "bistro-carpetbag",
+      "title": "Carpet Bag"
+    },
+    {
+      "id": "meatpie",
+      "title": "Classic Aussie Meat Pies"
+    },
+    {
+      "id": "bistro-chickenriverina",
+      "title": "Chicken Riverina"
+    },
+    {
+      "id": "bistro-lambcutlets",
+      "title": "Lamb Cutlets"
+    },
+    {
+      "id": "sausageroll",
+      "title": "Classic Aussie Sausage Rolls"
+    }
+  ]
+}

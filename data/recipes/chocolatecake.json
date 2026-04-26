@@ -1,0 +1,148 @@
+{
+  "id": "tastecomau-chocolatemudcake",
+  "title": "Chocolate Mud Cake",
+  "category": "Desserts",
+  "description": "A rich and deeply chocolatey mud cake with a dense, fudgy crumb, topped with a silky milk and dark chocolate ganache — a classic crowd-pleaser from taste.com.au.",
+  "prepTime": "20 min",
+  "cookTime": "1 hr",
+  "totalTime": "1 hr 20 min",
+  "servings": "16 servings",
+  "difficulty": "Intermediate",
+  "tags": [
+    "Chocolate",
+    "Cake",
+    "Mud Cake",
+    "Dessert"
+  ],
+  "ingredients": [
+    {
+      "heading": "Cake"
+    },
+    {
+      "quantity": "200",
+      "unit": "g",
+      "item": "dark chocolate, chopped"
+    },
+    {
+      "quantity": "250",
+      "unit": "g",
+      "item": "unsalted butter, chopped"
+    },
+    {
+      "quantity": "1",
+      "unit": "tbsp",
+      "item": "instant coffee"
+    },
+    {
+      "quantity": "100",
+      "unit": "ml",
+      "item": "milk"
+    },
+    {
+      "quantity": "1 2/3",
+      "unit": "cups",
+      "item": "(250 g) self-raising flour"
+    },
+    {
+      "quantity": "40",
+      "unit": "g",
+      "item": "cocoa powder"
+    },
+    {
+      "quantity": "250",
+      "unit": "g",
+      "item": "caster sugar"
+    },
+    {
+      "quantity": "4",
+      "unit": "large",
+      "item": "eggs, lightly beaten"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "vanilla extract"
+    },
+    {
+      "quantity": "150",
+      "unit": "ml",
+      "item": "sour cream"
+    },
+    {
+      "heading": "Ganache"
+    },
+    {
+      "quantity": "150",
+      "unit": "g",
+      "item": "milk chocolate, chopped"
+    },
+    {
+      "quantity": "150",
+      "unit": "g",
+      "item": "dark chocolate, chopped"
+    },
+    {
+      "quantity": "1/2",
+      "unit": "cup",
+      "item": "(125 ml) thickened cream"
+    },
+    {
+      "quantity": "50",
+      "unit": "g",
+      "item": "unsalted butter"
+    }
+  ],
+  "method": [
+    {
+      "heading": "Cake"
+    },
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 160°C. Grease a deep 23 cm springform cake pan and line with baking paper."
+    },
+    {
+      "step": 2,
+      "instruction": "Place the chocolate, butter, coffee and milk in a heatproof bowl set over a pan of barely simmering water (don't let the bowl touch the water) and stir until smooth and melted. Remove from the heat and set aside to cool completely."
+    },
+    {
+      "step": 3,
+      "instruction": "Sift flour and cocoa into a large bowl. Add sugar and stir to combine. Make a well in the centre."
+    },
+    {
+      "step": 4,
+      "instruction": "Add the cooled chocolate mixture, eggs, vanilla and sour cream to the well. Stir until smooth and fully combined."
+    },
+    {
+      "step": 5,
+      "instruction": "Pour batter into the prepared pan and bake for 1 hour, or until a skewer inserted into the centre comes out with moist crumbs."
+    },
+    {
+      "step": 6,
+      "instruction": "Cool in pan for 20 min, then transfer to a wire rack to cool completely."
+    },
+    {
+      "heading": "Ganache"
+    },
+    {
+      "step": 7,
+      "instruction": "Place milk chocolate, dark chocolate, cream and butter in a heatproof bowl over a pan of barely simmering water. Stir until melted and smooth. Remove from heat and set aside to cool until thickened to a spreadable consistency."
+    },
+    {
+      "step": 8,
+      "instruction": "Spread ganache over the top and sides of the cooled cake. Refrigerate until set."
+    }
+  ],
+  "notes": [
+    {
+      "type": "tip",
+      "title": "Source",
+      "content": "Recipe sourced from taste.com.au. 18 ratings, 4/5 stars."
+    }
+  ],
+  "related": [
+    {
+      "id": "theultimatechocolatemudcake",
+      "title": "The Ultimate Chocolate Mud Cake"
+    }
+  ]
+}

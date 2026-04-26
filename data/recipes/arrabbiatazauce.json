@@ -1,0 +1,140 @@
+{
+  "id": "arrabbiatazauce",
+  "title": "Arrabbiata Sauce",
+  "emoji": "🌶️",
+  "category": "Sauces",
+  "description": "A fiery Italian tomato sauce — bold, spicy, and full of passion. Not for the faint-hearted.",
+  "prepTime": "10 min",
+  "cookTime": "20 min",
+  "totalTime": "30 min",
+  "servings": "4 servings",
+  "difficulty": "Easy",
+  "tags": [
+    "Italian",
+    "Sauce",
+    "Spicy",
+    "Tomato",
+    "Under 30 Minutes",
+    "Vegan",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "quantity": "2",
+      "unit": "cup",
+      "item": "Tomatoes",
+      "ingredientKey": "Tomatoes"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "4",
+      "unit": "",
+      "item": "Garlic",
+      "ingredientKey": "Garlic"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Red Chili",
+      "ingredientKey": "Red Chili"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Onion",
+      "ingredientKey": "Onion"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "1/2",
+      "unit": "tsp",
+      "item": "Pepper",
+      "ingredientKey": "Pepper"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Heat olive oil in a pan."
+    },
+    {
+      "step": 2,
+      "instruction": "Sauté onion until soft."
+    },
+    {
+      "step": 3,
+      "instruction": "Add garlic and chili flakes."
+    },
+    {
+      "step": 4,
+      "instruction": "Add tomato puree and mix well."
+    },
+    {
+      "step": 5,
+      "instruction": "Simmer on low heat for 15–20 minutes."
+    },
+    {
+      "step": 6,
+      "instruction": "Season with salt and pepper."
+    },
+    {
+      "step": 7,
+      "instruction": "Serve hot with pasta."
+    }
+  ],
+  "notes": [
+    {
+      "type": "serving",
+      "title": "Serving Tip",
+      "content": "Perfect with penne pasta. Adjust chili flakes to control the heat level. Pairs beautifully with a glass of red wine."
+    },
+    {
+      "title": "Tomatoes",
+      "content": "pureed"
+    },
+    {
+      "title": "Garlic Cloves",
+      "content": "minced"
+    },
+    {
+      "title": "Red Chili Flakes",
+      "content": "or to taste"
+    },
+    {
+      "title": "Onion",
+      "content": "chopped"
+    }
+  ],
+  "related": [
+    {
+      "id": "marinarasauce",
+      "title": "Marinara Sauce"
+    },
+    {
+      "id": "redsauce",
+      "title": "Red Sauce"
+    },
+    {
+      "id": "alfredosauce",
+      "title": "Alfredo Sauce"
+    },
+    {
+      "id": "pestosauce",
+      "title": "Pesto Sauce"
+    },
+    {
+      "id": "sweetspicyorangesauce",
+      "title": "Sweet & Spicy Orange Sauce"
+    }
+  ]
+}

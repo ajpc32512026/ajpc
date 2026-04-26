@@ -1,0 +1,115 @@
+{
+  "id": "hotdog",
+  "title": "Wendy’s-Style Hot Dog Buns",
+  "emoji": "🌭",
+  "category": "Dinner",
+  "description": "Makes 8 large buns (~25 cm each)",
+  "ingredients": [
+    {
+      "quantity": "600",
+      "unit": "g",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "360",
+      "unit": "ml",
+      "item": "Milk",
+      "ingredientKey": "Milk"
+    },
+    {
+      "quantity": "35",
+      "unit": "g",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "8",
+      "unit": "g",
+      "item": "Yeast",
+      "ingredientKey": "Yeast"
+    },
+    {
+      "quantity": "50",
+      "unit": "g",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Mix all ingredients until a soft, springy dough forms."
+    },
+    {
+      "step": 2,
+      "instruction": "Let dough rise for approximately 1 hour until doubled in size."
+    },
+    {
+      "step": 3,
+      "instruction": "Divide dough into 8 pieces (~105–110 g each), roll into 25 cm logs, and pinch seams underneath."
+    },
+    {
+      "step": 4,
+      "instruction": "Cover and rest 30–45 minutes until puffed."
+    },
+    {
+      "step": 5,
+      "instruction": "Bake at 180°C fan (200°C conventional) for 15–18 minutes until pale golden."
+    },
+    {
+      "step": 6,
+      "instruction": "(Optional) Pierce tops for the iconic tunnel effect."
+    }
+  ],
+  "notes": [
+    {
+      "title": "Notes & Tips",
+      "content": "Use slightly floured hands and bench for easier shaping. Ensure buns are fully cooled before slicing to maintain shape."
+    },
+    {
+      "title": "Notes & Tips",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    }
+  ],
+  "tags": [
+    "American",
+    "Baked",
+    "Bread",
+    "Creamy",
+    "Dinner",
+    "Rich",
+    "Savoury",
+    "Soft",
+    "Spicy",
+    "Vegetarian"
+  ],
+  "related": [
+    {
+      "id": "cinnbun",
+      "title": "Bakery-Style Cinnamon Buns"
+    },
+    {
+      "id": "highhydraciab",
+      "title": "Airy High-Hydration Ciabatta"
+    },
+    {
+      "id": "lasagne",
+      "title": "Classic Lasagne — Ragù & Béchamel"
+    },
+    {
+      "id": "mushroomcups",
+      "title": "Mushrooms with Herb Nut Butter"
+    },
+    {
+      "id": "tomatoflan",
+      "title": "Tomato and Olive Flan"
+    }
+  ]
+}

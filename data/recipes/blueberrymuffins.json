@@ -1,0 +1,187 @@
+{
+  "id": "blueberrymuffins",
+  "title": "Heavenly Blueberry Muffins",
+  "emoji": "🫐",
+  "category": "Baking",
+  "description": "Light, fluffy muffins crowned with a crisp crumble and bursting with juicy blueberries — built for quiet mornings and empty plates.",
+  "prepTime": "20 min",
+  "cookTime": "25 min",
+  "totalTime": "45 min",
+  "servings": "12 muffins",
+  "difficulty": "Easy",
+  "tags": [
+    "Baked",
+    "Breakfast",
+    "Creamy",
+    "Rich",
+    "Sweet",
+    "Under 1 Hour",
+    "Under 30 Minutes",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "quantity": "240",
+      "unit": "g",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "160",
+      "unit": "ml",
+      "item": "Milk",
+      "ingredientKey": "Milk"
+    },
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Eggs",
+      "ingredientKey": "Eggs"
+    },
+    {
+      "quantity": "100",
+      "unit": "ml",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Milk Powder",
+      "ingredientKey": "Milk Powder"
+    },
+    {
+      "quantity": "90",
+      "unit": "g",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "9",
+      "unit": "g",
+      "item": "Baking Powder",
+      "ingredientKey": "Baking Powder"
+    },
+    {
+      "quantity": "150",
+      "unit": "g",
+      "item": "Blueberries",
+      "ingredientKey": "Blueberries"
+    },
+    {
+      "quantity": "20",
+      "unit": "g",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 175°C and line a muffin tray with paper cases."
+    },
+    {
+      "step": 2,
+      "instruction": "Whisk milk and eggs together in a bowl. Gradually whisk in oil until emulsified."
+    },
+    {
+      "step": 3,
+      "instruction": "Add sugar and mix until dissolved."
+    },
+    {
+      "step": 4,
+      "instruction": "Sift in cake flour, milk powder, and baking powder. Mix gently until just smooth."
+    },
+    {
+      "step": 5,
+      "instruction": "Prepare the crumble by rubbing flour, butter, and sugar together until coarse crumbs form."
+    },
+    {
+      "step": 6,
+      "instruction": "Pipe or spoon batter into muffin cases, filling about three-quarters full."
+    },
+    {
+      "step": 7,
+      "instruction": "Scatter blueberries over the batter and finish with crumble topping."
+    },
+    {
+      "step": 8,
+      "instruction": "Bake for 25 minutes, or until golden and a skewer inserted into the centre comes out clean."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Light Muffins",
+      "content": "Mix the batter gently and stop as soon as it comes together to keep the muffins soft and airy."
+    },
+    {
+      "type": "serving",
+      "title": "Serving Tip",
+      "content": "Best eaten warm on the day, but excellent toasted lightly the next morning."
+    },
+    {
+      "type": "copyright",
+      "title": "Copyright",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    },
+    {
+      "title": "Eggs",
+      "content": "large"
+    },
+    {
+      "title": "Cooking Oil",
+      "content": "or melted butter"
+    },
+    {
+      "title": "Blueberries",
+      "content": "fresh or frozen"
+    },
+    {
+      "title": "Cake Flour",
+      "content": "for crumble topping"
+    },
+    {
+      "title": "Butter",
+      "content": "unsalted, softened"
+    },
+    {
+      "title": "Sugar",
+      "content": "for crumble topping"
+    }
+  ],
+  "related": [
+    {
+      "id": "chocmuffins",
+      "title": "Chocolate Muffins with Ganache"
+    },
+    {
+      "id": "carrotcake",
+      "title": "Classic Carrot Cake"
+    },
+    {
+      "id": "carrotcakehomebatch",
+      "title": "Carrot Cake – Home Batch"
+    },
+    {
+      "id": "applecinnscrolls",
+      "title": "Apple & Cinnamon Scrolls"
+    },
+    {
+      "id": "apricotflan",
+      "title": "Apricot Flan"
+    }
+  ]
+}

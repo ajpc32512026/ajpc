@@ -1,0 +1,126 @@
+{
+  "id": "sausageroll",
+  "title": "Classic Aussie Sausage Rolls",
+  "emoji": "🥖",
+  "category": "Dinner",
+  "description": "The Aussie snack king — perfect for footy days, picnics, or anytime hunger strikes.",
+  "ingredients": [
+    {
+      "quantity": "500",
+      "unit": "g",
+      "item": "Pork",
+      "ingredientKey": "Pork"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Onion",
+      "ingredientKey": "Onion"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Carrots",
+      "ingredientKey": "Carrots"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Nutmeg",
+      "ingredientKey": "Nutmeg"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Sesame Seeds",
+      "ingredientKey": "Sesame Seeds"
+    },
+    {
+      "quantity": "3",
+      "unit": "sheets",
+      "item": "Pastry",
+      "ingredientKey": "Pastry"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Eggs",
+      "ingredientKey": "Eggs"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 200°C (400°F). Line trays with baking paper."
+    },
+    {
+      "step": 2,
+      "instruction": "Mix sausage mince, grated onion, grated carrot, nutmeg, salt, and pepper until well combined."
+    },
+    {
+      "step": 3,
+      "instruction": "Cut each puff pastry sheet in half lengthwise. Place meat mixture along the long edge and roll tightly."
+    },
+    {
+      "step": 4,
+      "instruction": "Cut rolls into desired lengths (approx. 8–10 cm). Place on trays."
+    },
+    {
+      "step": 5,
+      "instruction": "Brush tops with beaten egg and sprinkle with sesame or poppy seeds if using."
+    },
+    {
+      "step": 6,
+      "instruction": "Bake 25–30 minutes until golden and puffed."
+    }
+  ],
+  "notes": [
+    {
+      "title": "Tip",
+      "content": "Add cheese, BBQ sauce, or chutney inside the rolls for an extra flavour kick."
+    },
+    {
+      "title": "Tip",
+      "content": "© 2025 AJPC | All rights reserved."
+    }
+  ],
+  "tags": [
+    "Australian",
+    "Baked",
+    "Classic",
+    "Dinner",
+    "Make Ahead",
+    "Pastry",
+    "Pork",
+    "Savoury",
+    "Snack"
+  ],
+  "related": [
+    {
+      "id": "meatpie",
+      "title": "Classic Aussie Meat Pies"
+    },
+    {
+      "id": "bistro-carpetbag",
+      "title": "Carpet Bag"
+    },
+    {
+      "id": "bistro-reefandbeef",
+      "title": "Reef and Beef"
+    },
+    {
+      "id": "bistro-chickenriverina",
+      "title": "Chicken Riverina"
+    },
+    {
+      "id": "bistro-lambcutlets",
+      "title": "Lamb Cutlets"
+    }
+  ]
+}

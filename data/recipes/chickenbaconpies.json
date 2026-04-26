@@ -1,0 +1,192 @@
+{
+  "id": "chickenbaconpies",
+  "title": "Chicken, Mushroom & Bacon Pies",
+  "emoji": "�",
+  "category": "Dinner",
+  "description": "Golden, flaky, and stuffed with comfort — a proper home-baked classic where pub fare meets homemade love.",
+  "prepTime": "30 min",
+  "cookTime": "45 min",
+  "totalTime": "1 hr 15 min",
+  "servings": "6 individual pies",
+  "difficulty": "Medium",
+  "ingredients": [
+    {
+      "quantity": "1",
+      "unit": "tbsp",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "750",
+      "unit": "g",
+      "item": "Chicken",
+      "ingredientKey": "Chicken"
+    },
+    {
+      "quantity": "175",
+      "unit": "g",
+      "item": "Bacon",
+      "ingredientKey": "Bacon"
+    },
+    {
+      "quantity": "4",
+      "unit": "",
+      "item": "Spring Onion",
+      "ingredientKey": "Spring Onion"
+    },
+    {
+      "quantity": "2",
+      "unit": "cloves",
+      "item": "Garlic",
+      "ingredientKey": "Garlic"
+    },
+    {
+      "quantity": "200",
+      "unit": "g",
+      "item": "Mushrooms",
+      "ingredientKey": "Mushrooms"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "1/2",
+      "unit": "cup",
+      "item": "Stock",
+      "ingredientKey": "Stock"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "1/3",
+      "unit": "cup",
+      "item": "Cream",
+      "ingredientKey": "Cream"
+    },
+    {
+      "quantity": "2",
+      "unit": "sheets",
+      "item": "Pastry",
+      "ingredientKey": "Pastry"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Eggs",
+      "ingredientKey": "Eggs"
+    },
+    {
+      "quantity": "1",
+      "unit": "sheet",
+      "item": "Pastry",
+      "ingredientKey": "Pastry"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Sesame Seeds",
+      "ingredientKey": "Sesame Seeds"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Heat olive oil in a large frying pan over medium-high heat. Add chicken pieces and cook for 5-6 minutes until browned. Remove and set aside."
+    },
+    {
+      "step": 2,
+      "instruction": "In the same pan, add bacon and cook for 3-4 minutes until crispy. Add green onions, garlic, and mushrooms. Cook for another 3-4 minutes until mushrooms are tender."
+    },
+    {
+      "step": 3,
+      "instruction": "Sprinkle flour over the mixture and stir for 1 minute to cook out the raw flour taste."
+    },
+    {
+      "step": 4,
+      "instruction": "Gradually add the chicken stock, stirring constantly to avoid lumps. Bring to a simmer and cook for 2-3 minutes until thickened."
+    },
+    {
+      "step": 5,
+      "instruction": "Return chicken to the pan along with the cooking cream. Stir well, season with salt and pepper, and simmer for 2-3 minutes. Remove from heat and allow to cool completely."
+    },
+    {
+      "step": 6,
+      "instruction": "Preheat oven to 200°C (180°C fan-forced). Grease 6 individual pie tins (approximately 10cm diameter)."
+    },
+    {
+      "step": 7,
+      "instruction": "Cut circles from the shortcrust pastry to fit the base and sides of each tin. Press in gently and trim excess."
+    },
+    {
+      "step": 8,
+      "instruction": "Divide the cooled chicken filling evenly among the pastry-lined tins."
+    },
+    {
+      "step": 9,
+      "instruction": "Cut circles from the puff pastry slightly larger than the pie tins. Place on top of each pie, press edges to seal, and trim excess. Cut a small slit in the center of each pie to allow steam to escape."
+    },
+    {
+      "step": 10,
+      "instruction": "Brush the tops with beaten egg and sprinkle with sesame seeds."
+    },
+    {
+      "step": 11,
+      "instruction": "Bake for 30-35 minutes until the pastry is golden brown and puffed."
+    },
+    {
+      "step": 12,
+      "instruction": "Allow pies to rest for 5 minutes before serving. Serve hot with a side salad or steamed vegetables."
+    }
+  ],
+  "notes": [
+    {
+      "type": "tip",
+      "title": "Make Ahead",
+      "content": "These pies can be assembled (unbaked) and frozen for up to 2 months. Bake from frozen, adding 10-15 minutes to the cooking time."
+    },
+    {
+      "type": "serving",
+      "title": "Scaling Up",
+      "content": "This recipe can be doubled for café-style servings or larger gatherings. Baking times remain roughly the same, but keep an eye on the pies for golden perfection."
+    }
+  ],
+  "tags": [
+    "Baked",
+    "Chicken",
+    "Creamy",
+    "Dinner",
+    "Pastry",
+    "Savoury",
+    "Under 1 Hour",
+    "Under 30 Minutes"
+  ],
+  "related": [
+    {
+      "id": "bistro-chickenriverina",
+      "title": "Chicken Riverina"
+    },
+    {
+      "id": "bistro-thaichicken",
+      "title": "Thai Chicken"
+    },
+    {
+      "id": "bistro-chickenpicante",
+      "title": "Chicken Picante"
+    },
+    {
+      "id": "butterchicken",
+      "title": "Restaurant-Style Butter Chicken"
+    },
+    {
+      "id": "bistro-chickenkiev",
+      "title": "Chicken Kiev"
+    }
+  ]
+}

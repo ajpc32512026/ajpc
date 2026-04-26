@@ -1,0 +1,223 @@
+{
+  "id": "roganjosh",
+  "title": "Lamb Rogan Josh – Restaurant Style",
+  "emoji": "🍛",
+  "category": "Dinner",
+  "description": "Succulent pieces of lamb cooked in a rich, flavorful sauce.",
+  "ingredients": [
+    {
+      "quantity": "1",
+      "unit": "large",
+      "item": "Onion",
+      "ingredientKey": "Onion"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Water, as needed"
+    },
+    {
+      "quantity": "4",
+      "unit": "cm",
+      "item": "Ginger",
+      "ingredientKey": "Ginger"
+    },
+    {
+      "quantity": "5",
+      "unit": "garlic",
+      "item": "Garlic",
+      "ingredientKey": "Garlic"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Water, as needed"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Fennel Seeds",
+      "ingredientKey": "Fennel Seeds"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Cumin",
+      "ingredientKey": "Cumin"
+    },
+    {
+      "quantity": "3",
+      "unit": "tsp",
+      "item": "Coriander",
+      "ingredientKey": "Coriander"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Turmeric",
+      "ingredientKey": "Turmeric"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Garam Masala",
+      "ingredientKey": "Garam Masala"
+    },
+    {
+      "quantity": "2",
+      "unit": "tsp",
+      "item": "Paprika",
+      "ingredientKey": "Paprika"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Red Chili",
+      "ingredientKey": "Red Chili"
+    },
+    {
+      "quantity": "4",
+      "unit": "tbsp",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "4",
+      "unit": "green",
+      "item": "Cardamom Pods, Green",
+      "ingredientKey": "Cardamom Pods, Green"
+    },
+    {
+      "quantity": "5",
+      "unit": "",
+      "item": "Cloves",
+      "ingredientKey": "Cloves"
+    },
+    {
+      "quantity": "2",
+      "unit": "dried",
+      "item": "Bay Leaves",
+      "ingredientKey": "Bay Leaves"
+    },
+    {
+      "quantity": "1",
+      "unit": "tbsp",
+      "item": "Tomatoes",
+      "ingredientKey": "Tomatoes"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Tomatoes",
+      "ingredientKey": "Tomatoes"
+    },
+    {
+      "quantity": "600",
+      "unit": "g",
+      "item": "Lamb",
+      "ingredientKey": "Lamb"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Yogurt",
+      "ingredientKey": "Yogurt"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Coriander",
+      "ingredientKey": "Coriander"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Place onions in a food processor. Add a little water and grind to a smooth paste. Set aside."
+    },
+    {
+      "step": 2,
+      "instruction": "Place ginger and garlic in a food processor. Add a little water and grind to a coarse paste. Set aside."
+    },
+    {
+      "step": 3,
+      "instruction": "Heat a small frying pan over low heat. Add fennel and cumin seeds. Roast 2–3 minutes until aromatic. Let cool, then grind to coarse powder."
+    },
+    {
+      "step": 4,
+      "instruction": "Combine fennel-cumin mix, ground coriander, turmeric, garam masala, paprika, and red chili powder in a small bowl. Set aside."
+    },
+    {
+      "step": 5,
+      "instruction": "Heat oil in a large casserole over medium-high heat. Stir fry cardamom, cloves, and bay leaves for 1–2 minutes."
+    },
+    {
+      "step": 6,
+      "instruction": "Add onion paste. Cook 1–2 minutes until raw smell disappears. Add ginger garlic paste and cook 2 minutes until fragrant."
+    },
+    {
+      "step": 7,
+      "instruction": "Stir in spice mix. Cook 1 minute until aromatic. Add tomato paste and diced tomatoes. Cook 1–2 minutes, stirring often."
+    },
+    {
+      "step": 8,
+      "instruction": "Add lamb. Season with salt. Cook 10 minutes, stirring occasionally. Stir in yogurt. Cover lamb with 250 ml hot water and bring to boil."
+    },
+    {
+      "step": 9,
+      "instruction": "Reduce heat to medium-low. Simmer covered, stirring occasionally, 30–40 minutes until lamb is cooked through."
+    },
+    {
+      "step": 10,
+      "instruction": "Sprinkle with chopped coriander and mint leaves. Serve with naan, roti, or rice."
+    }
+  ],
+  "notes": [
+    {
+      "title": "Acknowledgements",
+      "content": "This recipe is adapted from"
+    },
+    {
+      "title": "Acknowledgements",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    }
+  ],
+  "tags": [
+    "Curry",
+    "Dinner",
+    "Indian",
+    "Lamb",
+    "Rich",
+    "Savoury",
+    "Slow-Cooked",
+    "Spicy"
+  ],
+  "related": [
+    {
+      "id": "lambvindaloo",
+      "title": "Lamb Vindaloo"
+    },
+    {
+      "id": "lambkorma",
+      "title": "Lamb Korma"
+    },
+    {
+      "id": "beefvindaloo",
+      "title": "Beef Vindaloo"
+    },
+    {
+      "id": "butterchicken",
+      "title": "Restaurant-Style Butter Chicken"
+    },
+    {
+      "id": "sataysauce",
+      "title": "Satay Sauce"
+    }
+  ]
+}

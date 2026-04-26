@@ -1,0 +1,80 @@
+{
+  "id": "bistro-lemonmeringuepie",
+  "title": "Lemon Meringue Pie",
+  "emoji": "🍋",
+  "category": "Desserts",
+  "description": "Tangy lemon curd in a crisp pastry shell, topped with pillowy toasted meringue. Served with fresh fruit.",
+  "prepTime": "5 min",
+  "cookTime": "30 min",
+  "totalTime": "35 min",
+  "servings": 1,
+  "difficulty": "Medium",
+  "tags": [
+    "Classic",
+    "Creamy",
+    "Dessert",
+    "Lemon",
+    "Pastry",
+    "Sweet",
+    "Tangy",
+    "Under 1 Hour",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "See AJPC Kitchen — Lemon Meringue Pie recipe"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Fresh seasonal fruit"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Cream",
+      "ingredientKey": "Cream"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Bake as per the Lemon Meringue Pie recipe."
+    },
+    {
+      "step": 2,
+      "instruction": "Serve chilled with fresh seasonal fruit alongside."
+    }
+  ],
+  "notes": [
+    {
+      "type": "chef",
+      "title": "Chef's Note",
+      "content": "Cross-reference: Lemon Meringue Pie in the AJPC Kitchen notebook."
+    }
+  ],
+  "related": [
+    {
+      "id": "lemonmeringuepie",
+      "title": "Lemon Meringue Pie"
+    },
+    {
+      "id": "cinntwists",
+      "title": "Cinnamon Twists"
+    },
+    {
+      "id": "bistro-profiteroles",
+      "title": "Profiteroles"
+    },
+    {
+      "id": "chocolatemudcake",
+      "title": "The Ultimate Chocolate Mud Cake"
+    },
+    {
+      "id": "bistro-mudcake",
+      "title": "Mud Cake"
+    }
+  ]
+}

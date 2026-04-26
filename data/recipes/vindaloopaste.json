@@ -1,0 +1,142 @@
+{
+  "id": "vindaloopaste",
+  "title": "Vindaloo Paste",
+  "emoji": "🌶️",
+  "category": "Dinner",
+  "description": "A bold, tangy, fire-forward paste — the beating heart of a proper vindaloo.",
+  "ingredients": [
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Ginger",
+      "ingredientKey": "Ginger"
+    },
+    {
+      "quantity": "3",
+      "unit": "garlic",
+      "item": "Garlic",
+      "ingredientKey": "Garlic"
+    },
+    {
+      "quantity": "10",
+      "unit": "dried",
+      "item": "Red Chili",
+      "ingredientKey": "Red Chili"
+    },
+    {
+      "quantity": "2",
+      "unit": "tsp",
+      "item": "Coriander",
+      "ingredientKey": "Coriander"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Fenugreek",
+      "ingredientKey": "Fenugreek"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Cumin",
+      "ingredientKey": "Cumin"
+    },
+    {
+      "quantity": "6",
+      "unit": "green",
+      "item": "Cardamom Pods, Green",
+      "ingredientKey": "Cardamom Pods, Green"
+    },
+    {
+      "quantity": "6",
+      "unit": "",
+      "item": "Cloves",
+      "ingredientKey": "Cloves"
+    },
+    {
+      "quantity": "1",
+      "unit": "cinnamon",
+      "item": "stick"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Pepper",
+      "ingredientKey": "Pepper"
+    },
+    {
+      "quantity": "3",
+      "unit": "tbsp",
+      "item": "Juice",
+      "ingredientKey": "Juice"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Dry roast the dried chillies, coriander, cumin, fenugreek, cardamom, cloves, cinnamon, and peppercorns over low heat until aromatic."
+    },
+    {
+      "step": 2,
+      "instruction": "Remove from heat and allow spices to cool slightly."
+    },
+    {
+      "step": 3,
+      "instruction": "Transfer spices to a grinder."
+    },
+    {
+      "step": 4,
+      "instruction": "Add ginger, garlic, and lemon juice."
+    },
+    {
+      "step": 5,
+      "instruction": "Process into a smooth paste, adding a little water if needed."
+    }
+  ],
+  "notes": [
+    {
+      "title": "Notes",
+      "content": "Lemon juice may be replaced with tamarind paste for a more traditional sour note."
+    },
+    {
+      "title": "Acknowledgement",
+      "content": "Adapted from"
+    },
+    {
+      "title": "Acknowledgement",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    }
+  ],
+  "tags": [
+    "Dinner",
+    "Gluten-Free",
+    "Greek",
+    "Indian",
+    "Make Ahead",
+    "Savoury",
+    "Spicy",
+    "Vegan"
+  ],
+  "related": [
+    {
+      "id": "sataysauce",
+      "title": "Satay Sauce"
+    },
+    {
+      "id": "kormapaste",
+      "title": "Homemade Korma Paste"
+    },
+    {
+      "id": "lambvindaloo",
+      "title": "Lamb Vindaloo"
+    },
+    {
+      "id": "beefvindaloo",
+      "title": "Beef Vindaloo"
+    },
+    {
+      "id": "butterchicken",
+      "title": "Restaurant-Style Butter Chicken"
+    }
+  ]
+}

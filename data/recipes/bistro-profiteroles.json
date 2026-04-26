@@ -1,0 +1,102 @@
+{
+  "id": "bistro-profiteroles",
+  "title": "Profiteroles",
+  "emoji": "🍮",
+  "category": "Desserts",
+  "description": "Light choux pastry puffs filled with whipped cream and drizzled with warm chocolate ganache. Served with fresh fruit.",
+  "prepTime": "5 min",
+  "cookTime": "25 min",
+  "totalTime": "30 min",
+  "servings": 1,
+  "difficulty": "Medium",
+  "tags": [
+    "Baked",
+    "Chocolate",
+    "Classic",
+    "Cream",
+    "Creamy",
+    "Dessert",
+    "French",
+    "Pastry",
+    "Rich",
+    "Sweet",
+    "Under 30 Minutes",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "See AJPC Kitchen — Choux Pastry recipe"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Cream",
+      "ingredientKey": "Cream"
+    },
+    {
+      "quantity": "200",
+      "unit": "g",
+      "item": "Chocolate",
+      "ingredientKey": "Chocolate"
+    },
+    {
+      "quantity": "125",
+      "unit": "ml",
+      "item": "Cream",
+      "ingredientKey": "Cream"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Bake choux puffs as per the Choux Pastry recipe."
+    },
+    {
+      "step": 2,
+      "instruction": "Whip cream to soft peaks. Fill puffs via a small hole in the base."
+    },
+    {
+      "step": 3,
+      "instruction": "For ganache: heat cream until just simmering. Pour over chopped chocolate. Stir until smooth."
+    },
+    {
+      "step": 4,
+      "instruction": "Dip or drizzle ganache over filled puffs."
+    },
+    {
+      "step": 5,
+      "instruction": "Serve with fresh seasonal fruit."
+    }
+  ],
+  "notes": [
+    {
+      "type": "chef",
+      "title": "Chef's Note",
+      "content": "Cross-reference: Choux Pastry (Profiteroles) in the AJPC Kitchen notebook."
+    }
+  ],
+  "related": [
+    {
+      "id": "chocolatemousse",
+      "title": "Chocolate Mousse"
+    },
+    {
+      "id": "bistro-mudcake",
+      "title": "Mud Cake"
+    },
+    {
+      "id": "chocolatecake",
+      "title": "Ultimate Chocolate Cake"
+    },
+    {
+      "id": "chocolatemudcake",
+      "title": "The Ultimate Chocolate Mud Cake"
+    },
+    {
+      "id": "bistro-pavlova",
+      "title": "Pavlova"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "bistro-vealscaloppine",
+  "title": "Veal Scaloppine",
+  "emoji": "🍄",
+  "category": "Dinner",
+  "description": "Thin pan-fried veal with a creamy onion and mushroom sauce. Quick, simple and deeply satisfying.",
+  "prepTime": "5 min",
+  "cookTime": "8 min",
+  "totalTime": "13 min",
+  "servings": 1,
+  "difficulty": "Easy",
+  "tags": [
+    "Classic",
+    "Cream",
+    "Creamy",
+    "Dinner",
+    "Italian",
+    "Rich",
+    "Savoury",
+    "Under 30 Minutes",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Veal",
+      "ingredientKey": "Veal"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Onion",
+      "ingredientKey": "Onion"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Mushrooms",
+      "ingredientKey": "Mushrooms"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Cream",
+      "ingredientKey": "Cream"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Demi Glace",
+      "ingredientKey": "Demi Glace"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Parsley",
+      "ingredientKey": "Parsley"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Pound veal escalopes thin. Dust lightly with flour."
+    },
+    {
+      "step": 2,
+      "instruction": "Pan-fry quickly in butter — veal is thin and cooks in minutes. Rest."
+    },
+    {
+      "step": 3,
+      "instruction": "In the same pan, soften onions in butter until golden."
+    },
+    {
+      "step": 4,
+      "instruction": "Add mushrooms and cook until golden."
+    },
+    {
+      "step": 5,
+      "instruction": "Add demi glace base and thickened cream. Reduce to a coating sauce."
+    },
+    {
+      "step": 6,
+      "instruction": "Season. Plate veal, pour sauce over and garnish with parsley."
+    }
+  ],
+  "notes": [
+    {
+      "type": "chef",
+      "title": "Chef's Note",
+      "content": "Simple and classic. Uses demi. The veal goes fast — do not overcook. ??? Was the veal crumbed schnitzel-style or just flour-dusted?"
+    }
+  ],
+  "related": [
+    {
+      "id": "lasagne",
+      "title": "Classic Lasagne — Ragù & Béchamel"
+    },
+    {
+      "id": "potatognocchi",
+      "title": "Potato Gnocchi with Tomato Sauce"
+    },
+    {
+      "id": "chickencacciatore",
+      "title": "Chicken Cacciatore"
+    },
+    {
+      "id": "highhydraciab",
+      "title": "Airy High-Hydration Ciabatta"
+    },
+    {
+      "id": "bistro-mediterraneansteak",
+      "title": "Mediterranean Steak"
+    }
+  ]
+}

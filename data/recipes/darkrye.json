@@ -1,0 +1,170 @@
+{
+  "id": "darkrye",
+  "title": "Dark Rye Bread",
+  "emoji": "🍞",
+  "category": "Baking",
+  "description": "Full credit to bakers who perfected this rich, flavourful loaf — dense, dark, and deeply satisfying.",
+  "prepTime": "25 min",
+  "cookTime": "40 min",
+  "totalTime": "3 hours 45 min",
+  "servings": "1 large loaf",
+  "difficulty": "Medium",
+  "ingredients": [
+    {
+      "quantity": "310",
+      "unit": "ml",
+      "item": "warm water"
+    },
+    {
+      "quantity": "20",
+      "unit": "ml",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "20",
+      "unit": "ml",
+      "item": "Molasses",
+      "ingredientKey": "Molasses"
+    },
+    {
+      "quantity": "1 1/2",
+      "unit": "tsp",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "320",
+      "unit": "g",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "190",
+      "unit": "g",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "60",
+      "unit": "g",
+      "item": "Vital Wheat Gluten",
+      "ingredientKey": "Vital Wheat Gluten"
+    },
+    {
+      "quantity": "20",
+      "unit": "g",
+      "item": "Cocoa Powder",
+      "ingredientKey": "Cocoa Powder"
+    },
+    {
+      "quantity": "7",
+      "unit": "g",
+      "item": "Yeast",
+      "ingredientKey": "Yeast"
+    },
+    {
+      "quantity": "20",
+      "unit": "g",
+      "item": "Bread Improver",
+      "ingredientKey": "Bread Improver"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "In a large mixing bowl, combine warm water, vegetable oil, and molasses. Stir until well mixed."
+    },
+    {
+      "step": 2,
+      "instruction": "Add instant yeast to the liquid and let sit for 5 minutes until slightly foamy."
+    },
+    {
+      "step": 3,
+      "instruction": "In a separate bowl, whisk together Baker's flour, rye flour, vital wheat gluten, cocoa powder, salt, and bread improver."
+    },
+    {
+      "step": 4,
+      "instruction": "Gradually add the dry ingredients to the wet mixture, stirring until a sticky, dark dough forms."
+    },
+    {
+      "step": 5,
+      "instruction": "Knead the dough on a lightly floured surface (or in a stand mixer with a dough hook) for 10-12 minutes until smooth and elastic. The dough will be dense but should not stick excessively to your hands."
+    },
+    {
+      "step": 6,
+      "instruction": "Place dough in a lightly oiled bowl, cover with a damp tea towel, and let rise in a warm place for 1.5-2 hours or until doubled in size."
+    },
+    {
+      "step": 7,
+      "instruction": "Punch down the dough and shape into a tight oval or round loaf. Place in a greased loaf tin or on a lined baking tray."
+    },
+    {
+      "step": 8,
+      "instruction": "Cover and let rise for another 45-60 minutes until puffy."
+    },
+    {
+      "step": 9,
+      "instruction": "Preheat oven to 200°C (180°C fan-forced)."
+    },
+    {
+      "step": 10,
+      "instruction": "Brush the top of the loaf with water and make a few shallow slashes with a sharp knife."
+    },
+    {
+      "step": 11,
+      "instruction": "Bake for 35-40 minutes until the crust is dark and firm, and the loaf sounds hollow when tapped on the bottom."
+    },
+    {
+      "step": 12,
+      "instruction": "Remove from oven and cool on a wire rack for at least 30 minutes before slicing."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Vital Wheat Gluten",
+      "content": "Rye flour is low in gluten, so vital wheat gluten helps give the loaf structure and prevents it from being too dense or crumbly."
+    },
+    {
+      "type": "tip",
+      "title": "Darker Color",
+      "content": "For an even darker loaf, add an extra 10g of cocoa powder. The molasses and cocoa create the characteristic dark color and rich flavor."
+    },
+    {
+      "type": "serving",
+      "title": "Best Served",
+      "content": "This bread is excellent toasted with butter, or served with smoked fish, pickles, and cream cheese for a traditional pairing."
+    }
+  ],
+  "tags": [
+    "Bread",
+    "Make Ahead",
+    "Savoury",
+    "Under 1 Hour",
+    "Vegan",
+    "Vegetarian"
+  ],
+  "related": [
+    {
+      "id": "turkishbread",
+      "title": "Traditional Turkish Bread"
+    },
+    {
+      "id": "focaccia-high",
+      "title": "High-Hydration Focaccia"
+    },
+    {
+      "id": "pizzadough",
+      "title": "Ultimate Homemade Pizza Dough"
+    },
+    {
+      "id": "garlicbread",
+      "title": "Garlic Butter Crusty Bread"
+    },
+    {
+      "id": "sub",
+      "title": "Homemade Sub Buns"
+    }
+  ]
+}

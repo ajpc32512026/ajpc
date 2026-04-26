@@ -1,0 +1,129 @@
+{
+  "id": "bistro-carpetbag",
+  "title": "Carpet Bag",
+  "emoji": "🦪",
+  "category": "Dinner",
+  "description": "Scotch filet stuffed with fresh oysters and Camembert cheese, finished with a red wine and demi glace sauce. The most theatrical dish on the menu.",
+  "prepTime": "10 min",
+  "cookTime": "8 min",
+  "totalTime": "18 min",
+  "servings": 1,
+  "difficulty": "Medium",
+  "tags": [
+    "Alcohol",
+    "Australian",
+    "Beef",
+    "Cheese",
+    "Classic",
+    "Dinner",
+    "Rich",
+    "Savoury",
+    "Seafood",
+    "Under 1 Hour"
+  ],
+  "ingredients": [
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Beef, Scotch Fillet",
+      "ingredientKey": "Beef, Scotch Fillet"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Seafood",
+      "ingredientKey": "Seafood"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Cheese",
+      "ingredientKey": "Cheese"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Demi Glace",
+      "ingredientKey": "Demi Glace"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Onion",
+      "ingredientKey": "Onion"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Wine",
+      "ingredientKey": "Wine"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Cut a deep horizontal pocket in each scotch filet."
+    },
+    {
+      "step": 2,
+      "instruction": "Stuff with oysters and slices of Camembert. Seal pocket with a toothpick."
+    },
+    {
+      "step": 3,
+      "instruction": "Pan-fry to desired doneness — the Camembert will melt inside. Rest."
+    },
+    {
+      "step": 4,
+      "instruction": "In the same pan, soften shallots in butter. Deglaze with red wine."
+    },
+    {
+      "step": 5,
+      "instruction": "Add demi glace base and reduce to a glossy sauce."
+    },
+    {
+      "step": 6,
+      "instruction": "Remove toothpick. Plate and spoon sauce over."
+    }
+  ],
+  "notes": [
+    {
+      "type": "chef",
+      "title": "Chef's Note",
+      "content": "The Camembert melts into the oysters inside the steak — that is the magic of this dish. Uses demi glace base. ??? Red or white wine in the deglaze?"
+    }
+  ],
+  "related": [
+    {
+      "id": "bistro-reefandbeef",
+      "title": "Reef and Beef"
+    },
+    {
+      "id": "bistro-lambcutlets",
+      "title": "Lamb Cutlets"
+    },
+    {
+      "id": "meatpie",
+      "title": "Classic Aussie Meat Pies"
+    },
+    {
+      "id": "bistro-chickenriverina",
+      "title": "Chicken Riverina"
+    },
+    {
+      "id": "sausageroll",
+      "title": "Classic Aussie Sausage Rolls"
+    }
+  ]
+}

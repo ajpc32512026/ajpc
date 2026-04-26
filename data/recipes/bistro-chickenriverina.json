@@ -1,0 +1,129 @@
+{
+  "id": "bistro-chickenriverina",
+  "title": "Chicken Riverina",
+  "emoji": "🍑",
+  "category": "Dinner",
+  "description": "Chicken breast stuffed with dried apricots and almonds, finished with a cream and apricot sauce. Named for the Riverina region of New South Wales.",
+  "prepTime": "15 min",
+  "cookTime": "10 min",
+  "totalTime": "25 min",
+  "servings": 1,
+  "difficulty": "Medium",
+  "tags": [
+    "Australian",
+    "Chicken",
+    "Classic",
+    "Cream",
+    "Creamy",
+    "Dinner",
+    "Rich",
+    "Savoury",
+    "Under 1 Hour",
+    "Under 30 Minutes"
+  ],
+  "ingredients": [
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Chicken",
+      "ingredientKey": "Chicken"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Apricot",
+      "ingredientKey": "Apricot"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Almonds",
+      "ingredientKey": "Almonds"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Butter",
+      "ingredientKey": "Butter"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Cream",
+      "ingredientKey": "Cream"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Apricot",
+      "ingredientKey": "Apricot"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Apricot",
+      "ingredientKey": "Apricot"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Combine roughly chopped dried apricots and almonds to make the stuffing."
+    },
+    {
+      "step": 2,
+      "instruction": "Cut a deep pocket in each breast. Fill with the apricot and almond stuffing. Secure with a toothpick if needed."
+    },
+    {
+      "step": 3,
+      "instruction": "Pan-fry in butter until golden and cooked through."
+    },
+    {
+      "step": 4,
+      "instruction": "Remove chicken and set aside. Add cream and apricot juice to the pan."
+    },
+    {
+      "step": 5,
+      "instruction": "Stir and reduce to a light coating consistency. Add diced apricots and heat through."
+    },
+    {
+      "step": 6,
+      "instruction": "Season. Remove toothpick from chicken. Plate and spoon sauce over."
+    }
+  ],
+  "notes": [
+    {
+      "type": "chef",
+      "title": "Chef's Note",
+      "content": "Sauce is cream, apricot juice and diced apricots — let it thicken naturally. No jam, no demi. The stuffing is loose — no binding agent needed, just pack it in."
+    }
+  ],
+  "related": [
+    {
+      "id": "bistro-reefandbeef",
+      "title": "Reef and Beef"
+    },
+    {
+      "id": "bistro-carpetbag",
+      "title": "Carpet Bag"
+    },
+    {
+      "id": "bistro-lambcutlets",
+      "title": "Lamb Cutlets"
+    },
+    {
+      "id": "meatpie",
+      "title": "Classic Aussie Meat Pies"
+    },
+    {
+      "id": "sausageroll",
+      "title": "Classic Aussie Sausage Rolls"
+    }
+  ]
+}

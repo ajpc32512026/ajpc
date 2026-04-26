@@ -1,0 +1,192 @@
+{
+  "id": "filipinonoodles",
+  "title": "Pancit (Filipino Stir-Fried Noodles)",
+  "emoji": "🍜",
+  "category": "Dinner",
+  "description": "A vibrant, savory noodle dish with pork, chicken, and crisp vegetables — classic Filipino comfort food.",
+  "ingredients": [
+    {
+      "quantity": "60",
+      "unit": "ml",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "225",
+      "unit": "g",
+      "item": "Pork",
+      "ingredientKey": "Pork"
+    },
+    {
+      "quantity": "450",
+      "unit": "g",
+      "item": "Chicken",
+      "ingredientKey": "Chicken"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Onion",
+      "ingredientKey": "Onion"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Garlic",
+      "ingredientKey": "Garlic"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Achiote Powder",
+      "ingredientKey": "Achiote Powder"
+    },
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Carrots",
+      "ingredientKey": "Carrots"
+    },
+    {
+      "quantity": "2",
+      "unit": "celery",
+      "item": "Pork",
+      "ingredientKey": "Pork"
+    },
+    {
+      "quantity": "1",
+      "unit": "cup",
+      "item": "Sugar Snap Peas",
+      "ingredientKey": "Sugar Snap Peas"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Cabbage",
+      "ingredientKey": "Cabbage"
+    },
+    {
+      "quantity": "3",
+      "unit": "tbsp",
+      "item": "Sauces",
+      "ingredientKey": "Sauces"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "3",
+      "unit": "tbsp",
+      "item": "Sauces",
+      "ingredientKey": "Sauces"
+    },
+    {
+      "quantity": "1-2",
+      "unit": "tsp",
+      "item": "Sauces",
+      "ingredientKey": "Sauces"
+    },
+    {
+      "quantity": "960",
+      "unit": "ml",
+      "item": "Stock",
+      "ingredientKey": "Stock"
+    },
+    {
+      "quantity": "225",
+      "unit": "g",
+      "item": "Vermicelli Rice Noodles",
+      "ingredientKey": "Vermicelli Rice Noodles"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Salt",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Lemon or lime juice for garnish (optional)"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Heat 30 ml oil in a wok over medium-high. Stir-fry pork until browned. Set aside."
+    },
+    {
+      "step": 2,
+      "instruction": "Add 15 ml oil. Cook chicken undisturbed for 2 to 3 min, then stir-fry until browned. Set aside."
+    },
+    {
+      "step": 3,
+      "instruction": "In leftover fat, cook onion with a pinch of salt over medium heat until soft and browned. Add garlic for 30 to 45 sec until fragrant. Stir in achiote if using. Set aside."
+    },
+    {
+      "step": 4,
+      "instruction": "Add remaining 15 ml oil, increase heat to high. Stir-fry carrots, celery, peas, and cabbage with a pinch of salt for about 90 sec. Set aside."
+    },
+    {
+      "step": 5,
+      "instruction": "Add oyster sauce, sugar, soy sauce, fish sauce, and chicken stock to wok. Bring to a simmer."
+    },
+    {
+      "step": 6,
+      "instruction": "Add noodles and stir until liquid is absorbed and noodles are tender (3 to 4 min)."
+    },
+    {
+      "step": 7,
+      "instruction": "Return all cooked meat and vegetables to the wok. Toss to combine."
+    },
+    {
+      "step": 8,
+      "instruction": "Garnish with lemon or lime juice and green onions."
+    }
+  ],
+  "notes": [
+    {
+      "title": "Notes / Serving Tip",
+      "content": "For a more colourful dish, add bell peppers or snow peas. Adjust seasoning with soy or fish sauce to taste. Serve immediately for the best texture."
+    },
+    {
+      "title": "Notes / Serving Tip",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    }
+  ],
+  "tags": [
+    "Chicken",
+    "Dairy-Free",
+    "Dinner",
+    "Filipino",
+    "Noodles",
+    "Pork",
+    "Savoury",
+    "Stir-Fried"
+  ],
+  "related": [
+    {
+      "id": "filipinoportoccino",
+      "title": "Filipino Pork Toccino"
+    },
+    {
+      "id": "bistro-thaichicken",
+      "title": "Thai Chicken"
+    },
+    {
+      "id": "chickenshawarma",
+      "title": "Chicken Shawarma"
+    },
+    {
+      "id": "bistro-chickenpicante",
+      "title": "Chicken Picante"
+    },
+    {
+      "id": "bistro-chickenriverina",
+      "title": "Chicken Riverina"
+    }
+  ]
+}

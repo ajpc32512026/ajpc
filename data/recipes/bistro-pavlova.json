@@ -1,0 +1,120 @@
+{
+  "id": "bistro-pavlova",
+  "title": "Pavlova",
+  "emoji": "🍓",
+  "category": "Desserts",
+  "description": "Crisp-shelled meringue with a soft marshmallow centre, topped with whipped cream and fresh seasonal fruit. An Australian icon.",
+  "prepTime": "5 min",
+  "cookTime": "90 min",
+  "totalTime": "95 min",
+  "servings": 1,
+  "difficulty": "Medium",
+  "tags": [
+    "Australian",
+    "Baked",
+    "Classic",
+    "Cream",
+    "Creamy",
+    "Dessert",
+    "Sweet",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "quantity": "6",
+      "unit": "",
+      "item": "Eggs",
+      "ingredientKey": "Eggs"
+    },
+    {
+      "quantity": "300",
+      "unit": "g",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Vinegar",
+      "ingredientKey": "Vinegar"
+    },
+    {
+      "quantity": "2",
+      "unit": "tsp",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Vanilla",
+      "ingredientKey": "Vanilla"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Cream",
+      "ingredientKey": "Cream"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Fresh fruit — kiwi, strawberries, passionfruit, mango"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 120°C. Draw a 22cm circle on baking paper and place on a tray."
+    },
+    {
+      "step": 2,
+      "instruction": "Whip egg whites to stiff peaks. Gradually add caster sugar, beating until thick and very glossy."
+    },
+    {
+      "step": 3,
+      "instruction": "Gently fold in vinegar, cornflour and vanilla."
+    },
+    {
+      "step": 4,
+      "instruction": "Mound mixture onto the circle with a slight dip in the centre for the cream."
+    },
+    {
+      "step": 5,
+      "instruction": "Bake for 90 minutes. Turn oven off — leave pavlova inside to cool completely. Do not open the door."
+    },
+    {
+      "step": 6,
+      "instruction": "Top with whipped cream and fresh fruit just before service."
+    }
+  ],
+  "notes": [
+    {
+      "type": "chef",
+      "title": "Chef's Note",
+      "content": "??? Made in-house daily or bought in? If house-made, confirm exact sugar quantity and baking time for the kitchen conditions."
+    }
+  ],
+  "related": [
+    {
+      "id": "bistro-mudcake",
+      "title": "Mud Cake"
+    },
+    {
+      "id": "bistro-profiteroles",
+      "title": "Profiteroles"
+    },
+    {
+      "id": "plain-cheesecake",
+      "title": "Plain Cheesecake (Classic No Bake)"
+    },
+    {
+      "id": "baked-cheesecake",
+      "title": "Baked Cheesecake"
+    },
+    {
+      "id": "stickydates",
+      "title": "Sticky Date Pudding with Caramel Sauce"
+    }
+  ]
+}

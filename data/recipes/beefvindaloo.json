@@ -1,0 +1,189 @@
+{
+  "id": "beefvindaloo",
+  "title": "Beef Vindaloo",
+  "emoji": "🔥",
+  "category": "Dinner",
+  "description": "An authentic, fiery, melt-in-your-mouth beef curry that doesn’t muck around.",
+  "prepTime": "15 Min",
+  "cookTime": "1 Hour",
+  "totalTime": "1 Hour, 15 Min",
+  "servings": "4 Servings",
+  "difficulty": "Hard",
+  "ingredients": [
+    {
+      "quantity": "1",
+      "unit": "kg",
+      "item": "Beef",
+      "notes": "cut into 2.5 cm cubes",
+      "ingredientKey": "Beef"
+    },
+    {
+      "quantity": "3",
+      "unit": "tbsp",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "2",
+      "unit": "cups",
+      "item": "Onion",
+      "notes": "chopped",
+      "ingredientKey": "Onion"
+    },
+    {
+      "quantity": "3",
+      "unit": "garlic",
+      "item": "Cloves",
+      "notes": "chopped",
+      "ingredientKey": "Cloves"
+    },
+    {
+      "quantity": "1/2",
+      "unit": "tsp",
+      "item": "Turmeric",
+      "ingredientKey": "Turmeric"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Red Chili",
+      "ingredientKey": "Red Chili"
+    },
+    {
+      "quantity": "2",
+      "unit": "medium",
+      "item": "Tomatoes",
+      "notes": "chopped",
+      "ingredientKey": "Tomatoes"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Tomatoes",
+      "ingredientKey": "Tomatoes"
+    },
+    {
+      "quantity": "2",
+      "unit": "tbsp",
+      "item": "Vinegar",
+      "notes": "or substitute – see notes",
+      "ingredientKey": "Vinegar"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "1",
+      "unit": "cup",
+      "item": "water"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Salt",
+      "notes": "to taste",
+      "ingredientKey": "Salt"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Coriander",
+      "notes": "for garnish",
+      "ingredientKey": "Coriander"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Make your vindaloo paste according to the paste recipe instructions. Set aside."
+    },
+    {
+      "step": 2,
+      "instruction": "Place beef in a large bowl. Add vindaloo paste and toss to coat. Cover and marinate at least 1 hour, or overnight for deeper flavour."
+    },
+    {
+      "step": 3,
+      "instruction": "Heat oil in a large frying pan over medium-high heat. Add onions and sauté 2–3 minutes until soft. Add garlic and sauté 1 minute until fragrant."
+    },
+    {
+      "step": 4,
+      "instruction": "Add turmeric, chilli powder, tomatoes, tomato paste, and vinegar. Cook 2–3 minutes until tomatoes break down."
+    },
+    {
+      "step": 5,
+      "instruction": "Add beef and sugar. Season with salt. Cook around 10 minutes, stirring occasionally."
+    },
+    {
+      "step": 6,
+      "instruction": "Pour in the water, bring to the boil, reduce heat to medium, cover, and simmer 1 hour or until beef is tender and sauce thick."
+    },
+    {
+      "step": 7,
+      "instruction": "Use sauté mode to cook onion and garlic."
+    },
+    {
+      "step": 8,
+      "instruction": "Add spices, tomatoes, tomato paste, and vinegar. Cook until mushy."
+    },
+    {
+      "step": 9,
+      "instruction": "Add marinated beef, sugar, water, and salt."
+    },
+    {
+      "step": 10,
+      "instruction": "Seal lid, set to Manual for 20 minutes."
+    },
+    {
+      "step": 11,
+      "instruction": "Allow natural pressure release for 15 minutes."
+    },
+    {
+      "step": 12,
+      "instruction": "If sauce is thin, use sauté mode to reduce."
+    }
+  ],
+  "notes": [
+    {
+      "type": "tip",
+      "title": "Substitute",
+      "content": "You can substitute apple cider vinegar (ACV) with white wine vinegar, rice wine vinegar, or lemon/lime juice for similar acidity and flavor"
+    }
+  ],
+  "tags": [
+    "Beef",
+    "Curry",
+    "Dinner",
+    "Indian",
+    "Make Ahead",
+    "Rich",
+    "Savoury",
+    "Slow-Cooked",
+    "Spicy",
+    "Under 30 Minutes"
+  ],
+  "related": [
+    {
+      "id": "lambvindaloo",
+      "title": "Lamb Vindaloo"
+    },
+    {
+      "id": "roganjosh",
+      "title": "Lamb Rogan Josh – Restaurant Style"
+    },
+    {
+      "id": "sataysauce",
+      "title": "Satay Sauce"
+    },
+    {
+      "id": "vindaloopaste",
+      "title": "Vindaloo Paste"
+    },
+    {
+      "id": "butterchicken",
+      "title": "Restaurant-Style Butter Chicken"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "crepes",
+  "title": "Crepes with Maple Syrup & Butter",
+  "emoji": "🥞",
+  "category": "Dinner",
+  "description": "Golden, versatile crepes perfect for sweet or savoury cravings. Serve warm — simple is best.",
+  "ingredients": [
+    {
+      "quantity": "6",
+      "unit": "",
+      "item": "Eggs",
+      "ingredientKey": "Eggs"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Sugar",
+      "ingredientKey": "Sugar"
+    },
+    {
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Oil",
+      "ingredientKey": "Oil"
+    },
+    {
+      "quantity": "500",
+      "unit": "ml",
+      "item": "Milk",
+      "ingredientKey": "Milk"
+    },
+    {
+      "quantity": "250",
+      "unit": "g",
+      "item": "Flour",
+      "ingredientKey": "Flour"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Nutella",
+      "ingredientKey": "Nutella"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Banana",
+      "ingredientKey": "Banana"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Strawberries",
+      "ingredientKey": "Strawberries"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Honey",
+      "ingredientKey": "Honey"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Golden Syrup",
+      "ingredientKey": "Golden Syrup"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Cream",
+      "ingredientKey": "Cream"
+    },
+    {
+      "quantity": "",
+      "unit": "",
+      "item": "Maple Syrup",
+      "ingredientKey": "Maple Syrup"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Heat a non-stick pan over medium heat. Lightly oil, then wipe off excess."
+    },
+    {
+      "step": 2,
+      "instruction": "Pour in a ladle of batter, swirling to coat thinly."
+    },
+    {
+      "step": 3,
+      "instruction": "Cook until edges lift and top looks dry (about 30 seconds), then flip."
+    },
+    {
+      "step": 4,
+      "instruction": "Cook second side 15–30 seconds. Stack and cover as you go."
+    },
+    {
+      "step": 5,
+      "instruction": "Optional: first crepe might not be perfect — embrace it, it’s a tester."
+    }
+  ],
+  "notes": [
+    {
+      "title": "Notes & Tips",
+      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+    }
+  ],
+  "tags": [
+    "Breakfast",
+    "Creamy",
+    "Dessert",
+    "Dinner",
+    "French",
+    "Rich",
+    "Savoury",
+    "Sweet",
+    "Under 30 Minutes",
+    "Vegetarian"
+  ],
+  "related": [
+    {
+      "id": "chouxpastry",
+      "title": "Choux Pastry (Profiteroles)"
+    },
+    {
+      "id": "bistro-chickenpicante",
+      "title": "Chicken Picante"
+    },
+    {
+      "id": "beefstockpot",
+      "title": "20 Minute Beef Stock Pot"
+    },
+    {
+      "id": "tomatoflan",
+      "title": "Tomato and Olive Flan"
+    },
+    {
+      "id": "bistro-vealcordonbleu",
+      "title": "Veal Cordon Bleu"
+    }
+  ]
+}

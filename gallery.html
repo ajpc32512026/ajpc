@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#16161a">
+    <title>Gallery | AJPC Kitchen Notebook</title>
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        .gallery-header {
+            padding: var(--sp-3xl) var(--sp-xl) var(--sp-xl);
+            max-width: var(--max-wide);
+            margin: 0 auto;
+        }
+        .gallery-header p { color: var(--cream-muted); font-size: 0.9rem; }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 2px;
+            padding: 0 var(--sp-xl) var(--sp-3xl);
+            max-width: var(--max-wide);
+            margin: 0 auto;
+        }
+
+        .gallery-item {
+            aspect-ratio: 4/3;
+            overflow: hidden;
+            background: var(--surface-card);
+            cursor: zoom-in;
+            position: relative;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease, filter 0.3s ease;
+            filter: brightness(0.92);
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.05);
+            filter: brightness(1);
+        }
+
+        .gallery-item-caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 0.75rem 1rem;
+            background: linear-gradient(transparent, rgba(22,22,26,0.85));
+            color: var(--cream);
+            font-size: 0.82rem;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .gallery-item:hover .gallery-item-caption { opacity: 1; }
+
+        /* Lightbox */
+        .lightbox {
+            position: fixed;
+            inset: 0;
+            background: rgba(10,10,14,0.95);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9000;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.25s ease;
+        }
+        .lightbox.open { opacity: 1; pointer-events: all; }
+        .lightbox img {
+            max-width: 90vw;
+            max-height: 85vh;
+            object-fit: contain;
+            border-radius: var(--r-md);
+            box-shadow: var(--shadow-lg);
+        }
+        .lightbox-close {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            background: var(--surface-2);
+            border: 1px solid var(--border-mid);
+            color: var(--cream);
+            width: 40px;
+            height: 40px;
+            border-radius: var(--r-sm);
+            font-size: 1.2rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .lightbox-caption {
+            position: absolute;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--surface-2);
+            border: 1px solid var(--border-mid);
+            border-radius: var(--r-full);
+            padding: 0.4rem 1rem;
+            font-size: 0.85rem;
+            color: var(--cream-dim);
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="scroll-progress" id="scrollProgress"></div>
+    <div id="nav-placeholder"></div>
+
+    <div class="gallery-header">
+        <p style="font-size:0.75rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--copper);font-weight:600;margin-bottom:0.5rem;">Kitchen Gallery</p>
+        <h1 style="font-size:clamp(1.8rem,4vw,2.8rem);margin-bottom:0.5rem;">From the Kitchen</h1>
+        <p>A visual record of dishes made, baked, and eaten.</p>
+    </div>
+
+    <div class="gallery-grid" id="galleryGrid">
+
+        <div class="gallery-item" data-caption="Apple Strudel">
+            <img src="assets/images/apple-strudle.jpg" alt="Apple Strudel" loading="lazy">
+            <div class="gallery-item-caption">Apple Strudel</div>
+        </div>
+
+        <div class="gallery-item" data-caption="Apricot Flan">
+            <img src="assets/images/apricot-flan.jpg" alt="Apricot Flan" loading="lazy">
+            <div class="gallery-item-caption">Apricot Flan</div>
+        </div>
+
+        <div class="gallery-item" data-caption="Crepes">
+            <img src="assets/images/crepes.jpg" alt="Crepes" loading="lazy">
+            <div class="gallery-item-caption">Crepes</div>
+        </div>
+
+        <div class="gallery-item" data-caption="Orange & Poppyseed Friands">
+            <img src="assets/images/friand.jpg" alt="Friands" loading="lazy">
+            <div class="gallery-item-caption">Orange & Poppyseed Friands</div>
+        </div>
+
+        <div class="gallery-item" data-caption="Pizza Dough">
+            <img src="assets/images/pizza-dough.jpg" alt="Pizza Dough" loading="lazy">
+            <div class="gallery-item-caption">Pizza Dough</div>
+        </div>
+
+        <div class="gallery-item" data-caption="Chocolate Rum Balls">
+            <img src="assets/images/rumballs.jpg" alt="Rum Balls" loading="lazy">
+            <div class="gallery-item-caption">Chocolate Rum Balls</div>
+        </div>
+
+        <div class="gallery-item" data-caption="Satay Chicken">
+            <img src="assets/images/satay-chicken.jpg" alt="Satay Chicken" loading="lazy">
+            <div class="gallery-item-caption">Satay Chicken</div>
+        </div>
+
+        <div class="gallery-item" data-caption="Sticky Date Pudding">
+            <img src="assets/images/sticky-date-pudding.jpg" alt="Sticky Date Pudding" loading="lazy">
+            <div class="gallery-item-caption">Sticky Date Pudding</div>
+        </div>
+
+        <div class="gallery-item" data-caption="Tiramisu Gateau">
+            <img src="assets/images/tiramisu.jpg" alt="Tiramisu" loading="lazy">
+            <div class="gallery-item-caption">Tiramisu Gateau</div>
+        </div>
+
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image lightbox">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+        <img id="lightboxImg" src="" alt="">
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+
+    <footer>
+        <div class="footer-inner" style="max-width:var(--max-wide);margin:0 auto;padding:var(--sp-2xl) var(--sp-xl);">
+            <span class="footer-brand">AJPC</span>
+            <p class="footer-copy">&copy; 2026 Ana &amp; John's Kitchen Notebook.</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">&#8593;</button>
+
+    <script src="js/nav-loader.js"></script>
+    <script>
+        (function () {
+            const lb     = document.getElementById('lightbox');
+            const lbImg  = document.getElementById('lightboxImg');
+            const lbCap  = document.getElementById('lightboxCaption');
+            const lbClose = document.getElementById('lightboxClose');
+
+            document.querySelectorAll('.gallery-item').forEach(item => {
+                item.addEventListener('click', () => {
+                    const img = item.querySelector('img');
+                    lbImg.src = img.src;
+                    lbImg.alt = img.alt;
+                    lbCap.textContent = item.getAttribute('data-caption') || '';
+                    lb.classList.add('open');
+                    document.body.style.overflow = 'hidden';
+                });
+            });
+
+            function close() {
+                lb.classList.remove('open');
+                document.body.style.overflow = '';
+                lbImg.src = '';
+            }
+
+            lbClose.addEventListener('click', close);
+            lb.addEventListener('click', (e) => { if (e.target === lb) close(); });
+            document.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });
+        })();
+    </script>
+</body>
+</html>
