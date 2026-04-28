@@ -8,7 +8,7 @@
   "cookTime": "15 min",
   "totalTime": "1 hr 30 min (including minimum marinating)",
   "servings": "4 servings",
-  "difficulty": "Medium",
+  "difficulty": "Intermediate",
   "tags": [
     "Chicken",
     "Dinner",
@@ -18,70 +18,61 @@
   ],
   "ingredients": [
     {
-      "quantity": "1",
-      "unit": "lb",
-      "item": "Chicken",
-      "ingredientKey": "Chicken"
-    },
-    {
-      "quantity": "1",
-      "unit": "lb",
-      "item": "Chicken",
-      "ingredientKey": "Chicken"
+      "quantity": "500",
+      "unit": "g",
+      "item": "Chicken Strips"
     },
     {
       "quantity": "1/4",
       "unit": "cup",
-      "item": "Oil",
-      "ingredientKey": "Oil"
+      "item": "Oil"
     },
     {
       "quantity": "3",
       "unit": "tbsp",
-      "item": "Juice",
-      "ingredientKey": "Juice"
+      "item": "Lemon Juice"
     },
     {
       "quantity": "6",
       "unit": "cloves",
       "item": "Garlic",
-      "ingredientKey": "Garlic"
+      "notes": "Crushed"
     },
     {
-      "quantity": "2",
+      "quantity": "1/2 - 1",
       "unit": "tsp",
       "item": "Salt",
-      "ingredientKey": "Salt"
+      "notes": "To Taste"
     },
     {
       "quantity": "1",
       "unit": "tsp",
       "item": "Paprika",
-      "ingredientKey": "Paprika"
+      "notes": "Ground"
     },
     {
       "quantity": "3/4",
       "unit": "tsp",
-      "item": "Cardamom Pods, Green",
-      "ingredientKey": "Cardamom Pods, Green"
+      "item": "Cardamom",
+      "notes": "Ground"
     },
     {
       "quantity": "3/4",
       "unit": "tsp",
       "item": "Cumin",
-      "ingredientKey": "Cumin"
+      "notes": "Ground"
     },
     {
       "quantity": "1/4",
       "unit": "tsp",
       "item": "Red Chili",
-      "ingredientKey": "Red Chili"
+      "notes": "Flakes"
     },
     {
       "quantity": "1/4",
       "unit": "tsp",
       "item": "Cinnamon",
-      "ingredientKey": "Cinnamon"
+      "notes": "Ground"
     }
   ],
   "method": [
@@ -112,12 +103,12 @@
   ],
   "notes": [
     {
-      "type": "acknowledgment",
+      "type": "acknowledgement",
       "title": "Acknowledgment",
       "content": "Recipe inspired by traditional Middle Eastern shawarma techniques."
     },
     {
-      "type": "acknowledgment",
+      "type": "acknowledgement",
       "title": "Acknowledgment",
       "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
     }
