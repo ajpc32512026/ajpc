@@ -59,7 +59,7 @@
       "ingredientKey": "Stock"
     },
     {
-      "quantity": "",
+      "quantity": "to taste",
       "unit": "",
       "item": "Salt",
       "ingredientKey": "Salt"
@@ -89,8 +89,8 @@
       "ingredientKey": "Pastry"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "15",
+      "unit": "g",
       "item": "Sesame Seeds",
       "ingredientKey": "Sesame Seeds"
     }

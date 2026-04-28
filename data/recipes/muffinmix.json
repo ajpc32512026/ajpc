@@ -47,51 +47,51 @@
       "ingredientKey": "Eggs"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "5",
+      "unit": "ml",
       "item": "Vanilla",
       "ingredientKey": "Vanilla"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "100",
+      "unit": "g",
       "item": "Chocolate",
       "ingredientKey": "Chocolate"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "80",
+      "unit": "g",
       "item": "Dried fruit - sultanas, apricots, cranberries (optional)"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "100",
+      "unit": "g",
       "item": "Tinned or frozen fruit (optional)"
     },
     {
-      "quantity": "",
+      "quantity": "1",
       "unit": "",
       "item": "Apple & cinnamon (optional)"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "20",
+      "unit": "g",
       "item": "Cocoa Powder",
       "ingredientKey": "Cocoa Powder"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "50",
+      "unit": "g",
       "item": "Cheese & bacon (optional, for savoury)"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "80",
+      "unit": "g",
       "item": "Spinach & feta (optional, for savoury)"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "80",
+      "unit": "g",
       "item": "Pumpkin & fennel seeds (optional, for savoury)"
     }
   ],

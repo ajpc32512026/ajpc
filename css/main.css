@@ -1280,11 +1280,101 @@ li { margin-bottom: var(--sp-sm); }
     color: var(--copper-pale);
 }
 
-/* Cook mode overlay */
-.cook-mode-active .recipe-page-wrapper {
-    max-width: 100%;
+/* =========================================================
+   COOK MODE
+========================================================= */
+.cook-mode-bar {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: var(--surface-2);
+    border-top: 1px solid var(--border-copper);
+    padding: 14px 24px;
+    align-items: center;
+    gap: 16px;
+    box-shadow: 0 -8px 32px rgba(0,0,0,0.5);
 }
-.cook-mode-active .recipe-toolbar { display: none; }
+.cook-mode-active .cook-mode-bar {
+    display: flex;
+}
+.cook-mode-step-counter {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    color: var(--copper);
+    text-transform: uppercase;
+    white-space: nowrap;
+    min-width: 90px;
+}
+.cook-mode-step-text {
+    flex: 1;
+    font-size: 15px;
+    color: var(--cream);
+    line-height: 1.5;
+}
+.cook-mode-nav {
+    display: flex;
+    gap: 8px;
+    flex-shrink: 0;
+}
+.cook-mode-btn {
+    background: var(--surface-3);
+    border: 1px solid var(--border-mid);
+    color: var(--cream);
+    padding: 8px 18px;
+    font-family: var(--font-body);
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: var(--r-sm);
+    transition: all var(--t-fast);
+    white-space: nowrap;
+}
+.cook-mode-btn:hover {
+    background: var(--copper);
+    border-color: var(--copper);
+    color: var(--ink);
+}
+.cook-mode-btn:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+.cook-mode-btn.exit {
+    background: transparent;
+    border-color: var(--border-dim);
+    color: var(--cream-muted);
+    margin-left: 8px;
+}
+.cook-mode-btn.exit:hover {
+    background: var(--surface-3);
+    border-color: var(--border-mid);
+    color: var(--cream);
+}
+.cook-mode-active .method ol li {
+    opacity: 0.3;
+    transition: opacity var(--t-base), background var(--t-base);
+    border-radius: var(--r-sm);
+    padding: 12px 14px 12px 52px;
+    margin-bottom: 8px;
+    position: relative;
+}
+.cook-mode-active .method ol li.cook-mode-current {
+    opacity: 1;
+    background: rgba(201, 125, 62, 0.08);
+    border-left: 3px solid var(--copper);
+    padding-left: 52px;
+}
+.cook-mode-active #nav-placeholder {
+    display: none;
+}
+.cook-mode-active .recipe-toolbar {
+    display: none;
+}
+.cook-mode-active .recipe-page-wrapper {
+    padding-bottom: 120px;
+}
 
 /* =========================================================
    SEARCH PAGE

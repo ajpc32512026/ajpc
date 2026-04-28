@@ -310,11 +310,7 @@
         // Cook Mode
         const cookBtn = document.getElementById('cookModeBtn');
         if (cookBtn) {
-            cookBtn.addEventListener('click', () => {
-                const active = document.body.classList.toggle('cook-mode-active');
-                cookBtn.textContent = active ? 'Exit Cook Mode' : 'Cook Mode';
-                if (active) window.scrollTo({ top: 0, behavior: 'smooth' });
-            });
+            cookBtn.addEventListener('click', () => enterCookMode(recipe));
         }
 
         // Ingredient Scaler
@@ -386,6 +382,84 @@
             .replace(/</g, '&lt;')
             .replace(/>/g, '&gt;')
             .replace(/"/g, '&quot;');
+    }
+
+    /* --------------------------------------------------
+       Cook Mode - step-by-step with floating bar
+    -------------------------------------------------- */
+    function enterCookMode(recipe) {
+        var steps = (recipe.method || []).filter(function(s) { return !s.heading; });
+        if (!steps.length) return;
+
+        var currentStep = 0;
+        var wakeLock = null;
+
+        if ('wakeLock' in navigator) {
+            navigator.wakeLock.request('screen')
+                .then(function(lock) { wakeLock = lock; })
+                .catch(function() {});
+        }
+
+        var bar = document.createElement('div');
+        bar.className = 'cook-mode-bar';
+        bar.id = 'cookModeBar';
+        bar.innerHTML =
+            '<span class="cook-mode-step-counter" id="cmCounter"></span>' +
+            '<span class="cook-mode-step-text" id="cmText"></span>' +
+            '<div class="cook-mode-nav">' +
+                '<button class="cook-mode-btn" id="cmPrev">&#8592; Prev</button>' +
+                '<button class="cook-mode-btn" id="cmNext">Next &#8594;</button>' +
+                '<button class="cook-mode-btn exit" id="cmExit">Exit</button>' +
+            '</div>';
+
+        document.body.appendChild(bar);
+        document.body.classList.add('cook-mode-active');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+
+        var counter = document.getElementById('cmCounter');
+        var text    = document.getElementById('cmText');
+        var prevBtn = document.getElementById('cmPrev');
+        var nextBtn = document.getElementById('cmNext');
+        var exitBtn = document.getElementById('cmExit');
+        var stepEls = document.querySelectorAll('.method ol li');
+
+        function goTo(n) {
+            currentStep = n;
+            var step = steps[n];
+            var instruction = typeof step === 'string' ? step : (step.instruction || step.text || '');
+            counter.textContent = 'Step ' + (n + 1) + ' of ' + steps.length;
+            text.textContent = instruction;
+            prevBtn.disabled = (n === 0);
+            nextBtn.textContent = (n === steps.length - 1) ? 'Done' : 'Next →';
+            stepEls.forEach(function(el, i) {
+                el.classList.toggle('cook-mode-current', i === n);
+            });
+            if (stepEls[n]) {
+                stepEls[n].scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+        }
+
+        prevBtn.addEventListener('click', function() {
+            if (currentStep > 0) goTo(currentStep - 1);
+        });
+        nextBtn.addEventListener('click', function() {
+            if (currentStep < steps.length - 1) {
+                goTo(currentStep + 1);
+            } else {
+                exitCookMode();
+            }
+        });
+        exitBtn.addEventListener('click', exitCookMode);
+
+        function exitCookMode() {
+            document.body.classList.remove('cook-mode-active');
+            var b = document.getElementById('cookModeBar');
+            if (b) b.remove();
+            stepEls.forEach(function(el) { el.classList.remove('cook-mode-current'); });
+            if (wakeLock) { wakeLock.release(); wakeLock = null; }
+        }
+
+        goTo(0);
     }
 
     window.recipeRenderer = { fetchRecipe };

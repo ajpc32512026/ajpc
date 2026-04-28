@@ -20,55 +20,55 @@
   ],
   "ingredients": [
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "180",
+      "unit": "g",
       "item": "Veal",
       "ingredientKey": "Veal"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "80",
+      "unit": "g",
       "item": "Mushrooms",
       "ingredientKey": "Mushrooms"
     },
     {
-      "quantity": "",
+      "quantity": "2",
       "unit": "",
       "item": "Bacon",
       "ingredientKey": "Bacon"
     },
     {
-      "quantity": "",
+      "quantity": "1",
       "unit": "",
       "item": "Onion",
       "ingredientKey": "Onion"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "50",
+      "unit": "g",
       "item": "Cheese",
       "ingredientKey": "Cheese"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "1",
+      "unit": "sheet",
       "item": "Pastry",
       "ingredientKey": "Pastry"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "30",
+      "unit": "g",
       "item": "Butter",
       "ingredientKey": "Butter"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "60",
+      "unit": "ml",
       "item": "Demi Glace",
       "ingredientKey": "Demi Glace"
     },
     {
-      "quantity": "",
+      "quantity": "to taste",
       "unit": "",
       "item": "Salt",
       "ingredientKey": "Salt"

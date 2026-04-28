@@ -29,7 +29,7 @@
       "ingredientKey": "Pepper"
     },
     {
-      "quantity": "",
+      "quantity": "to taste",
       "unit": "",
       "item": "Seasonings of choice (salt, garlic powder, Chinese five-spice)"
     },
@@ -52,8 +52,8 @@
       "ingredientKey": "Flour"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "15",
+      "unit": "ml",
       "item": "Oil",
       "ingredientKey": "Oil"
     },
@@ -70,7 +70,7 @@
       "ingredientKey": "Capsicum"
     },
     {
-      "quantity": "",
+      "quantity": "1",
       "unit": "",
       "item": "Other veggies of choice (carrot, pineapple chunks, etc.)"
     },

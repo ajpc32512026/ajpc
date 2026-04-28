@@ -24,20 +24,20 @@
       "ingredientKey": "Carrots"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "1",
+      "unit": "pinch",
       "item": "Nutmeg",
       "ingredientKey": "Nutmeg"
     },
     {
-      "quantity": "",
+      "quantity": "to taste",
       "unit": "",
       "item": "Salt",
       "ingredientKey": "Salt"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "15",
+      "unit": "g",
       "item": "Sesame Seeds",
       "ingredientKey": "Sesame Seeds"
     },

@@ -23,7 +23,7 @@
       "ingredientKey": "Paprika"
     },
     {
-      "quantity": "",
+      "quantity": "to taste",
       "unit": "",
       "item": "Salt",
       "ingredientKey": "Salt"
@@ -77,8 +77,8 @@
       "ingredientKey": "Chives"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "200",
+      "unit": "g",
       "item": "Wholegrain toast or egg noodles, to serve (optional)"
     }
   ],

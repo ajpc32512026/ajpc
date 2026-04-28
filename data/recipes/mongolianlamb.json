@@ -12,8 +12,8 @@
       "ingredientKey": "Lamb"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "2",
+      "unit": "g",
       "item": "Bi-Carb Soda",
       "ingredientKey": "Bi-Carb Soda"
     },
@@ -54,8 +54,8 @@
       "ingredientKey": "Sauces"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "5",
+      "unit": "g",
       "item": "Sambal Oelek",
       "ingredientKey": "Sambal Oelek"
     },
@@ -72,7 +72,7 @@
       "ingredientKey": "Wine"
     },
     {
-      "quantity": "",
+      "quantity": "to taste",
       "unit": "",
       "item": "Chinese Five Spice",
       "ingredientKey": "Chinese Five Spice"
@@ -95,7 +95,7 @@
       "ingredientKey": "Oil"
     },
     {
-      "quantity": "",
+      "quantity": "1",
       "unit": "",
       "item": "Onion",
       "ingredientKey": "Onion"

@@ -28,14 +28,14 @@
       "ingredientKey": "Potato"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "30",
+      "unit": "g",
       "item": "plain flour",
       "ingredientKey": "Flour"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "50",
+      "unit": "g",
       "item": "Parmesan cheese, grated",
       "ingredientKey": "Cheese"
     },
@@ -46,7 +46,7 @@
       "ingredientKey": "Butter"
     },
     {
-      "quantity": "",
+      "quantity": "to taste",
       "unit": "",
       "item": "salt and pepper",
       "ingredientKey": "Seasoning"
@@ -64,8 +64,8 @@
       "ingredientKey": "Garlic"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "60",
+      "unit": "ml",
       "item": "dry white wine",
       "ingredientKey": "Wine"
     },

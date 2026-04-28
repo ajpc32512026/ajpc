@@ -13,6 +13,7 @@
     "Australian",
     "Classic",
     "Make Ahead",
+    "Pastry",
     "Rich",
     "Sweet",
     "Vegetarian"
@@ -21,8 +22,8 @@
     {
       "quantity": "125",
       "unit": "g",
-      "item": "Plain Flour",
-      "ingredientKey": "Plain Flour"
+      "item": "Flour",
+      "ingredientKey": "Flour"
     },
     {
       "quantity": "100",
@@ -33,13 +34,13 @@
     {
       "quantity": "100",
       "unit": "g",
-      "item": "White Sugar",
+      "item": "Sugar",
       "ingredientKey": "Sugar"
     },
     {
       "quantity": "125",
       "unit": "g",
-      "item": "Unsalted Butter",
+      "item": "Butter",
       "ingredientKey": "Butter"
     },
     {
@@ -51,7 +52,7 @@
     {
       "quantity": "2",
       "unit": "tbsp",
-      "item": "Hot Water"
+      "item": "Water"
     },
     {
       "quantity": "1",
@@ -103,11 +104,6 @@
       "type": "serving",
       "title": "Serving Tip",
       "content": "Best enjoyed with a strong cup of tea and a good story. Store in an airtight tin — they keep beautifully."
-    },
-	{
-      "type": "baking",
-      "title": "Baking Tip",
-      "content": "Weight should be 28g to 35g each ball of raw cookie dough. You can also use egg rings if making larger cookies up to 50g"
     }
   ],
   "related": [

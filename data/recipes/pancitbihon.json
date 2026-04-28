@@ -1,0 +1,191 @@
+{
+  "id": "pancitbihon",
+  "title": "Pancit Bihon",
+  "category": "Dinner",
+  "description": "The light, thin rice noodle version most people associate with Filipino Pancit. A birthday table staple symbolising long life, best served with a squeeze of calamansi.",
+  "prepTime": "15 min",
+  "cookTime": "20 min",
+  "totalTime": "45 min",
+  "servings": "4 servings",
+  "difficulty": "Easy",
+  "tags": [
+    "Filipino",
+    "Noodles",
+    "Pork",
+    "Chicken",
+    "Savoury",
+    "Stir-Fried",
+    "Dairy-Free",
+    "Dinner"
+  ],
+  "ingredients": [
+    {
+      "heading": "Noodles"
+    },
+    {
+      "quantity": "225",
+      "unit": "g",
+      "item": "Pancit Bihon rice stick noodles",
+      "ingredientKey": "Bihon Noodles"
+    },
+    {
+      "heading": "Meat"
+    },
+    {
+      "quantity": "225",
+      "unit": "g",
+      "item": "Pork, thinly sliced",
+      "ingredientKey": "Pork"
+    },
+    {
+      "quantity": "225",
+      "unit": "g",
+      "item": "Chicken breast, thinly sliced",
+      "ingredientKey": "Chicken"
+    },
+    {
+      "heading": "Vegetables"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Large carrot, julienned",
+      "ingredientKey": "Carrot"
+    },
+    {
+      "quantity": "150",
+      "unit": "g",
+      "item": "Cabbage, shredded",
+      "ingredientKey": "Cabbage"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Snow peas or green beans",
+      "ingredientKey": "Snow Peas"
+    },
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Celery stalks, sliced",
+      "ingredientKey": "Celery"
+    },
+    {
+      "heading": "Aromatics"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Yellow onion, chopped",
+      "ingredientKey": "Onion"
+    },
+    {
+      "quantity": "4",
+      "unit": "",
+      "item": "Garlic cloves, minced",
+      "ingredientKey": "Garlic"
+    },
+    {
+      "heading": "Sauce & Liquid"
+    },
+    {
+      "quantity": "500",
+      "unit": "ml",
+      "item": "Chicken broth",
+      "ingredientKey": "Chicken Broth"
+    },
+    {
+      "quantity": "60",
+      "unit": "ml",
+      "item": "Soy sauce",
+      "ingredientKey": "Soy Sauce"
+    },
+    {
+      "quantity": "15",
+      "unit": "ml",
+      "item": "Fish sauce (patis)",
+      "ingredientKey": "Fish Sauce"
+    },
+    {
+      "heading": "Garnish"
+    },
+    {
+      "quantity": "4",
+      "unit": "",
+      "item": "Calamansi or lemon wedges",
+      "ingredientKey": "Calamansi"
+    },
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Green onion stalks, chopped",
+      "ingredientKey": "Green Onion"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Soak the bihon noodles in warm water for 10 minutes until softened, then drain and set aside."
+    },
+    {
+      "step": 2,
+      "instruction": "Heat oil in a large wok over medium-high heat. Saute the garlic and onion until fragrant, then add the pork and chicken. Cook until browned."
+    },
+    {
+      "step": 3,
+      "instruction": "Add the carrots, celery, and snow peas or green beans. Stir-fry for a few minutes until just tender, then remove the meat and vegetables from the wok and set aside to keep them crisp."
+    },
+    {
+      "step": 4,
+      "instruction": "Pour the chicken broth, soy sauce, and fish sauce into the wok. Bring to a boil. Add the drained noodles and toss continuously until they absorb most of the liquid."
+    },
+    {
+      "step": 5,
+      "instruction": "Return the cooked meat and vegetables to the wok. Add the shredded cabbage last and toss everything together until well combined and heated through."
+    },
+    {
+      "step": 6,
+      "instruction": "Season with ground black pepper to taste. Transfer to a serving dish, top with chopped green onions, and serve with calamansi or lemon wedges on the side."
+    }
+  ],
+  "notes": [
+    {
+      "type": "tip",
+      "title": "Keep Vegetables Crisp",
+      "content": "Removing the vegetables from the wok before simmering the noodles prevents them from overcooking and going soggy."
+    },
+    {
+      "type": "tip",
+      "title": "Noodle Soaking",
+      "content": "Do not oversoak the bihon — 10 minutes in warm (not boiling) water is enough. They will finish cooking in the broth."
+    },
+    {
+      "type": "variation",
+      "title": "Meat Options",
+      "content": "You can use all pork, all chicken, or add small shrimp for variety. Leftover rotisserie chicken works well here."
+    },
+    {
+      "type": "preparation",
+      "title": "Symbolism",
+      "content": "Pancit is traditionally served at Filipino birthday celebrations to symbolise long life. For this reason, avoid cutting the noodles before serving."
+    }
+  ],
+  "related": [
+    {
+      "id": "pancitcanton",
+      "title": "Pancit Canton"
+    },
+    {
+      "id": "filipinonoodles",
+      "title": "Pancit (Filipino Stir-Fried Noodles)"
+    },
+    {
+      "id": "porkcaldereta",
+      "title": "Pork Caldereta"
+    },
+    {
+      "id": "bulalo",
+      "title": "Original Bulalo"
+    }
+  ]
+}

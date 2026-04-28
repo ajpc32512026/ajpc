@@ -71,14 +71,14 @@
       "ingredientKey": "Honey"
     },
     {
-      "quantity": "",
+      "quantity": "to taste",
       "unit": "",
       "item": "Salt",
       "ingredientKey": "Salt"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "10",
+      "unit": "g",
       "item": "Parsley",
       "ingredientKey": "Parsley"
     }

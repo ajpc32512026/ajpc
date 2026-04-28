@@ -46,8 +46,8 @@
       "ingredientKey": "Salt"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "7",
+      "unit": "g",
       "item": "Yeast",
       "ingredientKey": "Yeast"
     },
@@ -69,14 +69,14 @@
       "ingredientKey": "Malt Powder"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "15",
+      "unit": "g",
       "item": "Sesame Seeds",
       "ingredientKey": "Sesame Seeds"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "10",
+      "unit": "g",
       "item": "Nigella Seeds",
       "ingredientKey": "Nigella Seeds"
     }

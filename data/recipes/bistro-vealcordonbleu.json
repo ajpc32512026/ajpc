@@ -22,26 +22,26 @@
   ],
   "ingredients": [
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "180",
+      "unit": "g",
       "item": "Veal",
       "ingredientKey": "Veal"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "60",
+      "unit": "g",
       "item": "Pork",
       "ingredientKey": "Pork"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "50",
+      "unit": "g",
       "item": "Cheese",
       "ingredientKey": "Cheese"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "30",
+      "unit": "g",
       "item": "Flour",
       "ingredientKey": "Flour"
     },
@@ -52,44 +52,44 @@
       "ingredientKey": "Eggs"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "50",
+      "unit": "g",
       "item": "Breadcrumbs",
       "ingredientKey": "Breadcrumbs"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "15",
+      "unit": "ml",
       "item": "Oil",
       "ingredientKey": "Oil"
     },
     {
-      "quantity": "",
+      "quantity": "to taste",
       "unit": "",
       "item": "Salt",
       "ingredientKey": "Salt"
     },
     {
-      "quantity": "",
+      "quantity": "1",
       "unit": "",
       "item": "Onion",
       "ingredientKey": "Onion"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "60",
+      "unit": "ml",
       "item": "Wine",
       "ingredientKey": "Wine"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "60",
+      "unit": "ml",
       "item": "Cream",
       "ingredientKey": "Cream"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "15",
+      "unit": "g",
       "item": "Mustard",
       "ingredientKey": "Mustard"
     }

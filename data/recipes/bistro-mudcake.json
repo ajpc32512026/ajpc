@@ -22,18 +22,18 @@
   ],
   "ingredients": [
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "1",
+      "unit": "serve",
       "item": "See AJPC Kitchen — The Ultimate Chocolate Mud Cake recipe"
     },
     {
-      "quantity": "",
+      "quantity": "to serve",
       "unit": "",
       "item": "Fresh seasonal fruit"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "60",
+      "unit": "ml",
       "item": "Cream",
       "ingredientKey": "Cream"
     }

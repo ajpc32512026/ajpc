@@ -6,8 +6,8 @@
   "description": "A bold, tangy, fire-forward paste — the beating heart of a proper vindaloo.",
   "ingredients": [
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "10",
+      "unit": "g",
       "item": "Ginger",
       "ingredientKey": "Ginger"
     },
@@ -59,7 +59,7 @@
       "item": "stick"
     },
     {
-      "quantity": "",
+      "quantity": "to taste",
       "unit": "",
       "item": "Pepper",
       "ingredientKey": "Pepper"

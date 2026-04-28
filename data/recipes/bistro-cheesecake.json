@@ -21,18 +21,18 @@
   ],
   "ingredients": [
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "50",
+      "unit": "g",
       "item": "See AJPC Kitchen — Cheesecake recipes"
     },
     {
-      "quantity": "",
+      "quantity": "to serve",
       "unit": "",
       "item": "Seasonal fruit for topping and serving"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "60",
+      "unit": "ml",
       "item": "Cream",
       "ingredientKey": "Cream"
     }

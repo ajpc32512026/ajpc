@@ -51,14 +51,14 @@
       "ingredientKey": "Vanilla"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "60",
+      "unit": "ml",
       "item": "Cream",
       "ingredientKey": "Cream"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "100",
+      "unit": "g",
       "item": "Fresh fruit — kiwi, strawberries, passionfruit, mango"
     }
   ],

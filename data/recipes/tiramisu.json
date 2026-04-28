@@ -52,7 +52,7 @@
       "item": "Cornflour"
     },
     {
-      "quantity": "",
+      "quantity": "to taste",
       "unit": "",
       "item": "Pinch of Salt"
     },
@@ -116,27 +116,27 @@
       "item": "Vanilla Extract"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "1",
+      "unit": "tsp",
       "item": "Zest of 1 Orange"
     },
     {
       "heading": "Topping"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "60",
+      "unit": "ml",
       "item": "Whipped Cream",
       "notes": "piped rosettes"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "100",
+      "unit": "g",
       "item": "Fresh Strawberries",
       "notes": "halved for decoration"
     },
     {
-      "quantity": "",
+      "quantity": "to garnish",
       "unit": "",
       "item": "White Chocolate Curls",
       "notes": "optional"

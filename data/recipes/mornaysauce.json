@@ -29,14 +29,14 @@
       "ingredientKey": "Milk"
     },
     {
-      "quantity": "",
+      "quantity": "to taste",
       "unit": "",
       "item": "Salt",
       "ingredientKey": "Salt"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "1",
+      "unit": "pinch",
       "item": "Nutmeg",
       "ingredientKey": "Nutmeg"
     },

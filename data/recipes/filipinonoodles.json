@@ -30,14 +30,14 @@
       "ingredientKey": "Onion"
     },
     {
-      "quantity": "",
+      "quantity": "4",
       "unit": "",
       "item": "Garlic",
       "ingredientKey": "Garlic"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "2",
+      "unit": "g",
       "item": "Achiote Powder",
       "ingredientKey": "Achiote Powder"
     },
@@ -60,8 +60,8 @@
       "ingredientKey": "Sugar Snap Peas"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "150",
+      "unit": "g",
       "item": "Cabbage",
       "ingredientKey": "Cabbage"
     },
@@ -72,7 +72,7 @@
       "ingredientKey": "Sauces"
     },
     {
-      "quantity": "",
+      "quantity": "to taste",
       "unit": "",
       "item": "Sugar",
       "ingredientKey": "Sugar"
@@ -102,14 +102,14 @@
       "ingredientKey": "Vermicelli Rice Noodles"
     },
     {
-      "quantity": "",
+      "quantity": "to taste",
       "unit": "",
       "item": "Salt",
       "ingredientKey": "Salt"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "30",
+      "unit": "ml",
       "item": "Lemon or lime juice for garnish (optional)"
     }
   ],

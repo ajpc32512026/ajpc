@@ -93,20 +93,20 @@
       "ingredientKey": "Philadelphia Cream Cheese"
     },
     {
-      "quantity": "",
+      "quantity": "to taste",
       "unit": "",
       "item": "Sugar",
       "ingredientKey": "Sugar"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "30",
+      "unit": "ml",
       "item": "Juice",
       "ingredientKey": "Juice"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "5",
+      "unit": "ml",
       "item": "Vanilla",
       "ingredientKey": "Vanilla"
     }

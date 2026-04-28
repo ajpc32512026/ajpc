@@ -35,20 +35,20 @@
       "ingredientKey": "Butter"
     },
     {
-      "quantity": "",
+      "quantity": "4",
       "unit": "",
       "item": "Garlic",
       "ingredientKey": "Garlic"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "10",
+      "unit": "g",
       "item": "Parsley",
       "ingredientKey": "Parsley"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "30",
+      "unit": "g",
       "item": "Flour",
       "ingredientKey": "Flour"
     },
@@ -59,14 +59,14 @@
       "ingredientKey": "Eggs"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "50",
+      "unit": "g",
       "item": "Breadcrumbs",
       "ingredientKey": "Breadcrumbs"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "15",
+      "unit": "ml",
       "item": "Oil",
       "ingredientKey": "Oil"
     },
@@ -83,13 +83,13 @@
       "ingredientKey": "Tomatoes"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "60",
+      "unit": "ml",
       "item": "Cream",
       "ingredientKey": "Cream"
     },
     {
-      "quantity": "",
+      "quantity": "to taste",
       "unit": "",
       "item": "Sauces",
       "ingredientKey": "Sauces"

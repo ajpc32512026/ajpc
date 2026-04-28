@@ -42,8 +42,8 @@
       "item": "Garlic"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "15",
+      "unit": "ml",
       "item": "Oil"
     },
     {
@@ -82,7 +82,7 @@
       "item": "Stock"
     },
     {
-      "quantity": "",
+      "quantity": "to taste",
       "unit": "",
       "item": "Salt"
     },

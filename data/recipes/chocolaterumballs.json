@@ -6,8 +6,8 @@
   "description": "Quick, fun, and dangerously delicious — the ultimate no-bake chocolate treat.",
   "ingredients": [
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "300",
+      "unit": "g",
       "item": "Cake Crumbs",
       "ingredientKey": "Cake Crumbs"
     },

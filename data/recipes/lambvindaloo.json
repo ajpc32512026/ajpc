@@ -71,14 +71,14 @@
       "item": "water"
     },
     {
-      "quantity": "",
+      "quantity": "to taste",
       "unit": "",
       "item": "Salt",
       "ingredientKey": "Salt"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "5",
+      "unit": "g",
       "item": "Coriander",
       "ingredientKey": "Coriander"
     }

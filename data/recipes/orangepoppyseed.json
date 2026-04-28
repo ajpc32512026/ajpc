@@ -6,8 +6,8 @@
   "description": "A bright, citrusy favourite — buttery, fragrant, and layered with a lush orange cream.",
   "ingredients": [
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "15",
+      "unit": "g",
       "item": "Poppy Seed",
       "ingredientKey": "Poppy Seed"
     },
@@ -30,7 +30,7 @@
       "ingredientKey": "Orange Zest"
     },
     {
-      "quantity": "",
+      "quantity": "to taste",
       "unit": "",
       "item": "Sugar",
       "ingredientKey": "Sugar"
@@ -54,14 +54,14 @@
       "ingredientKey": "Flour"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "30",
+      "unit": "g",
       "item": "Almonds",
       "ingredientKey": "Almonds"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "30",
+      "unit": "ml",
       "item": "Juice",
       "ingredientKey": "Juice"
     },
@@ -72,8 +72,8 @@
       "ingredientKey": "Philadelphia Cream Cheese"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "60",
+      "unit": "ml",
       "item": "Cream",
       "ingredientKey": "Cream"
     },

@@ -30,49 +30,49 @@
       "ingredientKey": "Beef, Scotch Fillet"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "150",
+      "unit": "g",
       "item": "Seafood",
       "ingredientKey": "Seafood"
     },
     {
-      "quantity": "",
+      "quantity": "to taste",
       "unit": "",
       "item": "Pepper",
       "ingredientKey": "Pepper"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "60",
+      "unit": "ml",
       "item": "Cream",
       "ingredientKey": "Cream"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "60",
+      "unit": "ml",
       "item": "Demi Glace",
       "ingredientKey": "Demi Glace"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "30",
+      "unit": "g",
       "item": "Butter",
       "ingredientKey": "Butter"
     },
     {
-      "quantity": "",
+      "quantity": "1",
       "unit": "",
       "item": "Onion",
       "ingredientKey": "Onion"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "30",
+      "unit": "ml",
       "item": "Brandy",
       "ingredientKey": "Brandy"
     },
     {
-      "quantity": "",
+      "quantity": "to taste",
       "unit": "",
       "item": "Salt",
       "ingredientKey": "Salt"

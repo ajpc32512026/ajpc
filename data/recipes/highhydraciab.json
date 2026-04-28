@@ -41,14 +41,14 @@
       "ingredientKey": "Salt"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "15",
+      "unit": "ml",
       "item": "Oil",
       "ingredientKey": "Oil"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "30",
+      "unit": "g",
       "item": "Flour",
       "ingredientKey": "Flour"
     }

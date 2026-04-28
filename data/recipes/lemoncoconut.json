@@ -6,8 +6,8 @@
   "description": "A simple old-school favourite — bright lemon, soft crumb, and that warm coconut finish.",
   "ingredients": [
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "30",
+      "unit": "ml",
       "item": "Juice",
       "ingredientKey": "Juice"
     },
@@ -48,8 +48,8 @@
       "ingredientKey": "Coconut"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "1",
+      "unit": "tsp",
       "item": "Lemon Zest",
       "ingredientKey": "Lemon Zest"
     },
@@ -60,20 +60,20 @@
       "ingredientKey": "Sugar"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "30",
+      "unit": "ml",
       "item": "Juice",
       "ingredientKey": "Juice"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "1",
+      "unit": "tsp",
       "item": "Lemon Zest",
       "ingredientKey": "Lemon Zest"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "30",
+      "unit": "g",
       "item": "Coconut",
       "ingredientKey": "Coconut"
     }

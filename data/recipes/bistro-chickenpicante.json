@@ -30,43 +30,43 @@
       "ingredientKey": "Chicken"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "60",
+      "unit": "ml",
       "item": "Cream",
       "ingredientKey": "Cream"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "15",
+      "unit": "g",
       "item": "Mustard",
       "ingredientKey": "Mustard"
     },
     {
-      "quantity": "",
+      "quantity": "to taste",
       "unit": "",
       "item": "Pepper",
       "ingredientKey": "Pepper"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "30",
+      "unit": "g",
       "item": "Butter",
       "ingredientKey": "Butter"
     },
     {
-      "quantity": "",
+      "quantity": "1",
       "unit": "",
       "item": "Onion",
       "ingredientKey": "Onion"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "60",
+      "unit": "ml",
       "item": "Wine",
       "ingredientKey": "Wine"
     },
     {
-      "quantity": "",
+      "quantity": "to taste",
       "unit": "",
       "item": "Salt",
       "ingredientKey": "Salt"

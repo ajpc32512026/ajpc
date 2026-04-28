@@ -2,7 +2,7 @@
   {
     "id": "beefstockpot",
     "title": "20 Minute Beef Stock Pot",
-    "emoji": "🥩",
+    "emoji": "\ud83e\udd69",
     "category": "Dinner",
     "tags": [
       "Alcohol",
@@ -41,7 +41,7 @@
   {
     "id": "highhydraciab",
     "title": "Airy High-Hydration Ciabatta",
-    "emoji": "🥖",
+    "emoji": "\ud83e\udd56",
     "category": "Dinner",
     "tags": [
       "Bread",
@@ -62,7 +62,7 @@
       },
       {
         "id": "lasagne",
-        "title": "Classic Lasagne — Ragù & Béchamel"
+        "title": "Classic Lasagne \u2014 Rag\u00f9 & B\u00e9chamel"
       },
       {
         "id": "chickencacciatore",
@@ -70,14 +70,14 @@
       },
       {
         "id": "hotdog",
-        "title": "Wendy’s-Style Hot Dog Buns"
+        "title": "Wendy\u2019s-Style Hot Dog Buns"
       }
     ]
   },
   {
     "id": "alfredosauce",
     "title": "Alfredo Sauce",
-    "emoji": "🧈",
+    "emoji": "\ud83e\uddc8",
     "category": "Sauces",
     "tags": [
       "Cheese",
@@ -114,7 +114,7 @@
   {
     "id": "applecinnscrolls",
     "title": "Apple & Cinnamon Scrolls",
-    "emoji": "🍎",
+    "emoji": "\ud83c\udf4e",
     "category": "Baking",
     "tags": [
       "Apple",
@@ -153,7 +153,7 @@
   {
     "id": "applepie",
     "title": "Apple Pie",
-    "emoji": "🍏",
+    "emoji": "\ud83c\udf4f",
     "category": "Baking",
     "tags": [
       "Apple",
@@ -193,7 +193,7 @@
   {
     "id": "apricotflan",
     "title": "Apricot Flan",
-    "emoji": "🍑",
+    "emoji": "\ud83c\udf51",
     "category": "Baking",
     "tags": [
       "Alcohol",
@@ -233,7 +233,7 @@
   {
     "id": "arrabbiatazauce",
     "title": "Arrabbiata Sauce",
-    "emoji": "🌶️",
+    "emoji": "\ud83c\udf36\ufe0f",
     "category": "Sauces",
     "tags": [
       "Italian",
@@ -270,7 +270,7 @@
   {
     "id": "baked-cheesecake",
     "title": "Baked Cheesecake",
-    "emoji": "🧀",
+    "emoji": "\ud83e\uddc0",
     "category": "Desserts",
     "tags": [
       "Baked",
@@ -311,7 +311,7 @@
   {
     "id": "cinnbun",
     "title": "Bakery-Style Cinnamon Buns",
-    "emoji": "🍯",
+    "emoji": "\ud83c\udf6f",
     "category": "Dinner",
     "tags": [
       "Baked",
@@ -328,7 +328,7 @@
     "related": [
       {
         "id": "hotdog",
-        "title": "Wendy’s-Style Hot Dog Buns"
+        "title": "Wendy\u2019s-Style Hot Dog Buns"
       },
       {
         "id": "swbtm2",
@@ -351,7 +351,7 @@
   {
     "id": "bananabread",
     "title": "Banana Bread",
-    "emoji": "🍌",
+    "emoji": "\ud83c\udf4c",
     "category": "Baking",
     "tags": [
       "Banana",
@@ -390,7 +390,7 @@
   {
     "id": "muffinmix",
     "title": "Basic Muffin Mix",
-    "emoji": "🧁",
+    "emoji": "\ud83e\uddc1",
     "category": "Desserts",
     "tags": [
       "Breakfast",
@@ -398,7 +398,6 @@
       "Chocolate",
       "Creamy",
       "Dessert",
-      "Greek",
       "Rich",
       "Sweet",
       "Under 30 Minutes"
@@ -429,7 +428,7 @@
   {
     "id": "beefstroganoff",
     "title": "Beef & Mushroom Stroganoff",
-    "emoji": "🥘",
+    "emoji": "\ud83e\udd58",
     "category": "Dinner",
     "tags": [
       "Beef",
@@ -459,14 +458,14 @@
       },
       {
         "id": "lasagne",
-        "title": "Classic Lasagne — Ragù & Béchamel"
+        "title": "Classic Lasagne \u2014 Rag\u00f9 & B\u00e9chamel"
       }
     ]
   },
   {
     "id": "beefvindaloo",
     "title": "Beef Vindaloo",
-    "emoji": "🔥",
+    "emoji": "\ud83d\udd25",
     "category": "Dinner",
     "tags": [
       "Beef",
@@ -487,7 +486,7 @@
       },
       {
         "id": "roganjosh",
-        "title": "Lamb Rogan Josh – Restaurant Style"
+        "title": "Lamb Rogan Josh \u2013 Restaurant Style"
       },
       {
         "id": "sataysauce",
@@ -506,7 +505,7 @@
   {
     "id": "sweetsourpork",
     "title": "Better Than Takeaway Sweet & Sour Pork",
-    "emoji": "🍖",
+    "emoji": "\ud83c\udf56",
     "category": "Dinner",
     "tags": [
       "Chinese",
@@ -543,7 +542,7 @@
   {
     "id": "bistro-brandymustardsteak",
     "title": "Brandy Mustard Steak",
-    "emoji": "🥃",
+    "emoji": "\ud83e\udd43",
     "category": "Dinner",
     "tags": [
       "Alcohol",
@@ -584,7 +583,7 @@
   {
     "id": "bistro-carpetbag",
     "title": "Carpet Bag",
-    "emoji": "🦪",
+    "emoji": "\ud83e\uddaa",
     "category": "Dinner",
     "tags": [
       "Alcohol",
@@ -623,8 +622,8 @@
   },
   {
     "id": "carrotcakehomebatch",
-    "title": "Carrot Cake – Home Batch",
-    "emoji": "🍰",
+    "title": "Carrot Cake \u2013 Home Batch",
+    "emoji": "\ud83c\udf70",
     "category": "Baking",
     "tags": [
       "Baked",
@@ -659,7 +658,7 @@
   {
     "id": "bistro-cheesecake",
     "title": "Cheesecake of the Day",
-    "emoji": "🍰",
+    "emoji": "\ud83c\udf70",
     "category": "Desserts",
     "tags": [
       "Cheese",
@@ -697,7 +696,7 @@
   {
     "id": "tiramisu",
     "title": "Chef-Style Tiramisu Gateau",
-    "emoji": "🍰",
+    "emoji": "\ud83c\udf70",
     "category": "Desserts",
     "tags": [
       "Alcohol",
@@ -749,7 +748,7 @@
   {
     "id": "chickencacciatore",
     "title": "Chicken Cacciatore",
-    "emoji": "�",
+    "emoji": "\ufffd",
     "category": "Dinner",
     "tags": [
       "Alcohol",
@@ -769,7 +768,7 @@
       },
       {
         "id": "lasagne",
-        "title": "Classic Lasagne — Ragù & Béchamel"
+        "title": "Classic Lasagne \u2014 Rag\u00f9 & B\u00e9chamel"
       },
       {
         "id": "bistro-vealscaloppine",
@@ -788,7 +787,7 @@
   {
     "id": "bistro-chickenkiev",
     "title": "Chicken Kiev",
-    "emoji": "🍗",
+    "emoji": "\ud83c\udf57",
     "category": "Dinner",
     "tags": [
       "Alcohol",
@@ -828,7 +827,7 @@
   {
     "id": "bistro-chickenpapion",
     "title": "Chicken Papion",
-    "emoji": "🦪",
+    "emoji": "\ud83e\uddaa",
     "category": "Dinner",
     "tags": [
       "Alcohol",
@@ -868,7 +867,7 @@
   {
     "id": "bistro-chickenpicante",
     "title": "Chicken Picante",
-    "emoji": "🌿",
+    "emoji": "\ud83c\udf3f",
     "category": "Dinner",
     "tags": [
       "Alcohol",
@@ -909,7 +908,7 @@
   {
     "id": "bistro-chickenriverina",
     "title": "Chicken Riverina",
-    "emoji": "🍑",
+    "emoji": "\ud83c\udf51",
     "category": "Dinner",
     "tags": [
       "Australian",
@@ -949,7 +948,7 @@
   {
     "id": "chickenshawarma",
     "title": "Chicken Shawarma",
-    "emoji": "🥙",
+    "emoji": "\ud83e\udd59",
     "category": "Dinner",
     "tags": [
       "Chicken",
@@ -984,7 +983,7 @@
   {
     "id": "chickenteriyaki",
     "title": "Chicken Teriyaki with Marinade",
-    "emoji": "🍗",
+    "emoji": "\ud83c\udf57",
     "category": "Dinner",
     "tags": [
       "Chicken",
@@ -1020,7 +1019,7 @@
   {
     "id": "chickenbaconpies",
     "title": "Chicken, Mushroom & Bacon Pies",
-    "emoji": "�",
+    "emoji": "\ufffd",
     "category": "Dinner",
     "tags": [
       "Baked",
@@ -1058,7 +1057,7 @@
   {
     "id": "chiligarlicopil",
     "title": "Chili Garlic Oil",
-    "emoji": "🧄",
+    "emoji": "\ud83e\uddc4",
     "category": "Sauces",
     "tags": [
       "Chilli",
@@ -1089,7 +1088,7 @@
       },
       {
         "id": "tacoseasoning",
-        "title": "Taco Seasoning — Old El Paso Style (From Scratch)"
+        "title": "Taco Seasoning \u2014 Old El Paso Style (From Scratch)"
       }
     ]
   },
@@ -1136,7 +1135,7 @@
   {
     "id": "chocmuffins",
     "title": "Chocolate Muffins with Ganache",
-    "emoji": "🧁",
+    "emoji": "\ud83e\uddc1",
     "category": "Baking",
     "tags": [
       "Baked",
@@ -1169,14 +1168,14 @@
       },
       {
         "id": "carrotcakehomebatch",
-        "title": "Carrot Cake – Home Batch"
+        "title": "Carrot Cake \u2013 Home Batch"
       }
     ]
   },
   {
     "id": "chocolaterumballs",
     "title": "Chocolate Rum Balls",
-    "emoji": "🍫",
+    "emoji": "\ud83c\udf6b",
     "category": "Dinner",
     "tags": [
       "Alcohol",
@@ -1218,7 +1217,7 @@
   {
     "id": "chouxpastry",
     "title": "Choux Pastry (Profiteroles)",
-    "emoji": "🥐",
+    "emoji": "\ud83e\udd50",
     "category": "Dinner",
     "tags": [
       "Classic",
@@ -1258,7 +1257,7 @@
   {
     "id": "cinntwists",
     "title": "Cinnamon Twists",
-    "emoji": "🥨",
+    "emoji": "\ud83e\udd68",
     "category": "Desserts",
     "tags": [
       "Baked",
@@ -1299,7 +1298,7 @@
   {
     "id": "meatpie",
     "title": "Classic Aussie Meat Pies",
-    "emoji": "🥧",
+    "emoji": "\ud83e\udd67",
     "category": "Dinner",
     "tags": [
       "Australian",
@@ -1337,7 +1336,7 @@
   {
     "id": "sausageroll",
     "title": "Classic Aussie Sausage Rolls",
-    "emoji": "🥖",
+    "emoji": "\ud83e\udd56",
     "category": "Dinner",
     "tags": [
       "Australian",
@@ -1376,7 +1375,7 @@
   {
     "id": "carrotcake",
     "title": "Classic Carrot Cake",
-    "emoji": "🥕",
+    "emoji": "\ud83e\udd55",
     "category": "Baking",
     "tags": [
       "Baked",
@@ -1395,7 +1394,7 @@
       },
       {
         "id": "carrotcakehomebatch",
-        "title": "Carrot Cake – Home Batch"
+        "title": "Carrot Cake \u2013 Home Batch"
       },
       {
         "id": "sub",
@@ -1414,7 +1413,7 @@
   {
     "id": "lamington",
     "title": "Classic Lamingtons",
-    "emoji": "🧁",
+    "emoji": "\ud83e\uddc1",
     "category": "Dinner",
     "tags": [
       "Australian",
@@ -1455,8 +1454,8 @@
   },
   {
     "id": "lasagne",
-    "title": "Classic Lasagne — Ragù & Béchamel",
-    "emoji": "🍝",
+    "title": "Classic Lasagne \u2014 Rag\u00f9 & B\u00e9chamel",
+    "emoji": "\ud83c\udf5d",
     "category": "Dinner",
     "tags": [
       "Baked",
@@ -1496,7 +1495,7 @@
   {
     "id": "crepes",
     "title": "Crepes with Maple Syrup & Butter",
-    "emoji": "🥞",
+    "emoji": "\ud83e\udd5e",
     "category": "Dinner",
     "tags": [
       "Breakfast",
@@ -1536,7 +1535,7 @@
   {
     "id": "darkrye",
     "title": "Dark Rye Bread",
-    "emoji": "🍞",
+    "emoji": "\ud83c\udf5e",
     "category": "Baking",
     "tags": [
       "Bread",
@@ -1572,7 +1571,7 @@
   {
     "id": "chocchipcookies",
     "title": "Double Chocolate Chip Cookies",
-    "emoji": "🍪",
+    "emoji": "\ud83c\udf6a",
     "category": "Baking",
     "tags": [
       "Chocolate",
@@ -1611,7 +1610,7 @@
   {
     "id": "bistro-filetmignon",
     "title": "Filet Mignon",
-    "emoji": "🥩",
+    "emoji": "\ud83e\udd69",
     "category": "Dinner",
     "tags": [
       "Beef",
@@ -1650,7 +1649,7 @@
   {
     "id": "filipinoportoccino",
     "title": "Filipino Pork Toccino",
-    "emoji": "🥓",
+    "emoji": "\ud83e\udd53",
     "category": "Dinner",
     "tags": [
       "Breakfast",
@@ -1687,7 +1686,7 @@
   {
     "id": "bistro-fishoftheday",
     "title": "Fish of the Day",
-    "emoji": "🐟",
+    "emoji": "\ud83d\udc1f",
     "category": "Dinner",
     "tags": [
       "Alcohol",
@@ -1729,7 +1728,7 @@
   {
     "id": "focaccia",
     "title": "Focaccia",
-    "emoji": "🍞",
+    "emoji": "\ud83c\udf5e",
     "category": "Baking",
     "tags": [
       "Bread",
@@ -1767,7 +1766,7 @@
   {
     "id": "garlicbread",
     "title": "Garlic Butter Crusty Bread",
-    "emoji": "🧄",
+    "emoji": "\ud83e\uddc4",
     "category": "Baking",
     "tags": [
       "Baked",
@@ -1809,7 +1808,7 @@
   {
     "id": "hamburger",
     "title": "Hamburger Buns",
-    "emoji": "🍔",
+    "emoji": "\ud83c\udf54",
     "category": "Baking",
     "tags": [
       "American",
@@ -1847,7 +1846,7 @@
   {
     "id": "blueberrymuffins",
     "title": "Heavenly Blueberry Muffins",
-    "emoji": "🫐",
+    "emoji": "\ud83e\uded0",
     "category": "Baking",
     "tags": [
       "Baked",
@@ -1870,7 +1869,7 @@
       },
       {
         "id": "carrotcakehomebatch",
-        "title": "Carrot Cake – Home Batch"
+        "title": "Carrot Cake \u2013 Home Batch"
       },
       {
         "id": "applecinnscrolls",
@@ -1885,7 +1884,7 @@
   {
     "id": "focaccia-high",
     "title": "High-Hydration Focaccia",
-    "emoji": "🍞",
+    "emoji": "\ud83c\udf5e",
     "category": "Baking",
     "tags": [
       "Bread",
@@ -1922,7 +1921,7 @@
   {
     "id": "kormapaste",
     "title": "Homemade Korma Paste",
-    "emoji": "🌿",
+    "emoji": "\ud83c\udf3f",
     "category": "Dinner",
     "tags": [
       "Coconut",
@@ -1959,7 +1958,7 @@
   {
     "id": "sub",
     "title": "Homemade Sub Buns",
-    "emoji": "🥖",
+    "emoji": "\ud83e\udd56",
     "category": "Baking",
     "tags": [
       "Baked",
@@ -1998,7 +1997,7 @@
   {
     "id": "honeygarlicsauce",
     "title": "Honey Garlic Sauce",
-    "emoji": "🍯",
+    "emoji": "\ud83c\udf6f",
     "category": "Sauces",
     "tags": [
       "Garlic",
@@ -2015,7 +2014,7 @@
       },
       {
         "id": "tacoseasoning",
-        "title": "Taco Seasoning — Old El Paso Style (From Scratch)"
+        "title": "Taco Seasoning \u2014 Old El Paso Style (From Scratch)"
       },
       {
         "id": "marinarasauce",
@@ -2033,8 +2032,8 @@
   },
   {
     "id": "hummingbird",
-    "title": "Hummingbird Cake — Cafe Style",
-    "emoji": "🕊️",
+    "title": "Hummingbird Cake \u2014 Cafe Style",
+    "emoji": "\ud83d\udd4a\ufe0f",
     "category": "Dinner",
     "tags": [
       "Banana",
@@ -2050,11 +2049,11 @@
     "related": [
       {
         "id": "orangepoppyseed",
-        "title": "Orange & Poppy Seed Cake — Double Batch"
+        "title": "Orange & Poppy Seed Cake \u2014 Double Batch"
       },
       {
         "id": "lasagne",
-        "title": "Classic Lasagne — Ragù & Béchamel"
+        "title": "Classic Lasagne \u2014 Rag\u00f9 & B\u00e9chamel"
       },
       {
         "id": "bistro-reefandbeef",
@@ -2073,7 +2072,7 @@
   {
     "id": "bistro-lambcutlets",
     "title": "Lamb Cutlets",
-    "emoji": "🥩",
+    "emoji": "\ud83e\udd69",
     "category": "Dinner",
     "tags": [
       "Alcohol",
@@ -2111,7 +2110,7 @@
   {
     "id": "lambkorma",
     "title": "Lamb Korma",
-    "emoji": "🍛",
+    "emoji": "\ud83c\udf5b",
     "category": "Dinner",
     "tags": [
       "Creamy",
@@ -2129,7 +2128,7 @@
       },
       {
         "id": "roganjosh",
-        "title": "Lamb Rogan Josh – Restaurant Style"
+        "title": "Lamb Rogan Josh \u2013 Restaurant Style"
       },
       {
         "id": "butterchicken",
@@ -2147,8 +2146,8 @@
   },
   {
     "id": "roganjosh",
-    "title": "Lamb Rogan Josh – Restaurant Style",
-    "emoji": "🍛",
+    "title": "Lamb Rogan Josh \u2013 Restaurant Style",
+    "emoji": "\ud83c\udf5b",
     "category": "Dinner",
     "tags": [
       "Curry",
@@ -2186,7 +2185,7 @@
   {
     "id": "lambvindaloo",
     "title": "Lamb Vindaloo",
-    "emoji": "🔥",
+    "emoji": "\ud83d\udd25",
     "category": "Dinner",
     "tags": [
       "Curry",
@@ -2202,7 +2201,7 @@
     "related": [
       {
         "id": "roganjosh",
-        "title": "Lamb Rogan Josh – Restaurant Style"
+        "title": "Lamb Rogan Josh \u2013 Restaurant Style"
       },
       {
         "id": "beefvindaloo",
@@ -2225,7 +2224,7 @@
   {
     "id": "lemoncoconut",
     "title": "Lemon Coconut Cake",
-    "emoji": "🍋",
+    "emoji": "\ud83c\udf4b",
     "category": "Dinner",
     "tags": [
       "Coconut",
@@ -2265,7 +2264,7 @@
   {
     "id": "bistro-lemonmeringuepie",
     "title": "Lemon Meringue Pie",
-    "emoji": "🍋",
+    "emoji": "\ud83c\udf4b",
     "category": "Desserts",
     "tags": [
       "Classic",
@@ -2304,7 +2303,7 @@
   {
     "id": "lemonmeringuepie",
     "title": "Lemon Meringue Pie",
-    "emoji": "🍋",
+    "emoji": "\ud83c\udf4b",
     "category": "Desserts",
     "tags": [
       "Baked",
@@ -2344,7 +2343,7 @@
   {
     "id": "marinarasauce",
     "title": "Marinara Sauce",
-    "emoji": "🍝",
+    "emoji": "\ud83c\udf5d",
     "category": "Sauces",
     "tags": [
       "Classic",
@@ -2374,14 +2373,14 @@
       },
       {
         "id": "whitesauce",
-        "title": "White Sauce (Béchamel)"
+        "title": "White Sauce (B\u00e9chamel)"
       }
     ]
   },
   {
     "id": "bistro-mediterraneansteak",
     "title": "Mediterranean Steak",
-    "emoji": "🦐",
+    "emoji": "\ud83e\udd90",
     "category": "Dinner",
     "tags": [
       "Alcohol",
@@ -2422,7 +2421,7 @@
   {
     "id": "mongolianbeef",
     "title": "Mongolian Beef Stir-Fry",
-    "emoji": "🥢",
+    "emoji": "\ud83e\udd62",
     "category": "Dinner",
     "tags": [
       "Alcohol",
@@ -2460,7 +2459,7 @@
   {
     "id": "mongolianlamb",
     "title": "Mongolian Lamb",
-    "emoji": "🥢",
+    "emoji": "\ud83e\udd62",
     "category": "Dinner",
     "tags": [
       "Alcohol",
@@ -2497,7 +2496,7 @@
   {
     "id": "mongoliansauce",
     "title": "Mongolian Stir-Fry Sauce",
-    "emoji": "🐂",
+    "emoji": "\ud83d\udc02",
     "category": "Dinner",
     "tags": [
       "Alcohol",
@@ -2537,7 +2536,7 @@
   {
     "id": "mornaysauce",
     "title": "Mornay / Cheese Sauce",
-    "emoji": "🧀",
+    "emoji": "\ud83e\uddc0",
     "category": "Sauces",
     "tags": [
       "Cheese",
@@ -2552,7 +2551,7 @@
     "related": [
       {
         "id": "whitesauce",
-        "title": "White Sauce (Béchamel)"
+        "title": "White Sauce (B\u00e9chamel)"
       },
       {
         "id": "alfredosauce",
@@ -2575,7 +2574,7 @@
   {
     "id": "bistro-mudcake",
     "title": "Mud Cake",
-    "emoji": "🍫",
+    "emoji": "\ud83c\udf6b",
     "category": "Desserts",
     "tags": [
       "Australian",
@@ -2614,7 +2613,7 @@
   {
     "id": "mushroomcups",
     "title": "Mushrooms with Herb Nut Butter",
-    "emoji": "🍄",
+    "emoji": "\ud83c\udf44",
     "category": "Dinner",
     "tags": [
       "Baked",
@@ -2628,7 +2627,7 @@
     "related": [
       {
         "id": "hotdog",
-        "title": "Wendy’s-Style Hot Dog Buns"
+        "title": "Wendy\u2019s-Style Hot Dog Buns"
       },
       {
         "id": "tomatoflan",
@@ -2636,7 +2635,7 @@
       },
       {
         "id": "lasagne",
-        "title": "Classic Lasagne — Ragù & Béchamel"
+        "title": "Classic Lasagne \u2014 Rag\u00f9 & B\u00e9chamel"
       },
       {
         "id": "bistro-vealmozzarella",
@@ -2650,8 +2649,8 @@
   },
   {
     "id": "orangepoppyseed",
-    "title": "Orange & Poppy Seed Cake — Double Batch",
-    "emoji": "🍊",
+    "title": "Orange & Poppy Seed Cake \u2014 Double Batch",
+    "emoji": "\ud83c\udf4a",
     "category": "Dinner",
     "tags": [
       "Cheese",
@@ -2667,7 +2666,7 @@
     "related": [
       {
         "id": "hummingbird",
-        "title": "Hummingbird Cake — Cafe Style"
+        "title": "Hummingbird Cake \u2014 Cafe Style"
       },
       {
         "id": "friandsop",
@@ -2675,7 +2674,7 @@
       },
       {
         "id": "lasagne",
-        "title": "Classic Lasagne — Ragù & Béchamel"
+        "title": "Classic Lasagne \u2014 Rag\u00f9 & B\u00e9chamel"
       },
       {
         "id": "bistro-reefandbeef",
@@ -2690,7 +2689,7 @@
   {
     "id": "friandsop",
     "title": "Orange & Poppyseed Friands",
-    "emoji": "🌞",
+    "emoji": "\ud83c\udf1e",
     "category": "Dinner",
     "tags": [
       "Dessert",
@@ -2705,7 +2704,7 @@
     "related": [
       {
         "id": "orangepoppyseed",
-        "title": "Orange & Poppy Seed Cake — Double Batch"
+        "title": "Orange & Poppy Seed Cake \u2014 Double Batch"
       },
       {
         "id": "bistro-orangethaichicken",
@@ -2728,7 +2727,7 @@
   {
     "id": "bistro-orangethaichicken",
     "title": "Orange Thai Chicken",
-    "emoji": "🍊",
+    "emoji": "\ud83c\udf4a",
     "category": "Dinner",
     "tags": [
       "Chicken",
@@ -2768,7 +2767,7 @@
   {
     "id": "filipinonoodles",
     "title": "Pancit (Filipino Stir-Fried Noodles)",
-    "emoji": "🍜",
+    "emoji": "\ud83c\udf5c",
     "category": "Dinner",
     "tags": [
       "Chicken",
@@ -2806,7 +2805,7 @@
   {
     "id": "bistro-pavlova",
     "title": "Pavlova",
-    "emoji": "🍓",
+    "emoji": "\ud83c\udf53",
     "category": "Desserts",
     "tags": [
       "Australian",
@@ -2844,7 +2843,7 @@
   {
     "id": "pestosauce",
     "title": "Pesto Sauce",
-    "emoji": "🌿",
+    "emoji": "\ud83c\udf3f",
     "category": "Sauces",
     "tags": [
       "Cheese",
@@ -2879,7 +2878,7 @@
   {
     "id": "plain-cheesecake",
     "title": "Plain Cheesecake (Classic No Bake)",
-    "emoji": "🧁",
+    "emoji": "\ud83e\uddc1",
     "category": "Desserts",
     "tags": [
       "Baked",
@@ -2919,7 +2918,7 @@
   {
     "id": "potatognocchi",
     "title": "Potato Gnocchi with Tomato Sauce",
-    "emoji": "🥔",
+    "emoji": "\ud83e\udd54",
     "category": "Dinner",
     "tags": [
       "Alcohol",
@@ -2935,7 +2934,7 @@
     "related": [
       {
         "id": "lasagne",
-        "title": "Classic Lasagne — Ragù & Béchamel"
+        "title": "Classic Lasagne \u2014 Rag\u00f9 & B\u00e9chamel"
       },
       {
         "id": "chickencacciatore",
@@ -2958,7 +2957,7 @@
   {
     "id": "bistro-profiteroles",
     "title": "Profiteroles",
-    "emoji": "🍮",
+    "emoji": "\ud83c\udf6e",
     "category": "Desserts",
     "tags": [
       "Baked",
@@ -3000,7 +2999,7 @@
   {
     "id": "puffpastry",
     "title": "Puff Pastry Methods",
-    "emoji": "🥐",
+    "emoji": "\ud83e\udd50",
     "category": "Baking",
     "tags": [
       "Classic",
@@ -3034,7 +3033,7 @@
   {
     "id": "bistro-rackoflamb",
     "title": "Rack of Lamb",
-    "emoji": "🍖",
+    "emoji": "\ud83c\udf56",
     "category": "Dinner",
     "tags": [
       "Alcohol",
@@ -3071,7 +3070,7 @@
   {
     "id": "redsauce",
     "title": "Red Sauce",
-    "emoji": "🍅",
+    "emoji": "\ud83c\udf45",
     "category": "Sauces",
     "tags": [
       "Classic",
@@ -3101,14 +3100,14 @@
       },
       {
         "id": "whitesauce",
-        "title": "White Sauce (Béchamel)"
+        "title": "White Sauce (B\u00e9chamel)"
       }
     ]
   },
   {
     "id": "bistro-reefandbeef",
     "title": "Reef and Beef",
-    "emoji": "🌊",
+    "emoji": "\ud83c\udf0a",
     "category": "Dinner",
     "tags": [
       "Australian",
@@ -3149,14 +3148,13 @@
   {
     "id": "butterchicken",
     "title": "Restaurant-Style Butter Chicken",
-    "emoji": "�",
+    "emoji": "\ufffd",
     "category": "Dinner",
     "tags": [
       "Chicken",
       "Creamy",
       "Curry",
       "Dinner",
-      "Greek",
       "Indian",
       "Rich",
       "Savoury",
@@ -3177,7 +3175,7 @@
       },
       {
         "id": "roganjosh",
-        "title": "Lamb Rogan Josh – Restaurant Style"
+        "title": "Lamb Rogan Josh \u2013 Restaurant Style"
       },
       {
         "id": "vindaloopaste",
@@ -3188,7 +3186,7 @@
   {
     "id": "sataysauce",
     "title": "Satay Sauce",
-    "emoji": "🥜",
+    "emoji": "\ud83e\udd5c",
     "category": "Dinner",
     "tags": [
       "Coconut",
@@ -3220,14 +3218,14 @@
       },
       {
         "id": "roganjosh",
-        "title": "Lamb Rogan Josh – Restaurant Style"
+        "title": "Lamb Rogan Josh \u2013 Restaurant Style"
       }
     ]
   },
   {
     "id": "nachomince",
-    "title": "Seasoned Beef Mince — Nachos & Tacos",
-    "emoji": "🫔",
+    "title": "Seasoned Beef Mince \u2014 Nachos & Tacos",
+    "emoji": "\ud83e\uded4",
     "category": "Dinner",
     "tags": [
       "Beef",
@@ -3249,7 +3247,7 @@
       },
       {
         "id": "lasagne",
-        "title": "Classic Lasagne — Ragù & Béchamel"
+        "title": "Classic Lasagne \u2014 Rag\u00f9 & B\u00e9chamel"
       },
       {
         "id": "bistro-mediterraneansteak",
@@ -3264,7 +3262,7 @@
   {
     "id": "sourdoughcinnrolls",
     "title": "Soft Sourdough Cinnamon Rolls",
-    "emoji": "🥐",
+    "emoji": "\ud83e\udd50",
     "category": "Desserts",
     "tags": [
       "Bread",
@@ -3305,7 +3303,7 @@
   {
     "id": "swbtm",
     "title": "Soft White Bread (Tangzhong Method)",
-    "emoji": "🍞",
+    "emoji": "\ud83c\udf5e",
     "category": "Baking",
     "tags": [
       "Bread",
@@ -3341,7 +3339,7 @@
   {
     "id": "bistro-steakboston",
     "title": "Steak Boston",
-    "emoji": "🌶️",
+    "emoji": "\ud83c\udf36\ufe0f",
     "category": "Dinner",
     "tags": [
       "Alcohol",
@@ -3379,7 +3377,7 @@
   {
     "id": "stickydates",
     "title": "Sticky Date Pudding with Caramel Sauce",
-    "emoji": "🍮",
+    "emoji": "\ud83c\udf6e",
     "category": "Desserts",
     "tags": [
       "Alcohol",
@@ -3417,7 +3415,7 @@
   {
     "id": "roulade",
     "title": "Strawberry Meringue Roulade",
-    "emoji": "🍓",
+    "emoji": "\ud83c\udf53",
     "category": "Dinner",
     "tags": [
       "Australian",
@@ -3455,8 +3453,8 @@
   },
   {
     "id": "sweetsoursauce_flex",
-    "title": "Sweet & Sour Sauce – Home Chef Flex",
-    "emoji": "🍍",
+    "title": "Sweet & Sour Sauce \u2013 Home Chef Flex",
+    "emoji": "\ud83c\udf4d",
     "category": "Sauces",
     "tags": [
       "Chinese",
@@ -3470,7 +3468,7 @@
     "related": [
       {
         "id": "sweetsoursauce_quick",
-        "title": "Sweet & Sour Sauce – Quick Takeout Style"
+        "title": "Sweet & Sour Sauce \u2013 Quick Takeout Style"
       },
       {
         "id": "teriyakisauce",
@@ -3486,14 +3484,14 @@
       },
       {
         "id": "tacoseasoning",
-        "title": "Taco Seasoning — Old El Paso Style (From Scratch)"
+        "title": "Taco Seasoning \u2014 Old El Paso Style (From Scratch)"
       }
     ]
   },
   {
     "id": "sweetsoursauce_quick",
-    "title": "Sweet & Sour Sauce – Quick Takeout Style",
-    "emoji": "🍍",
+    "title": "Sweet & Sour Sauce \u2013 Quick Takeout Style",
+    "emoji": "\ud83c\udf4d",
     "category": "Sauces",
     "tags": [
       "Chinese",
@@ -3506,7 +3504,7 @@
     "related": [
       {
         "id": "sweetsoursauce_flex",
-        "title": "Sweet & Sour Sauce – Home Chef Flex"
+        "title": "Sweet & Sour Sauce \u2013 Home Chef Flex"
       },
       {
         "id": "teriyakisauce",
@@ -3522,14 +3520,14 @@
       },
       {
         "id": "tacoseasoning",
-        "title": "Taco Seasoning — Old El Paso Style (From Scratch)"
+        "title": "Taco Seasoning \u2014 Old El Paso Style (From Scratch)"
       }
     ]
   },
   {
     "id": "sweetspicyorangesauce",
     "title": "Sweet & Spicy Orange Sauce",
-    "emoji": "🍊",
+    "emoji": "\ud83c\udf4a",
     "category": "Sauces",
     "tags": [
       "Orange",
@@ -3546,7 +3544,7 @@
       },
       {
         "id": "sweetsoursauce_quick",
-        "title": "Sweet & Sour Sauce – Quick Takeout Style"
+        "title": "Sweet & Sour Sauce \u2013 Quick Takeout Style"
       },
       {
         "id": "teriyakisauce",
@@ -3554,7 +3552,7 @@
       },
       {
         "id": "sweetsoursauce_flex",
-        "title": "Sweet & Sour Sauce – Home Chef Flex"
+        "title": "Sweet & Sour Sauce \u2013 Home Chef Flex"
       },
       {
         "id": "chiligarlicopil",
@@ -3565,7 +3563,7 @@
   {
     "id": "sweetchilisauce",
     "title": "Sweet Chili Sauce",
-    "emoji": "🌶️",
+    "emoji": "\ud83c\udf36\ufe0f",
     "category": "Sauces",
     "tags": [
       "Condiment",
@@ -3591,18 +3589,18 @@
       },
       {
         "id": "sweetsoursauce_flex",
-        "title": "Sweet & Sour Sauce – Home Chef Flex"
+        "title": "Sweet & Sour Sauce \u2013 Home Chef Flex"
       },
       {
         "id": "sweetsoursauce_quick",
-        "title": "Sweet & Sour Sauce – Quick Takeout Style"
+        "title": "Sweet & Sour Sauce \u2013 Quick Takeout Style"
       }
     ]
   },
   {
     "id": "tacoseasoning",
-    "title": "Taco Seasoning — Old El Paso Style (From Scratch)",
-    "emoji": "🌶️",
+    "title": "Taco Seasoning \u2014 Old El Paso Style (From Scratch)",
+    "emoji": "\ud83c\udf36\ufe0f",
     "category": "Sauces",
     "tags": [
       "Make Ahead",
@@ -3618,7 +3616,7 @@
       },
       {
         "id": "sweetsoursauce_flex",
-        "title": "Sweet & Sour Sauce – Home Chef Flex"
+        "title": "Sweet & Sour Sauce \u2013 Home Chef Flex"
       },
       {
         "id": "chiligarlicopil",
@@ -3630,14 +3628,14 @@
       },
       {
         "id": "sweetsoursauce_quick",
-        "title": "Sweet & Sour Sauce – Quick Takeout Style"
+        "title": "Sweet & Sour Sauce \u2013 Quick Takeout Style"
       }
     ]
   },
   {
     "id": "tangzhongseed",
     "title": "Tangzhong Grain & Seed Bread",
-    "emoji": "🍞",
+    "emoji": "\ud83c\udf5e",
     "category": "Baking",
     "tags": [
       "Bread",
@@ -3672,7 +3670,7 @@
   {
     "id": "swbtm2",
     "title": "Tangzhong Pull-Apart Loaf",
-    "emoji": "🍞",
+    "emoji": "\ud83c\udf5e",
     "category": "Dinner",
     "tags": [
       "Bread",
@@ -3692,7 +3690,7 @@
       },
       {
         "id": "hotdog",
-        "title": "Wendy’s-Style Hot Dog Buns"
+        "title": "Wendy\u2019s-Style Hot Dog Buns"
       },
       {
         "id": "highhydraciab",
@@ -3704,14 +3702,14 @@
       },
       {
         "id": "hummingbird",
-        "title": "Hummingbird Cake — Cafe Style"
+        "title": "Hummingbird Cake \u2014 Cafe Style"
       }
     ]
   },
   {
     "id": "teriyakimarinade",
     "title": "Teriyaki Marinade",
-    "emoji": "🍖",
+    "emoji": "\ud83c\udf56",
     "category": "Dinner",
     "tags": [
       "Dinner",
@@ -3748,7 +3746,7 @@
   {
     "id": "teriyakisauce",
     "title": "Teriyaki Sauce",
-    "emoji": "🥢",
+    "emoji": "\ud83e\udd62",
     "category": "Sauces",
     "tags": [
       "Japanese",
@@ -3761,7 +3759,7 @@
     "related": [
       {
         "id": "sweetsoursauce_flex",
-        "title": "Sweet & Sour Sauce – Home Chef Flex"
+        "title": "Sweet & Sour Sauce \u2013 Home Chef Flex"
       },
       {
         "id": "sweetchilisauce",
@@ -3769,7 +3767,7 @@
       },
       {
         "id": "sweetsoursauce_quick",
-        "title": "Sweet & Sour Sauce – Quick Takeout Style"
+        "title": "Sweet & Sour Sauce \u2013 Quick Takeout Style"
       },
       {
         "id": "sweetspicyorangesauce",
@@ -3777,14 +3775,14 @@
       },
       {
         "id": "tacoseasoning",
-        "title": "Taco Seasoning — Old El Paso Style (From Scratch)"
+        "title": "Taco Seasoning \u2014 Old El Paso Style (From Scratch)"
       }
     ]
   },
   {
     "id": "bistro-thaichicken",
     "title": "Thai Chicken",
-    "emoji": "🌶️",
+    "emoji": "\ud83c\udf36\ufe0f",
     "category": "Dinner",
     "tags": [
       "Chicken",
@@ -3825,7 +3823,7 @@
   {
     "id": "chocolatemudcake",
     "title": "The Ultimate Chocolate Mud Cake",
-    "emoji": "🍫",
+    "emoji": "\ud83c\udf6b",
     "category": "Desserts",
     "tags": [
       "Baked",
@@ -3865,7 +3863,7 @@
   {
     "id": "tomatoflan",
     "title": "Tomato and Olive Flan",
-    "emoji": "🍅",
+    "emoji": "\ud83c\udf45",
     "category": "Dinner",
     "tags": [
       "Baked",
@@ -3905,7 +3903,7 @@
   {
     "id": "anzacbiscuits",
     "title": "Traditional ANZAC Biscuits",
-    "emoji": "🍪",
+    "emoji": "\ud83c\udf6a",
     "category": "Baking",
     "tags": [
       "Australian",
@@ -3942,7 +3940,7 @@
   {
     "id": "traditionalanzacbiscuits",
     "title": "Traditional ANZAC Biscuits",
-    "emoji": "🍪",
+    "emoji": "\ud83c\udf6a",
     "category": "Baking",
     "tags": [
       "Australian",
@@ -3996,7 +3994,7 @@
   {
     "id": "turkishbread",
     "title": "Traditional Turkish Bread",
-    "emoji": "🥖",
+    "emoji": "\ud83e\udd56",
     "category": "Baking",
     "tags": [
       "Bread",
@@ -4034,7 +4032,7 @@
   {
     "id": "chocolatecake",
     "title": "Ultimate Chocolate Cake",
-    "emoji": "🍫",
+    "emoji": "\ud83c\udf6b",
     "category": "Desserts",
     "tags": [
       "Baked",
@@ -4074,7 +4072,7 @@
   {
     "id": "pizzadough",
     "title": "Ultimate Homemade Pizza Dough",
-    "emoji": "🍕",
+    "emoji": "\ud83c\udf55",
     "category": "Baking",
     "tags": [
       "Bread",
@@ -4111,7 +4109,7 @@
   {
     "id": "bistro-vealcordonbleu",
     "title": "Veal Cordon Bleu",
-    "emoji": "🧀",
+    "emoji": "\ud83e\uddc0",
     "category": "Dinner",
     "tags": [
       "Alcohol",
@@ -4150,7 +4148,7 @@
   {
     "id": "bistro-vealmadagascar",
     "title": "Veal Madagascar",
-    "emoji": "🫑",
+    "emoji": "\ud83e\uded1",
     "category": "Dinner",
     "tags": [
       "Classic",
@@ -4188,7 +4186,7 @@
   {
     "id": "bistro-vealmozzarella",
     "title": "Veal Mozzarella",
-    "emoji": "🫓",
+    "emoji": "\ud83e\uded3",
     "category": "Dinner",
     "tags": [
       "Baked",
@@ -4202,7 +4200,7 @@
     "related": [
       {
         "id": "lasagne",
-        "title": "Classic Lasagne — Ragù & Béchamel"
+        "title": "Classic Lasagne \u2014 Rag\u00f9 & B\u00e9chamel"
       },
       {
         "id": "tomatoflan",
@@ -4225,7 +4223,7 @@
   {
     "id": "bistro-vealoscar",
     "title": "Veal Oscar",
-    "emoji": "🌿",
+    "emoji": "\ud83c\udf3f",
     "category": "Dinner",
     "tags": [
       "Cheese",
@@ -4264,7 +4262,7 @@
   {
     "id": "bistro-vealscaloppine",
     "title": "Veal Scaloppine",
-    "emoji": "🍄",
+    "emoji": "\ud83c\udf44",
     "category": "Dinner",
     "tags": [
       "Classic",
@@ -4280,7 +4278,7 @@
     "related": [
       {
         "id": "lasagne",
-        "title": "Classic Lasagne — Ragù & Béchamel"
+        "title": "Classic Lasagne \u2014 Rag\u00f9 & B\u00e9chamel"
       },
       {
         "id": "potatognocchi",
@@ -4303,12 +4301,11 @@
   {
     "id": "vindaloopaste",
     "title": "Vindaloo Paste",
-    "emoji": "🌶️",
+    "emoji": "\ud83c\udf36\ufe0f",
     "category": "Dinner",
     "tags": [
       "Dinner",
       "Gluten-Free",
-      "Greek",
       "Indian",
       "Make Ahead",
       "Savoury",
@@ -4340,8 +4337,8 @@
   },
   {
     "id": "hotdog",
-    "title": "Wendy’s-Style Hot Dog Buns",
-    "emoji": "🌭",
+    "title": "Wendy\u2019s-Style Hot Dog Buns",
+    "emoji": "\ud83c\udf2d",
     "category": "Dinner",
     "tags": [
       "American",
@@ -4366,7 +4363,7 @@
       },
       {
         "id": "lasagne",
-        "title": "Classic Lasagne — Ragù & Béchamel"
+        "title": "Classic Lasagne \u2014 Rag\u00f9 & B\u00e9chamel"
       },
       {
         "id": "mushroomcups",
@@ -4380,8 +4377,8 @@
   },
   {
     "id": "whitesauce",
-    "title": "White Sauce (Béchamel)",
-    "emoji": "🥛",
+    "title": "White Sauce (B\u00e9chamel)",
+    "emoji": "\ud83e\udd5b",
     "category": "Sauces",
     "tags": [
       "Classic",
@@ -4412,6 +4409,145 @@
       {
         "id": "pestosauce",
         "title": "Pesto Sauce"
+      }
+    ]
+  },
+  {
+    "id": "porkcaldereta",
+    "title": "Pork Caldereta",
+    "category": "Dinner",
+    "tags": [
+      "Comfort Food",
+      "Dinner",
+      "Filipino",
+      "Gluten-Free",
+      "Pork",
+      "Rich",
+      "Savoury",
+      "Spicy",
+      "Stew"
+    ],
+    "related": [
+      {
+        "id": "filipinonoodles",
+        "title": "Pancit (Filipino Stir-Fried Noodles)"
+      },
+      {
+        "id": "pancitbihon",
+        "title": "Pancit Bihon"
+      },
+      {
+        "id": "pancitcanton",
+        "title": "Pancit Canton"
+      },
+      {
+        "id": "bulalo",
+        "title": "Original Bulalo"
+      },
+      {
+        "id": "filipinoportoccino",
+        "title": "Filipino Pork Toccino"
+      }
+    ],
+    "emoji": "\ud83c\udf56"
+  },
+  {
+    "id": "bulalo",
+    "title": "Original Bulalo",
+    "category": "Dinner",
+    "tags": [
+      "Beef",
+      "Broth",
+      "Comfort Food",
+      "Dairy-Free",
+      "Dinner",
+      "Filipino",
+      "Gluten-Free",
+      "Slow Cook",
+      "Soup"
+    ],
+    "related": [
+      {
+        "id": "porkcaldereta",
+        "title": "Pork Caldereta"
+      },
+      {
+        "id": "filipinonoodles",
+        "title": "Pancit (Filipino Stir-Fried Noodles)"
+      },
+      {
+        "id": "pancitbihon",
+        "title": "Pancit Bihon"
+      },
+      {
+        "id": "filipinoportoccino",
+        "title": "Filipino Pork Toccino"
+      }
+    ]
+  },
+  {
+    "id": "pancitbihon",
+    "title": "Pancit Bihon",
+    "category": "Dinner",
+    "tags": [
+      "Chicken",
+      "Dairy-Free",
+      "Dinner",
+      "Filipino",
+      "Noodles",
+      "Pork",
+      "Savoury",
+      "Stir-Fried"
+    ],
+    "related": [
+      {
+        "id": "pancitcanton",
+        "title": "Pancit Canton"
+      },
+      {
+        "id": "filipinonoodles",
+        "title": "Pancit (Filipino Stir-Fried Noodles)"
+      },
+      {
+        "id": "porkcaldereta",
+        "title": "Pork Caldereta"
+      },
+      {
+        "id": "bulalo",
+        "title": "Original Bulalo"
+      }
+    ]
+  },
+  {
+    "id": "pancitcanton",
+    "title": "Pancit Canton",
+    "category": "Dinner",
+    "tags": [
+      "Dairy-Free",
+      "Dinner",
+      "Filipino",
+      "Noodles",
+      "Pork",
+      "Savoury",
+      "Shrimp",
+      "Stir-Fried"
+    ],
+    "related": [
+      {
+        "id": "pancitbihon",
+        "title": "Pancit Bihon"
+      },
+      {
+        "id": "filipinonoodles",
+        "title": "Pancit (Filipino Stir-Fried Noodles)"
+      },
+      {
+        "id": "porkcaldereta",
+        "title": "Pork Caldereta"
+      },
+      {
+        "id": "bulalo",
+        "title": "Original Bulalo"
       }
     ]
   }

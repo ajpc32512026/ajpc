@@ -36,44 +36,44 @@
       "ingredientKey": "Flour"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "30",
+      "unit": "g",
       "item": "Nutella",
       "ingredientKey": "Nutella"
     },
     {
-      "quantity": "",
+      "quantity": "1",
       "unit": "",
       "item": "Banana",
       "ingredientKey": "Banana"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "100",
+      "unit": "g",
       "item": "Strawberries",
       "ingredientKey": "Strawberries"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "15",
+      "unit": "ml",
       "item": "Honey",
       "ingredientKey": "Honey"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "30",
+      "unit": "ml",
       "item": "Golden Syrup",
       "ingredientKey": "Golden Syrup"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "60",
+      "unit": "ml",
       "item": "Cream",
       "ingredientKey": "Cream"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "30",
+      "unit": "ml",
       "item": "Maple Syrup",
       "ingredientKey": "Maple Syrup"
     }

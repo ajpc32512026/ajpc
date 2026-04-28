@@ -27,61 +27,61 @@
       "ingredientKey": "Beef, Scotch Fillet"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "5",
+      "unit": "g",
       "item": "Paprika",
       "ingredientKey": "Paprika"
     },
     {
-      "quantity": "",
+      "quantity": "1",
       "unit": "",
       "item": "Red Chili",
       "ingredientKey": "Red Chili"
     },
     {
-      "quantity": "",
+      "quantity": "4",
       "unit": "",
       "item": "Garlic",
       "ingredientKey": "Garlic"
     },
     {
-      "quantity": "",
+      "quantity": "1",
       "unit": "",
       "item": "Onion",
       "ingredientKey": "Onion"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "2",
+      "unit": "g",
       "item": "Oregano",
       "ingredientKey": "Oregano"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "2",
+      "unit": "g",
       "item": "Thyme",
       "ingredientKey": "Thyme"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "60",
+      "unit": "ml",
       "item": "Wine",
       "ingredientKey": "Wine"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "30",
+      "unit": "g",
       "item": "Butter",
       "ingredientKey": "Butter"
     },
     {
-      "quantity": "",
+      "quantity": "1",
       "unit": "",
       "item": "Onion",
       "ingredientKey": "Onion"
     },
     {
-      "quantity": "",
+      "quantity": "to confirm",
       "unit": "",
       "item": "??? Additional sauce ingredients to confirm"
     }

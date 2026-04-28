@@ -12,8 +12,8 @@
       "ingredientKey": "Beef"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "2",
+      "unit": "g",
       "item": "Bi-Carb Soda",
       "ingredientKey": "Bi-Carb Soda"
     },
@@ -54,13 +54,13 @@
       "ingredientKey": "Sauces"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "5",
+      "unit": "g",
       "item": "Sambal Oelek",
       "ingredientKey": "Sambal Oelek"
     },
     {
-      "quantity": "",
+      "quantity": "to taste",
       "unit": "",
       "item": "Sauces",
       "ingredientKey": "Sauces"
@@ -72,14 +72,14 @@
       "ingredientKey": "Wine"
     },
     {
-      "quantity": "",
+      "quantity": "to taste",
       "unit": "",
       "item": "Chinese Five Spice",
       "ingredientKey": "Chinese Five Spice"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "60",
+      "unit": "ml",
       "item": "1/4 cup water"
     },
     {
@@ -95,7 +95,7 @@
       "ingredientKey": "Oil"
     },
     {
-      "quantity": "",
+      "quantity": "1",
       "unit": "",
       "item": "Onion",
       "ingredientKey": "Onion"

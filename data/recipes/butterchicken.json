@@ -65,8 +65,8 @@
       "ingredientKey": "Butter"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "30",
+      "unit": "ml",
       "item": "Juice",
       "ingredientKey": "Juice"
     },
@@ -113,13 +113,13 @@
       "ingredientKey": "Cashews"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "5",
+      "unit": "g",
       "item": "Coriander",
       "ingredientKey": "Coriander"
     },
     {
-      "quantity": "",
+      "quantity": "2",
       "unit": "",
       "item": "Naan",
       "ingredientKey": "Naan"

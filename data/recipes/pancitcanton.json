@@ -1,0 +1,197 @@
+{
+  "id": "pancitcanton",
+  "title": "Pancit Canton",
+  "category": "Dinner",
+  "description": "The chewy, savory-sweet egg noodle version of Filipino Pancit. Richer than Bihon thanks to oyster sauce and Chinese sausage, with a satisfying bite from thick wheat noodles.",
+  "prepTime": "15 min",
+  "cookTime": "20 min",
+  "totalTime": "35 min",
+  "servings": "4 servings",
+  "difficulty": "Easy",
+  "tags": [
+    "Filipino",
+    "Noodles",
+    "Pork",
+    "Shrimp",
+    "Savoury",
+    "Stir-Fried",
+    "Dairy-Free",
+    "Dinner"
+  ],
+  "ingredients": [
+    {
+      "heading": "Noodles"
+    },
+    {
+      "quantity": "250",
+      "unit": "g",
+      "item": "Pancit Canton flour stick noodles",
+      "ingredientKey": "Canton Noodles"
+    },
+    {
+      "heading": "Meat & Protein"
+    },
+    {
+      "quantity": "200",
+      "unit": "g",
+      "item": "Pork, thinly sliced",
+      "ingredientKey": "Pork"
+    },
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Chinese sausage (lap cheong), sliced",
+      "ingredientKey": "Chinese Sausage"
+    },
+    {
+      "quantity": "200",
+      "unit": "g",
+      "item": "Small shrimp, shelled and deveined",
+      "ingredientKey": "Shrimp"
+    },
+    {
+      "heading": "Vegetables"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Large carrot, julienned",
+      "ingredientKey": "Carrot"
+    },
+    {
+      "quantity": "150",
+      "unit": "g",
+      "item": "Cabbage, shredded",
+      "ingredientKey": "Cabbage"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Snap peas",
+      "ingredientKey": "Snap Peas"
+    },
+    {
+      "quantity": "to taste",
+      "unit": "",
+      "item": "Red bell pepper, sliced",
+      "ingredientKey": "Red Bell Pepper"
+    },
+    {
+      "heading": "Aromatics"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Yellow onion, chopped",
+      "ingredientKey": "Onion"
+    },
+    {
+      "quantity": "4",
+      "unit": "",
+      "item": "Garlic cloves, minced",
+      "ingredientKey": "Garlic"
+    },
+    {
+      "heading": "Sauce & Liquid"
+    },
+    {
+      "quantity": "500",
+      "unit": "ml",
+      "item": "Chicken broth",
+      "ingredientKey": "Chicken Broth"
+    },
+    {
+      "quantity": "60",
+      "unit": "ml",
+      "item": "Soy sauce",
+      "ingredientKey": "Soy Sauce"
+    },
+    {
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Oyster sauce",
+      "ingredientKey": "Oyster Sauce"
+    },
+    {
+      "heading": "Garnish"
+    },
+    {
+      "quantity": "4",
+      "unit": "",
+      "item": "Calamansi or lemon wedges",
+      "ingredientKey": "Calamansi"
+    },
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Green onion stalks, chopped",
+      "ingredientKey": "Green Onion"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Heat oil in a large wok over medium-high heat. Saute the garlic and onion until fragrant."
+    },
+    {
+      "step": 2,
+      "instruction": "Add the pork slices and Chinese sausage. Cook until the pork is browned and the sausage begins to render its fat. Add the shrimp and cook until just pink, then remove all meat and set aside."
+    },
+    {
+      "step": 3,
+      "instruction": "Add the carrots, snap peas, and bell pepper to the wok. Stir-fry for 2 to 3 minutes until just tender, then remove and set aside."
+    },
+    {
+      "step": 4,
+      "instruction": "Pour the chicken broth, soy sauce, and oyster sauce into the wok and bring to a boil. Add the dry Canton noodles directly into the boiling broth. Do not pre-soak. Toss and stir-fry until the noodles soften and absorb most of the liquid."
+    },
+    {
+      "step": 5,
+      "instruction": "Return the meat and vegetables to the wok. Add the shredded cabbage last and toss everything together until well combined and heated through."
+    },
+    {
+      "step": 6,
+      "instruction": "Season with ground black pepper to taste. Transfer to a serving dish, top with chopped green onions, and serve with calamansi or lemon wedges on the side."
+    }
+  ],
+  "notes": [
+    {
+      "type": "tip",
+      "title": "No Soaking Required",
+      "content": "Unlike Bihon, dry Canton noodles go straight into the boiling broth. They soften quickly through stir-frying and will turn mushy if pre-soaked."
+    },
+    {
+      "type": "tip",
+      "title": "Sausage Fat",
+      "content": "Chinese sausage renders a naturally sweet fat as it cooks. Let it do so before adding other ingredients as it adds significant flavour to the base."
+    },
+    {
+      "type": "variation",
+      "title": "Mixed Pancit",
+      "content": "Combining half Bihon and half Canton noodles in one dish is popular and gives a great contrast of textures."
+    },
+    {
+      "type": "preparation",
+      "title": "Symbolism",
+      "content": "Pancit is traditionally served at Filipino birthday celebrations to symbolise long life. For this reason, avoid cutting the noodles before serving."
+    }
+  ],
+  "related": [
+    {
+      "id": "pancitbihon",
+      "title": "Pancit Bihon"
+    },
+    {
+      "id": "filipinonoodles",
+      "title": "Pancit (Filipino Stir-Fried Noodles)"
+    },
+    {
+      "id": "porkcaldereta",
+      "title": "Pork Caldereta"
+    },
+    {
+      "id": "bulalo",
+      "title": "Original Bulalo"
+    }
+  ]
+}
