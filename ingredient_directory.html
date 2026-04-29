@@ -21,7 +21,15 @@
         .dir-sidebar {
             position: sticky;
             top: 90px;
+            max-height: calc(100vh - 110px);
+            overflow-y: auto;
+            scrollbar-width: thin;
+            scrollbar-color: var(--slate-mid) transparent;
         }
+
+        .dir-sidebar::-webkit-scrollbar { width: 4px; }
+        .dir-sidebar::-webkit-scrollbar-track { background: transparent; }
+        .dir-sidebar::-webkit-scrollbar-thumb { background: var(--slate-mid); border-radius: 4px; }
 
         .dir-sidebar-section {
             background: var(--surface-card);
@@ -69,6 +77,10 @@
 
         .cat-list {
             padding: 0.5rem 0;
+            max-height: 280px;
+            overflow-y: auto;
+            scrollbar-width: thin;
+            scrollbar-color: var(--slate-mid) transparent;
         }
 
         .cat-btn {

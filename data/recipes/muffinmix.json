@@ -1,5 +1,5 @@
 {
-  "id": "muffinmix",
+  "id": "basicmuffinmix",
   "title": "Basic Muffin Mix",
   "emoji": "🧁",
   "category": "Desserts",
@@ -8,55 +8,74 @@
   "cookTime": "20 min",
   "totalTime": "30 min",
   "servings": "12 muffins",
-  "difficulty": "Easy",
+  "difficulty": "Beginner",
+  "tags": [
+    "Breakfast",
+    "Cheese",
+    "Chocolate",
+    "Creamy",
+    "Dessert",
+    "Greek",
+    "Rich",
+    "Sweet",
+    "Under 30 Minutes"
+  ],
   "ingredients": [
     {
-      "quantity": "1",
-      "unit": "cup",
-      "item": "Flour",
-      "ingredientKey": "Flour"
+      "heading": "Muffin Mixture"
     },
     {
       "quantity": "1",
       "unit": "cup",
-      "item": "Flour",
-      "ingredientKey": "Flour"
+      "item": "Self-Raising Flour"
+    },
+    {
+      "quantity": "1",
+      "unit": "cup",
+      "item": "Plain Flour"
     },
     {
       "quantity": "1/2",
       "unit": "cup",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
+      "item": "White Sugar",
+      "notes": "omit for savoury"
     },
     {
       "quantity": "1/4",
       "unit": "cup",
       "item": "Oil",
-      "ingredientKey": "Oil"
+      "notes": "vegetable"
     },
     {
       "quantity": "1",
       "unit": "cup",
       "item": "Milk",
-      "ingredientKey": "Milk"
+      "notes": "full cream"
     },
     {
       "quantity": "1",
       "unit": "",
-      "item": "Eggs",
-      "ingredientKey": "Eggs"
+      "item": "Eggs"
+    },
+    {
+      "quantity": "2.5",
+      "unit": "g",
+      "item": "salt"
     },
     {
       "quantity": "5",
       "unit": "ml",
       "item": "Vanilla",
-      "ingredientKey": "Vanilla"
+      "notes": "omit for savoury"
+    },
+    {
+      "heading": "Optional Flavours"
     },
     {
       "quantity": "100",
       "unit": "g",
-      "item": "Chocolate",
-      "ingredientKey": "Chocolate"
+      "item": "Chocolate Chips",
+      "notes": "coat with plain flour to prevent sinking to the bottom"
     },
     {
       "quantity": "80",
@@ -66,23 +85,25 @@
     {
       "quantity": "100",
       "unit": "g",
-      "item": "Tinned or frozen fruit (optional)"
+      "item": "Tinned or frozen fruit (optional)",
+      "notes": "drain excess liquad"
     },
     {
       "quantity": "1",
       "unit": "",
-      "item": "Apple & cinnamon (optional)"
+      "item": "Apple & cinnamon (optional)",
+      "notes": "1 tsp cinnamon"
     },
     {
       "quantity": "20",
       "unit": "g",
-      "item": "Cocoa Powder",
-      "ingredientKey": "Cocoa Powder"
+      "item": "Cocoa Powder"
     },
     {
       "quantity": "50",
       "unit": "g",
-      "item": "Cheese & bacon (optional, for savoury)"
+      "item": "Cheese & bacon (optional, for savoury)",
+      "notes": "cook bacon first and drain well"
     },
     {
       "quantity": "80",
@@ -92,7 +113,8 @@
     {
       "quantity": "80",
       "unit": "g",
-      "item": "Pumpkin & fennel seeds (optional, for savoury)"
+      "item": "Pumpkin & fennel seeds (optional, for savoury)",
+      "notes": "roast pumpkin"
     }
   ],
   "method": [
@@ -127,6 +149,11 @@
   ],
   "notes": [
     {
+      "type": "serving",
+      "title": "Serving",
+      "content": "Microwave 10-20 seconds before serving."
+    },
+    {
       "type": "tip",
       "title": "Don't Overmix",
       "content": "The secret to tender muffins is gentle mixing. Lumpy batter is perfect — overmixing develops gluten and makes muffins tough and dense."
@@ -134,29 +161,18 @@
     {
       "type": "variation",
       "title": "Sweet Variations",
-      "content": "Try blueberry, chocolate chip, apple cinnamon, lemon poppy seed, or banana walnut. Add 1/2-1 cup of your chosen mix-ins."
+      "content": "Try blueberry, chocolate chip, apple & cinnamon, lemon poppy seed, or banana walnut. Add 1/2-1 cup of your chosen mix-ins."
     },
     {
       "type": "variation",
       "title": "Savoury Variations",
-      "content": "Reduce sugar to 1 tablespoon. Add cheese & bacon, spinach & feta, corn & jalapeño, or pumpkin & seeds."
+      "content": "Add cheese & bacon, spinach & feta, corn & jalapeño, or pumpkin & fennel seeds."
     },
     {
       "type": "storage",
       "title": "Storage",
       "content": "Store in an airtight container for 2-3 days, or freeze for up to 2 months."
     }
-  ],
-  "tags": [
-    "Breakfast",
-    "Cheese",
-    "Chocolate",
-    "Creamy",
-    "Dessert",
-    "Greek",
-    "Rich",
-    "Sweet",
-    "Under 30 Minutes"
   ],
   "related": [
     {

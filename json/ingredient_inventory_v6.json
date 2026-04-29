@@ -24,7 +24,7 @@
       "Jamaica Pepper",
       "Allspice Berry"
     ],
-    "category": "Spice / Baking",
+    "category": "Spice",
     "notes": "Comes whole (berries) or ground. Whole berries are ideal for long-cooking dishes and can be removed before serving; ground is convenient for baking and spice blends. True allspice is not a blend, despite its name; flavour resembles a mix of cinnamon, nutmeg, and cloves. Store in a cool, dry place for best aroma.",
     "nutrition": {
       "calories": "6 per tsp",
@@ -48,7 +48,7 @@
       "Sliced Almonds",
       "Almonds, Flaked"
     ],
-    "category": "Nut / Baking",
+    "category": "Nut",
     "notes": "Common forms:\n- **Ground / Almond Meal / Almond Flour:** Adds texture and moisture; can partially replace flour in cakes, biscuits, pastries, and gluten-free recipes. Stores best in a cool, dry place or refrigerated.\n- **Blanched Almonds:** Skins removed; can be sliced, chopped, slivered, or ground; used in both savoury and sweet dishes.\n- **Slivered / Flaked / Sliced:** Adds crunch, garnish, and visual appeal; ideal for toppings on pastries, cakes, desserts, cereals, granola, and salads. Toast lightly to enhance aroma and flavour.\n- **Whole Almonds:** Crunchy snack or ingredient; can be roasted, chopped, or ground.\nStore all almonds in a cool, dry place, preferably airtight to prevent rancidity.",
     "nutrition": {
       "calories": "35 per tbsp (about 10 almonds)",
@@ -140,7 +140,7 @@
       "Apricot Preserve",
       "Apricot Conserve"
     ],
-    "category": "Spread / Sweetener",
+    "category": "Sweetener",
     "notes": "Made from apricots cooked with sugar and sometimes pectin to achieve a thick, spreadable consistency. Commonly used as a filling for pastries, tarts, cakes, and cookies, or brushed warm as a glaze on fruit tarts, sponge cakes, and baked goods to add shine and seal moisture. Can be thinned with warm water or alcohol (such as brandy or rum) for glazing. High sugar content gives it a long shelf life when unopened; refrigerate after opening and use clean utensils to prevent spoilage.",
     "nutrition": {
       "calories": "250 per 100 g",
@@ -161,7 +161,7 @@
       "Butternut Snap Cookies",
       "Arnott\u2019s Butternut Biscuits"
     ],
-    "category": "Biscuit / Snack",
+    "category": "Baking",
     "notes": "Classic Australian crisp biscuit made from wheat flour, sugar, butter or vegetable fats, and cocoa, with a mild vanilla and chocolate flavour profile. Thin, dry, and snappy in texture, designed to soften slightly when paired with liquids. Commonly eaten plain or with tea and coffee. Frequently crushed and combined with melted butter to form biscuit bases for cheesecakes, slices, and dessert tarts due to its balanced sweetness and firm structure. Stores well in airtight packaging; absorbs moisture easily once opened.",
     "nutrition": {
       "calories": "480 per 100 g",
@@ -181,7 +181,7 @@
       "Nice Time Biscuits",
       "Arnott\u2019s Nice"
     ],
-    "category": "Biscuit / Snack",
+    "category": "Baking",
     "notes": "Classic Australian sweet biscuit with a light coconut flavour and crisp, dry texture. Made from wheat flour, sugar, vegetable fats, and desiccated coconut, giving it a delicate sweetness without being cloying. Commonly served with tea or coffee, where it softens slightly when dunked. Frequently crushed for use as a cheesecake or slice base, particularly in coconut- or citrus-forward desserts. Holds structure well when mixed with butter and chilled. Store in an airtight container after opening to maintain crispness, as it readily absorbs moisture.",
     "nutrition": {
       "calories": "470 per 100 g",
@@ -201,7 +201,7 @@
       "Hing",
       "Asafoetida Powder"
     ],
-    "category": "Spices / Indian",
+    "category": "Indian",
     "notes": "A highly pungent resin obtained from the roots of Ferula species, traditionally dried and ground. Most commercial powders are blended with rice flour or wheat flour to make dosing manageable. Raw aroma is intensely sulfurous and sharp, but transforms when heated into a smooth, savoury, onion-garlic-like depth. Typically added as a very small pinch and briefly fried in hot oil or ghee at the beginning of cooking to mellow harsh notes and distribute flavour evenly. Widely used in Indian vegetarian cuisine, particularly in dals, lentils, curries, and vegetable dishes where onion and garlic are avoided. Store in an airtight container away from other spices, as its aroma easily permeates surrounding ingredients.",
     "nutrition": {
       "calories": "300 per 100 g",
@@ -219,7 +219,7 @@
       "Streaky Bacon",
       "Back Bacon"
     ],
-    "category": "Meat / Baking",
+    "category": "Meat",
     "notes": "Cured pork, typically from the belly (streaky) or loin (back), and often smoked. Supplied in rashers or slabs and commonly chopped or diced for cooking. When used in baking or egg-based dishes such as quiches, pies, and savoury pastries, bacon is usually lightly pre-cooked to render excess fat and prevent greasiness. Provides both fat and salt to a dish, reducing the need for additional seasoning. Can be crisped fully for textural contrast or left lightly cooked for tenderness. Store refrigerated and use within date; cooked bacon can be refrigerated for short periods or frozen for later use.",
     "nutrition": {
       "calories": "540 per 100 g",
@@ -243,7 +243,7 @@
       "Bicarb and Acid Mix",
       "Chemical Leavening Agent"
     ],
-    "category": "Leavening / Baking",
+    "category": "Baking",
     "notes": "A dry chemical leavening agent composed of sodium bicarbonate combined with one or more acid salts and a moisture-absorbing starch. Most modern baking powders are double-acting, meaning they release carbon dioxide gas once when moistened and again when heated, providing a more reliable and even rise. Used in cakes, biscuits, muffins, scones, and quick breads where yeast fermentation is not desired. Must be measured accurately; excess can cause bitterness or a coarse crumb. Loses potency over time and should be stored in a cool, dry place in an airtight container.",
     "nutrition": {
       "calories": "53 per 100 g",
@@ -269,7 +269,7 @@
       "Cavendish Banana",
       "Dessert Banana"
     ],
-    "category": "Fruit / Dessert",
+    "category": "Fruit",
     "notes": "Soft, sweet tropical fruit commonly used ripe or overripe in desserts and baking. As bananas ripen, starches convert to sugars, increasing sweetness and aroma while softening the flesh. Ripe bananas are easily mashed and contribute significant moisture and natural binding to batters and doughs, making them ideal for banana bread, muffins, cakes, pancakes, and fritters. Sliced bananas are used fresh in desserts, tarts, and toppings, though they brown quickly when exposed to air; a light coating of lemon juice can reduce oxidation. Can be frozen whole or mashed for later baking use.",
     "nutrition": {
       "calories": "89 per 100 g",
@@ -292,7 +292,7 @@
       "Genovese Basil",
       "Italian Basil"
     ],
-    "category": "Herb / Main",
+    "category": "Herb",
     "notes": "A tender, aromatic leafy herb with a sweet, slightly peppery and anise-like flavour. Best used fresh, as prolonged cooking quickly diminishes its aroma and can turn the leaves dark and bitter. Commonly added at the end of cooking or used raw in sauces, salads, and garnishes. Essential in Mediterranean cuisine, particularly Italian dishes such as pesto, tomato sauces, pasta, pizza, and caprese salads. Leaves bruise easily and are best torn rather than cut to avoid oxidation. Store refrigerated with stems in water or wrapped loosely in paper towel; basil is sensitive to cold and should not be stored for long periods.",
     "nutrition": {
       "calories": "23 per 100 g",
@@ -317,7 +317,7 @@
       "Bay Leaf",
       "Sweet Bay"
     ],
-    "category": "Herb / Curries",
+    "category": "Herb",
     "notes": "Aromatic leaves from the bay laurel tree, used whole to gently infuse dishes during long cooking. Available fresh or dried, with dried bay leaves being more commonly used due to their stable, concentrated flavour. Added early in cooking to allow time for their subtle herbal, tea-like, and slightly woody notes to develop. Leaves remain tough and sharp even after cooking and must be removed before serving. Widely used in soups, stews, braises, sauces, rice dishes, curries, and stocks. Store dried bay leaves in an airtight container away from light to preserve aroma.",
     "nutrition": {
       "calories": "313 per 100 g",
@@ -339,7 +339,7 @@
       "Snap Beans",
       "String Beans"
     ],
-    "category": "Vegetable / Main",
+    "category": "Vegetable",
     "notes": "Tender, immature bean pods harvested before the seeds fully develop. Mildly sweet with a fresh, grassy flavour and crisp texture when properly cooked. Ends are typically trimmed before use; modern varieties are stringless. Can be steamed, blanched, boiled, saut\u00e9ed, stir-fried, or roasted. Best cooked briefly to preserve colour, texture, and nutrients; overcooking results in dull colour and softness. Often finished with butter, olive oil, garlic, or almonds, or incorporated into salads, casseroles, and vegetable sides. Store refrigerated and use while firm and bright.",
     "nutrition": {
       "calories": "31 per 100 g",
@@ -376,7 +376,7 @@
       "Scotch Fillet",
       "T-Bone"
     ],
-    "category": "Meat / Sauce",
+    "category": "Meat",
     "notes": "Beef comes in a variety of cuts, each suited to different cooking methods:\n\n- **Chuck:** Well-marbled, flavorful, best for slow-cooked stews, braises, or ground beef.\n- **Brisket:** Tough connective tissue; requires long, slow cooking; ideal for braising, smoking, or corning.\n- **Shank:** Lean with sinew; best for soups, stocks, and slow braises.\n- **Rib:** Tender and marbled; excellent for roasting or grilling.\n- **Sirloin:** Leaner, versatile; suitable for grilling, roasting, and stir-frying.\n- **Tenderloin / Eye Fillet:** Extremely tender, low-fat; best roasted or pan-seared; minimal cooking required.\n- **Rump:** Lean, moderately tender; good for roasting or quick pan-frying.\n- **Scotch Fillet / Ribeye:** Well-marbled, tender, juicy; ideal for grilling or pan-searing.\n- **T-Bone / Porterhouse:** Contains both striploin and tenderloin; offers two textures in one steak.\n\nFor sauces, stews, or braises, tougher cuts like chuck, brisket, and shank are preferred due to collagen content which breaks down into gelatin, enriching texture and mouthfeel. Pre-browning meat enhances flavour. Store raw beef refrigerated (2\u20134\u202f\u00b0C) for 2\u20133 days or frozen for 6\u201312 months depending on cut.",
     "nutrition": {
       "calories": "250 per 100 g (average, varies by cut)",
@@ -398,7 +398,7 @@
       "Tenderloin",
       "Fillet Steak"
     ],
-    "category": "Meat / Steak",
+    "category": "Meat",
     "notes": "Extremely tender cut from the central loin; low-fat, mild flavour. Best cooked quickly over high heat (grilled, pan-seared, roasted) to medium-rare. Overcooking results in dryness. Often served as premium steaks, beef Wellington, or medallions. Can be wrapped in bacon or served with sauces. Store refrigerated 2\u20133 days or freeze up to 6 months.",
     "nutrition": {
       "calories": "197 per 100 g",
@@ -416,7 +416,7 @@
       "Rump Steak",
       "Rump Roast"
     ],
-    "category": "Meat / Steak",
+    "category": "Meat",
     "notes": "Lean cut from the hindquarter, moderately tender with a robust beefy flavour. Suitable for grilling, roasting, or pan-searing. Benefits from marinating if used as steaks. Can also be slow-roasted or thinly sliced for stir-fry. Avoid overcooking to prevent toughness. Store refrigerated 2\u20133 days or freeze up to 6 months.",
     "nutrition": {
       "calories": "217 per 100 g",
@@ -438,7 +438,7 @@
       "Scotch Filets",
       "Scotch Fillet Steak"
     ],
-    "category": "Meat / Steak",
+    "category": "Meat",
     "notes": "Cut from the rib section; heavily marbled with fat, making it tender and juicy. Ideal for grilling, pan-searing, or roasting. Fat melts during cooking, imparting succulence. Best cooked medium-rare to medium. Minimal seasoning highlights natural flavour. Store refrigerated 2\u20133 days or freeze for 6\u201312 months.",
     "nutrition": {
       "calories": "291 per 100 g",
@@ -464,7 +464,7 @@
       "T-Bone Steak",
       "Porterhouse"
     ],
-    "category": "Meat / Steak",
+    "category": "Meat",
     "notes": "Large steak from short loin containing striploin and tenderloin separated by a T-shaped bone. Offers two textures: flavoursome striploin and tender tenderloin. Best grilled or pan-seared; medium-rare to medium recommended. Bone adds flavour. Store refrigerated 2\u20133 days or freeze 6 months.",
     "nutrition": {
       "calories": "276 per 100 g",
@@ -485,7 +485,7 @@
       "Bread Soda",
       "Sodium Bicarbonate"
     ],
-    "category": "Baking / Leavening",
+    "category": "Baking",
     "notes": "A fine, white crystalline powder used as a chemical leavening agent. Requires an acidic ingredient (e.g., buttermilk, yogurt, lemon juice, vinegar) to activate and produce carbon dioxide gas, which helps doughs and batters rise. Commonly used in cakes, muffins, quick breads, pancakes, cookies, and scones. Overuse can result in a soapy or bitter taste. Can also be used for tenderising meat, neutralising acidic sauces, or as a cleaning agent in small household quantities. Store in a cool, dry place in an airtight container to maintain potency.",
     "nutrition": {
       "calories": "0 per 100 g",
@@ -514,7 +514,7 @@
       "Bilberries",
       "Vaccinium corymbosum"
     ],
-    "category": "Fruit / Dessert",
+    "category": "Fruit",
     "notes": "Small, sweet-tart berries that can be used fresh, frozen, or dried. Ideal in muffins, cakes, pancakes, tarts, and sauces. Pair well with lemon, vanilla, cinnamon, or other berries. When using frozen, fold in gently to avoid colour bleed. Rich in natural sugars and moisture, they help keep baked goods soft and flavorful. Store fresh blueberries refrigerated and consume within a week; freeze for longer-term storage.",
     "nutrition": {
       "calories": "57 per 100 g",
@@ -535,7 +535,7 @@
       "Oat Bran",
       "Rice Bran"
     ],
-    "category": "Bread / Fibre",
+    "category": "Bread",
     "notes": "Outer layers of cereal grains, typically wheat, oat, or rice, separated during milling. Adds coarse texture, nutty flavour, and substantial fibre to breads, muffins, cereals, and breakfast bars. Can be toasted lightly to enhance flavour. Absorbs liquid quickly, so recipes may require additional moisture when incorporated. Often used to boost dietary fibre and improve digestive health. Store in a cool, dry place in an airtight container to prevent rancidity, especially for oat or rice bran which have higher fat content.",
     "nutrition": {
       "calories": "216 per 100 g",
@@ -578,7 +578,7 @@
       "Dough Improver",
       "Bread Enhancer"
     ],
-    "category": "Baking / Bread",
+    "category": "Bread",
     "notes": "Commercial additive used in bread and yeast doughs to improve texture, volume, and shelf life. Typically contains a blend of enzymes, ascorbic acid (vitamin C), gluten, and sometimes emulsifiers. Strengthens gluten structure, accelerates fermentation, and helps retain moisture, resulting in lighter, more uniform loaves with improved crust and crumb. Used in small quantities according to recipe instructions. Store in a cool, dry place away from moisture and strong odours.",
     "nutrition": {
       "calories": "5 per 100 g (negligible in typical use)",
@@ -607,7 +607,7 @@
       "Fresh Breadcrumbs",
       "Golden Breadcrumbs"
     ],
-    "category": "Baking / Coating",
+    "category": "Baking",
     "notes": "Breadcrumbs are dried and finely ground bread used as coatings, binders, and toppings.\n\n- **Dry Breadcrumbs:** Fine texture; absorb moisture and create a thin, crisp coating. Standard for schnitzels, cutlets, and fried foods.\n- **Panko Breadcrumbs:** Japanese-style breadcrumbs; larger, flakier, and lighter. Creates a crunchier, airier coating than standard breadcrumbs. Preferred for bistro-style crumbed dishes.\n- **Fresh Breadcrumbs:** Made from day-old bread blended in a processor; soft and absorbs more moisture; used in stuffings, meatballs, and patties as a binder.\n- **Coating Technique:** Crumb using the standard sequence \u2014 flour \u2192 egg wash \u2192 breadcrumbs. Press crumbs firmly to adhere. Refrigerate 10\u201315 minutes before frying for better adhesion.\n- **Storage:** Keep dry breadcrumbs in an airtight container in the pantry for up to 3 months. Panko keeps similarly.",
     "nutrition": {
       "calories": "395 per 100 g",
@@ -629,7 +629,7 @@
       "Cracked Wheat",
       "Parboiled Wheat"
     ],
-    "category": "Bread / Grain",
+    "category": "Grain",
     "notes": "Whole wheat kernels that have been parboiled, dried, and cracked into smaller pieces. Quick-cooking and versatile, can be soaked, boiled, or added directly to breads, flatbreads, salads, and pilafs. Adds chewy texture, nutty flavour, and visual appeal. High in fibre and protein, it can be used to partially replace flour in bread or dough recipes, but may require additional hydration due to its water-absorbing properties. Store in an airtight container in a cool, dry place to preserve freshness.",
     "nutrition": {
       "calories": "342 per 100 g",
@@ -650,7 +650,7 @@
       "Sweet Butter (Unsalted)",
       "Salted Butter"
     ],
-    "category": "Dairy / Fat",
+    "category": "Dairy",
     "notes": "Made by churning cream to separate butterfat from buttermilk; available salted or unsalted. Unsalted butter is preferred in baking and precise cooking applications to control salt levels; salted butter is convenient for spreading and general cooking, with a slightly longer shelf life. Butter can be used cold, softened, or melted depending on technique. Creaming with sugar incorporates air for leavening in cakes and cookies. Burns easily due to milk solids; can be clarified into ghee for higher-heat cooking. Store refrigerated; freeze for long-term storage.",
     "nutrition": {
       "calories": "717 per 100 g",
@@ -723,7 +723,7 @@
       "Purple Cabbage",
       "White Cabbage"
     ],
-    "category": "Vegetable / Filipino",
+    "category": "Filipino",
     "notes": "Common forms and usage:\n- **Green Cabbage:** Crisp, slightly peppery leaves; ideal for stir-fries, saut\u00e9s, soups, and braises. Shred, chop, or wedge depending on cooking method.\n- **Purple Cabbage:** Similar texture to green cabbage but with a slightly earthier flavour and vibrant colour. Excellent in salads, slaws, pickling, stir-fries, and braises. Colour may change with acidic ingredients.\n- **White Cabbage:** Mild-flavoured, firm leaves; excellent in stews, kimchi, slaws, and stir-fries. Holds shape well during cooking.\n- **Cooking Tips:** Cooks quickly; avoid overcooking to preserve colour, texture, and nutrients. Can be saut\u00e9ed, boiled, steamed, fermented, or pickled. Outer leaves may be tougher\u2014remove if desired.\n- **Storage:** Keep in a cool, dry place or refrigerate in a perforated bag; lasts 1\u20132 weeks.",
     "nutrition": {
       "calories": "25 per 100 g",
@@ -745,7 +745,7 @@
       "Crushed Cake",
       "Day-Old Cake"
     ],
-    "category": "Baking / Ingredient",
+    "category": "Baking",
     "notes": "Cake crumbs are used as a base ingredient in confections such as rum balls, cake pops, and truffles.\n\n- **Source:** Can be made from leftover or slightly stale cake of any variety, or purchased as pre-made cake crumbs.\n- **Consistency:** Crumble or process cake into fine crumbs. Moisture content will vary depending on the cake type; adjust binding agents (rum, cream, condensed milk) accordingly.\n- **Storage:** Use within 2\u20133 days if made from fresh leftover cake.",
     "nutrition": {
       "calories": "Varies significantly by cake type",
@@ -766,7 +766,7 @@
       "Sweet Pepper",
       "Capsicum Annuum"
     ],
-    "category": "Vegetable / Main",
+    "category": "Vegetable",
     "notes": "Mild-flavoured, crisp vegetable available in red, yellow, orange, and green varieties. Green capsicum is slightly more bitter, while red and yellow are sweeter and more aromatic. Seeds and membranes can be removed for smoother texture. Suitable for raw use in salads and crudit\u00e9s, or cooked in stir-fries, saut\u00e9s, curries, roasting, grilling, and stuffed preparations. Retains colour and crunch when briefly cooked; overcooking can dull flavour and texture. Store unwashed in the refrigerator crisper for up to 1 week.",
     "nutrition": {
       "calories": "31 per 100 g",
@@ -790,7 +790,7 @@
       "Green Cardamom",
       "Ground Cardamom"
     ],
-    "category": "Curries / Spice",
+    "category": "Spice",
     "notes": "Aromatic spice with small green pods containing tiny black seeds. Crush or grind seeds before use to release essential oils and maximum flavour. Pods can be added whole for infusing liquids or removed after cooking. Common in Indian, Middle Eastern, and Scandinavian cuisines for both sweet and savoury dishes, including curries, rice pilafs, desserts, chai, and baked goods. Store whole pods in an airtight container away from light and heat to preserve aroma; ground cardamom loses potency quickly.",
     "nutrition": {
       "calories": "311 per 100 g",
@@ -841,7 +841,7 @@
       "Cashew Nuts",
       "Kaju"
     ],
-    "category": "Nut / Sauces",
+    "category": "Nut",
     "notes": "Kidney-shaped nuts with a rich, creamy texture and mildly sweet flavour. Can be used raw, roasted, or soaked to soften for blending into pastes, sauces, or curries. Common in Indian, Southeast Asian, and Western cooking for thickening sauces, making vegan creams, desserts, and snacks. Can be chopped, ground, or used whole. Store in an airtight container in a cool, dry place; refrigerate or freeze for longer storage to prevent rancidity.",
     "nutrition": {
       "calories": "553 per 100 g",
@@ -863,7 +863,7 @@
       "Celery Ribs",
       "Apium graveolens"
     ],
-    "category": "Vegetable / Aromatic",
+    "category": "Vegetable",
     "notes": "Crunchy, fibrous stalks used as a primary aromatic in mirepoix, soups, stews, and sauces. Dice finely for long-cooked dishes or slice larger for texture in stir-fries. Inner ribs are more tender and slightly sweeter, while outer ribs are stronger in flavour and higher in fibre. Leaves are edible and aromatic\u2014ideal for garnishes, stocks, or flavour enhancement. Best when gently sweated or lightly saut\u00e9ed to release natural sweetness. Store in a cool, humid environment or refrigerate in a perforated bag; lasts 1\u20132 weeks.",
     "nutrition": {
       "calories": "16 per 100 g",
@@ -895,7 +895,7 @@
       "Tasty Australian Cheese",
       "Tasty Cheese"
     ],
-    "category": "Dairy / Cheese",
+    "category": "Dairy",
     "notes": "Common types and behaviour:\n- **Hard & Aged Cheeses (Cheddar, Tasty, Parmesan, Gruy\u00e8re):** Low-moisture, high-umami cheeses with concentrated flavour. Grate for sauces, bakes, and gratins. Can split or become greasy if overheated; add gently or off heat.\n- **Semi-Soft / Melting Cheeses (Mozzarella):** Smooth melting and stretch. Ideal for pizzas, bakes, and layered dishes. Fresh mozzarella releases moisture; low-moisture versions brown and blister better.\n- **Soft & Fresh Cheeses (Mascarpone):** High-fat, creamy cheeses; do not melt or brown. Provide richness, body, and emulsification in desserts, fillings, and frostings.\n- **Brined Cheeses (Feta):** Salty, tangy, crumbly; does not melt but softens and lightly caramelises when baked. Adds sharp contrast to vegetables, eggs, and pastries.\n- **Milk Source:** Cow\u2019s milk cheeses are mild to nutty; sheep and goat cheeses are tangier and aromatic.\n- **Seasoning Note:** Cheese contributes salt and umami\u2014adjust added salt accordingly.\n- **Storage:** Wrap cheese but allow breathability to prevent drying; bring to room temperature before serving for best flavour.",
     "nutrition": {
       "calories": "402 per 100 g (average, varies by type)",
@@ -926,7 +926,7 @@
       "Black Chia",
       "White Chia"
     ],
-    "category": "Bread / Gluten-Free",
+    "category": "Seed",
     "notes": "Common uses and behaviour:\n- **Hydration:** Chia seeds absorb up to 10\u201312\u00d7 their weight in liquid, forming a gel when soaked.\n- **Binding:** When hydrated, act as a natural binder and egg substitute in gluten-free and vegan baking (commonly 1 tbsp chia + 2.5 tbsp water).\n- **Black vs White:** Nutritionally equivalent; colour difference only affects visual appearance.\n- **Usage:** Can be soaked before use for structure or added dry where hydration occurs in the recipe.\n- **Grinding:** Ground chia improves absorption and binding in doughs and batters.\n- **Storage:** Keep in an airtight container away from heat, light, and moisture to prevent oxidation and rancidity.",
     "nutrition": {
       "calories": "486 per 100 g",
@@ -947,7 +947,7 @@
       "Poultry",
       "Broiler Chicken"
     ],
-    "category": "Meat / Filipino",
+    "category": "Meat",
     "notes": "Versatile poultry meat available as whole birds, thighs, drumsticks, wings, or breast. Use skin-on for roasting or frying to retain moisture and flavour; skinless for leaner dishes. Marinate to enhance flavour and tenderness. Suitable for grilling, roasting, braising, stewing, frying, or saut\u00e9ing. Common in Filipino dishes such as adobo, tinola, afritada, and roasted chicken. Store raw chicken refrigerated 1\u20132 days or freeze for 6\u201312 months; always handle safely to prevent cross-contamination.",
     "nutrition": {
       "calories": "239 per 100 g (skin-on, cooked)",
@@ -982,7 +982,7 @@
       "Wu Xiang Fen",
       "Wu Xiang Powder"
     ],
-    "category": "Main / Spice",
+    "category": "Spice",
     "notes": "A fragrant blend of star anise, cloves, fennel seeds, cinnamon, and Szechuan peppercorns. Balances sweet, savory, bitter, sour, and pungent flavours. Commonly used in Chinese and other Asian cuisines to season meats, stir-fries, roasted vegetables, marinades, and sauces. Can be lightly toasted to enhance aroma. Use sparingly as flavour is potent. Store in an airtight container away from heat, light, and moisture to preserve freshness.",
     "nutrition": {
       "calories": "296 per 100 g",
@@ -1004,7 +1004,7 @@
       "Fresh Chives",
       "Allium schoenoprasum"
     ],
-    "category": "Herb / Main",
+    "category": "Herb",
     "notes": "Mild, tender herb with a subtle onion and garlic flavour. Use fresh and finely chopped; add at the end of cooking or as a garnish to preserve aroma, colour, and delicate flavour. Common in soups, sauces, omelettes, salads, baked potatoes, and cream cheese spreads. Can be frozen chopped, but flavour is best fresh. Store unwashed in the refrigerator wrapped in a damp paper towel in a sealed container or glass.",
     "nutrition": {
       "calories": "30 per 100 g",
@@ -1037,7 +1037,7 @@
       "Semi-Sweet Chocolate",
       "White Chocolate"
     ],
-    "category": "Dessert / Baking",
+    "category": "Confectionery",
     "notes": "Common types and uses:\n- **Dark Chocolate:** Higher cocoa solids (50\u201385%); less sugar and more intense flavour. Preferred for ganache, brownies, sauces, and baking where chocolate is the dominant flavour.\n- **Milk Chocolate:** Contains milk solids and more sugar; sweeter and softer flavour. Melts easily but scorches faster\u2014use gentle heat.\n- **White Chocolate:** Made from cocoa butter, sugar, and milk solids; no cocoa solids. Very sweet and heat-sensitive; suitable for mousses, glazes, fillings, and decoration.\n- **Couverture Chocolate:** High cocoa butter content (typically 32\u201339%); melts smoothly and sets with a glossy finish. Ideal for tempering, coating, dipping, and professional pastry work.\n- **Chocolate Chips / Chunks:** Stabilised to retain shape during baking; melt less than bars. Best for cookies, muffins, and folded batters.\n- **Chocolate Sprinkles (Jimmies / Hundreds-and-Thousands):** Sugar-based decorative pieces with minimal chocolate flavour; retain shape and colour.\n- **Cocoa Percentage:** Higher percentage means less sweetness, more bitterness, firmer set.\nChocolate is sensitive to heat and moisture; melt gently using low heat or a bain-marie to prevent seizing.",
     "nutrition": {
       "calories": "540\u2013600 per 100 g (varies by cocoa content and type)",
@@ -1069,7 +1069,7 @@
       "Cinnamon Powder",
       "Cassia Cinnamon"
     ],
-    "category": "Spice / Baking",
+    "category": "Spice",
     "notes": "Forms and usage:\n- **Stick (Whole):** Used in slow-cooked dishes, curries, braises, rice dishes, and infused liquids. Remove before serving. Cassia sticks are thicker and stronger; Ceylon sticks are thinner, lighter, and more delicate.\n- **Ground:** Finely milled and fast-acting; ideal for baking, desserts, spice blends, and quick-cooking recipes. Aroma fades faster than whole sticks\u2014replace regularly.\n- **Cassia vs Ceylon:** Cassia is bold, spicy, and slightly bitter; Ceylon (\"true cinnamon\") is sweeter, softer, and more floral.\nAdd early for deep infusion or late for brighter aroma. Store airtight, away from heat and light.",
     "nutrition": {
       "calories": "240\u2013260 per 100 g",
@@ -1098,7 +1098,7 @@
       "Ground Cloves",
       "Clove Buds"
     ],
-    "category": "Spice / Baking",
+    "category": "Spice",
     "notes": "Dried, unopened flower buds of the clove tree with an extremely strong, warm, sweet-spicy aroma. Potency is high\u2014use sparingly.\n\nForms and usage:\n- **Whole Cloves:** Used in slow-cooked curries, braises, rice dishes (pilaf, biryani), stocks, and mulled beverages. Infuses flavour gradually; remove before serving.\n- **Ground Cloves:** Highly concentrated and fast-acting; ideal for baking, spice blends, rubs, and desserts. Measure carefully to avoid overpowering the dish.\n\nCloves bloom well in fat and pair strongly with cinnamon, nutmeg, allspice, ginger, star anise, citrus, and vanilla. Excess use can cause bitterness and a numbing sensation due to high eugenol content.\nStore whole cloves airtight for maximum shelf life; grind as needed for peak aroma.",
     "nutrition": {
       "calories": "270\u2013280 per 100 g",
@@ -1123,7 +1123,7 @@
       "Natural Cocoa",
       "Dutch-Processed Cocoa"
     ],
-    "category": "Baking / Dessert",
+    "category": "Baking",
     "notes": "Finely ground powder made from cocoa solids after cocoa butter is removed. Unsweetened and highly concentrated.\n\nTypes and behaviour:\n- **Natural Cocoa Powder:** Light brown, acidic, sharp chocolate flavour. Reacts with baking soda for leavening; used in traditional cakes, brownies, and older recipes.\n- **Dutch-Processed Cocoa:** Treated with alkali to neutralise acidity; darker colour, smoother and milder flavour. Does not react with baking soda\u2014use baking powder instead.\n\nCocoa powder absorbs liquid aggressively; sift before use to prevent clumping. Blooming cocoa in hot liquid or fat enhances flavour depth and colour.\nStore airtight, away from heat and moisture to preserve aroma.",
     "nutrition": {
       "calories": "220\u2013240 per 100 g",
@@ -1152,7 +1152,7 @@
       "Shredded Coconut",
       "Desiccated Coconut"
     ],
-    "category": "Fruit / Baking",
+    "category": "Fruit",
     "notes": "Edible white flesh of the coconut, used fresh or dried in both sweet and savoury cooking.\n\nForms and usage:\n- **Fresh Coconut Flesh:** Moist, mildly sweet, and rich; grated or sliced for curries, sambals, desserts, and fillings.\n- **Shredded Coconut:** Coarsely grated; adds texture to baked goods, sweets, and coatings.\n- **Desiccated Coconut:** Finely grated and dried; longer shelf life and more concentrated flavour. Absorbs liquid readily in baking.\n- **Copra:** Fully dried coconut meat primarily used for oil extraction; rarely used directly in cooking.\n\nLight toasting enhances aroma and nutty sweetness but reduces moisture. Store dried coconut airtight; refrigerate fresh coconut after opening to prevent spoilage.",
     "nutrition": {
       "calories": "350\u2013400 per 100 g (higher for dried forms)",
@@ -1181,7 +1181,7 @@
       "Soluble Coffee",
       "Strong Espresso"
     ],
-    "category": "Beverage / Dessert",
+    "category": "Beverage",
     "notes": "Derived from roasted coffee beans, available as whole beans, ground, or instant/soluble form.\n\nForms and usage:\n- **Brewed Coffee:** Adds liquid coffee flavour to recipes; can be reduced to intensify taste.\n- **Ground Coffee:** Used for brewing or infused in syrups, extracts, or desserts.\n- **Instant / Soluble Coffee:** Dissolves easily in liquids; ideal for quick incorporation into cakes, frostings, ganaches, and tiramisu.\n\nCoffee pairs exceptionally well with chocolate, caramel, cream, and spices like cinnamon and cardamom. Store airtight, away from heat, light, and moisture to preserve aroma and potency.",
     "nutrition": {
       "calories": "2 per 100 g brewed (unsweetened); 0\u201350 per 100 g instant powder depending on added ingredients",
@@ -1208,7 +1208,7 @@
       "Coriander, Ground",
       "Coriander Powder"
     ],
-    "category": "Herb / Spice",
+    "category": "Herb",
     "notes": "Coriander is a versatile herb and spice with distinct uses depending on form:\n\n- **Leaves (Cilantro / Fresh Coriander):** Add at the end of cooking or as a garnish to preserve bright, citrusy aroma. Ideal in curries, stews, salads, salsas, and chutneys.\n- **Seeds:** Toast lightly before grinding to unlock warm, nutty, and citrusy flavour. Used in spice blends, pickles, marinades, sauces, and curries.\n- **Ground / Powder:** Best used freshly ground for maximum aroma and flavour. Pairs well with cumin, turmeric, chili, and other spices in curry powders, rubs, and sauces.\n\nStorage: Keep seeds in an airtight container in a cool, dry place; refrigerate fresh leaves briefly or use immediately for best quality.",
     "nutrition": {
       "calories": "23 per 100 g (leaves), 298 per 100 g (seeds)",
@@ -1240,7 +1240,7 @@
       "Whipping Cream",
       "Whipped Cream"
     ],
-    "category": "Dairy / Cream",
+    "category": "Dairy",
     "notes": "Cream is a dairy product with varying fat content; the type used significantly affects texture, richness, and stability in recipes.\n\n- **Thickened Cream (Australia):** Heavy cream with added stabilisers (gelatin or vegetable gum); minimum 35% fat. Whips reliably, holds shape well, and is the most common cream used in Australian cooking. Ideal for sauces, ganache, pasta, desserts, and whipping.\n- **Cooking Cream / Pouring Cream:** Similar fat content to thickened cream but may lack stabilisers; behaves well in hot sauces without splitting as readily. Bulla brand is widely used in Australia.\n- **Heavy Cream / Double Cream:** 45\u201348% fat; very rich and stable. Less common in Australia but interchangeable with thickened cream in most applications. Can be whipped to stiff peaks.\n- **Whipping Cream:** At least 30\u201335% fat; whips but may not hold shape as long as thickened cream.\n- **Light Cream / Single Cream:** 18\u201325% fat; too low to whip; used for pouring over desserts or in sauces where heavy richness is not required.\n- **Sour Cream:** Cream fermented with lactic acid bacteria; thick, tangy, and slightly acidic. Used in baked goods, dips, sauces, and toppings. Do not boil as it may split; stir in off heat or at the end of cooking.\n- **Whipped Cream:** Thickened cream beaten to incorporate air; used as topping, filling, or garnish. Sweeten with icing sugar and vanilla if desired.\n- **Usage Tips:** Thickened cream is the standard choice in these recipes. Store refrigerated; do not freeze unless in a finished dessert or sauce.",
     "nutrition": {
       "calories": "345 per 100 ml (thickened/heavy cream)",
@@ -1297,7 +1297,7 @@
       "Cumin Powder",
       "Jeera"
     ],
-    "category": "Spice / Curries",
+    "category": "Spice",
     "notes": "Cumin is a warm, earthy, aromatic spice used whole or ground depending on recipe requirements:\n\n- **Seeds:** Toast lightly to release nutty, slightly bitter aroma and flavour; ideal for tempering (tadka), pickles, slow-cooked stews, rice dishes, and curries.\n- **Ground / Powder:** Use freshly ground for maximum fragrance and flavour. Perfect for curry powders, spice blends, sauces, marinades, and rubs.\n\nCumin pairs well with coriander, turmeric, chili, fennel, cardamom, and cinnamon. Store seeds in a cool, dry place in an airtight container to preserve potency. Ground cumin should be used within a few months for optimal aroma and taste.",
     "nutrition": {
       "calories": "375 per 100 g",
@@ -1324,7 +1324,7 @@
       "Instant Custard Powder",
       "Vanilla Custard Powder"
     ],
-    "category": "Dessert / Thickener",
+    "category": "Baking",
     "notes": "Powdered mix, typically cornstarch-based, often flavoured with vanilla and coloured with turmeric or food-grade colour.\n\nForms and usage:\n- **Instant Custard Powder:** Dissolves quickly in cold or hot milk; ideal for fast-cooking custards, puddings, and desserts.\n- **Preparation:** Usually mixed with a small amount of milk to form a slurry, then stirred into the remaining hot milk while cooking to avoid lumps.\n- **Applications:** Used in custard desserts, trifles, fillings, and as a base for cream sauces in sweets.\nStore in a cool, dry place; keep airtight to prevent moisture absorption and clumping.",
     "nutrition": {
       "calories": "360 per 100 g (dry powder)",
@@ -1345,7 +1345,7 @@
       "Medjool Dates",
       "Deglet Noor"
     ],
-    "category": "Fruit / Dessert",
+    "category": "Fruit",
     "notes": "Sweet dried fruit available whole, pitted, or chopped. Common varieties include Medjool (large, soft, very sweet) and Deglet Noor (smaller, firmer, subtly sweet).\n\nForms and usage:\n- **Pitted Dates:** Convenient for baking, stuffing, or pureeing.\n- **Chopped or Sliced:** Adds chewiness and natural sweetness to cakes, cookies, energy bars, and salads.\n- **Pureed:** Can be used as a natural sweetener or binding agent in desserts and baked goods.\n\nStore in a cool, dry place; refrigerate or freeze for longer shelf life.",
     "nutrition": {
       "calories": "277 per 100 g",
@@ -1376,7 +1376,7 @@
       "Vanilla Extract",
       "Yellow Food Colouring"
     ],
-    "category": "Additive / Decorative & Flavour",
+    "category": "Baking",
     "notes": "Common types and usage:\n\n- **Food Colourings:** Available in liquid, gel, or powder forms. Common colours include red, blue, green, yellow, and caramel. Used sparingly to enhance visual appeal in cakes, icings, desserts, and confections. Mix thoroughly to avoid streaks and adjust quantity for desired intensity. Overuse can affect texture.\n- **Essences & Extracts:** Concentrated flavourings such as vanilla, almond, and lemon. Alcohol-based extracts or oil-based essences are common. Used in small amounts to enhance aroma and flavour without adding bulk or moisture.\n- **Usage Tips:** Follow recipe guidance for quantity; usually a few drops or teaspoons suffice. Store in a cool, dark place away from direct sunlight. Liquid, gel, and powdered forms may be substituted with slight adjustments to recipe liquid or fat content.",
     "nutrition": {
       "calories": "0\u20135 per 100 g (negligible in typical use)",
@@ -1399,7 +1399,7 @@
       "Brown Sauce Base",
       "Veal Stock Reduction"
     ],
-    "category": "Sauce / Stock Base",
+    "category": "Condiment",
     "notes": "Demi glace is a rich, concentrated brown sauce that forms the base of many classic French and bistro-style sauces.\n\n- **Traditional Demi Glace:** Made by reducing equal parts espagnole sauce (brown sauce) and brown veal stock to a glossy, syrupy consistency. Intensely rich, deeply savoury, and complex.\n- **Commercial Demi Glace Base:** Available as powder or paste concentrate (brands like Major or Knorr Jus Lie). Dissolve per package instructions. Produces a consistent result suitable for high-volume or home cooking.\n- **Usage in Bistro Sauces:** Forms the backbone of many classic accompaniments \u2014 brandy mustard sauce, Madagascar green peppercorn sauce, Bordelaise, and Chasseur. Usually deglazed in the pan after cooking meat, then enriched with cream or butter.\n- **Substitutes:** A good quality beef stock reduced by 2/3 can approximate demi glace. Adding Worcestershire sauce and a small amount of butter improves depth.\n- **Storage:** Commercial base keeps sealed in pantry; once opened, refrigerate. Homemade demi glace freezes well in ice cube trays.",
     "nutrition": {
       "calories": "30\u201360 per 100 ml (liquid, varies by concentration)",
@@ -1426,7 +1426,7 @@
       "Aubergine",
       "Brinjal"
     ],
-    "category": "Vegetable / Main",
+    "category": "Vegetable",
     "notes": "Eggplant is a versatile vegetable with spongy flesh that readily absorbs flavours:\n\n- **Forms:** Whole, sliced, diced, or halved for roasting, grilling, baking, or saut\u00e9ing.\n- **Cooking Tips:** Salt slices before cooking to reduce bitterness and excess moisture. Best cooked until tender; can be used in stews, curries, ratatouille, moussaka, stir-fries, or dips like baba ghanoush.\n- **Pairings:** Combines well with tomatoes, garlic, onions, peppers, herbs, and olive oil.\n- **Storage:** Keep in a cool, dry place; refrigerate cut eggplant for 1\u20132 days in an airtight container.",
     "nutrition": {
       "calories": "25 per 100 g",
@@ -1451,7 +1451,7 @@
       "Egg Yolks",
       "Whole Egg"
     ],
-    "category": "Dairy / Protein",
+    "category": "Dairy",
     "notes": "Available as chicken or duck eggs; can be used whole, separated (yolk or white), or beaten. \n\n- **Whole Eggs:** Provide structure, moisture, and richness in baking, custards, and quiches.\n- **Egg Whites:** Whip to incorporate air for meringues, souffl\u00e9s, and light batters.\n- **Egg Yolks:** Add richness, emulsification, and color to sauces, custards, and pastries.\n- **Duck Eggs:** Larger, richer, and higher in fat and protein than chicken eggs; ideal for richer baked goods.\n- **Storage:** Keep refrigerated; use within recommended shelf life. Bring to room temperature before baking for better incorporation.",
     "nutrition": {
       "calories": "155 per 100 g (chicken), 185 per 100 g (duck)",
@@ -1506,7 +1506,7 @@
       "Saunf",
       "Foeniculum vulgare Seeds"
     ],
-    "category": "Spice / Baking",
+    "category": "Spice",
     "notes": "Fennel seeds are aromatic, slightly sweet, and licorice-flavoured. \n\n- **Forms:** Whole seeds or ground powder; lightly toast whole seeds to enhance aroma before adding to recipes.\n- **Usage:** Commonly used in breads, cookies, biscuits, spice blends, pickles, sausages, and herbal teas.\n- **Pairings:** Complements anise, caraway, cinnamon, cloves, and cardamom. Adds fragrance and subtle sweetness to both savoury and sweet baked goods.\n- **Storage:** Store in an airtight container in a cool, dry place away from direct sunlight to preserve flavour.",
     "nutrition": {
       "calories": "345 per 100 g",
@@ -1527,7 +1527,7 @@
       "Fenugreek Seeds",
       "Kasuri Methi"
     ],
-    "category": "Spice / Indian",
+    "category": "Indian",
     "notes": "Fenugreek can be used as seeds or dried leaves (kasuri methi):\n\n- **Seeds:** Small, hard seeds with a slightly bitter, nutty flavour. Often lightly toasted or ground before use in spice blends, curries, pickles, and masalas.\n- **Dried Leaves (Kasuri Methi):** Used as a garnish or added at the end of cooking to impart aroma and mild bitterness. Crush gently before adding.\n- **Usage Tips:** Potent spice; use sparingly to avoid overpowering dishes. Pairs well with cumin, coriander, turmeric, and mustard seeds.\n- **Storage:** Keep in airtight containers in a cool, dry place; whole seeds last longer than ground seeds or dried leaves.",
     "nutrition": {
       "calories": "323 per 100 g (seeds), 49 per 100 g (dried leaves)",
@@ -1548,7 +1548,7 @@
       "Ferrero Chocolate",
       "Ferrero Hazelnut Chocolate"
     ],
-    "category": "Confectionery / Dessert",
+    "category": "Confectionery",
     "notes": "Ferrero Rocher chocolates are individually wrapped hazelnut chocolates coated with chocolate and chopped nuts.\n\n- **Forms:** Whole for presentation, chopped or crushed for decorating cakes, cupcakes, or desserts, and as fillings in chocolates and pastries.\n- **Usage:** Adds visual appeal, crunch, and flavour. Often used in layered desserts, truffles, or as a garnish for ice cream, cakes, and mousses.\n- **Storage:** Keep in a cool, dry place away from direct sunlight; avoid high temperatures to prevent melting.",
     "nutrition": {
       "calories": "605 per 100 g",
@@ -1566,7 +1566,7 @@
       "Ground Flaxseed",
       "Brown Flaxseed Meal"
     ],
-    "category": "Bread / Gluten-Free",
+    "category": "Seed",
     "notes": "Flaxseed meal is ground flaxseeds, commonly brown or golden. \n\n- **Usage:** Can be added to gluten-free breads, muffins, pancakes, and cereals. Often mixed with other flours or seeds to improve texture.\n- **Binding:** Hydrates to form a gel, acting as a vegan egg substitute (1 tbsp flaxseed meal + 3 tbsp water = 1 egg). \n- **Nutritional Boost:** Adds omega-3 fatty acids, fibre, and protein.\n- **Storage:** Keep in an airtight container in the fridge or freezer to prevent rancidity; use within a few months for best flavour.",
     "nutrition": {
       "calories": "534 per 100 g",
@@ -1601,7 +1601,7 @@
       "Tapioca Flour",
       "Tapioca Starch"
     ],
-    "category": "Grain / Baking",
+    "category": "Grain",
     "notes": "Flour comes in a wide variety, each suited to specific baking or cooking purposes:\n\n- **Plain / All-Purpose Flour:** Medium-protein flour suitable for most cakes, cookies, pastries, and breads; versatile but may need adjustments for delicate recipes.\n- **Self-Raising / Self-Rising Flour:** Contains baking powder; ideal for quick breads, cakes, and scones. Adjust added salt accordingly.\n- **Cake / Soft Flour:** Low-protein flour; produces light, tender crumb for cakes and pastries. Not a direct 1:1 substitute for all-purpose flour.\n- **Bakers / Bread Flour:** High-protein flour; provides gluten strength for chewy, structured breads and artisan loaves.\n- **Rye Flour / Rye Meal:** Adds density, earthy flavour, and darker colour to breads; often blended with wheat flour for better rise.\n- **Buckwheat Flour:** Gluten-free, nutty flavour; often combined with wheat or other gluten-free flours for baked goods.\n- **Corn / Cornstarch / Corn Flour:** Thickens sauces, custards, or soups; corn flour can be used in gluten-free baking. Mix with cold liquid before adding to hot mixtures.\n- **Rice Flour:** Gluten-free flour; adds lightness and structure, commonly blended with other flours for baked goods.\n- **Tapioca Flour / Tapioca Starch:** Adds elasticity, chewiness, and crispness in gluten-free breads; also used as a thickener.\n- **Soy / Soya Flour:** High in protein; improves dough structure, browning, and nutritional content; usually combined with wheat flour.\n\n**Storage:** Keep all flours in a cool, dry place in airtight containers. Avoid moisture and pests. Whole-grain flours may go rancid faster; refrigerate if needed.",
     "nutrition": {
       "calories": "364 per 100 g (wheat all-purpose)",
@@ -1704,7 +1704,7 @@
       "Whole Freekeh",
       "Whole Grain Freekeh"
     ],
-    "category": "Bread / Grain",
+    "category": "Grain",
     "notes": "Freekeh is wheat harvested while green, then roasted and either sold whole or cracked.\n\n- **Forms:** Whole grain or cracked; cracked freekeh cooks faster and can be used like rice or couscous.\n- **Usage:** Can be used in breads, pilafs, salads, soups, and grain bowls. Imparts a slightly smoky, nutty flavour.\n- **Preparation:** Rinse before cooking. Soak whole grains if desired to reduce cooking time. Cook in water or broth until tender.\n- **Storage:** Store in airtight container in a cool, dry place; lasts several months.",
     "nutrition": {
       "calories": "342 per 100 g",
@@ -1736,7 +1736,7 @@
       "Sultanas",
       "Tinned Fruit"
     ],
-    "category": "Baking / Dessert",
+    "category": "Baking",
     "notes": "Common types and usage:\n\n- **Dried Fruit (Raisins, Sultanas, Apricots, Mixed Fruit):** Naturally sweet and chewy; can be used directly in batters or soaked in water, juice, or alcohol to plump. Adds concentrated flavour, texture, and natural sweetness.\n- **Frozen Fruit (Berries, Mango, Mixed Tropical Fruit):** Retains fresh-like flavour and colour. Can be added directly to batters or fillings; may release juice during baking, so adjust liquid as needed.\n- **Canned / Tinned Fruit:** Stored in syrup, juice, or water. Drain syrup unless recipe requires liquid. Can be chopped, sliced, or pureed depending on use.\n- **Storage & Tips:** Keep dried fruit in airtight containers in a cool, dry place. Freeze fresh fruit if not using immediately. Store unopened canned fruit in a cool, dark pantry; refrigerate once opened.",
     "nutrition": {
       "calories": "250\u2013300 per 100 g (dried fruit), 50\u201370 per 100 g (fresh/frozen)",
@@ -1756,7 +1756,7 @@
       "Indian Spice Mix",
       "Ground Garam Masala"
     ],
-    "category": "Spice Blend / Curries",
+    "category": "Curry",
     "notes": "Garam Masala is a blend of aromatic spices commonly used in Indian cuisine. \n\n- **Composition:** Typically includes cumin, coriander, cardamom, cinnamon, cloves, nutmeg, and black pepper. Variations exist by region or household.\n- **Usage:** Usually added towards the end of cooking to preserve aroma. Can also be used as a rub for meats or sprinkled over finished dishes for extra flavour. Best used in curries, stews, sauces, lentils, and vegetable dishes.\n- **Storage:** Store in an airtight container in a cool, dark place. Ground blends lose potency over time; use within 6\u201312 months for optimal flavour.\n- **Tips:** Toast whole spices before grinding for deeper aroma. Avoid cooking at high heat for long periods as aroma diminishes.",
     "nutrition": {
       "calories": "335 per 100 g",
@@ -1783,7 +1783,7 @@
       "Granulated Garlic",
       "Minced Garlic Paste"
     ],
-    "category": "Vegetable / Condiment",
+    "category": "Vegetable",
     "notes": "Common forms and usage:\n\n- **Fresh Garlic (Cloves):** Peel and mince, crush, slice, or roast. Adds pungent aroma and depth of flavour. Can brown quickly and turn bitter if overcooked; add early for robust flavour or later for milder aroma.\n- **Garlic Paste / Minced Garlic Paste:** Smooth, concentrated form; blends easily into sauces, marinades, and curries. Use sparingly.\n- **Garlic Powder / Granulated Garlic:** Dried and finely ground; convenient for seasoning mixes, rubs, and baked dishes. Add during cooking or at the end depending on desired intensity.\n- **Storage & Tips:** Fresh garlic keeps best in a cool, dark, dry place. Paste and powder should be airtight to preserve aroma and potency.",
     "nutrition": {
       "calories": "149 per 100 g (fresh cloves)",
@@ -1839,7 +1839,7 @@
       "Gelatine",
       "Agar Alternative (if vegetarian)"
     ],
-    "category": "Desserts / Thickener",
+    "category": "Baking",
     "notes": "Gelatin is a protein derived from animal collagen; agar or other plant-based alternatives can be used for vegetarian/vegan dishes.\n\n- **Forms:** Available as powder (granules) or sheets (leaf gelatin). Powder usually requires blooming in cold water before dissolving; sheets must be soaked and softened.\n- **Usage:** Used to set liquids in desserts such as mousses, panna cotta, jellies, and aspics. Can also stabilize creams, yogurts, or pie fillings.\n- **Temperature:** Dissolve gently in warm liquid; avoid boiling to prevent loss of setting properties.\n- **Substitutions:** Agar-agar, carrageenan, or pectin can be used in vegetarian/vegan recipes; setting behaviour and texture will differ.\n- **Storage:** Keep dry, in a cool, dark place; sheet gelatin should be used before expiry for best performance.",
     "nutrition": {
       "calories": "355 per 100 g (powdered)",
@@ -1865,7 +1865,7 @@
       "Minced Ginger",
       "Zingiber officinale"
     ],
-    "category": "Spice / Condiment",
+    "category": "Spice",
     "notes": "Common forms and usage:\n\n- **Fresh Ginger (Root):** Peel and slice, grate, mince, or julienne. Provides warm, pungent, and aromatic flavour. Ideal for saut\u00e9s, stir-fries, curries, soups, and marinades.\n- **Ginger Paste / Ground Ginger Paste:** Smooth, convenient form; can replace fresh ginger in cooking and marinades. Use sparingly as flavour is more concentrated.\n- **Ground/Dried Ginger:** Stronger, more pungent flavour; best for baking, spice blends, and longer-cooked dishes.\n- **Substitutions:** Fresh, paste, and ground forms are generally interchangeable, adjusting quantity to taste.\n- **Storage & Tips:** Fresh ginger can be stored in a cool, dry place or refrigerated; peel or slice before freezing for long-term storage. Paste should be refrigerated and used by the recommended date. Ground ginger stores best in an airtight container, away from light and heat.",
     "nutrition": {
       "calories": "80 per 100 g (fresh)",
@@ -1891,7 +1891,7 @@
       "Simple Syrup",
       "Sugar Syrup"
     ],
-    "category": "Desserts / Sweetener",
+    "category": "Sweetener",
     "notes": "Common forms and usage:\n\n- **Plain Glucose Syrup:** Made from hydrolyzed starch; thick, clear, and neutral-flavoured. Prevents crystallization in candies, icings, and caramel.\n- **Flavoured or Liqueur-Infused Syrups:** Can be lightly flavoured with vanilla, fruit extracts, or liqueurs to enhance desserts.\n- **Simple Syrup:** Typically a 1:1 sugar-to-water ratio; used to moisten cakes, sweeten beverages, or brush onto pastries.\n- **Usage Tips:** Adjust quantity to avoid excessive sweetness or moisture. Heat gently if incorporating into hot mixtures.\n- **Storage:** Store in a sealed container at room temperature; refrigerate if using perishable additives or flavourings.",
     "nutrition": {
       "calories": "300 per 100 g",
@@ -1908,7 +1908,7 @@
     "aka": [
       "Light Treacle"
     ],
-    "category": "Desserts / Sweetener",
+    "category": "Sweetener",
     "notes": "Golden syrup is a thick, amber-coloured inverted sugar syrup made from sugar cane or sugar beet. Commonly used in baking, puddings, biscuits, sauces, and desserts.\n\n- **Texture & Flavor:** Thick, pourable consistency with mild caramel notes; sweeter and less viscous than molasses.\n- **Usage Tips:** Adds sweetness, moisture, and shine; helps retain softness in baked goods like flapjacks, cookies, and cakes. Can be drizzled over pancakes, porridge, or desserts for flavour and visual appeal.\n- **Substitutions:** Can substitute with honey, corn syrup, or light treacle with slight flavour adjustments.\n- **Storage:** Store in a cool, dry place; keep tightly sealed to prevent crystallization.",
     "nutrition": {
       "calories": "325 per 100 g",
@@ -1950,7 +1950,7 @@
       "Hemp Protein Powder",
       "NA"
     ],
-    "category": "Bread / Protein",
+    "category": "Bread",
     "notes": "Hemp protein powder is a plant-based protein derived from hemp seeds.\n\n- **Usage:** Can be mixed with flour, smoothies, shakes, or baked goods. May affect texture and density in breads and pastries.\n- **Pairings:** Complements oats, nuts, seeds, chocolate, fruits, and other flours.\n- **Storage:** Store in a cool, dry place in an airtight container to prevent moisture absorption and rancidity.\n- **Substitutions:** Other plant-based protein powders (e.g., pea, soy, or rice protein) can be used with minor texture and flavor differences.",
     "nutrition": {
       "calories": "370 per 100 g",
@@ -1972,7 +1972,7 @@
       "Hulled Hemp Seeds",
       "NA"
     ],
-    "category": "Bread / Seed",
+    "category": "Seed",
     "notes": "Hemp seeds are small, nutrient-dense seeds with a mild, nutty flavor.\n\n- **Usage:** Can be used raw, toasted, or roasted. Sprinkle on top of breads, muffins, granola, or mix into batters and dough.\n- **Pairings:** Works well with oats, nuts, chocolate, fruits, and other seeds.\n- **Storage:** Keep in a cool, dry place or refrigerate to prevent rancidity. Use within a few months after opening.\n- **Substitutions:** Other seeds such as chia, flax, or sunflower seeds can be used, though flavor and texture will vary.",
     "nutrition": {
       "calories": "567 per 100 g",
@@ -1995,7 +1995,7 @@
       "Italian Seasoning",
       "Mixed Italian Herbs"
     ],
-    "category": "Herb / Main",
+    "category": "Herb",
     "notes": "Italian herbs are typically a dried blend of oregano, basil, thyme, and rosemary.\n\n- **Usage:** Use to season sauces, roasts, saut\u00e9s, soups, and other main dishes. Adjust proportions to taste. Can be added during cooking or as a finishing sprinkle.\n- **Pairings:** Complements tomatoes, garlic, olive oil, meats, poultry, vegetables, and cheeses.\n- **Storage:** Store in a cool, dark place in an airtight container to preserve flavor and aroma.\n- **Substitutions:** Herbes de Provence can be used for a similar flavor profile, though it may include lavender.",
     "nutrition": {
       "calories": "271 per 100 g",
@@ -2017,7 +2017,7 @@
       "All-Purpose Herb Blend",
       "Herb Mix"
     ],
-    "category": "Herb / Main",
+    "category": "Herb",
     "notes": "Mixed herbs are a dried blend of multiple herbs; exact composition varies by brand but often includes parsley, thyme, marjoram, rosemary, and oregano.\n\n- **Usage:** Use to season soups, stews, sauces, roasted vegetables, and general dishes. Adjust quantity to taste. Can be added during cooking or as a finishing garnish.\n- **Pairings:** Complements meats, poultry, vegetables, grains, and sauces.\n- **Storage:** Store in a cool, dark place in an airtight container to maintain flavor and aroma.\n- **Substitutions:** Any single dried herb or combination of herbs can be used, though flavor balance may differ.",
     "nutrition": {
       "calories": "250 per 100 g",
@@ -2041,7 +2041,7 @@
       "Raw Honey",
       "Wildflower Honey"
     ],
-    "category": "Sweetener / Liquid",
+    "category": "Sweetener",
     "notes": "Honey is a natural sweetener produced by bees from floral nectar.\n\n- **Usage:** Use in baking, sauces, dressings, marinades, and beverages. Retains moisture and promotes browning and caramelisation in baked goods. Raw honey preserves more enzymes and aroma; processed honey is milder and more consistent. May require reduced oven temperature and liquid adjustments in recipes.\n- **Pairings:** Complements fruits, nuts, yogurt, tea, cereals, cheese, and baked goods.\n- **Storage:** Store in a cool, dry place in a tightly sealed container. Crystallization is natural; gently warm to liquefy if desired.\n- **Substitutions:** Maple syrup, agave nectar, or golden syrup can be used with minor flavor differences.",
     "nutrition": {
       "calories": "304 per 100 g",
@@ -2092,7 +2092,7 @@
       "Turmeric",
       "Whole Spices"
     ],
-    "category": "Spices / Indian",
+    "category": "Indian",
     "notes": "Common Indian spices include seeds, whole spices, powders, blends, aromatic leaves, and specialty regional spices.\n\n- **Seeds & Whole Spices:** Black cardamom, black peppercorns, bay leaves, cardamom, cloves, cinnamon, cumin, fennel seeds, fenugreek, kalpasi (black stone flower), mustard seeds, nigella seeds, star anise. Toast lightly to release aroma before grinding or cooking.\n- **Powders & Blends:** Amchur (dried mango powder), curry powder, garam masala, Kashmiri chili powder (milder color, less heat), red chili powder, turmeric, panch phoron (Bengali five-spice blend).\n- **Aromatic Leaves & Herbs:** Curry leaves, dried bay leaves, fresh cilantro for garnish.\n- **Specialty / Regional Spices:** Ajwain (thyme-like), asafoetida (hing), mace (outer layer of nutmeg). Use in small amounts for umami and digestibility in dals and curries.\n- **Usage Tips:** Whole spices release flavor in hot oil (tempering/tadka). Ground spices are added during cooking or at the end depending on heat tolerance. Adjust quantities for desired pungency and aroma.\n- **Storage:** Store airtight, away from heat, light, and moisture to preserve aroma and potency.",
     "nutrition": {
       "calories": "284 per 100 g",
@@ -2119,7 +2119,7 @@
       "Orange Juice",
       "Pineapple Juice"
     ],
-    "category": "Beverage / Liquid Sweetener",
+    "category": "Beverage",
     "notes": "Juices are natural liquid extracts from fruits, commonly used for sweetness, acidity, and flavor enhancement.\n\n- **Apple Juice:** Often used in baking, sauces, marinades, or as a sweetener substitute for water or other liquids. Adds mild sweetness and moisture.\n- **Ananas / Pineapple Juice:** Fresh or canned; balances salty, sweet, and sour elements in savory sauces, marinades, and tropical desserts. Adds tropical aroma and slight tang.\n- **Citrus / Lemon Juice / Lemon Liquid:** Freshly squeezed preferred; adds bright acidity to balance sweetness in desserts, glazes, drinks, and dressings. Preserves natural aroma better than bottled.\n- **Orange Juice / OJ:** Freshly squeezed or bottled; provides acidity, sweetness, and citrus aroma. Ideal for cakes, muffins, sauces, and glazes.\n- **Usage Tips:** Adjust quantity depending on acidity and sweetness. Can replace part of liquid in recipes for flavor enhancement. Best stored chilled and used quickly to preserve freshness.",
     "nutrition": {
       "calories": "45 per 100 ml",
@@ -2155,7 +2155,7 @@
       "Makrut lime leaves",
       "Thai lime leaves"
     ],
-    "category": "Spices / Herbs",
+    "category": "Herb",
     "notes": "Kaffir lime leaves are aromatic citrus leaves used in Southeast Asian cuisine.\n\n- **Usage:** Use whole for infusions or finely sliced for direct cooking; remove before serving. Can be dried or frozen, but fresh leaves provide the most fragrance.\n- **Pairings:** Complements coconut milk, lemongrass, chili, ginger, garlic, fish, chicken, and seafood.\n- **Storage:** Store fresh leaves in the refrigerator for short-term use, or freeze for longer storage. Dried leaves should be kept in a cool, airtight container.\n- **Substitutions:** Bay leaves with lime zest or lime zest alone can provide some citrus aroma, though flavor is not identical.",
     "nutrition": {
       "calories": "49 per 100 g",
@@ -2172,7 +2172,7 @@
     "aka": [
       "Chinese Gooseberry"
     ],
-    "category": "Fruit / Dessert",
+    "category": "Fruit",
     "notes": "Kiwi is a tart-sweet fruit with vibrant green flesh.\n\n- **Usage:** Use peeled and sliced or chopped. Ideal for tarts, pavlovas, fruit salads, smoothies, or other desserts. Kiwi contains enzymes (actinidin) that can affect gelatin and dairy, so use carefully in mousses or custards.\n- **Pairings:** Complements strawberries, blueberries, citrus, yogurt, cream, and meringue.\n- **Storage:** Store unripe kiwi at room temperature until soft; refrigerate ripe fruit for 3\u20135 days.\n- **Substitutions:** Green grapes, starfruit, or sliced peaches can mimic color and acidity, though flavor differs.",
     "nutrition": {
       "calories": "61 per 100 g",
@@ -2209,7 +2209,7 @@
       "Lamb Meat",
       "Mutton (older sheep)"
     ],
-    "category": "Meat / Curries",
+    "category": "Meat",
     "notes": "Use cuts suitable for slow cooking to achieve tenderness and enhance flavor. Popular cuts include shoulder, shank, neck, and leg.\n\n- **Usage:** Ideal for curries, stews, roasts, and braises. Can be marinated to enhance flavor.\n- **Pairings:** Complements garlic, rosemary, thyme, cumin, coriander, yogurt, and root vegetables.\n- **Storage:** Store in the refrigerator for up to 3 days or freeze for longer periods. Keep in airtight packaging to prevent freezer burn.\n- **Substitutions:** Beef or goat can be used in place of lamb, though flavor and tenderness differ.",
     "nutrition": {
       "calories": "294 per 100 g",
@@ -2236,7 +2236,7 @@
       "Grated Lemon Zest",
       "Lemon Rind"
     ],
-    "category": "Flavoring / Dessert",
+    "category": "Fruit",
     "notes": "Lemon zest is the outer colored peel of a lemon, rich in aromatic oils.\n\n- **Usage:** Use only the colored peel; avoid the bitter white pith. Ideal for flavoring cakes, cookies, custards, glazes, sauces, dressings, and beverages.\n- **Pairings:** Complements sugar, honey, chocolate, berries, cream, herbs like thyme or basil, and other citrus.\n- **Storage:** Store fresh zest in an airtight container in the refrigerator for up to a few days, or freeze for longer storage.\n- **Substitutions:** Lemon extract or finely grated lime zest can be used, though flavor will differ slightly.",
     "nutrition": {
       "calories": "29 per 100 g",
@@ -2257,7 +2257,7 @@
     "aka": [
       "Flaxseed"
     ],
-    "category": "Bread / Gluten-Free",
+    "category": "Seed",
     "notes": "Linseed, also known as flaxseed, can be used whole or ground.\n\n- **Usage:** Add to breads, muffins, granola, or smoothies for texture and nutrition. Ground linseed can help bind ingredients and improve moisture retention in gluten-free baking.\n- **Pairings:** Works well with oats, nuts, seeds, honey, fruits, and other flours.\n- **Storage:** Store in a cool, dark place in an airtight container. Ground linseed is best refrigerated to prevent rancidity.\n- **Substitutions:** Chia seeds, hemp seeds, or sesame seeds can be used for similar texture and nutritional benefits.",
     "nutrition": {
       "calories": "534 per 100 g",
@@ -2276,7 +2276,7 @@
     "aka": [
       "Barley Malt Powder"
     ],
-    "category": "Bread / Sweetener",
+    "category": "Bread",
     "notes": "Malt powder is derived from sprouted barley and comes in diastatic and non-diastatic forms.\n\n- **Usage:** Diastatic malt powder contains active enzymes that aid yeast fermentation and improve bread rise. Non-diastatic malt powder adds sweetness and malt flavor without affecting rising. Use in breads, rolls, bagels, and other baked goods.\n- **Pairings:** Complements flour, yeast, honey, chocolate, nuts, and milk.\n- **Storage:** Store in a cool, dry place in an airtight container to maintain potency.\n- **Substitutions:** Honey or brown sugar can replace malt powder for sweetness, though enzymatic activity will not be the same.",
     "nutrition": {
       "calories": "350 per 100 g",
@@ -2295,7 +2295,7 @@
     "aka": [
       "Mangifera indica"
     ],
-    "category": "Fruit / Dessert",
+    "category": "Fruit",
     "notes": "Mango is a tropical fruit with sweet, juicy flesh.\n\n- **Usage:** Use ripe mangoes for best flavor. Can be pureed, sliced, or diced for desserts, smoothies, sauces, salsas, or salads.\n- **Pairings:** Complements coconut, lime, ginger, chili, yogurt, cream, berries, and other tropical fruits.\n- **Storage:** Store unripe mangoes at room temperature until ripe; refrigerate ripe mangoes for 3\u20135 days. Peel before use.\n- **Substitutions:** Papaya or peach can be used as a substitute in texture and sweetness, though flavor differs.",
     "nutrition": {
       "calories": "60 per 100 g",
@@ -2312,7 +2312,7 @@
     "aka": [
       "Maple Sap Syrup"
     ],
-    "category": "Sweetener / Dessert",
+    "category": "Sweetener",
     "notes": "Maple syrup is a natural sweetener made from the sap of sugar maple trees.\n\n- **Usage:** Ideal for drizzling on pancakes, waffles, and oatmeal, or incorporating into baking, sauces, glazes, and desserts. Pure maple syrup preserves flavor and aroma; avoid flavored or imitation syrups for authentic taste.\n- **Pairings:** Complements butter, nuts, berries, chocolate, yogurt, and spices such as cinnamon or nutmeg.\n- **Storage:** Store unopened in a cool, dark place; refrigerate after opening to maintain freshness.\n- **Substitutions:** Honey or agave nectar can replace maple syrup, though flavor differs.",
     "nutrition": {
       "calories": "260 per 100 g",
@@ -2331,7 +2331,7 @@
     "aka": [
       "Mars Chocolate Bar"
     ],
-    "category": "Confectionery / Dessert",
+    "category": "Confectionery",
     "notes": "Mars Bar is a chocolate bar consisting of chocolate, caramel, and nougat.\n\n- **Usage:** Can be chopped, melted, or folded into batter for brownies, cookies, cakes, or desserts. Can also be used as a topping or garnish.\n- **Pairings:** Complements chocolate, peanut butter, nuts, caramel, vanilla, and baked goods.\n- **Storage:** Store in a cool, dry place away from direct sunlight. Best consumed before the expiration date for optimal texture and flavor.\n- **Substitutions:** Other chocolate bars with caramel and nougat (e.g., Snickers or Milky Way) can be used, though flavor balance may differ.",
     "nutrition": {
       "calories": "228 per 50 g bar",
@@ -2354,7 +2354,7 @@
       "Skim Milk",
       "Whole Milk"
     ],
-    "category": "Dairy / Liquid",
+    "category": "Dairy",
     "notes": "Milk is a versatile dairy liquid available in various fat levels.\n\n- **Full-Cream / Whole / Full-Fat Milk:** Higher fat content enhances flavor, richness, and mouthfeel in cooking, baking, sauces, and beverages. Contributes to browning in baked goods and creamy texture in custards, puddings, and soups.\n- **Lite / Reduced-Fat / Low-Fat Milk:** Moderate fat content; provides moisture, protein, and flavor with less richness. Suitable for everyday cooking or when a lighter texture is desired.\n- **Skim / Low-Fat Milk:** Minimal fat content; retains protein and moisture but less impact on texture, mouthfeel, and browning. Ideal for low-fat recipes, beverages, or where creaminess is not critical.\n- **Usage Tips:** Adjust recipes when substituting between types to account for fat content. Can be combined with cream or milk powder to adjust richness. Store refrigerated and use before expiry for best flavor.",
     "nutrition": {
       "calories": "64 per 100 ml (whole milk)",
@@ -2399,7 +2399,7 @@
       "Full-Cream Milk Powder",
       "Skim Milk Powder"
     ],
-    "category": "Dairy / Baking",
+    "category": "Dairy",
     "notes": "Milk powder is dehydrated milk available in full-cream and skim varieties.\n\n- **Full-Cream / Whole Milk Powder:** High-fat powder adds richness, creaminess, and mouthfeel. Can be reconstituted with water for drinking, sauces, or used dry in baking to enhance texture and flavor.\n- **Skim Milk Powder:** Low-fat or fat-free; adds protein and body without extra fat. Useful for leaner baked goods, dough conditioning, or nutritional enrichment.\n- **Usage Tips:** Adjust hydration when reconstituting. Can improve browning, structure, and moisture retention in cakes, breads, and pastries. Store in an airtight container, away from moisture and heat for best shelf life.",
     "nutrition": {
       "calories": "496 per 100 g (full-cream), 360 per 100 g (skim)",
@@ -2419,7 +2419,7 @@
     "aka": [
       "Sweetened Condensed Milk"
     ],
-    "category": "Desserts",
+    "category": "Dairy",
     "notes": "Condensed milk is cow\u2019s milk with most water removed, available sweetened or unsweetened.\n\n- **Usage:** Ideal for fudge, caramel, custards, puddings, ice creams, and baking. Sweetened condensed milk adds both moisture and sweetness; unsweetened (evaporated milk) can be used where sugar is added separately.\n- **Pairings:** Complements chocolate, coffee, caramel, fruits, and baked goods.\n- **Storage:** Store unopened cans in a cool, dry place. Refrigerate after opening and use within a few days.\n- **Substitutions:** Evaporated milk plus sugar can mimic sweetened condensed milk; coconut condensed milk can be used for dairy-free alternatives.",
     "nutrition": {
       "calories": "321 per 100 g",
@@ -2443,7 +2443,7 @@
       "Pork Sausage Mince",
       "Sausage Meat"
     ],
-    "category": "Meat / Main",
+    "category": "Meat",
     "notes": "Minced meat is finely chopped or ground meat from beef, chicken, pork, or mixed varieties.\n\n- **Beef:** Use lean or regular; brown before adding to sauces, pasta, or fillings. Retains strong, savory flavor.\n- **Chicken:** Use fresh; can mix white and dark meat for richer flavor. Ideal for pies, patties, and stuffing. Ensure fully cooked.\n- **Pork:** Lean or mixed; excellent for stir-fries, dumplings, and sauces. Adds natural richness.\n- **Sausage / Sausage Meat:** Pre-seasoned or fresh; remove casings if needed. Adds seasoned, savory flavor to pies, rolls, and pastries.\n- **Tips:** Always handle raw minced meat carefully. Cook thoroughly, and store refrigerated or frozen to maintain freshness.",
     "nutrition": {
       "calories": "250\u2013290 per 100 g (varies by type and fat content)",
@@ -2464,7 +2464,7 @@
     "aka": [
       "Fresh Mint"
     ],
-    "category": "Curries / Herb",
+    "category": "Herb",
     "notes": "Mint leaves are aromatic herbs used fresh in a variety of dishes.\n\n- **Usage:** Use fresh leaves for garnishing, sauces, chutneys, salads, or in curries and raita. Can be finely chopped, torn, or blended. Freezing preserves flavor but may reduce texture.\n- **Pairings:** Complements yogurt, lemon, lime, coriander, lamb, peas, chocolate, and fruits.\n- **Storage:** Store fresh leaves in a sealed container or wrapped in a damp paper towel in the refrigerator for up to a week. Can also be frozen or dried for longer storage.\n- **Substitutions:** Spearmint or peppermint can replace fresh mint, though flavor intensity differs.",
     "nutrition": {
       "calories": "70 per 100 g",
@@ -2481,7 +2481,7 @@
     "aka": [
       "Japanese Sweet Rice Wine"
     ],
-    "category": "Sauces / Condiment",
+    "category": "Condiment",
     "notes": "Mirin is a traditional Japanese sweet rice wine with low alcohol content.\n\n- **Usage:** Commonly used in teriyaki, sukiyaki, stir-fries, glazes, and marinades. Adds subtle sweetness and depth without overpowering other flavors.\n- **Pairings:** Complements soy sauce, sake, dashi, ginger, garlic, and sesame.\n- **Storage:** Store in a cool, dark place. Once opened, refrigerate and use within a few months for best flavor.\n- **Substitutions:** Can be replaced with a mixture of sake and sugar or a mild rice vinegar with sugar if unavailable, though flavor will differ.",
     "nutrition": {
       "calories": "40 per 15 ml (1 tbsp)",
@@ -2502,7 +2502,7 @@
     "aka": [
       "Blackstrap Molasses"
     ],
-    "category": "Sweetener / Bread",
+    "category": "Sweetener",
     "notes": "Molasses is a by-product of sugar refining, dark, thick, and robust in flavor.\n\n- **Usage:** Commonly used in gingerbread, dark breads, baked beans, barbecue sauces, and marinades. Blackstrap molasses is stronger and more bitter than light or dark molasses; adjust quantity to taste.\n- **Pairings:** Complements spices like ginger, cinnamon, nutmeg, cloves, citrus, chocolate, and nuts.\n- **Storage:** Store in a cool, dry place in a sealed container to prevent crystallization. Refrigeration can extend shelf life.\n- **Substitutions:** Light or dark molasses, honey, or brown sugar can replace molasses, though flavor intensity will differ.",
     "nutrition": {
       "calories": "290 per 100 g",
@@ -2528,7 +2528,7 @@
       "Swiss Brown Mushroom",
       "White Mushroom"
     ],
-    "category": "Vegetable / Main",
+    "category": "Vegetable",
     "notes": "Mushrooms are versatile fungi used fresh or cooked in a variety of dishes.\n\n- **Swiss Brown / Chestnut Mushrooms:** Firmer, slightly nuttier, holds shape well; ideal for sauces, roasting, or saut\u00e9s.\n- **Button / White Mushrooms:** Mild flavor, versatile; good raw in salads or cooked in a wide range of dishes.\n- **Flat / Large / Portobello Mushrooms:** Meaty texture and earthy flavor; perfect for grilling, stuffing, or hearty recipes.\n- **Usage Tips:** All mushrooms are Agaricus bisporus. Cooking intensifies umami. Clean gently with a damp cloth; avoid soaking.\n- **Storage:** Store in a cool, dry place, ideally in a paper bag in the refrigerator. Use promptly for best texture and flavor.\n- **Substitutions:** Other edible mushrooms like shiitake, oyster, or cremini can be used depending on texture and flavor needs.",
     "nutrition": {
       "calories": "22 per 100 g",
@@ -2562,7 +2562,7 @@
       "Wholegrain",
       "Wholegrain Mustard"
     ],
-    "category": "Baking / Condiment",
+    "category": "Spice",
     "notes": "All-purpose culinary mustards are used in cooking, baking, sauces, and dressings. Flavour, heat, and texture vary by type, making them versatile for many recipes:\n\n- **French / Dijon:** Smooth, tangy, moderately pungent; ideal for vinaigrettes, sauces, marinades, and spreads.\n- **Wholegrain / Stoneground:** Coarse with visible mustard seeds; adds texture and bursts of flavour; excellent in breads, sauces, and charcuterie.\n- **American / Yellow / Australian:** Mild, slightly sweet; suitable for sandwiches, burgers, pastries, and general cooking.\n- **Hot English:** Strong, peppery, pungent; perfect for glazing meats, roasting, and bold sauces.\n- **Mild English:** Less intense, smooth texture; versatile in sandwiches, sauces, and general cooking.\n\nStore all mustards in a cool, dark place, preferably airtight. Refrigerate after opening to preserve flavour, aroma, and potency.",
     "nutrition": {
       "calories": "66 per 100 g",
@@ -2585,7 +2585,7 @@
       "Rai",
       "Sarson Seeds"
     ],
-    "category": "Spices / Indian",
+    "category": "Indian",
     "notes": "Mustard seeds come in black, brown, and yellow varieties, each with distinct flavor and heat levels.\n\n- **Usage:** Whole seeds are preferred for tempering in hot oil (tadka) to release aroma and nutty flavor. Can also be ground for spice blends or pastes.\n- **Pairings:** Complements cumin, coriander, curry leaves, turmeric, garlic, ginger, and dals.\n- **Storage:** Store in an airtight container in a cool, dark place to preserve potency and flavor. Grind just before use for maximum aroma.\n- **Substitutions:** Yellow mustard seeds can be used in place of black or brown seeds, though heat and flavor intensity will vary.",
     "nutrition": {
       "calories": "508 per 100 g",
@@ -2609,7 +2609,7 @@
       "Pita Bread",
       "Flatbread"
     ],
-    "category": "Bread / Flatbread",
+    "category": "Bread",
     "notes": "Naan is a leavened, oven-baked flatbread traditionally cooked in a tandoor oven, popular in Indian and South Asian cuisine.\n\n- **Store-Bought Naan:** Available fresh or frozen. Heat in a dry pan, under a grill, or in a 180\u00b0C oven wrapped in foil for 5 minutes.\n- **Garlic Naan:** Topped with butter, minced garlic, and sometimes coriander; ideal alongside curries.\n- **Uses:** Primary accompaniment to curries, dips, and sauces. Can be used as a pizza base or wrap.\n- **Roti / Chapati:** Unleavened whole wheat flatbreads; thinner and less fluffy than naan but similarly versatile.\n- **Pita Bread:** Greek-style flatbread with a pocket; excellent for fillings and alongside dips.",
     "nutrition": {
       "calories": "262 per 100 g",
@@ -2628,7 +2628,7 @@
     "aka": [
       "NA"
     ],
-    "category": "Fruit / Dessert",
+    "category": "Fruit",
     "notes": "Nectarines are firm, juicy stone fruits with smooth edible skin.\n\n- **Usage:** Use fresh, sliced, or diced in tarts, pies, crisps, cakes, salads, or as a snack. Can be poached, roasted, or grilled to intensify flavor.\n- **Pairings:** Complements berries, stone fruits, cream, custard, almonds, cinnamon, and honey.\n- **Storage:** Store at room temperature until ripe, then refrigerate to extend freshness. Handle gently to avoid bruising.\n- **Substitutions:** Peaches can be used as a similar alternative with slightly fuzzier texture.",
     "nutrition": {
       "calories": "44 per 100 g",
@@ -2648,7 +2648,7 @@
       "Kalonji",
       "Habbatul Barakah"
     ],
-    "category": "Spice / Seed",
+    "category": "Seed",
     "notes": "Small matte-black seeds with a slightly bitter, peppery flavour and subtle onion, oregano, and nutty notes. Commonly used whole or lightly toasted to enhance aroma. Popular in Middle Eastern, Indian, and North African cuisines; sprinkled on flatbreads, naan, pastries, pickles, vegetables, and legumes. In Filipino cooking, less traditional but useful for bread, rice dishes, and spice blends. Toast briefly in a dry pan to release flavour, but avoid burning. Store in an airtight container away from heat and light for up to 2\u20133 years.",
     "nutrition": {
       "calories": "375 per 100 g",
@@ -2667,7 +2667,7 @@
     "aka": [
       "Chocolate Hazelnut Spread"
     ],
-    "category": "Dessert / Spread",
+    "category": "Confectionery",
     "notes": "Nutella is a sweet chocolate-hazelnut spread.\n\n- **Usage:** Use as a spread on bread, toast, or pancakes; incorporate into baking, fillings, frostings, or as a topping for desserts.\n- **Pairings:** Complements bread, pastries, crepes, bananas, strawberries, and other fruits.\n- **Storage:** Store in a cool, dry place; do not refrigerate as it can harden. Keep tightly sealed to maintain flavor.\n- **Substitutions:** Other chocolate-hazelnut spreads or homemade versions can be used, though flavor and texture may differ.",
     "nutrition": {
       "calories": "530 per 100 g",
@@ -2686,7 +2686,7 @@
     "aka": [
       "Myristica fragrans"
     ],
-    "category": "Spice / Main",
+    "category": "Spice",
     "notes": "Nutmeg is a warm, aromatic spice derived from the seed of Myristica fragrans.\n\n- **Usage:** Grate fresh for best flavor; use sparingly. Ground nutmeg can be added to curries, spice blends, baked goods, custards, sauces, and beverages.\n- **Pairings:** Complements cinnamon, cloves, allspice, vanilla, chocolate, cream, and nut-based desserts.\n- **Storage:** Store whole or ground nutmeg in an airtight container in a cool, dark place to preserve aroma and potency.\n- **Substitutions:** Mace (the seed covering) can be used as a milder alternative; pre-ground nutmeg works but loses aroma faster.",
     "nutrition": {
       "calories": "525 per 100 g",
@@ -2731,7 +2731,7 @@
       "Vegetable Oil",
       "Virgin Olive Oil"
     ],
-    "category": "Oil / Fat",
+    "category": "Oil",
     "notes": "Plant-based culinary oils with a wide range of **smoke points**, **flavour profiles**, and **applications**.\n\n- **Neutral oils:** Canola (rapeseed), corn, grapeseed, rice bran, soybean, sunflower, blended vegetable oil, and cottonseed oil. Very mild to neutral flavour; suitable for baking, roasting, saut\u00e9ing, shallow frying, and deep frying. High smoke points allow even cooking without flavor interference.\n- **Peanut oil (groundnut oil):** High smoke point with a mild nutty aroma. Refined peanut oil is largely neutral and ideal for high-heat cooking; unrefined is more aromatic and flavour-forward.\n- **Rice bran oil:** Exceptionally high smoke point with a clean, neutral taste; excellent for sustained high-temperature cooking.\n- **Olive oil:** Varies by refinement. Extra virgin olive oil provides pronounced flavour, ideal for dressings and finishing; pure/refined olive oil better for frying and general cooking.\n- **Sesame oil:** Regular or toasted (roasted). Regular sesame oil suitable for light cooking; toasted sesame oil has strong aroma, best used sparingly as finishing oil or flavour accent.\n- **Cottonseed oil:** Mild flavor, light color; high smoke point makes it suitable for deep frying, saut\u00e9ing, and general cooking. Often used in commercial frying and baking.",
     "nutrition": {
       "calories": "884 per 100 g",
@@ -2802,7 +2802,7 @@
       "Spanish Olives",
       "Table Olives"
     ],
-    "category": "Baking / Savoury",
+    "category": "Vegetable",
     "notes": "Olives are cured fruits from the olive tree; can be black, green, or specialty varieties.\n\n- **Usage:** Use whole, pitted, sliced, or chopped in breads, focaccias, pastries, salads, or tapenades. Can be marinated in herbs, oil, or brine for added flavour.\n- **Pairings:** Complements cheese, tomatoes, garlic, herbs, and Mediterranean ingredients.\n- **Storage:** Store unopened jars or tins in a cool, dark place; refrigerate after opening in brine or oil to maintain freshness.\n- **Substitutions:** Capers or roasted peppers can substitute in some recipes for briny flavor.",
     "nutrition": {
       "calories": "115 per 100 g",
@@ -2833,7 +2833,7 @@
       "Spring Onion",
       "White Onion"
     ],
-    "category": "Vegetable / Main",
+    "category": "Vegetable",
     "notes": "Onions are versatile aromatic vegetables used as a base in cooking.\n\n- **Usage:** Brown onions provide depth and richness in soups, stews, and braises; white onions are sharper and ideal for saut\u00e9s, sauces, and raw preparations; Spanish onions are sweeter, perfect for caramelizing or salads.\n- **Pairings:** Complements garlic, herbs, tomatoes, meats, and other vegetables.\n- **Storage:** Store in a cool, dry, well-ventilated place. Avoid refrigeration for whole onions; sliced onions should be refrigerated and used promptly.\n- **Substitutions:** Shallots or leeks can replace onions in certain recipes for milder flavor or aroma.",
     "nutrition": {
       "calories": "40 per 100 g",
@@ -2890,7 +2890,7 @@
       "Cointreau",
       "Triple Sec"
     ],
-    "category": "Alcohol / Liqueur",
+    "category": "Alcohol",
     "notes": "Orange liqueurs are sweet, citrus-flavored alcoholic spirits.\n\n- **Usage:** Use sparingly to flavor cakes, pastries, sauces, creams, and desserts. Can be added to cocktails or used for flamb\u00e9.\n- **Pairings:** Complements chocolate, cream, citrus desserts, fruits, and nuts.\n- **Storage:** Store upright in a cool, dark place away from heat and sunlight to preserve flavor and aroma.\n- **Substitutions:** Other orange liqueurs (Cointreau, Grand Marnier, or Triple Sec) can be used; flavors will vary slightly.",
     "nutrition": {
       "calories": "250 per 100 ml",
@@ -2913,7 +2913,7 @@
       "Orange Rind",
       "Zest of 1 Orange"
     ],
-    "category": "Flavoring / Citrus",
+    "category": "Fruit",
     "notes": "Orange zest is the finely grated outer peel of oranges, providing concentrated citrus aroma and flavor.\n\n- **Usage:** Use in baking, desserts, marinades, sauces, dressings, and beverages. Avoid the bitter white pith.\n- **Pairings:** Complements chocolate, nuts, berries, cream, yogurt, and citrus-based desserts.\n- **Storage:** Store in an airtight container in a cool, dark place; can also be frozen for long-term use.\n- **Substitutions:** Lemon or lime zest can be used for different citrus notes, though flavor will vary.",
     "nutrition": {
       "calories": "97 per 100 g",
@@ -2938,7 +2938,7 @@
       "Dried Oregano",
       "Oregano, Dried"
     ],
-    "category": "Herb / Sauce",
+    "category": "Herb",
     "notes": "Oregano is a fragrant herb commonly used in Mediterranean and tomato-based dishes.\n\n- **Usage:** Dried oregano is more potent than fresh; add early in cooking to allow flavor to bloom. Fresh oregano can be added toward the end for bright, aromatic notes.\n- **Pairings:** Complements tomato, garlic, olive oil, cheeses, meats, and vegetables.\n- **Storage:** Store dried oregano in an airtight container in a cool, dark place; fresh oregano can be refrigerated or frozen.\n- **Substitutions:** Marjoram or thyme can be used for a milder, similar flavor.",
     "nutrition": {
       "calories": "265 per 100 g",
@@ -2965,7 +2965,7 @@
       "Smoky Paprika",
       "Sweet Paprika"
     ],
-    "category": "Spice / Curries",
+    "category": "Spice",
     "notes": "Paprika is a ground spice made from dried red peppers, ranging from sweet to hot and smoked varieties.\n\n- **Usage:** Use sweet, hot, or smoked paprika depending on desired flavor. Ideal for sauces, stews, rubs, marinades, soups, and roasted vegetables. Toast lightly in a dry pan or oil to release aroma.\n- **Pairings:** Complements garlic, onion, meats, potatoes, eggs, beans, and other vegetables.\n- **Storage:** Store in an airtight container in a cool, dark place to preserve colour, aroma, and flavor.\n- **Substitutions:** Chili powder or cayenne can be used for heat; smoked paprika can be substituted with chipotle powder for smoky notes.",
     "nutrition": {
       "calories": "282 per 100 g",
@@ -2989,7 +2989,7 @@
       "Flat-Leaf Parsley",
       "Italian Parsley"
     ],
-    "category": "Herb / Bread",
+    "category": "Herb",
     "notes": "Parsley is a fresh herb used for flavoring, garnishing, and enhancing baked goods.\n\n- **Usage:** Use flat-leaf (Italian) parsley for stronger flavor in breads, savory pastries, sauces, and saut\u00e9s. Curly parsley is best for garnish and visual appeal.\n- **Pairings:** Complements garlic, lemon, butter, eggs, vegetables, and meats.\n- **Storage:** Store fresh parsley wrapped in damp paper towel in the refrigerator or freeze chopped for long-term use.\n- **Substitutions:** Cilantro or chervil can be used for a similar fresh, green note depending on the dish.",
     "nutrition": {
       "calories": "36 per 100 g",
@@ -3013,7 +3013,7 @@
     "aka": [
       "Passiflora edulis"
     ],
-    "category": "Fruit / Dessert",
+    "category": "Fruit",
     "notes": "Passionfruit is a tropical fruit with aromatic pulp and crunchy seeds.\n\n- **Usage:** Scoop out pulp and seeds for use in desserts, tarts, pavlovas, sauces, drinks, and marinades. Can be used fresh or in purees.\n- **Pairings:** Complements cream, custards, chocolate, citrus, and tropical fruits.\n- **Storage:** Store whole fruit at room temperature until ripe; refrigerate after cutting. Pulp can be frozen for later use.\n- **Substitutions:** Mango or kiwi can provide a similar tropical tang in certain recipes.",
     "nutrition": {
       "calories": "97 per 100 g",
@@ -3045,7 +3045,7 @@
       "Tortellini",
       "Vermicelli"
     ],
-    "category": "Pasta / Main",
+    "category": "Grain",
     "notes": "Pasta is a versatile staple made from wheat or alternative flours, available in a wide variety of shapes and sizes.\n\n- **Types:** Long pasta (spaghetti, linguine, fettuccine, angel hair), ribbon pasta (tagliatelle, pappardelle), tube pasta (penne, rigatoni, macaroni), stuffed pasta (tortellini, ravioli), and sheets (lasagna).\n- **Usage:** Boil in salted water until al dente. Can be combined with sauces, baked, or served in soups. Cooking times vary by shape and thickness.\n- **Pairings:** Complements tomato sauces, cream sauces, olive oil, cheese, seafood, meats, vegetables, and herbs.\n- **Storage:** Store dried pasta in a cool, dry place; fresh pasta should be refrigerated for short-term use or frozen for longer storage.\n- **Substitutions:** Gluten-free or whole grain pasta can replace traditional wheat pasta with minor differences in texture and flavor.",
     "nutrition": {
       "calories": "350 per 100 g (dried wheat pasta)",
@@ -3065,7 +3065,7 @@
       "Flaky Pastry",
       "Short Pastry"
     ],
-    "category": "Pastry / Main",
+    "category": "Baking",
     "notes": "Pastries are dough-based products used for sweet or savory dishes, with different types providing varied textures.\n\n- **Puff (Flaky Pastry):** Keep cold before baking and handle gently to maintain light, flaky layers. Ideal for tarts, vol-au-vents, pies, and savory turnovers.\n- **Shortcrust (Short Pastry):** Mix minimally to ensure a tender, crumbly texture. Chill before rolling; excellent for pie bases, quiches, and tarts.\n- **Usage Tips:** Use appropriate pastry type depending on desired texture and dish. Both can be blind-baked or filled as required.\n- **Storage:** Store refrigerated or frozen; thaw chilled before use to preserve texture.\n- **Substitutions:** Puff can substitute for shortcrust in some recipes for a flakier texture; shortcrust can be used when a sturdy base is needed.",
     "nutrition": {
       "calories": "500 per 100 g",
@@ -3087,7 +3087,7 @@
     "aka": [
       "NA"
     ],
-    "category": "Fruit / Dessert",
+    "category": "Fruit",
     "notes": "Peaches are juicy, aromatic fruits with sweet flesh and edible skin.\n\n- **Usage:** Use ripe but firm fruit. Peel optional. Slice, dice, or pur\u00e9e for tarts, pies, cobblers, jams, compotes, or desserts. Can also be roasted, poached, or grilled to intensify flavor.\n- **Pairings:** Complements cream, yogurt, nuts, spices like cinnamon or nutmeg, and other fruits.\n- **Storage:** Store unripe peaches at room temperature to ripen; refrigerate ripe peaches and use within a few days. Can be frozen or canned for longer storage.\n- **Substitutions:** Nectarine or apricot can be used as similar-tasting alternatives.",
     "nutrition": {
       "calories": "39 per 100 g",
@@ -3106,7 +3106,7 @@
       "Goober",
       "Monkey Nut"
     ],
-    "category": "Nut/Legume",
+    "category": "Nut",
     "notes": "Store raw peanuts in a cool, dry place for up to 3 months, or refrigerate/freeze for longer storage. Roasted peanuts should be kept in an airtight container to maintain freshness. Can be eaten raw, roasted, boiled, or ground into peanut butter. Common allergen\u2014always check with guests before serving. Available shelled or unshelled, salted or unsalted, and in various forms (whole, halved, chopped, or ground). To enhance flavor, toast in a dry skillet or oven before use. Remove skins after roasting by rubbing in a clean towel if desired. Used in both sweet and savory dishes across many cuisines.",
     "nutrition": {
       "calories": "161 per oz (28g)",
@@ -3125,7 +3125,7 @@
     "aka": [
       "NA"
     ],
-    "category": "Fruit / Dessert",
+    "category": "Fruit",
     "notes": "Pears are sweet, juicy fruits with a delicate aroma and soft flesh.\n\n- **Usage:** Use ripe but firm pears. Peel optional. Ideal for poaching, baking in tarts, crumbles, cakes, or making compotes and preserves. Choose variety based on sweetness, firmness, and texture.\n- **Pairings:** Complements spices such as cinnamon, nutmeg, and cardamom, as well as apples, citrus, nuts, and cream.\n- **Storage:** Store unripe pears at room temperature to ripen; refrigerate ripe pears to extend freshness. Can be canned or frozen for longer storage.\n- **Substitutions:** Apples or quince can be used for similar texture and sweetness in recipes.",
     "nutrition": {
       "calories": "57 per 100 g",
@@ -3142,7 +3142,7 @@
     "aka": [
       "Pecan Nuts"
     ],
-    "category": "Nut / Dessert",
+    "category": "Nut",
     "notes": "Pecans are sweet, buttery nuts commonly used in baking and desserts.\n\n- **Usage:** Chop, toast, or use whole in pies, cookies, cakes, granola, and salads. Toasting enhances aroma and flavor.\n- **Pairings:** Complements chocolate, caramel, brown sugar, apples, pears, and spices like cinnamon and nutmeg.\n- **Storage:** Store in an airtight container in a cool, dark place; refrigerate or freeze for longer shelf life.\n- **Substitutions:** Walnuts can be used in recipes as a similar-textured nut with slightly different flavor.",
     "nutrition": {
       "calories": "691 per 100 g",
@@ -3167,7 +3167,7 @@
       "White Pepper",
       "White Peppercorns"
     ],
-    "category": "Spice / Sauce",
+    "category": "Spice",
     "notes": "Pepper comes in several forms, each with distinct aroma and heat.\n\n- **Black Peppercorns:** Sharp, pungent flavour; best freshly cracked for maximum aroma. Ideal for stocks, sauces, meats, and slow-cooked dishes.\n- **Green Peppercorns:** Milder, slightly fruity; often used in cream sauces, pickles, and light dishes. Can be used fresh, frozen, or brined.\n- **Ground Pepper:** Convenient form; black or white varieties. Enhances other flavours and adds mild heat. Use fresh-ground for best aroma.\n- **Tips:** Toast whole peppercorns lightly to enhance flavour before grinding. Adjust quantity depending on heat preference. Store whole or ground pepper in airtight containers away from heat and light.\n- **White Pepper:** Milder and less pungent than black; used in white sauces, light-coloured dishes, and Asian cooking where black specks are undesirable.",
     "nutrition": {
       "calories": "251 per 100 g",
@@ -3202,7 +3202,7 @@
       "Cream Cheese",
       "Light Cream Cheese"
     ],
-    "category": "Dairy / Dessert",
+    "category": "Dairy",
     "notes": "Cream cheese is a soft, mild-tasting fresh cheese.\n\n- **Usage:** Best used at room temperature for smooth mixing in cheesecakes, frostings, dips, and spreads. Can be whipped or folded into batters.\n- **Pairings:** Complements sugar, citrus, chocolate, berries, herbs, and smoked salmon.\n- **Storage:** Store refrigerated; consume by the use-by date. Can be frozen for longer storage but may affect texture.\n- **Substitutions:** Mascarpone, ricotta, or Greek yogurt can replace cream cheese in some recipes with texture adjustments.",
     "nutrition": {
       "calories": "342 per 100 g",
@@ -3228,7 +3228,7 @@
       "Pine Seeds",
       "Pignolia"
     ],
-    "category": "Nut / Seed",
+    "category": "Nut",
     "notes": "Pine nuts are the edible seeds of pine trees, harvested from the cones. Small, elongated, and cream-coloured.\n\n- **Flavour:** Mild, sweet, and buttery with a slight resinous note.\n- **Toasting:** Dry-toast in a pan over medium heat, stirring constantly, until golden \u2014 3\u20134 minutes. Watch closely as they can burn very quickly. Toasting deepens flavour significantly.\n- **Common Uses:** Essential in traditional pesto, added to salads, pasta, pilafs, and baked goods. Used as garnish on dips and in Middle Eastern cooking.\n- **Storage:** High oil content makes pine nuts perishable. Store in an airtight container in the fridge for up to 1 month, or freeze for up to 6 months.",
     "nutrition": {
       "calories": "673 per 100 g",
@@ -3252,7 +3252,7 @@
       "Pineapple Slices",
       "Pineapple Tidbits"
     ],
-    "category": "Fruit / Dessert",
+    "category": "Fruit",
     "notes": "Pineapple is a tropical fruit with sweet, tart, and juicy flesh.\n\n- **Usage:** Use fresh, canned, crushed, sliced, tidbits, or chunks depending on recipe. Drain syrup if using canned and not needed. Tidbits are small, uniform pieces ideal for baking, salads, or toppings. Can be chopped, juiced, or folded into batters.\n- **Pairings:** Complements coconut, cream, rum, brown sugar, ginger, and other tropical fruits.\n- **Storage:** Store fresh pineapple in a cool place until cut; refrigerate cut fruit and consume within a few days. Canned pineapple can be stored unopened at room temperature; refrigerate after opening.\n- **Substitutions:** Mango, papaya, or peaches can be used for similar tropical sweetness in some recipes.",
     "nutrition": {
       "calories": "50 per 100 g",
@@ -3271,7 +3271,7 @@
     "aka": [
       "NA"
     ],
-    "category": "Fruit / Dessert",
+    "category": "Fruit",
     "notes": "Plums are sweet-tart stone fruits with smooth skin and juicy flesh.\n\n- **Usage:** Use ripe but firm plums; pit removed. Ideal for baking in tarts, cakes, crumbles, or stewing for sauces, jams, and preserves. Skin adds color and slight tartness.\n- **Pairings:** Complements cinnamon, nutmeg, ginger, almonds, citrus, and other stone fruits.\n- **Storage:** Store unripe plums at room temperature to ripen; refrigerate ripe plums and use within a few days. Can be frozen or canned for long-term storage.\n- **Substitutions:** Peaches, nectarines, or apricots can be used for similar texture and sweetness.",
     "nutrition": {
       "calories": "46 per 100 g",
@@ -3290,7 +3290,7 @@
     "aka": [
       "Papaver Seeds"
     ],
-    "category": "Baking / Dessert",
+    "category": "Baking",
     "notes": "Poppy seeds are tiny, oil-rich seeds with a subtle nutty flavor.\n\n- **Usage:** Use whole or ground in cakes, muffins, pastries, breads, and desserts. Lightly toast to enhance aroma and crunch.\n- **Pairings:** Complements lemon, orange, almond, vanilla, honey, and cream cheese.\n- **Storage:** Store in a cool, dark place in an airtight container. Can be refrigerated or frozen for longer shelf life.\n- **Substitutions:** Sesame seeds or finely chopped nuts can provide similar texture and crunch in recipes.",
     "nutrition": {
       "calories": "525 per 100 g",
@@ -3322,7 +3322,7 @@
       "Smoked Ham",
       "Swine"
     ],
-    "category": "Meat / Filipino",
+    "category": "Meat",
     "notes": "Pork is a versatile red meat used in a wide variety of dishes.\n\n- **Usage:** Use cuts according to cooking method\u2014loin, belly, shoulder, or ribs. Marinate for flavor when grilling, roasting, stir-frying, or braising. Can be ground for sausages, dumplings, or meatballs.\n- **Pairings:** Complements garlic, soy sauce, vinegar, citrus, herbs, and spices.\n- **Storage:** Store fresh pork in the refrigerator and use within 2\u20133 days; freeze for longer storage. Thaw safely before cooking.\n- **Tips:** Trim excess fat if desired; slow cooking enhances tenderness and flavor. Ensure pork is fully cooked to safe internal temperature.",
     "nutrition": {
       "calories": "242 per 100 g (raw, lean with fat trimmed)",
@@ -3351,7 +3351,7 @@
       "White Potato",
       "Yam (incorrect but commonly used)"
     ],
-    "category": "Vegetable / Main",
+    "category": "Vegetable",
     "notes": "Potatoes are versatile tubers with starchy or waxy flesh.\n\n- **Regular Potatoes:** Varieties include Desiree (red skin, all-rounder), Sebago (high starch, ideal for chips and mash), Dutch Cream (yellow flesh, rich and creamy), Kipfler (waxy, good for salads and roasting), Pontiac (red skin, good boiler), and King Edward (floury, excellent for baking). Waxy types hold shape in salads and stews; floury types break down for mash, gnocchi, and baking.\n- **Sweet Potatoes / Kumara:** Varieties include Beauregard (orange, moist, very sweet), Jewel (orange, slightly firmer), Garnet (deep orange-red skin, rich flavour), Kumara Orange (classic roasting), Kumara Gold (golden flesh, nutty, drier), Kumara Purple (purple skin and flesh, dense, less sweet), and Kumara White (pale flesh, mild and dry). Moist orange varieties are best for mashing and baking; drier white or purple types are ideal for roasting and frying.\n- **Usage:** Boil, roast, bake, mash, fry, or use in soups and gratins. Can be incorporated into doughs or gnocchi.\n- **Pairings:** Complements butter, cream, cheese, garlic, herbs, cinnamon, nutmeg, maple, and honey.\n- **Storage:** Store in a cool, dark, dry place; avoid refrigeration for regular potatoes (affects texture) and keep sweet potatoes in a well-ventilated area. Do not store near onions.",
     "nutrition": {
       "calories": "77 per 100 g (regular), 86 per 100 g (sweet)",
@@ -3370,7 +3370,7 @@
     "aka": [
       "Ispaghula Husk"
     ],
-    "category": "Bread / Gluten-Free",
+    "category": "Bread",
     "notes": "Psyllium husk is a soluble fiber derived from the seeds of Plantago ovata.\n\n- **Usage:** Mix with water before adding to gluten-free doughs or batters to improve binding, moisture retention, and texture. Can also be used as a thickener for sauces or smoothies.\n- **Pairings:** Works well with gluten-free flours such as rice, almond, buckwheat, and oat flour. Complements seeds, nuts, and grains.\n- **Storage:** Store in a cool, dry place in an airtight container to prevent moisture absorption.\n- **Tips:** Start with small quantities; too much can make dough gummy or overly dense.",
     "nutrition": {
       "calories": "375 per 100 g",
@@ -3413,7 +3413,7 @@
     "aka": [
       "Pepitas"
     ],
-    "category": "Bread / Seed",
+    "category": "Seed",
     "notes": "Pumpkin kernels, also called pepitas, are the edible seeds of pumpkins.\n\n- **Usage:** Can be used raw, roasted, or lightly toasted. Ideal for sprinkling on breads, muffins, salads, granola, or incorporated into doughs. Combine with sunflower, sesame, flax, or hemp seeds for added texture and nutrition.\n- **Pairings:** Works well with nuts, oats, whole grains, dried fruits, and chocolate.\n- **Storage:** Store in a cool, dry place in an airtight container. Roasted kernels keep longer if refrigerated.",
     "nutrition": {
       "calories": "574 per 100 g",
@@ -3433,7 +3433,7 @@
       "Black Quinoa",
       "White Quinoa"
     ],
-    "category": "Bread / Gluten-Free",
+    "category": "Grain",
     "notes": "Quinoa is a versatile, gluten-free pseudo-grain known for its high protein and nutritional value.\n\n- **Common Varieties and Usage:**\n  * **Black Quinoa:** Darker color; slightly earthier, nuttier flavour. Can be cooked, toasted, or added whole to breads, granola, salads, and gluten-free baking for color and texture.\n  * **White Quinoa:** Milder flavour; cooks faster and softer. Can be used cooked, flaked, or ground into flour for breads, muffins, and other gluten-free baked goods.\n- **Usage Tips:** Rinse thoroughly before cooking to remove natural saponins that can taste bitter. Toast lightly to enhance nuttiness. Adjust hydration in recipes when using whole or flaked quinoa for optimal texture.\n- **Storage:** Store in a cool, dry place in an airtight container to prevent moisture and pests. Can also be stored in the fridge for longer shelf life.",
     "nutrition": {
       "calories": "368 per 100 g",
@@ -3468,7 +3468,7 @@
       "Red Chillies",
       "Whole Dried Chili"
     ],
-    "category": "Spice / Curries",
+    "category": "Spice",
     "notes": "Red chili comes in whole, dried, or ground forms and adds heat, colour, and aroma to a wide range of dishes.\n\n- **Forms and Usage:**\n  * **Whole Dried Red Chili:** Use whole, crushed, or toasted; adds heat and aroma gradually. Ideal for tempering, pickling, or slow-cooked curries and stews.\n  * **Red Chili Powder / Ground Chili:** Made from dried red chilies; provides even intensity in sauces, curries, rubs, and marinades. Hot paprika can substitute for mild heat and colour.\n- **Usage Tips:** Remove seeds to reduce heat if desired. Toast whole chilies lightly to enhance aroma before grinding. Start with small amounts and adjust to taste.\n- **Storage:** Store in airtight containers away from sunlight and moisture to preserve colour, flavour, and pungency.",
     "nutrition": {
       "calories": "282 per 100 g",
@@ -3502,7 +3502,7 @@
     "aka": [
       "Old-Fashioned Oats"
     ],
-    "category": "Grain / Breakfast",
+    "category": "Grain",
     "notes": "Rolled oats are flattened, lightly steamed whole oat groats. Commonly used in breakfast dishes, baking, and as a base for oat flour.\n\n- **Usage:** Use in cookies, muesli, granola, oat breads, or porridge. Can be ground into oat flour for baking. Adds bulk, texture, and nutty flavour.\n- **Tips:** Toast lightly to enhance aroma or soak overnight for easier digestion. Adjust liquid when substituting for flour.\n- **Storage:** Store in a cool, dry place in an airtight container to prevent rancidity and maintain freshness.",
     "nutrition": {
       "calories": "389 per 100 g",
@@ -3525,7 +3525,7 @@
       "Rosemary Sprigs",
       "Rosemary Leaves"
     ],
-    "category": "Herb / Main",
+    "category": "Herb",
     "notes": "Rosemary can be used fresh or dried. Remove woody stems before chopping. Adds aromatic, pine-like flavour to a wide range of dishes.\n\n- **Usage:** Ideal for breads, focaccias, roasted meats, potatoes, vegetables, and sauces. Can be infused in oils or marinades.\n- **Tips:** Crush leaves slightly to release essential oils. Dried rosemary is more potent; use sparingly. Pair with olive oil, garlic, lemon, or thyme for complementary flavour.\n- **Storage:** Store dried rosemary in a cool, dark, airtight container; fresh rosemary can be wrapped in damp paper towel and refrigerated.",
     "nutrition": {
       "calories": "131 per 100 g",
@@ -3571,7 +3571,7 @@
       "Sodium Chloride",
       "Table Salt"
     ],
-    "category": "Seasoning / Baking",
+    "category": "Spice",
     "notes": "Salt is primarily sodium chloride and is essential for seasoning, baking, and preserving food.\n\n- **Usage:** Table salt dissolves quickly, ideal for general seasoning, doughs, sauces, and baking. Coarse salts such as sea salt or kosher salt provide texture and visual appeal; often used as finishing salts.\n- **Tips:** Adjust quantities according to type; coarse salts are less dense by volume than fine salts. Store in a cool, dry place to prevent clumping.\n- **Pairings:** Enhances the flavour of all foods, balances sweetness in baked goods, and improves texture in breads and pastries.",
     "nutrition": {
       "calories": "0 per 100 g",
@@ -3660,7 +3660,7 @@
       "Sambal Oelak",
       "Sambal Ulek"
     ],
-    "category": "Condiment / Main",
+    "category": "Condiment",
     "notes": "Sambal Oelek is a coarsely ground chili paste commonly used in Southeast Asian cooking.\n\n- **Usage:** Add directly to stir-fries, soups, sauces, marinades, or as a condiment. Adjust quantity according to desired heat level.\n- **Pairings:** Complements garlic, ginger, soy sauce, vinegar, lime, meats, seafood, and vegetables.\n- **Storage:** Store in a sealed container in the refrigerator to preserve freshness and colour.",
     "nutrition": {
       "calories": "15 per 100 g",
@@ -3702,7 +3702,7 @@
       "Worcester Sauce",
       "Worcestershire Sauce"
     ],
-    "category": "Sauce / Condiment",
+    "category": "Condiment",
     "notes": "Common sauces and usage:\n\n- **Barbecue / BBQ Sauce:** Typically tomato-based with vinegar, sugar, and spices. Use as glaze, marinade, or finishing sauce. Sugar can caramelise quickly; add toward end of cooking.\n- **Chinese BBQ / Hoisin Sauce:** Thick, dark, sweet, salty, and umami-rich; ideal for stir-fries, marinades, or as a dipping sauce.\n- **Dark & Light Soy Sauce:** Light soy is salty with mild umami; ideal for seasoning and dipping. Dark soy adds colour, mild sweetness, and umami; used in marinades or to darken sauces.\n- **Fish Sauce / Patis:** Strong, pungent umami from fermented fish. Use sparingly; aroma mellows during cooking. Essential in Filipino dishes, stir-fries, and marinades.\n- **Oyster Flavoured Sauce:** Savoury, slightly sweet umami sauce; often added near end of cooking to preserve flavour.\n- **Ketchup / Tomato Ketchup:** Sweet and acidic; used as base for sauces or as condiment. Adjust sugar and salt as needed.\n- **Sriracha:** Hot, garlicky chili sauce; use in small amounts for heat and flavour in Asian, fusion, or condiment applications.\n- **Worcestershire / Worcester Sauce:** Fermented, tangy, and umami-rich. Adds depth to meats, stews, and dressings. Use sparingly.\n- **Usage Tips:** Adjust quantities based on flavour intensity. Store opened bottles refrigerated where indicated. Shake or stir sauces before use for consistent flavour.\n- **Hoisin Sauce:** Thick, dark, sweet, salty, and umami-rich; ideal for stir-fries, Mongolian dishes, and marinades. Also called Chinese BBQ sauce.\n- **Worcestershire Sauce (also Worcestershire/Worcester):** Fermented tangy umami base; adds depth to meats, gravies, and stews.\n- **Sweet Chili Sauce:** Sweet, mildly spiced, and sticky; used as a dipping sauce, glaze, or ingredient in Asian-fusion dishes.\n- **Chili Garlic Sauce:** Hot, pungent, and garlicky; adds heat and flavour to stir-fries, noodles, and dipping sauces.",
     "nutrition": {
       "calories": "80-120 per 100 g (varies by sauce type)",
@@ -3753,7 +3753,7 @@
       "Seafood Mix",
       "Mixed Seafood"
     ],
-    "category": "Meat / Seafood",
+    "category": "Seafood",
     "notes": "Seafood encompasses fish and shellfish used across a range of bistro and home recipes.\n\n- **Fish Fillets (Fresh):** Choose firm-fleshed white fish like barramundi, snapper, flathead, or blue-eye trevalla for pan-frying and bistro presentations. Pat dry before cooking; do not overcook \u2014 flesh should be just opaque.\n- **King Prawns:** Large prawns used whole or peeled and deveined. Grill, pan-fry, or add to sauces; cook until just pink \u2014 2\u20133 minutes. Overcooked prawns become rubbery.\n- **Oysters:** Best served freshly shucked. When used in cooking (e.g., Carpetbag steak), lightly pan-fry or add at the last minute.\n- **Scallops:** Sear over very high heat, 1\u20132 minutes each side, to achieve a golden crust without overcooking.\n- **Seafood Mix:** A convenient mix of prawns, scallops, and fish pieces; useful for bisque-style toppings or reef-and-beef presentations.\n- **Storage:** Keep refrigerated and use within 1\u20132 days. Freeze in sealed bags for up to 3 months.",
     "nutrition": {
       "calories": "80\u2013120 per 100 g depending on type",
@@ -3778,7 +3778,7 @@
       "Black Sesame Seeds",
       "White Sesame Seeds"
     ],
-    "category": "Baking / Seed",
+    "category": "Seed",
     "notes": "Common types and usage:\n\n- **White Sesame Seeds:** Mild, nutty flavour; ideal for sprinkling on breads, buns, and pastries, or grinding into pastes like tahini.\n- **Black Sesame Seeds:** Earthier, slightly bitter; used for visual contrast, flavour, or in Asian desserts and breads.\n- **Usage Tips:** Toast lightly to release oils and enhance aroma. Can be added whole, crushed, or ground. Store in a cool, dry place in an airtight container to preserve freshness.",
     "nutrition": {
       "calories": "573 per 100 g",
@@ -3803,7 +3803,7 @@
     "aka": [
       "NA"
     ],
-    "category": "Bread / Additive",
+    "category": "Bread",
     "notes": "Common usage and benefits:\n\n- **Emulsifier:** Helps blend water and fat-based ingredients in doughs, chocolate, confections, sauces, and dressings.\n- **Dough Conditioner:** Improves elasticity, gas retention, and crumb structure in yeast breads, rolls, and enriched doughs.\n- **Shelf Life:** Slows staling, moisture loss, and improves softness; promotes even browning in baked goods.\n- **Usage Tips:** Typically added at 0.5\u20132% of flour weight in bread recipes. Use sparingly, as excess may affect flavour or dough handling. Store in a cool, dry, airtight container away from light.",
     "nutrition": {
       "calories": "550 per 100 g",
@@ -3865,7 +3865,7 @@
       "Fish Stock",
       "Seafood Stock"
     ],
-    "category": "Liquid / Sauce",
+    "category": "Condiment",
     "notes": "Common types and usage:\n\n- **Beef Stock / Broth:** Rich, meaty flavour; ideal for sauces, gravies, braises, and stews. Homemade is preferred for control over salt and flavour; store-bought is convenient but may contain sodium and additives.\n- **Chicken Stock / Broth:** Light, versatile base for soups, stews, risottos, and sauces. Use homemade for deeper flavour; store-bought is suitable for convenience.\n- **Vegetable Stock:** Provides flavour without meat; made by simmering vegetables, herbs, and aromatics. Great for vegetarian or vegan recipes.\n- **Fish / Seafood Stock:** Adds umami to seafood soups, stews, and sauces; typically made from fish bones or shellfish shells.\n- **Usage Tips:** Stocks can be used as cooking liquids for grains, risottos, and braised dishes, or reduced for concentrated sauces.\n- **Storage:** Refrigerate up to 3\u20134 days; freeze in portions for longer storage. Use airtight containers to preserve flavour and prevent contamination.",
     "nutrition": {
       "calories": "15\u201340 per 100 ml (varies by type and fat content)",
@@ -3889,7 +3889,7 @@
     "aka": [
       "Garden Strawberries"
     ],
-    "category": "Fruit / Dessert",
+    "category": "Fruit",
     "notes": "Use fresh or frozen; wash gently and hull before use. Common in desserts like cakes, tarts, pavlovas, smoothies, and as toppings for breakfast dishes. Frozen strawberries are best used in cooking or baking where texture is less critical. Can be macerated with sugar or paired with citrus to enhance natural sweetness.\n- **Storage:** Refrigerate fresh berries for up to 3 days; freeze for longer storage. Handle gently to avoid bruising.",
     "nutrition": {
       "calories": "32 per 100 g",
@@ -3999,7 +3999,7 @@
     "aka": [
       "Snap Peas"
     ],
-    "category": "Vegetable / Filipino",
+    "category": "Vegetable",
     "notes": "Eat whole pods; cook briefly to retain crispness and bright green colour. Commonly used in stir-fries, salads, and side dishes. Can be blanched, steamed, or lightly saut\u00e9ed.\n- **Storage:** Keep refrigerated in a perforated bag for up to 3\u20135 days; wash just before use to prevent moisture-related spoilage.",
     "nutrition": {
       "calories": "42 per 100 g",
@@ -4018,7 +4018,7 @@
     "aka": [
       "Golden Raisins"
     ],
-    "category": "Fruit / Dessert",
+    "category": "Fruit",
     "notes": "Golden or light raisins; can be soaked in water, juice, or alcohol to plump before baking. Commonly used in cakes, breads, muffins, scones, and puddings.\n- **Storage:** Keep in an airtight container in a cool, dry place for several months; refrigeration extends shelf life.",
     "nutrition": {
       "calories": "299 per 100 g",
@@ -4038,7 +4038,7 @@
     "aka": [
       "NA"
     ],
-    "category": "Bread / Seed",
+    "category": "Seed",
     "notes": "Can be used raw, toasted, or incorporated into doughs and toppings. Adds texture and nutty flavour to breads, muffins, granola, and salads.\n- **Storage:** Keep in an airtight container in a cool, dry place; refrigeration or freezing extends shelf life and prevents rancidity.",
     "nutrition": {
       "calories": "584 per 100 g",
@@ -4061,7 +4061,7 @@
       "Mexican Seasoning",
       "Tex-Mex Seasoning"
     ],
-    "category": "Spice Blend / Mexican",
+    "category": "Mexican",
     "purpose": "Delivers the signature Tex-Mex flavour profile to beef mince, chicken, and vegetables for tacos, nachos, burritos, and fajitas. A balanced blend of cumin, chili, paprika, garlic, onion, and oregano with a starch thickener.",
     "notes": "**Commercial packet (Old El Paso):** Contains Corn Starch, Chili Pepper, Maltodextrin, Salt, Spice, Onion Powder \u2014 1 packet (35 g) per 500 g mince.\n\n**Homemade blend (see tacoseasoning recipe):** 2 tsp cumin, 2 tsp paprika, 1 tsp chili powder, 1 tsp garlic powder, 1 tsp onion powder, 1 tsp dried oregano, 1 tsp salt, 1/2 tsp black pepper, 1/2 tsp plain flour. Mix and use 2 heaped tbsp per 500 g mince.\n\n**Trevor's tip:** Toast whole cumin and coriander seeds in a dry pan first, then grind \u2014 transforms the depth of the blend completely.\n\n**Storage:** Homemade blend keeps 6 months in an airtight jar.",
     "nutrition": {
@@ -4082,7 +4082,7 @@
       "Common Thyme",
       "Thymus vulgaris"
     ],
-    "category": "Herb / Sauce",
+    "category": "Herb",
     "notes": "Use fresh or dried leaves; remove woody stems before serving. Ideal in stocks, soups, stews, sauces, roasted meats, and vegetables.\n- **Storage:** Fresh thyme can be refrigerated for up to a week; dried thyme should be kept in an airtight container in a cool, dark place for up to a year.",
     "nutrition": {
       "calories": "101 per 100 g (dried)",
@@ -4122,7 +4122,7 @@
     "aka": [
       "Toblerone Bar"
     ],
-    "category": "Confectionery / Dessert",
+    "category": "Confectionery",
     "notes": "Triangular chunks can be chopped, melted, or folded into cakes, brownies, or desserts. Can be used as decoration, filling, or in confections.\n- **Storage:** Keep in a cool, dry place away from direct sunlight. Avoid high temperatures to prevent melting.",
     "nutrition": {
       "calories": "535 per 100 g",
@@ -4153,7 +4153,7 @@
       "Tomato Puree",
       "Tomato Sauce"
     ],
-    "category": "Vegetable / Curry",
+    "category": "Vegetable",
     "notes": "Versatile tomato varieties for curries, sauces, stews, and general cooking. Choose the form based on recipe requirements and desired texture:\n\n* **Fresh Tomatoes:** Ripe and firm; ideal for salads, salsas, and fresh sauces.\n* **Roma:** Meaty, low in seeds; perfect for sauces, roasting, and cooking.\n* **Cherry / Grape Tomatoes:** Small, sweet, firm; great for roasting, salads, or quick saut\u00e9s.\n* **Canned Tomatoes:** Peeled, diced, or crushed; excellent for long-simmered sauces and soups.\n* **Tomato Puree / Passata:** Smooth, liquid consistency; perfect for soups, sauces, and gravies where a silky texture is desired.\n* **Tomato Paste:** Concentrated tomato flavour; often caramelised slightly to deepen taste; use in small quantities for sauces, stews, and curries.\n\nFor thicker consistency, drain excess liquid from canned tomatoes if needed. Store fresh tomatoes at room temperature (refrigerate only if very ripe). Canned, pureed, or paste forms should be stored in a cool, dry place and refrigerated after opening.",
     "nutrition": {
       "calories": "18 per 100 g",
@@ -4188,7 +4188,7 @@
     "aka": [
       "Lokum"
     ],
-    "category": "Confectionery / Dessert",
+    "category": "Confectionery",
     "notes": "Often dusted with icing sugar or desiccated coconut. Can be chopped into smaller pieces for incorporation into cakes, pastries, or served as a sweet snack. Store in a cool, dry place in an airtight container to prevent sticking and moisture absorption.",
     "nutrition": {
       "calories": "320 per 100 g",
@@ -4207,7 +4207,7 @@
       "Turmeric Powder",
       "Haldi"
     ],
-    "category": "Spice / Curry",
+    "category": "Spice",
     "notes": "A vibrant, golden spice prized in many cuisines for its earthy, slightly bitter flavour and warm aroma. Often combined with other spices in curries, stews, and marinades. To preserve its brilliant colour and delicate flavour, add towards the end of cooking or cook briefly. Can be used in spice blends, sauces, rice dishes, pickles, and even beverages like golden milk. Store in a cool, dry place away from light to maintain colour and potency.",
     "nutrition": {
       "calories": "312 per 100 g",
@@ -4230,7 +4230,7 @@
       "Purple yam",
       "Dioscorea alata"
     ],
-    "category": "Vegetable / Root",
+    "category": "Vegetable",
     "notes": "Cook, boil, or steam before mashing. Peel before cooking if fresh. Freezes well once cooked. Can be used grated, pureed, or in powdered form. Works well combined with coconut milk or condensed milk for desserts.",
     "nutrition": {
       "calories": "140 per 100 g",
@@ -4254,7 +4254,7 @@
       "Artificial Vanilla",
       "Imitation Vanilla"
     ],
-    "category": "Flavoring / Dessert",
+    "category": "Baking",
     "notes": "Forms and usage:\n- **Vanilla Pod / Bean:** Whole beans; can be split and scraped for seeds; ideal for custards, creams, and infusions.\n- **Vanilla Extract / Pure Vanilla Extract:** Alcohol-based extract made from real vanilla beans; commonly used in baking and desserts.\n- **Vanilla Paste:** Thick, concentrated vanilla product with seeds; combines convenience of extract with visual appeal of beans.\n- **Vanilla Essence / Imitation / Artificial Vanilla:** Synthetic alternative; alcohol-based; cheaper, convenient option for baking. Flavor is less complex than pure vanilla.\nStore all vanilla products in a cool, dark place away from strong odours. Vanilla pods may be refrigerated or frozen for extended storage.",
     "nutrition": {
       "calories": "288 per 100 g",
@@ -4294,7 +4294,7 @@
       "Veal Schnitzel",
       "Veal Cutlets"
     ],
-    "category": "Meat / Veal",
+    "category": "Meat",
     "notes": "Veal is the meat of young cattle, with a mild, delicate flavour and tender texture.\n\n- **Veal Escalopes / Schnitzel:** Thin cuts, usually from the leg, pounded flat. Cooks very quickly \u2014 1\u20132 minutes per side. Ideal for crumbing, pan-frying, or topping with sauces (Cordon Bleu, Scaloppine, Oscar, Madagascar).\n- **Veal Medallions / Steaks:** Thicker cuts used whole; excellent for bistro-style dishes with cream or wine sauces.\n- **Cooking Notes:** Veal has less fat than beef so it can dry out quickly. Cook over medium-high heat and keep residual sauce or butter present. Do not overcook \u2014 aim for just cooked through.\n- **Classic Bistro Pairings:** Lemon-butter, mushroom cream, Marsala, Cordon Bleu (ham and cheese filling), Oscar (crab/seafood topping).",
     "nutrition": {
       "calories": "172 per 100 g (lean)",
@@ -4317,7 +4317,7 @@
     "aka": [
       "Yeast Extract Spread"
     ],
-    "category": "Condiment / Main",
+    "category": "Condiment",
     "notes": "Spread thin; strong, acquired taste. Can be used in sandwiches, on toast, in savory pastries, or to add depth to soups and sauces. Store in a cool, dry place and refrigerate after opening to maintain flavour and freshness.",
     "nutrition": {
       "calories": "185 per 100 g",
@@ -4335,7 +4335,7 @@
       "Rice Vermicelli",
       "Bihon"
     ],
-    "category": "Grain / Filipino",
+    "category": "Filipino",
     "notes": "Soak in water before cooking; do not overcook. Ideal for stir-fries, soups, spring rolls, and salads. Can be lightly fried after soaking for added texture. Store in a cool, dry place in an airtight container to prevent moisture and clumping.",
     "nutrition": {
       "calories": "192 per 100 g (dry)",
@@ -4354,7 +4354,7 @@
     "aka": [
       "Vindaloo Masala"
     ],
-    "category": "Curry / Paste",
+    "category": "Curry",
     "notes": "Traditional Indian-style curry paste originating from Goa, adapted from Portuguese influences. Made from a blend of dried red chilies, garlic, ginger, vinegar, cumin, coriander, turmeric, mustard seeds, and sometimes cinnamon or cloves. Can be used directly in curries or as a marinade for meat, poultry, or vegetables. Adjust quantity to control spiciness; balance with coconut milk, yogurt, or cream if desired. Store refrigerated in an airtight container; freezes well for long-term use. Essential for creating authentic, layered, and aromatic curry dishes.",
     "nutrition": {
       "calories": "60 per 100 g",
@@ -4381,7 +4381,7 @@
       "White Vinegar",
       "White Wine Vinegar"
     ],
-    "category": "Condiment / Acid / Cooking",
+    "category": "Condiment",
     "notes": "Common types:\n- **White / Distilled Vinegar:** Strong, clear vinegar; commonly used for pickling, cleaning, and baking (activates baking soda).\n- **Cane / Brown Vinegar:** Milder, slightly sweet; traditional in Filipino and Asian cooking.\n- **Apple Cider Vinegar (ACV):** Made from fermented apples; used in dressings, marinades, and vegan baking. Raw/unfiltered versions contain the \u201cmother\u201d.\n- **Other Types:** Coconut vinegar and wine vinegars add specific regional flavours. Adjust type according to recipe.\nStore all vinegars in a cool, dark place; most have long shelf life due to acidity.",
     "nutrition": {
       "calories": "21 per 100 g",
@@ -4412,7 +4412,7 @@
       "Gluten Powder",
       "Wheat Protein"
     ],
-    "category": "Baking / Bread",
+    "category": "Bread",
     "notes": "Powdered form of wheat gluten with very high protein content (~70\u201380%). Commonly added to low-gluten flours (like whole wheat, rye, or spelt) to improve elasticity, structure, and rise in bread. Typically used at 1\u20133% of flour weight; too much can result in dense, chewy, or rubbery bread. Can also be used to make seitan (vegetarian protein) by hydrating and kneading into a meat-like texture. Mix thoroughly with flour to distribute evenly. Store in a cool, dry place in airtight container to prevent moisture absorption.",
     "nutrition": {
       "calories": "370 per 100 g",
@@ -4431,7 +4431,7 @@
     "aka": [
       "Walnut Kernels"
     ],
-    "category": "Nut / Dessert",
+    "category": "Nut",
     "notes": "Walnuts are slightly bitter, earthy nuts used in baking and cooking.\n\n- **Usage:** Chop, toast, or use whole in cakes, cookies, brownies, granola, and salads. Toasting enhances aroma and flavor.\n- **Pairings:** Complements chocolate, caramel, apples, pears, cinnamon, and vanilla.\n- **Storage:** Store in an airtight container in a cool, dark place; refrigerate or freeze for longer shelf life.\n- **Substitutions:** Pecans can be used in place of walnuts in most recipes.",
     "nutrition": {
       "calories": "654 per 100 g",
@@ -4491,7 +4491,7 @@
     "aka": [
       "NA"
     ],
-    "category": "Bread / Gluten-Free",
+    "category": "Bread",
     "notes": "A polysaccharide derived from bacterial fermentation of sugars, commonly used in gluten-free baking to mimic the structure and elasticity of gluten. Typically added at 0.5\u20131% of flour weight (about 1/4\u20131/2 teaspoon per cup of flour). Helps bind ingredients, trap gas during rising, and improve moisture retention. Can be used in breads, muffins, cakes, and sauces as a stabilizer or thickener. Overuse can create gummy or dense texture. Dissolve in water or oil before mixing into dry ingredients for best results. Store in a cool, dry place in an airtight container to prevent clumping.",
     "nutrition": {
       "calories": "333 per 100 g",
@@ -4509,7 +4509,7 @@
       "Baker's Yeast",
       "Saccharomyces cerevisiae"
     ],
-    "category": "Baking / Leavening",
+    "category": "Baking",
     "notes": "Available as active dry, instant (rapid-rise), and fresh yeast. Active dry should be bloomed in warm liquid (about 38\u201343\u00b0C). Instant yeast can be mixed directly into dry ingredients. Fresh yeast is highly perishable but offers strong fermentation. Sensitive to heat and salt; water that is too hot will kill it. Essential for breads, pizza dough, rolls, brioche, and fermented doughs. Store in a cool, dry place; refrigerate or freeze unopened yeast for extended shelf life.",
     "nutrition": {
       "calories": "105 per 100 g (dry yeast)",
@@ -4547,7 +4547,7 @@
       "Plain Yogurt",
       "Flavoured Yogurt"
     ],
-    "category": "Dairy / Curries",
+    "category": "Dairy",
     "notes": "Common types:\n- **Greek-Style / Thick Yogurt:** Strained for thicker texture and higher protein; adds richness and creaminess. Ideal for curries, dips, and desserts.\n- **Natural / Plain Yogurt:** Unflavoured, unsweetened; versatile for curries, sauces, marinades, and baking. Whisk before adding for smooth consistency.\n- **Flavoured Yogurt:** Sweetened or fruit-flavoured; generally used in desserts or snacks rather than cooking.\nStore all yogurt in the refrigerator and use by the best-before date. Greek yogurt has a longer shelf life due to straining.",
     "nutrition": {
       "calories": "59 per 100 g (plain, low-fat)",
@@ -4588,7 +4588,7 @@
       "Tap Water",
       "Filtered Water"
     ],
-    "category": "Liquid / Basic",
+    "category": "Beverage",
     "notes": "Used in virtually all bread, dough, and cooking recipes. Temperature matters \u2014 lukewarm (35\u201340g C) activates yeast; cold water slows fermentation for long proofs; boiling water is used in some pastry and noodle doughs. Filtered or bottled water is preferable where tap water is heavily chlorinated, as chlorine can inhibit yeast activity. Weight water for accuracy rather than using volume measures.",
     "nutrition": {
       "calories": "0",
