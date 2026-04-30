@@ -4581,26 +4581,5 @@
     },
     "purpose": "Provides mild, tender flesh that absorbs flavours well. Adds texture, moisture, and subtle sweetness to dishes.",
     "usedIn": []
-  },
-  "Water": {
-    "aka": [
-      "Still Water",
-      "Tap Water",
-      "Filtered Water"
-    ],
-    "category": "Beverage",
-    "notes": "Used in virtually all bread, dough, and cooking recipes. Temperature matters \u2014 lukewarm (35\u201340g C) activates yeast; cold water slows fermentation for long proofs; boiling water is used in some pastry and noodle doughs. Filtered or bottled water is preferable where tap water is heavily chlorinated, as chlorine can inhibit yeast activity. Weight water for accuracy rather than using volume measures.",
-    "nutrition": {
-      "calories": "0",
-      "carbohydrates": "0 g",
-      "fat": "0 g",
-      "fiber": "0 g",
-      "protein": "0 g",
-      "vitamins_minerals": "No macronutrients; may contain trace minerals depending on source (fluoride, calcium, magnesium in tap water)."
-    },
-    "purpose": "Hydrates flour to develop gluten, activates yeast, dissolves salt and sugar, controls dough consistency, and regulates fermentation rate. Essential in bread, pastry, pasta, and most cooked dishes.",
-    "usedIn": [
-      "traditionalanzacbiscuits"
-    ]
-  }
+ }
 }

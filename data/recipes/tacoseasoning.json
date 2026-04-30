@@ -1,5 +1,5 @@
 {
-  "id": "tacoseasoning",
+  "id": "tacoseasoningoldelpasostylefromscratch",
   "title": "Taco Seasoning — Old El Paso Style (From Scratch)",
   "emoji": "🌶️",
   "category": "Sauces",
@@ -8,61 +8,75 @@
   "cookTime": "0 min",
   "totalTime": "5 min",
   "servings": "1 batch (equiv. 1 packet)",
-  "difficulty": "Easy",
+  "difficulty": "Beginner",
+  "tags": [
+    "Make Ahead",
+    "Mexican",
+    "Sauce",
+    "Under 30 Minutes",
+    "Vegan",
+    "Spice Blend"
+  ],
   "ingredients": [
     {
       "quantity": "2",
       "unit": "tsp",
       "item": "Cumin",
-      "ingredientKey": "Cumin"
+      "notes": "ground"
+    },
+    {
+      "quantity": "1",
+      "unit": "tsp",
+      "item": "Corriander",
+      "notes": "ground"
     },
     {
       "quantity": "2",
       "unit": "tsp",
       "item": "Paprika",
-      "ingredientKey": "Paprika"
+      "notes": "ground"
     },
     {
       "quantity": "1",
       "unit": "tsp",
       "item": "Red Chili",
-      "ingredientKey": "Red Chili"
+      "notes": "ground"
     },
     {
       "quantity": "1",
       "unit": "tsp",
       "item": "Garlic",
-      "ingredientKey": "Garlic"
+      "notes": "Powder"
     },
     {
       "quantity": "1",
       "unit": "tsp",
       "item": "Onion",
-      "ingredientKey": "Onion"
+      "notes": "powder"
     },
     {
       "quantity": "1",
       "unit": "tsp",
       "item": "Oregano",
-      "ingredientKey": "Oregano"
+      "notes": "dried"
     },
     {
       "quantity": "1",
       "unit": "tsp",
       "item": "Salt",
-      "ingredientKey": "Salt"
+      "notes": "to taste"
     },
     {
       "quantity": "1/2",
       "unit": "tsp",
-      "item": "Pepper",
-      "ingredientKey": "Pepper"
+      "item": "White Pepper",
+      "notes": "ground"
     },
     {
       "quantity": "1/2",
       "unit": "tsp",
       "item": "Flour",
-      "ingredientKey": "Flour"
+      "notes": "plain"
     }
   ],
   "method": [
@@ -100,13 +114,6 @@
       "title": "Scaling Up",
       "content": "This recipe equals one 35 g packet. To make a bulk jar, simply multiply everything by 4 or 6 and store. Use 2 heaped tbsp per 500 g of mince — same as the packet instructions."
     }
-  ],
-  "tags": [
-    "Make Ahead",
-    "Mexican",
-    "Sauce",
-    "Under 30 Minutes",
-    "Vegan"
   ],
   "related": [
     {

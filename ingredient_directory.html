@@ -217,9 +217,162 @@
             color: var(--cream-muted);
         }
 
+        .dir-print-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--sp-sm);
+            padding: 0.5rem 1rem;
+            background: rgba(201,125,62,0.12);
+            border: 1px solid var(--border-copper);
+            border-radius: var(--r-md);
+            color: var(--copper-warm);
+            font-family: var(--font-body);
+            font-size: 0.82rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all var(--t-fast);
+            margin-top: var(--sp-sm);
+        }
+        .dir-print-btn:hover {
+            background: rgba(201,125,62,0.22);
+            color: var(--copper-pale);
+        }
+
         @media (max-width: 800px) {
             .dir-layout { grid-template-columns: 1fr; }
             .dir-sidebar { position: static; }
+        }
+
+        /* ---- Print ---- */
+        @page { size: A4 portrait; margin: 12mm 12mm; }
+
+        @media print {
+            * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+            .nav-header, .scroll-progress, .back-to-top,
+            .dir-sidebar, .footer, .dir-print-btn { display: none !important; }
+
+            html { font-size: 9pt; }
+
+            body {
+                background: #ffffff;
+                color: #1a1814;
+                font-family: 'DM Sans', sans-serif;
+                line-height: 1.5;
+                margin: 0;
+                padding: 0;
+            }
+            body::before { display: none; }
+
+            .dir-layout {
+                display: block;
+                padding: 0;
+                max-width: 100%;
+            }
+
+            .dir-main { width: 100%; }
+
+            .dir-header {
+                margin-bottom: 10pt;
+                padding-bottom: 5pt;
+                border-bottom: 1pt solid #ddd7cc;
+            }
+
+            .dir-header h1 {
+                font-size: 18pt;
+                color: #1a1814;
+                margin-bottom: 2pt;
+            }
+
+            .dir-count { font-size: 8pt; color: #9a9088; }
+
+            /* Each letter fills its own page */
+            #dirContent { columns: 1; }
+
+            .dir-group { margin-bottom: 10pt; }
+
+            .dir-group-letter {
+                font-size: 13pt;
+                color: #c97d3e;
+                border-bottom: 1px solid #ddd7cc;
+                padding-bottom: 2pt;
+                margin-bottom: 8pt;
+                font-family: 'DM Serif Display', Georgia, serif;
+                page-break-after: avoid;
+            }
+
+            /* Two columns within each letter using grid, not columns */
+            .dir-group-cards {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                column-gap: 14pt;
+            }
+
+            .ingredient-card {
+                background: none;
+                border: none;
+                border-bottom: 1px solid #ece7de;
+                border-radius: 0;
+                padding: 4pt 0;
+                margin-bottom: 0;
+                page-break-inside: avoid;
+                break-inside: avoid;
+            }
+            .ingredient-card:hover { border-color: #ece7de; }
+
+            .ingredient-card-top {
+                display: flex;
+                align-items: baseline;
+                gap: 5pt;
+                flex-wrap: wrap;
+                margin-bottom: 1pt;
+            }
+
+            .ingredient-name {
+                font-size: 8.5pt;
+                font-weight: 700;
+                color: #1a1814;
+                font-family: 'DM Sans', sans-serif;
+            }
+
+            .ingredient-aka {
+                font-size: 7pt;
+                color: #7a7268;
+                font-style: italic;
+            }
+
+            .ingredient-cat-badge {
+                font-size: 6pt;
+                color: #9a5e28;
+                background: #f5ede3;
+                border: 1px solid #c97d3e;
+                padding: 0.5pt 3pt;
+                border-radius: 2pt;
+                letter-spacing: 0.08em;
+                text-transform: uppercase;
+                font-weight: 700;
+                margin-left: auto;
+            }
+
+            .ingredient-notes {
+                font-size: 7.5pt;
+                color: #4a4540;
+                line-height: 1.4;
+                margin: 0;
+            }
+
+            .ingredient-sub {
+                font-size: 7pt;
+                color: #7a7268;
+                margin-top: 1pt;
+            }
+
+            .ingredient-sub strong {
+                color: #9a5e28;
+                font-size: 6.5pt;
+                text-transform: uppercase;
+                letter-spacing: 0.06em;
+            }
         }
     </style>
 </head>
@@ -258,6 +411,7 @@
                 <p style="font-size:0.75rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--copper);font-weight:600;margin-bottom:0.4rem;">Reference</p>
                 <h1>Ingredient Directory</h1>
                 <p class="dir-count" id="dirCount">Loading...</p>
+                <button class="dir-print-btn" onclick="window.print()">Print Current View</button>
             </div>
             <div id="dirContent">
                 <div class="loading-state"><div class="loading-spinner"></div><p>Loading ingredients...</p></div>
@@ -397,10 +551,15 @@
                 byLetter[l].push([name, data]);
             });
 
-            document.getElementById('dirContent').innerHTML = Object.entries(byLetter).map(([letter, group]) => `
+            const groups = Object.entries(byLetter);
+            const usePageBreaks = currentFilter.type === 'all' && !searchQuery;
+            document.getElementById('dirContent').innerHTML = groups.map(([letter, group], i) => `
+                ${i > 0 && usePageBreaks ? '<div style="page-break-before:always;"></div>' : ''}
                 <div class="dir-group">
                     <div class="dir-group-letter">${letter}</div>
-                    ${group.map(([name, d]) => renderCard(name, d)).join('')}
+                    <div class="dir-group-cards">
+                        ${group.map(([name, d]) => renderCard(name, d)).join('')}
+                    </div>
                 </div>`).join('');
         }
 
