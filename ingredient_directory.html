@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#16161a">
+	<meta name="description" content="A–Z glossary of 169 ingredients with storage notes, substitutes, and categories.">
     <title>Ingredient Directory | AJPC Kitchen Notebook</title>
     <link rel="stylesheet" href="css/main.css">
     <style>
@@ -524,14 +525,25 @@
                     if ((data.category || '') !== currentFilter.value) return false;
                 }
                 if (searchQuery) {
-                    const haystack = [
-                        name,
-                        ...(data.aka || []),
-                        data.category || '',
-                        data.notes || '',
-                    ].join(' ').toLowerCase();
-                    return haystack.includes(searchQuery);
-                }
+    // Only search name and AKA fields — not notes or category
+    var haystack = [
+        name,
+        (data.aka || []).join(' ')
+    ].join(' ').toLowerCase();
+
+    // Match whole words only
+    var words = haystack.split(/\s+/);
+    var queryLower = searchQuery.toLowerCase();
+
+    var found = false;
+    for (var i = 0; i < words.length; i++) {
+        if (words[i].indexOf(queryLower) === 0) {
+            found = true;
+            break;
+        }
+    }
+    return found;
+}
                 return true;
             }).sort(([a], [b]) => a.localeCompare(b));
 

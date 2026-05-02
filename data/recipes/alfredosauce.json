@@ -19,68 +19,20 @@
     "Vegetarian"
   ],
   "ingredients": [
-    {
-      "quantity": "3",
-      "unit": "tbsp",
-      "item": "Butter",
-      "ingredientKey": "Butter"
-    },
-    {
-      "quantity": "2",
-      "unit": "",
-      "item": "Garlic",
-      "ingredientKey": "Garlic"
-    },
-    {
-      "quantity": "1",
-      "unit": "cup",
-      "item": "Cream",
-      "ingredientKey": "Cream"
-    },
-    {
-      "quantity": "1",
-      "unit": "cup",
-      "item": "Cheese",
-      "ingredientKey": "Cheese"
-    },
-    {
-      "quantity": "1/2",
-      "unit": "tsp",
-      "item": "Salt",
-      "ingredientKey": "Salt"
-    },
-    {
-      "quantity": "1/4",
-      "unit": "tsp",
-      "item": "Pepper",
-      "ingredientKey": "Pepper"
-    }
+    { "quantity": "45",  "unit": "g",  "item": "Unsalted Butter",   "ingredientKey": "Butter" },
+    { "quantity": "2",   "unit": "",   "item": "Garlic Cloves",     "notes": "finely minced", "ingredientKey": "Garlic" },
+    { "quantity": "250", "unit": "ml", "item": "Heavy Cream",       "notes": "thickened cream", "ingredientKey": "Cream" },
+    { "quantity": "100", "unit": "g",  "item": "Parmesan Cheese",   "notes": "freshly grated", "ingredientKey": "Cheese" },
+    { "quantity": "2.5", "unit": "g",  "item": "Salt",              "notes": "or to taste", "ingredientKey": "Salt" },
+    { "quantity": "0.5", "unit": "g",  "item": "Black Pepper",      "notes": "freshly ground", "ingredientKey": "Pepper" }
   ],
   "method": [
-    {
-      "step": 1,
-      "instruction": "Melt butter gently in a wide pan over low heat, taking care not to brown it."
-    },
-    {
-      "step": 2,
-      "instruction": "Add garlic and cook briefly until fragrant, about 30 seconds."
-    },
-    {
-      "step": 3,
-      "instruction": "Pour in cream and bring to a gentle simmer. Cook for 3–4 minutes until slightly thickened."
-    },
-    {
-      "step": 4,
-      "instruction": "Reduce heat to low and gradually stir in Parmesan until fully melted and smooth."
-    },
-    {
-      "step": 5,
-      "instruction": "Season with salt and black pepper, adjusting to taste."
-    },
-    {
-      "step": 6,
-      "instruction": "Serve immediately over hot pasta, loosening with a splash of pasta water if needed."
-    }
+    { "step": 1, "instruction": "Melt butter gently in a wide pan over low heat, taking care not to brown it." },
+    { "step": 2, "instruction": "Add garlic and cook briefly until fragrant, about 30 seconds." },
+    { "step": 3, "instruction": "Pour in cream and bring to a gentle simmer. Cook for 3–4 minutes until slightly thickened." },
+    { "step": 4, "instruction": "Reduce heat to low and gradually stir in Parmesan until fully melted and smooth." },
+    { "step": 5, "instruction": "Season with salt and black pepper, adjusting to taste." },
+    { "step": 6, "instruction": "Serve immediately over hot pasta, loosening with a splash of pasta water if needed." }
   ],
   "notes": [
     {
@@ -92,48 +44,13 @@
       "type": "technique",
       "title": "Sauce Consistency",
       "content": "If the sauce thickens too much, loosen gently with reserved pasta water rather than extra cream."
-    },
-    {
-      "title": "Butter",
-      "content": "unsalted preferred"
-    },
-    {
-      "title": "Garlic Cloves",
-      "content": "finely minced"
-    },
-    {
-      "title": "Parmesan Cheese",
-      "content": "freshly grated"
-    },
-    {
-      "title": "Salt",
-      "content": "or to taste"
-    },
-    {
-      "title": "Black Pepper",
-      "content": "freshly ground"
     }
   ],
   "related": [
-    {
-      "id": "pestosauce",
-      "title": "Pesto Sauce"
-    },
-    {
-      "id": "marinarasauce",
-      "title": "Marinara Sauce"
-    },
-    {
-      "id": "redsauce",
-      "title": "Red Sauce"
-    },
-    {
-      "id": "arrabbiatazauce",
-      "title": "Arrabbiata Sauce"
-    },
-    {
-      "id": "mornaysauce",
-      "title": "Mornay / Cheese Sauce"
-    }
+    { "id": "pestosauce",     "title": "Pesto Sauce" },
+    { "id": "marinarasauce",  "title": "Marinara Sauce" },
+    { "id": "redsauce",       "title": "Red Sauce" },
+    { "id": "arrabbiatazauce","title": "Arrabbiata Sauce" },
+    { "id": "mornaysauce",    "title": "Mornay / Cheese Sauce" }
   ]
 }

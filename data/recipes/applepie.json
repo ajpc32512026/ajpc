@@ -8,37 +8,36 @@
   "cookTime": "45 min",
   "totalTime": "1 hr 15 min",
   "servings": "8 servings",
-  "difficulty": "Medium",
   "tags": [
     "Apple",
     "Classic",
-    "Creamy",
     "Dessert",
     "Make Ahead",
     "Pastry",
     "Rich",
     "Sweet",
-    "Under 30 Minutes",
     "Vegetarian"
   ],
   "ingredients": [
     {
-      "quantity": "6",
-      "unit": "",
-      "item": "Apples",
-      "ingredientKey": "Apples"
+      "heading": "Filling"
+    },
+    {
+      "quantity": "10",
+      "unit": "ea",
+      "item": "Granny Smith Apples",
+      "notes": "peeled, cored and sliced"
     },
     {
       "quantity": "150",
       "unit": "g",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
+      "item": "White Sugar"
     },
     {
-      "quantity": "1/2",
-      "unit": "tsp",
+      "quantity": "1",
+      "unit": "g",
       "item": "Cloves",
-      "ingredientKey": "Cloves"
+      "notes": "ground"
     },
     {
       "quantity": "50",
@@ -46,28 +45,34 @@
       "item": "Water"
     },
     {
-      "quantity": "125",
-      "unit": "g",
-      "item": "Butter",
-      "ingredientKey": "Butter"
+      "heading": "Pastry"
     },
     {
       "quantity": "200",
       "unit": "g",
-      "item": "Flour",
-      "ingredientKey": "Flour"
+      "item": "Plain Flour"
     },
     {
       "quantity": "50",
       "unit": "g",
-      "item": "Flour",
-      "ingredientKey": "Flour"
+      "item": "Self-Raising Flour"
     },
     {
-      "quantity": "1",
-      "unit": "tbsp",
-      "item": "Custard Powder",
-      "ingredientKey": "Custard Powder"
+      "quantity": "15",
+      "unit": "g",
+      "item": "Custard Powder"
+    },
+    {
+      "quantity": "125",
+      "unit": "g",
+      "item": "Unsalted Butter",
+      "notes": "chilled and diced"
+    },
+    {
+      "quantity": "60",
+      "unit": "ml",
+      "item": "Cold Water",
+      "notes": "approximately"
     }
   ],
   "method": [
@@ -77,39 +82,39 @@
     },
     {
       "step": 2,
-      "instruction": "Place apples, sugar, cloves, and water into a saucepan. Simmer gently until apples are just tender. Set aside to cool."
+      "instruction": "Place apples, sugar, cloves, and water into a saucepan. Simmer gently over medium heat until apples are just tender, about 8–10 minutes. Set aside to cool completely."
     },
     {
       "step": 3,
-      "instruction": "Sift plain flour, self-raising flour, and custard powder into a bowl. Rub in butter until the mixture resembles fine breadcrumbs."
+      "instruction": "Sift plain flour, self-raising flour, and custard powder into a bowl. Rub in chilled butter until the mixture resembles fine breadcrumbs."
     },
     {
       "step": 4,
-      "instruction": "Add cold water gradually and bring together into a soft dough. Roll out and line a greased pie tin."
+      "instruction": "Add cold water gradually, mixing until the dough just comes together. Do not overwork. Wrap and refrigerate for 15 minutes."
     },
     {
       "step": 5,
-      "instruction": "Fill with cooled apple mixture, cover with remaining pastry, seal edges, and bake at 180°C until golden and crisp."
+      "instruction": "Divide dough into two portions. Roll out one portion and line a greased 23cm pie tin."
+    },
+    {
+      "step": 6,
+      "instruction": "Fill with cooled apple mixture. Roll out remaining dough, cover pie, seal and crimp edges. Brush with a little milk or egg wash."
+    },
+    {
+      "step": 7,
+      "instruction": "Bake at 180°C for 40–45 minutes until golden and crisp. Rest for 10 minutes before slicing."
     }
   ],
   "notes": [
     {
       "type": "serving",
       "title": "Serving Tip",
-      "content": "Allow the pie to rest briefly before slicing. Serve warm with cream, custard, or vanilla ice cream."
+      "content": "Serve warm with cream, custard, or vanilla ice cream."
     },
     {
-      "type": "copyright",
-      "title": "Copyright",
-      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
-    },
-    {
-      "title": "Granny Smith Apples",
-      "content": "peeled and sliced"
-    },
-    {
-      "title": "Butter",
-      "content": "chilled and diced"
+      "type": "technique",
+      "title": "Pastry Tip",
+      "content": "Keep the butter cold and handle the dough as little as possible for a shorter, flakier pastry. A food processor makes this easier — pulse the butter into the flour until it resembles breadcrumbs, then add cold water gradually until the dough just comes together."
     }
   ],
   "related": [
@@ -122,16 +127,16 @@
       "title": "Apricot Flan"
     },
     {
-      "id": "chocchipcookies",
-      "title": "Double Chocolate Chip Cookies"
-    },
-    {
-      "id": "anzacbiscuits",
-      "title": "Traditional ANZAC Biscuits"
+      "id": "lemonmeringuepie",
+      "title": "Lemon Meringue Pie"
     },
     {
       "id": "bananabread",
       "title": "Banana Bread"
+    },
+    {
+      "id": "plain-cheesecake",
+      "title": "Cheesecake — Plain"
     }
   ]
 }

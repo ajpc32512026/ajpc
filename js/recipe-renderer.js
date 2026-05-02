@@ -7,6 +7,30 @@
 (function () {
     'use strict';
 
+    // Simple cache for recipe index — avoids re-fetching on every page load
+    var recipeIndexCache = {
+        data: null,
+        timestamp: null,
+        maxAge: 30 * 60 * 1000 // 30 minutes
+    };
+
+    function getCachedIndex() {
+        if (recipeIndexCache.data && recipeIndexCache.timestamp && (Date.now() - recipeIndexCache.timestamp < recipeIndexCache.maxAge)) {
+            return Promise.resolve(recipeIndexCache.data);
+        }
+        return fetch('json/recipe-index.json')
+            .then(function(res) { return res.json(); })
+            .then(function(data) {
+                recipeIndexCache.data = data;
+                recipeIndexCache.timestamp = Date.now();
+                return data;
+            })
+            .catch(function() {
+                if (recipeIndexCache.data) return recipeIndexCache.data;
+                return [];
+            });
+    }
+
     const RECIPE_PATH = 'data/recipes/';
 
     if (document.readyState === 'loading') {
@@ -18,6 +42,9 @@
     async function init() {
         const container = document.getElementById('recipe-container');
         if (!container) return;
+
+        // Pre-warm the cache immediately — runs in the background
+        getCachedIndex();
 
         const params = new URLSearchParams(window.location.search);
         const id = params.get('id');
@@ -43,15 +70,114 @@
         return res.json();
     }
 
+	function validateRecipe(recipe, id) {
+    var warnings = [];
+
+    // Required fields
+    if (!recipe.title) {
+        warnings.push('Missing recipe title');
+    }
+
+    // ID mismatch
+    if (recipe.id && recipe.id !== id) {
+        warnings.push('Recipe ID "' + recipe.id + '" does not match filename "' + id + '"');
+    }
+
+    // Ingredients check
+    if (!recipe.ingredients || recipe.ingredients.length === 0) {
+        warnings.push('No ingredients listed');
+    } else {
+        var hasRealIngredient = recipe.ingredients.some(function(ing) {
+            return !ing.heading && (ing.item || ing.name || ing.ingredient);
+        });
+        if (!hasRealIngredient) {
+            warnings.push('Ingredients section has only headings — no actual ingredients found');
+        }
+    }
+
+    // Method check
+    if (!recipe.method || recipe.method.length === 0) {
+        warnings.push('No method steps listed');
+    } else {
+        var hasRealStep = recipe.method.some(function(step) {
+            return !step.heading && (step.instruction || step.text);
+        });
+        if (!hasRealStep) {
+            warnings.push('Method section has only headings — no actual steps found');
+        }
+    }
+
+    // Category check
+    var validCategories = [
+        'Breads', 'Baking', 'Biscuits', 'Entree', 'Dinner', 'Mains',
+        'Filipino', 'Desserts', 'Sauces', 'Pasta', 'Pizza',
+        'Soups', 'Salads', 'Sides', 'Snacks', 'Breakfast', 'Other'
+    ];
+    if (recipe.category && validCategories.indexOf(recipe.category) === -1) {
+        warnings.push('Unknown category "' + recipe.category + '" — may not appear in navigation');
+    }
+
+    // Tags check — warn if tags contain duplicates
+    if (recipe.tags && recipe.tags.length) {
+        var seen = {};
+        var dupes = [];
+        recipe.tags.forEach(function(tag) {
+            var lower = tag.toLowerCase();
+            if (seen[lower]) dupes.push(tag);
+            seen[lower] = true;
+        });
+        if (dupes.length) {
+            warnings.push('Duplicate tags found: ' + dupes.join(', '));
+        }
+    }
+
+    // Notes check — warn about empty notes
+    if (recipe.notes && recipe.notes.length) {
+        recipe.notes.forEach(function(note, i) {
+            if (note.title && !note.content && !note.text) {
+                warnings.push('Note #' + (i + 1) + ' "' + note.title + '" has no content');
+            }
+            if (!note.type || ['acknowledgement','serving','technique','storage','substitution','variation','tip'].indexOf(note.type) === -1) {
+                if (note.type) {
+                    warnings.push('Note #' + (i + 1) + ' has unrecognised type "' + note.type + '"');
+                }
+            }
+        });
+    }
+
+    // Servings — warn about non-numeric values
+    if (recipe.servings && isNaN(parseInt(recipe.servings))) {
+        warnings.push('Servings value "' + recipe.servings + '" is not a number — scaler may not work correctly');
+    }
+
+    // Log all warnings to console
+    if (warnings.length > 0) {
+        console.warn('[recipe-validator] ' + recipe.title + ' (' + id + '):');
+        warnings.forEach(function(w) {
+            console.warn('  ⚠ ' + w);
+        });
+    }
+
+    return warnings;
+}
     /* --------------------------------------------------
        Main render
     -------------------------------------------------- */
-    function renderRecipe(r, container) {
-        const title = r.title || r.id || 'Recipe';
-        document.title = `${title} | AJPC Kitchen`;
+function renderRecipe(r, container) {
+    const title = r.title || r.id || 'Recipe';
+    document.title = `${title} | AJPC Kitchen`;
 
-        const hasIngredients = r.ingredients && r.ingredients.length > 0;
-        const hasMethod      = r.method && r.method.length > 0;
+    // Update meta description dynamically
+    var metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) {
+        metaDesc.setAttribute('content', (r.description || r.title || 'Recipe') + " — Ana & John's Kitchen Notebook.");
+    }
+
+    // Validate recipe data — logs warnings to console only
+    validateRecipe(r, r.id || '');
+
+    const hasIngredients = r.ingredients && r.ingredients.length > 0;
+    const hasMethod      = r.method && r.method.length > 0;
 
         container.innerHTML = `
             <div class="recipe-page-wrapper animate-in">
@@ -306,61 +432,170 @@
     /* --------------------------------------------------
        Toolbar actions (Cook Mode, Scaler, Shopping List)
     -------------------------------------------------- */
-    function setupToolbar(recipe) {
-        // Cook Mode
-        const cookBtn = document.getElementById('cookModeBtn');
-        if (cookBtn) {
-            cookBtn.addEventListener('click', () => enterCookMode(recipe));
+function setupToolbar(recipe) {
+    // Shared multiplier — used by both scaler and shopping list
+    var multiplier = 1;
+
+    // Cook Mode
+    var cookBtn = document.getElementById('cookModeBtn');
+    if (cookBtn) {
+        cookBtn.addEventListener('click', function() { enterCookMode(recipe); });
+    }
+
+    // Ingredient Scaler
+    var scalerUp   = document.getElementById('scalerUp');
+    var scalerDown  = document.getElementById('scalerDown');
+    var scalerDisp  = document.getElementById('scalerDisplay');
+
+    if (scalerUp && scalerDown && scalerDisp) {
+        function updateScale() {
+            scalerDisp.textContent = multiplier + 'x';
+            document.querySelectorAll('.ingredient-quantity[data-original]').forEach(function(el) {
+                var orig = parseFloat(el.getAttribute('data-original'));
+                if (!isNaN(orig)) {
+                    el.textContent = formatNum(orig * multiplier);
+                }
+            });
         }
+        scalerUp.addEventListener('click', function() { multiplier = Math.min(multiplier + 1, 20); updateScale(); });
+        scalerDown.addEventListener('click', function() { multiplier = Math.max(multiplier - 1, 1); updateScale(); });
+    }
 
-        // Ingredient Scaler
-        const scalerUp   = document.getElementById('scalerUp');
-        const scalerDown  = document.getElementById('scalerDown');
-        const scalerDisp  = document.getElementById('scalerDisplay');
+    // Shopping List — passes current multiplier
+    var shopBtn = document.getElementById('shoppingListBtn');
+    if (shopBtn && recipe.ingredients) {
+        shopBtn.addEventListener('click', function() { buildShoppingList(recipe, multiplier); });
+    }
+}
 
-        if (scalerUp && scalerDown && scalerDisp) {
-            let multiplier = 1;
+function buildShoppingList(recipe, scale) {
+    var existing = document.getElementById('shoppingPanel');
+    if (existing) { existing.remove(); return; }
 
-            function updateScale() {
-                scalerDisp.textContent = multiplier + 'x';
-                document.querySelectorAll('.ingredient-quantity[data-original]').forEach(el => {
-                    const orig = parseFloat(el.getAttribute('data-original'));
-                    if (!isNaN(orig)) {
-                        el.textContent = formatNum(orig * multiplier);
-                    }
-                });
+    // Only exclude water variants — everything else stays
+    var excludeItems = [
+        'water', 'hot water', 'cold water', 'warm water', 'boiling water', 'tap water'
+    ];
+
+    var lines = (recipe.ingredients || [])
+        .filter(function(i) { return !i.heading; })
+       .map(function(i) {
+    if (typeof i === 'string') return i;
+    var scaleFactor = scale || 1;
+    var raw = parseFloat(i.quantity);
+    var qty;
+    if (!isNaN(raw) && scaleFactor > 1) {
+        qty = formatNum(raw * scaleFactor) + (i.unit ? ' ' + i.unit : '');
+    } else {
+        qty = i.quantity ? String(i.quantity) + (i.unit ? ' ' + i.unit : '') : '';
+    }
+    var item = (i.item || i.name || '').toLowerCase().trim();
+    return { qty: qty, item: item, original: i };
+})
+        .filter(function(entry) {
+            if (!entry.item) return false;
+            for (var k = 0; k < excludeItems.length; k++) {
+                if (entry.item === excludeItems[k]) return false;
+            }
+            return true;
+        })
+        .map(function(entry) {
+            return entry.qty ? entry.qty + ' ' + entry.original.item : entry.original.item;
+        })
+        .filter(Boolean);
+
+    var panel = document.createElement('div');
+    panel.id = 'shoppingPanel';
+
+    var inner = '<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem;">';
+    var scaleDisplay = (scale && scale > 1) ? ' &times; ' + scale : '';
+inner += '<span style="font-size:0.7rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--copper);font-weight:700;">Shopping List' + scaleDisplay + '</span>';
+    inner += '<button onclick="document.getElementById(\'shoppingPanel\').remove()" style="background:none;border:none;color:var(--cream-muted);font-size:1.2rem;cursor:pointer;line-height:1;">&times;</button></div>';
+    inner += '<p style="font-size:0.85rem;color:var(--cream-muted);margin-bottom:1rem;font-style:italic;">' + escHtml(recipe.title || '') + '</p>';
+    
+    if (lines.length === 0) {
+        inner += '<p style="color:var(--cream-muted);font-style:italic;">All ingredients are pantry staples — nothing to buy!</p>';
+    } else {
+        inner += '<p style="font-size:0.7rem;color:var(--cream-muted);margin-bottom:0.75rem;">Check the items you need to buy, then print.</p>';
+        inner += '<button id="shoppingSelectAll" style="margin-bottom:0.75rem;padding:0.35rem 0.75rem;background:rgba(201,125,62,0.1);border:1px solid var(--border-copper);border-radius:4px;color:var(--copper-warm);font-family:var(--font-body);font-size:0.72rem;cursor:pointer;">Select All</button>';
+        inner += '<ul style="list-style:none;padding:0;margin:0;">';
+        for (var j = 0; j < lines.length; j++) {
+            inner += '<li style="display:flex;align-items:center;gap:0.75rem;padding:0.5rem 0;border-bottom:1px solid var(--border-dim);">';
+            inner += '<input type="checkbox" id="shop-' + j + '" class="shop-checkbox" style="width:16px;height:16px;accent-color:var(--copper);cursor:pointer;flex-shrink:0;">';
+            inner += '<label for="shop-' + j + '" style="font-size:0.9rem;color:var(--cream-dim);cursor:pointer;line-height:1.4;">' + escHtml(lines[j]) + '</label></li>';
+        }
+        inner += '</ul>';
+        inner += '<button id="shoppingPrintBtn" style="margin-top:1rem;width:100%;padding:0.5rem;background:rgba(201,125,62,0.12);border:1px solid var(--border-copper);border-radius:6px;color:var(--copper-warm);font-family:var(--font-body);font-size:0.82rem;font-weight:500;cursor:pointer;">Print Checked Items</button>';
+    }
+
+    panel.innerHTML = inner;
+
+    Object.assign(panel.style, {
+        position: 'fixed', top: '0', right: '0',
+        width: '320px', height: '100vh',
+        background: 'var(--surface-card)',
+        borderLeft: '1px solid var(--border-mid)',
+        boxShadow: '-8px 0 32px rgba(0,0,0,0.4)',
+        zIndex: '2000', overflowY: 'auto',
+        padding: '1.5rem', boxSizing: 'border-box'
+    });
+
+    document.body.appendChild(panel);
+
+    if (!document.getElementById('shopPanelStyle')) {
+        var style = document.createElement('style');
+        style.id = 'shopPanelStyle';
+        style.textContent = '#shoppingPanel input[type="checkbox"]:checked + label { text-decoration: line-through; color: var(--cream-faint); } @media (max-width: 400px) { #shoppingPanel { width: 100vw !important; } }';
+        document.head.appendChild(style);
+    }
+
+    // Select All button
+    var selectAllBtn = document.getElementById('shoppingSelectAll');
+    if (selectAllBtn) {
+        selectAllBtn.addEventListener('click', function() {
+            var checkboxes = panel.querySelectorAll('.shop-checkbox');
+            var allChecked = true;
+            checkboxes.forEach(function(cb) { if (!cb.checked) allChecked = false; });
+            checkboxes.forEach(function(cb) { cb.checked = !allChecked; });
+            selectAllBtn.textContent = allChecked ? 'Select All' : 'Deselect All';
+        });
+    }
+
+    // Print button — only prints checked items
+    var printBtn = document.getElementById('shoppingPrintBtn');
+    if (printBtn) {
+        printBtn.addEventListener('click', function() {
+            var checkedItems = [];
+            var checkboxes = panel.querySelectorAll('.shop-checkbox');
+            checkboxes.forEach(function(cb) {
+                if (cb.checked) {
+                    var label = cb.nextElementSibling;
+                    if (label) checkedItems.push(label.textContent);
+                }
+            });
+
+            if (checkedItems.length === 0) {
+                alert('Please check at least one item to print.');
+                return;
             }
 
-            scalerUp.addEventListener('click', () => { multiplier = Math.min(multiplier + 1, 20); updateScale(); });
-            scalerDown.addEventListener('click', () => { multiplier = Math.max(multiplier - 1, 1); updateScale(); });
-        }
-
-        // Shopping List
-        const shopBtn = document.getElementById('shoppingListBtn');
-        if (shopBtn && recipe.ingredients) {
-            shopBtn.addEventListener('click', () => buildShoppingList(recipe));
-        }
+            var win = window.open('', '_blank', 'width=420,height=600');
+            win.document.write('<!DOCTYPE html><html><head><title>Shopping List</title><style>body{font-family:sans-serif;font-size:13px;padding:20px;color:#1a1814}h2{font-size:16px;margin-bottom:4px}p{font-size:11px;color:#9a9088;margin-bottom:16px}ul{list-style:none;padding:0;margin:0}li{padding:6px 0;border-bottom:1px solid #ece7de;display:flex;align-items:center;gap:10px}li::before{content:"";display:inline-block;width:12px;height:12px;border:1.5px solid #c97d3e;border-radius:2px;flex-shrink:0}@media print{@page{margin:15mm}}</style></head><body><h2>Shopping List</h2><p>' + escHtml(recipe.title || '') + '</p><ul>' + checkedItems.map(function(i){return '<li>'+escHtml(i)+'</li>';}).join('') + '</ul></body></html>');
+            win.document.close();
+            win.focus();
+            setTimeout(function() { win.print(); }, 300);
+        });
     }
 
-    function buildShoppingList(recipe) {
-        const lines = recipe.ingredients
-            .filter(i => !i.heading)
-            .map(i => {
-                if (typeof i === 'string') return i;
-                const qty  = i.quantity ? String(i.quantity) + (i.unit ? ' ' + i.unit : '') : '';
-                const item = i.item || i.name || '';
-                return qty ? `${qty} ${item}` : item;
-            })
-            .filter(Boolean);
-
-        const text = `Shopping list — ${recipe.title || 'Recipe'}\n\n${lines.join('\n')}`;
-        const blob = new Blob([text], { type: 'text/plain' });
-        const a    = document.createElement('a');
-        a.href     = URL.createObjectURL(blob);
-        a.download = `shopping-list-${(recipe.id || 'recipe')}.txt`;
-        a.click();
-        URL.revokeObjectURL(a.href);
-    }
+    setTimeout(function() {
+        document.addEventListener('click', function closePanel(e) {
+            if (!panel.contains(e.target) && e.target.id !== 'shoppingListBtn') {
+                panel.remove();
+                document.removeEventListener('click', closePanel);
+            }
+        });
+    }, 100);
+}
 
     function formatNum(n) {
         // Return clean fractions for common values

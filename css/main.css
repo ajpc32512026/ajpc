@@ -1931,6 +1931,54 @@ footer {
     /* ---- Page breaks ---- */
     h1, h2, h3, h4 { page-break-after: avoid; }
     .print-columns { page-break-inside: auto; }
+	
+	/* Reference tables — dark text on white for print */
+	.reference-table thead th {
+		background: #f5ede3 !important;
+		border-bottom: 2px solid #c97d3e !important;
+		color: #9a5e28 !important;
+	}
+
+	.reference-table tbody td {
+		border-bottom: 1px solid #ddd7cc !important;
+		color: #3a3530 !important;
+	}
+
+	.reference-table tbody td:first-child {
+		color: #1a1814 !important;
+	}
+	
+		/* Force all text dark for print */
+	body {
+		color: #1a1814 !important;
+	}
+
+	h1, h2, h3, h4, h5, h6,
+	p, li, td, th, span, blockquote,
+	.reference-page p,
+	.reference-page li,
+	.reference-page .intro,
+	.reference-page .notes p,
+	.reference-page .notes li {
+		color: #1a1814 !important;
+	}
+
+	/* Keep copper accents visible */
+	h1, h2, h3, .reference-page h2, .reference-page h3 {
+		color: #7a3e1e !important;
+	}
+
+	/* Subtle elements stay lighter but still readable */
+	.reference-page .intro em,
+	.reference-page .notes p,
+	.notes p {
+		color: #4a4540 !important;
+	}
+
+	/* Links */
+	a {
+		color: #7a3e1e !important;
+	}
 }
 
 /* =========================================================
@@ -2022,4 +2070,41 @@ body.light-mode .nav-header {
 
 body.light-mode body::before {
     background: linear-gradient(135deg, #f0ece5 0%, #f8f5f0 50%, #ece7de 100%);
+}
+
+/* Reference data tables (Tangzhong guide, etc.) */
+.reference-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: var(--sp-lg) 0;
+    font-size: 0.875rem;
+}
+
+.reference-table thead th {
+    background: var(--surface-2);
+    border-bottom: 2px solid var(--border-copper);
+    padding: 0.6rem 0.75rem;
+    text-align: left;
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--copper);
+    font-weight: 600;
+}
+
+.reference-table tbody td {
+    padding: 0.55rem 0.75rem;
+    border-bottom: 1px solid var(--border-dim);
+    color: var(--cream-dim);
+    vertical-align: top;
+}
+
+.reference-table tbody tr:hover td {
+    background: rgba(201,125,62,0.04);
+}
+
+.reference-table tbody td:first-child {
+    color: var(--cream);
+    font-weight: 500;
 }

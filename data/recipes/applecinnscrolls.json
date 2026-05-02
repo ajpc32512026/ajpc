@@ -21,140 +21,37 @@
     "Vegetarian"
   ],
   "ingredients": [
-    {
-      "quantity": "250",
-      "unit": "ml",
-      "item": "Milk",
-      "ingredientKey": "Milk"
-    },
-    {
-      "quantity": "50",
-      "unit": "g",
-      "item": "Butter",
-      "ingredientKey": "Butter"
-    },
-    {
-      "quantity": "2",
-      "unit": "tbsp",
-      "item": "Honey",
-      "ingredientKey": "Honey"
-    },
-    {
-      "quantity": "2",
-      "unit": "tbsp",
-      "item": "Oil",
-      "ingredientKey": "Oil"
-    },
-    {
-      "quantity": "100",
-      "unit": "ml",
-      "item": "Juice",
-      "ingredientKey": "Juice"
-    },
-    {
-      "quantity": "7",
-      "unit": "g",
-      "item": "Yeast",
-      "ingredientKey": "Yeast"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Eggs",
-      "ingredientKey": "Eggs"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Eggs",
-      "ingredientKey": "Eggs"
-    },
-    {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Orange Zest",
-      "ingredientKey": "Orange Zest"
-    },
-    {
-      "quantity": "400",
-      "unit": "g",
-      "item": "Flour",
-      "ingredientKey": "Flour"
-    },
-    {
-      "quantity": "2",
-      "unit": "tsp",
-      "item": "Cinnamon",
-      "ingredientKey": "Cinnamon"
-    },
-    {
-      "quantity": "1/2",
-      "unit": "tsp",
-      "item": "Salt",
-      "ingredientKey": "Salt"
-    },
-    {
-      "quantity": "2",
-      "unit": "",
-      "item": "Apples",
-      "ingredientKey": "Apples"
-    },
-    {
-      "quantity": "50",
-      "unit": "g",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
-    },
-    {
-      "quantity": "50",
-      "unit": "g",
-      "item": "Walnuts",
-      "ingredientKey": "Walnuts"
-    },
-    {
-      "quantity": "100",
-      "unit": "g",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
-    },
-    {
-      "quantity": "50",
-      "unit": "ml",
-      "item": "Cream",
-      "ingredientKey": "Cream"
-    },
-    {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Vanilla",
-      "ingredientKey": "Vanilla"
-    }
+    { "heading": "Dough" },
+    { "quantity": "250", "unit": "ml", "item": "Milk",         "ingredientKey": "Milk" },
+    { "quantity": "50",  "unit": "g",  "item": "Unsalted Butter",       "ingredientKey": "Butter" },
+    { "quantity": "40",  "unit": "g",  "item": "Honey",        "notes": "light honey preferred", "ingredientKey": "Honey" },
+    { "quantity": "30",  "unit": "ml", "item": "Vegetable Oil","ingredientKey": "Oil" },
+    { "quantity": "100", "unit": "ml", "item": "Apple Juice",  "notes": "lukewarm", "ingredientKey": "Juice" },
+    { "quantity": "7",   "unit": "g",  "item": "Dried Yeast",  "ingredientKey": "Yeast" },
+    { "quantity": "1",   "unit": "",   "item": "Egg",          "ingredientKey": "Eggs" },
+    { "quantity": "1",   "unit": "",   "item": "Egg Yolk",     "notes": "extra for dough", "ingredientKey": "Eggs" },
+    { "quantity": "3",   "unit": "g",  "item": "Orange Zest",  "ingredientKey": "Orange Zest" },
+    { "quantity": "400", "unit": "g",  "item": "Plain Flour",  "ingredientKey": "Flour" },
+    { "quantity": "5",   "unit": "g",  "item": "Cinnamon",     "notes": "ground", "ingredientKey": "Cinnamon" },
+    { "quantity": "2.5", "unit": "g",  "item": "Salt",         "ingredientKey": "Salt" },
+    { "heading": "Filling" },
+    { "quantity": "300", "unit": "g",  "item": "Apples",       "notes": "peeled and diced", "ingredientKey": "Apples" },
+    { "quantity": "50",  "unit": "g",  "item": "Brown Sugar",  "notes": "packed", "ingredientKey": "Sugar" },
+    { "quantity": "30",  "unit": "g",  "item": "Unsalted Butter",       "ingredientKey": "Butter" },
+    { "quantity": "5",   "unit": "g",  "item": "Cinnamon",     "notes": "ground", "ingredientKey": "Cinnamon" },
+    { "quantity": "50",  "unit": "g",  "item": "Walnuts",      "notes": "chopped", "ingredientKey": "Walnuts" },
+    { "heading": "Icing" },
+    { "quantity": "100", "unit": "g",  "item": "Pure Icing Sugar", "ingredientKey": "Sugar" },
+    { "quantity": "50",  "unit": "ml", "item": "Heavy Cream",  "notes": "thickened cream", "ingredientKey": "Cream" },
+    { "quantity": "5",   "unit": "ml", "item": "Vanilla Extract", "ingredientKey": "Vanilla" }
   ],
   "method": [
-    {
-      "step": 1,
-      "instruction": "Heat milk and butter until just melted. Stir in honey and vegetable oil."
-    },
-    {
-      "step": 2,
-      "instruction": "Dissolve yeast in apple juice. Add egg, orange zest, flour, cinnamon, salt, and milk mixture. Knead until elastic and smooth. Cover and prove for 1 hour."
-    },
-    {
-      "step": 3,
-      "instruction": "Lightly pre-cook diced apples. Combine brown sugar, cinnamon, butter, and walnuts to form the filling."
-    },
-    {
-      "step": 4,
-      "instruction": "Roll dough into a rectangle, spread filling evenly, roll tightly, and slice into scrolls. Place into a tray and prove for 30 minutes."
-    },
-    {
-      "step": 5,
-      "instruction": "Brush with egg yolk and maple syrup. Bake until golden and cooked through."
-    },
-    {
-      "step": 6,
-      "instruction": "Mix icing sugar, butter, vanilla, salt, and cream until smooth. Spread over scrolls while slightly warm."
-    }
+    { "step": 1, "instruction": "Heat milk and butter until just melted. Stir in honey and vegetable oil." },
+    { "step": 2, "instruction": "Dissolve yeast in lukewarm apple juice. Add egg, orange zest, flour, cinnamon, salt, and milk mixture. Knead until elastic and smooth. Cover and prove for 1 hour." },
+    { "step": 3, "instruction": "Lightly pre-cook diced apples. Combine brown sugar, cinnamon, butter, and walnuts to form the filling." },
+    { "step": 4, "instruction": "Roll dough into a rectangle, spread filling evenly, roll tightly, and slice into 12 scrolls. Place into a tray and prove for 30 minutes." },
+    { "step": 5, "instruction": "Brush with egg yolk. Bake at 180°C for 22–25 minutes until golden and cooked through." },
+    { "step": 6, "instruction": "Mix icing sugar, vanilla, and cream until smooth. Spread over scrolls while slightly warm." }
   ],
   "notes": [
     {
@@ -171,48 +68,13 @@
       "type": "variation",
       "title": "Substitutions",
       "content": "Walnuts can be swapped for pecans for a sweeter, softer crunch."
-    },
-    {
-      "title": "Apple Juice",
-      "content": "lukewarm"
-    },
-    {
-      "title": "Dry Yeast",
-      "content": "1 packet"
-    },
-    {
-      "title": "Egg Yolk",
-      "content": "extra for dough"
-    },
-    {
-      "title": "Apples",
-      "content": "peeled and diced"
-    },
-    {
-      "title": "Walnuts",
-      "content": "chopped"
     }
   ],
   "related": [
-    {
-      "id": "bananabread",
-      "title": "Banana Bread"
-    },
-    {
-      "id": "applepie",
-      "title": "Apple Pie"
-    },
-    {
-      "id": "swbtm",
-      "title": "Soft White Bread (Tangzhong Method)"
-    },
-    {
-      "id": "blueberrymuffins",
-      "title": "Heavenly Blueberry Muffins"
-    },
-    {
-      "id": "chocmuffins",
-      "title": "Chocolate Muffins with Ganache"
-    }
+    { "id": "bananabread",     "title": "Banana Bread" },
+    { "id": "applepie",        "title": "Apple Pie" },
+    { "id": "swbtm",           "title": "Soft White Bread (Tangzhong Method)" },
+    { "id": "blueberrymuffins","title": "Heavenly Blueberry Muffins" },
+    { "id": "chocmuffins",     "title": "Chocolate Muffins with Ganache" }
   ]
 }
