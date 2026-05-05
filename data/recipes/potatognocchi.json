@@ -1,160 +1,159 @@
 {
-  "id": "potatognocchi",
+  "id": "potatognocchiwithtomatosauce",
   "title": "Potato Gnocchi with Tomato Sauce",
   "emoji": "🥔",
   "category": "Dinner",
   "description": "Soft potato gnocchi served with a simple tomato and basil sauce.",
   "prepTime": "30 min",
   "cookTime": "35 min",
-  "totalTime": "1 hour 5 min",
-  "servings": "4",
-  "difficulty": "Medium",
+  "totalTime": "1 hr 5 min",
+  "servings": "4 servings",
+  "difficulty": "Intermediate",
   "tags": [
     "Alcohol",
-    "Cheese",
     "Classic",
     "Dinner",
     "Italian",
     "Rich",
     "Savoury",
-    "Under 1 Hour",
     "Vegetarian"
   ],
   "ingredients": [
     {
+      "heading": "Gnocchi"
+    },
+    {
       "quantity": "500",
       "unit": "g",
-      "item": "potatoes",
-      "ingredientKey": "Potato"
+      "item": "Potatoes",
+      "notes": "mashed"
     },
     {
       "quantity": "30",
       "unit": "g",
-      "item": "plain flour",
-      "ingredientKey": "Flour"
+      "item": "Plain Flour"
     },
     {
       "quantity": "50",
       "unit": "g",
-      "item": "Parmesan cheese, grated",
-      "ingredientKey": "Cheese"
+      "item": "Parmesan",
+      "notes": "grated"
     },
     {
       "quantity": "30",
       "unit": "g",
-      "item": "butter, melted",
-      "ingredientKey": "Butter"
+      "item": "Unsalted Butter",
+      "notes": "melted"
     },
     {
-      "quantity": "to taste",
-      "unit": "",
-      "item": "salt and pepper",
-      "ingredientKey": "Seasoning"
+      "quantity": "3",
+      "unit": "g",
+      "item": "Salt"
     },
     {
       "quantity": "1",
-      "unit": "kg",
-      "item": "ripe tomatoes, chopped",
-      "ingredientKey": "Tomatoes"
+      "unit": "g",
+      "item": "Black Pepper"
+    },
+    {
+      "heading": "Tomato Sauce"
+    },
+    {
+      "quantity": "1000",
+      "unit": "g",
+      "item": "Tomatoes",
+      "notes": "ripe, chopped"
     },
     {
       "quantity": "2",
       "unit": "cloves",
-      "item": "garlic, crushed",
-      "ingredientKey": "Garlic"
+      "item": "Garlic",
+      "notes": "crushed"
     },
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "dry white wine",
-      "ingredientKey": "Wine"
+      "item": "White Wine",
+      "notes": "dry"
     },
     {
-      "quantity": "3",
-      "unit": "tbsp",
-      "item": "fresh basil, chopped",
-      "ingredientKey": "Basil"
+      "quantity": "10",
+      "unit": "g",
+      "item": "Basil",
+      "notes": "fresh, chopped"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Cook potatoes in a pan of boiling water for 15–20 minutes until tender. Drain thoroughly and mash until smooth."
+      "instruction": "Cook potatoes in a pan of boiling water for 15–20 minutes until tender. Drain thoroughly and mash until smooth. Allow to cool slightly."
     },
     {
       "step": 2,
-      "instruction": "Transfer to a bowl and allow to cool slightly. Add flour, Parmesan, melted butter, salt, and pepper."
+      "instruction": "Add flour, Parmesan, melted butter, salt, and pepper to the mashed potatoes. Using a flat-bladed knife, mix with a cutting motion to form a firm dough."
     },
     {
       "step": 3,
-      "instruction": "Using a flat-bladed knife, mix with a cutting motion to form a firm dough."
-    },
-    {
-      "step": 4,
       "instruction": "Knead briefly on a lightly floured surface until smooth. Do not over-handle or the gnocchi will be tough."
     },
     {
-      "step": 5,
+      "step": 4,
       "instruction": "Roll heaped teaspoons of dough into oval shapes and indent one side with the back of a fork."
     },
     {
+      "step": 5,
+      "instruction": "Cook gnocchi in batches in rapidly boiling salted water for 3–5 minutes. When they float, they are cooked. Drain well and keep warm."
+    },
+    {
       "step": 6,
-      "instruction": "Cook gnocchi in batches in rapidly boiling salted water for 3–5 minutes. When they float, they are cooked."
+      "instruction": "For the sauce: combine tomatoes, garlic, wine, basil, salt, and pepper in a pan. Bring to the boil, then reduce heat and simmer gently for 15–20 minutes, stirring occasionally, until slightly thickened."
     },
     {
       "step": 7,
-      "instruction": "Drain well and keep warm while cooking remaining gnocchi."
-    },
-    {
-      "step": 8,
-      "instruction": "To make the tomato sauce, combine tomatoes, garlic, wine, basil, salt, and pepper in a pan."
-    },
-    {
-      "step": 9,
-      "instruction": "Bring to the boil, then reduce heat and simmer gently for 15–20 minutes, stirring occasionally, until slightly thickened."
-    },
-    {
-      "step": 10,
       "instruction": "Serve gnocchi in warmed bowls with tomato sauce and extra grated Parmesan."
     }
   ],
   "notes": [
     {
-      "type": "note",
+      "type": "technique",
       "title": "Basil Tip",
       "content": "Fresh basil should be added at the end of cooking to preserve its flavour. Chop or tear just before using to prevent blackening."
     },
     {
       "type": "acknowledgement",
       "title": "Recipe Source",
-      "content": "Reproduced and adapted from The Essential Vegetarian Cook Book, published by Murdoch Books. ISBN: 0-86411-540-5."
-    },
-    {
-      "type": "acknowledgement",
-      "title": "Copyright",
-      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+      "content": "Adapted from The Essential Vegetarian Cook Book, published by Murdoch Books."
     }
   ],
   "related": [
     {
       "id": "lasagne",
-      "title": "Classic Lasagne — Ragù & Béchamel"
+      "title": "Classic Lasagne"
     },
     {
       "id": "chickencacciatore",
       "title": "Chicken Cacciatore"
     },
     {
-      "id": "bistro-vealscaloppine",
-      "title": "Veal Scaloppine"
+      "id": "marinarasauce",
+      "title": "Marinara Sauce"
+    },
+    {
+      "id": "redsauce",
+      "title": "Red Sauce"
     },
     {
       "id": "highhydraciab",
       "title": "Airy High-Hydration Ciabatta"
-    },
-    {
-      "id": "bistro-carpetbag",
-      "title": "Carpet Bag"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 4,
+    "cal": 364,
+    "protein": 14,
+    "carbs": 54,
+    "fat": 11,
+    "fiber": 7,
+    "coverage": 100
+  }
 }

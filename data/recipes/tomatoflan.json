@@ -2,96 +2,100 @@
   "id": "tomatoandoliveflan",
   "title": "Tomato and Olive Flan",
   "emoji": "🍅",
+  "category": "Dinner",
   "description": "A savoury baked flan filled with tomatoes, olives, basil, and Gruyère cheese.",
   "prepTime": "30 min",
   "cookTime": "35 min",
-  "totalTime": "1 hour 35 min",
-  "servings": "4–6",
-  "difficulty": "Medium",
+  "totalTime": "1 hr 35 min",
+  "servings": "4 servings",
+  "difficulty": "Intermediate",
   "tags": [
     "Baked",
-    "Cheese",
     "Dinner",
     "French",
     "Pastry",
     "Rich",
     "Savoury",
     "Tomato",
-    "Under 1 Hour",
     "Vegetarian"
   ],
   "ingredients": [
     {
+      "heading": "Pastry"
+    },
+    {
       "quantity": "250",
       "unit": "g",
-      "item": "plain flour"
+      "item": "Plain Flour"
     },
     {
       "quantity": "90",
       "unit": "g",
-      "item": "butter",
+      "item": "Unsalted Butter",
       "notes": "chilled and cubed"
     },
     {
       "quantity": "1",
       "unit": "",
-      "item": "egg yolk"
+      "item": "Egg Yolk"
     },
     {
-      "quantity": "1",
-      "unit": "tbsp",
-      "item": "cold water"
+      "quantity": "15",
+      "unit": "ml",
+      "item": "Water",
+      "notes": "cold"
     },
     {
-      "quantity": "2",
-      "unit": "tbsp",
-      "item": "olive oil"
+      "heading": "Filling"
     },
     {
-      "quantity": "1 - 2",
-      "unit": "tsp",
-      "item": "french mustard",
-      "notes": "or Dijon mustard"
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Olive Oil"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Dijon Mustard"
     },
     {
       "quantity": "15",
       "unit": "g",
-      "item": "butter",
-      "notes": "extra"
+      "item": "Unsalted Butter"
     },
     {
       "quantity": "6",
-      "unit": "small",
-      "item": "tomatoes",
-      "notes": "chopped"
+      "unit": "",
+      "item": "Tomatoes",
+      "notes": "small, chopped"
     },
     {
       "quantity": "3",
-      "unit": "large",
-      "item": "onions",
-      "notes": "sliced"
+      "unit": "",
+      "item": "Brown Onion",
+      "notes": "large, sliced"
     },
     {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "sugar"
+      "quantity": "5",
+      "unit": "g",
+      "item": "White Sugar"
     },
     {
-      "quantity": "2",
-      "unit": "tbsp",
-      "item": "fresh basil",
-      "notes": "chopped"
+      "quantity": "10",
+      "unit": "g",
+      "item": "Basil",
+      "notes": "fresh, chopped"
     },
     {
-      "quantity": "1",
-      "unit": "cup",
-      "item": "black olives",
+      "quantity": "150",
+      "unit": "g",
+      "item": "Kalamata Olives",
       "notes": "pitted"
     },
     {
-      "quantity": "1",
-      "unit": "cup",
-      "item": "Gruyère cheese",
+      "quantity": "120",
+      "unit": "g",
+      "item": "Gruyere",
       "notes": "grated"
     }
   ],
@@ -102,11 +106,11 @@
     },
     {
       "step": 2,
-      "instruction": "To make the pastry, place flour and butter in a food processor and process until the mixture resembles fine crumbs."
+      "instruction": "Place flour and chilled butter in a food processor and process until the mixture resembles fine crumbs."
     },
     {
       "step": 3,
-      "instruction": "Add egg yolk and water and process until the dough just comes together."
+      "instruction": "Add egg yolk and cold water. Process until the dough just comes together."
     },
     {
       "step": 4,
@@ -122,7 +126,7 @@
     },
     {
       "step": 7,
-      "instruction": "Mix olive oil and mustard to a smooth paste and spread evenly over the pastry base."
+      "instruction": "Mix olive oil and Dijon mustard to a smooth paste and spread evenly over the pastry base."
     },
     {
       "step": 8,
@@ -134,7 +138,7 @@
     },
     {
       "step": 10,
-      "instruction": "Combine sugar, basil, and olives and scatter over the tomatoes."
+      "instruction": "Combine sugar, basil, and olives. Scatter over the tomatoes."
     },
     {
       "step": 11,
@@ -147,42 +151,45 @@
   ],
   "notes": [
     {
-      "type": "serving",
+      "type": "technique",
       "title": "Olives",
       "content": "Use good-quality olives such as Kalamata or Niçoise for best flavour."
     },
     {
-      "type": "serving",
+      "type": "acknowledgement",
       "title": "Recipe Source",
-      "content": "Reproduced and adapted from The Essential Vegetarian Cook Book, published by Murdoch Books. ISBN: 0-86411-540-5."
-    },
-    {
-      "type": "serving",
-      "title": "Copyright",
-      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+      "content": "Adapted from The Essential Vegetarian Cook Book, published by Murdoch Books."
     }
   ],
   "related": [
-    {
-      "id": "bistro-vealcordonbleu",
-      "title": "Veal Cordon Bleu"
-    },
-    {
-      "id": "beefstockpot",
-      "title": "20 Minute Beef Stock Pot"
-    },
-    {
-      "id": "bistro-chickenpicante",
-      "title": "Chicken Picante"
-    },
     {
       "id": "chouxpastry",
       "title": "Choux Pastry (Profiteroles)"
     },
     {
-      "id": "crepes",
-      "title": "Crepes with Maple Syrup & Butter"
+      "id": "mushroomcups",
+      "title": "Mushrooms with Herb Nut Butter"
+    },
+    {
+      "id": "garlicbread",
+      "title": "Garlic Butter Crusty Bread"
+    },
+    {
+      "id": "potatognocchi",
+      "title": "Potato Gnocchi with Tomato Sauce"
+    },
+    {
+      "id": "puffpastrymethods",
+      "title": "Puff Pastry Methods"
     }
   ],
-  "category": "Dinner"
+  "nutrition": {
+    "servings": 4,
+    "cal": 842,
+    "protein": 23,
+    "carbs": 65,
+    "fat": 55,
+    "fiber": 6,
+    "coverage": 100
+  }
 }

@@ -4,129 +4,11 @@
   "emoji": "🔥",
   "category": "Dinner",
   "description": "Succulent lamb cooked low and slow in a classic, fiery vindaloo sauce.",
-  "ingredients": [
-    {
-      "quantity": "1",
-      "unit": "kg",
-      "item": "Lamb",
-      "ingredientKey": "Lamb"
-    },
-    {
-      "quantity": "2",
-      "unit": "tbsp",
-      "item": "Oil",
-      "ingredientKey": "Oil"
-    },
-    {
-      "quantity": "2",
-      "unit": "cups",
-      "item": "Onion",
-      "ingredientKey": "Onion"
-    },
-    {
-      "quantity": "3",
-      "unit": "cloves",
-      "item": "Garlic",
-      "ingredientKey": "Garlic"
-    },
-    {
-      "quantity": "1/2",
-      "unit": "tsp",
-      "item": "Turmeric",
-      "ingredientKey": "Turmeric"
-    },
-    {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Red Chili",
-      "ingredientKey": "Red Chili"
-    },
-    {
-      "quantity": "2",
-      "unit": "tbsp",
-      "item": "Tomatoes",
-      "ingredientKey": "Tomatoes"
-    },
-    {
-      "quantity": "2",
-      "unit": "medium",
-      "item": "Tomatoes",
-      "ingredientKey": "Tomatoes"
-    },
-    {
-      "quantity": "2",
-      "unit": "tbsp",
-      "item": "Vinegar",
-      "ingredientKey": "Vinegar"
-    },
-    {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
-    },
-    {
-      "quantity": "1",
-      "unit": "cup",
-      "item": "water"
-    },
-    {
-      "quantity": "to taste",
-      "unit": "",
-      "item": "Salt",
-      "ingredientKey": "Salt"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Coriander",
-      "ingredientKey": "Coriander"
-    }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "Prepare vindaloo paste according to the paste recipe and set aside."
-    },
-    {
-      "step": 2,
-      "instruction": "Place lamb in a large bowl. Add vindaloo paste and toss to coat. Cover and marinate in the fridge for at least 1 hour, or overnight for best flavour."
-    },
-    {
-      "step": 3,
-      "instruction": "Heat oil in a large frying pan over medium-high heat. Add onions and sauté 2–3 minutes until soft and translucent. Add garlic and sauté 1 minute until fragrant."
-    },
-    {
-      "step": 4,
-      "instruction": "Add ground turmeric, red chilli powder, tomato paste, tomatoes, and cider vinegar. Cook 2–3 minutes until tomatoes break down and turn mushy."
-    },
-    {
-      "step": 5,
-      "instruction": "Add lamb and sugar. Season with salt. Cook around 10 minutes, stirring occasionally."
-    },
-    {
-      "step": 6,
-      "instruction": "Pour in the water and stir."
-    },
-    {
-      "step": 7,
-      "instruction": "Bring to a boil, reduce heat to medium. Cover and simmer for about 1 hour or until lamb is tender and the sauce has thickened."
-    },
-    {
-      "step": 8,
-      "instruction": "Garnish with chopped coriander leaves before serving."
-    }
-  ],
-  "notes": [
-    {
-      "title": "📌 Acknowledgements",
-      "content": "This recipe was adapted from traditional Indian vindaloo recipes."
-    },
-    {
-      "title": "📌 Acknowledgements",
-      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
-    }
-  ],
+  "prepTime": "15 min",
+  "cookTime": "1 hr 15 min",
+  "totalTime": "1 hr 30 min",
+  "servings": "4 servings",
+  "difficulty": "Intermediate",
   "tags": [
     "Curry",
     "Dinner",
@@ -138,26 +20,159 @@
     "Slow-Cooked",
     "Spicy"
   ],
+  "ingredients": [
+    {
+      "quantity": "1",
+      "unit": "kg",
+      "item": "Lamb",
+      "notes": "cut into 2.5 cm cubes"
+    },
+    {
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Vegetable Oil"
+    },
+    {
+      "quantity": "300",
+      "unit": "g",
+      "item": "Brown Onion",
+      "notes": "chopped"
+    },
+    {
+      "quantity": "3",
+      "unit": "cloves",
+      "item": "Garlic",
+      "notes": "chopped"
+    },
+    {
+      "quantity": "3",
+      "unit": "g",
+      "item": "Turmeric"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Red Chili Powder"
+    },
+    {
+      "quantity": "40",
+      "unit": "g",
+      "item": "Tomato Paste"
+    },
+    {
+      "quantity": "250",
+      "unit": "g",
+      "item": "Tomatoes",
+      "notes": "chopped"
+    },
+    {
+      "quantity": "30",
+      "unit": "ml",
+      "item": "White Vinegar"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "White Sugar"
+    },
+    {
+      "quantity": "250",
+      "unit": "ml",
+      "item": "Hot Water"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Salt",
+      "notes": "to taste"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Coriander (Fresh)",
+      "notes": "chopped, for garnish"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Prepare 1 batch of vindaloo paste according to the vindaloo paste recipe. Set aside."
+    },
+    {
+      "step": 2,
+      "instruction": "Place lamb in a large bowl. Add vindaloo paste and toss to coat evenly. Cover and marinate in the refrigerator for at least 1 hour, or overnight for deeper flavour."
+    },
+    {
+      "step": 3,
+      "instruction": "Heat vegetable oil in a large heavy-based pot over medium-high heat. Add onions and sauté 2–3 minutes until soft and translucent. Add garlic and sauté 1 minute until fragrant."
+    },
+    {
+      "step": 4,
+      "instruction": "Add turmeric, chili powder, tomato paste, chopped tomatoes, and vinegar. Cook 2–3 minutes until tomatoes break down."
+    },
+    {
+      "step": 5,
+      "instruction": "Add marinated lamb and sugar. Season with salt. Cook for 10 minutes, stirring occasionally."
+    },
+    {
+      "step": 6,
+      "instruction": "Pour in hot water, bring to a boil, reduce heat to low, cover, and simmer for 1 hour or until lamb is tender and sauce has thickened."
+    },
+    {
+      "step": 7,
+      "instruction": "If sauce is too thin, uncover and simmer for a further 5–10 minutes to reduce."
+    },
+    {
+      "step": 8,
+      "instruction": "Garnish with fresh coriander and serve with steamed rice."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Overnight Marinade",
+      "content": "For the deepest flavour, marinate the lamb overnight in the refrigerator. The vinegar and spices will tenderise the meat while infusing it with flavour."
+    },
+    {
+      "type": "technique",
+      "title": "Paste Yield",
+      "content": "The vindaloo paste recipe yields approximately 80–100 g — exactly the right amount for 1 kg of lamb. Use the full batch."
+    },
+    {
+      "type": "acknowledgement",
+      "title": "Recipe Source",
+      "content": "Adapted from traditional Indian vindaloo recipes."
+    }
+  ],
   "related": [
     {
-      "id": "roganjosh",
-      "title": "Lamb Rogan Josh – Restaurant Style"
+      "id": "vindaloopaste",
+      "title": "Vindaloo Paste"
     },
     {
       "id": "beefvindaloo",
       "title": "Beef Vindaloo"
     },
     {
+      "id": "roganjosh",
+      "title": "Lamb Rogan Josh – Restaurant Style"
+    },
+    {
       "id": "lambkorma",
       "title": "Lamb Korma"
     },
     {
-      "id": "sataysauce",
-      "title": "Satay Sauce"
-    },
-    {
-      "id": "vindaloopaste",
-      "title": "Vindaloo Paste"
+      "id": "butterchicken",
+      "title": "Restaurant-Style Butter Chicken"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 4,
+    "cal": 942,
+    "protein": 57,
+    "carbs": 38,
+    "fat": 63,
+    "fiber": 4,
+    "coverage": 100
+  }
 }

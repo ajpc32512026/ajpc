@@ -1,104 +1,112 @@
 {
-  "id": "cinntwists",
+  "id": "cinnamontwists",
   "title": "Cinnamon Twists",
   "emoji": "🥨",
-  "category": "Desserts",
+  "category": "Baking",
   "description": "A soft, buttery treat with a swirl of spiced sweetness — perfect for breakfast or afternoon tea.",
   "prepTime": "30 min",
   "cookTime": "15 min",
-  "totalTime": "2 hours 45 min",
-  "servings": "18-20 twists",
-  "difficulty": "Medium",
+  "totalTime": "2 hr 45 min",
+  "servings": "18 twists",
+  "difficulty": "Intermediate",
+  "tags": [
+    "Baked",
+    "Bread",
+    "Breakfast",
+    "Cinnamon",
+    "Sweet",
+    "Vegetarian"
+  ],
   "ingredients": [
     {
-      "quantity": "2",
-      "unit": "sachets",
-      "item": "Yeast",
-      "ingredientKey": "Yeast"
+      "heading": "Dough"
     },
     {
-      "quantity": "4",
-      "unit": "cups",
-      "item": "Flour",
-      "ingredientKey": "Flour"
+      "quantity": "14",
+      "unit": "g",
+      "item": "Yeast"
     },
     {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Salt",
-      "ingredientKey": "Salt"
+      "quantity": "600",
+      "unit": "g",
+      "item": "Plain Flour"
     },
     {
-      "quantity": "1/4",
-      "unit": "cup",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
+      "quantity": "5",
+      "unit": "g",
+      "item": "Salt"
     },
     {
-      "quantity": "1",
-      "unit": "container",
-      "item": "Cream",
-      "ingredientKey": "Cream"
+      "quantity": "50",
+      "unit": "g",
+      "item": "White Sugar"
     },
     {
-      "quantity": "1/2",
-      "unit": "cup",
-      "item": "Milk",
-      "ingredientKey": "Milk"
+      "quantity": "240",
+      "unit": "ml",
+      "item": "Sour Cream",
+      "notes": "warmed"
     },
     {
-      "quantity": "2",
-      "unit": "tbsp",
-      "item": "Butter",
-      "ingredientKey": "Butter"
+      "quantity": "125",
+      "unit": "ml",
+      "item": "Whole Milk",
+      "notes": "warmed"
+    },
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Unsalted Butter",
+      "notes": "melted"
     },
     {
       "quantity": "1",
       "unit": "",
       "item": "Eggs",
-      "ingredientKey": "Eggs"
+      "notes": "beaten"
+    },
+    {
+      "heading": "Filling"
+    },
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Unsalted Butter",
+      "notes": "melted, for brushing"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Brown Sugar"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Cinnamon"
+    },
+    {
+      "heading": "Icing"
+    },
+    {
+      "quantity": "15",
+      "unit": "g",
+      "item": "Unsalted Butter",
+      "notes": "softened"
     },
     {
       "quantity": "2",
-      "unit": "tbsp",
-      "item": "Butter",
-      "ingredientKey": "Butter"
+      "unit": "ml",
+      "item": "Vanilla Extract"
     },
     {
-      "quantity": "1/2",
-      "unit": "cup",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
+      "quantity": "125",
+      "unit": "g",
+      "item": "Icing Sugar"
     },
     {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Cinnamon",
-      "ingredientKey": "Cinnamon"
-    },
-    {
-      "quantity": "1",
-      "unit": "tbsp",
-      "item": "Butter",
-      "ingredientKey": "Butter"
-    },
-    {
-      "quantity": "1-2",
-      "unit": "drops",
-      "item": "Vanilla",
-      "ingredientKey": "Vanilla"
-    },
-    {
-      "quantity": "1",
-      "unit": "cup",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
-    },
-    {
-      "quantity": "1",
-      "unit": "tbsp",
-      "item": "Milk",
-      "ingredientKey": "Milk"
+      "quantity": "15",
+      "unit": "ml",
+      "item": "Whole Milk"
     }
   ],
   "method": [
@@ -116,19 +124,19 @@
     },
     {
       "step": 4,
-      "instruction": "Knead on a lightly floured surface for 8-10 minutes until smooth and elastic."
+      "instruction": "Knead on a lightly floured surface for 8–10 minutes until smooth and elastic."
     },
     {
       "step": 5,
-      "instruction": "Place dough in a lightly greased bowl, cover with a damp tea towel, and let rise in a warm place for 1-1.5 hours or until doubled in size."
+      "instruction": "Place dough in a lightly greased bowl, cover with a damp tea towel, and let rise in a warm place for 1–1½ hours or until doubled in size."
     },
     {
       "step": 6,
-      "instruction": "Punch down the dough and roll out into a large rectangle (approximately 30cm x 40cm)."
+      "instruction": "Punch down the dough and roll out into a large rectangle approximately 30 cm × 40 cm."
     },
     {
       "step": 7,
-      "instruction": "Brush the surface with 2 tablespoons melted butter."
+      "instruction": "Brush the surface with melted butter."
     },
     {
       "step": 8,
@@ -136,7 +144,7 @@
     },
     {
       "step": 9,
-      "instruction": "Fold the dough in half lengthwise, then cut into strips (about 2cm wide)."
+      "instruction": "Fold the dough in half lengthwise, then cut into strips approximately 2 cm wide."
     },
     {
       "step": 10,
@@ -148,11 +156,11 @@
     },
     {
       "step": 12,
-      "instruction": "Preheat oven to 180°C (350°F). Bake twists for 12-15 minutes until golden brown."
+      "instruction": "Preheat oven to 180°C. Bake twists for 12–15 minutes until golden brown."
     },
     {
       "step": 13,
-      "instruction": "While twists cool slightly, make the icing: Beat together butter, vanilla, icing sugar, and milk until smooth and glossy."
+      "instruction": "While twists cool slightly, make the icing: beat together butter, vanilla extract, icing sugar, and milk until smooth and glossy."
     },
     {
       "step": 14,
@@ -161,49 +169,45 @@
   ],
   "notes": [
     {
-      "type": "tip",
-      "title": "Soft and Tender",
-      "content": "The sour cream in this recipe creates an exceptionally soft, tender dough. Don't skip warming the dairy — it helps activate the yeast faster."
+      "type": "technique",
+      "title": "Sour Cream Dough",
+      "content": "The sour cream creates an exceptionally soft, tender dough. Warming the dairy before adding helps activate the yeast faster — aim for approximately 40°C."
     },
     {
       "type": "serving",
       "title": "Best Served",
-      "content": "These are best enjoyed fresh and warm. Store leftovers in an airtight container for up to 2 days."
+      "content": "These are best enjoyed fresh and warm on the day they are baked. Store leftovers in an airtight container for up to 2 days. Reheat briefly in the microwave to soften."
     }
-  ],
-  "tags": [
-    "Baked",
-    "Bread",
-    "Breakfast",
-    "Cinnamon",
-    "Creamy",
-    "Dessert",
-    "Pastry",
-    "Rich",
-    "Sweet",
-    "Under 1 Hour",
-    "Vegetarian"
   ],
   "related": [
     {
       "id": "sourdoughcinnrolls",
-      "title": "Soft Sourdough Cinnamon Rolls"
+      "title": "Sourdough Cinnamon Rolls"
     },
     {
-      "id": "chocolatemudcake",
-      "title": "The Ultimate Chocolate Mud Cake"
+      "id": "cinnbun",
+      "title": "Bakery-Style Cinnamon Buns"
     },
     {
-      "id": "bistro-profiteroles",
-      "title": "Profiteroles"
+      "id": "applecinnscrolls",
+      "title": "Apple & Cinnamon Scrolls"
     },
     {
-      "id": "bistro-mudcake",
-      "title": "Mud Cake"
+      "id": "swbtm",
+      "title": "Soft White Bread (Tangzhong Method)"
     },
     {
-      "id": "lemonmeringuepie",
-      "title": "Lemon Meringue Pie"
+      "id": "swbtm2",
+      "title": "Soft White Bread 2 (Tangzhong)"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 18,
+    "cal": 253,
+    "protein": 5,
+    "carbs": 42,
+    "fat": 7,
+    "fiber": 1,
+    "coverage": 100
+  }
 }

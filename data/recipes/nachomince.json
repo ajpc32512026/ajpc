@@ -1,152 +1,143 @@
 {
-  "id": "nachomince",
+  "id": "seasonedbeefmincenachostacos",
   "title": "Seasoned Beef Mince — Nachos & Tacos",
   "emoji": "🫔",
   "category": "Dinner",
-  "description": "The foundation of great nachos and tacos — a rich, deeply seasoned beef mince that holds its own under cheese, sour cream, and all the toppings. Works with a homemade seasoning blend or the Old El Paso packet. Builds fast and tastes like you spent hours on it.",
+  "description": "The foundation of great nachos and tacos — a rich, deeply seasoned beef mince that holds its own under cheese, sour cream, and all the toppings.",
   "prepTime": "10 min",
   "cookTime": "20 min",
   "totalTime": "30 min",
   "servings": "4 servings",
-  "difficulty": "Easy",
-  "ingredients": [
-    {
-      "quantity": "500",
-      "unit": "g",
-      "item": "Minced Meat",
-      "ingredientKey": "Minced Meat"
-    },
-    {
-      "quantity": "1",
-      "unit": "medium",
-      "item": "Onion",
-      "ingredientKey": "Onion"
-    },
-    {
-      "quantity": "2",
-      "unit": "cloves",
-      "item": "Garlic",
-      "ingredientKey": "Garlic"
-    },
-    {
-      "quantity": "400",
-      "unit": "g",
-      "item": "Tomatoes",
-      "ingredientKey": "Tomatoes"
-    },
-    {
-      "quantity": "2",
-      "unit": "tbsp",
-      "item": "Tomatoes",
-      "ingredientKey": "Tomatoes"
-    },
-    {
-      "quantity": "1",
-      "unit": "batch",
-      "item": "Taco Seasoning (see tacoseasoning recipe, or 1 × Old El Paso packet)",
-      "ingredientKey": "Cumin"
-    },
-    {
-      "quantity": "1",
-      "unit": "tbsp",
-      "item": "Oil",
-      "ingredientKey": "Oil"
-    },
-    {
-      "quantity": "to taste",
-      "unit": "",
-      "item": "Salt",
-      "ingredientKey": "Salt"
-    },
-    {
-      "quantity": "to taste",
-      "unit": "",
-      "item": "Pepper",
-      "ingredientKey": "Pepper"
-    }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "Dice the onion finely. Mince or finely chop the garlic."
-    },
-    {
-      "step": 2,
-      "instruction": "Heat oil in a large heavy-based frying pan over medium-high heat. Add onion and cook 3–4 minutes until softened and starting to colour."
-    },
-    {
-      "step": 3,
-      "instruction": "Add garlic and cook for 1 minute until fragrant."
-    },
-    {
-      "step": 4,
-      "instruction": "Add beef mince. Break it up aggressively with a wooden spoon or spatula — you want fine crumbles, not chunks. Cook over high heat for 5–7 minutes until well browned. Don't rush this step; good colour on the mince means better flavour."
-    },
-    {
-      "step": 5,
-      "instruction": "Drain off excess fat if needed — leave a little for flavour, not a pool of it."
-    },
-    {
-      "step": 6,
-      "instruction": "Add tomato paste and stir through for 1–2 minutes until it darkens slightly and coats the mince."
-    },
-    {
-      "step": 7,
-      "instruction": "Add taco seasoning (full batch of homemade or 1 packet Old El Paso) and stir through for 30 seconds."
-    },
-    {
-      "step": 8,
-      "instruction": "Add canned crushed tomatoes. Stir well to combine. Reduce heat to medium-low."
-    },
-    {
-      "step": 9,
-      "instruction": "Simmer uncovered for 8–10 minutes, stirring occasionally, until the sauce has reduced and thickened and coats the mince well. It should not be watery — if it is, keep simmering."
-    },
-    {
-      "step": 10,
-      "instruction": "Taste and adjust salt and pepper. The mince should be bold and well-seasoned — it needs to hold up under all the nacho toppings."
-    }
-  ],
-  "notes": [
-    {
-      "type": "tip",
-      "title": "The Mince Matters",
-      "content": "Use beef mince at 80/20 fat ratio if you can find it — the extra fat carries the seasoning better and gives richer flavour. If your mince is very lean (90/10), add an extra tablespoon of oil when browning. Don't use extra-lean mince for this — it goes dry and gritty."
-    },
-    {
-      "type": "tip",
-      "title": "Nacho Assembly",
-      "content": "Spread corn chips on an oven tray. Spoon mince generously over the top. Cover with grated cheese (tasty, cheddar, or a Mexican blend). Bake at 200°C for 8–10 minutes until cheese is melted and golden. Top with sour cream, guacamole, jalapeños, and fresh salsa to serve."
-    },
-    {
-      "type": "tip",
-      "title": "Taco Assembly",
-      "content": "Warm taco shells in the oven for 5 minutes at 180°C. Fill generously with mince, then top with shredded lettuce, diced tomato, grated cheese, sour cream, and a squeeze of lime."
-    },
-    {
-      "type": "variation",
-      "title": "Make It Go Further",
-      "content": "A drained 400 g can of kidney beans or black beans stirred in at step 8 stretches the mince to serve 6 and adds great texture and body. Classic Tex-Mex move."
-    },
-    {
-      "type": "tip",
-      "title": "Make Ahead",
-      "content": "The beef mince reheats beautifully. Make a double batch, refrigerate for up to 3 days, or freeze in portions for up to 3 months. Reheat in a pan with a splash of water to loosen it."
-    }
-  ],
+  "difficulty": "Beginner",
   "tags": [
     "Beef",
     "Dinner",
     "Make Ahead",
     "Mexican",
     "Savoury",
-    "Under 1 Hour",
     "Under 30 Minutes"
+  ],
+  "ingredients": [
+    {
+      "quantity": "500",
+      "unit": "g",
+      "item": "Beef Mince"
+    },
+    {
+      "quantity": "15",
+      "unit": "ml",
+      "item": "Vegetable Oil"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Brown Onion",
+      "notes": "diced"
+    },
+    {
+      "quantity": "2",
+      "unit": "cloves",
+      "item": "Garlic",
+      "notes": "minced"
+    },
+    {
+      "quantity": "40",
+      "unit": "g",
+      "item": "Tomato Paste"
+    },
+    {
+      "quantity": "400",
+      "unit": "g",
+      "item": "Tomatoes",
+      "notes": "canned, crushed"
+    },
+    {
+      "quantity": "1",
+      "unit": "batch",
+      "item": "Taco Seasoning",
+      "notes": "see recipe, or 1 packet Old El Paso"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Salt",
+      "notes": "to taste"
+    },
+    {
+      "quantity": "2",
+      "unit": "g",
+      "item": "Black Pepper"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Heat vegetable oil in a large heavy-based frying pan over medium-high heat. Add onion and cook for 3–4 minutes until softened and starting to colour."
+    },
+    {
+      "step": 2,
+      "instruction": "Add garlic and cook for 1 minute until fragrant."
+    },
+    {
+      "step": 3,
+      "instruction": "Add beef mince. Break it up with a wooden spoon or spatula — you want fine crumbles, not chunks. Cook over high heat for 5–7 minutes until well browned. Do not rush this step; good colour on the mince means better flavour."
+    },
+    {
+      "step": 4,
+      "instruction": "Drain off excess fat if needed — leave a little for flavour, not a pool of it."
+    },
+    {
+      "step": 5,
+      "instruction": "Add tomato paste and stir through for 1–2 minutes until it darkens slightly and coats the mince."
+    },
+    {
+      "step": 6,
+      "instruction": "Add taco seasoning and stir through for 30 seconds."
+    },
+    {
+      "step": 7,
+      "instruction": "Add crushed tomatoes. Stir well to combine. Reduce heat to medium-low."
+    },
+    {
+      "step": 8,
+      "instruction": "Simmer uncovered for 8–10 minutes, stirring occasionally, until the sauce has reduced and thickened and coats the mince well."
+    },
+    {
+      "step": 9,
+      "instruction": "Taste and adjust salt and pepper. The mince should be bold and well-seasoned — it needs to hold up under nacho toppings."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "The Mince Matters",
+      "content": "Use beef mince at 80/20 fat ratio if possible — the extra fat carries the seasoning better and gives richer flavour. If your mince is very lean, add an extra tablespoon of oil when browning."
+    },
+    {
+      "type": "serving",
+      "title": "Nacho Assembly",
+      "content": "Spread corn chips on an oven tray. Spoon mince generously over the top. Cover with grated cheese. Bake at 200°C for 8–10 minutes until cheese is melted and golden. Top with sour cream, guacamole, jalapeños, and fresh salsa."
+    },
+    {
+      "type": "serving",
+      "title": "Taco Assembly",
+      "content": "Warm taco shells in the oven for 5 minutes at 180°C. Fill generously with mince, then top with shredded lettuce, diced tomato, grated cheese, sour cream, and a squeeze of lime."
+    },
+    {
+      "type": "variation",
+      "title": "Make It Go Further",
+      "content": "A drained 400 g can of kidney beans or black beans stirred in at step 7 stretches the mince to serve 6 and adds great texture and body."
+    },
+    {
+      "type": "storage",
+      "title": "Make Ahead",
+      "content": "The beef mince reheats beautifully. Make a double batch, refrigerate for up to 3 days, or freeze in portions for up to 3 months. Reheat in a pan with a splash of water to loosen."
+    }
   ],
   "related": [
     {
-      "id": "bistro-reefandbeef",
-      "title": "Reef and Beef"
+      "id": "tacoseasoning",
+      "title": "Taco Seasoning"
     },
     {
       "id": "beefvindaloo",
@@ -154,15 +145,24 @@
     },
     {
       "id": "lasagne",
-      "title": "Classic Lasagne — Ragù & Béchamel"
+      "title": "Classic Lasagne"
     },
     {
-      "id": "bistro-mediterraneansteak",
-      "title": "Mediterranean Steak"
+      "id": "mongolianbeef",
+      "title": "Mongolian Beef Stir-Fry"
     },
     {
-      "id": "beefstockpot",
-      "title": "20 Minute Beef Stock Pot"
+      "id": "chickenshawarma",
+      "title": "Chicken Shawarma"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 4,
+    "cal": 520,
+    "protein": 39,
+    "carbs": 35,
+    "fat": 27,
+    "fiber": 7,
+    "coverage": 100
+  }
 }

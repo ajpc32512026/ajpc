@@ -1,17 +1,16 @@
 {
-  "id": "mushroomcups",
+  "id": "mushroomswithherbnutbutter",
   "title": "Mushrooms with Herb Nut Butter",
   "emoji": "🍄",
-  "category": "Dinner",
+  "category": "Entree",
   "description": "Baked mushroom caps filled with a rich herb and almond butter, finished until golden and fragrant.",
   "prepTime": "10 min",
   "cookTime": "15 min",
   "totalTime": "25 min",
-  "servings": "4–6",
-  "difficulty": "Medium",
+  "servings": "4 servings",
+  "difficulty": "Beginner",
   "tags": [
     "Baked",
-    "Dinner",
     "Gluten-Free",
     "Rich",
     "Savoury",
@@ -21,81 +20,76 @@
   "ingredients": [
     {
       "quantity": "12",
-      "unit": "large",
-      "item": "mushrooms",
-      "ingredientKey": "Mushrooms"
+      "unit": "",
+      "item": "Mushrooms",
+      "notes": "large, stalks removed and chopped"
+    },
+    {
+      "quantity": "15",
+      "unit": "ml",
+      "item": "Olive Oil"
     },
     {
       "quantity": "1",
-      "unit": "tbsp",
-      "item": "olive oil",
-      "ingredientKey": "Oil"
-    },
-    {
-      "quantity": "1",
-      "unit": "small",
-      "item": "onion, finely chopped",
-      "ingredientKey": "Onion"
+      "unit": "",
+      "item": "Brown Onion",
+      "notes": "small, finely chopped"
     },
     {
       "quantity": "40",
       "unit": "g",
-      "item": "blanched almonds",
-      "ingredientKey": "Almonds"
+      "item": "Almonds",
+      "notes": "blanched"
     },
     {
       "quantity": "1",
       "unit": "clove",
-      "item": "garlic",
-      "ingredientKey": "Garlic"
+      "item": "Garlic"
+    },
+    {
+      "quantity": "15",
+      "unit": "ml",
+      "item": "Lemon Juice"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Parsley",
+      "notes": "fresh, chopped"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Thyme",
+      "notes": "fresh"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Rosemary",
+      "notes": "fresh"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Chives",
+      "notes": "chopped"
+    },
+    {
+      "quantity": "3",
+      "unit": "g",
+      "item": "Salt"
     },
     {
       "quantity": "1",
-      "unit": "tbsp",
-      "item": "lemon juice",
-      "ingredientKey": "Juice"
-    },
-    {
-      "quantity": "3",
-      "unit": "tbsp",
-      "item": "fresh parsley, chopped",
-      "ingredientKey": "Parsley"
-    },
-    {
-      "quantity": "3",
-      "unit": "tsp",
-      "item": "fresh thyme",
-      "ingredientKey": "Thyme"
-    },
-    {
-      "quantity": "3",
-      "unit": "tsp",
-      "item": "fresh rosemary",
-      "ingredientKey": "Rosemary"
-    },
-    {
-      "quantity": "1",
-      "unit": "tbsp",
-      "item": "chives, chopped",
-      "ingredientKey": "Chives"
-    },
-    {
-      "quantity": "1/2",
-      "unit": "tsp",
-      "item": "salt",
-      "ingredientKey": "Salt"
-    },
-    {
-      "quantity": "1/4",
-      "unit": "tsp",
-      "item": "black pepper",
-      "ingredientKey": "Pepper"
+      "unit": "g",
+      "item": "Black Pepper"
     },
     {
       "quantity": "75",
       "unit": "g",
-      "item": "butter, softened",
-      "ingredientKey": "Butter"
+      "item": "Unsalted Butter",
+      "notes": "softened"
     }
   ],
   "method": [
@@ -105,11 +99,11 @@
     },
     {
       "step": 2,
-      "instruction": "Remove mushroom stalks and chop them finely."
+      "instruction": "Remove mushroom stalks and chop them finely. Set caps aside."
     },
     {
       "step": 3,
-      "instruction": "Heat olive oil in a small pan. Add onion and cook for 2–3 minutes until soft and golden."
+      "instruction": "Heat olive oil in a small pan over medium heat. Add onion and cook for 2–3 minutes until soft and golden."
     },
     {
       "step": 4,
@@ -117,66 +111,66 @@
     },
     {
       "step": 5,
-      "instruction": "Place almonds, garlic, lemon juice, parsley, thyme, rosemary, chives, salt, pepper, and butter into a food processor."
+      "instruction": "Place almonds, garlic, lemon juice, parsley, thyme, rosemary, chives, salt, pepper, and butter into a food processor. Process until smooth and well combined."
     },
     {
       "step": 6,
-      "instruction": "Process until smooth and well combined."
-    },
-    {
-      "step": 7,
       "instruction": "Arrange mushroom caps in the prepared baking dish."
     },
     {
-      "step": 8,
+      "step": 7,
       "instruction": "Spoon the onion and mushroom stalk mixture evenly into each cap."
     },
     {
-      "step": 9,
+      "step": 8,
       "instruction": "Top each mushroom with the herb nut butter."
     },
     {
-      "step": 10,
+      "step": 9,
       "instruction": "Bake for 10–15 minutes or until mushrooms are tender and butter has melted."
     }
   ],
   "notes": [
     {
       "type": "serving",
-      "title": "Serving Notes",
-      "content": "Mushrooms are best baked just before serving. Caps may be assembled up to 2 hours ahead and refrigerated on a flat tray."
+      "title": "Make Ahead",
+      "content": "Mushroom caps may be assembled up to 2 hours ahead and refrigerated on a flat tray. Bake just before serving."
     },
     {
       "type": "acknowledgement",
       "title": "Recipe Source",
-      "content": "Reproduced and adapted from The Essential Vegetarian Cook Book, published by Murdoch Books. ISBN: 0-86411-540-5."
-    },
-    {
-      "type": "acknowledgement",
-      "title": "Copyright",
-      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+      "content": "Adapted from The Essential Vegetarian Cook Book, published by Murdoch Books."
     }
   ],
   "related": [
-    {
-      "id": "hotdog",
-      "title": "Wendy’s-Style Hot Dog Buns"
-    },
     {
       "id": "tomatoflan",
       "title": "Tomato and Olive Flan"
     },
     {
-      "id": "lasagne",
-      "title": "Classic Lasagne — Ragù & Béchamel"
+      "id": "potatognocchi",
+      "title": "Potato Gnocchi with Tomato Sauce"
     },
     {
-      "id": "bistro-vealmozzarella",
-      "title": "Veal Mozzarella"
+      "id": "garlicbread",
+      "title": "Garlic Butter Crusty Bread"
     },
     {
-      "id": "meatpie",
-      "title": "Classic Aussie Meat Pies"
+      "id": "muffinmix",
+      "title": "Basic Muffin Mix"
+    },
+    {
+      "id": "bistro-mediterraneansteak",
+      "title": "Mediterranean Steak"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 4,
+    "cal": 345,
+    "protein": 14,
+    "carbs": 24,
+    "fat": 25,
+    "fiber": 6,
+    "coverage": 100
+  }
 }

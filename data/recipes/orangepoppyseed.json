@@ -1,117 +1,124 @@
 {
-  "id": "orangepoppyseed",
-  "title": "Orange & Poppy Seed Cake — Double Batch",
+  "id": "orangepoppyseedcake",
+  "title": "Orange & Poppy Seed Cake",
   "emoji": "🍊",
-  "category": "Dinner",
+  "category": "Baking",
   "description": "A bright, citrusy favourite — buttery, fragrant, and layered with a lush orange cream.",
+  "prepTime": "30 min",
+  "cookTime": "45 min",
+  "totalTime": "1 hr 15 min",
+  "servings": "8 slices",
+  "difficulty": "Intermediate",
+  "tags": [
+    "Citrus",
+    "Dessert",
+    "Orange",
+    "Rich",
+    "Sweet",
+    "Vegetarian"
+  ],
   "ingredients": [
     {
-      "quantity": "15",
+      "heading": "Cake"
+    },
+    {
+      "quantity": "40",
       "unit": "g",
-      "item": "Poppy Seed",
-      "ingredientKey": "Poppy Seed"
-    },
-    {
-      "quantity": "1",
-      "unit": "cup",
-      "item": "Milk",
-      "ingredientKey": "Milk"
-    },
-    {
-      "quantity": "740",
-      "unit": "g",
-      "item": "Butter",
-      "ingredientKey": "Butter"
-    },
-    {
-      "quantity": "6",
-      "unit": "tablespoons",
-      "item": "Orange Zest",
-      "ingredientKey": "Orange Zest"
-    },
-    {
-      "quantity": "to taste",
-      "unit": "",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
-    },
-    {
-      "quantity": "12",
-      "unit": "",
-      "item": "Eggs",
-      "ingredientKey": "Eggs"
-    },
-    {
-      "quantity": "3",
-      "unit": "cups",
-      "item": "Flour",
-      "ingredientKey": "Flour"
-    },
-    {
-      "quantity": "3",
-      "unit": "cups",
-      "item": "Flour",
-      "ingredientKey": "Flour"
-    },
-    {
-      "quantity": "30",
-      "unit": "g",
-      "item": "Almonds",
-      "ingredientKey": "Almonds"
-    },
-    {
-      "quantity": "30",
-      "unit": "ml",
-      "item": "Juice",
-      "ingredientKey": "Juice"
-    },
-    {
-      "quantity": "2",
-      "unit": "kg",
-      "item": "Philadelphia Cream Cheese",
-      "ingredientKey": "Philadelphia Cream Cheese"
+      "item": "Poppy Seeds"
     },
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Cream",
-      "ingredientKey": "Cream"
+      "item": "Whole Milk"
     },
     {
-      "quantity": "8",
-      "unit": "tablespoons",
-      "item": "Orange Zest",
-      "ingredientKey": "Orange Zest"
+      "quantity": "185",
+      "unit": "g",
+      "item": "Unsalted Butter",
+      "notes": "softened"
+    },
+    {
+      "quantity": "25",
+      "unit": "g",
+      "item": "Orange Zest"
+    },
+    {
+      "quantity": "275",
+      "unit": "g",
+      "item": "Caster Sugar"
     },
     {
       "quantity": "3",
-      "unit": "cups",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
+      "unit": "",
+      "item": "Eggs"
     },
     {
-      "quantity": "4",
-      "unit": "tablespoons",
-      "item": "Juice",
-      "ingredientKey": "Juice"
+      "quantity": "110",
+      "unit": "g",
+      "item": "Plain Flour"
+    },
+    {
+      "quantity": "110",
+      "unit": "g",
+      "item": "Self-Raising Flour"
+    },
+    {
+      "quantity": "60",
+      "unit": "g",
+      "item": "Almond Meal"
+    },
+    {
+      "quantity": "80",
+      "unit": "ml",
+      "item": "Orange Juice"
+    },
+    {
+      "heading": "Orange Cream Frosting"
+    },
+    {
+      "quantity": "500",
+      "unit": "g",
+      "item": "Cream Cheese",
+      "notes": "softened at room temperature"
+    },
+    {
+      "quantity": "125",
+      "unit": "ml",
+      "item": "Sour Cream"
+    },
+    {
+      "quantity": "15",
+      "unit": "g",
+      "item": "Orange Zest"
+    },
+    {
+      "quantity": "120",
+      "unit": "g",
+      "item": "Icing Sugar",
+      "notes": "sifted"
+    },
+    {
+      "quantity": "15",
+      "unit": "ml",
+      "item": "Orange Juice"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Preheat oven to 180°C (moderate). Grease a deep 22 cm round cake tin and line the base with greaseproof paper."
+      "instruction": "Preheat oven to 180°C. Grease a deep 28 cm round cake tin and line the base with baking paper."
     },
     {
       "step": 2,
-      "instruction": "Combine the poppy seeds and milk in a bowl. Let stand 20 minutes to soften and bloom."
+      "instruction": "Combine poppy seeds and milk in a bowl. Let stand for 20 minutes to soften and bloom."
     },
     {
       "step": 3,
-      "instruction": "Cream butter, orange rind, and caster sugar with an electric mixer until light and fluffy."
+      "instruction": "Cream butter, orange zest, and caster sugar with an electric mixer until light and fluffy."
     },
     {
       "step": 4,
-      "instruction": "Add eggs one at a time, beating well after each."
+      "instruction": "Add eggs one at a time, beating well after each addition."
     },
     {
       "step": 5,
@@ -119,66 +126,71 @@
     },
     {
       "step": 6,
-      "instruction": "Spread into prepared tin and bake 45 minutes or until a skewer comes out clean."
+      "instruction": "Spread into the prepared tin and bake for approximately 45 minutes or until a skewer inserted into the centre comes out clean."
     },
     {
       "step": 7,
-      "instruction": "Cool on wire rack. Once cold, slice horizontally into three layers."
+      "instruction": "Cool on a wire rack. Once cold, slice horizontally into three layers."
     },
     {
       "step": 8,
-      "instruction": "Sandwich layers with half the orange cream, then cover top and sides with remaining cream."
+      "instruction": "For the frosting: beat softened cream cheese, sour cream, and orange zest in a medium bowl with an electric mixer until smooth."
     },
     {
       "step": 9,
-      "instruction": "Allow Philadelphia Cream Cheese to soften at room temperature."
+      "instruction": "Add sifted icing sugar and orange juice. Beat until thick, glossy, and silky."
     },
     {
       "step": 10,
-      "instruction": "Beat Philadelphia Cream Cheese, sour cream, and orange rind until smooth."
-    },
-    {
-      "step": 11,
-      "instruction": "Add sifted icing sugar and orange juice, then beat until thick, glossy, and silky."
+      "instruction": "Sandwich cake layers together with half the orange cream, then cover the top and sides with the remaining cream."
     }
   ],
   "notes": [
     {
-      "title": "📝 Baker’s Notes",
-      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+      "type": "technique",
+      "title": "Poppy Seed Blooming",
+      "content": "Soaking the poppy seeds in milk for 20 minutes softens them and releases their nutty flavour into the cake. Do not skip this step."
+    },
+    {
+      "type": "technique",
+      "title": "Layer Cake Assembly",
+      "content": "Use a long serrated knife to slice the cooled cake evenly into three layers. If the cake is slightly warm, chill it for 30 minutes first — cold cake cuts more cleanly."
+    },
+    {
+      "type": "storage",
+      "title": "Storage",
+      "content": "Keep refrigerated due to the cream cheese frosting. Bring to room temperature before serving."
     }
   ],
-  "tags": [
-    "Cheese",
-    "Creamy",
-    "Dessert",
-    "Dinner",
-    "Orange",
-    "Rich",
-    "Savoury",
-    "Sweet",
-    "Vegetarian"
-  ],
   "related": [
-    {
-      "id": "hummingbird",
-      "title": "Hummingbird Cake — Cafe Style"
-    },
     {
       "id": "friandsop",
       "title": "Orange & Poppyseed Friands"
     },
     {
-      "id": "lasagne",
-      "title": "Classic Lasagne — Ragù & Béchamel"
+      "id": "hummingbird",
+      "title": "Hummingbird Cake — Cafe Style"
     },
     {
-      "id": "bistro-reefandbeef",
-      "title": "Reef and Beef"
+      "id": "lemoncoconut",
+      "title": "Lemon Coconut Cake"
     },
     {
-      "id": "bistro-vealoscar",
-      "title": "Veal Oscar"
+      "id": "classiccarrotcake",
+      "title": "Classic Carrot Cake"
+    },
+    {
+      "id": "lemonmeringuepie",
+      "title": "Lemon Meringue Pie"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 8,
+    "cal": 840,
+    "protein": 15,
+    "carbs": 79,
+    "fat": 54,
+    "fiber": 3,
+    "coverage": 100
+  }
 }

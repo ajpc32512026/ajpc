@@ -1,188 +1,207 @@
 {
-  "id": "lasagne",
+  "id": "classiclasagneragbchamel",
   "title": "Classic Lasagne — Ragù & Béchamel",
   "emoji": "🍝",
   "category": "Dinner",
   "description": "A traditional layered lasagne that warms the ribs and calms the spirit.",
-  "ingredients": [
-    {
-      "quantity": "2",
-      "unit": "tbsp",
-      "item": "Oil",
-      "ingredientKey": "Oil"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Onion",
-      "ingredientKey": "Onion"
-    },
-    {
-      "quantity": "2",
-      "unit": "cloves",
-      "item": "Garlic",
-      "ingredientKey": "Garlic"
-    },
-    {
-      "quantity": "500",
-      "unit": "g",
-      "item": "Minced Meat",
-      "ingredientKey": "Minced Meat"
-    },
-    {
-      "quantity": "2",
-      "unit": "tbsp",
-      "item": "Tomatoes",
-      "ingredientKey": "Tomatoes"
-    },
-    {
-      "quantity": "800",
-      "unit": "g",
-      "item": "Tomatoes",
-      "ingredientKey": "Tomatoes"
-    },
-    {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
-    },
-    {
-      "quantity": "2",
-      "unit": "tsp",
-      "item": "Herbs, Italian",
-      "ingredientKey": "Herbs, Italian"
-    },
-    {
-      "quantity": "2",
-      "unit": "tsp",
-      "item": "Salt",
-      "ingredientKey": "Salt"
-    },
-    {
-      "quantity": "50",
-      "unit": "g",
-      "item": "Butter",
-      "ingredientKey": "Butter"
-    },
-    {
-      "quantity": "50",
-      "unit": "g",
-      "item": "Flour",
-      "ingredientKey": "Flour"
-    },
-    {
-      "quantity": "600",
-      "unit": "ml",
-      "item": "Milk",
-      "ingredientKey": "Milk"
-    },
-    {
-      "quantity": "1",
-      "unit": "pinch",
-      "item": "Nutmeg",
-      "ingredientKey": "Nutmeg"
-    },
-    {
-      "quantity": "to taste",
-      "unit": "",
-      "item": "Salt",
-      "ingredientKey": "Salt"
-    },
-    {
-      "quantity": "250",
-      "unit": "g",
-      "item": "Pasta",
-      "ingredientKey": "Pasta"
-    },
-    {
-      "quantity": "50",
-      "unit": "g",
-      "item": "Cheese",
-      "ingredientKey": "Cheese"
-    },
-    {
-      "quantity": "50",
-      "unit": "g",
-      "item": "Cheese",
-      "ingredientKey": "Cheese"
-    }
-  ],
-  "method": [
-    {
-      "step": "1",
-      "instruction": "Heat olive oil in a large pan. Sauté onion and garlic for 5–6 minutes until softened."
-    },
-    {
-      "step": "2",
-      "instruction": "Add mince and brown well, breaking up lumps."
-    },
-    {
-      "step": "3",
-      "instruction": "Stir in tomato paste, then add tomatoes, sugar, Italian herbs, salt, pepper, and wine (if using)."
-    },
-    {
-      "step": "4",
-      "instruction": "Simmer on low for 45–60 minutes until thick and rich."
-    },
-    {
-      "step": "5",
-      "instruction": "Melt butter in a saucepan. Whisk in flour and cook 1–2 minutes."
-    },
-    {
-      "step": "6",
-      "instruction": "Slowly whisk in milk until smooth and thickened (5–7 minutes)."
-    },
-    {
-      "step": "7",
-      "instruction": "Season with salt, pepper, nutmeg, and Parmesan (optional)."
-    },
-    {
-      "step": "8",
-      "instruction": "Preheat oven to 180°C (350°F)."
-    },
-    {
-      "step": "9",
-      "instruction": "Spread a thin layer of ragù in a 23×33 cm dish."
-    },
-    {
-      "step": "10",
-      "instruction": "Layer: pasta → ragù → béchamel → mozzarella. Repeat 2–3 times."
-    },
-    {
-      "step": "11",
-      "instruction": "Finish with béchamel and Parmesan."
-    },
-    {
-      "step": "12",
-      "instruction": "Cover with foil and bake 30 minutes."
-    },
-    {
-      "step": "13",
-      "instruction": "Uncover and bake 15–20 minutes until golden and bubbling."
-    },
-    {
-      "step": "14",
-      "instruction": "Rest 10 minutes before slicing."
-    }
-  ],
-  "notes": [
-    {
-      "title": "Additions & Notes",
-      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
-    }
-  ],
+  "prepTime": "30 min",
+  "cookTime": "1 hr 45 min",
+  "totalTime": "2 hr 15 min",
+  "servings": "8 servings",
+  "difficulty": "Intermediate",
   "tags": [
     "Baked",
     "Beef",
-    "Cheese",
     "Classic",
-    "Creamy",
     "Dinner",
     "Italian",
     "Make Ahead",
     "Rich",
     "Savoury"
+  ],
+  "ingredients": [
+    {
+      "heading": "Ragù"
+    },
+    {
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Olive Oil"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Brown Onion",
+      "notes": "diced"
+    },
+    {
+      "quantity": "2",
+      "unit": "cloves",
+      "item": "Garlic",
+      "notes": "crushed"
+    },
+    {
+      "quantity": "500",
+      "unit": "g",
+      "item": "Beef Mince"
+    },
+    {
+      "quantity": "40",
+      "unit": "g",
+      "item": "Tomato Paste"
+    },
+    {
+      "quantity": "800",
+      "unit": "g",
+      "item": "Tomatoes",
+      "notes": "canned, crushed"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "White Sugar"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Italian Herbs",
+      "notes": "dried"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Salt"
+    },
+    {
+      "quantity": "2",
+      "unit": "g",
+      "item": "Black Pepper"
+    },
+    {
+      "heading": "Béchamel"
+    },
+    {
+      "quantity": "50",
+      "unit": "g",
+      "item": "Unsalted Butter"
+    },
+    {
+      "quantity": "50",
+      "unit": "g",
+      "item": "Plain Flour"
+    },
+    {
+      "quantity": "600",
+      "unit": "ml",
+      "item": "Whole Milk"
+    },
+    {
+      "quantity": "2",
+      "unit": "g",
+      "item": "Nutmeg",
+      "notes": "ground"
+    },
+    {
+      "quantity": "2",
+      "unit": "g",
+      "item": "Salt"
+    },
+    {
+      "heading": "Assembly"
+    },
+    {
+      "quantity": "250",
+      "unit": "g",
+      "item": "Lasagne Sheets",
+      "notes": "dried"
+    },
+    {
+      "quantity": "50",
+      "unit": "g",
+      "item": "Parmesan",
+      "notes": "grated"
+    },
+    {
+      "quantity": "50",
+      "unit": "g",
+      "item": "Mozzarella",
+      "notes": "grated"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Heat olive oil in a large heavy-based pan over medium heat. Sauté onion and garlic for 5–6 minutes until softened."
+    },
+    {
+      "step": 2,
+      "instruction": "Add beef mince and brown well, breaking up any lumps with a wooden spoon."
+    },
+    {
+      "step": 3,
+      "instruction": "Stir in tomato paste, then add crushed tomatoes, sugar, Italian herbs, salt, and pepper."
+    },
+    {
+      "step": 4,
+      "instruction": "Bring to a gentle simmer, then reduce heat to low. Cook for 45–60 minutes, stirring occasionally, until thick and rich."
+    },
+    {
+      "step": 5,
+      "instruction": "Meanwhile, make the béchamel: melt butter in a saucepan over medium heat. Whisk in flour and cook for 1–2 minutes until lightly golden."
+    },
+    {
+      "step": 6,
+      "instruction": "Slowly whisk in milk, a little at a time, until smooth. Continue stirring for 5–7 minutes until thickened enough to coat the back of a spoon."
+    },
+    {
+      "step": 7,
+      "instruction": "Season béchamel with salt and nutmeg. Remove from heat."
+    },
+    {
+      "step": 8,
+      "instruction": "Preheat oven to 180°C."
+    },
+    {
+      "step": 9,
+      "instruction": "Spread a thin layer of ragù in the base of a 23 cm × 33 cm baking dish."
+    },
+    {
+      "step": 10,
+      "instruction": "Layer in this order: lasagne sheets, ragù, béchamel, mozzarella. Repeat for 2–3 layers."
+    },
+    {
+      "step": 11,
+      "instruction": "Finish with a final layer of béchamel and sprinkle Parmesan over the top."
+    },
+    {
+      "step": 12,
+      "instruction": "Cover with foil and bake for 30 minutes."
+    },
+    {
+      "step": 13,
+      "instruction": "Remove foil and bake for a further 15–20 minutes until golden and bubbling."
+    },
+    {
+      "step": 14,
+      "instruction": "Rest for 10 minutes before slicing and serving."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Ragù Depth",
+      "content": "The longer the ragù simmers, the deeper the flavour. If you have time, cook it for the full 60 minutes — it makes a noticeable difference."
+    },
+    {
+      "type": "technique",
+      "title": "Béchamel Consistency",
+      "content": "The béchamel should coat the back of a spoon but still be pourable. If it thickens too much while sitting, whisk in a splash of milk before layering."
+    },
+    {
+      "type": "storage",
+      "title": "Make Ahead",
+      "content": "Assemble the lasagne completely, cover, and refrigerate for up to 24 hours before baking. Add 10 minutes to the covered baking time when cooking from cold."
+    }
   ],
   "related": [
     {
@@ -190,20 +209,29 @@
       "title": "Potato Gnocchi with Tomato Sauce"
     },
     {
-      "id": "bistro-vealscaloppine",
-      "title": "Veal Scaloppine"
-    },
-    {
       "id": "chickencacciatore",
       "title": "Chicken Cacciatore"
     },
     {
-      "id": "highhydraciab",
-      "title": "Airy High-Hydration Ciabatta"
+      "id": "marinarasauce",
+      "title": "Marinara Sauce"
     },
     {
-      "id": "bistro-vealmozzarella",
-      "title": "Veal Mozzarella"
+      "id": "redsauce",
+      "title": "Red Sauce"
+    },
+    {
+      "id": "highhydraciab",
+      "title": "Airy High-Hydration Ciabatta"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 8,
+    "cal": 532,
+    "protein": 30,
+    "carbs": 48,
+    "fat": 26,
+    "fiber": 4,
+    "coverage": 100
+  }
 }

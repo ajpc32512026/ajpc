@@ -1,128 +1,142 @@
 {
-  "id": "chouxpastry",
+  "id": "chouxpastryprofiteroles",
   "title": "Choux Pastry (Profiteroles)",
   "emoji": "🥐",
-  "category": "Dinner",
+  "category": "Baking",
   "description": "Light, crisp, and ready to cradle cream — the classic French pastry that never goes out of style.",
+  "prepTime": "15 min",
+  "cookTime": "25 min",
+  "totalTime": "40 min",
+  "servings": "24 profiteroles",
+  "difficulty": "Intermediate",
+  "tags": [
+    "Classic",
+    "French",
+    "Pastry",
+    "Sweet",
+    "Vegetarian"
+  ],
   "ingredients": [
     {
       "quantity": "100",
       "unit": "ml",
-      "item": "water"
+      "item": "Water"
     },
     {
       "quantity": "100",
       "unit": "ml",
-      "item": "Milk",
-      "ingredientKey": "Milk"
+      "item": "Whole Milk"
     },
     {
       "quantity": "85",
       "unit": "g",
-      "item": "Butter",
-      "ingredientKey": "Butter"
+      "item": "Unsalted Butter"
     },
     {
-      "quantity": "pinch",
-      "unit": "",
-      "item": "Salt",
-      "ingredientKey": "Salt"
+      "quantity": "2",
+      "unit": "g",
+      "item": "Salt"
     },
     {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
+      "quantity": "5",
+      "unit": "g",
+      "item": "White Sugar"
+    },
+    {
+      "quantity": "150",
+      "unit": "g",
+      "item": "Plain Flour"
     },
     {
       "quantity": "3",
       "unit": "",
-      "item": "Eggs",
-      "ingredientKey": "Eggs"
-    },
-    {
-      "quantity": "1",
-      "unit": "cup",
-      "item": "Flour",
-      "ingredientKey": "Flour"
+      "item": "Eggs"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Preheat oven to 210°C. Line baking trays with parchment paper."
+      "instruction": "Preheat oven to 210°C. Line baking trays with baking paper."
     },
     {
       "step": 2,
-      "instruction": "In a medium saucepan, combine water, milk, butter, salt, and sugar. Heat until butter melts and mixture begins to simmer."
+      "instruction": "In a medium saucepan, combine water, milk, butter, salt, and sugar. Heat over medium heat until the butter melts and the mixture begins to simmer."
     },
     {
       "step": 3,
-      "instruction": "Add flour all at once, stirring vigorously until the mixture pulls away from the sides of the pan and forms a smooth ball."
+      "instruction": "Add flour all at once and stir vigorously with a wooden spoon until the mixture pulls away from the sides of the pan and forms a smooth ball, about 1–2 minutes."
     },
     {
       "step": 4,
-      "instruction": "Transfer dough to a stand mixer fitted with a paddle attachment. Add eggs one at a time on low speed, mixing well after each."
+      "instruction": "Transfer dough to a stand mixer fitted with a paddle attachment. Add eggs one at a time on low speed, mixing well after each addition."
     },
     {
       "step": 5,
-      "instruction": "After the last egg, increase speed to high and mix 5–10 minutes until dough is smooth, glossy, and slightly elastic."
+      "instruction": "After the last egg, increase speed to high and mix for 5–10 minutes until the dough is smooth, glossy, and slightly elastic."
     },
     {
       "step": 6,
-      "instruction": "Pipe or spoon small portions (~1.5–2 inch) onto prepared trays, leaving ~5 cm space between each."
+      "instruction": "Pipe or spoon small portions approximately 4–5 cm diameter onto the prepared trays, leaving about 5 cm space between each."
     },
     {
       "step": 7,
-      "instruction": "Lightly sprinkle cold water on the tray to help steam and maintain shape during baking."
+      "instruction": "Lightly sprinkle cold water on the tray to help create steam and maintain shape during baking."
     },
     {
       "step": 8,
-      "instruction": "Bake at 210°C for 10 minutes, then reduce to 165°C for 10–15 minutes until puffed and crisp. Do not open the oven early."
+      "instruction": "Bake at 210°C for 10 minutes, then reduce to 165°C and bake for a further 10–15 minutes until puffed and golden. Do not open the oven door during the first 15 minutes of baking."
     },
     {
       "step": 9,
-      "instruction": "Cool completely on a wire rack before filling with stiff custard, ice cream, or flavored creams."
+      "instruction": "Remove from oven and pierce the base of each profiterole with a skewer to release steam. Cool completely on a wire rack before filling."
     }
   ],
   "notes": [
     {
-      "title": "Notes & Tips",
-      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+      "type": "technique",
+      "title": "No Peeking",
+      "content": "Do not open the oven door during the first 15 minutes of baking. Choux pastry relies on steam to puff — a sudden drop in temperature will cause them to collapse."
+    },
+    {
+      "type": "technique",
+      "title": "Steam Release",
+      "content": "Piercing the base of each profiterole after baking releases trapped steam and prevents them from going soggy as they cool."
+    },
+    {
+      "type": "serving",
+      "title": "Filling Ideas",
+      "content": "Fill with whipped cream, custard, or ice cream. Drizzle with chocolate ganache for classic profiteroles, or fill savoury with herbed cream cheese."
     }
-  ],
-  "tags": [
-    "Classic",
-    "Creamy",
-    "Dessert",
-    "Dinner",
-    "French",
-    "Pastry",
-    "Rich",
-    "Savoury",
-    "Sweet",
-    "Vegetarian"
   ],
   "related": [
     {
+      "id": "bistro-profiteroles",
+      "title": "Profiteroles"
+    },
+    {
       "id": "crepes",
-      "title": "Crepes with Maple Syrup & Butter"
+      "title": "Crepes"
     },
     {
-      "id": "bistro-chickenpicante",
-      "title": "Chicken Picante"
+      "id": "puffpastry",
+      "title": "Puff Pastry"
     },
     {
-      "id": "tomatoflan",
-      "title": "Tomato and Olive Flan"
+      "id": "chocolatemousse",
+      "title": "Chocolate Mousse"
     },
     {
-      "id": "bistro-vealcordonbleu",
-      "title": "Veal Cordon Bleu"
-    },
-    {
-      "id": "beefstockpot",
-      "title": "20 Minute Beef Stock Pot"
+      "id": "tiramisu",
+      "title": "Tiramisu Gateau"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 24,
+    "cal": 71,
+    "protein": 2,
+    "carbs": 5,
+    "fat": 4,
+    "fiber": 0,
+    "coverage": 100
+  }
 }

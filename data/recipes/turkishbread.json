@@ -1,110 +1,122 @@
 {
-  "id": "turkishbread",
+  "id": "traditionalturkishbread",
   "title": "Traditional Turkish Bread",
   "emoji": "🥖",
   "category": "Baking",
   "description": "Soft, slightly chewy, and baked to a golden finish with a traditional sesame and nigella seed topping.",
-  "prepTime": "30 min (plus pre-ferment time)",
+  "prepTime": "30 min",
   "cookTime": "15 min",
-  "totalTime": "4 hours (includes pre-ferment)",
-  "servings": "2 large Turkish breads",
-  "difficulty": "Medium",
+  "totalTime": "4 hr",
+  "servings": "2 loaves",
+  "difficulty": "Intermediate",
+  "tags": [
+    "Bread",
+    "Classic",
+    "Make Ahead",
+    "Middle Eastern",
+    "Savoury",
+    "Vegan",
+    "Vegetarian"
+  ],
   "ingredients": [
+    {
+      "heading": "Pre-Ferment (Poolish)"
+    },
     {
       "quantity": "225",
       "unit": "g",
-      "item": "Flour",
-      "ingredientKey": "Flour"
+      "item": "Bread Flour"
     },
     {
       "quantity": "145",
       "unit": "ml",
-      "item": "water, lukewarm"
+      "item": "Water",
+      "notes": "lukewarm"
     },
     {
-      "quantity": "1/4",
-      "unit": "tsp",
-      "item": "Salt",
-      "ingredientKey": "Salt"
+      "quantity": "1.5",
+      "unit": "g",
+      "item": "Salt"
     },
     {
-      "quantity": "1/2",
-      "unit": "tsp",
+      "quantity": "3",
+      "unit": "g",
       "item": "Yeast",
-      "ingredientKey": "Yeast"
+      "notes": "instant dried"
+    },
+    {
+      "heading": "Main Dough"
     },
     {
       "quantity": "240",
       "unit": "g",
-      "item": "Flour",
-      "ingredientKey": "Flour"
+      "item": "Bread Flour"
     },
     {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Salt",
-      "ingredientKey": "Salt"
+      "quantity": "5",
+      "unit": "g",
+      "item": "Salt"
     },
     {
       "quantity": "7",
       "unit": "g",
       "item": "Yeast",
-      "ingredientKey": "Yeast"
+      "notes": "instant dried"
     },
     {
       "quantity": "165",
       "unit": "ml",
-      "item": "water, lukewarm"
+      "item": "Water",
+      "notes": "lukewarm"
     },
     {
       "quantity": "8",
-      "unit": "g",
-      "item": "Oil",
-      "ingredientKey": "Oil"
+      "unit": "ml",
+      "item": "Olive Oil"
     },
     {
       "quantity": "2",
       "unit": "g",
-      "item": "Malt Powder",
-      "ingredientKey": "Malt Powder"
+      "item": "Malt Powder"
+    },
+    {
+      "heading": "Topping"
     },
     {
       "quantity": "15",
       "unit": "g",
-      "item": "Sesame Seeds",
-      "ingredientKey": "Sesame Seeds"
+      "item": "Sesame Seeds"
     },
     {
       "quantity": "10",
       "unit": "g",
-      "item": "Nigella Seeds",
-      "ingredientKey": "Nigella Seeds"
+      "item": "Nigella Seeds"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Make the pre-ferment: In a bowl, combine 225g flour, 145ml lukewarm water, 1/4 tsp salt, and 1/2 tsp yeast. Mix until smooth. Cover and let rest at room temperature for 2-3 hours, or refrigerate overnight."
+      "instruction": "Make the pre-ferment: in a bowl, combine bread flour, lukewarm water, salt, and yeast. Mix until smooth. Cover and let rest at room temperature for 2–3 hours, or refrigerate overnight."
     },
     {
       "step": 2,
-      "instruction": "Make the main dough: In a large bowl, combine 240g flour, 1 tsp salt, remaining yeast, and enzyme-active soya flour or malt powder (if using)."
+      "instruction": "In a large bowl, combine bread flour, salt, yeast, and malt powder."
     },
     {
       "step": 3,
-      "instruction": "Add the pre-ferment (all of it), 165ml lukewarm water, and olive oil."
+      "instruction": "Add the pre-ferment, lukewarm water, and olive oil."
     },
     {
       "step": 4,
-      "instruction": "Mix until a rough dough forms, then knead for 8-10 minutes by hand (or 6-7 minutes in a stand mixer) until smooth, soft, and elastic."
+      "instruction": "Mix until a rough dough forms, then knead for 8–10 minutes by hand or 6–7 minutes in a stand mixer until smooth, soft, and elastic."
     },
     {
       "step": 5,
-      "instruction": "Place dough in a lightly oiled bowl, cover with a damp tea towel, and let rise in a warm place for 1-1.5 hours until doubled in size."
+      "instruction": "Place dough in a lightly oiled bowl, cover with a damp tea towel, and let rise in a warm place for 1–1½ hours until doubled in size."
     },
     {
       "step": 6,
-      "instruction": "Punch down the dough and divide into 2 equal portions (approximately 400g each)."
+      "instruction": "Punch down the dough and divide into 2 equal portions, approximately 400 g each."
     },
     {
       "step": 7,
@@ -112,7 +124,7 @@
     },
     {
       "step": 8,
-      "instruction": "On a lightly floured surface, roll or stretch each ball into an oval or round shape, about 25-30cm long and 1-1.5cm thick."
+      "instruction": "On a lightly floured surface, roll or stretch each ball into an oval or round shape, about 25–30 cm long and 1–1.5 cm thick."
     },
     {
       "step": 9,
@@ -120,11 +132,11 @@
     },
     {
       "step": 10,
-      "instruction": "Cover and let rise for 20-30 minutes until slightly puffy."
+      "instruction": "Cover and let rise for 20–30 minutes until slightly puffy."
     },
     {
       "step": 11,
-      "instruction": "Preheat oven to 220°C (425°F)."
+      "instruction": "Preheat oven to 220°C."
     },
     {
       "step": 12,
@@ -132,7 +144,7 @@
     },
     {
       "step": 13,
-      "instruction": "Bake for 12-15 minutes until golden brown with a soft interior and slightly crisp exterior."
+      "instruction": "Bake for 12–15 minutes until golden brown with a soft interior and slightly crisp exterior."
     },
     {
       "step": 14,
@@ -141,35 +153,25 @@
   ],
   "notes": [
     {
-      "type": "tip",
-      "title": "Pre-ferment Benefits",
-      "content": "The pre-ferment (poolish) develops flavor and creates a softer, more open crumb. It's worth the extra time!"
+      "type": "technique",
+      "title": "Pre-Ferment Benefits",
+      "content": "The pre-ferment develops flavour and creates a softer, more open crumb. It is worth the extra time — this is what gives the bread its characteristic texture."
     },
     {
-      "type": "tip",
+      "type": "technique",
       "title": "Nigella Seeds",
-      "content": "Nigella seeds (black onion seeds) are strongly recommended for authentic Turkish flavor and visual appeal. They add a subtle, slightly bitter, onion-like taste."
+      "content": "Nigella seeds are strongly recommended for authentic Turkish flavour and visual appeal. They add a subtle, slightly bitter, onion-like taste."
     },
     {
-      "type": "tip",
+      "type": "technique",
       "title": "Flour Choice",
-      "content": "Laucke Mulgara Baker's flour is recommended for its protein content and performance, but any quality baker's flour will work."
+      "content": "Laucke Mulgara Baker's flour is recommended for its protein content and performance, but any quality bread flour will work."
     },
     {
       "type": "serving",
       "title": "Serving Suggestion",
       "content": "Perfect for kebabs, doner wraps, or torn and served alongside dips like hummus, baba ganoush, or labneh."
     }
-  ],
-  "tags": [
-    "Bread",
-    "Classic",
-    "Make Ahead",
-    "Middle Eastern",
-    "Savoury",
-    "Under 1 Hour",
-    "Vegan",
-    "Vegetarian"
   ],
   "related": [
     {
@@ -192,5 +194,14 @@
       "id": "garlicbread",
       "title": "Garlic Butter Crusty Bread"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 2,
+    "cal": 955,
+    "protein": 32,
+    "carbs": 175,
+    "fat": 12,
+    "fiber": 10,
+    "coverage": 100
+  }
 }

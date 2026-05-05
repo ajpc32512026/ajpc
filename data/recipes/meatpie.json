@@ -1,119 +1,14 @@
 {
-  "id": "meatpie",
+  "id": "classicaussiemeatpies",
   "title": "Classic Aussie Meat Pies",
   "emoji": "🥧",
   "category": "Dinner",
   "description": "True blue, unapologetically hearty, and as Australian as a sunburn at Christmas.",
-  "ingredients": [
-    {
-      "quantity": "500",
-      "unit": "g",
-      "item": "Minced Meat",
-      "ingredientKey": "Minced Meat"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Onion",
-      "ingredientKey": "Onion"
-    },
-    {
-      "quantity": "2",
-      "unit": "tbsp",
-      "item": "Flour",
-      "ingredientKey": "Flour"
-    },
-    {
-      "quantity": "1",
-      "unit": "cup",
-      "item": "Stock",
-      "ingredientKey": "Stock"
-    },
-    {
-      "quantity": "2",
-      "unit": "tbsp",
-      "item": "Tomatoes",
-      "ingredientKey": "Tomatoes"
-    },
-    {
-      "quantity": "1",
-      "unit": "tbsp",
-      "item": "Sauces",
-      "ingredientKey": "Sauces"
-    },
-    {
-      "quantity": "to taste",
-      "unit": "",
-      "item": "Salt",
-      "ingredientKey": "Salt"
-    },
-    {
-      "quantity": "2",
-      "unit": "sheets",
-      "item": "Pastry",
-      "ingredientKey": "Pastry"
-    },
-    {
-      "quantity": "2",
-      "unit": "sheets",
-      "item": "Pastry",
-      "ingredientKey": "Pastry"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Eggs",
-      "ingredientKey": "Eggs"
-    }
-  ],
-  "method": [
-    {
-      "step": "1",
-      "instruction": "Preheat oven to 200°C (400°F). Grease pie tins or muffin tins."
-    },
-    {
-      "step": "2",
-      "instruction": "Sauté onion until soft. Add mince and cook until browned."
-    },
-    {
-      "step": "3",
-      "instruction": "Stir in flour and cook for 1 minute."
-    },
-    {
-      "step": "4",
-      "instruction": "Add stock, tomato paste, and Worcestershire sauce. Simmer 15–20 minutes until thick."
-    },
-    {
-      "step": "5",
-      "instruction": "Season with salt and pepper. Cool slightly."
-    },
-    {
-      "step": "6",
-      "instruction": "Line tins with shortcrust pastry and fill generously with meat mixture."
-    },
-    {
-      "step": "7",
-      "instruction": "Top with puff pastry, seal edges, and poke a vent hole in each pie."
-    },
-    {
-      "step": "8",
-      "instruction": "Brush with beaten egg."
-    },
-    {
-      "step": "9",
-      "instruction": "Bake 25–30 minutes until golden and proudly puffed."
-    }
-  ],
-  "notes": [
-    {
-      "title": "Tip",
-      "content": "Add a little Vegemite to the filling for deeper, proper Aussie savouriness."
-    },
-    {
-      "title": "Tip",
-      "content": "© 2025 AJPC | All rights reserved."
-    }
-  ],
+  "prepTime": "25 min",
+  "cookTime": "45 min",
+  "totalTime": "1 hr 10 min",
+  "servings": "4 pies",
+  "difficulty": "Intermediate",
   "tags": [
     "Australian",
     "Baked",
@@ -121,29 +16,155 @@
     "Classic",
     "Dinner",
     "Pastry",
-    "Savoury",
-    "Vegetarian"
+    "Savoury"
+  ],
+  "ingredients": [
+    {
+      "heading": "Filling"
+    },
+    {
+      "quantity": "500",
+      "unit": "g",
+      "item": "Beef Mince"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Brown Onion",
+      "notes": "diced"
+    },
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Plain Flour"
+    },
+    {
+      "quantity": "250",
+      "unit": "ml",
+      "item": "Beef Stock"
+    },
+    {
+      "quantity": "40",
+      "unit": "g",
+      "item": "Tomato Paste"
+    },
+    {
+      "quantity": "15",
+      "unit": "ml",
+      "item": "Worcestershire Sauce"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Salt",
+      "notes": "to taste"
+    },
+    {
+      "quantity": "2",
+      "unit": "g",
+      "item": "Black Pepper"
+    },
+    {
+      "heading": "Pastry"
+    },
+    {
+      "quantity": "2",
+      "unit": "sheets",
+      "item": "Shortcrust Pastry",
+      "notes": "for bases"
+    },
+    {
+      "quantity": "2",
+      "unit": "sheets",
+      "item": "Puff Pastry",
+      "notes": "for tops"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Eggs",
+      "notes": "beaten, for egg wash"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 200°C. Grease 4 individual pie tins."
+    },
+    {
+      "step": 2,
+      "instruction": "In a large frying pan over medium heat, sauté onion until soft. Add beef mince and cook until browned, breaking up any lumps."
+    },
+    {
+      "step": 3,
+      "instruction": "Stir in flour and cook for 1 minute."
+    },
+    {
+      "step": 4,
+      "instruction": "Add beef stock, tomato paste, and Worcestershire sauce. Bring to a simmer and cook for 15–20 minutes until thick and reduced."
+    },
+    {
+      "step": 5,
+      "instruction": "Season with salt and pepper. Remove from heat and allow to cool slightly."
+    },
+    {
+      "step": 6,
+      "instruction": "Line pie tins with shortcrust pastry and fill generously with the meat mixture."
+    },
+    {
+      "step": 7,
+      "instruction": "Top with puff pastry, press edges to seal, and cut a small vent hole in the centre of each pie."
+    },
+    {
+      "step": 8,
+      "instruction": "Brush tops with beaten egg."
+    },
+    {
+      "step": 9,
+      "instruction": "Bake for 25–30 minutes until golden and puffed."
+    }
+  ],
+  "notes": [
+    {
+      "type": "variation",
+      "title": "Aussie Touch",
+      "content": "Add a teaspoon of Vegemite to the filling for deeper, proper Aussie savouriness."
+    },
+    {
+      "type": "storage",
+      "title": "Make Ahead",
+      "content": "Assemble pies unbaked and freeze for up to 2 months. Bake from frozen, adding 10–15 minutes to the cooking time."
+    }
   ],
   "related": [
-    {
-      "id": "bistro-carpetbag",
-      "title": "Carpet Bag"
-    },
-    {
-      "id": "bistro-reefandbeef",
-      "title": "Reef and Beef"
-    },
     {
       "id": "sausageroll",
       "title": "Classic Aussie Sausage Rolls"
     },
     {
-      "id": "roulade",
-      "title": "Strawberry Meringue Roulade"
+      "id": "chickenbaconpies",
+      "title": "Chicken, Mushroom & Bacon Pies"
     },
     {
-      "id": "bistro-chickenriverina",
-      "title": "Chicken Riverina"
+      "id": "puffpastry",
+      "title": "Puff Pastry"
+    },
+    {
+      "id": "beefstockpot",
+      "title": "Beef Stock Pot"
+    },
+    {
+      "id": "lasagne",
+      "title": "Classic Lasagne"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 4,
+    "cal": 855,
+    "protein": 45,
+    "carbs": 60,
+    "fat": 50,
+    "fiber": 2,
+    "coverage": 100
+  }
 }

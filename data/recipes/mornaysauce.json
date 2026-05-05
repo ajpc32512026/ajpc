@@ -1,5 +1,5 @@
 {
-  "id": "mornaysauce",
+  "id": "mornaycheesesauce",
   "title": "Mornay / Cheese Sauce",
   "emoji": "🧀",
   "category": "Sauces",
@@ -7,44 +7,52 @@
   "prepTime": "5 min",
   "cookTime": "15 min",
   "totalTime": "20 min",
-  "servings": "500ml (2 cups)",
-  "difficulty": "Easy",
+  "servings": "500 ml",
+  "difficulty": "Beginner",
+  "tags": [
+    "Cheese",
+    "Classic",
+    "Creamy",
+    "French",
+    "Rich",
+    "Sauce",
+    "Under 30 Minutes",
+    "Vegetarian"
+  ],
   "ingredients": [
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Butter",
-      "ingredientKey": "Butter"
+      "item": "Unsalted Butter"
     },
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Flour",
-      "ingredientKey": "Flour"
+      "item": "Plain Flour"
     },
     {
       "quantity": "500",
       "unit": "ml",
-      "item": "Milk",
-      "ingredientKey": "Milk"
+      "item": "Whole Milk",
+      "notes": "warmed"
     },
     {
-      "quantity": "to taste",
-      "unit": "",
+      "quantity": "3",
+      "unit": "g",
       "item": "Salt",
-      "ingredientKey": "Salt"
+      "notes": "to taste"
     },
     {
       "quantity": "1",
-      "unit": "pinch",
+      "unit": "g",
       "item": "Nutmeg",
-      "ingredientKey": "Nutmeg"
+      "notes": "ground"
     },
     {
-      "quantity": "100-150",
+      "quantity": "125",
       "unit": "g",
-      "item": "Cheese",
-      "ingredientKey": "Cheese"
+      "item": "Tasty Cheese",
+      "notes": "grated, or cheddar"
     }
   ],
   "method": [
@@ -54,7 +62,7 @@
     },
     {
       "step": 2,
-      "instruction": "Add flour and whisk constantly for 1-2 minutes to cook out the raw flour taste. This is your roux — it should be smooth and pale golden, not browned."
+      "instruction": "Add flour and whisk constantly for 1–2 minutes to cook out the raw flour taste. The roux should be smooth and pale golden, not browned."
     },
     {
       "step": 3,
@@ -62,11 +70,11 @@
     },
     {
       "step": 4,
-      "instruction": "Continue whisking over medium heat until the sauce thickens and comes to a gentle simmer, about 5-7 minutes."
+      "instruction": "Continue whisking over medium heat until the sauce thickens and comes to a gentle simmer, about 5–7 minutes."
     },
     {
       "step": 5,
-      "instruction": "Once thickened to a coating consistency, reduce heat to low. Season with salt, white pepper, and nutmeg (if using)."
+      "instruction": "Once thickened to a coating consistency, reduce heat to low. Season with salt and nutmeg."
     },
     {
       "step": 6,
@@ -79,35 +87,20 @@
   ],
   "notes": [
     {
-      "type": "tip",
+      "type": "technique",
       "title": "Smooth Sauce Secret",
       "content": "Warm milk prevents lumps and helps the sauce come together smoothly. Cold milk works too, but takes longer and requires more whisking."
     },
     {
-      "type": "tip",
+      "type": "technique",
       "title": "Cheese Choice",
-      "content": "Strong cheddar gives classic flavour. Gruyère adds sophistication. Parmesan brings umami. Mix cheeses for complexity."
+      "content": "Strong cheddar gives classic flavour. Gruyère adds sophistication. Parmesan brings umami. Mix cheeses for complexity. See the Cheese Sauce Tips page for more detail."
     },
     {
       "type": "technique",
       "title": "Thickness Control",
-      "content": "For a thicker sauce, cook longer or add a bit more flour/cheese. For thinner, add more milk. The sauce will thicken slightly as it cools."
-    },
-    {
-      "type": "reference",
-      "title": "More Cheese Sauce Tips",
-      "content": "Get full cheese sauce insights and tips in our comprehensive Cheese Sauce Tips guide."
+      "content": "For a thicker sauce, cook longer or add more cheese. For thinner, add more milk. The sauce will thicken slightly as it cools."
     }
-  ],
-  "tags": [
-    "Cheese",
-    "Classic",
-    "Creamy",
-    "French",
-    "Rich",
-    "Sauce",
-    "Under 30 Minutes",
-    "Vegetarian"
   ],
   "related": [
     {
@@ -119,16 +112,25 @@
       "title": "Alfredo Sauce"
     },
     {
+      "id": "cheesesaucetips",
+      "title": "Cheese Sauce Tips"
+    },
+    {
       "id": "pestosauce",
       "title": "Pesto Sauce"
     },
     {
-      "id": "marinarasauce",
-      "title": "Marinara Sauce"
-    },
-    {
-      "id": "redsauce",
-      "title": "Red Sauce"
+      "id": "lasagne",
+      "title": "Classic Lasagne"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 500,
+    "cal": 2,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0,
+    "fiber": 0,
+    "coverage": 100
+  }
 }

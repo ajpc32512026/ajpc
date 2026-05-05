@@ -1,184 +1,187 @@
 {
-  "id": "lamington",
+  "id": "classiclamingtons",
   "title": "Classic Lamingtons",
   "emoji": "🧁",
-  "category": "Dinner",
-  "description": "Aussie pride in a cake cube — but built properly, with a real sponge that can hold its own.",
-  "ingredients": [
-    {
-      "quantity": "4",
-      "unit": "large",
-      "item": "Eggs",
-      "ingredientKey": "Eggs"
-    },
-    {
-      "quantity": "1",
-      "unit": "cup",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
-    },
-    {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Vanilla",
-      "ingredientKey": "Vanilla"
-    },
-    {
-      "quantity": "1/2",
-      "unit": "cup",
-      "item": "Flour",
-      "ingredientKey": "Flour"
-    },
-    {
-      "quantity": "1/2",
-      "unit": "tsp",
-      "item": "Baking Powder",
-      "ingredientKey": "Baking Powder"
-    },
-    {
-      "quantity": "1/2",
-      "unit": "cup",
-      "item": "Milk",
-      "ingredientKey": "Milk"
-    },
-    {
-      "quantity": "60",
-      "unit": "g",
-      "item": "Butter",
-      "ingredientKey": "Butter"
-    },
-    {
-      "quantity": "3",
-      "unit": "cups",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
-    },
-    {
-      "quantity": "1/3",
-      "unit": "cup",
-      "item": "Cocoa Powder",
-      "ingredientKey": "Cocoa Powder"
-    },
-    {
-      "quantity": "3/4",
-      "unit": "cup",
-      "item": "boiling water"
-    },
-    {
-      "quantity": "1",
-      "unit": "tbsp",
-      "item": "Butter",
-      "ingredientKey": "Butter"
-    },
-    {
-      "quantity": "2",
-      "unit": "cups",
-      "item": "Coconut",
-      "ingredientKey": "Coconut"
-    }
-  ],
-  "method": [
-    {
-      "step": "1",
-      "instruction": "Preheat oven to 180°C (350°F). Line a 20×30 cm / 9×13\" slab pan with baking paper."
-    },
-    {
-      "step": "2",
-      "instruction": "Beat eggs and sugar on high for 6–8 minutes until pale, thick, and tripled in volume."
-    },
-    {
-      "step": "3",
-      "instruction": "Stir in vanilla extract."
-    },
-    {
-      "step": "4",
-      "instruction": "Sift flour and baking powder together, then fold into egg mixture gently in three batches."
-    },
-    {
-      "step": "5",
-      "instruction": "Heat milk and butter until melted and warm. Mix in a scoop of batter, then fold back into the main bowl."
-    },
-    {
-      "step": "6",
-      "instruction": "Pour into the pan and bake 22–25 minutes or until a skewer comes out clean."
-    },
-    {
-      "step": "7",
-      "instruction": "Cool completely on a rack. Chill or freeze briefly for easier cutting."
-    },
-    {
-      "step": "8",
-      "instruction": "Sift icing sugar and cocoa into a bowl."
-    },
-    {
-      "step": "9",
-      "instruction": "Add boiling water and butter."
-    },
-    {
-      "step": "10",
-      "instruction": "Whisk until smooth. Keep warm while using."
-    },
-    {
-      "step": "11",
-      "instruction": "Cut the sponge into 4–5 cm squares."
-    },
-    {
-      "step": "12",
-      "instruction": "Dip each piece in the warm chocolate icing, letting excess drip off."
-    },
-    {
-      "step": "13",
-      "instruction": "Roll in coconut until fully coated."
-    },
-    {
-      "step": "14",
-      "instruction": "Set on a rack to firm up."
-    }
-  ],
-  "notes": [
-    {
-      "title": "Tip",
-      "content": "Split and fill with jam and whipped cream for the deluxe bakery-style Lamington."
-    },
-    {
-      "title": "Tip",
-      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
-    }
-  ],
+  "category": "Baking",
+  "description": "Aussie pride in a cake cube — built properly, with a real sponge that can hold its own.",
+  "prepTime": "30 min",
+  "cookTime": "25 min",
+  "totalTime": "55 min",
+  "servings": "16 squares",
+  "difficulty": "Intermediate",
   "tags": [
     "Australian",
     "Baked",
     "Chocolate",
     "Classic",
     "Coconut",
-    "Creamy",
-    "Dinner",
     "Party",
-    "Rich",
-    "Savoury",
     "Sweet",
     "Vegetarian"
   ],
+  "ingredients": [
+    {
+      "heading": "Sponge"
+    },
+    {
+      "quantity": "4",
+      "unit": "",
+      "item": "Eggs",
+      "notes": "large"
+    },
+    {
+      "quantity": "200",
+      "unit": "g",
+      "item": "White Sugar"
+    },
+    {
+      "quantity": "5",
+      "unit": "ml",
+      "item": "Vanilla Extract"
+    },
+    {
+      "quantity": "75",
+      "unit": "g",
+      "item": "Plain Flour"
+    },
+    {
+      "quantity": "3",
+      "unit": "g",
+      "item": "Baking Powder"
+    },
+    {
+      "quantity": "125",
+      "unit": "ml",
+      "item": "Whole Milk"
+    },
+    {
+      "quantity": "60",
+      "unit": "g",
+      "item": "Unsalted Butter"
+    },
+    {
+      "heading": "Chocolate Icing"
+    },
+    {
+      "quantity": "375",
+      "unit": "g",
+      "item": "Icing Sugar"
+    },
+    {
+      "quantity": "35",
+      "unit": "g",
+      "item": "Cocoa Powder"
+    },
+    {
+      "quantity": "180",
+      "unit": "ml",
+      "item": "Boiling Water"
+    },
+    {
+      "quantity": "15",
+      "unit": "g",
+      "item": "Unsalted Butter"
+    },
+    {
+      "heading": "Coating"
+    },
+    {
+      "quantity": "200",
+      "unit": "g",
+      "item": "Desiccated Coconut"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 180°C. Line a 20 cm × 30 cm slab pan with baking paper."
+    },
+    {
+      "step": 2,
+      "instruction": "In the bowl of a stand mixer, beat eggs and sugar on high speed for 6–8 minutes until pale, thick, and tripled in volume."
+    },
+    {
+      "step": 3,
+      "instruction": "Stir in vanilla extract."
+    },
+    {
+      "step": 4,
+      "instruction": "Sift flour and baking powder together, then gently fold into the egg mixture in three batches, keeping as much air in the batter as possible."
+    },
+    {
+      "step": 5,
+      "instruction": "Heat milk and butter together until melted and warm. Mix a scoop of the batter into the milk mixture, then fold back into the main bowl until just combined."
+    },
+    {
+      "step": 6,
+      "instruction": "Pour into the prepared pan and bake for 22–25 minutes or until a skewer inserted into the centre comes out clean."
+    },
+    {
+      "step": 7,
+      "instruction": "Cool completely on a wire rack. For easier cutting, chill or freeze the sponge briefly."
+    },
+    {
+      "step": 8,
+      "instruction": "For the icing: sift icing sugar and cocoa powder into a bowl. Add boiling water and butter. Whisk until smooth. Keep warm while using."
+    },
+    {
+      "step": 9,
+      "instruction": "Cut the sponge into 4–5 cm squares."
+    },
+    {
+      "step": 10,
+      "instruction": "Dip each square into the warm chocolate icing, letting the excess drip off."
+    },
+    {
+      "step": 11,
+      "instruction": "Roll each coated square in desiccated coconut until fully coated."
+    },
+    {
+      "step": 12,
+      "instruction": "Set on a wire rack to firm up before serving."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Sponge Tips",
+      "content": "Beat the eggs and sugar until they are genuinely thick and pale — this is what creates the light sponge structure. Fold the flour in gently to keep the air in the batter."
+    },
+    {
+      "type": "variation",
+      "title": "Deluxe Version",
+      "content": "Split each square and fill with raspberry jam and whipped cream for the full bakery-style experience."
+    }
+  ],
   "related": [
+    {
+      "id": "chocolaterumballs",
+      "title": "Chocolate Rum Balls"
+    },
+    {
+      "id": "traditionalanzacbiscuits",
+      "title": "Traditional ANZAC Biscuits"
+    },
     {
       "id": "roulade",
       "title": "Strawberry Meringue Roulade"
-    },
-    {
-      "id": "meatpie",
-      "title": "Classic Aussie Meat Pies"
     },
     {
       "id": "sausageroll",
       "title": "Classic Aussie Sausage Rolls"
     },
     {
-      "id": "bistro-reefandbeef",
-      "title": "Reef and Beef"
-    },
-    {
-      "id": "bistro-chickenriverina",
-      "title": "Chicken Riverina"
+      "id": "meatpie",
+      "title": "Classic Aussie Meat Pies"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 16,
+    "cal": 322,
+    "protein": 5,
+    "carbs": 45,
+    "fat": 15,
+    "fiber": 3,
+    "coverage": 100
+  }
 }

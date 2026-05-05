@@ -1,100 +1,122 @@
 {
-  "id": "swbtm2",
-  "title": "Tangzhong Pull-Apart Loaf",
+  "id": "softwhitebread2tangzhong",
+  "title": "Soft White Bread 2 (Tangzhong)",
   "emoji": "🍞",
-  "category": "Dinner",
-  "description": "A soft, airy loaf with a tender crumb, made using tangzhong and hand-rolled sections for perfect pull-apart perfection.",
+  "category": "Baking",
+  "description": "A soft, airy loaf with a tender crumb, made using tangzhong and hand-rolled sections for perfect pull-apart texture.",
+  "prepTime": "30 min",
+  "cookTime": "30 min",
+  "totalTime": "3 hr",
+  "servings": "1 loaf",
+  "difficulty": "Intermediate",
+  "tags": [
+    "Bread",
+    "Make Ahead",
+    "Savoury",
+    "Vegetarian"
+  ],
   "ingredients": [
+    {
+      "heading": "Tangzhong"
+    },
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Bread Flour"
+    },
+    {
+      "quantity": "190",
+      "unit": "ml",
+      "item": "Water"
+    },
+    {
+      "heading": "Main Dough"
+    },
     {
       "quantity": "560",
       "unit": "g",
-      "item": "Flour",
-      "ingredientKey": "Flour"
-    },
-    {
-      "quantity": "180",
-      "unit": "g",
-      "item": "Flour",
-      "ingredientKey": "Flour"
+      "item": "Bread Flour"
     },
     {
       "quantity": "180",
       "unit": "ml",
-      "item": "water"
+      "item": "Water"
     },
     {
       "quantity": "20",
       "unit": "ml",
-      "item": "Oil",
-      "ingredientKey": "Oil"
+      "item": "Vegetable Oil"
     },
     {
       "quantity": "10",
       "unit": "g",
-      "item": "Salt",
-      "ingredientKey": "Salt"
+      "item": "Salt"
     },
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Bread Improver",
-      "ingredientKey": "Bread Improver"
+      "item": "Bread Improver"
     },
     {
       "quantity": "10",
       "unit": "g",
       "item": "Yeast",
-      "ingredientKey": "Yeast"
+      "notes": "instant dried"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "White Sugar"
     },
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Milk",
-      "ingredientKey": "Milk"
+      "item": "Whole Milk",
+      "notes": "for brushing before baking"
     },
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Butter",
-      "ingredientKey": "Butter"
+      "item": "Unsalted Butter",
+      "notes": "melted, for brushing after baking"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Make the tangzhong by cooking 30 g flour with 190 ml water until thickened. Let cool."
+      "instruction": "Make the tangzhong: in a small saucepan, combine 30 g bread flour and 190 ml water. Cook over medium heat, whisking constantly, until thickened to approximately 65°C. Remove from heat and let cool to room temperature."
     },
     {
       "step": 2,
-      "instruction": "Mix all dry ingredients (flour, salt, bread improver, yeast) in a large bowl."
+      "instruction": "In a large bowl, combine bread flour, salt, bread improver, yeast, and sugar."
     },
     {
       "step": 3,
-      "instruction": "Add tangzhong, water, and oil to the dry mix. Knead by hand until smooth and elastic."
+      "instruction": "Add the cooled tangzhong, water, and vegetable oil. Mix until a rough dough forms, then knead for 10–12 minutes until smooth and elastic. Dust hands lightly if sticky, but avoid drying the dough out."
     },
     {
       "step": 4,
-      "instruction": "Let the dough rise for the first proof until doubled in size."
+      "instruction": "Place dough in a lightly oiled bowl, cover, and let rise in a warm place until doubled in size, about 1–1½ hours."
     },
     {
       "step": 5,
-      "instruction": "Perform a gentle second knead after the first rise to redistribute air and improve crumb."
+      "instruction": "Gently punch down the dough and knead briefly to redistribute air for a finer crumb."
     },
     {
       "step": 6,
-      "instruction": "Divide the dough into three equal portions."
+      "instruction": "Divide dough into three equal portions. Roll each into a ball, then cup in one hand and tuck edges underneath while rotating gently to create a smooth, taut dome."
     },
     {
       "step": 7,
-      "instruction": "Roll each portion into a loose ball, then use the “tiny tension trick”: cup it in one hand and tuck edges underneath while rotating gently, creating a smooth, taut dome."
+      "instruction": "Place the balls snugly into a greased loaf tin approximately 8 cm × 18 cm, edges touching lightly."
     },
     {
       "step": 8,
-      "instruction": "Place the balls snugly into a greased loaf pan (approx. 8 × 18 cm), edges touching lightly."
+      "instruction": "Cover loosely and let rise until puffed and slightly jiggly, about 45–60 minutes."
     },
     {
       "step": 9,
-      "instruction": "Cover loosely and let the dough rise until puffed and slightly jiggly, testing with a gentle poke."
+      "instruction": "Preheat oven to 180–185°C."
     },
     {
       "step": 10,
@@ -102,7 +124,7 @@
     },
     {
       "step": 11,
-      "instruction": "Preheat oven to 180–185°C and bake for 25–30 minutes. If browning is slow, increase to 190°C for the last few minutes."
+      "instruction": "Bake for 25–30 minutes. If browning is slow, increase to 190°C for the last few minutes."
     },
     {
       "step": 12,
@@ -110,66 +132,55 @@
     },
     {
       "step": 13,
-      "instruction": "Let the loaf rest 5–10 minutes in the pan, then gently lift out and cool slightly before slicing."
+      "instruction": "Let the loaf rest for 5–10 minutes in the tin, then lift out and cool slightly before slicing."
     }
   ],
   "notes": [
     {
-      "title": "Notes & Tips",
-      "content": "- Small balls in the pan support each other and prevent sagging sides."
+      "type": "technique",
+      "title": "The Tension Trick",
+      "content": "Cupping each dough ball and tucking the edges underneath while rotating creates a taut surface that holds its shape during baking and prevents sagging sides."
     },
     {
-      "title": "Notes & Tips",
-      "content": "- Keep the surface of each ball taut to hold the shape during baking."
+      "type": "technique",
+      "title": "Flour Choice",
+      "content": "Wallaby's bakers flour gives a softer, smoother dough and a better rise compared to plain flour. Bread flour with 12–14% protein is recommended."
     },
     {
-      "title": "Notes & Tips",
-      "content": "- Wallaby’s bakers flour gives a softer, smoother dough and a better rise compared to plain flour."
-    },
-    {
-      "title": "Notes & Tips",
-      "content": "- Dust hands lightly when kneading if the dough is sticky, but avoid drying it out."
-    },
-    {
-      "title": "Notes & Tips",
-      "content": "- Brushing milk before baking gives a soft, golden crust; brushing melted butter after baking adds flavor and a glossy finish."
-    },
-    {
-      "title": "Notes & Tips",
-      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+      "type": "technique",
+      "title": "Milk and Butter Finish",
+      "content": "Brushing with milk before baking gives a soft, golden crust. Brushing with melted butter after baking adds flavour and a glossy finish."
     }
   ],
-  "tags": [
-    "Bread",
-    "Creamy",
-    "Dinner",
-    "Make Ahead",
-    "Rich",
-    "Savoury",
-    "Soft",
-    "Sweet",
-    "Vegetarian"
-  ],
   "related": [
+    {
+      "id": "swbtm",
+      "title": "Soft White Bread (Tangzhong Method)"
+    },
+    {
+      "id": "tangzhongguide",
+      "title": "Tangzhong Guide"
+    },
     {
       "id": "cinnbun",
       "title": "Bakery-Style Cinnamon Buns"
     },
     {
-      "id": "hotdog",
-      "title": "Wendy’s-Style Hot Dog Buns"
+      "id": "sub",
+      "title": "Homemade Sub Buns"
     },
     {
-      "id": "highhydraciab",
-      "title": "Airy High-Hydration Ciabatta"
-    },
-    {
-      "id": "lemoncoconut",
-      "title": "Lemon Coconut Cake"
-    },
-    {
-      "id": "hummingbird",
-      "title": "Hummingbird Cake — Cafe Style"
+      "id": "turkishbread",
+      "title": "Traditional Turkish Bread"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 1,
+    "cal": 2647,
+    "protein": 78,
+    "carbs": 445,
+    "fat": 56,
+    "fiber": 17,
+    "coverage": 100
+  }
 }

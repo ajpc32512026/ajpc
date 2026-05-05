@@ -8,7 +8,7 @@
   "cookTime": "10 min",
   "totalTime": "15 min",
   "servings": "4 servings",
-  "difficulty": "Easy",
+  "difficulty": "Beginner",
   "tags": [
     "Cheese",
     "Creamy",
@@ -19,20 +19,67 @@
     "Vegetarian"
   ],
   "ingredients": [
-    { "quantity": "45",  "unit": "g",  "item": "Unsalted Butter",   "ingredientKey": "Butter" },
-    { "quantity": "2",   "unit": "",   "item": "Garlic Cloves",     "notes": "finely minced", "ingredientKey": "Garlic" },
-    { "quantity": "250", "unit": "ml", "item": "Heavy Cream",       "notes": "thickened cream", "ingredientKey": "Cream" },
-    { "quantity": "100", "unit": "g",  "item": "Parmesan Cheese",   "notes": "freshly grated", "ingredientKey": "Cheese" },
-    { "quantity": "2.5", "unit": "g",  "item": "Salt",              "notes": "or to taste", "ingredientKey": "Salt" },
-    { "quantity": "0.5", "unit": "g",  "item": "Black Pepper",      "notes": "freshly ground", "ingredientKey": "Pepper" }
+    {
+      "quantity": "45",
+      "unit": "g",
+      "item": "Unsalted Butter"
+    },
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Garlic Cloves",
+      "notes": "finely minced"
+    },
+    {
+      "quantity": "250",
+      "unit": "ml",
+      "item": "Heavy Cream",
+      "notes": "thickened cream"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Parmesan Cheese",
+      "notes": "freshly grated"
+    },
+    {
+      "quantity": "2.5",
+      "unit": "g",
+      "item": "Salt",
+      "notes": "or to taste"
+    },
+    {
+      "quantity": "0.5",
+      "unit": "g",
+      "item": "Black Pepper",
+      "notes": "freshly ground"
+    }
   ],
   "method": [
-    { "step": 1, "instruction": "Melt butter gently in a wide pan over low heat, taking care not to brown it." },
-    { "step": 2, "instruction": "Add garlic and cook briefly until fragrant, about 30 seconds." },
-    { "step": 3, "instruction": "Pour in cream and bring to a gentle simmer. Cook for 3–4 minutes until slightly thickened." },
-    { "step": 4, "instruction": "Reduce heat to low and gradually stir in Parmesan until fully melted and smooth." },
-    { "step": 5, "instruction": "Season with salt and black pepper, adjusting to taste." },
-    { "step": 6, "instruction": "Serve immediately over hot pasta, loosening with a splash of pasta water if needed." }
+    {
+      "step": 1,
+      "instruction": "Melt butter gently in a wide pan over low heat, taking care not to brown it."
+    },
+    {
+      "step": 2,
+      "instruction": "Add garlic and cook briefly until fragrant, about 30 seconds."
+    },
+    {
+      "step": 3,
+      "instruction": "Pour in cream and bring to a gentle simmer. Cook for 3–4 minutes until slightly thickened."
+    },
+    {
+      "step": 4,
+      "instruction": "Reduce heat to low and gradually stir in Parmesan until fully melted and smooth."
+    },
+    {
+      "step": 5,
+      "instruction": "Season with salt and black pepper, adjusting to taste."
+    },
+    {
+      "step": 6,
+      "instruction": "Serve immediately over hot pasta, loosening with a splash of pasta water if needed."
+    }
   ],
   "notes": [
     {
@@ -47,10 +94,34 @@
     }
   ],
   "related": [
-    { "id": "pestosauce",     "title": "Pesto Sauce" },
-    { "id": "marinarasauce",  "title": "Marinara Sauce" },
-    { "id": "redsauce",       "title": "Red Sauce" },
-    { "id": "arrabbiatazauce","title": "Arrabbiata Sauce" },
-    { "id": "mornaysauce",    "title": "Mornay / Cheese Sauce" }
-  ]
+    {
+      "id": "pestosauce",
+      "title": "Pesto Sauce"
+    },
+    {
+      "id": "marinarasauce",
+      "title": "Marinara Sauce"
+    },
+    {
+      "id": "redsauce",
+      "title": "Red Sauce"
+    },
+    {
+      "id": "arrabbiatazauce",
+      "title": "Arrabbiata Sauce"
+    },
+    {
+      "id": "mornaysauce",
+      "title": "Mornay / Cheese Sauce"
+    }
+  ],
+  "nutrition": {
+    "servings": 4,
+    "cal": 468,
+    "protein": 11,
+    "carbs": 19,
+    "fat": 40,
+    "fiber": 1,
+    "coverage": 100
+  }
 }

@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#16161a">
+<title>Ingredient Editor | AJPC Kitchen Notebook</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg:        #0e0e0e;
+    --surface:   #161616;
+    --surface2:  #1f1f1f;
+    --border:    #2a2a2a;
+    --border2:   #333;
+    --gold:      #c9a961;
+    --gold-dim:  #8a6f3a;
+    --text:      #e8e2d9;
+    --text-dim:  #7a7268;
+    --text-mid:  #a89f94;
+    --red:       #c0392b;
+    --green:     #27ae60;
+    --warning:   #e67e22;
+    --mono:      'IBM Plex Mono', monospace;
+    --serif:     'Playfair Display', serif;
+    --sans:      'DM Sans', sans-serif;
+  }
+
+  html { font-size: 15px; scroll-behavior: auto; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    font-weight: 300;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr;
+  }
+
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  header h1 {
+    font-family: var(--serif);
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--gold);
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+  }
+  .header-actions { margin-left: auto; display: flex; gap: 0.5rem; flex-wrap: wrap; }
+  .btn {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border: 1px solid var(--border2);
+    background: transparent;
+    color: var(--text-mid);
+    padding: 0.45rem 0.9rem;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    border-radius: 2px;
+    white-space: nowrap;
+  }
+  .btn:hover { border-color: var(--gold-dim); color: var(--gold); }
+  .btn.primary { background: var(--gold); color: #0e0e0e; border-color: var(--gold); font-weight: 500; }
+  .btn.primary:hover { background: #d4b575; }
+  .btn.danger { border-color: transparent; color: var(--text-dim); }
+  .btn.danger:hover { color: var(--red); }
+
+  .stats-bar {
+    background: var(--surface2);
+    border-bottom: 1px solid var(--border);
+    padding: 0.5rem 2rem;
+    display: flex;
+    gap: 2rem;
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    color: var(--text-dim);
+    letter-spacing: 0.06em;
+    flex-wrap: wrap;
+  }
+  .stats-bar span { white-space: nowrap; }
+  .stat-needs { color: var(--warning); }
+  .stat-new { color: var(--green); }
+
+  .main-layout {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    height: calc(100vh - 110px);
+  }
+
+  .sidebar {
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar-search {
+    padding: 0.75rem;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    background: var(--surface);
+    z-index: 2;
+  }
+  .sidebar-search input {
+    width: 100%;
+    padding: 0.45rem 0.6rem;
+    background: var(--surface2);
+    border: 1px solid var(--border2);
+    color: var(--text);
+    font-family: var(--sans);
+    font-size: 0.82rem;
+    border-radius: 3px;
+    outline: none;
+  }
+  .sidebar-search input:focus { border-color: var(--gold-dim); }
+  .sidebar-filters {
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    gap: 0.35rem;
+    flex-wrap: wrap;
+  }
+  .filter-btn {
+    font-family: var(--mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background: var(--surface2);
+    border: 1px solid var(--border2);
+    color: var(--text-dim);
+    padding: 0.25rem 0.5rem;
+    border-radius: 2px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .filter-btn:hover, .filter-btn.active { background: var(--gold-dim); color: var(--bg); border-color: var(--gold-dim); }
+
+  .ingredient-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: 0;
+  }
+  .ingredient-list-item {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 0.55rem 0.75rem;
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--border);
+    color: var(--text-dim);
+    font-family: var(--sans);
+    font-size: 0.82rem;
+    cursor: pointer;
+    transition: all 0.1s;
+  }
+  .ingredient-list-item:hover { background: var(--surface2); color: var(--text); }
+  .ingredient-list-item.active { background: rgba(201,169,97,0.1); color: var(--gold); border-left: 3px solid var(--gold); }
+  .ingredient-list-item .badge {
+    display: inline-block;
+    font-size: 0.55rem;
+    font-family: var(--mono);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 0.1rem 0.35rem;
+    border-radius: 2px;
+    margin-left: 0.4rem;
+    vertical-align: middle;
+  }
+  .badge-new { background: rgba(39,174,96,0.2); color: var(--green); }
+  .badge-needs { background: rgba(230,126,34,0.2); color: var(--warning); }
+
+  .editor-panel {
+    overflow-y: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .editor-empty {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: var(--text-dim);
+    font-style: italic;
+  }
+
+  .field { display: flex; flex-direction: column; gap: 0.3rem; }
+  .field label {
+    font-family: var(--mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold-dim);
+  }
+  .field input, .field textarea, .field select {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: var(--sans);
+    font-size: 0.88rem;
+    font-weight: 300;
+    padding: 0.5rem 0.65rem;
+    border-radius: 3px;
+    outline: none;
+    width: 100%;
+    transition: border-color 0.15s;
+  }
+  .field input:focus, .field textarea:focus, .field select:focus { border-color: var(--gold-dim); }
+  .field textarea { resize: vertical; min-height: 80px; line-height: 1.5; }
+
+  .row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .row-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; }
+
+  .used-in-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+  }
+  .used-in-tag {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    background: var(--surface2);
+    border: 1px solid var(--border2);
+    color: var(--text-mid);
+    padding: 0.2rem 0.5rem;
+    border-radius: 2px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .used-in-tag:hover { border-color: var(--gold-dim); color: var(--gold); }
+
+  #toast {
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--gold);
+    color: #0e0e0e;
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.6rem 1.1rem;
+    border-radius: 3px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    z-index: 300;
+  }
+  #toast.show { opacity: 1; }
+
+  @media (max-width: 800px) {
+    .main-layout { grid-template-columns: 1fr; grid-template-rows: auto 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Ingredient Editor</h1>
+    <span style="font-family:var(--mono);font-size:0.7rem;color:var(--text-dim);letter-spacing:0.1em;text-transform:uppercase;" id="modeLabel">No file loaded</span>
+    <div class="header-actions">
+        <input type="file" id="loadFile" accept=".json" style="display:none" onchange="loadJSON(event)">
+        <button class="btn" onclick="document.getElementById('loadFile').click()">Load JSON</button>
+        <button class="btn primary" onclick="saveJSON()">Save</button>
+        <button class="btn" onclick="downloadJSON()">Download</button>
+    </div>
+</header>
+
+<div class="stats-bar">
+    <span>Total: <strong id="statTotal">0</strong></span>
+    <span class="stat-new">New: <strong id="statNew">0</strong></span>
+    <span class="stat-needs">Needs Work: <strong id="statNeeds">0</strong></span>
+    <span>Selected: <strong id="statSelected">—</strong></span>
+</div>
+
+<div class="main-layout">
+    <div class="sidebar">
+        <div class="sidebar-search">
+            <input type="text" id="searchInput" placeholder="Search ingredients..." autocomplete="off">
+        </div>
+        <div class="sidebar-filters" id="filterBar">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="new">New</button>
+            <button class="filter-btn" data-filter="needs">Needs Work</button>
+            <button class="filter-btn" data-filter="used">In Use</button>
+            <button class="filter-btn" data-filter="unused">Not Used</button>
+        </div>
+        <div class="ingredient-list" id="ingredientList"></div>
+    </div>
+
+    <div class="editor-panel" id="editorPanel">
+        <div class="editor-empty">Select an ingredient from the list to edit it.</div>
+    </div>
+</div>
+
+<div id="toast">Saved!</div>
+
+<script>
+(function() {
+    var inventory = {};
+    var currentKey = null;
+    var currentFilter = 'all';
+    var searchQuery = '';
+
+    // Build empty editor
+    function buildEditor(key, data) {
+        var usedIn = (data.usedIn || []).sort();
+        var isNew = !data.notes || data.notes === 'Add description here.';
+        var isUnused = usedIn.length === 0;
+
+        var html = '<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem;">';
+        html += '<h2 style="font-family:var(--serif);font-size:1.6rem;color:var(--cream);margin:0;">' + escHtml(key) + '</h2>';
+        html += '<button class="btn danger" onclick="deleteIngredient(\'' + key.replace(/'/g, "\\'") + '\')">Delete</button>';
+        html += '</div>';
+
+        if (isNew) html += '<div style="padding:0.5rem;background:rgba(39,174,96,0.1);border:1px solid rgba(39,174,96,0.3);border-radius:4px;margin-bottom:1rem;font-size:0.8rem;color:var(--green);">New ingredient — needs description and review.</div>';
+        if (isUnused) html += '<div style="padding:0.5rem;background:rgba(230,126,34,0.1);border:1px solid rgba(230,126,34,0.3);border-radius:4px;margin-bottom:1rem;font-size:0.8rem;color:var(--warning);">Not used in any recipe.</div>';
+
+        html += '<div class="row-2">';
+        html += '<div class="field"><label>Ingredient Name</label><input type="text" id="edName" value="' + escAttr(key) + '" oninput="markChanged()"></div>';
+        html += '<div class="field"><label>Category</label><input type="text" id="edCategory" value="' + escAttr(data.category || '') + '" oninput="markChanged()"></div>';
+        html += '</div>';
+
+        html += '<div class="field"><label>AKA (comma separated)</label><input type="text" id="edAka" value="' + escAttr((data.aka || []).join(', ')) + '" oninput="markChanged()"></div>';
+        html += '<div class="field"><label>Notes / Description</label><textarea id="edNotes" oninput="markChanged()">' + escHtml(data.notes || '') + '</textarea></div>';
+        html += '<div class="field"><label>Purpose</label><textarea id="edPurpose" oninput="markChanged()">' + escHtml(data.purpose || '') + '</textarea></div>';
+
+        if (data.nutrition) {
+            var n = data.nutrition;
+            html += '<div class="field"><label>Nutrition</label><textarea id="edNutrition" oninput="markChanged()">' + escHtml(JSON.stringify(n, null, 2)) + '</textarea></div>';
+        } else {
+            html += '<div class="field"><label>Nutrition (JSON format)</label><textarea id="edNutrition" placeholder=\'{"calories":"...","carbohydrates":"...","fat":"...","fiber":"...","protein":"..."}\' oninput="markChanged()"></textarea></div>';
+        }
+
+        if (usedIn.length > 0) {
+            html += '<div class="field"><label>Used In (' + usedIn.length + ' recipes)</label>';
+            html += '<div class="used-in-list">';
+            for (var i = 0; i < usedIn.length; i++) {
+                html += '<a href="recipe.html?id=' + usedIn[i] + '" class="used-in-tag" target="_blank" title="Open recipe">' + usedIn[i] + '</a>';
+            }
+            html += '</div></div>';
+        }
+
+        html += '<div style="display:flex;gap:0.5rem;margin-top:1rem;">';
+        html += '<button class="btn primary" onclick="saveCurrent()">Save Changes</button>';
+        html += '<span style="font-size:0.7rem;color:var(--text-dim);align-self:center;" id="changedIndicator"></span>';
+        html += '</div>';
+
+        return html;
+    }
+
+    function renderEditor() {
+        var panel = document.getElementById('editorPanel');
+        if (!currentKey || !inventory[currentKey]) {
+            panel.innerHTML = '<div class="editor-empty">Select an ingredient from the list to edit it.</div>';
+            document.getElementById('statSelected').textContent = '—';
+            return;
+        }
+        panel.innerHTML = buildEditor(currentKey, inventory[currentKey]);
+        document.getElementById('statSelected').textContent = currentKey;
+    }
+
+    function saveCurrent() {
+        if (!currentKey) return;
+        var data = inventory[currentKey];
+        var newName = document.getElementById('edName').value.trim();
+        data.category = document.getElementById('edCategory').value.trim();
+        data.aka = document.getElementById('edAka').value.split(',').map(function(s) { return s.trim(); }).filter(Boolean);
+        data.notes = document.getElementById('edNotes').value.trim();
+        data.purpose = document.getElementById('edPurpose').value.trim();
+        var nutRaw = document.getElementById('edNutrition').value.trim();
+        if (nutRaw) {
+            try { data.nutrition = JSON.parse(nutRaw); } catch(e) { data.nutrition = nutRaw; }
+        } else {
+            delete data.nutrition;
+        }
+
+        // Handle rename
+        if (newName && newName !== currentKey) {
+            inventory[newName] = data;
+            delete inventory[currentKey];
+            currentKey = newName;
+            document.getElementById('modeLabel').textContent = '✎ Editing: ' + newName;
+        }
+
+        renderList();
+        renderEditor();
+        document.getElementById('changedIndicator').textContent = '';
+        updateStats();
+        toast('Saved: ' + (newName || currentKey));
+    }
+
+    function markChanged() {
+        document.getElementById('changedIndicator').textContent = '• Unsaved changes';
+        document.getElementById('changedIndicator').style.color = 'var(--warning)';
+    }
+
+    function deleteIngredient(key) {
+        if (!confirm('Delete "' + key + '" from the inventory? This cannot be undone.')) return;
+        delete inventory[key];
+        if (currentKey === key) currentKey = null;
+        renderList();
+        renderEditor();
+        updateStats();
+        document.getElementById('modeLabel').textContent = '✎ Edited';
+        toast('Deleted: ' + key);
+    }
+
+    function renderList() {
+        var list = document.getElementById('ingredientList');
+        var keys = Object.keys(inventory).sort();
+        var q = searchQuery.toLowerCase();
+        var html = '';
+
+        for (var i = 0; i < keys.length; i++) {
+            var key = keys[i];
+            var data = inventory[key];
+            var isNew = !data.notes || data.notes === 'Add description here.';
+            var isUnused = !data.usedIn || data.usedIn.length === 0;
+            var needsWork = isNew || !data.category || !data.notes || data.notes === 'Add description here.';
+
+            // Filter
+            if (currentFilter === 'new' && !isNew) continue;
+            if (currentFilter === 'needs' && !needsWork) continue;
+            if (currentFilter === 'used' && isUnused) continue;
+            if (currentFilter === 'unused' && !isUnused) continue;
+            if (q && key.toLowerCase().indexOf(q) === -1 && (data.notes || '').toLowerCase().indexOf(q) === -1) continue;
+
+            var activeClass = currentKey === key ? ' active' : '';
+            var badges = '';
+            if (isNew) badges += '<span class="badge badge-new">NEW</span>';
+            if (needsWork && !isNew) badges += '<span class="badge badge-needs">!</span>';
+
+            html += '<button class="ingredient-list-item' + activeClass + '" onclick="selectIngredient(\'' + key.replace(/'/g, "\\'") + '\')">' + escHtml(key) + badges + '</button>';
+        }
+
+        list.innerHTML = html || '<div style="padding:1rem;color:var(--text-dim);font-style:italic;">No ingredients match your filter.</div>';
+    }
+
+    window.selectIngredient = function(key) {
+        currentKey = key;
+        renderList();
+        renderEditor();
+        document.getElementById('modeLabel').textContent = '✎ Editing: ' + key;
+        document.getElementById('statSelected').textContent = key;
+    };
+
+    function updateStats() {
+        var keys = Object.keys(inventory);
+        var total = keys.length;
+        var newCount = 0;
+        var needsCount = 0;
+        for (var i = 0; i < keys.length; i++) {
+            var d = inventory[keys[i]];
+            if (!d.notes || d.notes === 'Add description here.') newCount++;
+            if (!d.notes || d.notes === 'Add description here.' || !d.category) needsCount++;
+        }
+        document.getElementById('statTotal').textContent = total;
+        document.getElementById('statNew').textContent = newCount;
+        document.getElementById('statNeeds').textContent = needsCount;
+    }
+
+    function toast(msg) {
+        var t = document.getElementById('toast');
+        t.textContent = msg;
+        t.classList.add('show');
+        setTimeout(function() { t.classList.remove('show'); }, 2000);
+    }
+
+    function escHtml(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+    function escAttr(s) { return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+    // Search
+    document.getElementById('searchInput').addEventListener('input', function() {
+        searchQuery = this.value.trim().toLowerCase();
+        renderList();
+    });
+
+    // Filters
+    document.getElementById('filterBar').addEventListener('click', function(e) {
+        var btn = e.target.closest('.filter-btn');
+        if (!btn) return;
+        document.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+        currentFilter = btn.getAttribute('data-filter');
+        renderList();
+    });
+
+    // Load JSON
+    window.loadJSON = function(event) {
+        var file = event.target.files[0];
+        if (!file) return;
+        var reader = new FileReader();
+        reader.onload = function(e) {
+            try {
+                inventory = JSON.parse(e.target.result);
+                currentKey = null;
+                renderList();
+                renderEditor();
+                updateStats();
+                document.getElementById('modeLabel').textContent = 'Loaded: ' + file.name;
+                toast('Loaded: ' + file.name);
+            } catch(err) {
+                alert('Could not parse JSON: ' + err.message);
+            }
+        };
+        reader.readAsText(file);
+        event.target.value = '';
+    };
+
+    // Save back to original file (downloads if no handle)
+    window.saveJSON = function() {
+        saveCurrent();
+        downloadJSON();
+    };
+
+    window.downloadJSON = function() {
+        var json = JSON.stringify(inventory, null, 2);
+        var blob = new Blob([json], { type: 'application/json' });
+        var a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = 'ingredient_inventory_v6.json';
+        a.click();
+        URL.revokeObjectURL(a.href);
+        toast('Downloaded!');
+    };
+
+    // Keyboard shortcuts
+    document.addEventListener('keydown', function(e) {
+        if ((e.ctrlKey || e.metaKey) && e.key === 's') {
+            e.preventDefault();
+            saveCurrent();
+            toast('Saved!');
+        }
+    });
+
+    updateStats();
+})();
+</script>
+
+</body>
+</html>

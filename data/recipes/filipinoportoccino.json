@@ -1,115 +1,14 @@
 {
-  "id": "filipinoportoccino",
+  "id": "filipinoporktoccino",
   "title": "Filipino Pork Toccino",
   "emoji": "🥓",
   "category": "Dinner",
-  "description": "Sweet, caramelized pork — juicy, tender, and perfect for a classic Filipino breakfast.",
-  "ingredients": [
-    {
-      "quantity": "500",
-      "unit": "g",
-      "item": "Pork",
-      "ingredientKey": "Pork"
-    },
-    {
-      "quantity": "1/2",
-      "unit": "cup",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
-    },
-    {
-      "quantity": "1/4",
-      "unit": "cup",
-      "item": "Juice",
-      "ingredientKey": "Juice"
-    },
-    {
-      "quantity": "3",
-      "unit": "tbsp",
-      "item": "Sauces",
-      "ingredientKey": "Sauces"
-    },
-    {
-      "quantity": "1",
-      "unit": "tbsp",
-      "item": "Vinegar",
-      "ingredientKey": "Vinegar"
-    },
-    {
-      "quantity": "4",
-      "unit": "cloves",
-      "item": "Garlic",
-      "ingredientKey": "Garlic"
-    },
-    {
-      "quantity": "to taste",
-      "unit": "",
-      "item": "Decorative & Flavour Additives",
-      "ingredientKey": "Decorative & Flavour Additives"
-    },
-    {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Salt",
-      "ingredientKey": "Salt"
-    },
-    {
-      "quantity": "1/2",
-      "unit": "tsp",
-      "item": "Pepper",
-      "ingredientKey": "Pepper"
-    },
-    {
-      "quantity": "2",
-      "unit": "tbsp",
-      "item": "Oil",
-      "ingredientKey": "Oil"
-    }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "Slice pork shoulder into 1/4-inch thick pieces."
-    },
-    {
-      "step": 2,
-      "instruction": "Combine brown sugar, pineapple juice, soy sauce, vinegar, garlic, salt, pepper, and food coloring in a bowl."
-    },
-    {
-      "step": 3,
-      "instruction": "Add pork to the mixture and marinate for 24 hours in the refrigerator."
-    },
-    {
-      "step": 4,
-      "instruction": "Heat oil in a pan over medium-low heat."
-    },
-    {
-      "step": 5,
-      "instruction": "Cook pork for 10–12 minutes, flipping every minute until caramelized on both sides."
-    },
-    {
-      "step": 6,
-      "instruction": "Serve with garlic fried rice (sinangag), fried eggs, or plain rice."
-    }
-  ],
-  "notes": [
-    {
-      "title": "Tips & Serving",
-      "content": "Marinate overnight for maximum flavor. Cook gently to avoid burning sugars. Serve as “Tocilog” with garlic rice and fried egg."
-    },
-    {
-      "title": "Tips & Serving",
-      "content": "Variations: Try chicken tocino or use natural coloring like annatto or beet juice. Adjust sweetness or tanginess to taste."
-    },
-    {
-      "title": "Tips & Serving",
-      "content": "FAQ: Skip food coloring if desired. Marinate at least 4 hours, ideally overnight. Cook low and slow to retain juiciness."
-    },
-    {
-      "title": "Tips & Serving",
-      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
-    }
-  ],
+  "description": "Sweet, caramelised pork — juicy, tender, and perfect for a classic Filipino breakfast or dinner.",
+  "prepTime": "10 min",
+  "cookTime": "12 min",
+  "totalTime": "24 hr 22 min",
+  "servings": "4 servings",
+  "difficulty": "Beginner",
   "tags": [
     "Breakfast",
     "Dinner",
@@ -119,6 +18,98 @@
     "Savoury",
     "Sweet"
   ],
+  "ingredients": [
+    {
+      "quantity": "500",
+      "unit": "g",
+      "item": "Pork Shoulder",
+      "notes": "sliced 6 mm thick"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Brown Sugar"
+    },
+    {
+      "quantity": "60",
+      "unit": "ml",
+      "item": "Pineapple Juice"
+    },
+    {
+      "quantity": "45",
+      "unit": "ml",
+      "item": "Soy Sauce"
+    },
+    {
+      "quantity": "15",
+      "unit": "ml",
+      "item": "White Vinegar"
+    },
+    {
+      "quantity": "4",
+      "unit": "cloves",
+      "item": "Garlic",
+      "notes": "crushed"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Salt"
+    },
+    {
+      "quantity": "2",
+      "unit": "g",
+      "item": "Black Pepper"
+    },
+    {
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Vegetable Oil"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Slice pork shoulder into pieces approximately 6 mm thick."
+    },
+    {
+      "step": 2,
+      "instruction": "In a bowl, combine brown sugar, pineapple juice, soy sauce, vinegar, garlic, salt, and pepper. Stir until sugar dissolves."
+    },
+    {
+      "step": 3,
+      "instruction": "Add pork to the marinade and toss to coat evenly. Cover and refrigerate for 24 hours."
+    },
+    {
+      "step": 4,
+      "instruction": "Heat vegetable oil in a large pan over medium-low heat."
+    },
+    {
+      "step": 5,
+      "instruction": "Cook pork for 10–12 minutes, flipping every minute, until caramelised on both sides. Cook gently to avoid burning the sugar."
+    },
+    {
+      "step": 6,
+      "instruction": "Serve with garlic fried rice and fried egg for a traditional Tocilog breakfast, or with steamed rice for dinner."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Marinating Time",
+      "content": "Marinate overnight for maximum flavour. Minimum 4 hours if short on time. The sugar and pineapple juice tenderise the meat while infusing it with sweetness."
+    },
+    {
+      "type": "technique",
+      "title": "Low and Slow",
+      "content": "Cook gently over medium-low heat. The sugar in the marinade will burn if the heat is too high, turning bitter instead of caramelised."
+    },
+    {
+      "type": "variation",
+      "title": "Variations",
+      "content": "Try chicken tocino for a lighter version. For natural colouring, use annatto powder or beet juice instead of food colouring."
+    }
+  ],
   "related": [
     {
       "id": "filipinonoodles",
@@ -126,19 +117,28 @@
     },
     {
       "id": "sweetsourpork",
-      "title": "Better Than Takeaway Sweet & Sour Pork"
+      "title": "Sweet & Sour Pork"
     },
     {
-      "id": "sausageroll",
-      "title": "Classic Aussie Sausage Rolls"
+      "id": "porkcaldereta",
+      "title": "Pork Caldereta"
     },
     {
-      "id": "bistro-vealcordonbleu",
-      "title": "Veal Cordon Bleu"
+      "id": "bulalo",
+      "title": "Original Bulalo"
     },
     {
-      "id": "cinnbun",
-      "title": "Bakery-Style Cinnamon Buns"
+      "id": "pancitbihon",
+      "title": "Pancit Bihon"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 4,
+    "cal": 629,
+    "protein": 41,
+    "carbs": 60,
+    "fat": 26,
+    "fiber": 2,
+    "coverage": 100
+  }
 }

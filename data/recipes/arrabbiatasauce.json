@@ -1,5 +1,5 @@
 {
-  "id": "arrabbiatazauce",
+  "id": "arrabbiatasauce",
   "title": "Arrabbiata Sauce",
   "emoji": "🌶️",
   "category": "Sauces",
@@ -8,7 +8,7 @@
   "cookTime": "20 min",
   "totalTime": "30 min",
   "servings": "4 servings",
-  "difficulty": "Easy",
+  "difficulty": "Beginner",
   "tags": [
     "Italian",
     "Sauce",
@@ -20,76 +20,72 @@
   ],
   "ingredients": [
     {
-      "quantity": "2",
-      "unit": "cup",
+      "quantity": "500",
+      "unit": "g",
       "item": "Tomatoes",
-      "ingredientKey": "Tomatoes"
+      "notes": "peeled"
     },
     {
-      "quantity": "2",
-      "unit": "tbsp",
-      "item": "Oil",
-      "ingredientKey": "Oil"
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Olive Oil"
     },
     {
       "quantity": "4",
       "unit": "",
-      "item": "Garlic",
-      "ingredientKey": "Garlic"
+      "item": "Garlic Cloves",
+      "notes": "crushed"
     },
     {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Red Chili",
-      "ingredientKey": "Red Chili"
+      "quantity": "5",
+      "unit": "g",
+      "item": "Red Chili Flakes"
     },
     {
       "quantity": "1",
       "unit": "",
-      "item": "Onion",
-      "ingredientKey": "Onion"
+      "item": "Brown Onion"
     },
     {
-      "quantity": "1",
-      "unit": "tsp",
+      "quantity": "5",
+      "unit": "g",
       "item": "Salt",
-      "ingredientKey": "Salt"
+      "notes": "to taste"
     },
     {
-      "quantity": "1/2",
-      "unit": "tsp",
-      "item": "Pepper",
-      "ingredientKey": "Pepper"
+      "quantity": "2",
+      "unit": "g",
+      "item": "Black Pepper"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Heat olive oil in a pan."
+      "instruction": "Heat olive oil in a pan over medium heat."
     },
     {
       "step": 2,
-      "instruction": "Sauté onion until soft."
+      "instruction": "Sauté onion until soft and translucent, about 5 minutes."
     },
     {
       "step": 3,
-      "instruction": "Add garlic and chili flakes."
+      "instruction": "Add garlic and red chili, cook for 1 minute until fragrant."
     },
     {
       "step": 4,
-      "instruction": "Add tomato puree and mix well."
+      "instruction": "Add peeled tomatoes, crushing them by hand or with a spoon as they go in."
     },
     {
       "step": 5,
-      "instruction": "Simmer on low heat for 15–20 minutes."
+      "instruction": "Simmer on low heat for 15–20 minutes, stirring occasionally, until thickened."
     },
     {
       "step": 6,
-      "instruction": "Season with salt and pepper."
+      "instruction": "Season with salt and black pepper to taste."
     },
     {
       "step": 7,
-      "instruction": "Serve hot with pasta."
+      "instruction": "Serve hot with your favourite pasta."
     }
   ],
   "notes": [
@@ -97,22 +93,6 @@
       "type": "serving",
       "title": "Serving Tip",
       "content": "Perfect with penne pasta. Adjust chili flakes to control the heat level. Pairs beautifully with a glass of red wine."
-    },
-    {
-      "title": "Tomatoes",
-      "content": "pureed"
-    },
-    {
-      "title": "Garlic Cloves",
-      "content": "minced"
-    },
-    {
-      "title": "Red Chili Flakes",
-      "content": "or to taste"
-    },
-    {
-      "title": "Onion",
-      "content": "chopped"
     }
   ],
   "related": [
@@ -136,5 +116,14 @@
       "id": "sweetspicyorangesauce",
       "title": "Sweet & Spicy Orange Sauce"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 4,
+    "cal": 250,
+    "protein": 8,
+    "carbs": 41,
+    "fat": 8,
+    "fiber": 4,
+    "coverage": 100
+  }
 }

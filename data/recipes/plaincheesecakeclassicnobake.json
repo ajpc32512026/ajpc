@@ -1,0 +1,128 @@
+{
+  "id": "plaincheesecakeclassicnobake",
+  "title": "Plain Cheesecake (Classic No Bake)",
+  "emoji": "🧁",
+  "category": "Desserts",
+  "description": "No-bake simplicity at its finest — smooth, sweet, and forever dependable. A real fridge-set classic.",
+  "prepTime": "20 min",
+  "cookTime": "0 min",
+  "totalTime": "4 hr 20 min",
+  "servings": "8 servings",
+  "difficulty": "Beginner",
+  "tags": [
+    "Classic",
+    "Creamy",
+    "Dessert",
+    "Make Ahead",
+    "No-Bake",
+    "Rich",
+    "Sweet",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "heading": "Base"
+    },
+    {
+      "quantity": "1",
+      "unit": "packet",
+      "item": "Arnotts Butternut Snap Cookies",
+      "notes": "crushed"
+    },
+    {
+      "quantity": "60",
+      "unit": "g",
+      "item": "Unsalted Butter",
+      "notes": "melted"
+    },
+    {
+      "heading": "Filling"
+    },
+    {
+      "quantity": "500",
+      "unit": "g",
+      "item": "Cream Cheese",
+      "notes": "softened"
+    },
+    {
+      "quantity": "395",
+      "unit": "g",
+      "item": "Condensed Milk"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Gelatine",
+      "notes": "see geletine booming guide in reference tab"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Crush the Butternut Snap cookies to fine crumbs. Combine with melted butter and press firmly into the base of a springform tin. Refrigerate while preparing the filling."
+    },
+    {
+      "step": 2,
+      "instruction": "Measure out 10 g of powdered gelatine. Sprinkle evenly over 60 ml of cold water. Let stand for 5–10 minutes until thick and spongy."
+    },
+    {
+      "step": 3,
+      "instruction": "Gently heat the bloomed gelatine — about 10–15 seconds in the microwave or over a warm pan — just until fully dissolved. Let it cool slightly."
+    },
+    {
+      "step": 4,
+      "instruction": "In a large bowl, beat cream cheese and condensed milk together until completely smooth."
+    },
+    {
+      "step": 5,
+      "instruction": "Fold the cooled gelatine into the cream cheese mixture until evenly combined."
+    },
+    {
+      "step": 6,
+      "instruction": "Pour the filling over the prepared base and smooth the top. Refrigerate for 4–6 hours or overnight until fully set."
+    }
+  ],
+  "notes": [
+    {
+      "type": "serving",
+      "title": "Serving Tip",
+      "content": "Slice with a hot knife for clean edges. Dress it up with fresh berries, lemon zest, or a chocolate drizzle — or let the classic shine as is."
+    },
+    {
+      "type": "technique",
+      "title": "Gelatine Blooming",
+      "content": "Sprinkle gelatine over cold water, let it bloom for 5 minutes, then gently heat until dissolved. Never add dry gelatine directly to the mixture. See the Gelatine Blooming Guide for full details."
+    }
+  ],
+  "related": [
+    {
+      "id": "baked-cheesecake",
+      "title": "Baked Cheesecake"
+    },
+    {
+      "id": "tiramisu",
+      "title": "Tiramisu Gateau"
+    },
+    {
+      "id": "chocolatemousse",
+      "title": "Chocolate Mousse"
+    },
+    {
+      "id": "lemonmeringuepie",
+      "title": "Lemon Meringue Pie"
+    },
+    {
+      "id": "theultimatechocolatemudcake",
+      "title": "The Ultimate Chocolate Mud Cake"
+    }
+  ],
+  "nutrition": {
+    "servings": 8,
+    "cal": 490,
+    "protein": 9,
+    "carbs": 38,
+    "fat": 34,
+    "fiber": 0,
+    "coverage": 100
+  }
+}

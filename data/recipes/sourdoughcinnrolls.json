@@ -1,295 +1,232 @@
 {
-  "id": "sourdoughcinnrolls",
+  "id": "softsourdoughcinnamonrolls",
   "title": "Soft Sourdough Cinnamon Rolls",
   "emoji": "🥐",
-  "category": "Desserts",
-  "description": "Wildly soft, pillowy sourdough cinnamon rolls with gooey centers and bold cinnamon flavour. Made with tangzhong and an overnight rise for exceptional softness without sour tang.",
-  "prepTime": "40 minutes",
-  "cookTime": "30 minutes",
-  "totalTime": "21 hours 10 minutes",
-  "servings": "12 cinnamon rolls",
-  "difficulty": "Intermediate",
+  "category": "Baking",
+  "description": "Wildly soft, pillowy sourdough cinnamon rolls with gooey centres and bold cinnamon flavour. Made with tangzhong and an overnight rise for exceptional softness.",
+  "prepTime": "40 min",
+  "cookTime": "35 min",
+  "totalTime": "21 hr 10 min",
+  "servings": "12 rolls",
+  "difficulty": "Advanced",
   "tags": [
     "Bread",
     "Breakfast",
-    "Cheese",
     "Cinnamon",
-    "Creamy",
-    "Dessert",
     "Overnight",
     "Rich",
     "Sweet",
-    "Under 30 Minutes",
     "Vegetarian"
   ],
   "ingredients": [
     {
-      "quantity": "25",
-      "unit": "g",
-      "item": "Sourdough starter",
-      "notes": "",
-      "ingredientKey": "Sourdough starter"
+      "heading": "Sweet Stiff Starter (make night before)"
     },
     {
       "quantity": "25",
       "unit": "g",
-      "item": "Sugar (or honey)",
-      "notes": "",
-      "ingredientKey": "Sugar or honey"
+      "item": "Sourdough Starter"
+    },
+    {
+      "quantity": "25",
+      "unit": "g",
+      "item": "White Sugar"
     },
     {
       "quantity": "50",
       "unit": "g",
-      "item": "Warm water",
-      "notes": "",
-      "ingredientKey": "Warm water"
+      "item": "Water",
+      "notes": "warm"
     },
     {
       "quantity": "100",
       "unit": "g",
-      "item": "Bread flour",
-      "notes": "",
-      "ingredientKey": "Bread flour"
+      "item": "Bread Flour"
+    },
+    {
+      "heading": "Tangzhong"
     },
     {
       "quantity": "35",
       "unit": "g",
-      "item": "Bread flour",
-      "notes": "for tangzhong",
-      "ingredientKey": "Tangzhong flour"
+      "item": "Bread Flour"
     },
     {
       "quantity": "175",
       "unit": "g",
-      "item": "Whole milk",
-      "notes": "for tangzhong",
-      "ingredientKey": "Tangzhong milk"
+      "item": "Whole Milk"
+    },
+    {
+      "heading": "Main Dough"
     },
     {
       "quantity": "80",
       "unit": "g",
-      "item": "Whole milk",
-      "notes": "",
-      "ingredientKey": "Whole milk"
+      "item": "Whole Milk"
     },
     {
       "quantity": "100",
       "unit": "g",
-      "item": "Cool water",
-      "notes": "",
-      "ingredientKey": "Cool water"
+      "item": "Water",
+      "notes": "cold"
     },
     {
       "quantity": "1",
       "unit": "",
-      "item": "Egg",
-      "notes": "",
-      "ingredientKey": "Egg"
+      "item": "Eggs"
     },
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Vanilla extract",
-      "notes": "",
-      "ingredientKey": "Vanilla extract"
+      "item": "Vanilla Extract"
     },
     {
       "quantity": "25",
       "unit": "g",
-      "item": "Sugar",
-      "notes": "",
-      "ingredientKey": "Sugar"
+      "item": "White Sugar"
     },
     {
       "quantity": "515",
       "unit": "g",
-      "item": "Bread flour",
-      "notes": "",
-      "ingredientKey": "Bread flour main dough"
+      "item": "Bread Flour"
     },
     {
       "quantity": "3",
       "unit": "g",
-      "item": "Cinnamon",
-      "notes": "optional",
-      "ingredientKey": "Cinnamon"
+      "item": "Cinnamon"
     },
     {
       "quantity": "12",
       "unit": "g",
-      "item": "Sea salt",
-      "notes": "",
-      "ingredientKey": "Sea salt"
+      "item": "Salt"
     },
     {
       "quantity": "84",
       "unit": "g",
-      "item": "Unsalted butter, softened",
-      "notes": "",
-      "ingredientKey": "Butter"
+      "item": "Unsalted Butter",
+      "notes": "softened"
     },
     {
-      "quantity": "85",
-      "unit": "g",
-      "item": "Half & half",
-      "notes": "for baking",
-      "ingredientKey": "Half & half"
+      "heading": "Filling"
     },
     {
       "quantity": "142",
       "unit": "g",
-      "item": "Unsalted butter, softened",
-      "notes": "for filling",
-      "ingredientKey": "Butter filling"
+      "item": "Unsalted Butter",
+      "notes": "softened"
     },
     {
       "quantity": "175",
       "unit": "g",
-      "item": "Brown sugar",
-      "notes": "for filling",
-      "ingredientKey": "Brown sugar"
+      "item": "Brown Sugar"
     },
     {
       "quantity": "16",
       "unit": "g",
-      "item": "Cinnamon",
-      "notes": "for filling",
-      "ingredientKey": "Cinnamon filling"
+      "item": "Cinnamon"
+    },
+    {
+      "heading": "Baking"
+    },
+    {
+      "quantity": "85",
+      "unit": "g",
+      "item": "Half and Half"
+    },
+    {
+      "heading": "Cream Cheese Icing"
     },
     {
       "quantity": "28",
       "unit": "g",
-      "item": "Unsalted butter, softened",
-      "notes": "for cream cheese icing",
-      "ingredientKey": "Butter icing"
+      "item": "Unsalted Butter",
+      "notes": "softened"
     },
     {
       "quantity": "170",
       "unit": "g",
-      "item": "Cream cheese, softened",
-      "notes": "",
-      "ingredientKey": "Cream cheese"
+      "item": "Cream Cheese",
+      "notes": "softened"
     },
     {
       "quantity": "250",
       "unit": "g",
-      "item": "Powdered sugar",
-      "notes": "for icing",
-      "ingredientKey": "Powdered sugar"
-    },
-    {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Vanilla extract",
-      "notes": "for icing",
-      "ingredientKey": "Vanilla icing"
-    },
-    {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Cinnamon",
-      "notes": "optional, for icing",
-      "ingredientKey": "Cinnamon icing"
-    },
-    {
-      "quantity": "to taste",
-      "unit": "",
-      "item": "Pinch of salt",
-      "notes": "for icing",
-      "ingredientKey": "Salt icing"
-    },
-    {
-      "quantity": "100",
-      "unit": "g",
-      "item": "Chopped pecans",
-      "notes": "optional, for glaze",
-      "ingredientKey": "Pecans"
-    },
-    {
-      "quantity": "28",
-      "unit": "g",
-      "item": "Butter",
-      "notes": "for glaze",
-      "ingredientKey": "Butter glaze"
-    },
-    {
-      "quantity": "20",
-      "unit": "g",
-      "item": "Maple syrup",
-      "notes": "for glaze",
-      "ingredientKey": "Maple syrup"
-    },
-    {
-      "quantity": "100",
-      "unit": "g",
-      "item": "Powdered sugar",
-      "notes": "for glaze",
-      "ingredientKey": "Powdered sugar glaze"
+      "item": "Icing Sugar"
     },
     {
       "quantity": "5",
-      "unit": "g",
-      "item": "Vanilla extract",
-      "notes": "for glaze",
-      "ingredientKey": "Vanilla glaze"
+      "unit": "ml",
+      "item": "Vanilla Extract"
     },
     {
-      "quantity": "to taste",
-      "unit": "",
-      "item": "Flaky sea salt",
-      "notes": "for glaze",
-      "ingredientKey": "Salt glaze"
+      "quantity": "2",
+      "unit": "g",
+      "item": "Cinnamon",
+      "notes": "optional"
+    },
+    {
+      "quantity": "1",
+      "unit": "g",
+      "item": "Salt"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "In the evening, mix all stiff sweet starter ingredients into a firm dough. Knead briefly, cover loosely, and ferment overnight until tripled and bubbly."
+      "instruction": "The night before: mix sourdough starter, sugar, warm water, and bread flour into a firm dough. Knead briefly, cover loosely, and leave at room temperature overnight until tripled and bubbly."
     },
     {
       "step": 2,
-      "instruction": "Prepare the tangzhong by heating flour and milk until thickened to 65°C. Cool completely before use."
+      "instruction": "Make the tangzhong: heat bread flour and milk in a small saucepan over medium heat, stirring constantly, until thickened to 65°C. Transfer to a bowl, cover, and cool completely."
     },
     {
       "step": 3,
-      "instruction": "Mix all dough ingredients except butter until smooth. Add butter gradually and mix until very soft and elastic."
+      "instruction": "In the bowl of a stand mixer, combine the stiff starter, cooled tangzhong, milk, water, egg, vanilla extract, sugar, bread flour, cinnamon, and salt. Mix until smooth."
     },
     {
       "step": 4,
-      "instruction": "Cover and rise at 24–29°C until increased by about 30%, then refrigerate until bedtime."
+      "instruction": "Add softened butter gradually while mixing on medium speed. Continue mixing until the dough is very soft, smooth, and elastic — about 10–15 minutes."
     },
     {
       "step": 5,
-      "instruction": "Roll dough to ¼-inch thickness. Spread filling evenly, cut into 12 strips, roll tightly, and place into a greased baking pan."
+      "instruction": "Cover and let rise at 24–29°C until increased by about 30%, then refrigerate until evening."
     },
     {
       "step": 6,
-      "instruction": "Cover and proof overnight at room temperature (21–23°C)."
+      "instruction": "Roll dough into a rectangle approximately 6 mm thick. Spread softened butter over the surface, then sprinkle evenly with brown sugar and cinnamon."
     },
     {
       "step": 7,
-      "instruction": "Preheat oven to 175°C. Pour half & half over the rolls and bake for 30–35 minutes until internal temperature reaches about 90°C."
+      "instruction": "Roll tightly from the long edge into a log. Cut into 12 even slices and place into a greased baking pan."
     },
     {
       "step": 8,
-      "instruction": "Cool for 10 minutes, then finish with icing or glaze of choice."
+      "instruction": "Cover and proof overnight at room temperature, approximately 21–23°C."
+    },
+    {
+      "step": 9,
+      "instruction": "Preheat oven to 175°C. Pour half and half over the rolls. Bake for 30–35 minutes until the internal temperature reaches approximately 90°C."
+    },
+    {
+      "step": 10,
+      "instruction": "Cool for 10 minutes. For the icing: beat cream cheese and butter until smooth. Add icing sugar, vanilla, cinnamon, and salt. Beat until creamy. Spread over warm rolls."
     }
   ],
   "notes": [
     {
-      "type": "serving",
-      "title": "Notes",
-      "content": "Half & half is equal parts whole milk and cream. Starter should be fully risen and sweet-smelling. Timeline is flexible—use refrigeration to adjust as needed."
+      "type": "technique",
+      "title": "Half and Half",
+      "content": "Half and half is equal parts whole milk and cream. If unavailable, mix 40 g whole milk with 40 g thickened cream."
+    },
+    {
+      "type": "technique",
+      "title": "Timeline",
+      "content": "This is a flexible overnight recipe. Use refrigeration to slow things down if needed — the dough can be held at most stages. The starter should be fully risen and sweet-smelling before use."
     },
     {
       "type": "acknowledgement",
       "title": "Recipe Source",
-      "content": "Mrs. Browns Kitchen ~ https://www.facebook.com/profile.php?id=61559353846364"
-    },
-    {
-      "type": "acknowledgement",
-      "title": "Copyright",
-      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+      "content": "Adapted from Mrs. Brown's Kitchen."
     }
   ],
   "related": [
@@ -298,20 +235,29 @@
       "title": "Cinnamon Twists"
     },
     {
-      "id": "muffinmix",
-      "title": "Basic Muffin Mix"
+      "id": "cinnbun",
+      "title": "Bakery-Style Cinnamon Buns"
     },
     {
-      "id": "tiramisu",
-      "title": "Chef-Style Tiramisu Gateau"
+      "id": "applecinnscrolls",
+      "title": "Apple & Cinnamon Scrolls"
     },
     {
-      "id": "baked-cheesecake",
-      "title": "Baked Cheesecake"
+      "id": "swbtm",
+      "title": "Soft White Bread (Tangzhong Method)"
     },
     {
-      "id": "plain-cheesecake",
-      "title": "Plain Cheesecake (Classic No Bake)"
+      "id": "tangzhongguide",
+      "title": "Tangzhong Guide"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 12,
+    "cal": 595,
+    "protein": 10,
+    "carbs": 83,
+    "fat": 25,
+    "fiber": 2,
+    "coverage": 100
+  }
 }

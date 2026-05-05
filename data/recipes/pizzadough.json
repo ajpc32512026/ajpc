@@ -1,127 +1,102 @@
 {
-  "id": "pizzadough",
+  "id": "ultimatehomemadepizzadough",
   "title": "Ultimate Homemade Pizza Dough",
   "emoji": "🍕",
   "category": "Baking",
   "description": "The kind that costs about $1.70 per large base but tastes like it should come with its own Italian soundtrack.",
   "prepTime": "15 min",
-  "cookTime": "0 min (dough only)",
-  "totalTime": "2 hours 15 min",
-  "servings": "2 large pizzas or 4 personal pizzas",
-  "difficulty": "Easy",
-  "ingredients": [
-    {
-      "quantity": "570",
-      "unit": "g",
-      "item": "Flour",
-      "ingredientKey": "Flour"
-    },
-    {
-      "quantity": "340",
-      "unit": "ml",
-      "item": "water (cold for bread machine, lukewarm for hand mixing)"
-    },
-    {
-      "quantity": "7",
-      "unit": "g",
-      "item": "Yeast",
-      "ingredientKey": "Yeast"
-    },
-    {
-      "quantity": "30",
-      "unit": "ml",
-      "item": "Oil",
-      "ingredientKey": "Oil"
-    },
-    {
-      "quantity": "1",
-      "unit": "generous pinch",
-      "item": "Salt",
-      "ingredientKey": "Salt"
-    },
-    {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Bread Improver",
-      "ingredientKey": "Bread Improver"
-    }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "Bread Machine Method: Add all ingredients to the bread machine in the order recommended by your machine's manual (usually liquids first, then dry ingredients, with yeast on top)."
-    },
-    {
-      "step": 2,
-      "instruction": "Select the 'dough' setting and start. If needed, scrape down the sides with a silicone spatula during mixing."
-    },
-    {
-      "step": 3,
-      "instruction": "Once the cycle is complete, remove dough and let it proof in a lightly oiled bowl covered with a damp tea towel for 30-60 minutes until puffy."
-    },
-    {
-      "step": 4,
-      "instruction": "Hand Method: In a large bowl, combine lukewarm water, yeast, and a pinch of sugar. Let stand 5 minutes until foamy."
-    },
-    {
-      "step": 5,
-      "instruction": "Add flour, salt, olive oil, and bread improver (if using). Mix until a rough dough forms."
-    },
-    {
-      "step": 6,
-      "instruction": "Knead on a lightly floured surface for 8-10 minutes until smooth and elastic. The dough should be soft and slightly tacky but not sticky."
-    },
-    {
-      "step": 7,
-      "instruction": "Place in a lightly oiled bowl, cover with a damp tea towel, and rest in a warm spot for 1-1.5 hours until doubled in size."
-    },
-    {
-      "step": 8,
-      "instruction": "Punch down the dough and divide according to your needs: 1 family-sized pizza (full batch), 2 large pizzas (divide in half), or 4 personal pizzas (divide into quarters)."
-    },
-    {
-      "step": 9,
-      "instruction": "Shape each portion into a ball, cover, and let rest for 10-15 minutes to relax the gluten before rolling."
-    },
-    {
-      "step": 10,
-      "instruction": "Roll out on a floured surface or stretch by hand to desired thickness. Top and bake at your preferred temperature (usually 220-250°C / 425-480°F)."
-    }
-  ],
-  "notes": [
-    {
-      "type": "tip",
-      "title": "Flour Matters",
-      "content": "Baker's flour with 12-14% protein gives you the best structure and chew. Regular plain flour will work but won't have the same texture."
-    },
-    {
-      "type": "tip",
-      "title": "Skip the Yeast?",
-      "content": "For a thin, crispy crust, you can skip the yeast entirely. The dough will be denser but still delicious — perfect for cracker-thin pizzas."
-    },
-    {
-      "type": "storage",
-      "title": "Make Ahead",
-      "content": "Dough can be refrigerated for up to 3 days or frozen for up to 3 months. Thaw frozen dough overnight in the fridge before using."
-    },
-    {
-      "type": "pride",
-      "title": "Final Word",
-      "content": "This isn't just dough — it's edible pride. Because frozen crusts have no soul. But clearly, you do."
-    },
-    {
-      "title": "instant yeast (one sachet)",
-      "content": "skip for thin & crisp style"
-    }
-  ],
+  "cookTime": "0 min",
+  "totalTime": "2 hr 15 min",
+  "servings": "2 large pizzas",
+  "difficulty": "Beginner",
   "tags": [
     "Bread",
     "Italian",
     "Make Ahead",
     "Savoury",
-    "Under 30 Minutes",
     "Vegan",
     "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "quantity": "590",
+      "unit": "g",
+      "item": "Bread Flour"
+    },
+    {
+      "quantity": "300",
+      "unit": "ml",
+      "item": "Water",
+      "notes": "cold"
+    },
+    {
+      "quantity": "7",
+      "unit": "g",
+      "item": "Yeast",
+      "notes": "instant dried"
+    },
+    {
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Olive Oil"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Salt"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Bread Improver"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "In a large bowl, combine cold water, yeast, and a pinch of sugar. Let stand for 5 minutes until foamy."
+    },
+    {
+      "step": 2,
+      "instruction": "Add bread flour, salt, olive oil, and bread improver. Mix until a rough dough forms."
+    },
+    {
+      "step": 3,
+      "instruction": "Knead on a lightly floured surface for 15 minutes until smooth, elastic, and not sticky. The dough should feel soft and spring back when pressed."
+    },
+    {
+      "step": 4,
+      "instruction": "Place in a lightly oiled bowl, cover with a damp tea towel, and rest in a warm spot for 1–1½ hours until doubled in size."
+    },
+    {
+      "step": 5,
+      "instruction": "Punch down the dough and divide: full batch for 1 family-sized pizza, half for 2 large pizzas, or quarters for 4 personal pizzas."
+    },
+    {
+      "step": 6,
+      "instruction": "Shape each portion into a ball, cover, and let rest for 10–15 minutes to relax the gluten before rolling."
+    },
+    {
+      "step": 7,
+      "instruction": "Roll out on a floured surface or stretch by hand to desired thickness. Top and bake at 220–250°C."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Flour Matters",
+      "content": "Bread flour with 12–14% protein gives the best structure and chew. Plain flour will work but will not have the same texture."
+    },
+    {
+      "type": "technique",
+      "title": "The Knead",
+      "content": "Knead for a full 15 minutes — the dough should not be sticky by the end. This develops the gluten properly and gives the crust its characteristic chew. If you have an Ooni spiral mixer, the same timing applies and you will get an even better, more consistent result."
+    },
+    {
+      "type": "storage",
+      "title": "Make Ahead",
+      "content": "Dough can be refrigerated for up to 3 days or frozen for up to 3 months. Thaw frozen dough overnight in the refrigerator before using."
+    }
   ],
   "related": [
     {
@@ -144,5 +119,14 @@
       "id": "darkrye",
       "title": "Dark Rye Bread"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 2,
+    "cal": 1218,
+    "protein": 37,
+    "carbs": 216,
+    "fat": 20,
+    "fiber": 8,
+    "coverage": 100
+  }
 }

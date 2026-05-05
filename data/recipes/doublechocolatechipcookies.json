@@ -1,0 +1,154 @@
+{
+  "id": "doublechocolatechipcookies",
+  "title": "Double Chocolate Chip Cookies",
+  "emoji": "🍪",
+  "category": "Biscuits",
+  "description": "Because plain chocolate is for lightweights. Soft, fudgy, and packed with chocolate chips — perfect with a cold glass of milk.",
+  "prepTime": "15 min",
+  "cookTime": "12 min",
+  "totalTime": "27 min",
+  "servings": "24 cookies",
+  "yieldPerBatch": "6",
+  "difficulty": "Beginner",
+  "tags": [
+    "Chocolate",
+    "Classic",
+    "Make Ahead",
+    "Rich",
+    "Snack",
+    "Sweet",
+    "Vegetarian",
+    "Cookies"
+  ],
+  "ingredients": [
+    {
+      "quantity": "450",
+      "unit": "g",
+      "item": "Unsalted Butter",
+      "notes": "softened"
+    },
+    {
+      "quantity": "200",
+      "unit": "g",
+      "item": "White Sugar"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Brown Sugar",
+      "notes": "packed"
+    },
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Eggs",
+      "notes": "large"
+    },
+    {
+      "quantity": "10",
+      "unit": "ml",
+      "item": "Vanilla Extract"
+    },
+    {
+      "quantity": "250",
+      "unit": "g",
+      "item": "Plain Flour"
+    },
+    {
+      "quantity": "50",
+      "unit": "g",
+      "item": "Cocoa Powder"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Bi-Carb Soda"
+    },
+    {
+      "quantity": "3",
+      "unit": "g",
+      "item": "Salt"
+    },
+    {
+      "quantity": "250",
+      "unit": "g",
+      "item": "Dark Chocolate",
+      "notes": "chips or chopped"
+    },
+    {
+      "quantity": "85",
+      "unit": "g",
+      "item": "White Chocolate",
+      "notes": "chips or chopped"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 180°C. Line baking trays with baking paper."
+    },
+    {
+      "step": 2,
+      "instruction": "Cream butter and both sugars until smooth and fluffy. Add eggs one at a time, then stir in vanilla extract."
+    },
+    {
+      "step": 3,
+      "instruction": "Sift together flour, cocoa powder, bi-carb soda, and salt. Fold into the wet mixture until just combined."
+    },
+    {
+      "step": 4,
+      "instruction": "Fold in dark and white chocolate chips until evenly distributed."
+    },
+    {
+      "step": 5,
+      "instruction": "Drop spoonfuls of dough onto the prepared trays, leaving enough space for spreading."
+    },
+    {
+      "step": 6,
+      "instruction": "Bake for 10–12 minutes. Let cookies rest on the tray for 5 minutes before transferring to a wire rack to cool completely."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Soft Cookie Secret",
+      "content": "Slightly underbaking gives the softest, fudgiest centre. The cookies will continue to set on the hot tray after coming out of the oven."
+    },
+    {
+      "type": "storage",
+      "title": "Storage",
+      "content": "Keep in an airtight container for up to 5 days. Cookie dough can be frozen in balls and baked from frozen — add 2 minutes to the baking time."
+    }
+  ],
+  "related": [
+    {
+      "id": "traditionalanzacbiscuits",
+      "title": "Traditional ANZAC Biscuits"
+    },
+    {
+      "id": "chocmuffins",
+      "title": "Chocolate Muffins with Ganache"
+    },
+    {
+      "id": "chocolaterumballs",
+      "title": "Chocolate Rum Balls"
+    },
+    {
+      "id": "bananabread",
+      "title": "Banana Bread"
+    },
+    {
+      "id": "chocolatecake",
+      "title": "Chocolate Cake"
+    }
+  ],
+  "nutrition": {
+    "servings": 24,
+    "cal": 315,
+    "protein": 4,
+    "carbs": 30,
+    "fat": 21,
+    "fiber": 2,
+    "coverage": 100
+  }
+}

@@ -1,7 +1,9 @@
 /* =========================================================
    SEARCH — AJPC Kitchen Notebook
-   Full text search against recipe-index.json.
-   Fixed: single consolidated file, no phantom deps.
+   Full text search against recipe-index.json
+   with ingredient lookup from individual recipe files.
+   Fixed: ingredient search, multi-term highlighting,
+   zero-result count, tag link paths.
 ========================================================= */
 
 (function () {
@@ -13,106 +15,141 @@
         init();
     }
 
+    // Cache for recipe ingredients — populated on demand
+    var ingredientCache = {};
+
     async function init() {
-        const searchInput  = document.getElementById('searchInput');
-        const resultsEl    = document.getElementById('searchResults');
-        const countEl      = document.getElementById('resultsCount');
+        var searchInput = document.getElementById('searchInput');
+        var resultsEl   = document.getElementById('searchResults');
+        var countEl     = document.getElementById('resultsCount');
         if (!searchInput || !resultsEl) return;
 
-        let index = [];
+        var index = [];
 
         try {
-            const res = await fetch('json/recipe-index.json');
+            var res = await fetch('json/recipe-index.json');
             if (res.ok) index = await res.json();
-        } catch { index = []; }
+        } catch(e) { index = []; }
 
         // Pre-fill from URL query param
-        const params = new URLSearchParams(window.location.search);
-        const q = params.get('q') || '';
+        var params = new URLSearchParams(window.location.search);
+        var q = params.get('q') || '';
         if (q) {
             searchInput.value = q;
-            runSearch(q, index, resultsEl, countEl);
+            await runSearch(q, index, resultsEl, countEl);
         }
 
-        let timer = null;
-        searchInput.addEventListener('input', () => {
+        var timer = null;
+        searchInput.addEventListener('input', function() {
             clearTimeout(timer);
-            timer = setTimeout(() => {
-                const val = searchInput.value.trim();
-                history.replaceState(null, '', val ? `?q=${encodeURIComponent(val)}` : window.location.pathname);
-                runSearch(val, index, resultsEl, countEl);
+            timer = setTimeout(async function() {
+                var val = searchInput.value.trim();
+                history.replaceState(null, '', val ? '?q=' + encodeURIComponent(val) : window.location.pathname);
+                await runSearch(val, index, resultsEl, countEl);
             }, 200);
         });
 
-        searchInput.addEventListener('keydown', (e) => {
+        searchInput.addEventListener('keydown', function(e) {
             if (e.key === 'Escape') searchInput.value = '';
         });
     }
 
-    function runSearch(query, index, resultsEl, countEl) {
+    async function getRecipeIngredients(id) {
+        if (ingredientCache[id]) return ingredientCache[id];
+        try {
+            var res = await fetch('data/recipes/' + id + '.json');
+            if (!res.ok) return '';
+            var recipe = await res.json();
+            var ingredients = (recipe.ingredients || [])
+                .filter(function(i) { return !i.heading; })
+                .map(function(i) { return i.item || i.name || ''; })
+                .join(' ');
+            ingredientCache[id] = ingredients;
+            return ingredients;
+        } catch(e) {
+            return '';
+        }
+    }
+
+    async function runSearch(query, index, resultsEl, countEl) {
         if (!query) {
             resultsEl.innerHTML = '<p style="color:var(--cream-muted);">Enter a recipe name, ingredient or tag to search.</p>';
             if (countEl) countEl.textContent = '';
             return;
         }
 
-        const terms = query.toLowerCase().split(/\s+/).filter(Boolean);
+        var terms = query.toLowerCase().split(/\s+/).filter(Boolean);
 
-        const scored = index.map(recipe => {
-            const text = [
+        // Fetch ingredients for all recipes in parallel
+        await Promise.all(index.map(function(recipe) {
+            return getRecipeIngredients(recipe.id);
+        }));
+
+        var scored = index.map(function(recipe) {
+            var ingredients = ingredientCache[recipe.id] || '';
+
+            var text = [
                 recipe.title || '',
                 recipe.category || '',
                 (recipe.tags || []).join(' '),
                 recipe.description || '',
-                (recipe.ingredients || []).map(i => i.item || i.name || i).join(' '),
+                ingredients
             ].join(' ').toLowerCase();
 
-            const score = terms.reduce((acc, term) => {
-                if ((recipe.title || '').toLowerCase().includes(term)) return acc + 10;
-                if ((recipe.category || '').toLowerCase().includes(term)) return acc + 5;
-                if ((recipe.tags || []).some(t => t.toLowerCase().includes(term))) return acc + 4;
-                if (text.includes(term)) return acc + 1;
+            var score = terms.reduce(function(acc, term) {
+                if ((recipe.title || '').toLowerCase().indexOf(term) !== -1) return acc + 10;
+                if ((recipe.category || '').toLowerCase().indexOf(term) !== -1) return acc + 5;
+                if ((recipe.tags || []).some(function(t) { return t.toLowerCase().indexOf(term) !== -1; })) return acc + 4;
+                if (text.indexOf(term) !== -1) return acc + 2;
                 return acc;
             }, 0);
 
-            return { recipe, score };
-        }).filter(s => s.score > 0).sort((a, b) => b.score - a.score);
+            return { recipe: recipe, score: score };
+        }).filter(function(s) { return s.score > 0; }).sort(function(a, b) { return b.score - a.score; });
 
         if (countEl) {
-            countEl.textContent = scored.length
-                ? `${scored.length} result${scored.length !== 1 ? 's' : ''} for "${escHtml(query)}"`
-                : '';
+            var count = scored.length;
+            countEl.textContent = count + ' result' + (count !== 1 ? 's' : '') + ' for "' + escHtml(query) + '"';
         }
 
         if (!scored.length) {
-            resultsEl.innerHTML = `<p style="color:var(--cream-muted);">No recipes found for "<strong style="color:var(--cream);">${escHtml(query)}</strong>". Try a different term.</p>`;
+            resultsEl.innerHTML = '<p style="color:var(--cream-muted);">No recipes found for "<strong style="color:var(--cream);">' + escHtml(query) + '</strong>". Try a different term.</p>';
             return;
         }
 
-        resultsEl.innerHTML = `<ul class="search-result-list">
-            ${scored.map(({ recipe: r }) => `
-                <li class="search-result-entry">
-                    <h3><a href="recipe.html?id=${encodeURIComponent(r.id)}">${highlightMatch(r.title || r.id, query)}</a></h3>
-                    ${r.description ? `<p>${escHtml(r.description.slice(0, 140))}${r.description.length > 140 ? '...' : ''}</p>` : ''}
-                    ${r.tags && r.tags.length ? `
-                        <div class="search-result-tags">
-                            ${r.tags.slice(0, 5).map(t =>
-                                `<a href="?q=${encodeURIComponent(t)}" class="recipe-tag">#${escHtml(t)}</a>`
-                            ).join('')}
-                        </div>` : ''}
-                </li>`
-            ).join('')}
-        </ul>`;
+        resultsEl.innerHTML = '<ul class="search-result-list">' +
+            scored.map(function(s) {
+                var r = s.recipe;
+                return '<li class="search-result-entry">' +
+                    '<h3><a href="recipe.html?id=' + encodeURIComponent(r.id) + '">' + highlightMatch(r.title || r.id, query) + '</a></h3>' +
+                    (r.description ? '<p>' + escHtml(r.description.slice(0, 140)) + (r.description.length > 140 ? '...' : '') + '</p>' : '') +
+                    (r.tags && r.tags.length ?
+                        '<div class="search-result-tags">' +
+                            r.tags.slice(0, 5).map(function(t) {
+                                return '<a href="search.html?q=' + encodeURIComponent(t) + '" class="recipe-tag">#' + escHtml(t) + '</a>';
+                            }).join('') +
+                        '</div>' : '') +
+                '</li>';
+            }).join('') +
+        '</ul>';
     }
 
     function highlightMatch(text, query) {
-        const safe = escHtml(text);
-        const term = escHtml(query.split(' ')[0]);
-        const idx = safe.toLowerCase().indexOf(term.toLowerCase());
-        if (idx === -1) return safe;
-        return safe.slice(0, idx)
-            + `<mark style="background:rgba(201,125,62,0.25);color:var(--cream);border-radius:2px;">${safe.slice(idx, idx + term.length)}</mark>`
-            + safe.slice(idx + term.length);
+        var safe = escHtml(text);
+        var terms = query.toLowerCase().split(/\s+/).filter(Boolean);
+        if (!terms.length) return safe;
+
+        var result = safe;
+        for (var i = 0; i < terms.length; i++) {
+            var term = escHtml(terms[i]);
+            var lower = result.toLowerCase();
+            var idx = lower.indexOf(term.toLowerCase());
+            if (idx === -1) continue;
+            result = result.slice(0, idx) +
+                '<mark style="background:rgba(201,125,62,0.25);color:var(--cream);border-radius:2px;">' + result.slice(idx, idx + term.length) + '</mark>' +
+                result.slice(idx + term.length);
+        }
+        return result;
     }
 
     function escHtml(str) {

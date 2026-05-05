@@ -1,73 +1,71 @@
 {
-  "id": "darkrye",
+  "id": "darkryebread",
   "title": "Dark Rye Bread",
   "emoji": "🍞",
   "category": "Baking",
   "description": "Full credit to bakers who perfected this rich, flavourful loaf — dense, dark, and deeply satisfying.",
   "prepTime": "25 min",
   "cookTime": "40 min",
-  "totalTime": "3 hours 45 min",
+  "totalTime": "3 hr 45 min",
   "servings": "1 large loaf",
-  "difficulty": "Medium",
+  "difficulty": "Intermediate",
+  "tags": [
+    "Bread",
+    "Make Ahead",
+    "Savoury",
+    "Vegan",
+    "Vegetarian"
+  ],
   "ingredients": [
     {
       "quantity": "310",
       "unit": "ml",
-      "item": "warm water"
+      "item": "Warm Water"
     },
     {
       "quantity": "20",
       "unit": "ml",
-      "item": "Oil",
-      "ingredientKey": "Oil"
+      "item": "Vegetable Oil"
     },
     {
       "quantity": "20",
       "unit": "ml",
-      "item": "Molasses",
-      "ingredientKey": "Molasses"
+      "item": "Molasses"
     },
     {
-      "quantity": "1 1/2",
-      "unit": "tsp",
-      "item": "Salt",
-      "ingredientKey": "Salt"
+      "quantity": "8",
+      "unit": "g",
+      "item": "Salt"
     },
     {
       "quantity": "320",
       "unit": "g",
-      "item": "Flour",
-      "ingredientKey": "Flour"
+      "item": "Bread Flour"
     },
     {
       "quantity": "190",
       "unit": "g",
-      "item": "Flour",
-      "ingredientKey": "Flour"
+      "item": "Rye Flour"
     },
     {
       "quantity": "60",
       "unit": "g",
-      "item": "Vital Wheat Gluten",
-      "ingredientKey": "Vital Wheat Gluten"
+      "item": "Vital Wheat Gluten"
     },
     {
       "quantity": "20",
       "unit": "g",
-      "item": "Cocoa Powder",
-      "ingredientKey": "Cocoa Powder"
+      "item": "Cocoa Powder"
     },
     {
       "quantity": "7",
       "unit": "g",
-      "item": "Yeast",
-      "ingredientKey": "Yeast"
+      "item": "Yeast"
     },
     {
       "quantity": "20",
       "unit": "g",
-      "item": "Bread Improver",
-      "ingredientKey": "Bread Improver"
+      "item": "Bread Improver"
     }
   ],
   "method": [
@@ -77,11 +75,11 @@
     },
     {
       "step": 2,
-      "instruction": "Add instant yeast to the liquid and let sit for 5 minutes until slightly foamy."
+      "instruction": "Add yeast to the liquid and let sit for 5 minutes until slightly foamy."
     },
     {
       "step": 3,
-      "instruction": "In a separate bowl, whisk together Baker's flour, rye flour, vital wheat gluten, cocoa powder, salt, and bread improver."
+      "instruction": "In a separate bowl, whisk together bread flour, rye flour, vital wheat gluten, cocoa powder, salt, and bread improver."
     },
     {
       "step": 4,
@@ -89,11 +87,11 @@
     },
     {
       "step": 5,
-      "instruction": "Knead the dough on a lightly floured surface (or in a stand mixer with a dough hook) for 10-12 minutes until smooth and elastic. The dough will be dense but should not stick excessively to your hands."
+      "instruction": "Knead the dough on a lightly floured surface or in a stand mixer with a dough hook for 10–12 minutes until smooth and elastic. The dough will be dense but should not stick excessively to your hands."
     },
     {
       "step": 6,
-      "instruction": "Place dough in a lightly oiled bowl, cover with a damp tea towel, and let rise in a warm place for 1.5-2 hours or until doubled in size."
+      "instruction": "Place dough in a lightly oiled bowl, cover with a damp tea towel, and let rise in a warm place for 1½–2 hours or until doubled in size."
     },
     {
       "step": 7,
@@ -101,7 +99,7 @@
     },
     {
       "step": 8,
-      "instruction": "Cover and let rise for another 45-60 minutes until puffy."
+      "instruction": "Cover and let rise for another 45–60 minutes until puffy."
     },
     {
       "step": 9,
@@ -113,7 +111,7 @@
     },
     {
       "step": 11,
-      "instruction": "Bake for 35-40 minutes until the crust is dark and firm, and the loaf sounds hollow when tapped on the bottom."
+      "instruction": "Bake for 35–40 minutes until the crust is dark and firm, and the loaf sounds hollow when tapped on the bottom."
     },
     {
       "step": 12,
@@ -127,23 +125,15 @@
       "content": "Rye flour is low in gluten, so vital wheat gluten helps give the loaf structure and prevents it from being too dense or crumbly."
     },
     {
-      "type": "tip",
-      "title": "Darker Color",
-      "content": "For an even darker loaf, add an extra 10g of cocoa powder. The molasses and cocoa create the characteristic dark color and rich flavor."
+      "type": "variation",
+      "title": "Darker Colour",
+      "content": "For an even darker loaf, add an extra 10 g of cocoa powder. The molasses and cocoa together create the characteristic dark colour and rich flavour."
     },
     {
       "type": "serving",
-      "title": "Best Served",
-      "content": "This bread is excellent toasted with butter, or served with smoked fish, pickles, and cream cheese for a traditional pairing."
+      "title": "Serving Tip",
+      "content": "Excellent toasted with butter, or served with smoked fish, pickles, and cream cheese for a traditional pairing."
     }
-  ],
-  "tags": [
-    "Bread",
-    "Make Ahead",
-    "Savoury",
-    "Under 1 Hour",
-    "Vegan",
-    "Vegetarian"
   ],
   "related": [
     {
@@ -156,15 +146,24 @@
     },
     {
       "id": "pizzadough",
-      "title": "Ultimate Homemade Pizza Dough"
+      "title": "Pizza Dough"
     },
     {
       "id": "garlicbread",
       "title": "Garlic Butter Crusty Bread"
     },
     {
-      "id": "sub",
-      "title": "Homemade Sub Buns"
+      "id": "swbtm",
+      "title": "Soft White Bread (Tangzhong Method)"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 1,
+    "cal": 2415,
+    "protein": 112,
+    "carbs": 423,
+    "fat": 33,
+    "fiber": 32,
+    "coverage": 100
+  }
 }

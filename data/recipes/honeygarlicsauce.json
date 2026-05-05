@@ -8,7 +8,7 @@
   "cookTime": "5 min",
   "totalTime": "10 min",
   "servings": "4 servings",
-  "difficulty": "Easy",
+  "difficulty": "Beginner",
   "tags": [
     "Garlic",
     "Sauce",
@@ -19,78 +19,75 @@
   ],
   "ingredients": [
     {
-      "quantity": "1/3",
-      "unit": "cup",
-      "item": "Honey",
-      "ingredientKey": "Honey"
+      "quantity": "80",
+      "unit": "ml",
+      "item": "Honey"
     },
     {
-      "quantity": "1/4",
-      "unit": "cup",
-      "item": "Sauces",
-      "ingredientKey": "Sauces"
+      "quantity": "60",
+      "unit": "ml",
+      "item": "Light Soy Sauce"
     },
     {
       "quantity": "4",
-      "unit": "",
+      "unit": "cloves",
       "item": "Garlic",
-      "ingredientKey": "Garlic"
+      "notes": "minced"
     },
     {
-      "quantity": "1",
-      "unit": "tbsp",
-      "item": "Vinegar",
-      "ingredientKey": "Vinegar"
+      "quantity": "15",
+      "unit": "ml",
+      "item": "White Vinegar"
     },
     {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Flour",
-      "ingredientKey": "Flour"
+      "quantity": "5",
+      "unit": "g",
+      "item": "Cornflour"
     },
     {
-      "quantity": "1",
-      "unit": "tbsp",
+      "quantity": "15",
+      "unit": "ml",
       "item": "Water"
     },
     {
-      "quantity": "1",
-      "unit": "tsp",
+      "quantity": "5",
+      "unit": "g",
       "item": "Sesame Seeds",
-      "ingredientKey": "Sesame Seeds"
+      "notes": "optional, for garnish"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Combine honey, soy sauce, garlic, and vinegar in a saucepan."
+      "instruction": "In a small bowl, whisk together cornflour and water to form a smooth slurry. Set aside."
     },
     {
       "step": 2,
-      "instruction": "Heat over medium and stir."
+      "instruction": "Combine honey, soy sauce, minced garlic, and vinegar in a small saucepan over medium heat."
     },
     {
       "step": 3,
-      "instruction": "Add cornstarch slurry and cook until thick."
+      "instruction": "Bring to a gentle simmer, stirring constantly."
     },
     {
       "step": 4,
-      "instruction": "Sprinkle sesame seeds if desired."
+      "instruction": "Add the cornflour slurry and continue stirring until the sauce thickens to a glossy glaze, about 1–2 minutes."
+    },
+    {
+      "step": 5,
+      "instruction": "Remove from heat and sprinkle with sesame seeds if desired."
     }
   ],
   "notes": [
     {
       "type": "serving",
       "title": "Serving Tip",
-      "content": "Perfect glaze for chicken wings, salmon, or stir-fried vegetables. Sprinkle with extra sesame seeds for garnish."
+      "content": "Perfect glaze for chicken wings, salmon, or stir-fried vegetables. Brush on during the last few minutes of cooking for a sticky finish."
     },
     {
-      "title": "Garlic Cloves",
-      "content": "minced"
-    },
-    {
-      "title": "Sesame Seeds",
-      "content": "optional"
+      "type": "storage",
+      "title": "Storage",
+      "content": "Store in an airtight container in the refrigerator for up to 1 week. Reheat gently — the sauce will thicken when cold."
     }
   ],
   "related": [
@@ -99,20 +96,29 @@
       "title": "Chili Garlic Oil"
     },
     {
-      "id": "tacoseasoning",
-      "title": "Taco Seasoning — Old El Paso Style (From Scratch)"
+      "id": "sweetchilisauce",
+      "title": "Sweet Chili Sauce"
     },
     {
-      "id": "marinarasauce",
-      "title": "Marinara Sauce"
+      "id": "teriyakisauce",
+      "title": "Teriyaki Sauce"
     },
     {
-      "id": "redsauce",
-      "title": "Red Sauce"
+      "id": "sweetspicyorangesauce",
+      "title": "Sweet & Spicy Orange Sauce"
     },
     {
-      "id": "arrabbiatazauce",
-      "title": "Arrabbiata Sauce"
+      "id": "mongoliansauce",
+      "title": "Mongolian Sauce"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 4,
+    "cal": 229,
+    "protein": 8,
+    "carbs": 51,
+    "fat": 1,
+    "fiber": 2,
+    "coverage": 100
+  }
 }

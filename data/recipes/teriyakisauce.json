@@ -8,7 +8,7 @@
   "cookTime": "5 min",
   "totalTime": "10 min",
   "servings": "4 servings",
-  "difficulty": "Easy",
+  "difficulty": "Beginner",
   "tags": [
     "Japanese",
     "Make Ahead",
@@ -19,57 +19,53 @@
   ],
   "ingredients": [
     {
-      "quantity": "1/4",
-      "unit": "cup",
-      "item": "Sauces",
-      "ingredientKey": "Sauces"
+      "quantity": "60",
+      "unit": "ml",
+      "item": "Soy Sauce"
     },
     {
-      "quantity": "1/4",
-      "unit": "cup",
+      "quantity": "60",
+      "unit": "ml",
       "item": "Water"
     },
     {
-      "quantity": "2",
-      "unit": "tbsp",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
+      "quantity": "30",
+      "unit": "g",
+      "item": "White Sugar"
     },
     {
-      "quantity": "2",
-      "unit": "tbsp",
-      "item": "Honey",
-      "ingredientKey": "Honey"
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Honey"
     },
     {
-      "quantity": "1",
-      "unit": "tbsp",
-      "item": "Mirin",
-      "ingredientKey": "Mirin"
+      "quantity": "15",
+      "unit": "ml",
+      "item": "Mirin"
     },
     {
       "quantity": "1",
-      "unit": "",
+      "unit": "clove",
       "item": "Garlic",
-      "ingredientKey": "Garlic"
+      "notes": "minced"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Combine all ingredients in a saucepan."
+      "instruction": "Combine soy sauce, water, sugar, honey, mirin, and garlic in a small saucepan."
     },
     {
       "step": 2,
-      "instruction": "Heat on medium, stirring until sugar dissolves."
+      "instruction": "Heat over medium, stirring until the sugar dissolves completely."
     },
     {
       "step": 3,
-      "instruction": "Simmer 3–4 minutes until slightly thickened."
+      "instruction": "Bring to a gentle simmer and cook for 3–4 minutes until slightly thickened."
     },
     {
       "step": 4,
-      "instruction": "Cool before using."
+      "instruction": "Remove from heat and allow to cool before using. The sauce will continue to thicken as it cools."
     }
   ],
   "notes": [
@@ -77,36 +73,37 @@
       "type": "serving",
       "title": "Serving Tip",
       "content": "Brush over grilled chicken, salmon, or beef. Also wonderful as a stir-fry sauce or marinade."
-    },
-    {
-      "title": "Mirin or Sake",
-      "content": "optional"
-    },
-    {
-      "title": "Garlic Clove",
-      "content": "minced"
     }
   ],
   "related": [
     {
-      "id": "sweetsoursauce_flex",
-      "title": "Sweet & Sour Sauce – Home Chef Flex"
+      "id": "chickenteriyaki",
+      "title": "Chicken Teriyaki"
+    },
+    {
+      "id": "teriyakimarinade",
+      "title": "Teriyaki Marinade"
+    },
+    {
+      "id": "mongoliansauce",
+      "title": "Mongolian Stir-Fry Sauce"
+    },
+    {
+      "id": "honeygarlicsauce",
+      "title": "Honey Garlic Sauce"
     },
     {
       "id": "sweetchilisauce",
       "title": "Sweet Chili Sauce"
-    },
-    {
-      "id": "sweetsoursauce_quick",
-      "title": "Sweet & Sour Sauce – Quick Takeout Style"
-    },
-    {
-      "id": "sweetspicyorangesauce",
-      "title": "Sweet & Spicy Orange Sauce"
-    },
-    {
-      "id": "tacoseasoning",
-      "title": "Taco Seasoning — Old El Paso Style (From Scratch)"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 4,
+    "cal": 106,
+    "protein": 3,
+    "carbs": 25,
+    "fat": 0,
+    "fiber": 1,
+    "coverage": 100
+  }
 }

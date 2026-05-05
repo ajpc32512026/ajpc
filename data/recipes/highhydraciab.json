@@ -1,170 +1,165 @@
 {
-  "id": "highhydraciab",
+  "id": "airyhighhydrationciabatta",
   "title": "Airy High-Hydration Ciabatta",
   "emoji": "🥖",
-  "category": "Dinner",
+  "category": "Baking",
   "description": "Soft, open-crumb Italian bread using a liquid-dough method. Big holes, crisp crust, zero nonsense.",
-  "ingredients": [
-    {
-      "quantity": "502",
-      "unit": "ml",
-      "item": "water, divided (includes plus 2 Tbsp for initial mix)"
-    },
-    {
-      "quantity": "1",
-      "unit": "Tbsp",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Yeast",
-      "ingredientKey": "Yeast"
-    },
-    {
-      "quantity": "40",
-      "unit": "ml",
-      "item": "Oil",
-      "ingredientKey": "Oil"
-    },
-    {
-      "quantity": "1000–1050",
-      "unit": "g",
-      "item": "Flour",
-      "ingredientKey": "Flour"
-    },
-    {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Salt",
-      "ingredientKey": "Salt"
-    },
-    {
-      "quantity": "15",
-      "unit": "ml",
-      "item": "Oil",
-      "ingredientKey": "Oil"
-    },
-    {
-      "quantity": "30",
-      "unit": "g",
-      "item": "Flour",
-      "ingredientKey": "Flour"
-    }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "In a large bowl, mix 250 ml water, sugar, and yeast."
-    },
-    {
-      "step": 2,
-      "instruction": "Add olive oil and 400 g of flour. Mix until smooth."
-    },
-    {
-      "step": 3,
-      "instruction": "Add remaining 252 ml water and rest of the flour (600–650 g)."
-    },
-    {
-      "step": 4,
-      "instruction": "Add salt. Mix to a very wet, sticky dough."
-    },
-    {
-      "step": 5,
-      "instruction": "Cover and rest 20 minutes."
-    },
-    {
-      "step": 6,
-      "instruction": "With wet hands, stretch and fold several times."
-    },
-    {
-      "step": 7,
-      "instruction": "Rest 20 minutes."
-    },
-    {
-      "step": 8,
-      "instruction": "Repeat folds. Rest 20 minutes."
-    },
-    {
-      "step": 9,
-      "instruction": "Oil hands, fold once more."
-    },
-    {
-      "step": 10,
-      "instruction": "Cover and rise 1 hour until bubbly and doubled."
-    },
-    {
-      "step": 11,
-      "instruction": "Heavily flour bench."
-    },
-    {
-      "step": 12,
-      "instruction": "Turn out dough and dust lightly."
-    },
-    {
-      "step": 13,
-      "instruction": "Gently stretch into a rectangle — no kneading."
-    },
-    {
-      "step": 14,
-      "instruction": "Fold once, cut into 6 pieces."
-    },
-    {
-      "step": 15,
-      "instruction": "Transfer to floured tray."
-    },
-    {
-      "step": 16,
-      "instruction": "Rest 20 minutes."
-    },
-    {
-      "step": 17,
-      "instruction": "Bake at 200°C (400°F) for 15–25 minutes until golden."
-    },
-    {
-      "step": 18,
-      "instruction": "Cool fully before slicing to preserve the big holes."
-    }
-  ],
-  "notes": [
-    {
-      "title": "Notes & Tips",
-      "content": "Use wet hands to handle the dough — it’s extremely sticky. For best crust, bake on a preheated tray or stone."
-    },
-    {
-      "title": "Notes & Tips",
-      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
-    }
-  ],
+  "prepTime": "30 min",
+  "cookTime": "25 min",
+  "totalTime": "3 hr 10 min",
+  "servings": "6 rolls",
+  "difficulty": "Intermediate",
   "tags": [
     "Bread",
-    "Dinner",
     "Italian",
     "Savoury",
     "Vegan",
     "Vegetarian"
   ],
+  "ingredients": [
+    {
+      "quantity": "502",
+      "unit": "ml",
+      "item": "Warm Water",
+      "notes": "divided"
+    },
+    {
+      "quantity": "15",
+      "unit": "g",
+      "item": "White Sugar"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Yeast",
+      "notes": "instant dried"
+    },
+    {
+      "quantity": "40",
+      "unit": "ml",
+      "item": "Olive Oil"
+    },
+    {
+      "quantity": "1000",
+      "unit": "g",
+      "item": "Bread Flour"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Salt"
+    },
+    {
+      "heading": "For Shaping"
+    },
+    {
+      "quantity": "15",
+      "unit": "ml",
+      "item": "Olive Oil",
+      "notes": "for hands"
+    },
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Bread Flour",
+      "notes": "for dusting"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "In a large bowl, mix 250 ml of warm water, sugar, and yeast. Let sit for 5 minutes until foamy."
+    },
+    {
+      "step": 2,
+      "instruction": "Add olive oil and 400 g of bread flour. Mix until smooth."
+    },
+    {
+      "step": 3,
+      "instruction": "Add remaining 252 ml of water and the remaining 600 g of flour. Add salt. Mix to a very wet, sticky dough."
+    },
+    {
+      "step": 4,
+      "instruction": "Cover and rest for 20 minutes."
+    },
+    {
+      "step": 5,
+      "instruction": "With wet hands, stretch and fold the dough several times. Cover and rest for 20 minutes."
+    },
+    {
+      "step": 6,
+      "instruction": "Repeat stretch and fold. Cover and rest for another 20 minutes."
+    },
+    {
+      "step": 7,
+      "instruction": "Oil hands and fold once more. Cover and let rise for 1 hour until bubbly and doubled in size."
+    },
+    {
+      "step": 8,
+      "instruction": "Heavily flour the work surface. Turn out dough and dust lightly with flour. Do not punch down."
+    },
+    {
+      "step": 9,
+      "instruction": "Gently stretch into a rectangle — no kneading. Fold once, then cut into 6 pieces."
+    },
+    {
+      "step": 10,
+      "instruction": "Transfer to a heavily floured baking tray. Rest for 20 minutes."
+    },
+    {
+      "step": 11,
+      "instruction": "Preheat oven to 200°C."
+    },
+    {
+      "step": 12,
+      "instruction": "Bake for 15–25 minutes until golden and crisp."
+    },
+    {
+      "step": 13,
+      "instruction": "Cool completely on a wire rack before slicing to preserve the open crumb."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Wet Hands",
+      "content": "This dough is extremely sticky — keep your hands wet when handling it, not floured. Water prevents sticking without adding extra flour that would weigh down the dough."
+    },
+    {
+      "type": "technique",
+      "title": "No Deflating",
+      "content": "Do not punch down the dough when shaping. The large air bubbles are what give ciabatta its characteristic open crumb. Handle it gently and only fold, never knead."
+    }
+  ],
   "related": [
     {
-      "id": "bistro-vealscaloppine",
-      "title": "Veal Scaloppine"
+      "id": "focaccia-high",
+      "title": "High-Hydration Focaccia"
     },
     {
-      "id": "potatognocchi",
-      "title": "Potato Gnocchi with Tomato Sauce"
+      "id": "turkishbread",
+      "title": "Traditional Turkish Bread"
     },
     {
-      "id": "lasagne",
-      "title": "Classic Lasagne — Ragù & Béchamel"
+      "id": "pizzadough",
+      "title": "Pizza Dough"
     },
     {
-      "id": "chickencacciatore",
-      "title": "Chicken Cacciatore"
+      "id": "sub",
+      "title": "Homemade Sub Buns"
     },
     {
-      "id": "hotdog",
-      "title": "Wendy’s-Style Hot Dog Buns"
+      "id": "garlicbread",
+      "title": "Garlic Butter Crusty Bread"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 6,
+    "cal": 713,
+    "protein": 21,
+    "carbs": 126,
+    "fat": 12,
+    "fiber": 4,
+    "coverage": 100
+  }
 }

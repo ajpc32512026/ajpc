@@ -1,117 +1,124 @@
 {
   "id": "chickencacciatore",
   "title": "Chicken Cacciatore",
-  "emoji": "�",
   "category": "Dinner",
   "description": "A hearty Italian classic — tender chicken simmered in a rich tomato and olive sauce, perfect over jasmine rice.",
   "prepTime": "15 min",
   "cookTime": "45 min",
   "totalTime": "1 hr",
-  "servings": "4-6 servings",
-  "difficulty": "Easy",
+  "servings": "4 servings",
+  "tags": [
+    "Alcohol",
+    "Chicken",
+    "Dinner",
+    "Italian",
+    "Rich",
+    "Savoury",
+    "Tomato"
+  ],
   "ingredients": [
     {
-      "quantity": "4-6",
+      "quantity": "4",
       "unit": "",
-      "item": "Chicken",
-      "ingredientKey": "Chicken"
+      "item": "Chicken Breast",
+      "notes": "approximately 200 g each"
     },
     {
-      "quantity": "3",
-      "unit": "tbsp",
-      "item": "Oil",
-      "ingredientKey": "Oil"
+      "quantity": "45",
+      "unit": "ml",
+      "item": "Olive Oil"
     },
     {
       "quantity": "1",
-      "unit": "medium",
-      "item": "Onion",
-      "ingredientKey": "Onion"
-    },
-    {
-      "quantity": "1 1/2",
-      "unit": "tsp",
-      "item": "Garlic",
-      "ingredientKey": "Garlic"
-    },
-    {
-      "quantity": "3/4",
-      "unit": "cup",
-      "item": "Wine",
-      "ingredientKey": "Wine"
-    },
-    {
-      "quantity": "13/4",
-      "unit": "tsp",
-      "item": "Vinegar",
-      "ingredientKey": "Vinegar"
-    },
-    {
-      "quantity": "1-2",
       "unit": "",
-      "item": "Stock",
-      "ingredientKey": "Stock"
+      "item": "Brown Onion",
+      "notes": "chopped"
     },
     {
-      "quantity": "3/4-1",
-      "unit": "cup",
-      "item": "water"
+      "quantity": "3",
+      "unit": "cloves",
+      "item": "Garlic",
+      "notes": "crushed"
     },
     {
-      "quantity": "1 1/2",
-      "unit": "tsp",
-      "item": "Basil",
-      "ingredientKey": "Basil"
+      "quantity": "180",
+      "unit": "ml",
+      "item": "White Wine"
+    },
+    {
+      "quantity": "10",
+      "unit": "ml",
+      "item": "White Vinegar"
     },
     {
       "quantity": "2",
-      "unit": "tsp",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
+      "unit": "",
+      "item": "Chicken Stock Cubes",
+      "notes": "crumbled"
+    },
+    {
+      "quantity": "180",
+      "unit": "ml",
+      "item": "Hot Water"
+    },
+    {
+      "quantity": "8",
+      "unit": "g",
+      "item": "Basil",
+      "notes": "dried"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "White Sugar"
     },
     {
       "quantity": "600",
       "unit": "g",
       "item": "Tomatoes",
-      "ingredientKey": "Tomatoes"
+      "notes": "canned, crushed by hand"
     },
     {
       "quantity": "100",
       "unit": "g",
-      "item": "Olives",
-      "ingredientKey": "Olives"
+      "item": "Kalamata Olives",
+      "notes": "pitted"
     },
     {
-      "quantity": "3/4-1",
-      "unit": "cup",
-      "item": "Milk",
-      "ingredientKey": "Milk"
+      "quantity": "180",
+      "unit": "ml",
+      "item": "Whole Milk"
     },
     {
-      "quantity": "1 1/2",
-      "unit": "tsp",
+      "quantity": "8",
+      "unit": "g",
       "item": "Parsley",
-      "ingredientKey": "Parsley"
+      "notes": "fresh, chopped"
     },
     {
-      "quantity": "to taste",
-      "unit": "",
+      "quantity": "5",
+      "unit": "g",
       "item": "Salt",
-      "ingredientKey": "Salt"
+      "notes": "to taste"
+    },
+    {
+      "quantity": "2",
+      "unit": "g",
+      "item": "Black Pepper"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Heat 2 tablespoons of olive oil in a large deep pan or Dutch oven over medium-high heat."
+      "instruction": "Heat 30 ml of olive oil in a large deep pan or Dutch oven over medium-high heat."
     },
     {
       "step": 2,
-      "instruction": "Season chicken breasts with salt and pepper. Brown chicken on both sides (about 3-4 minutes per side) until golden. Remove and set aside."
+      "instruction": "Season chicken breasts with salt and pepper. Brown chicken on both sides, about 3–4 minutes per side, until golden. Remove and set aside."
     },
     {
       "step": 3,
-      "instruction": "In the same pan, add remaining tablespoon of oil. Add chopped onion and sauté for 2-3 minutes until softened."
+      "instruction": "In the same pan, add remaining 15 ml of oil. Add chopped onion and sauté for 2–3 minutes until softened."
     },
     {
       "step": 4,
@@ -119,23 +126,23 @@
     },
     {
       "step": 5,
-      "instruction": "Pour in the white wine and vinegar. Bring to a simmer and cook for 2-3 minutes to reduce slightly."
+      "instruction": "Pour in the white wine and vinegar. Bring to a simmer and cook for 2–3 minutes to reduce slightly."
     },
     {
       "step": 6,
-      "instruction": "Crumble in the stock cubes and add water. Stir to dissolve."
+      "instruction": "Crumble in the stock cubes and add hot water. Stir to dissolve."
     },
     {
       "step": 7,
-      "instruction": "Add the canned tomatoes (crushing them with your hands or a spoon), basil, and sugar. Stir well."
+      "instruction": "Add the tomatoes, crushing them with your hands or a spoon, along with basil and sugar. Stir well."
     },
     {
       "step": 8,
-      "instruction": "Return the browned chicken to the pan. Bring to a gentle simmer, then reduce heat to low. Cover and cook for 25-30 minutes until chicken is cooked through and tender."
+      "instruction": "Return the browned chicken to the pan. Bring to a gentle simmer, then reduce heat to low. Cover and cook for 25–30 minutes until chicken is cooked through and tender."
     },
     {
       "step": 9,
-      "instruction": "Add Kalamata olives and milk. Stir gently and simmer uncovered for another 5-7 minutes to let the sauce thicken slightly."
+      "instruction": "Add Kalamata olives and milk. Stir gently and simmer uncovered for another 5–7 minutes to let the sauce thicken slightly."
     },
     {
       "step": 10,
@@ -148,36 +155,25 @@
   ],
   "notes": [
     {
-      "type": "tip",
+      "type": "technique",
       "title": "Wine and Vinegar Balance",
-      "content": "Adjust wine and vinegar to taste for tanginess. Start with less and add more if you prefer a sharper flavor."
+      "content": "Adjust wine and vinegar to taste for tanginess. Start with less and add more if you prefer a sharper flavour."
     },
     {
       "type": "variation",
       "title": "Chicken Thighs",
-      "content": "Chicken thighs can be used instead of breasts for extra juiciness and flavor. Adjust cooking time slightly as thighs may take a bit longer."
+      "content": "Chicken thighs can be used instead of breasts for extra juiciness and flavour. Bone-in thighs will need 10–15 minutes longer cooking time."
     },
     {
       "type": "serving",
       "title": "Reheating",
-      "content": "This dish tastes even better the next day as the flavors develop. Reheat gently on the stovetop."
+      "content": "This dish tastes even better the next day as the flavours develop. Reheat gently on the stovetop."
     },
     {
-      "type": "credit",
+      "type": "acknowledgement",
       "title": "Recipe Origin",
-      "content": "This Chicken Cacciatore recipe is adapted from traditional Italian recipes. Full credit to the original creators of this classic, comforting dish."
+      "content": "Adapted from traditional Italian cacciatore recipes — a classic hunter-style braise."
     }
-  ],
-  "tags": [
-    "Alcohol",
-    "Chicken",
-    "Creamy",
-    "Dinner",
-    "Italian",
-    "Rich",
-    "Savoury",
-    "Slow-Cooked",
-    "Tomato"
   ],
   "related": [
     {
@@ -186,19 +182,28 @@
     },
     {
       "id": "lasagne",
-      "title": "Classic Lasagne — Ragù & Béchamel"
-    },
-    {
-      "id": "bistro-vealscaloppine",
-      "title": "Veal Scaloppine"
-    },
-    {
-      "id": "highhydraciab",
-      "title": "Airy High-Hydration Ciabatta"
+      "title": "Classic Lasagne"
     },
     {
       "id": "bistro-chickenpicante",
       "title": "Chicken Picante"
+    },
+    {
+      "id": "marinarasauce",
+      "title": "Marinara Sauce"
+    },
+    {
+      "id": "redsauce",
+      "title": "Red Sauce"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 4,
+    "cal": 669,
+    "protein": 53,
+    "carbs": 41,
+    "fat": 30,
+    "fiber": 5,
+    "coverage": 100
+  }
 }

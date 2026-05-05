@@ -8,7 +8,7 @@
   "cookTime": "25 min",
   "totalTime": "35 min",
   "servings": "4 servings",
-  "difficulty": "Easy",
+  "difficulty": "Beginner",
   "tags": [
     "Classic",
     "Italian",
@@ -20,109 +20,82 @@
   ],
   "ingredients": [
     {
-      "quantity": "2",
-      "unit": "cup",
-      "item": "Tomatoes",
-      "ingredientKey": "Tomatoes"
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Olive Oil"
     },
     {
-      "quantity": "2",
-      "unit": "tbsp",
-      "item": "Oil",
-      "ingredientKey": "Oil"
+      "quantity": "1",
+      "unit": "",
+      "item": "Brown Onion",
+      "notes": "chopped"
     },
     {
       "quantity": "3",
-      "unit": "",
+      "unit": "cloves",
       "item": "Garlic",
-      "ingredientKey": "Garlic"
+      "notes": "minced"
     },
     {
-      "quantity": "1",
-      "unit": "",
-      "item": "Onion",
-      "ingredientKey": "Onion"
+      "quantity": "500",
+      "unit": "g",
+      "item": "Tomatoes",
+      "notes": "crushed"
     },
     {
-      "quantity": "1",
-      "unit": "tsp",
+      "quantity": "5",
+      "unit": "g",
       "item": "Basil",
-      "ingredientKey": "Basil"
+      "notes": "dried"
     },
     {
-      "quantity": "1",
-      "unit": "tsp",
+      "quantity": "5",
+      "unit": "g",
       "item": "Oregano",
-      "ingredientKey": "Oregano"
+      "notes": "dried"
     },
     {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Salt",
-      "ingredientKey": "Salt"
+      "quantity": "5",
+      "unit": "g",
+      "item": "Salt"
     },
     {
-      "quantity": "1/2",
-      "unit": "tsp",
-      "item": "Pepper",
-      "ingredientKey": "Pepper"
+      "quantity": "2",
+      "unit": "g",
+      "item": "Black Pepper"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Heat olive oil in a pan."
+      "instruction": "Heat olive oil in a saucepan over medium heat."
     },
     {
       "step": 2,
-      "instruction": "Sauté onion until translucent."
+      "instruction": "Sauté onion for 3–4 minutes until translucent."
     },
     {
       "step": 3,
-      "instruction": "Add garlic and cook briefly."
+      "instruction": "Add garlic and cook for 1 minute until fragrant."
     },
     {
       "step": 4,
-      "instruction": "Add crushed tomatoes."
+      "instruction": "Add crushed tomatoes, basil, and oregano. Stir well."
     },
     {
       "step": 5,
-      "instruction": "Stir in basil and oregano."
+      "instruction": "Bring to a gentle simmer and cook for 20–25 minutes, stirring occasionally, until thickened."
     },
     {
       "step": 6,
-      "instruction": "Simmer for 20–25 minutes."
-    },
-    {
-      "step": 7,
-      "instruction": "Season with salt and pepper."
+      "instruction": "Season with salt and pepper to taste."
     }
   ],
   "notes": [
     {
       "type": "serving",
       "title": "Serving Tip",
-      "content": "A versatile sauce perfect for pasta, pizza, or as a base for other dishes. Freezes beautifully."
-    },
-    {
-      "title": "Tomatoes",
-      "content": "crushed"
-    },
-    {
-      "title": "Garlic Cloves",
-      "content": "minced"
-    },
-    {
-      "title": "Onion",
-      "content": "chopped"
-    },
-    {
-      "title": "Basil",
-      "content": "dried"
-    },
-    {
-      "title": "Oregano",
-      "content": "dried"
+      "content": "A versatile sauce perfect for pasta, pizza, or as a base for other dishes. Freezes beautifully for up to 3 months."
     }
   ],
   "related": [
@@ -131,7 +104,7 @@
       "title": "Red Sauce"
     },
     {
-      "id": "arrabbiatazauce",
+      "id": "arrabbiatasauce",
       "title": "Arrabbiata Sauce"
     },
     {
@@ -146,5 +119,14 @@
       "id": "whitesauce",
       "title": "White Sauce (Béchamel)"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 4,
+    "cal": 215,
+    "protein": 6,
+    "carbs": 33,
+    "fat": 8,
+    "fiber": 4,
+    "coverage": 100
+  }
 }

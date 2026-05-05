@@ -14,6 +14,124 @@
             .error-page { text-align: center; padding: 4rem 1rem; }
             .error-page a { display: none; }
         }
+
+        .error-page {
+            min-height: 70vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: var(--sp-3xl) var(--sp-xl);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .error-page::before {
+            content: '';
+            position: absolute;
+            top: -60px;
+            right: -80px;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(201, 125, 62, 0.08) 0%, transparent 65%);
+            pointer-events: none;
+        }
+
+        .error-page::after {
+            content: '';
+            position: absolute;
+            bottom: -40px;
+            left: -60px;
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(circle, rgba(201, 125, 62, 0.05) 0%, transparent 65%);
+            pointer-events: none;
+        }
+
+        .error-icon {
+            font-size: 5rem;
+            margin-bottom: var(--sp-lg);
+            animation: float 3s ease-in-out infinite;
+            position: relative;
+            z-index: 1;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-12px); }
+        }
+
+        .error-page h1 {
+            font-family: var(--font-display);
+            font-size: clamp(5rem, 12vw, 10rem);
+            color: var(--copper);
+            line-height: 1;
+            margin-bottom: 0;
+            position: relative;
+            z-index: 1;
+            opacity: 0.9;
+        }
+
+        .error-page h2 {
+            font-family: var(--font-display);
+            font-size: clamp(1.2rem, 3vw, 1.8rem);
+            color: var(--cream);
+            margin-bottom: var(--sp-md);
+            position: relative;
+            z-index: 1;
+        }
+
+        .error-page p {
+            position: relative;
+            z-index: 1;
+        }
+
+        .error-back-link {
+            display: inline-block;
+            padding: 0.7rem 1.8rem;
+            background: rgba(201, 125, 62, 0.12);
+            border: 1px solid var(--border-copper);
+            border-radius: 8px;
+            color: var(--copper-warm);
+            font-family: var(--font-body);
+            font-size: 0.95rem;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            position: relative;
+            z-index: 1;
+        }
+
+        .error-back-link:hover {
+            background: rgba(201, 125, 62, 0.22);
+            color: var(--copper-pale);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(201, 125, 62, 0.2);
+        }
+
+        .error-crumbs {
+            display: flex;
+            gap: var(--sp-sm);
+            margin-top: var(--sp-2xl);
+            opacity: 0.4;
+            position: relative;
+            z-index: 1;
+            font-size: 1.5rem;
+        }
+
+        .error-crumbs span {
+            animation: crumb 2s ease-in-out infinite;
+        }
+        .error-crumbs span:nth-child(2) { animation-delay: 0.3s; }
+        .error-crumbs span:nth-child(3) { animation-delay: 0.6s; }
+        .error-crumbs span:nth-child(4) { animation-delay: 0.9s; }
+        .error-crumbs span:nth-child(5) { animation-delay: 1.2s; }
+
+        @keyframes crumb {
+            0%, 100% { opacity: 0.3; transform: translateY(0); }
+            50% { opacity: 0.7; transform: translateY(-6px); }
+        }
     </style>
 </head>
 <body>
@@ -23,10 +141,14 @@
 
     <div class="content-wrapper">
         <main class="error-page">
+            <div class="error-icon">👨‍🍳</div>
             <h1>404</h1>
             <h2>Page Not Found</h2>
-            <p style="color:var(--cream-muted);margin-bottom:2rem;">That page doesn't exist &mdash; or it got eaten.</p>
-            <a href="index.html" style="display:inline-block;padding:0.65rem 1.5rem;background:rgba(201,125,62,0.15);border:1px solid var(--border-copper);border-radius:6px;color:var(--copper-warm);font-size:0.9rem;font-weight:500;text-decoration:none;">&larr; Back to the Kitchen</a>
+            <p style="color:var(--cream-muted);margin-bottom:2rem;">That page doesn't exist — or it got eaten.</p>
+            <a href="index.html" class="error-back-link">&larr; Back to the Kitchen</a>
+            <div class="error-crumbs">
+                <span>🍞</span><span>🥖</span><span>🥐</span><span>🍪</span><span>🧁</span>
+            </div>
         </main>
 
         <footer>

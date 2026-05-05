@@ -2,6 +2,7 @@
    NAV LOADER — AJPC Kitchen Notebook
    Fixed: graceful fallback if fetch fails (file:// protocol),
    proper search integration, no phantom errors.
+   Added: active page highlighting for nav pills and links.
 ========================================================= */
 
 (function () {
@@ -71,20 +72,20 @@
        Dropdowns
     -------------------------------------------------- */
     function initDropdowns() {
-        const groups = document.querySelectorAll('.nav-group');
+        var groups = document.querySelectorAll('.nav-group');
 
-        groups.forEach(group => {
-            const pill = group.querySelector('.nav-pill');
+        groups.forEach(function(group) {
+            var pill = group.querySelector('.nav-pill');
             if (!pill) return;
 
-            pill.addEventListener('click', (e) => {
+            pill.addEventListener('click', function(e) {
                 e.stopPropagation();
-                const isOpen = group.classList.contains('open');
+                var isOpen = group.classList.contains('open');
 
                 // Close all
-                groups.forEach(g => {
+                groups.forEach(function(g) {
                     g.classList.remove('open');
-                    const p = g.querySelector('.nav-pill');
+                    var p = g.querySelector('.nav-pill');
                     if (p) p.setAttribute('aria-expanded', 'false');
                 });
 
@@ -95,7 +96,7 @@
             });
 
             // Keyboard support
-            pill.addEventListener('keydown', (e) => {
+            pill.addEventListener('keydown', function(e) {
                 if (e.key === 'Enter' || e.key === ' ') {
                     e.preventDefault();
                     pill.click();
@@ -109,10 +110,10 @@
         });
 
         // Close on outside click
-        document.addEventListener('click', () => {
-            groups.forEach(g => {
+        document.addEventListener('click', function() {
+            groups.forEach(function(g) {
                 g.classList.remove('open');
-                const p = g.querySelector('.nav-pill');
+                var p = g.querySelector('.nav-pill');
                 if (p) p.setAttribute('aria-expanded', 'false');
             });
         });
@@ -122,12 +123,12 @@
        Mobile Menu
     -------------------------------------------------- */
     function initMobileMenu() {
-        const toggle = document.getElementById('mobileMenuToggle');
-        const nav = document.getElementById('mainNav');
+        var toggle = document.getElementById('mobileMenuToggle');
+        var nav = document.getElementById('mainNav');
         if (!toggle || !nav) return;
 
-        toggle.addEventListener('click', () => {
-            const isOpen = nav.classList.toggle('mobile-open');
+        toggle.addEventListener('click', function() {
+            var isOpen = nav.classList.toggle('mobile-open');
             toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
             toggle.textContent = isOpen ? 'Close' : 'Menu';
         });
@@ -137,31 +138,31 @@
        Nav Search (live dropdown)
     -------------------------------------------------- */
     function initNavSearch() {
-        const input = document.getElementById('navSearch');
-        const dropdown = document.getElementById('searchDropdown');
+        var input = document.getElementById('navSearch');
+        var dropdown = document.getElementById('searchDropdown');
         if (!input || !dropdown) return;
 
-        let recipeIndex = null;
-        let debounceTimer = null;
+        var recipeIndex = null;
+        var debounceTimer = null;
 
         async function loadIndex() {
             if (recipeIndex) return recipeIndex;
             try {
-                const r = await fetch('json/recipe-index.json');
+                var r = await fetch('json/recipe-index.json');
                 if (r.ok) recipeIndex = await r.json();
-            } catch { recipeIndex = []; }
+            } catch(e) { recipeIndex = []; }
             return recipeIndex || [];
         }
 
-        input.addEventListener('input', () => {
+        input.addEventListener('input', function() {
             clearTimeout(debounceTimer);
             debounceTimer = setTimeout(doSearch, 180);
         });
 
-        input.addEventListener('keydown', (e) => {
+        input.addEventListener('keydown', function(e) {
             if (e.key === 'Enter') {
-                const q = input.value.trim();
-                if (q) window.location.href = `search.html?q=${encodeURIComponent(q)}`;
+                var q = input.value.trim();
+                if (q) window.location.href = 'search.html?q=' + encodeURIComponent(q);
             }
             if (e.key === 'Escape') {
                 closeDropdown();
@@ -170,28 +171,28 @@
         });
 
         async function doSearch() {
-            const q = input.value.trim().toLowerCase();
+            var q = input.value.trim().toLowerCase();
             if (q.length < 2) { closeDropdown(); return; }
 
-            const index = await loadIndex();
-            const matches = index
-                .filter(r => {
-                    const title = (r.title || '').toLowerCase();
-                    const tags = (r.tags || []).join(' ').toLowerCase();
-                    const cat = (r.category || '').toLowerCase();
-                    return title.includes(q) || tags.includes(q) || cat.includes(q);
+            var index = await loadIndex();
+            var matches = index
+                .filter(function(r) {
+                    var title = (r.title || '').toLowerCase();
+                    var tags = (r.tags || []).join(' ').toLowerCase();
+                    var cat = (r.category || '').toLowerCase();
+                    return title.indexOf(q) !== -1 || tags.indexOf(q) !== -1 || cat.indexOf(q) !== -1;
                 })
                 .slice(0, 8);
 
             if (!matches.length) {
-                dropdown.innerHTML = `<div class="search-no-results">No results for "<strong>${escHtml(q)}</strong>"</div>`;
+                dropdown.innerHTML = '<div class="search-no-results">No results for "<strong>' + escHtml(q) + '</strong>"</div>';
             } else {
-                dropdown.innerHTML = matches.map(r =>
-                    `<a href="recipe.html?id=${encodeURIComponent(r.id)}" class="search-result-item" role="option">
-                        <strong>${highlightMatch(r.title || r.id, q)}</strong>
-                        ${r.category ? `<span style="font-size:0.78rem;color:var(--cream-muted);margin-left:0.5rem;">${escHtml(r.category)}</span>` : ''}
-                    </a>`
-                ).join('');
+                dropdown.innerHTML = matches.map(function(r) {
+                    return '<a href="recipe.html?id=' + encodeURIComponent(r.id) + '" class="search-result-item" role="option">' +
+                        '<strong>' + highlightMatch(r.title || r.id, q) + '</strong>' +
+                        (r.category ? '<span style="font-size:0.78rem;color:var(--cream-muted);margin-left:0.5rem;">' + escHtml(r.category) + '</span>' : '') +
+                    '</a>';
+                }).join('');
             }
 
             dropdown.classList.add('visible');
@@ -202,14 +203,14 @@
             dropdown.innerHTML = '';
         }
 
-        document.addEventListener('click', (e) => {
+        document.addEventListener('click', function(e) {
             if (!input.contains(e.target) && !dropdown.contains(e.target)) closeDropdown();
         });
     }
 
     function highlightMatch(text, query) {
-        const safe = escHtml(text);
-        const idx = safe.toLowerCase().indexOf(query.toLowerCase());
+        var safe = escHtml(text);
+        var idx = safe.toLowerCase().indexOf(query.toLowerCase());
         if (idx === -1) return safe;
         return safe.slice(0, idx)
             + '<mark style="background:rgba(201,125,62,0.25);color:var(--cream);border-radius:2px;">'
@@ -230,11 +231,11 @@
        Scroll Progress Bar
     -------------------------------------------------- */
     function initScrollProgress() {
-        const bar = document.getElementById('scrollProgress');
+        var bar = document.getElementById('scrollProgress');
         if (!bar) return;
 
         function update() {
-            const docH = document.documentElement.scrollHeight - window.innerHeight;
+            var docH = document.documentElement.scrollHeight - window.innerHeight;
             bar.style.width = docH > 0 ? (window.scrollY / docH * 100) + '%' : '0%';
         }
 
@@ -245,14 +246,14 @@
        Back To Top
     -------------------------------------------------- */
     function initBackToTop() {
-        const btn = document.getElementById('backToTop');
+        var btn = document.getElementById('backToTop');
         if (!btn) return;
 
-        window.addEventListener('scroll', () => {
+        window.addEventListener('scroll', function() {
             btn.classList.toggle('visible', window.scrollY > 400);
         }, { passive: true });
 
-        btn.addEventListener('click', () => {
+        btn.addEventListener('click', function() {
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
     }
@@ -262,14 +263,14 @@
        The site is dark by default. Toggle adds 'light-mode' to body.
     -------------------------------------------------- */
     function initDarkMode() {
-        const btn = document.getElementById('darkModeToggle');
+        var btn = document.getElementById('darkModeToggle');
         if (!btn) return;
 
-        const stored = localStorage.getItem('ajpc-theme');
+        var stored = localStorage.getItem('ajpc-theme');
         if (stored === 'light') applyLight(true);
 
-        btn.addEventListener('click', () => {
-            const isLight = document.body.classList.contains('light-mode');
+        btn.addEventListener('click', function() {
+            var isLight = document.body.classList.contains('light-mode');
             applyLight(!isLight);
             localStorage.setItem('ajpc-theme', isLight ? 'dark' : 'light');
         });
@@ -283,14 +284,56 @@
 
     /* --------------------------------------------------
        Highlight Current Page Link
+       Highlights recipe links, reference pages, and direct links
+       based on the current URL.
     -------------------------------------------------- */
     function highlightCurrentPage() {
-        const path = window.location.pathname.split('/').pop() || 'index.html';
-        document.querySelectorAll('.dropdown a, .nav-direct').forEach(link => {
-            const href = link.getAttribute('href') || '';
-            if (href === path || href.startsWith(path + '?')) {
+        var path = window.location.pathname.split('/').pop() || 'index.html';
+        var params = new URLSearchParams(window.location.search);
+        var currentId = params.get('id');
+
+        // Highlight recipe in dropdowns
+        if (currentId) {
+            var recipeLinks = document.querySelectorAll('.dropdown a[href="recipe.html?id=' + currentId + '"]');
+            recipeLinks.forEach(function(link) {
                 link.style.color = 'var(--copper-warm)';
                 link.style.fontWeight = '600';
+                // Highlight the parent pill
+                var group = link.closest('.nav-group');
+                if (group) {
+                    var pill = group.querySelector('.nav-pill');
+                    if (pill) {
+                        pill.style.color = 'var(--copper-warm)';
+                        pill.style.borderColor = 'var(--border-copper)';
+                    }
+                }
+            });
+        }
+
+        // Highlight reference pages and HTML links
+        document.querySelectorAll('.dropdown a[href$=".html"]').forEach(function(link) {
+            var href = link.getAttribute('href') || '';
+            if (href === path) {
+                link.style.color = 'var(--copper-warm)';
+                link.style.fontWeight = '600';
+                var group = link.closest('.nav-group');
+                if (group) {
+                    var pill = group.querySelector('.nav-pill');
+                    if (pill) {
+                        pill.style.color = 'var(--copper-warm)';
+                        pill.style.borderColor = 'var(--border-copper)';
+                    }
+                }
+            }
+        });
+
+        // Highlight direct links (Gallery, Search, Print All, Builder)
+        document.querySelectorAll('.nav-direct').forEach(function(link) {
+            var href = link.getAttribute('href') || '';
+            if (href === path || (path === '' && href === 'index.html')) {
+                link.style.color = 'var(--copper-warm)';
+                link.style.fontWeight = '600';
+                link.style.borderColor = 'var(--border-copper)';
             }
         });
     }

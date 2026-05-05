@@ -1,5 +1,5 @@
 {
-  "id": "baked-cheesecake",
+  "id": "bakedcheesecake",
   "title": "Baked Cheesecake",
   "emoji": "🧀",
   "category": "Desserts",
@@ -8,7 +8,7 @@
   "cookTime": "55 min",
   "totalTime": "75 min + overnight chilling",
   "servings": "8-10 serves (20cm tin)",
-  "difficulty": "Medium",
+  "difficulty": "Intermediate",
   "tags": [
     "Baked",
     "Cheese",
@@ -26,61 +26,52 @@
     {
       "quantity": "250",
       "unit": "g",
-      "item": "Arnott’s Nice Biscuits",
-      "notes": "crushed to fine crumbs",
-      "ingredientKey": "Arnott’s Nice Biscuits"
+      "item": "Arnotts Nice Biscuits",
+      "notes": "crushed to fine crumbs"
     },
     {
       "quantity": "120",
       "unit": "g",
       "item": "Butter",
-      "notes": "melted",
-      "ingredientKey": "Butter"
+      "notes": "melted"
     },
     {
       "quantity": "750",
       "unit": "g",
       "item": "Philadelphia Cream Cheese",
-      "notes": "room temperature",
-      "ingredientKey": "Philadelphia Cream Cheese"
+      "notes": "room temperature"
     },
     {
       "quantity": "200",
       "unit": "g",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
+      "item": "Sugar"
     },
     {
       "quantity": "3",
       "unit": "",
       "item": "Eggs",
-      "notes": "room temperature",
-      "ingredientKey": "Eggs"
+      "notes": "room temperature"
     },
     {
       "quantity": "2",
       "unit": "tsp",
-      "item": "Vanilla",
-      "ingredientKey": "Vanilla"
+      "item": "Vanilla"
     },
     {
       "quantity": "2",
       "unit": "tbsp",
-      "item": "Juice",
-      "notes": "freshly squeezed",
-      "ingredientKey": "Juice"
+      "item": "Lemon Juice",
+      "notes": "freshly squeezed"
     },
     {
       "quantity": "1",
       "unit": "tsp",
-      "item": "Lemon Zest",
-      "ingredientKey": "Lemon Zest"
+      "item": "Lemon Zest"
     },
     {
       "quantity": "200",
       "unit": "g",
-      "item": "Cream",
-      "ingredientKey": "Cream"
+      "item": "Pure Cream"
     }
   ],
   "method": [
@@ -194,5 +185,14 @@
       "id": "chocolatemudcake",
       "title": "The Ultimate Chocolate Mud Cake"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 8,
+    "cal": 710,
+    "protein": 10,
+    "carbs": 55,
+    "fat": 51,
+    "fiber": 1,
+    "coverage": 100
+  }
 }

@@ -8,7 +8,7 @@
   "cookTime": "20 min",
   "totalTime": "30 min",
   "servings": "4 servings",
-  "difficulty": "Easy",
+  "difficulty": "Beginner",
   "tags": [
     "Classic",
     "Italian",
@@ -20,95 +20,76 @@
   ],
   "ingredients": [
     {
-      "quantity": "2",
-      "unit": "cup",
+      "quantity": "500",
+      "unit": "g",
       "item": "Tomatoes",
-      "ingredientKey": "Tomatoes"
+      "notes": "pureed"
     },
     {
       "quantity": "1",
       "unit": "",
-      "item": "Onion",
-      "ingredientKey": "Onion"
+      "item": "Brown Onion",
+      "notes": "finely chopped"
     },
     {
       "quantity": "3",
-      "unit": "",
+      "unit": "cloves",
       "item": "Garlic",
-      "ingredientKey": "Garlic"
+      "notes": "minced"
+    },
+    {
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Olive Oil"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Italian Herbs"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Salt"
     },
     {
       "quantity": "2",
-      "unit": "tbsp",
-      "item": "Oil",
-      "ingredientKey": "Oil"
-    },
-    {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Herbs, Italian",
-      "ingredientKey": "Herbs, Italian"
-    },
-    {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Salt",
-      "ingredientKey": "Salt"
-    },
-    {
-      "quantity": "1/2",
-      "unit": "tsp",
-      "item": "Pepper",
-      "ingredientKey": "Pepper"
+      "unit": "g",
+      "item": "Black Pepper",
+      "notes": "fresh cracked"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Heat olive oil in a pan."
+      "instruction": "Heat olive oil in a saucepan over medium heat."
     },
     {
       "step": 2,
-      "instruction": "Sauté onion until soft."
+      "instruction": "Sauté onion for 3–4 minutes until soft and translucent."
     },
     {
       "step": 3,
-      "instruction": "Add garlic and cook for 30 seconds."
+      "instruction": "Add garlic and cook for 30 seconds until fragrant."
     },
     {
       "step": 4,
-      "instruction": "Add tomato puree and Italian seasoning."
+      "instruction": "Add pureed tomatoes and Italian herbs. Stir well."
     },
     {
       "step": 5,
-      "instruction": "Simmer on low heat for 15–20 minutes."
+      "instruction": "Simmer on low heat for 15–20 minutes, stirring occasionally, until thickened."
     },
     {
       "step": 6,
-      "instruction": "Season with salt and pepper."
-    },
-    {
-      "step": 7,
-      "instruction": "Cool before use."
+      "instruction": "Season with salt and pepper. Cool slightly before using or storing."
     }
   ],
   "notes": [
     {
       "type": "serving",
       "title": "Serving Tip",
-      "content": "Great with any pasta shape. Can be stored in the fridge for up to 5 days or frozen for later use."
-    },
-    {
-      "title": "Tomatoes",
-      "content": "pureed"
-    },
-    {
-      "title": "Onion",
-      "content": "finely chopped"
-    },
-    {
-      "title": "Garlic Cloves",
-      "content": "minced"
+      "content": "Great with any pasta shape. Can be stored in the refrigerator for up to 5 days or frozen for up to 3 months."
     }
   ],
   "related": [
@@ -117,7 +98,7 @@
       "title": "Marinara Sauce"
     },
     {
-      "id": "arrabbiatazauce",
+      "id": "arrabbiatasauce",
       "title": "Arrabbiata Sauce"
     },
     {
@@ -132,5 +113,14 @@
       "id": "whitesauce",
       "title": "White Sauce (Béchamel)"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 4,
+    "cal": 215,
+    "protein": 6,
+    "carbs": 33,
+    "fat": 8,
+    "fiber": 4,
+    "coverage": 100
+  }
 }

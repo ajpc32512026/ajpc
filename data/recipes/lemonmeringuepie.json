@@ -3,99 +3,93 @@
   "title": "Lemon Meringue Pie",
   "emoji": "🍋",
   "category": "Desserts",
-  "description": "A classic tart with buttery pastry, tangy lemon filling, and light fluffy meringue topping.\n\nThe Meringue is belived to have been invented by a Swiss pastry-cook called Gasparini in 1720. It quickly becaome a favourite of the French court and Marie-Antoinette was apparently so fond of it that she used to make it with her own regal bands!",
-  "prepTime": "40-45 mins",
-  "cookTime": "25-30 mins",
-  "totalTime": "1 Hour, 10 - 15 Min",
-  "servings": "6-8",
-  "difficulty": "Medium",
+  "description": "A classic tart with buttery pastry, tangy lemon filling, and light fluffy meringue topping.",
+  "prepTime": "45 min",
+  "cookTime": "25 min",
+  "totalTime": "1 hr 10 min",
+  "servings": "8 servings",
+  "difficulty": "Intermediate",
   "tags": [
     "Baked",
     "Classic",
     "Dessert",
     "Lemon",
     "Pastry",
-    "Rich",
     "Sweet",
-    "Tangy",
-    "Under 30 Minutes",
     "Vegetarian"
   ],
   "ingredients": [
     {
-      "heading": "Base"
+      "heading": "Pastry"
     },
     {
-      "quantity": "1 1/2",
-      "unit": "cups",
-      "item": "Flour",
+      "quantity": "225",
+      "unit": "g",
+      "item": "Plain Flour",
       "notes": "sifted"
     },
     {
-      "quantity": "3",
-      "unit": "tsp",
-      "item": "Sugar"
+      "quantity": "15",
+      "unit": "g",
+      "item": "Icing Sugar"
     },
     {
       "quantity": "140",
       "unit": "g",
-      "item": "Butter"
+      "item": "Unsalted Butter",
+      "notes": "cold, cubed"
     },
     {
       "quantity": "1",
       "unit": "",
-      "item": "Egg",
-      "notes": "separated, lightly beaten"
+      "item": "Egg Yolk"
     },
     {
-      "quantity": "2",
-      "unit": "tbsp",
-      "item": "water",
-      "notes": "approx. cold"
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Cold Water",
+      "notes": "approximately"
     },
     {
       "heading": "Filling"
     },
     {
-      "quantity": "1/2",
-      "unit": "cup",
+      "quantity": "60",
+      "unit": "g",
       "item": "Cornflour"
     },
     {
-      "quantity": "1",
-      "unit": "cup",
-      "item": "Sugar"
+      "quantity": "200",
+      "unit": "g",
+      "item": "Caster Sugar"
     },
     {
-      "quantity": "1/2",
-      "unit": "cup",
+      "quantity": "125",
+      "unit": "ml",
       "item": "Lemon Juice"
     },
     {
-      "quantity": "1 1/4",
-      "unit": "cups",
-      "item": "water",
-      "notes": "cold"
+      "quantity": "310",
+      "unit": "ml",
+      "item": "Water"
     },
     {
-      "quantity": "2",
-      "unit": "tsp",
+      "quantity": "10",
+      "unit": "g",
       "item": "Lemon Zest"
     },
     {
       "quantity": "3",
       "unit": "",
-      "item": "Eggs",
-      "notes": "separated"
-    },
-    {
-      "heading": "Topping"
+      "item": "Egg Yolks"
     },
     {
       "quantity": "60",
       "unit": "g",
-      "item": "Butter",
-      "notes": "unsalted"
+      "item": "Unsalted Butter"
+    },
+    {
+      "heading": "Meringue"
     },
     {
       "quantity": "3",
@@ -103,9 +97,9 @@
       "item": "Egg Whites"
     },
     {
-      "quantity": "1/4",
-      "unit": "cup",
-      "item": "Sugar"
+      "quantity": "100",
+      "unit": "g",
+      "item": "Caster Sugar"
     }
   ],
   "method": [
@@ -115,97 +109,91 @@
     },
     {
       "step": 2,
-      "instruction": "Sift flour and icing sugar into a bowl. Rub in butter. Add yolk and enough water to bind ingredients."
+      "instruction": "Sift flour and icing sugar into a bowl. Rub in butter until the mixture resembles fine breadcrumbs."
     },
     {
       "step": 3,
-      "instruction": "Form dough into a ball, knead gently on a lightly floured surface until smooth. Cover and refrigerate 30 minutes."
+      "instruction": "Add egg yolk and enough cold water to make the ingredients cling together. Press dough into a ball, knead gently on a lightly floured surface until smooth. Cover and refrigerate for 30 minutes."
     },
     {
       "step": 4,
-      "instruction": "Roll dough to line prepared tin. Trim edges. Place tin on oven tray, line with paper and fill with rice or dried beans."
+      "instruction": "Roll dough on a lightly floured surface large enough to line the prepared tin. Trim edges. Place tin on an oven tray, line pastry with baking paper and fill with rice or dried beans."
     },
     {
       "step": 5,
-      "instruction": "Bake in moderate oven 10 minutes. Remove paper and beans, bake further 10 minutes until lightly browned. Cool to room temperature."
+      "instruction": "Bake in a moderately hot oven at 190°C for 10 minutes. Remove paper and beans, bake for a further 10 minutes until pastry is lightly browned. Cool to room temperature."
     },
     {
       "step": 6,
-      "instruction": "Combine cornflour and sugar in a pan. Gradually stir in lemon juice and water until smooth."
+      "instruction": "For the filling: combine cornflour and caster sugar in a saucepan. Gradually stir in lemon juice and water until smooth."
     },
     {
       "step": 7,
-      "instruction": "Cook over heat until mixture boils and thickens (should be very thick)."
+      "instruction": "Stir over medium heat until the mixture boils and thickens — it should be very thick. Reduce heat, quickly stir in lemon zest, egg yolks, and butter. Stir until butter is melted. Cover and cool to room temperature."
     },
     {
       "step": 8,
-      "instruction": "Reduce heat, quickly stir in lemon rind, yolks, and butter. Stir until butter melts. Cover and cool to room temperature."
+      "instruction": "Spread cooled filling into the cooled pastry case."
     },
     {
       "step": 9,
-      "instruction": "Spread filling into cooled pastry case."
+      "instruction": "For the meringue: beat egg whites in a small bowl with an electric mixer until soft peaks form. Gradually add caster sugar, beating well between additions until the sugar dissolves and the mixture is thick and glossy."
     },
     {
       "step": 10,
-      "instruction": "Beat egg whites in a small bowl with an electric mixer until soft peaks form. Gradually add sugar, beating until dissolved and mixture is thick and glossy."
+      "instruction": "Spread meringue over the lemon filling, sealing to the edges of the pastry."
     },
     {
       "step": 11,
-      "instruction": "Spread meringue over lemon filling and bake in moderate oven about 5 minutes or until lightly browned."
+      "instruction": "Bake in a moderate oven at 180°C for about 5 minutes or until meringue is lightly browned. Serve hot or cold."
     }
   ],
   "notes": [
     {
       "type": "technique",
-      "title": "Technique",
-      "content": "Can be made a day ahead"
+      "title": "Meringue Tips",
+      "content": "Add sugar gradually while beating — dissolving it completely between additions ensures a glossy, stable meringue that will not weep or shrink."
     },
     {
       "type": "storage",
       "title": "Storage",
-      "content": "Covered in refigerator"
-    },
-    {
-      "type": "storage",
-      "title": "Storage",
-      "content": "Freeze not Suitable"
-    },
-    {
-      "type": "storage",
-      "title": "Storage",
-      "content": "Microwave not Suitable"
+      "content": "Can be made a day ahead. Keep covered in the refrigerator. Not suitable for freezing or microwaving."
     },
     {
       "type": "acknowledgement",
       "title": "Recipe Source",
-      "content": "The Australian Woman's Weekly Home Library ~ Sweet Old-Fashioned Favourites ISBN: 0-949128-82-1. ~ Page 71"
-    },
-    {
-      "type": "acknowledgement",
-      "title": "Copyright",
-      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+      "content": "The Australian Women's Weekly Home Library — Sweet Old-Fashioned Favourites, page 71."
     }
   ],
   "related": [
     {
-      "id": "bistro-lemonmeringuepie",
-      "title": "Lemon Meringue Pie"
+      "id": "plain-cheesecake",
+      "title": "Plain Cheesecake (Classic No Bake)"
     },
     {
       "id": "bistro-profiteroles",
       "title": "Profiteroles"
     },
     {
-      "id": "bistro-mudcake",
-      "title": "Mud Cake"
+      "id": "lemoncoconut",
+      "title": "Lemon Coconut Cake"
     },
     {
-      "id": "cinntwists",
-      "title": "Cinnamon Twists"
+      "id": "roulade",
+      "title": "Strawberry Meringue Roulade"
     },
     {
-      "id": "plain-cheesecake",
-      "title": "Plain Cheesecake (Classic No Bake)"
+      "id": "tiramisu",
+      "title": "Tiramisu Gateau"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 8,
+    "cal": 586,
+    "protein": 14,
+    "carbs": 70,
+    "fat": 28,
+    "fiber": 1,
+    "coverage": 100
+  }
 }

@@ -2,83 +2,94 @@
   "id": "teriyakimarinade",
   "title": "Teriyaki Marinade",
   "emoji": "🍖",
-  "category": "Dinner",
-  "description": "A sweet-savory marinade that makes chicken tender, juicy, and full of flavour. Perfect for grilling, baking, or stir-frying.",
+  "category": "Sauces",
+  "description": "A sweet-savoury marinade that makes chicken tender, juicy, and full of flavour. Perfect for grilling, baking, or stir-frying.",
+  "prepTime": "5 min",
+  "cookTime": "0 min",
+  "totalTime": "5 min",
+  "servings": "1 batch",
+  "difficulty": "Beginner",
+  "tags": [
+    "Japanese",
+    "Make Ahead",
+    "Sauce",
+    "Savoury",
+    "Sweet",
+    "Vegan"
+  ],
   "ingredients": [
     {
-      "quantity": "to taste",
-      "unit": "",
-      "item": "Sauces",
-      "ingredientKey": "Sauces"
+      "quantity": "80",
+      "unit": "ml",
+      "item": "Soy Sauce"
     },
     {
       "quantity": "30",
       "unit": "ml",
-      "item": "Mirin",
-      "ingredientKey": "Mirin"
+      "item": "Mirin"
     },
     {
-      "quantity": "to taste",
-      "unit": "",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
+      "quantity": "30",
+      "unit": "g",
+      "item": "White Sugar"
     },
     {
-      "quantity": "1",
-      "unit": "teaspoon",
+      "quantity": "3",
+      "unit": "cloves",
       "item": "Garlic",
-      "ingredientKey": "Garlic"
+      "notes": "crushed"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Combine all ingredients in a bowl until the sugar dissolves."
+      "instruction": "Combine soy sauce, mirin, sugar, and garlic in a bowl. Stir until the sugar dissolves completely."
     },
     {
       "step": 2,
-      "instruction": "Reserve half for glazing cooked chicken, and use the remaining half to marinate chicken for 15 minutes up to overnight in the fridge."
+      "instruction": "Reserve half for glazing during cooking. Use the remaining half to marinate chicken for 15 minutes at room temperature or up to overnight in the refrigerator."
     },
     {
       "step": 3,
-      "instruction": "Use as a glaze by brushing over chicken during the last minutes of cooking until thick and shiny."
+      "instruction": "When cooking, brush the reserved marinade over the chicken during the last few minutes until thick, glossy, and caramelised."
     }
   ],
   "notes": [
     {
-      "title": "Notes & Tips",
-      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+      "type": "technique",
+      "title": "Dual Purpose",
+      "content": "This marinade works as both a marinade and a glaze. Always reserve half before adding raw chicken — never reuse marinade that has touched raw meat."
     }
-  ],
-  "tags": [
-    "Dinner",
-    "Gluten-Free",
-    "Japanese",
-    "Make Ahead",
-    "Savoury",
-    "Sweet",
-    "Vegan"
   ],
   "related": [
     {
       "id": "chickenteriyaki",
-      "title": "Chicken Teriyaki with Marinade"
+      "title": "Chicken Teriyaki"
+    },
+    {
+      "id": "teriyakisauce",
+      "title": "Teriyaki Sauce"
     },
     {
       "id": "mongoliansauce",
       "title": "Mongolian Stir-Fry Sauce"
     },
     {
+      "id": "honeygarlicsauce",
+      "title": "Honey Garlic Sauce"
+    },
+    {
       "id": "sataysauce",
       "title": "Satay Sauce"
-    },
-    {
-      "id": "vindaloopaste",
-      "title": "Vindaloo Paste"
-    },
-    {
-      "id": "kormapaste",
-      "title": "Homemade Korma Paste"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 1,
+    "cal": 678,
+    "protein": 26,
+    "carbs": 149,
+    "fat": 2,
+    "fiber": 7,
+    "coverage": 100
+  }
 }

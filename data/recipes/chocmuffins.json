@@ -8,20 +8,19 @@
   "cookTime": "25 min",
   "totalTime": "45 min",
   "servings": "12 muffins",
-  "difficulty": "Medium",
+  "difficulty": "Intermediate",
   "tags": [
     "Baked",
-    "Breakfast",
     "Chocolate",
-    "Coffee",
-    "Creamy",
-    "Dessert",
     "Rich",
     "Sweet",
     "Under 1 Hour",
     "Vegetarian"
   ],
   "ingredients": [
+    {
+      "heading": "Muffins"
+    },
     {
       "quantity": "220",
       "unit": "g",
@@ -33,9 +32,9 @@
       "item": "Cocoa Powder"
     },
     {
-      "quantity": "110-150",
+      "quantity": "130",
       "unit": "g",
-      "item": "Sugar"
+      "item": "White Sugar"
     },
     {
       "quantity": "4",
@@ -43,7 +42,7 @@
       "item": "Baking Powder"
     },
     {
-      "quantity": "1-2",
+      "quantity": "2",
       "unit": "g",
       "item": "Bi-Carb Soda"
     },
@@ -51,19 +50,18 @@
       "quantity": "2",
       "unit": "g",
       "item": "Coffee",
-      "notes": "Granuls"
+      "notes": "instant"
     },
     {
       "quantity": "100",
       "unit": "g",
-      "item": "Butter",
-      "notes": "Unsalted"
+      "item": "Unsalted Butter",
+      "notes": "melted"
     },
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Oil",
-      "notes": "Vegetable"
+      "item": "Vegetable Oil"
     },
     {
       "quantity": "2",
@@ -73,23 +71,23 @@
     {
       "quantity": "180",
       "unit": "ml",
-      "item": "Milk"
+      "item": "Whole Milk"
     },
     {
       "quantity": "5",
       "unit": "ml",
-      "item": "Vanilla"
+      "item": "Vanilla Extract"
     },
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Cream"
+      "item": "Thickened Cream"
     },
     {
       "quantity": "120",
       "unit": "g",
-      "item": "dark cooking chocolate",
-      "notes": "70-80% cocoa"
+      "item": "Dark Chocolate",
+      "notes": "70-80% cocoa, chips or chopped"
     },
     {
       "heading": "Ganache"
@@ -97,45 +95,44 @@
     {
       "quantity": "200",
       "unit": "g",
-      "item": "dark cooking chocolate",
-      "notes": "70-80% cocoa"
+      "item": "Dark Chocolate",
+      "notes": "70-80% cocoa, chopped"
     },
     {
       "quantity": "200",
       "unit": "ml",
-      "item": "Cream"
+      "item": "Thickened Cream"
     },
     {
-      "quantity": "20-30",
+      "quantity": "25",
       "unit": "g",
-      "item": "Butter",
-      "notes": "Unsalted"
+      "item": "Unsalted Butter",
+      "notes": "softened"
     },
     {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Vanilla",
-      "notes": "Essence"
+      "quantity": "5",
+      "unit": "ml",
+      "item": "Vanilla Extract"
     },
     {
-      "quantity": "2-3",
+      "quantity": "2",
       "unit": "g",
       "item": "Coffee",
-      "notes": "Granuls"
+      "notes": "instant"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Preheat oven to 175°C (350°F). Line a 12-cup muffin tin with paper liners."
+      "instruction": "Preheat oven to 175°C. Line a 12-cup muffin tin with paper liners."
     },
     {
       "step": 2,
-      "instruction": "In a large bowl, whisk together flour, cocoa powder, sugar, baking powder, baking soda, and instant coffee (if using)."
+      "instruction": "In a large bowl, whisk together flour, cocoa powder, sugar, baking powder, bi-carb soda, and instant coffee."
     },
     {
       "step": 3,
-      "instruction": "In another bowl, whisk together melted butter, oil, eggs, milk, cream, and vanilla until well combined."
+      "instruction": "In another bowl, whisk together melted butter, oil, eggs, milk, cream, and vanilla extract until well combined."
     },
     {
       "step": 4,
@@ -147,11 +144,11 @@
     },
     {
       "step": 6,
-      "instruction": "Fill muffin cups about 3/4 full using a large spoon or ice cream scoop."
+      "instruction": "Fill muffin cups about three-quarters full using a large spoon or ice cream scoop."
     },
     {
       "step": 7,
-      "instruction": "Bake at 175°C for 22-25 minutes, or until a skewer inserted into the center comes out with just a few moist crumbs."
+      "instruction": "Bake for 22–25 minutes, or until a skewer inserted into the centre comes out with just a few moist crumbs."
     },
     {
       "step": 8,
@@ -159,23 +156,23 @@
     },
     {
       "step": 9,
-      "instruction": "For the ganache: Heat cream in a small pot until steaming but not boiling."
+      "instruction": "For the ganache: Heat cream in a small saucepan until steaming but not boiling."
     },
     {
       "step": 10,
-      "instruction": "Place chocolate chips in a heatproof bowl and pour the hot cream over them."
+      "instruction": "Place chopped chocolate in a heatproof bowl and pour the hot cream over it."
     },
     {
       "step": 11,
-      "instruction": "Let sit for 5 minutes without stirring, then stir gently from the center outward until smooth and glossy."
+      "instruction": "Let sit for 5 minutes without stirring, then stir gently from the centre outward until smooth and glossy."
     },
     {
       "step": 12,
-      "instruction": "Add softened butter and stir until fully incorporated and silky. Add vanilla and instant coffee if using."
+      "instruction": "Add softened butter and stir until fully incorporated and silky. Add vanilla extract and instant coffee if using."
     },
     {
       "step": 13,
-      "instruction": "Let ganache rest until it reaches your desired consistency: 10-15 minutes for dipping, longer for spreading, or cool to room temperature for piping or filling."
+      "instruction": "Let ganache rest until it reaches desired consistency: 10–15 minutes for dipping, longer for spreading."
     },
     {
       "step": 14,
@@ -183,29 +180,19 @@
     },
     {
       "step": 15,
-      "instruction": "Chill briefly in the fridge (10-15 minutes) if you want the ganache to set firmly."
+      "instruction": "Chill briefly in the refrigerator for 10–15 minutes if you want the ganache to set firmly."
     }
   ],
   "notes": [
     {
-      "type": "tip",
-      "title": "Extra Soft Texture",
-      "content": "Add an extra tablespoon of oil if you prefer an ultra-soft, tender crumb."
+      "type": "technique",
+      "title": "Tall Domes",
+      "content": "If the muffins do not dome beautifully, increase the oven temperature by 10–20°C for the first 5 minutes of baking, then reduce to 175°C for the remainder."
     },
     {
-      "type": "tip",
-      "title": "Crumbly Texture Fix",
-      "content": "These muffins are intentionally soft and plush. If they feel too crumbly or fall apart when cold or reheated, try reducing the baking time by 2-3 minutes or adding an extra tablespoon of cream next time."
-    },
-    {
-      "type": "tip",
-      "title": "Getting That Dome",
-      "content": "If the muffins don't dome beautifully, increase the oven temperature by 10-20°C for the first 5 minutes of baking, then reduce to 175°C for the remainder."
-    },
-    {
-      "type": "acknowledgement",
-      "title": "Copyright",
-      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+      "type": "technique",
+      "title": "Soft Texture",
+      "content": "Add an extra tablespoon of oil if you prefer an ultra-soft, tender crumb. These muffins are intentionally soft — if they feel crumbly when cold, reduce baking time by 2–3 minutes next time."
     }
   ],
   "related": [
@@ -218,16 +205,25 @@
       "title": "Double Chocolate Chip Cookies"
     },
     {
-      "id": "carrotcake",
+      "id": "classiccarrotcake",
       "title": "Classic Carrot Cake"
     },
     {
-      "id": "applecinnscrolls",
-      "title": "Apple & Cinnamon Scrolls"
+      "id": "chocolatecake",
+      "title": "Chocolate Cake"
     },
     {
-      "id": "carrotcakehomebatch",
-      "title": "Carrot Cake – Home Batch"
+      "id": "chocolatemudcake",
+      "title": "Chocolate Mud Cake"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 12,
+    "cal": 491,
+    "protein": 7,
+    "carbs": 44,
+    "fat": 32,
+    "fiber": 3,
+    "coverage": 100
+  }
 }

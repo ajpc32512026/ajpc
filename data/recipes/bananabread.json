@@ -7,8 +7,8 @@
   "prepTime": "15 min",
   "cookTime": "55 min",
   "totalTime": "1 hr 10 min",
-  "servings": "1 loaf",
-  "difficulty": "Easy",
+  "servings": "9 slices",
+  "difficulty": "Beginner",
   "tags": [
     "Banana",
     "Bread",
@@ -17,63 +17,54 @@
     "Make Ahead",
     "Rich",
     "Sweet",
-    "Under 30 Minutes",
     "Vegetarian"
   ],
   "ingredients": [
     {
       "quantity": "3",
       "unit": "",
-      "item": "Banana",
-      "ingredientKey": "Banana"
+      "item": "Bananas",
+      "notes": "mashed"
     },
     {
       "quantity": "80",
       "unit": "g",
-      "item": "Butter",
-      "ingredientKey": "Butter"
+      "item": "Unsalted Butter"
     },
     {
       "quantity": "150",
       "unit": "g",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
+      "item": "Brown Sugar"
     },
     {
       "quantity": "1",
       "unit": "",
-      "item": "Eggs",
-      "ingredientKey": "Eggs"
+      "item": "Eggs"
+    },
+    {
+      "quantity": "5",
+      "unit": "ml",
+      "item": "Vanilla Extract"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Bi-Carb Soda"
     },
     {
       "quantity": "1",
-      "unit": "tsp",
-      "item": "Vanilla",
-      "ingredientKey": "Vanilla"
-    },
-    {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Bi-Carb Soda",
-      "ingredientKey": "Bi-Carb Soda"
-    },
-    {
-      "quantity": "1/4",
-      "unit": "tsp",
-      "item": "Salt",
-      "ingredientKey": "Salt"
+      "unit": "g",
+      "item": "Salt"
     },
     {
       "quantity": "190",
       "unit": "g",
-      "item": "Flour",
-      "ingredientKey": "Flour"
+      "item": "Plain Flour"
     },
     {
       "quantity": "60",
       "unit": "g",
-      "item": "Walnuts",
-      "ingredientKey": "Walnuts"
+      "item": "Walnuts"
     }
   ],
   "method": [
@@ -83,19 +74,19 @@
     },
     {
       "step": 2,
-      "instruction": "In a large bowl, mix mashed bananas, butter, brown sugar, egg, and vanilla until well combined."
+      "instruction": "In a large bowl, mix mashed bananas, melted butter, brown sugar, egg, and vanilla extract until well combined."
     },
     {
       "step": 3,
-      "instruction": "Sprinkle over baking soda and salt, then gently fold in flour until just combined."
+      "instruction": "Sprinkle over bi-carb soda and salt, then gently fold in plain flour until just combined."
     },
     {
       "step": 4,
-      "instruction": "Fold through walnuts if using, taking care not to overmix."
+      "instruction": "Fold through walnuts, taking care not to overmix."
     },
     {
       "step": 5,
-      "instruction": "Pour batter into prepared tin and smooth the top."
+      "instruction": "Pour batter into prepared 23 cm loaf tin and smooth the top."
     },
     {
       "step": 6,
@@ -106,7 +97,7 @@
     {
       "type": "serving",
       "title": "Serving Tip",
-      "content": "Slice thick, toast lightly, and spread with proper butter while still warm."
+      "content": "Slice thick, toast lightly, and spread with butter while still warm."
     },
     {
       "type": "variation",
@@ -114,25 +105,9 @@
       "content": "Walnuts can be replaced with dark chocolate chips or omitted entirely for a plain loaf."
     },
     {
-      "type": "copyright",
-      "title": "Copyright",
-      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
-    },
-    {
-      "title": "Bananas",
-      "content": "very ripe, mashed"
-    },
-    {
-      "title": "Butter",
-      "content": "melted and cooled"
-    },
-    {
-      "title": "Egg",
-      "content": "beaten"
-    },
-    {
-      "title": "Walnuts",
-      "content": "optional, chopped"
+      "type": "technique",
+      "title": "Portioning Guide",
+      "content": "Cuts cleanly into 9 slices at approximately 25 mm thick. For thinner slices, slice at 20 mm for up to 12 serves."
     }
   ],
   "related": [
@@ -156,5 +131,14 @@
       "id": "apricotflan",
       "title": "Apricot Flan"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 9,
+    "cal": 296,
+    "protein": 5,
+    "carbs": 41,
+    "fat": 13,
+    "fiber": 2,
+    "coverage": 100
+  }
 }

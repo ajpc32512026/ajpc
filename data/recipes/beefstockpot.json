@@ -7,8 +7,8 @@
   "prepTime": "10 min",
   "cookTime": "20 min",
   "totalTime": "30 min",
-  "servings": "4-6 servings",
-  "difficulty": "Easy",
+  "servings": "4 servings",
+  "difficulty": "Intermediate",
   "tags": [
     "Alcohol",
     "Beef",
@@ -24,77 +24,86 @@
     {
       "quantity": "1",
       "unit": "",
-      "item": "Onion"
+      "item": "Brown Onion",
+      "notes": "sliced"
     },
     {
       "quantity": "1",
       "unit": "",
-      "item": "Carrots"
+      "item": "Carrot",
+      "notes": "peeled and diced"
     },
     {
       "quantity": "2",
       "unit": "stalks",
-      "item": "Celery"
+      "item": "Celery",
+      "notes": "chopped"
     },
     {
       "quantity": "3",
       "unit": "cloves",
-      "item": "Garlic"
+      "item": "Garlic",
+      "notes": "crushed"
     },
     {
       "quantity": "15",
       "unit": "ml",
-      "item": "Oil"
+      "item": "Olive Oil"
     },
     {
       "quantity": "150",
       "unit": "g",
-      "item": "Mushrooms"
+      "item": "Mushrooms",
+      "notes": "sliced"
     },
     {
       "quantity": "2",
       "unit": "sprigs",
-      "item": "Thyme"
+      "item": "Thyme",
+      "notes": "fresh"
     },
     {
       "quantity": "2",
-      "unit": "tsp",
-      "item": "Oregano"
+      "unit": "sprigs",
+      "item": "Oregano",
+      "notes": "fresh"
     },
     {
-      "quantity": "2",
-      "unit": "tbsp",
-      "item": "Tomatoes"
+      "quantity": "40",
+      "unit": "g",
+      "item": "Tomato Paste"
     },
     {
-      "quantity": "2",
-      "unit": "tbsp",
-      "item": "Sugar"
+      "quantity": "40",
+      "unit": "g",
+      "item": "Brown Sugar",
+      "notes": "packed"
     },
     {
-      "quantity": "1 1/2",
-      "unit": "cups",
-      "item": "Wine"
+      "quantity": "375",
+      "unit": "ml",
+      "item": "Red Wine"
     },
     {
       "quantity": "500",
       "unit": "ml",
-      "item": "Stock"
+      "item": "Beef Stock"
     },
     {
-      "quantity": "to taste",
-      "unit": "",
-      "item": "Salt"
+      "quantity": "5",
+      "unit": "g",
+      "item": "Salt",
+      "notes": "to taste"
     },
     {
-      "quantity": "1 1/2",
-      "unit": "tbsp",
-      "item": "Flour"
+      "quantity": "20",
+      "unit": "g",
+      "item": "Plain Flour"
     },
     {
       "quantity": "60",
       "unit": "g",
-      "item": "Butter"
+      "item": "Unsalted Butter"
     },
     {
       "quantity": "800",
@@ -105,7 +114,7 @@
   "method": [
     {
       "step": 1,
-      "instruction": "In a large pot over high heat, add a drizzle of olive oil. Cook onion, carrot, celery, and garlic for 3-4 minutes until softened and fragrant."
+      "instruction": "In a large pot over high heat, add olive oil. Cook onion, carrot, celery, and garlic for 3–4 minutes until softened and fragrant."
     },
     {
       "step": 2,
@@ -113,23 +122,23 @@
     },
     {
       "step": 3,
-      "instruction": "Pour in the red wine and bring to a boil. Let it reduce by half, about 3-4 minutes."
+      "instruction": "Pour in the red wine and bring to a boil. Let it reduce by half, about 3–4 minutes."
     },
     {
       "step": 4,
-      "instruction": "Add beef stock, bring to a simmer, and cook for 10 minutes. Season with salt and pepper to taste."
+      "instruction": "Add beef stock, bring to a simmer, and cook for 10 minutes. Season with salt to taste."
     },
     {
       "step": 5,
-      "instruction": "While the stock simmers, mash the flour and butter together to form a smooth paste (beurre manié)."
+      "instruction": "While the stock simmers, mash the plain flour and unsalted butter together to form a smooth paste (beurre manié)."
     },
     {
       "step": 6,
-      "instruction": "Whisk the butter-flour paste into the simmering stock to thicken. Continue simmering for 2-3 minutes until the sauce coats the back of a spoon."
+      "instruction": "Whisk the butter-flour paste into the simmering stock to thicken. Continue simmering for 2–3 minutes until the sauce coats the back of a spoon."
     },
     {
       "step": 7,
-      "instruction": "In a separate hot pan with a little oil, sear the diced scotch fillet over high heat until browned on all sides but still medium-rare in the center, about 2-3 minutes."
+      "instruction": "In a separate hot pan with a little oil, sear the diced scotch fillet over high heat until browned on all sides but still medium-rare in the centre, about 2–3 minutes."
     },
     {
       "step": 8,
@@ -146,28 +155,42 @@
       "type": "technique",
       "title": "Beurre Manié",
       "content": "This butter-flour paste is a French technique for thickening sauces without lumps. Mix it thoroughly before whisking into hot liquid."
+    },
+    {
+      "type": "technique",
+      "title": "Why Scotch Fillet",
+      "content": "Scotch fillet is ideal for this recipe because it stays tender during quick, high-heat searing. Tougher cuts like chuck or brisket need long slow braising and won't work in a 20-minute stock pot. If substituting, use rib-eye or sirloin — anything with good marbling that can be served medium-rare."
     }
   ],
   "related": [
     {
+      "id": "beefstroganoff",
+      "title": "Beef Stroganoff"
+    },
+    {
+      "id": "beefvindaloo",
+      "title": "Beef Vindaloo"
+    },
+    {
+      "id": "mongolianbeef",
+      "title": "Mongolian Beef"
+    },
+    {
+      "id": "beefstockpot",
+      "title": "Beef Stock Pot"
+    },
+    {
       "id": "bistro-chickenpicante",
       "title": "Chicken Picante"
-    },
-    {
-      "id": "bistro-vealcordonbleu",
-      "title": "Veal Cordon Bleu"
-    },
-    {
-      "id": "tomatoflan",
-      "title": "Tomato and Olive Flan"
-    },
-    {
-      "id": "crepes",
-      "title": "Crepes with Maple Syrup & Butter"
-    },
-    {
-      "id": "chouxpastry",
-      "title": "Choux Pastry (Profiteroles)"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 4,
+    "cal": 1125,
+    "protein": 69,
+    "carbs": 97,
+    "fat": 54,
+    "fiber": 32,
+    "coverage": 100
+  }
 }

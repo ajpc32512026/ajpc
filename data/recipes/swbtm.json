@@ -1,104 +1,111 @@
 {
-  "id": "swbtm",
+  "id": "softwhitebreadtangzhongmethod",
   "title": "Soft White Bread (Tangzhong Method)",
   "emoji": "🍞",
   "category": "Baking",
-  "description": "A soft, pale, everyday loaf that stays tender for days without milk, butter, or yellowing — thanks to the tangzhong technique. Note: tangzhong water has been increased to account for evaporation.",
+  "description": "A soft, pale, everyday loaf that stays tender for days without milk, butter, or yellowing — thanks to the tangzhong technique.",
   "prepTime": "30 min",
   "cookTime": "30 min",
-  "totalTime": "3 hours",
+  "totalTime": "3 hr",
   "servings": "1 loaf",
-  "difficulty": "Medium",
+  "difficulty": "Intermediate",
+  "tags": [
+    "Bread",
+    "Classic",
+    "Make Ahead",
+    "Vegan"
+  ],
   "ingredients": [
+    {
+      "heading": "Tangzhong"
+    },
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Flour",
-      "ingredientKey": "Flour"
+      "item": "Bread Flour"
     },
     {
       "quantity": "190",
       "unit": "g",
-      "item": "water (accounts for evaporation during cooking tangzhong)"
+      "item": "Water",
+      "notes": "for tangzhong — increased to account for evaporation"
+    },
+    {
+      "heading": "Main Dough"
     },
     {
       "quantity": "560",
       "unit": "g",
-      "item": "Flour",
-      "ingredientKey": "Flour"
+      "item": "Bread Flour"
     },
     {
       "quantity": "180",
       "unit": "g",
-      "item": "water"
+      "item": "Water"
     },
     {
-      "quantity": "15-20",
-      "unit": "g",
-      "item": "Oil",
-      "ingredientKey": "Oil"
-    },
-    {
-      "quantity": "10",
-      "unit": "g",
-      "item": "Salt",
-      "ingredientKey": "Salt"
+      "quantity": "18",
+      "unit": "ml",
+      "item": "Vegetable Oil"
     },
     {
       "quantity": "10",
       "unit": "g",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
+      "item": "Salt"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "White Sugar"
     },
     {
       "quantity": "7",
       "unit": "g",
       "item": "Yeast",
-      "ingredientKey": "Yeast"
+      "notes": "instant dried"
     },
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Bread Improver",
-      "ingredientKey": "Bread Improver"
+      "item": "Bread Improver"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Make the tangzhong: In a small saucepan, combine 30g flour and 190g water. Cook over medium heat, whisking constantly, until it thickens into a paste (around 65°C). Remove from heat and let cool to room temperature."
+      "instruction": "Make the tangzhong: in a small saucepan, combine 30 g bread flour and 190 g water. Cook over medium heat, whisking constantly, until it thickens into a paste at approximately 65°C. Remove from heat and let cool to room temperature. It should weigh approximately 150–160 g after cooking."
     },
     {
       "step": 2,
-      "instruction": "In a large bowl, combine the 560g flour, salt, sugar, yeast, and bread improver (if using)."
+      "instruction": "In a large bowl, combine bread flour, salt, sugar, yeast, and bread improver."
     },
     {
       "step": 3,
-      "instruction": "Add the cooled tangzhong, 180g water, and oil to the dry ingredients."
+      "instruction": "Add the cooled tangzhong, water, and vegetable oil to the dry ingredients."
     },
     {
       "step": 4,
-      "instruction": "Mix until a rough dough forms, then knead for 10-12 minutes by hand (or 7-8 minutes in a stand mixer) until smooth, elastic, and slightly tacky but not sticky."
+      "instruction": "Mix until a rough dough forms, then knead for 10–12 minutes by hand or 7–8 minutes in a stand mixer until smooth, elastic, and slightly tacky but not sticky."
     },
     {
       "step": 5,
-      "instruction": "Place dough in a lightly oiled bowl, cover with a damp tea towel, and let rise in a warm place for 1-1.5 hours until doubled in size."
+      "instruction": "Place dough in a lightly oiled bowl, cover with a damp tea towel, and let rise in a warm place for 1–1½ hours until doubled in size."
     },
     {
       "step": 6,
-      "instruction": "Punch down the dough and shape into a loaf. Place in a greased loaf tin (approximately 20cm x 10cm)."
+      "instruction": "Punch down the dough and shape into a loaf. Place in a greased loaf tin approximately 20 cm × 10 cm."
     },
     {
       "step": 7,
-      "instruction": "Cover and let rise for another 45-60 minutes until the dough has risen about 1-2cm above the rim of the tin."
+      "instruction": "Cover and let rise for another 45–60 minutes until the dough has risen about 1–2 cm above the rim of the tin."
     },
     {
       "step": 8,
-      "instruction": "Preheat oven to 180°C (350°F)."
+      "instruction": "Preheat oven to 180°C."
     },
     {
       "step": 9,
-      "instruction": "Bake for 28-32 minutes until the top is golden brown and the loaf sounds hollow when tapped on the bottom."
+      "instruction": "Bake for 28–32 minutes until the top is golden brown and the loaf sounds hollow when tapped on the bottom."
     },
     {
       "step": 10,
@@ -109,28 +116,28 @@
     {
       "type": "technique",
       "title": "Why Tangzhong Works",
-      "content": "The tangzhong (water roux) pre-gelatinizes the starch, allowing the dough to hold more moisture. This keeps the bread soft and fresh for 2-3 days without refrigeration."
+      "content": "The tangzhong pre-gelatinises the starch, allowing the dough to hold more moisture. This keeps the bread soft and fresh for 2–3 days without refrigeration."
     },
     {
-      "type": "tip",
+      "type": "technique",
       "title": "Neutral Oil for Pale Crumb",
-      "content": "Using neutral oil instead of butter keeps the crumb pale white. The tangzhong locks in moisture without making the dough sticky."
+      "content": "Using vegetable oil instead of butter keeps the crumb pale white. The tangzhong locks in moisture without making the dough sticky."
     },
     {
-      "type": "tip",
+      "type": "technique",
       "title": "Weighing Tangzhong",
-      "content": "For best results, weigh your tangzhong after cooking to ensure hydration is correct. It should weigh approximately 150-160g after cooking."
+      "content": "For best results, weigh your tangzhong after cooking to ensure hydration is correct. It should weigh approximately 150–160 g."
     }
   ],
-  "tags": [
-    "Bread",
-    "Classic",
-    "Make Ahead",
-    "Soft",
-    "Under 1 Hour",
-    "Vegan"
-  ],
   "related": [
+    {
+      "id": "tangzhongguide",
+      "title": "Tangzhong Guide"
+    },
+    {
+      "id": "swbtm2",
+      "title": "Soft White Bread 2 (Tangzhong)"
+    },
     {
       "id": "turkishbread",
       "title": "Traditional Turkish Bread"
@@ -140,16 +147,17 @@
       "title": "Dark Rye Bread"
     },
     {
-      "id": "focaccia-high",
-      "title": "High-Hydration Focaccia"
-    },
-    {
-      "id": "pizzadough",
-      "title": "Ultimate Homemade Pizza Dough"
-    },
-    {
-      "id": "hamburger",
-      "title": "Hamburger Buns"
+      "id": "sub",
+      "title": "Homemade Sub Buns"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 1,
+    "cal": 2368,
+    "protein": 74,
+    "carbs": 441,
+    "fat": 27,
+    "fiber": 16,
+    "coverage": 100
+  }
 }

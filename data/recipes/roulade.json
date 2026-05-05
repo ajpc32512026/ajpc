@@ -1,95 +1,104 @@
 {
-  "id": "roulade",
+  "id": "strawberrymeringueroulade",
   "title": "Strawberry Meringue Roulade",
   "emoji": "🍓",
-  "category": "Dinner",
+  "category": "Desserts",
   "description": "A light and airy meringue roulade filled with whipped cream and fresh strawberries.",
-  "ingredients": [
-    {
-      "quantity": "3",
-      "unit": "egg",
-      "item": "Eggs",
-      "ingredientKey": "Eggs"
-    },
-    {
-      "quantity": "to taste",
-      "unit": "",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
-    },
-    {
-      "quantity": "1",
-      "unit": "tbsp",
-      "item": "Flour",
-      "ingredientKey": "Flour"
-    },
-    {
-      "quantity": "2",
-      "unit": "tsp",
-      "item": "Vinegar",
-      "ingredientKey": "Vinegar"
-    },
-    {
-      "quantity": "300",
-      "unit": "ml",
-      "item": "Cream",
-      "ingredientKey": "Cream"
-    },
-    {
-      "quantity": "250",
-      "unit": "g",
-      "item": "Strawberries",
-      "ingredientKey": "Strawberries"
-    },
-    {
-      "quantity": "2",
-      "unit": "tbsp",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
-    }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "Preheat oven to 180°C. Line a 25cm x 30cm lamington/biscuit pan with baking paper and lightly spray with oil to help paper stick."
-    },
-    {
-      "step": 2,
-      "instruction": "Beat egg whites in a medium bowl with electric beaters until soft peaks form. Gradually beat in sugar until mixture is thick and glossy. Stir in cornflour and vinegar."
-    },
-    {
-      "step": 3,
-      "instruction": "Spread meringue into pan and bake for 15 minutes. Cool completely."
-    },
-    {
-      "step": 4,
-      "instruction": "Turn meringue out onto a large piece of baking paper. Spread whipped cream over meringue. Sprinkle strawberries on top. Roll meringue from the long side, using the paper to guide, into a roulade shape."
-    },
-    {
-      "step": 5,
-      "instruction": "Serve roulade dusted with icing sugar."
-    }
-  ],
-  "notes": [
-    {
-      "title": "Serving Tip",
-      "content": "Best served immediately for maximum fluffiness. Can be made a few hours ahead, but store covered in the fridge."
-    },
-    {
-      "title": "Serving Tip",
-      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
-    }
-  ],
+  "prepTime": "20 min",
+  "cookTime": "15 min",
+  "totalTime": "35 min",
+  "servings": "6 servings",
+  "difficulty": "Intermediate",
   "tags": [
     "Australian",
     "Baked",
     "Classic",
     "Creamy",
     "Dessert",
-    "Dinner",
-    "Savoury",
     "Sweet",
     "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "quantity": "3",
+      "unit": "",
+      "item": "Egg Whites"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Caster Sugar"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Cornflour"
+    },
+    {
+      "quantity": "10",
+      "unit": "ml",
+      "item": "White Vinegar"
+    },
+    {
+      "quantity": "300",
+      "unit": "ml",
+      "item": "Thickened Cream",
+      "notes": "whipped"
+    },
+    {
+      "quantity": "250",
+      "unit": "g",
+      "item": "Strawberries",
+      "notes": "fresh, sliced"
+    },
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Icing Sugar",
+      "notes": "for dusting"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 180°C. Line a 25 cm × 30 cm lamington tin with baking paper and lightly spray with oil to hold the paper in place."
+    },
+    {
+      "step": 2,
+      "instruction": "In a medium bowl, beat egg whites with an electric mixer until soft peaks form. Gradually add caster sugar, beating continuously until the mixture is thick and glossy."
+    },
+    {
+      "step": 3,
+      "instruction": "Gently fold in cornflour and vinegar until just combined."
+    },
+    {
+      "step": 4,
+      "instruction": "Spread meringue evenly into the prepared tin. Bake for 15 minutes. Cool completely in the tin."
+    },
+    {
+      "step": 5,
+      "instruction": "Turn meringue out onto a large sheet of baking paper. Spread whipped cream over the surface and scatter sliced strawberries on top."
+    },
+    {
+      "step": 6,
+      "instruction": "Using the paper to guide, roll the meringue from the long side into a roulade shape. Transfer to a serving plate."
+    },
+    {
+      "step": 7,
+      "instruction": "Dust generously with icing sugar and serve immediately."
+    }
+  ],
+  "notes": [
+    {
+      "type": "serving",
+      "title": "Serving Tip",
+      "content": "Best served immediately for maximum fluffiness. Can be made a few hours ahead — store covered in the refrigerator. The meringue will soften slightly but still taste excellent."
+    },
+    {
+      "type": "technique",
+      "title": "Egg Whites",
+      "content": "Ensure the bowl and beaters are completely clean and grease-free before beating egg whites. Any trace of fat or yolk will prevent them from whipping properly."
+    }
   ],
   "related": [
     {
@@ -97,20 +106,29 @@
       "title": "Classic Lamingtons"
     },
     {
-      "id": "meatpie",
-      "title": "Classic Aussie Meat Pies"
+      "id": "lemonmeringuepie",
+      "title": "Lemon Meringue Pie"
     },
     {
-      "id": "sausageroll",
-      "title": "Classic Aussie Sausage Rolls"
+      "id": "tiramisu",
+      "title": "Tiramisu Gateau"
     },
     {
-      "id": "bistro-reefandbeef",
-      "title": "Reef and Beef"
+      "id": "chocolatemousse",
+      "title": "Chocolate Mousse"
     },
     {
-      "id": "bistro-chickenriverina",
-      "title": "Chicken Riverina"
+      "id": "plaincheesecakeclassicnobake",
+      "title": "Plain Cheesecake (Classic No Bake)"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 6,
+    "cal": 300,
+    "protein": 7,
+    "carbs": 28,
+    "fat": 18,
+    "fiber": 1,
+    "coverage": 100
+  }
 }

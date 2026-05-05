@@ -1,146 +1,143 @@
 {
-  "id": "lemoncoconut",
+  "id": "lemoncoconutcake",
   "title": "Lemon Coconut Cake",
   "emoji": "🍋",
-  "category": "Dinner",
+  "category": "Baking",
   "description": "A simple old-school favourite — bright lemon, soft crumb, and that warm coconut finish.",
+  "prepTime": "15 min",
+  "cookTime": "40 min",
+  "totalTime": "55 min",
+  "servings": "12 slices",
+  "difficulty": "Beginner",
+  "tags": [
+    "Coconut",
+    "Dessert",
+    "Lemon",
+    "Sweet",
+    "Vegetarian"
+  ],
   "ingredients": [
     {
-      "quantity": "30",
-      "unit": "ml",
-      "item": "Juice",
-      "ingredientKey": "Juice"
+      "heading": "Cake"
     },
     {
-      "quantity": "1",
-      "unit": "cup",
-      "item": "Flour",
-      "ingredientKey": "Flour"
+      "quantity": "150",
+      "unit": "g",
+      "item": "Plain Flour"
     },
     {
-      "quantity": "3/4",
-      "unit": "cup",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
+      "quantity": "150",
+      "unit": "g",
+      "item": "White Sugar"
     },
     {
       "quantity": "2",
       "unit": "",
-      "item": "Eggs",
-      "ingredientKey": "Eggs"
+      "item": "Eggs"
     },
     {
       "quantity": "125",
       "unit": "g",
-      "item": "Butter",
-      "ingredientKey": "Butter"
+      "item": "Unsalted Butter"
     },
     {
-      "quantity": "1/2",
-      "unit": "cup",
-      "item": "Milk",
-      "ingredientKey": "Milk"
+      "quantity": "125",
+      "unit": "ml",
+      "item": "Whole Milk"
     },
     {
-      "quantity": "1",
-      "unit": "cup",
-      "item": "Coconut",
-      "ingredientKey": "Coconut"
+      "quantity": "100",
+      "unit": "g",
+      "item": "Desiccated Coconut"
     },
     {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Lemon Zest",
-      "ingredientKey": "Lemon Zest"
-    },
-    {
-      "quantity": "3/4",
-      "unit": "cup",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
+      "quantity": "5",
+      "unit": "g",
+      "item": "Lemon Zest"
     },
     {
       "quantity": "30",
       "unit": "ml",
-      "item": "Juice",
-      "ingredientKey": "Juice"
+      "item": "Lemon Juice"
     },
     {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Lemon Zest",
-      "ingredientKey": "Lemon Zest"
+      "heading": "Lemon Icing"
+    },
+    {
+      "quantity": "150",
+      "unit": "g",
+      "item": "Icing Sugar"
+    },
+    {
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Lemon Juice"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Lemon Zest"
     },
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Coconut",
-      "ingredientKey": "Coconut"
+      "item": "Desiccated Coconut",
+      "notes": "for decoration"
     }
   ],
   "method": [
     {
-      "step": "1",
-      "instruction": "Preheat oven to moderate (around 180°C). Grease and line a 20 cm lamington tin."
+      "step": 1,
+      "instruction": "Preheat oven to 180°C. Grease and line a 28 cm round cake tin."
     },
     {
-      "step": "2",
-      "instruction": "In a saucepan, add milk and butter, stir over medium heat until butter is melted. Add the sifted flour and sugar. Stir gently until the sugar dissolves."
+      "step": 2,
+      "instruction": "In a saucepan over medium heat, combine milk and butter. Stir until the butter is melted. Remove from heat."
     },
     {
-      "step": "3",
-      "instruction": "Add the eggs, one at a time mixing between additions, lemon juice, and coconut. Stir only until just combined."
+      "step": 3,
+      "instruction": "Add sifted flour and sugar to the milk mixture. Stir gently until the sugar dissolves."
     },
     {
-      "step": "4",
-      "instruction": "Add the milk and fold through gently."
+      "step": 4,
+      "instruction": "Add eggs one at a time, mixing between additions. Add lemon juice, lemon zest, and desiccated coconut. Stir until just combined — do not overmix."
     },
     {
-      "step": "5",
-      "instruction": "For extra flavour and texture, add lemon zest before pouring into the tin."
+      "step": 5,
+      "instruction": "Pour the mixture into the prepared tin and smooth the surface."
     },
     {
-      "step": "6",
-      "instruction": "Pour the mixture into the prepared tin and bake for 35–40 minutes or until a skewer comes out clean."
+      "step": 6,
+      "instruction": "Bake for 35–40 minutes or until a skewer inserted into the centre comes out clean."
     },
     {
-      "step": "7",
-      "instruction": "Allow the cake to cool completely before icing."
+      "step": 7,
+      "instruction": "Cool completely on a wire rack before icing."
     },
     {
-      "step": "8",
-      "instruction": "Sift icing sugar into a bowl."
+      "step": 8,
+      "instruction": "For the icing: sift icing sugar into a bowl. Add lemon juice slowly, mixing until a thick, spreadable paste forms."
     },
     {
-      "step": "9",
-      "instruction": "Add lemon juice slowly, mixing until a thick paste forms."
+      "step": 9,
+      "instruction": "Spread icing over the cooled cake."
     },
     {
-      "step": "10",
-      "instruction": "Spread over the cooled cake."
-    },
-    {
-      "step": "11",
-      "instruction": "Sprinkle with lemon zest and coconut for decoration."
+      "step": 10,
+      "instruction": "Sprinkle with lemon zest and desiccated coconut to decorate."
     }
   ],
   "notes": [
     {
-      "title": "Baker’s Notes",
-      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+      "type": "technique",
+      "title": "Gentle Mixing",
+      "content": "Stir only until just combined after adding the eggs and coconut. Overmixing develops gluten and makes the cake tough rather than tender."
+    },
+    {
+      "type": "technique",
+      "title": "Icing Consistency",
+      "content": "Add lemon juice a little at a time — the icing should be thick enough to spread but not runny. If it becomes too thin, add more sifted icing sugar."
     }
-  ],
-  "tags": [
-    "Coconut",
-    "Creamy",
-    "Dessert",
-    "Dinner",
-    "Lemon",
-    "Rich",
-    "Savoury",
-    "Sweet",
-    "Tangy",
-    "Vegetarian"
   ],
   "related": [
     {
@@ -148,20 +145,29 @@
       "title": "Classic Lamingtons"
     },
     {
-      "id": "bistro-fishoftheday",
-      "title": "Fish of the Day"
+      "id": "orangepoppyseed",
+      "title": "Orange & Poppy Seed Cake"
     },
     {
-      "id": "sataysauce",
-      "title": "Satay Sauce"
+      "id": "hummingbird",
+      "title": "Hummingbird Cake — Cafe Style"
     },
     {
-      "id": "kormapaste",
-      "title": "Homemade Korma Paste"
+      "id": "bananabread",
+      "title": "Banana Bread"
     },
     {
-      "id": "chouxpastry",
-      "title": "Choux Pastry (Profiteroles)"
+      "id": "blueberrymuffins",
+      "title": "Heavenly Blueberry Muffins"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 12,
+    "cal": 323,
+    "protein": 5,
+    "carbs": 38,
+    "fat": 18,
+    "fiber": 2,
+    "coverage": 100
+  }
 }

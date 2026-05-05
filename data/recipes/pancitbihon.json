@@ -7,7 +7,7 @@
   "cookTime": "20 min",
   "totalTime": "45 min",
   "servings": "4 servings",
-  "difficulty": "Easy",
+  "difficulty": "Intermediate",
   "tags": [
     "Filipino",
     "Noodles",
@@ -25,8 +25,7 @@
     {
       "quantity": "225",
       "unit": "g",
-      "item": "Pancit Bihon rice stick noodles",
-      "ingredientKey": "Bihon Noodles"
+      "item": "Bihon Rice Noodles"
     },
     {
       "heading": "Meat"
@@ -34,14 +33,14 @@
     {
       "quantity": "225",
       "unit": "g",
-      "item": "Pork, thinly sliced",
-      "ingredientKey": "Pork"
+      "item": "Pork",
+      "notes": "thinly sliced"
     },
     {
       "quantity": "225",
       "unit": "g",
-      "item": "Chicken breast, thinly sliced",
-      "ingredientKey": "Chicken"
+      "item": "Chicken Breast",
+      "notes": "thinly sliced"
     },
     {
       "heading": "Vegetables"
@@ -49,26 +48,25 @@
     {
       "quantity": "1",
       "unit": "",
-      "item": "Large carrot, julienned",
-      "ingredientKey": "Carrot"
+      "item": "Carrot",
+      "notes": "large, julienned"
     },
     {
       "quantity": "150",
       "unit": "g",
-      "item": "Cabbage, shredded",
-      "ingredientKey": "Cabbage"
+      "item": "Cabbage",
+      "notes": "shredded"
     },
     {
       "quantity": "100",
       "unit": "g",
-      "item": "Snow peas or green beans",
-      "ingredientKey": "Snow Peas"
+      "item": "Snow Peas"
     },
     {
       "quantity": "2",
-      "unit": "",
-      "item": "Celery stalks, sliced",
-      "ingredientKey": "Celery"
+      "unit": "stalks",
+      "item": "Celery",
+      "notes": "sliced"
     },
     {
       "heading": "Aromatics"
@@ -76,14 +74,14 @@
     {
       "quantity": "1",
       "unit": "",
-      "item": "Yellow onion, chopped",
-      "ingredientKey": "Onion"
+      "item": "Brown Onion",
+      "notes": "chopped"
     },
     {
       "quantity": "4",
-      "unit": "",
-      "item": "Garlic cloves, minced",
-      "ingredientKey": "Garlic"
+      "unit": "cloves",
+      "item": "Garlic",
+      "notes": "minced"
     },
     {
       "heading": "Sauce & Liquid"
@@ -91,20 +89,17 @@
     {
       "quantity": "500",
       "unit": "ml",
-      "item": "Chicken broth",
-      "ingredientKey": "Chicken Broth"
+      "item": "Chicken Stock"
     },
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Soy sauce",
-      "ingredientKey": "Soy Sauce"
+      "item": "Soy Sauce"
     },
     {
       "quantity": "15",
       "unit": "ml",
-      "item": "Fish sauce (patis)",
-      "ingredientKey": "Fish Sauce"
+      "item": "Fish Sauce"
     },
     {
       "heading": "Garnish"
@@ -112,62 +107,57 @@
     {
       "quantity": "4",
       "unit": "",
-      "item": "Calamansi or lemon wedges",
-      "ingredientKey": "Calamansi"
+      "item": "Calamansi",
+      "notes": "or lemon wedges"
     },
     {
       "quantity": "2",
       "unit": "",
-      "item": "Green onion stalks, chopped",
-      "ingredientKey": "Green Onion"
+      "item": "Spring Onion",
+      "notes": "chopped"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Soak the bihon noodles in warm water for 10 minutes until softened, then drain and set aside."
+      "instruction": "Soak bihon noodles in warm water for 10 minutes until softened, then drain and set aside. Do not oversoak — they will finish cooking in the broth."
     },
     {
       "step": 2,
-      "instruction": "Heat oil in a large wok over medium-high heat. Saute the garlic and onion until fragrant, then add the pork and chicken. Cook until browned."
+      "instruction": "Heat oil in a large wok over medium-high heat. Sauté garlic and onion until fragrant, then add pork and chicken. Cook until browned."
     },
     {
       "step": 3,
-      "instruction": "Add the carrots, celery, and snow peas or green beans. Stir-fry for a few minutes until just tender, then remove the meat and vegetables from the wok and set aside to keep them crisp."
+      "instruction": "Add carrot, celery, and snow peas. Stir-fry for a few minutes until just tender, then remove the meat and vegetables from the wok and set aside to keep them crisp."
     },
     {
       "step": 4,
-      "instruction": "Pour the chicken broth, soy sauce, and fish sauce into the wok. Bring to a boil. Add the drained noodles and toss continuously until they absorb most of the liquid."
+      "instruction": "Pour chicken stock, soy sauce, and fish sauce into the wok. Bring to a boil. Add the drained noodles and toss continuously until they absorb most of the liquid."
     },
     {
       "step": 5,
-      "instruction": "Return the cooked meat and vegetables to the wok. Add the shredded cabbage last and toss everything together until well combined and heated through."
+      "instruction": "Return the cooked meat and vegetables to the wok. Add shredded cabbage last and toss everything together until well combined and heated through."
     },
     {
       "step": 6,
-      "instruction": "Season with ground black pepper to taste. Transfer to a serving dish, top with chopped green onions, and serve with calamansi or lemon wedges on the side."
+      "instruction": "Season with ground black pepper to taste. Transfer to a serving dish, top with chopped spring onion, and serve with calamansi or lemon wedges on the side."
     }
   ],
   "notes": [
     {
-      "type": "tip",
+      "type": "technique",
       "title": "Keep Vegetables Crisp",
       "content": "Removing the vegetables from the wok before simmering the noodles prevents them from overcooking and going soggy."
     },
     {
-      "type": "tip",
+      "type": "technique",
       "title": "Noodle Soaking",
-      "content": "Do not oversoak the bihon — 10 minutes in warm (not boiling) water is enough. They will finish cooking in the broth."
+      "content": "Do not oversoak the bihon — 10 minutes in warm water is enough. They will finish cooking in the broth. Avoid cutting the noodles before serving as pancit symbolises long life."
     },
     {
       "type": "variation",
       "title": "Meat Options",
       "content": "You can use all pork, all chicken, or add small shrimp for variety. Leftover rotisserie chicken works well here."
-    },
-    {
-      "type": "preparation",
-      "title": "Symbolism",
-      "content": "Pancit is traditionally served at Filipino birthday celebrations to symbolise long life. For this reason, avoid cutting the noodles before serving."
     }
   ],
   "related": [
@@ -187,5 +177,14 @@
       "id": "bulalo",
       "title": "Original Bulalo"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 4,
+    "cal": 569,
+    "protein": 47,
+    "carbs": 75,
+    "fat": 11,
+    "fiber": 11,
+    "coverage": 100
+  }
 }

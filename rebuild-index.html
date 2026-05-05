@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Rebuild Recipe Index</title>
+    <style>
+        body { font-family: sans-serif; max-width: 800px; margin: 2rem auto; padding: 1rem; }
+        button { padding: 0.75rem 1.5rem; font-size: 1rem; cursor: pointer; }
+        pre { background: #f5f5f5; padding: 1rem; border-radius: 4px; max-height: 400px; overflow-y: auto; }
+        .count { color: #666; margin: 1rem 0; }
+    </style>
+</head>
+<body>
+    <h1>Rebuild Recipe Index</h1>
+    <p>This reads all recipe JSON files and rebuilds <code>json/recipe-index.json</code> with correct categories, tags, and descriptions.</p>
+    <button onclick="rebuild()">Rebuild Index</button>
+    <p class="count" id="status"></p>
+    <pre id="output"></pre>
+
+    <script>
+    async function rebuild() {
+        var status = document.getElementById('status');
+        var output = document.getElementById('output');
+        status.textContent = 'Loading current index...';
+
+        // Load current index to get all recipe IDs
+        var currentIndex;
+        try {
+            var res = await fetch('json/recipe-index.json');
+            currentIndex = await res.json();
+        } catch(e) {
+            status.textContent = 'Error loading index: ' + e.message;
+            return;
+        }
+
+        var newIndex = [];
+        var errors = [];
+        var total = currentIndex.length;
+
+        for (var i = 0; i < currentIndex.length; i++) {
+            var entry = currentIndex[i];
+            status.textContent = 'Processing ' + (i + 1) + ' of ' + total + ': ' + entry.id;
+            try {
+                var recipeRes = await fetch('data/recipes/' + entry.id + '.json');
+                if (!recipeRes.ok) {
+                    errors.push(entry.id + ': file not found');
+                    newIndex.push(entry); // keep old entry
+                    continue;
+                }
+                var recipe = await recipeRes.json();
+                newIndex.push({
+                    id: recipe.id || entry.id,
+                    title: recipe.title || entry.title,
+                    category: recipe.category || '',
+                    description: recipe.description || '',
+                    tags: recipe.tags || [],
+                    emoji: recipe.emoji || ''
+                });
+            } catch(e) {
+                errors.push(entry.id + ': ' + e.message);
+                newIndex.push(entry); // keep old entry
+            }
+        }
+
+        // Sort alphabetically
+        newIndex.sort(function(a, b) {
+            return (a.title || '').localeCompare(b.title || '');
+        });
+
+        status.textContent = 'Done! ' + newIndex.length + ' recipes indexed. ' + (errors.length ? errors.length + ' errors.' : '');
+
+        var json = JSON.stringify(newIndex, null, 2);
+        output.textContent = json;
+
+        // Auto-download
+        var blob = new Blob([json], { type: 'application/json' });
+        var a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = 'recipe-index.json';
+        a.textContent = 'Click here to download if auto-download is blocked';
+        output.appendChild(a);
+        a.click();
+
+        if (errors.length) {
+            var errDiv = document.createElement('div');
+            errDiv.style.color = 'red';
+            errDiv.style.marginTop = '1rem';
+            errDiv.textContent = 'Errors:\n' + errors.join('\n');
+            output.appendChild(errDiv);
+        }
+    }
+    </script>
+</body>
+</html>

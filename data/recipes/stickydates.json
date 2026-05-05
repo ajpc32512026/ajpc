@@ -1,122 +1,131 @@
 {
-  "id": "stickydates",
+  "id": "stickydatepuddingwithcaramelsauce",
   "title": "Sticky Date Pudding with Caramel Sauce",
   "emoji": "🍮",
   "category": "Desserts",
   "description": "Microwave marvel — rich, sticky, and surprisingly fast.",
   "prepTime": "20 min",
-  "cookTime": "15 min (microwave)",
+  "cookTime": "15 min",
   "totalTime": "35 min",
-  "servings": "8-10 servings",
-  "difficulty": "Easy",
+  "servings": "8 servings",
+  "difficulty": "Beginner",
+  "tags": [
+    "Alcohol",
+    "Baked",
+    "Classic",
+    "Creamy",
+    "Dessert",
+    "Rich",
+    "Sweet",
+    "Vegetarian"
+  ],
   "ingredients": [
     {
-      "quantity": "1",
-      "unit": "medium",
-      "item": "Carrots",
-      "ingredientKey": "Carrots"
+      "heading": "Pudding"
     },
     {
       "quantity": "1",
-      "unit": "medium",
-      "item": "Apples",
-      "ingredientKey": "Apples"
+      "unit": "",
+      "item": "Carrot",
+      "notes": "shredded"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Apple",
+      "notes": "shredded"
     },
     {
       "quantity": "200",
       "unit": "g",
       "item": "Dates",
-      "ingredientKey": "Dates"
+      "notes": "pitted"
     },
     {
-      "quantity": "3/4",
-      "unit": "cup",
-      "item": "boiling water"
+      "quantity": "180",
+      "unit": "ml",
+      "item": "Water",
+      "notes": "boiling"
     },
     {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Bi-Carb Soda",
-      "ingredientKey": "Bi-Carb Soda"
+      "quantity": "5",
+      "unit": "g",
+      "item": "Bi-Carb Soda"
     },
     {
       "quantity": "100",
       "unit": "g",
-      "item": "Butter",
-      "ingredientKey": "Butter"
+      "item": "Unsalted Butter",
+      "notes": "softened"
     },
     {
-      "quantity": "3/4",
-      "unit": "cup",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
+      "quantity": "150",
+      "unit": "g",
+      "item": "White Sugar"
     },
     {
-      "quantity": "1/4",
-      "unit": "cup",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
+      "quantity": "50",
+      "unit": "g",
+      "item": "Brown Sugar",
+      "notes": "packed"
     },
     {
       "quantity": "2",
-      "unit": "eggs",
-      "item": "(70g each)"
+      "unit": "",
+      "item": "Eggs"
     },
     {
-      "quantity": "11/4",
-      "unit": "cups",
-      "item": "Flour",
-      "ingredientKey": "Flour"
+      "quantity": "190",
+      "unit": "g",
+      "item": "Plain Flour"
     },
     {
-      "quantity": "1/2",
-      "unit": "tsp",
-      "item": "Cinnamon",
-      "ingredientKey": "Cinnamon"
+      "quantity": "3",
+      "unit": "g",
+      "item": "Cinnamon"
+    },
+    {
+      "heading": "Caramel Sauce"
     },
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Cream",
-      "ingredientKey": "Cream"
+      "item": "Thickened Cream"
     },
     {
-      "quantity": "3/4",
-      "unit": "cup",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
+      "quantity": "150",
+      "unit": "g",
+      "item": "Brown Sugar"
     },
     {
       "quantity": "40",
       "unit": "g",
-      "item": "Butter",
-      "ingredientKey": "Butter"
+      "item": "Unsalted Butter"
     },
     {
       "quantity": "150",
       "unit": "ml",
-      "item": "Cream",
-      "ingredientKey": "Cream"
+      "item": "Thickened Cream"
     },
     {
-      "quantity": "1",
-      "unit": "tbsp",
-      "item": "Orange Liqueur",
-      "ingredientKey": "Orange Liqueur"
+      "quantity": "15",
+      "unit": "ml",
+      "item": "Grand Marnier",
+      "notes": "optional, add after sauce is cooled"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Lightly grease a 2L microwave-safe glass bowl and set aside."
+      "instruction": "Lightly grease a 2 litre microwave-safe glass bowl and set aside."
     },
     {
       "step": 2,
-      "instruction": "Shred the carrot and apple using a slicer or grater."
+      "instruction": "Shred carrot and apple using a grater. Set aside."
     },
     {
       "step": 3,
-      "instruction": "Place dates and boiling water in a saucepan, bring to a boil, then stir in bicarbonate of soda. Set aside to cool."
+      "instruction": "Place dates and boiling water in a saucepan. Bring to a boil, then remove from heat and stir in bi-carb soda. Set aside to cool."
     },
     {
       "step": 4,
@@ -128,11 +137,11 @@
     },
     {
       "step": 6,
-      "instruction": "Fold in the cooled shredded carrot, apple, date mixture, sifted flour, and cinnamon. Mix just until combined — do not overmix."
+      "instruction": "Fold in the cooled date mixture, shredded carrot, apple, sifted flour, and cinnamon. Mix just until combined — do not overmix."
     },
     {
       "step": 7,
-      "instruction": "Pour batter into the prepared bowl, cover with plastic wrap (leaving a small vent), and microwave on Medium High (650W) for 10-13 minutes."
+      "instruction": "Pour batter into the prepared bowl, cover with plastic wrap leaving a small vent, and microwave on medium-high for 10–13 minutes."
     },
     {
       "step": 8,
@@ -140,68 +149,41 @@
     },
     {
       "step": 9,
-      "instruction": "For the caramel sauce: Combine brown sugar, butter, cream, and orange liqueur (if using) in a microwave-safe bowl."
+      "instruction": "For the caramel sauce: combine brown sugar, butter, cream, and Grand Marnier in a microwave-safe bowl. Cook on high for 5 minutes, stirring every minute."
     },
     {
       "step": 10,
-      "instruction": "Cook on High for 5 minutes, stirring every minute to prevent burning."
-    },
-    {
-      "step": 11,
       "instruction": "Let the sauce stand for a few minutes to thicken before serving."
     },
     {
-      "step": 12,
-      "instruction": "Turn the pudding out onto a serving plate. Dust with icing sugar."
-    },
-    {
-      "step": 13,
-      "instruction": "Drench generously with warm caramel sauce and serve with thickened cream on the side."
+      "step": 11,
+      "instruction": "Turn pudding out onto a serving plate. Drench generously with warm caramel sauce and serve with extra cream on the side."
     }
   ],
   "notes": [
     {
-      "type": "tip",
+      "type": "technique",
       "title": "Microwave Power",
-      "content": "This recipe was tested in an 800W microwave. Adjust cooking time for different wattages: lower power = longer time, higher power = shorter time."
+      "content": "This recipe was tested in an 800W microwave. Adjust cooking time for different wattages — lower power needs longer, higher power needs shorter. Check at 10 minutes and add time in 1-minute increments if needed."
     },
     {
       "type": "technique",
       "title": "Resting is Essential",
-      "content": "The 5-minute rest after cooking ensures a moist, tender pudding. Don't skip this step!"
-    },
-    {
-      "type": "warning",
-      "title": "Watch Carefully",
-      "content": "Overcooking will dry out the pudding. Check at 10 minutes and add time in 1-minute increments if needed."
+      "content": "The 5-minute rest after cooking ensures a moist, tender pudding. Do not skip this step — the pudding continues to set during standing time."
     },
     {
       "type": "serving",
-      "title": "Serving Suggestion",
-      "content": "Best served warm with the caramel sauce poured over generously and a dollop of whipped cream or vanilla ice cream."
+      "title": "Serving Tip",
+      "content": "Best served warm with the caramel sauce poured over generously and a dollop of whipped cream or vanilla ice cream on the side."
     }
-  ],
-  "tags": [
-    "Alcohol",
-    "Baked",
-    "Classic",
-    "Creamy",
-    "Dessert",
-    "Rich",
-    "Sweet",
-    "Vegetarian"
   ],
   "related": [
     {
       "id": "tiramisu",
-      "title": "Chef-Style Tiramisu Gateau"
+      "title": "Tiramisu Gateau"
     },
     {
-      "id": "bistro-mudcake",
-      "title": "Mud Cake"
-    },
-    {
-      "id": "plain-cheesecake",
+      "id": "plaincheesecakeclassicnobake",
       "title": "Plain Cheesecake (Classic No Bake)"
     },
     {
@@ -209,8 +191,21 @@
       "title": "Baked Cheesecake"
     },
     {
+      "id": "theultimatechocolatemudcake",
+      "title": "The Ultimate Chocolate Mud Cake"
+    },
+    {
       "id": "bistro-profiteroles",
       "title": "Profiteroles"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 8,
+    "cal": 596,
+    "protein": 7,
+    "carbs": 84,
+    "fat": 27,
+    "fiber": 3,
+    "coverage": 100
+  }
 }

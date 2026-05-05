@@ -8,9 +8,8 @@
   "cookTime": "0 min",
   "totalTime": "10 min",
   "servings": "4 servings",
-  "difficulty": "Easy",
+  "difficulty": "Beginner",
   "tags": [
-    "Cheese",
     "Italian",
     "Sauce",
     "Under 30 Minutes",
@@ -18,83 +17,72 @@
   ],
   "ingredients": [
     {
-      "quantity": "2",
-      "unit": "cup",
+      "quantity": "60",
+      "unit": "g",
       "item": "Basil",
-      "ingredientKey": "Basil"
+      "notes": "fresh, packed"
     },
     {
-      "quantity": "1/3",
-      "unit": "cup",
+      "quantity": "50",
+      "unit": "g",
       "item": "Pine Nuts",
-      "ingredientKey": "Pine Nuts"
+      "notes": "toasted"
     },
     {
-      "quantity": "1/2",
-      "unit": "cup",
-      "item": "Cheese",
-      "ingredientKey": "Cheese"
+      "quantity": "50",
+      "unit": "g",
+      "item": "Parmesan",
+      "notes": "grated"
     },
     {
-      "quantity": "1/2",
-      "unit": "cup",
-      "item": "Oil",
-      "ingredientKey": "Oil"
+      "quantity": "125",
+      "unit": "ml",
+      "item": "Olive Oil"
     },
     {
       "quantity": "3",
-      "unit": "",
-      "item": "Garlic",
-      "ingredientKey": "Garlic"
+      "unit": "cloves",
+      "item": "Garlic"
     },
     {
-      "quantity": "1/2",
-      "unit": "tsp",
-      "item": "Salt",
-      "ingredientKey": "Salt"
+      "quantity": "3",
+      "unit": "g",
+      "item": "Salt"
     },
     {
-      "quantity": "1/4",
-      "unit": "tsp",
-      "item": "Pepper",
-      "ingredientKey": "Pepper"
+      "quantity": "1",
+      "unit": "g",
+      "item": "Black Pepper"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Add basil, pine nuts, garlic, and cheese to a blender."
+      "instruction": "Place basil, pine nuts, garlic, and Parmesan into a food processor or blender."
     },
     {
       "step": 2,
-      "instruction": "Blend while slowly adding olive oil."
+      "instruction": "Pulse while slowly drizzling in the olive oil until the mixture reaches your desired consistency — smooth or slightly chunky."
     },
     {
       "step": 3,
-      "instruction": "Blend until smooth or slightly chunky."
+      "instruction": "Season with salt and pepper to taste. Pulse briefly to combine."
     },
     {
       "step": 4,
-      "instruction": "Season with salt and pepper."
-    },
-    {
-      "step": 5,
-      "instruction": "Use fresh or store chilled."
+      "instruction": "Use immediately or store in the refrigerator with a thin layer of olive oil on top to prevent browning."
     }
   ],
   "notes": [
     {
       "type": "serving",
       "title": "Serving Tip",
-      "content": "Toss with hot pasta, spread on bruschetta, or use as a marinade. Store in fridge with a thin layer of olive oil on top."
+      "content": "Toss with hot pasta, spread on bruschetta, or use as a marinade for chicken or fish. Stir through scrambled eggs or roasted vegetables."
     },
     {
-      "title": "Fresh Basil",
-      "content": "packed"
-    },
-    {
-      "title": "Parmesan Cheese",
-      "content": "grated"
+      "type": "storage",
+      "title": "Storage",
+      "content": "Keep refrigerated for up to 1 week with a thin layer of olive oil covering the surface to prevent oxidation. Freeze in ice cube trays for easy portions."
     }
   ],
   "related": [
@@ -111,12 +99,21 @@
       "title": "Red Sauce"
     },
     {
-      "id": "arrabbiatazauce",
+      "id": "arrabbiatasauce",
       "title": "Arrabbiata Sauce"
     },
     {
       "id": "mornaysauce",
       "title": "Mornay / Cheese Sauce"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 4,
+    "cal": 530,
+    "protein": 12,
+    "carbs": 27,
+    "fat": 44,
+    "fiber": 2,
+    "coverage": 100
+  }
 }

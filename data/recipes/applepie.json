@@ -72,7 +72,7 @@
       "quantity": "60",
       "unit": "ml",
       "item": "Cold Water",
-      "notes": "approximately"
+      "notes": "chilled"
     }
   ],
   "method": [
@@ -138,5 +138,14 @@
       "id": "plain-cheesecake",
       "title": "Cheesecake — Plain"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 8,
+    "cal": 369,
+    "protein": 4,
+    "carbs": 62,
+    "fat": 13,
+    "fiber": 4,
+    "coverage": 100
+  }
 }

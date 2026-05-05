@@ -1,13 +1,14 @@
 {
   "id": "chocolatemousse",
   "title": "Chocolate Mousse",
+  "emoji": "🍫",
   "category": "Desserts",
-  "description": "The essence of a mousse is lightness, indicated by it's French name meaning foam or froth. This favourite is delicate yet rich with cream and chocolate.",
-  "prepTime": "10 Minutes",
-  "cookTime": "5 Minutes",
-  "totalTime": "15 Minutes",
-  "servings": "6",
-  "difficulty": "Easy",
+  "description": "The essence of a mousse is lightness, indicated by its French name meaning foam or froth. This favourite is delicate yet rich with cream and chocolate.",
+  "prepTime": "10 min",
+  "cookTime": "5 min",
+  "totalTime": "15 min",
+  "servings": "6 servings",
+  "difficulty": "Intermediate",
   "tags": [
     "Chocolate",
     "Creamy",
@@ -24,14 +25,14 @@
     {
       "quantity": "200",
       "unit": "g",
-      "item": "Dark Cooking Chocolate",
-      "notes": "70-80% cocoa - chopped"
+      "item": "Dark Chocolate",
+      "notes": "70-80% cocoa, chopped"
     },
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Butter",
-      "notes": "unsalted - cubed"
+      "item": "Unsalted Butter",
+      "notes": "cubed"
     },
     {
       "quantity": "3",
@@ -42,71 +43,60 @@
     {
       "quantity": "300",
       "unit": "ml",
-      "item": "Cream",
-      "notes": "whipped"
+      "item": "Thickened Cream"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Place chocolate in heatproof bowl and place over pan of simmering water. Stir choclate until melts then remove from heat."
+      "instruction": "Place chocolate in a heatproof bowl set over a pan of simmering water. Stir until melted, then remove from heat."
     },
     {
       "step": 2,
-      "instruction": "Add butter, stir until melted. Stir in egg yolks, 1 at a time; transfer mixture to a large bowl, cover, cool."
+      "instruction": "Add butter and stir until melted. Stir in egg yolks one at a time. Transfer mixture to a large bowl, cover, and allow to cool."
     },
     {
       "step": 3,
-      "instruction": "Beat egg whites in a small bowl with electric mixer until medium soft peaks form."
+      "instruction": "Beat egg whites in a small bowl with an electric mixer until medium soft peaks form. Do not over-whip or the mousse will become grainy."
     },
     {
       "step": 4,
-      "instruction": "Whip the cream until stiff DO NOT OVER MIX... We already have the butter... \nSoft peaks"
+      "instruction": "Whip the cream until soft peaks form. Do not over-mix — the butter is already providing richness."
     },
     {
       "step": 5,
-      "instruction": "Gently fold in cream and egg whites alternatly a third at a time into the cooled chocolate mixture."
+      "instruction": "Gently fold cream and egg whites alternately, a third at a time, into the cooled chocolate mixture until just combined."
     },
     {
       "step": 6,
-      "instruction": "Pour or spoon into serving dishes, cover with plastic wrap, refigerate over night."
+      "instruction": "Pour or spoon into serving dishes, cover with plastic wrap, and refrigerate overnight."
     }
   ],
   "notes": [
     {
       "type": "technique",
-      "title": "Whipping Egg Whites",
-      "content": "DO NOT over-whip the whites or you will get a grainy texture in the final result..."
+      "title": "Egg Whites",
+      "content": "Do not over-whip the egg whites or the mousse will have a grainy texture. Stop when medium soft peaks form — they should hold their shape but still look glossy and moist."
+    },
+    {
+      "type": "technique",
+      "title": "Microwave Option",
+      "content": "Chocolate and butter can be melted together in the microwave. Heat in 30-second bursts, stirring between each, until smooth."
     },
     {
       "type": "serving",
-      "title": "Restaurant finish",
-      "content": "Serve with extra whipped cream and chocolate curls, if desired."
+      "title": "Serving Tip",
+      "content": "Serve with extra whipped cream and chocolate curls if desired."
     },
     {
       "type": "storage",
       "title": "Storage",
-      "content": "Covered, in refrigerator."
-    },
-    {
-      "type": "storage",
-      "title": "Freeze",
-      "content": "Not Suitable."
-    },
-    {
-      "type": "technique",
-      "title": "Microwave",
-      "content": "Chocolate and butter suitable."
+      "content": "Keep covered in the refrigerator for up to 3 days. Not suitable for freezing."
     },
     {
       "type": "acknowledgement",
       "title": "Recipe Source",
-      "content": "The Australian Woman's Weekly Home Library ~ Sweet Old-Fashioned Favourites ISBN: 0-949128-82-1. ~ Page 34"
-    },
-    {
-      "type": "acknowledgement",
-      "title": "Copyright",
-      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+      "content": "Adapted from The Australian Women's Weekly Home Library — Sweet Old-Fashioned Favourites, page 34."
     }
   ],
   "related": [
@@ -116,19 +106,28 @@
     },
     {
       "id": "tiramisu",
-      "title": "Chef-Style Tiramisu Gateau"
-    },
-    {
-      "id": "chocolatemudcake",
-      "title": "The Ultimate Chocolate Mud Cake"
+      "title": "Tiramisu Gateau"
     },
     {
       "id": "chocolatecake",
-      "title": "Ultimate Chocolate Cake"
+      "title": "Chocolate Cake"
     },
     {
-      "id": "bistro-mudcake",
-      "title": "Mud Cake"
+      "id": "chocmuffins",
+      "title": "Chocolate Muffins with Ganache"
+    },
+    {
+      "id": "chocolaterumballs",
+      "title": "Chocolate Rum Balls"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 6,
+    "cal": 465,
+    "protein": 10,
+    "carbs": 22,
+    "fat": 38,
+    "fiber": 2,
+    "coverage": 100
+  }
 }

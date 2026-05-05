@@ -1,5 +1,5 @@
 {
-  "id": "blueberrymuffins",
+  "id": "heavenlyblueberrymuffins",
   "title": "Heavenly Blueberry Muffins",
   "emoji": "🫐",
   "category": "Baking",
@@ -8,93 +8,87 @@
   "cookTime": "25 min",
   "totalTime": "45 min",
   "servings": "12 muffins",
-  "difficulty": "Easy",
   "tags": [
     "Baked",
     "Breakfast",
-    "Creamy",
-    "Rich",
     "Sweet",
     "Under 1 Hour",
-    "Under 30 Minutes",
     "Vegetarian"
   ],
   "ingredients": [
     {
+      "heading": "Muffin Batter"
+    },
+    {
       "quantity": "240",
       "unit": "g",
-      "item": "Flour",
-      "ingredientKey": "Flour"
+      "item": "Plain Flour"
     },
     {
       "quantity": "160",
       "unit": "ml",
-      "item": "Milk",
-      "ingredientKey": "Milk"
+      "item": "Whole Milk"
     },
     {
       "quantity": "2",
       "unit": "",
       "item": "Eggs",
-      "ingredientKey": "Eggs"
+      "notes": "large"
     },
     {
       "quantity": "100",
       "unit": "ml",
-      "item": "Oil",
-      "ingredientKey": "Oil"
+      "item": "Vegetable Oil"
     },
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Milk Powder",
-      "ingredientKey": "Milk Powder"
+      "item": "Milk Powder"
     },
     {
       "quantity": "90",
       "unit": "g",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
+      "item": "White Sugar"
     },
     {
       "quantity": "9",
       "unit": "g",
-      "item": "Baking Powder",
-      "ingredientKey": "Baking Powder"
+      "item": "Baking Powder"
     },
     {
       "quantity": "150",
       "unit": "g",
       "item": "Blueberries",
-      "ingredientKey": "Blueberries"
+      "notes": "fresh or frozen"
+    },
+    {
+      "heading": "Crumble Topping"
     },
     {
       "quantity": "20",
       "unit": "g",
-      "item": "Flour",
-      "ingredientKey": "Flour"
+      "item": "Plain Flour"
     },
     {
       "quantity": "10",
       "unit": "g",
-      "item": "Butter",
-      "ingredientKey": "Butter"
+      "item": "Unsalted Butter",
+      "notes": "softened"
     },
     {
       "quantity": "10",
       "unit": "g",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
+      "item": "White Sugar"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Preheat oven to 175°C and line a muffin tray with paper cases."
+      "instruction": "Preheat oven to 175°C and line a 12-hole muffin tray with paper cases."
     },
     {
       "step": 2,
-      "instruction": "Whisk milk and eggs together in a bowl. Gradually whisk in oil until emulsified."
+      "instruction": "Whisk milk and eggs together in a bowl. Gradually whisk in vegetable oil until emulsified."
     },
     {
       "step": 3,
@@ -102,15 +96,15 @@
     },
     {
       "step": 4,
-      "instruction": "Sift in cake flour, milk powder, and baking powder. Mix gently until just smooth."
+      "instruction": "Sift in plain flour, milk powder, and baking powder. Mix gently until just combined — do not overmix."
     },
     {
       "step": 5,
-      "instruction": "Prepare the crumble by rubbing flour, butter, and sugar together until coarse crumbs form."
+      "instruction": "Prepare the crumble topping by rubbing flour, butter, and sugar together until coarse crumbs form."
     },
     {
       "step": 6,
-      "instruction": "Pipe or spoon batter into muffin cases, filling about three-quarters full."
+      "instruction": "Spoon batter into muffin cases, filling about three-quarters full."
     },
     {
       "step": 7,
@@ -125,41 +119,12 @@
     {
       "type": "technique",
       "title": "Light Muffins",
-      "content": "Mix the batter gently and stop as soon as it comes together to keep the muffins soft and airy."
+      "content": "Mix the batter gently and stop as soon as it comes together — overmixing develops gluten and makes muffins tough."
     },
     {
       "type": "serving",
       "title": "Serving Tip",
       "content": "Best eaten warm on the day, but excellent toasted lightly the next morning."
-    },
-    {
-      "type": "copyright",
-      "title": "Copyright",
-      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
-    },
-    {
-      "title": "Eggs",
-      "content": "large"
-    },
-    {
-      "title": "Cooking Oil",
-      "content": "or melted butter"
-    },
-    {
-      "title": "Blueberries",
-      "content": "fresh or frozen"
-    },
-    {
-      "title": "Cake Flour",
-      "content": "for crumble topping"
-    },
-    {
-      "title": "Butter",
-      "content": "unsalted, softened"
-    },
-    {
-      "title": "Sugar",
-      "content": "for crumble topping"
     }
   ],
   "related": [
@@ -180,8 +145,17 @@
       "title": "Apple & Cinnamon Scrolls"
     },
     {
-      "id": "apricotflan",
-      "title": "Apricot Flan"
+      "id": "chocchipcookies",
+      "title": "Double Chocolate Chip Cookies"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 12,
+    "cal": 245,
+    "protein": 6,
+    "carbs": 29,
+    "fat": 12,
+    "fiber": 1,
+    "coverage": 100
+  }
 }

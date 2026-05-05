@@ -1,170 +1,191 @@
 {
-  "id": "hummingbird",
+  "id": "hummingbirdcakecafestyle",
   "title": "Hummingbird Cake — Cafe Style",
   "emoji": "🕊️",
-  "category": "Dinner",
-  "description": "A lush, old-fashioned Southern classic — moist, fragrant, packed with fruit, and crowned with Philadelphia Cream Cheese frosting.",
+  "category": "Baking",
+  "description": "A lush, old-fashioned Southern classic — moist, fragrant, packed with fruit, and crowned with cream cheese frosting.",
+  "prepTime": "25 min",
+  "cookTime": "1 hr 45 min",
+  "totalTime": "2 hr 10 min",
+  "servings": "16 slices",
+  "difficulty": "Intermediate",
+  "tags": [
+    "Banana",
+    "Party",
+    "Rich",
+    "Sweet",
+    "Vegetarian"
+  ],
   "ingredients": [
     {
-      "quantity": "3",
-      "unit": "cups",
-      "item": "Flour",
-      "ingredientKey": "Flour"
+      "heading": "Cake"
     },
     {
-      "quantity": "2",
-      "unit": "cups",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
+      "quantity": "450",
+      "unit": "g",
+      "item": "Plain Flour",
+      "notes": "sifted"
     },
     {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Cinnamon",
-      "ingredientKey": "Cinnamon"
+      "quantity": "400",
+      "unit": "g",
+      "item": "Caster Sugar"
     },
     {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Bi-Carb Soda",
-      "ingredientKey": "Bi-Carb Soda"
+      "quantity": "5",
+      "unit": "g",
+      "item": "Cinnamon"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Bi-Carb Soda"
     },
     {
       "quantity": "6",
       "unit": "",
       "item": "Eggs",
-      "ingredientKey": "Eggs"
+      "notes": "lightly beaten"
     },
     {
-      "quantity": "1/2",
-      "unit": "cup",
-      "item": "Oil",
-      "ingredientKey": "Oil"
+      "quantity": "375",
+      "unit": "ml",
+      "item": "Vegetable Oil"
     },
     {
-      "quantity": "4",
-      "unit": "cups",
-      "item": "Banana",
-      "ingredientKey": "Banana"
+      "quantity": "600",
+      "unit": "g",
+      "item": "Bananas",
+      "notes": "mashed, over-ripe, approximately 4 large"
     },
     {
-      "quantity": "1/2",
-      "unit": "cup",
-      "item": "Pecan",
-      "ingredientKey": "Pecan"
+      "quantity": "180",
+      "unit": "g",
+      "item": "Pecans",
+      "notes": "chopped, or walnuts"
     },
     {
-      "quantity": "1",
-      "unit": "cup",
+      "quantity": "250",
+      "unit": "g",
       "item": "Pineapple",
-      "ingredientKey": "Pineapple"
+      "notes": "crushed, undrained, in heavy syrup"
+    },
+    {
+      "heading": "Cream Cheese Frosting"
     },
     {
       "quantity": "500",
       "unit": "g",
-      "item": "Philadelphia Cream Cheese",
-      "ingredientKey": "Philadelphia Cream Cheese"
+      "item": "Cream Cheese",
+      "notes": "softened"
     },
     {
       "quantity": "150",
-      "unit": "g",
-      "item": "Cream",
-      "ingredientKey": "Cream"
+      "unit": "ml",
+      "item": "Sour Cream"
     },
     {
       "quantity": "60",
       "unit": "g",
-      "item": "Butter",
-      "ingredientKey": "Butter"
+      "item": "Unsalted Butter",
+      "notes": "softened"
     },
     {
-      "quantity": "2",
-      "unit": "tsp",
-      "item": "Vanilla",
-      "ingredientKey": "Vanilla"
+      "quantity": "10",
+      "unit": "ml",
+      "item": "Vanilla Extract"
     },
     {
-      "quantity": "1",
-      "unit": "cup",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
+      "quantity": "200",
+      "unit": "g",
+      "item": "Icing Sugar",
+      "notes": "sifted"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Preheat oven to 170°C. Lightly grease a 20 cm round cake tin and dust with flour, shaking out any excess."
+      "instruction": "Preheat oven to 170°C. Grease a 28 cm round cake tin and dust with flour, shaking out any excess."
     },
     {
       "step": 2,
-      "instruction": "Sift flour, caster sugar, cinnamon, and bi-carb soda into a large mixing bowl. Whisk briefly to combine."
+      "instruction": "Place all cake ingredients — sifted flour, caster sugar, cinnamon, bi-carb soda, eggs, oil, mashed bananas, pecans, and crushed pineapple with syrup — into the bowl of a stand mixer."
     },
     {
       "step": 3,
-      "instruction": "Add lightly beaten eggs and oil, then fold in chopped nuts, mashed bananas, and crushed pineapple including syrup."
+      "instruction": "Mix on low speed until just combined. Stop as soon as the dry ingredients disappear. Do not overmix."
     },
     {
       "step": 4,
-      "instruction": "Fold gently from bottom upward until no dry patches remain. Avoid overmixing."
+      "instruction": "Pour batter into the prepared tin and level the top."
     },
     {
       "step": 5,
-      "instruction": "Pour batter into prepared tin, level the top, and bake for about 45–50 minutes or until a skewer comes out clean."
+      "instruction": "Bake for approximately 1 hour 45 minutes, or until a skewer inserted into the centre comes out clean. If the top browns too quickly, cover loosely with foil after the first hour."
     },
     {
       "step": 6,
-      "instruction": "Cool in the tin for 10 minutes, then transfer to a wire rack. Cool completely before frosting."
+      "instruction": "Stand cake in the tin for 10 minutes, then turn out onto a wire rack to cool completely."
     },
     {
       "step": 7,
-      "instruction": "Beat Philadelphia Cream Cheese, sour cream, butter, and vanilla essence together until smooth, pale, and fluffy."
+      "instruction": "For the frosting: place cream cheese, sour cream, butter, and vanilla extract into the stand mixer bowl. Beat with the paddle attachment until light and fluffy."
     },
     {
       "step": 8,
-      "instruction": "Gradually beat in sifted icing sugar until thick and silky."
+      "instruction": "Gradually add sifted icing sugar while mixing on low speed until thick and silky."
     },
     {
       "step": 9,
-      "instruction": "Spread thickly over the completely cooled cake."
+      "instruction": "Spread frosting thickly over the completely cooled cake."
     }
   ],
   "notes": [
     {
-      "title": "Baker’s Notes",
-      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+      "type": "technique",
+      "title": "One-Bowl Method",
+      "content": "All cake ingredients go in together. Mix only until just combined on low speed — overmixing develops gluten and makes the cake tough. A few small streaks of flour are fine."
+    },
+    {
+      "type": "technique",
+      "title": "Long Bake",
+      "content": "This is a heavy, wet batter that needs time. If the top is browning too fast after the first hour, cover loosely with foil and continue baking until the skewer comes out clean."
+    },
+    {
+      "type": "storage",
+      "title": "Storage",
+      "content": "Keep refrigerated due to the cream cheese frosting. Bring to room temperature before serving. The cake improves overnight as the flavours meld — it is even better on day two."
     }
-  ],
-  "tags": [
-    "Banana",
-    "Cheese",
-    "Creamy",
-    "Dinner",
-    "Party",
-    "Rich",
-    "Savoury",
-    "Sweet",
-    "Vegetarian"
   ],
   "related": [
     {
+      "id": "bananabread",
+      "title": "Banana Bread"
+    },
+    {
+      "id": "classiccarrotcake",
+      "title": "Classic Carrot Cake"
+    },
+    {
       "id": "orangepoppyseed",
-      "title": "Orange & Poppy Seed Cake — Double Batch"
+      "title": "Orange & Poppy Seed Cake"
     },
     {
-      "id": "lasagne",
-      "title": "Classic Lasagne — Ragù & Béchamel"
+      "id": "lemoncoconut",
+      "title": "Lemon Coconut Cake"
     },
     {
-      "id": "bistro-reefandbeef",
-      "title": "Reef and Beef"
-    },
-    {
-      "id": "bistro-vealoscar",
-      "title": "Veal Oscar"
-    },
-    {
-      "id": "tomatoflan",
-      "title": "Tomato and Olive Flan"
+      "id": "blueberrymuffins",
+      "title": "Heavenly Blueberry Muffins"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 16,
+    "cal": 787,
+    "protein": 11,
+    "carbs": 74,
+    "fat": 52,
+    "fiber": 3,
+    "coverage": 100
+  }
 }

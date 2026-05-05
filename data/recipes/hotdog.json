@@ -1,115 +1,135 @@
 {
-  "id": "hotdog",
-  "title": "Wendy’s-Style Hot Dog Buns",
+  "id": "wendysstylehotdogbuns",
+  "title": "Wendy's-Style Hot Dog Buns",
   "emoji": "🌭",
-  "category": "Dinner",
-  "description": "Makes 8 large buns (~25 cm each)",
+  "category": "Baking",
+  "description": "Soft, golden buns made for loading up with your favourite hot dogs — eight generously sized rolls.",
+  "prepTime": "25 min",
+  "cookTime": "18 min",
+  "totalTime": "2 hr 28 min",
+  "servings": "8 buns",
+  "difficulty": "Intermediate",
+  "tags": [
+    "American",
+    "Baked",
+    "Bread",
+    "Savoury",
+    "Vegetarian"
+  ],
   "ingredients": [
     {
       "quantity": "600",
       "unit": "g",
-      "item": "Flour",
-      "ingredientKey": "Flour"
+      "item": "Bread Flour"
     },
     {
       "quantity": "360",
       "unit": "ml",
-      "item": "Milk",
-      "ingredientKey": "Milk"
+      "item": "Whole Milk",
+      "notes": "lukewarm"
     },
     {
       "quantity": "35",
       "unit": "g",
-      "item": "Sugar",
-      "ingredientKey": "Sugar"
+      "item": "White Sugar"
     },
     {
       "quantity": "10",
       "unit": "g",
-      "item": "Salt",
-      "ingredientKey": "Salt"
+      "item": "Salt"
     },
     {
       "quantity": "8",
       "unit": "g",
       "item": "Yeast",
-      "ingredientKey": "Yeast"
+      "notes": "instant dried"
     },
     {
       "quantity": "50",
       "unit": "g",
-      "item": "Butter",
-      "ingredientKey": "Butter"
+      "item": "Unsalted Butter",
+      "notes": "melted"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Mix all ingredients until a soft, springy dough forms."
+      "instruction": "In a large bowl, combine lukewarm milk, sugar, and yeast. Let sit for 5 minutes until foamy."
     },
     {
       "step": 2,
-      "instruction": "Let dough rise for approximately 1 hour until doubled in size."
+      "instruction": "Add bread flour, salt, and melted butter. Mix until a rough dough forms."
     },
     {
       "step": 3,
-      "instruction": "Divide dough into 8 pieces (~105–110 g each), roll into 25 cm logs, and pinch seams underneath."
+      "instruction": "Knead for 8–10 minutes until the dough is smooth, soft, and springy."
     },
     {
       "step": 4,
-      "instruction": "Cover and rest 30–45 minutes until puffed."
+      "instruction": "Place dough in a lightly oiled bowl, cover with a damp tea towel, and let rise in a warm place for approximately 1 hour until doubled in size."
     },
     {
       "step": 5,
-      "instruction": "Bake at 180°C fan (200°C conventional) for 15–18 minutes until pale golden."
+      "instruction": "Divide dough into 8 equal pieces, approximately 105–110 g each. Roll each into a 25 cm log and pinch seams underneath."
     },
     {
       "step": 6,
-      "instruction": "(Optional) Pierce tops for the iconic tunnel effect."
+      "instruction": "Place shaped buns on a lined baking tray, cover, and rest for 30–45 minutes until puffed."
+    },
+    {
+      "step": 7,
+      "instruction": "Preheat oven to 180°C fan-forced."
+    },
+    {
+      "step": 8,
+      "instruction": "Bake for 15–18 minutes until pale golden."
+    },
+    {
+      "step": 9,
+      "instruction": "Cool completely on a wire rack before slicing."
     }
   ],
   "notes": [
     {
-      "title": "Notes & Tips",
-      "content": "Use slightly floured hands and bench for easier shaping. Ensure buns are fully cooled before slicing to maintain shape."
+      "type": "technique",
+      "title": "Shaping",
+      "content": "Use slightly floured hands and work surface for easier shaping. Pinch the seams firmly underneath to prevent the buns from unrolling during baking."
     },
     {
-      "title": "Notes & Tips",
-      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+      "type": "storage",
+      "title": "Storage",
+      "content": "Store in an airtight container for 2–3 days, or freeze for up to 2 months. Thaw and warm before using."
     }
-  ],
-  "tags": [
-    "American",
-    "Baked",
-    "Bread",
-    "Creamy",
-    "Dinner",
-    "Rich",
-    "Savoury",
-    "Soft",
-    "Spicy",
-    "Vegetarian"
   ],
   "related": [
     {
-      "id": "cinnbun",
-      "title": "Bakery-Style Cinnamon Buns"
+      "id": "hamburger",
+      "title": "Hamburger Buns"
     },
     {
-      "id": "highhydraciab",
-      "title": "Airy High-Hydration Ciabatta"
+      "id": "sub",
+      "title": "Homemade Sub Buns"
     },
     {
-      "id": "lasagne",
-      "title": "Classic Lasagne — Ragù & Béchamel"
+      "id": "garlicbread",
+      "title": "Garlic Butter Crusty Bread"
     },
     {
-      "id": "mushroomcups",
-      "title": "Mushrooms with Herb Nut Butter"
+      "id": "swbtm",
+      "title": "Soft White Bread (Tangzhong Method)"
     },
     {
-      "id": "tomatoflan",
-      "title": "Tomato and Olive Flan"
+      "id": "turkishbread",
+      "title": "Traditional Turkish Bread"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 8,
+    "cal": 363,
+    "protein": 11,
+    "carbs": 61,
+    "fat": 8,
+    "fiber": 2,
+    "coverage": 100
+  }
 }

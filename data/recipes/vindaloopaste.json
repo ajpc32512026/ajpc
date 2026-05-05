@@ -2,79 +2,84 @@
   "id": "vindaloopaste",
   "title": "Vindaloo Paste",
   "emoji": "🌶️",
-  "category": "Dinner",
+  "category": "Sauces",
   "description": "A bold, tangy, fire-forward paste — the beating heart of a proper vindaloo.",
+  "prepTime": "5 min",
+  "cookTime": "2 min",
+  "totalTime": "7 min",
+  "servings": "1 batch",
+  "difficulty": "Beginner",
+  "tags": [
+    "Indian",
+    "Make Ahead",
+    "Savoury",
+    "Spicy",
+    "Vegan",
+    "Gluten-Free"
+  ],
   "ingredients": [
     {
-      "quantity": "10",
+      "quantity": "20",
       "unit": "g",
-      "item": "Ginger",
-      "ingredientKey": "Ginger"
+      "item": "Ginger (Fresh)",
+      "notes": "chopped"
     },
     {
       "quantity": "3",
-      "unit": "garlic",
+      "unit": "cloves",
       "item": "Garlic",
-      "ingredientKey": "Garlic"
+      "notes": "chopped"
     },
     {
       "quantity": "10",
-      "unit": "dried",
-      "item": "Red Chili",
-      "ingredientKey": "Red Chili"
+      "unit": "",
+      "item": "Dried Red Chilies"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Coriander Seeds"
     },
     {
       "quantity": "2",
-      "unit": "tsp",
-      "item": "Coriander",
-      "ingredientKey": "Coriander"
-    },
-    {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Fenugreek",
-      "ingredientKey": "Fenugreek"
-    },
-    {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Cumin",
-      "ingredientKey": "Cumin"
-    },
-    {
-      "quantity": "6",
-      "unit": "green",
-      "item": "Cardamom Pods, Green",
-      "ingredientKey": "Cardamom Pods, Green"
-    },
-    {
-      "quantity": "6",
-      "unit": "",
-      "item": "Cloves",
-      "ingredientKey": "Cloves"
-    },
-    {
-      "quantity": "1",
-      "unit": "cinnamon",
-      "item": "stick"
-    },
-    {
-      "quantity": "to taste",
-      "unit": "",
-      "item": "Pepper",
-      "ingredientKey": "Pepper"
+      "unit": "g",
+      "item": "Fenugreek Seeds"
     },
     {
       "quantity": "3",
-      "unit": "tbsp",
-      "item": "Juice",
-      "ingredientKey": "Juice"
+      "unit": "g",
+      "item": "Cumin Seeds"
+    },
+    {
+      "quantity": "6",
+      "unit": "pods",
+      "item": "Green Cardamom Pods"
+    },
+    {
+      "quantity": "6",
+      "unit": "",
+      "item": "Cloves"
+    },
+    {
+      "quantity": "1",
+      "unit": "stick",
+      "item": "Cinnamon Stick"
+    },
+    {
+      "quantity": "1",
+      "unit": "g",
+      "item": "Black Peppercorns"
+    },
+    {
+      "quantity": "45",
+      "unit": "ml",
+      "item": "Lemon Juice"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Dry roast the dried chillies, coriander, cumin, fenugreek, cardamom, cloves, cinnamon, and peppercorns over low heat until aromatic."
+      "instruction": "Dry roast the dried chilies, coriander seeds, cumin seeds, fenugreek seeds, cardamom pods, cloves, cinnamon stick, and black peppercorns over low heat until aromatic, about 2 minutes."
     },
     {
       "step": 2,
@@ -82,61 +87,54 @@
     },
     {
       "step": 3,
-      "instruction": "Transfer spices to a grinder."
+      "instruction": "Transfer spices to a grinder and grind to a fine powder."
     },
     {
       "step": 4,
-      "instruction": "Add ginger, garlic, and lemon juice."
-    },
-    {
-      "step": 5,
-      "instruction": "Process into a smooth paste, adding a little water if needed."
+      "instruction": "Add ginger, garlic, and lemon juice. Process to a smooth paste, adding a little water if needed."
     }
   ],
   "notes": [
     {
-      "title": "Notes",
-      "content": "Lemon juice may be replaced with tamarind paste for a more traditional sour note."
+      "type": "substitution",
+      "title": "Lemon Juice Substitute",
+      "content": "Lemon juice can be replaced with tamarind paste for a more traditional sour note."
     },
     {
-      "title": "Acknowledgement",
-      "content": "Adapted from"
-    },
-    {
-      "title": "Acknowledgement",
-      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
+      "type": "technique",
+      "title": "Yield",
+      "content": "This recipe makes approximately 80–100 g of vindaloo paste — enough for 1 kg of meat. Use the full batch for beef or lamb vindaloo."
     }
-  ],
-  "tags": [
-    "Dinner",
-    "Gluten-Free",
-    "Greek",
-    "Indian",
-    "Make Ahead",
-    "Savoury",
-    "Spicy",
-    "Vegan"
   ],
   "related": [
     {
-      "id": "sataysauce",
-      "title": "Satay Sauce"
-    },
-    {
-      "id": "kormapaste",
-      "title": "Homemade Korma Paste"
+      "id": "beefvindaloo",
+      "title": "Beef Vindaloo"
     },
     {
       "id": "lambvindaloo",
       "title": "Lamb Vindaloo"
     },
     {
-      "id": "beefvindaloo",
-      "title": "Beef Vindaloo"
+      "id": "kormapaste",
+      "title": "Homemade Korma Paste"
     },
     {
       "id": "butterchicken",
       "title": "Restaurant-Style Butter Chicken"
+    },
+    {
+      "id": "roganjosh",
+      "title": "Lamb Rogan Josh"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 1,
+    "cal": 4668,
+    "protein": 147,
+    "carbs": 1080,
+    "fat": 127,
+    "fiber": 451,
+    "coverage": 100
+  }
 }

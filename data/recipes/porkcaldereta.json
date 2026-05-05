@@ -2,12 +2,12 @@
   "id": "porkcaldereta",
   "title": "Pork Caldereta",
   "category": "Dinner",
-  "description": "A rich Filipino stew known for its tender meat and savory, slightly spicy tomato-based sauce thickened with liver spread.",
+  "description": "A rich Filipino stew known for its tender meat and savoury, slightly spicy tomato-based sauce thickened with liver spread.",
   "prepTime": "15 min",
   "cookTime": "1 hr 15 min",
   "totalTime": "1 hr 30 min",
   "servings": "6 servings",
-  "difficulty": "Medium",
+  "difficulty": "Intermediate",
   "tags": [
     "Filipino",
     "Pork",
@@ -15,7 +15,6 @@
     "Savoury",
     "Spicy",
     "Rich",
-    "Comfort Food",
     "Dinner",
     "Gluten-Free"
   ],
@@ -26,8 +25,8 @@
     {
       "quantity": "1000",
       "unit": "g",
-      "item": "Pork shoulder, belly, or ribs, cut into 2-inch cubes",
-      "ingredientKey": "Pork"
+      "item": "Pork Shoulder",
+      "notes": "cut into 5 cm cubes"
     },
     {
       "heading": "Aromatics"
@@ -35,14 +34,14 @@
     {
       "quantity": "1",
       "unit": "",
-      "item": "Medium onion, chopped",
-      "ingredientKey": "Onion"
+      "item": "Brown Onion",
+      "notes": "chopped"
     },
     {
       "quantity": "4",
-      "unit": "",
-      "item": "Garlic cloves, minced",
-      "ingredientKey": "Garlic"
+      "unit": "cloves",
+      "item": "Garlic",
+      "notes": "minced"
     },
     {
       "heading": "Base"
@@ -50,14 +49,12 @@
     {
       "quantity": "250",
       "unit": "g",
-      "item": "Tomato sauce",
-      "ingredientKey": "Tomato Sauce"
+      "item": "Tomato Sauce"
     },
     {
       "quantity": "500",
       "unit": "ml",
-      "item": "Water or pork broth",
-      "ingredientKey": "Broth"
+      "item": "Pork Stock"
     },
     {
       "heading": "Thickener & Flavour"
@@ -65,8 +62,7 @@
     {
       "quantity": "85",
       "unit": "g",
-      "item": "Liver spread (1 standard can)",
-      "ingredientKey": "Liver Spread"
+      "item": "Liver Spread"
     },
     {
       "heading": "Vegetables"
@@ -74,26 +70,26 @@
     {
       "quantity": "1",
       "unit": "",
-      "item": "Large potato, cubed",
-      "ingredientKey": "Potato"
+      "item": "Potato",
+      "notes": "large, cubed"
     },
     {
       "quantity": "1",
       "unit": "",
-      "item": "Medium carrot, cubed",
-      "ingredientKey": "Carrot"
+      "item": "Carrot",
+      "notes": "medium, cubed"
     },
     {
-      "quantity": "to taste",
+      "quantity": "1",
       "unit": "",
-      "item": "Red bell pepper, sliced",
-      "ingredientKey": "Red Bell Pepper"
+      "item": "Red Capsicum",
+      "notes": "sliced"
     },
     {
-      "quantity": "to taste",
+      "quantity": "1",
       "unit": "",
-      "item": "Green bell pepper, sliced",
-      "ingredientKey": "Green Bell Pepper"
+      "item": "Green Capsicum",
+      "notes": "sliced"
     },
     {
       "heading": "Seasoning"
@@ -101,76 +97,75 @@
     {
       "quantity": "1",
       "unit": "",
-      "item": "Pork bouillon cube",
-      "ingredientKey": "Bouillon"
+      "item": "Pork Stock Cube"
     },
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Salt, to taste",
-      "ingredientKey": "Salt"
+      "item": "Salt",
+      "notes": "to taste"
     },
     {
       "quantity": "1",
       "unit": "g",
-      "item": "Ground black pepper, to taste",
-      "ingredientKey": "Black Pepper"
+      "item": "Black Pepper",
+      "notes": "to taste"
     },
     {
       "quantity": "2",
       "unit": "",
-      "item": "Thai chili peppers, optional",
-      "ingredientKey": "Thai Chili"
+      "item": "Red Chili",
+      "notes": "Thai, optional"
     },
     {
-      "heading": "Extras (optional)"
+      "heading": "Optional Extras"
     },
     {
       "quantity": "75",
       "unit": "g",
-      "item": "Pitted green olives",
-      "ingredientKey": "Green Olives"
+      "item": "Green Olives",
+      "notes": "pitted"
     },
     {
       "quantity": "50",
       "unit": "g",
-      "item": "Cheddar cheese, shredded",
-      "ingredientKey": "Cheddar"
+      "item": "Tasty Cheese",
+      "notes": "shredded, for topping"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Heat oil in a large pot over medium heat. Saute the garlic and onion until fragrant and the onion is translucent."
+      "instruction": "Heat oil in a large pot over medium heat. Sauté garlic and onion until fragrant and the onion is translucent."
     },
     {
       "step": 2,
-      "instruction": "Add the pork cubes. Cook for about 5 to 7 minutes, stirring occasionally, until the meat is lightly browned on all sides."
+      "instruction": "Add pork cubes. Cook for 5–7 minutes, stirring occasionally, until the meat is lightly browned on all sides."
     },
     {
       "step": 3,
-      "instruction": "Pour in the tomato sauce and water or broth. Add the bouillon cube. Bring to a boil, then lower the heat and cover. Simmer for 45 to 60 minutes, or until the pork is fork-tender."
+      "instruction": "Pour in tomato sauce and pork stock. Add the stock cube. Bring to a boil, then lower the heat and cover. Simmer for 45–60 minutes, or until the pork is fork-tender."
     },
     {
       "step": 4,
-      "instruction": "Stir in the liver spread until fully incorporated. If using chili peppers, add them now."
+      "instruction": "Stir in liver spread until fully incorporated. If using chili peppers, add them now."
     },
     {
       "step": 5,
-      "instruction": "Add the potatoes and carrots. Cover and cook for about 8 to 10 minutes until tender."
+      "instruction": "Add potatoes and carrots. Cover and cook for about 8–10 minutes until tender."
     },
     {
       "step": 6,
-      "instruction": "Stir in the bell peppers and olives. Cook for another 3 to 5 minutes. Season with salt and pepper to taste."
+      "instruction": "Stir in capsicum and olives. Cook for another 3–5 minutes. Season with salt and pepper to taste."
     },
     {
       "step": 7,
-      "instruction": "Transfer to a serving dish. If desired, top with shredded cheddar cheese while hot so it melts into the sauce."
+      "instruction": "Transfer to a serving dish. If desired, top with shredded cheese while hot so it melts into the sauce."
     }
   ],
   "notes": [
     {
-      "type": "tip",
+      "type": "technique",
       "title": "Crispy Vegetables",
       "content": "To prevent the potatoes and carrots from going mushy, pan-fry them separately before adding to the stew at the end."
     },
@@ -180,7 +175,7 @@
       "content": "Adding a tablespoon of peanut butter or a splash of coconut milk creates a richer, more modern take on this dish."
     },
     {
-      "type": "preparation",
+      "type": "technique",
       "title": "Meat Choice",
       "content": "Pork shoulder gives the best balance of tenderness and fat. Ribs add extra flavour but take longer to become fork-tender."
     },
@@ -211,5 +206,14 @@
       "id": "filipinoportoccino",
       "title": "Filipino Pork Toccino"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 6,
+    "cal": 722,
+    "protein": 58,
+    "carbs": 48,
+    "fat": 33,
+    "fiber": 5,
+    "coverage": 100
+  }
 }

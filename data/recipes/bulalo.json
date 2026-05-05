@@ -1,18 +1,17 @@
 {
-  "id": "bulalo",
+  "id": "originalbulalo",
   "title": "Original Bulalo",
   "category": "Dinner",
-  "description": "A rich, clear Filipino beef bone marrow soup from Batangas. Beef shanks are slow-boiled for hours until fall-off-the-bone tender, paired with corn, cabbage, and bok choy in a deeply flavourful broth. Best served hot with rice and a fish sauce and calamansi dip.",
+  "description": "A rich, clear Filipino beef bone marrow soup from Batangas. Beef shanks are slow-boiled for hours until fall-off-the-bone tender, paired with corn, cabbage, and bok choy in a deeply flavourful broth.",
   "prepTime": "15 min",
   "cookTime": "3 hr 30 min",
   "totalTime": "3 hr 45 min",
-  "servings": "4 to 6 servings",
-  "difficulty": "Easy",
+  "servings": "4 servings",
+  "difficulty": "Intermediate",
   "tags": [
     "Filipino",
     "Beef",
     "Soup",
-    "Broth",
     "Comfort Food",
     "Gluten-Free",
     "Dairy-Free",
@@ -26,14 +25,14 @@
     {
       "quantity": "900",
       "unit": "g",
-      "item": "Beef shanks, with bone marrow",
-      "ingredientKey": "Beef Shanks"
+      "item": "Beef Shanks",
+      "notes": "with bone marrow"
     },
     {
       "quantity": "450",
       "unit": "g",
-      "item": "Beef knuckles, optional for a thicker broth",
-      "ingredientKey": "Beef Knuckles"
+      "item": "Beef Knuckles",
+      "notes": "optional, for a thicker broth"
     },
     {
       "heading": "Aromatics"
@@ -41,14 +40,14 @@
     {
       "quantity": "1",
       "unit": "",
-      "item": "Large onion, white or yellow, quartered",
-      "ingredientKey": "Onion"
+      "item": "Brown Onion",
+      "notes": "quartered"
     },
     {
       "quantity": "10",
       "unit": "g",
-      "item": "Whole black peppercorns",
-      "ingredientKey": "Black Peppercorns"
+      "item": "Black Peppercorns",
+      "notes": "whole"
     },
     {
       "heading": "Vegetables"
@@ -56,20 +55,20 @@
     {
       "quantity": "3",
       "unit": "",
-      "item": "Ears of fresh corn, cut into pieces",
-      "ingredientKey": "Corn"
+      "item": "Corn Cobs",
+      "notes": "cut into pieces"
     },
     {
       "quantity": "1",
       "unit": "",
-      "item": "Head of cabbage, or bok choy / pechay",
-      "ingredientKey": "Cabbage"
+      "item": "Cabbage",
+      "notes": "or bok choy"
     },
     {
       "quantity": "2",
-      "unit": "",
-      "item": "Green onion stalks (leeks)",
-      "ingredientKey": "Green Onion"
+      "unit": "stalks",
+      "item": "Leek",
+      "notes": "or green onion"
     },
     {
       "heading": "Seasoning"
@@ -77,17 +76,17 @@
     {
       "quantity": "30",
       "unit": "ml",
-      "item": "Fish sauce (patis), to taste",
-      "ingredientKey": "Fish Sauce"
+      "item": "Fish Sauce",
+      "notes": "to taste"
     },
     {
       "heading": "Liquid"
     },
     {
       "quantity": "2.5",
-      "unit": "Lt",
-      "item": "Water, enough to cover the meat",
-      "ingredientKey": "Water"
+      "unit": "litres",
+      "item": "Water",
+      "notes": "enough to cover the meat"
     },
     {
       "heading": "Dipping Sauce"
@@ -95,20 +94,19 @@
     {
       "quantity": "30",
       "unit": "ml",
-      "item": "Fish sauce (patis)",
-      "ingredientKey": "Fish Sauce Dip"
+      "item": "Fish Sauce"
     },
     {
       "quantity": "4",
       "unit": "",
-      "item": "Calamansi or lime wedges",
-      "ingredientKey": "Calamansi"
+      "item": "Calamansi",
+      "notes": "or lime wedges"
     },
     {
       "quantity": "2",
       "unit": "",
-      "item": "Red chili peppers, sliced, optional",
-      "ingredientKey": "Chili"
+      "item": "Red Chili",
+      "notes": "sliced, optional"
     }
   ],
   "method": [
@@ -118,7 +116,7 @@
     },
     {
       "step": 2,
-      "instruction": "Place the shanks in a large pot and cover with water. Bring to a boil and cook for 5 to 10 minutes, skimming off all the grey scum that rises to the surface. Remove the shanks, rinse them under cold water, and thoroughly wash the pot to remove all impurities. This step is crucial for a clear broth."
+      "instruction": "Place the shanks in a large pot and cover with water. Bring to a boil and cook for 5–10 minutes, skimming off all the grey scum that rises to the surface. Remove the shanks, rinse them under cold water, and thoroughly wash the pot to remove all impurities. This step is crucial for a clear broth."
     },
     {
       "step": 3,
@@ -126,15 +124,15 @@
     },
     {
       "step": 4,
-      "instruction": "Cover and simmer gently for 3 to 4 hours, or until the beef is very tender and the bone marrow is soft. Top up with water as needed to keep the meat submerged. Never let the broth boil rapidly or it will turn cloudy."
+      "instruction": "Cover and simmer gently for 3–4 hours, or until the beef is very tender and the bone marrow is soft. Top up with water as needed to keep the meat submerged. Never let the broth boil rapidly or it will turn cloudy."
     },
     {
       "step": 5,
-      "instruction": "Add the corn pieces and cook for 10 to 15 minutes. Stir in fish sauce to taste."
+      "instruction": "Add the corn pieces and cook for 10–15 minutes. Stir in fish sauce to taste."
     },
     {
       "step": 6,
-      "instruction": "Add the cabbage or pechay and green onions. Simmer for another 2 to 3 minutes until the vegetables are just cooked but still vibrant."
+      "instruction": "Add the cabbage or bok choy and leeks. Simmer for another 2–3 minutes until the vegetables are just cooked but still vibrant."
     },
     {
       "step": 7,
@@ -143,14 +141,14 @@
   ],
   "notes": [
     {
-      "type": "tip",
+      "type": "technique",
       "title": "Low and Slow",
-      "content": "Never rush Bulalo by boiling too hard. A rapid boil emulsifies the fat into the broth, making it cloudy and greasy and causing the meat to tighten up and toughen."
+      "content": "Never rush Bulalo by boiling too hard. A rapid boil emulsifies the fat into the broth, making it cloudy and greasy while causing the meat to tighten up and toughen."
     },
     {
-      "type": "tip",
+      "type": "technique",
       "title": "Blanching is Non-Negotiable",
-      "content": "The blanch-and-rinse step in Step 2 removes blood, impurities, and off-flavours. Skipping it results in a murky, gamey broth."
+      "content": "The blanch-and-rinse step removes blood, impurities, and off-flavours. Skipping it results in a murky, gamey broth."
     },
     {
       "type": "variation",
@@ -185,5 +183,14 @@
       "id": "filipinoportoccino",
       "title": "Filipino Pork Toccino"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 4,
+    "cal": 1016,
+    "protein": 94,
+    "carbs": 41,
+    "fat": 59,
+    "fiber": 8,
+    "coverage": 100
+  }
 }

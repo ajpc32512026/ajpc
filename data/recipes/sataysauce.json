@@ -2,77 +2,80 @@
   "id": "sataysauce",
   "title": "Satay Sauce",
   "emoji": "🥜",
-  "category": "Dinner",
-  "description": "Rich, creamy, slightly spicy, and perfect for chicken, beef, lamb, veggies — or eaten straight from the pan when no one’s watching.",
-  "ingredients": [
-    {
-      "quantity": "1",
-      "unit": "cup",
-      "item": "Peanut",
-      "ingredientKey": "Peanut"
-    },
-    {
-      "quantity": "4",
-      "unit": "tbsp",
-      "item": "Sauces",
-      "ingredientKey": "Sauces"
-    },
-    {
-      "quantity": "2",
-      "unit": "tbsp",
-      "item": "Indian Spices",
-      "ingredientKey": "Indian Spices"
-    },
-    {
-      "quantity": "1",
-      "unit": "cup",
-      "item": "Coconut",
-      "ingredientKey": "Coconut"
-    },
-    {
-      "quantity": "60",
-      "unit": "ml",
-      "item": "Water — add a splash at a time to thin"
-    }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "Combine all ingredients in a small saucepan."
-    },
-    {
-      "step": 2,
-      "instruction": "Warm gently over low heat — no high flames."
-    },
-    {
-      "step": 3,
-      "instruction": "Stir patiently until smooth and combined."
-    },
-    {
-      "step": 4,
-      "instruction": "Add tiny splashes of water if too thick. Do not make soup."
-    }
-  ],
-  "notes": [
-    {
-      "title": "Cooking Tip",
-      "content": "Add Keen’s curry powder gradually and taste-test like a curious cat; you can always add more later, but too much will make your tongue stage a protest!"
-    },
-    {
-      "title": "Serving Suggestion",
-      "content": "© 2026 AJPC | Kian Tayo | All rights reserved."
-    }
-  ],
+  "category": "Sauces",
+  "description": "Rich, creamy, slightly spicy, and perfect for chicken, beef, lamb, veggies — or eaten straight from the pan when no one's watching.",
+  "prepTime": "5 min",
+  "cookTime": "10 min",
+  "totalTime": "15 min",
+  "servings": "4 servings",
+  "difficulty": "Beginner",
   "tags": [
     "Coconut",
-    "Dinner",
     "Gluten-Free",
-    "Indian",
     "Make Ahead",
     "Sauce",
     "Savoury",
     "Spicy",
     "Vegan"
+  ],
+  "ingredients": [
+    {
+      "quantity": "250",
+      "unit": "g",
+      "item": "Peanut Butter",
+      "notes": "crunchy or smooth"
+    },
+    {
+      "quantity": "60",
+      "unit": "ml",
+      "item": "Soy Sauce"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Curry Powder"
+    },
+    {
+      "quantity": "250",
+      "unit": "ml",
+      "item": "Coconut Milk"
+    },
+    {
+      "quantity": "60",
+      "unit": "ml",
+      "item": "Water",
+      "notes": "add gradually to thin as needed"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Combine peanut butter, soy sauce, curry powder, and coconut milk in a small saucepan."
+    },
+    {
+      "step": 2,
+      "instruction": "Warm gently over low heat, stirring patiently until smooth and well combined. Do not let it boil."
+    },
+    {
+      "step": 3,
+      "instruction": "Add water a splash at a time until the sauce reaches your desired consistency — thick enough to coat, thin enough to pour."
+    },
+    {
+      "step": 4,
+      "instruction": "Taste and adjust: add more curry powder for heat, a splash more soy sauce for depth, or a squeeze of lime for brightness."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Curry Powder",
+      "content": "Add curry powder gradually and taste as you go — you can always add more, but too much will overpower the peanut flavour. Keen's curry powder works well here."
+    },
+    {
+      "type": "serving",
+      "title": "Serving Tip",
+      "content": "Serve warm over grilled chicken skewers, beef strips, lamb, or roasted vegetables. Also excellent as a dipping sauce for spring rolls or satay skewers."
+    }
   ],
   "related": [
     {
@@ -84,16 +87,25 @@
       "title": "Vindaloo Paste"
     },
     {
-      "id": "lambvindaloo",
-      "title": "Lamb Vindaloo"
+      "id": "mongoliansauce",
+      "title": "Mongolian Stir-Fry Sauce"
     },
     {
-      "id": "beefvindaloo",
-      "title": "Beef Vindaloo"
+      "id": "honeygarlicsauce",
+      "title": "Honey Garlic Sauce"
     },
     {
-      "id": "roganjosh",
-      "title": "Lamb Rogan Josh – Restaurant Style"
+      "id": "sweetchilisauce",
+      "title": "Sweet Chili Sauce"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 4,
+    "cal": 527,
+    "protein": 19,
+    "carbs": 18,
+    "fat": 46,
+    "fiber": 6,
+    "coverage": 100
+  }
 }
