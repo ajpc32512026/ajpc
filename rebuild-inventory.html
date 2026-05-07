@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Update Ingredient Inventory</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2316161a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='28' font-weight='bold' fill='%23c97d3e'%3EAJ%3C/text%3E%3C/svg%3E">
 <style>
     body { font-family: sans-serif; max-width: 900px; margin: 2rem auto; padding: 1rem; background: #0e0e0e; color: #e8e2d9; }
     h1 { color: #c9a961; }
@@ -142,7 +143,13 @@
                     if (ing.heading) continue;
                     
                     var itemName = (ing.item || ing.name || '').trim();
-                    if (!itemName || itemName.length < 2) continue;
+					if (!itemName || itemName.length < 2) continue;
+
+						// Skip water and placeholders
+						var lowerName = itemName.toLowerCase();
+						if (lowerName.indexOf('water') !== -1) continue;
+						if (lowerName.indexOf('???') !== -1) continue;
+						if (lowerName.indexOf('additional sauce ingredients') !== -1) continue;
                     
                     var normalised = itemName.toLowerCase().replace(/[^a-z0-9]/g, '');
                     

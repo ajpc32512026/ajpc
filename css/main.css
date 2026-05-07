@@ -1958,7 +1958,6 @@ footer {
     }
 
     /* ---- Two-column body ---- */
-    /* Activate the wrapper as a flex row in print */
     .print-columns {
         display: flex;
         gap: 11pt;
@@ -1972,7 +1971,6 @@ footer {
         min-width: 0;
     }
 
-    /* Left column — ingredients */
     .ingredients {
         flex: 0 0 38%;
         width: 38%;
@@ -1980,12 +1978,10 @@ footer {
         page-break-inside: avoid;
     }
 
-    /* Method lives inside print-col-right */
     .method {
         margin: 0;
     }
 
-    /* Notes sit below method inside print-col-right */
     .recipe-notes {
         margin-top: 8pt;
         margin-bottom: 0;
@@ -2266,6 +2262,7 @@ footer {
         color: #9a5e28 !important;
     }
 
+    /* ---- Nutrition Facts ---- */
     .recipe-nutrition {
         break-inside: avoid;
         page-break-inside: avoid;
@@ -2288,6 +2285,11 @@ footer {
         padding: 8pt;
         max-width: 220pt;
         background: #ffffff;
+        color: #1a1814 !important;
+    }
+
+    .nutrition-label * {
+        color: #1a1814 !important;
     }
 
     .nutrition-header {
@@ -2302,12 +2304,11 @@ footer {
     .nutrition-title {
         font-size: 10pt;
         font-weight: 700;
-        color: #1a1814;
     }
 
     .nutrition-serving {
         font-size: 6pt;
-        color: #4a4540;
+        color: #4a4540 !important;
     }
 
     .nutrition-calories {
@@ -2315,7 +2316,6 @@ footer {
         justify-content: space-between;
         font-weight: 700;
         font-size: 9pt;
-        color: #1a1814;
         padding: 3pt 0;
     }
 
@@ -2334,16 +2334,20 @@ footer {
         padding: 2pt 0;
         border-bottom: 1px solid #ece7de;
         font-size: 7pt;
-        color: #3a3530;
     }
 
     .nutrition-row.indent {
         padding-left: 8pt;
     }
 
+    .nutrition-row strong {
+        color: #1a1814 !important;
+        font-weight: 700;
+    }
+
     .nutrition-coverage {
         font-size: 5.5pt;
-        color: #9a9088;
+        color: #4a4540 !important;
         font-style: italic;
         margin-top: 4pt;
     }
@@ -2516,3 +2520,35 @@ footer {
         color: var(--cream);
         font-weight: 500;
     }
+	
+		/* Ingredient search styles */
+	.ingredient-match-badge {
+		display: inline-block;
+		background: rgba(201, 125, 62, 0.15);
+		padding: 0.2rem 0.6rem;
+		border-radius: 20px;
+		font-size: 0.7rem;
+		margin-bottom: 0.5rem;
+	}
+
+	.ingredient-match-details {
+		margin-top: 0.5rem;
+		font-size: 0.75rem;
+	}
+
+	.match-tag {
+		display: inline-block;
+		background: rgba(201, 125, 62, 0.15);
+		padding: 0.15rem 0.5rem;
+		border-radius: 12px;
+		margin: 0.2rem;
+	}
+
+	.missing-tag {
+		display: inline-block;
+		background: rgba(120, 110, 100, 0.2);
+		padding: 0.15rem 0.5rem;
+		border-radius: 12px;
+		margin: 0.2rem;
+		text-decoration: line-through;
+	}

@@ -1,19 +1,18 @@
 {
-  "id": "bistro-mediterraneansteak",
+  "id": "mediterraneansteak",
   "title": "Mediterranean Steak",
   "emoji": "🦐",
   "category": "Dinner",
-  "description": "Scotch filet in a rich cream sauce with king prawns and green peppercorns. Surf and turf done properly — the bistro way.",
+  "description": "Scotch fillet in a rich cream sauce with king prawns and green peppercorns. Surf and turf done properly — the bistro way.",
   "prepTime": "5 min",
   "cookTime": "8 min",
   "totalTime": "13 min",
-  "servings": 1,
-  "difficulty": "Medium",
+  "servings": "1 serving",
+  "difficulty": "Intermediate",
   "tags": [
     "Alcohol",
     "Beef",
     "Classic",
-    "Cream",
     "Creamy",
     "Dinner",
     "Gluten-Free",
@@ -27,94 +26,94 @@
       "quantity": "2",
       "unit": "",
       "item": "Beef, Scotch Fillet",
-      "ingredientKey": "Beef, Scotch Fillet"
+      "notes": "approximately 180 g each"
     },
     {
       "quantity": "150",
       "unit": "g",
-      "item": "Seafood",
-      "ingredientKey": "Seafood"
+      "item": "Prawns",
+      "notes": "king, peeled and deveined"
     },
     {
-      "quantity": "to taste",
-      "unit": "",
-      "item": "Pepper",
-      "ingredientKey": "Pepper"
-    },
-    {
-      "quantity": "60",
-      "unit": "ml",
-      "item": "Cream",
-      "ingredientKey": "Cream"
+      "quantity": "10",
+      "unit": "g",
+      "item": "Green Peppercorns",
+      "notes": "brined"
     },
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Demi Glace",
-      "ingredientKey": "Demi Glace"
+      "item": "Thickened Cream"
+    },
+    {
+      "quantity": "60",
+      "unit": "ml",
+      "item": "Demi Glace"
     },
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Butter",
-      "ingredientKey": "Butter"
+      "item": "Unsalted Butter"
     },
     {
       "quantity": "1",
       "unit": "",
-      "item": "Onion",
-      "ingredientKey": "Onion"
+      "item": "Brown Onion",
+      "notes": "diced"
     },
     {
       "quantity": "30",
       "unit": "ml",
-      "item": "Brandy",
-      "ingredientKey": "Brandy"
+      "item": "Brandy"
     },
     {
-      "quantity": "to taste",
-      "unit": "",
+      "quantity": "3",
+      "unit": "g",
       "item": "Salt",
-      "ingredientKey": "Salt"
+      "notes": "to taste"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Grill or pan-fry scotch filets to desired doneness. Rest."
+      "instruction": "Grill or pan-fry scotch fillets over high heat to desired doneness. Remove and rest on a warm plate."
     },
     {
       "step": 2,
-      "instruction": "In a pan, soften shallots in butter. Add prawns and cook until just pink."
+      "instruction": "Melt butter in the same pan over medium heat. Add diced onion and cook until softened, about 2–3 minutes."
     },
     {
       "step": 3,
-      "instruction": "Deglaze with brandy or white wine."
+      "instruction": "Add prawns and cook for 1–2 minutes until just pink — they will finish in the sauce."
     },
     {
       "step": 4,
-      "instruction": "Add demi glace base and thickened cream. Reduce to a rich coating sauce."
+      "instruction": "Deglaze the pan with brandy. Let it reduce by half, about 1 minute."
     },
     {
       "step": 5,
-      "instruction": "Add green peppercorns."
+      "instruction": "Add demi glace and thickened cream. Stir and reduce for 2–3 minutes until the sauce is rich and coats the back of a spoon."
     },
     {
       "step": 6,
-      "instruction": "Plate steak, arrange prawns around and over. Sauce generously."
+      "instruction": "Add green peppercorns and stir through. Season with salt."
+    },
+    {
+      "step": 7,
+      "instruction": "Plate the steak, arrange prawns around and over, and spoon the sauce generously over everything."
     }
   ],
   "notes": [
     {
-      "type": "chef",
-      "title": "Chef's Note",
-      "content": "Prawns finish in the sauce — don't overcook them. Uses demi glace base. ??? Brandy or white wine in the deglaze?"
+      "type": "technique",
+      "title": "Prawn Timing",
+      "content": "Prawns finish cooking in the sauce — do not overcook them in the initial sear or they will become tough. Brandy is the correct alcohol for the deglaze, giving a warmer, richer note than white wine."
     }
   ],
   "related": [
     {
-      "id": "bistro-fishoftheday",
-      "title": "Fish of the Day"
+      "id": "bistro-reefandbeef",
+      "title": "Reef and Beef"
     },
     {
       "id": "bistro-brandymustardsteak",
@@ -125,12 +124,22 @@
       "title": "Filet Mignon"
     },
     {
-      "id": "bistro-chickenpicante",
-      "title": "Chicken Picante"
+      "id": "bistro-fishoftheday",
+      "title": "Fish of the Day"
     },
     {
-      "id": "bistro-chickenpapion",
-      "title": "Chicken Papion"
+      "id": "bistro-carpetbag",
+      "title": "Carpet Bag"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 1,
+    "cal": 1226,
+    "protein": 95,
+    "carbs": 19,
+    "fat": 82,
+    "fiber": 4,
+    "sodium": 1743,
+    "coverage": 100
+  }
 }

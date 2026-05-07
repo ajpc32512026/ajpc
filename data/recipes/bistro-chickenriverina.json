@@ -1,5 +1,5 @@
 {
-  "id": "bistro-chickenriverina",
+  "id": "chickenriverina",
   "title": "Chicken Riverina",
   "emoji": "🍑",
   "category": "Dinner",
@@ -7,104 +7,108 @@
   "prepTime": "15 min",
   "cookTime": "10 min",
   "totalTime": "25 min",
-  "servings": 1,
-  "difficulty": "Medium",
+  "servings": "2",
+  "yieldPerBatch": "2 serves",
   "tags": [
     "Australian",
     "Chicken",
     "Classic",
-    "Cream",
     "Creamy",
     "Dinner",
     "Rich",
     "Savoury",
-    "Under 1 Hour",
     "Under 30 Minutes"
   ],
   "ingredients": [
     {
       "quantity": "2",
       "unit": "",
-      "item": "Chicken",
-      "ingredientKey": "Chicken"
+      "item": "Chicken Breasts",
+      "notes": "skinless, approximately 180g each"
     },
     {
-      "quantity": "60",
-      "unit": "ml",
-      "item": "Apricot",
-      "ingredientKey": "Apricot"
+      "quantity": "80",
+      "unit": "g",
+      "item": "Dried Apricots",
+      "notes": "60g roughly chopped for stuffing, 20g diced for sauce"
     },
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Almonds",
-      "ingredientKey": "Almonds"
+      "item": "Slivered Almonds"
     },
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Butter",
-      "ingredientKey": "Butter"
+      "item": "Unsalted Butter"
     },
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Cream",
-      "ingredientKey": "Cream"
+      "item": "Thickened Cream"
     },
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Apricot",
-      "ingredientKey": "Apricot"
+      "item": "Apricot Nectar",
+      "notes": "reserved juice from canned apricots, or soak dried apricots in hot water"
     },
     {
-      "quantity": "60",
-      "unit": "ml",
-      "item": "Apricot",
-      "ingredientKey": "Apricot"
-    },
-    {
-      "quantity": "to taste",
-      "unit": "",
+      "quantity": "2",
+      "unit": "g",
       "item": "Salt",
-      "ingredientKey": "Salt"
+      "notes": "to taste"
+    },
+    {
+      "quantity": "1",
+      "unit": "g",
+      "item": "White Pepper",
+      "notes": "to taste"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Combine roughly chopped dried apricots and almonds to make the stuffing."
+      "instruction": "Combine 60g roughly chopped dried apricots with slivered almonds to make the stuffing."
     },
     {
       "step": 2,
-      "instruction": "Cut a deep pocket in each breast. Fill with the apricot and almond stuffing. Secure with a toothpick if needed."
+      "instruction": "Cut a deep pocket in each chicken breast. Fill with apricot and almond stuffing. Secure with toothpicks if needed."
     },
     {
       "step": 3,
-      "instruction": "Pan-fry in butter until golden and cooked through."
+      "instruction": "Pan-fry in butter over medium heat until golden and cooked through, approximately 6-8 minutes per side."
     },
     {
       "step": 4,
-      "instruction": "Remove chicken and set aside. Add cream and apricot juice to the pan."
+      "instruction": "Remove chicken and set aside. Add cream and apricot nectar to the pan, scraping up any browned bits."
     },
     {
       "step": 5,
-      "instruction": "Stir and reduce to a light coating consistency. Add diced apricots and heat through."
+      "instruction": "Simmer until reduced to a light coating consistency, about 2-3 minutes. Stir in remaining 20g diced dried apricots and heat through."
     },
     {
       "step": 6,
-      "instruction": "Season. Remove toothpick from chicken. Plate and spoon sauce over."
+      "instruction": "Season with salt and white pepper. Remove toothpicks. Plate chicken and spoon sauce over."
     }
   ],
   "notes": [
     {
-      "type": "chef",
-      "title": "Chef's Note",
-      "content": "Sauce is cream, apricot juice and diced apricots — let it thicken naturally. No jam, no demi. The stuffing is loose — no binding agent needed, just pack it in."
+      "type": "technique",
+      "title": "Sauce Profile",
+      "content": "The sauce is cream and apricot nectar forward — let it thicken naturally without flour or demi glace. The stuffing is loose; no binding agent needed, just pack it in firmly."
+    },
+    {
+      "type": "tip",
+      "title": "Apricot Nectar",
+      "content": "If using canned apricots, reserve the syrup. If using dried only, soak 30g extra apricots in 60ml hot water for 30 minutes and use the soaking liquid."
     }
   ],
   "related": [
+    {
+      "id": "bistro-chickenkiev",
+      "title": "Chicken Kiev"
+    },
     {
       "id": "bistro-reefandbeef",
       "title": "Reef and Beef"
@@ -116,14 +120,16 @@
     {
       "id": "bistro-lambcutlets",
       "title": "Lamb Cutlets"
-    },
-    {
-      "id": "meatpie",
-      "title": "Classic Aussie Meat Pies"
-    },
-    {
-      "id": "sausageroll",
-      "title": "Classic Aussie Sausage Rolls"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 2,
+    "cal": 650,
+    "protein": 32,
+    "carbs": 34,
+    "fat": 45,
+    "fiber": 5,
+    "sodium": 480,
+    "coverage": 100
+  }
 }

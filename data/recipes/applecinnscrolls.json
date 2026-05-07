@@ -186,11 +186,33 @@
   "related": [
     {
       "id": "bananabread",
-      "title": "Banana Bread"
+      "title": "Banana Bread",
+      "matchingTags": [
+        "Baked",
+        "Breakfast",
+        "Vegetarian",
+        "Sweet",
+        "Snack",
+        "Banana",
+        "Bread",
+        "Classic",
+        "Make Ahead",
+        "Rich"
+      ]
     },
     {
       "id": "applepie",
-      "title": "Apple Pie"
+      "title": "Apple Pie",
+      "matchingTags": [
+        "Apple",
+        "Classic",
+        "Dessert",
+        "Make Ahead",
+        "Pastry",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
     },
     {
       "id": "swbtm",
@@ -212,6 +234,7 @@
     "carbs": 48,
     "fat": 16,
     "fiber": 3,
+    "sodium": 111,
     "coverage": 100
   }
 }

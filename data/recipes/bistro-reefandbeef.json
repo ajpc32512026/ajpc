@@ -1,25 +1,23 @@
 {
-  "id": "bistro-reefandbeef",
+  "id": "reefandbeef",
   "title": "Reef and Beef",
   "emoji": "🌊",
   "category": "Dinner",
-  "description": "Scotch filet topped with a generous seafood Mornay sauce. The ultimate bistro surf and turf.",
+  "description": "Scotch fillet topped with a generous seafood Mornay sauce. The ultimate bistro surf and turf.",
   "prepTime": "10 min",
   "cookTime": "10 min",
   "totalTime": "20 min",
-  "servings": 1,
-  "difficulty": "Medium",
+  "servings": "1 serving",
+  "difficulty": "Intermediate",
   "tags": [
     "Australian",
     "Beef",
-    "Cheese",
     "Classic",
     "Creamy",
     "Dinner",
     "Rich",
     "Savoury",
     "Seafood",
-    "Under 1 Hour",
     "Under 30 Minutes"
   ],
   "ingredients": [
@@ -27,76 +25,85 @@
       "quantity": "2",
       "unit": "",
       "item": "Beef, Scotch Fillet",
-      "ingredientKey": "Beef, Scotch Fillet"
+      "notes": "approximately 180 g each"
     },
     {
       "quantity": "150",
       "unit": "g",
-      "item": "Seafood",
-      "ingredientKey": "Seafood"
+      "item": "Seafood Mix",
+      "notes": "prawns, scallops, and crab"
     },
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Butter",
-      "ingredientKey": "Butter"
+      "item": "Unsalted Butter"
     },
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Flour",
-      "ingredientKey": "Flour"
+      "item": "Plain Flour"
     },
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Milk",
-      "ingredientKey": "Milk"
+      "item": "Whole Milk",
+      "notes": "warmed"
     },
     {
       "quantity": "50",
       "unit": "g",
-      "item": "Cheese",
-      "ingredientKey": "Cheese"
+      "item": "Tasty Cheese",
+      "notes": "grated"
     },
     {
-      "quantity": "to taste",
-      "unit": "",
+      "quantity": "3",
+      "unit": "g",
       "item": "Salt",
-      "ingredientKey": "Salt"
+      "notes": "to taste"
+    },
+    {
+      "quantity": "1",
+      "unit": "g",
+      "item": "White Pepper"
+    },
+    {
+      "quantity": "1",
+      "unit": "g",
+      "item": "Nutmeg",
+      "notes": "ground"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Grill or pan-fry steaks to desired doneness. Rest."
+      "instruction": "Grill or pan-fry scotch fillets over high heat to desired doneness. Remove and rest on a warm plate."
     },
     {
       "step": 2,
-      "instruction": "Melt butter in a saucepan. Add flour and cook roux for 1 minute."
+      "instruction": "Melt butter in a saucepan over medium heat. Add flour and whisk for 1–2 minutes to cook the roux until pale golden."
     },
     {
       "step": 3,
-      "instruction": "Add warm milk gradually, whisking constantly until smooth and thickened."
+      "instruction": "Gradually add warmed milk, whisking constantly until smooth and thickened, about 3–4 minutes."
     },
     {
       "step": 4,
-      "instruction": "Remove from heat. Add grated cheese and stir through. Season with salt, white pepper and nutmeg."
+      "instruction": "Remove from heat. Add grated cheese and stir until melted and smooth. Season with salt, white pepper, and nutmeg."
     },
     {
       "step": 5,
-      "instruction": "Fold seafood into Mornay sauce and warm through gently — do not boil."
+      "instruction": "Gently fold seafood into the Mornay sauce and warm through on low heat — do not boil or the seafood will toughen."
     },
     {
       "step": 6,
-      "instruction": "Plate steak and spoon seafood Mornay generously over the top."
+      "instruction": "Plate the steak and spoon the seafood Mornay generously over the top."
     }
   ],
   "notes": [
     {
-      "type": "chef",
-      "title": "Chef's Note",
-      "content": "No demi — pure béchamel-cheese sauce. Same Mornay base used for oysters Mornay (entrée) and Veal Oscar."
+      "type": "technique",
+      "title": "Mornay Base",
+      "content": "No demi glace is used — this is a pure béchamel-cheese sauce. The same Mornay base is used for oysters Mornay and Veal Oscar. Keep the heat gentle once the seafood is added to prevent toughening."
     }
   ],
   "related": [
@@ -105,20 +112,30 @@
       "title": "Carpet Bag"
     },
     {
-      "id": "meatpie",
-      "title": "Classic Aussie Meat Pies"
+      "id": "bistro-vealoscar",
+      "title": "Veal Oscar"
     },
     {
-      "id": "bistro-chickenriverina",
-      "title": "Chicken Riverina"
+      "id": "bistro-fishoftheday",
+      "title": "Fish of the Day"
     },
     {
-      "id": "bistro-lambcutlets",
-      "title": "Lamb Cutlets"
+      "id": "bistro-mediterraneansteak",
+      "title": "Mediterranean Steak"
     },
     {
-      "id": "sausageroll",
-      "title": "Classic Aussie Sausage Rolls"
+      "id": "mornaysauce",
+      "title": "Mornay / Cheese Sauce"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 1,
+    "cal": 1198,
+    "protein": 95,
+    "carbs": 29,
+    "fat": 80,
+    "fiber": 1,
+    "sodium": 2068,
+    "coverage": 100
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "id": "bistro-brandymustardsteak",
+  "id": "brandymustardsteak",
   "title": "Brandy Mustard Steak",
   "emoji": "🥃",
   "category": "Dinner",
@@ -7,8 +7,7 @@
   "prepTime": "5 min",
   "cookTime": "6 min",
   "totalTime": "11 min",
-  "servings": 1,
-  "difficulty": "Easy",
+  "servings": "1",
   "tags": [
     "Alcohol",
     "Beef",
@@ -26,44 +25,37 @@
     {
       "quantity": "2",
       "unit": "",
-      "item": "Beef, Scotch Fillet",
-      "ingredientKey": "Beef, Scotch Fillet"
+      "item": "Beef, Scotch Fillet"
     },
     {
       "quantity": "30",
       "unit": "ml",
-      "item": "Brandy",
-      "ingredientKey": "Brandy"
+      "item": "Brandy"
     },
     {
       "quantity": "15",
       "unit": "g",
-      "item": "Mustard",
-      "ingredientKey": "Mustard"
+      "item": "Mustard"
     },
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Cream",
-      "ingredientKey": "Cream"
+      "item": "Cream"
     },
     {
       "quantity": "1",
       "unit": "",
-      "item": "Onion",
-      "ingredientKey": "Onion"
+      "item": "Onion"
     },
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Butter",
-      "ingredientKey": "Butter"
+      "item": "Butter"
     },
     {
-      "quantity": "to taste",
-      "unit": "",
-      "item": "Salt",
-      "ingredientKey": "Salt"
+      "quantity": "5",
+      "unit": "g",
+      "item": "Salt"
     }
   ],
   "method": [
@@ -90,7 +82,7 @@
   ],
   "notes": [
     {
-      "type": "chef",
+      "type": "acknowledgement",
       "title": "Chef's Note",
       "content": "No demi — brandy, mustard and cream only. ??? Dijon or wholegrain mustard? ??? Flambé or just reduce?"
     }
@@ -116,5 +108,15 @@
       "id": "bistro-chickenpapion",
       "title": "Chicken Papion"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 1,
+    "cal": 832,
+    "protein": 56,
+    "carbs": 14,
+    "fat": 57,
+    "fiber": 2,
+    "sodium": 2290,
+    "coverage": 100
+  }
 }

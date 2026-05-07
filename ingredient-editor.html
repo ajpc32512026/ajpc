@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#16161a">
 <title>Ingredient Editor | AJPC Kitchen Notebook</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2316161a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='28' font-weight='bold' fill='%23c97d3e'%3EAJ%3C/text%3E%3C/svg%3E">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -166,6 +167,7 @@
     font-size: 0.82rem;
     cursor: pointer;
     transition: all 0.1s;
+    position: relative;
   }
   .ingredient-list-item:hover { background: var(--surface2); color: var(--text); }
   .ingredient-list-item.active { background: rgba(201,169,97,0.1); color: var(--gold); border-left: 3px solid var(--gold); }
@@ -222,7 +224,6 @@
   .field textarea { resize: vertical; min-height: 80px; line-height: 1.5; }
 
   .row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-  .row-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; }
 
   .used-in-list {
     display: flex;
@@ -317,7 +318,6 @@
     var currentFilter = 'all';
     var searchQuery = '';
 
-    // Build empty editor
     function buildEditor(key, data) {
         var usedIn = (data.usedIn || []).sort();
         var isNew = !data.notes || data.notes === 'Add description here.';
@@ -325,7 +325,7 @@
 
         var html = '<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem;">';
         html += '<h2 style="font-family:var(--serif);font-size:1.6rem;color:var(--cream);margin:0;">' + escHtml(key) + '</h2>';
-        html += '<button class="btn danger" onclick="deleteIngredient(\'' + key.replace(/'/g, "\\'") + '\')">Delete</button>';
+        html += '<button class="btn danger" id="btnDeleteIngredient">Delete</button>';
         html += '</div>';
 
         if (isNew) html += '<div style="padding:0.5rem;background:rgba(39,174,96,0.1);border:1px solid rgba(39,174,96,0.3);border-radius:4px;margin-bottom:1rem;font-size:0.8rem;color:var(--green);">New ingredient — needs description and review.</div>';
@@ -373,6 +373,14 @@
         }
         panel.innerHTML = buildEditor(currentKey, inventory[currentKey]);
         document.getElementById('statSelected').textContent = currentKey;
+
+        // Wire up delete button AFTER the HTML is in the DOM
+        var delBtn = document.getElementById('btnDeleteIngredient');
+        if (delBtn) {
+            delBtn.addEventListener('click', function() {
+                deleteIngredient(currentKey);
+            });
+        }
     }
 
     function saveCurrent() {
@@ -390,7 +398,6 @@
             delete data.nutrition;
         }
 
-        // Handle rename
         if (newName && newName !== currentKey) {
             inventory[newName] = data;
             delete inventory[currentKey];
@@ -406,14 +413,20 @@
     }
 
     function markChanged() {
-        document.getElementById('changedIndicator').textContent = '• Unsaved changes';
-        document.getElementById('changedIndicator').style.color = 'var(--warning)';
+        var indicator = document.getElementById('changedIndicator');
+        if (indicator) {
+            indicator.textContent = '• Unsaved changes';
+            indicator.style.color = 'var(--warning)';
+        }
     }
 
     function deleteIngredient(key) {
+        if (!key) return;
         if (!confirm('Delete "' + key + '" from the inventory? This cannot be undone.')) return;
         delete inventory[key];
-        if (currentKey === key) currentKey = null;
+        if (currentKey === key) {
+            currentKey = null;
+        }
         renderList();
         renderEditor();
         updateStats();
@@ -434,7 +447,6 @@
             var isUnused = !data.usedIn || data.usedIn.length === 0;
             var needsWork = isNew || !data.category || !data.notes || data.notes === 'Add description here.';
 
-            // Filter
             if (currentFilter === 'new' && !isNew) continue;
             if (currentFilter === 'needs' && !needsWork) continue;
             if (currentFilter === 'used' && isUnused) continue;
@@ -446,19 +458,28 @@
             if (isNew) badges += '<span class="badge badge-new">NEW</span>';
             if (needsWork && !isNew) badges += '<span class="badge badge-needs">!</span>';
 
-            html += '<button class="ingredient-list-item' + activeClass + '" onclick="selectIngredient(\'' + key.replace(/'/g, "\\'") + '\')">' + escHtml(key) + badges + '</button>';
+            html += '<button class="ingredient-list-item' + activeClass + '" data-key="' + escAttr(key) + '">' + escHtml(key) + badges + '</button>';
         }
 
         list.innerHTML = html || '<div style="padding:1rem;color:var(--text-dim);font-style:italic;">No ingredients match your filter.</div>';
+
+        // Wire up click events after HTML is inserted
+        var items = list.querySelectorAll('.ingredient-list-item');
+        items.forEach(function(item) {
+            item.addEventListener('click', function() {
+                var k = this.getAttribute('data-key');
+                selectIngredient(k);
+            });
+        });
     }
 
-    window.selectIngredient = function(key) {
+    function selectIngredient(key) {
         currentKey = key;
         renderList();
         renderEditor();
         document.getElementById('modeLabel').textContent = '✎ Editing: ' + key;
         document.getElementById('statSelected').textContent = key;
-    };
+    }
 
     function updateStats() {
         var keys = Object.keys(inventory);
@@ -523,7 +544,6 @@
         event.target.value = '';
     };
 
-    // Save back to original file (downloads if no handle)
     window.saveJSON = function() {
         saveCurrent();
         downloadJSON();
@@ -540,7 +560,6 @@
         toast('Downloaded!');
     };
 
-    // Keyboard shortcuts
     document.addEventListener('keydown', function(e) {
         if ((e.ctrlKey || e.metaKey) && e.key === 's') {
             e.preventDefault();

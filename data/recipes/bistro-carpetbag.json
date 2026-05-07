@@ -1,14 +1,15 @@
 {
-  "id": "bistro-carpetbag",
-  "title": "Carpet Bag",
+  "id": "carpetbagsteak",
+  "title": "Carpet Bag Steak",
   "emoji": "🦪",
   "category": "Dinner",
-  "description": "Scotch filet stuffed with fresh oysters and Camembert cheese, finished with a red wine and demi glace sauce. The most theatrical dish on the menu.",
+  "description": "Scotch fillet stuffed with fresh oysters and Camembert cheese, finished with a red wine and demi glace sauce. The most theatrical dish on the menu.",
   "prepTime": "10 min",
   "cookTime": "8 min",
   "totalTime": "18 min",
-  "servings": 1,
-  "difficulty": "Medium",
+  "servings": "1 serving",
+  "yieldPerBatch": "1 serve",
+  "difficulty": "Intermediate",
   "tags": [
     "Alcohol",
     "Australian",
@@ -25,83 +26,101 @@
     {
       "quantity": "2",
       "unit": "",
-      "item": "Beef, Scotch Fillet",
-      "ingredientKey": "Beef, Scotch Fillet"
+      "item": "Scotch Fillet",
+      "notes": "approximately 200g each"
     },
     {
-      "quantity": "150",
-      "unit": "g",
-      "item": "Seafood",
-      "ingredientKey": "Seafood"
+      "quantity": "6",
+      "unit": "",
+      "item": "Fresh Oysters",
+      "notes": "shucked, liquor reserved"
     },
     {
       "quantity": "50",
       "unit": "g",
-      "item": "Cheese",
-      "ingredientKey": "Cheese"
+      "item": "Camembert Cheese",
+      "notes": "cut into slices"
     },
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Butter",
-      "ingredientKey": "Butter"
+      "item": "Unsalted Butter"
     },
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Demi Glace",
-      "ingredientKey": "Demi Glace"
+      "item": "Demi Glace"
     },
     {
       "quantity": "1",
       "unit": "",
-      "item": "Onion",
-      "ingredientKey": "Onion"
+      "item": "Shallot",
+      "notes": "finely diced"
     },
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Wine",
-      "ingredientKey": "Wine"
+      "item": "Red Wine",
+      "notes": "full-bodied, like Shiraz or Cabernet"
     },
     {
-      "quantity": "to taste",
-      "unit": "",
+      "quantity": "2",
+      "unit": "g",
       "item": "Salt",
-      "ingredientKey": "Salt"
+      "notes": "to taste"
+    },
+    {
+      "quantity": "1",
+      "unit": "g",
+      "item": "Black Pepper",
+      "notes": "to taste"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Cut a deep horizontal pocket in each scotch filet."
+      "instruction": "Cut a deep horizontal pocket in each scotch fillet, being careful not to pierce through the other side."
     },
     {
       "step": 2,
-      "instruction": "Stuff with oysters and slices of Camembert. Seal pocket with a toothpick."
+      "instruction": "Stuff each pocket with 3 oysters and slices of Camembert. Secure the opening with toothpicks."
     },
     {
       "step": 3,
-      "instruction": "Pan-fry to desired doneness — the Camembert will melt inside. Rest."
+      "instruction": "Season the outside with salt and pepper. Pan-fry in a hot skillet for 3–4 minutes per side for medium-rare, or until desired doneness. The Camembert will melt inside. Remove steaks and rest on a warm plate."
     },
     {
       "step": 4,
-      "instruction": "In the same pan, soften shallots in butter. Deglaze with red wine."
+      "instruction": "In the same pan, melt butter over medium heat. Add diced shallot and cook until softened, about 1–2 minutes."
     },
     {
       "step": 5,
-      "instruction": "Add demi glace base and reduce to a glossy sauce."
+      "instruction": "Deglaze with red wine, scraping up any browned bits from the bottom. Reduce by half, about 1–2 minutes."
     },
     {
       "step": 6,
-      "instruction": "Remove toothpick. Plate and spoon sauce over."
+      "instruction": "Add demi glace and any reserved oyster liquor. Simmer until the sauce is glossy and coats the back of a spoon, about 2–3 minutes."
+    },
+    {
+      "step": 7,
+      "instruction": "Remove toothpicks from steaks. Plate and spoon the red wine demi glace sauce generously over the top."
     }
   ],
   "notes": [
     {
-      "type": "chef",
-      "title": "Chef's Note",
-      "content": "The Camembert melts into the oysters inside the steak — that is the magic of this dish. Uses demi glace base. ??? Red or white wine in the deglaze?"
+      "type": "technique",
+      "title": "The Magic Inside",
+      "content": "The Camembert melts into the oysters inside the steak while cooking — that is the signature of this dish. The cheese and oysters fuse together, creating a rich, briny, creamy centre."
+    },
+    {
+      "type": "tip",
+      "title": "Wine Choice",
+      "content": "Use a full-bodied red wine like Shiraz or Cabernet Sauvignon for deglazing. Avoid light reds — they won't stand up to the demi glace and beef."
+    },
+    {
+      "type": "technique",
+      "title": "Oyster Liquor",
+      "content": "Reserve the oyster liquor and add it to the sauce. It adds a subtle brininess that ties the surf and turf elements together beautifully."
     }
   ],
   "related": [
@@ -110,20 +129,30 @@
       "title": "Reef and Beef"
     },
     {
-      "id": "bistro-lambcutlets",
-      "title": "Lamb Cutlets"
+      "id": "bistro-filetmignon",
+      "title": "Filet Mignon"
     },
     {
-      "id": "meatpie",
-      "title": "Classic Aussie Meat Pies"
+      "id": "bistro-steakboston",
+      "title": "Steak Boston"
+    },
+    {
+      "id": "bistro-chickenpapion",
+      "title": "Chicken Papion"
     },
     {
       "id": "bistro-chickenriverina",
       "title": "Chicken Riverina"
-    },
-    {
-      "id": "sausageroll",
-      "title": "Classic Aussie Sausage Rolls"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 1,
+    "cal": 1477,
+    "protein": 112,
+    "carbs": 45,
+    "fat": 91,
+    "fiber": 3,
+    "sodium": 2325,
+    "coverage": 100
+  }
 }

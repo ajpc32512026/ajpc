@@ -131,6 +131,7 @@
     "carbs": 0,
     "fat": 0,
     "fiber": 0,
+    "sodium": 4,
     "coverage": 100
   }
 }

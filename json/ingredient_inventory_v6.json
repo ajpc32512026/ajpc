@@ -37,6 +37,27 @@
     "purpose": "Adds warm, sweet, and slightly peppery flavour; versatile in both savoury dishes like stews, marinades, and sauces, and sweet dishes like cakes, cookies, and pies.",
     "usedIn": []
   },
+  "Almond Meal": {
+    "aka": [
+      "Ground Almonds",
+      "Almond Flour",
+      "Blanched Almond Meal"
+    ],
+    "category": "Nut/Seed",
+    "notes": "Finely ground blanched almonds with a soft, sandy texture and mild, sweet nutty flavour. Used in baking to add moisture, tenderness, and richness without the heaviness of wheat flour. Essential in friands, financiers, macarons, and many gluten-free baked goods. Can partially replace flour in cakes and pastries. Almond meal is not the same as almond flour — meal is coarser and made from whole almonds with skins, while flour is finely ground from blanched almonds. For best results in delicate baking, use blanched almond flour. Store in an airtight container in the refrigerator or freezer to prevent the natural oils from going rancid.",
+    "nutrition": {
+      "calories": "579 per 100 g",
+      "carbohydrates": "22 g",
+      "fat": "50 g",
+      "fiber": "12 g",
+      "protein": "21 g"
+    },
+    "purpose": "Adds moisture, richness, and a tender crumb to baked goods. Provides structure and nutty flavour in gluten-free baking. Essential for friands, orange and poppy seed cake, and French patisserie.",
+    "usedIn": [
+      "friandsop",
+      "orangepoppyseed"
+    ]
+  },
   "Almonds": {
     "aka": [
       "Almond Meal",
@@ -497,13 +518,34 @@
     "purpose": "Produces carbon dioxide when combined with acid and moisture, aerating baked goods and giving them lightness and volume; functions as a chemical leavening agent in baking.",
     "usedIn": [
       "bananabread",
-      "chocchipcookies",
       "chocmuffins",
       "hummingbird",
       "mongolianbeef",
       "mongolianlamb",
       "stickydates",
       "traditionalanzacbiscuits"
+    ]
+  },
+  "Bihon Rice Noodles": {
+    "aka": [
+      "Rice Stick Noodles",
+      "Rice Vermicelli",
+      "Pancit Bihon Noodles",
+      "Bihon Sticks"
+    ],
+    "category": "Grain",
+    "notes": "Thin, dried rice noodles made from rice flour and water. The standard noodle for Filipino pancit bihon. Soak in warm water for 10 minutes to soften before stir-frying — do not boil or oversoak as they will become mushy. Once softened, they absorb the flavours of the broth or sauce they are cooked in. Gluten-free. Store in a cool, dry place; indefinite shelf life when kept sealed.",
+    "nutrition": {
+      "calories": "360 per 100 g",
+      "carbohydrates": "82 g",
+      "fat": "0.3 g",
+      "fiber": "1 g",
+      "protein": "6 g",
+      "vitamins_minerals": "Contains small amounts of iron and B vitamins; primarily a carbohydrate source"
+    },
+    "purpose": "Provides a light, slightly chewy noodle base that absorbs surrounding flavours. Essential for Filipino pancit bihon and other stir-fried noodle dishes.",
+    "usedIn": [
+      "pancitbihon"
     ]
   },
   "Blueberries": {
@@ -687,7 +729,6 @@
       "bistro-vealscaloppine",
       "blueberrymuffins",
       "butterchicken",
-      "chocchipcookies",
       "chocmuffins",
       "chocolatemousse",
       "chouxpastry",
@@ -760,6 +801,52 @@
     "purpose": "Provides the base structure for no-bake confections. The existing flavour of the cake contributes to the final product; chocolate or plain butter cake works best for rum balls and truffles.",
     "usedIn": [
       "chocolaterumballs"
+    ]
+  },
+  "Calamansi": {
+    "aka": [
+      "Calamondin",
+      "Philippine Lime",
+      "Calamansi Lime",
+      "Citrus microcarpa"
+    ],
+    "category": "Fruit",
+    "notes": "Small, round citrus fruit native to the Philippines, about the size of a kumquat. Bright orange when ripe but typically used green. Extremely tart with a unique floral-citrus aroma that is distinct from both lemon and lime. Sold fresh, frozen, or as bottled juice in Asian grocers. To use: cut in half and squeeze the juice over finished dishes, or serve as wedges alongside grilled meats, noodles, and soups. The juice can be substituted with a mix of lemon and lime juice, though the flavour will not be identical. Store fresh calamansi refrigerated for up to 2 weeks; bottled juice keeps refrigerated for months.",
+    "nutrition": {
+      "calories": "29 per 100 g",
+      "carbohydrates": "9.3 g",
+      "fat": "0.3 g",
+      "fiber": "2.8 g",
+      "protein": "0.9 g",
+      "vitamins_minerals": "Excellent source of vitamin C; contains small amounts of potassium, calcium, and vitamin A"
+    },
+    "purpose": "Adds bright, tart acidity and a distinctive floral-citrus aroma. Used as a finishing acid for Filipino dishes including pancit, bulalo, grilled meats, and dipping sauces. Balances rich, savoury, and salty flavours.",
+    "usedIn": [
+      "bulalo",
+      "pancitbihon",
+      "pancitcanton"
+    ]
+  },
+  "Canton Egg Noodles": {
+    "aka": [
+      "Pancit Canton Noodles",
+      "Flour Stick Noodles",
+      "Wheat Stick Noodles",
+      "Canton Flour Noodles"
+    ],
+    "category": "Grain",
+    "notes": "Thick, dried wheat-based noodles used in Filipino pancit canton. Chewier and heartier than bihon rice noodles, with a satisfying bite. Do not pre-soak — these noodles go directly into boiling broth where they soften and absorb flavour during stir-frying. Pre-soaking will make them mushy. Made from wheat flour and water, sometimes with egg added. Store in a cool, dry place; indefinite shelf life when kept sealed.",
+    "nutrition": {
+      "calories": "350 per 100 g",
+      "carbohydrates": "68 g",
+      "fat": "2.5 g",
+      "fiber": "2 g",
+      "protein": "12 g"
+    },
+    "purpose": "Provides a chewy, substantial noodle base that absorbs sauces and broths during cooking. The defining noodle for Filipino pancit canton, giving the dish its characteristic texture and bite.",
+    "usedIn": [
+      "applecinnscrolls",
+      "pancitcanton"
     ]
   },
   "Capsicum": {
@@ -1011,6 +1098,27 @@
       "sweetsourpork"
     ]
   },
+  "Chinese Sausage": {
+    "aka": [
+      "Lap Cheong",
+      "Lap Chong",
+      "Chinese Dried Sausage",
+      "Wind-Dried Sausage"
+    ],
+    "category": "Meat",
+    "notes": "Dried, cured pork sausage with a sweet-savoury flavour and firm, slightly chewy texture. Made from pork and pork fat seasoned with sugar, soy sauce, and rice wine, then air-dried. Distinctive deep red colour. Does not require refrigeration before opening due to the curing process. To use: slice thinly on the diagonal and render in a hot pan or wok before adding other ingredients — the fat melts and creates a sweet, rich base for stir-fries and noodle dishes. Commonly used in Filipino pancit canton and other Asian dishes. Store unopened in a cool, dry place; refrigerate after opening.",
+    "nutrition": {
+      "calories": "380 per 100 g",
+      "carbohydrates": "12 g",
+      "fat": "30 g",
+      "fiber": "0 g",
+      "protein": "15 g"
+    },
+    "purpose": "Adds sweet-savoury depth, rich pork fat, and a firm, chewy texture. The rendered fat flavours the cooking oil and forms the flavour base for stir-fried noodle dishes and fried rice.",
+    "usedIn": [
+      "pancitcanton"
+    ]
+  },
   "Chives": {
     "aka": [
       "Fresh Chives",
@@ -1062,7 +1170,6 @@
     "purpose": "Adds chocolate flavour, sweetness, richness, fat, and visual contrast. Functions as a primary flavour, structural setting agent, coating, mix-in, or decorative element in cakes, cookies, pastries, confections, frostings, and plated desserts.",
     "usedIn": [
       "bistro-profiteroles",
-      "chocchipcookies",
       "chocmuffins",
       "chocolatemousse",
       "chocolaterumballs",
@@ -1148,7 +1255,6 @@
     },
     "purpose": "Provides deep chocolate flavour, dark colour, and bitterness without added sugar or fat. Used as a primary flavouring in cakes, biscuits, brownies, desserts, drinks, sauces, and dusting applications.",
     "usedIn": [
-      "chocchipcookies",
       "chocmuffins",
       "chocolaterumballs",
       "darkrye",
@@ -1239,6 +1345,26 @@
       "vindaloopaste"
     ]
   },
+  "Corn Cobs": {
+    "aka": [
+      "Corn on the Cob",
+      "Sweet Corn Cobs",
+      "Maize Cobs"
+    ],
+    "category": "Vegetable",
+    "notes": "Fresh corn on the cob, cut into sections for soups and stews. Sweet, juicy kernels with a satisfying bite. In Filipino cooking, corn cobs are added to bulalo and other soups where they slowly release sweetness into the broth while the kernels remain tender and flavourful. Choose cobs with bright green husks and plump kernels. Can be used fresh or frozen. Cut into 3-4 pieces per cob depending on size. Store fresh corn refrigerated in the husk for up to 3 days.",
+    "nutrition": {
+      "calories": "86 per 100 g",
+      "carbohydrates": "19 g",
+      "fat": "1.4 g",
+      "fiber": "2 g",
+      "protein": "3.3 g"
+    },
+    "purpose": "Adds natural sweetness, texture, and visual appeal to soups and stews. Releases flavour into the broth while remaining a substantial, edible vegetable component.",
+    "usedIn": [
+      "bulalo"
+    ]
+  },
   "Cream": {
     "aka": [
       "Cooking Cream",
@@ -1324,6 +1450,26 @@
       "vindaloopaste"
     ]
   },
+  "Curry Powder": {
+    "aka": [
+      "Indian Curry Powder",
+      "Keen's Curry Powder",
+      "Madras Curry Powder"
+    ],
+    "category": "Spice/Herb",
+    "notes": "A blended spice mix typically containing turmeric, coriander, cumin, fenugreek, and chilli. Yellow-gold in colour with a warm, earthy, mildly spicy flavour. Keen's is the most common Australian brand. Used as a convenient all-in-one spice blend for curries, sauces, soups, and marinades. Fry briefly in oil at the start of cooking to bloom the spices and develop deeper flavour. Different brands and blends vary in heat and complexity — adjust quantity to taste. Store in an airtight container away from light and heat.",
+    "nutrition": {
+      "calories": "325 per 100 g",
+      "carbohydrates": "56 g",
+      "fat": "14 g",
+      "fiber": "34 g",
+      "protein": "14 g"
+    },
+    "purpose": "Provides a convenient, balanced blend of warm spices for curries, sauces, and marinades. Adds colour, warmth, and savoury depth with a single ingredient.",
+    "usedIn": [
+      "sataysauce"
+    ]
+  },
   "Custard Powder": {
     "aka": [
       "Instant Custard Powder",
@@ -1342,6 +1488,28 @@
     "purpose": "Thickens liquids into smooth custard; adds sweet vanilla flavour, creamy texture, and pale yellow colour. Acts as a convenient base for desserts and fillings.",
     "usedIn": [
       "applepie"
+    ]
+  },
+  "Dark Soy Sauce": {
+    "aka": [
+      "Thick Soy Sauce",
+      "Black Soy Sauce",
+      "Double Black Soy Sauce"
+    ],
+    "category": "Condiment/Sauce",
+    "notes": "Aged longer than light soy sauce with added molasses or caramel, giving it a thicker, slightly syrupy consistency and a deep dark colour. Less salty than light soy sauce with a richer, slightly sweet flavour. Used primarily to add colour and a glossy finish to dishes rather than for saltiness. Essential in Chinese and Southeast Asian cooking for darkening stir-fries, braises, and noodle dishes. A small amount goes a long way — typically used alongside light soy sauce, not as a replacement. Store in a cool, dry place; refrigerate after opening for longest freshness.",
+    "nutrition": {
+      "calories": "60 per 100 ml",
+      "carbohydrates": "5.5 g",
+      "fat": "0.7 g",
+      "fiber": "0.9 g",
+      "protein": "9 g"
+    },
+    "purpose": "Adds deep colour, subtle sweetness, and a glossy sheen to stir-fries, braises, and sauces. Used for visual appeal and depth of flavour rather than salt content. Works alongside light soy sauce to build layered savoury flavour.",
+    "usedIn": [
+      "mongolianbeef",
+      "mongolianlamb",
+      "mongoliansauce"
     ]
   },
   "Dates": {
@@ -1424,6 +1592,88 @@
       "bistro-vealscaloppine"
     ]
   },
+  "Egg Noodles": {
+    "aka": [
+      "Egg Pasta",
+      "Wheat Egg Noodles",
+      "Hokkien Noodles"
+    ],
+    "category": "Grain",
+    "notes": "Wheat-based noodles made with egg, giving them a rich golden colour and tender, slightly chewy texture. Available fresh or dried in various widths from thin vermicelli to wide ribbons. Cook quickly in boiling water — fresh noodles need only 1-2 minutes, dried 3-5 minutes. Richer and more flavourful than plain wheat noodles. Ideal for buttered noodle sides, stroganoff, soups, and casseroles. Store fresh noodles refrigerated; dried noodles keep in a cool, dry place indefinitely.",
+    "nutrition": {
+      "calories": "138 per 100 g",
+      "carbohydrates": "25 g",
+      "fat": "2 g",
+      "fiber": "1 g",
+      "protein": "5 g"
+    },
+    "purpose": "Provides a tender, slightly chewy noodle with rich egg flavour. Pairs well with creamy sauces, beef dishes, and soups where the noodle needs to hold up without overpowering.",
+    "usedIn": [
+      "beefstroganoff"
+    ]
+  },
+  "Egg Whites": {
+    "aka": [
+      "Egg White",
+      "Albumen"
+    ],
+    "category": "Dairy",
+    "notes": "The clear liquid portion of an egg that turns white and opaque when cooked or whipped. Fat-free and high in protein. When whipped, egg whites can increase to 8 times their original volume, making them essential for light, airy structures in baking. Used in friands for a light, moist crumb; in meringue for pavlova and roulade; and as a leavening agent in some cakes. Whisk until just frothy for friands and batters, or to stiff peaks for meringue. Separate eggs when cold for easier separation, then bring whites to room temperature for maximum volume when whipping.",
+    "nutrition": {
+      "calories": "52 per 100 g",
+      "carbohydrates": "0.7 g",
+      "fat": "0.2 g",
+      "fiber": "0 g",
+      "protein": "11 g"
+    },
+    "purpose": "Provides structure, lightness, and leavening in baked goods. Whips to create volume and aeration for meringues, friands, and light cakes. Adds protein without fat.",
+    "usedIn": [
+      "friandsop",
+      "lemonmeringuepie",
+      "roulade"
+    ]
+  },
+  "Egg Yolk": {
+    "aka": [
+      "Egg Yolks",
+      "Yolk"
+    ],
+    "category": "Dairy",
+    "notes": "The yellow centre portion of an egg, rich in fat, protein, and emulsifying lecithin. Adds richness, colour, tenderness, and structure to baked goods and pastries. Used in custards, pastry dough, lemon curd, and as a glaze for baked goods. In pastry making, egg yolk adds tenderness and helps bind dough without making it tough. Can be beaten with a little water for an egg wash that gives a deep golden sheen to pie crusts and breads. Separate eggs when cold, then use yolks at room temperature for best incorporation.",
+    "nutrition": {
+      "calories": "322 per 100 g",
+      "carbohydrates": "3.6 g",
+      "fat": "27 g",
+      "fiber": "0 g",
+      "protein": "16 g"
+    },
+    "purpose": "Adds richness, colour, tenderness, and emulsification. Essential for pastry dough, custards, and as a binding agent. Provides fat and a golden finish to baked goods.",
+    "usedIn": [
+      "applecinnscrolls",
+      "lemonmeringuepie",
+      "tomatoflan"
+    ]
+  },
+  "Egg Yolks": {
+    "aka": [
+      "Egg Yolk",
+      "Yolks"
+    ],
+    "category": "Dairy",
+    "notes": "Multiple egg yolks. See Egg Yolk for full details.",
+    "nutrition": {
+      "calories": "322 per 100 g",
+      "carbohydrates": "3.6 g",
+      "fat": "27 g",
+      "fiber": "0 g",
+      "protein": "16 g"
+    },
+    "purpose": "Same as Egg Yolk — adds richness, colour, tenderness, and emulsification in larger quantities.",
+    "usedIn": [
+      "lemonmeringuepie",
+      "tiramisu"
+    ]
+  },
   "Eggplant": {
     "aka": [
       "Aubergine",
@@ -1440,9 +1690,7 @@
       "vitamins_minerals": "Good source of dietary fiber, manganese, folate, and small amounts of vitamins B1, B6, and K. Contains antioxidants like nasunin in the skin."
     },
     "purpose": "Provides bulk, creamy texture, and subtle earthy flavour. Absorbs sauces, spices, and seasonings, enhancing main dishes and vegetarian preparations.",
-    "usedIn": [
-      "applecinnscrolls"
-    ]
+    "usedIn": []
   },
   "Eggs": {
     "aka": [
@@ -1477,7 +1725,6 @@
       "bistro-vealcordonbleu",
       "blueberrymuffins",
       "chickenbaconpies",
-      "chocchipcookies",
       "chocmuffins",
       "chocolatemousse",
       "chouxpastry",
@@ -1498,6 +1745,26 @@
       "sub",
       "sweetsourpork",
       "theultimatechocolatemudcake",
+      "tiramisu"
+    ]
+  },
+  "Espresso": {
+    "aka": [
+      "Strong Espresso",
+      "Espresso Coffee",
+      "Short Black"
+    ],
+    "category": "Beverage",
+    "notes": "A concentrated coffee brewed by forcing hot water through finely-ground coffee beans under high pressure. Intensely flavoured, aromatic, and slightly syrupy with a layer of crema on top. Used in desserts to add deep coffee flavour — most famously in tiramisu where it soaks the sponge layers. Brew fresh for best results; instant coffee dissolved in minimal hot water can substitute in a pinch but lacks the richness and crema. Can be sweetened or left unsweetened depending on the recipe. Cool completely before using in desserts unless the recipe specifies otherwise.",
+    "nutrition": {
+      "calories": "2 per 100 ml",
+      "carbohydrates": "0 g",
+      "fat": "0 g",
+      "fiber": "0 g",
+      "protein": "0.1 g"
+    },
+    "purpose": "Adds intense, aromatic coffee flavour to desserts, particularly tiramisu and coffee-flavoured cakes and creams. Provides a bitter, roasted depth that balances sweet, creamy elements.",
+    "usedIn": [
       "tiramisu"
     ]
   },
@@ -1560,6 +1827,28 @@
     },
     "purpose": "Adds rich chocolate and hazelnut flavour with crisp texture. Provides decoration, flavour contrast, and indulgent sweetness to desserts, confections, and pastries.",
     "usedIn": []
+  },
+  "Fish Sauce": {
+    "aka": [
+      "Patis",
+      "Nam Pla",
+      "Nuoc Mam"
+    ],
+    "category": "Condiment/Sauce",
+    "notes": "A thin, amber-coloured liquid made from fermented anchovies and salt. Pungent and intensely savoury with a deep umami character. Used sparingly — a small amount adds depth and complexity without tasting fishy. Essential in Filipino, Thai, and Vietnamese cooking for dipping sauces, marinades, stir-fries, and soups. In Filipino cuisine it is both a cooking ingredient and a table condiment, often paired with calamansi as a dipping sauce. Store in a cool, dry place; does not require refrigeration due to high salt content but keeps longest when refrigerated after opening.",
+    "nutrition": {
+      "calories": "35 per 100 ml",
+      "carbohydrates": "3.6 g",
+      "fat": "0 g",
+      "fiber": "0 g",
+      "protein": "5 g"
+    },
+    "purpose": "Adds salty depth, umami, and savoury complexity. Functions as both a cooking ingredient and a finishing condiment. Balances sweet, sour, and spicy flavours in Southeast Asian dishes.",
+    "usedIn": [
+      "bulalo",
+      "filipinonoodles",
+      "pancitbihon"
+    ]
   },
   "Flaxseed Meal, Brown": {
     "aka": [
@@ -1627,7 +1916,6 @@
       "bistro-vealscaloppine",
       "blueberrymuffins",
       "chickenbaconpies",
-      "chocchipcookies",
       "chocmuffins",
       "chouxpastry",
       "cinnbun",
@@ -1947,6 +2235,87 @@
       "tiramisu"
     ]
   },
+  "Green Beans": {
+    "aka": [
+      "French Beans",
+      "Snap Beans",
+      "String Beans"
+    ],
+    "category": "Vegetable",
+    "notes": "Tender, immature bean pods harvested before the seeds fully develop. Mildly sweet with a fresh, grassy flavour and crisp texture when properly cooked. Ends are typically trimmed before use; modern varieties are stringless. Best cooked briefly — steam, blanch, or sauté until just tender to preserve colour, texture, and nutrients. Overcooking results in dull colour and mushiness. Often finished with butter, garlic, or almonds. Store refrigerated and use while firm and bright.",
+    "nutrition": {
+      "calories": "31 per 100 g",
+      "carbohydrates": "7 g",
+      "fat": "0.1 g",
+      "fiber": "2.7 g",
+      "protein": "1.8 g"
+    },
+    "purpose": "Adds freshness, colour, mild sweetness, and crisp-tender texture. Functions as a side vegetable or supporting ingredient in mixed dishes, casseroles, and salads.",
+    "usedIn": [
+      "beefstroganoff"
+    ]
+  },
+  "Green Cardamom Pods": {
+    "aka": [
+      "Cardamom Pods",
+      "Elaichi",
+      "True Cardamom"
+    ],
+    "category": "Spice/Herb",
+    "notes": "Small green pods containing tiny black seeds with an intense, sweet, floral aroma and a warm, slightly eucalyptus-like flavour. The pods can be used whole to infuse liquids, crushed to release the seeds, or the seeds can be ground into powder. Whole pods are preferred for slow-cooked dishes, curries, and rice — they release flavour gradually and are removed before serving. Ground cardamom loses potency quickly, so grinding seeds fresh from pods gives the best result. Widely used in Indian, Middle Eastern, and Scandinavian cooking for both savoury and sweet dishes. Store whole pods in an airtight container away from light and heat.",
+    "nutrition": {
+      "calories": "311 per 100 g",
+      "carbohydrates": "68 g",
+      "fat": "6 g",
+      "fiber": "28 g",
+      "protein": "11 g"
+    },
+    "purpose": "Adds distinctive sweet, floral, and aromatic flavour to curries, spice blends, rice dishes, desserts, and chai. Functions as a high-impact spice — a little goes a long way.",
+    "usedIn": [
+      "roganjosh",
+      "vindaloopaste"
+    ]
+  },
+  "Gruyere": {
+    "aka": [
+      "Gruyere Cheese",
+      "Swiss Gruyere",
+      "Gruyere de Comte"
+    ],
+    "category": "Dairy",
+    "notes": "A firm, aged Swiss cheese made from cow's milk with a dense, smooth texture and a complex flavour that ranges from nutty and sweet when young to earthy and slightly crystalline when aged. Melts beautifully without splitting, making it ideal for baking, gratins, quiches, and flans. Named after the town of Gruyeres in Switzerland. Grate fresh for the best flavour and melting quality — pre-shredded cheese contains anti-caking agents that affect texture. Store wrapped in wax paper or cheese paper in the refrigerator; bring to room temperature before using for best flavour.",
+    "nutrition": {
+      "calories": "413 per 100 g",
+      "carbohydrates": "0.4 g",
+      "fat": "32 g",
+      "fiber": "0 g",
+      "protein": "30 g"
+    },
+    "purpose": "Adds rich, nutty, savoury depth with excellent melting properties. Ideal for baked dishes where a smooth, even melt and golden finish are desired. Pairs well with eggs, pastry, vegetables, and white sauces.",
+    "usedIn": [
+      "tomatoflan"
+    ]
+  },
+  "Half and Half": {
+    "aka": [
+      "Half Cream",
+      "Half Milk",
+      "Cream and Milk Blend"
+    ],
+    "category": "Dairy",
+    "notes": "A dairy blend of equal parts whole milk and thickened cream, commonly used in American recipes where a liquid with more richness than milk but less density than cream is needed. Not widely sold pre-mixed in Australia — easily made at home by combining equal measures of whole milk and thickened cream. Used in baking to add richness and tenderness without the heaviness of full cream, particularly in enriched doughs like cinnamon rolls where it is poured over the risen dough before baking. Store refrigerated and use within the same timeframe as the cream used to make it.",
+    "nutrition": {
+      "calories": "130 per 100 ml",
+      "carbohydrates": "4.5 g",
+      "fat": "12 g",
+      "fiber": "0 g",
+      "protein": "3 g"
+    },
+    "purpose": "Provides a lighter richness than full cream while adding more fat and tenderness than milk alone. Ideal for enriched doughs, scones, and baked goods where a balance of richness and lightness is needed.",
+    "usedIn": [
+      "sourdoughcinnrolls"
+    ]
+  },
   "Hemp, Protein Powder": {
     "aka": [
       "Hemp Protein",
@@ -2030,6 +2399,26 @@
     "purpose": "Adds versatile aromatic flavor to a wide variety of dishes, enhancing both taste and aroma without overpowering other ingredients.",
     "usedIn": []
   },
+  "Hoisin Sauce": {
+    "aka": [
+      "Chinese Barbecue Sauce",
+      "Hoisin"
+    ],
+    "category": "Condiment/Sauce",
+    "notes": "A thick, dark brown Chinese sauce made from fermented soybean paste, sugar, garlic, vinegar, and spices. Sweet, salty, and slightly tangy with a complex umami depth. Commonly used in stir-fries, as a glaze for roasted meats, and as a dipping sauce. A key ingredient in Mongolian-style sauces where it adds body, sweetness, and a rich dark colour. Use sparingly — it is intensely flavoured. Store in the refrigerator after opening and use within 6 months.",
+    "nutrition": {
+      "calories": "220 per 100 g",
+      "carbohydrates": "44 g",
+      "fat": "2.5 g",
+      "fiber": "2 g",
+      "protein": "3 g"
+    },
+    "purpose": "Adds sweet-savoury depth, dark colour, and glossy body to stir-fries, glazes, and dipping sauces. Contributes the signature richness to Mongolian beef and lamb dishes.",
+    "usedIn": [
+      "mongolianlamb",
+      "mongoliansauce"
+    ]
+  },
   "Honey": {
     "aka": [
       "Clover Honey",
@@ -2104,6 +2493,27 @@
     },
     "purpose": "Provides warmth, depth, and complex flavor to curries, dals, sauces, marinades, pickles, and Indian breads. Adds aroma, color, heat, and balance. Blends of spices (masalas) create layered flavors, while individual spices contribute signature notes; essential for authentic Indian cooking.",
     "usedIn": []
+  },
+  "Italian Herbs": {
+    "aka": [
+      "Italian Seasoning",
+      "Italian Herb Blend",
+      "Mixed Italian Herbs"
+    ],
+    "category": "Spice/Herb",
+    "notes": "A dried herb blend typically combining oregano, basil, thyme, rosemary, and sometimes marjoram or sage. Convenient pre-mixed seasoning for Mediterranean and Italian-style dishes. Adds a familiar savoury, aromatic flavour without needing to measure individual herbs. Use in tomato-based sauces, pasta dishes, soups, roasted vegetables, and marinades. Add during cooking to allow the dried herbs to rehydrate and release their flavour. Store in a cool, dark place in an airtight container to preserve aroma.",
+    "nutrition": {
+      "calories": "280 per 100 g",
+      "carbohydrates": "50 g",
+      "fat": "8 g",
+      "fiber": "25 g",
+      "protein": "10 g"
+    },
+    "purpose": "Provides a convenient, balanced blend of classic Mediterranean herbs. Adds savoury depth and aromatic complexity to tomato sauces, pasta dishes, lasagne, and roasted vegetables with a single ingredient.",
+    "usedIn": [
+      "lasagne",
+      "redsauce"
+    ]
   },
   "Juice": {
     "aka": [
@@ -2228,6 +2638,46 @@
       "roganjosh"
     ]
   },
+  "Lasagne Sheets": {
+    "aka": [
+      "Lasagna Sheets",
+      "Lasagne Pasta",
+      "Oven-Ready Lasagne",
+      "Instant Lasagne Sheets"
+    ],
+    "category": "Grain",
+    "notes": "Flat, rectangular sheets of egg or durum wheat pasta used to build the classic layered Italian dish. Available dried (requiring pre-cooking or oven-ready) or fresh. Dried sheets are firm and hold their structure well during baking; oven-ready or instant varieties absorb liquid from the sauce and soften during cooking without pre-boiling. Fresh sheets are delicate and cook faster but produce a softer, more tender result. Store dried pasta in a cool, dry place indefinitely; fresh pasta should be refrigerated and used within days.",
+    "nutrition": {
+      "calories": "360 per 100 g",
+      "carbohydrates": "74 g",
+      "fat": "1.5 g",
+      "fiber": "3 g",
+      "protein": "12 g"
+    },
+    "purpose": "Provides the structural layers in lasagne, creating distinct strata of pasta, sauce, and cheese. Absorbs and holds sauce while maintaining a tender but firm bite when properly cooked.",
+    "usedIn": [
+      "lasagne"
+    ]
+  },
+  "Leek": {
+    "aka": [
+      "Allium porrum",
+      "Leek Stalks"
+    ],
+    "category": "Vegetable",
+    "notes": "A mild, sweet member of the onion family with a long white stalk that transitions to flat, dark green leaves. More delicate and less pungent than brown onions. The white and light green parts are tender and ideal for cooking; the dark green tops are tougher but excellent for stocks and broths. Must be thoroughly washed before use as soil gets trapped between the tightly packed layers — slice first, then rinse in a colander. Commonly sautéed as an aromatic base, braised as a side, or used in soups and stews. Store unwashed in the refrigerator for up to a week.",
+    "nutrition": {
+      "calories": "61 per 100 g",
+      "carbohydrates": "14 g",
+      "fat": "0.3 g",
+      "fiber": "1.8 g",
+      "protein": "1.5 g"
+    },
+    "purpose": "Adds a gentle, sweet onion flavour without the sharpness of regular onions. Functions as an aromatic base in soups and stews, or as a vegetable component in Filipino dishes like bulalo.",
+    "usedIn": [
+      "bulalo"
+    ]
+  },
   "Lemon Zest": {
     "aka": [
       "Grated Lemon Peel",
@@ -2252,6 +2702,31 @@
       "lemonmeringuepie"
     ]
   },
+  "Light Soy Sauce": {
+    "aka": [
+      "Thin Soy Sauce",
+      "Regular Soy Sauce",
+      "Japanese Soy Sauce",
+      "Usukuchi"
+    ],
+    "category": "Condiment/Sauce",
+    "notes": "The standard soy sauce used in most Asian cooking. Thinner and saltier than dark soy sauce with a lighter brown colour and a clean, salty-savoury flavour. Made from fermented soybeans and wheat. Used for seasoning, marinating, dipping, and as the primary salty element in stir-fries, sauces, and dressings. Adds salt and umami without darkening the dish significantly. Store in a cool, dry place; refrigerate after opening for longest freshness.",
+    "nutrition": {
+      "calories": "45 per 100 ml",
+      "carbohydrates": "3.5 g",
+      "fat": "0.4 g",
+      "fiber": "0.6 g",
+      "protein": "7 g"
+    },
+    "purpose": "Adds saltiness, umami, and savoury depth without significantly changing the colour of a dish. The primary seasoning soy sauce for everyday cooking, marinades, and dipping sauces.",
+    "usedIn": [
+      "honeygarlicsauce",
+      "mongolianbeef",
+      "mongolianlamb",
+      "mongoliansauce",
+      "sweetsourpork"
+    ]
+  },
   "Linseed": {
     "aka": [
       "Flaxseed"
@@ -2269,6 +2744,26 @@
     "purpose": "Adds fiber, omega-3 fatty acids, protein, and nutty flavor. Enhances texture and nutritional profile in breads and baked goods.",
     "usedIn": [
       "tangzhongseed"
+    ]
+  },
+  "Liver Spread": {
+    "aka": [
+      "Canned Liver Paste",
+      "Liver Pâté",
+      "Reno Liver Spread"
+    ],
+    "category": "Condiment/Sauce",
+    "notes": "A smooth, spreadable paste made from pork or beef liver, commonly sold in small cans in Filipino grocery stores. Reno is the most recognised brand. Rich, savoury, and slightly metallic in flavour. Used primarily as a thickener and flavour enhancer in Filipino stews, particularly caldereta, where it dissolves into the sauce and adds body, richness, and a deep savoury note. Can also be spread on bread or crackers. Store unopened in the pantry; refrigerate after opening and use within a week.",
+    "nutrition": {
+      "calories": "250 per 100 g",
+      "carbohydrates": "10 g",
+      "fat": "18 g",
+      "fiber": "1 g",
+      "protein": "12 g"
+    },
+    "purpose": "Adds richness, body, and savoury depth to Filipino stews. Functions as both a thickener and flavour enhancer, particularly in caldereta where it gives the sauce its distinctive character.",
+    "usedIn": [
+      "porkcaldereta"
     ]
   },
   "Malt Powder": {
@@ -2342,6 +2837,26 @@
     },
     "purpose": "Adds chocolate, caramel, and nougat flavor, sweetness, and texture to desserts, baked goods, and confections.",
     "usedIn": []
+  },
+  "Mascarpone": {
+    "aka": [
+      "Mascarpone Cheese",
+      "Italian Cream Cheese"
+    ],
+    "category": "Dairy",
+    "notes": "A smooth, thick Italian cream cheese with a high fat content and a mild, slightly sweet flavour. Silky and spreadable straight from the refrigerator. Unlike regular cream cheese, mascarpone is made from cream rather than milk, giving it a richer, more luxurious texture. Used in both sweet and savoury dishes — essential in tiramisu, excellent in cheesecakes, and a wonderful addition to creamy pasta sauces and pie fillings where it melts into a velvety texture. Does not split when heated gently. Bring to room temperature before using for easier mixing. Store refrigerated and use within days of opening.",
+    "nutrition": {
+      "calories": "429 per 100 g",
+      "carbohydrates": "2.8 g",
+      "fat": "44 g",
+      "fiber": "0 g",
+      "protein": "5.8 g"
+    },
+    "purpose": "Adds luxurious richness, creaminess, and a mild, sweet dairy flavour. Essential for authentic tiramisu. Used in both sweet desserts and savoury sauces for a silky texture.",
+    "usedIn": [
+      "chickenbaconpies",
+      "tiramisu"
+    ]
   },
   "Milk": {
     "aka": [
@@ -2509,6 +3024,25 @@
     "purpose": "Adds deep, robust sweetness, dark color, and moisture to baked goods and sauces. Enhances flavor complexity and richness, particularly in dense breads, spiced desserts, and savory glazes.",
     "usedIn": [
       "darkrye"
+    ]
+  },
+  "Mozzarella": {
+    "aka": [
+      "Mozzarella Cheese",
+      "Pizza Cheese"
+    ],
+    "category": "Dairy",
+    "notes": "A mild, white Italian cheese with a soft, elastic texture and excellent melting properties. Available fresh (packed in whey or water) or as low-moisture block cheese. Fresh mozzarella is soft, moist, and delicate — best torn and used in salads or on pizza where it melts into creamy pools. Low-moisture mozzarella is firmer, grates easily, and gives the classic stretchy, golden melt on pizzas, lasagne, and baked pasta dishes. For lasagne, use low-moisture mozzarella for even melting and browning. Store fresh mozzarella in its liquid; block mozzarella wrapped in the refrigerator.",
+    "nutrition": {
+      "calories": "280 per 100 g",
+      "carbohydrates": "2.2 g",
+      "fat": "20 g",
+      "fiber": "0 g",
+      "protein": "22 g"
+    },
+    "purpose": "Provides mild, creamy flavour, excellent stretch, and golden browning when melted. Essential for pizza, lasagne, and baked pasta dishes where a smooth, even melt is desired.",
+    "usedIn": [
+      "lasagne"
     ]
   },
   "Mushrooms": {
@@ -2953,6 +3487,27 @@
       "tacoseasoning"
     ]
   },
+  "Oyster Sauce": {
+    "aka": [
+      "Oyster Flavoured Sauce",
+      "Hao You"
+    ],
+    "category": "Condiment/Sauce",
+    "notes": "A thick, dark brown sauce made from oyster extracts, sugar, salt, and cornstarch. Rich, savoury, and slightly sweet with a distinct umami depth that is not fishy. Used extensively in Chinese and Southeast Asian stir-fries, noodle dishes, and as a finishing sauce for vegetables. Adds both flavour and a glossy sheen. A small amount goes a long way. Stir into dishes towards the end of cooking to preserve its flavour. Store in the refrigerator after opening.",
+    "nutrition": {
+      "calories": "100 per 100 g",
+      "carbohydrates": "20 g",
+      "fat": "0.5 g",
+      "fiber": "0.5 g",
+      "protein": "2 g"
+    },
+    "purpose": "Adds rich umami depth, subtle sweetness, and a glossy finish to stir-fries, noodle dishes, and vegetable preparations. Provides the savoury backbone in dishes like Filipino pancit canton and Mongolian beef.",
+    "usedIn": [
+      "filipinonoodles",
+      "mongolianbeef",
+      "pancitcanton"
+    ]
+  },
   "Paprika": {
     "aka": [
       "Ground Paprika",
@@ -2978,6 +3533,28 @@
       "chickenshawarma",
       "roganjosh",
       "tacoseasoning"
+    ]
+  },
+  "Parmesan": {
+    "aka": [
+      "Parmigiano-Reggiano",
+      "Parmesan Cheese",
+      "Grated Parmesan"
+    ],
+    "category": "Dairy",
+    "notes": "A hard, granular Italian cheese made from cow's milk, aged for 12-36 months. Intensely savoury, nutty, and slightly crystalline with a granular texture that melts into sauces. A little goes a long way due to its concentrated flavour. Grate fresh from the block for the best flavour and melting quality — pre-grated Parmesan contains anti-caking agents and loses its aromatic oils quickly. Use in pasta, risotto, pesto, sauces, and as a finishing cheese. The rind can be added to soups and stocks for extra depth. Store wrapped in wax paper or cheese paper in the refrigerator.",
+    "nutrition": {
+      "calories": "431 per 100 g",
+      "carbohydrates": "4.1 g",
+      "fat": "29 g",
+      "fiber": "0 g",
+      "protein": "38 g"
+    },
+    "purpose": "Adds intense umami, saltiness, and nutty depth to pasta, sauces, pesto, and baked dishes. Functions as both a cooking ingredient and a finishing cheese. A cornerstone of Italian cuisine.",
+    "usedIn": [
+      "lasagne",
+      "pestosauce",
+      "potatognocchi"
     ]
   },
   "Parsley": {
@@ -3368,6 +3945,27 @@
       "potatognocchi"
     ]
   },
+  "Prawns": {
+    "aka": [
+      "Shrimp",
+      "King Prawns",
+      "Tiger Prawns",
+      "Green Prawns"
+    ],
+    "category": "Seafood",
+    "notes": "Shellfish with a sweet, delicate flavour and firm, slightly bouncy texture when cooked. Sold fresh or frozen, raw or cooked, shell-on or peeled. Green prawns are raw and turn pink-orange when cooked. For stir-fries and noodle dishes, peel and devein before cooking — the dark vein running along the back is the digestive tract. Cook quickly over high heat; they are done the moment they turn opaque and curl. Overcooking makes them rubbery. Store fresh prawns refrigerated and use within a day; frozen prawns can be thawed overnight in the refrigerator.",
+    "nutrition": {
+      "calories": "99 per 100 g",
+      "carbohydrates": "0.2 g",
+      "fat": "0.3 g",
+      "fiber": "0 g",
+      "protein": "24 g"
+    },
+    "purpose": "Adds sweet, delicate seafood flavour and firm texture to stir-fries, noodle dishes, curries, and grilled preparations. Cooks quickly and pairs well with bold sauces and aromatics.",
+    "usedIn": [
+      "pancitcanton"
+    ]
+  },
   "Psyllium Husk": {
     "aka": [
       "Ispaghula Husk"
@@ -3616,7 +4214,6 @@
       "chickencacciatore",
       "chickenshawarma",
       "chiligarlicoil",
-      "chocchipcookies",
       "chouxpastry",
       "cinnbun",
       "cinntwists",
@@ -3786,6 +4383,47 @@
       "turkishbread"
     ]
   },
+  "Snow Peas": {
+    "aka": [
+      "Snow Pea Pods",
+      "Chinese Pea Pods",
+      "Mangetout"
+    ],
+    "category": "Vegetable",
+    "notes": "Flat, pale green pea pods with very small peas inside, harvested young before the peas develop. The entire pod is edible — crisp, sweet, and tender with a fresh, grassy flavour. Requires minimal cooking; briefly stir-fry, steam, or blanch for 1-2 minutes to retain crunch and bright colour. Overcooking makes them limp and dull. Trim the stem end and remove the string along the seam before cooking. Common in Asian stir-fries and as a crisp vegetable side. Store refrigerated and use within 3-4 days.",
+    "nutrition": {
+      "calories": "42 per 100 g",
+      "carbohydrates": "7.6 g",
+      "fat": "0.2 g",
+      "fiber": "2.6 g",
+      "protein": "2.8 g"
+    },
+    "purpose": "Adds crisp texture, fresh sweetness, and vibrant green colour to stir-fries, noodle dishes, and salads. Provides visual contrast and a light, clean flavour that balances richer ingredients.",
+    "usedIn": [
+      "pancitbihon"
+    ]
+  },
+  "Sourdough Starter": {
+    "aka": [
+      "Sourdough Culture",
+      "Levain",
+      "Mother",
+      "Sour Starter"
+    ],
+    "category": "Bread",
+    "notes": "A living culture of wild yeast and lactobacilli bacteria cultivated in a mixture of flour and water. Used as the sole leavening agent in sourdough bread, replacing commercial yeast with a slower, more complex fermentation. Requires regular feeding with fresh flour and water to maintain activity. Before use, the starter should be fully risen, bubbly, and smell pleasantly sour and yeasty — not sharp or acetone-like. A stiff sweet starter (lower hydration, fed with sugar) produces a milder flavour suitable for enriched doughs like cinnamon rolls. Can be stored in the refrigerator between bakes and revived with a few feedings. Discard a portion before each feed to maintain health and volume.",
+    "nutrition": {
+      "calories": "250 per 100 g",
+      "carbohydrates": "50 g",
+      "fat": "1 g",
+      "fiber": "2 g",
+      "protein": "8 g"
+    },
+    "purpose": "Provides natural leavening and distinctive tangy flavour to sourdough breads and enriched doughs. Creates an open crumb structure and improved keeping quality through slow fermentation.",
+    "usedIn": [
+      "sourdoughcinnrolls"
+    ]
+  },
   "Soy Lecithin": {
     "aka": [
       "NA"
@@ -3803,6 +4441,38 @@
     "purpose": "Enhances dough elasticity, structure, and gas retention. Acts as an emulsifier to stabilize mixtures containing fat and water, improving texture and consistency. Extends shelf life and promotes even browning and soft crumb development in baked goods, chocolate, spreads, and sauces.",
     "usedIn": [
       "tangzhongseed"
+    ]
+  },
+  "Soy Sauce": {
+    "aka": [
+      "Light Soy Sauce",
+      "Regular Soy Sauce",
+      "Japanese Soy Sauce",
+      "Shoyu"
+    ],
+    "category": "Condiment/Sauce",
+    "notes": "The standard, all-purpose soy sauce used in most cooking. Made from fermented soybeans and wheat, it is thin, salty, and amber-brown with a clean umami flavour. When a recipe simply calls for 'soy sauce' without specifying light or dark, this is what is meant. Used for seasoning, marinating, stir-frying, dipping, and as the foundational salty element in countless Asian dishes. Adds salt and savoury depth without dramatically darkening the food. Store in a cool, dry place; refrigerate after opening for best freshness.",
+    "nutrition": {
+      "calories": "53 per 100 ml",
+      "carbohydrates": "4.9 g",
+      "fat": "0.6 g",
+      "fiber": "0.8 g",
+      "protein": "8 g"
+    },
+    "purpose": "Provides the primary salty, savoury, umami foundation in Asian cooking. Used across marinades, stir-fries, dipping sauces, and braises to build depth and balance sweetness and acidity.",
+    "usedIn": [
+      "chickenteriyaki",
+      "chiligarlicoil",
+      "filipinonoodles",
+      "filipinoportoccino",
+      "pancitbihon",
+      "pancitcanton",
+      "sataysauce",
+      "sweetsoursauce_flex",
+      "sweetsoursauce_quick",
+      "sweetspicyorangesauce",
+      "teriyakimarinade",
+      "teriyakisauce"
     ]
   },
   "Spinach": {
@@ -3938,7 +4608,6 @@
       "chickencacciatore",
       "chickenteriyaki",
       "chiligarlicoil",
-      "chocchipcookies",
       "chocmuffins",
       "chouxpastry",
       "cinnbun",
@@ -4048,7 +4717,6 @@
       "Tex-Mex Seasoning"
     ],
     "category": "Mexican",
-    "purpose": "Delivers the signature Tex-Mex flavour profile to beef mince, chicken, and vegetables for tacos, nachos, burritos, and fajitas. A balanced blend of cumin, chili, paprika, garlic, onion, and oregano with a starch thickener.",
     "notes": "**Commercial packet (Old El Paso):** Contains Corn Starch, Chili Pepper, Maltodextrin, Salt, Spice, Onion Powder — 1 packet (35 g) per 500 g mince.\n\n**Homemade blend (see tacoseasoning recipe):** 2 tsp cumin, 2 tsp paprika, 1 tsp chili powder, 1 tsp garlic powder, 1 tsp onion powder, 1 tsp dried oregano, 1 tsp salt, 1/2 tsp black pepper, 1/2 tsp plain flour. Mix and use 2 heaped tbsp per 500 g mince.\n\n**Trevor's tip:** Toast whole cumin and coriander seeds in a dry pan first, then grind — transforms the depth of the blend completely.\n\n**Storage:** Homemade blend keeps 6 months in an airtight jar.",
     "nutrition": {
       "calories": "~20 per tbsp",
@@ -4058,6 +4726,7 @@
       "protein": "0.5 g",
       "vitamins_minerals": "Good source of iron (cumin). Capsaicin from chili. Antioxidants from paprika."
     },
+    "purpose": "Delivers the signature Tex-Mex flavour profile to beef mince, chicken, and vegetables for tacos, nachos, burritos, and fajitas. A balanced blend of cumin, chili, paprika, garlic, onion, and oregano with a starch thickener.",
     "usedIn": [
       "nachomince"
     ]
@@ -4119,6 +4788,56 @@
     },
     "purpose": "Adds chocolate, honey, and almond nougat flavour. Contributes sweetness, texture, and richness to baked goods and desserts.",
     "usedIn": []
+  },
+  "Tomato Paste": {
+    "aka": [
+      "Tomato Puree Concentrate",
+      "Triple Concentrated Tomato Paste"
+    ],
+    "category": "Condiment/Sauce",
+    "notes": "A thick, concentrated paste made from tomatoes that have been cooked down and strained to remove seeds and skins. Deep red with an intense, slightly sweet tomato flavour. Used to add depth, richness, and colour to sauces, stews, braises, and soups. A small amount goes a long way. Fry briefly in oil at the start of cooking to caramelise the sugars and deepen the flavour before adding liquids. Sold in small cans, jars, or tubes. Store in the refrigerator after opening — tubes keep longest. Can be frozen in tablespoon portions for convenience.",
+    "nutrition": {
+      "calories": "82 per 100 g",
+      "carbohydrates": "18 g",
+      "fat": "0.5 g",
+      "fiber": "4.5 g",
+      "protein": "4.3 g"
+    },
+    "purpose": "Adds concentrated tomato flavour, deep red colour, richness, and body to sauces, stews, and braises. Caramelises in hot oil to build a deep savoury base. Essential in Italian, Filipino, and many other cuisines.",
+    "usedIn": [
+      "beefstockpot",
+      "beefvindaloo",
+      "butterchicken",
+      "kormapaste",
+      "lambvindaloo",
+      "lasagne",
+      "meatpie",
+      "nachomince",
+      "roganjosh"
+    ]
+  },
+  "Tomato Sauce": {
+    "aka": [
+      "Ketchup",
+      "Tomato Ketchup",
+      "Aussie Tomato Sauce"
+    ],
+    "category": "Condiment/Sauce",
+    "notes": "A smooth, sweet-tangy condiment made from tomatoes, vinegar, sugar, and spices. In Australian cooking, tomato sauce is the equivalent of ketchup — used as a table condiment and as an ingredient in sauces, glazes, and marinades. Adds sweetness, acidity, and a familiar savoury tomato flavour. In recipes, it can be used to build quick sweet-sour bases for stir-fries and dipping sauces. Store in the pantry before opening; refrigerate after opening.",
+    "nutrition": {
+      "calories": "90 per 100 g",
+      "carbohydrates": "20 g",
+      "fat": "0.1 g",
+      "fiber": "1.5 g",
+      "protein": "1.6 g"
+    },
+    "purpose": "Adds sweetness, tang, and tomato flavour to sauces, glazes, marinades, and as a finishing condiment. Provides the sweet-tangy base in sweet and sour sauces and Filipino-style stews.",
+    "usedIn": [
+      "porkcaldereta",
+      "sweetsourpork",
+      "sweetsoursauce_flex",
+      "sweetsoursauce_quick"
+    ]
   },
   "Tomatoes": {
     "aka": [
@@ -4251,7 +4970,6 @@
       "baked-cheesecake",
       "bananabread",
       "bistro-pavlova",
-      "chocchipcookies",
       "chocmuffins",
       "cinnbun",
       "cinntwists",
@@ -4467,6 +5185,26 @@
       "potatognocchi"
     ]
   },
+  "Worcestershire Sauce": {
+    "aka": [
+      "Worcester Sauce",
+      "Lea & Perrins"
+    ],
+    "category": "Condiment/Sauce",
+    "notes": "A thin, dark brown fermented liquid condiment made from vinegar, molasses, anchovies, tamarind, and spices. Complex, savoury, and tangy with a deep umami character. Used sparingly — a few dashes add depth and complexity to meat dishes, stews, sauces, and marinades. Particularly good at enhancing beef. Store in a cool, dry place; does not require refrigeration due to its fermented, high-acid nature.",
+    "nutrition": {
+      "calories": "77 per 100 ml",
+      "carbohydrates": "19 g",
+      "fat": "0 g",
+      "fiber": "0 g",
+      "protein": "0 g"
+    },
+    "purpose": "Adds complex savoury depth, umami, and subtle tang. Enhances the meaty flavour of beef dishes, stews, pies, and sauces. A little goes a long way.",
+    "usedIn": [
+      "beefstroganoff",
+      "meatpie"
+    ]
+  },
   "Xanthan Gum": {
     "aka": [
       "NA"
@@ -4561,402 +5299,5 @@
     },
     "purpose": "Provides mild, tender flesh that absorbs flavours well. Adds texture, moisture, and subtle sweetness to dishes.",
     "usedIn": []
-  },
-  "??? Additional sauce ingredients to confirm": {
-    "aka": [],
-    "category": "Condiment/Sauce",
-    "notes": "Add description here.",
-    "usedIn": [
-      "bistro-steakboston"
-    ]
-  },
-  "Almond Meal": {
-    "aka": [],
-    "category": "Nut/Seed",
-    "notes": "Add description here.",
-    "usedIn": [
-      "friandsop",
-      "orangepoppyseed"
-    ]
-  },
-  "Bihon Rice Noodles": {
-    "aka": [],
-    "category": "Grain",
-    "notes": "Add description here.",
-    "usedIn": [
-      "pancitbihon"
-    ]
-  },
-  "Calamansi": {
-    "aka": [],
-    "category": "Other",
-    "notes": "Add description here.",
-    "usedIn": [
-      "bulalo",
-      "pancitbihon",
-      "pancitcanton"
-    ]
-  },
-  "Canton Egg Noodles": {
-    "aka": [],
-    "category": "Dairy",
-    "notes": "Add description here.",
-    "usedIn": [
-      "pancitcanton"
-    ]
-  },
-  "Chinese Sausage": {
-    "aka": [],
-    "category": "Meat",
-    "notes": "Add description here.",
-    "usedIn": [
-      "pancitcanton"
-    ]
-  },
-  "Cold Water": {
-    "aka": [],
-    "category": "Other",
-    "notes": "Add description here.",
-    "usedIn": [
-      "applepie",
-      "lemonmeringuepie"
-    ]
-  },
-  "Corn Cobs": {
-    "aka": [],
-    "category": "Vegetable",
-    "notes": "Add description here.",
-    "usedIn": [
-      "bulalo"
-    ]
-  },
-  "Curry Powder": {
-    "aka": [],
-    "category": "Other",
-    "notes": "Add description here.",
-    "usedIn": [
-      "sataysauce"
-    ]
-  },
-  "Dark Soy Sauce": {
-    "aka": [],
-    "category": "Condiment/Sauce",
-    "notes": "Add description here.",
-    "usedIn": [
-      "mongolianbeef",
-      "mongolianlamb",
-      "mongoliansauce"
-    ]
-  },
-  "Egg Noodles": {
-    "aka": [],
-    "category": "Dairy",
-    "notes": "Add description here.",
-    "usedIn": [
-      "beefstroganoff"
-    ]
-  },
-  "Egg Whites": {
-    "aka": [],
-    "category": "Dairy",
-    "notes": "Add description here.",
-    "usedIn": [
-      "friandsop",
-      "lemonmeringuepie",
-      "roulade"
-    ]
-  },
-  "Egg Yolk": {
-    "aka": [],
-    "category": "Dairy",
-    "notes": "Add description here.",
-    "usedIn": [
-      "applecinnscrolls",
-      "lemonmeringuepie",
-      "tomatoflan"
-    ]
-  },
-  "Egg Yolks": {
-    "aka": [],
-    "category": "Dairy",
-    "notes": "Add description here.",
-    "usedIn": [
-      "lemonmeringuepie",
-      "tiramisu"
-    ]
-  },
-  "Espresso": {
-    "aka": [],
-    "category": "Other",
-    "notes": "Add description here.",
-    "usedIn": [
-      "tiramisu"
-    ]
-  },
-  "Fish Sauce": {
-    "aka": [],
-    "category": "Seafood",
-    "notes": "Add description here.",
-    "usedIn": [
-      "bulalo",
-      "filipinonoodles",
-      "pancitbihon"
-    ]
-  },
-  "Green Beans": {
-    "aka": [],
-    "category": "Vegetable",
-    "notes": "Add description here.",
-    "usedIn": [
-      "beefstroganoff"
-    ]
-  },
-  "Green Cardamom Pods": {
-    "aka": [],
-    "category": "Spice/Herb",
-    "notes": "Add description here.",
-    "usedIn": [
-      "roganjosh",
-      "vindaloopaste"
-    ]
-  },
-  "Gruyere": {
-    "aka": [],
-    "category": "Dairy",
-    "notes": "Add description here.",
-    "usedIn": [
-      "tomatoflan"
-    ]
-  },
-  "Half and Half": {
-    "aka": [],
-    "category": "Other",
-    "notes": "Add description here.",
-    "usedIn": [
-      "sourdoughcinnrolls"
-    ]
-  },
-  "Hoisin Sauce": {
-    "aka": [],
-    "category": "Condiment/Sauce",
-    "notes": "Add description here.",
-    "usedIn": [
-      "mongolianlamb",
-      "mongoliansauce"
-    ]
-  },
-  "Hot Water": {
-    "aka": [],
-    "category": "Other",
-    "notes": "Add description here.",
-    "usedIn": [
-      "beefvindaloo",
-      "chickencacciatore",
-      "chocolaterumballs",
-      "lambvindaloo",
-      "roganjosh",
-      "traditionalanzacbiscuits"
-    ]
-  },
-  "Italian Herbs": {
-    "aka": [],
-    "category": "Spice/Herb",
-    "notes": "Add description here.",
-    "usedIn": [
-      "lasagne",
-      "redsauce"
-    ]
-  },
-  "Lasagne Sheets": {
-    "aka": [],
-    "category": "Other",
-    "notes": "Add description here.",
-    "usedIn": [
-      "lasagne"
-    ]
-  },
-  "Leek": {
-    "aka": [],
-    "category": "Vegetable",
-    "notes": "Add description here.",
-    "usedIn": [
-      "bulalo"
-    ]
-  },
-  "Light Soy Sauce": {
-    "aka": [],
-    "category": "Condiment/Sauce",
-    "notes": "Add description here.",
-    "usedIn": [
-      "honeygarlicsauce",
-      "mongolianbeef",
-      "mongolianlamb",
-      "mongoliansauce",
-      "sweetsourpork"
-    ]
-  },
-  "Liver Spread": {
-    "aka": [],
-    "category": "Other",
-    "notes": "Add description here.",
-    "usedIn": [
-      "porkcaldereta"
-    ]
-  },
-  "Mascarpone": {
-    "aka": [],
-    "category": "Dairy",
-    "notes": "Add description here.",
-    "usedIn": [
-      "chickenbaconpies",
-      "tiramisu"
-    ]
-  },
-  "Mozzarella": {
-    "aka": [],
-    "category": "Dairy",
-    "notes": "Add description here.",
-    "usedIn": [
-      "lasagne"
-    ]
-  },
-  "Oyster Sauce": {
-    "aka": [],
-    "category": "Condiment/Sauce",
-    "notes": "Add description here.",
-    "usedIn": [
-      "filipinonoodles",
-      "mongolianbeef",
-      "pancitcanton"
-    ]
-  },
-  "Parmesan": {
-    "aka": [],
-    "category": "Dairy",
-    "notes": "Add description here.",
-    "usedIn": [
-      "lasagne",
-      "pestosauce",
-      "potatognocchi"
-    ]
-  },
-  "Prawns": {
-    "aka": [],
-    "category": "Seafood",
-    "notes": "Add description here.",
-    "usedIn": [
-      "pancitcanton"
-    ]
-  },
-  "Snow Peas": {
-    "aka": [],
-    "category": "Vegetable",
-    "notes": "Add description here.",
-    "usedIn": [
-      "pancitbihon"
-    ]
-  },
-  "Sourdough Starter": {
-    "aka": [],
-    "category": "Other",
-    "notes": "Add description here.",
-    "usedIn": [
-      "sourdoughcinnrolls"
-    ]
-  },
-  "Soy Sauce": {
-    "aka": [],
-    "category": "Condiment/Sauce",
-    "notes": "Add description here.",
-    "usedIn": [
-      "chickenteriyaki",
-      "chiligarlicoil",
-      "filipinonoodles",
-      "filipinoportoccino",
-      "pancitbihon",
-      "pancitcanton",
-      "sataysauce",
-      "sweetsoursauce_flex",
-      "sweetsoursauce_quick",
-      "sweetspicyorangesauce",
-      "teriyakimarinade",
-      "teriyakisauce"
-    ]
-  },
-  "Tomato Paste": {
-    "aka": [],
-    "category": "Vegetable",
-    "notes": "Add description here.",
-    "usedIn": [
-      "beefstockpot",
-      "beefvindaloo",
-      "butterchicken",
-      "kormapaste",
-      "lambvindaloo",
-      "lasagne",
-      "meatpie",
-      "nachomince",
-      "roganjosh"
-    ]
-  },
-  "Tomato Sauce": {
-    "aka": [],
-    "category": "Vegetable",
-    "notes": "Add description here.",
-    "usedIn": [
-      "porkcaldereta",
-      "sweetsourpork",
-      "sweetsoursauce_flex",
-      "sweetsoursauce_quick"
-    ]
-  },
-  "Warm Water": {
-    "aka": [],
-    "category": "Other",
-    "notes": "Add description here.",
-    "usedIn": [
-      "darkrye",
-      "focaccia",
-      "focaccia-high",
-      "highhydraciab"
-    ]
-  },
-  "Water": {
-    "aka": [],
-    "category": "Other",
-    "notes": "Add description here.",
-    "usedIn": [
-      "applepie",
-      "bulalo",
-      "chouxpastry",
-      "honeygarlicsauce",
-      "lambkorma",
-      "lemonmeringuepie",
-      "mongolianbeef",
-      "mongolianlamb",
-      "mongoliansauce",
-      "pizzadough",
-      "sataysauce",
-      "sourdoughcinnrolls",
-      "stickydates",
-      "sub",
-      "swbtm",
-      "swbtm2",
-      "sweetchilisauce",
-      "sweetsoursauce_quick",
-      "tangzhongseed",
-      "teriyakisauce",
-      "tomatoflan",
-      "turkishbread"
-    ]
-  },
-  "Worcestershire Sauce": {
-    "aka": [],
-    "category": "Condiment/Sauce",
-    "notes": "Add description here.",
-    "usedIn": [
-      "beefstroganoff",
-      "meatpie"
-    ]
   }
 }

@@ -1,5 +1,5 @@
 {
-  "id": "bistro-chickenpapion",
+  "id": "chickenpapion",
   "title": "Chicken Papion",
   "emoji": "🦪",
   "category": "Dinner",
@@ -7,13 +7,12 @@
   "prepTime": "10 min",
   "cookTime": "8 min",
   "totalTime": "18 min",
-  "servings": 1,
-  "difficulty": "Medium",
+  "servings": "1 serving",
+  "difficulty": "Intermediate",
   "tags": [
     "Alcohol",
     "Chicken",
     "Classic",
-    "Cream",
     "Creamy",
     "Dinner",
     "Rich",
@@ -25,95 +24,106 @@
     {
       "quantity": "2",
       "unit": "",
-      "item": "Chicken",
-      "ingredientKey": "Chicken"
+      "item": "Chicken Breast",
+      "notes": "pan-fried"
     },
     {
       "quantity": "6",
       "unit": "",
-      "item": "Seafood",
-      "ingredientKey": "Seafood"
+      "item": "Oysters",
+      "notes": "fresh, shucked"
     },
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Cream",
-      "ingredientKey": "Cream"
+      "item": "Thickened Cream"
     },
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Butter",
-      "ingredientKey": "Butter"
+      "item": "Unsalted Butter"
     },
     {
       "quantity": "1",
       "unit": "",
-      "item": "Onion",
-      "ingredientKey": "Onion"
+      "item": "Brown Onion",
+      "notes": "diced"
     },
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Wine",
-      "ingredientKey": "Wine"
+      "item": "White Wine"
     },
     {
-      "quantity": "to taste",
-      "unit": "",
+      "quantity": "3",
+      "unit": "g",
       "item": "Salt",
-      "ingredientKey": "Salt"
+      "notes": "to taste"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Pan-fry chicken breast in butter until golden and cooked through. Remove and rest."
+      "instruction": "Melt half the butter in a frying pan over medium-high heat. Pan-fry chicken breast for 3–4 minutes per side until golden and cooked through. Remove and rest on a warm plate."
     },
     {
       "step": 2,
-      "instruction": "In the same pan, soften shallots in butter."
+      "instruction": "In the same pan, add remaining butter. Add diced onion and cook until softened, about 2–3 minutes."
     },
     {
       "step": 3,
-      "instruction": "Deglaze with a splash of white wine. Add thickened cream and reduce to a coating consistency."
+      "instruction": "Deglaze the pan with white wine. Let it bubble and reduce by half, about 1–2 minutes."
     },
     {
       "step": 4,
-      "instruction": "Add oysters to the sauce in the last minute — just enough to warm through. Do not overcook."
+      "instruction": "Pour in thickened cream and stir. Reduce for 2–3 minutes until the sauce coats the back of a spoon. Season with salt."
     },
     {
       "step": 5,
-      "instruction": "Return chicken to pan briefly to warm. Plate and spoon sauce and oysters over."
+      "instruction": "Add oysters to the sauce in the last 30–60 seconds — just enough to warm through. Do not overcook or they will become rubbery."
+    },
+    {
+      "step": 6,
+      "instruction": "Return chicken to the pan briefly to warm. Plate and spoon the sauce and oysters generously over the chicken."
     }
   ],
   "notes": [
     {
-      "type": "chef",
-      "title": "Chef's Note",
-      "content": "The oysters go in last — seconds only in the warm cream sauce. Overcooking makes them rubbery and defeats the dish entirely. No demi."
+      "type": "technique",
+      "title": "Oyster Timing",
+      "content": "The oysters go in at the very last moment — 30–60 seconds in the warm cream sauce only. Overcooking makes them rubbery and ruins the delicate texture that defines this dish. No demi glace is used."
     }
   ],
   "related": [
     {
-      "id": "bistro-mediterraneansteak",
-      "title": "Mediterranean Steak"
-    },
-    {
       "id": "bistro-chickenpicante",
       "title": "Chicken Picante"
-    },
-    {
-      "id": "bistro-fishoftheday",
-      "title": "Fish of the Day"
     },
     {
       "id": "bistro-chickenriverina",
       "title": "Chicken Riverina"
     },
     {
-      "id": "bistro-brandymustardsteak",
-      "title": "Brandy Mustard Steak"
+      "id": "bistro-fishoftheday",
+      "title": "Fish of the Day"
+    },
+    {
+      "id": "bistro-reefandbeef",
+      "title": "Reef and Beef"
+    },
+    {
+      "id": "bistro-chickenkiev",
+      "title": "Chicken Kiev"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 1,
+    "cal": 1246,
+    "protein": 107,
+    "carbs": 36,
+    "fat": 68,
+    "fiber": 2,
+    "sodium": 2186,
+    "coverage": 100
+  }
 }

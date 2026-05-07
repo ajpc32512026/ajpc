@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Create, edit, and import recipe JSON files for the AJPC Kitchen Notebook — with PDF import, nutrition calculator, and cooking timeline.">
 <title>Recipe Builder</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2316161a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='28' font-weight='bold' fill='%23c97d3e'%3EAJ%3C/text%3E%3C/svg%3E">
 <script>history.scrollRestoration = 'manual'; window.scrollTo(0,0);</script>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
@@ -512,7 +513,9 @@
     width: 100%;
     transition: border-color 0.15s;
   }
-  .step-heading-row input:focus { border-bottom-color: var(--gold); }
+.step-heading-row input:focus { border-bottom-color: var(--gold); }
+
+.note-row {
     display: grid;
     grid-template-columns: 30px 130px 1fr auto;
     gap: 0.5rem;
@@ -523,16 +526,16 @@
     padding: 0.5rem 0.6rem;
     cursor: grab;
     transition: all 0.15s ease;
-  }
-  .note-row:active { cursor: grabbing; }
-  .note-row.dragging { 
+}
+.note-row:active { cursor: grabbing; }
+.note-row.dragging { 
     opacity: 0.5;
     border-color: var(--gold-dim);
-  }
-  .note-row.drag-over {
+}
+.note-row.drag-over {
     border-top: 2px solid var(--gold);
     padding-top: calc(0.5rem - 1px);
-  }
+}
   .drag-handle {
     color: var(--text-dim);
     font-size: 1rem;
@@ -1770,7 +1773,7 @@ function buildJSON(){
       return skipItems.indexOf(n) === -1 && n.length > 0;
   }).length;
   
-  let totalCal = 0, totalProtein = 0, totalCarbs = 0, totalFat = 0, totalFiber = 0;
+  let totalCal = 0, totalProtein = 0, totalCarbs = 0, totalFat = 0, totalFiber = 0, totalSodium = 0;
   let foundCount = 0;
   
   ingList.forEach(ing => {
@@ -1794,35 +1797,37 @@ function buildJSON(){
       
       foundCount++;
       
-      if (nd.per === 'each') {
-          const factor = qty;
-          totalCal += nd.cal * factor;
-          totalProtein += nd.protein * factor;
-          totalCarbs += nd.carbs * factor;
-          totalFat += nd.fat * factor;
-          totalFiber += nd.fiber * factor;
-      } else {
-          const grams = qty * (conversions[unit] || 100);
-          const factor = grams / 100;
-          totalCal += nd.cal * factor;
-          totalProtein += nd.protein * factor;
-          totalCarbs += nd.carbs * factor;
-          totalFat += nd.fat * factor;
-          totalFiber += nd.fiber * factor;
-      }
+if (nd.per === 'each') {
+    const factor = qty;
+    totalCal += nd.cal * factor;
+    totalProtein += nd.protein * factor;
+    totalCarbs += nd.carbs * factor;
+    totalFat += nd.fat * factor;
+    totalFiber += nd.fiber * factor;
+    totalSodium += (nd.sodium || 0) * factor;  // ADD THIS LINE
+} else {
+    const grams = qty * (conversions[unit] || 100);
+    const factor = grams / 100;
+    totalCal += nd.cal * factor;
+    totalProtein += nd.protein * factor;
+    totalCarbs += nd.carbs * factor;
+    totalFat += nd.fat * factor;
+    totalFiber += nd.fiber * factor;
+    totalSodium += (nd.sodium || 0) * factor;  // ADD THIS LINE
+}
   });
   
-  if (foundCount > 0) {
-      obj.nutrition = {
-          servings: servingsNum,
-          cal: Math.round(totalCal / servingsNum),
-          protein: Math.round(totalProtein / servingsNum),
-          carbs: Math.round(totalCarbs / servingsNum),
-          fat: Math.round(totalFat / servingsNum),
-          fiber: Math.round(totalFiber / servingsNum),
-          coverage: Math.round((foundCount / actualTotalIngs) * 100)
-      };
-  }
+obj.nutrition = {
+    servings: servingsNum,
+    cal: Math.round(totalCal / servingsNum),
+    protein: Math.round(totalProtein / servingsNum),
+    carbs: Math.round(totalCarbs / servingsNum),
+    fat: Math.round(totalFat / servingsNum),
+    fiber: Math.round(totalFiber / servingsNum),
+    sodium: Math.round(totalSodium / servingsNum),
+    coverage: Math.round((foundCount / actualTotalIngs) * 100)
+};
+ 
   
   return {obj,id,title};
 }
@@ -2690,349 +2695,368 @@ function copyTimeline() {
 // ─────────────────────────────────────────────────────────
 // Comprehensive nutrition database (per 100g unless noted)
 const NUTRITION_DB = {
-  // Flours & Grains
-  'flour': { cal: 364, protein: 10, carbs: 76, fat: 1, fiber: 2.7 },
-  'flour (all-purpose)': { cal: 364, protein: 10, carbs: 76, fat: 1, fiber: 2.7 },
-  'flour (bread)': { cal: 361, protein: 12, carbs: 72, fat: 1.5, fiber: 2.4 },
-  'flour (whole wheat)': { cal: 340, protein: 13, carbs: 72, fat: 2, fiber: 11 },
-  'flour (00)': { cal: 364, protein: 11, carbs: 76, fat: 0.9, fiber: 2.5 },
-  'self-raising flour': { cal: 350, protein: 9, carbs: 73, fat: 1.5, fiber: 3 },
-  'rice flour': { cal: 366, protein: 6, carbs: 80, fat: 1.4, fiber: 2.4 },
-  'buckwheat flour': { cal: 343, protein: 13, carbs: 71, fat: 3.1, fiber: 10 },
-  'cornflour': { cal: 381, protein: 0.3, carbs: 91, fat: 0.1, fiber: 0.9 },
-  'rice': { cal: 130, protein: 2.7, carbs: 28, fat: 0.3, fiber: 0.4 },
-  'pasta': { cal: 371, protein: 13, carbs: 75, fat: 1.5, fiber: 3 },
-  'bread': { cal: 265, protein: 9, carbs: 49, fat: 3.2, fiber: 2.7 },
-  'rolled oats': { cal: 379, protein: 12, carbs: 62, fat: 7, fiber: 9 },
-  'bread improver': { cal: 350, protein: 12, carbs: 70, fat: 1, fiber: 2 },
-  'milk powder': { cal: 496, protein: 26, carbs: 38, fat: 27, fiber: 0 },
-  'full-cream milk powder': { cal: 496, protein: 26, carbs: 38, fat: 27, fiber: 0 },
-  'custard powder': { cal: 350, protein: 0.5, carbs: 85, fat: 0.5, fiber: 0 },
-  'tapioca starch': { cal: 358, protein: 0.2, carbs: 88, fat: 0, fiber: 0.9 },
-  'arrowroot': { cal: 357, protein: 0.3, carbs: 88, fat: 0.1, fiber: 3.4 },
-  'bread flour': { cal: 361, protein: 12, carbs: 72, fat: 1.5, fiber: 2.4 },
-  'rye flour': { cal: 350, protein: 10, carbs: 74, fat: 1.8, fiber: 8 },
-  'vital wheat gluten': { cal: 370, protein: 75, carbs: 14, fat: 1.9, fiber: 0.6 },
+	// Flours & Grains
+	'flour': { cal: 364, protein: 10, carbs: 76, fat: 1, fiber: 2.7, sodium: 2 },
+	'flour (all-purpose)': { cal: 364, protein: 10, carbs: 76, fat: 1, fiber: 2.7, sodium: 2 },
+	'flour (bread)': { cal: 361, protein: 12, carbs: 72, fat: 1.5, fiber: 2.4, sodium: 2 },
+	'flour (whole wheat)': { cal: 340, protein: 13, carbs: 72, fat: 2, fiber: 11, sodium: 2 },
+	'flour (00)': { cal: 364, protein: 11, carbs: 76, fat: 0.9, fiber: 2.5, sodium: 2 },
+	'self-raising flour': { cal: 350, protein: 9, carbs: 73, fat: 1.5, fiber: 3, sodium: 380 },
+	'rice flour': { cal: 366, protein: 6, carbs: 80, fat: 1.4, fiber: 2.4, sodium: 0 },
+	'buckwheat flour': { cal: 343, protein: 13, carbs: 71, fat: 3.1, fiber: 10, sodium: 1 },
+	'cornflour': { cal: 381, protein: 0.3, carbs: 91, fat: 0.1, fiber: 0.9, sodium: 1 },
+	'rice': { cal: 130, protein: 2.7, carbs: 28, fat: 0.3, fiber: 0.4, sodium: 1 },
+	'pasta': { cal: 371, protein: 13, carbs: 75, fat: 1.5, fiber: 3, sodium: 6 },
+	'bread': { cal: 265, protein: 9, carbs: 49, fat: 3.2, fiber: 2.7, sodium: 490 },
+	'rolled oats': { cal: 379, protein: 12, carbs: 62, fat: 7, fiber: 9, sodium: 2 },
+	'bread improver': { cal: 350, protein: 12, carbs: 70, fat: 1, fiber: 2, sodium: 150 },
+	'milk powder': { cal: 496, protein: 26, carbs: 38, fat: 27, fiber: 0, sodium: 370 },
+	'full-cream milk powder': { cal: 496, protein: 26, carbs: 38, fat: 27, fiber: 0, sodium: 370 },
+	'custard powder': { cal: 350, protein: 0.5, carbs: 85, fat: 0.5, fiber: 0, sodium: 180 },
+	'tapioca starch': { cal: 358, protein: 0.2, carbs: 88, fat: 0, fiber: 0.9, sodium: 1 },
+	'arrowroot': { cal: 357, protein: 0.3, carbs: 88, fat: 0.1, fiber: 3.4, sodium: 2 },
+	'bread flour': { cal: 361, protein: 12, carbs: 72, fat: 1.5, fiber: 2.4, sodium: 2 },
+	'rye flour': { cal: 350, protein: 10, carbs: 74, fat: 1.8, fiber: 8, sodium: 2 },
+	'vital wheat gluten': { cal: 370, protein: 75, carbs: 14, fat: 1.9, fiber: 0.6, sodium: 60 },
 
-  // Sugars & Sweeteners
-  'white sugar': { cal: 387, protein: 0, carbs: 100, fat: 0, fiber: 0 },
-  'caster sugar': { cal: 387, protein: 0, carbs: 100, fat: 0, fiber: 0 },
-  'brown sugar': { cal: 380, protein: 0, carbs: 98, fat: 0, fiber: 0 },
-  'icing sugar': { cal: 389, protein: 0, carbs: 100, fat: 0, fiber: 0 },
-  'raw sugar': { cal: 380, protein: 0, carbs: 97, fat: 0, fiber: 0 },
-  'coconut sugar': { cal: 375, protein: 1.5, carbs: 92, fat: 0.5, fiber: 0 },
-  'honey': { cal: 304, protein: 0.3, carbs: 82, fat: 0, fiber: 0.2 },
-  'maple syrup': { cal: 260, protein: 0, carbs: 67, fat: 0.2, fiber: 0 },
-  'golden syrup': { cal: 310, protein: 0.3, carbs: 78, fat: 0.3, fiber: 0 },
-  'glucose syrup': { cal: 320, protein: 0, carbs: 80, fat: 0, fiber: 0 },
-  'corn syrup': { cal: 290, protein: 0, carbs: 78, fat: 0, fiber: 0 },
-  'malt syrup': { cal: 300, protein: 2, carbs: 71, fat: 0, fiber: 0 },
-  'molasses': { cal: 290, protein: 0, carbs: 75, fat: 0.1, fiber: 0 },
-  'treacle': { cal: 290, protein: 0.5, carbs: 72, fat: 0.1, fiber: 0 },
+	// Sugars & Sweeteners
+	'white sugar': { cal: 387, protein: 0, carbs: 100, fat: 0, fiber: 0, sodium: 1 },
+	'caster sugar': { cal: 387, protein: 0, carbs: 100, fat: 0, fiber: 0, sodium: 1 },
+	'brown sugar': { cal: 380, protein: 0, carbs: 98, fat: 0, fiber: 0, sodium: 28 },
+	'icing sugar': { cal: 389, protein: 0, carbs: 100, fat: 0, fiber: 0, sodium: 2 },
+	'raw sugar': { cal: 380, protein: 0, carbs: 97, fat: 0, fiber: 0, sodium: 3 },
+	'coconut sugar': { cal: 375, protein: 1.5, carbs: 92, fat: 0.5, fiber: 0, sodium: 30 },
+	'honey': { cal: 304, protein: 0.3, carbs: 82, fat: 0, fiber: 0.2, sodium: 4 },
+	'maple syrup': { cal: 260, protein: 0, carbs: 67, fat: 0.2, fiber: 0, sodium: 12 },
+	'golden syrup': { cal: 310, protein: 0.3, carbs: 78, fat: 0.3, fiber: 0, sodium: 45 },
+	'glucose syrup': { cal: 320, protein: 0, carbs: 80, fat: 0, fiber: 0, sodium: 20 },
+	'corn syrup': { cal: 290, protein: 0, carbs: 78, fat: 0, fiber: 0, sodium: 60 },
+	'malt syrup': { cal: 300, protein: 2, carbs: 71, fat: 0, fiber: 0, sodium: 35 },
+	'molasses': { cal: 290, protein: 0, carbs: 75, fat: 0.1, fiber: 0, sodium: 37 },
+	'treacle': { cal: 290, protein: 0.5, carbs: 72, fat: 0.1, fiber: 0, sodium: 40 },
 
-  // Dairy & Eggs
-  'milk': { cal: 61, protein: 3.2, carbs: 4.8, fat: 3.3, fiber: 0 },
-  'whole milk': { cal: 61, protein: 3.2, carbs: 4.8, fat: 3.3, fiber: 0 },
-  'skim milk': { cal: 34, protein: 3.4, carbs: 5, fat: 0.1, fiber: 0 },
-  'buttermilk': { cal: 40, protein: 3.3, carbs: 4.8, fat: 0.9, fiber: 0 },
-  'condensed milk': { cal: 321, protein: 7.9, carbs: 54, fat: 8.7, fiber: 0 },
-  'evaporated milk': { cal: 134, protein: 6.8, carbs: 10, fat: 7.6, fiber: 0 },
-  'cream': { cal: 340, protein: 2.2, carbs: 3.4, fat: 36, fiber: 0 },
-  'sour cream': { cal: 198, protein: 2.4, carbs: 4.6, fat: 19, fiber: 0 },
-  'unsalted butter': { cal: 717, protein: 0.9, carbs: 0.1, fat: 81, fiber: 0 },
-  'margarine': { cal: 717, protein: 0.3, carbs: 0.7, fat: 81, fiber: 0 },
-  'baking margarine': { cal: 717, protein: 0.3, carbs: 0.7, fat: 81, fiber: 0 },
-  'shortening': { cal: 884, protein: 0, carbs: 0, fat: 100, fiber: 0 },
-  'lard': { cal: 902, protein: 0, carbs: 0, fat: 100, fiber: 0 },
-  'copha': { cal: 920, protein: 0, carbs: 0, fat: 100, fiber: 0 },
-  'cheese': { cal: 402, protein: 25, carbs: 1.3, fat: 33, fiber: 0 },
-  'tasty cheese': { cal: 403, protein: 25, carbs: 1.3, fat: 33, fiber: 0 },
-  'cheddar': { cal: 403, protein: 25, carbs: 1.3, fat: 33, fiber: 0 },
-  'parmesan': { cal: 431, protein: 38, carbs: 4.1, fat: 29, fiber: 0 },
-  'mozzarella': { cal: 280, protein: 22, carbs: 2.2, fat: 20, fiber: 0 },
-  'gruyere': { cal: 413, protein: 30, carbs: 0.4, fat: 32, fiber: 0 },
-  'ricotta': { cal: 174, protein: 11, carbs: 3, fat: 13, fiber: 0 },
-  'cream cheese': { cal: 342, protein: 6, carbs: 4.1, fat: 34, fiber: 0 },
-  'yogurt': { cal: 59, protein: 3.5, carbs: 4.7, fat: 3.3, fiber: 0 },
-  'egg': { cal: 155, protein: 13, carbs: 1.1, fat: 11, fiber: 0, per: 'each' },
-  'eggs': { cal: 155, protein: 13, carbs: 1.1, fat: 11, fiber: 0, per: 'each' },
-  'egg yolk': { cal: 322, protein: 16, carbs: 3.6, fat: 27, fiber: 0 },
-  'egg white': { cal: 52, protein: 11, carbs: 0.7, fat: 0.2, fiber: 0 },
-  'egg whites': { cal: 52, protein: 11, carbs: 0.7, fat: 0.2, fiber: 0 },
-  'mascarpone': { cal: 429, protein: 5.8, carbs: 2.8, fat: 44, fiber: 0 },
-  'feta': { cal: 264, protein: 14, carbs: 4.1, fat: 21, fiber: 0 },
-  'greek yogurt': { cal: 97, protein: 9, carbs: 3.6, fat: 5, fiber: 0 },
-  'half and half': { cal: 130, protein: 3, carbs: 4.5, fat: 12, fiber: 0 },
+	// Dairy & Eggs
+	'milk': { cal: 61, protein: 3.2, carbs: 4.8, fat: 3.3, fiber: 0, sodium: 44 },
+	'whole milk': { cal: 61, protein: 3.2, carbs: 4.8, fat: 3.3, fiber: 0, sodium: 44 },
+	'skim milk': { cal: 34, protein: 3.4, carbs: 5, fat: 0.1, fiber: 0, sodium: 46 },
+	'buttermilk': { cal: 40, protein: 3.3, carbs: 4.8, fat: 0.9, fiber: 0, sodium: 100 },
+	'condensed milk': { cal: 321, protein: 7.9, carbs: 54, fat: 8.7, fiber: 0, sodium: 130 },
+	'evaporated milk': { cal: 134, protein: 6.8, carbs: 10, fat: 7.6, fiber: 0, sodium: 110 },
+	'cream': { cal: 340, protein: 2.2, carbs: 3.4, fat: 36, fiber: 0, sodium: 38 },
+	'sour cream': { cal: 198, protein: 2.4, carbs: 4.6, fat: 19, fiber: 0, sodium: 45 },
+	'unsalted butter': { cal: 717, protein: 0.9, carbs: 0.1, fat: 81, fiber: 0, sodium: 11 },
+	'margarine': { cal: 717, protein: 0.3, carbs: 0.7, fat: 81, fiber: 0, sodium: 700 },
+	'baking margarine': { cal: 717, protein: 0.3, carbs: 0.7, fat: 81, fiber: 0, sodium: 650 },
+	'shortening': { cal: 884, protein: 0, carbs: 0, fat: 100, fiber: 0, sodium: 0 },
+	'lard': { cal: 902, protein: 0, carbs: 0, fat: 100, fiber: 0, sodium: 0 },
+	'copha': { cal: 920, protein: 0, carbs: 0, fat: 100, fiber: 0, sodium: 0 },
+	'cheese': { cal: 402, protein: 25, carbs: 1.3, fat: 33, fiber: 0, sodium: 620 },
+	'tasty cheese': { cal: 403, protein: 25, carbs: 1.3, fat: 33, fiber: 0, sodium: 650 },
+	'cheddar': { cal: 403, protein: 25, carbs: 1.3, fat: 33, fiber: 0, sodium: 650 },
+	'parmesan': { cal: 431, protein: 38, carbs: 4.1, fat: 29, fiber: 0, sodium: 1500 },
+	'mozzarella': { cal: 280, protein: 22, carbs: 2.2, fat: 20, fiber: 0, sodium: 620 },
+	'gruyere': { cal: 413, protein: 30, carbs: 0.4, fat: 32, fiber: 0, sodium: 710 },
+	'ricotta': { cal: 174, protein: 11, carbs: 3, fat: 13, fiber: 0, sodium: 84 },
+	'cream cheese': { cal: 342, protein: 6, carbs: 4.1, fat: 34, fiber: 0, sodium: 314 },
+	'yogurt': { cal: 59, protein: 3.5, carbs: 4.7, fat: 3.3, fiber: 0, sodium: 50 },
+	'egg': { cal: 155, protein: 13, carbs: 1.1, fat: 11, fiber: 0, per: 'each', sodium: 140 },
+	'eggs': { cal: 155, protein: 13, carbs: 1.1, fat: 11, fiber: 0, per: 'each', sodium: 140 },
+	'egg yolk': { cal: 322, protein: 16, carbs: 3.6, fat: 27, fiber: 0, sodium: 48 },
+	'egg white': { cal: 52, protein: 11, carbs: 0.7, fat: 0.2, fiber: 0, sodium: 166 },
+	'egg whites': { cal: 52, protein: 11, carbs: 0.7, fat: 0.2, fiber: 0, sodium: 166 },
+	'mascarpone': { cal: 429, protein: 5.8, carbs: 2.8, fat: 44, fiber: 0, sodium: 45 },
+	'feta': { cal: 264, protein: 14, carbs: 4.1, fat: 21, fiber: 0, sodium: 1100 },
+	'greek yogurt': { cal: 97, protein: 9, carbs: 3.6, fat: 5, fiber: 0, sodium: 36 },
+	'half and half': { cal: 130, protein: 3, carbs: 4.5, fat: 12, fiber: 0, sodium: 42 },
 
-  // Oils & Fats
-  'olive oil': { cal: 884, protein: 0, carbs: 0, fat: 100, fiber: 0 },
-  'oil': { cal: 884, protein: 0, carbs: 0, fat: 100, fiber: 0 },
-  'vegetable oil': { cal: 884, protein: 0, carbs: 0, fat: 100, fiber: 0 },
-  'canola oil': { cal: 884, protein: 0, carbs: 0, fat: 100, fiber: 0 },
-  'sunflower oil': { cal: 884, protein: 0, carbs: 0, fat: 100, fiber: 0 },
-  'peanut oil': { cal: 884, protein: 0, carbs: 0, fat: 100, fiber: 0 },
-  'sesame oil': { cal: 884, protein: 0, carbs: 0, fat: 100, fiber: 0 },
-  'coconut oil': { cal: 862, protein: 0, carbs: 0, fat: 100, fiber: 0 },
+	// Oils & Fats
+	'olive oil': { cal: 884, protein: 0, carbs: 0, fat: 100, fiber: 0, sodium: 0 },
+	'oil': { cal: 884, protein: 0, carbs: 0, fat: 100, fiber: 0, sodium: 0 },
+	'vegetable oil': { cal: 884, protein: 0, carbs: 0, fat: 100, fiber: 0, sodium: 0 },
+	'canola oil': { cal: 884, protein: 0, carbs: 0, fat: 100, fiber: 0, sodium: 0 },
+	'sunflower oil': { cal: 884, protein: 0, carbs: 0, fat: 100, fiber: 0, sodium: 0 },
+	'peanut oil': { cal: 884, protein: 0, carbs: 0, fat: 100, fiber: 0, sodium: 0 },
+	'sesame oil': { cal: 884, protein: 0, carbs: 0, fat: 100, fiber: 0, sodium: 0 },
+	'coconut oil': { cal: 862, protein: 0, carbs: 0, fat: 100, fiber: 0, sodium: 0 },
 
-  // Vegetables
-  'tomato': { cal: 18, protein: 0.9, carbs: 3.9, fat: 0.2, fiber: 1.2 },
-  'onion': { cal: 40, protein: 1.1, carbs: 9.3, fat: 0.1, fiber: 1.7 },
-  'brown onion': { cal: 40, protein: 1.1, carbs: 9.3, fat: 0.1, fiber: 1.7 },
-  'red onion': { cal: 40, protein: 1.1, carbs: 9.3, fat: 0.1, fiber: 1.7 },
-  'spring onion': { cal: 32, protein: 1.8, carbs: 7.3, fat: 0.2, fiber: 2.6 },
-  'leek': { cal: 61, protein: 1.5, carbs: 14, fat: 0.3, fiber: 1.8 },
-  'garlic': { cal: 149, protein: 6.4, carbs: 33, fat: 0.5, fiber: 2.1 },
-  'potato': { cal: 77, protein: 2, carbs: 17, fat: 0.1, fiber: 2.1 },
-  'sweet potato': { cal: 86, protein: 1.6, carbs: 20, fat: 0.1, fiber: 3 },
-  'pumpkin': { cal: 26, protein: 1, carbs: 6.5, fat: 0.1, fiber: 0.5 },
-  'carrot': { cal: 41, protein: 0.9, carbs: 10, fat: 0.2, fiber: 2.8 },
-  'celery': { cal: 16, protein: 0.7, carbs: 3, fat: 0.2, fiber: 1.6 },
-  'red capsicum': { cal: 31, protein: 1, carbs: 6, fat: 0.3, fiber: 2.1 },
-  'red chili': { cal: 40, protein: 1.9, carbs: 8.8, fat: 0.4, fiber: 1.5 },
-  'green capsicum': { cal: 20, protein: 0.9, carbs: 4.6, fat: 0.2, fiber: 1.7 },
-  'zucchini': { cal: 17, protein: 1.2, carbs: 3.1, fat: 0.3, fiber: 1 },
-  'eggplant': { cal: 25, protein: 1, carbs: 5.9, fat: 0.2, fiber: 3 },
-  'mushrooms': { cal: 22, protein: 3.1, carbs: 3.3, fat: 0.3, fiber: 1 },
-  'cauliflower': { cal: 25, protein: 1.9, carbs: 5, fat: 0.3, fiber: 2 },
-  'cabbage': { cal: 25, protein: 1.3, carbs: 5.8, fat: 0.1, fiber: 2.5 },
-  'broccoli': { cal: 34, protein: 2.8, carbs: 7, fat: 0.4, fiber: 2.6 },
-  'spinach': { cal: 23, protein: 2.9, carbs: 3.6, fat: 0.4, fiber: 2.2 },
-  'bok choy': { cal: 13, protein: 1.5, carbs: 2.2, fat: 0.2, fiber: 1 },
-  'green beans': { cal: 31, protein: 1.8, carbs: 7, fat: 0.1, fiber: 2.7 },
-  'peas': { cal: 81, protein: 5.4, carbs: 14, fat: 0.4, fiber: 5.1 },
-  'sugar snap peas': { cal: 42, protein: 2.8, carbs: 7.6, fat: 0.2, fiber: 2.6 },
-  'corn kernels': { cal: 86, protein: 3.3, carbs: 19, fat: 1.4, fiber: 2 },
-  'corn cobs': { cal: 86, protein: 3.3, carbs: 19, fat: 1.4, fiber: 2 },
-  'bean sprouts': { cal: 30, protein: 3, carbs: 5.9, fat: 0.2, fiber: 1.8 },
+	// Vegetables
+	'tomato': { cal: 18, protein: 0.9, carbs: 3.9, fat: 0.2, fiber: 1.2, sodium: 5 },
+	'onion': { cal: 40, protein: 1.1, carbs: 9.3, fat: 0.1, fiber: 1.7, sodium: 4 },
+	'brown onion': { cal: 40, protein: 1.1, carbs: 9.3, fat: 0.1, fiber: 1.7, sodium: 4 },
+	'red onion': { cal: 40, protein: 1.1, carbs: 9.3, fat: 0.1, fiber: 1.7, sodium: 4 },
+	'spring onion': { cal: 32, protein: 1.8, carbs: 7.3, fat: 0.2, fiber: 2.6, sodium: 16 },
+	'leek': { cal: 61, protein: 1.5, carbs: 14, fat: 0.3, fiber: 1.8, sodium: 20 },
+	'garlic': { cal: 149, protein: 6.4, carbs: 33, fat: 0.5, fiber: 2.1, sodium: 17 },
+	'potato': { cal: 77, protein: 2, carbs: 17, fat: 0.1, fiber: 2.1, sodium: 6 },
+	'sweet potato': { cal: 86, protein: 1.6, carbs: 20, fat: 0.1, fiber: 3, sodium: 55 },
+	'pumpkin': { cal: 26, protein: 1, carbs: 6.5, fat: 0.1, fiber: 0.5, sodium: 1 },
+	'carrot': { cal: 41, protein: 0.9, carbs: 10, fat: 0.2, fiber: 2.8, sodium: 69 },
+	'celery': { cal: 16, protein: 0.7, carbs: 3, fat: 0.2, fiber: 1.6, sodium: 80 },
+	'red capsicum': { cal: 31, protein: 1, carbs: 6, fat: 0.3, fiber: 2.1, sodium: 4 },
+	'red chili': { cal: 40, protein: 1.9, carbs: 8.8, fat: 0.4, fiber: 1.5, sodium: 9 },
+	'green capsicum': { cal: 20, protein: 0.9, carbs: 4.6, fat: 0.2, fiber: 1.7, sodium: 3 },
+	'zucchini': { cal: 17, protein: 1.2, carbs: 3.1, fat: 0.3, fiber: 1, sodium: 8 },
+	'eggplant': { cal: 25, protein: 1, carbs: 5.9, fat: 0.2, fiber: 3, sodium: 2 },
+	'mushrooms': { cal: 22, protein: 3.1, carbs: 3.3, fat: 0.3, fiber: 1, sodium: 5 },
+	'cauliflower': { cal: 25, protein: 1.9, carbs: 5, fat: 0.3, fiber: 2, sodium: 30 },
+	'cabbage': { cal: 25, protein: 1.3, carbs: 5.8, fat: 0.1, fiber: 2.5, sodium: 18 },
+	'broccoli': { cal: 34, protein: 2.8, carbs: 7, fat: 0.4, fiber: 2.6, sodium: 33 },
+	'spinach': { cal: 23, protein: 2.9, carbs: 3.6, fat: 0.4, fiber: 2.2, sodium: 79 },
+	'bok choy': { cal: 13, protein: 1.5, carbs: 2.2, fat: 0.2, fiber: 1, sodium: 65 },
+	'green beans': { cal: 31, protein: 1.8, carbs: 7, fat: 0.1, fiber: 2.7, sodium: 6 },
+	'peas': { cal: 81, protein: 5.4, carbs: 14, fat: 0.4, fiber: 5.1, sodium: 5 },
+	'sugar snap peas': { cal: 42, protein: 2.8, carbs: 7.6, fat: 0.2, fiber: 2.6, sodium: 4 },
+	'corn kernels': { cal: 86, protein: 3.3, carbs: 19, fat: 1.4, fiber: 2, sodium: 1 },
+	'corn cobs': { cal: 86, protein: 3.3, carbs: 19, fat: 1.4, fiber: 2, sodium: 1 },
+	'bean sprouts': { cal: 30, protein: 3, carbs: 5.9, fat: 0.2, fiber: 1.8, sodium: 6 },
+	'asparagus': { cal: 20, protein: 2.2, carbs: 3.9, fat: 0.1, fiber: 2.1, sodium: 2 },
+	'shallot': { cal: 72, protein: 2.5, carbs: 17, fat: 0.1, fiber: 3.2, sodium: 12 },
 
-  // Fruits
-  'apple': { cal: 52, protein: 0.3, carbs: 14, fat: 0.2, fiber: 2.4 },
-  'banana': { cal: 89, protein: 1.1, carbs: 23, fat: 0.3, fiber: 2.6 },
-  'blueberries': { cal: 57, protein: 0.7, carbs: 14, fat: 0.3, fiber: 2.4 },
-  'lemon': { cal: 29, protein: 1.1, carbs: 9.3, fat: 0.3, fiber: 2.8 },
-  'calamansi': { cal: 29, protein: 0.9, carbs: 9.3, fat: 0.3, fiber: 2.8 },
-  'strawberry': { cal: 32, protein: 0.7, carbs: 7.7, fat: 0.3, fiber: 2 },
-  'strawberries': { cal: 32, protein: 0.7, carbs: 7.7, fat: 0.3, fiber: 2 },
-  'orange zest': { cal: 47, protein: 1.5, carbs: 12, fat: 0.2, fiber: 6 },
-  'orange juice': { cal: 45, protein: 0.7, carbs: 10, fat: 0.2, fiber: 0.2 },
-  'lemon zest': { cal: 47, protein: 1.5, carbs: 16, fat: 0.3, fiber: 10 },
-  'pineapple juice': { cal: 53, protein: 0.4, carbs: 13, fat: 0.1, fiber: 0.2 },
+	// Fruits
+	'apple': { cal: 52, protein: 0.3, carbs: 14, fat: 0.2, fiber: 2.4, sodium: 1 },
+	'banana': { cal: 89, protein: 1.1, carbs: 23, fat: 0.3, fiber: 2.6, sodium: 1 },
+	'blueberries': { cal: 57, protein: 0.7, carbs: 14, fat: 0.3, fiber: 2.4, sodium: 1 },
+	'lemon': { cal: 29, protein: 1.1, carbs: 9.3, fat: 0.3, fiber: 2.8, sodium: 2 },
+	'calamansi': { cal: 29, protein: 0.9, carbs: 9.3, fat: 0.3, fiber: 2.8, sodium: 2 },
+	'strawberry': { cal: 32, protein: 0.7, carbs: 7.7, fat: 0.3, fiber: 2, sodium: 1 },
+	'strawberries': { cal: 32, protein: 0.7, carbs: 7.7, fat: 0.3, fiber: 2, sodium: 1 },
+	'orange zest': { cal: 47, protein: 1.5, carbs: 12, fat: 0.2, fiber: 6, sodium: 3 },
+	'orange juice': { cal: 45, protein: 0.7, carbs: 10, fat: 0.2, fiber: 0.2, sodium: 1 },
+	'lemon zest': { cal: 47, protein: 1.5, carbs: 16, fat: 0.3, fiber: 10, sodium: 6 },
+	'pineapple juice': { cal: 53, protein: 0.4, carbs: 13, fat: 0.1, fiber: 0.2, sodium: 2 },
+	'kiwi fruit': { cal: 61, protein: 1.1, carbs: 15, fat: 0.5, fiber: 3, sodium: 3 },
+	'passionfruit': { cal: 97, protein: 2.2, carbs: 23, fat: 0.7, fiber: 10, sodium: 28 },
+	'mango': { cal: 60, protein: 0.8, carbs: 15, fat: 0.4, fiber: 1.6, sodium: 1 },
+	'dried apricots': { cal: 241, protein: 3.4, carbs: 63, fat: 0.5, fiber: 7.3, sodium: 10 },
+	'apricot nectar': { cal: 56, protein: 0.4, carbs: 14, fat: 0.1, fiber: 0.5, sodium: 3 },
+	'canned apricot halves': { cal: 68, protein: 0.8, carbs: 18, fat: 0.1, fiber: 2, sodium: 4 },
+	'apricot syrup': { cal: 260, protein: 0.2, carbs: 67, fat: 0, fiber: 0, sodium: 10 },
 
-  // Proteins
-  'chicken': { cal: 239, protein: 27, carbs: 0, fat: 14, fiber: 0 },
-  'chicken breast': { cal: 165, protein: 31, carbs: 0, fat: 3.6, fiber: 0 },
-  'chicken thigh': { cal: 209, protein: 26, carbs: 0, fat: 11, fiber: 0 },
-  'chicken mince': { cal: 192, protein: 24, carbs: 0, fat: 11, fiber: 0 },
-  'beef': { cal: 250, protein: 26, carbs: 0, fat: 17, fiber: 0 },
-  'beef mince': { cal: 250, protein: 26, carbs: 0, fat: 17, fiber: 0 },
-  'beef mince (lean)': { cal: 178, protein: 27, carbs: 0, fat: 8, fiber: 0 },
-  'pork': { cal: 242, protein: 27, carbs: 0, fat: 14, fiber: 0 },
-  'pork mince': { cal: 242, protein: 27, carbs: 0, fat: 14, fiber: 0 },
-  'pork shoulder': { cal: 242, protein: 27, carbs: 0, fat: 14, fiber: 0 },
-  'lamb mince': { cal: 282, protein: 20, carbs: 0, fat: 22, fiber: 0 },
-  'bacon': { cal: 541, protein: 37, carbs: 1.4, fat: 42, fiber: 0 },
-  'maple bacon': { cal: 541, protein: 37, carbs: 1.4, fat: 42, fiber: 0 },
-  'ham': { cal: 145, protein: 21, carbs: 1.5, fat: 5.5, fiber: 0 },
-  'prosciutto': { cal: 269, protein: 25, carbs: 0.5, fat: 18, fiber: 0 },
-  'salami': { cal: 407, protein: 22, carbs: 1.6, fat: 34, fiber: 0 },
-  'sausages': { cal: 304, protein: 16, carbs: 5, fat: 25, fiber: 0 },
-  'chorizo': { cal: 455, protein: 24, carbs: 3.3, fat: 38, fiber: 0 },
-  'fish': { cal: 206, protein: 22, carbs: 0, fat: 12, fiber: 0 },
-  'salmon': { cal: 208, protein: 20, carbs: 0, fat: 13, fiber: 0 },
-  'tuna': { cal: 144, protein: 24, carbs: 0, fat: 5, fiber: 0 },
-  'canned tuna': { cal: 128, protein: 26, carbs: 0, fat: 2.5, fiber: 0 },
-  'prawns': { cal: 99, protein: 24, carbs: 0.2, fat: 0.3, fiber: 0 },
-  'scallops': { cal: 88, protein: 17, carbs: 2.4, fat: 0.8, fiber: 0 },
-  'mussels': { cal: 86, protein: 12, carbs: 3.7, fat: 2.2, fiber: 0 },
-  'chinese sausage': { cal: 380, protein: 15, carbs: 12, fat: 30, fiber: 0 },
+	// Proteins
+	'chicken': { cal: 239, protein: 27, carbs: 0, fat: 14, fiber: 0, sodium: 74 },
+	'chicken breast': { cal: 165, protein: 31, carbs: 0, fat: 3.6, fiber: 0, sodium: 45 },
+	'chicken thigh': { cal: 209, protein: 26, carbs: 0, fat: 11, fiber: 0, sodium: 87 },
+	'chicken mince': { cal: 192, protein: 24, carbs: 0, fat: 11, fiber: 0, sodium: 70 },
+	'beef': { cal: 250, protein: 26, carbs: 0, fat: 17, fiber: 0, sodium: 65 },
+	'beef mince': { cal: 250, protein: 26, carbs: 0, fat: 17, fiber: 0, sodium: 68 },
+	'beef mince (lean)': { cal: 178, protein: 27, carbs: 0, fat: 8, fiber: 0, sodium: 60 },
+	'pork': { cal: 242, protein: 27, carbs: 0, fat: 14, fiber: 0, sodium: 62 },
+	'pork mince': { cal: 242, protein: 27, carbs: 0, fat: 14, fiber: 0, sodium: 63 },
+	'pork shoulder': { cal: 242, protein: 27, carbs: 0, fat: 14, fiber: 0, sodium: 63 },
+	'lamb mince': { cal: 282, protein: 20, carbs: 0, fat: 22, fiber: 0, sodium: 70 },
+	'bacon': { cal: 541, protein: 37, carbs: 1.4, fat: 42, fiber: 0, sodium: 1800 },
+	'maple bacon': { cal: 541, protein: 37, carbs: 1.4, fat: 42, fiber: 0, sodium: 1750 },
+	'ham': { cal: 145, protein: 21, carbs: 1.5, fat: 5.5, fiber: 0, sodium: 1200 },
+	'prosciutto': { cal: 269, protein: 25, carbs: 0.5, fat: 18, fiber: 0, sodium: 2600 },
+	'salami': { cal: 407, protein: 22, carbs: 1.6, fat: 34, fiber: 0, sodium: 1800 },
+	'sausages': { cal: 304, protein: 16, carbs: 5, fat: 25, fiber: 0, sodium: 850 },
+	'chorizo': { cal: 455, protein: 24, carbs: 3.3, fat: 38, fiber: 0, sodium: 1800 },
+	'chinese sausage': { cal: 380, protein: 15, carbs: 12, fat: 30, fiber: 0, sodium: 1500 },
+	'veal': { cal: 172, protein: 24, carbs: 0, fat: 8, fiber: 0, sodium: 70 },
+	'lamb rack': { cal: 230, protein: 22, carbs: 0, fat: 16, fiber: 0, sodium: 65 },
+	'scotch fillet': { cal: 250, protein: 26, carbs: 0, fat: 17, fiber: 0, sodium: 65 },
+	  
+	// Seafood
+	'seafood mix': { cal: 85, protein: 17, carbs: 1, fat: 1.5, fiber: 0, sodium: 280 },
+	'fish': { cal: 206, protein: 22, carbs: 0, fat: 12, fiber: 0, sodium: 55 },
+	'salmon': { cal: 208, protein: 20, carbs: 0, fat: 13, fiber: 0, sodium: 59 },
+	'tuna': { cal: 144, protein: 24, carbs: 0, fat: 5, fiber: 0, sodium: 47 },
+	'canned tuna': { cal: 128, protein: 26, carbs: 0, fat: 2.5, fiber: 0, sodium: 340 },
+	'prawns': { cal: 99, protein: 24, carbs: 0.2, fat: 0.3, fiber: 0, sodium: 150 },
+	'scallops': { cal: 88, protein: 17, carbs: 2.4, fat: 0.8, fiber: 0, sodium: 160 },
+	'mussels': { cal: 86, protein: 12, carbs: 3.7, fat: 2.2, fiber: 0, sodium: 290 },
+	'oysters': { cal: 68, protein: 7, carbs: 3.9, fat: 2.5, fiber: 0, sodium: 150 },
 
-  // Nuts & Seeds
-  'almonds': { cal: 579, protein: 21, carbs: 22, fat: 50, fiber: 12 },
-  'almond meal': { cal: 579, protein: 21, carbs: 22, fat: 50, fiber: 12 },
-  'walnuts': { cal: 654, protein: 15, carbs: 14, fat: 65, fiber: 7 },
-  'peanuts': { cal: 567, protein: 26, carbs: 16, fat: 49, fiber: 9 },
-  'pecans': { cal: 691, protein: 9, carbs: 14, fat: 72, fiber: 10 },
-  'cashews': { cal: 553, protein: 18, carbs: 30, fat: 44, fiber: 3.3 },
-  'macadamias': { cal: 718, protein: 8, carbs: 14, fat: 76, fiber: 8.6 },
-  'pistachios': { cal: 560, protein: 20, carbs: 27, fat: 45, fiber: 10 },
-  'hazelnuts': { cal: 628, protein: 15, carbs: 17, fat: 61, fiber: 10 },
-  'pine nuts': { cal: 673, protein: 14, carbs: 13, fat: 68, fiber: 3.7 },
-  'brazil nuts': { cal: 659, protein: 14, carbs: 12, fat: 67, fiber: 7.5 },
-  'desiccated coconut': { cal: 660, protein: 7, carbs: 24, fat: 64, fiber: 16 },
-  'shredded coconut': { cal: 660, protein: 7, carbs: 24, fat: 64, fiber: 16 },
-  'coconut cream': { cal: 330, protein: 3.3, carbs: 6.6, fat: 33, fiber: 2.2 },
-  'coconut milk': { cal: 230, protein: 2.3, carbs: 5.5, fat: 23, fiber: 2.2 },
-  'sesame seeds': { cal: 573, protein: 17, carbs: 23, fat: 50, fiber: 12 },
-  'poppy seeds': { cal: 525, protein: 18, carbs: 28, fat: 42, fiber: 20 },
-  'sunflower seeds': { cal: 584, protein: 21, carbs: 20, fat: 51, fiber: 8.6 },
-  'pumpkin seeds': { cal: 559, protein: 30, carbs: 10, fat: 49, fiber: 6 },
-  'chia seeds': { cal: 486, protein: 17, carbs: 42, fat: 31, fiber: 34 },
-  'linseed': { cal: 534, protein: 18, carbs: 29, fat: 42, fiber: 27 },
-  'flaxseed meal': { cal: 534, protein: 18, carbs: 29, fat: 42, fiber: 27 },
-  'psyllium husk': { cal: 200, protein: 5, carbs: 83, fat: 0.5, fiber: 78 },
-  'hemp seeds': { cal: 567, protein: 32, carbs: 8, fat: 49, fiber: 4 },
-  'hemp protein powder': { cal: 380, protein: 50, carbs: 20, fat: 12, fiber: 18 },
-  'peanut butter': { cal: 588, protein: 25, carbs: 20, fat: 50, fiber: 6 },
+	// Nuts & Seeds
+	'almonds': { cal: 579, protein: 21, carbs: 22, fat: 50, fiber: 12, sodium: 1 },
+	'almond meal': { cal: 579, protein: 21, carbs: 22, fat: 50, fiber: 12, sodium: 1 },
+	'walnuts': { cal: 654, protein: 15, carbs: 14, fat: 65, fiber: 7, sodium: 2 },
+	'peanuts': { cal: 567, protein: 26, carbs: 16, fat: 49, fiber: 9, sodium: 18 },
+	'pecans': { cal: 691, protein: 9, carbs: 14, fat: 72, fiber: 10, sodium: 0 },
+	'cashews': { cal: 553, protein: 18, carbs: 30, fat: 44, fiber: 3.3, sodium: 12 },
+	'macadamias': { cal: 718, protein: 8, carbs: 14, fat: 76, fiber: 8.6, sodium: 5 },
+	'pistachios': { cal: 560, protein: 20, carbs: 27, fat: 45, fiber: 10, sodium: 1 },
+	'hazelnuts': { cal: 628, protein: 15, carbs: 17, fat: 61, fiber: 10, sodium: 0 },
+	'pine nuts': { cal: 673, protein: 14, carbs: 13, fat: 68, fiber: 3.7, sodium: 2 },
+	'brazil nuts': { cal: 659, protein: 14, carbs: 12, fat: 67, fiber: 7.5, sodium: 3 },
+	'desiccated coconut': { cal: 660, protein: 7, carbs: 24, fat: 64, fiber: 16, sodium: 20 },
+	'shredded coconut': { cal: 660, protein: 7, carbs: 24, fat: 64, fiber: 16, sodium: 20 },
+	'coconut cream': { cal: 330, protein: 3.3, carbs: 6.6, fat: 33, fiber: 2.2, sodium: 25 },
+	'coconut milk': { cal: 230, protein: 2.3, carbs: 5.5, fat: 23, fiber: 2.2, sodium: 15 },
+	'sesame seeds': { cal: 573, protein: 17, carbs: 23, fat: 50, fiber: 12, sodium: 11 },
+	'poppy seeds': { cal: 525, protein: 18, carbs: 28, fat: 42, fiber: 20, sodium: 26 },
+	'sunflower seeds': { cal: 584, protein: 21, carbs: 20, fat: 51, fiber: 8.6, sodium: 9 },
+	'pumpkin seeds': { cal: 559, protein: 30, carbs: 10, fat: 49, fiber: 6, sodium: 7 },
+	'chia seeds': { cal: 486, protein: 17, carbs: 42, fat: 31, fiber: 34, sodium: 16 },
+	'linseed': { cal: 534, protein: 18, carbs: 29, fat: 42, fiber: 27, sodium: 30 },
+	'flaxseed meal': { cal: 534, protein: 18, carbs: 29, fat: 42, fiber: 27, sodium: 30 },
+	'psyllium husk': { cal: 200, protein: 5, carbs: 83, fat: 0.5, fiber: 78, sodium: 50 },
+	'hemp seeds': { cal: 567, protein: 32, carbs: 8, fat: 49, fiber: 4, sodium: 5 },
+	'hemp protein powder': { cal: 380, protein: 50, carbs: 20, fat: 12, fiber: 18, sodium: 120 },
+	'peanut butter': { cal: 588, protein: 25, carbs: 20, fat: 50, fiber: 6, sodium: 430 },
 
-  // Dried Fruit
-  'sultanas': { cal: 299, protein: 3, carbs: 74, fat: 0.5, fiber: 4 },
-  'raisins': { cal: 299, protein: 3.1, carbs: 74, fat: 0.5, fiber: 3.7 },
-  'dates': { cal: 282, protein: 2.5, carbs: 70, fat: 0.4, fiber: 8 },
-  'apricots (dried)': { cal: 241, protein: 3.4, carbs: 54, fat: 0.5, fiber: 7.3 },
-  'cranberries (dried)': { cal: 308, protein: 0.2, carbs: 77, fat: 1.4, fiber: 5.7 },
-  'mixed peel': { cal: 290, protein: 0.5, carbs: 70, fat: 0.2, fiber: 3 },
-  'glace cherries': { cal: 320, protein: 0.3, carbs: 80, fat: 0.1, fiber: 1 },
+	// Dried Fruit
+	'sultanas': { cal: 299, protein: 3, carbs: 74, fat: 0.5, fiber: 4, sodium: 11 },
+	'raisins': { cal: 299, protein: 3.1, carbs: 74, fat: 0.5, fiber: 3.7, sodium: 11 },
+	'dates': { cal: 282, protein: 2.5, carbs: 70, fat: 0.4, fiber: 8, sodium: 2 },
+	'apricots (dried)': { cal: 241, protein: 3.4, carbs: 54, fat: 0.5, fiber: 7.3, sodium: 10 },
+	'cranberries (dried)': { cal: 308, protein: 0.2, carbs: 77, fat: 1.4, fiber: 5.7, sodium: 5 },
+	'mixed peel': { cal: 290, protein: 0.5, carbs: 70, fat: 0.2, fiber: 3, sodium: 20 },
+	'glace cherries': { cal: 320, protein: 0.3, carbs: 80, fat: 0.1, fiber: 1, sodium: 15 },
 
-  // Grains & Seeds
-  'bulgur wheat': { cal: 342, protein: 12, carbs: 69, fat: 1.3, fiber: 8 },
-  'freekeh': { cal: 350, protein: 13, carbs: 70, fat: 2.5, fiber: 10 },
-  'quinoa': { cal: 368, protein: 14, carbs: 64, fat: 6, fiber: 7 },
-  'bran': { cal: 216, protein: 16, carbs: 60, fat: 7, fiber: 43 },
-  'wheatgerm': { cal: 360, protein: 25, carbs: 52, fat: 10, fiber: 13 },
-  'polenta': { cal: 370, protein: 8, carbs: 77, fat: 1.8, fiber: 3 },
-  'cornmeal': { cal: 370, protein: 8, carbs: 77, fat: 1.8, fiber: 3 },
-  'couscous': { cal: 376, protein: 13, carbs: 77, fat: 0.6, fiber: 5 },
-  'semolina': { cal: 360, protein: 13, carbs: 73, fat: 1.1, fiber: 3 },
+	// Grains & Seeds
+	'bulgur wheat': { cal: 342, protein: 12, carbs: 69, fat: 1.3, fiber: 8, sodium: 17 },
+	'freekeh': { cal: 350, protein: 13, carbs: 70, fat: 2.5, fiber: 10, sodium: 10 },
+	'quinoa': { cal: 368, protein: 14, carbs: 64, fat: 6, fiber: 7, sodium: 5 },
+	'bran': { cal: 216, protein: 16, carbs: 60, fat: 7, fiber: 43, sodium: 4 },
+	'wheatgerm': { cal: 360, protein: 25, carbs: 52, fat: 10, fiber: 13, sodium: 12 },
+	'polenta': { cal: 370, protein: 8, carbs: 77, fat: 1.8, fiber: 3, sodium: 2 },
+	'cornmeal': { cal: 370, protein: 8, carbs: 77, fat: 1.8, fiber: 3, sodium: 2 },
+	'couscous': { cal: 376, protein: 13, carbs: 77, fat: 0.6, fiber: 5, sodium: 10 },
+	'semolina': { cal: 360, protein: 13, carbs: 73, fat: 1.1, fiber: 3, sodium: 2 },
 
-  // Baking Essentials
-  'yeast': { cal: 325, protein: 40, carbs: 41, fat: 7, fiber: 27 },
-  'baking powder': { cal: 53, protein: 0, carbs: 28, fat: 0, fiber: 0 },
-  'bi-carb soda': { cal: 0, protein: 0, carbs: 0, fat: 0, fiber: 0 },
-  'baking soda': { cal: 0, protein: 0, carbs: 0, fat: 0, fiber: 0 },
-  'bicarbonate of soda': { cal: 0, protein: 0, carbs: 0, fat: 0, fiber: 0 },
-  'vanilla': { cal: 288, protein: 0, carbs: 13, fat: 0, fiber: 0 },
-  'salt': { cal: 0, protein: 0, carbs: 0, fat: 0, fiber: 0 },
-  'black pepper': { cal: 251, protein: 10, carbs: 64, fat: 3, fiber: 25 },
-  'gelatine': { cal: 335, protein: 86, carbs: 0, fat: 0.1, fiber: 0 },
-  'gelatine powder': { cal: 335, protein: 86, carbs: 0, fat: 0.1, fiber: 0 },
-  'gelatine leaves': { cal: 335, protein: 86, carbs: 0, fat: 0.1, fiber: 0 },
-  'xanthan gum': { cal: 333, protein: 0, carbs: 83, fat: 0, fiber: 83 },
-  'soy lecithin': { cal: 763, protein: 0, carbs: 8, fat: 79, fiber: 0 },
-  'sourdough starter': { cal: 250, protein: 8, carbs: 50, fat: 1, fiber: 2 },
-  'malt powder': { cal: 360, protein: 10, carbs: 75, fat: 2, fiber: 3 },
+	// Baking Essentials
+	'yeast': { cal: 325, protein: 40, carbs: 41, fat: 7, fiber: 27, sodium: 51 },
+	'baking powder': { cal: 53, protein: 0, carbs: 28, fat: 0, fiber: 0, sodium: 10600 },
+	'bi-carb soda': { cal: 0, protein: 0, carbs: 0, fat: 0, fiber: 0, sodium: 27360 },
+	'baking soda': { cal: 0, protein: 0, carbs: 0, fat: 0, fiber: 0, sodium: 27360 },
+	'bicarbonate of soda': { cal: 0, protein: 0, carbs: 0, fat: 0, fiber: 0, sodium: 27360 },
+	'vanilla': { cal: 288, protein: 0, carbs: 13, fat: 0, fiber: 0, sodium: 9 },
+	'salt': { cal: 0, protein: 0, carbs: 0, fat: 0, fiber: 0, sodium: 38758 },
+	'black pepper': { cal: 251, protein: 10, carbs: 64, fat: 3, fiber: 25, sodium: 20 },
+	'gelatine': { cal: 335, protein: 86, carbs: 0, fat: 0.1, fiber: 0, sodium: 196 },
+	'gelatine powder': { cal: 335, protein: 86, carbs: 0, fat: 0.1, fiber: 0, sodium: 196 },
+	'gelatine leaves': { cal: 335, protein: 86, carbs: 0, fat: 0.1, fiber: 0, sodium: 196 },
+	'xanthan gum': { cal: 333, protein: 0, carbs: 83, fat: 0, fiber: 83, sodium: 3500 },
+	'soy lecithin': { cal: 763, protein: 0, carbs: 8, fat: 79, fiber: 0, sodium: 40 },
+	'sourdough starter': { cal: 250, protein: 8, carbs: 50, fat: 1, fiber: 2, sodium: 5 },
+	'malt powder': { cal: 360, protein: 10, carbs: 75, fat: 2, fiber: 3, sodium: 45 },
 
-  // Chocolate
-  'chocolate': { cal: 546, protein: 6, carbs: 59, fat: 31, fiber: 7 },
-  'chocolate chips': { cal: 480, protein: 5, carbs: 60, fat: 25, fiber: 4 },
-  'dark chocolate': { cal: 546, protein: 6, carbs: 59, fat: 31, fiber: 7 },
-  'milk chocolate': { cal: 535, protein: 7.6, carbs: 59, fat: 30, fiber: 3.4 },
-  'white chocolate': { cal: 539, protein: 6, carbs: 59, fat: 32, fiber: 0.2 },
-  'cocoa powder': { cal: 228, protein: 20, carbs: 58, fat: 14, fiber: 33 },
+	// Chocolate
+	'chocolate': { cal: 546, protein: 6, carbs: 59, fat: 31, fiber: 7, sodium: 24 },
+	'chocolate chips': { cal: 480, protein: 5, carbs: 60, fat: 25, fiber: 4, sodium: 18 },
+	'dark chocolate': { cal: 546, protein: 6, carbs: 59, fat: 31, fiber: 7, sodium: 20 },
+	'milk chocolate': { cal: 535, protein: 7.6, carbs: 59, fat: 30, fiber: 3.4, sodium: 79 },
+	'white chocolate': { cal: 539, protein: 6, carbs: 59, fat: 32, fiber: 0.2, sodium: 90 },
+	'cocoa powder': { cal: 228, protein: 20, carbs: 58, fat: 14, fiber: 33, sodium: 21 },
 
-  // Spices & Seasonings
-  'cinnamon': { cal: 247, protein: 4, carbs: 81, fat: 1.2, fiber: 53 },
-  'nutmeg': { cal: 525, protein: 5.8, carbs: 49, fat: 36, fiber: 21 },
-  'ginger (ground)': { cal: 336, protein: 9, carbs: 72, fat: 4.2, fiber: 14 },
-  'ginger (fresh)': { cal: 80, protein: 1.8, carbs: 18, fat: 0.8, fiber: 2 },
-  'cloves': { cal: 274, protein: 6, carbs: 65, fat: 13, fiber: 34 },
-  'allspice': { cal: 263, protein: 6, carbs: 72, fat: 8.7, fiber: 22 },
-  'cardamom': { cal: 311, protein: 11, carbs: 68, fat: 6.7, fiber: 28 },
-  'cumin': { cal: 375, protein: 18, carbs: 44, fat: 22, fiber: 10 },
-  'coriander': { cal: 298, protein: 12, carbs: 55, fat: 18, fiber: 42 },
-  'paprika': { cal: 282, protein: 14, carbs: 54, fat: 13, fiber: 35 },
-  'turmeric': { cal: 354, protein: 8, carbs: 65, fat: 10, fiber: 23 },
-  'achiote powder': { cal: 350, protein: 3, carbs: 70, fat: 8, fiber: 15 },
-  'chili powder': { cal: 282, protein: 14, carbs: 54, fat: 13, fiber: 35 },
-  'chili flakes': { cal: 282, protein: 14, carbs: 54, fat: 13, fiber: 35 },
-  'garlic powder': { cal: 331, protein: 17, carbs: 73, fat: 0.7, fiber: 9 },
-  'onion powder': { cal: 341, protein: 10, carbs: 79, fat: 1, fiber: 7 },
-  'stock powder': { cal: 250, protein: 15, carbs: 30, fat: 8, fiber: 1 },
-  'vegetable stock': { cal: 5, protein: 0.2, carbs: 0.8, fat: 0.1, fiber: 0.1 },
-  'beef stock': { cal: 7, protein: 1, carbs: 0.2, fat: 0.1, fiber: 0 },
-  'chicken stock': { cal: 5, protein: 0.5, carbs: 0.3, fat: 0.1, fiber: 0 },
-  'curry powder': { cal: 325, protein: 14, carbs: 56, fat: 14, fiber: 34 },
-  'curry paste': { cal: 250, protein: 5, carbs: 20, fat: 18, fiber: 5 },
-  'miso paste': { cal: 199, protein: 12, carbs: 26, fat: 6, fiber: 5 },
-  'bay leaves': { cal: 313, protein: 7.6, carbs: 75, fat: 8.4, fiber: 26 },
-  'garam masala': { cal: 300, protein: 12, carbs: 50, fat: 12, fiber: 20 },
-  'fenugreek': { cal: 323, protein: 23, carbs: 58, fat: 6.4, fiber: 25 },
-  'italian herbs': { cal: 280, protein: 10, carbs: 50, fat: 8, fiber: 25 },
-  'chinese five spice': { cal: 280, protein: 10, carbs: 50, fat: 8, fiber: 25 },
-  'sambal oelek': { cal: 60, protein: 1.5, carbs: 10, fat: 1, fiber: 2 },
-  'taco seasoning': { cal: 250, protein: 8, carbs: 40, fat: 6, fiber: 15 },
-  'pork stock': { cal: 5, protein: 0.5, carbs: 0.3, fat: 0.1, fiber: 0 },
-  'pork stock cube': { cal: 250, protein: 15, carbs: 30, fat: 8, fiber: 1 },
-  'fennel seeds': { cal: 345, protein: 16, carbs: 52, fat: 15, fiber: 40 },
-  'coriander seeds': { cal: 298, protein: 12, carbs: 55, fat: 18, fiber: 42 },
-  'black pepper': { cal: 251, protein: 10, carbs: 64, fat: 3, fiber: 25 },
-  'white pepper': { cal: 296, protein: 10, carbs: 68, fat: 2, fiber: 26 },
-  'nigella seeds': { cal: 345, protein: 16, carbs: 52, fat: 15, fiber: 40 },  
-  
-  // Sauces & Condiments
-  'soy sauce': { cal: 53, protein: 8, carbs: 4.9, fat: 0.6, fiber: 0.8 },
-  'dark soy sauce': { cal: 60, protein: 9, carbs: 5.5, fat: 0.7, fiber: 0.9 },
-  'light soy sauce': { cal: 45, protein: 7, carbs: 3.5, fat: 0.4, fiber: 0.6 },
-  'fish sauce': { cal: 35, protein: 5, carbs: 3.6, fat: 0, fiber: 0 },
-  'oyster sauce': { cal: 100, protein: 2, carbs: 20, fat: 0.5, fiber: 0.5 },
-  'worcestershire sauce': { cal: 77, protein: 0, carbs: 19, fat: 0, fiber: 0 },
-  'tomato sauce': { cal: 90, protein: 1.6, carbs: 20, fat: 0.1, fiber: 1.5 },
-  'tomato paste': { cal: 82, protein: 4.3, carbs: 18, fat: 0.5, fiber: 4.5 },
-  'bbq sauce': { cal: 150, protein: 1, carbs: 35, fat: 0.5, fiber: 0.5 },
-  'sriracha': { cal: 120, protein: 2, carbs: 25, fat: 0.8, fiber: 1.5 },
-  'mustard': { cal: 66, protein: 4.4, carbs: 5.8, fat: 4, fiber: 4 },
-  'dijon mustard': { cal: 140, protein: 7, carbs: 8, fat: 10, fiber: 3 },
-  'vinegar': { cal: 18, protein: 0, carbs: 0.9, fat: 0, fiber: 0 },
-  'apple cider vinegar': { cal: 21, protein: 0, carbs: 0.9, fat: 0, fiber: 0 },
-  'white vinegar': { cal: 18, protein: 0, carbs: 0.1, fat: 0, fiber: 0 },
-  'rice vinegar': { cal: 18, protein: 0, carbs: 0.1, fat: 0, fiber: 0 },
-  'balsamic vinegar': { cal: 88, protein: 0.5, carbs: 17, fat: 0, fiber: 0 },
-  'jam': { cal: 250, protein: 0.5, carbs: 65, fat: 0, fiber: 1 },
-  'marmalade': { cal: 260, protein: 0.3, carbs: 67, fat: 0, fiber: 0.7 },
-  'nutella': { cal: 544, protein: 6, carbs: 56, fat: 33, fiber: 3.5 },
-  'vegemite': { cal: 145, protein: 25, carbs: 11, fat: 0.5, fiber: 7 },
-  'mirin': { cal: 240, protein: 0.3, carbs: 55, fat: 0, fiber: 0 },
-  'hoisin sauce': { cal: 220, protein: 3, carbs: 44, fat: 2.5, fiber: 2 },
-  'liver spread': { cal: 250, protein: 12, carbs: 10, fat: 18, fiber: 1 },
-  'chili garlic sauce': { cal: 120, protein: 2, carbs: 25, fat: 0.5, fiber: 1.5 },
+	// Spices & Seasonings
+	'cinnamon': { cal: 247, protein: 4, carbs: 81, fat: 1.2, fiber: 53, sodium: 10 },
+	'nutmeg': { cal: 525, protein: 5.8, carbs: 49, fat: 36, fiber: 21, sodium: 16 },
+	'ginger (ground)': { cal: 336, protein: 9, carbs: 72, fat: 4.2, fiber: 14, sodium: 27 },
+	'ginger (fresh)': { cal: 80, protein: 1.8, carbs: 18, fat: 0.8, fiber: 2, sodium: 13 },
+	'cloves': { cal: 274, protein: 6, carbs: 65, fat: 13, fiber: 34, sodium: 277 },
+	'allspice': { cal: 263, protein: 6, carbs: 72, fat: 8.7, fiber: 22, sodium: 77 },
+	'cardamom': { cal: 311, protein: 11, carbs: 68, fat: 6.7, fiber: 28, sodium: 18 },
+	'cumin': { cal: 375, protein: 18, carbs: 44, fat: 22, fiber: 10, sodium: 168 },
+	'coriander': { cal: 298, protein: 12, carbs: 55, fat: 18, fiber: 42, sodium: 35 },
+	'paprika': { cal: 282, protein: 14, carbs: 54, fat: 13, fiber: 35, sodium: 68 },
+	'turmeric': { cal: 354, protein: 8, carbs: 65, fat: 10, fiber: 23, sodium: 27 },
+	'achiote powder': { cal: 350, protein: 3, carbs: 70, fat: 8, fiber: 15, sodium: 15 },
+	'chili powder': { cal: 282, protein: 14, carbs: 54, fat: 13, fiber: 35, sodium: 90 },
+	'chili flakes': { cal: 282, protein: 14, carbs: 54, fat: 13, fiber: 35, sodium: 85 },
+	'garlic powder': { cal: 331, protein: 17, carbs: 73, fat: 0.7, fiber: 9, sodium: 60 },
+	'onion powder': { cal: 341, protein: 10, carbs: 79, fat: 1, fiber: 7, sodium: 73 },
+	'stock powder': { cal: 250, protein: 15, carbs: 30, fat: 8, fiber: 1, sodium: 18000 },
+	'vegetable stock': { cal: 5, protein: 0.2, carbs: 0.8, fat: 0.1, fiber: 0.1, sodium: 320 },
+	'beef stock': { cal: 7, protein: 1, carbs: 0.2, fat: 0.1, fiber: 0, sodium: 350 },
+	'chicken stock': { cal: 5, protein: 0.5, carbs: 0.3, fat: 0.1, fiber: 0, sodium: 340 },
+	'curry powder': { cal: 325, protein: 14, carbs: 56, fat: 14, fiber: 34, sodium: 52 },
+	'curry paste': { cal: 250, protein: 5, carbs: 20, fat: 18, fiber: 5, sodium: 2800 },
+	'miso paste': { cal: 199, protein: 12, carbs: 26, fat: 6, fiber: 5, sodium: 3700 },
+	'bay leaves': { cal: 313, protein: 7.6, carbs: 75, fat: 8.4, fiber: 26, sodium: 23 },
+	'garam masala': { cal: 300, protein: 12, carbs: 50, fat: 12, fiber: 20, sodium: 45 },
+	'fenugreek': { cal: 323, protein: 23, carbs: 58, fat: 6.4, fiber: 25, sodium: 67 },
+	'italian herbs': { cal: 280, protein: 10, carbs: 50, fat: 8, fiber: 25, sodium: 50 },
+	'chinese five spice': { cal: 280, protein: 10, carbs: 50, fat: 8, fiber: 25, sodium: 45 },
+	'sambal oelek': { cal: 60, protein: 1.5, carbs: 10, fat: 1, fiber: 2, sodium: 1800 },
+	'taco seasoning': { cal: 250, protein: 8, carbs: 40, fat: 6, fiber: 15, sodium: 8000 },
+	'pork stock': { cal: 5, protein: 0.5, carbs: 0.3, fat: 0.1, fiber: 0, sodium: 340 },
+	'pork stock cube': { cal: 250, protein: 15, carbs: 30, fat: 8, fiber: 1, sodium: 17000 },
+	'fennel seeds': { cal: 345, protein: 16, carbs: 52, fat: 15, fiber: 40, sodium: 88 },
+	'coriander seeds': { cal: 298, protein: 12, carbs: 55, fat: 18, fiber: 42, sodium: 35 },
+	'black pepper': { cal: 251, protein: 10, carbs: 64, fat: 3, fiber: 25, sodium: 20 },
+	'white pepper': { cal: 296, protein: 10, carbs: 68, fat: 2, fiber: 26, sodium: 5 },
+	'nigella seeds': { cal: 345, protein: 16, carbs: 52, fat: 15, fiber: 40, sodium: 88 },
+	'green peppercorns': { cal: 255, protein: 10, carbs: 52, fat: 5, fiber: 20, sodium: 25 }, 
+	  
+	// Sauces & Condiments
+	'soy sauce': { cal: 53, protein: 8, carbs: 4.9, fat: 0.6, fiber: 0.8, sodium: 5700 },
+	'dark soy sauce': { cal: 60, protein: 9, carbs: 5.5, fat: 0.7, fiber: 0.9, sodium: 4800 },
+	'light soy sauce': { cal: 45, protein: 7, carbs: 3.5, fat: 0.4, fiber: 0.6, sodium: 6200 },
+	'fish sauce': { cal: 35, protein: 5, carbs: 3.6, fat: 0, fiber: 0, sodium: 7800 },
+	'oyster sauce': { cal: 100, protein: 2, carbs: 20, fat: 0.5, fiber: 0.5, sodium: 3200 },
+	'worcestershire sauce': { cal: 77, protein: 0, carbs: 19, fat: 0, fiber: 0, sodium: 1200 },
+	'tomato sauce': { cal: 90, protein: 1.6, carbs: 20, fat: 0.1, fiber: 1.5, sodium: 850 },
+	'tomato paste': { cal: 82, protein: 4.3, carbs: 18, fat: 0.5, fiber: 4.5, sodium: 120 },
+	'bbq sauce': { cal: 150, protein: 1, carbs: 35, fat: 0.5, fiber: 0.5, sodium: 950 },
+	'sriracha': { cal: 120, protein: 2, carbs: 25, fat: 0.8, fiber: 1.5, sodium: 2100 },
+	'mustard': { cal: 66, protein: 4.4, carbs: 5.8, fat: 4, fiber: 4, sodium: 1100 },
+	'dijon mustard': { cal: 140, protein: 7, carbs: 8, fat: 10, fiber: 3, sodium: 2300 },
+	'vinegar': { cal: 18, protein: 0, carbs: 0.9, fat: 0, fiber: 0, sodium: 2 },
+	'apple cider vinegar': { cal: 21, protein: 0, carbs: 0.9, fat: 0, fiber: 0, sodium: 5 },
+	'white vinegar': { cal: 18, protein: 0, carbs: 0.1, fat: 0, fiber: 0, sodium: 2 },
+	'rice vinegar': { cal: 18, protein: 0, carbs: 0.1, fat: 0, fiber: 0, sodium: 2 },
+	'balsamic vinegar': { cal: 88, protein: 0.5, carbs: 17, fat: 0, fiber: 0, sodium: 20 },
+	'jam': { cal: 250, protein: 0.5, carbs: 65, fat: 0, fiber: 1, sodium: 30 },
+	'marmalade': { cal: 260, protein: 0.3, carbs: 67, fat: 0, fiber: 0.7, sodium: 35 },
+	'nutella': { cal: 544, protein: 6, carbs: 56, fat: 33, fiber: 3.5, sodium: 42 },
+	'vegemite': { cal: 145, protein: 25, carbs: 11, fat: 0.5, fiber: 7, sodium: 3300 },
+	'mirin': { cal: 240, protein: 0.3, carbs: 55, fat: 0, fiber: 0, sodium: 200 },
+	'hoisin sauce': { cal: 220, protein: 3, carbs: 44, fat: 2.5, fiber: 2, sodium: 2800 },
+	'liver spread': { cal: 250, protein: 12, carbs: 10, fat: 18, fiber: 1, sodium: 380 },
+	'chili garlic sauce': { cal: 120, protein: 2, carbs: 25, fat: 0.5, fiber: 1.5, sodium: 1900 },
+	'demi glace': { cal: 45, protein: 5, carbs: 3, fat: 1.5, fiber: 0, sodium: 320 },
+	'plum jam': { cal: 250, protein: 0.5, carbs: 65, fat: 0, fiber: 1, sodium: 30 },
 
-    // Coffee & Tea
-  'coffee (brewed)': { cal: 1, protein: 0.1, carbs: 0, fat: 0, fiber: 0 },
-  'coffee (instant)': { cal: 3, protein: 0.1, carbs: 0.3, fat: 0, fiber: 0 },
-  'espresso': { cal: 2, protein: 0.1, carbs: 0, fat: 0, fiber: 0 },
+	// Coffee & Tea
+	'coffee (brewed)': { cal: 1, protein: 0.1, carbs: 0, fat: 0, fiber: 0, sodium: 2 },
+	'coffee (instant)': { cal: 3, protein: 0.1, carbs: 0.3, fat: 0, fiber: 0, sodium: 4 },
+	'espresso': { cal: 2, protein: 0.1, carbs: 0, fat: 0, fiber: 0, sodium: 3 },
 
-  // Alcohol
-  'white wine': { cal: 82, protein: 0.1, carbs: 2.6, fat: 0, fiber: 0 },
-  'red wine': { cal: 85, protein: 0.1, carbs: 2.6, fat: 0, fiber: 0 },
-  'sherry': { cal: 116, protein: 0.2, carbs: 5, fat: 0, fiber: 0 },
-  'brandy': { cal: 220, protein: 0, carbs: 0.5, fat: 0, fiber: 0 },
-  'rum': { cal: 231, protein: 0, carbs: 0, fat: 0, fiber: 0 },
-  'tia maria': { cal: 315, protein: 0, carbs: 35, fat: 0, fiber: 0 },
-  'grand marnier': { cal: 280, protein: 0, carbs: 28, fat: 0, fiber: 0 },
-  'kahlua': { cal: 330, protein: 0, carbs: 40, fat: 0, fiber: 0 },
-  'chinese rice wine': { cal: 120, protein: 0.5, carbs: 5, fat: 0, fiber: 0 },
+	// Alcohol
+	'white wine': { cal: 82, protein: 0.1, carbs: 2.6, fat: 0, fiber: 0, sodium: 5 },
+	'red wine': { cal: 85, protein: 0.1, carbs: 2.6, fat: 0, fiber: 0, sodium: 4 },
+	'sherry': { cal: 116, protein: 0.2, carbs: 5, fat: 0, fiber: 0, sodium: 8 },
+	'brandy': { cal: 220, protein: 0, carbs: 0.5, fat: 0, fiber: 0, sodium: 2 },
+	'rum': { cal: 231, protein: 0, carbs: 0, fat: 0, fiber: 0, sodium: 1 },
+	'tia maria': { cal: 315, protein: 0, carbs: 35, fat: 0, fiber: 0, sodium: 12 },
+	'grand marnier': { cal: 280, protein: 0, carbs: 28, fat: 0, fiber: 0, sodium: 8 },
+	'kahlua': { cal: 330, protein: 0, carbs: 40, fat: 0, fiber: 0, sodium: 10 },
+	'chinese rice wine': { cal: 120, protein: 0.5, carbs: 5, fat: 0, fiber: 0, sodium: 5 },
 
-  // Herbs (fresh)
-  'basil': { cal: 23, protein: 3.2, carbs: 2.7, fat: 0.6, fiber: 1.6 },
-  'oregano': { cal: 265, protein: 9, carbs: 69, fat: 4.3, fiber: 42 },
-  'thyme': { cal: 101, protein: 5.6, carbs: 24, fat: 1.7, fiber: 14 },
-  'rosemary': { cal: 131, protein: 3.3, carbs: 21, fat: 5.9, fiber: 14 },
-  'parsley': { cal: 36, protein: 3, carbs: 6.3, fat: 0.8, fiber: 3.3 },
-  'coriander (fresh)': { cal: 23, protein: 2.1, carbs: 3.7, fat: 0.5, fiber: 2.8 },
-  'mint': { cal: 70, protein: 3.7, carbs: 15, fat: 0.9, fiber: 8 },
-  'dill': { cal: 43, protein: 3.5, carbs: 7, fat: 1.1, fiber: 2.1 },
-  'bay leaf': { cal: 313, protein: 7.6, carbs: 75, fat: 8.4, fiber: 26 },
-  'sage': { cal: 315, protein: 10, carbs: 61, fat: 13, fiber: 40 },
-  'chives': { cal: 30, protein: 3.3, carbs: 4.4, fat: 0.7, fiber: 2.5 },
-  
-  // Store-Bought
-  'arnotts nice biscuits': { cal: 450, protein: 4.8, carbs: 77, fat: 13.5, fiber: 1.5 },
-  'arnotts butternut snap cookies': { cal: 478, protein: 5.1, carbs: 67.7, fat: 19.7, fiber: 0.9 },
-  'wholegrain toast': { cal: 250, protein: 9, carbs: 43, fat: 3.5, fiber: 5 },
-  
-  // Pasta & Noodles
-  'egg noodles': { cal: 138, protein: 5, carbs: 25, fat: 2, fiber: 1 },
-  'vermicelli rice noodles': { cal: 364, protein: 6, carbs: 83, fat: 0.3, fiber: 1.5 },
-  'lasagne sheets': { cal: 360, protein: 12, carbs: 74, fat: 1.5, fiber: 3 },
-  'canton egg noodles': { cal: 350, protein: 12, carbs: 68, fat: 2.5, fiber: 2 },
-  
-  // Pastry
-  'shortcrust pastry': { cal: 480, protein: 7, carbs: 52, fat: 27, fiber: 1.5 },
-  'puff pastry': { cal: 420, protein: 7, carbs: 46, fat: 24, fiber: 1 },
-  
-  // Olives & Capers
-  'kalamata olives': { cal: 239, protein: 2, carbs: 5, fat: 24, fiber: 3.3 },
-  'capers': { cal: 23, protein: 2.4, carbs: 4.9, fat: 0.9, fiber: 3.2 },
-  'green olives': { cal: 145, protein: 1, carbs: 3.8, fat: 15, fiber: 3.3 },
+	// Herbs (fresh)
+	'basil': { cal: 23, protein: 3.2, carbs: 2.7, fat: 0.6, fiber: 1.6, sodium: 4 },
+	'oregano': { cal: 265, protein: 9, carbs: 69, fat: 4.3, fiber: 42, sodium: 25 },
+	'thyme': { cal: 101, protein: 5.6, carbs: 24, fat: 1.7, fiber: 14, sodium: 9 },
+	'rosemary': { cal: 131, protein: 3.3, carbs: 21, fat: 5.9, fiber: 14, sodium: 26 },
+	'parsley': { cal: 36, protein: 3, carbs: 6.3, fat: 0.8, fiber: 3.3, sodium: 56 },
+	'coriander (fresh)': { cal: 23, protein: 2.1, carbs: 3.7, fat: 0.5, fiber: 2.8, sodium: 46 },
+	'mint': { cal: 70, protein: 3.7, carbs: 15, fat: 0.9, fiber: 8, sodium: 31 },
+	'dill': { cal: 43, protein: 3.5, carbs: 7, fat: 1.1, fiber: 2.1, sodium: 61 },
+	'bay leaf': { cal: 313, protein: 7.6, carbs: 75, fat: 8.4, fiber: 26, sodium: 23 },
+	'sage': { cal: 315, protein: 10, carbs: 61, fat: 13, fiber: 40, sodium: 11 },
+	'chives': { cal: 30, protein: 3.3, carbs: 4.4, fat: 0.7, fiber: 2.5, sodium: 3 },
+	  
+	// Store-Bought
+	'arnotts nice biscuits': { cal: 450, protein: 4.8, carbs: 77, fat: 13.5, fiber: 1.5, sodium: 280 },
+	'arnotts butternut snap cookies': { cal: 478, protein: 5.1, carbs: 67.7, fat: 19.7, fiber: 0.9, sodium: 320 },
+	'wholegrain toast': { cal: 250, protein: 9, carbs: 43, fat: 3.5, fiber: 5, sodium: 400 },
+
+	// Pasta & Noodles
+	'egg noodles': { cal: 138, protein: 5, carbs: 25, fat: 2, fiber: 1, sodium: 5 },
+	'vermicelli rice noodles': { cal: 364, protein: 6, carbs: 83, fat: 0.3, fiber: 1.5, sodium: 10 },
+	'lasagne sheets': { cal: 360, protein: 12, carbs: 74, fat: 1.5, fiber: 3, sodium: 6 },
+	'canton egg noodles': { cal: 350, protein: 12, carbs: 68, fat: 2.5, fiber: 2, sodium: 8 },
+
+	// Pastry
+	'shortcrust pastry': { cal: 480, protein: 7, carbs: 52, fat: 27, fiber: 1.5, sodium: 380 },
+	'puff pastry': { cal: 420, protein: 7, carbs: 46, fat: 24, fiber: 1, sodium: 340 },
+	  
+	// Olives & Capers
+	'kalamata olives': { cal: 239, protein: 2, carbs: 5, fat: 24, fiber: 3.3, sodium: 1050 },
+	'capers': { cal: 23, protein: 2.4, carbs: 4.9, fat: 0.9, fiber: 3.2, sodium: 2350 },
+	'green olives': { cal: 145, protein: 1, carbs: 3.8, fat: 15, fiber: 3.3, sodium: 1550 },
 
 };
 
@@ -3045,7 +3069,7 @@ function calculateNutrition() {
   }
   
   const servings = parseInt(obj.servings) || 1;
-  let totalNutrition = { cal: 0, protein: 0, carbs: 0, fat: 0, fiber: 0 };
+  let totalNutrition = { cal: 0, protein: 0, carbs: 0, fat: 0, fiber: 0, sodium: 0 };
   let foundIngredients = 0;
   let totalIngredients = 0;
   let ingredientDetails = [];
@@ -3109,6 +3133,7 @@ function calculateNutrition() {
       totalNutrition.carbs += nutritionData.carbs * factor;
       totalNutrition.fat += nutritionData.fat * factor;
       totalNutrition.fiber += nutritionData.fiber * factor;
+	  totalNutrition.sodium += (nutritionData.sodium || 0) * factor;
       grams = quantity * 50;
     } else {
       grams = convertToGrams(quantity, unit, itemName);
@@ -3118,6 +3143,7 @@ function calculateNutrition() {
       totalNutrition.carbs += nutritionData.carbs * factor;
       totalNutrition.fat += nutritionData.fat * factor;
       totalNutrition.fiber += nutritionData.fiber * factor;
+	  totalNutrition.sodium += (nutritionData.sodium || 0) * factor;
     }
     
     ingredientDetails.push({
@@ -3136,13 +3162,14 @@ function calculateNutrition() {
   }
   
   // Calculate per serving
-  const perServing = {
+const perServing = {
     cal: Math.round(totalNutrition.cal / servings),
     protein: Math.round(totalNutrition.protein / servings),
     carbs: Math.round(totalNutrition.carbs / servings),
     fat: Math.round(totalNutrition.fat / servings),
-    fiber: Math.round(totalNutrition.fiber / servings)
-  };
+    fiber: Math.round(totalNutrition.fiber / servings),
+    sodium: Math.round(totalNutrition.sodium / servings)
+};
   
   // Build unmatched list
   const unmatched = ingredientDetails.filter(d => !d.found);
@@ -3182,6 +3209,10 @@ function calculateNutrition() {
           <span style="font-weight:600;" class="nutrition-label-text">Total Fat</span>
           <span>${perServing.fat}g</span>
         </div>
+		<div class="nutrition-row" style="display:flex;justify-content:space-between;padding:0.25rem 0;border-bottom:1px solid var(--border);color:var(--text-dim);">
+		  <span class="nutrition-label-text">Sodium</span>
+		  <span>${perServing.sodium}mg</span>
+		</div>
       </div>
       <div style="margin-top:0.75rem;font-size:0.75rem;color:var(--text-dim);font-style:italic;">
         ℹ️ Estimates based on ${foundIngredients}/${totalIngredients} ingredients (${coverage}% coverage)
@@ -3759,10 +3790,11 @@ function filterTagPicker(searchText) {
 
 let tagVocabularyData = null; // Store full vocabulary structure
 
-function filterTagCategory(category) {
-  // Update active button
-  document.querySelectorAll('.tag-category-btn').forEach(btn => btn.classList.remove('active'));
-  event.target.classList.add('active');
+function filterTagCategory(category, event) {
+  if (event && event.target) {
+    document.querySelectorAll('.tag-category-btn').forEach(btn => btn.classList.remove('active'));
+    event.target.classList.add('active');
+  }
   
   // Clear search
   document.getElementById('tag-search').value = '';
@@ -3943,21 +3975,21 @@ checkServerStatus();
       <button class="btn" onclick="copyTagsFromRecipe()" style="padding:0.5rem 1rem;font-size:0.85rem;">Copy</button>
     </div>
     
-    <!-- Category filter tabs -->
-    <div style="display:flex;gap:0.5rem;flex-wrap:wrap;margin-bottom:1rem;font-size:0.75rem;">
-      <button class="tag-category-btn active" onclick="filterTagCategory('all')">All</button>
-      <button class="tag-category-btn" onclick="filterTagCategory('cuisine')">Cuisine</button>
-      <button class="tag-category-btn" onclick="filterTagCategory('cookingMethod')">Method</button>
-      <button class="tag-category-btn" onclick="filterTagCategory('dietary')">Dietary</button>
-      <button class="tag-category-btn" onclick="filterTagCategory('time')">Time</button>
-      <button class="tag-category-btn" onclick="filterTagCategory('mealType')">Meal</button>
-      <button class="tag-category-btn" onclick="filterTagCategory('characteristics')">Style</button>
-      <button class="tag-category-btn" onclick="filterTagCategory('protein')">Protein</button>
-      <button class="tag-category-btn" onclick="filterTagCategory('keyIngredients')">Ingredients</button>
-      <button class="tag-category-btn" onclick="filterTagCategory('specificCheeses')">Cheese</button>
-      <button class="tag-category-btn" onclick="filterTagCategory('specificLiqueurs')">Liqueur</button>
-      <button class="tag-category-btn" onclick="filterTagCategory('occasion')">Occasion</button>
-    </div>
+<!-- Category filter tabs -->
+<div style="display:flex;gap:0.5rem;flex-wrap:wrap;margin-bottom:1rem;font-size:0.75rem;">
+  <button class="tag-category-btn active" onclick="filterTagCategory('all', event)">All</button>
+  <button class="tag-category-btn" onclick="filterTagCategory('cuisine', event)">Cuisine</button>
+  <button class="tag-category-btn" onclick="filterTagCategory('cookingMethod', event)">Method</button>
+  <button class="tag-category-btn" onclick="filterTagCategory('dietary', event)">Dietary</button>
+  <button class="tag-category-btn" onclick="filterTagCategory('time', event)">Time</button>
+  <button class="tag-category-btn" onclick="filterTagCategory('mealType', event)">Meal</button>
+  <button class="tag-category-btn" onclick="filterTagCategory('characteristics', event)">Style</button>
+  <button class="tag-category-btn" onclick="filterTagCategory('protein', event)">Protein</button>
+  <button class="tag-category-btn" onclick="filterTagCategory('keyIngredients', event)">Ingredients</button>
+  <button class="tag-category-btn" onclick="filterTagCategory('specificCheeses', event)">Cheese</button>
+  <button class="tag-category-btn" onclick="filterTagCategory('specificLiqueurs', event)">Liqueur</button>
+  <button class="tag-category-btn" onclick="filterTagCategory('occasion', event)">Occasion</button>
+</div>
     
     <div class="tag-picker-grid" id="tag-picker-grid"></div>
     <div style="display:flex;gap:0.5rem;margin-top:1rem;">

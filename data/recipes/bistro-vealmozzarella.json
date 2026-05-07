@@ -1,17 +1,16 @@
 {
-  "id": "bistro-vealmozzarella",
+  "id": "vealmozzarella",
   "title": "Veal Mozzarella",
   "emoji": "🫓",
   "category": "Dinner",
-  "description": "Veal wrapped with mushroom, bacon and shallots in puff pastry, topped with melted mozzarella. A Wellington-style preparation from the bistro kitchen.",
+  "description": "Veal wrapped with mushroom, bacon, and shallots in puff pastry, topped with melted mozzarella. A Wellington-style preparation from the bistro kitchen.",
   "prepTime": "20 min",
   "cookTime": "15 min",
   "totalTime": "35 min",
-  "servings": 1,
-  "difficulty": "Hard",
+  "servings": "1 serving",
+  "difficulty": "Advanced",
   "tags": [
     "Baked",
-    "Cheese",
     "Classic",
     "Dinner",
     "Rich",
@@ -23,99 +22,105 @@
       "quantity": "180",
       "unit": "g",
       "item": "Veal",
-      "ingredientKey": "Veal"
+      "notes": "escalopes, seared"
     },
     {
       "quantity": "80",
       "unit": "g",
       "item": "Mushrooms",
-      "ingredientKey": "Mushrooms"
+      "notes": "sliced"
     },
     {
       "quantity": "2",
-      "unit": "",
+      "unit": "rashers",
       "item": "Bacon",
-      "ingredientKey": "Bacon"
+      "notes": "diced"
     },
     {
       "quantity": "1",
       "unit": "",
-      "item": "Onion",
-      "ingredientKey": "Onion"
+      "item": "Brown Onion",
+      "notes": "diced"
     },
     {
       "quantity": "50",
       "unit": "g",
-      "item": "Cheese",
-      "ingredientKey": "Cheese"
+      "item": "Mozzarella",
+      "notes": "sliced, for topping"
     },
     {
       "quantity": "1",
       "unit": "sheet",
-      "item": "Pastry",
-      "ingredientKey": "Pastry"
+      "item": "Puff Pastry",
+      "notes": "partially thawed"
     },
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Butter",
-      "ingredientKey": "Butter"
+      "item": "Unsalted Butter"
     },
     {
       "quantity": "60",
       "unit": "ml",
       "item": "Demi Glace",
-      "ingredientKey": "Demi Glace"
+      "notes": "for filling and sauce"
     },
     {
-      "quantity": "to taste",
+      "quantity": "1",
       "unit": "",
+      "item": "Eggs",
+      "notes": "beaten, for egg wash"
+    },
+    {
+      "quantity": "3",
+      "unit": "g",
       "item": "Salt",
-      "ingredientKey": "Salt"
+      "notes": "to taste"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Pan-fry veal briefly — just seared, not fully cooked as it will finish in the oven."
+      "instruction": "Pan-fry veal briefly in a little butter over high heat — just seared on both sides, not fully cooked as it will finish in the oven. Remove and set aside."
     },
     {
       "step": 2,
-      "instruction": "Fry bacon and shallots in butter until softened. Add mushrooms and cook until golden."
+      "instruction": "In the same pan, fry bacon and onion in butter until softened and the bacon is crisp. Add mushrooms and cook until golden, about 3–4 minutes."
     },
     {
       "step": 3,
-      "instruction": "Add a little demi glace to the mushroom mix to bind it slightly."
+      "instruction": "Add half the demi glace to the mushroom mixture and stir to bind. Season with salt. Allow to cool slightly."
     },
     {
       "step": 4,
-      "instruction": "Wrap each veal steak with the mushroom and bacon mix in puff pastry. Seal well with egg wash."
+      "instruction": "Lay puff pastry sheet flat. Place each seared veal escalope on the pastry, top with the mushroom and bacon mixture, and wrap the pastry tightly around to form a parcel. Seal edges with egg wash."
     },
     {
       "step": 5,
-      "instruction": "Brush the top with egg wash. Bake at 200°C until pastry is golden."
+      "instruction": "Brush the top generously with egg wash. Place on a lined baking tray and bake at 200°C for 12–15 minutes until the pastry is golden and puffed."
     },
     {
       "step": 6,
-      "instruction": "Add mozzarella on top in the last few minutes of baking until melted."
+      "instruction": "In the last 3–4 minutes of baking, lay sliced mozzarella on top of the pastry and return to the oven until melted and bubbling."
+    },
+    {
+      "step": 7,
+      "instruction": "Warm the remaining demi glace and serve alongside the pastry parcel as a sauce."
     }
   ],
   "notes": [
     {
-      "type": "chef",
-      "title": "Chef's Note",
-      "content": "Wellington-style preparation with veal. Uses demi in the filling. ??? Was there a sauce served alongside or just the pastry parcel?"
+      "type": "technique",
+      "title": "Wellington-Style",
+      "content": "This is a Wellington-style preparation — the veal is wrapped in pastry with the mushroom mixture and baked. The veal finishes cooking inside the pastry, so the initial sear should be brief."
+    },
+    {
+      "type": "technique",
+      "title": "Demi Glace Sauce",
+      "content": "Demi glace is used both in the filling as a binder and served warm alongside the finished dish as a sauce. Prepare extra if you prefer a more generous pour."
     }
   ],
   "related": [
-    {
-      "id": "lasagne",
-      "title": "Classic Lasagne — Ragù & Béchamel"
-    },
-    {
-      "id": "tomatoflan",
-      "title": "Tomato and Olive Flan"
-    },
     {
       "id": "bistro-carpetbag",
       "title": "Carpet Bag"
@@ -127,6 +132,24 @@
     {
       "id": "bistro-vealoscar",
       "title": "Veal Oscar"
+    },
+    {
+      "id": "bistro-vealscaloppine",
+      "title": "Veal Scaloppine"
+    },
+    {
+      "id": "bistro-vealmadagascar",
+      "title": "Veal Madagascar"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 1,
+    "cal": 2406,
+    "protein": 155,
+    "carbs": 65,
+    "fat": 169,
+    "fiber": 4,
+    "sodium": 5882,
+    "coverage": 100
+  }
 }

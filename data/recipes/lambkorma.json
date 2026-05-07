@@ -175,11 +175,12 @@
   ],
   "nutrition": {
     "servings": 4,
-    "cal": 698,
-    "protein": 27,
+    "cal": 704,
+    "protein": 28,
     "carbs": 92,
-    "fat": 34,
+    "fat": 35,
     "fiber": 30,
+    "sodium": 577,
     "coverage": 100
   }
 }

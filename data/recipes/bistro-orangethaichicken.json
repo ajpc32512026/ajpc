@@ -1,16 +1,17 @@
 {
-  "id": "bistro-orangethaichicken",
+  "id": "orangethaichicken",
   "title": "Orange Thai Chicken",
   "emoji": "🍊",
   "category": "Dinner",
-  "description": "The Thai Chicken's sibling — same ginger and chilli base but brightened with fresh orange juice for a citrus-forward sauce.",
+  "description": "The Thai Chicken's sibling — same ginger and chilli base but brightened with fresh orange juice for a citrus-forward cream sauce.",
   "prepTime": "5 min",
   "cookTime": "8 min",
   "totalTime": "13 min",
-  "servings": 1,
-  "difficulty": "Easy",
+  "servings": "1 serving",
+  "difficulty": "Intermediate",
   "tags": [
     "Chicken",
+    "Citrus",
     "Creamy",
     "Dinner",
     "Gluten-Free",
@@ -25,85 +26,86 @@
     {
       "quantity": "2",
       "unit": "",
-      "item": "Chicken",
-      "ingredientKey": "Chicken"
+      "item": "Chicken Breast",
+      "notes": "pan-fried"
     },
     {
       "quantity": "10",
       "unit": "g",
-      "item": "Ginger",
-      "ingredientKey": "Ginger"
+      "item": "Ginger (Fresh)",
+      "notes": "finely grated"
     },
     {
       "quantity": "1",
       "unit": "",
       "item": "Red Chili",
-      "ingredientKey": "Red Chili"
+      "notes": "fresh, finely sliced"
     },
     {
       "quantity": "30",
       "unit": "ml",
-      "item": "Juice",
-      "ingredientKey": "Juice"
+      "item": "Orange Juice",
+      "notes": "freshly squeezed"
     },
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Cream",
-      "ingredientKey": "Cream"
+      "item": "Thickened Cream"
     },
     {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Orange Zest",
-      "ingredientKey": "Orange Zest"
+      "quantity": "5",
+      "unit": "g",
+      "item": "Orange Zest"
     },
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Butter",
-      "ingredientKey": "Butter"
+      "item": "Unsalted Butter"
     },
     {
       "quantity": "1",
       "unit": "",
-      "item": "Onion",
-      "ingredientKey": "Onion"
+      "item": "Brown Onion",
+      "notes": "diced"
     },
     {
-      "quantity": "to taste",
-      "unit": "",
+      "quantity": "3",
+      "unit": "g",
       "item": "Salt",
-      "ingredientKey": "Salt"
+      "notes": "to taste"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Pan-fry chicken breast until golden and cooked through. Rest."
+      "instruction": "Melt half the butter in a frying pan over medium-high heat. Pan-fry chicken breast for 3–4 minutes per side until golden and cooked through. Remove and rest on a warm plate."
     },
     {
       "step": 2,
-      "instruction": "Soften shallots and ginger in butter. Add chilli briefly."
+      "instruction": "In the same pan, add remaining butter. Add diced onion and grated ginger and cook until softened and fragrant, about 2–3 minutes."
     },
     {
       "step": 3,
-      "instruction": "Deglaze with fresh orange juice. Reduce by half."
+      "instruction": "Add fresh chili and cook briefly for 30 seconds until aromatic."
     },
     {
       "step": 4,
-      "instruction": "Add thickened cream and reduce to a coating sauce."
+      "instruction": "Deglaze the pan with fresh orange juice. Let it reduce by half, about 1–2 minutes."
     },
     {
       "step": 5,
-      "instruction": "Finish with orange zest. Plate and spoon sauce over chicken."
+      "instruction": "Pour in thickened cream and reduce for 2–3 minutes until the sauce coats the back of a spoon. Season with salt."
+    },
+    {
+      "step": 6,
+      "instruction": "Stir in orange zest just before serving. Plate the chicken and spoon the citrus-cream sauce generously over the top."
     }
   ],
   "notes": [
     {
-      "type": "chef",
-      "title": "Chef's Note",
-      "content": "??? Was it cream-forward with a hint of orange, or orange-forward? No demi."
+      "type": "technique",
+      "title": "Orange Forward",
+      "content": "The orange juice and zest lead this sauce — it should be distinctly citrus-forward with the cream providing body and richness rather than dominating. The ginger and chilli add warmth without overpowering the orange. No demi glace is used."
     }
   ],
   "related": [
@@ -124,8 +126,18 @@
       "title": "Chicken Papion"
     },
     {
-      "id": "butterchicken",
-      "title": "Restaurant-Style Butter Chicken"
+      "id": "bistro-chickenkiev",
+      "title": "Chicken Kiev"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 1,
+    "cal": 853,
+    "protein": 67,
+    "carbs": 26,
+    "fat": 54,
+    "fiber": 4,
+    "sodium": 1294,
+    "coverage": 100
+  }
 }

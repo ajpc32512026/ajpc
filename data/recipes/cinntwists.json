@@ -208,6 +208,7 @@
     "carbs": 42,
     "fat": 7,
     "fiber": 1,
+    "sodium": 128,
     "coverage": 100
   }
 }

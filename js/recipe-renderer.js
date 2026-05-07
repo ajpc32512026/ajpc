@@ -369,29 +369,30 @@
     }
 
     function renderNutrition(n) {
-        if (!n) return '';
-        const { servings, cal, protein, carbs, fat, fiber, coverage } = n;
-        return `<section class="recipe-nutrition">
-            <h2>Nutrition Facts</h2>
-            <div class="nutrition-label">
-                <div class="nutrition-header">
-                    <span class="nutrition-title">Nutrition Facts</span>
-                    <span class="nutrition-serving">Per serving | ${escHtml(String(servings || '?'))} servings</span>
-                </div>
-                <div class="nutrition-calories">
-                    <span>Calories</span>
-                    <span>${cal || 0}</span>
-                </div>
-                <div class="nutrition-divider thick"></div>
-                <div class="nutrition-row"><span><strong>Protein</strong></span><span>${protein || 0}g</span></div>
-                <div class="nutrition-row"><span><strong>Total Carbohydrate</strong></span><span>${carbs || 0}g</span></div>
-                <div class="nutrition-row indent"><span>Dietary Fibre</span><span>${fiber || 0}g</span></div>
-                <div class="nutrition-row"><span><strong>Total Fat</strong></span><span>${fat || 0}g</span></div>
-                <div class="nutrition-divider thick"></div>
-                ${coverage ? `<div class="nutrition-coverage">Estimated from ${coverage}% of ingredients</div>` : ''}
+    if (!n) return '';
+    const { servings, cal, protein, carbs, fat, fiber, sodium, coverage } = n;
+    return `<section class="recipe-nutrition">
+        <h2>Nutrition Facts</h2>
+        <div class="nutrition-label">
+            <div class="nutrition-header">
+                <span class="nutrition-title">Nutrition Facts</span>
+                <span class="nutrition-serving">Per serving | ${escHtml(String(servings || '?'))} servings</span>
             </div>
-        </section>`;
-    }
+            <div class="nutrition-calories">
+                <span>Calories</span>
+                <span>${cal || 0}</span>
+            </div>
+            <div class="nutrition-divider thick"></div>
+            <div class="nutrition-row"><span><strong>Protein</strong></span><span>${protein || 0}g</span></div>
+            <div class="nutrition-row"><span><strong>Total Carbohydrate</strong></span><span>${carbs || 0}g</span></div>
+            <div class="nutrition-row indent"><span>Dietary Fibre</span><span>${fiber || 0}g</span></div>
+            <div class="nutrition-row"><span><strong>Total Fat</strong></span><span>${fat || 0}g</span></div>
+            <div class="nutrition-row"><span><strong>Sodium</strong></span><span>${sodium || 0}mg</span></div>
+            <div class="nutrition-divider thick"></div>
+            ${coverage ? `<div class="nutrition-coverage">Estimated from ${coverage}% of ingredients</div>` : ''}
+        </div>
+    </section>`;
+}
 
     function renderTags(tags) {
         if (!tags || !tags.length) return '';

@@ -1,22 +1,20 @@
 {
-  "id": "bistro-vealmadagascar",
+  "id": "vealmadagascar",
   "title": "Veal Madagascar",
-  "emoji": "🫑",
+  "emoji": "",
   "category": "Dinner",
-  "description": "Veal in a rich cream and demi glace sauce with bacon, capsicum, tomato, onion, garlic and green peppercorns. Served hot or mild — the customer's choice.",
+  "description": "Veal in a rich cream and demi glace sauce with bacon, capsicum, tomato, onion, garlic, and green peppercorns. Served hot or mild — the customer's choice.",
   "prepTime": "10 min",
   "cookTime": "10 min",
   "totalTime": "20 min",
-  "servings": 1,
-  "difficulty": "Medium",
+  "servings": "1 serving",
+  "difficulty": "Intermediate",
   "tags": [
     "Classic",
-    "Cream",
     "Creamy",
     "Dinner",
     "Rich",
     "Savoury",
-    "Under 1 Hour",
     "Under 30 Minutes"
   ],
   "ingredients": [
@@ -24,79 +22,75 @@
       "quantity": "180",
       "unit": "g",
       "item": "Veal",
-      "ingredientKey": "Veal"
+      "notes": "escalopes"
     },
     {
       "quantity": "2",
-      "unit": "",
+      "unit": "rashers",
       "item": "Bacon",
-      "ingredientKey": "Bacon"
+      "notes": "diced"
     },
     {
       "quantity": "1",
       "unit": "",
-      "item": "Capsicum",
-      "ingredientKey": "Capsicum"
+      "item": "Green Capsicum",
+      "notes": "sliced"
     },
     {
       "quantity": "1",
       "unit": "",
-      "item": "Onion",
-      "ingredientKey": "Onion"
+      "item": "Brown Onion",
+      "notes": "sliced"
     },
     {
       "quantity": "2",
       "unit": "",
       "item": "Tomatoes",
-      "ingredientKey": "Tomatoes"
+      "notes": "diced"
     },
     {
       "quantity": "4",
-      "unit": "",
+      "unit": "cloves",
       "item": "Garlic",
-      "ingredientKey": "Garlic"
+      "notes": "crushed"
     },
     {
-      "quantity": "to taste",
-      "unit": "",
-      "item": "Pepper",
-      "ingredientKey": "Pepper"
+      "quantity": "5",
+      "unit": "g",
+      "item": "Green Peppercorns"
     },
     {
       "quantity": "1",
       "unit": "",
       "item": "Red Chili",
-      "ingredientKey": "Red Chili"
+      "notes": "sliced, optional — for hot version"
     },
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Cream",
-      "ingredientKey": "Cream"
+      "item": "Thickened Cream"
     },
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Demi Glace",
-      "ingredientKey": "Demi Glace"
+      "item": "Demi Glace"
     },
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Butter",
-      "ingredientKey": "Butter"
+      "item": "Unsalted Butter"
     },
     {
-      "quantity": "to taste",
-      "unit": "",
+      "quantity": "3",
+      "unit": "g",
       "item": "Salt",
-      "ingredientKey": "Salt"
+      "notes": "to taste"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Pan-fry veal until just cooked through. Rest — veal toughens quickly if overdone."
+      "instruction": "Pan-fry veal in a little butter over medium-high heat until just cooked through, about 1–2 minutes per side. Remove and rest — veal toughens quickly if overdone."
     },
     {
       "step": 2,
@@ -104,56 +98,71 @@
     },
     {
       "step": 3,
-      "instruction": "Add onion and capsicum and soften."
+      "instruction": "Add onion and capsicum and cook until softened, about 3–4 minutes."
     },
     {
       "step": 4,
-      "instruction": "Add garlic and chilli (for hot version). Cook briefly."
+      "instruction": "Add garlic and chili if making the hot version. Cook for 30 seconds until fragrant."
     },
     {
       "step": 5,
-      "instruction": "Add diced tomato and cook down slightly."
+      "instruction": "Add diced tomato and cook down for 2–3 minutes until softened."
     },
     {
       "step": 6,
-      "instruction": "Add demi glace base and thickened cream. Stir and reduce to a rich sauce."
+      "instruction": "Pour in demi glace and thickened cream. Stir and reduce for 2–3 minutes until the sauce is rich and coats the back of a spoon."
     },
     {
       "step": 7,
-      "instruction": "Add green peppercorns."
+      "instruction": "Add green peppercorns and stir through. Return veal to the pan briefly to warm through."
     },
     {
       "step": 8,
-      "instruction": "Return veal to pan briefly to warm through. Plate and spoon sauce generously over."
+      "instruction": "Plate the veal and spoon the sauce generously over the top."
     }
   ],
   "notes": [
     {
-      "type": "chef",
-      "title": "Chef's Note",
-      "content": "Hot or mild is the customer's choice — same dish, just adjust chilli. Uses demi glace base. ??? Exact ratio of cream to demi? ??? Was there red wine?"
+      "type": "technique",
+      "title": "Hot or Mild",
+      "content": "This dish is made to order — add chili for the hot version, omit for mild. The green peppercorns provide a gentle warmth regardless, so the chili determines the heat level."
+    },
+    {
+      "type": "technique",
+      "title": "Sauce Ratio",
+      "content": "Equal parts cream to demi glace gives a balanced, rich sauce. No red wine is used in this preparation — the depth comes from the demi glace, bacon, and peppercorns."
     }
   ],
   "related": [
     {
-      "id": "bistro-chickenriverina",
-      "title": "Chicken Riverina"
+      "id": "bistro-vealscaloppine",
+      "title": "Veal Scaloppine"
+    },
+    {
+      "id": "bistro-vealoscar",
+      "title": "Veal Oscar"
+    },
+    {
+      "id": "bistro-vealmozzarella",
+      "title": "Veal Mozzarella"
     },
     {
       "id": "bistro-mediterraneansteak",
       "title": "Mediterranean Steak"
     },
     {
-      "id": "bistro-filetmignon",
-      "title": "Filet Mignon"
-    },
-    {
-      "id": "bistro-vealscaloppine",
-      "title": "Veal Scaloppine"
-    },
-    {
       "id": "bistro-chickenpicante",
       "title": "Chicken Picante"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 1,
+    "cal": 2582,
+    "protein": 154,
+    "carbs": 172,
+    "fat": 149,
+    "fiber": 17,
+    "sodium": 5202,
+    "coverage": 100
+  }
 }

@@ -6,7 +6,56 @@
     <meta name="theme-color" content="#16161a">
 	<meta name="description" content="Search across 114 recipes by name, ingredient, or tag — Ana &amp; John's Kitchen Notebook.">
     <title>Search Recipes | AJPC Kitchen Notebook</title>
+	<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2316161a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='28' font-weight='bold' fill='%23c97d3e'%3EAJ%3C/text%3E%3C/svg%3E">
     <link rel="stylesheet" href="css/main.css">
+    <style>
+        /* Ingredient search enhancements */
+        .ingredient-match-badge {
+            display: inline-block;
+            background: rgba(201, 125, 62, 0.15);
+            padding: 0.2rem 0.6rem;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            margin-bottom: 0.5rem;
+        }
+        .ingredient-match-details {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+        }
+        .ingredient-match-details .match-tag {
+            display: inline-block;
+            background: rgba(201, 125, 62, 0.15);
+            padding: 0.15rem 0.5rem;
+            border-radius: 12px;
+            margin: 0.2rem;
+        }
+        .ingredient-match-details .missing-tag {
+            display: inline-block;
+            background: rgba(120, 110, 100, 0.2);
+            padding: 0.15rem 0.5rem;
+            border-radius: 12px;
+            margin: 0.2rem;
+            text-decoration: line-through;
+        }
+        .search-examples {
+            margin-top: 1rem;
+            padding: 0.75rem 1rem;
+            background: rgba(201, 125, 62, 0.05);
+            border-radius: 12px;
+            font-size: 0.8rem;
+            color: var(--cream-muted);
+        }
+        .search-examples strong {
+            color: var(--copper-warm);
+        }
+        .search-examples code {
+            background: rgba(0,0,0,0.3);
+            padding: 0.2rem 0.4rem;
+            border-radius: 6px;
+            font-family: monospace;
+            font-size: 0.75rem;
+        }
+    </style>
 </head>
 <body>
 
@@ -26,7 +75,7 @@
                     type="text"
                     id="searchInput"
                     class="search-input-large"
-                    placeholder="Recipe name, ingredient, tag..."
+                    placeholder="Recipe name, ingredient, tag... or try 'chicken, cream, mushrooms'"
                     autocomplete="off"
                     autofocus
                     aria-label="Search recipes"
@@ -34,8 +83,17 @@
             </div>
 
             <p class="search-results-count" id="resultsCount"></p>
+            
+            <div class="search-examples">
+                💡 <strong>Search tips:</strong>
+                <br>• <strong>Standard search:</strong> <code>chicken</code> or <code>bread</code> or <code>#dinner</code>
+                <br>• <strong>Ingredient search:</strong> <code>chicken, cream, mushrooms</code> or <code>beef oysters wine</code>
+                <br>• Searches with commas, "and", or 4+ words automatically become ingredient matching
+                <br>• Pantry staples like salt, pepper, butter, oil are ignored from ingredient matching
+            </div>
+
             <div id="searchResults">
-                <p style="color:var(--cream-muted);">Enter a recipe name, ingredient, or tag to search across all 114 recipes.</p>
+                <p style="color:var(--cream-muted);">Enter a recipe name, ingredient, or tag to search across all recipes. Try typing what you have in your fridge!</p>
             </div>
         </main>
 

@@ -1,5 +1,5 @@
 {
-  "id": "bistro-profiteroles",
+  "id": "profiteroles",
   "title": "Profiteroles",
   "emoji": "🍮",
   "category": "Desserts",
@@ -7,96 +7,123 @@
   "prepTime": "5 min",
   "cookTime": "25 min",
   "totalTime": "30 min",
-  "servings": 1,
-  "difficulty": "Medium",
+  "servings": "1 serving",
+  "difficulty": "Intermediate",
   "tags": [
     "Baked",
     "Chocolate",
     "Classic",
-    "Cream",
     "Creamy",
     "Dessert",
     "French",
     "Pastry",
     "Rich",
     "Sweet",
-    "Under 30 Minutes",
     "Vegetarian"
   ],
   "ingredients": [
     {
+      "heading": "Choux Pastry"
+    },
+    {
       "quantity": "1",
-      "unit": "serve",
-      "item": "See AJPC Kitchen — Choux Pastry recipe"
+      "unit": "batch",
+      "item": "Choux Pastry",
+      "notes": "see recipe"
+    },
+    {
+      "heading": "Filling"
     },
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Cream",
-      "ingredientKey": "Cream"
+      "item": "Thickened Cream",
+      "notes": "whipped to soft peaks"
+    },
+    {
+      "heading": "Ganache"
     },
     {
       "quantity": "200",
       "unit": "g",
-      "item": "Chocolate",
-      "ingredientKey": "Chocolate"
+      "item": "Dark Chocolate",
+      "notes": "chopped"
     },
     {
       "quantity": "125",
       "unit": "ml",
-      "item": "Cream",
-      "ingredientKey": "Cream"
+      "item": "Thickened Cream",
+      "notes": "heated"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Bake choux puffs as per the Choux Pastry recipe."
+      "instruction": "Bake choux puffs as per the choux pastry until golden and crisp. Cool completely on a wire rack."
     },
     {
       "step": 2,
-      "instruction": "Whip cream to soft peaks. Fill puffs via a small hole in the base."
+      "instruction": "Whip cream to soft peaks. Using a piping bag fitted with a small nozzle, fill each puff through a small hole in the base."
     },
     {
       "step": 3,
-      "instruction": "For ganache: heat cream until just simmering. Pour over chopped chocolate. Stir until smooth."
+      "instruction": "For the ganache: heat cream in a small saucepan until just simmering — do not boil. Place chopped chocolate in a heatproof bowl and pour the hot cream over it."
     },
     {
       "step": 4,
-      "instruction": "Dip or drizzle ganache over filled puffs."
+      "instruction": "Let stand for 2 minutes, then stir gently until the chocolate is completely melted and the ganache is smooth and glossy."
     },
     {
       "step": 5,
-      "instruction": "Serve with fresh seasonal fruit."
+      "instruction": "Dip the top of each filled puff into the warm ganache, or drizzle generously over the top."
+    },
+    {
+      "step": 6,
+      "instruction": "Serve immediately with fresh seasonal fruit on the side."
     }
   ],
   "notes": [
     {
-      "type": "chef",
-      "title": "Chef's Note",
-      "content": "Cross-reference: Choux Pastry (Profiteroles) in the AJPC Kitchen notebook."
+      "type": "technique",
+      "title": "Choux Pastry",
+      "content": "Refer to the Choux Pastry recipe in the Baking section for the pastry base. This recipe covers the assembly and finishing — the choux itself is a separate recipe component."
+    },
+    {
+      "type": "technique",
+      "title": "Ganache",
+      "content": "Do not stir the ganache immediately after pouring the cream — letting it sit for 2 minutes allows the chocolate to melt evenly. Stirring too early can cause the ganache to split or become grainy."
     }
   ],
   "related": [
+    {
+      "id": "chouxpastry",
+      "title": "Choux Pastry"
+    },
     {
       "id": "chocolatemousse",
       "title": "Chocolate Mousse"
     },
     {
-      "id": "bistro-mudcake",
-      "title": "Mud Cake"
-    },
-    {
-      "id": "chocolatecake",
-      "title": "Ultimate Chocolate Cake"
-    },
-    {
-      "id": "chocolatemudcake",
-      "title": "The Ultimate Chocolate Mud Cake"
+      "id": "theultimatechocolatemudcake",
+      "title": "Chocolate Mud Cake"
     },
     {
       "id": "bistro-pavlova",
       "title": "Pavlova"
+    },
+    {
+      "id": "tiramisu",
+      "title": "Tiramisu Gateau"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 1,
+    "cal": 1721,
+    "protein": 16,
+    "carbs": 124,
+    "fat": 129,
+    "fiber": 14,
+    "sodium": 110,
+    "coverage": 75
+  }
 }

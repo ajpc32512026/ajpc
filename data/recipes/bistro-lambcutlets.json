@@ -1,5 +1,5 @@
 {
-  "id": "bistro-lambcutlets",
+  "id": "lambcutlets",
   "title": "Lamb Cutlets",
   "emoji": "🥩",
   "category": "Dinner",
@@ -7,8 +7,8 @@
   "prepTime": "10 min",
   "cookTime": "8 min",
   "totalTime": "18 min",
-  "servings": 1,
-  "difficulty": "Easy",
+  "servings": "1 serving",
+  "difficulty": "Intermediate",
   "tags": [
     "Alcohol",
     "Australian",
@@ -23,88 +23,94 @@
     {
       "quantity": "4",
       "unit": "",
-      "item": "Lamb",
-      "ingredientKey": "Lamb"
+      "item": "Lamb Cutlets",
+      "notes": "French-trimmed"
     },
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Flour",
-      "ingredientKey": "Flour"
+      "item": "Plain Flour",
+      "notes": "for dusting"
     },
     {
       "quantity": "2",
       "unit": "",
       "item": "Eggs",
-      "ingredientKey": "Eggs"
+      "notes": "beaten, for egg wash"
     },
     {
       "quantity": "50",
       "unit": "g",
       "item": "Breadcrumbs",
-      "ingredientKey": "Breadcrumbs"
+      "notes": "for crumbing"
     },
     {
       "quantity": "2",
-      "unit": "",
+      "unit": "rashers",
       "item": "Bacon",
-      "ingredientKey": "Bacon"
+      "notes": "crispy"
     },
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Demi Glace",
-      "ingredientKey": "Demi Glace"
+      "item": "Demi Glace"
     },
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Butter",
-      "ingredientKey": "Butter"
+      "item": "Unsalted Butter"
     },
     {
       "quantity": "1",
       "unit": "",
-      "item": "Onion",
-      "ingredientKey": "Onion"
+      "item": "Brown Onion",
+      "notes": "diced"
     },
     {
-      "quantity": "to taste",
-      "unit": "",
+      "quantity": "3",
+      "unit": "g",
       "item": "Salt",
-      "ingredientKey": "Salt"
+      "notes": "to taste"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Dust cutlets with flour, dip in egg wash, coat in breadcrumbs."
+      "instruction": "Dust each lamb cutlet lightly with flour, dip in beaten egg, and coat thoroughly with breadcrumbs. Press crumbs on firmly."
     },
     {
       "step": 2,
-      "instruction": "Pan-fry in butter until golden and cooked through."
+      "instruction": "Melt half the butter in a frying pan over medium heat. Pan-fry crumbed cutlets for 2–3 minutes per side until golden and cooked through. Remove and rest on a warm plate."
     },
     {
       "step": 3,
-      "instruction": "Fry bacon in a separate pan until crisp. Set aside."
+      "instruction": "In a separate pan, fry bacon until crisp. Set aside on paper towels."
     },
     {
       "step": 4,
-      "instruction": "For gravy: soften shallots in butter. Add demi glace base and reduce."
+      "instruction": "For the gravy: add remaining butter to the cutlet pan. Add diced onion and cook until softened, about 2–3 minutes."
     },
     {
       "step": 5,
-      "instruction": "Plate cutlets, lay bacon over and pour gravy alongside or over."
+      "instruction": "Pour in demi glace and reduce for 2–3 minutes until the gravy is rich and glossy. Season with salt."
+    },
+    {
+      "step": 6,
+      "instruction": "Plate the cutlets, lay crispy bacon over the top, and pour the demi glace gravy alongside or generously over."
     }
   ],
   "notes": [
     {
-      "type": "chef",
-      "title": "Chef's Note",
-      "content": "Uses demi glace base. ??? Was the gravy plain demi or did it have extra flavourings — red wine, herbs, mushroom?"
+      "type": "technique",
+      "title": "Demi Glace Gravy",
+      "content": "The gravy is a simple demi glace reduction — no additional wine, herbs, or mushroom. The richness of the demi carries the dish, balanced by the crisp bacon and crumbed lamb."
     }
   ],
   "related": [
+    {
+      "id": "bistro-rackoflamb",
+      "title": "Rack of Lamb"
+    },
     {
       "id": "bistro-carpetbag",
       "title": "Carpet Bag"
@@ -114,16 +120,22 @@
       "title": "Reef and Beef"
     },
     {
-      "id": "bistro-chickenriverina",
-      "title": "Chicken Riverina"
+      "id": "bistro-chickenkiev",
+      "title": "Chicken Kiev"
     },
     {
-      "id": "meatpie",
-      "title": "Classic Aussie Meat Pies"
-    },
-    {
-      "id": "sausageroll",
-      "title": "Classic Aussie Sausage Rolls"
+      "id": "bistro-vealcordonbleu",
+      "title": "Veal Cordon Bleu"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 1,
+    "cal": 1916,
+    "protein": 112,
+    "carbs": 63,
+    "fat": 133,
+    "fiber": 4,
+    "sodium": 5488,
+    "coverage": 89
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "id": "bistro-vealcordonbleu",
+  "id": "vealcordonbleu",
   "title": "Veal Cordon Bleu",
   "emoji": "🧀",
   "category": "Dinner",
@@ -7,13 +7,13 @@
   "prepTime": "15 min",
   "cookTime": "5 min",
   "totalTime": "20 min",
-  "servings": 1,
-  "difficulty": "Medium",
+  "servings": "1 serving",
+  "difficulty": "Intermediate",
   "tags": [
     "Alcohol",
-    "Cheese",
     "Classic",
     "Creamy",
+    "Deep-Fried",
     "Dinner",
     "French",
     "Pork",
@@ -22,135 +22,162 @@
   ],
   "ingredients": [
     {
+      "heading": "Veal"
+    },
+    {
       "quantity": "180",
       "unit": "g",
       "item": "Veal",
-      "ingredientKey": "Veal"
+      "notes": "escalopes, pounded thin"
     },
     {
       "quantity": "60",
       "unit": "g",
-      "item": "Pork",
-      "ingredientKey": "Pork"
+      "item": "Ham",
+      "notes": "smoked, thinly sliced"
     },
     {
       "quantity": "50",
       "unit": "g",
-      "item": "Cheese",
-      "ingredientKey": "Cheese"
+      "item": "Gruyere",
+      "notes": "sliced"
     },
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Flour",
-      "ingredientKey": "Flour"
+      "item": "Plain Flour",
+      "notes": "for dusting"
     },
     {
       "quantity": "2",
       "unit": "",
       "item": "Eggs",
-      "ingredientKey": "Eggs"
+      "notes": "beaten, for egg wash"
     },
     {
       "quantity": "50",
       "unit": "g",
       "item": "Breadcrumbs",
-      "ingredientKey": "Breadcrumbs"
+      "notes": "for crumbing"
     },
     {
-      "quantity": "15",
+      "quantity": "500",
       "unit": "ml",
-      "item": "Oil",
-      "ingredientKey": "Oil"
+      "item": "Vegetable Oil",
+      "notes": "for deep frying"
     },
     {
-      "quantity": "to taste",
-      "unit": "",
+      "quantity": "3",
+      "unit": "g",
       "item": "Salt",
-      "ingredientKey": "Salt"
+      "notes": "to taste"
     },
     {
-      "quantity": "1",
-      "unit": "",
-      "item": "Onion",
-      "ingredientKey": "Onion"
-    },
-    {
-      "quantity": "60",
-      "unit": "ml",
-      "item": "Wine",
-      "ingredientKey": "Wine"
-    },
-    {
-      "quantity": "60",
-      "unit": "ml",
-      "item": "Cream",
-      "ingredientKey": "Cream"
+      "heading": "Dijon Cream Sauce"
     },
     {
       "quantity": "15",
       "unit": "g",
-      "item": "Mustard",
-      "ingredientKey": "Mustard"
+      "item": "Unsalted Butter"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Brown Onion",
+      "notes": "diced"
+    },
+    {
+      "quantity": "60",
+      "unit": "ml",
+      "item": "White Wine"
+    },
+    {
+      "quantity": "60",
+      "unit": "ml",
+      "item": "Thickened Cream"
+    },
+    {
+      "quantity": "15",
+      "unit": "g",
+      "item": "Dijon Mustard"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Pound veal escalopes thin between plastic wrap."
+      "instruction": "Pound veal escalopes thin between two sheets of plastic wrap until even."
     },
     {
       "step": 2,
-      "instruction": "Lay ham and cheese on one half of each escalope. Fold veal over to encase the filling. Press edges firmly to seal."
+      "instruction": "Lay ham and Gruyère on one half of each escalope. Fold the veal over to encase the filling and press the edges firmly to seal."
     },
     {
       "step": 3,
-      "instruction": "Dust with flour, dip in egg wash, coat in breadcrumbs."
+      "instruction": "Dust each parcel lightly with flour, dip in beaten egg, and coat thoroughly with breadcrumbs. Press the crumbs on firmly."
     },
     {
       "step": 4,
-      "instruction": "Deep fry at 180°C until golden and cooked through — approximately 4-5 minutes. Drain."
+      "instruction": "Heat vegetable oil to 180°C. Deep-fry crumbed veal for 4–5 minutes until deep golden and cooked through. Drain on paper towels."
     },
     {
       "step": 5,
-      "instruction": "For Dijon cream sauce: soften shallots in butter. Deglaze with white wine and reduce by half."
+      "instruction": "For the sauce: melt butter in a small saucepan over medium heat. Add diced onion and cook until softened, about 2–3 minutes."
     },
     {
       "step": 6,
-      "instruction": "Add thickened cream and Dijon mustard. Reduce to a coating consistency. Season."
+      "instruction": "Deglaze with white wine and reduce by half, about 1–2 minutes."
     },
     {
       "step": 7,
-      "instruction": "Plate and serve sauce alongside — not poured over — to preserve the crumb."
+      "instruction": "Add thickened cream and Dijon mustard. Stir and reduce for 2–3 minutes until the sauce coats the back of a spoon. Season with salt."
+    },
+    {
+      "step": 8,
+      "instruction": "Plate the veal and serve the sauce alongside — not poured over — to preserve the crisp crumb."
     }
   ],
   "notes": [
     {
-      "type": "chef",
-      "title": "Chef's Note",
-      "content": "No original sauce on the menu — Dijon cream added as the crumb is too dry without it. Keep sauce on the side to protect the crumb texture. No demi."
+      "type": "technique",
+      "title": "Sauce on the Side",
+      "content": "The Dijon cream sauce is served alongside rather than poured over the crumbed veal. This preserves the crisp texture of the crumb — pouring sauce over would soften it. No demi glace is used in this dish."
+    },
+    {
+      "type": "technique",
+      "title": "Gruyère Choice",
+      "content": "Gruyère is the classic choice for Cordon Bleu — it melts smoothly without splitting or becoming greasy. Swiss cheese or Emmental can substitute."
     }
   ],
   "related": [
+    {
+      "id": "bistro-chickenkiev",
+      "title": "Chicken Kiev"
+    },
     {
       "id": "bistro-chickenpicante",
       "title": "Chicken Picante"
     },
     {
-      "id": "beefstockpot",
-      "title": "20 Minute Beef Stock Pot"
+      "id": "bistro-vealscaloppine",
+      "title": "Veal Scaloppine"
     },
     {
-      "id": "tomatoflan",
-      "title": "Tomato and Olive Flan"
+      "id": "bistro-vealoscar",
+      "title": "Veal Oscar"
     },
     {
-      "id": "chouxpastry",
-      "title": "Choux Pastry (Profiteroles)"
-    },
-    {
-      "id": "crepes",
-      "title": "Crepes with Maple Syrup & Butter"
+      "id": "bistro-vealmozzarella",
+      "title": "Veal Mozzarella"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 1,
+    "cal": 5997,
+    "protein": 108,
+    "carbs": 65,
+    "fat": 593,
+    "fiber": 4,
+    "sodium": 3266,
+    "coverage": 100
+  }
 }

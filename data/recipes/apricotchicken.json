@@ -1,0 +1,165 @@
+{
+  "id": "apricotchicken",
+  "title": "Apricot Chicken",
+  "emoji": "🍑",
+  "category": "Dinner",
+  "description": "Tender chicken legs baked in a sweet-savoury apricot sauce with carrots and red capsicum.",
+  "prepTime": "15 min",
+  "cookTime": "50 min",
+  "totalTime": "65 min",
+  "servings": "6",
+  "yieldPerBatch": "6 chicken legs",
+  "difficulty": "Beginner",
+  "tags": [
+    "Australian",
+    "Chicken",
+    "Classic",
+    "Dinner",
+    "Easy",
+    "Retro",
+    "Sweet"
+  ],
+  "ingredients": [
+    {
+      "quantity": "6",
+      "unit": "",
+      "item": "Chicken Legs",
+      "notes": "bone-in"
+    },
+    {
+      "quantity": "825",
+      "unit": "g",
+      "item": "Canned Apricot Halves",
+      "notes": "drained, syrup reserved"
+    },
+    {
+      "quantity": "300",
+      "unit": "ml",
+      "item": "Apricot Syrup",
+      "notes": "from the can"
+    },
+    {
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Soy Sauce"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Brown Onion",
+      "notes": "finely diced"
+    },
+    {
+      "quantity": "2",
+      "unit": "cloves",
+      "item": "Garlic",
+      "notes": "minced"
+    },
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Carrots",
+      "notes": "sliced"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Red Capsicum",
+      "notes": "sliced"
+    },
+    {
+      "quantity": "3",
+      "unit": "g",
+      "item": "Salt",
+      "notes": "to taste"
+    },
+    {
+      "quantity": "2",
+      "unit": "g",
+      "item": "Black Pepper",
+      "notes": "to taste"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 180°C (350°F)."
+    },
+    {
+      "step": 2,
+      "instruction": "Drain apricot halves, reserving 300ml of syrup. Set apricots aside."
+    },
+    {
+      "step": 3,
+      "instruction": "In a bowl, combine reserved apricot syrup with soy sauce."
+    },
+    {
+      "step": 4,
+      "instruction": "Place chicken legs, diced onion, garlic, carrots, and red capsicum in a large casserole dish."
+    },
+    {
+      "step": 5,
+      "instruction": "Season with salt and pepper. Pour the syrup mixture over everything and toss to coat."
+    },
+    {
+      "step": 6,
+      "instruction": "Cover and bake for 40 minutes."
+    },
+    {
+      "step": 7,
+      "instruction": "Remove from oven. Add drained apricot halves, tucking them around the chicken."
+    },
+    {
+      "step": 8,
+      "instruction": "Cover and bake for final 10 minutes."
+    },
+    {
+      "step": 9,
+      "instruction": "Serve hot with rice or mashed potato."
+    }
+  ],
+  "notes": [
+    {
+      "type": "tip",
+      "title": "The Syrup",
+      "content": "Your can gave 300ml syrup — perfect amount for this recipe. No extra liquid needed."
+    },
+    {
+      "type": "storage",
+      "title": "Leftovers",
+      "content": "Store in an airtight container in the fridge for up to 3 days."
+    }
+  ],
+  "related": [
+    {
+      "id": "bistro-chickenriverina",
+      "title": "Chicken Riverina"
+    },
+    {
+      "id": "butterchicken",
+      "title": "Butter Chicken"
+    },
+    {
+      "id": "chickencacciatore",
+      "title": "Chicken Cacciatore"
+    },
+    {
+      "id": "chickenshawarma",
+      "title": "Chicken Shawarma"
+    },
+    {
+      "id": "chickenteriyaki",
+      "title": "Chicken Teriyaki"
+    }
+  ],
+  "nutrition": {
+    "servings": 6,
+    "cal": 541,
+    "protein": 31,
+    "carbs": 76,
+    "fat": 14,
+    "fiber": 5,
+    "sodium": 593,
+    "coverage": 100
+  }
+}

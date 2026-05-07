@@ -23,12 +23,6 @@
   "ingredients": [
     {
       "quantity": "1",
-      "unit": "batch",
-      "item": "Vindaloo Paste",
-      "notes": "see recipe"
-    },
-    {
-      "quantity": "1",
       "unit": "kg",
       "item": "Beef",
       "notes": "cut into 2.5 cm cubes"
@@ -179,6 +173,7 @@
     "carbs": 38,
     "fat": 54,
     "fiber": 4,
-    "coverage": 92
+    "sodium": 679,
+    "coverage": 100
   }
 }

@@ -1,23 +1,22 @@
 {
-  "id": "bistro-vealoscar",
+  "id": "vealoscar",
   "title": "Veal Oscar",
   "emoji": "🌿",
   "category": "Dinner",
-  "description": "Pan-fried veal topped with blanched asparagus, seafood Mornay and melted cheese — finished under the salamander. A classic fine dining preparation.",
+  "description": "Crumbed and deep-fried veal topped with blanched asparagus, seafood Mornay, and melted cheese — finished under the grill. A classic fine dining preparation.",
   "prepTime": "10 min",
   "cookTime": "10 min",
   "totalTime": "20 min",
-  "servings": 1,
-  "difficulty": "Medium",
+  "servings": "1 serving",
+  "difficulty": "Intermediate",
   "tags": [
-    "Cheese",
     "Classic",
     "Creamy",
+    "Deep-Fried",
     "Dinner",
     "Rich",
     "Savoury",
     "Seafood",
-    "Under 1 Hour",
     "Under 30 Minutes"
   ],
   "ingredients": [
@@ -25,87 +24,123 @@
       "quantity": "180",
       "unit": "g",
       "item": "Veal",
-      "ingredientKey": "Veal"
+      "notes": "escalopes, pounded thin"
     },
     {
-      "quantity": "to serve",
+      "quantity": "30",
+      "unit": "g",
+      "item": "Plain Flour",
+      "notes": "for dusting"
+    },
+    {
+      "quantity": "1",
       "unit": "",
-      "item": "Fruit",
-      "ingredientKey": "Fruit"
+      "item": "Eggs",
+      "notes": "beaten, for egg wash"
+    },
+    {
+      "quantity": "50",
+      "unit": "g",
+      "item": "Breadcrumbs",
+      "notes": "for crumbing"
+    },
+    {
+      "quantity": "500",
+      "unit": "ml",
+      "item": "Vegetable Oil",
+      "notes": "for deep frying"
+    },
+    {
+      "quantity": "50",
+      "unit": "g",
+      "item": "Asparagus",
+      "notes": "blanched"
     },
     {
       "quantity": "100",
       "unit": "g",
-      "item": "Seafood",
-      "ingredientKey": "Seafood"
+      "item": "Seafood Mix",
+      "notes": "prawns, scallops, or crab"
     },
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Butter",
-      "ingredientKey": "Butter"
+      "item": "Unsalted Butter"
     },
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Flour",
-      "ingredientKey": "Flour"
+      "item": "Plain Flour"
     },
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Milk",
-      "ingredientKey": "Milk"
+      "item": "Whole Milk",
+      "notes": "warmed"
     },
     {
       "quantity": "50",
       "unit": "g",
-      "item": "Cheese",
-      "ingredientKey": "Cheese"
+      "item": "Tasty Cheese",
+      "notes": "grated, for Mornay"
     },
     {
-      "quantity": "to taste",
-      "unit": "",
+      "quantity": "3",
+      "unit": "g",
       "item": "Salt",
-      "ingredientKey": "Salt"
+      "notes": "to taste"
     },
     {
       "quantity": "50",
       "unit": "g",
-      "item": "Extra grated cheese for topping"
+      "item": "Tasty Cheese",
+      "notes": "extra, grated, for topping"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Pan-fry veal until just cooked through. Place in an ovenproof dish."
+      "instruction": "Pound veal escalopes until thin and even. Dust lightly with flour, dip in beaten egg, and coat thoroughly with breadcrumbs."
     },
     {
       "step": 2,
-      "instruction": "Lay blanched asparagus over the veal."
+      "instruction": "Heat oil to 170–180°C. Deep-fry crumbed veal for 2–3 minutes until golden and crisp. Drain on paper towels and place in an ovenproof dish."
     },
     {
       "step": 3,
-      "instruction": "Make Mornay sauce: melt butter, add flour, cook roux. Add warm milk gradually whisking until smooth. Add cheese off heat and season."
+      "instruction": "Lay blanched asparagus spears over the veal."
     },
     {
       "step": 4,
-      "instruction": "Fold seafood into Mornay and heat through gently."
+      "instruction": "Make the Mornay sauce: melt butter in a saucepan over medium heat. Add flour and whisk for 1–2 minutes to cook the roux until pale golden."
     },
     {
       "step": 5,
-      "instruction": "Spoon seafood Mornay over veal and asparagus. Top with extra grated cheese."
+      "instruction": "Gradually add warmed milk, whisking constantly until smooth and thickened. Remove from heat and stir in grated cheese until melted. Season with salt."
     },
     {
       "step": 6,
-      "instruction": "Grill under salamander until cheese is golden and bubbling."
+      "instruction": "Gently fold seafood into the Mornay sauce and warm through."
+    },
+    {
+      "step": 7,
+      "instruction": "Spoon the seafood Mornay over the veal and asparagus. Top generously with extra grated cheese."
+    },
+    {
+      "step": 8,
+      "instruction": "Grill under a hot grill until the cheese is golden and bubbling, about 3–4 minutes. Serve immediately."
     }
   ],
   "notes": [
     {
-      "type": "chef",
-      "title": "Chef's Note",
-      "content": "Same Mornay base as Reef and Beef. No demi. ??? Was the veal crumbed or plain pan-fried?"
+      "type": "technique",
+      "title": "Crumbed and Fried",
+      "content": "The veal is crumbed and deep-fried — flour, egg wash, breadcrumbs. This gives a crisp, golden shell that holds up under the rich Mornay without going soggy."
+    },
+    {
+      "type": "technique",
+      "title": "Mornay Base",
+      "content": "This uses the same Mornay sauce base as Reef and Beef. No demi glace is used in this dish — the richness comes from the cheese and seafood."
     }
   ],
   "related": [
@@ -114,20 +149,30 @@
       "title": "Reef and Beef"
     },
     {
-      "id": "bistro-mediterraneansteak",
-      "title": "Mediterranean Steak"
+      "id": "bistro-vealscaloppine",
+      "title": "Veal Scaloppine"
     },
     {
-      "id": "bistro-carpetbag",
-      "title": "Carpet Bag"
+      "id": "bistro-vealmadagascar",
+      "title": "Veal Madagascar"
     },
     {
       "id": "bistro-fishoftheday",
       "title": "Fish of the Day"
     },
     {
-      "id": "bistro-chickenpapion",
-      "title": "Chicken Papion"
+      "id": "mornaysauce",
+      "title": "Mornay / Cheese Sauce"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 1,
+    "cal": 5985,
+    "protein": 112,
+    "carbs": 78,
+    "fat": 588,
+    "fiber": 4,
+    "sodium": 2636,
+    "coverage": 100
+  }
 }

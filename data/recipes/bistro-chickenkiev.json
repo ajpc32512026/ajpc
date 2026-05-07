@@ -1,5 +1,5 @@
 {
-  "id": "bistro-chickenkiev",
+  "id": "chickenkiev",
   "title": "Chicken Kiev",
   "emoji": "🍗",
   "category": "Dinner",
@@ -7,133 +7,152 @@
   "prepTime": "20 min",
   "cookTime": "8 min",
   "totalTime": "28 min",
-  "servings": 1,
-  "difficulty": "Medium",
+  "servings": "1 serving",
+  "difficulty": "Intermediate",
   "tags": [
     "Alcohol",
-    "Butter",
     "Chicken",
     "Classic",
     "Creamy",
+    "Deep-Fried",
     "Dinner",
     "Garlic",
     "Rich",
-    "Savoury",
-    "Under 1 Hour"
+    "Savoury"
   ],
   "ingredients": [
     {
+      "heading": "Chicken"
+    },
+    {
       "quantity": "2",
       "unit": "",
-      "item": "Chicken",
-      "ingredientKey": "Chicken"
+      "item": "Chicken Breast",
+      "notes": "large, pocket cut"
     },
     {
       "quantity": "125",
       "unit": "g",
-      "item": "Butter",
-      "ingredientKey": "Butter"
+      "item": "Unsalted Butter",
+      "notes": "softened, for garlic butter log"
     },
     {
       "quantity": "4",
-      "unit": "",
+      "unit": "cloves",
       "item": "Garlic",
-      "ingredientKey": "Garlic"
+      "notes": "crushed"
     },
     {
       "quantity": "10",
       "unit": "g",
       "item": "Parsley",
-      "ingredientKey": "Parsley"
+      "notes": "fresh, chopped"
     },
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Flour",
-      "ingredientKey": "Flour"
+      "item": "Plain Flour",
+      "notes": "for dusting"
     },
     {
       "quantity": "2",
       "unit": "",
       "item": "Eggs",
-      "ingredientKey": "Eggs"
+      "notes": "beaten, for egg wash"
     },
     {
       "quantity": "50",
       "unit": "g",
       "item": "Breadcrumbs",
-      "ingredientKey": "Breadcrumbs"
+      "notes": "for crumbing"
+    },
+    {
+      "quantity": "500",
+      "unit": "ml",
+      "item": "Vegetable Oil",
+      "notes": "for deep frying"
+    },
+    {
+      "heading": "Tomato Cream Sauce"
     },
     {
       "quantity": "15",
-      "unit": "ml",
-      "item": "Oil",
-      "ingredientKey": "Oil"
+      "unit": "g",
+      "item": "Unsalted Butter"
     },
     {
       "quantity": "1",
       "unit": "",
-      "item": "Onion",
-      "ingredientKey": "Onion"
+      "item": "Brown Onion",
+      "notes": "diced"
     },
     {
       "quantity": "2",
       "unit": "",
       "item": "Tomatoes",
-      "ingredientKey": "Tomatoes"
+      "notes": "diced"
     },
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Cream",
-      "ingredientKey": "Cream"
+      "item": "Thickened Cream"
     },
     {
-      "quantity": "to taste",
-      "unit": "",
-      "item": "Sauces",
-      "ingredientKey": "Sauces"
+      "quantity": "15",
+      "unit": "ml",
+      "item": "Tomato Sauce"
+    },
+    {
+      "quantity": "3",
+      "unit": "g",
+      "item": "Salt",
+      "notes": "to taste"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Mix softened butter with garlic and parsley. Shape into a log and freeze until firm."
+      "instruction": "Mix softened butter with crushed garlic and chopped parsley. Shape into a log, wrap in plastic wrap, and freeze until firm — at least 30 minutes."
     },
     {
       "step": 2,
-      "instruction": "Cut a deep pocket in each chicken breast. Insert frozen garlic butter log. Seal edges firmly."
+      "instruction": "Cut a deep pocket into the side of each chicken breast, being careful not to cut through. Insert a portion of the frozen garlic butter log and seal the edges firmly by pressing the meat together."
     },
     {
       "step": 3,
-      "instruction": "Dust each stuffed breast with flour, dip in egg wash, coat in breadcrumbs. Double crumb for a better seal."
+      "instruction": "Dust each stuffed breast lightly with flour, dip in beaten egg, and coat thoroughly with breadcrumbs. For extra security, repeat the egg and breadcrumb step for a double crumb."
     },
     {
       "step": 4,
-      "instruction": "Deep fry at 180°C until golden and cooked through — approximately 8-10 minutes."
+      "instruction": "Heat vegetable oil to 180°C. Deep-fry crumbed chicken for 8–10 minutes until deep golden and cooked through. The frozen butter melts inside, keeping the chicken moist."
     },
     {
       "step": 5,
-      "instruction": "For sauce: soften diced onion in a little butter until translucent."
+      "instruction": "For the sauce: melt butter in a small pan over medium heat. Add diced onion and cook until translucent, about 3–4 minutes."
     },
     {
       "step": 6,
-      "instruction": "Add diced tomato and cook down briefly."
+      "instruction": "Add diced tomato and cook for 2 minutes until softened."
     },
     {
       "step": 7,
-      "instruction": "Add thickened cream and a splash of tomato sauce. Let thicken to a light coating consistency."
+      "instruction": "Pour in thickened cream and tomato sauce. Stir and simmer for 2–3 minutes until the sauce thickens to a light coating consistency. Season with salt."
     },
     {
       "step": 8,
-      "instruction": "Plate chicken and spoon sauce over to serve."
+      "instruction": "Plate the chicken and spoon the tomato cream sauce over to serve."
     }
   ],
   "notes": [
     {
-      "type": "chef",
-      "title": "Chef's Note",
-      "content": "The frozen butter log is essential — it melts inside as the chicken cooks, keeping it moist. Make sure edges are well sealed before crumbing or the butter escapes during frying."
+      "type": "technique",
+      "title": "Frozen Butter Log",
+      "content": "The garlic butter must be frozen solid before inserting. This prevents it from leaking out during crumbing and ensures it melts inside the chicken as it cooks, basting it from within."
+    },
+    {
+      "type": "technique",
+      "title": "Double Crumb",
+      "content": "Double crumbing (flour, egg, breadcrumbs, egg, breadcrumbs again) gives a better seal and a thicker, crunchier crust that holds the butter in during frying."
     }
   ],
   "related": [
@@ -150,12 +169,22 @@
       "title": "Chicken Papion"
     },
     {
-      "id": "bistro-mediterraneansteak",
-      "title": "Mediterranean Steak"
+      "id": "bistro-vealcordonbleu",
+      "title": "Veal Cordon Bleu"
     },
     {
       "id": "bistro-carpetbag",
       "title": "Carpet Bag"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 1,
+    "cal": 7199,
+    "protein": 127,
+    "carbs": 204,
+    "fat": 669,
+    "fiber": 15,
+    "sodium": 2032,
+    "coverage": 100
+  }
 }

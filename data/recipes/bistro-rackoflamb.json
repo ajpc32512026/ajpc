@@ -1,14 +1,14 @@
 {
-  "id": "bistro-rackoflamb",
+  "id": "rackoflamb",
   "title": "Rack of Lamb",
   "emoji": "🍖",
   "category": "Dinner",
-  "description": "French-trimmed rack of lamb oven-baked and served with a spiced plum and demi glace sauce.",
+  "description": "French-trimmed rack of lamb oven-roasted and served with a spiced plum and demi glace sauce.",
   "prepTime": "10 min",
   "cookTime": "18 min",
   "totalTime": "28 min",
-  "servings": 1,
-  "difficulty": "Medium",
+  "servings": "1 serving",
+  "difficulty": "Intermediate",
   "tags": [
     "Alcohol",
     "Baked",
@@ -21,80 +21,85 @@
   "ingredients": [
     {
       "quantity": "1",
-      "unit": "",
-      "item": "Lamb",
-      "ingredientKey": "Lamb"
+      "unit": "rack",
+      "item": "Lamb Rack",
+      "notes": "French-trimmed"
     },
     {
       "quantity": "60",
-      "unit": "ml",
-      "item": "Plum",
-      "ingredientKey": "Plum"
+      "unit": "g",
+      "item": "Plum Jam"
     },
     {
       "quantity": "1",
       "unit": "",
       "item": "Red Chili",
-      "ingredientKey": "Red Chili"
+      "notes": "sliced, adjust to taste"
     },
     {
       "quantity": "4",
-      "unit": "",
+      "unit": "cloves",
       "item": "Garlic",
-      "ingredientKey": "Garlic"
+      "notes": "crushed"
     },
     {
-      "quantity": "to taste",
-      "unit": "",
-      "item": "Sauces",
-      "ingredientKey": "Sauces"
+      "quantity": "15",
+      "unit": "ml",
+      "item": "Soy Sauce"
     },
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Wine",
-      "ingredientKey": "Wine"
+      "item": "White Wine"
     },
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Demi Glace",
-      "ingredientKey": "Demi Glace"
+      "item": "Demi Glace"
     },
     {
-      "quantity": "to taste",
-      "unit": "",
+      "quantity": "3",
+      "unit": "g",
       "item": "Salt",
-      "ingredientKey": "Salt"
+      "notes": "to taste"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Season rack of lamb and sear in a hot pan until browned all over."
+      "instruction": "Preheat oven to 200°C. Season the lamb rack generously with salt."
     },
     {
       "step": 2,
-      "instruction": "Roast at 200°C to desired doneness — medium rare approximately 15-18 minutes. Rest 5 minutes."
+      "instruction": "Heat a little oil in an ovenproof pan over high heat. Sear the lamb rack on all sides until well browned, about 3–4 minutes total."
     },
     {
       "step": 3,
-      "instruction": "For sauce: combine plum jam, chilli, garlic, soy and wine in a small pan."
+      "instruction": "Transfer the pan to the oven and roast for 15–18 minutes for medium-rare. Remove and rest on a warm plate for 5 minutes."
     },
     {
       "step": 4,
-      "instruction": "Add demi glace base and reduce to a glossy spiced plum sauce."
+      "instruction": "For the sauce: in a small saucepan, combine plum jam, chili, garlic, soy sauce, and white wine over medium heat. Stir until the jam melts and the mixture is smooth."
     },
     {
       "step": 5,
-      "instruction": "Carve into cutlets. Plate and spoon sauce over."
+      "instruction": "Add demi glace and simmer for 3–4 minutes until reduced to a glossy, coating consistency. Taste and adjust — the soy and plum provide both salt and sweetness."
+    },
+    {
+      "step": 6,
+      "instruction": "Carve the rack into individual cutlets. Plate and spoon the spiced plum sauce over the top."
     }
   ],
   "notes": [
     {
-      "type": "chef",
-      "title": "Chef's Note",
-      "content": "Uses demi glace base. ??? Was the plum sauce made in-house from jam or a commercial base? ??? How spicy?"
+      "type": "technique",
+      "title": "Plum Sauce",
+      "content": "The sauce is made from plum jam melted with soy, garlic, chili, wine and demi glace — not a commercial plum sauce. The heat level is adjustable: one chili gives a gentle warmth that balances the sweet plum without overpowering the lamb."
+    },
+    {
+      "type": "technique",
+      "title": "Resting is Essential",
+      "content": "Rest the lamb for a full 5 minutes before carving. This allows the juices to redistribute throughout the meat rather than running out onto the plate."
     }
   ],
   "related": [
@@ -107,16 +112,26 @@
       "title": "Carpet Bag"
     },
     {
-      "id": "bistro-chickenkiev",
-      "title": "Chicken Kiev"
-    },
-    {
-      "id": "potatognocchi",
-      "title": "Potato Gnocchi with Tomato Sauce"
-    },
-    {
       "id": "bistro-mediterraneansteak",
       "title": "Mediterranean Steak"
+    },
+    {
+      "id": "bistro-filetmignon",
+      "title": "Filet Mignon"
+    },
+    {
+      "id": "bistro-reefandbeef",
+      "title": "Reef and Beef"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 1,
+    "cal": 1100,
+    "protein": 54,
+    "carbs": 184,
+    "fat": 19,
+    "fiber": 11,
+    "sodium": 2373,
+    "coverage": 100
+  }
 }

@@ -48,7 +48,7 @@
       "item": "Golden Syrup"
     },
     {
-      "quantity": "40",
+      "quantity": "50",
       "unit": "ml",
       "item": "Water",
       "notes": "hot"
@@ -138,6 +138,7 @@
     "carbs": 21,
     "fat": 6,
     "fiber": 1,
+    "sodium": 70,
     "coverage": 100
   }
 }
