@@ -3,12 +3,12 @@
   "title": "Apricot Chicken",
   "emoji": "🍑",
   "category": "Dinner",
-  "description": "Tender chicken legs baked in a sweet-savoury apricot sauce with carrots and red capsicum.",
-  "prepTime": "15 min",
-  "cookTime": "50 min",
-  "totalTime": "65 min",
+  "description": "Classic retro apricot chicken — sticky, sweet, savoury, and impossibly easy. Chicken thigh fillets baked in a glossy apricot glaze.",
+  "prepTime": "10 min",
+  "cookTime": "35 min",
+  "totalTime": "45 min",
   "servings": "6",
-  "yieldPerBatch": "6 chicken legs",
+  "yieldPerBatch": "6 chicken thigh fillets",
   "difficulty": "Beginner",
   "tags": [
     "Australian",
@@ -23,20 +23,19 @@
     {
       "quantity": "6",
       "unit": "",
-      "item": "Chicken Legs",
-      "notes": "bone-in"
+      "item": "Chicken Thigh Fillets",
+      "notes": "boneless, skinless"
     },
     {
       "quantity": "825",
       "unit": "g",
       "item": "Canned Apricot Halves",
-      "notes": "drained, syrup reserved"
+      "notes": "drained"
     },
     {
-      "quantity": "300",
-      "unit": "ml",
-      "item": "Apricot Syrup",
-      "notes": "from the can"
+      "quantity": "200",
+      "unit": "g",
+      "item": "Apricot Jam"
     },
     {
       "quantity": "30",
@@ -44,28 +43,10 @@
       "item": "Soy Sauce"
     },
     {
-      "quantity": "1",
-      "unit": "",
-      "item": "Brown Onion",
-      "notes": "finely diced"
-    },
-    {
       "quantity": "2",
       "unit": "cloves",
       "item": "Garlic",
       "notes": "minced"
-    },
-    {
-      "quantity": "2",
-      "unit": "",
-      "item": "Carrots",
-      "notes": "sliced"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Red Capsicum",
-      "notes": "sliced"
     },
     {
       "quantity": "3",
@@ -87,47 +68,53 @@
     },
     {
       "step": 2,
-      "instruction": "Drain apricot halves, reserving 300ml of syrup. Set apricots aside."
+      "instruction": "In a bowl, combine apricot jam, soy sauce, and minced garlic. Mix well."
     },
     {
       "step": 3,
-      "instruction": "In a bowl, combine reserved apricot syrup with soy sauce."
+      "instruction": "Season chicken thigh fillets with salt and pepper. Place in a baking dish."
     },
     {
       "step": 4,
-      "instruction": "Place chicken legs, diced onion, garlic, carrots, and red capsicum in a large casserole dish."
+      "instruction": "Pour jam mixture over chicken and toss to coat evenly."
     },
     {
       "step": 5,
-      "instruction": "Season with salt and pepper. Pour the syrup mixture over everything and toss to coat."
+      "instruction": "Bake uncovered for 20 minutes."
     },
     {
       "step": 6,
-      "instruction": "Cover and bake for 40 minutes."
-    },
-    {
-      "step": 7,
       "instruction": "Remove from oven. Add drained apricot halves, tucking them around the chicken."
     },
     {
-      "step": 8,
-      "instruction": "Cover and bake for final 10 minutes."
+      "step": 7,
+      "instruction": "Return to oven and bake for final 10-15 minutes, until chicken is cooked through and sauce is sticky and glossy."
     },
     {
-      "step": 9,
-      "instruction": "Serve hot with rice or mashed potato."
+      "step": 8,
+      "instruction": "Serve hot with rice."
     }
   ],
   "notes": [
     {
       "type": "tip",
-      "title": "The Syrup",
-      "content": "Your can gave 300ml syrup — perfect amount for this recipe. No extra liquid needed."
+      "title": "Why Thigh Fillets?",
+      "content": "Thigh fillets cook faster than legs (35 min vs 50 min) and are easier to eat — no bones, no skin. They also stay juicier than breast."
+    },
+    {
+      "type": "technique",
+      "title": "Thicker Glaze",
+      "content": "For an even stickier glaze, remove the dish from the oven after 30 minutes and place under the grill (broiler) for 2-3 minutes. Watch carefully — the sugar can burn quickly."
+    },
+    {
+      "type": "variation",
+      "title": "French Onion Version",
+      "content": "Replace garlic with 1 packet of French onion soup mix. This is the traditional 1970s version — very savoury-sweet."
     },
     {
       "type": "storage",
       "title": "Leftovers",
-      "content": "Store in an airtight container in the fridge for up to 3 days."
+      "content": "Store in an airtight container in the fridge for up to 3 days. The sauce sets like jam when cold — reheat gently."
     }
   ],
   "related": [
@@ -144,22 +131,22 @@
       "title": "Chicken Cacciatore"
     },
     {
-      "id": "chickenshawarma",
-      "title": "Chicken Shawarma"
-    },
-    {
       "id": "chickenteriyaki",
       "title": "Chicken Teriyaki"
+    },
+    {
+      "id": "honeysoychicken",
+      "title": "Honey Soy Chicken"
     }
   ],
   "nutrition": {
     "servings": 6,
-    "cal": 541,
+    "cal": 469,
     "protein": 31,
-    "carbs": 76,
+    "carbs": 58,
     "fat": 14,
-    "fiber": 5,
-    "sodium": 593,
+    "fiber": 4,
+    "sodium": 574,
     "coverage": 100
   }
 }

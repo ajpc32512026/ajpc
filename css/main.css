@@ -606,6 +606,11 @@ li {
         animation: none;
         padding: 0.25rem 0;
     }
+
+    /* Hide Builder button on mobile */
+    a.nav-direct.accent {
+        display: none;
+    }
 }
 
 /* =========================================================
