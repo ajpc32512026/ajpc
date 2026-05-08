@@ -55,6 +55,46 @@
             font-family: monospace;
             font-size: 0.75rem;
         }
+        
+        /* Popular tags styles */
+        .popular-tags {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: var(--sp-sm);
+            margin-top: var(--sp-md);
+            margin-bottom: var(--sp-md);
+            padding: var(--sp-md);
+            background: var(--surface-card);
+            border-radius: var(--r-lg);
+            border: 1px solid var(--border-dim);
+        }
+        .popular-tags-label {
+            font-size: 0.7rem;
+            color: var(--copper);
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        .popular-tag {
+            display: inline-block;
+            padding: 0.25rem 0.7rem;
+            background: var(--surface-2);
+            border-radius: var(--r-full);
+            font-size: 0.8rem;
+            color: var(--cream-dim);
+            text-decoration: none;
+            transition: all var(--t-fast);
+        }
+        .popular-tag:hover {
+            background: var(--copper);
+            color: var(--ink);
+        }
+        .tag-skeleton {
+            color: var(--cream-muted);
+            font-size: 0.8rem;
+            font-style: italic;
+        }
     </style>
 </head>
 <body>
@@ -90,6 +130,13 @@
                 <br>• <strong>Ingredient search:</strong> <code>chicken, cream, mushrooms</code> or <code>beef oysters wine</code>
                 <br>• Searches with commas, "and", or 4+ words automatically become ingredient matching
                 <br>• Pantry staples like salt, pepper, butter, oil are ignored from ingredient matching
+            </div>
+            
+            <div class="popular-tags">
+                <span class="popular-tags-label">Popular:</span>
+                <div class="popular-tags-list" id="popularTagsList">
+                    <span class="tag-skeleton">Loading...</span>
+                </div>
             </div>
 
             <div id="searchResults">

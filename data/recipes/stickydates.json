@@ -88,11 +88,6 @@
       "heading": "Caramel Sauce"
     },
     {
-      "quantity": "60",
-      "unit": "ml",
-      "item": "Thickened Cream"
-    },
-    {
       "quantity": "150",
       "unit": "g",
       "item": "Brown Sugar"
@@ -111,7 +106,7 @@
       "quantity": "15",
       "unit": "ml",
       "item": "Grand Marnier",
-      "notes": "optional, add after sauce is cooled"
+      "notes": "optional"
     }
   ],
   "method": [
@@ -201,12 +196,12 @@
   ],
   "nutrition": {
     "servings": 8,
-    "cal": 596,
+    "cal": 570,
     "protein": 7,
     "carbs": 84,
-    "fat": 27,
+    "fat": 24,
     "fiber": 3,
-    "sodium": 235,
+    "sodium": 232,
     "coverage": 100
   }
 }

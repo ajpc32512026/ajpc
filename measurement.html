@@ -6,72 +6,8 @@
     <meta name="theme-color" content="#16161a">
     <meta name="description" content="Practical kitchen measurement conversions — volume, weight, length, and oven temperatures.">
     <title>Measurements | AJPC Kitchen Notebook</title>
-	<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2316161a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='28' font-weight='bold' fill='%23c97d3e'%3EAJ%3C/text%3E%3C/svg%3E">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2316161a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='28' font-weight='bold' fill='%23c97d3e'%3EAJ%3C/text%3E%3C/svg%3E">
     <link rel="stylesheet" href="css/main.css">
-    <style>
-        .measure-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: var(--sp-xl);
-            margin-bottom: var(--sp-3xl);
-        }
-        .measure-card {
-            background: var(--surface-card);
-            border: 1px solid var(--border-dim);
-            border-radius: var(--r-lg);
-            overflow: hidden;
-        }
-        .measure-card-header {
-            padding: var(--sp-md) var(--sp-lg);
-            background: var(--surface-2);
-            border-bottom: 1px solid var(--border-dim);
-        }
-        .measure-card-header h2 {
-            font-size: 0.75rem;
-            font-family: var(--font-body);
-            letter-spacing: 0.15em;
-            text-transform: uppercase;
-            color: var(--copper);
-            font-weight: 600;
-            margin: 0;
-        }
-        .measure-table { width: 100%; border-collapse: collapse; }
-        .measure-table tr { border-bottom: 1px solid var(--border-dim); }
-        .measure-table tr:last-child { border-bottom: none; }
-        .measure-table td {
-            padding: 0.55rem var(--sp-lg);
-            font-size: 0.875rem;
-            color: var(--cream-dim);
-        }
-        .measure-table td:first-child { color: var(--cream); font-weight: 500; }
-        .measure-table td:last-child { color: var(--cream-muted); text-align: right; }
-
-        .oven-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 1px;
-            background: var(--border-dim);
-            border: 1px solid var(--border-dim);
-            border-radius: var(--r-lg);
-            overflow: hidden;
-            margin-bottom: var(--sp-2xl);
-        }
-        .oven-cell {
-            padding: 0.6rem var(--sp-md);
-            background: var(--surface-card);
-            font-size: 0.85rem;
-            text-align: center;
-        }
-        .oven-cell.header {
-            background: var(--surface-2);
-            color: var(--copper);
-            font-size: 0.7rem;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            font-weight: 600;
-        }
-        .oven-cell:not(.header) { color: var(--cream-dim); }
-    </style>
 </head>
 <body>
 
@@ -80,112 +16,334 @@
 
     <div class="content-wrapper">
         <main class="reference-page">
-            <p style="font-size:0.75rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--copper);font-weight:600;margin-bottom:0.5rem;">Reference</p>
-            <h1>Measurements &amp; Conversions</h1>
-            <p style="color:var(--cream-muted);margin-bottom:var(--sp-2xl);">A practical reference for common kitchen measurements — metric-first, with imperial equivalents.</p>
+            <div class="reference-header">
+                <span class="reference-eyebrow">Reference</span>
+                <h1>Measurements &amp; Conversions</h1>
+                <p class="reference-description">A practical reference for common kitchen measurements — metric-first, designed for quick lookup while cooking.</p>
+            </div>
 
-            <div class="measure-grid">
+            <!-- OVEN TEMPERATURES -->
+            <div class="measure-section">
+                <h2>Oven Temperatures</h2>
+                <div class="simple-row-4col header">
+                    <span>Description</span>
+                    <span>Celsius</span>
+                    <span>Fahrenheit</span>
+                    <span>Gas Mark</span>
+                </div>
+                <div class="simple-row-4col"><span>Very slow / warming</span><span>120°C</span><span>250°F</span><span>1/2</span></div>
+                <div class="simple-row-4col"><span>Slow</span><span>150°C</span><span>300°F</span><span>2</span></div>
+                <div class="simple-row-4col"><span>Moderate slow</span><span>160°C</span><span>325°F</span><span>3</span></div>
+                <div class="simple-row-4col"><span>Moderate</span><span>180°C</span><span>350°F</span><span>4</span></div>
+                <div class="simple-row-4col"><span>Moderate hot</span><span>190°C</span><span>375°F</span><span>5</span></div>
+                <div class="simple-row-4col"><span>Hot</span><span>200°C</span><span>400°F</span><span>6</span></div>
+                <div class="simple-row-4col"><span>Very hot</span><span>220°C</span><span>425°F</span><span>7</span></div>
+                <div class="simple-row-4col"><span>Extremely hot</span><span>230°C</span><span>450°F</span><span>8</span></div>
+                <div class="simple-row-4col"><span>Pizza / Woodfire</span><span>250°C+</span><span>480°F+</span><span>9</span></div>
+            </div>
 
-                <div class="measure-card">
-                    <div class="measure-card-header"><h2>Volume</h2></div>
-                    <table class="measure-table">
-                        <tr><td>1 teaspoon</td><td>5 ml</td></tr>
-                        <tr><td>1 tablespoon</td><td>20 ml (AU)</td></tr>
-                        <tr><td>1/4 cup</td><td>60 ml</td></tr>
-                        <tr><td>1/3 cup</td><td>80 ml</td></tr>
-                        <tr><td>1/2 cup</td><td>125 ml</td></tr>
-                        <tr><td>1 cup</td><td>250 ml</td></tr>
-                        <tr><td>1 litre</td><td>4 cups</td></tr>
-                    </table>
+            <!-- CONVERSIONS -->
+            <div class="measure-section">
+                <h2>Conversions</h2>
+                <div class="conversion-grid-wrap">
+                    <div class="conversion-col">
+                        <h3 class="conversion-heading">Volume</h3>
+                        <div class="simple-row"><span>1 teaspoon</span><span>5 ml</span></div>
+                        <div class="simple-row"><span>1 tablespoon (AU)</span><span>20 ml</span></div>
+                        <div class="simple-row"><span>1/4 cup</span><span>60 ml</span></div>
+                        <div class="simple-row"><span>1/3 cup</span><span>80 ml</span></div>
+                        <div class="simple-row"><span>1/2 cup</span><span>125 ml</span></div>
+                        <div class="simple-row"><span>1 cup</span><span>250 ml</span></div>
+                        <div class="simple-row"><span>1 litre</span><span>4 cups</span></div>
+                        <div class="simple-row"><span>1 pint (UK)</span><span>568 ml</span></div>
+                        <div class="simple-row"><span>1 quart (UK)</span><span>1.136 L</span></div>
+                    </div>
+                    <div class="conversion-col">
+                        <h3 class="conversion-heading">Weight</h3>
+                        <div class="simple-row"><span>1 gram</span><span>~0.035 oz</span></div>
+                        <div class="simple-row"><span>10 g</span><span>~1/3 oz</span></div>
+                        <div class="simple-row"><span>25 g</span><span>~1 oz</span></div>
+                        <div class="simple-row"><span>50 g</span><span>~2 oz</span></div>
+                        <div class="simple-row"><span>100 g</span><span>~3-1/2 oz</span></div>
+                        <div class="simple-row"><span>125 g</span><span>~4-1/2 oz</span></div>
+                        <div class="simple-row"><span>150 g</span><span>~5 oz</span></div>
+                        <div class="simple-row"><span>200 g</span><span>~7 oz</span></div>
+                        <div class="simple-row"><span>250 g</span><span>~9 oz</span></div>
+                        <div class="simple-row"><span>500 g</span><span>~1.1 lb</span></div>
+                        <div class="simple-row"><span>750 g</span><span>~1.65 lb</span></div>
+                        <div class="simple-row"><span>1 kg</span><span>~2.2 lb</span></div>
+                        <div class="simple-row"><span>1.5 kg</span><span>~3.3 lb</span></div>
+                        <div class="simple-row"><span>2 kg</span><span>~4.4 lb</span></div>
+                    </div>
+                    <div class="conversion-col">
+                        <h3 class="conversion-heading">Length</h3>
+                        <div class="simple-row"><span>1 mm</span><span>~0.04 inch</span></div>
+                        <div class="simple-row"><span>3 mm</span><span>1/8 inch</span></div>
+                        <div class="simple-row"><span>6 mm</span><span>1/4 inch</span></div>
+                        <div class="simple-row"><span>12 mm</span><span>1/2 inch</span></div>
+                        <div class="simple-row"><span>2.5 cm</span><span>1 inch</span></div>
+                        <div class="simple-row"><span>5 cm</span><span>2 inches</span></div>
+                        <div class="simple-row"><span>10 cm</span><span>4 inches</span></div>
+                        <div class="simple-row"><span>15 cm</span><span>6 inches</span></div>
+                        <div class="simple-row"><span>20 cm</span><span>8 inches</span></div>
+                        <div class="simple-row"><span>23 cm</span><span>9 inches</span></div>
+                        <div class="simple-row"><span>25 cm</span><span>10 inches</span></div>
+                        <div class="simple-row"><span>30 cm</span><span>12 inches (1 foot)</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PAGE BREAK -->
+            <div class="page-break-before"></div>
+
+            <!-- INGREDIENT WEIGHT GUIDE -->
+            <div class="measure-section">
+                <h2>Ingredient Weight Guide</h2>
+                <p class="section-sub">Common baking and cooking ingredients — 1 cup approximate weight</p>
+
+                <!-- Flours -->
+                <div class="ingredient-category">
+                    <h3 class="category-heading">Flours</h3>
+                    <div class="two-col-wrap">
+                        <div class="col-left">
+                            <div class="simple-row"><span>Plain / All-purpose flour</span><span>150 g</span></div>
+                            <div class="simple-row"><span>Bread flour</span><span>130 g</span></div>
+                            <div class="simple-row"><span>Whole wheat flour</span><span>120 g</span></div>
+                            <div class="simple-row"><span>Self-raising flour</span><span>150 g</span></div>
+                            <div class="simple-row"><span>Rye flour</span><span>110 g</span></div>
+                        </div>
+                        <div class="col-right">
+                            <div class="simple-row"><span>Coconut flour</span><span>120 g</span></div>
+                            <div class="simple-row"><span>Almond meal / flour</span><span>100 g</span></div>
+                            <div class="simple-row"><span>Buckwheat flour</span><span>120 g</span></div>
+                            <div class="simple-row"><span>Spelt flour</span><span>130 g</span></div>
+                            <div class="simple-row"><span>Rice flour</span><span>160 g</span></div>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="measure-card">
-                    <div class="measure-card-header"><h2>Weight</h2></div>
-                    <table class="measure-table">
-                        <tr><td>10 g</td><td>~1/3 oz</td></tr>
-                        <tr><td>25 g</td><td>~1 oz</td></tr>
-                        <tr><td>50 g</td><td>~2 oz</td></tr>
-                        <tr><td>100 g</td><td>~3.5 oz</td></tr>
-                        <tr><td>250 g</td><td>~9 oz</td></tr>
-                        <tr><td>500 g</td><td>~1.1 lb</td></tr>
-                        <tr><td>1 kg</td><td>~2.2 lb</td></tr>
-                    </table>
+                <!-- Sugars -->
+                <div class="ingredient-category">
+                    <h3 class="category-heading">Sugars &amp; Sweeteners</h3>
+                    <div class="two-col-wrap">
+                        <div class="col-left">
+                            <div class="simple-row"><span>Caster sugar (superfine)</span><span>220 g</span></div>
+                            <div class="simple-row"><span>White granulated sugar</span><span>200 g</span></div>
+                            <div class="simple-row"><span>Brown sugar (packed)</span><span>200 g</span></div>
+                            <div class="simple-row"><span>Icing / powdered sugar</span><span>120 g</span></div>
+                            <div class="simple-row"><span>Coconut sugar</span><span>180 g</span></div>
+                            <div class="simple-row"><span>Raw sugar</span><span>220 g</span></div>
+                            <div class="simple-row"><span>Demerara sugar</span><span>200 g</span></div>
+                        </div>
+                        <div class="col-right">
+                            <div class="simple-row"><span>Muscovado sugar</span><span>200 g</span></div>
+                            <div class="simple-row"><span>Honey</span><span>340 g</span></div>
+                            <div class="simple-row"><span>Maple syrup</span><span>300 g</span></div>
+                            <div class="simple-row"><span>Golden syrup</span><span>340 g</span></div>
+                            <div class="simple-row"><span>Molasses</span><span>340 g</span></div>
+                            <div class="simple-row"><span>Corn syrup</span><span>320 g</span></div>
+                            <div class="simple-row"><span>Rice malt syrup</span><span>330 g</span></div>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="measure-card">
-                    <div class="measure-card-header"><h2>Common Ingredients by Weight</h2></div>
-                    <table class="measure-table">
-                        <tr><td>1 cup plain flour</td><td>~150 g</td></tr>
-                        <tr><td>1 cup bread flour</td><td>~130 g</td></tr>
-                        <tr><td>1 cup caster sugar</td><td>~220 g</td></tr>
-                        <tr><td>1 cup brown sugar (packed)</td><td>~200 g</td></tr>
-                        <tr><td>1 cup icing sugar</td><td>~120 g</td></tr>
-                        <tr><td>1 cup butter</td><td>~225 g</td></tr>
-                        <tr><td>1 cup rolled oats</td><td>~90 g</td></tr>
-                        <tr><td>1 cup rice</td><td>~200 g</td></tr>
-                        <tr><td>1 cup honey</td><td>~340 g</td></tr>
-                    </table>
+                <!-- Fats & Oils -->
+                <div class="ingredient-category">
+                    <h3 class="category-heading">Fats &amp; Oils</h3>
+                    <div class="two-col-wrap">
+                        <div class="col-left">
+                            <div class="simple-row"><span>Unsalted butter</span><span>225 g</span></div>
+                            <div class="simple-row"><span>Salted butter</span><span>225 g</span></div>
+                            <div class="simple-row"><span>Margarine</span><span>220 g</span></div>
+                            <div class="simple-row"><span>Coconut oil (solid)</span><span>200 g</span></div>
+                            <div class="simple-row"><span>Ghee / clarified butter</span><span>200 g</span></div>
+                        </div>
+                        <div class="col-right">
+                            <div class="simple-row"><span>Vegetable oil</span><span>220 ml</span></div>
+                            <div class="simple-row"><span>Olive oil</span><span>220 ml</span></div>
+                            <div class="simple-row"><span>Canola oil</span><span>220 ml</span></div>
+                            <div class="simple-row"><span>Shortening</span><span>200 g</span></div>
+                            <div class="simple-row"><span>Lard</span><span>200 g</span></div>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="measure-card">
-                    <div class="measure-card-header"><h2>Length</h2></div>
-                    <table class="measure-table">
-                        <tr><td>6 mm</td><td>1/4 inch</td></tr>
-                        <tr><td>12 mm</td><td>1/2 inch</td></tr>
-                        <tr><td>2.5 cm</td><td>1 inch</td></tr>
-                        <tr><td>15 cm</td><td>6 inches</td></tr>
-                        <tr><td>20 cm</td><td>8 inches</td></tr>
-                        <tr><td>23 cm</td><td>9 inches</td></tr>
-                        <tr><td>25 cm</td><td>10 inches</td></tr>
-                        <tr><td>30 cm</td><td>12 inches</td></tr>
-                    </table>
+                <!-- Oats, Grains & Rice -->
+                <div class="ingredient-category">
+                    <h3 class="category-heading">Oats, Grains &amp; Rice</h3>
+                    <div class="two-col-wrap">
+                        <div class="col-left">
+                            <div class="simple-row"><span>Rolled oats (old-fashioned)</span><span>90 g</span></div>
+                            <div class="simple-row"><span>Quick oats (instant)</span><span>80 g</span></div>
+                            <div class="simple-row"><span>Steel-cut oats</span><span>160 g</span></div>
+                            <div class="simple-row"><span>Muesli</span><span>100 g</span></div>
+                            <div class="simple-row"><span>White rice</span><span>200 g</span></div>
+                            <div class="simple-row"><span>Brown rice</span><span>210 g</span></div>
+                            <div class="simple-row"><span>Arborio rice (risotto)</span><span>220 g</span></div>
+                            <div class="simple-row"><span>Jasmine rice</span><span>190 g</span></div>
+                        </div>
+                        <div class="col-right">
+                            <div class="simple-row"><span>Basmati rice</span><span>190 g</span></div>
+                            <div class="simple-row"><span>Quinoa</span><span>170 g</span></div>
+                            <div class="simple-row"><span>Couscous</span><span>170 g</span></div>
+                            <div class="simple-row"><span>Polenta / cornmeal</span><span>160 g</span></div>
+                            <div class="simple-row"><span>Semolina</span><span>160 g</span></div>
+                            <div class="simple-row"><span>Bulgur wheat</span><span>140 g</span></div>
+                            <div class="simple-row"><span>Freekeh</span><span>150 g</span></div>
+                            <div class="simple-row"><span>Millet</span><span>200 g</span></div>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="measure-card">
-                    <div class="measure-card-header"><h2>Temperature Conversion</h2></div>
-                    <table class="measure-table">
-                        <tr><td>Celsius to Fahrenheit</td><td>(&deg;C &times; 9/5) + 32 = &deg;F</td></tr>
-                        <tr><td>Fahrenheit to Celsius</td><td>(&deg;F &minus; 32) &times; 5/9 = &deg;C</td></tr>
-                        <tr><td>0&deg;C</td><td>32&deg;F (freezing)</td></tr>
-                        <tr><td>100&deg;C</td><td>212&deg;F (boiling)</td></tr>
-                        <tr><td>180&deg;C</td><td>350&deg;F (moderate oven)</td></tr>
-                        <tr><td>200&deg;C</td><td>400&deg;F (hot oven)</td></tr>
-                    </table>
+                <!-- Nuts & Seeds -->
+                <div class="ingredient-category">
+                    <h3 class="category-heading">Nuts &amp; Seeds</h3>
+                    <div class="two-col-wrap">
+                        <div class="col-left">
+                            <div class="simple-row"><span>Almonds (whole)</span><span>140 g</span></div>
+                            <div class="simple-row"><span>Almonds (slivered)</span><span>120 g</span></div>
+                            <div class="simple-row"><span>Almonds (chopped)</span><span>120 g</span></div>
+                            <div class="simple-row"><span>Walnuts (chopped)</span><span>120 g</span></div>
+                            <div class="simple-row"><span>Pecans (chopped)</span><span>110 g</span></div>
+                            <div class="simple-row"><span>Pistachios (shelled)</span><span>125 g</span></div>
+                            <div class="simple-row"><span>Cashews (whole)</span><span>130 g</span></div>
+                            <div class="simple-row"><span>Hazelnuts (whole)</span><span>135 g</span></div>
+                            <div class="simple-row"><span>Macadamias</span><span>140 g</span></div>
+                        </div>
+                        <div class="col-right">
+                            <div class="simple-row"><span>Peanuts</span><span>150 g</span></div>
+                            <div class="simple-row"><span>Chia seeds</span><span>160 g</span></div>
+                            <div class="simple-row"><span>Flaxseed (linseed)</span><span>160 g</span></div>
+                            <div class="simple-row"><span>Sesame seeds</span><span>140 g</span></div>
+                            <div class="simple-row"><span>Pumpkin seeds</span><span>120 g</span></div>
+                            <div class="simple-row"><span>Sunflower seeds</span><span>120 g</span></div>
+                            <div class="simple-row"><span>Poppy seeds</span><span>140 g</span></div>
+                            <div class="simple-row"><span>Hemp seeds</span><span>160 g</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Coconut -->
+                <div class="ingredient-category">
+                    <h3 class="category-heading">Coconut</h3>
+                    <div class="two-col-wrap">
+                        <div class="col-left">
+                            <div class="simple-row"><span>Desiccated coconut</span><span>90 g</span></div>
+                            <div class="simple-row"><span>Shredded coconut</span><span>75 g</span></div>
+                            <div class="simple-row"><span>Coconut flakes (large)</span><span>50 g</span></div>
+                        </div>
+                        <div class="col-right">
+                            <div class="simple-row"><span>Coconut milk (canned)</span><span>240 ml</span></div>
+                            <div class="simple-row"><span>Coconut cream</span><span>240 ml</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chocolate & Baking -->
+                <div class="ingredient-category">
+                    <h3 class="category-heading">Chocolate &amp; Baking</h3>
+                    <div class="two-col-wrap">
+                        <div class="col-left">
+                            <div class="simple-row"><span>Cocoa powder</span><span>100 g</span></div>
+                            <div class="simple-row"><span>Dutch-process cocoa</span><span>100 g</span></div>
+                            <div class="simple-row"><span>Chocolate chips / chunks</span><span>170 g</span></div>
+                            <div class="simple-row"><span>Dark chocolate (chopped)</span><span>170 g</span></div>
+                            <div class="simple-row"><span>White chocolate chips</span><span>170 g</span></div>
+                            <div class="simple-row"><span>Baking powder</span><span>220 g</span></div>
+                        </div>
+                        <div class="col-right">
+                            <div class="simple-row"><span>Baking soda</span><span>250 g</span></div>
+                            <div class="simple-row"><span>Cornflour (cornstarch)</span><span>120 g</span></div>
+                            <div class="simple-row"><span>Tapioca starch</span><span>120 g</span></div>
+                            <div class="simple-row"><span>Potato starch</span><span>160 g</span></div>
+                            <div class="simple-row"><span>Arrowroot powder</span><span>120 g</span></div>
+                            <div class="simple-row"><span>Xanthan gum</span><span>120 g</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dried Fruit -->
+                <div class="ingredient-category">
+                    <h3 class="category-heading">Dried Fruit</h3>
+                    <div class="two-col-wrap">
+                        <div class="col-left">
+                            <div class="simple-row"><span>Raisins / Sultanas</span><span>150 g</span></div>
+                            <div class="simple-row"><span>Currants</span><span>140 g</span></div>
+                            <div class="simple-row"><span>Dates (chopped)</span><span>150 g</span></div>
+                            <div class="simple-row"><span>Dried cranberries</span><span>140 g</span></div>
+                            <div class="simple-row"><span>Dried apricots (chopped)</span><span>160 g</span></div>
+                        </div>
+                        <div class="col-right">
+                            <div class="simple-row"><span>Dried figs (chopped)</span><span>150 g</span></div>
+                            <div class="simple-row"><span>Prunes (chopped)</span><span>170 g</span></div>
+                            <div class="simple-row"><span>Dried blueberries</span><span>140 g</span></div>
+                            <div class="simple-row"><span>Dried cherries</span><span>150 g</span></div>
+                            <div class="simple-row"><span>Mixed dried fruit</span><span>140 g</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dairy & Cheese -->
+                <div class="ingredient-category">
+                    <h3 class="category-heading">Dairy &amp; Cheese</h3>
+                    <div class="two-col-wrap">
+                        <div class="col-left">
+                            <div class="simple-row"><span>Greek yogurt</span><span>245 g</span></div>
+                            <div class="simple-row"><span>Plain yogurt</span><span>245 g</span></div>
+                            <div class="simple-row"><span>Sour cream</span><span>240 g</span></div>
+                            <div class="simple-row"><span>Cream cheese</span><span>225 g</span></div>
+                            <div class="simple-row"><span>Ricotta cheese</span><span>250 g</span></div>
+                            <div class="simple-row"><span>Mascarpone</span><span>230 g</span></div>
+                            <div class="simple-row"><span>Cottage cheese</span><span>220 g</span></div>
+                        </div>
+                        <div class="col-right">
+                            <div class="simple-row"><span>Grated Parmesan</span><span>100 g</span></div>
+                            <div class="simple-row"><span>Grated Cheddar</span><span>120 g</span></div>
+                            <div class="simple-row"><span>Grated Mozzarella</span><span>120 g</span></div>
+                            <div class="simple-row"><span>Grated Gruyère</span><span>120 g</span></div>
+                            <div class="simple-row"><span>Buttermilk</span><span>240 ml</span></div>
+                            <div class="simple-row"><span>Whole milk</span><span>240 ml</span></div>
+                            <div class="simple-row"><span>Heavy / thickened cream</span><span>240 ml</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Other Common Ingredients -->
+                <div class="ingredient-category">
+                    <h3 class="category-heading">Other Common Ingredients</h3>
+                    <div class="two-col-wrap">
+                        <div class="col-left">
+                            <div class="simple-row"><span>Breadcrumbs (dried)</span><span>100 g</span></div>
+                            <div class="simple-row"><span>Panko breadcrumbs</span><span>50 g</span></div>
+                            <div class="simple-row"><span>Fresh breadcrumbs</span><span>60 g</span></div>
+                            <div class="simple-row"><span>Peanut butter</span><span>250 g</span></div>
+                            <div class="simple-row"><span>Tahini (sesame paste)</span><span>240 g</span></div>
+                            <div class="simple-row"><span>Jam / marmalade</span><span>320 g</span></div>
+                        </div>
+                        <div class="col-right">
+                            <div class="simple-row"><span>Tomato paste</span><span>260 g</span></div>
+                            <div class="simple-row"><span>Tomato sauce (ketchup)</span><span>240 g</span></div>
+                            <div class="simple-row"><span>BBQ sauce</span><span>250 g</span></div>
+                            <div class="simple-row"><span>Soy sauce</span><span>240 ml</span></div>
+                            <div class="simple-row"><span>Fish sauce</span><span>240 ml</span></div>
+                            <div class="simple-row"><span>Oyster sauce</span><span>240 ml</span></div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
-
-            <h2 style="font-size:0.75rem;font-family:var(--font-body);letter-spacing:0.2em;text-transform:uppercase;color:var(--copper);font-weight:600;margin-bottom:var(--sp-lg);padding-bottom:var(--sp-sm);border-bottom:1px solid var(--border-dim);">Oven Temperatures</h2>
-
-            <div class="oven-grid">
-                <div class="oven-cell header">Description</div>
-                <div class="oven-cell header">Celsius</div>
-                <div class="oven-cell header">Fahrenheit</div>
-                <div class="oven-cell header">Gas Mark</div>
-
-                <div class="oven-cell">Very slow / warm</div><div class="oven-cell">120&deg;C</div><div class="oven-cell">250&deg;F</div><div class="oven-cell">1/2</div>
-                <div class="oven-cell">Slow</div><div class="oven-cell">150&deg;C</div><div class="oven-cell">300&deg;F</div><div class="oven-cell">2</div>
-                <div class="oven-cell">Moderate slow</div><div class="oven-cell">160&deg;C</div><div class="oven-cell">325&deg;F</div><div class="oven-cell">3</div>
-                <div class="oven-cell">Moderate</div><div class="oven-cell">180&deg;C</div><div class="oven-cell">350&deg;F</div><div class="oven-cell">4</div>
-                <div class="oven-cell">Moderate hot</div><div class="oven-cell">190&deg;C</div><div class="oven-cell">375&deg;F</div><div class="oven-cell">5</div>
-                <div class="oven-cell">Hot</div><div class="oven-cell">200&deg;C</div><div class="oven-cell">400&deg;F</div><div class="oven-cell">6</div>
-                <div class="oven-cell">Very hot</div><div class="oven-cell">220&deg;C</div><div class="oven-cell">425&deg;F</div><div class="oven-cell">7</div>
-                <div class="oven-cell">Extremely hot</div><div class="oven-cell">230&deg;C</div><div class="oven-cell">450&deg;F</div><div class="oven-cell">8</div>
-                <div class="oven-cell">Pizza hot</div><div class="oven-cell">250&deg;C+</div><div class="oven-cell">480&deg;F+</div><div class="oven-cell">9</div>
-            </div>
-
         </main>
 
         <footer>
             <div class="footer-inner">
                 <span class="footer-brand">AJPC</span>
                 <p class="footer-copy">&copy; 2026 Ana &amp; John's Kitchen Notebook.</p>
-				<button class="print-btn" onclick="window.print()">Print</button>
+                <button class="print-btn" onclick="window.print()">Print</button>
             </div>
         </footer>
     </div>
 
-    <button class="back-to-top" id="backToTop" aria-label="Back to top">&#8593;</button>
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
     <script src="js/nav-loader.js"></script>
 </body>
 </html>

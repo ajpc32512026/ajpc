@@ -1199,6 +1199,7 @@ function renderTags(){
 }
 function removeTag(i){ tags.splice(i,1); renderTags(); update(); }
 
+
 // ─────────────────────────────────────────────────────────
 // INGREDIENTS — DRAGGABLE WITH AUTOCOMPLETE
 // ─────────────────────────────────────────────────────────
@@ -1501,6 +1502,23 @@ function updateIngredientLibrary() {
   });
   
   localStorage.setItem('ingredientLibrary', JSON.stringify(library));
+}
+
+// ─────────────────────────────────────────────────────────
+// TOAST NOTIFICATION
+// ─────────────────────────────────────────────────────────
+function toast(msg) {
+    const t = document.getElementById('toast');
+    if (!t) {
+        console.warn('Toast element not found:', msg);
+        alert(msg);
+        return;
+    }
+    t.textContent = msg;
+    t.classList.add('show');
+    setTimeout(function() {
+        t.classList.remove('show');
+    }, 2200);
 }
 
 // ─────────────────────────────────────────────────────────
@@ -1897,9 +1915,12 @@ function highlightHTML(html){ return html.replace(/&/g,'&amp;').replace(/</g,'&l
 function downloadJSON(){ 
   updateIngredientLibrary();
   // Force nutrition recalculation before saving
-calculateNutrition();
-  const {obj,id}=buildJSON(); 
-  if(!obj.title){alert('Add a title first.'); return;}
+  calculateNutrition();
+  const {obj,id} = buildJSON(); 
+  if(!obj.title){ alert('Add a title first.'); return; }
+
+  // Add lastModified timestamp
+  obj.lastModified = new Date().toISOString().split('T')[0];
 
   // ── Inject nutrition snapshot ──
   const nutritionOutput = document.getElementById('nutrition-output');
@@ -1922,6 +1943,7 @@ calculateNutrition();
       carbs: getNutrientVal('Carbohydrate'),
       fat: getNutrientVal('Fat'),
       fiber: getNutrientVal('Fiber'),
+      sodium: getNutrientVal('Sodium'),
       coverage: coverageMatch ? parseInt(coverageMatch[1]) : null
     };
   }
@@ -1938,17 +1960,13 @@ calculateNutrition();
     if(timelineItems.length) obj.timeline = timelineItems;
   }
 
-  const blob=new Blob([JSON.stringify(obj,null,2)],{type:'application/json'}); 
-  const a=document.createElement('a'); 
-  a.href=URL.createObjectURL(blob); 
-  a.download=`${id||'recipe'}.json`; 
+  const blob = new Blob([JSON.stringify(obj, null, 2)], {type: 'application/json'}); 
+  const a = document.createElement('a'); 
+  a.href = URL.createObjectURL(blob); 
+  a.download = `${id || 'recipe'}.json`; 
   a.click(); 
   URL.revokeObjectURL(a.href); 
 }
-function copyJSON(){ const {obj}=buildJSON(); navigator.clipboard.writeText(JSON.stringify(obj,null,2)).then(()=>toast('JSON copied!')); }
-function copyNav(){ const {id,title}=buildJSON(); const category=val('category'); const {snippet}=buildNavSnippet(id,title,category); if(!snippet){alert('Fill in title and category first.'); return;} const justLink=snippet.split('\n').find(l=>l.trim().startsWith('<a')); navigator.clipboard.writeText(justLink||snippet).then(()=>toast('Nav link copied!')); }
-function toast(msg){ const t=document.getElementById('toast'); t.textContent=msg; t.classList.add('show'); setTimeout(()=>t.classList.remove('show'),2200); }
-
 // ─────────────────────────────────────────────────────────
 // CLEAR
 // ─────────────────────────────────────────────────────────
@@ -2031,9 +2049,16 @@ function updateSaveButton(filename) {
 async function saveJSON() {
   updateIngredientLibrary();
   // Force nutrition recalculation before saving
-calculateNutrition();
+  calculateNutrition();
+  
+  // Add lastModified timestamp to the recipe
   const { obj } = buildJSON();
-  if (!obj.title) { alert('Add a title first.'); return; }
+  obj.lastModified = new Date().toISOString().split('T')[0];
+  
+  if (!obj.title) { 
+    alert('Add a title first.'); 
+    return; 
+  }
 
   const json = JSON.stringify(obj, null, 2);
 

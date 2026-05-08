@@ -96,23 +96,66 @@
   "related": [
     {
       "id": "pestosauce",
-      "title": "Pesto Sauce"
+      "title": "Pesto Sauce",
+      "matchingTags": [
+        "Italian",
+        "Sauce",
+        "Under 30 Minutes",
+        "Vegetarian"
+      ]
     },
     {
       "id": "marinarasauce",
-      "title": "Marinara Sauce"
+      "title": "Marinara Sauce",
+      "matchingTags": [
+        "Classic",
+        "Italian",
+        "Sauce",
+        "Tomato",
+        "Under 30 Minutes",
+        "Vegan",
+        "Vegetarian"
+      ]
     },
     {
       "id": "redsauce",
-      "title": "Red Sauce"
+      "title": "Red Sauce",
+      "matchingTags": [
+        "Classic",
+        "Italian",
+        "Sauce",
+        "Tomato",
+        "Under 30 Minutes",
+        "Vegan",
+        "Vegetarian"
+      ]
     },
     {
       "id": "arrabbiatazauce",
-      "title": "Arrabbiata Sauce"
+      "title": "Arrabbiata Sauce",
+      "matchingTags": [
+        "Italian",
+        "Sauce",
+        "Spicy",
+        "Tomato",
+        "Under 30 Minutes",
+        "Vegan",
+        "Vegetarian"
+      ]
     },
     {
       "id": "mornaysauce",
-      "title": "Mornay / Cheese Sauce"
+      "title": "Mornay / Cheese Sauce",
+      "matchingTags": [
+        "Cheese",
+        "Classic",
+        "Creamy",
+        "French",
+        "Rich",
+        "Sauce",
+        "Under 30 Minutes",
+        "Vegetarian"
+      ]
     }
   ],
   "nutrition": {
@@ -124,5 +167,6 @@
     "fiber": 1,
     "sodium": 431,
     "coverage": 100
-  }
+  },
+  "lastModified": "2026-05-08"
 }

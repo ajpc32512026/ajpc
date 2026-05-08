@@ -2,11 +2,27 @@
    RECIPE RENDERER — AJPC Kitchen Notebook
    Fixed: no inline styles, clean semantic HTML,
    proper error states, correct scaler hook.
-   Added: scaled cook time & serving estimator.
+   Added: scaled cook time & serving estimator,
+   last updated timestamp, ingredient-based related recipes,
+   dynamic tip box with structured ingredient data.
 ========================================================= */
 
 (function () {
     'use strict';
+
+    // Pantry staples for ingredient matching
+    var PANTRY_STAPLES = [
+        'water', 'salt', 'pepper', 'black pepper', 'white pepper',
+        'butter', 'unsalted butter', 'oil', 'olive oil', 'vegetable oil', 'canola oil',
+        'flour', 'plain flour', 'all-purpose flour', 'bread flour', 'self-raising flour',
+        'sugar', 'white sugar', 'caster sugar', 'brown sugar', 'icing sugar',
+        'eggs', 'egg', 'milk',
+        'baking powder', 'baking soda', 'bi-carb soda', 'bicarbonate of soda',
+        'vanilla', 'vanilla extract', 'yeast',
+        'stock', 'chicken stock', 'beef stock', 'vegetable stock',
+        'garlic', 'onion', 'brown onion', 'red onion', 'spring onion',
+        'to taste'
+    ];
 
     // Simple cache for recipe index — avoids re-fetching on every page load
     var recipeIndexCache = {
@@ -14,6 +30,11 @@
         timestamp: null,
         maxAge: 30 * 60 * 1000 // 30 minutes
     };
+
+    // Global tip storage
+    var currentTipData = null;
+    var currentRecipeId = null;
+    var currentRecipeTitle = null;
 
     function getCachedIndex() {
         if (recipeIndexCache.data && recipeIndexCache.timestamp && (Date.now() - recipeIndexCache.timestamp < recipeIndexCache.maxAge)) {
@@ -54,10 +75,22 @@
             renderError('No recipe specified. Please select one from the menu.', container);
             return;
         }
+        
+        // Load recipe index for related suggestions
+        var recipeIndex = [];
+        try {
+            var idxRes = await fetch('json/recipe-index.json');
+            if (idxRes.ok) recipeIndex = await idxRes.json();
+        } catch(e) {
+            console.warn('Could not load recipe index for related suggestions');
+            recipeIndex = [];
+        }
 
         try {
             const recipe = await fetchRecipe(id);
-            renderRecipe(recipe, container);
+            currentRecipeId = recipe.id;
+            currentRecipeTitle = recipe.title;
+            renderRecipe(recipe, container, recipeIndex);
             document.dispatchEvent(new CustomEvent('recipeRendered', { detail: recipe }));
         } catch (err) {
             console.error('[recipe-renderer]', err);
@@ -156,7 +189,7 @@
     /* --------------------------------------------------
        Main render
     -------------------------------------------------- */
-    function renderRecipe(r, container) {
+    function renderRecipe(r, container, recipeIndex) {
         const title = r.title || r.id || 'Recipe';
         document.title = `${title} | AJPC Kitchen`;
 
@@ -170,7 +203,7 @@
         validateRecipe(r, r.id || '');
 
         const hasIngredients = r.ingredients && r.ingredients.length > 0;
-        const hasMethod      = r.method && r.method.length > 0;
+        const hasMethod = r.method && r.method.length > 0;
 
         container.innerHTML = `
             <div class="recipe-page-wrapper animate-in">
@@ -181,7 +214,7 @@
                 ${renderMetadata(r)}
                 ${renderToolbar()}
                 <hr class="recipe-divider">
-                                <div id="scalerInfoContainer" class="scaler-info no-print-hide" style="display:none;margin-bottom:var(--sp-lg);padding:0.5rem 0.75rem;background:rgba(201,125,62,0.08);border:1px solid var(--border-dim);border-radius:6px;font-size:0.82rem;color:var(--cream-dim);line-height:1.5;"></div>
+                <div id="scalerInfoContainer" class="scaler-info no-print-hide" style="display:none;margin-bottom:var(--sp-lg);padding:0.5rem 0.75rem;background:rgba(201,125,62,0.08);border:1px solid var(--border-dim);border-radius:6px;font-size:0.82rem;color:var(--cream-dim);line-height:1.5;"></div>
                 <div class="print-columns">
                     ${renderIngredients(r)}
                     <div class="print-col-right">
@@ -190,13 +223,32 @@
                     </div>
                 </div>
                 ${renderJournal(r.journal)}
+                ${renderTipBox(r, recipeIndex)}
                 ${renderNutrition(r.nutrition)}
                 ${renderTags(r.tags)}
-                ${renderRelated(r.related)}
+                ${renderRelated(r, recipeIndex)}
             </div>
         `;
 
         setupToolbar(r);
+        
+        // Add last updated timestamp
+        if (r.lastModified || r.updatedAt) {
+            const lastUpdated = r.lastModified || r.updatedAt;
+            const date = new Date(lastUpdated);
+            const formattedDate = date.toLocaleDateString('en-AU', { year: 'numeric', month: 'long', day: 'numeric' });
+            const lastUpdatedDiv = document.createElement('div');
+            lastUpdatedDiv.className = 'recipe-last-updated';
+            lastUpdatedDiv.innerHTML = `📝 Last updated: ${formattedDate}`;
+            container.querySelector('.recipe-page-wrapper').appendChild(lastUpdatedDiv);
+        }
+        
+        // Load tip after a short delay to ensure DOM is ready
+        setTimeout(function() {
+            if (typeof window.loadRandomTip === 'function') {
+                window.loadRandomTip();
+            }
+        }, 100);
     }
 
     /* --------------------------------------------------
@@ -266,7 +318,7 @@
             </section>`;
         }
 
-                const scaler = `<div class="scaler-controls">
+        const scaler = `<div class="scaler-controls">
             <span class="scaler-label">Scale:</span>
             <button class="scaler-btn" id="scalerDown" aria-label="Decrease serving">-</button>
             <span class="scaler-display" id="scalerDisplay">1x</span>
@@ -369,30 +421,30 @@
     }
 
     function renderNutrition(n) {
-    if (!n) return '';
-    const { servings, cal, protein, carbs, fat, fiber, sodium, coverage } = n;
-    return `<section class="recipe-nutrition">
-        <h2>Nutrition Facts</h2>
-        <div class="nutrition-label">
-            <div class="nutrition-header">
-                <span class="nutrition-title">Nutrition Facts</span>
-                <span class="nutrition-serving">Per serving | ${escHtml(String(servings || '?'))} servings</span>
+        if (!n) return '';
+        const { servings, cal, protein, carbs, fat, fiber, sodium, coverage } = n;
+        return `<section class="recipe-nutrition">
+            <h2>Nutrition Facts</h2>
+            <div class="nutrition-label">
+                <div class="nutrition-header">
+                    <span class="nutrition-title">Nutrition Facts</span>
+                    <span class="nutrition-serving">Per serving | ${escHtml(String(servings || '?'))} servings</span>
+                </div>
+                <div class="nutrition-calories">
+                    <span>Calories</span>
+                    <span>${cal || 0}</span>
+                </div>
+                <div class="nutrition-divider thick"></div>
+                <div class="nutrition-row"><span><strong>Protein</strong></span><span>${protein || 0}g</span></div>
+                <div class="nutrition-row"><span><strong>Total Carbohydrate</strong></span><span>${carbs || 0}g</span></div>
+                <div class="nutrition-row indent"><span>Dietary Fibre</span><span>${fiber || 0}g</span></div>
+                <div class="nutrition-row"><span><strong>Total Fat</strong></span><span>${fat || 0}g</span></div>
+                <div class="nutrition-row"><span><strong>Sodium</strong></span><span>${sodium || 0}mg</span></div>
+                <div class="nutrition-divider thick"></div>
+                ${coverage ? `<div class="nutrition-coverage">Estimated from ${coverage}% of ingredients</div>` : ''}
             </div>
-            <div class="nutrition-calories">
-                <span>Calories</span>
-                <span>${cal || 0}</span>
-            </div>
-            <div class="nutrition-divider thick"></div>
-            <div class="nutrition-row"><span><strong>Protein</strong></span><span>${protein || 0}g</span></div>
-            <div class="nutrition-row"><span><strong>Total Carbohydrate</strong></span><span>${carbs || 0}g</span></div>
-            <div class="nutrition-row indent"><span>Dietary Fibre</span><span>${fiber || 0}g</span></div>
-            <div class="nutrition-row"><span><strong>Total Fat</strong></span><span>${fat || 0}g</span></div>
-            <div class="nutrition-row"><span><strong>Sodium</strong></span><span>${sodium || 0}mg</span></div>
-            <div class="nutrition-divider thick"></div>
-            ${coverage ? `<div class="nutrition-coverage">Estimated from ${coverage}% of ingredients</div>` : ''}
-        </div>
-    </section>`;
-}
+        </section>`;
+    }
 
     function renderTags(tags) {
         if (!tags || !tags.length) return '';
@@ -402,15 +454,366 @@
         return `<div class="recipe-tags">${chips}</div>`;
     }
 
-    function renderRelated(related) {
-        if (!related || !related.length) return '';
-        const cards = related.map(r =>
-            `<a href="recipe.html?id=${encodeURIComponent(r.id)}" class="related-card">${escHtml(r.title || r.id)}</a>`
-        ).join('');
-        return `<section class="related-recipes">
-            <h3>Related Recipes</h3>
-            <div class="related-cards">${cards}</div>
-        </section>`;
+    /* --------------------------------------------------
+       Tip Box
+    -------------------------------------------------- */
+    function renderTipBox(recipe, recipeIndex) {
+        if (!recipe.ingredients) return '';
+        
+        return '<div class="recipe-tip-box" id="recipeTipBox">' +
+            '<div class="tip-box-header">💡 Did You Know?</div>' +
+            '<div class="tip-box-content" id="tipBoxContent">' +
+            '<div class="tip-loading">Loading kitchen wisdom...</div>' +
+            '</div>' +
+            '<div class="tip-box-footer">' +
+            '<button class="tip-box-refresh" onclick="window.loadRandomTip()">🔄 Another Tip</button>' +
+            '<button class="tip-box-save" onclick="window.saveCurrentTip()">📌 Save to My Notebook</button>' +
+            '</div>' +
+            '</div>';
+    }
+
+    window.loadRandomTip = async function() {
+        function escHtmlForTip(str) {
+            if (!str) return '';
+            return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+        }
+        
+       function cleanNotesText(notes) {
+    if (!notes) return '';
+    
+    var cleaned = notes;
+    
+    // Remove all - ** and ** patterns
+    cleaned = cleaned.replace(/\s*-\s*\*\*/g, '');
+    cleaned = cleaned.replace(/\*\*/g, '');
+    
+    // Add line breaks before section headers (with and without colon)
+    cleaned = cleaned.replace(/(Texture & Flavor:|Usage Tips:|Substitutions:|Usage:|Tips:|Storage:|Pairings:)/g, '<br><strong>$1</strong>');
+    
+    // Fix "Usage\nTips:" pattern (line break instead of space)
+    cleaned = cleaned.replace(/Usage\s+Tips:/g, 'Usage Tips:');
+    
+    // Remove duplicate "Storage:" from storage field (handled separately)
+    cleaned = cleaned.replace(/Storage:\s*/g, '');
+    
+    // Fix missing spaces after periods
+    cleaned = cleaned.replace(/\.([A-Z])/g, '. $1');
+    
+    // Remove any remaining double colons
+    cleaned = cleaned.replace(/::/g, ':');
+    
+    // Clean up multiple spaces
+    cleaned = cleaned.replace(/\s+/g, ' ').trim();
+    
+    // Fix double line breaks
+    cleaned = cleaned.replace(/<br>\s*<br>/g, '<br>');
+    
+    return cleaned;
+}
+        
+        var container = document.getElementById('tipBoxContent');
+        if (!container) return;
+        
+        try {
+            // Load ingredient directory v7 (structured)
+            var tipInventory = window.tipInventory;
+            if (!tipInventory) {
+                var res = await fetch('json/ingredient_inventory_v7.json');
+                if (!res.ok) throw new Error('Failed to load ingredient directory');
+                tipInventory = await res.json();
+                window.tipInventory = tipInventory;
+            }
+            
+// Get all ingredients from the current recipe (from the page)
+var ingredientsList = [];
+document.querySelectorAll('.ingredients li').forEach(function(li) {
+    // Skip heading rows
+    if (li.classList.contains('ingredient-heading')) return;
+    
+    // Get all spans within the li
+    var spans = li.querySelectorAll('span');
+    var ingredientName = '';
+    
+    // Look for the ingredient name (usually after quantity and unit)
+    for (var s = 0; s < spans.length; s++) {
+        var spanText = spans[s].innerText || '';
+        // Skip quantity spans (they have class ingredient-quantity)
+        if (spans[s].classList.contains('ingredient-quantity')) continue;
+        // Skip notes spans
+        if (spans[s].classList.contains('ingredient-notes')) continue;
+        // This is likely the ingredient name
+        if (spanText.trim().length > 0) {
+            ingredientName = spanText.trim().toLowerCase();
+            break;
+        }
+    }
+    
+    // If no span found, try parsing the text content
+    if (!ingredientName) {
+        var text = li.innerText || '';
+        // Remove quantity and unit patterns
+        text = text.replace(/^\d+[\d\/\s]*\s*/, ''); // Remove number
+        text = text.replace(/^g\s|^ml\s|^kg\s|^cup\s|^tbsp\s|^tsp\s|^oz\s/i, ''); // Remove unit
+        ingredientName = text.trim().toLowerCase();
+    }
+    
+    // Clean up the ingredient name
+    ingredientName = ingredientName.replace(/[\(\)]/g, '').trim();
+    
+    // Skip if too short or in pantry staples
+    if (ingredientName.length < 3) return;
+    
+    var isStaple = false;
+    for (var st = 0; st < PANTRY_STAPLES.length; st++) {
+        if (PANTRY_STAPLES[st] === ingredientName || ingredientName.includes(PANTRY_STAPLES[st])) {
+            isStaple = true;
+            break;
+        }
+    }
+    
+    if (!isStaple && ingredientsList.indexOf(ingredientName) === -1) {
+        ingredientsList.push(ingredientName);
+    }
+});
+
+console.log('Detected ingredients:', ingredientsList);
+            
+            // Find matching ingredient in directory
+            var matches = [];
+            for (var i = 0; i < ingredientsList.length; i++) {
+                for (var ing in tipInventory) {
+                    if (ing.toLowerCase().indexOf(ingredientsList[i]) !== -1 || 
+                        ingredientsList[i].indexOf(ing.toLowerCase()) !== -1) {
+                        matches.push({ name: ing, data: tipInventory[ing] });
+                    }
+                }
+            }
+            
+            if (matches.length === 0) {
+                container.innerHTML = '<p class="tip-no-results">No tips available for ingredients in this recipe.</p>';
+                return;
+            }
+            
+            // Pick random tip
+            var random = matches[Math.floor(Math.random() * matches.length)];
+            currentTipData = random;
+            
+            var html = '<div class="tip-ingredient">🍽️ <strong>' + escHtmlForTip(random.name) + '</strong>';
+            if (random.data.aka && random.data.aka.length) {
+                html += ' <span class="tip-aka">(' + random.data.aka.join(', ') + ')</span>';
+            }
+            html += '</div>';
+            
+            // PURPOSE - what it does
+            if (random.data.purpose) {
+                html += '<div class="tip-purpose"><strong>🎯 Purpose:</strong> ' + escHtmlForTip(random.data.purpose) + '</div>';
+            }
+            
+           // USAGE TIPS - clean up
+if (random.data.usageTips) {
+    var cleanUsage = random.data.usageTips
+        .replace(/\*\*/g, '')
+        .replace(/Usage:/g, '')
+        .trim();
+    html += '<div class="tip-usage"><strong>💡 Usage:</strong> ' + escHtmlForTip(cleanUsage) + '</div>';
+}
+            
+            // STORAGE - clean up any remaining **
+if (random.data.storage) {
+    var cleanStorage = random.data.storage
+        .replace(/\*\*/g, '')
+        .replace(/Storage:/i, '')
+        .trim();
+    html += '<div class="tip-storage"><strong>📦 Storage:</strong> ' + escHtmlForTip(cleanStorage) + '</div>';
+}
+            
+            // SUBSTITUTES - what to use instead
+            if (random.data.substitutes) {
+                html += '<div class="tip-substitutes"><strong>🔄 Substitute:</strong> ' + escHtmlForTip(random.data.substitutes) + '</div>';
+            }
+            
+// MAIN NOTES - clean up
+if (random.data.notes && random.data.notes.trim()) {
+    var cleanNote = cleanNotesText(random.data.notes);
+    // If the note starts with the ingredient name, remove duplicate
+    if (cleanNote.indexOf(random.name.toLowerCase()) === 0) {
+        cleanNote = cleanNote.substring(random.name.length).trim();
+        cleanNote = cleanNote.replace(/^is\s+|^are\s+/, '');
+    }
+    // Capitalize first letter
+    cleanNote = cleanNote.charAt(0).toUpperCase() + cleanNote.slice(1);
+    html += '<div class="tip-notes"><strong>📝 Notes:</strong> ' + cleanNote + '</div>';
+}
+
+// NUTRITION (separate section - keep this)
+if (random.data.nutrition && random.data.nutrition.calories) {
+    html += '<div class="tip-nutrition"><strong>⚖️ Nutrition:</strong> ' + escHtmlForTip(random.data.nutrition.calories);
+    if (random.data.nutrition.fat) html += ' | Fat: ' + escHtmlForTip(random.data.nutrition.fat);
+    if (random.data.nutrition.carbohydrates) html += ' | Carbs: ' + escHtmlForTip(random.data.nutrition.carbohydrates);
+    if (random.data.nutrition.protein) html += ' | Protein: ' + escHtmlForTip(random.data.nutrition.protein);
+    html += '</div>';
+}
+            
+            container.innerHTML = html;
+            
+        } catch(e) {
+            console.warn('Tip box error:', e);
+            container.innerHTML = '<p class="tip-no-results">Tips coming soon! Could not load ingredient data.</p>';
+        }
+    };
+    
+    window.saveCurrentTip = function() {
+        if (!currentTipData) {
+            alert('No tip to save. Click "Another Tip" first.');
+            return;
+        }
+        
+        var savedTips = JSON.parse(localStorage.getItem('ajpc_saved_tips') || '[]');
+        var newTip = {
+            id: Date.now(),
+            recipeId: currentRecipeId,
+            recipeTitle: currentRecipeTitle,
+            ingredient: currentTipData.name,
+            tip: currentTipData.data.notes ? currentTipData.data.notes.substring(0, 500) : '',
+            substitute: currentTipData.data.substitutes ? currentTipData.data.substitutes : '',
+            purpose: currentTipData.data.purpose ? currentTipData.data.purpose : '',
+            savedAt: new Date().toISOString().split('T')[0]
+        };
+        savedTips.unshift(newTip);
+        localStorage.setItem('ajpc_saved_tips', JSON.stringify(savedTips));
+        alert('✓ Tip saved to your personal notebook!');
+    };
+
+    /* --------------------------------------------------
+       Related Recipes (Manual + Ingredient-based)
+    -------------------------------------------------- */
+    function getRelatedByIngredients(recipe, allRecipes, maxResults) {
+        maxResults = maxResults || 3;
+        if (!recipe.ingredients || !allRecipes || allRecipes.length === 0) return [];
+        
+        // Get significant ingredients from current recipe (excluding pantry staples)
+        var currentIngredients = [];
+        for (var i = 0; i < recipe.ingredients.length; i++) {
+            var ing = recipe.ingredients[i];
+            if (ing.heading) continue;
+            
+            var item = (ing.item || ing.name || '').toLowerCase().trim();
+            if (!item) continue;
+            
+            var isStaple = false;
+            for (var s = 0; s < PANTRY_STAPLES.length; s++) {
+                if (PANTRY_STAPLES[s] === item || item.includes(PANTRY_STAPLES[s])) {
+                    isStaple = true;
+                    break;
+                }
+            }
+            
+            if (!isStaple && currentIngredients.indexOf(item) === -1) {
+                currentIngredients.push(item);
+            }
+        }
+        
+        if (currentIngredients.length === 0) return [];
+        
+        // Score other recipes by ingredient overlap
+        var scored = [];
+        for (var r = 0; r < allRecipes.length; r++) {
+            var otherRecipe = allRecipes[r];
+            if (otherRecipe.id === recipe.id) continue;
+            
+            var otherIngredients = [];
+            if (otherRecipe.ingredients) {
+                for (var j = 0; j < otherRecipe.ingredients.length; j++) {
+                    var oing = otherRecipe.ingredients[j];
+                    if (oing.heading) continue;
+                    
+                    var oitem = (oing.item || oing.name || '').toLowerCase().trim();
+                    if (!oitem) continue;
+                    
+                    var isStapleOther = false;
+                    for (var s = 0; s < PANTRY_STAPLES.length; s++) {
+                        if (PANTRY_STAPLES[s] === oitem || oitem.includes(PANTRY_STAPLES[s])) {
+                            isStapleOther = true;
+                            break;
+                        }
+                    }
+                    
+                    if (!isStapleOther && otherIngredients.indexOf(oitem) === -1) {
+                        otherIngredients.push(oitem);
+                    }
+                }
+            }
+            
+            // Count matching ingredients
+            var matchCount = 0;
+            for (var c = 0; c < currentIngredients.length; c++) {
+                for (var o = 0; o < otherIngredients.length; o++) {
+                    if (otherIngredients[o].indexOf(currentIngredients[c]) !== -1 || 
+                        currentIngredients[c].indexOf(otherIngredients[o]) !== -1) {
+                        matchCount++;
+                        break;
+                    }
+                }
+            }
+            
+            if (matchCount > 0) {
+                scored.push({
+                    recipe: otherRecipe,
+                    matchCount: matchCount
+                });
+            }
+        }
+        
+        // Sort by match count (highest first) and take top results
+        scored.sort(function(a, b) { return b.matchCount - a.matchCount; });
+        var topResults = scored.slice(0, maxResults);
+        
+        return topResults.map(function(s) { return s.recipe; });
+    }
+
+    function renderRelated(recipe, recipeIndex) {
+        // First try manual related array from JSON
+        var manualRelated = recipe.related || [];
+        
+        var relatedRecipes = [];
+        
+        // Add manual related first
+        for (var m = 0; m < manualRelated.length; m++) {
+            relatedRecipes.push(manualRelated[m]);
+        }
+        
+        // If we have fewer than 3 manual related, try ingredient-based suggestions
+        if (relatedRecipes.length < 3 && recipeIndex && recipeIndex.length > 0) {
+            var suggested = getRelatedByIngredients(recipe, recipeIndex, 3 - relatedRecipes.length);
+            for (var s = 0; s < suggested.length; s++) {
+                // Check if this recipe is already in manual related
+                var alreadyExists = false;
+                for (var e = 0; e < relatedRecipes.length; e++) {
+                    if (relatedRecipes[e].id === suggested[s].id) {
+                        alreadyExists = true;
+                        break;
+                    }
+                }
+                if (!alreadyExists) {
+                    relatedRecipes.push({
+                        id: suggested[s].id,
+                        title: suggested[s].title
+                    });
+                }
+            }
+        }
+        
+        if (relatedRecipes.length === 0) return '';
+        
+        var cards = '';
+        for (var r = 0; r < relatedRecipes.length; r++) {
+            cards += '<a href="recipe.html?id=' + encodeURIComponent(relatedRecipes[r].id) + '" class="related-card">' + escHtml(relatedRecipes[r].title || relatedRecipes[r].id) + '</a>';
+        }
+        
+        return '<section class="related-recipes">' +
+            '<h3>You Might Also Like</h3>' +
+            '<div class="related-cards">' + cards + '</div>' +
+            '</section>';
     }
 
     function renderError(msg, container) {
@@ -443,10 +846,10 @@
     function setupToolbar(recipe) {
         // Shared multiplier — used by both scaler and shopping list
         var multiplier = 1;
-		
-		// Force reset display to 1x on page load
-		var scalerDisp = document.getElementById('scalerDisplay');
-		if (scalerDisp) scalerDisp.textContent = '1x';
+        
+        // Force reset display to 1x on page load
+        var scalerDisp = document.getElementById('scalerDisplay');
+        if (scalerDisp) scalerDisp.textContent = '1x';
 
         // Cook Mode
         var cookBtn = document.getElementById('cookModeBtn');
@@ -455,10 +858,10 @@
         }
 
         // Ingredient Scaler
-		var scalerUp   = document.getElementById('scalerUp');
-		var scalerDown  = document.getElementById('scalerDown');
-		scalerDisp  = document.getElementById('scalerDisplay');
-		var scalerInfo  = document.getElementById('scalerInfoContainer');
+        var scalerUp   = document.getElementById('scalerUp');
+        var scalerDown = document.getElementById('scalerDown');
+        scalerDisp = document.getElementById('scalerDisplay');
+        var scalerInfo = document.getElementById('scalerInfoContainer');
 
         // Parse original servings
         var baseServings = 1;
@@ -484,7 +887,7 @@
             baseTotalMinutes = basePrepMinutes + baseCookMinutes;
         }
 
-                function updateScale() {
+        function updateScale() {
             scalerDisp.textContent = multiplier + 'x';
 
             // Update ingredient quantities
@@ -517,7 +920,7 @@
                         // Batch-baked: calculate how many rounds of baking needed
                         var perBatch = parseInt(recipe.yieldPerBatch) || baseServings;
                         var totalBatches = Math.ceil(scaledServings / perBatch);
-                        var batchesPerRound = 2; // assume 2 trays fit in a standard oven
+                        var batchesPerRound = 2;
                         var rounds = Math.ceil(totalBatches / batchesPerRound);
                         var batchCookMin = baseCookMinutes;
                         var totalBatchCookMin = rounds * batchCookMin;
@@ -525,7 +928,7 @@
                         var totalDiff = totalBatchTimeMin - baseTotalMinutes;
 
                         infoHtml += '• Cook time: <strong>' + batchCookMin + ' min per batch</strong><br>';
-                        infoHtml += '• Batches needed: <strong>' + totalBatches + '</strong> (' + perBatch + ' per batch, ' + rounds + ' round' + (rounds !== 1 ? 's' : '') + ' in the oven)</span><br>';
+                        infoHtml += '• Batches needed: <strong>' + totalBatches + '</strong> (' + perBatch + ' per batch, ' + rounds + ' round' + (rounds !== 1 ? 's' : '') + ' in the oven)<br>';
                         infoHtml += '• Total cook time: <strong>~' + totalBatchCookMin + ' min</strong><br>';
                         infoHtml += '• Total time: <strong>~' + totalBatchTimeMin + ' min</strong>';
                         if (Math.abs(totalDiff) >= 5) {
@@ -716,14 +1119,14 @@
     }
 
     function formatNum(n) {
-        const fracs = { 0.25: '1/4', 0.5: '1/2', 0.75: '3/4', 0.33: '1/3', 0.67: '2/3', 0.125: '1/8' };
-        const frac = fracs[Math.round(n * 1000) / 1000];
+        var fracs = { 0.25: '1/4', 0.5: '1/2', 0.75: '3/4', 0.33: '1/3', 0.67: '2/3', 0.125: '1/8' };
+        var frac = fracs[Math.round(n * 1000) / 1000];
         if (frac && Number.isInteger(Math.floor(n))) {
-            const whole = Math.floor(n);
-            const remainder = Math.round((n - whole) * 1000) / 1000;
-            const fracPart = fracs[remainder];
+            var whole = Math.floor(n);
+            var remainder = Math.round((n - whole) * 1000) / 1000;
+            var fracPart = fracs[remainder];
             if (whole === 0) return fracPart || String(Math.round(n * 100) / 100);
-            if (fracPart) return `${whole} ${fracPart}`;
+            if (fracPart) return whole + ' ' + fracPart;
         }
         return String(Math.round(n * 100) / 100);
     }
@@ -816,4 +1219,4 @@
 
     window.recipeRenderer = { fetchRecipe };
 
-})();
+})();f

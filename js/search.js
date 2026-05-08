@@ -2,6 +2,7 @@
    SEARCH — AJPC Kitchen Notebook
    Full text search + Smart ingredient search (cook with what you have)
    FIXED: Synonym matching for primary ingredients
+   ADDED: Popular tags loading
 ========================================================= */
 
 (function () {
@@ -78,6 +79,9 @@
         searchInput.addEventListener('keydown', function(e) {
             if (e.key === 'Escape') searchInput.value = '';
         });
+        
+        // Load popular tags
+        loadPopularTags();
     }
 
     async function getFullRecipe(id) {
@@ -464,6 +468,40 @@
             .replace(/</g, '&lt;')
             .replace(/>/g, '&gt;')
             .replace(/"/g, '&quot;');
+    }
+    
+    async function loadPopularTags() {
+        try {
+            const res = await fetch('json/recipe-index.json');
+            const recipes = await res.json();
+            
+            // Count tag frequencies
+            const tagCounts = {};
+            recipes.forEach(recipe => {
+                (recipe.tags || []).forEach(tag => {
+                    tagCounts[tag] = (tagCounts[tag] || 0) + 1;
+                });
+            });
+            
+            // Get top 12 tags
+            const topTags = Object.entries(tagCounts)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 12)
+                .map(([tag]) => tag);
+            
+            const container = document.getElementById('popularTagsList');
+            if (container) {
+                container.innerHTML = topTags.map(tag => 
+                    `<a href="search.html?q=${encodeURIComponent(tag)}" class="popular-tag">#${escHtml(tag)}</a>`
+                ).join('');
+            }
+        } catch(e) {
+            console.warn('Could not load popular tags');
+            const container = document.getElementById('popularTagsList');
+            if (container) {
+                container.innerHTML = '<span class="tag-skeleton">No tags found</span>';
+            }
+        }
     }
 
 })();

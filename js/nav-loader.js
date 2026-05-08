@@ -2,7 +2,8 @@
    NAV LOADER — AJPC Kitchen Notebook
    Fixed: graceful fallback if fetch fails (file:// protocol),
    proper search integration, no phantom errors.
-   Added: active page highlighting for nav pills and links.
+   Added: active page highlighting for nav pills and links,
+   breadcrumb trail on all pages.
 ========================================================= */
 
 (function () {
@@ -66,6 +67,7 @@
         initBackToTop();
         initDarkMode();
         highlightCurrentPage();
+        generateBreadcrumb();
     }
 
     /* --------------------------------------------------
@@ -336,6 +338,48 @@
                 link.style.borderColor = 'var(--border-copper)';
             }
         });
+    }
+
+    /* --------------------------------------------------
+       Breadcrumb Trail
+       Generates a breadcrumb trail for all pages
+    -------------------------------------------------- */
+    function generateBreadcrumb() {
+        const path = window.location.pathname;
+        const page = path.split('/').pop().replace('.html', '');
+        const pageName = page.charAt(0).toUpperCase() + page.slice(1);
+        
+        let breadcrumbHtml = '<div class="breadcrumb">';
+        breadcrumbHtml += '<a href="index.html">Home</a> <span>/</span> ';
+        
+        if (page === 'search') {
+            const query = new URLSearchParams(window.location.search).get('q');
+            breadcrumbHtml += `<span>Search</span>`;
+            if (query) breadcrumbHtml += ` <span>/</span> <span>${escHtml(query)}</span>`;
+        } else if (page === 'measurements') {
+            breadcrumbHtml += `<span>Reference</span> <span>/</span> <span>Measurements</span>`;
+        } else if (page === 'culinary-terms') {
+            breadcrumbHtml += `<span>Reference</span> <span>/</span> <span>Culinary Terms</span>`;
+        } else if (page === 'breadtips') {
+            breadcrumbHtml += `<span>Reference</span> <span>/</span> <span>Bread Tips</span>`;
+        } else if (page === 'gallery') {
+            breadcrumbHtml += `<span>Gallery</span>`;
+        } else if (page === 'recipe-builder') {
+            breadcrumbHtml += `<span>Recipe Builder</span>`;
+        } else if (page === 'print-all' || page === 'print-all-recipes') {
+            breadcrumbHtml += `<span>Print All</span>`;
+        } else if (page === '' || page === 'index') {
+            breadcrumbHtml = '<div class="breadcrumb"><span>Home</span></div>';
+        } else {
+            breadcrumbHtml += `<span>${escHtml(pageName)}</span>`;
+        }
+        
+        breadcrumbHtml += '</div>';
+        
+        const mainContent = document.querySelector('main');
+        if (mainContent && !document.querySelector('.breadcrumb')) {
+            mainContent.insertAdjacentHTML('afterbegin', breadcrumbHtml);
+        }
     }
 
 })();
