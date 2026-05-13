@@ -4,7 +4,7 @@
 
         <!-- Top Row: Brand + Search + Controls -->
         <div class="nav-top-row">
-            <a href="index.html" class="nav-brand">Ana <span>&</span> John's Kitchen</a>
+            <a href="index.html" class="nav-brand" aria-label="Home - Ana & John's Kitchen Notebook">Ana <span>&</span> John's Kitchen</a>
 
             <div class="nav-search">
                 <svg class="search-icon" width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true">
@@ -16,8 +16,8 @@
             </div>
 
             <div class="nav-controls">
-                <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle theme" title="Toggle theme">&#9790;</button>
-                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-expanded="false">Menu</button>
+                <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle dark mode" title="Switch between light and dark theme">&#9790;</button>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-expanded="false" aria-label="Menu" title="Open navigation menu">Menu</button>
             </div>
         </div>
 
@@ -26,217 +26,223 @@
 
             <!-- Bread -->
             <div class="nav-group">
-                <span class="nav-pill" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Bread</span>
+                <span class="nav-pill" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Bread recipes">Bread</span>
                 <div class="dropdown" role="menu">
                     <h4>Bread</h4>
-                    <a href="recipe.html?id=focaccia" role="menuitem">Focaccia</a>
-                    <a href="recipe.html?id=focaccia-high" role="menuitem">Focaccia — High Hydration</a>
-                    <a href="recipe.html?id=highhydraciab" role="menuitem">Airy High-Hydration Ciabatta</a>
-                    <a href="recipe.html?id=swbtm" role="menuitem">Soft White Bread (Tangzhong)</a>
-                    <a href="recipe.html?id=swbtm2" role="menuitem">Soft White Bread 2 (Tangzhong)</a>
-                    <a href="recipe.html?id=tangzhongseed" role="menuitem">Tangzhong Grain & Seed Bread</a>
-                    <a href="recipe.html?id=darkrye" role="menuitem">Dark Rye</a>
-                    <a href="recipe.html?id=turkishbread" role="menuitem">Turkish Bread</a>
-                    <a href="recipe.html?id=garlicbread" role="menuitem">Garlic Butter Crusty Bread</a>
+                    <a href="recipe.html?id=focaccia" role="menuitem" aria-label="Focaccia recipe">Focaccia</a>
+                    <a href="recipe.html?id=focaccia-high" role="menuitem" aria-label="High hydration focaccia recipe">Focaccia — High Hydration</a>
+                    <a href="recipe.html?id=highhydraciab" role="menuitem" aria-label="Airy high hydration ciabatta recipe">Airy High-Hydration Ciabatta</a>
+                    <a href="recipe.html?id=swbtm" role="menuitem" aria-label="Soft white bread with Tangzhong method">Soft White Bread (Tangzhong)</a>
+                    <a href="recipe.html?id=swbtm2" role="menuitem" aria-label="Soft white bread 2 with Tangzhong method">Soft White Bread 2 (Tangzhong)</a>
+                    <a href="recipe.html?id=tangzhongseed" role="menuitem" aria-label="Tangzhong grain and seed bread recipe">Tangzhong Grain & Seed Bread</a>
+                    <a href="recipe.html?id=darkrye" role="menuitem" aria-label="Dark rye bread recipe">Dark Rye</a>
+                    <a href="recipe.html?id=turkishbread" role="menuitem" aria-label="Turkish bread recipe">Turkish Bread</a>
+                    <a href="recipe.html?id=garlicbread" role="menuitem" aria-label="Garlic butter crusty bread recipe">Garlic Butter Crusty Bread</a>
                     <hr>
                     <h4>Buns & Rolls</h4>
-                    <a href="recipe.html?id=hamburger" role="menuitem">Hamburger Buns</a>
-                    <a href="recipe.html?id=hotdog" role="menuitem">Hot Dog Buns</a>
-                    <a href="recipe.html?id=sub" role="menuitem">Sub Buns</a>
+                    <a href="recipe.html?id=hamburger" role="menuitem" aria-label="Hamburger buns recipe">Hamburger Buns</a>
+                    <a href="recipe.html?id=hotdog" role="menuitem" aria-label="Hot dog buns recipe">Hot Dog Buns</a>
+                    <a href="recipe.html?id=sub" role="menuitem" aria-label="Sub buns recipe">Sub Buns</a>
                     <hr>
                     <h4>Pastry & Dough</h4>
-                    <a href="recipe.html?id=meatpie" role="menuitem">Aussie Meat Pie</a>
-                    <a href="recipe.html?id=sausageroll" role="menuitem">Aussie Sausage Roll</a>
-                    <a href="recipe.html?id=tomatoflan" role="menuitem">Tomato & Olive Flan</a>
-                    <a href="recipe.html?id=bananabread" role="menuitem">Banana Bread</a>
-                    <a href="recipe.html?id=chouxpastry" role="menuitem">Choux Pastry</a>
-                    <a href="recipe.html?id=pizzadough" role="menuitem">Pizza Dough</a>
-                    <a href="recipe.html?id=sourdoughcinnrolls" role="menuitem">Sourdough Cinnamon Rolls</a>
+                    <a href="recipe.html?id=meatpie" role="menuitem" aria-label="Aussie meat pie recipe">Aussie Meat Pie</a>
+                    <a href="recipe.html?id=sausageroll" role="menuitem" aria-label="Aussie sausage roll recipe">Aussie Sausage Roll</a>
+                    <a href="recipe.html?id=tomatoflan" role="menuitem" aria-label="Tomato and olive flan recipe">Tomato & Olive Flan</a>
+                    <a href="recipe.html?id=bananabread" role="menuitem" aria-label="Banana bread recipe">Banana Bread</a>
+                    <a href="recipe.html?id=chouxpastry" role="menuitem" aria-label="Choux pastry recipe">Choux Pastry</a>
+                    <a href="recipe.html?id=pizzadough" role="menuitem" aria-label="Pizza dough recipe">Pizza Dough</a>
+                    <a href="recipe.html?id=sourdoughcinnrolls" role="menuitem" aria-label="Sourdough cinnamon rolls recipe">Sourdough Cinnamon Rolls</a>
                 </div>
             </div>
 
             <!-- Biscuits -->
             <div class="nav-group">
-                <span class="nav-pill" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Biscuits</span>
+                <span class="nav-pill" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Biscuit recipes">Biscuits</span>
                 <div class="dropdown" role="menu">
-                    <a href="recipe.html?id=traditionalanzacbiscuits" role="menuitem">ANZAC Biscuits</a>
-                    <a href="recipe.html?id=doublechocolatechipcookies" role="menuitem">Choc Chip Cookies</a>
+                    <a href="recipe.html?id=traditionalanzacbiscuits" role="menuitem" aria-label="Traditional ANZAC biscuits recipe">ANZAC Biscuits</a>
+                    <a href="recipe.html?id=doublechocolatechipcookies" role="menuitem" aria-label="Double chocolate chip cookies recipe">Choc Chip Cookies</a>
                 </div>
             </div>
 
             <!-- Entree -->
             <div class="nav-group">
-                <span class="nav-pill" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Entree</span>
+                <span class="nav-pill" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Entree recipes">Entree</span>
                 <div class="dropdown" role="menu">
-                    <a href="recipe.html?id=mushroomcups" role="menuitem">Mushroom Cups</a>
+                    <a href="recipe.html?id=mushroomcups" role="menuitem" aria-label="Mushroom cups recipe">Mushroom Cups</a>
                 </div>
             </div>
 
             <!-- Dinner -->
             <div class="nav-group">
-                <span class="nav-pill" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Dinner</span>
+                <span class="nav-pill" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Dinner recipes">Dinner</span>
                 <div class="dropdown" role="menu">
-					<a href="recipe.html?id=apricotchicken" role="menuitem">Apricot Chicken</a>
-                    <a href="recipe.html?id=lasagne" role="menuitem">Beef Lasagne</a>
-                    <a href="recipe.html?id=beefstockpot" role="menuitem">Beef Stock Pot</a>
-                    <a href="recipe.html?id=beefstroganoff" role="menuitem">Beef Stroganoff</a>
-                    <a href="recipe.html?id=beefvindaloo" role="menuitem">Beef Vindaloo</a>
-                    <a href="recipe.html?id=butterchicken" role="menuitem">Butter Chicken</a>
-                    <a href="recipe.html?id=chickencacciatore" role="menuitem">Chicken Cacciatore</a>
-                    <a href="recipe.html?id=chickenmushroombaconpies" role="menuitem">Chicken & Bacon Pies</a>
-                    <a href="recipe.html?id=chickenshawarma" role="menuitem">Chicken Shawarma</a>
-                    <a href="recipe.html?id=chickenteriyaki" role="menuitem">Chicken Teriyaki</a>
-                    <a href="recipe.html?id=lambkorma" role="menuitem">Lamb Korma</a>
-                    <a href="recipe.html?id=lambvindaloo" role="menuitem">Lamb Vindaloo</a>
-                    <a href="recipe.html?id=mongolianbeef" role="menuitem">Mongolian Beef</a>
-                    <a href="recipe.html?id=mongolianlamb" role="menuitem">Mongolian Lamb</a>
-                    <a href="recipe.html?id=nachomince" role="menuitem">Nacho Mince</a>
-                    <a href="recipe.html?id=potatognocchi" role="menuitem">Potato Gnocchi</a>
-                    <a href="recipe.html?id=roganjosh" role="menuitem">Rogan Josh</a>
-                    <a href="recipe.html?id=sweetsourpork" role="menuitem">Sweet & Sour Pork</a>
+                    <a href="recipe.html?id=apricotchicken" role="menuitem" aria-label="Apricot chicken recipe">Apricot Chicken</a>
+                    <a href="recipe.html?id=lasagne" role="menuitem" aria-label="Beef lasagne recipe">Beef Lasagne</a>
+                    <a href="recipe.html?id=beefstockpot" role="menuitem" aria-label="Beef stock pot recipe">Beef Stock Pot</a>
+                    <a href="recipe.html?id=beefstroganoff" role="menuitem" aria-label="Beef stroganoff recipe">Beef Stroganoff</a>
+                    <a href="recipe.html?id=beefvindaloo" role="menuitem" aria-label="Beef vindaloo recipe">Beef Vindaloo</a>
+                    <a href="recipe.html?id=butterchicken" role="menuitem" aria-label="Butter chicken recipe">Butter Chicken</a>
+					<a href="recipe.html?id=currychicken" role="menuitem" aria-label="Curry chicken with coconut cream recipe">Curry Chicken</a>
+                    <a href="recipe.html?id=chickencacciatore" role="menuitem" aria-label="Chicken cacciatore recipe">Chicken Cacciatore</a>
+                    <a href="recipe.html?id=chickenmushroombaconpies" role="menuitem" aria-label="Chicken and bacon pies recipe">Chicken & Bacon Pies</a>
+                    <a href="recipe.html?id=chickenshawarma" role="menuitem" aria-label="Chicken shawarma recipe">Chicken Shawarma</a>
+                    <a href="recipe.html?id=chickenteriyaki" role="menuitem" aria-label="Chicken teriyaki recipe">Chicken Teriyaki</a>
+					<a href="recipe.html?id=honeysoychicken" role="menuitem" aria-label="Honey soy chicken recipe">Honey Soy Chicken</a>
+                    <a href="recipe.html?id=lambkorma" role="menuitem" aria-label="Lamb korma recipe">Lamb Korma</a>
+                    <a href="recipe.html?id=lambvindaloo" role="menuitem" aria-label="Lamb vindaloo recipe">Lamb Vindaloo</a>
+                    <a href="recipe.html?id=mongolianbeef" role="menuitem" aria-label="Mongolian beef recipe">Mongolian Beef</a>
+                    <a href="recipe.html?id=mongolianlamb" role="menuitem" aria-label="Mongolian lamb recipe">Mongolian Lamb</a>
+                    <a href="recipe.html?id=nachomince" role="menuitem" aria-label="Nacho mince recipe">Nacho Mince</a>
+                    <a href="recipe.html?id=potatognocchi" role="menuitem" aria-label="Potato gnocchi recipe">Potato Gnocchi</a>
+                    <a href="recipe.html?id=roganjosh" role="menuitem" aria-label="Rogan josh recipe">Rogan Josh</a>
+                    <a href="recipe.html?id=sweetsourpork" role="menuitem" aria-label="Sweet and sour pork recipe">Sweet & Sour Pork</a>
                 </div>
             </div>
 
             <!-- Filipino -->
             <div class="nav-group">
-                <span class="nav-pill" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Filipino</span>
+                <span class="nav-pill" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Filipino recipes">Filipino</span>
                 <div class="dropdown" role="menu">
-                    <a href="recipe.html?id=bulalo" role="menuitem">Bulalo (Beef Bone Marrow Soup)</a>
-                    <a href="recipe.html?id=filipinonoodles" role="menuitem">Pancit (Stir-Fried Noodles)</a>
-                    <a href="recipe.html?id=pancitbihon" role="menuitem">Pancit Bihon (Rice Noodles)</a>
-                    <a href="recipe.html?id=pancitcanton" role="menuitem">Pancit Canton (Egg Noodles)</a>
-                    <a href="recipe.html?id=porkcaldereta" role="menuitem">Pork Caldereta</a>
-                    <a href="recipe.html?id=filipinoportoccino" role="menuitem">Filipino Pork Toccino</a>
+                    <a href="recipe.html?id=bulalo" role="menuitem" aria-label="Bulalo beef bone marrow soup recipe">Bulalo (Beef Bone Marrow Soup)</a>
+                    <a href="recipe.html?id=filipinonoodles" role="menuitem" aria-label="Pancit stir-fried noodles recipe">Pancit (Stir-Fried Noodles)</a>
+                    <a href="recipe.html?id=pancitbihon" role="menuitem" aria-label="Pancit Bihon rice noodles recipe">Pancit Bihon (Rice Noodles)</a>
+                    <a href="recipe.html?id=pancitcanton" role="menuitem" aria-label="Pancit Canton egg noodles recipe">Pancit Canton (Egg Noodles)</a>
+                    <a href="recipe.html?id=porkcaldereta" role="menuitem" aria-label="Pork caldereta recipe">Pork Caldereta</a>
+                    <a href="recipe.html?id=filipinoportoccino" role="menuitem" aria-label="Filipino pork tocino recipe">Filipino Pork Toccino</a>
                 </div>
             </div>
 
             <!-- Dessert -->
-            <div class="nav-group">
-                <span class="nav-pill" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Dessert</span>
-                <div class="dropdown" role="menu">
-                    <a href="recipe.html?id=applepie" role="menuitem">Apple Pie</a>
-                    <a href="recipe.html?id=applecinnscrolls" role="menuitem">Apple Cinnamon Scrolls</a>
-                    <a href="recipe.html?id=apricotflan" role="menuitem">Apricot Flan</a>
-					<a href="recipe.html?id=bananacake" role="menuitem">Banana Cake</a>
-                    <a href="recipe.html?id=classiccarrotcake" role="menuitem">Carrot Cake</a>
-                    <a href="recipe.html?id=plaincheesecakeclassicnobake" role="menuitem">Cheesecake — Plain No Bake</a>
-                    <a href="recipe.html?id=baked-cheesecake" role="menuitem">Cheesecake — Baked</a>
-                    <a href="recipe.html?id=theultimatechocolatemudcake" role="menuitem">Chocolate Mud Cake</a>
-                    <a href="recipe.html?id=chocolatemousse" role="menuitem">Chocolate Mousse</a>
-                    <a href="recipe.html?id=chocmuffins" role="menuitem">Chocolate Muffins</a>
-                    <a href="recipe.html?id=chocolaterumballs" role="menuitem">Chocolate Rum Balls</a>
-                    <a href="recipe.html?id=cinnbun" role="menuitem">Cinnamon Buns</a>
-                    <a href="recipe.html?id=cinntwists" role="menuitem">Cinnamon Twists</a>
-                    <a href="recipe.html?id=crepes" role="menuitem">Crepes</a>
-                    <a href="recipe.html?id=friandsop" role="menuitem">Orange & Poppyseed Friands</a>
-                    <a href="recipe.html?id=hummingbird" role="menuitem">Hummingbird</a>
-                    <a href="recipe.html?id=lamington" role="menuitem">Classic Lamington</a>
-                    <a href="recipe.html?id=lemoncoconut" role="menuitem">Lemon & Coconut Cake</a>
-                    <a href="recipe.html?id=lemonmeringuepie" role="menuitem">Lemon Meringue Pie</a>
-                    <a href="recipe.html?id=muffinmix" role="menuitem">Plain Muffin Mix</a>
-                    <a href="recipe.html?id=blueberrymuffins" role="menuitem">Blueberry Muffins</a>
-                    <a href="recipe.html?id=orangepoppyseed" role="menuitem">Orange & Poppyseed</a>
-                    <a href="recipe.html?id=stickydates" role="menuitem">Sticky Date Pudding</a>
-                    <a href="recipe.html?id=roulade" role="menuitem">Strawberry Roulade</a>
-                    <a href="recipe.html?id=tiramisu" role="menuitem">Tiramisu Gateau</a>
-                </div>
-            </div>
+<div class="nav-group">
+    <span class="nav-pill" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Dessert recipes">Dessert</span>
+    <div class="dropdown" role="menu">
+        <a href="recipe.html?id=applepie" role="menuitem" aria-label="Apple pie recipe">Apple Pie</a>
+        <a href="recipe.html?id=applecinnscrolls" role="menuitem" aria-label="Apple cinnamon scrolls recipe">Apple Cinnamon Scrolls</a>
+        <a href="recipe.html?id=apricotflan" role="menuitem" aria-label="Apricot flan recipe">Apricot Flan</a>
+        <a href="recipe.html?id=bananacake" role="menuitem" aria-label="Banana cake recipe">Banana Cake</a>
+        <a href="recipe.html?id=baked-cheesecake" role="menuitem" aria-label="Baked cheesecake recipe">Cheesecake — Baked</a>
+        <a href="recipe.html?id=plaincheesecakeclassicnobake" role="menuitem" aria-label="Classic no-bake cheesecake recipe">Cheesecake — Plain No Bake</a>
+        <a href="recipe.html?id=classiccarrotcake" role="menuitem" aria-label="Classic carrot cake recipe">Carrot Cake</a>
+        <a href="recipe.html?id=theultimatechocolatemudcake" role="menuitem" aria-label="Ultimate chocolate mud cake recipe">Chocolate Mud Cake</a>
+        <a href="recipe.html?id=chocolatemousse" role="menuitem" aria-label="Chocolate mousse recipe">Chocolate Mousse</a>
+        <a href="recipe.html?id=chocmuffins" role="menuitem" aria-label="Chocolate muffins recipe">Chocolate Muffins</a>
+		<a href="recipe.html?id=chocolatemugcake" role="menuitem" aria-label="Chocolate mug cake recipe">Chocolate Mug Cake</a>
+        <a href="recipe.html?id=chocolaterumballs" role="menuitem" aria-label="Chocolate rum balls recipe">Chocolate Rum Balls</a>
+        <a href="recipe.html?id=cinnbun" role="menuitem" aria-label="Cinnamon buns recipe">Cinnamon Buns</a>
+        <a href="recipe.html?id=cinntwists" role="menuitem" aria-label="Cinnamon twists recipe">Cinnamon Twists</a>
+        <a href="recipe.html?id=cremecaramel" role="menuitem" aria-label="Crème caramel recipe">Crème Caramel</a>
+        <a href="recipe.html?id=crepes" role="menuitem" aria-label="Crepes recipe">Crepes</a>
+        <a href="recipe.html?id=hummingbird" role="menuitem" aria-label="Hummingbird cake recipe">Hummingbird Cake</a>
+        <a href="recipe.html?id=lamington" role="menuitem" aria-label="Classic lamington recipe">Lamington</a>
+        <a href="recipe.html?id=lemoncoconut" role="menuitem" aria-label="Lemon and coconut cake recipe">Lemon & Coconut Cake</a>
+        <a href="recipe.html?id=lemonmeringuepie" role="menuitem" aria-label="Lemon meringue pie recipe">Lemon Meringue Pie</a>
+        <a href="recipe.html?id=blueberrymuffins" role="menuitem" aria-label="Blueberry muffins recipe">Muffins — Blueberry</a>
+        <a href="recipe.html?id=chocmuffins" role="menuitem" aria-label="Chocolate muffins recipe">Muffins — Chocolate</a>
+        <a href="recipe.html?id=muffinmix" role="menuitem" aria-label="Plain muffin mix recipe">Muffins — Plain Mix</a>
+        <a href="recipe.html?id=friandsop" role="menuitem" aria-label="Orange and poppyseed friands recipe">Orange & Poppyseed Friands</a>
+        <a href="recipe.html?id=orangepoppyseed" role="menuitem" aria-label="Orange and poppyseed cake recipe">Orange & Poppyseed Cake</a>
+        <a href="recipe.html?id=pancakesfortwo" role="menuitem" aria-label="Pancakes for Two recipe">Pancakes for Two</a>
+        <a href="recipe.html?id=stickydates" role="menuitem" aria-label="Sticky date pudding recipe">Sticky Date Pudding</a>
+        <a href="recipe.html?id=roulade" role="menuitem" aria-label="Strawberry roulade recipe">Strawberry Roulade</a>
+        <a href="recipe.html?id=tiramisu" role="menuitem" aria-label="Tiramisu gateau recipe">Tiramisu Gateau</a>
+    </div>
+</div>
 
             <!-- Sauces -->
             <div class="nav-group">
-                <span class="nav-pill" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Sauces</span>
+                <span class="nav-pill" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Sauce recipes">Sauces</span>
                 <div class="dropdown" role="menu">
-                    <a href="recipe.html?id=alfredosauce" role="menuitem">Alfredo Sauce</a>
-                    <a href="recipe.html?id=arrabbiatasauce" role="menuitem">Arrabbiata Sauce</a>
-                    <a href="recipe.html?id=chiligarlicoil" role="menuitem">Chili Garlic Oil</a>
-                    <a href="recipe.html?id=honeygarlicsauce" role="menuitem">Honey Garlic Sauce</a>
-                    <a href="recipe.html?id=kormapaste" role="menuitem">Korma Paste</a>
-                    <a href="recipe.html?id=marinarasauce" role="menuitem">Marinara Sauce</a>
-                    <a href="recipe.html?id=mongoliansauce" role="menuitem">Mongolian Sauce</a>
-                    <a href="recipe.html?id=mornaysauce" role="menuitem">Mornay / Cheese Sauce</a>
-                    <a href="recipe.html?id=pestosauce" role="menuitem">Pesto Sauce</a>
-                    <a href="recipe.html?id=redsauce" role="menuitem">Red Sauce</a>
-                    <a href="recipe.html?id=sataysauce" role="menuitem">Satay Sauce</a>
-                    <a href="recipe.html?id=sweetchilisauce" role="menuitem">Sweet Chili Sauce</a>
-                    <a href="recipe.html?id=sweetsoursauce_quick" role="menuitem">Sweet & Sour — Quick</a>
-                    <a href="recipe.html?id=sweetsoursauce_flex" role="menuitem">Sweet & Sour — Flex</a>
-                    <a href="recipe.html?id=sweetspicyorangesauce" role="menuitem">Sweet Spicy Orange Sauce</a>
-                    <a href="recipe.html?id=tacoseasoning" role="menuitem">Taco Seasoning</a>
-                    <a href="recipe.html?id=teriyakimarinade" role="menuitem">Teriyaki Marinade</a>
-                    <a href="recipe.html?id=teriyakisauce" role="menuitem">Teriyaki Sauce</a>
-                    <a href="recipe.html?id=vindaloopaste" role="menuitem">Vindaloo Paste</a>
-                    <a href="recipe.html?id=whitesauce" role="menuitem">White Sauce</a>
+                    <a href="recipe.html?id=alfredosauce" role="menuitem" aria-label="Alfredo sauce recipe">Alfredo Sauce</a>
+                    <a href="recipe.html?id=arrabbiatasauce" role="menuitem" aria-label="Arrabbiata sauce recipe">Arrabbiata Sauce</a>
+                    <a href="recipe.html?id=chiligarlicoil" role="menuitem" aria-label="Chili garlic oil recipe">Chili Garlic Oil</a>
+                    <a href="recipe.html?id=honeygarlicsauce" role="menuitem" aria-label="Honey garlic sauce recipe">Honey Garlic Sauce</a>
+                    <a href="recipe.html?id=kormapaste" role="menuitem" aria-label="Korma paste recipe">Korma Paste</a>
+                    <a href="recipe.html?id=marinarasauce" role="menuitem" aria-label="Marinara sauce recipe">Marinara Sauce</a>
+                    <a href="recipe.html?id=mongoliansauce" role="menuitem" aria-label="Mongolian sauce recipe">Mongolian Sauce</a>
+                    <a href="recipe.html?id=mornaysauce" role="menuitem" aria-label="Mornay cheese sauce recipe">Mornay / Cheese Sauce</a>
+                    <a href="recipe.html?id=pestosauce" role="menuitem" aria-label="Pesto sauce recipe">Pesto Sauce</a>
+                    <a href="recipe.html?id=redsauce" role="menuitem" aria-label="Red sauce recipe">Red Sauce</a>
+                    <a href="recipe.html?id=sataysauce" role="menuitem" aria-label="Satay sauce recipe">Satay Sauce</a>
+                    <a href="recipe.html?id=sweetchilisauce" role="menuitem" aria-label="Sweet chili sauce recipe">Sweet Chili Sauce</a>
+                    <a href="recipe.html?id=sweetsoursauce_quick" role="menuitem" aria-label="Quick sweet and sour sauce recipe">Sweet & Sour — Quick</a>
+                    <a href="recipe.html?id=sweetsoursauce_flex" role="menuitem" aria-label="Flexible sweet and sour sauce recipe">Sweet & Sour — Flex</a>
+                    <a href="recipe.html?id=sweetspicyorangesauce" role="menuitem" aria-label="Sweet spicy orange sauce recipe">Sweet Spicy Orange Sauce</a>
+                    <a href="recipe.html?id=tacoseasoning" role="menuitem" aria-label="Taco seasoning recipe">Taco Seasoning</a>
+                    <a href="recipe.html?id=teriyakimarinade" role="menuitem" aria-label="Teriyaki marinade recipe">Teriyaki Marinade</a>
+                    <a href="recipe.html?id=teriyakisauce" role="menuitem" aria-label="Teriyaki sauce recipe">Teriyaki Sauce</a>
+                    <a href="recipe.html?id=vindaloopaste" role="menuitem" aria-label="Vindaloo paste recipe">Vindaloo Paste</a>
+                    <a href="recipe.html?id=whitesauce" role="menuitem" aria-label="White sauce recipe">White Sauce</a>
                 </div>
             </div>
 
             <!-- Reference -->
             <div class="nav-group">
-                <span class="nav-pill" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Reference</span>
+                <span class="nav-pill" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Reference guides">Reference</span>
                 <div class="dropdown" role="menu">
-                    <a href="breadtips.html" role="menuitem">Bread Tips</a>
-                    <a href="cheesesaucetips.html" role="menuitem">Cheese Sauce Tips</a>
-                    <a href="culinaryterms.html" role="menuitem">Culinary Terms</a>
-                    <a href="gelatin-blooming-guide.html" role="menuitem">Gelatine Blooming Guide</a>
-                    <a href="ingredient_directory.html" role="menuitem">Ingredient Glossary</a>
-                    <a href="measurement.html" role="menuitem">Measurements</a>
-                    <a href="puffpastrymethods.html" role="menuitem">Puff Pastry Methods</a>
-                    <a href="tangzhongguide.html" role="menuitem">Tangzhong Guide</a>
+                    <a href="breadtips.html" role="menuitem" aria-label="Bread tips guide">Bread Tips</a>
+                    <a href="cheesesaucetips.html" role="menuitem" aria-label="Cheese sauce tips guide">Cheese Sauce Tips</a>
+                    <a href="culinaryterms.html" role="menuitem" aria-label="Culinary terms glossary">Culinary Terms</a>
+                    <a href="gelatin-blooming-guide.html" role="menuitem" aria-label="Gelatin blooming guide">Gelatine Blooming Guide</a>
+                    <a href="ingredient_directory.html" role="menuitem" aria-label="Ingredient glossary">Ingredient Glossary</a>
+                    <a href="measurement.html" role="menuitem" aria-label="Measurement conversions">Measurements</a>
+                    <a href="puffpastrymethods.html" role="menuitem" aria-label="Puff pastry methods guide">Puff Pastry Methods</a>
+                    <a href="tangzhongguide.html" role="menuitem" aria-label="Tangzhong method guide">Tangzhong Guide</a>
                 </div>
             </div>
 
             <!-- Stories -->
             <div class="nav-group">
-                <span class="nav-pill" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Stories</span>
+                <span class="nav-pill" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Stories">Stories</span>
                 <div class="dropdown" role="menu">
-                    <a href="friandstory.html" role="menuitem">The Friand Story</a>
+                    <a href="friandstory.html" role="menuitem" aria-label="The friand story">The Friand Story</a>
                 </div>
             </div>
 
             <!-- Bistro -->
             <div class="nav-group">
-                <span class="nav-pill" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Bistro</span>
+                <span class="nav-pill" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Bistro recipes">Bistro</span>
                 <div class="dropdown" role="menu">
                     <h4>Steaks</h4>
-                    <a href="recipe.html?id=bistro-brandymustardsteak" role="menuitem">Brandy Mustard Steak</a>
-                    <a href="recipe.html?id=bistro-carpetbag" role="menuitem">Carpet Bag</a>
-                    <a href="recipe.html?id=bistro-filetmignon" role="menuitem">Filet Mignon</a>
-                    <a href="recipe.html?id=bistro-mediterraneansteak" role="menuitem">Mediterranean Steak</a>
-                    <a href="recipe.html?id=bistro-reefandbeef" role="menuitem">Reef and Beef</a>
-                    <a href="recipe.html?id=bistro-steakboston" role="menuitem">Steak Boston</a>
+                    <a href="recipe.html?id=bistro-brandymustardsteak" role="menuitem" aria-label="Brandy mustard steak recipe">Brandy Mustard Steak</a>
+                    <a href="recipe.html?id=bistro-carpetbag" role="menuitem" aria-label="Carpet bag steak recipe">Carpet Bag</a>
+                    <a href="recipe.html?id=bistro-filetmignon" role="menuitem" aria-label="Filet mignon recipe">Filet Mignon</a>
+                    <a href="recipe.html?id=bistro-mediterraneansteak" role="menuitem" aria-label="Mediterranean steak recipe">Mediterranean Steak</a>
+                    <a href="recipe.html?id=bistro-reefandbeef" role="menuitem" aria-label="Reef and beef recipe">Reef and Beef</a>
+                    <a href="recipe.html?id=bistro-steakboston" role="menuitem" aria-label="Steak Boston recipe">Steak Boston</a>
                     <hr>
                     <h4>Chicken</h4>
-                    <a href="recipe.html?id=bistro-chickenkiev" role="menuitem">Chicken Kiev</a>
-                    <a href="recipe.html?id=bistro-chickenpapion" role="menuitem">Chicken Papion</a>
-                    <a href="recipe.html?id=bistro-chickenpicante" role="menuitem">Chicken Picante</a>
-                    <a href="recipe.html?id=bistro-chickenriverina" role="menuitem">Chicken Riverina</a>
-                    <a href="recipe.html?id=bistro-orangethaichicken" role="menuitem">Orange Thai Chicken</a>
-                    <a href="recipe.html?id=bistro-thaichicken" role="menuitem">Thai Chicken</a>
+                    <a href="recipe.html?id=bistro-chickenkiev" role="menuitem" aria-label="Chicken Kiev recipe">Chicken Kiev</a>
+                    <a href="recipe.html?id=bistro-chickenpapion" role="menuitem" aria-label="Chicken Papion recipe">Chicken Papion</a>
+                    <a href="recipe.html?id=bistro-chickenpicante" role="menuitem" aria-label="Chicken Picante recipe">Chicken Picante</a>
+                    <a href="recipe.html?id=bistro-chickenriverina" role="menuitem" aria-label="Chicken Riverina recipe">Chicken Riverina</a>
+                    <a href="recipe.html?id=bistro-orangethaichicken" role="menuitem" aria-label="Orange Thai chicken recipe">Orange Thai Chicken</a>
+                    <a href="recipe.html?id=bistro-thaichicken" role="menuitem" aria-label="Thai chicken recipe">Thai Chicken</a>
                     <hr>
                     <h4>Veal</h4>
-                    <a href="recipe.html?id=bistro-vealcordonbleu" role="menuitem">Veal Cordon Bleu</a>
-                    <a href="recipe.html?id=bistro-vealmadagascar" role="menuitem">Veal Madagascar</a>
-                    <a href="recipe.html?id=bistro-vealmozzarella" role="menuitem">Veal Mozzarella</a>
-                    <a href="recipe.html?id=bistro-vealoscar" role="menuitem">Veal Oscar</a>
-                    <a href="recipe.html?id=bistro-vealscaloppine" role="menuitem">Veal Scaloppine</a>
+                    <a href="recipe.html?id=bistro-vealcordonbleu" role="menuitem" aria-label="Veal cordon bleu recipe">Veal Cordon Bleu</a>
+                    <a href="recipe.html?id=bistro-vealmadagascar" role="menuitem" aria-label="Veal Madagascar recipe">Veal Madagascar</a>
+                    <a href="recipe.html?id=bistro-vealmozzarella" role="menuitem" aria-label="Veal mozzarella recipe">Veal Mozzarella</a>
+                    <a href="recipe.html?id=bistro-vealoscar" role="menuitem" aria-label="Veal Oscar recipe">Veal Oscar</a>
+                    <a href="recipe.html?id=bistro-vealscaloppine" role="menuitem" aria-label="Veal scaloppine recipe">Veal Scaloppine</a>
                     <hr>
                     <h4>Lamb</h4>
-                    <a href="recipe.html?id=bistro-lambcutlets" role="menuitem">Lamb Cutlets</a>
-                    <a href="recipe.html?id=bistro-rackoflamb" role="menuitem">Rack of Lamb</a>
+                    <a href="recipe.html?id=bistro-lambcutlets" role="menuitem" aria-label="Lamb cutlets recipe">Lamb Cutlets</a>
+                    <a href="recipe.html?id=bistro-rackoflamb" role="menuitem" aria-label="Rack of lamb recipe">Rack of Lamb</a>
                     <hr>
                     <h4>Other</h4>
-                    <a href="recipe.html?id=bistro-fishoftheday" role="menuitem">Fish of the Day</a>
+                    <a href="recipe.html?id=bistro-fishoftheday" role="menuitem" aria-label="Fish of the day recipe">Fish of the Day</a>
                     <hr>
                     <h4>Dessert</h4>
-                    <a href="recipe.html?id=bistro-pavlova" role="menuitem">Pavlova</a>
-                    <a href="recipe.html?id=bistro-profiteroles" role="menuitem">Profiteroles</a>
+                    <a href="recipe.html?id=bistro-pavlova" role="menuitem" aria-label="Pavlova recipe">Pavlova</a>
+                    <a href="recipe.html?id=bistro-profiteroles" role="menuitem" aria-label="Profiteroles recipe">Profiteroles</a>
                 </div>
             </div>
 
             <!-- Direct links -->
-            <a href="gallery.html" class="nav-direct">Gallery</a>
-            <a href="search.html" class="nav-direct">Search</a>
-            <a href="print-all.html" class="nav-direct">Print All</a>
-            <a href="recipe-builder.html" class="nav-direct accent" target="_blank" rel="noopener">Builder</a>
+            <a href="gallery.html" class="nav-direct" aria-label="Photo gallery">Gallery</a>
+            <a href="search.html" class="nav-direct" aria-label="Search recipes">Search</a>
+            <a href="print-all.html" class="nav-direct" aria-label="Print all recipes">Print All</a>
+            <a href="recipe-builder.html" class="nav-direct accent" target="_blank" rel="noopener" aria-label="Recipe builder tool (opens in new tab)">Builder</a>
         </nav>
 
     </div>

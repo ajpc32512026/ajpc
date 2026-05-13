@@ -1753,6 +1753,7 @@ footer {
 .footer-links {
     display: flex;
     gap: var(--sp-lg);
+    flex-wrap: wrap;
 }
 
 .footer-links a {
@@ -1764,6 +1765,21 @@ footer {
 
 .footer-links a:hover {
     color: var(--copper-warm);
+}
+
+/* Add separators between links */
+.footer-links a:not(:last-child)::after {
+    content: "|";
+    margin-left: var(--sp-lg);
+    color: var(--cream-faint);
+}
+
+/* Remove separator on mobile */
+@media (max-width: 600px) {
+    .footer-links a:not(:last-child)::after {
+        content: "";
+        margin-left: 0;
+    }
 }
 
 .print-btn {
@@ -1784,6 +1800,83 @@ footer {
 .print-btn:hover {
     background: var(--slate-mid);
     color: var(--cream);
+}
+
+/* Stats Container */
+.stats-container {
+    display: flex;
+    justify-content: center;
+    margin: var(--sp-3xl) 0;
+}
+
+.stats-card {
+    background: var(--surface-card);
+    border: 1px solid var(--border-mid);
+    border-radius: var(--r-lg);
+    padding: var(--sp-xl);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.stats-number {
+    font-size: 3rem;
+    font-family: var(--font-display);
+    color: var(--cream);
+    line-height: 1;
+    margin-bottom: var(--sp-xs);
+}
+
+.stats-label {
+    font-size: 0.8rem;
+    color: var(--cream-muted);
+}
+
+.stats-divider {
+    border: none;
+    border-top: 1px solid var(--border-dim);
+    margin: var(--sp-md) 0;
+}
+
+.stats-covers-label {
+    font-size: 0.85rem;
+    color: var(--cream-dim);
+    margin-bottom: var(--sp-sm);
+}
+
+.stats-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    justify-content: center;
+}
+
+.stats-tags span {
+    font-size: 0.72rem;
+    padding: 0.15rem 0.5rem;
+    background: var(--surface-2);
+    border: 1px solid var(--border-dim);
+    border-radius: 3px;
+    color: var(--cream-muted);
+}
+
+.stats-button {
+    display: block;
+    text-align: center;
+    padding: 0.6rem;
+    background: rgba(201, 125, 62, 0.12);
+    border: 1px solid var(--border-copper);
+    border-radius: 6px;
+    color: var(--copper-warm);
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.15s ease;
+}
+
+.stats-button:hover {
+    background: rgba(201, 125, 62, 0.22);
+    color: var(--copper-pale);
 }
 
 /* =========================================================

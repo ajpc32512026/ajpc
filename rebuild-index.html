@@ -1,95 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="utf-8">
-    <title>Rebuild Recipe Index</title>
-	<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2316161a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='28' font-weight='bold' fill='%23c97d3e'%3EAJ%3C/text%3E%3C/svg%3E">
-    <style>
-        body { font-family: sans-serif; max-width: 800px; margin: 2rem auto; padding: 1rem; }
-        button { padding: 0.75rem 1.5rem; font-size: 1rem; cursor: pointer; }
-        pre { background: #f5f5f5; padding: 1rem; border-radius: 4px; max-height: 400px; overflow-y: auto; }
-        .count { color: #666; margin: 1rem 0; }
-    </style>
+    <title>Create Clean Index</title>
 </head>
 <body>
-    <h1>Rebuild Recipe Index</h1>
-    <p>This reads all recipe JSON files and rebuilds <code>json/recipe-index.json</code> with correct categories, tags, and descriptions.</p>
-    <button onclick="rebuild()">Rebuild Index</button>
-    <p class="count" id="status"></p>
+    <h1>Creating Clean Recipe Index...</h1>
     <pre id="output"></pre>
-
     <script>
-    async function rebuild() {
-        var status = document.getElementById('status');
-        var output = document.getElementById('output');
-        status.textContent = 'Loading current index...';
+    const RECIPE_FILES = [
+        'alfredosauce', 'applecinnscrolls', 'applepie', 'apricotchicken', 'apricotflan',
+        'arrabbiatasauce', 'baked-cheesecake', 'bananabread', 'bananacake', 'beefstockpot',
+        'beefstroganoff', 'beefvindaloo', 'bistro-brandymustardsteak', 'bistro-carpetbag',
+        'bistro-chickenkiev', 'bistro-chickenpapion', 'bistro-chickenpicante', 'bistro-chickenriverina',
+        'bistro-filetmignon', 'bistro-fishoftheday', 'bistro-lambcutlets', 'bistro-mediterraneansteak',
+        'bistro-orangethaichicken', 'bistro-pavlova', 'bistro-profiteroles', 'bistro-rackoflamb',
+        'bistro-reefandbeef', 'bistro-steakboston', 'bistro-thaichicken', 'bistro-vealcordonbleu',
+        'bistro-vealmadagascar', 'bistro-vealmozzarella', 'bistro-vealoscar', 'bistro-vealscaloppine',
+        'blueberrymuffins', 'bulalo', 'butterchicken', 'chickencacciatore', 'chickenmushroombaconpies',
+        'chickenshawarma', 'chickenteriyaki', 'chiligarlicoil', 'chocmuffins', 'chocolatemousse',
+        'chocolaterumballs', 'chouxpastry', 'cinnbun', 'cinntwists', 'classiccarrotcake', 'crepes',
+        'darkrye', 'doublechocolatechipcookies', 'filipinonoodles', 'filipinoportoccino', 'focaccia',
+        'focaccia-high', 'friandsop', 'garlicbread', 'hamburger', 'highhydraciab', 'honeygarlicsauce',
+        'hotdog', 'hummingbird', 'kormapaste', 'lambkorma', 'lambvindaloo', 'lamington', 'lasagne',
+        'lemoncoconut', 'lemonmeringuepie', 'marinarasauce', 'meatpie', 'mongolianbeef', 'mongolianlamb',
+        'mongoliansauce', 'mornaysauce', 'muffinmix', 'mushroomcups', 'nachomince', 'orangepoppyseed',
+        'pancitbihon', 'pancitcanton', 'pestosauce', 'pizzadough', 'plaincheesecakeclassicnobake',
+        'porkcaldereta', 'potatognocchi', 'redsauce', 'roganjosh', 'roulade', 'sataysauce', 'sausageroll',
+        'sourdoughcinnrolls', 'stickydates', 'sub', 'swbtm', 'swbtm2', 'sweetchilisauce', 'sweetsourpork',
+        'sweetsoursauce_flex', 'sweetsoursauce_quick', 'sweetspicyorangesauce', 'tacoseasoning',
+        'tangzhongseed', 'teriyakimarinade', 'teriyakisauce', 'theultimatechocolatemudcake', 'tiramisu',
+        'tomatoflan', 'traditionalanzacbiscuits', 'turkishbread', 'vindaloopaste', 'whitesauce'
+    ];
 
-        // Load current index to get all recipe IDs
-        var currentIndex;
-        try {
-            var res = await fetch('json/recipe-index.json');
-            currentIndex = await res.json();
-        } catch(e) {
-            status.textContent = 'Error loading index: ' + e.message;
-            return;
-        }
-
-        var newIndex = [];
-        var errors = [];
-        var total = currentIndex.length;
-
-        for (var i = 0; i < currentIndex.length; i++) {
-            var entry = currentIndex[i];
-            status.textContent = 'Processing ' + (i + 1) + ' of ' + total + ': ' + entry.id;
+    async function build() {
+        const output = document.getElementById('output');
+        const cleanIndex = [];
+        
+        for (const id of RECIPE_FILES) {
             try {
-                var recipeRes = await fetch('data/recipes/' + entry.id + '.json');
-                if (!recipeRes.ok) {
-                    errors.push(entry.id + ': file not found');
-                    newIndex.push(entry); // keep old entry
-                    continue;
+                const res = await fetch(`data/recipes/${id}.json`);
+                if (res.ok) {
+                    const recipe = await res.json();
+                    cleanIndex.push({
+                        id: recipe.id,
+                        title: recipe.title,
+                        emoji: recipe.emoji || '',
+                        category: recipe.category || '',
+                        tags: recipe.tags || [],
+                        description: recipe.description || ''
+                    });
+                    output.innerHTML += `✅ ${id}\n`;
+                } else {
+                    output.innerHTML += `❌ ${id} - not found\n`;
                 }
-                var recipe = await recipeRes.json();
-                newIndex.push({
-                    id: recipe.id || entry.id,
-                    title: recipe.title || entry.title,
-                    category: recipe.category || '',
-                    description: recipe.description || '',
-                    tags: recipe.tags || [],
-                    emoji: recipe.emoji || ''
-                });
             } catch(e) {
-                errors.push(entry.id + ': ' + e.message);
-                newIndex.push(entry); // keep old entry
+                output.innerHTML += `❌ ${id} - error\n`;
             }
         }
-
-        // Sort alphabetically
-        newIndex.sort(function(a, b) {
-            return (a.title || '').localeCompare(b.title || '');
-        });
-
-        status.textContent = 'Done! ' + newIndex.length + ' recipes indexed. ' + (errors.length ? errors.length + ' errors.' : '');
-
-        var json = JSON.stringify(newIndex, null, 2);
-        output.textContent = json;
-
-        // Auto-download
-        var blob = new Blob([json], { type: 'application/json' });
-        var a = document.createElement('a');
-        a.href = URL.createObjectURL(blob);
-        a.download = 'recipe-index.json';
-        a.textContent = 'Click here to download if auto-download is blocked';
-        output.appendChild(a);
+        
+        cleanIndex.sort((a,b) => (a.title || '').localeCompare(b.title || ''));
+        
+        const json = JSON.stringify(cleanIndex, null, 2);
+        const blob = new Blob([json], {type: 'application/json'});
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'recipe-index-v2.json';
         a.click();
-
-        if (errors.length) {
-            var errDiv = document.createElement('div');
-            errDiv.style.color = 'red';
-            errDiv.style.marginTop = '1rem';
-            errDiv.textContent = 'Errors:\n' + errors.join('\n');
-            output.appendChild(errDiv);
-        }
+        URL.revokeObjectURL(url);
+        
+        output.innerHTML += `\n✅ Done! ${cleanIndex.length} recipes indexed.\n📥 Downloaded recipe-index-v2.json`;
     }
+    
+    build();
     </script>
 </body>
 </html>

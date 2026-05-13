@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#16161a">
+    <meta name="description" content="How AJPC Kitchen Notebook is built — fonts, tools, and technologies.">
+    <title>Colophon | AJPC Kitchen Notebook</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2316161a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='28' font-weight='bold' fill='%23c97d3e'%3EAJ%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        .colophon-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: var(--sp-xl);
+            margin-top: var(--sp-2xl);
+        }
+        .colophon-card {
+            background: var(--surface-card);
+            border: 1px solid var(--border-dim);
+            border-radius: var(--r-lg);
+            padding: var(--sp-lg);
+        }
+        .colophon-card h2 {
+            font-size: 0.85rem;
+            font-weight: 600;
+            font-family: var(--font-body);
+            color: var(--copper);
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            margin-bottom: var(--sp-md);
+            padding-bottom: var(--sp-xs);
+            border-bottom: 2px solid var(--border-mid);
+        }
+        .colophon-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .colophon-list li {
+            margin-bottom: var(--sp-sm);
+            color: var(--cream-dim);
+            font-size: 0.85rem;
+        }
+        .colophon-list li strong {
+            color: var(--cream);
+            min-width: 100px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="scroll-progress" id="scrollProgress"></div>
+    <div id="nav-placeholder"></div>
+
+    <div class="content-wrapper">
+        <main class="reference-page">
+            <div class="reference-header">
+                <span class="reference-eyebrow">Behind the Scenes</span>
+                <h1>Colophon</h1>
+                <p class="reference-description">How this site is built — the tools, fonts, and technologies that make it work.</p>
+            </div>
+
+            <div class="colophon-grid">
+                <div class="colophon-card">
+                    <h2>🎨 Design</h2>
+                    <ul class="colophon-list">
+                        <li><strong>Palette:</strong> Charcoal, Cream, Copper, Slate</li>
+                        <li><strong>Typography:</strong> DM Serif Display (headings) + DM Sans (body)</li>
+                        <li><strong>Icons:</strong> System emoji + SVG icons</li>
+                        <li><strong>Theme:</strong> Dark mode with light mode toggle</li>
+                    </ul>
+                </div>
+
+                <div class="colophon-card">
+                    <h2>💻 Frontend</h2>
+                    <ul class="colophon-list">
+                        <li><strong>HTML5 / CSS3 / JavaScript</strong> — Vanilla (no frameworks)</li>
+                        <li><strong>Responsive:</strong> Mobile-first, fully responsive</li>
+                        <li><strong>Print Styles:</strong> Custom @media print rules for PDF export</li>
+                        <li><strong>Fonts:</strong> Google Fonts (DM Serif Display, DM Sans)</li>
+                    </ul>
+                </div>
+
+                <div class="colophon-card">
+                    <h2>📦 Data</h2>
+                    <ul class="colophon-list">
+                        <li><strong>Recipes:</strong> 118+ JSON files in <code>/data/recipes/</code></li>
+                        <li><strong>Index:</strong> Auto-generated recipe index</li>
+                        <li><strong>Ingredients:</strong> 200+ ingredient database with nutrition</li>
+                        <li><strong>Storage:</strong> Local file system (no cloud database)</li>
+                    </ul>
+                </div>
+
+                <div class="colophon-card">
+                    <h2>🛠️ Tools</h2>
+                    <ul class="colophon-list">
+                        <li><strong>Editor:</strong> VS Code + Live Server</li>
+                        <li><strong>Version Control:</strong> Git</li>
+                        <li><strong>Validation:</strong> JSONLint, W3C Validator</li>
+                        <li><strong>Inspiration:</strong> Old cookbooks and kitchen notebooks</li>
+                    </ul>
+                </div>
+
+                <div class="colophon-card">
+                    <h2>📐 Features</h2>
+                    <ul class="colophon-list">
+                        <li><strong>Search:</strong> Full-text + ingredient-based</li>
+                        <li><strong>Scaler:</strong> Recipe scaling calculator</li>
+                        <li><strong>Print:</strong> Optimised print layouts</li>
+                        <li><strong>Cook Mode:</strong> Step-by-step cooking assistant</li>
+                        <li><strong>Shopping List:</strong> Dynamic ingredient list generator</li>
+                        <li><strong>Nutrition:</strong> Automatic calculation from database</li>
+                        <li><strong>Recipe Builder:</strong> JSON editor with validation</li>
+                    </ul>
+                </div>
+
+                <div class="colophon-card">
+                    <h2>📝 Credits</h2>
+                    <ul class="colophon-list">
+                        <li><strong>Recipes:</strong> Adapted from family recipes, cookbooks, and kitchen experiments</li>
+                        <li><strong>Nutrition Data:</strong> Compiled from USDA, Australian Food Composition Database, and kitchen testing</li>
+                        <li><strong>Idea:</strong> A digital notebook to preserve recipes that work</li>
+                        <li><strong>Built with:</strong> ☕ Coffee, 🍪 Biscuits, and 🧠 Patience</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <div class="footer-inner">
+            <span class="footer-brand">AJPC</span>
+            <p class="footer-copy">© 2026 Ana &amp; John's Kitchen Notebook.</p>
+            <button class="print-btn" onclick="window.print()">Print</button>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+    <script src="js/nav-loader.js"></script>
+</body>
+</html>

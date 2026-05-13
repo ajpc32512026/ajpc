@@ -110,28 +110,28 @@
       "content": "Cuts cleanly into 9 slices at approximately 25 mm thick. For thinner slices, slice at 20 mm for up to 12 serves."
     }
   ],
-  "related": [
-    {
-      "id": "applecinnscrolls",
-      "title": "Apple & Cinnamon Scrolls"
-    },
-    {
-      "id": "swbtm",
-      "title": "Soft White Bread (Tangzhong Method)"
-    },
-    {
-      "id": "chocchipcookies",
-      "title": "Double Chocolate Chip Cookies"
-    },
-    {
-      "id": "applepie",
-      "title": "Apple Pie"
-    },
-    {
-      "id": "apricotflan",
-      "title": "Apricot Flan"
-    }
-  ],
+"related": [
+  {
+    "id": "classiccarrotcake",
+    "title": "Classic Carrot Cake"
+  },
+  {
+    "id": "blueberrymuffins",
+    "title": "Heavenly Blueberry Muffins"
+  },
+  {
+    "id": "chocmuffins",
+    "title": "Chocolate Muffins with Ganache"
+  },
+  {
+    "id": "applecinnscrolls",
+    "title": "Apple & Cinnamon Scrolls"
+  },
+  {
+    "id": "apricotflan",
+    "title": "Apricot Flan"
+  }
+],
   "nutrition": {
     "servings": 9,
     "cal": 296,

@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ana and John's Kitchen Notebook — 113 real recipes, written down so they don't get lost.">
+    <meta name="description" content="Ana and John's Kitchen Notebook — real recipes, written down so they don't get lost.">
     <meta name="theme-color" content="#16161a">
     <title>Ana & John's Kitchen Notebook</title>
-	<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2316161a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='28' font-weight='bold' fill='%23c97d3e'%3EAJ%3C/text%3E%3C/svg%3E">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2316161a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='28' font-weight='bold' fill='%23c97d3e'%3EAJ%3C/text%3E%3C/svg%3E">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -29,56 +29,34 @@
                 <p class="hero-tagline">Not a blog, not a brand &mdash; just the recipes we actually cook, written down so they don't get lost to time or temperamental memory.</p>
             </section>
 
-            <!-- About + Sidebar -->
-            <section class="about-section animate-in animate-in-delay-1">
-                <div class="about-text">
-                    <h2>Our Story</h2>
-                    <p>Once upon a kitchen, there was John &mdash; a cook by habit, instinct, and stubborn repetition. With over 30 years in the kitchen since 1992, including 15 years as a commercial short order and &agrave; la carte cook, every dish he makes has a purpose: food that works, feeds properly, and never needs explaining twice. By his side is Ana, the eager taster, cheerleader, and occasional critic. She mostly observes from the other room, offering encouragement, tasting bites at perfect moments, and passing judgment with a grin. Together, they form a quiet, unstoppable culinary duo.</p>
-                    <p>From the hum of everyday meals to the rituals of baking and roasting, they've built AJPC &mdash; a collection of recipes honed through repetition, trial, and sometimes gentle swearing until every dish behaves. There are no fleeting trends here, no flashy fads. Instead, you'll find the timeless rhythms of bread, pastry, sauces, roasts, and sweets &mdash; the techniques and flavours that endure because they simply work.</p>
-                    <p>Most recipes have origins worth noting. When they borrow a recipe, credit is given plainly and honestly. When there's no acknowledgment, it means the recipe has been adapted &mdash; adjusted for taste, sometimes less salt, more sugar, or just a little extra butter. AJPC captures this process, preserving each tweak, each improvement, so the good stuff is never lost.</p>
-                    <p>Welcome to AJPC. Welcome to the kitchen where tradition meets experimentation, where every recipe tells a story, and where good food is always ready, repeatable, and made with care.</p>
-                </div>
-
-                <aside class="about-sidebar">
-                    <div class="sidebar-card">
-                        <p class="sidebar-card-label">At a glance</p>
-                        <div style="display:flex;flex-direction:column;gap:1rem;">
-                            <div>
-                                <div style="font-size:2rem;font-family:var(--font-display);color:var(--cream);">113</div>
-                                <div style="font-size:0.8rem;color:var(--cream-muted);">Recipes in the notebook</div>
-                            </div>
-                            <hr style="border-color:var(--border-dim);">
-                            <div>
-                                <div style="font-size:0.85rem;color:var(--cream-dim);margin-bottom:0.5rem;">Covers</div>
-                                <div style="display:flex;flex-wrap:wrap;gap:0.35rem;">
-                                    <span style="font-size:0.72rem;padding:0.15rem 0.5rem;background:var(--surface-2);border:1px solid var(--border-dim);border-radius:3px;color:var(--cream-muted);">Bread</span>
-                                    <span style="font-size:0.72rem;padding:0.15rem 0.5rem;background:var(--surface-2);border:1px solid var(--border-dim);border-radius:3px;color:var(--cream-muted);">Pastry</span>
-                                    <span style="font-size:0.72rem;padding:0.15rem 0.5rem;background:var(--surface-2);border:1px solid var(--border-dim);border-radius:3px;color:var(--cream-muted);">Desserts</span>
-                                    <span style="font-size:0.72rem;padding:0.15rem 0.5rem;background:var(--surface-2);border:1px solid var(--border-dim);border-radius:3px;color:var(--cream-muted);">Dinner</span>
-                                    <span style="font-size:0.72rem;padding:0.15rem 0.5rem;background:var(--surface-2);border:1px solid var(--border-dim);border-radius:3px;color:var(--cream-muted);">Sauces</span>
-                                    <span style="font-size:0.72rem;padding:0.15rem 0.5rem;background:var(--surface-2);border:1px solid var(--border-dim);border-radius:3px;color:var(--cream-muted);">Filipino</span>
-                                    <span style="font-size:0.72rem;padding:0.15rem 0.5rem;background:var(--surface-2);border:1px solid var(--border-dim);border-radius:3px;color:var(--cream-muted);">Bistro</span>
-                                    <span style="font-size:0.72rem;padding:0.15rem 0.5rem;background:var(--surface-2);border:1px solid var(--border-dim);border-radius:3px;color:var(--cream-muted);">Biscuits</span>
-                                </div>
-                            </div>
-                            <hr style="border-color:var(--border-dim);">
-                            <a href="search.html" style="display:block;text-align:center;padding:0.6rem;background:rgba(201,125,62,0.12);border:1px solid var(--border-copper);border-radius:6px;color:var(--copper-warm);font-size:0.85rem;font-weight:500;text-decoration:none;transition:all 0.15s ease;">Browse all recipes &rarr;</a>
+            <!-- Stats Card -->
+            <div class="stats-container animate-in animate-in-delay-1">
+                <div class="stats-card">
+                    <div class="stats-number">
+                        <span id="recipeCount">---</span>
+                    </div>
+                    <div class="stats-label">Recipes in the notebook</div>
+                    <hr class="stats-divider">
+                    <div class="stats-covers">
+                        <div class="stats-covers-label">Covers</div>
+                        <div class="stats-tags">
+                            <span>Bread</span>
+                            <span>Pastry</span>
+                            <span>Desserts</span>
+                            <span>Dinner</span>
+                            <span>Sauces</span>
+                            <span>Filipino</span>
+                            <span>Bistro</span>
+                            <span>Biscuits</span>
                         </div>
                     </div>
-                </aside>
-            </section>
-
-            <!-- Kitchen Truths -->
-            <section class="kitchen-truths-section animate-in animate-in-delay-2">
-                <h2>Kitchen Truths</h2>
-                <div class="truth-display">
-                    <blockquote class="truth-quote" id="kitchenTruth" aria-live="polite"></blockquote>
+                    <hr class="stats-divider">
+                    <a href="search.html" class="stats-button">Browse all recipes &rarr;</a>
                 </div>
-                <p class="truth-counter" id="truthCounter"></p>
-            </section>
+            </div>
 
-            <!-- Featured Recipes -->
-            <section class="featured-section animate-in animate-in-delay-3">
+            <!-- Featured Recipes (6 items) -->
+            <section class="featured-section animate-in animate-in-delay-2">
                 <div class="section-header">
                     <span class="section-label">Featured This Week</span>
                     <span class="section-note">Changes every Monday</span>
@@ -92,13 +70,16 @@
 
         <footer>
             <div class="footer-inner">
-                <span class="footer-brand">AJPC</span>
-                <p class="footer-copy">&copy; 2026 Ana &amp; John's Kitchen Notebook. All rights reserved.</p>
+                <div class="footer-brand">AJPC</div>
                 <div class="footer-links">
-                    <a href="search.html">Recipes</a>
+                    <a href="about.html">About</a>
+                    <a href="sitemap.html">Sitemap</a>
+                    <a href="colophon.html">Colophon</a>
+                    <a href="search.html">All Recipes</a>
                     <a href="gallery.html">Gallery</a>
                     <a href="measurement.html">Measurements</a>
                 </div>
+                <p class="footer-copy">© 2026 Ana &amp; John's Kitchen Notebook. Built with ☕ and patience.</p>
             </div>
         </footer>
     </div>
@@ -107,7 +88,35 @@
     <button class="back-to-top" id="backToTop" aria-label="Back to top">&#8593;</button>
 
     <script src="js/nav-loader.js"></script>
-    <script src="js/kitchen-truths-animator.js"></script>
     <script src="js/featured-recipes-rotator.js"></script>
+    
+    <!-- Auto-update recipe count from recipe-index.json -->
+    <script>
+    (function() {
+        async function updateRecipeCount() {
+            try {
+                const res = await fetch('json/recipe-index.json?t=' + Date.now());
+                if (res.ok) {
+                    const recipes = await res.json();
+                    const count = recipes.length;
+                    const countSpan = document.getElementById('recipeCount');
+                    if (countSpan) {
+                        countSpan.textContent = count;
+                    }
+                }
+            } catch(e) {
+                console.warn('Could not load recipe count:', e);
+                const countSpan = document.getElementById('recipeCount');
+                if (countSpan) countSpan.textContent = '?';
+            }
+        }
+        
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', updateRecipeCount);
+        } else {
+            updateRecipeCount();
+        }
+    })();
+    </script>
 </body>
 </html>

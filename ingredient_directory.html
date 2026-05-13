@@ -442,7 +442,7 @@
 
         async function init() {
             try {
-                const res = await fetch('json/ingredient_inventory_v6.json');
+                const res = await fetch('json/ingredient_inventory_v7.json');
                 if (!res.ok) throw new Error('Not found');
                 allIngredients = await res.json();
             } catch(e) {
@@ -576,26 +576,44 @@
                 </div>`).join('');
         }
 
-        function renderCard(name, d) {
-            const aka = d.aka && d.aka.length ? `<span class="ingredient-aka">Also: ${d.aka.join(', ')}</span>` : '';
-            const badge = d.category ? `<span class="ingredient-cat-badge">${esc(d.category)}</span>` : '';
-            const notes = d.notes ? `<p class="ingredient-notes">${esc(d.notes)}</p>` : '';
+function renderCard(name, d) {
+    const aka = d.aka && d.aka.length ? `<span class="ingredient-aka">Also: ${d.aka.join(', ')}</span>` : '';
+    const badge = d.category ? `<span class="ingredient-cat-badge">${esc(d.category)}</span>` : '';
+    const notes = d.notes ? `<p class="ingredient-notes">${esc(d.notes)}</p>` : '';
 
-            const subs = [];
-            if (d.substitutes && d.substitutes.length) subs.push(`<strong>Substitutes:</strong> ${d.substitutes.map(esc).join(', ')}`);
-            if (d.storage) subs.push(`<strong>Storage:</strong> ${esc(d.storage)}`);
-            const subHtml = subs.length ? `<div class="ingredient-sub">${subs.join(' &nbsp;&bull;&nbsp; ')}</div>` : '';
-
-            return `<div class="ingredient-card">
-                <div class="ingredient-card-top">
-                    <span class="ingredient-name">${esc(name)}</span>
-                    ${aka}
-                    ${badge}
-                </div>
-                ${notes}
-                ${subHtml}
-            </div>`;
+    const subs = [];
+    // FIX: Handle substitutes as string OR array
+    if (d.substitutes) {
+        let subsList = d.substitutes;
+        // If it's a string, convert to array
+        if (typeof subsList === 'string') {
+            subsList = [subsList];
         }
+        if (subsList.length) {
+            subs.push(`<strong>Substitutes:</strong> ${subsList.map(esc).join(', ')}`);
+        }
+    }
+    // FIX: Clean up storage string if needed
+    if (d.storage) {
+        let storageText = d.storage;
+        // Remove any stray ** characters
+        if (typeof storageText === 'string') {
+            storageText = storageText.replace(/\*\*/g, '');
+        }
+        subs.push(`<strong>Storage:</strong> ${esc(storageText)}`);
+    }
+    const subHtml = subs.length ? `<div class="ingredient-sub">${subs.join(' &nbsp;&bull;&nbsp; ')}</div>` : '';
+
+    return `<div class="ingredient-card">
+        <div class="ingredient-card-top">
+            <span class="ingredient-name">${esc(name)}</span>
+            ${aka}
+            ${badge}
+        </div>
+        ${notes}
+        ${subHtml}
+    </div>`;
+}
 
         function esc(s) {
             return String(s)

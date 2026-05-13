@@ -1960,12 +1960,23 @@ function downloadJSON(){
     if(timelineItems.length) obj.timeline = timelineItems;
   }
 
-  const blob = new Blob([JSON.stringify(obj, null, 2)], {type: 'application/json'}); 
-  const a = document.createElement('a'); 
-  a.href = URL.createObjectURL(blob); 
-  a.download = `${id || 'recipe'}.json`; 
-  a.click(); 
-  URL.revokeObjectURL(a.href); 
+  // Update recipe index BEFORE creating the blob
+  updateRecipeIndex(obj).then(() => {
+    const blob = new Blob([JSON.stringify(obj, null, 2)], {type: 'application/json'}); 
+    const a = document.createElement('a'); 
+    a.href = URL.createObjectURL(blob); 
+    a.download = `${id || 'recipe'}.json`; 
+    a.click(); 
+    URL.revokeObjectURL(a.href);
+  }).catch(() => {
+    // Still download even if index update fails
+    const blob = new Blob([JSON.stringify(obj, null, 2)], {type: 'application/json'}); 
+    const a = document.createElement('a'); 
+    a.href = URL.createObjectURL(blob); 
+    a.download = `${id || 'recipe'}.json`; 
+    a.click(); 
+    URL.revokeObjectURL(a.href);
+  }); 
 }
 // ─────────────────────────────────────────────────────────
 // CLEAR
@@ -2068,12 +2079,17 @@ async function saveJSON() {
       const writable = await currentFileHandle.createWritable();
       await writable.write(json);
       await writable.close();
+      
+      // Update recipe index after successful save
+      await updateRecipeIndex(obj);
+      
       toast('Saved to ' + currentFileHandle.name);
     } catch(err) {
       alert('Could not save file: ' + err.message);
     }
   } else {
     // No handle — fall back to download (Firefox / loaded via drag etc.)
+    // The downloadJSON function already updates the index
     downloadJSON();
   }
 }
@@ -2086,6 +2102,48 @@ function loadJSONFile(event){
     catch(err){ alert('Could not parse JSON: '+err.message); }
   };
   reader.readAsText(file); event.target.value='';
+}
+
+// ─────────────────────────────────────────────────────────
+// RECIPE INDEX AUTO-UPDATE
+// ─────────────────────────────────────────────────────────
+async function updateRecipeIndex(recipe) {
+    try {
+        const res = await fetch('json/recipe-index.json?t=' + Date.now());
+        if (!res.ok) throw new Error('Could not fetch index');
+        let index = await res.json();
+        
+        const existingIndex = index.findIndex(r => r.id === recipe.id);
+        
+        const indexEntry = {
+            id: recipe.id,
+            title: recipe.title,
+            emoji: recipe.emoji || '',
+            category: recipe.category || '',
+            tags: recipe.tags || [],
+            description: recipe.description || ''
+        };
+        
+        if (existingIndex !== -1) {
+            index[existingIndex] = indexEntry;
+            console.log('✅ Updated recipe in index:', recipe.title);
+        } else {
+            index.push(indexEntry);
+            index.sort((a, b) => (a.title || '').localeCompare(b.title || ''));
+            console.log('✅ Added new recipe to index:', recipe.title);
+        }
+        
+        const blob = new Blob([JSON.stringify(index, null, 2)], {type: 'application/json'});
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = 'recipe-index.json';
+        a.click();
+        
+        toast(`📋 Index updated — ${index.length} recipes total`);
+        
+    } catch(e) {
+        console.warn('Could not update recipe index:', e);
+    }
 }
 
 function populateForm(data){
@@ -2856,6 +2914,7 @@ const NUTRITION_DB = {
 	'apricot nectar': { cal: 56, protein: 0.4, carbs: 14, fat: 0.1, fiber: 0.5, sodium: 3 },
 	'canned apricot halves': { cal: 68, protein: 0.8, carbs: 18, fat: 0.1, fiber: 2, sodium: 4 },
 	'apricot syrup': { cal: 260, protein: 0.2, carbs: 67, fat: 0, fiber: 0, sodium: 10 },
+	'raspberries': { cal: 52, protein: 1.2, carbs: 12, fat: 0.7, fiber: 6.5, sodium: 1, per: '100g' },
 
 	// Proteins
 	'chicken': { cal: 239, protein: 27, carbs: 0, fat: 14, fiber: 0, sodium: 74 },
@@ -3003,7 +3062,8 @@ const NUTRITION_DB = {
 	'black pepper': { cal: 251, protein: 10, carbs: 64, fat: 3, fiber: 25, sodium: 20 },
 	'white pepper': { cal: 296, protein: 10, carbs: 68, fat: 2, fiber: 26, sodium: 5 },
 	'nigella seeds': { cal: 345, protein: 16, carbs: 52, fat: 15, fiber: 40, sodium: 88 },
-	'green peppercorns': { cal: 255, protein: 10, carbs: 52, fat: 5, fiber: 20, sodium: 25 }, 
+	'green peppercorns': { cal: 255, protein: 10, carbs: 52, fat: 5, fiber: 20, sodium: 25 },
+	'ground ginger': { cal: 335, protein: 9, carbs: 72, fat: 4.2, fiber: 14, sodium: 27 },
 	  
 	// Sauces & Condiments
 	'soy sauce': { cal: 53, protein: 8, carbs: 4.9, fat: 0.6, fiber: 0.8, sodium: 5700 },
@@ -3627,6 +3687,7 @@ let recipeIndex = [];
 let currentRelatedRow = null;
 let tagPickerSelections = new Set(); // Track selections across category switches
 let officialTagVocabulary = []; // All official tags
+let tagVocabularyData = null; // Store full vocabulary structure
 
 // Load recipe index on page load
 fetch('json/recipe-index.json?t=' + new Date().getTime())
@@ -3637,14 +3698,30 @@ fetch('json/recipe-index.json?t=' + new Date().getTime())
   })
   .catch(err => {
     console.warn('Could not load recipe index:', err);
-    document.getElementById('related-recipe-select').innerHTML = '<option value="">Recipe index not found</option>';
+    const select = document.getElementById('related-recipe-select');
+    if (select) select.innerHTML = '<option value="">Recipe index not found</option>';
   });
+
+// Load fresh recipe index for tag picker (bypasses cache)
+async function loadRecipeIndexForTags() {
+  try {
+    const res = await fetch('json/recipe-index.json?t=' + Date.now());
+    if (res.ok) {
+      recipeIndex = await res.json();
+      console.log('✅ Recipe index loaded for tags:', recipeIndex.length, 'recipes');
+      return true;
+    }
+  } catch(e) {
+    console.warn('Could not load recipe index for tags');
+  }
+  return false;
+}
 
 // Load official tag vocabulary
 fetch('json/official-tag-vocabulary.json?t=' + new Date().getTime())
   .then(r => r.json())
   .then(data => {
-    tagVocabularyData = data; // Store full structure
+    tagVocabularyData = data;
     officialTagVocabulary = data.flatList || [];
     console.log('✅ Tag vocabulary loaded:', officialTagVocabulary.length, 'tags');
   })
@@ -3656,6 +3733,7 @@ fetch('json/official-tag-vocabulary.json?t=' + new Date().getTime())
 
 function populateRelatedRecipeDropdown() {
   const select = document.getElementById('related-recipe-select');
+  if (!select) return;
   select.innerHTML = '<option value="">-- Select a recipe --</option>';
   recipeIndex.forEach(recipe => {
     const opt = document.createElement('option');
@@ -3678,7 +3756,6 @@ function addRelatedRecipe() {
   
   const recipeId = selectedOption.value;
   const recipeTitle = selectedOption.dataset.title;
-  const recipeTags = JSON.parse(selectedOption.dataset.tags || '[]');
   
   const list = document.getElementById('related-list');
   const row = document.createElement('div');
@@ -3691,8 +3768,8 @@ function addRelatedRecipe() {
   row.innerHTML = `
     <div class="drag-handle">⋮⋮</div>
     <div>
-      <div style="font-weight:500;margin-bottom:0.25rem;">${recipeTitle}</div>
-      <div style="font-size:0.7rem;color:var(--text-dim);font-family:var(--mono);">${recipeId}</div>
+      <div style="font-weight:500;margin-bottom:0.25rem;">${escapeHtmlForRelated(recipeTitle)}</div>
+      <div style="font-size:0.7rem;color:var(--text-dim);font-family:var(--mono);">${escapeHtmlForRelated(recipeId)}</div>
     </div>
     <div class="tag-container">
       <button class="add-tag-btn" onclick="openTagPicker(this.closest('.related-row'))">+ Add Tags</button>
@@ -3701,13 +3778,8 @@ function addRelatedRecipe() {
   `;
   
   list.appendChild(row);
-  
-  // Reset dropdown
   select.selectedIndex = 0;
-  
-  // Set up drag handlers
   setupDragHandlers(row);
-  
   update();
 }
 
@@ -3718,15 +3790,18 @@ function openTagPicker(row) {
   // Initialize the selection set with existing tags
   tagPickerSelections = new Set(currentTags);
   
-  // Populate "Copy from recipe" dropdown
-  populateCopyTagsDropdown();
+  // Load fresh recipe index and populate dropdown
+  loadRecipeIndexForTags().then(() => {
+    populateCopyTagsDropdown();
+  });
   
-  // Use official tag vocabulary (all 150 tags)
+  // Use official tag vocabulary
   const allTags = officialTagVocabulary.length > 0 
     ? officialTagVocabulary 
-    : Array.from(new Set([...tags])); // Fallback to current recipe tags
+    : [];
   
   const grid = document.getElementById('tag-picker-grid');
+  if (!grid) return;
   grid.innerHTML = '';
   
   allTags.forEach(tag => {
@@ -3738,7 +3813,6 @@ function openTagPicker(row) {
     }
     item.onclick = () => {
       item.classList.toggle('selected');
-      // Update the persistent set
       if (item.classList.contains('selected')) {
         tagPickerSelections.add(tag);
       } else {
@@ -3748,21 +3822,23 @@ function openTagPicker(row) {
     grid.appendChild(item);
   });
   
-  document.getElementById('tag-picker-modal').style.display = 'flex';
+  const modal = document.getElementById('tag-picker-modal');
+  if (modal) modal.style.display = 'flex';
 }
 
 function populateCopyTagsDropdown() {
   const select = document.getElementById('copy-tags-from');
+  if (!select) return;
   select.innerHTML = '<option value="">📋 Copy tags from another recipe...</option>';
   
   recipeIndex.forEach(recipe => {
-    if (recipe.tags && recipe.tags.length > 0) {
-      const opt = document.createElement('option');
-      opt.value = recipe.id;
-      opt.textContent = `${recipe.emoji ? recipe.emoji + ' ' : ''}${recipe.title} (${recipe.tags.length} tags)`;
-      opt.dataset.tags = JSON.stringify(recipe.tags);
-      select.appendChild(opt);
-    }
+    // Show ALL recipes, not just those with tags
+    const opt = document.createElement('option');
+    opt.value = recipe.id;
+    const tagCount = (recipe.tags && recipe.tags.length) ? recipe.tags.length : 0;
+    opt.textContent = `${recipe.emoji ? recipe.emoji + ' ' : ''}${recipe.title} (${tagCount} tags)`;
+    opt.dataset.tags = JSON.stringify(recipe.tags || []);
+    select.appendChild(opt);
   });
 }
 
@@ -3777,26 +3853,25 @@ function copyTagsFromRecipe() {
   
   const tagsFromRecipe = JSON.parse(selectedOption.dataset.tags || '[]');
   
-  // Add all tags from that recipe to the selection set
   tagsFromRecipe.forEach(tag => tagPickerSelections.add(tag));
   
-  // Rebuild the grid to show new selections
   filterTagCategory('all');
-  
-  // Reset dropdown
   select.selectedIndex = 0;
   
   toast(`✅ Copied ${tagsFromRecipe.length} tags from ${selectedOption.textContent.split('(')[0].trim()}`);
 }
 
 function closeTagPicker() {
-  document.getElementById('tag-picker-modal').style.display = 'none';
+  const modal = document.getElementById('tag-picker-modal');
+  if (modal) modal.style.display = 'none';
   currentRelatedRow = null;
   
-  // Reset search and category
-  document.getElementById('tag-search').value = '';
+  const searchInput = document.getElementById('tag-search');
+  if (searchInput) searchInput.value = '';
+  
   document.querySelectorAll('.tag-category-btn').forEach(btn => btn.classList.remove('active'));
-  document.querySelector('.tag-category-btn').classList.add('active');
+  const allBtn = document.querySelector('.tag-category-btn');
+  if (allBtn) allBtn.classList.add('active');
 }
 
 function filterTagPicker(searchText) {
@@ -3813,18 +3888,15 @@ function filterTagPicker(searchText) {
   });
 }
 
-let tagVocabularyData = null; // Store full vocabulary structure
-
 function filterTagCategory(category, event) {
   if (event && event.target) {
     document.querySelectorAll('.tag-category-btn').forEach(btn => btn.classList.remove('active'));
     event.target.classList.add('active');
   }
   
-  // Clear search
-  document.getElementById('tag-search').value = '';
+  const searchInput = document.getElementById('tag-search');
+  if (searchInput) searchInput.value = '';
   
-  // Get tags for category
   let tagsToShow = [];
   if (category === 'all') {
     tagsToShow = officialTagVocabulary;
@@ -3832,21 +3904,19 @@ function filterTagCategory(category, event) {
     tagsToShow = tagVocabularyData.tagVocabulary[category];
   }
   
-  // Rebuild grid using the persistent selection set
   const grid = document.getElementById('tag-picker-grid');
+  if (!grid) return;
   grid.innerHTML = '';
   
   tagsToShow.forEach(tag => {
     const item = document.createElement('div');
     item.className = 'tag-picker-item';
     item.textContent = tag;
-    // Check the persistent set
     if (tagPickerSelections.has(tag)) {
       item.classList.add('selected');
     }
     item.onclick = () => {
       item.classList.toggle('selected');
-      // Update the persistent set
       if (item.classList.contains('selected')) {
         tagPickerSelections.add(tag);
       } else {
@@ -3866,17 +3936,17 @@ function closeTagPickerIfOutside(e) {
 function confirmTagSelection() {
   if (!currentRelatedRow) return;
   
-  // Use the persistent set instead of querying DOM
   const selectedTags = Array.from(tagPickerSelections);
   
   currentRelatedRow.dataset.tags = JSON.stringify(selectedTags);
   
-  // Update the tag display
   const tagContainer = currentRelatedRow.querySelector('.tag-container');
-  tagContainer.innerHTML = selectedTags.map(tag => 
-    `<span class="tag-pill" onclick="removeTagFromRelated(this, '${tag}')">${tag}</span>`
-  ).join('');
-  tagContainer.innerHTML += `<button class="add-tag-btn" onclick="openTagPicker(this.closest('.related-row'))">+ Add Tags</button>`;
+  if (tagContainer) {
+    tagContainer.innerHTML = selectedTags.map(tag => 
+      `<span class="tag-pill" onclick="removeTagFromRelated(this, '${escapeHtmlForRelated(tag)}')">${escapeHtmlForRelated(tag)}</span>`
+    ).join('');
+    tagContainer.innerHTML += `<button class="add-tag-btn" onclick="openTagPicker(this.closest('.related-row'))">+ Add Tags</button>`;
+  }
   
   closeTagPicker();
   update();
@@ -3889,12 +3959,24 @@ function removeTagFromRelated(pill, tag) {
   row.dataset.tags = JSON.stringify(newTags);
   
   const tagContainer = row.querySelector('.tag-container');
-  tagContainer.innerHTML = newTags.map(t => 
-    `<span class="tag-pill" onclick="removeTagFromRelated(this, '${t}')">${t}</span>`
-  ).join('');
-  tagContainer.innerHTML += `<button class="add-tag-btn" onclick="openTagPicker(this.closest('.related-row'))">+ Add Tags</button>`;
+  if (tagContainer) {
+    tagContainer.innerHTML = newTags.map(t => 
+      `<span class="tag-pill" onclick="removeTagFromRelated(this, '${escapeHtmlForRelated(t)}')">${escapeHtmlForRelated(t)}</span>`
+    ).join('');
+    tagContainer.innerHTML += `<button class="add-tag-btn" onclick="openTagPicker(this.closest('.related-row'))">+ Add Tags</button>`;
+  }
   
   update();
+}
+
+function escapeHtmlForRelated(str) {
+  if (!str) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
 }
 
 // ─────────────────────────────────────────────────────────
@@ -3955,7 +4037,7 @@ async function checkServerStatus() {
       return true;
     }
   } catch (e) {
-    console.warn('⚠️ API Server not running - Save to Server button will show connection error');
+    // Silently ignore — server not running, that's fine
     return false;
   }
 }
@@ -3980,7 +4062,7 @@ window.history.scrollRestoration = 'manual';
 window.scrollTo(0, 0);
 
 // Check if API server is running
-checkServerStatus();
+// checkServerStatus();  // Disabled — server not needed for local saves
 </script>
 
 

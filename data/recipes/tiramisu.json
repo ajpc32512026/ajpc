@@ -231,7 +231,7 @@
     {
       "type": "technique",
       "title": "Chilling",
-      "content": "Overnight chilling is not optional if you want clean slices and set layers. Four hours is the minimum."
+      "content": "Chill for at least 4 hours to set. Overnight is best for clean slices."
     },
     {
       "type": "storage",
@@ -276,5 +276,6 @@
     "fiber": 1,
     "sodium": 189,
     "coverage": 95
-  }
+  },
+  "lastModified": "2026-05-11"
 }

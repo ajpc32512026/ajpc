@@ -52,7 +52,7 @@
         if (!searchInput || !resultsEl) return;
 
         try {
-            var res = await fetch('json/recipe-index.json');
+            var res = await fetch('json/recipe-index.json?t=' + Date.now());
             if (res.ok) recipeIndex = await res.json();
         } catch(e) {
             console.error('Failed to load recipe index:', e);
@@ -84,35 +84,43 @@
         loadPopularTags();
     }
 
-    async function getFullRecipe(id) {
-        if (fullRecipeCache[id]) return fullRecipeCache[id];
-        try {
-            var res = await fetch('data/recipes/' + id + '.json');
-            if (!res.ok) return null;
-            var recipe = await res.json();
-            fullRecipeCache[id] = recipe;
-            return recipe;
-        } catch(e) {
+async function getFullRecipe(id) {
+    if (fullRecipeCache[id]) return fullRecipeCache[id];
+    try {
+        var res = await fetch('data/recipes/' + id + '.json');
+        if (!res.ok) {
+            // Silently skip missing files — don't throw or log error
             return null;
         }
+        var recipe = await res.json();
+        fullRecipeCache[id] = recipe;
+        return recipe;
+    } catch(e) {
+        // Silently skip network errors
+        return null;
     }
+}
 
-    async function getRecipeIngredientsText(id) {
-        if (ingredientTextCache[id]) return ingredientTextCache[id];
-        try {
-            var res = await fetch('data/recipes/' + id + '.json');
-            if (!res.ok) return '';
-            var recipe = await res.json();
-            var ingredients = (recipe.ingredients || [])
-                .filter(function(i) { return !i.heading; })
-                .map(function(i) { return i.item || i.name || ''; })
-                .join(' ');
-            ingredientTextCache[id] = ingredients;
-            return ingredients;
-        } catch(e) {
+   async function getRecipeIngredientsText(id) {
+    if (ingredientTextCache[id]) return ingredientTextCache[id];
+    try {
+        var res = await fetch('data/recipes/' + id + '.json');
+        if (!res.ok) {
+            // Silently skip — don't log error
             return '';
         }
+        var recipe = await res.json();
+        var ingredients = (recipe.ingredients || [])
+            .filter(function(i) { return !i.heading; })
+            .map(function(i) { return i.item || i.name || ''; })
+            .join(' ');
+        ingredientTextCache[id] = ingredients;
+        return ingredients;
+    } catch(e) {
+        // Silently skip network errors
+        return '';
     }
+}
 
     function getSignificantIngredients(recipe) {
         if (!recipe || !recipe.ingredients) return [];
@@ -285,43 +293,46 @@
         return scored;
     }
 
-    async function ingredientSearch(query, userIngredients) {
-        var results = [];
+async function ingredientSearch(query, userIngredients) {
+    var results = [];
+    
+    for (var i = 0; i < recipeIndex.length; i++) {
+        var recipeMeta = recipeIndex[i];
+        var fullRecipe = await getFullRecipe(recipeMeta.id);
         
-        for (var i = 0; i < recipeIndex.length; i++) {
-            var recipeMeta = recipeIndex[i];
-            var fullRecipe = await getFullRecipe(recipeMeta.id);
-            
-            if (!fullRecipe) continue;
-            
-            var recipeIngredients = getSignificantIngredients(fullRecipe);
-            var match = calculateMatchForRecipe(userIngredients, recipeIngredients);
-            
-            // Must have at least 1 match
-            if (match.score === 0) {
-                continue;
-            }
-            
-            // Check if first user ingredient (primary protein) matches recipe
-            if (userIngredients.length > 0) {
-                var hasPrimary = hasMatchingPrimaryIngredient(userIngredients[0], recipeIngredients);
-                if (!hasPrimary) {
-                    continue;
-                }
-            }
-            
-            results.push({
-                recipe: recipeMeta,
-                fullRecipe: fullRecipe,
-                score: match.score,
-                matches: match.matches.slice(),
-                missing: match.missing.slice()
-            });
+        // Skip if recipe file not found (404) - just continue silently
+        if (!fullRecipe) {
+            continue;
         }
         
-        results.sort(function(a, b) { return b.score - a.score; });
-        return results;
+        var recipeIngredients = getSignificantIngredients(fullRecipe);
+        var match = calculateMatchForRecipe(userIngredients, recipeIngredients);
+        
+        // Must have at least 1 match
+        if (match.score === 0) {
+            continue;
+        }
+        
+        // Check if first user ingredient (primary protein) matches recipe
+        if (userIngredients.length > 0) {
+            var hasPrimary = hasMatchingPrimaryIngredient(userIngredients[0], recipeIngredients);
+            if (!hasPrimary) {
+                continue;
+            }
+        }
+        
+        results.push({
+            recipe: recipeMeta,
+            fullRecipe: fullRecipe,
+            score: match.score,
+            matches: match.matches.slice(),
+            missing: match.missing.slice()
+        });
     }
+    
+    results.sort(function(a, b) { return b.score - a.score; });
+    return results;
+}
 
     function renderTraditionalResults(scored, query, countEl) {
         if (countEl) {
@@ -472,7 +483,7 @@
     
     async function loadPopularTags() {
         try {
-            const res = await fetch('json/recipe-index.json');
+            const res = await fetch('json/recipe-index.json?t=' + Date.now());
             const recipes = await res.json();
             
             // Count tag frequencies

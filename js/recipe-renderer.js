@@ -1219,4 +1219,4 @@ if (random.data.nutrition && random.data.nutrition.calories) {
 
     window.recipeRenderer = { fetchRecipe };
 
-})();f
+})();
