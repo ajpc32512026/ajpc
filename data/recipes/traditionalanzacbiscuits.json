@@ -1,14 +1,14 @@
 {
   "id": "traditionalanzacbiscuits",
   "title": "Traditional ANZAC Biscuits",
-  "emoji": "🍪",
+  "emoji": "🥥",
   "category": "Biscuits",
-  "description": "A classic Australian favourite — golden, chewy, and steeped in history. Perfect with a cuppa and a quiet moment.",
+  "description": "A classic Australian favourite — golden, chewy, and steeped in history. Now with desiccated coconut and brown sugar for deeper flavour.",
   "prepTime": "15 min",
   "cookTime": "20 min",
   "totalTime": "35 min",
-  "servings": "20 biscuits",
-  "yieldPerBatch": "6 biscuits",
+  "servings": "24 biscuits",
+  "yieldPerBatch": "8 biscuits",
   "difficulty": "Beginner",
   "tags": [
     "Australian",
@@ -17,30 +17,40 @@
     "Rich",
     "Sweet",
     "Vegetarian",
-    "Cookies"
+    "Cookies",
+    "Coconut"
   ],
   "ingredients": [
     {
-      "quantity": "160",
+      "quantity": "150",
       "unit": "g",
-      "item": "Plain Flour",
-      "notes": "sifted"
+      "item": "Plain Flour"
     },
     {
-      "quantity": "180",
+      "quantity": "90",
       "unit": "g",
-      "item": "Rolled Oats"
+      "item": "Rolled Oats",
+      "notes": "Uncle Tobys Traditional"
     },
     {
-      "quantity": "160",
+      "quantity": "85",
       "unit": "g",
-      "item": "White Sugar"
+      "item": "Desiccated Coconut"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Brown Sugar"
+    },
+    {
+      "quantity": "55",
+      "unit": "g",
+      "item": "Caster Sugar"
     },
     {
       "quantity": "125",
       "unit": "g",
-      "item": "Unsalted Butter",
-      "notes": "melted"
+      "item": "Unsalted Butter"
     },
     {
       "quantity": "40",
@@ -48,13 +58,12 @@
       "item": "Golden Syrup"
     },
     {
-      "quantity": "50",
+      "quantity": "30",
       "unit": "ml",
-      "item": "Water",
-      "notes": "hot"
+      "item": "Water"
     },
     {
-      "quantity": "5",
+      "quantity": "2.5",
       "unit": "g",
       "item": "Bi-Carb Soda"
     }
@@ -62,56 +71,57 @@
   "method": [
     {
       "step": 1,
-      "instruction": "Preheat oven to 150°C. Line 4 oven trays with baking paper."
+      "instruction": "Preheat oven to 160°C. Line baking trays with paper."
     },
     {
       "step": 2,
-      "instruction": "Combine flour, oats, and sugar in a large bowl."
+      "instruction": "Combine flour, oats, coconut, brown sugar, and caster sugar in a large bowl."
     },
     {
       "step": 3,
-      "instruction": "Gently melt butter, golden syrup, and water in a small saucepan over medium heat. Alternatively, melt in a microwave using 30-second bursts."
+      "instruction": "In a small saucepan, melt butter, golden syrup, and water over low heat until butter is melted."
     },
     {
       "step": 4,
-      "instruction": "Stir in bi-carb soda, then remove from heat."
+      "instruction": "Stir in bi-carb soda — the mixture will foam up."
     },
     {
       "step": 5,
-      "instruction": "Add syrup mixture to dry ingredients and stir until well combined."
+      "instruction": "Pour wet mixture into dry ingredients and stir until well combined."
     },
     {
       "step": 6,
-      "instruction": "Roll tablespoons of mixture into 35 g balls."
+      "instruction": "Roll tablespoons of mixture into 35g balls. Place on trays 8cm apart and flatten slightly."
     },
     {
       "step": 7,
-      "instruction": "Place on trays 8 cm apart and flatten slightly."
+      "instruction": "Bake for 18-20 minutes until golden brown."
     },
     {
       "step": 8,
-      "instruction": "Bake for 18–20 minutes until golden brown."
-    },
-    {
-      "step": 9,
-      "instruction": "Cool on trays before transferring to a tin. Use a wire rack to cool completely."
+      "instruction": "Cool on trays for 5 minutes, then transfer to a wire rack. They will firm up as they cool."
     }
   ],
   "notes": [
     {
-      "type": "serving",
-      "title": "Serving Tip",
-      "content": "Best enjoyed with a strong cup of tea and a good story. Store in an airtight tin — they keep beautifully."
+      "type": "tip",
+      "title": "Brown Sugar",
+      "content": "Brown sugar adds moisture and a deeper caramel flavour. The combination of brown and caster sugar gives the perfect balance of chew and crisp."
     },
     {
-      "type": "technique",
-      "title": "Portioning Guide",
-      "content": "Weight should be 35 g each ball of raw cookie dough. You can also use egg rings if making larger cookies up to 50 g."
+      "type": "variation",
+      "title": "Double Batch",
+      "content": "For 48 biscuits, double all ingredients. Bake for 20-22 minutes, rotating trays halfway."
+    },
+    {
+      "type": "storage",
+      "title": "Storage",
+      "content": "Store in an airtight container. They will keep for up to 2 weeks — if they last that long."
     }
   ],
   "related": [
     {
-      "id": "chocchipcookies",
+      "id": "doublechocolatechipcookies",
       "title": "Double Chocolate Chip Cookies"
     },
     {
@@ -132,13 +142,14 @@
     }
   ],
   "nutrition": {
-    "servings": 20,
-    "cal": 145,
-    "protein": 2,
-    "carbs": 21,
-    "fat": 6,
+    "servings": 24,
+    "cal": 128,
+    "protein": 1,
+    "carbs": 16,
+    "fat": 7,
     "fiber": 1,
-    "sodium": 70,
+    "sodium": 32,
     "coverage": 100
-  }
+  },
+  "lastModified": "2026-05-14"
 }
