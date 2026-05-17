@@ -38,15 +38,16 @@
       "notes": "regular all-purpose"
     },
     {
-      "quantity": "10",
-      "unit": "ml",
-      "item": "Minced Garlic",
-      "notes": "from jar"
+      "quantity": "3",
+      "unit": "cloves",
+      "item": "Garlic",
+      "notes": "finely minced (about 1 tbsp)"
     },
     {
-      "quantity": "2",
+      "quantity": "10",
       "unit": "g",
-      "item": "Ground Ginger"
+      "item": "Fresh Ginger",
+      "notes": "grated (about 2 tsp)"
     },
     {
       "quantity": "15",
@@ -58,26 +59,30 @@
   "method": [
     {
       "step": 1,
-      "instruction": "In a bowl, combine honey, soy sauce, garlic, ginger, and oil. Add chicken and mix well to coat."
+      "instruction": "Peel and finely mince the garlic cloves. Peel and grate the fresh ginger."
     },
     {
       "step": 2,
-      "instruction": "Cover and marinate in the refrigerator for at least 30 minutes, or up to 4 hours."
+      "instruction": "In a bowl, combine honey, soy sauce, minced garlic, grated ginger, and oil. Add chicken and mix well to coat."
     },
     {
       "step": 3,
-      "instruction": "Heat a large frying pan over medium-high heat. No extra oil needed — the marinade has enough."
+      "instruction": "Cover and marinate in the refrigerator for at least 30 minutes, or up to 4 hours."
     },
     {
       "step": 4,
-      "instruction": "Remove chicken from marinade (reserve the marinade). Cook chicken for 4-5 minutes per side until golden, caramelised, and cooked through."
+      "instruction": "Heat a large frying pan over medium-high heat. No extra oil needed — the marinade has enough."
     },
     {
       "step": 5,
-      "instruction": "Pour in reserved marinade and simmer for 1-2 minutes until the sauce thickens and coats the chicken."
+      "instruction": "Remove chicken from marinade (reserve the marinade). Cook chicken for 4-5 minutes per side until golden, caramelised, and cooked through."
     },
     {
       "step": 6,
+      "instruction": "Pour in reserved marinade and simmer for 1-2 minutes until the sauce thickens and coats the chicken."
+    },
+    {
+      "step": 7,
       "instruction": "Serve hot with steamed rice and stir-fried vegetables. Garnish with sliced spring onion and sesame seeds if desired."
     }
   ],
@@ -94,8 +99,8 @@
     },
     {
       "type": "tip",
-      "title": "White Pepper",
-      "content": "Add ground white pepper to taste if desired — start with a small pinch. White pepper is pungent and a little goes a long way."
+      "title": "Fresh vs Jar",
+      "content": "Fresh garlic and ginger give a brighter, more aromatic flavour. Grate the ginger on a microplane for the finest texture."
     },
     {
       "type": "serving",
@@ -124,5 +129,19 @@
       "id": "teriyakimarinade",
       "title": "Teriyaki Marinade"
     }
-  ]
+  ],
+  "nutrition": {
+    "servings": 2,
+    "cal": 839,
+    "kj": 3511,
+    "protein": 65,
+    "carbs": 67,
+    "sugars": 18,
+    "fat": 36,
+    "saturated_fat": 9,
+    "fiber": 3,
+    "sodium": 1314,
+    "coverage": 83
+  },
+  "lastModified": "2026-05-17"
 }

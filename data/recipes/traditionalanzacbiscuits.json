@@ -3,10 +3,10 @@
   "title": "Traditional ANZAC Biscuits",
   "emoji": "🥥",
   "category": "Biscuits",
-  "description": "A classic Australian favourite — golden, chewy, and steeped in history. Now with desiccated coconut and brown sugar for deeper flavour.",
+  "description": "A classic Australian favourite — golden, chewy, and steeped in history. This corrected version uses a higher oat-to-coconut ratio for better binding, less greasy hands, and perfect 35g balls every time.",
   "prepTime": "15 min",
-  "cookTime": "20 min",
-  "totalTime": "35 min",
+  "cookTime": "18 min",
+  "totalTime": "33 min",
   "servings": "24 biscuits",
   "yieldPerBatch": "8 biscuits",
   "difficulty": "Beginner",
@@ -27,13 +27,13 @@
       "item": "Plain Flour"
     },
     {
-      "quantity": "90",
+      "quantity": "110",
       "unit": "g",
       "item": "Rolled Oats",
-      "notes": "Uncle Tobys Traditional"
+      "notes": "Uncle Tobys Traditional or similar"
     },
     {
-      "quantity": "85",
+      "quantity": "75",
       "unit": "g",
       "item": "Desiccated Coconut"
     },
@@ -83,23 +83,23 @@
     },
     {
       "step": 4,
-      "instruction": "Stir in bi-carb soda — the mixture will foam up."
+      "instruction": "Stir in bi-carb soda — the mixture will foam up immediately."
     },
     {
       "step": 5,
-      "instruction": "Pour wet mixture into dry ingredients and stir until well combined."
+      "instruction": "Pour wet mixture into dry ingredients and stir until just combined. Do not overmix."
     },
     {
       "step": 6,
-      "instruction": "Roll tablespoons of mixture into 35g balls. Place on trays 8cm apart and flatten slightly."
+      "instruction": "Roll tablespoons of mixture into 35g balls. The dough should feel slightly moist but not sticky. Place on trays 8cm apart and flatten slightly."
     },
     {
       "step": 7,
-      "instruction": "Bake for 18-20 minutes until golden brown."
+      "instruction": "Bake for 16-18 minutes until golden brown. Check at 16 minutes as the higher oat content reduces spread."
     },
     {
       "step": 8,
-      "instruction": "Cool on trays for 5 minutes, then transfer to a wire rack. They will firm up as they cool."
+      "instruction": "Cool on trays for 10 minutes (they will be fragile), then transfer to a wire rack. They firm up completely as they cool."
     }
   ],
   "notes": [
@@ -109,9 +109,14 @@
       "content": "Brown sugar adds moisture and a deeper caramel flavour. The combination of brown and caster sugar gives the perfect balance of chew and crisp."
     },
     {
+      "type": "tip",
+      "title": "Handling Dough",
+      "content": "If dough still sticks to your hands, chill it for 10 minutes before rolling. The corrected oat-to-coconut ratio should solve this."
+    },
+    {
       "type": "variation",
       "title": "Double Batch",
-      "content": "For 48 biscuits, double all ingredients. Bake for 20-22 minutes, rotating trays halfway."
+      "content": "For 48 biscuits, double all ingredients. Bake for 18-20 minutes, rotating trays halfway."
     },
     {
       "type": "storage",
@@ -144,12 +149,15 @@
   "nutrition": {
     "servings": 24,
     "cal": 128,
+    "kj": 535,
     "protein": 1,
     "carbs": 16,
+    "sugars": 8,
     "fat": 7,
+    "saturated_fat": 5,
     "fiber": 1,
     "sodium": 32,
     "coverage": 100
   },
-  "lastModified": "2026-05-14"
+  "lastModified": "2026-05-17"
 }

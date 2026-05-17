@@ -421,30 +421,36 @@
     }
 
     function renderNutrition(n) {
-        if (!n) return '';
-        const { servings, cal, protein, carbs, fat, fiber, sodium, coverage } = n;
-        return `<section class="recipe-nutrition">
-            <h2>Nutrition Facts</h2>
-            <div class="nutrition-label">
-                <div class="nutrition-header">
-                    <span class="nutrition-title">Nutrition Facts</span>
-                    <span class="nutrition-serving">Per serving | ${escHtml(String(servings || '?'))} servings</span>
-                </div>
-                <div class="nutrition-calories">
-                    <span>Calories</span>
-                    <span>${cal || 0}</span>
-                </div>
-                <div class="nutrition-divider thick"></div>
-                <div class="nutrition-row"><span><strong>Protein</strong></span><span>${protein || 0}g</span></div>
-                <div class="nutrition-row"><span><strong>Total Carbohydrate</strong></span><span>${carbs || 0}g</span></div>
-                <div class="nutrition-row indent"><span>Dietary Fibre</span><span>${fiber || 0}g</span></div>
-                <div class="nutrition-row"><span><strong>Total Fat</strong></span><span>${fat || 0}g</span></div>
-                <div class="nutrition-row"><span><strong>Sodium</strong></span><span>${sodium || 0}mg</span></div>
-                <div class="nutrition-divider thick"></div>
-                ${coverage ? `<div class="nutrition-coverage">Estimated from ${coverage}% of ingredients</div>` : ''}
+    if (!n) return '';
+    const { servings, cal, kj, protein, carbs, sugars, fat, saturated_fat, fiber, sodium, coverage } = n;
+    return `<section class="recipe-nutrition">
+        <h2>Nutrition Facts</h2>
+        <div class="nutrition-label">
+            <div class="nutrition-header">
+                <span class="nutrition-title">Nutrition Facts</span>
+                <span class="nutrition-serving">Per serving | ${escHtml(String(servings || '?'))} servings</span>
             </div>
-        </section>`;
-    }
+            <div class="nutrition-calories">
+                <span>Calories</span>
+                <span>${cal || 0}</span>
+            </div>
+            ${kj ? `<div class="nutrition-kj">
+                <span>Energy (kJ)</span>
+                <span>${kj}</span>
+            </div>` : ''}
+            <div class="nutrition-divider thick"></div>
+            <div class="nutrition-row"><span><strong>Protein</strong></span><span>${protein || 0}g</span></div>
+            <div class="nutrition-row"><span><strong>Total Carbohydrate</strong></span><span>${carbs || 0}g</span></div>
+            <div class="nutrition-row indent"><span>Sugars</span><span>${sugars || 0}g</span></div>
+            <div class="nutrition-row indent"><span>Dietary Fibre</span><span>${fiber || 0}g</span></div>
+            <div class="nutrition-row"><span><strong>Total Fat</strong></span><span>${fat || 0}g</span></div>
+            <div class="nutrition-row indent"><span>Saturated Fat</span><span>${saturated_fat || 0}g</span></div>
+            <div class="nutrition-row"><span><strong>Sodium</strong></span><span>${sodium || 0}mg</span></div>
+            <div class="nutrition-divider thick"></div>
+            ${coverage ? `<div class="nutrition-coverage">Estimated from ${coverage}% of ingredients</div>` : ''}
+        </div>
+    </section>`;
+}
 
     function renderTags(tags) {
         if (!tags || !tags.length) return '';
@@ -647,10 +653,20 @@ if (random.data.notes && random.data.notes.trim()) {
 
 // NUTRITION (separate section - keep this)
 if (random.data.nutrition && random.data.nutrition.calories) {
-    html += '<div class="tip-nutrition"><strong>⚖️ Nutrition:</strong> ' + escHtmlForTip(random.data.nutrition.calories);
-    if (random.data.nutrition.fat) html += ' | Fat: ' + escHtmlForTip(random.data.nutrition.fat);
-    if (random.data.nutrition.carbohydrates) html += ' | Carbs: ' + escHtmlForTip(random.data.nutrition.carbohydrates);
-    if (random.data.nutrition.protein) html += ' | Protein: ' + escHtmlForTip(random.data.nutrition.protein);
+    html += '<div class="tip-nutrition">';
+    html += '<strong>⚖️ Nutrition (per 100g):</strong><br>';
+    html += '• ' + escHtmlForTip(random.data.nutrition.calories);
+    if (random.data.nutrition.kj) html += ' / ' + escHtmlForTip(random.data.nutrition.kj);
+    html += '<br>';
+    if (random.data.nutrition.protein) html += '• Protein: ' + escHtmlForTip(random.data.nutrition.protein) + '<br>';
+    if (random.data.nutrition.carbohydrates) html += '• Carbs: ' + escHtmlForTip(random.data.nutrition.carbohydrates);
+    if (random.data.nutrition.sugars) html += ' (Sugars: ' + escHtmlForTip(random.data.nutrition.sugars) + ')';
+    html += '<br>';
+    if (random.data.nutrition.fat) html += '• Fat: ' + escHtmlForTip(random.data.nutrition.fat);
+    if (random.data.nutrition.saturated_fat) html += ' (Sat: ' + escHtmlForTip(random.data.nutrition.saturated_fat) + ')';
+    html += '<br>';
+    if (random.data.nutrition.fiber) html += '• Fiber: ' + escHtmlForTip(random.data.nutrition.fiber) + '<br>';
+    if (random.data.nutrition.sodium) html += '• Sodium: ' + escHtmlForTip(random.data.nutrition.sodium);
     html += '</div>';
 }
             
