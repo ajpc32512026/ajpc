@@ -8,8 +8,8 @@
 
             <div class="nav-search">
                 <svg class="search-icon" width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-                    <circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="2"/>
-                    <path d="M12.5 12.5L17 17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="2">
+                        <path d="M12.5 12.5L17 17" stroke="currentColor" stroke-width="2" stroke-linecap="round">
                 </svg>
                 <input type="text" id="navSearch" placeholder="Search recipes..." autocomplete="off" aria-label="Search recipes">
                 <div class="search-results-dropdown" id="searchDropdown" role="listbox"></div>
@@ -45,8 +45,11 @@
                     <a href="recipe.html?id=sub" role="menuitem" aria-label="Sub buns recipe">Sub Buns</a>
                     <hr>
                     <h4>Pastry & Dough</h4>
+                    <a href="recipe.html?id=applecinnscrolls" role="menuitem" aria-label="Apple cinnamon scrolls recipe">Apple Cinnamon Scrolls</a>
                     <a href="recipe.html?id=meatpie" role="menuitem" aria-label="Aussie meat pie recipe">Aussie Meat Pie</a>
                     <a href="recipe.html?id=sausageroll" role="menuitem" aria-label="Aussie sausage roll recipe">Aussie Sausage Roll</a>
+                    <a href="recipe.html?id=cinnbun" role="menuitem" aria-label="Cinnamon buns recipe">Cinnamon Buns</a>
+                    <a href="recipe.html?id=cinntwists" role="menuitem" aria-label="Cinnamon twists recipe">Cinnamon Twists</a>
                     <a href="recipe.html?id=tomatoflan" role="menuitem" aria-label="Tomato and olive flan recipe">Tomato & Olive Flan</a>
                     <a href="recipe.html?id=bananabread" role="menuitem" aria-label="Banana bread recipe">Banana Bread</a>
                     <a href="recipe.html?id=chouxpastry" role="menuitem" aria-label="Choux pastry recipe">Choux Pastry</a>
@@ -82,12 +85,12 @@
                     <a href="recipe.html?id=beefstroganoff" role="menuitem" aria-label="Beef stroganoff recipe">Beef Stroganoff</a>
                     <a href="recipe.html?id=beefvindaloo" role="menuitem" aria-label="Beef vindaloo recipe">Beef Vindaloo</a>
                     <a href="recipe.html?id=butterchicken" role="menuitem" aria-label="Butter chicken recipe">Butter Chicken</a>
-					<a href="recipe.html?id=currychicken" role="menuitem" aria-label="Curry chicken with coconut cream recipe">Curry Chicken</a>
+                    <a href="recipe.html?id=currychicken" role="menuitem" aria-label="Curry chicken with coconut cream recipe">Curry Chicken</a>
                     <a href="recipe.html?id=chickencacciatore" role="menuitem" aria-label="Chicken cacciatore recipe">Chicken Cacciatore</a>
                     <a href="recipe.html?id=chickenmushroombaconpies" role="menuitem" aria-label="Chicken and bacon pies recipe">Chicken & Bacon Pies</a>
                     <a href="recipe.html?id=chickenshawarma" role="menuitem" aria-label="Chicken shawarma recipe">Chicken Shawarma</a>
                     <a href="recipe.html?id=chickenteriyaki" role="menuitem" aria-label="Chicken teriyaki recipe">Chicken Teriyaki</a>
-					<a href="recipe.html?id=honeysoychicken" role="menuitem" aria-label="Honey soy chicken recipe">Honey Soy Chicken</a>
+                    <a href="recipe.html?id=honeysoychicken" role="menuitem" aria-label="Honey soy chicken recipe">Honey Soy Chicken</a>
                     <a href="recipe.html?id=lambkorma" role="menuitem" aria-label="Lamb korma recipe">Lamb Korma</a>
                     <a href="recipe.html?id=lambvindaloo" role="menuitem" aria-label="Lamb vindaloo recipe">Lamb Vindaloo</a>
                     <a href="recipe.html?id=mongolianbeef" role="menuitem" aria-label="Mongolian beef recipe">Mongolian Beef</a>
@@ -111,50 +114,54 @@
                     <a href="recipe.html?id=filipinoportoccino" role="menuitem" aria-label="Filipino pork tocino recipe">Filipino Pork Toccino</a>
                 </div>
             </div>
-			
-			<!-- Breakfast -->
-			<div class="nav-group">
-			<span class="nav-pill" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Breakfast recipes">Breakfast</span>
-				<div class="dropdown" role="menu">
-					<a href="recipe.html?id=ananaschiavanillapudding" role="menuitem" aria-label="Ana's Chia Vanilla Pudding">Ana's Chia Vanilla Pudding</a>
-				</div>
-			</div>
+
+            <!-- Breakfast -->
+            <div class="nav-group">
+                <span class="nav-pill" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Breakfast recipes">Breakfast</span>
+                <div class="dropdown" role="menu">
+                    <a href="recipe.html?id=ananaschiavanillapudding" role="menuitem" aria-label="Ana's Chia Vanilla Pudding">Ana's Chia Vanilla Pudding</a>
+                </div>
+            </div>
 
             <!-- Dessert -->
-<div class="nav-group">
-    <span class="nav-pill" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Dessert recipes">Dessert</span>
-    <div class="dropdown" role="menu">
-        <a href="recipe.html?id=applepie" role="menuitem" aria-label="Apple pie recipe">Apple Pie</a>
-        <a href="recipe.html?id=applecinnscrolls" role="menuitem" aria-label="Apple cinnamon scrolls recipe">Apple Cinnamon Scrolls</a>
-        <a href="recipe.html?id=apricotflan" role="menuitem" aria-label="Apricot flan recipe">Apricot Flan</a>
-        <a href="recipe.html?id=bananacake" role="menuitem" aria-label="Banana cake recipe">Banana Cake</a>
-        <a href="recipe.html?id=baked-cheesecake" role="menuitem" aria-label="Baked cheesecake recipe">Cheesecake — Baked</a>
-        <a href="recipe.html?id=plaincheesecakeclassicnobake" role="menuitem" aria-label="Classic no-bake cheesecake recipe">Cheesecake — Plain No Bake</a>
-        <a href="recipe.html?id=classiccarrotcake" role="menuitem" aria-label="Classic carrot cake recipe">Carrot Cake</a>
-        <a href="recipe.html?id=theultimatechocolatemudcake" role="menuitem" aria-label="Ultimate chocolate mud cake recipe">Chocolate Mud Cake</a>
-        <a href="recipe.html?id=chocolatemousse" role="menuitem" aria-label="Chocolate mousse recipe">Chocolate Mousse</a>
-        <a href="recipe.html?id=chocmuffins" role="menuitem" aria-label="Chocolate muffins recipe">Chocolate Muffins</a>
-		<a href="recipe.html?id=chocolatemugcake" role="menuitem" aria-label="Chocolate mug cake recipe">Chocolate Mug Cake</a>
-        <a href="recipe.html?id=chocolaterumballs" role="menuitem" aria-label="Chocolate rum balls recipe">Chocolate Rum Balls</a>
-        <a href="recipe.html?id=cinnbun" role="menuitem" aria-label="Cinnamon buns recipe">Cinnamon Buns</a>
-        <a href="recipe.html?id=cinntwists" role="menuitem" aria-label="Cinnamon twists recipe">Cinnamon Twists</a>
-        <a href="recipe.html?id=cremecaramel" role="menuitem" aria-label="Crème caramel recipe">Crème Caramel</a>
-        <a href="recipe.html?id=crepes" role="menuitem" aria-label="Crepes recipe">Crepes</a>
-        <a href="recipe.html?id=hummingbird" role="menuitem" aria-label="Hummingbird cake recipe">Hummingbird Cake</a>
-        <a href="recipe.html?id=lamington" role="menuitem" aria-label="Classic lamington recipe">Lamington</a>
-        <a href="recipe.html?id=lemoncoconut" role="menuitem" aria-label="Lemon and coconut cake recipe">Lemon & Coconut Cake</a>
-        <a href="recipe.html?id=lemonmeringuepie" role="menuitem" aria-label="Lemon meringue pie recipe">Lemon Meringue Pie</a>
-        <a href="recipe.html?id=blueberrymuffins" role="menuitem" aria-label="Blueberry muffins recipe">Muffins — Blueberry</a>
-        <a href="recipe.html?id=chocmuffins" role="menuitem" aria-label="Chocolate muffins recipe">Muffins — Chocolate</a>
-        <a href="recipe.html?id=muffinmix" role="menuitem" aria-label="Plain muffin mix recipe">Muffins — Plain Mix</a>
-        <a href="recipe.html?id=friandsop" role="menuitem" aria-label="Orange and poppyseed friands recipe">Orange & Poppyseed Friands</a>
-        <a href="recipe.html?id=orangepoppyseed" role="menuitem" aria-label="Orange and poppyseed cake recipe">Orange & Poppyseed Cake</a>
-        <a href="recipe.html?id=pancakesfortwo" role="menuitem" aria-label="Pancakes for Two recipe">Pancakes for Two</a>
-        <a href="recipe.html?id=stickydates" role="menuitem" aria-label="Sticky date pudding recipe">Sticky Date Pudding</a>
-        <a href="recipe.html?id=roulade" role="menuitem" aria-label="Strawberry roulade recipe">Strawberry Roulade</a>
-        <a href="recipe.html?id=tiramisu" role="menuitem" aria-label="Tiramisu gateau recipe">Tiramisu Gateau</a>
-    </div>
-</div>
+            <div class="nav-group">
+                <span class="nav-pill" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Dessert recipes">Dessert</span>
+                <div class="dropdown" role="menu">
+                    <a href="recipe.html?id=applepie" role="menuitem" aria-label="Apple pie recipe">Apple Pie</a>
+                    <a href="recipe.html?id=apricotflan" role="menuitem" aria-label="Apricot flan recipe">Apricot Flan</a>
+                    <a href="recipe.html?id=baked-cheesecake" role="menuitem" aria-label="Baked cheesecake recipe">Cheesecake — Baked</a>
+                    <a href="recipe.html?id=plaincheesecakeclassicnobake" role="menuitem" aria-label="Classic no-bake cheesecake recipe">Cheesecake — Plain No Bake</a>
+                    <a href="recipe.html?id=chocolatemousse" role="menuitem" aria-label="Chocolate mousse recipe">Chocolate Mousse</a>
+                    <a href="recipe.html?id=chocmuffins" role="menuitem" aria-label="Chocolate muffins recipe">Chocolate Muffins</a>
+                    <a href="recipe.html?id=chocolatemugcake" role="menuitem" aria-label="Chocolate mug cake recipe">Chocolate Mug Cake</a>
+                    <a href="recipe.html?id=chocolaterumballs" role="menuitem" aria-label="Chocolate rum balls recipe">Chocolate Rum Balls</a>
+                    <a href="recipe.html?id=cremecaramel" role="menuitem" aria-label="Crème caramel recipe">Crème Caramel</a>
+                    <a href="recipe.html?id=crepes" role="menuitem" aria-label="Crepes recipe">Crepes</a>
+                    <a href="recipe.html?id=lemonmeringuepie" role="menuitem" aria-label="Lemon meringue pie recipe">Lemon Meringue Pie</a>
+                    <a href="recipe.html?id=blueberrymuffins" role="menuitem" aria-label="Blueberry muffins recipe">Muffins — Blueberry</a>
+                    <a href="recipe.html?id=chocmuffins" role="menuitem" aria-label="Chocolate muffins recipe">Muffins — Chocolate</a>
+                    <a href="recipe.html?id=muffinmix" role="menuitem" aria-label="Plain muffin mix recipe">Muffins — Plain Mix</a>
+                    <a href="recipe.html?id=friandsop" role="menuitem" aria-label="Orange and poppyseed friands recipe">Orange & Poppyseed Friands</a>
+                    <a href="recipe.html?id=pancakesfortwo" role="menuitem" aria-label="Pancakes for Two recipe">Pancakes for Two</a>
+                    <a href="recipe.html?id=stickydates" role="menuitem" aria-label="Sticky date pudding recipe">Sticky Date Pudding</a>
+                    <a href="recipe.html?id=roulade" role="menuitem" aria-label="Strawberry roulade recipe">Strawberry Roulade</a>
+                </div>
+            </div>
+
+            <!-- Cakes -->
+            <div class="nav-group">
+                <span class="nav-pill" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Cake recipes">Cakes</span>
+                <div class="dropdown" role="menu">
+                    <a href="recipe.html?id=bananacake" role="menuitem" aria-label="Banana cake recipe">Banana Cake</a>
+                    <a href="recipe.html?id=classiccarrotcake" role="menuitem" aria-label="Classic carrot cake recipe">Carrot Cake</a>
+                    <a href="recipe.html?id=theultimatechocolatemudcake" role="menuitem" aria-label="Ultimate chocolate mud cake recipe">Chocolate Mud Cake</a>
+                    <a href="recipe.html?id=hummingbird" role="menuitem" aria-label="Hummingbird cake recipe">Hummingbird</a>
+                    <a href="recipe.html?id=lamington" role="menuitem" aria-label="Classic lamington recipe">Lamington</a>
+                    <a href="recipe.html?id=lemoncoconut" role="menuitem" aria-label="Lemon and coconut cake recipe">Lemon & Coconut Cake</a>
+                    <a href="recipe.html?id=orangepoppyseed" role="menuitem" aria-label="Orange and poppyseed cake recipe">Orange & Poppyseed Cake</a>
+                    <a href="recipe.html?id=tiramisu" role="menuitem" aria-label="Tiramisu gateau recipe">Tiramisu Gateau</a>
+                </div>
+            </div>
 
             <!-- Sauces -->
             <div class="nav-group">
