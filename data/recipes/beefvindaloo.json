@@ -83,20 +83,19 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
       "item": "Coriander (Fresh)",
       "notes": "for garnish"
+    },
+    {
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Prepare 1 batch of vindaloo paste according to the vindaloo paste recipe. Set aside."
+      "instruction": "Prepare 1 batch of [[vindaloopaste|Vindaloo Paste]] according to the recipe. Set aside."
     },
     {
       "step": 2,
@@ -168,12 +167,25 @@
   ],
   "nutrition": {
     "servings": 4,
-    "cal": 895,
-    "protein": 72,
-    "carbs": 38,
-    "fat": 54,
-    "fiber": 4,
-    "sodium": 679,
-    "coverage": 100
-  }
+    "cal": 641,
+    "kj": 2682,
+    "protein": 26,
+    "carbs": 80,
+    "sugars": 19,
+    "fat": 19,
+    "saturated_fat": 3,
+    "fiber": 21,
+    "sodium": 341,
+    "coverage": 92,
+    "calcium_mg": 112,
+    "iron_mg": 7,
+    "potassium_mg": 1359,
+    "magnesium_mg": 90,
+    "zinc_mg": 5,
+    "cholesterol_mg": 33,
+    "vitamin_a_ug": 63,
+    "vitamin_c_mg": 32,
+    "vitamin_d_ug": 1
+  },
+  "lastModified": "2026-05-24"
 }

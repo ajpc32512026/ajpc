@@ -119,12 +119,23 @@
   ],
   "nutrition": {
     "servings": 4,
-    "cal": 250,
-    "protein": 8,
-    "carbs": 41,
-    "fat": 8,
-    "fiber": 4,
-    "sodium": 509,
-    "coverage": 100
-  }
+    "cal": 280,
+    "kj": 1173,
+    "protein": 10,
+    "carbs": 23,
+    "sugars": 14,
+    "fat": 12,
+    "saturated_fat": 2,
+    "fiber": 22,
+    "sodium": 140,
+    "coverage": 100,
+    "calcium_mg": 123,
+    "iron_mg": 7,
+    "potassium_mg": 1247,
+    "magnesium_mg": 71,
+    "zinc_mg": 2,
+    "vitamin_a_ug": 7,
+    "vitamin_c_mg": 24
+  },
+  "lastModified": "2026-05-23"
 }

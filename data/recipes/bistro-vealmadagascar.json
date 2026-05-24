@@ -1,8 +1,7 @@
 {
   "id": "vealmadagascar",
   "title": "Veal Madagascar",
-  "emoji": "",
-  "category": "Dinner",
+  "category": "Bistro",
   "description": "Veal in a rich cream and demi glace sauce with bacon, capsicum, tomato, onion, garlic, and green peppercorns. Served hot or mild — the customer's choice.",
   "prepTime": "10 min",
   "cookTime": "10 min",
@@ -81,10 +80,15 @@
       "item": "Unsalted Butter"
     },
     {
-      "quantity": "3",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
+    }
+  ],
+  "youWillNeed": [
+    {
+      "item": "Plain Flour",
+      "note": "Dusting"
     }
   ],
   "method": [
@@ -157,12 +161,25 @@
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 2582,
-    "protein": 154,
-    "carbs": 172,
-    "fat": 149,
-    "fiber": 17,
-    "sodium": 5202,
-    "coverage": 100
-  }
+    "cal": 1960,
+    "kj": 8201,
+    "protein": 95,
+    "carbs": 132,
+    "sugars": 45,
+    "fat": 97,
+    "saturated_fat": 48,
+    "fiber": 91,
+    "sodium": 1688,
+    "coverage": 92,
+    "calcium_mg": 488,
+    "iron_mg": 35,
+    "potassium_mg": 4879,
+    "magnesium_mg": 295,
+    "zinc_mg": 18,
+    "cholesterol_mg": 712,
+    "vitamin_a_ug": 25004,
+    "vitamin_c_mg": 438,
+    "vitamin_d_ug": 5
+  },
+  "lastModified": "2026-05-24"
 }

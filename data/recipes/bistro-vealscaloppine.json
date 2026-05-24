@@ -2,7 +2,7 @@
   "id": "vealscaloppine",
   "title": "Veal Scaloppine",
   "emoji": "🍄",
-  "category": "Dinner",
+  "category": "Bistro",
   "description": "Thin pan-fried veal with a creamy onion and mushroom sauce. Quick, simple, and deeply satisfying.",
   "prepTime": "5 min",
   "cookTime": "8 min",
@@ -23,13 +23,7 @@
       "quantity": "180",
       "unit": "g",
       "item": "Veal",
-      "notes": "escalopes, pounded thin"
-    },
-    {
-      "quantity": "30",
-      "unit": "g",
-      "item": "Plain Flour",
-      "notes": "for dusting"
+      "notes": "escalopes, gently pounded thin"
     },
     {
       "quantity": "30",
@@ -37,10 +31,10 @@
       "item": "Unsalted Butter"
     },
     {
-      "quantity": "1",
+      "quantity": "2",
       "unit": "",
-      "item": "Brown Onion",
-      "notes": "sliced"
+      "item": "Shallots",
+      "notes": "finely sliced"
     },
     {
       "quantity": "80",
@@ -59,16 +53,19 @@
       "item": "Demi Glace"
     },
     {
-      "quantity": "3",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
+    }
+  ],
+  "youWillNeed": [
+    {
+      "item": "Plain flour",
+      "note": "For dusting"
     },
     {
-      "quantity": "10",
-      "unit": "g",
-      "item": "Parsley",
-      "notes": "fresh, chopped, for garnish"
+      "item": "Fresh parsley",
+      "note": "For garnish"
     }
   ],
   "method": [
@@ -133,12 +130,25 @@
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 926,
-    "protein": 55,
-    "carbs": 39,
-    "fat": 62,
-    "fiber": 4,
-    "sodium": 1521,
-    "coverage": 100
-  }
+    "cal": 768,
+    "kj": 3213,
+    "protein": 42,
+    "carbs": 16,
+    "sugars": 9,
+    "fat": 58,
+    "saturated_fat": 35,
+    "fiber": 7,
+    "sodium": 378,
+    "coverage": 86,
+    "calcium_mg": 244,
+    "iron_mg": 17,
+    "potassium_mg": 1571,
+    "magnesium_mg": 118,
+    "zinc_mg": 12,
+    "cholesterol_mg": 487,
+    "vitamin_a_ug": 24655,
+    "vitamin_c_mg": 75,
+    "vitamin_d_ug": 4
+  },
+  "lastModified": "2026-05-24"
 }

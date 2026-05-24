@@ -2,7 +2,7 @@
   "id": "chickenpicante",
   "title": "Chicken Picante",
   "emoji": "🌿",
-  "category": "Dinner",
+  "category": "Bistro",
   "description": "Breast chicken in a cream sauce punched up with Dijon mustard and green peppercorns. Sharp, creamy, and satisfying.",
   "prepTime": "5 min",
   "cookTime": "8 min",
@@ -23,7 +23,7 @@
   ],
   "ingredients": [
     {
-      "quantity": "2",
+      "quantity": "1",
       "unit": "",
       "item": "Chicken Breast",
       "notes": "pan-fried"
@@ -61,10 +61,9 @@
       "item": "White Wine"
     },
     {
-      "quantity": "2",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste — Dijon is already salty"
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in.(used 5x)"
     }
   ],
   "method": [
@@ -124,12 +123,25 @@
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 885,
-    "protein": 67,
-    "carbs": 19,
-    "fat": 55,
-    "fiber": 4,
-    "sodium": 1246,
-    "coverage": 100
-  }
+    "cal": 692,
+    "kj": 2894,
+    "protein": 30,
+    "carbs": 11,
+    "sugars": 8,
+    "fat": 54,
+    "saturated_fat": 32,
+    "fiber": 3,
+    "sodium": 119,
+    "coverage": 88,
+    "calcium_mg": 99,
+    "iron_mg": 2,
+    "potassium_mg": 768,
+    "magnesium_mg": 99,
+    "zinc_mg": 2,
+    "cholesterol_mg": 186,
+    "vitamin_a_ug": 437,
+    "vitamin_c_mg": 8,
+    "vitamin_d_ug": 1
+  },
+  "lastModified": "2026-05-24"
 }

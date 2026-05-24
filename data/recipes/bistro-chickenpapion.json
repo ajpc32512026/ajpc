@@ -2,7 +2,7 @@
   "id": "chickenpapion",
   "title": "Chicken Papion",
   "emoji": "🦪",
-  "category": "Dinner",
+  "category": "Bistro",
   "description": "Pan-fried chicken breast with fresh oysters folded into a cream sauce. Unusual, elegant, and utterly of its era.",
   "prepTime": "10 min",
   "cookTime": "8 min",
@@ -22,7 +22,7 @@
   ],
   "ingredients": [
     {
-      "quantity": "2",
+      "quantity": "1",
       "unit": "",
       "item": "Chicken Breast",
       "notes": "pan-fried"
@@ -55,10 +55,9 @@
       "item": "White Wine"
     },
     {
-      "quantity": "3",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
   "method": [
@@ -118,12 +117,25 @@
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 1246,
-    "protein": 107,
-    "carbs": 36,
-    "fat": 68,
+    "cal": 980,
+    "kj": 4101,
+    "protein": 86,
+    "carbs": 11,
+    "sugars": 7,
+    "fat": 61,
+    "saturated_fat": 34,
     "fiber": 2,
-    "sodium": 2186,
-    "coverage": 100
-  }
+    "sodium": 3286,
+    "coverage": 86,
+    "calcium_mg": 1213,
+    "iron_mg": 25,
+    "potassium_mg": 2011,
+    "magnesium_mg": 520,
+    "zinc_mg": 105,
+    "cholesterol_mg": 592,
+    "vitamin_a_ug": 573,
+    "vitamin_c_mg": 13,
+    "vitamin_d_ug": 3
+  },
+  "lastModified": "2026-05-24"
 }

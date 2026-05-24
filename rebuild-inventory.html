@@ -24,7 +24,7 @@
 </head>
 <body>
     <h1>Update Ingredient Inventory</h1>
-    <p>Loads <code>ingredient_inventory_v6.json</code> as the source of truth. Scans all recipes to update <code>usedIn</code> arrays and adds only genuinely new ingredients. V6 data always wins.</p>
+    <p>Loads <code>ingredient_inventory_v7.json</code> as the source of truth. Scans all recipes to update <code>usedIn</code> arrays and adds only genuinely new ingredients. V6 data always wins.</p>
     
     <div class="stats">
         <div class="stat-card">
@@ -66,7 +66,7 @@
         // ── Load existing V6 inventory ──
         var v6Inventory = {};
         try {
-            var invRes = await fetch('json/ingredient_inventory_v6.json');
+            var invRes = await fetch('json/ingredient_inventory_v7.json');
             if (!invRes.ok) throw new Error('V6 not found');
             v6Inventory = await invRes.json();
             status.textContent = 'Loaded V6 inventory: ' + Object.keys(v6Inventory).length + ' ingredients.';

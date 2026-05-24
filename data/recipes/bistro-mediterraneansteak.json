@@ -2,7 +2,7 @@
   "id": "mediterraneansteak",
   "title": "Mediterranean Steak",
   "emoji": "🦐",
-  "category": "Dinner",
+  "category": "Bistro",
   "description": "Scotch fillet in a rich cream sauce with king prawns and green peppercorns. Surf and turf done properly — the bistro way.",
   "prepTime": "5 min",
   "cookTime": "8 min",
@@ -23,7 +23,7 @@
   ],
   "ingredients": [
     {
-      "quantity": "2",
+      "quantity": "1",
       "unit": "",
       "item": "Beef, Scotch Fillet",
       "notes": "approximately 180 g each"
@@ -67,10 +67,9 @@
       "item": "Brandy"
     },
     {
-      "quantity": "3",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
   "method": [
@@ -134,12 +133,25 @@
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 1226,
-    "protein": 95,
-    "carbs": 19,
-    "fat": 82,
+    "cal": 845,
+    "kj": 3534,
+    "protein": 44,
+    "carbs": 34,
+    "sugars": 11,
+    "fat": 52,
+    "saturated_fat": 33,
     "fiber": 4,
-    "sodium": 1743,
-    "coverage": 100
-  }
+    "sodium": 880,
+    "coverage": 89,
+    "calcium_mg": 182,
+    "iron_mg": 1,
+    "potassium_mg": 867,
+    "magnesium_mg": 98,
+    "zinc_mg": 4,
+    "cholesterol_mg": 740,
+    "vitamin_a_ug": 449,
+    "vitamin_c_mg": 11,
+    "vitamin_d_ug": 1
+  },
+  "lastModified": "2026-05-24"
 }

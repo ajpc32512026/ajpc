@@ -2,13 +2,13 @@
   "id": "chickenriverina",
   "title": "Chicken Riverina",
   "emoji": "🍑",
-  "category": "Dinner",
+  "category": "Bistro",
   "description": "Chicken breast stuffed with dried apricots and almonds, finished with a cream and apricot sauce. Named for the Riverina region of New South Wales.",
   "prepTime": "15 min",
   "cookTime": "10 min",
   "totalTime": "25 min",
-  "servings": "2",
-  "yieldPerBatch": "2 serves",
+  "servings": "1",
+  "difficulty": "Intermediate",
   "tags": [
     "Australian",
     "Chicken",
@@ -21,7 +21,7 @@
   ],
   "ingredients": [
     {
-      "quantity": "2",
+      "quantity": "1",
       "unit": "",
       "item": "Chicken Breasts",
       "notes": "skinless, approximately 180g each"
@@ -54,16 +54,9 @@
       "notes": "reserved juice from canned apricots, or soak dried apricots in hot water"
     },
     {
-      "quantity": "2",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
-    },
-    {
-      "quantity": "1",
-      "unit": "g",
-      "item": "White Pepper",
-      "notes": "to taste"
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in.(used 5x)"
     }
   ],
   "method": [
@@ -123,13 +116,26 @@
     }
   ],
   "nutrition": {
-    "servings": 2,
-    "cal": 650,
-    "protein": 32,
-    "carbs": 34,
-    "fat": 45,
-    "fiber": 5,
-    "sodium": 480,
-    "coverage": 100
-  }
+    "servings": 1,
+    "cal": 961,
+    "kj": 4021,
+    "protein": 19,
+    "carbs": 67,
+    "sugars": 44,
+    "fat": 65,
+    "saturated_fat": 33,
+    "fiber": 12,
+    "sodium": 166,
+    "coverage": 86,
+    "calcium_mg": 186,
+    "iron_mg": 4,
+    "potassium_mg": 1690,
+    "magnesium_mg": 144,
+    "zinc_mg": 3,
+    "cholesterol_mg": 133,
+    "vitamin_a_ug": 800,
+    "vitamin_c_mg": 6,
+    "vitamin_d_ug": 1
+  },
+  "lastModified": "2026-05-24"
 }

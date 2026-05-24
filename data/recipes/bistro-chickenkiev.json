@@ -2,7 +2,7 @@
   "id": "chickenkiev",
   "title": "Chicken Kiev",
   "emoji": "🍗",
-  "category": "Dinner",
+  "category": "Bistro",
   "description": "Golden crumbed chicken breast stuffed with garlic butter, served with a simple tomato cream sauce. A showstopper from the bistro era.",
   "prepTime": "20 min",
   "cookTime": "8 min",
@@ -25,7 +25,7 @@
       "heading": "Chicken"
     },
     {
-      "quantity": "2",
+      "quantity": "1",
       "unit": "",
       "item": "Chicken Breast",
       "notes": "large, pocket cut"
@@ -47,30 +47,6 @@
       "unit": "g",
       "item": "Parsley",
       "notes": "fresh, chopped"
-    },
-    {
-      "quantity": "30",
-      "unit": "g",
-      "item": "Plain Flour",
-      "notes": "for dusting"
-    },
-    {
-      "quantity": "2",
-      "unit": "",
-      "item": "Eggs",
-      "notes": "beaten, for egg wash"
-    },
-    {
-      "quantity": "50",
-      "unit": "g",
-      "item": "Breadcrumbs",
-      "notes": "for crumbing"
-    },
-    {
-      "quantity": "500",
-      "unit": "ml",
-      "item": "Vegetable Oil",
-      "notes": "for deep frying"
     },
     {
       "heading": "Tomato Cream Sauce"
@@ -103,10 +79,27 @@
       "item": "Tomato Sauce"
     },
     {
-      "quantity": "3",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
+    }
+  ],
+  "youWillNeed": [
+    {
+      "item": "Plain Flour",
+      "note": "for dusting the chicken"
+    },
+    {
+      "item": "Eggs",
+      "note": "beaten, for egg wash"
+    },
+    {
+      "item": "Breadcrumbs",
+      "note": "for crumbing"
+    },
+    {
+      "item": "Vegetable Oil",
+      "note": "for deep frying"
     }
   ],
   "method": [
@@ -179,12 +172,25 @@
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 7199,
-    "protein": 127,
-    "carbs": 204,
-    "fat": 669,
-    "fiber": 15,
-    "sodium": 2032,
-    "coverage": 100
-  }
+    "cal": 2007,
+    "kj": 8399,
+    "protein": 57,
+    "carbs": 69,
+    "sugars": 32,
+    "fat": 152,
+    "saturated_fat": 98,
+    "fiber": 78,
+    "sodium": 217,
+    "coverage": 90,
+    "calcium_mg": 358,
+    "iron_mg": 16,
+    "potassium_mg": 3863,
+    "magnesium_mg": 221,
+    "zinc_mg": 6,
+    "cholesterol_mg": 369,
+    "vitamin_a_ug": 1455,
+    "vitamin_c_mg": 83,
+    "vitamin_d_ug": 2
+  },
+  "lastModified": "2026-05-24"
 }

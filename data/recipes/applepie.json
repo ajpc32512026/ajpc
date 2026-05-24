@@ -141,13 +141,22 @@
   ],
   "nutrition": {
     "servings": 8,
-    "cal": 369,
-    "protein": 4,
-    "carbs": 62,
+    "cal": 626,
+    "kj": 2618,
+    "protein": 5,
+    "carbs": 118,
+    "sugars": 94,
     "fat": 13,
-    "fiber": 4,
-    "sodium": 31,
-    "coverage": 100
+    "saturated_fat": 9,
+    "fiber": 11,
+    "sodium": 385,
+    "coverage": 100,
+    "calcium_mg": 40,
+    "iron_mg": 1,
+    "potassium_mg": 857,
+    "magnesium_mg": 42,
+    "cholesterol_mg": 26,
+    "vitamin_a_ug": 150
   },
-  "lastModified": "2026-05-08"
+  "lastModified": "2026-05-23"
 }

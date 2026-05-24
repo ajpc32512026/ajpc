@@ -96,7 +96,7 @@
   "method": [
     {
       "step": 1,
-      "instruction": "Prepare 1 batch of vindaloo paste according to the vindaloo paste recipe. Set aside."
+      "instruction": "Prepare 1 batch of [[vindaloopaste|Vindaloo Paste]] according to the vindaloo paste recipe. Set aside."
     },
     {
       "step": 2,
@@ -168,12 +168,25 @@
   ],
   "nutrition": {
     "servings": 4,
-    "cal": 942,
-    "protein": 57,
-    "carbs": 38,
-    "fat": 63,
-    "fiber": 4,
-    "sodium": 691,
-    "coverage": 100
-  }
+    "cal": 604,
+    "kj": 2528,
+    "protein": 59,
+    "carbs": 21,
+    "sugars": 14,
+    "fat": 28,
+    "saturated_fat": 7,
+    "fiber": 18,
+    "sodium": 336,
+    "coverage": 100,
+    "calcium_mg": 129,
+    "iron_mg": 9,
+    "potassium_mg": 1669,
+    "magnesium_mg": 109,
+    "zinc_mg": 11,
+    "cholesterol_mg": 150,
+    "vitamin_a_ug": 59,
+    "vitamin_c_mg": 22,
+    "vitamin_d_ug": 2
+  },
+  "lastModified": "2026-05-23"
 }

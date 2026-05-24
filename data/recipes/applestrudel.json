@@ -1,0 +1,234 @@
+{
+  "id": "applestrudel",
+  "title": "Apple Strudel",
+  "emoji": "🥧",
+  "category": "Desserts",
+  "description": "Easy apple strudel recipe using store-bought puff pastry and staples like apples, walnuts, and cinnamon. Perfect for dessert or a sweet breakfast treat!",
+  "prepTime": "20 minutes",
+  "cookTime": "45 minutes",
+  "totalTime": "65 minutes",
+  "servings": "6",
+  "difficulty": "Beginner",
+  "tags": [
+    "Apple",
+    "Strudel",
+    "Puff Pastry",
+    "Dessert",
+    "Baking",
+    "Sweet"
+  ],
+  "ingredients": [
+    {
+      "heading": "For the Pastry"
+    },
+    {
+      "quantity": "490",
+      "unit": "g",
+      "item": "Frozen Puff Pastry",
+      "notes": "2 sheets, thawed at room temperature"
+    },
+    {
+      "heading": "For the Filling"
+    },
+    {
+      "quantity": "3",
+      "unit": "",
+      "item": "Granny Smith Apples",
+      "notes": "peeled, cored, chopped into 1.5cm cubes"
+    },
+    {
+      "quantity": "60",
+      "unit": "g",
+      "item": "White Sugar",
+      "notes": "divided"
+    },
+    {
+      "quantity": "15",
+      "unit": "g",
+      "item": "Plain Flour"
+    },
+    {
+      "quantity": "2",
+      "unit": "g",
+      "item": "Cinnamon"
+    },
+    {
+      "quantity": "65",
+      "unit": "g",
+      "item": "Walnuts",
+      "notes": "finely chopped"
+    },
+    {
+      "quantity": "45",
+      "unit": "g",
+      "item": "Light Brown Sugar"
+    },
+    {
+      "quantity": "15",
+      "unit": "g",
+      "item": "Breadcrumbs"
+    }
+  ],
+  "youWillNeed": [
+    {
+      "item": "Baking sheet"
+    },
+    {
+      "item": "Rolling pin"
+    },
+    {
+      "item": "Pastry brush"
+    },
+    {
+      "item": "1 Egg & 5 ml Milk",
+      "note": "Make an Eggwash, this is for brushing and sealing the edges."
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 190°C. Line a baking sheet with parchment paper and set aside."
+    },
+    {
+      "step": 2,
+      "instruction": "Peel, core, and chop apples into 1.5cm cubes. Place in a bowl and add half the white sugar, flour, and cinnamon. Toss well and set aside for 15 minutes to release juices."
+    },
+    {
+      "step": 3,
+      "instruction": "Combine walnuts, brown sugar, remaining white sugar, and breadcrumbs in a small bowl. Stir well and set aside."
+    },
+    {
+      "step": 4,
+      "instruction": "Roll out thawed puff pastry on a lightly floured surface to approximately 25 x 30cm. Sprinkle half the nut mixture down the centre, leaving a 2.5cm border. Top with half the apple mixture."
+    },
+    {
+      "step": 5,
+      "instruction": "Fold one side of pastry over the filling, then fold the opposite side over to overlap. Pinch the sides to seal. Transfer seam-side down to the baking sheet. Repeat with the second pastry sheet."
+    },
+    {
+      "step": 6,
+      "instruction": "Brush strudels with egg wash and cut small slits on top. Bake at 190°C for 40-45 minutes until golden brown. Cool for 10 minutes."
+    },
+    {
+      "step": 7,
+      "instruction": "Dust with icing sugar and serve warm with vanilla ice cream or whipped cream."
+    }
+  ],
+  "notes": [
+    {
+      "type": "tip",
+      "title": "Apple Choice",
+      "content": "Granny Smith apples hold their shape well and provide a nice tartness against the sweet filling."
+    },
+    {
+      "type": "storage",
+      "title": "Storage",
+      "content": "Store in an airtight container at room temperature for up to 2 days. Reheat at 180°C for 5-10 minutes."
+    },
+    {
+      "type": "variation",
+      "title": "Add-ins",
+      "content": "Add 50g raisins or dried cranberries soaked in apple juice for extra flavour."
+    },
+    {
+      "type": "acknowledgement",
+      "title": "Acknowledgement",
+      "content": "Recipe courtesy of Beyond Kimchee | https://www.beyondkimchee.com/apple-strudel/"
+    }
+  ],
+  "related": [
+    {
+      "id": "applepie",
+      "title": "Apple Pie",
+      "matchingTags": [
+        "Apple",
+        "Dessert",
+        "Pastry",
+        "Baking",
+        "Classic",
+        "Make Ahead",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "applecinnscrolls",
+      "title": "Apple Cinnamon Scrolls",
+      "matchingTags": [
+        "Apple",
+        "Cinnamon",
+        "Pastry",
+        "Dessert",
+        "Baking",
+        "Bread",
+        "Breakfast",
+        "Creamy",
+        "Rich",
+        "Sweet",
+        "Under 1 Hour",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "cherrycoconutcake",
+      "title": "Cherry and Coconut Cake",
+      "matchingTags": [
+        "Baking",
+        "Fruit",
+        "Coconut",
+        "Dessert",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "cinnbun",
+      "title": "Cinnamon Buns",
+      "matchingTags": [
+        "Cinnamon",
+        "Pastry",
+        "Dessert",
+        "Baking",
+        "Baked",
+        "Bread",
+        "Breakfast",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "chouxpastry",
+      "title": "Choux Pastry",
+      "matchingTags": [
+        "Pastry",
+        "Baking",
+        "Dessert",
+        "Classic",
+        "French",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
+  "nutrition": {
+    "servings": 6,
+    "cal": 556,
+    "kj": 2328,
+    "protein": 7,
+    "carbs": 78,
+    "sugars": 48,
+    "fat": 23,
+    "saturated_fat": 10,
+    "fiber": 8,
+    "sodium": 274,
+    "coverage": 100,
+    "calcium_mg": 45,
+    "iron_mg": 1,
+    "potassium_mg": 449,
+    "magnesium_mg": 42,
+    "zinc_mg": 1,
+    "cholesterol_mg": 28,
+    "vitamin_a_ug": 120
+  },
+  "lastModified": "2026-05-23"
+}

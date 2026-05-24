@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#16161a">
-<title>Ingredient Editor | AJPC Kitchen Notebook</title>
+<title>Recipe Manager | Ingredient Editor & Usage</title>
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2316161a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='28' font-weight='bold' fill='%23c97d3e'%3EAJ%3C/text%3E%3C/svg%3E">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
@@ -29,15 +29,21 @@
     --sans:      'DM Sans', sans-serif;
   }
 
-  html { font-size: 15px; scroll-behavior: auto; }
+  html {
+    font-size: 15px;
+    height: 100%;
+    overflow: hidden;
+  }
+
   body {
     background: var(--bg);
     color: var(--text);
     font-family: var(--sans);
     font-weight: 300;
-    min-height: 100vh;
-    display: grid;
-    grid-template-rows: auto 1fr;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
   }
 
   header {
@@ -48,6 +54,7 @@
     align-items: center;
     gap: 1rem;
     flex-wrap: wrap;
+    flex-shrink: 0;
   }
   header h1 {
     font-family: var(--serif);
@@ -77,6 +84,7 @@
   .btn.primary:hover { background: #d4b575; }
   .btn.danger { border-color: transparent; color: var(--text-dim); }
   .btn.danger:hover { color: var(--red); }
+  .btn.warning-outline:hover { border-color: var(--warning); color: var(--warning); }
 
   .stats-bar {
     background: var(--surface2);
@@ -89,31 +97,33 @@
     color: var(--text-dim);
     letter-spacing: 0.06em;
     flex-wrap: wrap;
+    flex-shrink: 0;
   }
-  .stats-bar span { white-space: nowrap; }
   .stat-needs { color: var(--warning); }
   .stat-new { color: var(--green); }
 
   .main-layout {
     display: grid;
     grid-template-columns: 320px 1fr;
-    height: calc(100vh - 110px);
+    flex: 1;
+    min-height: 0;
+    overflow: hidden;
   }
 
   .sidebar {
     background: var(--surface);
     border-right: 1px solid var(--border);
-    overflow-y: auto;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
+    height: 100%;
   }
+  
   .sidebar-search {
     padding: 0.75rem;
     border-bottom: 1px solid var(--border);
-    position: sticky;
-    top: 0;
     background: var(--surface);
-    z-index: 2;
+    flex-shrink: 0;
   }
   .sidebar-search input {
     width: 100%;
@@ -127,12 +137,14 @@
     outline: none;
   }
   .sidebar-search input:focus { border-color: var(--gold-dim); }
+  
   .sidebar-filters {
     padding: 0.5rem 0.75rem;
     border-bottom: 1px solid var(--border);
     display: flex;
     gap: 0.35rem;
     flex-wrap: wrap;
+    flex-shrink: 0;
   }
   .filter-btn {
     font-family: var(--mono);
@@ -153,7 +165,9 @@
     flex: 1;
     overflow-y: auto;
     padding: 0;
+    min-height: 0;
   }
+  
   .ingredient-list-item {
     display: block;
     width: 100%;
@@ -166,7 +180,6 @@
     font-family: var(--sans);
     font-size: 0.82rem;
     cursor: pointer;
-    transition: all 0.1s;
     position: relative;
   }
   .ingredient-list-item:hover { background: var(--surface2); color: var(--text); }
@@ -191,7 +204,9 @@
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    min-height: 0;
   }
+  
   .editor-empty {
     text-align: center;
     padding: 4rem 2rem;
@@ -225,23 +240,83 @@
 
   .row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
 
+  .used-in-section {
+    background: var(--surface2);
+    border-radius: 6px;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    border-left: 2px solid var(--gold-dim);
+  }
+  .used-in-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-bottom: 0.8rem;
+  }
   .used-in-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.3rem;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
   }
   .used-in-tag {
     font-family: var(--mono);
-    font-size: 0.65rem;
-    background: var(--surface2);
+    font-size: 0.7rem;
+    background: var(--surface);
     border: 1px solid var(--border2);
     color: var(--text-mid);
-    padding: 0.2rem 0.5rem;
-    border-radius: 2px;
+    padding: 0.25rem 0.7rem;
+    border-radius: 20px;
     cursor: pointer;
     text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    transition: all 0.1s;
   }
-  .used-in-tag:hover { border-color: var(--gold-dim); color: var(--gold); }
+  .used-in-tag:hover { border-color: var(--gold-dim); color: var(--gold); background: var(--surface); }
+  .remove-recipe {
+    background: none;
+    border: none;
+    color: var(--text-dim);
+    font-size: 0.7rem;
+    cursor: pointer;
+    font-family: var(--mono);
+    margin-left: 0.2rem;
+  }
+  .remove-recipe:hover { color: var(--red); }
+  
+  .recipe-selector {
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-end;
+  }
+  .recipe-selector select {
+    flex: 1;
+    background: var(--surface2);
+    color: var(--text);
+    border-color: var(--border2);
+    padding: 0.45rem;
+  }
+  .recipe-selector select option {
+    background: var(--surface);
+    color: var(--text);
+  }
+  .small-btn {
+    font-size: 0.6rem;
+    padding: 0.4rem 0.7rem;
+  }
+  
+  .empty-used {
+    font-style: italic;
+    color: #f5b642 !important;
+    background: rgba(230, 126, 34, 0.2);
+    padding: 0.6rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    border-left: 2px solid var(--warning);
+  }
 
   #toast {
     position: fixed;
@@ -265,20 +340,30 @@
   #toast.show { opacity: 1; }
 
   @media (max-width: 800px) {
-    .main-layout { grid-template-columns: 1fr; grid-template-rows: auto 1fr; }
+    .main-layout { 
+      grid-template-columns: 1fr; 
+      grid-template-rows: auto 1fr;
+    }
+    body {
+      height: auto;
+      overflow: auto;
+    }
+    .main-layout {
+      overflow: auto;
+    }
   }
 </style>
 </head>
 <body>
 
 <header>
-    <h1>Ingredient Editor</h1>
-    <span style="font-family:var(--mono);font-size:0.7rem;color:var(--text-dim);letter-spacing:0.1em;text-transform:uppercase;" id="modeLabel">No file loaded</span>
+    <h1>Ingredient + Recipe Editor</h1>
+    <span style="font-family:var(--mono);font-size:0.7rem;color:var(--text-dim);letter-spacing:0.1em;" id="modeLabel">No file loaded</span>
     <div class="header-actions">
-        <input type="file" id="loadFile" accept=".json" style="display:none" onchange="loadJSON(event)">
-        <button class="btn" onclick="document.getElementById('loadFile').click()">Load JSON</button>
-        <button class="btn primary" onclick="saveJSON()">Save</button>
-        <button class="btn" onclick="downloadJSON()">Download</button>
+        <input type="file" id="loadFile" accept=".json" style="display:none">
+        <button class="btn" id="loadBtn">Load JSON</button>
+        <button class="btn primary" id="saveAndDownloadBtn">Save & Download</button>
+        <button class="btn" id="downloadOnlyBtn">Download Copy</button>
     </div>
 </header>
 
@@ -305,272 +390,400 @@
     </div>
 
     <div class="editor-panel" id="editorPanel">
-        <div class="editor-empty">Select an ingredient from the list to edit it.</div>
+        <div class="editor-empty">📂 No data loaded. Click "Load JSON" to import an ingredient database.<br><span style="font-size:0.7rem; color:var(--gold-dim);">(Expected format: ingredient_inventory_v7.json)</span></div>
     </div>
 </div>
 
-<div id="toast">Saved!</div>
+<div id="toast">✓ Saved</div>
 
 <script>
 (function() {
-    var inventory = {};
-    var currentKey = null;
-    var currentFilter = 'all';
-    var searchQuery = '';
+    let inventory = {};
+    let currentKey = null;
+    let currentFilter = 'all';
+    let searchQuery = '';
+    let hasUnsavedChanges = false;
 
-    function buildEditor(key, data) {
-        var usedIn = (data.usedIn || []).sort();
-        var isNew = !data.notes || data.notes === 'Add description here.';
-        var isUnused = usedIn.length === 0;
-
-        var html = '<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem;">';
-        html += '<h2 style="font-family:var(--serif);font-size:1.6rem;color:var(--cream);margin:0;">' + escHtml(key) + '</h2>';
-        html += '<button class="btn danger" id="btnDeleteIngredient">Delete</button>';
-        html += '</div>';
-
-        if (isNew) html += '<div style="padding:0.5rem;background:rgba(39,174,96,0.1);border:1px solid rgba(39,174,96,0.3);border-radius:4px;margin-bottom:1rem;font-size:0.8rem;color:var(--green);">New ingredient — needs description and review.</div>';
-        if (isUnused) html += '<div style="padding:0.5rem;background:rgba(230,126,34,0.1);border:1px solid rgba(230,126,34,0.3);border-radius:4px;margin-bottom:1rem;font-size:0.8rem;color:var(--warning);">Not used in any recipe.</div>';
-
-        html += '<div class="row-2">';
-        html += '<div class="field"><label>Ingredient Name</label><input type="text" id="edName" value="' + escAttr(key) + '" oninput="markChanged()"></div>';
-        html += '<div class="field"><label>Category</label><input type="text" id="edCategory" value="' + escAttr(data.category || '') + '" oninput="markChanged()"></div>';
-        html += '</div>';
-
-        html += '<div class="field"><label>AKA (comma separated)</label><input type="text" id="edAka" value="' + escAttr((data.aka || []).join(', ')) + '" oninput="markChanged()"></div>';
-        html += '<div class="field"><label>Notes / Description</label><textarea id="edNotes" oninput="markChanged()">' + escHtml(data.notes || '') + '</textarea></div>';
-        html += '<div class="field"><label>Purpose</label><textarea id="edPurpose" oninput="markChanged()">' + escHtml(data.purpose || '') + '</textarea></div>';
-
-        if (data.nutrition) {
-            var n = data.nutrition;
-            html += '<div class="field"><label>Nutrition</label><textarea id="edNutrition" oninput="markChanged()">' + escHtml(JSON.stringify(n, null, 2)) + '</textarea></div>';
-        } else {
-            html += '<div class="field"><label>Nutrition (JSON format)</label><textarea id="edNutrition" placeholder=\'{"calories":"...","carbohydrates":"...","fat":"...","fiber":"...","protein":"..."}\' oninput="markChanged()"></textarea></div>';
-        }
-
-        if (usedIn.length > 0) {
-            html += '<div class="field"><label>Used In (' + usedIn.length + ' recipes)</label>';
-            html += '<div class="used-in-list">';
-            for (var i = 0; i < usedIn.length; i++) {
-                html += '<a href="recipe.html?id=' + usedIn[i] + '" class="used-in-tag" target="_blank" title="Open recipe">' + usedIn[i] + '</a>';
+    function getAllRecipesSet() {
+        const recipes = new Set();
+        Object.values(inventory).forEach(ing => {
+            if (ing.usedIn && Array.isArray(ing.usedIn)) {
+                ing.usedIn.forEach(recipe => recipes.add(recipe));
             }
-            html += '</div></div>';
+        });
+        return Array.from(recipes).sort();
+    }
+
+    function updateEmptyEditorMessage() {
+        const panel = document.getElementById('editorPanel');
+        if (Object.keys(inventory).length === 0) {
+            panel.innerHTML = '<div class="editor-empty">📂 No data loaded. Click "Load JSON" to import an ingredient database.<br><span style="font-size:0.7rem; color:var(--gold-dim);">(Expected format: ingredient_inventory_v7.json)</span></div>';
+        } else if (currentKey === null || !inventory[currentKey]) {
+            panel.innerHTML = '<div class="editor-empty">📋 JSON loaded. Select an ingredient from the left panel to start editing.</div>';
         }
-
-        html += '<div style="display:flex;gap:0.5rem;margin-top:1rem;">';
-        html += '<button class="btn primary" onclick="saveCurrent()">Save Changes</button>';
-        html += '<span style="font-size:0.7rem;color:var(--text-dim);align-self:center;" id="changedIndicator"></span>';
-        html += '</div>';
-
-        return html;
+        document.getElementById('statSelected').textContent = currentKey || '—';
     }
 
     function renderEditor() {
-        var panel = document.getElementById('editorPanel');
+        const panel = document.getElementById('editorPanel');
         if (!currentKey || !inventory[currentKey]) {
-            panel.innerHTML = '<div class="editor-empty">Select an ingredient from the list to edit it.</div>';
-            document.getElementById('statSelected').textContent = '—';
+            updateEmptyEditorMessage();
             return;
         }
-        panel.innerHTML = buildEditor(currentKey, inventory[currentKey]);
-        document.getElementById('statSelected').textContent = currentKey;
+        
+        const data = inventory[currentKey];
+        const usedIn = data.usedIn ? [...data.usedIn].sort() : [];
+        const isNew = !data.notes || data.notes === 'Add description here.' || data.notes === '';
+        const isUnused = usedIn.length === 0;
+        const allRecipes = getAllRecipesSet();
 
-        // Wire up delete button AFTER the HTML is in the DOM
-        var delBtn = document.getElementById('btnDeleteIngredient');
-        if (delBtn) {
-            delBtn.addEventListener('click', function() {
-                deleteIngredient(currentKey);
+        let html = `<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem;">
+            <h2 style="font-family:var(--serif);font-size:1.6rem;margin:0;">${escapeHtml(currentKey)}</h2>
+            <button class="btn danger" id="btnDeleteIngredient">Delete</button>
+        </div>`;
+        if (isNew) html += `<div style="padding:0.5rem;background:rgba(39,174,96,0.1);border:1px solid var(--green);border-radius:4px;margin-bottom:1rem;font-size:0.8rem;">🆕 New ingredient — please add description and assign recipes.</div>`;
+        if (isUnused) html += `<div style="padding:0.5rem;background:rgba(230,126,34,0.15);border:1px solid var(--warning);border-radius:4px;margin-bottom:1rem;font-size:0.8rem;">⚠️ NOT USED IN ANY RECIPE — assign recipes below.</div>`;
+
+        html += `<div class="row-2">
+            <div class="field"><label>Ingredient Name</label><input type="text" id="edName" value="${escapeAttr(currentKey)}"></div>
+            <div class="field"><label>Category</label><input type="text" id="edCategory" value="${escapeAttr(data.category || '')}"></div>
+        </div>
+        <div class="field"><label>AKA (comma separated)</label><input type="text" id="edAka" value="${escapeAttr((data.aka || []).join(', '))}"></div>
+        <div class="field"><label>Notes / Description</label><textarea id="edNotes">${escapeHtml(data.notes || '')}</textarea></div>
+        <div class="field"><label>Purpose</label><textarea id="edPurpose">${escapeHtml(data.purpose || '')}</textarea></div>
+        <div class="field"><label>Nutrition (JSON)</label><textarea id="edNutrition" placeholder='{"calories":"120","protein":"2g"}'>${data.nutrition ? (typeof data.nutrition === 'string' ? data.nutrition : JSON.stringify(data.nutrition, null, 2)) : ''}</textarea></div>`;
+
+        html += `<div class="used-in-section">
+            <div class="used-in-header">
+                <label style="font-family:var(--mono);font-size:0.7rem;letter-spacing:0.1em;">📖 USED IN RECIPES</label>
+                <span style="font-size:0.7rem;color:var(--text-dim);">${usedIn.length} recipe(s)</span>
+            </div>
+            <div class="used-in-list" id="recipeListContainer">`;
+        if (usedIn.length === 0) {
+            html += `<div class="empty-used">No recipes assigned. Click "Add Recipe" below to link this ingredient.</div>`;
+        } else {
+            usedIn.forEach(recipe => {
+                html += `<span class="used-in-tag">
+                    ${escapeHtml(recipe)}
+                    <button class="remove-recipe" data-recipe="${escapeAttr(recipe)}" title="Remove from this ingredient">✕</button>
+                </span>`;
+            });
+        }
+        html += `</div>
+            <div class="recipe-selector">
+                <select id="recipeSelectDropdown">
+                    <option value="">-- Add or select recipe --</option>`;
+        const currentRecipesSet = new Set(usedIn);
+        const availableRecipes = allRecipes.filter(r => !currentRecipesSet.has(r));
+        availableRecipes.forEach(recipe => {
+            html += `<option value="${escapeAttr(recipe)}">${escapeHtml(recipe)}</option>`;
+        });
+        html += `<option value="__new__">➕ Create new recipe name...</option>
+                </select>
+                <button class="btn small-btn" id="btnAddRecipe">Add</button>
+            </div>
+            <div style="margin-top:0.5rem; font-size:0.7rem; color:var(--text-dim);">Tip: recipes are global; adding here updates "In Use" status instantly.</div>
+        </div>`;
+
+        html += `<div style="display:flex;gap:0.5rem;margin-top:1rem;">
+            <button class="btn primary" id="btnSaveIngredient">Save Changes</button>
+            <span style="font-size:0.7rem;color:var(--text-dim);align-self:center;" id="changedIndicator">${hasUnsavedChanges ? '• Unsaved' : '✓ All saved'}</span>
+        </div>`;
+        panel.innerHTML = html;
+
+        document.getElementById('edName')?.addEventListener('input', () => setUnsaved(true));
+        document.getElementById('edCategory')?.addEventListener('input', () => setUnsaved(true));
+        document.getElementById('edAka')?.addEventListener('input', () => setUnsaved(true));
+        document.getElementById('edNotes')?.addEventListener('input', () => setUnsaved(true));
+        document.getElementById('edPurpose')?.addEventListener('input', () => setUnsaved(true));
+        document.getElementById('edNutrition')?.addEventListener('input', () => setUnsaved(true));
+        document.getElementById('btnSaveIngredient')?.addEventListener('click', () => saveCurrentIngredient());
+        document.getElementById('btnDeleteIngredient')?.addEventListener('click', () => deleteIngredient(currentKey));
+        document.getElementById('btnAddRecipe')?.addEventListener('click', () => addRecipeToCurrent());
+        
+        document.querySelectorAll('.remove-recipe').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const recipeName = btn.getAttribute('data-recipe');
+                if (recipeName) removeRecipeFromCurrent(recipeName);
+            });
+        });
+        
+        const recipeSelect = document.getElementById('recipeSelectDropdown');
+        if (recipeSelect) {
+            recipeSelect.addEventListener('change', (e) => {
+                if (e.target.value === '__new__') {
+                    const newRecipe = prompt('Enter new recipe name:');
+                    if (newRecipe && newRecipe.trim()) {
+                        addSpecificRecipe(newRecipe.trim());
+                    }
+                    recipeSelect.value = '';
+                }
             });
         }
     }
 
-    function saveCurrent() {
+    function addRecipeToCurrent() {
         if (!currentKey) return;
-        var data = inventory[currentKey];
-        var newName = document.getElementById('edName').value.trim();
-        data.category = document.getElementById('edCategory').value.trim();
-        data.aka = document.getElementById('edAka').value.split(',').map(function(s) { return s.trim(); }).filter(Boolean);
-        data.notes = document.getElementById('edNotes').value.trim();
-        data.purpose = document.getElementById('edPurpose').value.trim();
-        var nutRaw = document.getElementById('edNutrition').value.trim();
-        if (nutRaw) {
-            try { data.nutrition = JSON.parse(nutRaw); } catch(e) { data.nutrition = nutRaw; }
-        } else {
-            delete data.nutrition;
-        }
-
-        if (newName && newName !== currentKey) {
-            inventory[newName] = data;
-            delete inventory[currentKey];
-            currentKey = newName;
-            document.getElementById('modeLabel').textContent = '✎ Editing: ' + newName;
-        }
-
-        renderList();
-        renderEditor();
-        document.getElementById('changedIndicator').textContent = '';
-        updateStats();
-        toast('Saved: ' + (newName || currentKey));
+        const select = document.getElementById('recipeSelectDropdown');
+        if (!select) return;
+        const selectedVal = select.value;
+        if (!selectedVal || selectedVal === '__new__') return;
+        addSpecificRecipe(selectedVal);
     }
 
-    function markChanged() {
-        var indicator = document.getElementById('changedIndicator');
-        if (indicator) {
-            indicator.textContent = '• Unsaved changes';
-            indicator.style.color = 'var(--warning)';
+    function addSpecificRecipe(recipeName) {
+        if (!currentKey || !inventory[currentKey]) return;
+        const ingredient = inventory[currentKey];
+        if (!ingredient.usedIn) ingredient.usedIn = [];
+        if (!ingredient.usedIn.includes(recipeName)) {
+            ingredient.usedIn.push(recipeName);
+            ingredient.usedIn.sort();
+            setUnsaved(true);
+            renderEditor();
+            renderList();
+            updateStats();
+            toast(`➕ Added "${recipeName}" to ${currentKey}`);
+        } else {
+            toast(`Recipe "${recipeName}" already linked`);
         }
+    }
+
+    function removeRecipeFromCurrent(recipeName) {
+        if (!currentKey || !inventory[currentKey]) return;
+        const ingredient = inventory[currentKey];
+        if (ingredient.usedIn) {
+            const index = ingredient.usedIn.indexOf(recipeName);
+            if (index !== -1) {
+                ingredient.usedIn.splice(index, 1);
+                setUnsaved(true);
+                renderEditor();
+                renderList();
+                updateStats();
+                toast(`✖ Removed "${recipeName}" from ${currentKey}`);
+            }
+        }
+    }
+
+    function saveCurrentIngredient() {
+        if (!currentKey) return;
+        const data = inventory[currentKey];
+        const newName = document.getElementById('edName')?.value.trim();
+        const categoryVal = document.getElementById('edCategory')?.value.trim() || '';
+        const akaVal = document.getElementById('edAka')?.value.split(',').map(s=>s.trim()).filter(Boolean) || [];
+        const notesVal = document.getElementById('edNotes')?.value.trim() || '';
+        const purposeVal = document.getElementById('edPurpose')?.value.trim() || '';
+        let nutritionVal = document.getElementById('edNutrition')?.value.trim();
+        let parsedNutrition = data.nutrition;
+        if (nutritionVal) {
+            try { parsedNutrition = JSON.parse(nutritionVal); } catch(e) { parsedNutrition = nutritionVal; }
+        } else { parsedNutrition = undefined; }
+
+        const usedInCopy = data.usedIn || [];
+
+        const updatedIngredient = {
+            category: categoryVal,
+            aka: akaVal,
+            notes: notesVal,
+            purpose: purposeVal,
+            usedIn: usedInCopy
+        };
+        if (parsedNutrition) updatedIngredient.nutrition = parsedNutrition;
+
+        if (newName && newName !== currentKey && newName !== '') {
+            if (inventory[newName] && newName !== currentKey) {
+                toast('❌ Name already exists! Rename conflict.');
+                return;
+            }
+            inventory[newName] = updatedIngredient;
+            delete inventory[currentKey];
+            currentKey = newName;
+        } else {
+            inventory[currentKey] = updatedIngredient;
+        }
+
+        setUnsaved(false);
+        renderList();
+        renderEditor();
+        updateStats();
+        document.getElementById('modeLabel').textContent = `✎ Editing: ${currentKey}`;
+        toast(`Saved "${currentKey}"`);
     }
 
     function deleteIngredient(key) {
         if (!key) return;
-        if (!confirm('Delete "' + key + '" from the inventory? This cannot be undone.')) return;
+        if (!confirm(`Delete "${key}"? This cannot be undone.`)) return;
         delete inventory[key];
-        if (currentKey === key) {
-            currentKey = null;
-        }
+        if (currentKey === key) currentKey = null;
         renderList();
         renderEditor();
         updateStats();
-        document.getElementById('modeLabel').textContent = '✎ Edited';
-        toast('Deleted: ' + key);
+        toast(`🗑 Deleted ${key}`);
     }
 
-    function renderList() {
-        var list = document.getElementById('ingredientList');
-        var keys = Object.keys(inventory).sort();
-        var q = searchQuery.toLowerCase();
-        var html = '';
+function renderList() {
+    const container = document.getElementById('ingredientList');
+    const keys = Object.keys(inventory).sort();
+    
+    // Save scroll position before any DOM changes
+    const savedScrollTop = container.scrollTop;
+    
+    let html = '';
+    for (let key of keys) {
+        const data = inventory[key];
+        const isNew = !data.notes || data.notes === 'Add description here.' || data.notes === '';
+        const isUnused = !data.usedIn || data.usedIn.length === 0;
+        const needsWork = isNew || !data.category;
+        if (currentFilter === 'new' && !isNew) continue;
+        if (currentFilter === 'needs' && !needsWork) continue;
+        if (currentFilter === 'used' && isUnused) continue;
+        if (currentFilter === 'unused' && !isUnused) continue;
+        if (searchQuery && key.toLowerCase().indexOf(searchQuery) === -1 && (data.notes || '').toLowerCase().indexOf(searchQuery) === -1) continue;
 
-        for (var i = 0; i < keys.length; i++) {
-            var key = keys[i];
-            var data = inventory[key];
-            var isNew = !data.notes || data.notes === 'Add description here.';
-            var isUnused = !data.usedIn || data.usedIn.length === 0;
-            var needsWork = isNew || !data.category || !data.notes || data.notes === 'Add description here.';
-
-            if (currentFilter === 'new' && !isNew) continue;
-            if (currentFilter === 'needs' && !needsWork) continue;
-            if (currentFilter === 'used' && isUnused) continue;
-            if (currentFilter === 'unused' && !isUnused) continue;
-            if (q && key.toLowerCase().indexOf(q) === -1 && (data.notes || '').toLowerCase().indexOf(q) === -1) continue;
-
-            var activeClass = currentKey === key ? ' active' : '';
-            var badges = '';
-            if (isNew) badges += '<span class="badge badge-new">NEW</span>';
-            if (needsWork && !isNew) badges += '<span class="badge badge-needs">!</span>';
-
-            html += '<button class="ingredient-list-item' + activeClass + '" data-key="' + escAttr(key) + '">' + escHtml(key) + badges + '</button>';
-        }
-
-        list.innerHTML = html || '<div style="padding:1rem;color:var(--text-dim);font-style:italic;">No ingredients match your filter.</div>';
-
-        // Wire up click events after HTML is inserted
-        var items = list.querySelectorAll('.ingredient-list-item');
-        items.forEach(function(item) {
-            item.addEventListener('click', function() {
-                var k = this.getAttribute('data-key');
-                selectIngredient(k);
-            });
+        let badges = '';
+        if (isNew) badges += '<span class="badge badge-new">NEW</span>';
+        if (needsWork && !isNew) badges += '<span class="badge badge-needs">!</span>';
+        if (isUnused) badges += '<span class="badge badge-needs" style="background:rgba(230,126,34,0.2);">UNUSED</span>';
+        const activeClass = currentKey === key ? ' active' : '';
+        html += `<button class="ingredient-list-item${activeClass}" data-key="${escapeAttr(key)}">${escapeHtml(key)}${badges}</button>`;
+    }
+    container.innerHTML = html || '<div style="padding:1rem;color:var(--text-dim);">No ingredients match.</div>';
+    
+    // Restore scroll position
+    container.scrollTop = savedScrollTop;
+    
+    container.querySelectorAll('.ingredient-list-item').forEach(el => {
+        el.addEventListener('click', () => {
+            const k = el.getAttribute('data-key');
+            if (k && k !== currentKey) {
+                // Update active class
+                document.querySelectorAll('.ingredient-list-item').forEach(item => {
+                    item.classList.remove('active');
+                });
+                el.classList.add('active');
+                
+                // Update state
+                currentKey = k;
+                setUnsaved(false);
+                renderEditor();
+                updateStats(); // Update selected count display
+                document.getElementById('statSelected').textContent = k;
+                document.getElementById('modeLabel').textContent = `✎ Editing: ${k}`;
+            }
         });
-    }
-
-    function selectIngredient(key) {
-        currentKey = key;
-        renderList();
-        renderEditor();
-        document.getElementById('modeLabel').textContent = '✎ Editing: ' + key;
-        document.getElementById('statSelected').textContent = key;
-    }
+    });
+}
 
     function updateStats() {
-        var keys = Object.keys(inventory);
-        var total = keys.length;
-        var newCount = 0;
-        var needsCount = 0;
-        for (var i = 0; i < keys.length; i++) {
-            var d = inventory[keys[i]];
-            if (!d.notes || d.notes === 'Add description here.') newCount++;
-            if (!d.notes || d.notes === 'Add description here.' || !d.category) needsCount++;
+        const keys = Object.keys(inventory);
+        let newCount = 0, needsCount = 0;
+        for (let k of keys) {
+            const d = inventory[k];
+            const isNew = !d.notes || d.notes === 'Add description here.' || d.notes === '';
+            if (isNew) newCount++;
+            if (isNew || !d.category) needsCount++;
         }
-        document.getElementById('statTotal').textContent = total;
-        document.getElementById('statNew').textContent = newCount;
-        document.getElementById('statNeeds').textContent = needsCount;
+        document.getElementById('statTotal').innerText = keys.length;
+        document.getElementById('statNew').innerText = newCount;
+        document.getElementById('statNeeds').innerText = needsCount;
+    }
+
+    function loadJSONFromFile(file) {
+        const reader = new FileReader();
+        reader.onload = (e) => {
+            try {
+                const parsed = JSON.parse(e.target.result);
+                inventory = parsed;
+                if (!inventory || typeof inventory !== 'object') inventory = {};
+                Object.keys(inventory).forEach(key => {
+                    if (!inventory[key].usedIn) inventory[key].usedIn = [];
+                    if (!Array.isArray(inventory[key].usedIn)) inventory[key].usedIn = [];
+                });
+                currentKey = null;
+                renderList();
+                updateEmptyEditorMessage();
+                updateStats();
+                document.getElementById('modeLabel').textContent = `Loaded: ${file.name}`;
+                document.getElementById('statSelected').textContent = '—';
+                toast(`✅ Loaded ${Object.keys(inventory).length} ingredients`);
+                setUnsaved(false);
+            } catch(err) { alert('Invalid JSON: ' + err.message); }
+        };
+        reader.readAsText(file);
+    }
+
+    function downloadJSON(saveAndKeep = false) {
+        const dataStr = JSON.stringify(inventory, null, 2);
+        const blob = new Blob([dataStr], {type: 'application/json'});
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = 'ingredient_inventory_v7.json';
+        a.click();
+        URL.revokeObjectURL(a.href);
+        toast('📁 Downloaded');
+        if (saveAndKeep) setUnsaved(false);
+    }
+
+    function saveAndDownload() {
+        if (currentKey) saveCurrentIngredient();
+        downloadJSON(true);
+    }
+
+    function setUnsaved(val) {
+        hasUnsavedChanges = val;
+        const indicator = document.getElementById('changedIndicator');
+        if (indicator) {
+            if (val) {
+                indicator.textContent = '• Unsaved changes';
+                indicator.style.color = 'var(--warning)';
+            } else {
+                indicator.textContent = '✓ All saved';
+                indicator.style.color = 'var(--text-dim)';
+            }
+        }
     }
 
     function toast(msg) {
-        var t = document.getElementById('toast');
+        const t = document.getElementById('toast');
         t.textContent = msg;
         t.classList.add('show');
-        setTimeout(function() { t.classList.remove('show'); }, 2000);
+        setTimeout(() => t.classList.remove('show'), 2000);
     }
 
-    function escHtml(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
-    function escAttr(s) { return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+    function escapeHtml(str) { return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+    function escapeAttr(str) { return String(str).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 
-    // Search
-    document.getElementById('searchInput').addEventListener('input', function() {
-        searchQuery = this.value.trim().toLowerCase();
-        renderList();
-    });
-
-    // Filters
-    document.getElementById('filterBar').addEventListener('click', function(e) {
-        var btn = e.target.closest('.filter-btn');
+    document.getElementById('searchInput').addEventListener('input', (e) => { searchQuery = e.target.value.trim().toLowerCase(); renderList(); });
+    document.getElementById('filterBar').addEventListener('click', (e) => {
+        const btn = e.target.closest('.filter-btn');
         if (!btn) return;
-        document.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         currentFilter = btn.getAttribute('data-filter');
         renderList();
     });
-
-    // Load JSON
-    window.loadJSON = function(event) {
-        var file = event.target.files[0];
-        if (!file) return;
-        var reader = new FileReader();
-        reader.onload = function(e) {
-            try {
-                inventory = JSON.parse(e.target.result);
-                currentKey = null;
-                renderList();
-                renderEditor();
-                updateStats();
-                document.getElementById('modeLabel').textContent = 'Loaded: ' + file.name;
-                toast('Loaded: ' + file.name);
-            } catch(err) {
-                alert('Could not parse JSON: ' + err.message);
-            }
-        };
-        reader.readAsText(file);
-        event.target.value = '';
-    };
-
-    window.saveJSON = function() {
-        saveCurrent();
-        downloadJSON();
-    };
-
-    window.downloadJSON = function() {
-        var json = JSON.stringify(inventory, null, 2);
-        var blob = new Blob([json], { type: 'application/json' });
-        var a = document.createElement('a');
-        a.href = URL.createObjectURL(blob);
-        a.download = 'ingredient_inventory_v6.json';
-        a.click();
-        URL.revokeObjectURL(a.href);
-        toast('Downloaded!');
-    };
-
-    document.addEventListener('keydown', function(e) {
-        if ((e.ctrlKey || e.metaKey) && e.key === 's') {
-            e.preventDefault();
-            saveCurrent();
-            toast('Saved!');
-        }
+    document.getElementById('loadBtn').addEventListener('click', () => {
+        const input = document.getElementById('loadFile');
+        input.value = '';
+        input.click();
+    });
+    document.getElementById('loadFile').addEventListener('change', (e) => {
+        if (e.target.files.length) loadJSONFromFile(e.target.files[0]);
+    });
+    document.getElementById('saveAndDownloadBtn').addEventListener('click', () => saveAndDownload());
+    document.getElementById('downloadOnlyBtn').addEventListener('click', () => downloadJSON(false));
+    document.addEventListener('keydown', (e) => {
+        if ((e.ctrlKey || e.metaKey) && e.key === 's') { e.preventDefault(); saveAndDownload(); }
     });
 
+    // Initialize empty - no demo data
+    inventory = {};
+    currentKey = null;
+    renderList();
+    updateEmptyEditorMessage();
     updateStats();
+    document.getElementById('modeLabel').textContent = "No file loaded";
 })();
 </script>
-
 </body>
 </html>

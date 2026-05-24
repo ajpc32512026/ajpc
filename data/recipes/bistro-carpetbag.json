@@ -2,13 +2,12 @@
   "id": "carpetbagsteak",
   "title": "Carpet Bag Steak",
   "emoji": "🦪",
-  "category": "Dinner",
+  "category": "Bistro",
   "description": "Scotch fillet stuffed with fresh oysters and Camembert cheese, finished with a red wine and demi glace sauce. The most theatrical dish on the menu.",
   "prepTime": "10 min",
   "cookTime": "8 min",
   "totalTime": "18 min",
   "servings": "1 serving",
-  "yieldPerBatch": "1 serve",
   "difficulty": "Intermediate",
   "tags": [
     "Alcohol",
@@ -18,19 +17,18 @@
     "Classic",
     "Dinner",
     "Rich",
-    "Savoury",
     "Seafood",
     "Under 1 Hour"
   ],
   "ingredients": [
     {
-      "quantity": "2",
+      "quantity": "1",
       "unit": "",
       "item": "Scotch Fillet",
-      "notes": "approximately 200g each"
+      "notes": "approximately 300g"
     },
     {
-      "quantity": "6",
+      "quantity": "3",
       "unit": "",
       "item": "Fresh Oysters",
       "notes": "shucked, liquor reserved"
@@ -55,7 +53,7 @@
       "quantity": "1",
       "unit": "",
       "item": "Shallot",
-      "notes": "finely diced"
+      "notes": "finely sliced"
     },
     {
       "quantity": "60",
@@ -64,16 +62,9 @@
       "notes": "full-bodied, like Shiraz or Cabernet"
     },
     {
-      "quantity": "2",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
-    },
-    {
-      "quantity": "1",
-      "unit": "g",
-      "item": "Black Pepper",
-      "notes": "to taste"
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
   "method": [
@@ -104,6 +95,10 @@
     {
       "step": 7,
       "instruction": "Remove toothpicks from steaks. Plate and spoon the red wine demi glace sauce generously over the top."
+    },
+    {
+      "step": 8,
+      "instruction": "Add salt and pepper to season"
     }
   ],
   "notes": [
@@ -147,12 +142,25 @@
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 1477,
-    "protein": 112,
-    "carbs": 45,
-    "fat": 91,
+    "cal": 783,
+    "kj": 3276,
+    "protein": 68,
+    "carbs": 8,
+    "sugars": 5,
+    "fat": 47,
+    "saturated_fat": 28,
     "fiber": 3,
-    "sodium": 2325,
-    "coverage": 100
-  }
+    "sodium": 2575,
+    "coverage": 88,
+    "calcium_mg": 974,
+    "iron_mg": 15,
+    "potassium_mg": 1465,
+    "magnesium_mg": 315,
+    "zinc_mg": 58,
+    "cholesterol_mg": 346,
+    "vitamin_a_ug": 583,
+    "vitamin_c_mg": 26,
+    "vitamin_d_ug": 2
+  },
+  "lastModified": "2026-05-24"
 }

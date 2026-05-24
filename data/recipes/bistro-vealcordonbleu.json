@@ -2,7 +2,7 @@
   "id": "vealcordonbleu",
   "title": "Veal Cordon Bleu",
   "emoji": "🧀",
-  "category": "Dinner",
+  "category": "Bistro",
   "description": "Thin veal escalopes wrapped around smoked ham and Swiss cheese, crumbed and deep-fried to golden perfection. Served with a Dijon cream sauce.",
   "prepTime": "15 min",
   "cookTime": "5 min",
@@ -43,36 +43,6 @@
       "notes": "sliced"
     },
     {
-      "quantity": "30",
-      "unit": "g",
-      "item": "Plain Flour",
-      "notes": "for dusting"
-    },
-    {
-      "quantity": "2",
-      "unit": "",
-      "item": "Eggs",
-      "notes": "beaten, for egg wash"
-    },
-    {
-      "quantity": "50",
-      "unit": "g",
-      "item": "Breadcrumbs",
-      "notes": "for crumbing"
-    },
-    {
-      "quantity": "500",
-      "unit": "ml",
-      "item": "Vegetable Oil",
-      "notes": "for deep frying"
-    },
-    {
-      "quantity": "3",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
-    },
-    {
       "heading": "Dijon Cream Sauce"
     },
     {
@@ -100,6 +70,29 @@
       "quantity": "15",
       "unit": "g",
       "item": "Dijon Mustard"
+    },
+    {
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
+    }
+  ],
+  "youWillNeed": [
+    {
+      "item": "Plain Flour",
+      "note": "Dusting before egg wash."
+    },
+    {
+      "item": "Milk & Eggs",
+      "note": "For egg wash — use 1 egg per 250ml full cream milk. Whisk well before using."
+    },
+    {
+      "item": "Bread Crumbs",
+      "note": "Crumbing — panko gives a lighter, crunchier crust."
+    },
+    {
+      "item": "Oil",
+      "note": "For deep frying — use a high smoke point oil such as cottonseed, sunflower, canola, or peanut oil."
     }
   ],
   "method": [
@@ -113,11 +106,11 @@
     },
     {
       "step": 3,
-      "instruction": "Dust each parcel lightly with flour, dip in beaten egg, and coat thoroughly with breadcrumbs. Press the crumbs on firmly."
+      "instruction": "Dust each parcel lightly with flour, dip in egg wash, and coat thoroughly with breadcrumbs. Press the crumbs on firmly."
     },
     {
       "step": 4,
-      "instruction": "Heat vegetable oil to 180°C. Deep-fry crumbed veal for 4–5 minutes until deep golden and cooked through. Drain on paper towels."
+      "instruction": "Heat oil to 180°C. Deep-fry crumbed veal for 2–3 minutes until deep golden and cooked through. Drain on paper towels."
     },
     {
       "step": 5,
@@ -172,12 +165,25 @@
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 5997,
-    "protein": 108,
-    "carbs": 65,
-    "fat": 593,
+    "cal": 975,
+    "kj": 4079,
+    "protein": 65,
+    "carbs": 17,
+    "sugars": 9,
+    "fat": 67,
+    "saturated_fat": 37,
     "fiber": 4,
-    "sodium": 3266,
-    "coverage": 100
-  }
+    "sodium": 1139,
+    "coverage": 89,
+    "calcium_mg": 549,
+    "iron_mg": 18,
+    "potassium_mg": 1268,
+    "magnesium_mg": 137,
+    "zinc_mg": 14,
+    "cholesterol_mg": 547,
+    "vitamin_a_ug": 24509,
+    "vitamin_c_mg": 39,
+    "vitamin_d_ug": 3
+  },
+  "lastModified": "2026-05-24"
 }

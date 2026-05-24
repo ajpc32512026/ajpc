@@ -2,12 +2,13 @@
   "id": "brandymustardsteak",
   "title": "Brandy Mustard Steak",
   "emoji": "🥃",
-  "category": "Dinner",
+  "category": "Bistro",
   "description": "Scotch filet in a brandy and mustard cream sauce. Bold, warming, and exactly the kind of dish a 1990s bistro did best.",
   "prepTime": "5 min",
   "cookTime": "6 min",
   "totalTime": "11 min",
   "servings": "1",
+  "difficulty": "Intermediate",
   "tags": [
     "Alcohol",
     "Beef",
@@ -23,7 +24,7 @@
   ],
   "ingredients": [
     {
-      "quantity": "2",
+      "quantity": "1",
       "unit": "",
       "item": "Beef, Scotch Fillet"
     },
@@ -53,15 +54,15 @@
       "item": "Butter"
     },
     {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Salt"
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Pan-fry scotch filets to desired doneness. Rest. Keep the pan."
+      "instruction": "Pan-fry scotch filet to desired doneness. Rest. Keep the pan."
     },
     {
       "step": 2,
@@ -111,12 +112,24 @@
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 832,
-    "protein": 56,
-    "carbs": 14,
-    "fat": 57,
-    "fiber": 2,
-    "sodium": 2290,
-    "coverage": 100
-  }
+    "cal": 546,
+    "kj": 2285,
+    "protein": 16,
+    "carbs": 34,
+    "sugars": 11,
+    "fat": 31,
+    "saturated_fat": 15,
+    "fiber": 4,
+    "sodium": 148,
+    "coverage": 86,
+    "calcium_mg": 132,
+    "iron_mg": 2,
+    "potassium_mg": 498,
+    "magnesium_mg": 78,
+    "zinc_mg": 2,
+    "cholesterol_mg": 82,
+    "vitamin_a_ug": 292,
+    "vitamin_c_mg": 37
+  },
+  "lastModified": "2026-05-24"
 }

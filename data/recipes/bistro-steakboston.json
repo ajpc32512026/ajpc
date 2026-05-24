@@ -2,7 +2,7 @@
   "id": "steakboston",
   "title": "Steak Boston",
   "emoji": "🌶️",
-  "category": "Dinner",
+  "category": "Bistro",
   "description": "Scotch fillet coated in Creole spice and served with a red wine butter sauce. Bold, spiced, and full of character.",
   "prepTime": "5 min",
   "cookTime": "6 min",
@@ -59,7 +59,7 @@
       "heading": "Steak"
     },
     {
-      "quantity": "2",
+      "quantity": "1",
       "unit": "",
       "item": "Beef, Scotch Fillet",
       "notes": "approximately 180 g each"
@@ -84,10 +84,9 @@
       "item": "Red Wine"
     },
     {
-      "quantity": "3",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
   "method": [
@@ -151,12 +150,24 @@
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 848,
-    "protein": 55,
-    "carbs": 20,
-    "fat": 59,
-    "fiber": 5,
-    "sodium": 1311,
-    "coverage": 100
-  }
+    "cal": 488,
+    "kj": 2041,
+    "protein": 11,
+    "carbs": 35,
+    "sugars": 9,
+    "fat": 28,
+    "saturated_fat": 18,
+    "fiber": 8,
+    "sodium": 122,
+    "coverage": 91,
+    "calcium_mg": 122,
+    "iron_mg": 5,
+    "potassium_mg": 583,
+    "magnesium_mg": 53,
+    "zinc_mg": 2,
+    "cholesterol_mg": 63,
+    "vitamin_a_ug": 508,
+    "vitamin_c_mg": 16
+  },
+  "lastModified": "2026-05-24"
 }

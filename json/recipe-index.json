@@ -30,6 +30,24 @@
     "description": "Rich, velvety, and unapologetically indulgent. A classic cream-based Alfredo that coats pasta like silk and demands to be eaten immediately."
   },
   {
+    "id": "anaschiavanillapudding",
+    "title": "Ana's Chia Vanilla Pudding",
+    "emoji": "🥄",
+    "category": "Breakfast",
+    "tags": [
+      "No Bake",
+      "Make Ahead",
+      "Breakfast",
+      "Dessert",
+      "Healthy",
+      "Vegetarian",
+      "Gluten Free",
+      "Honey",
+      "Chia Seeds"
+    ],
+    "description": "A creamy, no-cook pudding that finally puts chia seeds to good use. Sweetened with honey and scented with vanilla — the redemption arc after the ANZAC disaster."
+  },
+  {
     "id": "applecinnamonscrolls",
     "title": "Apple & Cinnamon Scrolls",
     "emoji": "🍎",

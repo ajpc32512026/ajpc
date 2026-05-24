@@ -21,40 +21,40 @@
     "Chia Seeds"
   ],
   "ingredients": [
-  {
-    "quantity": "180",
-    "unit": "ml",
-    "item": "Milk",
-    "notes": "Full cream or any milk"
-  },
-  {
-    "quantity": "30",
-    "unit": "ml",
-    "item": "Coconut Cream",
-    "notes": "For richness"
-  },
-  {
-    "quantity": "40",
-    "unit": "g",
-    "item": "Chia Seeds"
-  },
-  {
-    "quantity": "20",
-    "unit": "g",
-    "item": "Rolled Oats",
-    "notes": "2 tbsp, finely ground in coffee grinder"
-  },
-  {
-    "quantity": "20",
-    "unit": "g",
-    "item": "Honey"
-  },
-  {
-    "quantity": "5",
-    "unit": "ml",
-    "item": "Vanilla Extract"
-  }
-],
+    {
+      "quantity": "180",
+      "unit": "ml",
+      "item": "Milk",
+      "notes": "Full cream or any milk"
+    },
+    {
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Coconut Cream",
+      "notes": "For richness"
+    },
+    {
+      "quantity": "40",
+      "unit": "g",
+      "item": "Chia Seeds"
+    },
+    {
+      "quantity": "20",
+      "unit": "g",
+      "item": "Rolled Oats",
+      "notes": "2 tbsp, finely ground in coffee grinder"
+    },
+    {
+      "quantity": "20",
+      "unit": "g",
+      "item": "Honey"
+    },
+    {
+      "quantity": "5",
+      "unit": "ml",
+      "item": "Vanilla Extract"
+    }
+  ],
   "method": [
     {
       "step": 1,
@@ -140,16 +140,23 @@
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 422,
-    "kj": 1766,
-    "protein": 15,
-    "carbs": 46,
-    "sugars": 29,
-    "fat": 21,
-    "saturated_fat": 7,
-    "fiber": 14,
-    "sodium": 118,
-    "coverage": 100
+    "cal": 489,
+    "kj": 2045,
+    "protein": 18,
+    "carbs": 37,
+    "sugars": 26,
+    "fat": 27,
+    "saturated_fat": 11,
+    "fiber": 15,
+    "sodium": 70,
+    "coverage": 100,
+    "calcium_mg": 413,
+    "iron_mg": 6,
+    "potassium_mg": 658,
+    "magnesium_mg": 197,
+    "zinc_mg": 3,
+    "cholesterol_mg": 18,
+    "vitamin_a_ug": 79
   },
-  "lastModified": "2026-05-17"
+  "lastModified": "2026-05-23"
 }

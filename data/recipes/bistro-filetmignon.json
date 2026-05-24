@@ -2,7 +2,7 @@
   "id": "filetmignon",
   "title": "Filet Mignon",
   "emoji": "🥩",
-  "category": "Dinner",
+  "category": "Bistro",
   "description": "Scotch fillet wrapped in bacon with a mushroom and demi glace cream sauce. Simple, rich, and timeless.",
   "prepTime": "5 min",
   "cookTime": "8 min",
@@ -21,19 +21,19 @@
   ],
   "ingredients": [
     {
-      "quantity": "2",
+      "quantity": "1",
       "unit": "",
       "item": "Beef, Scotch Fillet",
-      "notes": "approximately 180 g each"
+      "notes": "approximately 300 g"
     },
     {
-      "quantity": "2",
-      "unit": "rashers",
+      "quantity": "1",
+      "unit": "rasher",
       "item": "Bacon",
       "notes": "for wrapping"
     },
     {
-      "quantity": "100",
+      "quantity": "50",
       "unit": "g",
       "item": "Mushrooms",
       "notes": "sliced"
@@ -49,21 +49,14 @@
       "item": "Demi Glace"
     },
     {
-      "quantity": "1",
-      "unit": "",
-      "item": "Brown Onion",
-      "notes": "diced"
-    },
-    {
       "quantity": "60",
       "unit": "ml",
       "item": "Thickened Cream"
     },
     {
-      "quantity": "3",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
   "method": [
@@ -119,12 +112,25 @@
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 2090,
-    "protein": 135,
-    "carbs": 19,
-    "fat": 165,
-    "fiber": 3,
-    "sodium": 5120,
-    "coverage": 100
-  }
+    "cal": 882,
+    "kj": 3692,
+    "protein": 25,
+    "carbs": 54,
+    "sugars": 8,
+    "fat": 62,
+    "saturated_fat": 37,
+    "fiber": 4,
+    "sodium": 927,
+    "coverage": 86,
+    "calcium_mg": 119,
+    "iron_mg": 2,
+    "potassium_mg": 578,
+    "magnesium_mg": 45,
+    "zinc_mg": 2,
+    "cholesterol_mg": 241,
+    "vitamin_a_ug": 483,
+    "vitamin_c_mg": 4,
+    "vitamin_d_ug": 3
+  },
+  "lastModified": "2026-05-24"
 }

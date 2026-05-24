@@ -1,5 +1,5 @@
 {
-  "id": "beefstockpot",
+  "id": "20minutebeefstockpot",
   "title": "20 Minute Beef Stock Pot",
   "emoji": "🥩",
   "category": "Dinner",
@@ -186,12 +186,25 @@
   ],
   "nutrition": {
     "servings": 4,
-    "cal": 1125,
-    "protein": 69,
-    "carbs": 97,
-    "fat": 54,
-    "fiber": 32,
-    "sodium": 1162,
-    "coverage": 100
-  }
+    "cal": 984,
+    "kj": 4119,
+    "protein": 32,
+    "carbs": 101,
+    "sugars": 24,
+    "fat": 28,
+    "saturated_fat": 13,
+    "fiber": 58,
+    "sodium": 923,
+    "coverage": 100,
+    "calcium_mg": 1845,
+    "iron_mg": 84,
+    "potassium_mg": 2374,
+    "magnesium_mg": 326,
+    "zinc_mg": 8,
+    "cholesterol_mg": 51,
+    "vitamin_a_ug": 868,
+    "vitamin_c_mg": 48,
+    "vitamin_d_ug": 1
+  },
+  "lastModified": "2026-05-23"
 }

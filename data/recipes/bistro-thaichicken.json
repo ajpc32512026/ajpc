@@ -2,7 +2,7 @@
   "id": "thaichicken",
   "title": "Thai Chicken",
   "emoji": "🌶️",
-  "category": "Dinner",
+  "category": "Bistro",
   "description": "Breast chicken in a ginger, chilli and cream sauce. Warmth without the fire — a nod to Thai flavours in a classic bistro setting.",
   "prepTime": "5 min",
   "cookTime": "8 min",
@@ -22,7 +22,7 @@
   ],
   "ingredients": [
     {
-      "quantity": "2",
+      "quantity": "1",
       "unit": "",
       "item": "Chicken Breast",
       "notes": "pan-fried"
@@ -56,10 +56,9 @@
       "notes": "diced"
     },
     {
-      "quantity": "3",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
   "method": [
@@ -115,12 +114,25 @@
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 837,
-    "protein": 67,
-    "carbs": 22,
-    "fat": 54,
-    "fiber": 3,
-    "sodium": 1293,
-    "coverage": 100
-  }
+    "cal": 636,
+    "kj": 2660,
+    "protein": 28,
+    "carbs": 16,
+    "sugars": 13,
+    "fat": 50,
+    "saturated_fat": 32,
+    "fiber": 11,
+    "sodium": 115,
+    "coverage": 86,
+    "calcium_mg": 86,
+    "iron_mg": 2,
+    "potassium_mg": 944,
+    "magnesium_mg": 68,
+    "zinc_mg": 1,
+    "cholesterol_mg": 193,
+    "vitamin_a_ug": 819,
+    "vitamin_c_mg": 179,
+    "vitamin_d_ug": 2
+  },
+  "lastModified": "2026-05-24"
 }

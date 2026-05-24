@@ -2,13 +2,13 @@
   "id": "vealmozzarella",
   "title": "Veal Mozzarella",
   "emoji": "🫓",
-  "category": "Dinner",
+  "category": "Bistro",
   "description": "Veal wrapped with mushroom, bacon, and shallots in puff pastry, topped with melted mozzarella. A Wellington-style preparation from the bistro kitchen.",
   "prepTime": "20 min",
   "cookTime": "15 min",
   "totalTime": "35 min",
   "servings": "1 serving",
-  "difficulty": "Advanced",
+  "difficulty": "Intermediate",
   "tags": [
     "Baked",
     "Classic",
@@ -66,16 +66,15 @@
       "notes": "for filling and sauce"
     },
     {
-      "quantity": "1",
-      "unit": "",
-      "item": "Eggs",
-      "notes": "beaten, for egg wash"
-    },
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
+    }
+  ],
+  "youWillNeed": [
     {
-      "quantity": "3",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
+      "item": "Eggs",
+      "note": "For brushing and sealing edges"
     }
   ],
   "method": [
@@ -144,12 +143,25 @@
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 2406,
-    "protein": 155,
-    "carbs": 65,
-    "fat": 169,
-    "fiber": 4,
-    "sodium": 5882,
-    "coverage": 100
-  }
+    "cal": 1564,
+    "kj": 6542,
+    "protein": 80,
+    "carbs": 100,
+    "sugars": 15,
+    "fat": 92,
+    "saturated_fat": 49,
+    "fiber": 10,
+    "sodium": 2001,
+    "coverage": 89,
+    "calcium_mg": 535,
+    "iron_mg": 20,
+    "potassium_mg": 1621,
+    "magnesium_mg": 133,
+    "zinc_mg": 15,
+    "cholesterol_mg": 714,
+    "vitamin_a_ug": 24641,
+    "vitamin_c_mg": 38,
+    "vitamin_d_ug": 7
+  },
+  "lastModified": "2026-05-24"
 }

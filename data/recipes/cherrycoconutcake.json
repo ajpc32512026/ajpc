@@ -1,0 +1,204 @@
+{
+  "id": "cherryandcoconutcake",
+  "title": "Cherry and Coconut Cake",
+  "emoji": "🍒",
+  "category": "Baking",
+  "description": "A wonderful buttery, soft pound cake bursting with cherries in every bite! The flavor is out of this world, rich in coconut. Bake in a bundt pan or loaf pan.",
+  "prepTime": "20 minutes",
+  "cookTime": "1 hour",
+  "totalTime": "1 hour 20 minutes",
+  "servings": "10",
+  "difficulty": "Intermediate",
+  "tags": [
+    "Cake",
+    "Cherry",
+    "Coconut",
+    "Baking",
+    "Pound Cake",
+    "Dessert",
+    "Sweet"
+  ],
+  "ingredients": [
+    {
+      "heading": "The Cake Batter"
+    },
+    {
+      "quantity": "175",
+      "unit": "g",
+      "item": "Butter",
+      "notes": "softened"
+    },
+    {
+      "quantity": "175",
+      "unit": "ml",
+      "item": "Coconut Milk"
+    },
+    {
+      "quantity": "290",
+      "unit": "g",
+      "item": "Caster Sugar"
+    },
+    {
+      "quantity": "3",
+      "unit": "",
+      "item": "Eggs",
+      "notes": "lightly beaten"
+    },
+    {
+      "quantity": "60",
+      "unit": "g",
+      "item": "Desiccated Coconut",
+      "notes": "shredded sweetened coconut"
+    },
+    {
+      "quantity": "225",
+      "unit": "g",
+      "item": "Plain Flour",
+      "notes": "sieved"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Baking Powder"
+    },
+    {
+      "quantity": "3",
+      "unit": "g",
+      "item": "Salt"
+    },
+    {
+      "quantity": "350",
+      "unit": "g",
+      "item": "Cherries",
+      "notes": "frozen or canned, pitted and roughly chopped"
+    },
+    {
+      "heading": "The Topping"
+    },
+    {
+      "quantity": "60",
+      "unit": "ml",
+      "item": "Coconut Milk"
+    },
+    {
+      "quantity": "20",
+      "unit": "g",
+      "item": "Desiccated Coconut",
+      "notes": "for sprinkling"
+    }
+  ],
+  "youWillNeed": [
+    {
+      "item": "Bundt pan or loaf pan"
+    },
+    {
+      "item": "Skewer"
+    },
+    {
+      "item": "Pastry brush"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Heat oven to 170°C. Grease and flour your baking pan."
+    },
+    {
+      "step": 2,
+      "instruction": "If using a Bundt tin, be sure to grease it very well as it can be hard to get the cake out of such a shaped tin."
+    },
+    {
+      "step": 3,
+      "instruction": "Get all your ingredients ready. Sift the flour, and add the salt and baking powder to the flour."
+    },
+    {
+      "step": 4,
+      "instruction": "Dust the chopped cherries with some flour to stop them sinking to the bottom during baking."
+    },
+    {
+      "step": 5,
+      "instruction": "Start making the cake batter by creaming the butter and sugar until a pale light colour."
+    },
+    {
+      "step": 6,
+      "instruction": "Slowly add the beaten eggs to the mixer on a low speed setting, a bit at a time. If the mixture starts to curdle or split, add a spoonful of your sifted flour. Keep adding the eggs and a bit of flour if necessary until all the eggs are added."
+    },
+    {
+      "step": 7,
+      "instruction": "Add half the coconut milk with half of the flour, keeping the mixer on a slow speed. Once combined, add the shredded/desiccated coconut, and the rest of the coconut milk and flour."
+    },
+    {
+      "step": 8,
+      "instruction": "Lastly, fold in the chopped cherries. Make sure you don't overmix otherwise the cake batter will turn completely red and the cherries will go mushy!"
+    },
+    {
+      "step": 9,
+      "instruction": "Transfer the cake mixture to the greased pan. Bake for 1 hour 5 minutes. If using a loaf pan, cook time is 1 hour 10-15 minutes."
+    },
+    {
+      "step": 10,
+      "instruction": "Test if the cake is done by using a skewer — poke it in the middle to see that it comes out clean. Every oven is different and cook times may vary a little."
+    },
+    {
+      "step": 11,
+      "instruction": "When the cake is done, take it out of the oven and leave in the cake tin until cool."
+    },
+    {
+      "step": 12,
+      "instruction": "Whilst the cake is still hot, using a skewer, prick holes all over the top of the cake, pushing the skewer through to the bottom. Gently pour the coconut milk all over the surface, distributing evenly with a brush if needed. The liquid will be quickly absorbed by the cake."
+    },
+    {
+      "step": 13,
+      "instruction": "Immediately sprinkle the dried coconut all over so it sticks. If using a loaf pan, do this before removing from the pan. If using a bundt pan, remove from the pan onto a plate and sprinkle the coconut. Use as much dried coconut as you wish."
+    },
+    {
+      "step": 14,
+      "instruction": "Allow to cool. Store in an airtight container. This cake is best eaten the following day, although it doesn't usually last that long!"
+    }
+  ],
+  "notes": [
+    {
+      "type": "tip",
+      "title": "Bundt Pan Tip",
+      "content": "Be sure to grease your Bundt tin very well as it can be hard to get the cake out of such a shaped tin."
+    },
+    {
+      "type": "variation",
+      "title": "Pan Options",
+      "content": "If using a loaf pan, cook time is 1 hour 10-15 minutes instead of 1 hour 5 minutes."
+    },
+    {
+      "type": "storage",
+      "title": "Storage",
+      "content": "Store in an airtight container. This cake is best eaten the following day."
+    },
+    {
+      "type": "acknowledgement",
+      "title": "Source",
+      "content": "Recipe adapted from http://www.Lovefoodies.com"
+    }
+  ],
+  "nutrition": {
+    "servings": 10,
+    "cal": 418,
+    "kj": 1748,
+    "protein": 8,
+    "carbs": 71,
+    "sugars": 55,
+    "fat": 12,
+    "saturated_fat": 9,
+    "fiber": 2,
+    "sodium": 132,
+    "calcium_mg": 66,
+    "iron_mg": 1,
+    "potassium_mg": 252,
+    "magnesium_mg": 28,
+    "zinc_mg": 1,
+    "cholesterol_mg": 148,
+    "vitamin_a_ug": 43,
+    "vitamin_c_mg": 0,
+    "vitamin_d_ug": 2,
+    "coverage": 100
+  },
+  "lastModified": "2026-05-23"
+}

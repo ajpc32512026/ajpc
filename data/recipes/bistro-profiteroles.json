@@ -23,15 +23,6 @@
   ],
   "ingredients": [
     {
-      "heading": "Choux Pastry"
-    },
-    {
-      "quantity": "1",
-      "unit": "batch",
-      "item": "Choux Pastry",
-      "notes": "see recipe"
-    },
-    {
       "heading": "Filling"
     },
     {
@@ -58,27 +49,37 @@
   ],
   "method": [
     {
+      "heading": "Choux Pastry"
+    },
+    {
       "step": 1,
-      "instruction": "Bake choux puffs as per the choux pastry until golden and crisp. Cool completely on a wire rack."
+      "instruction": "See [[chouxpastry|Choux Pastry]] for the recipe."
+    },
+    {
+      "heading": "Method"
     },
     {
       "step": 2,
-      "instruction": "Whip cream to soft peaks. Using a piping bag fitted with a small nozzle, fill each puff through a small hole in the base."
+      "instruction": "Bake choux puffs as per the choux pastry until golden and crisp. Cool completely on a wire rack."
     },
     {
       "step": 3,
-      "instruction": "For the ganache: heat cream in a small saucepan until just simmering — do not boil. Place chopped chocolate in a heatproof bowl and pour the hot cream over it."
+      "instruction": "Whip cream to soft peaks. Using a piping bag fitted with a small nozzle, fill each puff through a small hole in the base."
     },
     {
       "step": 4,
-      "instruction": "Let stand for 2 minutes, then stir gently until the chocolate is completely melted and the ganache is smooth and glossy."
+      "instruction": "For the ganache: heat cream in a small saucepan until just simmering — do not boil. Place chopped chocolate in a heatproof bowl and pour the hot cream over it."
     },
     {
       "step": 5,
-      "instruction": "Dip the top of each filled puff into the warm ganache, or drizzle generously over the top."
+      "instruction": "Let stand for 2 minutes, then stir gently until the chocolate is completely melted and the ganache is smooth and glossy."
     },
     {
       "step": 6,
+      "instruction": "Dip the top of each filled puff into the warm ganache, or drizzle generously over the top."
+    },
+    {
+      "step": 7,
       "instruction": "Serve immediately with fresh seasonal fruit on the side."
     }
   ],
@@ -118,12 +119,24 @@
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 1721,
-    "protein": 16,
-    "carbs": 124,
-    "fat": 129,
-    "fiber": 14,
-    "sodium": 110,
-    "coverage": 75
-  }
+    "cal": 1582,
+    "kj": 6621,
+    "protein": 13,
+    "carbs": 66,
+    "sugars": 53,
+    "fat": 144,
+    "saturated_fat": 93,
+    "fiber": 1,
+    "sodium": 634,
+    "coverage": 100,
+    "calcium_mg": 189,
+    "iron_mg": 4,
+    "potassium_mg": 621,
+    "magnesium_mg": 103,
+    "zinc_mg": 2,
+    "cholesterol_mg": 514,
+    "vitamin_a_ug": 936,
+    "vitamin_d_ug": 5
+  },
+  "lastModified": "2026-05-24"
 }

@@ -152,11 +152,15 @@
   "nutrition": {
     "servings": 12,
     "cal": 245,
+    "kj": 1024,
     "protein": 6,
     "carbs": 29,
+    "sugars": 11,
     "fat": 12,
+    "saturated_fat": 3,
     "fiber": 1,
     "sodium": 119,
     "coverage": 100
-  }
+  },
+  "lastModified": "2026-05-19"
 }

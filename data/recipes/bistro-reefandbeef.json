@@ -2,7 +2,7 @@
   "id": "reefandbeef",
   "title": "Reef and Beef",
   "emoji": "🌊",
-  "category": "Dinner",
+  "category": "Bistro",
   "description": "Scotch fillet topped with a generous seafood Mornay sauce. The ultimate bistro surf and turf.",
   "prepTime": "10 min",
   "cookTime": "10 min",
@@ -22,7 +22,7 @@
   ],
   "ingredients": [
     {
-      "quantity": "2",
+      "quantity": "1",
       "unit": "",
       "item": "Beef, Scotch Fillet",
       "notes": "approximately 180 g each"
@@ -56,21 +56,15 @@
       "notes": "grated"
     },
     {
-      "quantity": "3",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
-    },
-    {
-      "quantity": "1",
-      "unit": "g",
-      "item": "White Pepper"
-    },
-    {
       "quantity": "1",
       "unit": "g",
       "item": "Nutmeg",
       "notes": "ground"
+    },
+    {
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
   "method": [
@@ -130,12 +124,25 @@
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 1198,
-    "protein": 95,
-    "carbs": 29,
-    "fat": 80,
-    "fiber": 1,
-    "sodium": 2068,
-    "coverage": 100
-  }
+    "cal": 784,
+    "kj": 3278,
+    "protein": 47,
+    "carbs": 50,
+    "sugars": 7,
+    "fat": 43,
+    "saturated_fat": 28,
+    "fiber": 2,
+    "sodium": 1262,
+    "coverage": 88,
+    "calcium_mg": 394,
+    "iron_mg": 3,
+    "potassium_mg": 592,
+    "magnesium_mg": 99,
+    "zinc_mg": 5,
+    "cholesterol_mg": 402,
+    "vitamin_a_ug": 478,
+    "vitamin_c_mg": 6,
+    "vitamin_d_ug": 1
+  },
+  "lastModified": "2026-05-24"
 }
