@@ -824,14 +824,28 @@
     justify-content: center;
     z-index: 10000;
   }
+  .tag-picker-sticky-header {
+    background: var(--surface);
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 0.75rem;
+    flex-shrink: 0;
+  }
   .tag-picker-content {
     background: var(--surface);
     border: 1px solid var(--border);
     border-radius: 8px;
     padding: 1.5rem;
-    max-width: 500px;
-    width: 90%;
-    max-height: 70vh;
+    max-width: 540px;
+    width: 92%;
+    max-height: 88vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .tag-picker-content .tag-picker-grid {
+    flex: 1;
+    min-height: 0;
     overflow-y: auto;
   }
   .tag-picker-content h3 {
@@ -1076,12 +1090,11 @@
 <div id="form-panel">
 
   <!-- BASIC INFO -->
-  <div class="section">
-    <div class="section-title">Basic Info</div>
-    <div class="field">
-      <label>Recipe Title</label>
-      <input type="text" id="title" placeholder="e.g. Sourdough Bread" oninput="update()">
-    </div>
+  <div class="section-title">Basic Info <span style="color: var(--red); font-weight: normal;">— * denotes required fields before save</span></div>
+<div class="field">
+  <label>Recipe Title <span style="color: var(--red);">*</span></label>
+  <input type="text" id="title" placeholder="e.g. Sourdough Bread" oninput="update()">
+</div>
     <div class="emoji-field">
       <label>Emoji</label>
       <input type="hidden" id="emoji">
@@ -1093,46 +1106,46 @@
     </div>
     <div class="row row-2">
       <div class="field">
-        <label>Category</label>
-        <select id="category" onchange="update()">
-          <option value="">Select…</option>
-          <option>Breads</option>
-          <option>Baking</option>
-          <option>Biscuits</option>
-          <option>Entree</option>
-          <option>Dinner</option>
-          <option>Mains</option>
-          <option>Filipino</option>
-          <option>Desserts</option>
-          <option>Sauces</option>
-          <option>Pasta</option>
-          <option>Pizza</option>
-          <option>Soups</option>
-          <option>Salads</option>
-          <option>Sides</option>
-          <option>Snacks</option>
-          <option>Bistro</option>
-          <option>Breakfast</option>
-          <option>Other</option>
-        </select>
-      </div>
-      <div class="field">
-        <label>Difficulty</label>
-        <select id="difficulty" onchange="update()">
-          <option value="">Select…</option>
-			<option>Beginner</option>
-			<option>Intermediate</option>
-			<option>Advanced</option>
-        </select>
-      </div>
+  <label>Category <span style="color: var(--red);">*</span></label>
+  <select id="category" onchange="update()">
+    <option value="">— Select a category —</option>
+    <option>Breads</option>
+    <option>Baking</option>
+    <option>Biscuits</option>
+    <option>Entree</option>
+    <option>Dinner</option>
+    <option>Mains</option>
+    <option>Filipino</option>
+    <option>Desserts</option>
+    <option>Sauces</option>
+    <option>Pasta</option>
+    <option>Pastry</option>
+    <option>Pizza</option>
+    <option>Soups</option>
+    <option>Salads</option>
+    <option>Sides</option>
+    <option>Snacks</option>
+    <option>Bistro</option>
+    <option>Breakfast</option>
+    <option>Other</option>
+  </select>
+</div>
+ <div class="field">
+  <label>Difficulty <span style="color: var(--red);">*</span></label>
+  <select id="difficulty" onchange="update()">
+    <option value="">— Select a difficulty —</option>
+    <option>Beginner</option>
+    <option>Intermediate</option>
+    <option>Advanced</option>
+  </select>
+</div>
     </div>
-    <div class="field">
-      <label>Description</label>
-      <div style="position: relative;">
-        <textarea id="description" placeholder="A short description…" oninput="update()"></textarea>
-        <button class="btn" style="position: absolute; bottom: 0.5rem; right: 0.5rem; padding: 0.3rem 0.6rem; font-size: 0.7rem; border-color: var(--gold-dim);" onclick="insertParagraphBreak(); return false;" title="Insert paragraph break">¶ Break</button>
-      </div>
-    </div>
+<div class="field">
+  <label>Description <span style="color: var(--red);">*</span></label>
+  <div style="position: relative;">
+    <textarea id="description" placeholder="A short description of the recipe…" oninput="update()"></textarea>
+    <button class="btn" style="position: absolute; bottom: 0.5rem; right: 0.5rem; padding: 0.3rem 0.6rem; font-size: 0.7rem; border-color: var(--gold-dim);" onclick="insertParagraphBreak(); return false;" title="Insert paragraph break">¶ Break</button>
+  </div>
   </div>
 
   <!-- TIME & SERVINGS -->
@@ -1374,6 +1387,7 @@ function toTitleCase(str) {
   return str.replace(/\w\S*/g, w => w.charAt(0).toUpperCase() + w.slice(1));
 }
 let rawNavSnippet = '';
+let currentFilename = '';
 let tags = [];
 
 function val(id) { 
@@ -1661,9 +1675,9 @@ function showRecipeLinkPicker(textarea, query) {
     list.innerHTML = '<div class="recipe-link-picker-empty">No matching recipes</div>';
   } else {
     list.innerHTML = matches.map((r, i) => `
-      <div class="recipe-link-picker-item" data-id="${r.id}" data-title="${r.title.replace(/"/g,'&quot;')}" data-idx="${i}">
+      <div class="recipe-link-picker-item" data-id="${r.id}" data-title="${(r.title||r.name||'').replace(/"/g,'&quot;')}" data-idx="${i}">
         <span class="rlp-emoji">${r.emoji || '🍽️'}</span>
-        <span class="rlp-title">${r.title}</span>
+        <span class="rlp-title">${r.title || r.name}</span>
         <span class="rlp-cat">${r.category || ''}</span>
       </div>
     `).join('');
@@ -2506,6 +2520,62 @@ function toast(msg) {
     }, 2200);
 }
 
+function toast(msg) {
+    const t = document.getElementById('toast');
+    if (!t) {
+        console.warn('Toast element not found:', msg);
+        alert(msg);
+        return;
+    }
+    t.textContent = msg;
+    t.classList.add('show');
+    setTimeout(function() {
+        t.classList.remove('show');
+    }, 2200);
+}
+
+// ✅ PASTE checkRequiredFields() HERE
+function checkRequiredFields() {
+  const title = document.getElementById('title')?.value.trim();
+  const category = document.getElementById('category')?.value;
+  const difficulty = document.getElementById('difficulty')?.value;
+  const description = document.getElementById('description')?.value.trim();
+  
+  const missing = [];
+  
+  if (!title) missing.push('Recipe Title');
+  if (!category || category === '') missing.push('Category');
+  if (!difficulty || difficulty === '') missing.push('Difficulty');
+  if (!description) missing.push('Description');
+  
+  if (missing.length > 0) {
+    const missingList = missing.join(', ');
+    toast(`⚠️ Cannot save. Required fields missing: ${missingList}`);
+    
+    missing.forEach(field => {
+      let element = null;
+      if (field === 'Recipe Title') element = document.getElementById('title');
+      if (field === 'Category') element = document.getElementById('category');
+      if (field === 'Difficulty') element = document.getElementById('difficulty');
+      if (field === 'Description') element = document.getElementById('description');
+      
+      if (element) {
+        element.style.transition = 'all 0.2s';
+        element.style.borderColor = 'var(--red)';
+        element.style.backgroundColor = 'rgba(192, 57, 43, 0.1)';
+        setTimeout(() => {
+          element.style.borderColor = '';
+          element.style.backgroundColor = '';
+        }, 2000);
+      }
+    });
+    
+    return false;
+  }
+  
+  return true;
+}
+
 // ─────────────────────────────────────────────────────────
 // STEPS
 // ─────────────────────────────────────────────────────────
@@ -2939,13 +3009,16 @@ function buildJSON(){
 const NAV_GROUP_MAP={ 'Breads':'Bread','Baking':'Dessert','Biscuits':'Biscuits','Bistro':'Dinner','Entree':'Entree','Dinner':'Dinner','Mains':'Dinner','Filipino':'Filipino','Desserts':'Dessert','Sauces':'Sauces','Pasta':'Dinner','Pizza':'Bread','Soups':'Dinner','Salads':'Dinner','Sides':'Dinner','Snacks':'Dinner','Breakfast':'Breakfast','Other':'Dinner' };
 const BREAD_SUBGROUP_MAP={ 'Breads':'Bread','Pizza':'Pastry & Sweet' };
 
-function buildNavSnippet(id, title, category) {
-  if (!id || !title || !category) return { snippet: '', note: '' };
+function buildNavSnippet(filename, title, category) {
+  console.log('🔍 buildNavSnippet called with:', { filename, title, category });
+  
+  if (!filename || !title || !category) { 
+    console.log('❌ Missing required field:', { filename, title, category });
+    return { snippet: '', note: '' }; 
+  }
   
   const group = NAV_GROUP_MAP[category] || 'Dinner';
-  
-  // Build the proper link with role and aria-label
-  const link = `<a href="recipe.html?id=${id}" role="menuitem" aria-label="${title.replace(/"/g, '&quot;')} recipe">${title}</a>`;
+  const link = `<a href="recipe.html?id=${filename}" role="menuitem" aria-label="${title.replace(/"/g, '&quot;')} recipe">${title}</a>`;
   
   let snippet = '';
   let note = '';
@@ -2959,23 +3032,40 @@ function buildNavSnippet(id, title, category) {
     note = `<strong>Nav group:</strong> ${group}`;
   }
   
+  console.log('✅ buildNavSnippet returning:', { snippet: snippet.substring(0, 100) + '...', note });
   return { snippet, note };
 }
 
-// ─────────────────────────────────────────────────────────
-// UPDATE PREVIEW
-// ─────────────────────────────────────────────────────────
 function update(){
   const {obj,id,title}=buildJSON();
-  const filename=id?`${id}.json`:'recipe.json';
-  document.getElementById('filename-label').textContent=filename;
-  document.getElementById('json-output').innerHTML=highlight(JSON.stringify(obj,null,2));
+  
+  console.log('🔍 UPDATE - currentFilename:', currentFilename, '| id from JSON:', id);
+  
+  const effectiveId = currentFilename || id || 'recipe';
+  const filename = `${effectiveId}.json`;
+  
+  console.log('🔍 UPDATE - effectiveId:', effectiveId, '| filename:', filename);
+  
+  document.getElementById('filename-label').textContent = filename;
+  document.getElementById('json-output').innerHTML = highlight(JSON.stringify(obj,null,2));
 
-  const category=val('category');
-  const {snippet,note}=buildNavSnippet(id,title,category);
+  const category = val('category');
+  
+  console.log('🔍 UPDATE - title:', title, '| category:', category);
+  
+  const navId = effectiveId;
+  
+  const {snippet, note} = buildNavSnippet(navId, title, category);
+  
+  console.log('🔍 UPDATE - snippet generated:', snippet ? 'YES' : 'NO');
+  
   rawNavSnippet = snippet || '';
-  document.getElementById('nav-note').innerHTML=note?`Paste this line into <strong>nav.html</strong> — ${note}`:'Fill in Title and Category to generate the nav snippet.';
-  document.getElementById('nav-output').innerHTML=snippet?highlightHTML(snippet):'<span style="color:var(--text-dim);font-style:italic">— waiting for title &amp; category —</span>';
+  document.getElementById('nav-note').innerHTML = note 
+    ? `Paste this line into <strong>nav.html</strong> — ${note}` 
+    : 'Fill in Title and Category to generate the nav snippet.';
+  document.getElementById('nav-output').innerHTML = snippet 
+    ? highlightHTML(snippet) 
+    : '<span style="color:var(--text-dim);font-style:italic">— waiting for title &amp; category —</span>';
   
   // Auto-generate timeline if we have method steps
   if (obj.method && obj.method.length > 0) {
@@ -3026,6 +3116,9 @@ function copyNav() {
 }
 
 function downloadJSON(){ 
+  // ✅ CHECK REQUIRED FIELDS FIRST
+  if (!checkRequiredFields()) return;
+  
   updateIngredientLibrary();
   // Force nutrition recalculation before saving
   calculateNutrition();
@@ -3066,6 +3159,7 @@ function clearForm(){
   document.getElementById('mode-label').textContent='New Recipe';
   document.getElementById('mode-label').style.color='';
   currentFileHandle = null;
+  currentFilename = '';  // Reset the filename
   update();
 }
 
@@ -3082,7 +3176,6 @@ function clearForm(){
 let currentFileHandle = null;
 
 async function openJSONFile() {
-  // Use File System Access API if available (Chrome/Edge 86+)
   if (window.showOpenFilePicker) {
     try {
       const [handle] = await window.showOpenFilePicker({
@@ -3094,6 +3187,10 @@ async function openJSONFile() {
       const text = await file.text();
       try {
         const data = JSON.parse(text);
+        
+        // ✅ Set currentFilename from the ACTUAL file name
+        currentFilename = file.name.replace('.json', '');
+        
         populateForm(data);
         updateSaveButton(file.name);
         toast('Loaded: ' + file.name);
@@ -3105,29 +3202,8 @@ async function openJSONFile() {
       // User cancelled — do nothing
     }
   } else {
-    // Fallback for Firefox / Safari
     document.getElementById('load-file').click();
   }
-}
-
-function loadJSONFile(event) {
-  // Fallback path — no file handle available, save will use download
-  currentFileHandle = null;
-  const file = event.target.files[0];
-  if (!file) return;
-  const reader = new FileReader();
-  reader.onload = e => {
-    try {
-      const data = JSON.parse(e.target.result);
-      populateForm(data);
-      updateSaveButton(file.name);
-      toast('Loaded: ' + file.name + ' (save will download — browser does not support direct file write)');
-    } catch(err) {
-      alert('Could not parse JSON: ' + err.message);
-    }
-  };
-  reader.readAsText(file);
-  event.target.value = '';
 }
 
 function updateSaveButton(filename) {
@@ -3139,6 +3215,9 @@ function updateSaveButton(filename) {
 }
 
 async function saveJSON() {
+  // ✅ CHECK REQUIRED FIELDS FIRST
+  if (!checkRequiredFields()) return;
+  
   updateIngredientLibrary();
   // Force nutrition recalculation before saving
   calculateNutrition();
@@ -3161,6 +3240,10 @@ async function saveJSON() {
       await writable.write(json);
       await writable.close();
       
+      // After saving, update the current filename
+      currentFilename = currentFileHandle.name.replace('.json', '');
+      document.getElementById('mode-label').textContent = 'Editing: ' + currentFileHandle.name;
+      
       // Update recipe index after successful save
       await updateRecipeIndex(obj);
       
@@ -3177,9 +3260,24 @@ async function saveJSON() {
 
 function loadJSONFile(event){
   const file=event.target.files[0]; if(!file) return;
+  
+  console.log('🔍 loadJSONFile called with file:', file.name);
+  
   const reader=new FileReader();
   reader.onload=e=>{
-    try{ const data=JSON.parse(e.target.result); populateForm(data); document.getElementById('mode-label').textContent='✎ Editing: '+file.name; document.getElementById('mode-label').style.color='var(--gold)'; toast('Loaded: '+file.name); }
+    try{ 
+      const data=JSON.parse(e.target.result); 
+      
+      // ✅ This is the ONLY place currentFilename should be set
+      currentFilename = file.name.replace('.json', '');
+      
+      console.log('🔍 currentFilename set to:', currentFilename);
+      
+      populateForm(data); 
+      document.getElementById('mode-label').textContent='✎ Editing: '+file.name; 
+      document.getElementById('mode-label').style.color='var(--gold)'; 
+      toast('Loaded: '+file.name); 
+    }
     catch(err){ alert('Could not parse JSON: '+err.message); }
   };
   reader.readAsText(file); event.target.value='';
@@ -3233,10 +3331,12 @@ async function updateRecipeIndex(recipe) {
 }
 
 function populateForm(data){
-  ['title','category','difficulty','description','prepTime','cookTime','totalTime','servings'].forEach(id=>{
+  ['title','category','difficulty','description','prepTime','cookTime','totalTime','servings','yieldPerBatch'].forEach(id=>{
     const el=document.getElementById(id); if(!el) return; if(el.tagName==='SELECT') el.selectedIndex=0; else el.value='';
   });
   selectedEmoji=''; document.getElementById('emoji').value=''; document.getElementById('emoji-preview').textContent='＋'; document.getElementById('emoji-trigger-text').textContent='Choose an emoji…'; document.getElementById('emoji-trigger-text').style.color=''; tags=[]; document.getElementById('ingredients-list').innerHTML=''; document.getElementById('steps-list').innerHTML=''; document.getElementById('notes-list').innerHTML=''; document.getElementById('journal-list').innerHTML=''; document.getElementById('related-list').innerHTML=''; document.getElementById('equipment-list').innerHTML='';
+
+  // DO NOT set currentFilename here - it comes from the actual file name
 
   if(data.title) document.getElementById('title').value=data.title;
   if(data.description) document.getElementById('description').value=data.description;
@@ -3284,6 +3384,14 @@ function populateForm(data){
 }
 
 function loadRelatedRecipe(id, title, matchingTags) {
+  // If no tags saved, auto-fill from recipeIndex
+  if (!matchingTags || matchingTags.length === 0) {
+    const indexEntry = recipeIndex.find(r => r.id === id);
+    if (indexEntry && indexEntry.tags && indexEntry.tags.length) {
+      matchingTags = indexEntry.tags;
+    }
+  }
+
   const list = document.getElementById('related-list');
   const row = document.createElement('div');
   row.className = 'related-row';
@@ -3291,8 +3399,8 @@ function loadRelatedRecipe(id, title, matchingTags) {
   row.dataset.id = id;
   row.dataset.title = title;
   row.dataset.tags = JSON.stringify(matchingTags);
-  
-  const tagHtml = matchingTags.length 
+
+  const tagHtml = matchingTags.length
     ? matchingTags.map(t => `<span class="tag-pill" onclick="removeTagFromRelated(this, '${t}')">${t}</span>`).join('')
     : '';
   
@@ -4790,6 +4898,25 @@ fetch('json/recipe-index.json?t=' + new Date().getTime())
   .then(data => {
     recipeIndex = data;
     populateRelatedRecipeDropdown();
+    // Back-fill tags on any already-rendered related rows that have none
+    document.querySelectorAll('#related-list .related-row').forEach(row => {
+      const savedTags = JSON.parse(row.dataset.tags || '[]');
+      if (savedTags.length === 0) {
+        const id = row.dataset.id;
+        const entry = recipeIndex.find(r => r.id === id);
+        if (entry && entry.tags && entry.tags.length) {
+          row.dataset.tags = JSON.stringify(entry.tags);
+          const container = row.querySelector('.tag-container');
+          if (container) {
+            const btn = container.querySelector('.add-tag-btn');
+            const tagHtml = entry.tags.map(t =>
+              `<span class="tag-pill" onclick="removeTagFromRelated(this, '${t}')">${t}</span>`
+            ).join('');
+            container.insertAdjacentHTML('afterbegin', tagHtml);
+          }
+        }
+      }
+    });
   })
   .catch(err => {
     console.warn('Could not load recipe index:', err);
@@ -4830,11 +4957,19 @@ function populateRelatedRecipeDropdown() {
   const select = document.getElementById('related-recipe-select');
   if (!select) return;
   select.innerHTML = '<option value="">-- Select a recipe --</option>';
-  recipeIndex.forEach(recipe => {
+  
+  // ✅ Sort the recipeIndex alphabetically by title before adding to dropdown
+  const sortedRecipes = [...recipeIndex].sort((a, b) => {
+    const titleA = (a.title || a.name || '').toLowerCase();
+    const titleB = (b.title || b.name || '').toLowerCase();
+    return titleA.localeCompare(titleB);
+  });
+  
+  sortedRecipes.forEach(recipe => {
     const opt = document.createElement('option');
     opt.value = recipe.id;
-    opt.textContent = `${recipe.emoji ? recipe.emoji + ' ' : ''}${recipe.title}`;
-    opt.dataset.title = recipe.title;
+    opt.textContent = `${recipe.emoji ? recipe.emoji + ' ' : ''}${recipe.title || recipe.name}`;
+    opt.dataset.title = recipe.title || recipe.name;
     opt.dataset.tags = JSON.stringify(recipe.tags || []);
     select.appendChild(opt);
   });
@@ -4851,15 +4986,20 @@ function addRelatedRecipe() {
   
   const recipeId = selectedOption.value;
   const recipeTitle = selectedOption.dataset.title;
-  
+  const recipeTags = JSON.parse(selectedOption.dataset.tags || '[]');
+
   const list = document.getElementById('related-list');
   const row = document.createElement('div');
   row.className = 'related-row';
   row.draggable = true;
   row.dataset.id = recipeId;
   row.dataset.title = recipeTitle;
-  row.dataset.tags = JSON.stringify([]);
-  
+  row.dataset.tags = JSON.stringify(recipeTags);
+
+  const tagHtml = recipeTags.length
+    ? recipeTags.map(t => `<span class="tag-pill" onclick="removeTagFromRelated(this, '${t}')">${t}</span>`).join('')
+    : '';
+
   row.innerHTML = `
     <div class="drag-handle">⋮⋮</div>
     <div>
@@ -4867,6 +5007,7 @@ function addRelatedRecipe() {
       <div style="font-size:0.7rem;color:var(--text-dim);font-family:var(--mono);">${escapeHtmlForRelated(recipeId)}</div>
     </div>
     <div class="tag-container">
+      ${tagHtml}
       <button class="add-tag-btn" onclick="openTagPicker(this.closest('.related-row'))">+ Add Tags</button>
     </div>
     <button class="btn remove" onclick="this.closest('.related-row').remove();update();">✕</button>
@@ -4885,7 +5026,8 @@ function openTagPicker(row) {
   // Initialize the selection set with existing tags
   tagPickerSelections = new Set(currentTags);
   
-  // Load fresh recipe index and populate dropdown
+  // Populate immediately from whatever we have, then refresh
+  populateCopyTagsDropdown();
   loadRecipeIndexForTags().then(() => {
     populateCopyTagsDropdown();
   });
@@ -4926,12 +5068,12 @@ function populateCopyTagsDropdown() {
   if (!select) return;
   select.innerHTML = '<option value="">📋 Copy tags from another recipe...</option>';
   
-  recipeIndex.forEach(recipe => {
-    // Show ALL recipes, not just those with tags
+  const sorted = [...recipeIndex].sort((a, b) => (a.title || a.name || '').localeCompare(b.title || b.name || ''));
+  sorted.forEach(recipe => {
     const opt = document.createElement('option');
     opt.value = recipe.id;
     const tagCount = (recipe.tags && recipe.tags.length) ? recipe.tags.length : 0;
-    opt.textContent = `${recipe.emoji ? recipe.emoji + ' ' : ''}${recipe.title} (${tagCount} tags)`;
+    opt.textContent = `${recipe.emoji ? recipe.emoji + ' ' : ''}${recipe.title || recipe.name} (${tagCount} tags)`;
     opt.dataset.tags = JSON.stringify(recipe.tags || []);
     select.appendChild(opt);
   });
@@ -4942,14 +5084,17 @@ function copyTagsFromRecipe() {
   const selectedOption = select.options[select.selectedIndex];
   
   if (!selectedOption.value) {
-    toast('⚠️ Please select a recipe first');
-    return;
+    return; // silently do nothing — user picked the placeholder
   }
   
   const tagsFromRecipe = JSON.parse(selectedOption.dataset.tags || '[]');
   
   tagsFromRecipe.forEach(tag => tagPickerSelections.add(tag));
-  
+
+  // Reset dropdown back to placeholder so it's ready for next use
+  select.selectedIndex = 0;
+  const recipeName = selectedOption.textContent.replace(/\s*\(\d+ tags\)$/, '').trim();
+  toast('Tags copied from ' + recipeName);
   filterTagCategory('all');
   select.selectedIndex = 0;
   
@@ -5159,88 +5304,86 @@ window.scrollTo(0, 0);
 // Check if API server is running
 // checkServerStatus();  // Disabled — server not needed for local saves
 
-
-
-// Add event listeners
-if (scrollTopBtn) {
-  window.addEventListener('scroll', checkScrollPosition);
-  scrollTopBtn.addEventListener('click', scrollToTop);
-  // Initial check
-  checkScrollPosition();
-}
 </script>
 
 
 <!-- Tag Picker Modal -->
 <div class="tag-picker-modal" id="tag-picker-modal" onclick="closeTagPickerIfOutside(event)">
   <div class="tag-picker-content">
-    <h3>Select Tags</h3>
-    
-    <!-- Search box -->
-    <input type="text" id="tag-search" placeholder="🔍 Search tags..." style="width:100%;padding:0.5rem;margin-bottom:0.5rem;background:var(--surface2);border:1px solid var(--border);color:var(--text);border-radius:3px;font-size:0.9rem;" oninput="filterTagPicker(this.value)">
-    
-    <!-- Copy tags from another recipe -->
-    <div style="display:flex;gap:0.5rem;margin-bottom:1rem;align-items:center;">
-      <select id="copy-tags-from" style="flex:1;padding:0.5rem;background:var(--surface2);border:1px solid var(--border);color:var(--text);border-radius:3px;font-size:0.85rem;">
-        <option value="">📋 Copy tags from another recipe...</option>
-      </select>
-      <button class="btn" onclick="copyTagsFromRecipe()" style="padding:0.5rem 1rem;font-size:0.85rem;">Copy</button>
+
+    <!-- Sticky header — always visible -->
+    <div class="tag-picker-sticky-header">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.6rem;">
+        <h3 style="margin:0;">Select Tags</h3>
+        <div style="display:flex;gap:0.5rem;">
+          <button class="btn" onclick="confirmTagSelection()" style="padding:0.4rem 1.1rem;font-size:0.85rem;">✓ Done</button>
+          <button class="btn" onclick="closeTagPicker()" style="background:var(--red);padding:0.4rem 0.75rem;font-size:0.85rem;">✕</button>
+        </div>
+      </div>
+
+      <!-- Search box -->
+      <input type="text" id="tag-search" placeholder="🔍 Search tags..." style="width:100%;padding:0.5rem;margin-bottom:0.5rem;background:var(--surface2);border:1px solid var(--border);color:var(--text);border-radius:3px;font-size:0.9rem;box-sizing:border-box;" oninput="filterTagPicker(this.value)">
+
+      <!-- Copy tags from another recipe — auto-applies on select -->
+      <div style="display:flex;gap:0.5rem;margin-bottom:0.75rem;align-items:center;">
+        <select id="copy-tags-from" onchange="copyTagsFromRecipe()" style="flex:1;padding:0.5rem;background:var(--surface2);border:1px solid var(--border);color:var(--text);border-radius:3px;font-size:0.85rem;">
+          <option value="">📋 Copy tags from another recipe...</option>
+        </select>
+      </div>
+
+      <!-- Category filter tabs -->
+      <div style="display:flex;gap:0.4rem;flex-wrap:wrap;margin-bottom:0.5rem;font-size:0.75rem;">
+        <button class="tag-category-btn active" onclick="filterTagCategory('all', event)">All</button>
+        <button class="tag-category-btn" onclick="filterTagCategory('cuisine', event)">Cuisine</button>
+        <button class="tag-category-btn" onclick="filterTagCategory('cookingMethod', event)">Method</button>
+        <button class="tag-category-btn" onclick="filterTagCategory('dietary', event)">Dietary</button>
+        <button class="tag-category-btn" onclick="filterTagCategory('time', event)">Time</button>
+        <button class="tag-category-btn" onclick="filterTagCategory('mealType', event)">Meal</button>
+        <button class="tag-category-btn" onclick="filterTagCategory('characteristics', event)">Style</button>
+        <button class="tag-category-btn" onclick="filterTagCategory('protein', event)">Protein</button>
+        <button class="tag-category-btn" onclick="filterTagCategory('keyIngredients', event)">Ingredients</button>
+        <button class="tag-category-btn" onclick="filterTagCategory('specificCheeses', event)">Cheese</button>
+        <button class="tag-category-btn" onclick="filterTagCategory('specificLiqueurs', event)">Liqueur</button>
+        <button class="tag-category-btn" onclick="filterTagCategory('occasion', event)">Occasion</button>
+      </div>
     </div>
-    
-<!-- Category filter tabs -->
-<div style="display:flex;gap:0.5rem;flex-wrap:wrap;margin-bottom:1rem;font-size:0.75rem;">
-  <button class="tag-category-btn active" onclick="filterTagCategory('all', event)">All</button>
-  <button class="tag-category-btn" onclick="filterTagCategory('cuisine', event)">Cuisine</button>
-  <button class="tag-category-btn" onclick="filterTagCategory('cookingMethod', event)">Method</button>
-  <button class="tag-category-btn" onclick="filterTagCategory('dietary', event)">Dietary</button>
-  <button class="tag-category-btn" onclick="filterTagCategory('time', event)">Time</button>
-  <button class="tag-category-btn" onclick="filterTagCategory('mealType', event)">Meal</button>
-  <button class="tag-category-btn" onclick="filterTagCategory('characteristics', event)">Style</button>
-  <button class="tag-category-btn" onclick="filterTagCategory('protein', event)">Protein</button>
-  <button class="tag-category-btn" onclick="filterTagCategory('keyIngredients', event)">Ingredients</button>
-  <button class="tag-category-btn" onclick="filterTagCategory('specificCheeses', event)">Cheese</button>
-  <button class="tag-category-btn" onclick="filterTagCategory('specificLiqueurs', event)">Liqueur</button>
-  <button class="tag-category-btn" onclick="filterTagCategory('occasion', event)">Occasion</button>
-</div>
-    
+
+    <!-- Scrollable tag grid only -->
     <div class="tag-picker-grid" id="tag-picker-grid"></div>
-    <div style="display:flex;gap:0.5rem;margin-top:1rem;">
-      <button class="btn" onclick="confirmTagSelection()" style="flex:1;">Done</button>
-      <button class="btn" onclick="closeTagPicker()" style="background:var(--red);">Cancel</button>
-    </div>
   </div>
 </div>
 <!-- Scroll to Top Button -->
 <button class="scroll-top-btn" id="scrollTopBtn" title="Scroll to top">↑</button>
 
+<!-- Scroll to Top Button -->
+<button class="scroll-top-btn" id="scrollTopBtn" title="Scroll to top">↑</button>
+
 <script>
 // ─────────────────────────────────────────────────────────
-// SCROLL TO TOP BUTTON (moved here so button exists)
+// SCROLL TO TOP BUTTON
 // ─────────────────────────────────────────────────────────
 (function initScrollToTop() {
   const scrollTopBtn = document.getElementById('scrollTopBtn');
   if (!scrollTopBtn) return;
 
-function checkScrollPosition() {
-  if (!scrollTopBtn) return;
-  
-  // Get how far we've scrolled from the top
-  const scrollY = window.scrollY;
-  // Get the total height of the page
-  const pageHeight = document.documentElement.scrollHeight;
-  // Get the viewport height (visible area)
-  const viewportHeight = window.innerHeight;
-  
-  // Calculate how far from the bottom (in pixels)
-  const distanceFromBottom = pageHeight - (scrollY + viewportHeight);
-  
-  // Show button when within 150px of the bottom
-  if (distanceFromBottom <= 150) {
-    scrollTopBtn.classList.add('show');
-  } else {
-    scrollTopBtn.classList.remove('show');
+  function checkScrollPosition() {
+    // Get how far we've scrolled from the top
+    const scrollY = window.scrollY;
+    // Get the total height of the page
+    const pageHeight = document.documentElement.scrollHeight;
+    // Get the viewport height (visible area)
+    const viewportHeight = window.innerHeight;
+    
+    // Calculate how far from the bottom (in pixels)
+    const distanceFromBottom = pageHeight - (scrollY + viewportHeight);
+    
+    // Show button when within 150px of the bottom
+    if (distanceFromBottom <= 150) {
+      scrollTopBtn.classList.add('show');
+    } else {
+      scrollTopBtn.classList.remove('show');
+    }
   }
-}
 
   function scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });

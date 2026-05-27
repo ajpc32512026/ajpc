@@ -98,23 +98,70 @@
   "related": [
     {
       "id": "chouxpastry",
-      "title": "Choux Pastry"
+      "title": "Choux Pastry",
+      "matchingTags": [
+        "Classic",
+        "French",
+        "Pastry",
+        "Sweet",
+        "Vegetarian"
+      ]
     },
     {
       "id": "chocolatemousse",
-      "title": "Chocolate Mousse"
+      "title": "Chocolate Mousse",
+      "matchingTags": [
+        "Chocolate",
+        "Creamy",
+        "Dessert",
+        "French",
+        "Make Ahead",
+        "No-Bake",
+        "Rich",
+        "Sweet",
+        "Under 30 Minutes",
+        "Vegetarian"
+      ]
     },
     {
       "id": "theultimatechocolatemudcake",
-      "title": "Chocolate Mud Cake"
+      "title": "Chocolate Mud Cake",
+      "matchingTags": [
+        "Chocolate",
+        "Cake",
+        "Dessert",
+        "Rich",
+        "Sweet"
+      ]
     },
     {
       "id": "bistro-pavlova",
-      "title": "Pavlova"
+      "title": "Pavlova",
+      "matchingTags": [
+        "Australian",
+        "Baked",
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Sweet",
+        "Vegetarian"
+      ]
     },
     {
       "id": "tiramisu",
-      "title": "Tiramisu Gateau"
+      "title": "Tiramisu Gateau",
+      "matchingTags": [
+        "Alcohol",
+        "Classic",
+        "Coffee",
+        "Creamy",
+        "Dessert",
+        "Italian",
+        "Make Ahead",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
     }
   ],
   "nutrition": {
@@ -138,5 +185,5 @@
     "vitamin_a_ug": 936,
     "vitamin_d_ug": 5
   },
-  "lastModified": "2026-05-24"
+  "lastModified": "2026-05-25"
 }

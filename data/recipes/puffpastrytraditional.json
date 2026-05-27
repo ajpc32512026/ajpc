@@ -1,0 +1,200 @@
+{
+  "id": "traditionalpuffpastry",
+  "title": "Traditional Puff Pastry",
+  "emoji": "🥐",
+  "category": "Pastry",
+  "description": "The full classic method with butter block and multiple turns. Ultimate rise, ethereal flakiness, and deep satisfaction. A project worth the effort — make this when pastry is the centrepiece and you have a Sunday afternoon.",
+  "prepTime": "45 min",
+  "cookTime": "0 min",
+  "totalTime": "3+ hours",
+  "servings": "1 batch",
+  "difficulty": "Advanced",
+  "tags": [
+    "Puff Pastry",
+    "Traditional Puff",
+    "Feuilletage",
+    "Classic Pastry",
+    "Butter Block",
+    "Lamination",
+    "French Pastry",
+    "Advanced"
+  ],
+  "ingredients": [
+    {
+      "quantity": "500",
+      "unit": "g",
+      "item": "Plain Flour"
+    },
+    {
+      "quantity": "350",
+      "unit": "g",
+      "item": "Unsalted Butter",
+      "notes": "very cold, for the butter block"
+    },
+    {
+      "quantity": "50",
+      "unit": "g",
+      "item": "Unsalted Butter",
+      "notes": "softened, for the détrempe (dough)"
+    },
+    {
+      "quantity": "250",
+      "unit": "ml",
+      "item": "Ice-Cold Water"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Salt"
+    }
+  ],
+  "youWillNeed": [
+    {
+      "item": "Bench Scraper",
+      "note": "Essential for keeping edges straight and clean"
+    },
+    {
+      "item": "Rolling Pin",
+      "note": "Preferably chilled"
+    },
+    {
+      "item": "Baking Paper",
+      "note": "For pounding the butter block"
+    },
+    {
+      "item": "Plastic Wrap",
+      "note": "For resting between turns"
+    },
+    {
+      "item": "Ruler",
+      "note": "Optional but helpful for keeping butter block square"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "**Make the détrempe (base dough):** Mix flour, salt, and softened butter in a bowl. Gradually add ice-cold water while mixing until a smooth, cohesive dough forms. Do not overwork. Wrap in plastic and chill for 30 minutes."
+    },
+    {
+      "step": 2,
+      "instruction": "**Prepare the butter block:** Place 350g cold butter between two sheets of baking paper. Pound with a rolling pin into a 15cm square (about 2cm thick). Keep chilled but pliable — not so cold it cracks, not so warm it smears."
+    },
+    {
+      "step": 3,
+      "instruction": "**Enclose the butter:** On a floured surface, roll the détrempe into a cross shape (a central square with four flaps). Place the butter block in the centre. Fold the flaps over to completely enclose the butter, pinching seams to seal."
+    },
+    {
+      "step": 4,
+      "instruction": "**First roll:** Roll the dough into a rectangle approximately 20 × 60cm, keeping edges straight with a bench scraper. Fold into thirds like a letter (this is 1 turn)."
+    },
+    {
+      "step": 5,
+      "instruction": "**Perform the turns:** Rotate the dough 90°. Roll again into a rectangle and fold into thirds. Repeat for a total of 6 turns."
+    },
+    {
+      "step": 6,
+      "instruction": "**Rest between turns:** After every 2 turns, wrap and chill the dough for 30 minutes. This prevents butter from softening too much and relaxes the gluten."
+    },
+    {
+      "step": 7,
+      "instruction": "**Final rest:** After the 6th turn, wrap tightly and chill for at least 1 hour before using, or overnight for best results."
+    },
+    {
+      "step": 8,
+      "instruction": "**To use:** Roll out to desired thickness. Keep chilled until ready to bake — a hot oven (200–220°C / 400–425°F) is essential for maximum rise."
+    }
+  ],
+  "notes": [
+    {
+      "type": "tip",
+      "title": "Temperature is Everything",
+      "content": "If butter softens at any point, stop and chill immediately. Warm butter melts into the dough instead of creating distinct layers. Work in a cool kitchen if possible (under 22°C / 72°F)."
+    },
+    {
+      "type": "tip",
+      "title": "Mark Your Turns",
+      "content": "Mark each completed turn with a finger indentation in the dough. One dent = one turn. This prevents losing count during a long session."
+    },
+    {
+      "type": "tip",
+      "title": "Use European-Style Butter",
+      "content": "European-style butter has higher fat content (82–86%) and less water. It's more pliable and less likely to crack during rolling. Worth the extra cost for this recipe."
+    },
+    {
+      "type": "variation",
+      "title": "Double Turns (Faster Method)",
+      "content": "Instead of 6 single turns, you can do 4 double turns (fold both ends to the centre, then fold in half). This achieves similar layering in fewer roll-outs but requires more precise rolling."
+    },
+    {
+      "type": "storage",
+      "title": "Storage",
+      "content": "Wrap tightly in plastic wrap and refrigerate for up to 2 days, or freeze for up to 3 months. Thaw frozen dough overnight in the refrigerator before using. Never thaw at room temperature."
+    }
+  ],
+  "related": [
+    {
+      "id": "puffpastryrough",
+      "title": "Rough Puff Pastry",
+      "matchingTags": [
+        "puff pastry",
+        "rough puff",
+        "pastry dough",
+        "butter",
+        "flaky",
+        "quick pastry",
+        "make ahead",
+        "freezer friendly"
+      ]
+    },
+    {
+      "id": "sausageroll",
+      "title": "Classic Aussie Sausage Rolls",
+      "matchingTags": [
+        "Australian",
+        "Baked",
+        "Classic",
+        "Dinner",
+        "Make Ahead",
+        "Pastry",
+        "Pork",
+        "Savoury",
+        "Snack"
+      ]
+    },
+    {
+      "id": "meatpie",
+      "title": "Classic Aussie Meat Pies",
+      "matchingTags": [
+        "Australian",
+        "Baked",
+        "Beef",
+        "Classic",
+        "Dinner",
+        "Pastry",
+        "Savoury"
+      ]
+    }
+  ],
+  "nutrition": {
+    "servings": 1,
+    "cal": 4712,
+    "kj": 19714,
+    "protein": 55,
+    "carbs": 370,
+    "sugars": 14,
+    "fat": 335,
+    "saturated_fat": 229,
+    "fiber": 11,
+    "sodium": 475,
+    "coverage": 80,
+    "calcium_mg": 180,
+    "iron_mg": 7,
+    "potassium_mg": 973,
+    "magnesium_mg": 194,
+    "zinc_mg": 4,
+    "cholesterol_mg": 668,
+    "vitamin_a_ug": 3432,
+    "vitamin_d_ug": 3
+  },
+  "lastModified": "2026-05-25"
+}

@@ -119,23 +119,69 @@
   "related": [
     {
       "id": "traditionalanzacbiscuits",
-      "title": "Traditional ANZAC Biscuits"
+      "title": "Traditional ANZAC Biscuits",
+      "matchingTags": [
+        "Australian",
+        "Classic",
+        "Make Ahead",
+        "Rich",
+        "Sweet",
+        "Vegetarian",
+        "Cookies",
+        "Coconut"
+      ]
     },
     {
       "id": "bananabread",
-      "title": "Banana Bread"
+      "title": "Banana Bread",
+      "matchingTags": [
+        "Banana",
+        "Bread",
+        "Breakfast",
+        "Classic",
+        "Make Ahead",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
     },
     {
       "id": "chocolatemousse",
-      "title": "Chocolate Mousse"
+      "title": "Chocolate Mousse",
+      "matchingTags": [
+        "Chocolate",
+        "Creamy",
+        "Dessert",
+        "French",
+        "Make Ahead",
+        "No-Bake",
+        "Rich",
+        "Sweet",
+        "Under 30 Minutes",
+        "Vegetarian"
+      ]
     },
     {
       "id": "blueberrymuffins",
-      "title": "Blueberry Muffins"
+      "title": "Blueberry Muffins",
+      "matchingTags": [
+        "Baked",
+        "Breakfast",
+        "Sweet",
+        "Under 1 Hour",
+        "Vegetarian"
+      ]
     },
     {
       "id": "lemoncoconut",
-      "title": "Lemon Coconut"
+      "title": "Lemon Coconut",
+      "matchingTags": [
+        "Coconut",
+        "Dessert",
+        "Lemon",
+        "Sweet",
+        "Vegetarian"
+      ]
     }
   ],
   "nutrition": {
@@ -158,5 +204,5 @@
     "cholesterol_mg": 18,
     "vitamin_a_ug": 79
   },
-  "lastModified": "2026-05-23"
+  "lastModified": "2026-05-26"
 }

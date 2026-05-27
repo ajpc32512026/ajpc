@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#16161a">
-	<meta name="description" content="View recipe from Ana &amp; John's Kitchen Notebook.">
+	<meta name="description" content="View recipe from Ana & John's Kitchen Notebook.">
     <title>Recipe | AJPC Kitchen Notebook</title>
 	<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2316161a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='28' font-weight='bold' fill='%23c97d3e'%3EAJ%3C/text%3E%3C/svg%3E">
     <link rel="stylesheet" href="css/main.css">
@@ -30,16 +30,34 @@
         <footer>
             <div class="footer-inner">
                 <span class="footer-brand">AJPC</span>
-                <p class="footer-copy">&copy; 2026 Ana &amp; John's Kitchen Notebook.</p>
+                <p class="footer-copy">&copy; 2026 Ana & John's Kitchen Notebook.</p>
                 <button class="print-btn" onclick="window.print()">Print Recipe</button>
             </div>
         </footer>
     </div>
 
     <!-- Back to Top -->
-    <button class="back-to-top" id="backToTop" aria-label="Back to top">&#8593;</button>
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+    <!-- Shopping List Modal -->
+    <div id="shopping-modal" class="shopping-modal" style="display: none;">
+        <div class="shopping-modal-content">
+            <div class="shopping-modal-header">
+                <h2>🛒 Shopping List</h2>
+                <button class="shopping-modal-close" onclick="closeShoppingModal()">×</button>
+            </div>
+            <div id="shopping-list-content" class="shopping-list-body">
+                <div class="loading-state"><p>Loading prices...</p></div>
+            </div>
+            <div class="shopping-modal-footer">
+                <button class="btn-print-shopping" onclick="printShoppingList()">🖨️ Print</button>
+                <button class="btn-close-shopping" onclick="closeShoppingModal()">Close</button>
+            </div>
+        </div>
+    </div>
 
     <script src="js/nav-loader.js"></script>
     <script src="js/recipe-renderer.js"></script>
+    <script src="js/shopping-list.js"></script>
 </body>
 </html>

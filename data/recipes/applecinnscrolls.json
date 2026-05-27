@@ -8,6 +8,7 @@
   "cookTime": "25 min",
   "totalTime": "55 min",
   "servings": "12 scrolls",
+  "yieldPerBatch": "12 Scrolls",
   "difficulty": "Intermediate",
   "tags": [
     "Apple",
@@ -216,15 +217,36 @@
     },
     {
       "id": "swbtm",
-      "title": "Soft White Bread (Tangzhong Method)"
+      "title": "Soft White Bread (Tangzhong Method)",
+      "matchingTags": [
+        "Bread",
+        "Classic",
+        "Make Ahead",
+        "Vegan"
+      ]
     },
     {
       "id": "blueberrymuffins",
-      "title": "Heavenly Blueberry Muffins"
+      "title": "Heavenly Blueberry Muffins",
+      "matchingTags": [
+        "Baked",
+        "Breakfast",
+        "Sweet",
+        "Under 1 Hour",
+        "Vegetarian"
+      ]
     },
     {
       "id": "chocmuffins",
-      "title": "Chocolate Muffins with Ganache"
+      "title": "Chocolate Muffins with Ganache",
+      "matchingTags": [
+        "Baked",
+        "Chocolate",
+        "Rich",
+        "Sweet",
+        "Under 1 Hour",
+        "Vegetarian"
+      ]
     }
   ],
   "nutrition": {
@@ -248,5 +270,5 @@
     "vitamin_a_ug": 141,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-05-23"
+  "lastModified": "2026-05-26"
 }

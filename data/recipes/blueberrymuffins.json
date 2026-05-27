@@ -8,6 +8,7 @@
   "cookTime": "25 min",
   "totalTime": "45 min",
   "servings": "12 muffins",
+  "difficulty": "Beginner",
   "tags": [
     "Baked",
     "Breakfast",
@@ -130,37 +131,80 @@
   "related": [
     {
       "id": "chocmuffins",
-      "title": "Chocolate Muffins with Ganache"
+      "title": "Chocolate Muffins with Ganache",
+      "matchingTags": [
+        "Baked",
+        "Chocolate",
+        "Rich",
+        "Sweet",
+        "Under 1 Hour",
+        "Vegetarian"
+      ]
     },
     {
       "id": "carrotcake",
-      "title": "Classic Carrot Cake"
-    },
-    {
-      "id": "carrotcakehomebatch",
-      "title": "Carrot Cake – Home Batch"
+      "title": "Classic Carrot Cake",
+      "matchingTags": [
+        "Baked",
+        "Classic",
+        "Creamy",
+        "Party",
+        "Sweet",
+        "Vegetarian",
+        "Carrot"
+      ]
     },
     {
       "id": "applecinnscrolls",
-      "title": "Apple & Cinnamon Scrolls"
+      "title": "Apple & Cinnamon Scrolls",
+      "matchingTags": [
+        "Apple",
+        "Bread",
+        "Breakfast",
+        "Cinnamon",
+        "Creamy",
+        "Rich",
+        "Sweet",
+        "Under 1 Hour",
+        "Vegetarian"
+      ]
     },
     {
       "id": "chocchipcookies",
-      "title": "Double Chocolate Chip Cookies"
+      "title": "Double Chocolate Chip Cookies",
+      "matchingTags": [
+        "Chocolate",
+        "Classic",
+        "Make Ahead",
+        "Rich",
+        "Snack",
+        "Sweet",
+        "Vegetarian",
+        "Cookies"
+      ]
     }
   ],
   "nutrition": {
     "servings": 12,
-    "cal": 245,
-    "kj": 1024,
+    "cal": 234,
+    "kj": 979,
     "protein": 6,
-    "carbs": 29,
-    "sugars": 11,
-    "fat": 12,
-    "saturated_fat": 3,
+    "carbs": 28,
+    "sugars": 12,
+    "fat": 11,
+    "saturated_fat": 2,
     "fiber": 1,
-    "sodium": 119,
-    "coverage": 100
+    "sodium": 93,
+    "coverage": 100,
+    "calcium_mg": 56,
+    "iron_mg": 1,
+    "potassium_mg": 197,
+    "magnesium_mg": 15,
+    "zinc_mg": 1,
+    "cholesterol_mg": 85,
+    "vitamin_a_ug": 35,
+    "vitamin_c_mg": 1,
+    "vitamin_d_ug": 1
   },
-  "lastModified": "2026-05-19"
+  "lastModified": "2026-05-25"
 }

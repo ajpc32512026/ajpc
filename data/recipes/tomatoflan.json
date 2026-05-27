@@ -2,7 +2,7 @@
   "id": "tomatoandoliveflan",
   "title": "Tomato and Olive Flan",
   "emoji": "🍅",
-  "category": "Dinner",
+  "category": "Entree",
   "description": "A savoury baked flan filled with tomatoes, olives, basil, and Gruyère cheese.",
   "prepTime": "30 min",
   "cookTime": "35 min",
@@ -185,12 +185,25 @@
   ],
   "nutrition": {
     "servings": 4,
-    "cal": 842,
-    "protein": 23,
+    "cal": 887,
+    "kj": 3712,
+    "protein": 25,
     "carbs": 65,
-    "fat": 55,
-    "fiber": 6,
-    "sodium": 691,
-    "coverage": 100
-  }
+    "sugars": 20,
+    "fat": 57,
+    "saturated_fat": 26,
+    "fiber": 10,
+    "sodium": 730,
+    "coverage": 100,
+    "calcium_mg": 454,
+    "iron_mg": 9,
+    "potassium_mg": 1156,
+    "magnesium_mg": 105,
+    "zinc_mg": 3,
+    "cholesterol_mg": 332,
+    "vitamin_a_ug": 430,
+    "vitamin_c_mg": 16,
+    "vitamin_d_ug": 5
+  },
+  "lastModified": "2026-05-24"
 }

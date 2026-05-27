@@ -13,7 +13,9 @@
     "Italian",
     "Sauce",
     "Under 30 Minutes",
-    "Vegetarian"
+    "Vegetarian",
+    "No Cook",
+    "Basil"
   ],
   "ingredients": [
     {
@@ -45,14 +47,17 @@
       "item": "Garlic"
     },
     {
-      "quantity": "3",
-      "unit": "g",
-      "item": "Salt"
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
+    }
+  ],
+  "youWillNeed": [
+    {
+      "item": "Blender"
     },
     {
-      "quantity": "1",
-      "unit": "g",
-      "item": "Black Pepper"
+      "item": "Spatula"
     }
   ],
   "method": [
@@ -88,33 +93,91 @@
   "related": [
     {
       "id": "alfredosauce",
-      "title": "Alfredo Sauce"
+      "title": "Alfredo Sauce",
+      "matchingTags": [
+        "Cheese",
+        "Creamy",
+        "Italian",
+        "Rich",
+        "Sauce",
+        "Under 30 Minutes",
+        "Vegetarian"
+      ]
     },
     {
       "id": "marinarasauce",
-      "title": "Marinara Sauce"
+      "title": "Marinara Sauce",
+      "matchingTags": [
+        "Classic",
+        "Italian",
+        "Sauce",
+        "Tomato",
+        "Under 30 Minutes",
+        "Vegan",
+        "Vegetarian"
+      ]
     },
     {
       "id": "redsauce",
-      "title": "Red Sauce"
+      "title": "Red Sauce",
+      "matchingTags": [
+        "Classic",
+        "Italian",
+        "Sauce",
+        "Tomato",
+        "Under 30 Minutes",
+        "Vegan",
+        "Vegetarian"
+      ]
     },
     {
       "id": "arrabbiatasauce",
-      "title": "Arrabbiata Sauce"
+      "title": "Arrabbiata Sauce",
+      "matchingTags": [
+        "Italian",
+        "Sauce",
+        "Spicy",
+        "Tomato",
+        "Under 30 Minutes",
+        "Vegan",
+        "Vegetarian"
+      ]
     },
     {
       "id": "mornaysauce",
-      "title": "Mornay / Cheese Sauce"
+      "title": "Mornay / Cheese Sauce",
+      "matchingTags": [
+        "Cheese",
+        "Classic",
+        "Creamy",
+        "French",
+        "Rich",
+        "Sauce",
+        "Under 30 Minutes",
+        "Vegetarian"
+      ]
     }
   ],
   "nutrition": {
     "servings": 4,
-    "cal": 530,
-    "protein": 12,
-    "carbs": 27,
-    "fat": 44,
-    "fiber": 2,
-    "sodium": 492,
-    "coverage": 100
-  }
+    "cal": 507,
+    "kj": 2122,
+    "protein": 11,
+    "carbs": 8,
+    "sugars": 2,
+    "fat": 46,
+    "saturated_fat": 8,
+    "fiber": 14,
+    "sodium": 133,
+    "coverage": 83,
+    "calcium_mg": 175,
+    "iron_mg": 2,
+    "potassium_mg": 533,
+    "magnesium_mg": 61,
+    "zinc_mg": 2,
+    "cholesterol_mg": 11,
+    "vitamin_a_ug": 119,
+    "vitamin_c_mg": 9
+  },
+  "lastModified": "2026-05-25"
 }

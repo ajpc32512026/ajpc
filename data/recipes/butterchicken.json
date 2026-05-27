@@ -198,37 +198,93 @@
   "related": [
     {
       "id": "lambkorma",
-      "title": "Lamb Korma"
+      "title": "Lamb Korma",
+      "matchingTags": [
+        "Curry",
+        "Dinner",
+        "Indian",
+        "Lamb",
+        "Rich",
+        "Savoury"
+      ]
     },
     {
       "id": "lambvindaloo",
-      "title": "Lamb Vindaloo"
+      "title": "Lamb Vindaloo",
+      "matchingTags": [
+        "Curry",
+        "Dinner",
+        "Indian",
+        "Lamb",
+        "Make Ahead",
+        "Rich",
+        "Savoury",
+        "Slow-Cooked",
+        "Spicy"
+      ]
     },
     {
       "id": "beefvindaloo",
-      "title": "Beef Vindaloo"
+      "title": "Beef Vindaloo",
+      "matchingTags": [
+        "Beef",
+        "Curry",
+        "Dinner",
+        "Indian",
+        "Make Ahead",
+        "Rich",
+        "Savoury",
+        "Slow-Cooked",
+        "Spicy"
+      ]
     },
     {
       "id": "roganjosh",
-      "title": "Lamb Rogan Josh – Restaurant Style"
+      "title": "Lamb Rogan Josh – Restaurant Style",
+      "matchingTags": [
+        "Curry",
+        "Dinner",
+        "Indian",
+        "Lamb",
+        "Rich",
+        "Savoury",
+        "Slow-Cooked",
+        "Spicy"
+      ]
     },
     {
       "id": "kormapaste",
-      "title": "Homemade Korma Paste"
+      "title": "Homemade Korma Paste",
+      "matchingTags": [
+        "Indian",
+        "Make Ahead",
+        "Savoury",
+        "Vegan",
+        "Gluten-Free"
+      ]
     }
   ],
   "nutrition": {
     "servings": 4,
-    "cal": 984,
-    "kj": 4116,
-    "protein": 50,
-    "carbs": 99,
-    "sugars": 7,
-    "fat": 50,
-    "saturated_fat": 19,
-    "fiber": 19,
-    "sodium": 418,
-    "coverage": 100
+    "cal": 838,
+    "kj": 3506,
+    "protein": 41,
+    "carbs": 76,
+    "sugars": 8,
+    "fat": 42,
+    "saturated_fat": 17,
+    "fiber": 31,
+    "sodium": 412,
+    "coverage": 100,
+    "calcium_mg": 163,
+    "iron_mg": 5,
+    "potassium_mg": 1175,
+    "magnesium_mg": 109,
+    "zinc_mg": 4,
+    "cholesterol_mg": 163,
+    "vitamin_a_ug": 215,
+    "vitamin_c_mg": 17,
+    "vitamin_d_ug": 2
   },
-  "lastModified": "2026-05-19"
+  "lastModified": "2026-05-25"
 }

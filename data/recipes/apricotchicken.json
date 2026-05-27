@@ -8,7 +8,6 @@
   "cookTime": "35 min",
   "totalTime": "45 min",
   "servings": "6",
-  "yieldPerBatch": "6 chicken thigh fillets",
   "difficulty": "Beginner",
   "tags": [
     "Australian",
@@ -120,23 +119,69 @@
   "related": [
     {
       "id": "bistro-chickenriverina",
-      "title": "Chicken Riverina"
+      "title": "Chicken Riverina",
+      "matchingTags": [
+        "Australian",
+        "Chicken",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     },
     {
       "id": "butterchicken",
-      "title": "Butter Chicken"
+      "title": "Butter Chicken",
+      "matchingTags": [
+        "Chicken",
+        "Creamy",
+        "Curry",
+        "Dinner",
+        "Indian",
+        "Rich",
+        "Savoury",
+        "Under 1 Hour"
+      ]
     },
     {
       "id": "chickencacciatore",
-      "title": "Chicken Cacciatore"
+      "title": "Chicken Cacciatore",
+      "matchingTags": [
+        "Alcohol",
+        "Chicken",
+        "Dinner",
+        "Italian",
+        "Rich",
+        "Savoury",
+        "Tomato"
+      ]
     },
     {
       "id": "chickenteriyaki",
-      "title": "Chicken Teriyaki"
+      "title": "Chicken Teriyaki",
+      "matchingTags": [
+        "Chicken",
+        "Dinner",
+        "Japanese",
+        "Savoury",
+        "Sweet",
+        "Under 30 Minutes"
+      ]
     },
     {
       "id": "honeysoychicken",
-      "title": "Honey Soy Chicken"
+      "title": "Honey Soy Chicken",
+      "matchingTags": [
+        "Asian",
+        "Chicken",
+        "Dinner",
+        "Easy",
+        "Make Ahead",
+        "Sweet",
+        "Under 1 Hour"
+      ]
     }
   ],
   "nutrition": {
@@ -160,5 +205,5 @@
     "vitamin_a_ug": 154,
     "vitamin_c_mg": 14
   },
-  "lastModified": "2026-05-23"
+  "lastModified": "2026-05-26"
 }

@@ -8,6 +8,7 @@
   "cookTime": "45 min",
   "totalTime": "1 hr 15 min",
   "servings": "8 servings",
+  "difficulty": "Beginner",
   "tags": [
     "Apple",
     "Classic",
@@ -120,23 +121,74 @@
   "related": [
     {
       "id": "applecinnscrolls",
-      "title": "Apple & Cinnamon Scrolls"
+      "title": "Apple & Cinnamon Scrolls",
+      "matchingTags": [
+        "Apple",
+        "Bread",
+        "Breakfast",
+        "Cinnamon",
+        "Creamy",
+        "Rich",
+        "Sweet",
+        "Under 1 Hour",
+        "Vegetarian"
+      ]
     },
     {
       "id": "apricotflan",
-      "title": "Apricot Flan"
+      "title": "Apricot Flan",
+      "matchingTags": [
+        "Alcohol",
+        "Brandy",
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Pastry",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
     },
     {
       "id": "lemonmeringuepie",
-      "title": "Lemon Meringue Pie"
+      "title": "Lemon Meringue Pie",
+      "matchingTags": [
+        "Baked",
+        "Classic",
+        "Dessert",
+        "Lemon",
+        "Pastry",
+        "Sweet",
+        "Vegetarian"
+      ]
     },
     {
       "id": "bananabread",
-      "title": "Banana Bread"
+      "title": "Banana Bread",
+      "matchingTags": [
+        "Banana",
+        "Bread",
+        "Breakfast",
+        "Classic",
+        "Make Ahead",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
     },
     {
       "id": "plain-cheesecake",
-      "title": "Cheesecake — Plain"
+      "title": "Cheesecake — Plain",
+      "matchingTags": [
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Make Ahead",
+        "No-Bake",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
     }
   ],
   "nutrition": {
@@ -158,5 +210,5 @@
     "cholesterol_mg": 26,
     "vitamin_a_ug": 150
   },
-  "lastModified": "2026-05-23"
+  "lastModified": "2026-05-26"
 }

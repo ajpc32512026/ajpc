@@ -152,7 +152,7 @@
         if (tags.includes('french') || tags.includes('french cuisine')) return 'French';
         if (tags.includes('italian')) return 'Italian';
         if (tags.includes('indian')) return 'Indian';
-        if (tags.includes('australian') || (recipe.title && recipe.title.toLowerCase().includes('anzac'))) return 'Australian';
+        if (tags.includes('australian') || ((recipe.title || recipe.name || '').toLowerCase().includes('anzac'))) return 'Australian';
         if (tags.includes('asian')) return 'Asian';
         if (tags.includes('american')) return 'American';
         if (tags.includes('greek')) return 'Greek';
@@ -162,11 +162,21 @@
         if (tags.includes('chinese')) return 'Chinese';
         if (tags.includes('vietnamese')) return 'Vietnamese';
         if (tags.includes('middle eastern')) return 'Middle Eastern';
-        
+        if (tags.includes('russian')) return 'Russian';
+        if (tags.includes('german')) return 'German';
+        if (tags.includes('austrian')) return 'Austrian';
+        if (tags.includes('malaysian')) return 'Malaysian';
+        if (tags.includes('spanish')) return 'Spanish';
+        if (tags.includes('moroccan')) return 'Moroccan';
+        if (tags.includes('lebanese')) return 'Lebanese';
+        if (tags.includes('turkish')) return 'Turkish';
+        if (tags.includes('korean')) return 'Korean';
+        if (tags.includes('british')) return 'British';
+
         // Default based on category fallback
         if (category === 'bistro') return 'French';
         if (category === 'filipino') return 'Filipino';
-        
+
         return 'International';
     }
 
@@ -204,7 +214,7 @@
                             </summary>
                             <ul class="sitemap-list">
                                 ${recipesList.map(recipe => `
-                                    <li><a href="recipe.html?id=${recipe.id}">${recipe.emoji ? recipe.emoji + ' ' : ''}${recipe.title}</a></li>
+                                    <li><a href="recipe.html?id=${recipe.id}">${recipe.emoji ? recipe.emoji + ' ' : ''}${recipe.title || recipe.name}</a></li>
                                 `).join('')}
                             </ul>
                         </details>`;
@@ -235,7 +245,7 @@
             
             sortedCategories.forEach(category => {
                 const categoryRecipes = categories[category].sort((a, b) => 
-                    (a.title || '').localeCompare(b.title || '')
+                    (a.title || a.name || '').localeCompare(b.title || b.name || '')
                 );
                 
                 html += `
@@ -243,7 +253,7 @@
                         <h2>📂 ${category}</h2>
                         <ul class="sitemap-list">
                             ${categoryRecipes.map(recipe => `
-                                <li><a href="recipe.html?id=${recipe.id}">${recipe.emoji ? recipe.emoji + ' ' : ''}${recipe.title}</a></li>
+                                <li><a href="recipe.html?id=${recipe.id}">${recipe.emoji ? recipe.emoji + ' ' : ''}${recipe.title || recipe.name}</a></li>
                             `).join('')}
                         </ul>
                     </div>

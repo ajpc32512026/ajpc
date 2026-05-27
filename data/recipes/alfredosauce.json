@@ -101,7 +101,9 @@
         "Italian",
         "Sauce",
         "Under 30 Minutes",
-        "Vegetarian"
+        "Vegetarian",
+        "No Cook",
+        "Basil"
       ]
     },
     {
@@ -179,5 +181,5 @@
     "vitamin_a_ug": 362,
     "vitamin_c_mg": 6
   },
-  "lastModified": "2026-05-23"
+  "lastModified": "2026-05-26"
 }

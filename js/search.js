@@ -272,7 +272,7 @@ async function getFullRecipe(id) {
             var ingredients = ingredientTextCache[recipe.id] || '';
 
             var text = [
-                recipe.title || '',
+                (recipe.title || recipe.name || ''),
                 recipe.category || '',
                 (recipe.tags || []).join(' '),
                 recipe.description || '',
@@ -280,7 +280,7 @@ async function getFullRecipe(id) {
             ].join(' ').toLowerCase();
 
             var score = terms.reduce(function(acc, term) {
-                if ((recipe.title || '').toLowerCase().indexOf(term) !== -1) return acc + 10;
+                if ((recipe.title || recipe.name || '').toLowerCase().indexOf(term) !== -1) return acc + 10;
                 if ((recipe.category || '').toLowerCase().indexOf(term) !== -1) return acc + 5;
                 if ((recipe.tags || []).some(function(t) { return t.toLowerCase().indexOf(term) !== -1; })) return acc + 4;
                 if (text.indexOf(term) !== -1) return acc + 2;
@@ -350,7 +350,7 @@ async function ingredientSearch(query, userIngredients) {
             var recipe = item.recipe;
             
             html += '<li class="search-result-entry">';
-            html += '<h3><a href="recipe.html?id=' + encodeURIComponent(recipe.id) + '">' + highlightMatch(recipe.title || recipe.id, query) + '</a></h3>';
+            html += '<h3><a href="recipe.html?id=' + encodeURIComponent(recipe.id) + '">' + highlightMatch(recipe.title || recipe.name || recipe.id, query) + '</a></h3>';
             
             if (recipe.description) {
                 html += '<p>' + escHtml(recipe.description.slice(0, 140)) + (recipe.description.length > 140 ? '...' : '') + '</p>';
@@ -390,7 +390,7 @@ async function ingredientSearch(query, userIngredients) {
             
             html += '<li class="search-result-entry">';
             html += '<div class="ingredient-match-badge">🎯 ' + res.score + '% ingredient match</div>';
-            html += '<h3><a href="recipe.html?id=' + encodeURIComponent(recipe.id) + '">' + escHtml(recipe.title || recipe.id) + '</a></h3>';
+            html += '<h3><a href="recipe.html?id=' + encodeURIComponent(recipe.id) + '">' + escHtml(recipe.title || recipe.name || recipe.id) + '</a></h3>';
             
             if (full.description) {
                 html += '<p>' + escHtml(full.description.slice(0, 140)) + (full.description.length > 140 ? '...' : '') + '</p>';
