@@ -92,8 +92,8 @@
       "title": "Teriyaki Sauce"
     },
     {
-      "id": "sweetchilisauce",
-      "title": "Sweet Chili Sauce"
+      "id": "sweetchillisauce",
+      "title": "Sweet Chilli Sauce"
     },
     {
       "id": "sweetspicyorangesauce",
@@ -106,7 +106,7 @@
     "protein": 0,
     "carbs": 22,
     "fat": 0,
-    "fiber": 0,
+    "fibre": 0,
     "sodium": 207,
     "coverage": 100
   }

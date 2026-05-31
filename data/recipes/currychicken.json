@@ -23,7 +23,7 @@
       "quantity": "600",
       "unit": "g",
       "item": "Chicken Thigh Fillets",
-      "notes": "or breast fillets, both cut into bite-sized pieces"
+      "notes": "or breast fillets, both cut into bite-sised pieces"
     },
     {
       "quantity": "1",
@@ -200,7 +200,7 @@
     "protein": 106,
     "carbs": 54,
     "fat": 84,
-    "fiber": 10,
+    "fibre": 10,
     "sodium": 887,
     "coverage": 100
   },

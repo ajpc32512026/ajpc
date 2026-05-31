@@ -52,7 +52,7 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Red Chili Powder"
+      "item": "Red Chilli Powder"
     },
     {
       "quantity": "40",
@@ -108,7 +108,7 @@
     },
     {
       "step": 4,
-      "instruction": "Add turmeric, chili powder, tomato paste, chopped tomatoes, and vinegar. Cook 2–3 minutes until tomatoes break down."
+      "instruction": "Add turmeric, chilli powder, tomato paste, chopped tomatoes, and vinegar. Cook 2–3 minutes until tomatoes break down."
     },
     {
       "step": 5,
@@ -175,7 +175,7 @@
     "sugars": 14,
     "fat": 28,
     "saturated_fat": 7,
-    "fiber": 18,
+    "fibre": 18,
     "sodium": 336,
     "coverage": 100,
     "calcium_mg": 129,

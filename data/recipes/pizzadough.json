@@ -3,11 +3,11 @@
   "title": "Ultimate Homemade Pizza Dough",
   "emoji": "🍕",
   "category": "Baking",
-  "description": "The kind that costs about $1.70 per large base but tastes like it should come with its own Italian soundtrack.",
-  "prepTime": "15 min",
+  "description": "A versatile dough that works beautifully for both pizza bases and bread rolls. Simple ingredients, minimal fuss, and results that are worth every minute of the knead.",
+  "prepTime": "20 min",
   "cookTime": "0 min",
-  "totalTime": "2 hr 15 min",
-  "servings": "2 large pizzas",
+  "totalTime": "2 hr 20 min",
+  "servings": "1",
   "difficulty": "Beginner",
   "tags": [
     "Bread",
@@ -21,19 +21,20 @@
     {
       "quantity": "590",
       "unit": "g",
-      "item": "Bread Flour"
+      "item": "Bread Flour",
+      "notes": "plain flour works well too"
     },
     {
       "quantity": "300",
       "unit": "ml",
       "item": "Water",
-      "notes": "cold"
+      "notes": "cold or warm depending on the temperature of the kitchen..."
     },
     {
       "quantity": "7",
       "unit": "g",
       "item": "Yeast",
-      "notes": "instant dried"
+      "notes": "instant dried... 1 sachet"
     },
     {
       "quantity": "30",
@@ -41,93 +42,152 @@
       "item": "Olive Oil"
     },
     {
-      "quantity": "5",
+      "quantity": "10",
       "unit": "g",
       "item": "Salt"
     },
     {
-      "quantity": "5",
+      "quantity": "10",
       "unit": "g",
-      "item": "Bread Improver"
+      "item": "Bread Improver",
+      "notes": "Wallaby bread improver avaliable at Woolworths and Coles"
+    },
+    {
+      "quantity": "20",
+      "unit": "g",
+      "item": "White Sugar",
+      "notes": "optional... helps feed the yeast"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "In a large bowl, combine cold water, yeast, and a pinch of sugar. Let stand for 5 minutes until foamy."
+      "instruction": "In a large bowl, combine all ingredients and mix until a shaggy dough forms — note that salt can inhibit yeast activity, so try to keep them on opposite sides of the bowl before mixing. Tip out onto a lightly floured bench and knead for a full 15 minutes until smooth, elastic, and no longer sticky."
     },
     {
       "step": 2,
-      "instruction": "Add bread flour, salt, olive oil, and bread improver. Mix until a rough dough forms."
+      "instruction": "Place in a lightly oiled bowl, cover with a damp tea towel or cling wrap, and rest in a warm spot for 1–1 1/2 hours until doubled in size. Do not leave in direct sunlight."
     },
     {
       "step": 3,
-      "instruction": "Knead on a lightly floured surface for 15 minutes until smooth, elastic, and not sticky. The dough should feel soft and spring back when pressed."
+      "instruction": "tip  the dough out onto the bench and divide: full batch for 1 family-sized pizza, half for 2 large pizzas, or quarters for 4 personal pizzas. Or 8 bread rolls at approx 120g each..."
+    },
+    {
+      "heading": "For Pizza"
     },
     {
       "step": 4,
-      "instruction": "Place in a lightly oiled bowl, cover with a damp tea towel, and rest in a warm spot for 1–1½ hours until doubled in size."
+      "instruction": "Shape each portion into a ball, place it directly onto a lightly floured or oiled pizza tray, cover loosely, and allow to rest for 10–15 minutes to relax the gluten. Once rested, gently roll or stretch the dough to fit the tray, then cover again and leave to prove for 1 hour. The dough is already in place and won't need to be handled or moved after it has risen."
+    },
+    {
+      "heading": "Bread Rolls"
     },
     {
       "step": 5,
-      "instruction": "Punch down the dough and divide: full batch for 1 family-sized pizza, half for 2 large pizzas, or quarters for 4 personal pizzas."
+      "instruction": "Weigh the total dough and divide by the number of rolls to get the weight per portion. Scale each piece individually to ensure they are equal. Shape each piece into a smooth, tight ball by folding the edges underneath and rolling against the work surface with a cupped hand. Place onto a lined baking tray, evenly spaced, cover loosely, and leave to prove for 1 hour or until doubled in size."
     },
     {
       "step": 6,
-      "instruction": "Shape each portion into a ball, cover, and let rest for 10–15 minutes to relax the gluten before rolling."
-    },
-    {
-      "step": 7,
-      "instruction": "Roll out on a floured surface or stretch by hand to desired thickness. Top and bake at 220–250°C."
+      "instruction": "Once risen, gently beat one whole egg until combined and carefully brush over the surface of each roll, taking care not to press down or deflate the dough. Scatter seeds over the top to decorate if desired, or leave plain."
     }
   ],
   "notes": [
     {
       "type": "technique",
       "title": "Flour Matters",
-      "content": "Bread flour with 12–14% protein gives the best structure and chew. Plain flour will work but will not have the same texture."
+      "content": "Bread flour with a protein content of 12–14% gives the best structure and chew. Plain flour will work as a substitute but the lower protein content means less gluten development, resulting in a softer, less chewy texture."
     },
     {
       "type": "technique",
       "title": "The Knead",
-      "content": "Knead for a full 15 minutes — the dough should not be sticky by the end. This develops the gluten properly and gives the crust its characteristic chew. If you have an Ooni spiral mixer, the same timing applies and you will get an even better, more consistent result."
+      "content": "Knead for a full 15 minutes until the dough is smooth, elastic, and no longer sticky. This develops the gluten structure properly, giving the bread or crust its characteristic chew and texture."
     },
     {
       "type": "storage",
       "title": "Make Ahead",
-      "content": "Dough can be refrigerated for up to 3 days or frozen for up to 3 months. Thaw frozen dough overnight in the refrigerator before using."
+      "content": "Dough can be refrigerated for up to 3 days or frozen for up to 3 months. For best results, freeze after the first prove. Thaw frozen dough overnight in the refrigerator, then allow to come to room temperature for 1–2 hours before shaping and proving as normal."
+    },
+    {
+      "type": "technique",
+      "title": "Baking",
+      "content": "Pizza bakes at 220c for 15–20 minutes until the crust is golden and the cheese is bubbling. Bread rolls bake at 180c for 25 minutes until deep golden brown and hollow sounding when tapped on the base."
     }
   ],
   "related": [
     {
       "id": "focaccia",
-      "title": "Focaccia"
+      "title": "Focaccia",
+      "matchingTags": [
+        "Bread",
+        "Italian",
+        "Make Ahead",
+        "Savoury",
+        "Vegetarian"
+      ]
     },
     {
       "id": "focaccia-high",
-      "title": "High-Hydration Focaccia"
+      "title": "High-Hydration Focaccia",
+      "matchingTags": [
+        "Bread",
+        "Italian",
+        "Make Ahead",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
     },
     {
       "id": "garlicbread",
-      "title": "Garlic Butter Crusty Bread"
+      "title": "Garlic Butter Crusty Bread",
+      "matchingTags": [
+        "Baked",
+        "Bread",
+        "Garlic",
+        "Savoury",
+        "Vegetarian"
+      ]
     },
     {
       "id": "sub",
-      "title": "Homemade Sub Buns"
+      "title": "Homemade Sub Buns",
+      "matchingTags": [
+        "Baked",
+        "Bread",
+        "Savoury",
+        "Vegetarian"
+      ]
     },
     {
       "id": "darkrye",
-      "title": "Dark Rye Bread"
+      "title": "Dark Rye Bread",
+      "matchingTags": [
+        "Bread",
+        "Make Ahead",
+        "Savoury",
+        "Vegan",
+        "Vegetarian"
+      ]
     }
   ],
   "nutrition": {
-    "servings": 2,
-    "cal": 1218,
-    "protein": 37,
-    "carbs": 216,
-    "fat": 20,
-    "fiber": 8,
-    "sodium": 980,
-    "coverage": 100
-  }
+    "servings": 1,
+    "cal": 2460,
+    "kj": 10291,
+    "protein": 73,
+    "carbs": 438,
+    "sugars": 31,
+    "fat": 40,
+    "saturated_fat": 6,
+    "fiber": 17,
+    "sodium": 3920,
+    "coverage": 100,
+    "calcium_mg": 148,
+    "iron_mg": 8,
+    "potassium_mg": 1117,
+    "magnesium_mg": 222,
+    "zinc_mg": 6,
+    "vitamin_a_ug": 1
+  },
+  "lastModified": "2026-05-31"
 }

@@ -73,7 +73,7 @@
   "youWillNeed": [
     {
       "item": "Digital Scales",
-      "note": "Weigh each portion to 35g — bake time depends on size. Inconsistent balls mean inconsistent results."
+      "note": "Weigh each portion to 35g — bake time depends on sise. Inconsistent balls mean inconsistent results."
     },
     {
       "item": "Baking Paper",
@@ -172,7 +172,7 @@
     "sugars": 10,
     "fat": 8,
     "saturated_fat": 6,
-    "fiber": 1,
+    "fibre": 1,
     "sodium": 39,
     "coverage": 100,
     "calcium_mg": 17,

@@ -92,12 +92,12 @@
   ],
   "related": [
     {
-      "id": "chiligarlicopil",
-      "title": "Chili Garlic Oil"
+      "id": "chilligarlicoil",
+      "title": "Chilli Garlic Oil"
     },
     {
-      "id": "sweetchilisauce",
-      "title": "Sweet Chili Sauce"
+      "id": "sweetchillisauce",
+      "title": "Sweet Chilli Sauce"
     },
     {
       "id": "teriyakisauce",
@@ -118,7 +118,7 @@
     "protein": 8,
     "carbs": 51,
     "fat": 1,
-    "fiber": 2,
+    "fibre": 2,
     "sodium": 948,
     "coverage": 100
   }

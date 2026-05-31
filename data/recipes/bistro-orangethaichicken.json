@@ -38,7 +38,7 @@
     {
       "quantity": "1",
       "unit": "",
-      "item": "Red Chili",
+      "item": "Red Chilli",
       "notes": "fresh, finely sliced"
     },
     {
@@ -85,7 +85,7 @@
     },
     {
       "step": 3,
-      "instruction": "Add fresh chili and cook briefly for 30 seconds until aromatic."
+      "instruction": "Add fresh chilli and cook briefly for 30 seconds until aromatic."
     },
     {
       "step": 4,
@@ -138,7 +138,7 @@
     "sugars": 16,
     "fat": 50,
     "saturated_fat": 32,
-    "fiber": 11,
+    "fibre": 11,
     "sodium": 115,
     "coverage": 89,
     "calcium_mg": 89,

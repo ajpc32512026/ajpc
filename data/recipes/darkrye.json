@@ -30,7 +30,7 @@
     {
       "quantity": "20",
       "unit": "ml",
-      "item": "Molasses"
+      "item": "Treacle"
     },
     {
       "quantity": "8",
@@ -71,7 +71,7 @@
   "method": [
     {
       "step": 1,
-      "instruction": "In a large mixing bowl, combine warm water, vegetable oil, and molasses. Stir until well mixed."
+      "instruction": "In a large mixing bowl, combine warm water, vegetable oil, and treacle. Stir until well mixed."
     },
     {
       "step": 2,
@@ -91,7 +91,7 @@
     },
     {
       "step": 6,
-      "instruction": "Place dough in a lightly oiled bowl, cover with a damp tea towel, and let rise in a warm place for 1½–2 hours or until doubled in size."
+      "instruction": "Place dough in a lightly oiled bowl, cover with a damp tea towel, and let rise in a warm place for 1½–2 hours or until doubled in sise."
     },
     {
       "step": 7,
@@ -127,7 +127,7 @@
     {
       "type": "variation",
       "title": "Darker Colour",
-      "content": "For an even darker loaf, add an extra 10 g of cocoa powder. The molasses and cocoa together create the characteristic dark colour and rich flavour."
+      "content": "For an even darker loaf, add an extra 10 g of cocoa powder. The treacle and cocoa together create the characteristic dark colour and rich flavour."
     },
     {
       "type": "serving",
@@ -163,7 +163,7 @@
     "protein": 112,
     "carbs": 423,
     "fat": 33,
-    "fiber": 32,
+    "fibre": 32,
     "sodium": 3192,
     "coverage": 100
   }

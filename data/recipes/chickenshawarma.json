@@ -66,7 +66,7 @@
     {
       "quantity": "0.5",
       "unit": "g",
-      "item": "Red Chili Flakes"
+      "item": "Red Chilli Flakes"
     },
     {
       "quantity": "0.5",
@@ -78,7 +78,7 @@
   "method": [
     {
       "step": 1,
-      "instruction": "In a large bowl, whisk together vegetable oil, lemon juice, garlic, salt, paprika, cumin, cardamom, red chili flakes, and cinnamon."
+      "instruction": "In a large bowl, whisk together vegetable oil, lemon juice, garlic, salt, paprika, cumin, cardamom, red chilli flakes, and cinnamon."
     },
     {
       "step": 2,
@@ -142,7 +142,7 @@
     "protein": 49,
     "carbs": 52,
     "fat": 21,
-    "fiber": 4,
+    "fibre": 4,
     "sodium": 471,
     "coverage": 100
   }

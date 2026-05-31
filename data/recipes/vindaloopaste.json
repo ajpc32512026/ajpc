@@ -33,7 +33,7 @@
     {
       "quantity": "10",
       "unit": "",
-      "item": "Dried Red Chilies"
+      "item": "Dried Red Chillies"
     },
     {
       "quantity": "5",
@@ -79,7 +79,7 @@
   "method": [
     {
       "step": 1,
-      "instruction": "Dry roast the dried chilies, coriander seeds, cumin seeds, fenugreek seeds, cardamom pods, cloves, cinnamon stick, and black peppercorns over low heat until aromatic, about 2 minutes."
+      "instruction": "Dry roast the dried chillies, coriander seeds, cumin seeds, fenugreek seeds, cardamom pods, cloves, cinnamon stick, and black peppercorns over low heat until aromatic, about 2 minutes."
     },
     {
       "step": 2,
@@ -137,7 +137,7 @@
     "sugars": 178,
     "fat": 138,
     "saturated_fat": 51,
-    "fiber": 521,
+    "fibre": 521,
     "sodium": 1908,
     "coverage": 100,
     "calcium_mg": 6489,

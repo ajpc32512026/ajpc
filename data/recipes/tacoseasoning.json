@@ -38,7 +38,7 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Red Chili Powder"
+      "item": "Red Chilli Powder"
     },
     {
       "quantity": "5",
@@ -92,12 +92,12 @@
     {
       "type": "technique",
       "title": "Old El Paso Comparison",
-      "content": "The commercial packet uses corn starch, chili pepper, maltodextrin, salt, spice, and onion powder. This blend delivers the same flavour with proper depth from fresh ground cumin and real paprika. The plain flour acts as the thickener."
+      "content": "The commercial packet uses corn starch, chilli pepper, maltodextrin, salt, spice, and onion powder. This blend delivers the same flavour with proper depth from fresh ground cumin and real paprika. The plain flour acts as the thickener."
     },
     {
       "type": "variation",
       "title": "Heat Level",
-      "content": "1 tsp chili powder gives mild-medium heat matching the standard packet. Reduce to 1/2 tsp for mild, increase to 1 1/2 to 2 tsp for hot. A pinch of cayenne adds extra kick."
+      "content": "1 tsp chilli powder gives mild-medium heat matching the standard packet. Reduce to 1/2 tsp for mild, increase to 1 1/2 to 2 tsp for hot. A pinch of cayenne adds extra kick."
     },
     {
       "type": "variation",
@@ -116,12 +116,12 @@
       "title": "Seasoned Beef Mince — Nachos & Tacos"
     },
     {
-      "id": "chiligarlicopil",
-      "title": "Chili Garlic Oil"
+      "id": "chilligarlicoil",
+      "title": "Chilli Garlic Oil"
     },
     {
-      "id": "sweetchilisauce",
-      "title": "Sweet Chili Sauce"
+      "id": "sweetchillisauce",
+      "title": "Sweet Chilli Sauce"
     },
     {
       "id": "mongoliansauce",
@@ -138,7 +138,7 @@
     "protein": 4,
     "carbs": 22,
     "fat": 3,
-    "fiber": 8,
+    "fibre": 8,
     "sodium": 1960,
     "coverage": 100
   }

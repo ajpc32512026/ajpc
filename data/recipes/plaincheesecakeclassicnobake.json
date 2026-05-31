@@ -53,7 +53,7 @@
       "quantity": "10",
       "unit": "g",
       "item": "Gelatine",
-      "notes": "see geletine booming guide in reference tab"
+      "notes": "see gelatine booming guide in reference tab"
     }
   ],
   "method": [
@@ -122,7 +122,7 @@
     "protein": 9,
     "carbs": 38,
     "fat": 34,
-    "fiber": 0,
+    "fibre": 0,
     "sodium": 304,
     "coverage": 100
   }

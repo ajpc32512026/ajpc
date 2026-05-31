@@ -33,8 +33,7 @@
     {
       "quantity": "250",
       "unit": "ml",
-      "item": "Heavy Cream",
-      "notes": "thickened cream"
+      "item": "Thickened Cream"
     },
     {
       "quantity": "100",
@@ -43,16 +42,9 @@
       "notes": "freshly grated"
     },
     {
-      "quantity": "2.5",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "or to taste"
-    },
-    {
-      "quantity": "0.5",
-      "unit": "g",
-      "item": "Black Pepper",
-      "notes": "freshly ground"
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
   "method": [
@@ -133,7 +125,7 @@
       ]
     },
     {
-      "id": "arrabbiatazauce",
+      "id": "arrabbiatasauce",
       "title": "Arrabbiata Sauce",
       "matchingTags": [
         "Italian",
@@ -162,24 +154,24 @@
   ],
   "nutrition": {
     "servings": 4,
-    "cal": 434,
-    "kj": 1815,
+    "cal": 432,
+    "kj": 1809,
     "protein": 9,
     "carbs": 7,
     "sugars": 3,
     "fat": 39,
     "saturated_fat": 26,
-    "fiber": 9,
-    "sodium": 430,
-    "coverage": 100,
-    "calcium_mg": 203,
+    "fiber": 8,
+    "sodium": 377,
+    "coverage": 80,
+    "calcium_mg": 201,
     "iron_mg": 1,
-    "potassium_mg": 347,
-    "magnesium_mg": 24,
+    "potassium_mg": 341,
+    "magnesium_mg": 23,
     "zinc_mg": 1,
     "cholesterol_mg": 105,
     "vitamin_a_ug": 362,
     "vitamin_c_mg": 6
   },
-  "lastModified": "2026-05-26"
+  "lastModified": "2026-05-31"
 }

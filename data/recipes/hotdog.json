@@ -3,7 +3,7 @@
   "title": "Wendy's-Style Hot Dog Buns",
   "emoji": "🌭",
   "category": "Baking",
-  "description": "Soft, golden buns made for loading up with your favourite hot dogs — eight generously sized rolls.",
+  "description": "Soft, golden buns made for loading up with your favourite hot dogs — eight generously sised rolls.",
   "prepTime": "25 min",
   "cookTime": "18 min",
   "totalTime": "2 hr 28 min",
@@ -66,7 +66,7 @@
     },
     {
       "step": 4,
-      "instruction": "Place dough in a lightly oiled bowl, cover with a damp tea towel, and let rise in a warm place for approximately 1 hour until doubled in size."
+      "instruction": "Place dough in a lightly oiled bowl, cover with a damp tea towel, and let rise in a warm place for approximately 1 hour until doubled in sise."
     },
     {
       "step": 5,
@@ -129,7 +129,7 @@
     "protein": 11,
     "carbs": 61,
     "fat": 8,
-    "fiber": 2,
+    "fibre": 2,
     "sodium": 507,
     "coverage": 100
   }

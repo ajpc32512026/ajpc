@@ -65,7 +65,7 @@
     },
     {
       "step": 2,
-      "instruction": "Add cold butter cubes and lightly rub them into the flour, leaving visible pea-sized pieces. Do not overwork – the chunks of butter create the flaky layers."
+      "instruction": "Add cold butter cubes and lightly rub them into the flour, leaving visible pea-sised pieces. Do not overwork – the chunks of butter create the flaky layers."
     },
     {
       "step": 3,
@@ -172,7 +172,7 @@
     "sugars": 14,
     "fat": 335,
     "saturated_fat": 229,
-    "fiber": 11,
+    "fibre": 11,
     "sodium": 475,
     "coverage": 75,
     "calcium_mg": 180,

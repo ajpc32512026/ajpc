@@ -70,7 +70,7 @@
     },
     {
       "step": 4,
-      "instruction": "Place dough in a lightly oiled bowl, cover with a damp tea towel, and let rise in a warm place for 1–1½ hours or until doubled in size."
+      "instruction": "Place dough in a lightly oiled bowl, cover with a damp tea towel, and let rise in a warm place for 1–1½ hours or until doubled in sise."
     },
     {
       "step": 5,
@@ -109,7 +109,7 @@
     {
       "type": "technique",
       "title": "Perfect Shape",
-      "content": "For uniform buns, weigh each dough portion to ensure they are all the same size — approximately 105–110 g each."
+      "content": "For uniform buns, weigh each dough portion to ensure they are all the same sise — approximately 105–110 g each."
     },
     {
       "type": "storage",
@@ -150,7 +150,7 @@
     "protein": 9,
     "carbs": 51,
     "fat": 8,
-    "fiber": 2,
+    "fibre": 2,
     "sodium": 358,
     "coverage": 100
   }

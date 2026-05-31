@@ -128,7 +128,7 @@
     },
     {
       "step": 5,
-      "instruction": "Place dough in a lightly greased bowl, cover with a damp tea towel, and let rise in a warm place for 1–1½ hours or until doubled in size."
+      "instruction": "Place dough in a lightly greased bowl, cover with a damp tea towel, and let rise in a warm place for 1–1½ hours or until doubled in sise."
     },
     {
       "step": 6,
@@ -207,7 +207,7 @@
     "protein": 5,
     "carbs": 42,
     "fat": 7,
-    "fiber": 1,
+    "fibre": 1,
     "sodium": 128,
     "coverage": 100
   }

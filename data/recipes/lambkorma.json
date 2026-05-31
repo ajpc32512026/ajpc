@@ -3,7 +3,7 @@
   "title": "Lamb Korma",
   "emoji": "🍛",
   "category": "Dinner",
-  "description": "A rich, fragrant lamb curry in a silky yogurt-based sauce — deeply spiced and full of flavour.",
+  "description": "A rich, fragrant lamb curry in a silky yoghurt-based sauce — deeply spiced and full of flavour.",
   "prepTime": "15 min",
   "cookTime": "40 min",
   "totalTime": "55 min",
@@ -60,7 +60,7 @@
     {
       "quantity": "1",
       "unit": "",
-      "item": "Dried Red Chili"
+      "item": "Dried Red Chilli"
     },
     {
       "quantity": "5",
@@ -81,7 +81,7 @@
     {
       "quantity": "8",
       "unit": "g",
-      "item": "Red Chili Powder"
+      "item": "Red Chilli Powder"
     },
     {
       "quantity": "3",
@@ -91,7 +91,7 @@
     {
       "quantity": "60",
       "unit": "g",
-      "item": "Greek Yogurt"
+      "item": "Greek Yoghurt"
     },
     {
       "quantity": "60",
@@ -116,11 +116,11 @@
     },
     {
       "step": 3,
-      "instruction": "Add bay leaves, cinnamon stick, and dried red chili. Stir briefly."
+      "instruction": "Add bay leaves, cinnamon stick, and dried red chilli. Stir briefly."
     },
     {
       "step": 4,
-      "instruction": "Add ground cumin, nutmeg, garam masala, and red chili powder. Fry for 30 seconds to release the aromas."
+      "instruction": "Add ground cumin, nutmeg, garam masala, and red chilli powder. Fry for 30 seconds to release the aromas."
     },
     {
       "step": 5,
@@ -128,7 +128,7 @@
     },
     {
       "step": 6,
-      "instruction": "Mix yogurt with water until smooth, then add to the curry. Stir well. Season with black pepper and salt."
+      "instruction": "Mix yoghurt with water until smooth, then add to the curry. Stir well. Season with black pepper and salt."
     },
     {
       "step": 7,
@@ -142,8 +142,8 @@
   "notes": [
     {
       "type": "technique",
-      "title": "Yogurt Tip",
-      "content": "Mix the yogurt with water before adding to the pan — this prevents it from splitting when it hits the hot curry. Use room temperature yogurt for the same reason."
+      "title": "Yoghurt Tip",
+      "content": "Mix the yoghurt with water before adding to the pan — this prevents it from splitting when it hits the hot curry. Use room temperature yoghurt for the same reason."
     },
     {
       "type": "acknowledgement",
@@ -179,7 +179,7 @@
     "protein": 28,
     "carbs": 92,
     "fat": 35,
-    "fiber": 30,
+    "fibre": 30,
     "sodium": 577,
     "coverage": 100
   }

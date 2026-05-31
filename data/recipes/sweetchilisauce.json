@@ -1,6 +1,6 @@
 {
-  "id": "sweetchilisauce",
-  "title": "Sweet Chili Sauce",
+  "id": "sweetchillisauce",
+  "title": "Sweet Chilli Sauce",
   "emoji": "🌶️",
   "category": "Sauces",
   "description": "A Thai-inspired sweet and spicy sauce — sticky, tangy, and addictive. Perfect as a dip or glaze.",
@@ -37,7 +37,7 @@
     {
       "quantity": "30",
       "unit": "ml",
-      "item": "Chili Garlic Sauce"
+      "item": "Chilli Garlic Sauce"
     },
     {
       "quantity": "10",
@@ -54,7 +54,7 @@
   "method": [
     {
       "step": 1,
-      "instruction": "In a small saucepan, combine water, vinegar, sugar, chili garlic sauce, and minced garlic."
+      "instruction": "In a small saucepan, combine water, vinegar, sugar, chilli garlic sauce, and minced garlic."
     },
     {
       "step": 2,
@@ -82,8 +82,8 @@
   ],
   "related": [
     {
-      "id": "chiligarlicopil",
-      "title": "Chili Garlic Oil"
+      "id": "chilligarlicoil",
+      "title": "Chilli Garlic Oil"
     },
     {
       "id": "teriyakisauce",
@@ -108,7 +108,7 @@
     "protein": 5,
     "carbs": 41,
     "fat": 0,
-    "fiber": 2,
+    "fibre": 2,
     "sodium": 109,
     "coverage": 100
   }

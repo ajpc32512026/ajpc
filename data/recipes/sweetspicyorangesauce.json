@@ -41,7 +41,7 @@
     {
       "quantity": "15",
       "unit": "ml",
-      "item": "Chili Garlic Sauce"
+      "item": "Chilli Garlic Sauce"
     },
     {
       "quantity": "5",
@@ -52,7 +52,7 @@
   "method": [
     {
       "step": 1,
-      "instruction": "Combine orange juice, honey, soy sauce, vinegar, chili garlic sauce, and orange zest in a small saucepan."
+      "instruction": "Combine orange juice, honey, soy sauce, vinegar, chilli garlic sauce, and orange zest in a small saucepan."
     },
     {
       "step": 2,
@@ -76,13 +76,13 @@
     {
       "type": "variation",
       "title": "Heat Level",
-      "content": "Adjust the chili garlic sauce to taste. For milder heat, use half the amount. For extra fire, add a pinch of red chili flakes."
+      "content": "Adjust the chilli garlic sauce to taste. For milder heat, use half the amount. For extra fire, add a pinch of red chilli flakes."
     }
   ],
   "related": [
     {
-      "id": "sweetchilisauce",
-      "title": "Sweet Chili Sauce"
+      "id": "sweetchillisauce",
+      "title": "Sweet Chilli Sauce"
     },
     {
       "id": "teriyakisauce",
@@ -97,8 +97,8 @@
       "title": "Sweet & Sour Sauce – Quick Takeout Style"
     },
     {
-      "id": "chiligarlicopil",
-      "title": "Chili Garlic Oil"
+      "id": "chilligarlicoil",
+      "title": "Chilli Garlic Oil"
     }
   ],
   "nutrition": {
@@ -107,7 +107,7 @@
     "protein": 1,
     "carbs": 19,
     "fat": 0,
-    "fiber": 0,
+    "fibre": 0,
     "sodium": 500,
     "coverage": 100
   }

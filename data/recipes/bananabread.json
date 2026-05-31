@@ -113,46 +113,91 @@
   "related": [
     {
       "id": "classiccarrotcake",
-      "title": "Classic Carrot Cake"
+      "title": "Classic Carrot Cake",
+      "matchingTags": [
+        "Baked",
+        "Classic",
+        "Creamy",
+        "Party",
+        "Sweet",
+        "Vegetarian",
+        "Carrot"
+      ]
     },
     {
       "id": "blueberrymuffins",
-      "title": "Heavenly Blueberry Muffins"
+      "title": "Heavenly Blueberry Muffins",
+      "matchingTags": [
+        "Baked",
+        "Breakfast",
+        "Sweet",
+        "Under 1 Hour",
+        "Vegetarian"
+      ]
     },
     {
       "id": "chocmuffins",
-      "title": "Chocolate Muffins with Ganache"
+      "title": "Chocolate Muffins with Ganache",
+      "matchingTags": [
+        "Baked",
+        "Chocolate",
+        "Rich",
+        "Sweet",
+        "Under 1 Hour",
+        "Vegetarian"
+      ]
     },
     {
       "id": "applecinnscrolls",
-      "title": "Apple & Cinnamon Scrolls"
+      "title": "Apple & Cinnamon Scrolls",
+      "matchingTags": [
+        "Apple",
+        "Bread",
+        "Breakfast",
+        "Cinnamon",
+        "Creamy",
+        "Rich",
+        "Sweet",
+        "Under 1 Hour",
+        "Vegetarian"
+      ]
     },
     {
       "id": "apricotflan",
-      "title": "Apricot Flan"
+      "title": "Apricot Flan",
+      "matchingTags": [
+        "Alcohol",
+        "Brandy",
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Pastry",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
     }
   ],
   "nutrition": {
     "servings": 9,
-    "cal": 436,
-    "kj": 1822,
+    "cal": 294,
+    "kj": 1229,
     "protein": 5,
-    "carbs": 49,
-    "sugars": 29,
-    "fat": 24,
-    "saturated_fat": 15,
-    "fiber": 3,
-    "sodium": 185,
+    "carbs": 40,
+    "sugars": 21,
+    "fat": 13,
+    "saturated_fat": 6,
+    "fiber": 2,
+    "sodium": 216,
     "coverage": 100,
-    "calcium_mg": 48,
+    "calcium_mg": 44,
     "iron_mg": 1,
-    "potassium_mg": 312,
-    "magnesium_mg": 48,
+    "potassium_mg": 251,
+    "magnesium_mg": 32,
     "zinc_mg": 1,
-    "cholesterol_mg": 69,
+    "cholesterol_mg": 56,
     "vitamin_a_ug": 94,
-    "vitamin_c_mg": 2,
-    "vitamin_d_ug": 1
+    "vitamin_c_mg": 3
   },
-  "lastModified": "2026-05-23"
+  "lastModified": "2026-05-31"
 }

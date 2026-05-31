@@ -52,7 +52,7 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Red Chili Powder"
+      "item": "Red Chilli Powder"
     },
     {
       "quantity": "250",
@@ -107,7 +107,7 @@
     },
     {
       "step": 4,
-      "instruction": "Add turmeric, chili powder, chopped tomatoes, tomato paste, and white vinegar. Cook 2–3 minutes until tomatoes break down."
+      "instruction": "Add turmeric, chilli powder, chopped tomatoes, tomato paste, and white vinegar. Cook 2–3 minutes until tomatoes break down."
     },
     {
       "step": 5,
@@ -217,25 +217,25 @@
   ],
   "nutrition": {
     "servings": 4,
-    "cal": 641,
-    "kj": 2682,
-    "protein": 26,
-    "carbs": 80,
-    "sugars": 19,
+    "cal": 617,
+    "kj": 2580,
+    "protein": 25,
+    "carbs": 77,
+    "sugars": 15,
     "fat": 19,
     "saturated_fat": 3,
-    "fiber": 21,
-    "sodium": 341,
+    "fiber": 20,
+    "sodium": 333,
     "coverage": 92,
-    "calcium_mg": 112,
-    "iron_mg": 7,
-    "potassium_mg": 1359,
-    "magnesium_mg": 90,
-    "zinc_mg": 5,
+    "calcium_mg": 77,
+    "iron_mg": 4,
+    "potassium_mg": 1166,
+    "magnesium_mg": 77,
+    "zinc_mg": 4,
     "cholesterol_mg": 33,
-    "vitamin_a_ug": 63,
-    "vitamin_c_mg": 32,
+    "vitamin_a_ug": 85,
+    "vitamin_c_mg": 34,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-05-25"
+  "lastModified": "2026-05-31"
 }

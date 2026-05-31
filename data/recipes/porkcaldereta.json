@@ -114,7 +114,7 @@
     {
       "quantity": "2",
       "unit": "",
-      "item": "Red Chili",
+      "item": "Red Chilli",
       "notes": "Thai, optional"
     },
     {
@@ -148,7 +148,7 @@
     },
     {
       "step": 4,
-      "instruction": "Stir in liver spread until fully incorporated. If using chili peppers, add them now."
+      "instruction": "Stir in liver spread until fully incorporated. If using chilli peppers, add them now."
     },
     {
       "step": 5,
@@ -213,7 +213,7 @@
     "protein": 58,
     "carbs": 48,
     "fat": 33,
-    "fiber": 5,
+    "fibre": 5,
     "sodium": 4229,
     "coverage": 100
   }

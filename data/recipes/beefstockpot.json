@@ -165,46 +165,98 @@
   "related": [
     {
       "id": "beefstroganoff",
-      "title": "Beef Stroganoff"
+      "title": "Beef Stroganoff",
+      "matchingTags": [
+        "Beef",
+        "Creamy",
+        "Dinner",
+        "Rich",
+        "Russian",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     },
     {
       "id": "beefvindaloo",
-      "title": "Beef Vindaloo"
+      "title": "Beef Vindaloo",
+      "matchingTags": [
+        "Beef",
+        "Curry",
+        "Dinner",
+        "Indian",
+        "Make Ahead",
+        "Rich",
+        "Savoury",
+        "Slow-Cooked",
+        "Spicy"
+      ]
     },
     {
       "id": "mongolianbeef",
-      "title": "Mongolian Beef"
+      "title": "Mongolian Beef",
+      "matchingTags": [
+        "Alcohol",
+        "Beef",
+        "Chinese",
+        "Dinner",
+        "Savoury",
+        "Stir-Fried",
+        "Sweet"
+      ]
     },
     {
       "id": "beefstockpot",
-      "title": "Beef Stock Pot"
+      "title": "Beef Stock Pot",
+      "matchingTags": [
+        "Alcohol",
+        "Beef",
+        "Dinner",
+        "French",
+        "Hearty",
+        "Rich",
+        "Sauce",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     },
     {
       "id": "bistro-chickenpicante",
-      "title": "Chicken Picante"
+      "title": "Chicken Picante",
+      "matchingTags": [
+        "Alcohol",
+        "Chicken",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "French",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     }
   ],
   "nutrition": {
     "servings": 4,
-    "cal": 984,
-    "kj": 4119,
+    "cal": 982,
+    "kj": 4108,
     "protein": 32,
     "carbs": 101,
     "sugars": 24,
     "fat": 28,
     "saturated_fat": 13,
     "fiber": 58,
-    "sodium": 923,
+    "sodium": 1303,
     "coverage": 100,
-    "calcium_mg": 1845,
+    "calcium_mg": 1843,
     "iron_mg": 84,
-    "potassium_mg": 2374,
-    "magnesium_mg": 326,
+    "potassium_mg": 2367,
+    "magnesium_mg": 325,
     "zinc_mg": 8,
     "cholesterol_mg": 51,
     "vitamin_a_ug": 868,
     "vitamin_c_mg": 48,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-05-23"
+  "lastModified": "2026-05-31"
 }

@@ -31,7 +31,7 @@
     {
       "quantity": "2",
       "unit": "g",
-      "item": "Red Chili Powder"
+      "item": "Red Chilli Powder"
     },
     {
       "quantity": "3",
@@ -92,7 +92,7 @@
   "method": [
     {
       "step": 1,
-      "instruction": "Mix paprika, chili powder, garlic powder, onion powder, oregano, and thyme into a Creole spice blend."
+      "instruction": "Mix paprika, chilli powder, garlic powder, onion powder, oregano, and thyme into a Creole spice blend."
     },
     {
       "step": 2,
@@ -157,7 +157,7 @@
     "sugars": 9,
     "fat": 28,
     "saturated_fat": 18,
-    "fiber": 8,
+    "fibre": 8,
     "sodium": 122,
     "coverage": 91,
     "calcium_mg": 122,

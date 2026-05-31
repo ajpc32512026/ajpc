@@ -1,7 +1,9 @@
 /* =========================================================
    FEATURED RECIPES ROTATOR — AJPC Kitchen Notebook
    Loads from recipe-index.json, rotates weekly.
-   Fixed: no hardcoded list, reads live index.
+   Display order:
+     Row 1: Dinner | Dessert | Baking
+     Row 2: Dinner | Dessert | Sauce
 ========================================================= */
 
 (function () {
@@ -24,55 +26,50 @@
             if (!res.ok) throw new Error('Could not load recipe index');
             const all = await res.json();
 
-            // Prioritize categories for balanced display
-            const priorityCategories = ['Dinner', 'Desserts', 'Breads', 'Sauces'];
             const categorized = {};
-
-            // Group by category
             all.forEach(recipe => {
                 const cat = recipe.category || 'Other';
                 if (!categorized[cat]) categorized[cat] = [];
                 categorized[cat].push(recipe);
             });
 
-            // Pick recipes from priority categories first
-            const featured = [];
-            const targets = [
-                { category: 'Dinner', count: 2 },
-                { category: 'Desserts', count: 2 },
-                { category: 'Breads', count: 1 },
-                { category: 'Sauces', count: 1 }
-            ];
-
-            // Use weekly seed for consistent rotation within each category
             const week = Math.floor(Date.now() / (7 * 24 * 60 * 60 * 1000));
 
-            targets.forEach(target => {
-                const categoryRecipes = categorized[target.category] || [];
-                if (categoryRecipes.length > 0) {
-                    // Seed shuffle within category
-                    const shuffled = [...categoryRecipes];
-                    for (let i = shuffled.length - 1; i > 0; i--) {
-                        const j = (week + i) % (i + 1);
-                        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-                    }
-                    const selected = shuffled.slice(0, target.count);
-                    featured.push(...selected);
+            function getRecipes(category, count) {
+                const recipes = categorized[category] || [];
+                if (recipes.length === 0) return [];
+                const shuffled = [...recipes];
+                for (let i = shuffled.length - 1; i > 0; i--) {
+                    const j = (week + i) % (i + 1);
+                    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
                 }
-            });
-
-            // If we don't have enough, fill with random from all recipes
-            if (featured.length < 6) {
-                const remaining = all.filter(r => !featured.includes(r));
-                const seed = week;
-                for (let i = remaining.length - 1; i > 0; i--) {
-                    const j = (seed + i) % (i + 1);
-                    [remaining[i], remaining[j]] = [remaining[j], remaining[i]];
-                }
-                featured.push(...remaining.slice(0, 6 - featured.length));
+                return shuffled.slice(0, count);
             }
 
-            grid.innerHTML = featured.map(r => renderCard(r)).join('');
+            const featured = [
+                ...getRecipes('Dinner', 1),
+                ...getRecipes('Desserts', 1),
+                ...getRecipes('Baking', 1),
+                ...getRecipes('Dinner', 1),
+                ...getRecipes('Desserts', 1),
+                ...getRecipes('Sauces', 1)
+            ];
+
+            const validFeatured = featured.filter(r => r && r.id);
+
+            if (validFeatured.length < 6) {
+                const allRecipes = [...all];
+                for (let i = allRecipes.length - 1; i > 0; i--) {
+                    const j = (week + i) % (i + 1);
+                    [allRecipes[i], allRecipes[j]] = [allRecipes[j], allRecipes[i]];
+                }
+                while (validFeatured.length < 6) {
+                    validFeatured.push(allRecipes[validFeatured.length % allRecipes.length]);
+                }
+            }
+
+            grid.innerHTML = validFeatured.map(r => renderCard(r)).join('');
+            
         } catch (err) {
             console.warn('[featured-rotator]', err);
             grid.innerHTML = '<p style="color:var(--cream-muted);text-align:center;grid-column:1/-1;">Featured recipes unavailable.</p>';
@@ -80,10 +77,12 @@
     }
 
     function renderCard(recipe) {
+        const recipeTitle = recipe.name || recipe.title || 'Untitled';
+        
         return `
             <a href="recipe.html?id=${recipe.id}" class="recipe-card">
                 <div class="recipe-card-tag">${recipe.category || 'Recipe'}</div>
-                <h3>${recipe.emoji ? recipe.emoji + ' ' : ''}${escapeHtml(recipe.title)}</h3>
+                <h3>${recipe.emoji ? recipe.emoji + ' ' : ''}${escapeHtml(recipeTitle)}</h3>
                 <p>${recipe.description ? escapeHtml(recipe.description.substring(0, 100)) + '...' : ''}</p>
                 <span class="recipe-card-arrow">Read more →</span>
             </a>

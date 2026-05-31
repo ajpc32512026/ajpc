@@ -31,15 +31,15 @@
       "item": "Olive Oil"
     },
     {
-      "quantity": "4",
-      "unit": "",
+      "quantity": "20",
+      "unit": "g",
       "item": "Garlic Cloves",
-      "notes": "crushed"
+      "notes": "approx. 4 crushed"
     },
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Red Chili Flakes"
+      "item": "Red Chilli Flakes"
     },
     {
       "quantity": "1",
@@ -47,15 +47,9 @@
       "item": "Brown Onion"
     },
     {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
-    },
-    {
-      "quantity": "2",
-      "unit": "g",
-      "item": "Black Pepper"
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
   "method": [
@@ -69,7 +63,7 @@
     },
     {
       "step": 3,
-      "instruction": "Add garlic and red chili, cook for 1 minute until fragrant."
+      "instruction": "Add garlic and red chilli, cook for 1 minute until fragrant."
     },
     {
       "step": 4,
@@ -92,50 +86,92 @@
     {
       "type": "serving",
       "title": "Serving Tip",
-      "content": "Perfect with penne pasta. Adjust chili flakes to control the heat level. Pairs beautifully with a glass of red wine."
+      "content": "Perfect with penne pasta. Adjust chilli flakes to control the heat level. Pairs beautifully with a glass of red wine."
     }
   ],
   "related": [
     {
       "id": "marinarasauce",
-      "title": "Marinara Sauce"
+      "title": "Marinara Sauce",
+      "matchingTags": [
+        "Classic",
+        "Italian",
+        "Sauce",
+        "Tomato",
+        "Under 30 Minutes",
+        "Vegan",
+        "Vegetarian"
+      ]
     },
     {
       "id": "redsauce",
-      "title": "Red Sauce"
+      "title": "Red Sauce",
+      "matchingTags": [
+        "Classic",
+        "Italian",
+        "Sauce",
+        "Tomato",
+        "Under 30 Minutes",
+        "Vegan",
+        "Vegetarian"
+      ]
     },
     {
       "id": "alfredosauce",
-      "title": "Alfredo Sauce"
+      "title": "Alfredo Sauce",
+      "matchingTags": [
+        "Cheese",
+        "Creamy",
+        "Italian",
+        "Rich",
+        "Sauce",
+        "Under 30 Minutes",
+        "Vegetarian"
+      ]
     },
     {
       "id": "pestosauce",
-      "title": "Pesto Sauce"
+      "title": "Pesto Sauce",
+      "matchingTags": [
+        "Italian",
+        "Sauce",
+        "Under 30 Minutes",
+        "Vegetarian",
+        "No Cook",
+        "Basil"
+      ]
     },
     {
       "id": "sweetspicyorangesauce",
-      "title": "Sweet & Spicy Orange Sauce"
+      "title": "Sweet & Spicy Orange Sauce",
+      "matchingTags": [
+        "Orange",
+        "Sauce",
+        "Spicy",
+        "Sweet",
+        "Under 30 Minutes",
+        "Vegan"
+      ]
     }
   ],
   "nutrition": {
     "servings": 4,
-    "cal": 280,
-    "kj": 1173,
-    "protein": 10,
-    "carbs": 23,
-    "sugars": 14,
-    "fat": 12,
-    "saturated_fat": 2,
-    "fiber": 22,
-    "sodium": 140,
-    "coverage": 100,
-    "calcium_mg": 123,
-    "iron_mg": 7,
-    "potassium_mg": 1247,
-    "magnesium_mg": 71,
-    "zinc_mg": 2,
-    "vitamin_a_ug": 7,
-    "vitamin_c_mg": 24
+    "cal": 107,
+    "kj": 447,
+    "protein": 2,
+    "carbs": 7,
+    "sugars": 5,
+    "fat": 8,
+    "saturated_fat": 1,
+    "fiber": 3,
+    "sodium": 10,
+    "coverage": 83,
+    "calcium_mg": 23,
+    "iron_mg": 1,
+    "potassium_mg": 391,
+    "magnesium_mg": 20,
+    "vitamin_a_ug": 86,
+    "vitamin_c_mg": 20
   },
-  "lastModified": "2026-05-23"
+  "lastModified": "2026-05-31"
 }

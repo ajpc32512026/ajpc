@@ -33,7 +33,7 @@
     {
       "quantity": "1",
       "unit": "",
-      "item": "Red Chili",
+      "item": "Red Chilli",
       "notes": "sliced, adjust to taste"
     },
     {
@@ -78,7 +78,7 @@
     },
     {
       "step": 4,
-      "instruction": "For the sauce: in a small saucepan, combine plum jam, chili, garlic, soy sauce, and white wine over medium heat. Stir until the jam melts and the mixture is smooth."
+      "instruction": "For the sauce: in a small saucepan, combine plum jam, chilli, garlic, soy sauce, and white wine over medium heat. Stir until the jam melts and the mixture is smooth."
     },
     {
       "step": 5,
@@ -93,7 +93,7 @@
     {
       "type": "technique",
       "title": "Plum Sauce",
-      "content": "The sauce is made from plum jam melted with soy, garlic, chili, wine and demi glace — not a commercial plum sauce. The heat level is adjustable: one chili gives a gentle warmth that balances the sweet plum without overpowering the lamb."
+      "content": "The sauce is made from plum jam melted with soy, garlic, chilli, wine and demi glace — not a commercial plum sauce. The heat level is adjustable: one chilli gives a gentle warmth that balances the sweet plum without overpowering the lamb."
     },
     {
       "type": "technique",
@@ -132,7 +132,7 @@
     "sugars": 53,
     "fat": 19,
     "saturated_fat": 6,
-    "fiber": 77,
+    "fibre": 77,
     "sodium": 752,
     "coverage": 88,
     "calcium_mg": 150,

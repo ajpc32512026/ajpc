@@ -1,6 +1,6 @@
 {
-  "id": "chiligarlicoil",
-  "title": "Chili Garlic Oil",
+  "id": "chilligarlicoil",
+  "title": "Chilli Garlic Oil",
   "emoji": "🧄",
   "category": "Sauces",
   "description": "A fragrant Asian condiment — fiery, aromatic, and incredibly versatile. Elevates everything it touches.",
@@ -27,7 +27,7 @@
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Red Chili Flakes"
+      "item": "Red Chilli Flakes"
     },
     {
       "quantity": "1",
@@ -62,7 +62,7 @@
     },
     {
       "step": 3,
-      "instruction": "Add chili flakes, salt, soy sauce, and sugar. Stir for 1–2 minutes until fragrant."
+      "instruction": "Add chilli flakes, salt, soy sauce, and sugar. Stir for 1–2 minutes until fragrant."
     },
     {
       "step": 4,
@@ -91,8 +91,8 @@
       "title": "Honey Garlic Sauce"
     },
     {
-      "id": "sweetchilisauce",
-      "title": "Sweet Chili Sauce"
+      "id": "sweetchillisauce",
+      "title": "Sweet Chilli Sauce"
     },
     {
       "id": "teriyakisauce",
@@ -113,7 +113,7 @@
     "protein": 1,
     "carbs": 5,
     "fat": 31,
-    "fiber": 0,
+    "fibre": 0,
     "sodium": 352,
     "coverage": 100
   }

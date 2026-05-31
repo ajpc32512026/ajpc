@@ -95,8 +95,8 @@
       "title": "Honey Garlic Sauce"
     },
     {
-      "id": "sweetchilisauce",
-      "title": "Sweet Chili Sauce"
+      "id": "sweetchillisauce",
+      "title": "Sweet Chilli Sauce"
     }
   ],
   "nutrition": {
@@ -105,7 +105,7 @@
     "protein": 19,
     "carbs": 18,
     "fat": 46,
-    "fiber": 6,
+    "fibre": 6,
     "sodium": 1134,
     "coverage": 100
   }

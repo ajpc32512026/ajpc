@@ -77,7 +77,7 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Red Chili Powder"
+      "item": "Red Chilli Powder"
     },
     {
       "heading": "Curry Base"
@@ -124,7 +124,7 @@
     {
       "quantity": "120",
       "unit": "g",
-      "item": "Greek Yogurt"
+      "item": "Greek Yoghurt"
     },
     {
       "quantity": "250",
@@ -159,7 +159,7 @@
     },
     {
       "step": 4,
-      "instruction": "Combine the fennel-cumin mix with coriander, turmeric, garam masala, paprika, and red chili powder in a small bowl. Set aside."
+      "instruction": "Combine the fennel-cumin mix with coriander, turmeric, garam masala, paprika, and red chilli powder in a small bowl. Set aside."
     },
     {
       "step": 5,
@@ -175,7 +175,7 @@
     },
     {
       "step": 8,
-      "instruction": "Add lamb and season with salt. Cook for 10 minutes, stirring occasionally. Stir in yogurt. Pour in hot water and bring to a boil."
+      "instruction": "Add lamb and season with salt. Cook for 10 minutes, stirring occasionally. Stir in yoghurt. Pour in hot water and bring to a boil."
     },
     {
       "step": 9,
@@ -226,7 +226,7 @@
     "protein": 65,
     "carbs": 240,
     "fat": 79,
-    "fiber": 91,
+    "fibre": 91,
     "sodium": 1024,
     "coverage": 100
   }

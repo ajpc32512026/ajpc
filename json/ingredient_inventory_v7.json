@@ -184,16 +184,12 @@
     ]
   },
   "Arnott’s Butternut Cookies": {
-    "category": "Baking",
     "aka": [
       "Butternut Snap Cookies",
       "Arnott’s Butternut Biscuits"
     ],
+    "category": "Baking",
     "notes": "Classic Australian crisp biscuit made from wheat flour, sugar, butter or vegetable fats, and cocoa, with a mild vanilla and chocolate flavour profile. Thin, dry, and snappy in texture, designed to soften slightly when paired with liquids. Commonly eaten plain or with tea and coffee. Frequently crushed and combined with melted butter to form biscuit bases for cheesecakes, slices, and dessert tarts due to its balanced sweetness and firm structure. Stores well in airtight packaging; absorbs moisture easily once opened.",
-    "purpose": "Provides sweetness, crunch, and structure; functions as a standalone snack, dessert base component, or textural contrast in layered desserts.",
-    "usedIn": [
-      "plaincheesecakeclassicnobake"
-    ],
     "nutrition": {
       "calories": "480 per 100 g",
       "carbohydrates": "70 g",
@@ -201,7 +197,11 @@
       "fiber": "2 g",
       "protein": "6 g",
       "vitamins_minerals": "Small amounts of iron and calcium; high in refined carbohydrates and added sugars"
-    }
+    },
+    "purpose": "Provides sweetness, crunch, and structure; functions as a standalone snack, dessert base component, or textural contrast in layered desserts.",
+    "usedIn": [
+      "plaincheesecakeclassicnobake"
+    ]
   },
   "Arnott’s Nice Biscuits": {
     "aka": [
@@ -2717,12 +2717,20 @@
     "usedIn": []
   },
   "Lamb": {
-    "category": "Meat",
     "aka": [
       "Lamb Meat",
       "Mutton (older sheep)"
     ],
+    "category": "Meat",
     "notes": "Use cuts suitable for slow cooking to achieve tenderness and enhance flavor. Popular cuts include shoulder, shank, neck, and leg. - ** Can be marinated to enhance flavor. - **Pairings:** Complements garlic, rosemary, thyme, cumin, coriander, yogurt, and root vegetables. - ** Keep in airtight packaging to prevent freezer burn. - **Substitutions:** Beef or goat can be used in place of lamb, though flavor and tenderness differ.",
+    "nutrition": {
+      "calories": "294 per 100 g",
+      "carbohydrates": "0 g",
+      "fat": "21 g",
+      "fiber": "0 g",
+      "protein": "25 g",
+      "vitamins_minerals": "Good source of vitamin B12, zinc, iron, and selenium."
+    },
     "purpose": "Adds rich, gamey flavor, moisture, and protein to curries, stews, and slow-cooked dishes.",
     "usedIn": [
       "bistro-lambcutlets",
@@ -2731,15 +2739,7 @@
       "lambvindaloo",
       "mongolianlamb",
       "roganjosh"
-    ],
-    "nutrition": {
-      "calories": "294 per 100 g",
-      "carbohydrates": "0 g",
-      "fat": "21 g",
-      "fiber": "0 g",
-      "protein": "25 g",
-      "vitamins_minerals": "Good source of vitamin B12, zinc, iron, and selenium."
-    }
+    ]
   },
   "Lasagne Sheets": {
     "aka": [
@@ -3050,15 +3050,11 @@
     ]
   },
   "Milk, Condensed": {
-    "category": "Dairy",
     "aka": [
       "Sweetened Condensed Milk"
     ],
+    "category": "Dairy",
     "notes": "Condensed milk is cow’s milk with most water removed, available sweetened or unsweetened. - ** Sweetened condensed milk adds both moisture and sweetness; unsweetened (evaporated milk) can be used where sugar is added separately. - **Pairings:** Complements chocolate, coffee, caramel, fruits, and baked goods. - ** Refrigerate after opening and use within a few days. - **Substitutions:** Evaporated milk plus sugar can mimic sweetened condensed milk; coconut condensed milk can be used for dairy-free alternatives.",
-    "purpose": "Adds sweetness, creaminess, and moisture to desserts, puddings, caramel, and baked goods. Enhances texture, richness, and flavor balance.",
-    "usedIn": [
-      "plaincheesecakeclassicnobake"
-    ],
     "nutrition": {
       "calories": "321 per 100 g",
       "carbohydrates": "55 g",
@@ -3066,7 +3062,11 @@
       "fiber": "0 g",
       "protein": "7 g",
       "vitamins_minerals": "Contains calcium, vitamin A, and small amounts of other minerals. Primarily a source of sugar, fat, and protein."
-    }
+    },
+    "purpose": "Adds sweetness, creaminess, and moisture to desserts, puddings, caramel, and baked goods. Enhances texture, richness, and flavor balance.",
+    "usedIn": [
+      "plaincheesecakeclassicnobake"
+    ]
   },
   "Minced Meat": {
     "aka": [

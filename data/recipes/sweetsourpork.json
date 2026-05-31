@@ -25,7 +25,7 @@
       "quantity": "500",
       "unit": "g",
       "item": "Pork Shoulder",
-      "notes": "cut into bite-sized pieces"
+      "notes": "cut into bite-sised pieces"
     },
     {
       "quantity": "15",
@@ -201,7 +201,7 @@
     "protein": 44,
     "carbs": 86,
     "fat": 150,
-    "fiber": 4,
+    "fibre": 4,
     "sodium": 647,
     "coverage": 100
   }

@@ -96,7 +96,7 @@
     },
     {
       "step": 4,
-      "instruction": "Place dough in a lightly oiled bowl, cover, and let rise in a warm place until doubled in size, about 1–1½ hours."
+      "instruction": "Place dough in a lightly oiled bowl, cover, and let rise in a warm place until doubled in sise, about 1–1½ hours."
     },
     {
       "step": 5,
@@ -180,7 +180,7 @@
     "protein": 78,
     "carbs": 445,
     "fat": 56,
-    "fiber": 17,
+    "fibre": 17,
     "sodium": 3930,
     "coverage": 100
   }

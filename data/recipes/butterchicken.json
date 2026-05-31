@@ -81,7 +81,7 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Red Chili Powder"
+      "item": "Red Chilli Powder"
     },
     {
       "quantity": "40",
@@ -96,7 +96,7 @@
     {
       "quantity": "20",
       "unit": "g",
-      "item": "Greek Yogurt"
+      "item": "Greek Yoghurt"
     },
     {
       "quantity": "60",
@@ -151,7 +151,7 @@
     },
     {
       "step": 4,
-      "instruction": "Stir in cumin, garam masala, and red chili powder. Cook for 30 seconds to release the aromas."
+      "instruction": "Stir in cumin, garam masala, and red chilli powder. Cook for 30 seconds to release the aromas."
     },
     {
       "step": 5,
@@ -159,7 +159,7 @@
     },
     {
       "step": 6,
-      "instruction": "Pour in the cream, yogurt, and milk. Stir well and bring to a gentle simmer. Cook for 3–4 minutes until the sauce thickens slightly."
+      "instruction": "Pour in the cream, yoghurt, and milk. Stir well and bring to a gentle simmer. Cook for 3–4 minutes until the sauce thickens slightly."
     },
     {
       "step": 7,
@@ -273,7 +273,7 @@
     "sugars": 8,
     "fat": 42,
     "saturated_fat": 17,
-    "fiber": 31,
+    "fibre": 31,
     "sodium": 412,
     "coverage": 100,
     "calcium_mg": 163,

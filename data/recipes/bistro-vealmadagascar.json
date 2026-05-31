@@ -61,7 +61,7 @@
     {
       "quantity": "1",
       "unit": "",
-      "item": "Red Chili",
+      "item": "Red Chilli",
       "notes": "sliced, optional — for hot version"
     },
     {
@@ -106,7 +106,7 @@
     },
     {
       "step": 4,
-      "instruction": "Add garlic and chili if making the hot version. Cook for 30 seconds until fragrant."
+      "instruction": "Add garlic and chilli if making the hot version. Cook for 30 seconds until fragrant."
     },
     {
       "step": 5,
@@ -129,7 +129,7 @@
     {
       "type": "technique",
       "title": "Hot or Mild",
-      "content": "This dish is made to order — add chili for the hot version, omit for mild. The green peppercorns provide a gentle warmth regardless, so the chili determines the heat level."
+      "content": "This dish is made to order — add chilli for the hot version, omit for mild. The green peppercorns provide a gentle warmth regardless, so the chilli determines the heat level."
     },
     {
       "type": "technique",
@@ -168,7 +168,7 @@
     "sugars": 45,
     "fat": 97,
     "saturated_fat": 48,
-    "fiber": 91,
+    "fibre": 91,
     "sodium": 1688,
     "coverage": 92,
     "calcium_mg": 488,

@@ -92,7 +92,7 @@
     },
     {
       "step": 7,
-      "instruction": "Oil hands and fold once more. Cover and let rise for 1 hour until bubbly and doubled in size."
+      "instruction": "Oil hands and fold once more. Cover and let rise for 1 hour until bubbly and doubled in sise."
     },
     {
       "step": 8,
@@ -159,7 +159,7 @@
     "protein": 21,
     "carbs": 126,
     "fat": 12,
-    "fiber": 4,
+    "fibre": 4,
     "sodium": 327,
     "coverage": 100
   }

@@ -8,6 +8,7 @@
   "cookTime": "20 min",
   "totalTime": "30 min",
   "servings": "4 servings",
+  "difficulty": "Beginner",
   "tags": [
     "Beef",
     "Creamy",
@@ -149,46 +150,95 @@
   "related": [
     {
       "id": "beefstockpot",
-      "title": "Beef Stock Pot"
+      "title": "Beef Stock Pot",
+      "matchingTags": [
+        "Alcohol",
+        "Beef",
+        "Dinner",
+        "French",
+        "Hearty",
+        "Rich",
+        "Sauce",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     },
     {
       "id": "mongolianbeef",
-      "title": "Mongolian Beef"
+      "title": "Mongolian Beef",
+      "matchingTags": [
+        "Alcohol",
+        "Beef",
+        "Chinese",
+        "Dinner",
+        "Savoury",
+        "Stir-Fried",
+        "Sweet"
+      ]
     },
     {
       "id": "bistro-filetmignon",
-      "title": "Filet Mignon"
+      "title": "Filet Mignon",
+      "matchingTags": [
+        "Beef",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     },
     {
       "id": "potatognocchi",
-      "title": "Potato Gnocchi"
+      "title": "Potato Gnocchi",
+      "matchingTags": [
+        "Alcohol",
+        "Classic",
+        "Dinner",
+        "Italian",
+        "Rich",
+        "Savoury",
+        "Vegetarian"
+      ]
     },
     {
       "id": "lasagne",
-      "title": "Classic Lasagne"
+      "title": "Classic Lasagne",
+      "matchingTags": [
+        "Baked",
+        "Beef",
+        "Classic",
+        "Dinner",
+        "Italian",
+        "Make Ahead",
+        "Rich",
+        "Savoury"
+      ]
     }
   ],
   "nutrition": {
     "servings": 4,
-    "cal": 505,
-    "kj": 2111,
+    "cal": 502,
+    "kj": 2100,
     "protein": 17,
     "carbs": 50,
     "sugars": 8,
     "fat": 24,
     "saturated_fat": 12,
     "fiber": 6,
-    "sodium": 508,
+    "sodium": 887,
     "coverage": 100,
-    "calcium_mg": 84,
-    "iron_mg": 3,
-    "potassium_mg": 760,
-    "magnesium_mg": 61,
+    "calcium_mg": 82,
+    "iron_mg": 2,
+    "potassium_mg": 752,
+    "magnesium_mg": 60,
     "zinc_mg": 2,
     "cholesterol_mg": 63,
     "vitamin_a_ug": 251,
     "vitamin_c_mg": 9,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-05-23"
+  "lastModified": "2026-05-31"
 }

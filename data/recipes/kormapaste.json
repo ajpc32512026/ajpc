@@ -40,7 +40,7 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Red Chili Powder"
+      "item": "Red Chilli Powder"
     },
     {
       "quantity": "15",
@@ -87,7 +87,7 @@
     },
     {
       "step": 2,
-      "instruction": "Transfer roasted seeds to a food processor. Add turmeric, garam masala, red chili powder, garlic, ginger, tomato paste, desiccated coconut, cashews, vegetable oil, and fresh coriander leaves."
+      "instruction": "Transfer roasted seeds to a food processor. Add turmeric, garam masala, red chilli powder, garlic, ginger, tomato paste, desiccated coconut, cashews, vegetable oil, and fresh coriander leaves."
     },
     {
       "step": 3,
@@ -143,7 +143,7 @@
     "protein": 31,
     "carbs": 135,
     "fat": 47,
-    "fiber": 19,
+    "fibre": 19,
     "sodium": 107,
     "coverage": 100
   }

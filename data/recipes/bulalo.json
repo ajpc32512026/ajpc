@@ -105,7 +105,7 @@
     {
       "quantity": "2",
       "unit": "",
-      "item": "Red Chili",
+      "item": "Red Chilli",
       "notes": "sliced, optional"
     }
   ],
@@ -136,7 +136,7 @@
     },
     {
       "step": 7,
-      "instruction": "Transfer to a large serving bowl and serve hot with steamed rice. Mix fish sauce, calamansi, and chili in a small dish on the side as a dipping sauce."
+      "instruction": "Transfer to a large serving bowl and serve hot with steamed rice. Mix fish sauce, calamansi, and chilli in a small dish on the side as a dipping sauce."
     }
   ],
   "notes": [
@@ -193,7 +193,7 @@
     "sugars": 13,
     "fat": 59,
     "saturated_fat": 24,
-    "fiber": 8,
+    "fibre": 8,
     "sodium": 1413,
     "coverage": 100
   },

@@ -4,7 +4,7 @@
 const fs = require('fs');
 
 // Load the original file
-const rawData = fs.readFileSync('json/ingredient_inventory_v6.json', 'utf8');
+const rawData = fs.readFileSync('json/ingredient_inventory_v7.json', 'utf8');
 const ingredients = JSON.parse(rawData);
 
 const structured = {};

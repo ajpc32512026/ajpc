@@ -84,7 +84,7 @@
     {
       "type": "variation",
       "title": "Add Heat",
-      "content": "Stir in 2–5 g of chili flakes or a dash of sriracha for a spicy kick."
+      "content": "Stir in 2–5 g of chilli flakes or a dash of sriracha for a spicy kick."
     },
     {
       "type": "serving",
@@ -106,8 +106,8 @@
       "title": "Teriyaki Sauce"
     },
     {
-      "id": "sweetchilisauce",
-      "title": "Sweet Chili Sauce"
+      "id": "sweetchillisauce",
+      "title": "Sweet Chilli Sauce"
     },
     {
       "id": "sweetspicyorangesauce",
@@ -120,7 +120,7 @@
     "protein": 3,
     "carbs": 144,
     "fat": 0,
-    "fiber": 2,
+    "fibre": 2,
     "sodium": 1379,
     "coverage": 100
   }

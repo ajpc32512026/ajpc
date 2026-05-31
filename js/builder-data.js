@@ -1,0 +1,326 @@
+/* =========================================================
+   BUILDER DATA — JSON Build, File IO, Nav Snippet
+   Depends on globals: tags, currentFilename, currentFileHandle,
+                       NUTRITION_DB (all from builder-main.js)
+========================================================= */
+
+// ── Build JSON Object ─────────────────────────────────────
+function buildJSON() {
+    const title = val('title');
+    if (!title) return { obj: {}, id: '', title: '' };
+
+    // ID: lowercase, alphanumeric only (preserves spaces → stripped)
+    const id = title.toLowerCase().replace(/[^a-z0-9\s]/g, '').replace(/\s+/g, '').trim();
+
+    const obj = { id, title };
+
+    // Optional top-level fields — only include if they have values
+    const optFields = ['emoji','category','difficulty','description',
+                       'prepTime','cookTime','totalTime','servings','yieldPerBatch'];
+    optFields.forEach(f => { const v = val(f); if (v) obj[f] = v; });
+
+    if (tags.length) obj.tags = [...tags];
+
+    // ── Ingredients ──
+    obj.ingredients = [];
+    document.querySelectorAll('#ingredients-list > div').forEach(row => {
+        if (row.classList.contains('ingredient-heading-row')) {
+            const v = row.querySelector('input')?.value.trim();
+            if (v) obj.ingredients.push({ heading: v });
+
+        } else if (row.classList.contains('ingredient-totaste-row')) {
+            const inputs = row.querySelectorAll('input');
+            const item   = (inputs[0]?.value || '').trim();
+            if (!item) return;
+            const entry  = { item: toTitleCase(item), toTaste: true };
+            const note   = (inputs[1]?.value || '').trim();
+            if (note) entry.notes = note;
+            obj.ingredients.push(entry);
+
+        } else if (row.classList.contains('ingredient-row')) {
+            const inputs = row.querySelectorAll('input');
+            const item   = toTitleCase((inputs[2]?.value || '').trim());
+            if (!item) return;
+            const entry  = {
+                quantity: (inputs[0]?.value || '').trim(),
+                unit:     (inputs[1]?.value || '').trim(),
+                item
+            };
+            const notes = (inputs[3]?.value || '').trim();
+            if (notes) entry.notes = notes;
+            obj.ingredients.push(entry);
+        }
+    });
+
+    // ── You Will Also Need ──
+    obj.youWillNeed = [];
+    document.querySelectorAll('#equipment-list .equipment-item-row').forEach(row => {
+        const inputs = row.querySelectorAll('input');
+        const item   = (inputs[0]?.value || '').trim();
+        if (!item) return;
+        const entry  = { item };
+        const note   = (inputs[1]?.value || '').trim();
+        if (note) entry.note = note;
+        obj.youWillNeed.push(entry);
+    });
+    if (!obj.youWillNeed.length) delete obj.youWillNeed;
+
+    // ── Method ──
+    obj.method = [];
+    let stepNum = 0;
+    document.querySelectorAll('#steps-list > div').forEach(row => {
+        if (row.classList.contains('step-heading-row')) {
+            const v = row.querySelector('input')?.value.trim();
+            if (v) obj.method.push({ heading: v });
+        } else if (row.classList.contains('step-row')) {
+            const txt = row.querySelector('textarea')?.value.trim();
+            if (txt) obj.method.push({ step: ++stepNum, instruction: txt });
+        }
+    });
+    if (!obj.method.length) delete obj.method;
+
+    // ── Notes ──
+    const noteRows = document.querySelectorAll('#notes-list .note-row');
+    if (noteRows.length) {
+        obj.notes = [];
+        noteRows.forEach(row => {
+            const type    = row.querySelector('select')?.value || 'tip';
+            const noteTitle = row.querySelector('input')?.value.trim() || '';
+            const content = row.querySelector('textarea')?.value.trim() || '';
+            if (noteTitle || content) obj.notes.push({ type, title: noteTitle, content });
+        });
+        if (!obj.notes.length) delete obj.notes;
+    }
+
+    // ── Journal ──
+    const journalRows = document.querySelectorAll('#journal-list .journal-row');
+    if (journalRows.length) {
+        obj.journal = [];
+        journalRows.forEach(row => {
+            const date    = row.querySelector('input[type="date"]')?.value || '';
+            const content = row.querySelector('textarea')?.value.trim() || '';
+            if (content) obj.journal.push({ date, content });
+        });
+        if (!obj.journal.length) delete obj.journal;
+    }
+
+    // ── Nutrition ──
+    // computeNutrition is defined in builder-nutrition.js.
+    // It returns null if NUTRITION_DB is not yet loaded or no ingredients match.
+    // Guard with typeof so buildJSON() still works during the async load window.
+    if (typeof computeNutrition === 'function' && obj.ingredients && obj.ingredients.length) {
+        const servingsNum = parseInt(obj.servings) || 1;
+        const n = computeNutrition(obj.ingredients, servingsNum);
+        if (n) obj.nutrition = n;
+    }
+
+    // ── Timestamp ──
+    obj.lastModified = new Date().toISOString().split('T')[0];
+
+    return { obj, id, title };
+}
+
+// ── File IO ───────────────────────────────────────────────
+async function openJSONFile() {
+    if (window.showOpenFilePicker) {
+        try {
+            const [handle] = await window.showOpenFilePicker({
+                types: [{ description: 'Recipe JSON', accept: { 'application/json': ['.json'] } }],
+                multiple: false
+            });
+            currentFileHandle = handle;
+            const file = await handle.getFile();
+            currentFilename = file.name.replace(/\.json$/i, '');
+            populateForm(JSON.parse(await file.text()));
+            document.getElementById('mode-label').textContent = 'Editing: ' + file.name;
+            document.getElementById('mode-label').style.color = 'var(--gold)';
+            toast('Loaded: ' + file.name);
+        } catch(e) { /* User cancelled */ }
+    } else {
+        document.getElementById('load-file').click();
+    }
+}
+
+function loadJSONFile(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = e => {
+        try {
+            const data = JSON.parse(e.target.result);
+            currentFilename = file.name.replace(/\.json$/i, '');
+            populateForm(data);
+            document.getElementById('mode-label').textContent = 'Editing: ' + file.name;
+            document.getElementById('mode-label').style.color = 'var(--gold)';
+            toast('Loaded: ' + file.name);
+        } catch(err) { alert('Could not parse JSON: ' + err.message); }
+    };
+    reader.readAsText(file);
+    event.target.value = '';
+}
+
+function populateForm(data) {
+    // Clear dynamic lists
+    document.querySelectorAll('.dynamic-list').forEach(l => l.innerHTML = '');
+    tags = [];
+
+    // Reset selects
+    document.querySelectorAll('select').forEach(s => s.selectedIndex = 0);
+
+    // Plain text fields
+    ['title','description','prepTime','cookTime','totalTime','servings','yieldPerBatch'].forEach(f => {
+        const el = document.getElementById(f);
+        if (el) el.value = data[f] || '';
+    });
+
+    // Selects
+    ['category','difficulty'].forEach(f => {
+        const el = document.getElementById(f);
+        if (!el) return;
+        for (let i = 0; i < el.options.length; i++) {
+            if (el.options[i].text === data[f] || el.options[i].value === data[f]) {
+                el.selectedIndex = i; break;
+            }
+        }
+    });
+
+    // Emoji
+    if (data.emoji) pickEmoji(data.emoji);
+
+    // Tags
+    if (Array.isArray(data.tags)) { tags = [...data.tags]; renderTags(); }
+
+    // Ingredients
+    (data.ingredients || []).forEach(ing => {
+        if (ing.heading) addIngredientHeading(ing.heading);
+        else if (ing.toTaste) addToTaste(toTitleCase(ing.item || ''), ing.notes || '');
+        else addIngredient(ing.quantity || '', ing.unit || '', toTitleCase(ing.item || ing.name || ''), ing.notes || '');
+    });
+
+    // Equipment / You Will Also Need
+    (data.youWillNeed || data.equipment || []).forEach(e => {
+        addEquipmentItem(e.item || e, e.note || '');
+    });
+
+    // Method
+    (data.method || []).forEach(m => {
+        if (m.heading) addStepHeading(m.heading);
+        else addStep(m.instruction || m.text || '');
+    });
+
+    // Notes
+    (data.notes || []).forEach(n => addNote(n.type || 'tip', n.title || '', n.content || ''));
+
+    // Journal
+    (data.journal || []).forEach(j => addJournalEntry(j.date || '', j.content || ''));
+
+    window.scrollTo(0, 0);
+    update();
+}
+
+// ── Nav Snippet ───────────────────────────────────────────
+function buildNavSnippet(id, title, category) {
+    if (!id || !title || !category) return { snippet: '', note: '' };
+    const groupMap = {
+        'Breads': 'Bread', 'Pizza': 'Bread',
+        'Baking': 'Dessert', 'Desserts': 'Dessert', 'Biscuits': 'Dessert',
+        'Sauces': 'Sauces',
+        'Pasta': 'Dinner', 'Dinner': 'Dinner', 'Mains': 'Dinner',
+        'Soups': 'Dinner', 'Salads': 'Dinner', 'Sides': 'Dinner',
+        'Snacks': 'Dinner', 'Bistro': 'Dinner', 'Entree': 'Dinner',
+        'Filipino': 'Filipino', 'Breakfast': 'Breakfast'
+    };
+    const group = groupMap[category] || 'Other';
+    const link  = `<a href="recipe.html?id=${id}" role="menuitem" aria-label="${title.replace(/"/g,'&quot;')} recipe">${title}</a>`;
+    return {
+        snippet: `<!-- Add inside the ${group} dropdown -->\n${link}`,
+        note:    `Nav group: <strong>${group}</strong>`
+    };
+}
+
+// ── Highlight ─────────────────────────────────────────────
+function highlight(json) {
+    return json
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+        .replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, m => {
+            if (/^"/.test(m)) return `<span class="${/:$/.test(m) ? 'j-key' : 'j-str'}">${m}</span>`;
+            if (/true|false/.test(m)) return `<span class="j-bool">${m}</span>`;
+            if (/null/.test(m))       return `<span class="j-null">${m}</span>`;
+            return `<span class="j-num">${m}</span>`;
+        });
+}
+
+function highlightHTML(h) {
+    return h
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+        .replace(/(&lt;!--.*?--&gt;)/g, '<span class="h-comment">$1</span>')
+        .replace(/(&lt;\/?[a-z][a-z0-9]*)/gi, '<span class="h-tag">$1</span>')
+        .replace(/&gt;/g, '<span class="h-tag">&gt;</span>');
+}
+
+// ── Save / Download / Copy ────────────────────────────────
+async function saveJSON() {
+    if (!checkRequiredFields()) return;
+    const { obj, id } = buildJSON();
+    if (!obj.title) return;
+    const json = JSON.stringify(obj, null, 2);
+    if (currentFileHandle) {
+        try {
+            const w = await currentFileHandle.createWritable();
+            await w.write(json); await w.close();
+            toast('Saved to ' + currentFileHandle.name);
+        } catch(e) { alert('Could not save: ' + e.message); }
+    } else {
+        downloadJSON();
+    }
+}
+
+function downloadJSON() {
+    if (!checkRequiredFields()) return;
+    const { obj, id } = buildJSON();
+    if (!obj.title) return;
+    const blob = new Blob([JSON.stringify(obj, null, 2)], { type: 'application/json' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = (currentFilename || id || 'recipe') + '.json';
+    a.click();
+    URL.revokeObjectURL(a.href);
+}
+
+function copyJSON() {
+    navigator.clipboard.writeText(document.getElementById('json-output')?.innerText || '')
+        .then(() => toast('JSON copied!'))
+        .catch(() => toast('Copy failed'));
+}
+
+function copyNav() {
+    const el = document.getElementById('nav-output');
+    if (!el || !el.innerText.trim() || el.innerText.includes('waiting')) {
+        toast('Add title & category first');
+        return;
+    }
+    const linkLine = el.innerText.split('\n').find(l => l.trim().startsWith('<a ')) || el.innerText;
+    navigator.clipboard.writeText(linkLine).then(() => toast('Nav link copied!'));
+}
+
+// ── Required Field Check ──────────────────────────────────
+function checkRequiredFields() {
+    const missing = [];
+    if (!val('title'))      missing.push('Recipe Title');
+    if (!val('category'))   missing.push('Category');
+    if (!val('difficulty')) missing.push('Difficulty');
+    if (!val('description'))missing.push('Description');
+
+    if (!missing.length) return true;
+
+    toast('Required fields missing: ' + missing.join(', '));
+    missing.forEach(label => {
+        const map = { 'Recipe Title': 'title', 'Category': 'category', 'Difficulty': 'difficulty', 'Description': 'description' };
+        const el = document.getElementById(map[label]);
+        if (!el) return;
+        el.style.borderColor = 'var(--red)';
+        el.style.backgroundColor = 'rgba(192,57,43,0.1)';
+        setTimeout(() => { el.style.borderColor = ''; el.style.backgroundColor = ''; }, 2000);
+    });
+    return false;
+}
