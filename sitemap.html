@@ -8,105 +8,6 @@
     <title>Sitemap | AJPC Kitchen Notebook</title>
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2316161a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='28' font-weight='bold' fill='%23c97d3e'%3EAJ%3C/text%3E%3C/svg%3E">
     <link rel="stylesheet" href="css/main.css">
-    <style>
-        .sitemap-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-            gap: var(--sp-xl);
-            margin-top: var(--sp-2xl);
-        }
-        .sitemap-category {
-            background: var(--surface-card);
-            border: 1px solid var(--border-dim);
-            border-radius: var(--r-lg);
-            padding: var(--sp-lg);
-        }
-        .sitemap-category h2 {
-            font-size: 0.85rem;
-            font-weight: 600;
-            font-family: var(--font-body);
-            color: var(--copper);
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            margin-bottom: var(--sp-md);
-            padding-bottom: var(--sp-xs);
-            border-bottom: 2px solid var(--border-mid);
-        }
-        .sitemap-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-        .sitemap-list li {
-            margin-bottom: var(--sp-xs);
-        }
-        .sitemap-list a {
-            color: var(--cream-dim);
-            font-size: 0.85rem;
-            text-decoration: none;
-            transition: color var(--t-fast);
-        }
-        .sitemap-list a:hover {
-            color: var(--copper-warm);
-        }
-        .cuisine-tag {
-            display: inline-block;
-            font-size: 0.65rem;
-            padding: 0.1rem 0.4rem;
-            background: rgba(201, 125, 62, 0.1);
-            border-radius: 3px;
-            margin-left: 0.5rem;
-            color: var(--copper);
-        }
-        .sitemap-note {
-            margin-top: var(--sp-2xl);
-            padding-top: var(--sp-md);
-            border-top: 1px solid var(--border-dim);
-            font-size: 0.8rem;
-            color: var(--cream-muted);
-            text-align: center;
-        }
-        /* Cuisine details expandable styles */
-        .cuisine-details {
-            margin-bottom: var(--sp-sm);
-            padding: var(--sp-xs) 0;
-            border-bottom: 1px solid var(--border-dim);
-        }
-        .cuisine-details summary {
-            cursor: pointer;
-            color: var(--cream);
-            font-weight: 500;
-            padding: var(--sp-xs) 0;
-            list-style: none;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .cuisine-details summary::-webkit-details-marker {
-            display: none;
-        }
-        .cuisine-details summary::before {
-            content: "▶ ";
-            color: var(--copper);
-            font-size: 0.7rem;
-            margin-right: 0.5rem;
-        }
-        .cuisine-details[open] summary::before {
-            content: "▼ ";
-        }
-        .cuisine-details .sitemap-list {
-            padding-left: 1.2rem;
-            margin-top: 0.5rem;
-        }
-        .cuisine-details .sitemap-list li {
-            margin-left: 0;
-        }
-        @media (max-width: 768px) {
-            .sitemap-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
 </head>
 <body>
 
@@ -115,14 +16,17 @@
 
     <div class="content-wrapper">
         <main class="reference-page">
-            <div class="reference-header">
+            <header class="reference-header">
                 <span class="reference-eyebrow">Navigation</span>
                 <h1>Sitemap</h1>
-                <p class="reference-description">Browse all recipes by category or cuisine.</p>
-            </div>
+                <p class="reference-description">A comprehensive index of all recipes, categorized by cuisine type and cooking style.</p>
+            </header>
 
             <div class="sitemap-grid" id="sitemapGrid">
-                <div class="loading-state"><div class="loading-spinner"></div><p>Loading sitemap...</p></div>
+                <div class="loading-state">
+                    <div class="loading-spinner"></div>
+                    <p>Building recipe index...</p>
+                </div>
             </div>
 
             <div class="sitemap-note">
@@ -139,20 +43,19 @@
         </div>
     </footer>
 
-    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">&#8593;</button>
 
     <script src="js/nav-loader.js"></script>
     <script>
-    // Cuisine mapping based on tags or category
     function getCuisine(recipe) {
         const tags = (recipe.tags || []).map(t => t.toLowerCase());
         const category = (recipe.category || '').toLowerCase();
         
         if (tags.includes('filipino') || category === 'filipino') return 'Filipino';
-        if (tags.includes('french') || tags.includes('french cuisine')) return 'French';
+        if (tags.includes('french')) return 'French';
         if (tags.includes('italian')) return 'Italian';
         if (tags.includes('indian')) return 'Indian';
-        if (tags.includes('australian') || ((recipe.title || recipe.name || '').toLowerCase().includes('anzac'))) return 'Australian';
+        if (tags.includes('australian') || ((recipe.title || '').toLowerCase().includes('anzac'))) return 'Australian';
         if (tags.includes('asian')) return 'Asian';
         if (tags.includes('american')) return 'American';
         if (tags.includes('greek')) return 'Greek';
@@ -160,23 +63,13 @@
         if (tags.includes('thai')) return 'Thai';
         if (tags.includes('japanese')) return 'Japanese';
         if (tags.includes('chinese')) return 'Chinese';
-        if (tags.includes('vietnamese')) return 'Vietnamese';
         if (tags.includes('middle eastern')) return 'Middle Eastern';
         if (tags.includes('russian')) return 'Russian';
         if (tags.includes('german')) return 'German';
         if (tags.includes('austrian')) return 'Austrian';
         if (tags.includes('malaysian')) return 'Malaysian';
         if (tags.includes('spanish')) return 'Spanish';
-        if (tags.includes('moroccan')) return 'Moroccan';
-        if (tags.includes('lebanese')) return 'Lebanese';
-        if (tags.includes('turkish')) return 'Turkish';
-        if (tags.includes('korean')) return 'Korean';
         if (tags.includes('british')) return 'British';
-
-        // Default based on category fallback
-        if (category === 'bistro') return 'French';
-        if (category === 'filipino') return 'Filipino';
-
         return 'International';
     }
 
@@ -185,119 +78,53 @@
             const res = await fetch('json/recipe-index.json?t=' + Date.now());
             const recipes = await res.json();
             
-            // Group by cuisine
             const cuisineGroups = {};
-            recipes.forEach(recipe => {
-                const cuisine = getCuisine(recipe);
-                if (!cuisineGroups[cuisine]) cuisineGroups[cuisine] = [];
-                cuisineGroups[cuisine].push(recipe);
+            recipes.forEach(r => {
+                const c = getCuisine(r);
+                if (!cuisineGroups[c]) cuisineGroups[c] = [];
+                cuisineGroups[c].push(r);
             });
             
-            // Sort cuisines alphabetically
-            const sortedCuisines = Object.keys(cuisineGroups).sort();
-            
-            // Build HTML
-            let html = '';
-            
-            // Cuisine section with expandable details
-            html += `<div class="sitemap-category">
-                        <h2>🌍 By Cuisine</h2>`;
-            
-            sortedCuisines.forEach(cuisine => {
-                const recipesList = cuisineGroups[cuisine];
-                const count = recipesList.length;
-                
+            let html = `<div class="sitemap-category"><h2>🌍 By Cuisine</h2>`;
+            Object.keys(cuisineGroups).sort().forEach(c => {
                 html += `<details class="cuisine-details">
-                            <summary>
-                                <span>${cuisine}</span>
-                                <span class="cuisine-tag">${count}</span>
-                            </summary>
+                            <summary><span>${c}</span><span class="cuisine-tag">${cuisineGroups[c].length}</span></summary>
                             <ul class="sitemap-list">
-                                ${recipesList.map(recipe => `
-                                    <li><a href="recipe.html?id=${recipe.id}">${recipe.emoji ? recipe.emoji + ' ' : ''}${recipe.title || recipe.name}</a></li>
-                                `).join('')}
+                                ${cuisineGroups[c].map(r => `<li><a href="recipe.html?id=${r.id}">${r.emoji ? r.emoji + ' ' : ''}${r.title}</a></li>`).join('')}
                             </ul>
                         </details>`;
             });
             html += `</div>`;
             
-            // Also show by Category (original grouping)
             const categories = {};
-            recipes.forEach(recipe => {
-                const cat = recipe.category || 'Other';
+            recipes.forEach(r => {
+                const cat = r.category || 'Other';
                 if (!categories[cat]) categories[cat] = [];
-                categories[cat].push(recipe);
+                categories[cat].push(r);
             });
             
-            const categoryOrder = [
-                'Breads', 'Baking', 'Biscuits', 'Breakfast', 'Entree', 'Dinner',
-                'Filipino', 'Desserts', 'Sauces', 'Bistro', 'Other'
-            ];
-            
-            const sortedCategories = Object.keys(categories).sort((a, b) => {
-                const indexA = categoryOrder.indexOf(a);
-                const indexB = categoryOrder.indexOf(b);
-                if (indexA !== -1 && indexB !== -1) return indexA - indexB;
-                if (indexA !== -1) return -1;
-                if (indexB !== -1) return 1;
-                return a.localeCompare(b);
+            const order = ['Breads', 'Baking', 'Biscuits', 'Breakfast', 'Entree', 'Dinner', 'Filipino', 'Desserts', 'Sauces', 'Bistro', 'Other'];
+            Object.keys(categories).sort((a,b) => (order.indexOf(a) - order.indexOf(b)) || a.localeCompare(b)).forEach(cat => {
+                html += `<div class="sitemap-category"><h2>📂 ${cat}</h2><ul class="sitemap-list">
+                    ${categories[cat].sort((a,b) => a.title.localeCompare(b.title)).map(r => `<li><a href="recipe.html?id=${r.id}">${r.emoji ? r.emoji + ' ' : ''}${r.title}</a></li>`).join('')}
+                </ul></div>`;
             });
             
-            sortedCategories.forEach(category => {
-                const categoryRecipes = categories[category].sort((a, b) => 
-                    (a.title || a.name || '').localeCompare(b.title || b.name || '')
-                );
-                
-                html += `
-                    <div class="sitemap-category">
-                        <h2>📂 ${category}</h2>
-                        <ul class="sitemap-list">
-                            ${categoryRecipes.map(recipe => `
-                                <li><a href="recipe.html?id=${recipe.id}">${recipe.emoji ? recipe.emoji + ' ' : ''}${recipe.title || recipe.name}</a></li>
-                            `).join('')}
-                        </ul>
-                    </div>
-                `;
-            });
-            
-            // Add reference pages
-            html += `
-                <div class="sitemap-category">
-                    <h2>📚 Reference</h2>
-                    <ul class="sitemap-list">
-                        <li><a href="measurement.html">📏 Measurements &amp; Conversions</a></li>
+            html += `<div class="sitemap-category"><h2>📚 Reference</h2><ul class="sitemap-list">
+                        <li><a href="measurement.html">📏 Measurements</a></li>
                         <li><a href="culinaryterms.html">📖 Culinary Terms</a></li>
                         <li><a href="ingredient_directory.html">🍎 Ingredient Glossary</a></li>
                         <li><a href="breadtips.html">🍞 Bread Tips</a></li>
-                        <li><a href="cheesesaucetips.html">🧀 Cheese Sauce Tips</a></li>
-                        <li><a href="tangzhongguide.html">🥖 Tangzhong Guide</a></li>
                         <li><a href="puffpastrymethods.html">🥐 Puff Pastry Methods</a></li>
-                        <li><a href="gelatin-blooming-guide.html">🍮 Gelatine Blooming Guide</a></li>
-                    </ul>
-                </div>
-                <div class="sitemap-category">
-                    <h2>🛠️ Tools &amp; More</h2>
-                    <ul class="sitemap-list">
-                        <li><a href="search.html">🔍 Search Recipes</a></li>
-                        <li><a href="gallery.html">🖼️ Gallery</a></li>
-                        <li><a href="recipe-builder.html">✏️ Recipe Builder</a></li>
-                        <li><a href="print-all.html">🖨️ Print All Recipes</a></li>
-                        <li><a href="friandstory.html">📖 The Friand Story</a></li>
-                        <li><a href="sitemap.html">🗺️ Sitemap</a></li>
-                    </ul>
-                </div>
-            `;
+                    </ul></div>`;
             
             document.getElementById('sitemapGrid').innerHTML = html;
             document.getElementById('recipeCount').textContent = recipes.length;
             document.getElementById('lastUpdated').textContent = new Date().toLocaleDateString('en-AU');
-            
         } catch(e) {
-            console.error('Failed to load sitemap:', e);
             document.getElementById('sitemapGrid').innerHTML = '<p class="no-results">Could not load sitemap.</p>';
         }
     }
-    
     loadSitemap();
     </script>
 </body>

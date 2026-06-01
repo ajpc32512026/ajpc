@@ -3,423 +3,56 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Print all 114 recipes from Ana &amp; John's Kitchen Notebook in a clean two-column A4 layout.">
+    <meta name="description" content="Print all recipes from Ana & John's Kitchen Notebook in a clean A4 layout.">
+    <meta name="theme-color" content="#16161a">
     <title>Print All Recipes | AJPC Kitchen Notebook</title>
-	<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2316161a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='28' font-weight='bold' fill='%23c97d3e'%3EAJ%3C/text%3E%3C/svg%3E">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2316161a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='28' font-weight='bold' fill='%23c97d3e'%3EAJ%3C/text%3E%3C/svg%3E">
     <link rel="stylesheet" href="css/main.css">
-    <style>
-        /* ---- Screen styles ---- */
-        .print-all-header {
-            max-width: var(--max-wide);
-            margin: 0 auto;
-            padding: var(--sp-3xl) var(--sp-xl) var(--sp-xl);
-        }
-
-        .print-all-header h1 {
-            font-size: clamp(1.8rem, 4vw, 2.6rem);
-            margin-bottom: var(--sp-sm);
-        }
-
-        .print-all-controls {
-            display: flex;
-            align-items: center;
-            gap: var(--sp-md);
-            flex-wrap: wrap;
-            margin-top: var(--sp-xl);
-            padding: var(--sp-lg);
-            background: var(--surface-card);
-            border: 1px solid var(--border-dim);
-            border-radius: var(--r-lg);
-        }
-
-        .print-all-controls label {
-            font-size: 0.85rem;
-            color: var(--cream-dim);
-        }
-
-        .sort-select {
-            background: var(--surface-2);
-            border: 1px solid var(--border-mid);
-            border-radius: var(--r-md);
-            color: var(--cream);
-            font-family: var(--font-body);
-            font-size: 0.85rem;
-            padding: 0.4rem 0.75rem;
-            cursor: pointer;
-        }
-
-        .print-all-btn {
-            display: inline-flex;
-            align-items: center;
-            gap: var(--sp-sm);
-            padding: 0.6rem 1.4rem;
-            background: rgba(201,125,62,0.15);
-            border: 1px solid var(--border-copper);
-            border-radius: var(--r-md);
-            color: var(--copper-warm);
-            font-family: var(--font-body);
-            font-size: 0.9rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all var(--t-fast);
-            margin-left: auto;
-        }
-        .print-all-btn:hover {
-            background: rgba(201,125,62,0.25);
-            color: var(--copper-pale);
-        }
-        .print-all-btn:disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-        }
-
-        .load-progress {
-            font-size: 0.85rem;
-            color: var(--cream-muted);
-        }
-
-        .recipe-count {
-            font-size: 0.85rem;
-            color: var(--cream-muted);
-        }
-
-        /* Recipe list on screen — compact preview */
-        .recipes-loaded {
-            max-width: var(--max-wide);
-            margin: 0 auto;
-            padding: 0 var(--sp-xl) var(--sp-3xl);
-        }
-
-        .recipe-preview-item {
-            display: flex;
-            align-items: center;
-            gap: var(--sp-md);
-            padding: 0.5rem 0;
-            border-bottom: 1px solid var(--border-dim);
-            font-size: 0.875rem;
-            color: var(--cream-dim);
-        }
-
-        .recipe-preview-item span:first-child {
-            color: var(--cream-faint);
-            font-size: 0.75rem;
-            min-width: 28px;
-            text-align: right;
-        }
-
-        .recipe-preview-title { color: var(--cream); }
-        .recipe-preview-cat {
-            font-size: 0.75rem;
-            color: var(--copper);
-            margin-left: auto;
-        }
-
-        .recipe-preview-item.has-issues {
-            background: rgba(201,125,62,0.05);
-        }
-
-        /* =========================================================
-           PRINT STYLES — overrides main.css for print-all context
-        ========================================================= */
-        @page {
-            size: A4 portrait;
-            margin: 10mm 11mm;
-        }
-
-        @media print {
-            * {
-                -webkit-print-color-adjust: exact;
-                        print-color-adjust: exact;
-            }
-
-            /* Hide everything except the print content */
-            .nav-header,
-            .scroll-progress,
-            .back-to-top,
-            .print-all-header,
-            .recipes-loaded,
-            .footer { display: none !important; }
-
-            body {
-                background: #ffffff;
-                color: #1a1814;
-                font-family: 'DM Sans', sans-serif;
-                font-size: 8.5pt;
-                line-height: 1.55;
-                margin: 0;
-                padding: 0;
-            }
-
-            body::before { display: none; }
-
-            /* Each recipe gets its own page */
-            .print-recipe-block {
-                page-break-after: always;
-                page-break-inside: auto;
-                width: 100%;
-            }
-
-            .print-recipe-block:last-child {
-                page-break-after: avoid;
-            }
-
-            /* Recipe header */
-            .print-recipe-category {
-                display: inline-block;
-                background: #f5ede3;
-                border: 1px solid #c97d3e;
-                color: #9a5e28;
-                font-size: 6.5pt;
-                padding: 1pt 5pt;
-                border-radius: 2pt;
-                letter-spacing: 0.12em;
-                text-transform: uppercase;
-                font-weight: 700;
-                margin-bottom: 3pt;
-            }
-
-            .print-recipe-title {
-                font-size: 18pt;
-                color: #1a1814;
-                line-height: 1.1;
-                margin-bottom: 2pt;
-                font-family: 'DM Serif Display', Georgia, serif;
-                font-weight: 400;
-                page-break-after: avoid;
-            }
-
-            .print-recipe-description {
-                font-size: 8pt;
-                color: #4a4540;
-                font-style: italic;
-                margin-bottom: 5pt;
-                line-height: 1.45;
-            }
-
-            /* Metadata */
-            .print-meta {
-                display: flex;
-                flex-wrap: wrap;
-                gap: 8pt;
-                background: #f8f5f0;
-                border: 1px solid #ddd7cc;
-                border-radius: 3pt;
-                padding: 4pt 7pt;
-                margin-bottom: 6pt;
-            }
-
-            .print-meta-item { display: flex; flex-direction: column; gap: 0; }
-
-            .print-meta-label {
-                font-size: 5pt;
-                color: #9a5e28;
-                letter-spacing: 0.14em;
-                text-transform: uppercase;
-                font-weight: 700;
-                line-height: 1.3;
-            }
-
-            .print-meta-value {
-                font-size: 8pt;
-                color: #1a1814;
-                font-weight: 600;
-                line-height: 1.2;
-            }
-
-            /* Two column body */
-            .print-body {
-                display: flex;
-                gap: 11pt;
-                align-items: flex-start;
-                width: 100%;
-            }
-
-            .print-ingredients-col {
-                flex: 0 0 38%;
-                width: 38%;
-            }
-
-            .print-method-col {
-                flex: 1 1 auto;
-                min-width: 0;
-            }
-
-            /* Section headings */
-            .print-section-heading {
-                font-size: 5.5pt;
-                font-family: 'DM Sans', sans-serif;
-                letter-spacing: 0.2em;
-                text-transform: uppercase;
-                color: #9a5e28;
-                font-weight: 700;
-                border-bottom: 1px solid #ddd7cc;
-                padding-bottom: 2pt;
-                margin-bottom: 4pt;
-                margin-top: 0;
-            }
-
-            /* Ingredients */
-            .print-ing-list {
-                list-style: none;
-                padding: 0;
-                margin: 0;
-            }
-
-            .print-ing-list li {
-                font-size: 7.5pt;
-                color: #3a3530;
-                border-bottom: 1px solid #ece7de;
-                padding: 1.5pt 0;
-                display: flex;
-                align-items: baseline;
-                gap: 3pt;
-                line-height: 1.3;
-            }
-
-            .print-qty {
-                color: #1a1814;
-                font-weight: 700;
-                min-width: 26pt;
-                flex-shrink: 0;
-            }
-
-            .print-ing-heading {
-                color: #9a5e28 !important;
-                font-size: 5.5pt !important;
-                letter-spacing: 0.1em;
-                text-transform: uppercase;
-                font-weight: 700 !important;
-                padding-top: 4pt !important;
-                border-bottom: none !important;
-                display: block;
-            }
-
-            .print-ing-note {
-                color: #7a7268;
-                font-size: 7pt;
-                font-style: italic;
-            }
-
-            /* Method */
-            .print-method-list {
-                list-style: none;
-                padding: 0;
-                margin: 0;
-                counter-reset: steps;
-            }
-
-            .print-method-list li {
-                counter-increment: steps;
-                font-size: 7.5pt;
-                color: #3a3530;
-                border-bottom: 1px solid #ece7de;
-                padding: 2.5pt 0 2.5pt 19pt;
-                position: relative;
-                line-height: 1.4;
-                page-break-inside: avoid;
-            }
-
-            .print-method-list li::before {
-                content: counter(steps);
-                position: absolute;
-                left: 0;
-                top: 2.5pt;
-                width: 13pt;
-                height: 13pt;
-                background: #f5ede3;
-                border: 1px solid #c97d3e;
-                border-radius: 2pt;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                font-size: 5.5pt;
-                font-weight: 700;
-                color: #9a5e28;
-                font-family: 'DM Sans', sans-serif;
-            }
-
-            .print-method-heading {
-                color: #9a5e28 !important;
-                font-size: 6pt !important;
-                text-transform: uppercase;
-                font-weight: 700 !important;
-                padding-left: 0 !important;
-                border-bottom: 1px solid #ece7de !important;
-                display: block;
-            }
-            .print-method-heading::before { display: none !important; }
-
-            /* Notes */
-            .print-notes { margin-top: 5pt; }
-
-            .print-note {
-                background: #fdf8f3;
-                border-left: 2pt solid #c97d3e;
-                padding: 3pt 6pt;
-                margin-bottom: 3pt;
-                page-break-inside: avoid;
-            }
-
-            .print-note-title {
-                font-size: 5.5pt;
-                color: #9a5e28;
-                letter-spacing: 0.1em;
-                text-transform: uppercase;
-                font-weight: 700;
-                display: block;
-                margin-bottom: 1.5pt;
-            }
-
-            .print-note-text {
-                font-size: 7.5pt;
-                color: #4a4540;
-                line-height: 1.4;
-                margin: 0;
-            }
-        }
-    </style>
 </head>
 <body>
 
     <div class="scroll-progress" id="scrollProgress"></div>
     <div id="nav-placeholder"></div>
 
-    <!-- Screen header -->
-    <div class="print-all-header">
-        <p style="font-size:0.75rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--copper);font-weight:600;margin-bottom:0.4rem;">Kitchen Notebook</p>
-        <h1>Print All Recipes</h1>
-        <p style="color:var(--cream-muted);">Loads all recipes and sends them to your printer — one recipe per page, A4, two-column layout.</p>
+    <div class="content-wrapper">
+        <main>
+            <header class="reference-header">
+                <span class="reference-eyebrow">Kitchen Utility</span>
+                <h1>Print All Recipes</h1>
+                <p class="reference-description">This tool loads every recipe in the notebook into a single queue for high-quality bulk printing (one recipe per page).</p>
 
-        <div class="print-all-controls">
-            <span class="recipe-count" id="recipeCount">Loading recipes...</span>
-            <label>Sort by
-                <select class="sort-select" id="sortSelect">
-                    <option value="alpha">A &ndash; Z</option>
-                    <option value="category">Category</option>
-                </select>
-            </label>
-            <span class="load-progress" id="loadProgress"></span>
-            <button class="print-all-btn" id="printBtn" disabled onclick="window.print()">
-                Print All Recipes
-            </button>
-        </div>
+                <div class="print-utility-panel">
+                    <span id="recipeCount" class="section-note">Scanning index...</span>
+                    <label>Sort order:
+                        <select id="sortSelect">
+                            <option value="alpha">Alphabetical (A-Z)</option>
+                            <option value="category">By Category</option>
+                        </select>
+                    </label>
+                    <span id="loadProgress" class="section-note"></span>
+                    <button class="toolbar-btn primary" id="printBtn" disabled onclick="window.print()">
+                        Print Complete Notebook
+                    </button>
+                </div>
+            </header>
+
+            <!-- Screen Preview -->
+            <div class="recipe-preview-list" id="recipeList"></div>
+
+            <!-- Print Engine Target (Hidden on Screen) -->
+            <div id="printContent" style="display:none;">
+                <div id="printRecipes"></div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-inner">
+                <span class="footer-brand">AJPC</span>
+                <p class="footer-copy">&copy; 2026 Ana &amp; John's Kitchen Notebook.</p>
+                <button class="print-btn" onclick="window.print()">Print View</button>
+            </div>
+        </footer>
     </div>
-
-    <!-- Screen recipe list (confirmation of what will print) -->
-    <div class="recipes-loaded" id="recipeList"></div>
-
-    <!-- Hidden print content — populated by JS -->
-    <div id="printContent" style="display:none;">
-        <!-- Recipes inserted here -->
-        <div id="printRecipes"></div>
-    </div>
-
-    <footer>
-        <div class="footer-inner" style="max-width:var(--max-wide);margin:0 auto;padding:var(--sp-2xl) var(--sp-xl);">
-            <span class="footer-brand">AJPC</span>
-            <p class="footer-copy">&copy; 2026 Ana &amp; John's Kitchen Notebook.</p>
-        </div>
-    </footer>
 
     <button class="back-to-top" id="backToTop" aria-label="Back to top">&#8593;</button>
 
@@ -427,31 +60,26 @@
     <script>
     (function() {
         'use strict';
-
         let allRecipes = [];
 
         async function init() {
-            // Load recipe index
             let index = [];
             try {
                 const res = await fetch('json/recipe-index.json');
                 index = await res.json();
             } catch(e) {
-                document.getElementById('recipeCount').textContent = 'Could not load recipe index.';
+                document.getElementById('recipeCount').textContent = 'Index load failed.';
                 return;
             }
 
-            document.getElementById('recipeCount').textContent = `Loading 0 / ${index.length} recipes...`;
-
-            // Fetch all recipe JSONs
             let loaded = 0;
             const results = await Promise.allSettled(
                 index.map(async entry => {
                     const res = await fetch(`data/recipes/${entry.id}.json`);
-                    if (!res.ok) throw new Error(`${entry.id} not found`);
+                    if (!res.ok) throw new Error(entry.id);
                     const data = await res.json();
                     loaded++;
-                    document.getElementById('loadProgress').textContent = `${loaded} / ${index.length}`;
+                    document.getElementById('loadProgress').textContent = `[${loaded}/${index.length}]`;
                     return data;
                 })
             );
@@ -461,26 +89,20 @@
                 .map(r => r.value)
                 .sort((a, b) => (a.title || '').localeCompare(b.title || ''));
 
-            const failed = results.filter(r => r.status === 'rejected').length;
-
-            document.getElementById('recipeCount').textContent =
-                `${allRecipes.length} recipes loaded${failed ? ` (${failed} failed to load)` : ''}`;
+            document.getElementById('recipeCount').textContent = `${allRecipes.length} recipes ready.`;
             document.getElementById('loadProgress').textContent = '';
-
-            buildPrintContent();
-            buildScreenList();
-
+            
+            refreshUI();
             document.getElementById('printBtn').disabled = false;
             document.getElementById('printContent').style.display = 'block';
 
             document.getElementById('sortSelect').addEventListener('change', () => {
-                sortRecipes();
-                buildPrintContent();
-                buildScreenList();
+                sortData();
+                refreshUI();
             });
         }
 
-        function sortRecipes() {
+        function sortData() {
             const mode = document.getElementById('sortSelect').value;
             if (mode === 'alpha') {
                 allRecipes.sort((a, b) => (a.title || '').localeCompare(b.title || ''));
@@ -492,115 +114,42 @@
             }
         }
 
-        function buildScreenList() {
-            const list = document.getElementById('recipeList');
-            list.innerHTML = allRecipes.map((r, i) => `
+        function refreshUI() {
+            // Update Screen List
+            document.getElementById('recipeList').innerHTML = allRecipes.map((r, i) => `
                 <div class="recipe-preview-item">
-                    <span>${i + 1}</span>
+                    <span class="recipe-preview-count">${i + 1}</span>
                     <span class="recipe-preview-title">${esc(r.title || r.id)}</span>
                     <span class="recipe-preview-cat">${esc(r.category || '')}</span>
                 </div>`).join('');
-        }
-
-        function buildPrintContent() {
-            const container = document.getElementById('printRecipes');
-            container.innerHTML = allRecipes.map(r => renderPrintRecipe(r)).join('');
-        }
-
-        function renderPrintRecipe(r) {
-            const meta = buildMeta(r);
-            const ingredients = buildIngredients(r.ingredients || []);
-            const method = buildMethod(r.method || []);
-            const notes = buildNotes(r.notes || []);
-
-            return `<div class="print-recipe-block">
-                ${r.category ? `<span class="print-recipe-category">${esc(r.category)}</span>` : ''}
-                <div class="print-recipe-title">${esc(r.title || r.id)}</div>
-                ${r.description ? `<div class="print-recipe-description">${esc(r.description)}</div>` : ''}
-                ${meta}
-                <div class="print-body">
-                    <div class="print-ingredients-col">
-                        <div class="print-section-heading">Ingredients</div>
-                        ${ingredients}
+            
+            // Update Print Engine
+            document.getElementById('printRecipes').innerHTML = allRecipes.map(r => `
+                <div class="print-recipe-block">
+                    ${r.category ? `<span class="print-bulk-category">${esc(r.category)}</span>` : ''}
+                    <div class="print-bulk-title">${esc(r.title || r.id)}</div>
+                    <p style="font-size:8pt; font-style:italic; margin-bottom:10pt;">${esc(r.description || '')}</p>
+                    <div class="print-bulk-meta">
+                        ${r.prepTime ? `<div><small>PREP</small><br><b>${esc(r.prepTime)}</b></div>` : ''}
+                        ${r.cookTime ? `<div><small>COOK</small><br><b>${esc(r.cookTime)}</b></div>` : ''}
+                        ${r.servings ? `<div><small>SERVES</small><br><b>${esc(r.servings)}</b></div>` : ''}
                     </div>
-                    <div class="print-method-col">
-                        <div class="print-section-heading">Method</div>
-                        ${method}
-                        ${notes}
+                    <div class="print-bulk-body">
+                        <div class="print-bulk-ing">
+                            <div class="print-section-heading">Ingredients</div>
+                            <ul class="print-ing-list">${(r.ingredients || []).map(ing => `
+                                <li><span class="print-qty">${esc(ing.quantity || '')} ${esc(ing.unit || '')}</span> ${esc(ing.item || ing.name || '')}</li>
+                            `).join('')}</ul>
+                        </div>
+                        <div class="print-bulk-meth">
+                            <div class="print-section-heading">Method</div>
+                            <ol class="print-method-list">${(r.method || []).map(step => `<li>${esc(step.instruction || step)}</li>`).join('')}</ol>
+                        </div>
                     </div>
-                </div>
-            </div>`;
+                </div>`).join('');
         }
 
-        function buildMeta(r) {
-            const items = [
-                { label: 'Prep',       value: r.prepTime },
-                { label: 'Cook',       value: r.cookTime },
-                { label: 'Total',      value: r.totalTime },
-                { label: 'Serves',     value: r.servings },
-                { label: 'Difficulty', value: r.difficulty },
-            ].filter(m => m.value);
-
-            if (!items.length) return '';
-            return `<div class="print-meta">${items.map(m => `
-                <div class="print-meta-item">
-                    <span class="print-meta-label">${esc(m.label)}</span>
-                    <span class="print-meta-value">${esc(m.value)}</span>
-                </div>`).join('')}</div>`;
-        }
-
-        function buildIngredients(ingredients) {
-            if (!ingredients.length) return '<p style="font-size:7.5pt;color:#9a9088;">No ingredients listed.</p>';
-            const items = ingredients.map(ing => {
-                if (ing.heading) return `<li><span class="print-ing-heading">${esc(ing.heading)}</span></li>`;
-                const qty  = ing.quantity ? String(ing.quantity) : '';
-                const unit = ing.unit || '';
-                const item = ing.item || ing.name || '';
-                const note = ing.notes || ing.description || '';
-                return `<li>
-                    <span class="print-qty">${esc(qty)}${unit ? ' ' + esc(unit) : ''}</span>
-                    ${esc(item)}${note ? ` <span class="print-ing-note">(${esc(note)})</span>` : ''}
-                </li>`;
-            }).join('');
-            return `<ul class="print-ing-list">${items}</ul>`;
-        }
-
-        function buildMethod(method) {
-            if (!method.length) return '<p style="font-size:7.5pt;color:#9a9088;">No method listed.</p>';
-            const items = method.map(step => {
-                if (step.heading) return `<li><span class="print-method-heading">${esc(step.heading)}</span></li>`;
-                const text = step.instruction || step.text || String(step);
-                return `<li>${esc(text)}</li>`;
-            }).join('');
-            return `<ol class="print-method-list">${items}</ol>`;
-        }
-
-        function buildNotes(notes) {
-            if (!notes.length) return '';
-            const items = notes
-                .filter(n => {
-                    const content = n.content || n.text || '';
-                    // Skip pure copyright lines
-                    if (content.includes('All rights reserved') && content.length < 80) return false;
-                    return true;
-                })
-                .map(n => {
-                    const title   = n.title || n.type || 'Note';
-                    const content = n.content || n.text || '';
-                    return `<div class="print-note">
-                        <span class="print-note-title">${esc(title)}</span>
-                        <p class="print-note-text">${esc(content)}</p>
-                    </div>`;
-                }).join('');
-            if (!items) return '';
-            return `<div class="print-notes">${items}</div>`;
-        }
-
-        function esc(s) {
-            return String(s)
-                .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-        }
-
+        function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
         init();
     })();
     </script>

@@ -4,428 +4,58 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#16161a">
-	<meta name="description" content="A–Z glossary of 169 ingredients with storage notes, substitutes, and categories.">
+    <meta name="description" content="A–Z glossary of 169 ingredients with storage notes, substitutes, and categories.">
     <title>Ingredient Directory | AJPC Kitchen Notebook</title>
-	<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2316161a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='28' font-weight='bold' fill='%23c97d3e'%3EAJ%3C/text%3E%3C/svg%3E">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2316161a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='28' font-weight='bold' fill='%23c97d3e'%3EAJ%3C/text%3E%3C/svg%3E">
     <link rel="stylesheet" href="css/main.css">
-    <style>
-        .dir-layout {
-            display: grid;
-            grid-template-columns: 220px 1fr;
-            gap: var(--sp-xl);
-            align-items: start;
-            padding: var(--sp-3xl) var(--sp-xl);
-            max-width: var(--max-wide);
-            margin: 0 auto;
-        }
-
-        /* Sidebar */
-        .dir-sidebar {
-            position: sticky;
-            top: 90px;
-            max-height: calc(100vh - 110px);
-            overflow-y: auto;
-            scrollbar-width: thin;
-            scrollbar-color: var(--slate-mid) transparent;
-        }
-
-        .dir-sidebar::-webkit-scrollbar { width: 4px; }
-        .dir-sidebar::-webkit-scrollbar-track { background: transparent; }
-        .dir-sidebar::-webkit-scrollbar-thumb { background: var(--slate-mid); border-radius: 4px; }
-
-        .dir-sidebar-section {
-            background: var(--surface-card);
-            border: 1px solid var(--border-dim);
-            border-radius: var(--r-lg);
-            overflow: hidden;
-            margin-bottom: var(--sp-md);
-        }
-
-        .dir-sidebar-label {
-            padding: 0.5rem 1rem;
-            background: var(--surface-2);
-            border-bottom: 1px solid var(--border-dim);
-            font-size: 0.68rem;
-            letter-spacing: 0.15em;
-            text-transform: uppercase;
-            color: var(--copper);
-            font-weight: 600;
-            font-family: var(--font-body);
-        }
-
-        .az-grid {
-            display: grid;
-            grid-template-columns: repeat(6, 1fr);
-            gap: 1px;
-            background: var(--border-dim);
-            border-top: 1px solid var(--border-dim);
-        }
-
-        .az-btn {
-            background: var(--surface-card);
-            border: none;
-            color: var(--cream-muted);
-            font-family: var(--font-body);
-            font-size: 0.78rem;
-            font-weight: 600;
-            padding: 0.4rem 0;
-            cursor: pointer;
-            transition: all var(--t-fast);
-            text-align: center;
-        }
-        .az-btn:hover { background: var(--slate); color: var(--cream); }
-        .az-btn.active { background: var(--copper-dark); color: var(--cream); }
-        .az-btn.disabled { color: var(--cream-faint); cursor: default; pointer-events: none; }
-
-        .cat-list {
-            padding: 0.5rem 0;
-            max-height: 280px;
-            overflow-y: auto;
-            scrollbar-width: thin;
-            scrollbar-color: var(--slate-mid) transparent;
-        }
-
-        .cat-btn {
-            display: block;
-            width: 100%;
-            text-align: left;
-            padding: 0.4rem 1rem;
-            background: none;
-            border: none;
-            color: var(--cream-muted);
-            font-family: var(--font-body);
-            font-size: 0.83rem;
-            cursor: pointer;
-            transition: all var(--t-fast);
-        }
-        .cat-btn:hover { color: var(--cream); background: var(--slate); }
-        .cat-btn.active { color: var(--copper-warm); background: rgba(201,125,62,0.08); }
-
-        /* Search */
-        .dir-search-wrap {
-            position: relative;
-            margin-bottom: var(--sp-md);
-        }
-        .dir-search-wrap svg {
-            position: absolute;
-            left: 0.75rem;
-            top: 50%;
-            transform: translateY(-50%);
-            color: var(--cream-muted);
-            pointer-events: none;
-        }
-        .dir-search {
-            width: 100%;
-            padding: 0.5rem 0.75rem 0.5rem 2.25rem;
-            background: var(--surface-2);
-            border: 1px solid var(--border-mid);
-            border-radius: var(--r-full);
-            color: var(--cream);
-            font-family: var(--font-body);
-            font-size: 0.85rem;
-        }
-        .dir-search::placeholder { color: var(--cream-muted); }
-        .dir-search:focus { outline: none; border-color: var(--copper); }
-
-        /* Main content */
-        .dir-main {}
-
-        .dir-header {
-            margin-bottom: var(--sp-xl);
-            padding-bottom: var(--sp-md);
-            border-bottom: 1px solid var(--border-dim);
-        }
-
-        .dir-header h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); margin-bottom: 0.25rem; }
-        .dir-count { font-size: 0.82rem; color: var(--cream-muted); }
-
-        .dir-group { margin-bottom: var(--sp-2xl); }
-
-        .dir-group-letter {
-            font-family: var(--font-display);
-            font-size: 1.8rem;
-            color: var(--copper);
-            margin-bottom: var(--sp-md);
-            padding-bottom: var(--sp-sm);
-            border-bottom: 1px solid var(--border-dim);
-        }
-
-        .ingredient-card {
-            background: var(--surface-card);
-            border: 1px solid var(--border-dim);
-            border-radius: var(--r-md);
-            padding: var(--sp-lg);
-            margin-bottom: var(--sp-sm);
-            transition: border-color var(--t-fast);
-        }
-        .ingredient-card:hover { border-color: var(--border-mid); }
-
-        .ingredient-card-top {
-            display: flex;
-            align-items: baseline;
-            gap: var(--sp-md);
-            flex-wrap: wrap;
-            margin-bottom: var(--sp-xs);
-        }
-
-        .ingredient-name {
-            font-family: var(--font-display);
-            font-size: 1.1rem;
-            color: var(--cream);
-        }
-
-        .ingredient-aka {
-            font-size: 0.78rem;
-            color: var(--cream-muted);
-            font-style: italic;
-        }
-
-        .ingredient-cat-badge {
-            font-size: 0.68rem;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: var(--copper);
-            font-weight: 600;
-            background: rgba(201,125,62,0.1);
-            border: 1px solid var(--border-copper);
-            padding: 0.15rem 0.5rem;
-            border-radius: var(--r-sm);
-            margin-left: auto;
-        }
-
-        .ingredient-notes {
-            font-size: 0.875rem;
-            color: var(--cream-dim);
-            line-height: 1.7;
-            margin: 0;
-        }
-
-        .ingredient-sub {
-            margin-top: var(--sp-sm);
-            font-size: 0.8rem;
-            color: var(--cream-muted);
-        }
-
-        .ingredient-sub strong {
-            color: var(--copper-warm);
-            font-size: 0.7rem;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
-        }
-
-        .no-results {
-            text-align: center;
-            padding: var(--sp-3xl);
-            color: var(--cream-muted);
-        }
-
-        .dir-print-btn {
-            display: inline-flex;
-            align-items: center;
-            gap: var(--sp-sm);
-            padding: 0.5rem 1rem;
-            background: rgba(201,125,62,0.12);
-            border: 1px solid var(--border-copper);
-            border-radius: var(--r-md);
-            color: var(--copper-warm);
-            font-family: var(--font-body);
-            font-size: 0.82rem;
-            font-weight: 500;
-            cursor: pointer;
-            transition: all var(--t-fast);
-            margin-top: var(--sp-sm);
-        }
-        .dir-print-btn:hover {
-            background: rgba(201,125,62,0.22);
-            color: var(--copper-pale);
-        }
-
-        @media (max-width: 800px) {
-            .dir-layout { grid-template-columns: 1fr; }
-            .dir-sidebar { position: static; }
-        }
-
-        /* ---- Print ---- */
-        @page { size: A4 portrait; margin: 12mm 12mm; }
-
-        @media print {
-            * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-
-            .nav-header, .scroll-progress, .back-to-top,
-            .dir-sidebar, .footer, .dir-print-btn { display: none !important; }
-
-            html { font-size: 9pt; }
-
-            body {
-                background: #ffffff;
-                color: #1a1814;
-                font-family: 'DM Sans', sans-serif;
-                line-height: 1.5;
-                margin: 0;
-                padding: 0;
-            }
-            body::before { display: none; }
-
-            .dir-layout {
-                display: block;
-                padding: 0;
-                max-width: 100%;
-            }
-
-            .dir-main { width: 100%; }
-
-            .dir-header {
-                margin-bottom: 10pt;
-                padding-bottom: 5pt;
-                border-bottom: 1pt solid #ddd7cc;
-            }
-
-            .dir-header h1 {
-                font-size: 18pt;
-                color: #1a1814;
-                margin-bottom: 2pt;
-            }
-
-            .dir-count { font-size: 8pt; color: #9a9088; }
-
-            /* Each letter fills its own page */
-            #dirContent { columns: 1; }
-
-            .dir-group { margin-bottom: 10pt; }
-
-            .dir-group-letter {
-                font-size: 13pt;
-                color: #c97d3e;
-                border-bottom: 1px solid #ddd7cc;
-                padding-bottom: 2pt;
-                margin-bottom: 8pt;
-                font-family: 'DM Serif Display', Georgia, serif;
-                page-break-after: avoid;
-            }
-
-            /* Two columns within each letter using grid, not columns */
-            .dir-group-cards {
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                column-gap: 14pt;
-            }
-
-            .ingredient-card {
-                background: none;
-                border: none;
-                border-bottom: 1px solid #ece7de;
-                border-radius: 0;
-                padding: 4pt 0;
-                margin-bottom: 0;
-                page-break-inside: avoid;
-                break-inside: avoid;
-            }
-            .ingredient-card:hover { border-color: #ece7de; }
-
-            .ingredient-card-top {
-                display: flex;
-                align-items: baseline;
-                gap: 5pt;
-                flex-wrap: wrap;
-                margin-bottom: 1pt;
-            }
-
-            .ingredient-name {
-                font-size: 8.5pt;
-                font-weight: 700;
-                color: #1a1814;
-                font-family: 'DM Sans', sans-serif;
-            }
-
-            .ingredient-aka {
-                font-size: 7pt;
-                color: #7a7268;
-                font-style: italic;
-            }
-
-            .ingredient-cat-badge {
-                font-size: 6pt;
-                color: #9a5e28;
-                background: #f5ede3;
-                border: 1px solid #c97d3e;
-                padding: 0.5pt 3pt;
-                border-radius: 2pt;
-                letter-spacing: 0.08em;
-                text-transform: uppercase;
-                font-weight: 700;
-                margin-left: auto;
-            }
-
-            .ingredient-notes {
-                font-size: 7.5pt;
-                color: #4a4540;
-                line-height: 1.4;
-                margin: 0;
-            }
-
-            .ingredient-sub {
-                font-size: 7pt;
-                color: #7a7268;
-                margin-top: 1pt;
-            }
-
-            .ingredient-sub strong {
-                color: #9a5e28;
-                font-size: 6.5pt;
-                text-transform: uppercase;
-                letter-spacing: 0.06em;
-            }
-        }
-    </style>
 </head>
 <body>
     <div class="scroll-progress" id="scrollProgress"></div>
     <div id="nav-placeholder"></div>
 
     <div class="dir-layout">
-
-        <!-- Sidebar -->
+        <!-- SIDEBAR -->
         <aside class="dir-sidebar">
-
             <div class="dir-search-wrap">
-                <svg width="14" height="14" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-                    <circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="2"/>
-                    <path d="M12.5 12.5L17 17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                </svg>
+                <svg width="14" height="14" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="2"/><path d="M12.5 12.5L17 17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
                 <input type="text" class="dir-search" id="dirSearch" placeholder="Search ingredients..." autocomplete="off">
             </div>
 
             <div class="dir-sidebar-section">
-                <div class="dir-sidebar-label">A &ndash; Z</div>
+                <div class="dir-sidebar-label">A &ndash; Z Index</div>
                 <div class="az-grid" id="azGrid"></div>
             </div>
 
             <div class="dir-sidebar-section">
-                <div class="dir-sidebar-label">Category</div>
+                <div class="dir-sidebar-label">Browse Category</div>
                 <div class="cat-list" id="catList"></div>
             </div>
-
         </aside>
 
-        <!-- Main -->
+        <!-- MAIN CONTENT -->
         <main class="dir-main">
-            <div class="dir-header">
-                <p style="font-size:0.75rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--copper);font-weight:600;margin-bottom:0.4rem;">Reference</p>
+            <header class="reference-header">
+                <span class="reference-eyebrow">Ingredient Reference</span>
                 <h1>Ingredient Directory</h1>
-                <p class="dir-count" id="dirCount">Loading...</p>
-                <button class="dir-print-btn" onclick="window.print()">Print Current View</button>
-            </div>
+                <p id="dirCount" class="dir-count">Loading...</p>
+                <p class="reference-description">Detailed notes on storage, substitutes, and culinary uses for your pantry staples.</p>
+                <button class="print-btn" onclick="window.print()">Print Current View</button>
+            </header>
+
             <div id="dirContent">
-                <div class="loading-state"><div class="loading-spinner"></div><p>Loading ingredients...</p></div>
+                <div class="loading-state">
+                    <div class="loading-spinner"></div>
+                    <p>Accessing inventory...</p>
+                </div>
             </div>
         </main>
-
     </div>
 
     <footer>
-        <div class="footer-inner" style="max-width:var(--max-wide);margin:0 auto;padding:var(--sp-2xl) var(--sp-xl);">
+        <div class="footer-inner">
             <span class="footer-brand">AJPC</span>
             <p class="footer-copy">&copy; 2026 Ana &amp; John's Kitchen Notebook.</p>
+            <button class="print-btn" onclick="window.print()">Print</button>
         </div>
     </footer>
 
@@ -435,10 +65,9 @@
     <script>
     (function() {
         'use strict';
-
         let allIngredients = {};
         let currentFilter = { type: 'all', value: null };
-        let searchQuery   = '';
+        let searchQuery = '';
 
         async function init() {
             try {
@@ -446,11 +75,9 @@
                 if (!res.ok) throw new Error('Not found');
                 allIngredients = await res.json();
             } catch(e) {
-                document.getElementById('dirContent').innerHTML =
-                    '<p class="no-results">Could not load ingredient directory.</p>';
+                document.getElementById('dirContent').innerHTML = '<p class="no-results">Could not load ingredient directory.</p>';
                 return;
             }
-
             buildAZ();
             buildCategories();
             render();
@@ -469,17 +96,12 @@
                 const has = letters.includes(l);
                 return `<button class="az-btn${has ? '' : ' disabled'}" data-letter="${l}">${l}</button>`;
             }).join('');
-
             grid.addEventListener('click', e => {
                 const btn = e.target.closest('.az-btn:not(.disabled)');
                 if (!btn) return;
                 searchQuery = '';
                 document.getElementById('dirSearch').value = '';
-                if (currentFilter.type === 'letter' && currentFilter.value === btn.dataset.letter) {
-                    setFilter('all', null);
-                } else {
-                    setFilter('letter', btn.dataset.letter);
-                }
+                setFilter(currentFilter.type === 'letter' && currentFilter.value === btn.dataset.letter ? 'all' : 'letter', btn.dataset.letter);
             });
         }
 
@@ -488,7 +110,6 @@
             const list = document.getElementById('catList');
             list.innerHTML = `<button class="cat-btn active" data-cat="all">All Categories</button>` +
                 cats.map(c => `<button class="cat-btn" data-cat="${esc(c)}">${esc(c)}</button>`).join('');
-
             list.addEventListener('click', e => {
                 const btn = e.target.closest('.cat-btn');
                 if (!btn) return;
@@ -501,62 +122,28 @@
 
         function setFilter(type, value) {
             currentFilter = { type, value };
-            updateActiveStates();
+            document.querySelectorAll('.az-btn').forEach(b => b.classList.toggle('active', currentFilter.type === 'letter' && b.dataset.letter === currentFilter.value));
+            document.querySelectorAll('.cat-btn').forEach(b => b.classList.toggle('active', (currentFilter.type === 'all' && b.dataset.cat === 'all') || (currentFilter.type === 'category' && b.dataset.cat === currentFilter.value)));
             render();
-        }
-
-        function updateActiveStates() {
-            document.querySelectorAll('.az-btn').forEach(b => {
-                b.classList.toggle('active',
-                    currentFilter.type === 'letter' && b.dataset.letter === currentFilter.value);
-            });
-            document.querySelectorAll('.cat-btn').forEach(b => {
-                b.classList.toggle('active',
-                    (currentFilter.type === 'all' && b.dataset.cat === 'all') ||
-                    (currentFilter.type === 'category' && b.dataset.cat === currentFilter.value));
-            });
         }
 
         function render() {
             const entries = Object.entries(allIngredients).filter(([name, data]) => {
-                if (currentFilter.type === 'letter') {
-                    if (name[0].toUpperCase() !== currentFilter.value) return false;
-                }
-                if (currentFilter.type === 'category') {
-                    if ((data.category || '') !== currentFilter.value) return false;
-                }
+                if (currentFilter.type === 'letter' && name[0].toUpperCase() !== currentFilter.value) return false;
+                if (currentFilter.type === 'category' && (data.category || '') !== currentFilter.value) return false;
                 if (searchQuery) {
-    // Only search name and AKA fields — not notes or category
-    var haystack = [
-        name,
-        (data.aka || []).join(' ')
-    ].join(' ').toLowerCase();
-
-    // Match whole words only
-    var words = haystack.split(/\s+/);
-    var queryLower = searchQuery.toLowerCase();
-
-    var found = false;
-    for (var i = 0; i < words.length; i++) {
-        if (words[i].indexOf(queryLower) === 0) {
-            found = true;
-            break;
-        }
-    }
-    return found;
-}
+                    const haystack = [name, (data.aka || []).join(' ')].join(' ').toLowerCase();
+                    return haystack.split(/\s+/).some(word => word.indexOf(searchQuery.toLowerCase()) === 0);
+                }
                 return true;
             }).sort(([a], [b]) => a.localeCompare(b));
 
-            const countEl = document.getElementById('dirCount');
-            countEl.textContent = `${entries.length} ingredient${entries.length !== 1 ? 's' : ''}`;
-
+            document.getElementById('dirCount').textContent = `${entries.length} ingredient${entries.length !== 1 ? 's' : ''}`;
             if (!entries.length) {
                 document.getElementById('dirContent').innerHTML = '<p class="no-results">No ingredients match your search.</p>';
                 return;
             }
 
-            // Group by letter
             const byLetter = {};
             entries.forEach(([name, data]) => {
                 const l = name[0].toUpperCase();
@@ -564,62 +151,31 @@
                 byLetter[l].push([name, data]);
             });
 
-            const groups = Object.entries(byLetter);
             const usePageBreaks = currentFilter.type === 'all' && !searchQuery;
-            document.getElementById('dirContent').innerHTML = groups.map(([letter, group], i) => `
+            document.getElementById('dirContent').innerHTML = Object.entries(byLetter).map(([letter, group], i) => `
                 ${i > 0 && usePageBreaks ? '<div style="page-break-before:always;"></div>' : ''}
                 <div class="dir-group">
                     <div class="dir-group-letter">${letter}</div>
-                    <div class="dir-group-cards">
-                        ${group.map(([name, d]) => renderCard(name, d)).join('')}
-                    </div>
+                    <div class="dir-group-cards">${group.map(([name, d]) => renderCard(name, d)).join('')}</div>
                 </div>`).join('');
         }
 
-function renderCard(name, d) {
-    const aka = d.aka && d.aka.length ? `<span class="ingredient-aka">Also: ${d.aka.join(', ')}</span>` : '';
-    const badge = d.category ? `<span class="ingredient-cat-badge">${esc(d.category)}</span>` : '';
-    const notes = d.notes ? `<p class="ingredient-notes">${esc(d.notes)}</p>` : '';
+        function renderCard(name, d) {
+            const aka = d.aka && d.aka.length ? `<span class="ingredient-aka">Also: ${d.aka.join(', ')}</span>` : '';
+            const badge = d.category ? `<span class="ingredient-cat-badge">${esc(d.category)}</span>` : '';
+            const notes = d.notes ? `<p class="ingredient-notes">${esc(d.notes)}</p>` : '';
+            const subs = [];
+            if (d.substitutes) subs.push(`<strong>Substitutes:</strong> ${[].concat(d.substitutes).map(esc).join(', ')}`);
+            if (d.storage) subs.push(`<strong>Storage:</strong> ${esc(d.storage.replace(/\*\*/g, ''))}`);
+            const subHtml = subs.length ? `<div class="ingredient-sub">${subs.join(' &nbsp;&bull;&nbsp; ')}</div>` : '';
 
-    const subs = [];
-    // FIX: Handle substitutes as string OR array
-    if (d.substitutes) {
-        let subsList = d.substitutes;
-        // If it's a string, convert to array
-        if (typeof subsList === 'string') {
-            subsList = [subsList];
-        }
-        if (subsList.length) {
-            subs.push(`<strong>Substitutes:</strong> ${subsList.map(esc).join(', ')}`);
-        }
-    }
-    // FIX: Clean up storage string if needed
-    if (d.storage) {
-        let storageText = d.storage;
-        // Remove any stray ** characters
-        if (typeof storageText === 'string') {
-            storageText = storageText.replace(/\*\*/g, '');
-        }
-        subs.push(`<strong>Storage:</strong> ${esc(storageText)}`);
-    }
-    const subHtml = subs.length ? `<div class="ingredient-sub">${subs.join(' &nbsp;&bull;&nbsp; ')}</div>` : '';
-
-    return `<div class="ingredient-card">
-        <div class="ingredient-card-top">
-            <span class="ingredient-name">${esc(name)}</span>
-            ${aka}
-            ${badge}
-        </div>
-        ${notes}
-        ${subHtml}
-    </div>`;
-}
-
-        function esc(s) {
-            return String(s)
-                .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+            return `<div class="ingredient-card">
+                <div class="ingredient-card-top"><span class="ingredient-name">${esc(name)}</span>${aka}${badge}</div>
+                ${notes}${subHtml}
+            </div>`;
         }
 
+        function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
         init();
     })();
     </script>

@@ -121,23 +121,75 @@
   "related": [
     {
       "id": "bistro-reefandbeef",
-      "title": "Reef and Beef"
+      "title": "Reef and Beef",
+      "matchingTags": [
+        "Australian",
+        "Beef",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Rich",
+        "Savoury",
+        "Seafood",
+        "Under 30 Minutes"
+      ]
     },
     {
       "id": "bistro-filetmignon",
-      "title": "Filet Mignon"
+      "title": "Filet Mignon",
+      "matchingTags": [
+        "Beef",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     },
     {
       "id": "bistro-steakboston",
-      "title": "Steak Boston"
+      "title": "Steak Boston",
+      "matchingTags": [
+        "Alcohol",
+        "Beef",
+        "Classic",
+        "Dinner",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     },
     {
       "id": "bistro-chickenpapion",
-      "title": "Chicken Papion"
+      "title": "Chicken Papion",
+      "matchingTags": [
+        "Alcohol",
+        "Chicken",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Rich",
+        "Savoury",
+        "Seafood",
+        "Under 30 Minutes"
+      ]
     },
     {
       "id": "bistro-chickenriverina",
-      "title": "Chicken Riverina"
+      "title": "Chicken Riverina",
+      "matchingTags": [
+        "Australian",
+        "Chicken",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     }
   ],
   "nutrition": {
@@ -149,7 +201,7 @@
     "sugars": 5,
     "fat": 47,
     "saturated_fat": 28,
-    "fibre": 3,
+    "fiber": 3,
     "sodium": 2575,
     "coverage": 88,
     "calcium_mg": 974,
@@ -162,5 +214,5 @@
     "vitamin_c_mg": 26,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-05-24"
+  "lastModified": "2026-05-31"
 }

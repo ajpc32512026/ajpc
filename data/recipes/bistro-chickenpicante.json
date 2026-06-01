@@ -102,23 +102,75 @@
   "related": [
     {
       "id": "bistro-chickenkiev",
-      "title": "Chicken Kiev"
+      "title": "Chicken Kiev",
+      "matchingTags": [
+        "Alcohol",
+        "Chicken",
+        "Classic",
+        "Creamy",
+        "Deep-Fried",
+        "Dinner",
+        "Garlic",
+        "Rich",
+        "Savoury"
+      ]
     },
     {
       "id": "bistro-chickenriverina",
-      "title": "Chicken Riverina"
+      "title": "Chicken Riverina",
+      "matchingTags": [
+        "Australian",
+        "Chicken",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     },
     {
       "id": "bistro-chickenpapion",
-      "title": "Chicken Papion"
+      "title": "Chicken Papion",
+      "matchingTags": [
+        "Alcohol",
+        "Chicken",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Rich",
+        "Savoury",
+        "Seafood",
+        "Under 30 Minutes"
+      ]
     },
     {
       "id": "bistro-vealmadagascar",
-      "title": "Veal Madagascar"
+      "title": "Veal Madagascar",
+      "matchingTags": [
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     },
     {
       "id": "bistro-mediterraneansteak",
-      "title": "Mediterranean Steak"
+      "title": "Mediterranean Steak",
+      "matchingTags": [
+        "Alcohol",
+        "Beef",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Seafood",
+        "Under 30 Minutes"
+      ]
     }
   ],
   "nutrition": {
@@ -130,7 +182,7 @@
     "sugars": 8,
     "fat": 54,
     "saturated_fat": 32,
-    "fibre": 3,
+    "fiber": 3,
     "sodium": 119,
     "coverage": 88,
     "calcium_mg": 99,
@@ -143,5 +195,5 @@
     "vitamin_c_mg": 8,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-05-24"
+  "lastModified": "2026-05-31"
 }

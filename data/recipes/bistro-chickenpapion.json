@@ -96,23 +96,80 @@
   "related": [
     {
       "id": "bistro-chickenpicante",
-      "title": "Chicken Picante"
+      "title": "Chicken Picante",
+      "matchingTags": [
+        "Alcohol",
+        "Chicken",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "French",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     },
     {
       "id": "bistro-chickenriverina",
-      "title": "Chicken Riverina"
+      "title": "Chicken Riverina",
+      "matchingTags": [
+        "Australian",
+        "Chicken",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     },
     {
       "id": "bistro-fishoftheday",
-      "title": "Fish of the Day"
+      "title": "Fish of the Day",
+      "matchingTags": [
+        "Alcohol",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Fish",
+        "Gluten-Free",
+        "Lemon",
+        "Rich",
+        "Savoury",
+        "Seafood",
+        "Under 30 Minutes"
+      ]
     },
     {
       "id": "bistro-reefandbeef",
-      "title": "Reef and Beef"
+      "title": "Reef and Beef",
+      "matchingTags": [
+        "Australian",
+        "Beef",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Rich",
+        "Savoury",
+        "Seafood",
+        "Under 30 Minutes"
+      ]
     },
     {
       "id": "bistro-chickenkiev",
-      "title": "Chicken Kiev"
+      "title": "Chicken Kiev",
+      "matchingTags": [
+        "Alcohol",
+        "Chicken",
+        "Classic",
+        "Creamy",
+        "Deep-Fried",
+        "Dinner",
+        "Garlic",
+        "Rich",
+        "Savoury"
+      ]
     }
   ],
   "nutrition": {
@@ -124,7 +181,7 @@
     "sugars": 7,
     "fat": 61,
     "saturated_fat": 34,
-    "fibre": 2,
+    "fiber": 2,
     "sodium": 3286,
     "coverage": 86,
     "calcium_mg": 1213,
@@ -137,5 +194,5 @@
     "vitamin_c_mg": 13,
     "vitamin_d_ug": 3
   },
-  "lastModified": "2026-05-24"
+  "lastModified": "2026-05-31"
 }

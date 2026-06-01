@@ -4,98 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#16161a">
-	<meta name="description" content="Search across 114 recipes by name, ingredient, or tag — Ana &amp; John's Kitchen Notebook.">
+    <meta name="description" content="Search across all recipes by name, ingredient, or tag — Ana &amp; John's Kitchen Notebook.">
     <title>Search Recipes | AJPC Kitchen Notebook</title>
-	<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2316161a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='28' font-weight='bold' fill='%23c97d3e'%3EAJ%3C/text%3E%3C/svg%3E">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2316161a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='28' font-weight='bold' fill='%23c97d3e'%3EAJ%3C/text%3E%3C/svg%3E">
     <link rel="stylesheet" href="css/main.css">
-    <style>
-        /* Ingredient search enhancements */
-        .ingredient-match-badge {
-            display: inline-block;
-            background: rgba(201, 125, 62, 0.15);
-            padding: 0.2rem 0.6rem;
-            border-radius: 20px;
-            font-size: 0.7rem;
-            margin-bottom: 0.5rem;
-        }
-        .ingredient-match-details {
-            margin-top: 0.5rem;
-            font-size: 0.75rem;
-        }
-        .ingredient-match-details .match-tag {
-            display: inline-block;
-            background: rgba(201, 125, 62, 0.15);
-            padding: 0.15rem 0.5rem;
-            border-radius: 12px;
-            margin: 0.2rem;
-        }
-        .ingredient-match-details .missing-tag {
-            display: inline-block;
-            background: rgba(120, 110, 100, 0.2);
-            padding: 0.15rem 0.5rem;
-            border-radius: 12px;
-            margin: 0.2rem;
-            text-decoration: line-through;
-        }
-        .search-examples {
-            margin-top: 1rem;
-            padding: 0.75rem 1rem;
-            background: rgba(201, 125, 62, 0.05);
-            border-radius: 12px;
-            font-size: 0.8rem;
-            color: var(--cream-muted);
-        }
-        .search-examples strong {
-            color: var(--copper-warm);
-        }
-        .search-examples code {
-            background: rgba(0,0,0,0.3);
-            padding: 0.2rem 0.4rem;
-            border-radius: 6px;
-            font-family: monospace;
-            font-size: 0.75rem;
-        }
-        
-        /* Popular tags styles */
-        .popular-tags {
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: var(--sp-sm);
-            margin-top: var(--sp-md);
-            margin-bottom: var(--sp-md);
-            padding: var(--sp-md);
-            background: var(--surface-card);
-            border-radius: var(--r-lg);
-            border: 1px solid var(--border-dim);
-        }
-        .popular-tags-label {
-            font-size: 0.7rem;
-            color: var(--copper);
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
-            font-weight: 600;
-        }
-        .popular-tag {
-            display: inline-block;
-            padding: 0.25rem 0.7rem;
-            background: var(--surface-2);
-            border-radius: var(--r-full);
-            font-size: 0.8rem;
-            color: var(--cream-dim);
-            text-decoration: none;
-            transition: all var(--t-fast);
-        }
-        .popular-tag:hover {
-            background: var(--copper);
-            color: var(--ink);
-        }
-        .tag-skeleton {
-            color: var(--cream-muted);
-            font-size: 0.8rem;
-            font-style: italic;
-        }
-    </style>
 </head>
 <body>
 
@@ -104,10 +16,16 @@
 
     <div class="content-wrapper">
         <main class="search-page">
-            <h1>Search Recipes</h1>
+            
+            <header class="reference-header">
+                <span class="reference-eyebrow">Discovery</span>
+                <h1>Search Recipes</h1>
+                <p class="reference-description">Enter a recipe name, ingredient, or tag to search across the entire notebook. Try typing what you have in your fridge!</p>
+            </header>
 
-            <div style="position:relative;">
-                <svg style="position:absolute;left:1.1rem;top:50%;transform:translateY(-50%);color:var(--cream-muted);pointer-events:none;" width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <!-- Search Input Wrapper -->
+            <div class="search-input-wrapper">
+                <svg class="search-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
                     <circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="2"/>
                     <path d="M12.5 12.5L17 17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
                 </svg>
@@ -124,23 +42,26 @@
 
             <p class="search-results-count" id="resultsCount"></p>
             
+            <!-- Search Tips -->
             <div class="search-examples">
                 💡 <strong>Search tips:</strong>
-                <br>• <strong>Standard search:</strong> <code>chicken</code> or <code>bread</code> or <code>#dinner</code>
+                <br>• <strong>Standard search:</strong> <code>chicken</code>, <code>bread</code>, or <code>#dinner</code>
                 <br>• <strong>Ingredient search:</strong> <code>chicken, cream, mushrooms</code> or <code>beef oysters wine</code>
-                <br>• Searches with commas, "and", or 4+ words automatically become ingredient matching
-                <br>• Pantry staples like salt, pepper, butter, oil are ignored from ingredient matching
+                <br>• Searches with commas, "and", or 4+ words automatically activate ingredient matching.
+                <br>• Pantry staples like salt, pepper, butter, and oil are ignored during ingredient matching.
             </div>
             
+            <!-- Popular Tags -->
             <div class="popular-tags">
-                <span class="popular-tags-label">Popular:</span>
+                <span class="popular-tags-label">Popular Tags:</span>
                 <div class="popular-tags-list" id="popularTagsList">
-                    <span class="tag-skeleton">Loading...</span>
+                    <span class="tag-skeleton">Loading tags...</span>
                 </div>
             </div>
 
+            <!-- Results Container -->
             <div id="searchResults">
-                <p style="color:var(--cream-muted);">Enter a recipe name, ingredient, or tag to search across all recipes. Try typing what you have in your fridge!</p>
+                <p class="section-note">Enter your search terms above to begin.</p>
             </div>
         </main>
 

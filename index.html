@@ -21,7 +21,7 @@
     <div class="content-wrapper">
         <main>
 
-            <!-- Hero -->
+            <!-- SECTION: Hero -->
             <section class="hero-section animate-in">
                 <p class="hero-eyebrow">Est. 2025 &mdash; Sydney, Australia</p>
                 <div class="hero-rule"></div>
@@ -29,7 +29,7 @@
                 <p class="hero-tagline">Not a blog, not a brand &mdash; just the recipes we actually cook, written down so they don't get lost to time or temperamental memory.</p>
             </section>
 
-            <!-- Stats Card -->
+            <!-- SECTION: Stats -->
             <div class="stats-container animate-in animate-in-delay-1">
                 <div class="stats-card">
                     <div class="stats-number">
@@ -37,6 +37,7 @@
                     </div>
                     <div class="stats-label">Recipes in the notebook</div>
                     <hr class="stats-divider">
+                    
                     <div class="stats-covers">
                         <div class="stats-covers-label">Covers</div>
                         <div class="stats-tags">
@@ -50,27 +51,28 @@
                             <span>Biscuits</span>
                         </div>
                     </div>
+                    
                     <hr class="stats-divider">
                     <a href="search.html" class="stats-button">Browse all recipes &rarr;</a>
                 </div>
             </div>
 
-            <!-- Featured Recipes (6 items) -->
+            <!-- SECTION: Featured Recipes -->
             <section class="featured-section animate-in animate-in-delay-2">
                 <div class="section-header">
                     <span class="section-label">Featured This Week</span>
                     <span class="section-note">Changes every Monday</span>
                 </div>
-                <div class="recipe-grid">
-                    <!-- Populated by featured-recipes-rotator.js -->
-                </div>
+                <!-- Populated via JS -->
+                <div class="recipe-grid"></div>
             </section>
 
         </main>
 
         <footer>
             <div class="footer-inner">
-                <div class="footer-brand">AJPC</div>
+                <span class="footer-brand">AJPC</span>
+                
                 <div class="footer-links">
                     <a href="about.html">About</a>
                     <a href="sitemap.html">Sitemap</a>
@@ -79,18 +81,18 @@
                     <a href="gallery.html">Gallery</a>
                     <a href="measurement.html">Measurements</a>
                 </div>
-                <p class="footer-copy">© 2026 Ana &amp; John's Kitchen Notebook. Built with ☕ and patience.</p>
+                
+                <p class="footer-copy">&copy; 2026 Ana &amp; John's Kitchen Notebook. Built with ☕ and patience.</p>
             </div>
         </footer>
     </div>
 
-    <!-- Back to Top -->
+    <!-- UI Components -->
     <button class="back-to-top" id="backToTop" aria-label="Back to top">&#8593;</button>
 
     <script src="js/nav-loader.js"></script>
     <script src="js/featured-recipes-rotator.js"></script>
     
-    <!-- Auto-update recipe count from recipe-index.json -->
     <script>
     (function() {
         async function updateRecipeCount() {
@@ -98,11 +100,8 @@
                 const res = await fetch('json/recipe-index.json?t=' + Date.now());
                 if (res.ok) {
                     const recipes = await res.json();
-                    const count = recipes.length;
                     const countSpan = document.getElementById('recipeCount');
-                    if (countSpan) {
-                        countSpan.textContent = count;
-                    }
+                    if (countSpan) countSpan.textContent = recipes.length;
                 }
             } catch(e) {
                 console.warn('Could not load recipe count:', e);

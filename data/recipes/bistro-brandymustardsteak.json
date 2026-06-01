@@ -91,45 +91,104 @@
   "related": [
     {
       "id": "bistro-mediterraneansteak",
-      "title": "Mediterranean Steak"
+      "title": "Mediterranean Steak",
+      "matchingTags": [
+        "Alcohol",
+        "Beef",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Seafood",
+        "Under 30 Minutes"
+      ]
     },
     {
       "id": "bistro-filetmignon",
-      "title": "Filet Mignon"
+      "title": "Filet Mignon",
+      "matchingTags": [
+        "Beef",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     },
     {
       "id": "bistro-chickenpicante",
-      "title": "Chicken Picante"
+      "title": "Chicken Picante",
+      "matchingTags": [
+        "Alcohol",
+        "Chicken",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "French",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
     },
     {
       "id": "bistro-fishoftheday",
-      "title": "Fish of the Day"
+      "title": "Fish of the Day",
+      "matchingTags": [
+        "Alcohol",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Fish",
+        "Gluten-Free",
+        "Lemon",
+        "Rich",
+        "Savoury",
+        "Seafood",
+        "Under 30 Minutes"
+      ]
     },
     {
       "id": "bistro-chickenpapion",
-      "title": "Chicken Papion"
+      "title": "Chicken Papion",
+      "matchingTags": [
+        "Alcohol",
+        "Chicken",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Rich",
+        "Savoury",
+        "Seafood",
+        "Under 30 Minutes"
+      ]
     }
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 546,
-    "kj": 2285,
-    "protein": 16,
-    "carbs": 34,
-    "sugars": 11,
-    "fat": 31,
-    "saturated_fat": 15,
-    "fibre": 4,
-    "sodium": 148,
+    "cal": 749,
+    "kj": 3133,
+    "protein": 15,
+    "carbs": 33,
+    "sugars": 9,
+    "fat": 55,
+    "saturated_fat": 32,
+    "fiber": 4,
+    "sodium": 134,
     "coverage": 86,
-    "calcium_mg": 132,
+    "calcium_mg": 94,
     "iron_mg": 2,
-    "potassium_mg": 498,
-    "magnesium_mg": 78,
+    "potassium_mg": 444,
+    "magnesium_mg": 75,
     "zinc_mg": 2,
-    "cholesterol_mg": 82,
-    "vitamin_a_ug": 292,
-    "vitamin_c_mg": 37
+    "cholesterol_mg": 129,
+    "vitamin_a_ug": 544,
+    "vitamin_c_mg": 37,
+    "vitamin_d_ug": 1
   },
-  "lastModified": "2026-05-24"
+  "lastModified": "2026-05-31"
 }

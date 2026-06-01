@@ -6,67 +6,8 @@
     <meta name="theme-color" content="#16161a">
     <meta name="description" content="Common cooking techniques, methods, and terms used throughout the AJPC Kitchen Notebook.">
     <title>Culinary Terms | AJPC Kitchen Notebook</title>
-	<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2316161a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='28' font-weight='bold' fill='%23c97d3e'%3EAJ%3C/text%3E%3C/svg%3E">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2316161a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='28' font-weight='bold' fill='%23c97d3e'%3EAJ%3C/text%3E%3C/svg%3E">
     <link rel="stylesheet" href="css/main.css">
-    <style>
-        .terms-filter {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.35rem;
-            margin-bottom: var(--sp-xl);
-        }
-        .letter-btn {
-            padding: 0.3rem 0.6rem;
-            background: var(--surface-2);
-            border: 1px solid var(--border-dim);
-            border-radius: var(--r-sm);
-            color: var(--cream-muted);
-            font-family: var(--font-body);
-            font-size: 0.78rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all var(--t-fast);
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-        }
-        .letter-btn:hover, .letter-btn.active {
-            background: var(--slate-mid);
-            color: var(--copper-warm);
-            border-color: var(--border-copper);
-        }
-        .term-group { margin-bottom: var(--sp-2xl); }
-        .term-group-letter {
-            font-family: var(--font-display);
-            font-size: 2rem;
-            color: var(--copper);
-            margin-bottom: var(--sp-md);
-            padding-bottom: var(--sp-sm);
-            border-bottom: 1px solid var(--border-dim);
-        }
-        .term-entry {
-            padding: var(--sp-md) 0;
-            border-bottom: 1px solid var(--border-dim);
-            display: grid;
-            grid-template-columns: 200px 1fr;
-            gap: var(--sp-lg);
-        }
-        .term-entry:last-child { border-bottom: none; }
-        .term-name {
-            font-weight: 600;
-            color: var(--cream);
-            font-size: 0.95rem;
-            padding-top: 2px;
-        }
-        .term-def {
-            color: var(--cream-dim);
-            font-size: 0.9rem;
-            line-height: 1.7;
-            margin: 0;
-        }
-        @media (max-width: 600px) {
-            .term-entry { grid-template-columns: 1fr; gap: 0.25rem; }
-        }
-    </style>
 </head>
 <body>
 
@@ -75,9 +16,12 @@
 
     <div class="content-wrapper">
         <main class="reference-page">
-            <p style="font-size:0.75rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--copper);font-weight:600;margin-bottom:0.5rem;">Reference</p>
-            <h1>Culinary Terms</h1>
-            <p style="color:var(--cream-muted);margin-bottom:var(--sp-xl);">Common techniques, methods, and terms used throughout the notebook.</p>
+            
+            <div class="reference-header">
+                <span class="reference-eyebrow">Reference</span>
+                <h1>Culinary Glossary</h1>
+                <p class="reference-description">A comprehensive guide to the techniques, methods, and professional terms used throughout the notebook.</p>
+            </div>
 
             <div class="terms-filter" id="termsFilter">
                 <button class="letter-btn active" data-letter="all">All</button>
@@ -85,7 +29,6 @@
 
             <div id="termsList"></div>
         </main>
-
 
         <footer>
             <div class="footer-inner">
@@ -103,11 +46,14 @@
     (function() {
         const terms = [
             { term: 'Al dente', def: 'Italian for "to the tooth" — pasta or vegetables cooked until tender but still firm when bitten.' },
+            { term: 'Amuse-bouche', def: 'A single, bite-sized hors d’oeuvre, different from an appetiser because it is not ordered from a menu, but served free and according to the chef’s selection.' },
+            { term: 'Aspic', def: 'A clear jelly made from clarified meat, fish, or vegetable stock and gelatine.' },
             { term: 'Bain-marie', def: 'A water bath used to gently cook or melt ingredients. The container sits in hot water to provide indirect, even heat.' },
             { term: 'Baste', def: 'To spoon, brush, or pour pan juices or fat over food while cooking to add moisture and flavour.' },
             { term: 'Blanch', def: 'Briefly boiling food then plunging it into ice water. Preserves colour and texture, or loosens skins for peeling.' },
             { term: 'Bloom (gelatine)', def: 'Soaking gelatine in cold liquid before heating to dissolve it. Ensures a smooth, lump-free set.' },
             { term: 'Bloom (yeast)', def: 'Activating dried yeast in warm liquid with a pinch of sugar. The mixture should foam within 5-10 minutes.' },
+            { term: 'Bouquet Garni', def: 'A bundle of herbs (traditionally parsley, thyme, and bay leaf) tied together and used to flavour soups, stocks, and stews.' },
             { term: 'Braise', def: 'Slow-cooking food in a small amount of liquid in a covered pot. Produces tender, flavourful results, especially for tougher cuts.' },
             { term: 'Brine', def: 'A saltwater solution used to preserve or add moisture to meat and vegetables before cooking.' },
             { term: 'Butterfly', def: 'To cut meat almost in half and open it flat, reducing thickness for faster, more even cooking.' },
@@ -120,47 +66,50 @@
             { term: 'Dice', def: 'Cutting food into uniform cubes. Small dice = 6mm, medium = 12mm, large = 18mm.' },
             { term: 'Dredge', def: 'Coating food in flour or breadcrumbs before frying by dragging it through the coating.' },
             { term: 'Emulsify', def: 'Combining two liquids that normally do not mix (such as oil and water) by using an emulsifier such as egg yolk or mustard.' },
+            { term: 'Flambé', def: 'A cooking procedure in which alcohol (such as brandy or cognac) is added to a hot pan to create a burst of flames.' },
             { term: 'Fold', def: 'Gently incorporating ingredients using a wide, sweeping motion with a spatula to preserve air — especially important in souffles and mousses.' },
             { term: 'Fond', def: 'The browned bits stuck to a pan after searing meat or vegetables. Full of flavour, used as a sauce base.' },
+            { term: 'Gastrique', def: 'Caramelised sugar, deglazed with vinegar and used as a flavouring for sauces.' },
             { term: 'Glaze', def: 'Coating food with a sweet or savoury liquid that dries to a shiny finish when cooked.' },
             { term: 'Julienne', def: 'Cutting food into thin matchstick strips, typically 3mm x 3mm x 5-6cm.' },
             { term: 'Knead', def: 'Working dough by pushing, folding, and turning to develop gluten structure, making the dough elastic and smooth.' },
             { term: 'Macerate', def: 'Soaking fruit in sugar, alcohol, or other liquid to soften it and draw out its juices.' },
             { term: 'Marinate', def: 'Soaking food in a seasoned liquid (marinade) before cooking to add flavour and tenderise.' },
             { term: 'Mince', def: 'Cutting food into very small, irregular pieces — smaller than a dice.' },
+            { term: 'Mirepoix', def: 'A mixture of sautéed chopped vegetables (traditionally onion, celery, and carrot) used as a flavour base for stocks and sauces.' },
             { term: 'Mise en place', def: 'French for "everything in its place" — the practice of preparing and measuring all ingredients before cooking begins.' },
+            { term: 'Nappe', def: 'A term used to describe a sauce that is thick enough to coat the back of a spoon and hold a line drawn through it.' },
             { term: 'Parboil', def: 'Partially cooking food in boiling water before finishing by another method such as roasting or frying.' },
+            { term: 'Pinch', def: 'A measurement equivalent to the amount you can hold between your thumb and forefinger (approximately 1/16 of a teaspoon).' },
+            { term: 'Poach', def: 'To cook food by submerging it in a liquid (water, milk, stock, or wine) at a temperature just below simmering.' },
             { term: 'Proof (dough)', def: 'Allowing shaped dough to rest and rise before baking. Also called the second rise.' },
             { term: 'Reduce', def: 'Simmering liquid to evaporate water content, concentrating flavour and thickening the sauce.' },
+            { term: 'Refresh', def: 'To plunge blanched vegetables into ice water to stop the cooking process immediately and preserve colour.' },
             { term: 'Render', def: 'Slowly heating fatty meat (such as bacon or duck) to melt and extract the fat from the tissue.' },
             { term: 'Rest (meat)', def: 'Allowing cooked meat to sit undisturbed before cutting, so juices redistribute evenly throughout.' },
             { term: 'Roux', def: 'Equal parts fat and flour cooked together, used to thicken sauces and soups. The base of bechamel and many others.' },
             { term: 'Saute', def: 'Quickly cooking food in a small amount of fat over high heat while tossing or stirring frequently.' },
-            { term: 'Sear', def: 'Cooking food surface at very high heat until browned and caramelised. Adds flavour through the Maillard reaction, but does not "seal in" juices.' },
+            { term: 'Sear', def: 'Cooking food surface at very high heat until browned and caramelised. Adds flavour through the Maillard reaction.' },
             { term: 'Simmer', def: 'Cooking liquid at a temperature just below boiling, with small, gentle bubbles forming at the surface.' },
+            { term: 'Sous-vide', def: 'A method of cooking food in vacuum-sealed bags in a water bath at a precisely regulated temperature.' },
             { term: 'Sweat', def: 'Cooking vegetables in fat over low-medium heat until softened and translucent, without browning them.' },
-            { term: 'Tangzhong', def: 'A Japanese-derived bread technique where a portion of flour and water is cooked into a paste before mixing the dough. Results in an extremely soft, long-lasting crumb.' },
-            { term: 'Temper', def: 'Gradually raising the temperature of a cold or room-temperature ingredient (like eggs or chocolate) by slowly adding hot liquid before combining fully.' },
+            { term: 'Tangzhong', def: 'A bread technique where a portion of flour and water is cooked into a paste before mixing. Results in extremely soft, long-lasting crumb.' },
+            { term: 'Temper', def: 'Gradually raising the temperature of a cold ingredient (like eggs) by slowly adding hot liquid before combining fully.' },
             { term: 'Truss', def: 'Tying poultry with twine to hold its shape during roasting, ensuring even cooking.' },
+            { term: 'Velouté', def: 'A savoury sauce made from a roux and a light stock (fish, chicken, or veal).' },
             { term: 'Zest', def: 'The colourful outer layer of citrus skin, grated or peeled to use the fragrant oils. Avoid the bitter white pith beneath.' },
         ];
 
-        const letters = [...new Set(terms.map(t => t.term[0].toUpperCase()))].sort();
         const filterEl = document.getElementById('termsFilter');
         const listEl   = document.getElementById('termsList');
-
-        // Add letter buttons
-        letters.forEach(l => {
-            const btn = document.createElement('button');
-            btn.className = 'letter-btn';
-            btn.dataset.letter = l;
-            btn.textContent = l;
-            filterEl.appendChild(btn);
-        });
 
         function render(filter) {
             const filtered = filter === 'all' ? terms : terms.filter(t => t.term[0].toUpperCase() === filter);
             const byLetter = {};
+            
+            // Sort terms alphabetically within the groups
+            filtered.sort((a, b) => a.term.localeCompare(b.term));
+
             filtered.forEach(t => {
                 const l = t.term[0].toUpperCase();
                 if (!byLetter[l]) byLetter[l] = [];
@@ -177,6 +126,16 @@
                         </div>`).join('')}
                 </div>`).join('');
         }
+
+        // Generate Letter Buttons dynamically
+        const letters = [...new Set(terms.map(t => t.term[0].toUpperCase()))].sort();
+        letters.forEach(l => {
+            const btn = document.createElement('button');
+            btn.className = 'letter-btn';
+            btn.dataset.letter = l;
+            btn.textContent = l;
+            filterEl.appendChild(btn);
+        });
 
         render('all');
 
