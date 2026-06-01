@@ -1,209 +1,209 @@
 {
-  "id": "apricotchicken",
-  "title": "Apricot Chicken",
-  "emoji": "🍑",
-  "category": "Dinner",
-  "description": "Classic retro apricot chicken — sticky, sweet, savoury, and impossibly easy. Chicken thigh fillets baked in a glossy apricot glaze.",
-  "prepTime": "10 min",
-  "cookTime": "35 min",
-  "totalTime": "45 min",
-  "servings": "6",
-  "difficulty": "Beginner",
-  "tags": [
-    "Australian",
-    "Chicken",
-    "Classic",
-    "Dinner",
-    "Easy",
-    "Retro",
-    "Sweet"
-  ],
-  "ingredients": [
-    {
-      "quantity": "6",
-      "unit": "",
-      "item": "Chicken Thigh Fillets",
-      "notes": "boneless, skinless"
-    },
-    {
-      "quantity": "825",
-      "unit": "g",
-      "item": "Canned Apricot Halves",
-      "notes": "drained"
-    },
-    {
-      "quantity": "200",
-      "unit": "g",
-      "item": "Apricot Jam"
-    },
-    {
-      "quantity": "30",
-      "unit": "ml",
-      "item": "Soy Sauce"
-    },
-    {
-      "quantity": "2",
-      "unit": "cloves",
-      "item": "Garlic",
-      "notes": "minced"
-    },
-    {
-      "quantity": "3",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
-    },
-    {
-      "quantity": "2",
-      "unit": "g",
-      "item": "Black Pepper",
-      "notes": "to taste"
-    }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "Preheat oven to 180°C (350°F)."
-    },
-    {
-      "step": 2,
-      "instruction": "In a bowl, combine apricot jam, soy sauce, and minced garlic. Mix well."
-    },
-    {
-      "step": 3,
-      "instruction": "Season chicken thigh fillets with salt and pepper. Place in a baking dish."
-    },
-    {
-      "step": 4,
-      "instruction": "Pour jam mixture over chicken and toss to coat evenly."
-    },
-    {
-      "step": 5,
-      "instruction": "Bake uncovered for 20 minutes."
-    },
-    {
-      "step": 6,
-      "instruction": "Remove from oven. Add drained apricot halves, tucking them around the chicken."
-    },
-    {
-      "step": 7,
-      "instruction": "Return to oven and bake for final 10-15 minutes, until chicken is cooked through and sauce is sticky and glossy."
-    },
-    {
-      "step": 8,
-      "instruction": "Serve hot with rice."
-    }
-  ],
-  "notes": [
-    {
-      "type": "tip",
-      "title": "Why Thigh Fillets?",
-      "content": "Thigh fillets cook faster than legs (35 min vs 50 min) and are easier to eat — no bones, no skin. They also stay juicier than breast."
-    },
-    {
-      "type": "technique",
-      "title": "Thicker Glaze",
-      "content": "For an even stickier glaze, remove the dish from the oven after 30 minutes and place under the grill (broiler) for 2-3 minutes. Watch carefully — the sugar can burn quickly."
-    },
-    {
-      "type": "variation",
-      "title": "French Onion Version",
-      "content": "Replace garlic with 1 packet of French onion soup mix. This is the traditional 1970s version — very savoury-sweet."
-    },
-    {
-      "type": "storage",
-      "title": "Leftovers",
-      "content": "Store in an airtight container in the fridge for up to 3 days. The sauce sets like jam when cold — reheat gently."
-    }
-  ],
-  "related": [
-    {
-      "id": "bistro-chickenriverina",
-      "title": "Chicken Riverina",
-      "matchingTags": [
+    "id": "apricotchicken",
+    "title": "Apricot Chicken",
+    "emoji": "🍑",
+    "category": "Dinner",
+    "description": "Classic retro apricot chicken — sticky, sweet, savoury, and impossibly easy. Chicken thigh fillets baked in a glossy apricot glaze.",
+    "prepTime": "10 min",
+    "cookTime": "35 min",
+    "totalTime": "45 min",
+    "servings": "6",
+    "difficulty": "Beginner",
+    "tags": [
         "Australian",
         "Chicken",
         "Classic",
-        "Creamy",
-        "Dinner",
-        "Rich",
-        "Savoury",
-        "Under 30 Minutes"
-      ]
-    },
-    {
-      "id": "butterchicken",
-      "title": "Butter Chicken",
-      "matchingTags": [
-        "Chicken",
-        "Creamy",
-        "Curry",
-        "Dinner",
-        "Indian",
-        "Rich",
-        "Savoury",
-        "Under 1 Hour"
-      ]
-    },
-    {
-      "id": "chickencacciatore",
-      "title": "Chicken Cacciatore",
-      "matchingTags": [
-        "Alcohol",
-        "Chicken",
-        "Dinner",
-        "Italian",
-        "Rich",
-        "Savoury",
-        "Tomato"
-      ]
-    },
-    {
-      "id": "chickenteriyaki",
-      "title": "Chicken Teriyaki",
-      "matchingTags": [
-        "Chicken",
-        "Dinner",
-        "Japanese",
-        "Savoury",
-        "Sweet",
-        "Under 30 Minutes"
-      ]
-    },
-    {
-      "id": "honeysoychicken",
-      "title": "Honey Soy Chicken",
-      "matchingTags": [
-        "Asian",
-        "Chicken",
         "Dinner",
         "Easy",
-        "Make Ahead",
-        "Sweet",
-        "Under 1 Hour"
-      ]
-    }
-  ],
-  "nutrition": {
-    "servings": 6,
-    "cal": 353,
-    "kj": 1477,
-    "protein": 11,
-    "carbs": 62,
-    "sugars": 37,
-    "fat": 4,
-    "saturated_fat": 1,
-    "fiber": 10,
-    "sodium": 482,
-    "coverage": 100,
-    "calcium_mg": 44,
-    "iron_mg": 2,
-    "potassium_mg": 612,
-    "magnesium_mg": 38,
-    "zinc_mg": 1,
-    "cholesterol_mg": 17,
-    "vitamin_a_ug": 154,
-    "vitamin_c_mg": 14
-  },
-  "lastModified": "2026-05-31"
+        "Retro",
+        "Sweet"
+    ],
+    "ingredients": [
+        {
+            "quantity": "6",
+            "unit": "",
+            "item": "Chicken Thigh Fillets",
+            "notes": "boneless, skinless"
+        },
+        {
+            "quantity": "825",
+            "unit": "g",
+            "item": "Canned Apricot Halves",
+            "notes": "drained"
+        },
+        {
+            "quantity": "200",
+            "unit": "g",
+            "item": "Apricot Jam"
+        },
+        {
+            "quantity": "30",
+            "unit": "ml",
+            "item": "Soy Sauce"
+        },
+        {
+            "quantity": "2",
+            "unit": "cloves",
+            "item": "Garlic",
+            "notes": "minced"
+        },
+        {
+            "quantity": "3",
+            "unit": "g",
+            "item": "Salt",
+            "notes": "to taste"
+        },
+        {
+            "quantity": "2",
+            "unit": "g",
+            "item": "Black Pepper",
+            "notes": "to taste"
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Preheat oven to 180°C (350°F)."
+        },
+        {
+            "step": 2,
+            "instruction": "In a bowl, combine apricot jam, soy sauce, and minced garlic. Mix well."
+        },
+        {
+            "step": 3,
+            "instruction": "Season chicken thigh fillets with salt and pepper. Place in a baking dish."
+        },
+        {
+            "step": 4,
+            "instruction": "Pour jam mixture over chicken and toss to coat evenly."
+        },
+        {
+            "step": 5,
+            "instruction": "Bake uncovered for 20 minutes."
+        },
+        {
+            "step": 6,
+            "instruction": "Remove from oven. Add drained apricot halves, tucking them around the chicken."
+        },
+        {
+            "step": 7,
+            "instruction": "Return to oven and bake for final 10-15 minutes, until chicken is cooked through and sauce is sticky and glossy."
+        },
+        {
+            "step": 8,
+            "instruction": "Serve hot with rice."
+        }
+    ],
+    "notes": [
+        {
+            "type": "tip",
+            "title": "Why Thigh Fillets?",
+            "content": "Thigh fillets cook faster than legs (35 min vs 50 min) and are easier to eat — no bones, no skin. They also stay juicier than breast."
+        },
+        {
+            "type": "technique",
+            "title": "Thicker Glaze",
+            "content": "For an even stickier glaze, remove the dish from the oven after 30 minutes and place under the grill (broiler) for 2-3 minutes. Watch carefully — the sugar can burn quickly."
+        },
+        {
+            "type": "variation",
+            "title": "French Onion Version",
+            "content": "Replace garlic with 1 packet of French onion soup mix. This is the traditional 1970s version — very savoury-sweet."
+        },
+        {
+            "type": "storage",
+            "title": "Leftovers",
+            "content": "Store in an airtight container in the fridge for up to 3 days. The sauce sets like jam when cold — reheat gently."
+        }
+    ],
+    "related": [
+        {
+            "id": "bistro-chickenriverina",
+            "title": "Chicken Riverina",
+            "matchingTags": [
+                "Australian",
+                "Chicken",
+                "Classic",
+                "Creamy",
+                "Dinner",
+                "Rich",
+                "Savoury",
+                "Under 30 Minutes"
+            ]
+        },
+        {
+            "id": "butterchicken",
+            "title": "Butter Chicken",
+            "matchingTags": [
+                "Chicken",
+                "Creamy",
+                "Curry",
+                "Dinner",
+                "Indian",
+                "Rich",
+                "Savoury",
+                "Under 1 Hour"
+            ]
+        },
+        {
+            "id": "chickencacciatore",
+            "title": "Chicken Cacciatore",
+            "matchingTags": [
+                "Alcohol",
+                "Chicken",
+                "Dinner",
+                "Italian",
+                "Rich",
+                "Savoury",
+                "Tomato"
+            ]
+        },
+        {
+            "id": "chickenteriyaki",
+            "title": "Chicken Teriyaki",
+            "matchingTags": [
+                "Chicken",
+                "Dinner",
+                "Japanese",
+                "Savoury",
+                "Sweet",
+                "Under 30 Minutes"
+            ]
+        },
+        {
+            "id": "honeysoychicken",
+            "title": "Honey Soy Chicken",
+            "matchingTags": [
+                "Asian",
+                "Chicken",
+                "Dinner",
+                "Easy",
+                "Make Ahead",
+                "Sweet",
+                "Under 1 Hour"
+            ]
+        }
+    ],
+    "nutrition": {
+        "servings": 6,
+        "cal": 353,
+        "kj": 1477,
+        "protein": 11,
+        "carbs": 62,
+        "sugars": 37,
+        "fat": 4,
+        "saturated_fat": 1,
+        "fiber": 10,
+        "sodium": 482,
+        "coverage": 100,
+        "calcium_mg": 44,
+        "iron_mg": 2,
+        "potassium_mg": 612,
+        "magnesium_mg": 38,
+        "zinc_mg": 1,
+        "cholesterol_mg": 17,
+        "vitamin_a_ug": 154,
+        "vitamin_c_mg": 14
+    },
+    "lastModified": "2026-05-31"
 }

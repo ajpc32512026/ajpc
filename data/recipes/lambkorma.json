@@ -1,186 +1,186 @@
 {
-  "id": "lambkorma",
-  "title": "Lamb Korma",
-  "emoji": "🍛",
-  "category": "Dinner",
-  "description": "A rich, fragrant lamb curry in a silky yoghurt-based sauce — deeply spiced and full of flavour.",
-  "prepTime": "15 min",
-  "cookTime": "40 min",
-  "totalTime": "55 min",
-  "servings": "4 servings",
-  "difficulty": "Intermediate",
-  "tags": [
-    "Curry",
-    "Dinner",
-    "Indian",
-    "Lamb",
-    "Rich",
-    "Savoury"
-  ],
-  "ingredients": [
-    {
-      "quantity": "300",
-      "unit": "g",
-      "item": "Lamb",
-      "notes": "cut into cubes"
-    },
-    {
-      "quantity": "45",
-      "unit": "ml",
-      "item": "Vegetable Oil"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Brown Onion",
-      "notes": "large, diced"
-    },
-    {
-      "quantity": "3",
-      "unit": "cloves",
-      "item": "Garlic",
-      "notes": "crushed to a paste"
-    },
-    {
-      "quantity": "15",
-      "unit": "g",
-      "item": "Ginger (Fresh)",
-      "notes": "grated to a paste"
-    },
-    {
-      "quantity": "2",
-      "unit": "",
-      "item": "Bay Leaves"
-    },
-    {
-      "quantity": "1",
-      "unit": "stick",
-      "item": "Cinnamon Stick"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Dried Red Chilli"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Cumin",
-      "notes": "ground"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Nutmeg"
-    },
-    {
-      "quantity": "15",
-      "unit": "g",
-      "item": "Garam Masala"
-    },
-    {
-      "quantity": "8",
-      "unit": "g",
-      "item": "Red Chilli Powder"
-    },
-    {
-      "quantity": "3",
-      "unit": "g",
-      "item": "Black Pepper"
-    },
-    {
-      "quantity": "60",
-      "unit": "g",
-      "item": "Greek Yoghurt"
-    },
-    {
-      "quantity": "60",
-      "unit": "ml",
-      "item": "Water"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
+    "id": "lambkorma",
+    "title": "Lamb Korma",
+    "emoji": "🍛",
+    "category": "Dinner",
+    "description": "A rich, fragrant lamb curry in a silky yoghurt-based sauce — deeply spiced and full of flavour.",
+    "prepTime": "15 min",
+    "cookTime": "40 min",
+    "totalTime": "55 min",
+    "servings": "4 servings",
+    "difficulty": "Intermediate",
+    "tags": [
+        "Curry",
+        "Dinner",
+        "Indian",
+        "Lamb",
+        "Rich",
+        "Savoury"
+    ],
+    "ingredients": [
+        {
+            "quantity": "300",
+            "unit": "g",
+            "item": "Lamb",
+            "notes": "cut into cubes"
+        },
+        {
+            "quantity": "45",
+            "unit": "ml",
+            "item": "Vegetable Oil"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Brown Onion",
+            "notes": "large, diced"
+        },
+        {
+            "quantity": "3",
+            "unit": "cloves",
+            "item": "Garlic",
+            "notes": "crushed to a paste"
+        },
+        {
+            "quantity": "15",
+            "unit": "g",
+            "item": "Ginger (Fresh)",
+            "notes": "grated to a paste"
+        },
+        {
+            "quantity": "2",
+            "unit": "",
+            "item": "Bay Leaves"
+        },
+        {
+            "quantity": "1",
+            "unit": "stick",
+            "item": "Cinnamon Stick"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Dried Red Chilli"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Cumin",
+            "notes": "ground"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Nutmeg"
+        },
+        {
+            "quantity": "15",
+            "unit": "g",
+            "item": "Garam Masala"
+        },
+        {
+            "quantity": "8",
+            "unit": "g",
+            "item": "Red Chilli Powder"
+        },
+        {
+            "quantity": "3",
+            "unit": "g",
+            "item": "Black Pepper"
+        },
+        {
+            "quantity": "60",
+            "unit": "g",
+            "item": "Greek Yoghurt"
+        },
+        {
+            "quantity": "60",
+            "unit": "ml",
+            "item": "Water"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Salt",
+            "notes": "to taste"
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Heat vegetable oil in a heavy-bottomed pan over medium heat. Add diced onion and fry until softened and translucent."
+        },
+        {
+            "step": 2,
+            "instruction": "Add ginger paste and garlic paste. Fry for a few seconds until fragrant."
+        },
+        {
+            "step": 3,
+            "instruction": "Add bay leaves, cinnamon stick, and dried red chilli. Stir briefly."
+        },
+        {
+            "step": 4,
+            "instruction": "Add ground cumin, nutmeg, garam masala, and red chilli powder. Fry for 30 seconds to release the aromas."
+        },
+        {
+            "step": 5,
+            "instruction": "Add lamb pieces. Fry, stirring occasionally, for 3–4 minutes until the meat is well coated and beginning to cook."
+        },
+        {
+            "step": 6,
+            "instruction": "Mix yoghurt with water until smooth, then add to the curry. Stir well. Season with black pepper and salt."
+        },
+        {
+            "step": 7,
+            "instruction": "Cover with a lid, bring to a boil, then reduce heat to low. Simmer until the sauce thickens and the lamb is cooked through and tender, about 30–35 minutes."
+        },
+        {
+            "step": 8,
+            "instruction": "Remove bay leaves and cinnamon stick before serving. Serve hot with steamed rice or naan bread."
+        }
+    ],
+    "notes": [
+        {
+            "type": "technique",
+            "title": "Yoghurt Tip",
+            "content": "Mix the yoghurt with water before adding to the pan — this prevents it from splitting when it hits the hot curry. Use room temperature yoghurt for the same reason."
+        },
+        {
+            "type": "acknowledgement",
+            "title": "Recipe Source",
+            "content": "Adapted from traditional Indian korma recipes."
+        }
+    ],
+    "related": [
+        {
+            "id": "kormapaste",
+            "title": "Homemade Korma Paste"
+        },
+        {
+            "id": "roganjosh",
+            "title": "Lamb Rogan Josh – Restaurant Style"
+        },
+        {
+            "id": "lambvindaloo",
+            "title": "Lamb Vindaloo"
+        },
+        {
+            "id": "butterchicken",
+            "title": "Restaurant-Style Butter Chicken"
+        },
+        {
+            "id": "beefvindaloo",
+            "title": "Beef Vindaloo"
+        }
+    ],
+    "nutrition": {
+        "servings": 4,
+        "cal": 704,
+        "protein": 28,
+        "carbs": 92,
+        "fat": 35,
+        "fibre": 30,
+        "sodium": 577,
+        "coverage": 100
     }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "Heat vegetable oil in a heavy-bottomed pan over medium heat. Add diced onion and fry until softened and translucent."
-    },
-    {
-      "step": 2,
-      "instruction": "Add ginger paste and garlic paste. Fry for a few seconds until fragrant."
-    },
-    {
-      "step": 3,
-      "instruction": "Add bay leaves, cinnamon stick, and dried red chilli. Stir briefly."
-    },
-    {
-      "step": 4,
-      "instruction": "Add ground cumin, nutmeg, garam masala, and red chilli powder. Fry for 30 seconds to release the aromas."
-    },
-    {
-      "step": 5,
-      "instruction": "Add lamb pieces. Fry, stirring occasionally, for 3–4 minutes until the meat is well coated and beginning to cook."
-    },
-    {
-      "step": 6,
-      "instruction": "Mix yoghurt with water until smooth, then add to the curry. Stir well. Season with black pepper and salt."
-    },
-    {
-      "step": 7,
-      "instruction": "Cover with a lid, bring to a boil, then reduce heat to low. Simmer until the sauce thickens and the lamb is cooked through and tender, about 30–35 minutes."
-    },
-    {
-      "step": 8,
-      "instruction": "Remove bay leaves and cinnamon stick before serving. Serve hot with steamed rice or naan bread."
-    }
-  ],
-  "notes": [
-    {
-      "type": "technique",
-      "title": "Yoghurt Tip",
-      "content": "Mix the yoghurt with water before adding to the pan — this prevents it from splitting when it hits the hot curry. Use room temperature yoghurt for the same reason."
-    },
-    {
-      "type": "acknowledgement",
-      "title": "Recipe Source",
-      "content": "Adapted from traditional Indian korma recipes."
-    }
-  ],
-  "related": [
-    {
-      "id": "kormapaste",
-      "title": "Homemade Korma Paste"
-    },
-    {
-      "id": "roganjosh",
-      "title": "Lamb Rogan Josh – Restaurant Style"
-    },
-    {
-      "id": "lambvindaloo",
-      "title": "Lamb Vindaloo"
-    },
-    {
-      "id": "butterchicken",
-      "title": "Restaurant-Style Butter Chicken"
-    },
-    {
-      "id": "beefvindaloo",
-      "title": "Beef Vindaloo"
-    }
-  ],
-  "nutrition": {
-    "servings": 4,
-    "cal": 704,
-    "protein": 28,
-    "carbs": 92,
-    "fat": 35,
-    "fibre": 30,
-    "sodium": 577,
-    "coverage": 100
-  }
 }

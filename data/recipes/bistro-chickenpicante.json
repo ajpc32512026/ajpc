@@ -1,199 +1,199 @@
 {
-  "id": "chickenpicante",
-  "title": "Chicken Picante",
-  "emoji": "🌿",
-  "category": "Bistro",
-  "description": "Breast chicken in a cream sauce punched up with Dijon mustard and green peppercorns. Sharp, creamy, and satisfying.",
-  "prepTime": "5 min",
-  "cookTime": "8 min",
-  "totalTime": "13 min",
-  "servings": "1 serving",
-  "difficulty": "Intermediate",
-  "tags": [
-    "Alcohol",
-    "Chicken",
-    "Classic",
-    "Creamy",
-    "Dinner",
-    "French",
-    "Gluten-Free",
-    "Rich",
-    "Savoury",
-    "Under 30 Minutes"
-  ],
-  "ingredients": [
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Chicken Breast",
-      "notes": "pan-fried"
-    },
-    {
-      "quantity": "60",
-      "unit": "ml",
-      "item": "Thickened Cream"
-    },
-    {
-      "quantity": "15",
-      "unit": "g",
-      "item": "Dijon Mustard"
-    },
-    {
-      "quantity": "10",
-      "unit": "g",
-      "item": "Green Peppercorns",
-      "notes": "brined, from the jar"
-    },
-    {
-      "quantity": "30",
-      "unit": "g",
-      "item": "Unsalted Butter"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Brown Onion",
-      "notes": "diced"
-    },
-    {
-      "quantity": "60",
-      "unit": "ml",
-      "item": "White Wine"
-    },
-    {
-      "item": "Salt & Pepper",
-      "toTaste": true,
-      "notes": "Don't add too much all at once — you can't take it out once it's in.(used 5x)"
-    }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "Melt half the butter in a frying pan over medium-high heat. Pan-fry chicken breast for 3–4 minutes per side until golden and cooked through. Remove and rest on a warm plate."
-    },
-    {
-      "step": 2,
-      "instruction": "In the same pan, add remaining butter. Add diced onion and cook until softened, about 2–3 minutes."
-    },
-    {
-      "step": 3,
-      "instruction": "Deglaze the pan with white wine. Let it bubble and reduce by half, about 1–2 minutes."
-    },
-    {
-      "step": 4,
-      "instruction": "Pour in thickened cream, add Dijon mustard and green peppercorns. Stir and reduce for 2–3 minutes until the sauce coats the back of a spoon."
-    },
-    {
-      "step": 5,
-      "instruction": "Taste and adjust seasoning carefully — Dijon mustard and brined peppercorns are already salty, so add salt sparingly."
-    },
-    {
-      "step": 6,
-      "instruction": "Plate the chicken and spoon the sauce generously over the top."
-    }
-  ],
-  "notes": [
-    {
-      "type": "technique",
-      "title": "Mustard Balance",
-      "content": "Dijon mustard gives the sauce its characteristic bite. Do not overdo it or the sauce will turn bitter. The green peppercorns should be the brined variety from the jar — not dried — for the right texture and flavour. No demi glace is used in this dish."
-    }
-  ],
-  "related": [
-    {
-      "id": "bistro-chickenkiev",
-      "title": "Chicken Kiev",
-      "matchingTags": [
-        "Alcohol",
-        "Chicken",
-        "Classic",
-        "Creamy",
-        "Deep-Fried",
-        "Dinner",
-        "Garlic",
-        "Rich",
-        "Savoury"
-      ]
-    },
-    {
-      "id": "bistro-chickenriverina",
-      "title": "Chicken Riverina",
-      "matchingTags": [
-        "Australian",
-        "Chicken",
-        "Classic",
-        "Creamy",
-        "Dinner",
-        "Rich",
-        "Savoury",
-        "Under 30 Minutes"
-      ]
-    },
-    {
-      "id": "bistro-chickenpapion",
-      "title": "Chicken Papion",
-      "matchingTags": [
+    "id": "chickenpicante",
+    "title": "Chicken Picante",
+    "emoji": "🌿",
+    "category": "Bistro",
+    "description": "Breast chicken in a cream sauce punched up with Dijon mustard and green peppercorns. Sharp, creamy, and satisfying.",
+    "prepTime": "5 min",
+    "cookTime": "8 min",
+    "totalTime": "13 min",
+    "servings": "1 serving",
+    "difficulty": "Intermediate",
+    "tags": [
         "Alcohol",
         "Chicken",
         "Classic",
         "Creamy",
         "Dinner",
-        "Rich",
-        "Savoury",
-        "Seafood",
-        "Under 30 Minutes"
-      ]
-    },
-    {
-      "id": "bistro-vealmadagascar",
-      "title": "Veal Madagascar",
-      "matchingTags": [
-        "Classic",
-        "Creamy",
-        "Dinner",
-        "Rich",
-        "Savoury",
-        "Under 30 Minutes"
-      ]
-    },
-    {
-      "id": "bistro-mediterraneansteak",
-      "title": "Mediterranean Steak",
-      "matchingTags": [
-        "Alcohol",
-        "Beef",
-        "Classic",
-        "Creamy",
-        "Dinner",
+        "French",
         "Gluten-Free",
         "Rich",
         "Savoury",
-        "Seafood",
         "Under 30 Minutes"
-      ]
-    }
-  ],
-  "nutrition": {
-    "servings": 1,
-    "cal": 692,
-    "kj": 2894,
-    "protein": 30,
-    "carbs": 11,
-    "sugars": 8,
-    "fat": 54,
-    "saturated_fat": 32,
-    "fiber": 3,
-    "sodium": 119,
-    "coverage": 88,
-    "calcium_mg": 99,
-    "iron_mg": 2,
-    "potassium_mg": 768,
-    "magnesium_mg": 99,
-    "zinc_mg": 2,
-    "cholesterol_mg": 186,
-    "vitamin_a_ug": 437,
-    "vitamin_c_mg": 8,
-    "vitamin_d_ug": 1
-  },
-  "lastModified": "2026-05-31"
+    ],
+    "ingredients": [
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Chicken Breast",
+            "notes": "pan-fried"
+        },
+        {
+            "quantity": "60",
+            "unit": "ml",
+            "item": "Thickened Cream"
+        },
+        {
+            "quantity": "15",
+            "unit": "g",
+            "item": "Dijon Mustard"
+        },
+        {
+            "quantity": "10",
+            "unit": "g",
+            "item": "Green Peppercorns",
+            "notes": "brined, from the jar"
+        },
+        {
+            "quantity": "30",
+            "unit": "g",
+            "item": "Unsalted Butter"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Brown Onion",
+            "notes": "diced"
+        },
+        {
+            "quantity": "60",
+            "unit": "ml",
+            "item": "White Wine"
+        },
+        {
+            "item": "Salt & Pepper",
+            "toTaste": true,
+            "notes": "Don't add too much all at once — you can't take it out once it's in.(used 5x)"
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Melt half the butter in a frying pan over medium-high heat. Pan-fry chicken breast for 3–4 minutes per side until golden and cooked through. Remove and rest on a warm plate."
+        },
+        {
+            "step": 2,
+            "instruction": "In the same pan, add remaining butter. Add diced onion and cook until softened, about 2–3 minutes."
+        },
+        {
+            "step": 3,
+            "instruction": "Deglaze the pan with white wine. Let it bubble and reduce by half, about 1–2 minutes."
+        },
+        {
+            "step": 4,
+            "instruction": "Pour in thickened cream, add Dijon mustard and green peppercorns. Stir and reduce for 2–3 minutes until the sauce coats the back of a spoon."
+        },
+        {
+            "step": 5,
+            "instruction": "Taste and adjust seasoning carefully — Dijon mustard and brined peppercorns are already salty, so add salt sparingly."
+        },
+        {
+            "step": 6,
+            "instruction": "Plate the chicken and spoon the sauce generously over the top."
+        }
+    ],
+    "notes": [
+        {
+            "type": "technique",
+            "title": "Mustard Balance",
+            "content": "Dijon mustard gives the sauce its characteristic bite. Do not overdo it or the sauce will turn bitter. The green peppercorns should be the brined variety from the jar — not dried — for the right texture and flavour. No demi glace is used in this dish."
+        }
+    ],
+    "related": [
+        {
+            "id": "bistro-chickenkiev",
+            "title": "Chicken Kiev",
+            "matchingTags": [
+                "Alcohol",
+                "Chicken",
+                "Classic",
+                "Creamy",
+                "Deep-Fried",
+                "Dinner",
+                "Garlic",
+                "Rich",
+                "Savoury"
+            ]
+        },
+        {
+            "id": "bistro-chickenriverina",
+            "title": "Chicken Riverina",
+            "matchingTags": [
+                "Australian",
+                "Chicken",
+                "Classic",
+                "Creamy",
+                "Dinner",
+                "Rich",
+                "Savoury",
+                "Under 30 Minutes"
+            ]
+        },
+        {
+            "id": "bistro-chickenpapion",
+            "title": "Chicken Papion",
+            "matchingTags": [
+                "Alcohol",
+                "Chicken",
+                "Classic",
+                "Creamy",
+                "Dinner",
+                "Rich",
+                "Savoury",
+                "Seafood",
+                "Under 30 Minutes"
+            ]
+        },
+        {
+            "id": "bistro-vealmadagascar",
+            "title": "Veal Madagascar",
+            "matchingTags": [
+                "Classic",
+                "Creamy",
+                "Dinner",
+                "Rich",
+                "Savoury",
+                "Under 30 Minutes"
+            ]
+        },
+        {
+            "id": "bistro-mediterraneansteak",
+            "title": "Mediterranean Steak",
+            "matchingTags": [
+                "Alcohol",
+                "Beef",
+                "Classic",
+                "Creamy",
+                "Dinner",
+                "Gluten-Free",
+                "Rich",
+                "Savoury",
+                "Seafood",
+                "Under 30 Minutes"
+            ]
+        }
+    ],
+    "nutrition": {
+        "servings": 1,
+        "cal": 692,
+        "kj": 2894,
+        "protein": 30,
+        "carbs": 11,
+        "sugars": 8,
+        "fat": 54,
+        "saturated_fat": 32,
+        "fiber": 3,
+        "sodium": 119,
+        "coverage": 88,
+        "calcium_mg": 99,
+        "iron_mg": 2,
+        "potassium_mg": 768,
+        "magnesium_mg": 99,
+        "zinc_mg": 2,
+        "cholesterol_mg": 186,
+        "vitamin_a_ug": 437,
+        "vitamin_c_mg": 8,
+        "vitamin_d_ug": 1
+    },
+    "lastModified": "2026-05-31"
 }

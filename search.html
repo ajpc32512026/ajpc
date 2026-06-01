@@ -16,14 +16,14 @@
 
     <div class="content-wrapper">
         <main class="search-page">
-            
+
             <header class="reference-header">
                 <span class="reference-eyebrow">Discovery</span>
                 <h1>Search Recipes</h1>
-                <p class="reference-description">Enter a recipe name, ingredient, or tag to search across the entire notebook. Try typing what you have in your fridge!</p>
+                <p class="reference-description">Search by name, ingredient, or tag. Try typing what you have in your fridge!</p>
             </header>
 
-            <!-- Search Input Wrapper -->
+            <!-- Search Input -->
             <div class="search-input-wrapper">
                 <svg class="search-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
                     <circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="2"/>
@@ -33,36 +33,57 @@
                     type="text"
                     id="searchInput"
                     class="search-input-large"
-                    placeholder="Recipe name, ingredient, tag... or try 'chicken, cream, mushrooms'"
+                    placeholder="Recipe name, ingredient, tag… or try 'chicken, cream, mushrooms'"
                     autocomplete="off"
                     autofocus
                     aria-label="Search recipes"
                 >
             </div>
 
+            <!-- Filter Bar -->
+            <div class="search-filter-bar">
+                <select id="filterCategory" class="search-filter-select" aria-label="Filter by category">
+                    <option value="">All Categories</option>
+                </select>
+                <select id="filterTag" class="search-filter-select" aria-label="Filter by tag">
+                    <option value="">All Tags</option>
+                </select>
+                <select id="filterDifficulty" class="search-filter-select" aria-label="Filter by difficulty">
+                    <option value="">Any Difficulty</option>
+                    <option value="Beginner">Beginner</option>
+                    <option value="Intermediate">Intermediate</option>
+                    <option value="Advanced">Advanced</option>
+                </select>
+                <button id="filterClear" class="search-filter-clear">Clear Filters</button>
+            </div>
+
+            <!-- Search History -->
+            <div id="searchHistory"></div>
+
+            <!-- Result Count -->
             <p class="search-results-count" id="resultsCount"></p>
-            
+
             <!-- Search Tips -->
             <div class="search-examples">
-                💡 <strong>Search tips:</strong>
-                <br>• <strong>Standard search:</strong> <code>chicken</code>, <code>bread</code>, or <code>#dinner</code>
-                <br>• <strong>Ingredient search:</strong> <code>chicken, cream, mushrooms</code> or <code>beef oysters wine</code>
-                <br>• Searches with commas, "and", or 4+ words automatically activate ingredient matching.
-                <br>• Pantry staples like salt, pepper, butter, and oil are ignored during ingredient matching.
+                <strong>Search tips:</strong>
+                Standard search: <code>chicken</code>, <code>bread</code>, or <code>#dinner</code> &mdash;
+                Ingredient search: <code>chicken, cream, mushrooms</code> or <code>beef oysters wine</code> &mdash;
+                Searches with commas, "and", or 4+ words automatically activate ingredient matching.
             </div>
-            
+
             <!-- Popular Tags -->
             <div class="popular-tags">
                 <span class="popular-tags-label">Popular Tags:</span>
                 <div class="popular-tags-list" id="popularTagsList">
-                    <span class="tag-skeleton">Loading tags...</span>
+                    <span class="tag-skeleton">Loading…</span>
                 </div>
             </div>
 
-            <!-- Results Container -->
+            <!-- Results -->
             <div id="searchResults">
                 <p class="section-note">Enter your search terms above to begin.</p>
             </div>
+
         </main>
 
         <footer>
@@ -76,6 +97,7 @@
     <button class="back-to-top" id="backToTop" aria-label="Back to top">&#8593;</button>
 
     <script src="js/nav-loader.js"></script>
+    <script src="js/user-prefs.js"></script>
     <script src="js/search.js"></script>
 </body>
 </html>

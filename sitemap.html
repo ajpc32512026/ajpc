@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#16161a">
-    <meta name="description" content="Complete sitemap for AJPC Kitchen Notebook — all recipes by category and cuisine.">
+    <meta name="description" content="Complete sitemap for AJPC Kitchen Notebook — recipes organized by cuisine and category.">
     <title>Sitemap | AJPC Kitchen Notebook</title>
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2316161a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='28' font-weight='bold' fill='%23c97d3e'%3EAJ%3C/text%3E%3C/svg%3E">
     <link rel="stylesheet" href="css/main.css">
@@ -17,15 +17,15 @@
     <div class="content-wrapper">
         <main class="reference-page">
             <header class="reference-header">
-                <span class="reference-eyebrow">Navigation</span>
+                <span class="reference-eyebrow">Index</span>
                 <h1>Sitemap</h1>
-                <p class="reference-description">A comprehensive index of all recipes, categorized by cuisine type and cooking style.</p>
+                <p class="reference-description">A comprehensive directory of the notebook, organized by heritage and cooking style.</p>
             </header>
 
             <div class="sitemap-grid" id="sitemapGrid">
                 <div class="loading-state">
                     <div class="loading-spinner"></div>
-                    <p>Building recipe index...</p>
+                    <p>Generating sitemap...</p>
                 </div>
             </div>
 
@@ -47,6 +47,9 @@
 
     <script src="js/nav-loader.js"></script>
     <script>
+    /**
+     * Logic to determine cuisine based on recipe metadata
+     */
     function getCuisine(recipe) {
         const tags = (recipe.tags || []).map(t => t.toLowerCase());
         const category = (recipe.category || '').toLowerCase();
@@ -55,7 +58,7 @@
         if (tags.includes('french')) return 'French';
         if (tags.includes('italian')) return 'Italian';
         if (tags.includes('indian')) return 'Indian';
-        if (tags.includes('australian') || ((recipe.title || '').toLowerCase().includes('anzac'))) return 'Australian';
+        if (tags.includes('australian')) return 'Australian';
         if (tags.includes('asian')) return 'Asian';
         if (tags.includes('american')) return 'American';
         if (tags.includes('greek')) return 'Greek';
@@ -64,68 +67,112 @@
         if (tags.includes('japanese')) return 'Japanese';
         if (tags.includes('chinese')) return 'Chinese';
         if (tags.includes('middle eastern')) return 'Middle Eastern';
-        if (tags.includes('russian')) return 'Russian';
-        if (tags.includes('german')) return 'German';
-        if (tags.includes('austrian')) return 'Austrian';
-        if (tags.includes('malaysian')) return 'Malaysian';
         if (tags.includes('spanish')) return 'Spanish';
         if (tags.includes('british')) return 'British';
         return 'International';
     }
 
+    /**
+     * Main Loader Function
+     */
     async function loadSitemap() {
+        const grid = document.getElementById('sitemapGrid');
         try {
-            const res = await fetch('json/recipe-index.json?t=' + Date.now());
-            const recipes = await res.json();
+            // Fetch the recipe index
+            const response = await fetch('json/recipe-index.json?t=' + Date.now());
+            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
             
+            const recipes = await response.json();
+            let html = '';
+
+            // --- 1. GROUP BY CUISINE ---
             const cuisineGroups = {};
             recipes.forEach(r => {
                 const c = getCuisine(r);
                 if (!cuisineGroups[c]) cuisineGroups[c] = [];
                 cuisineGroups[c].push(r);
             });
-            
-            let html = `<div class="sitemap-category"><h2>🌍 By Cuisine</h2>`;
+
+            html += `<div class="sitemap-category"><h2>🌍 By Cuisine</h2>`;
             Object.keys(cuisineGroups).sort().forEach(c => {
-                html += `<details class="cuisine-details">
-                            <summary><span>${c}</span><span class="cuisine-tag">${cuisineGroups[c].length}</span></summary>
-                            <ul class="sitemap-list">
-                                ${cuisineGroups[c].map(r => `<li><a href="recipe.html?id=${r.id}">${r.emoji ? r.emoji + ' ' : ''}${r.title}</a></li>`).join('')}
-                            </ul>
-                        </details>`;
+                html += `
+                <details class="sitemap-dropdown">
+                    <summary><span>${c}</span> <span class="cuisine-tag">${cuisineGroups[c].length}</span></summary>
+                    <ul class="sitemap-list">
+                        ${cuisineGroups[c].map(r => `<li><a href="recipe.html?id=${r.id}">${r.emoji || '🍽️'} ${r.title || r.name}</a></li>`).join('')}
+                    </ul>
+                </details>`;
             });
             html += `</div>`;
-            
+
+            // --- 2. GROUP BY CATEGORY ---
             const categories = {};
             recipes.forEach(r => {
                 const cat = r.category || 'Other';
                 if (!categories[cat]) categories[cat] = [];
                 categories[cat].push(r);
             });
-            
+
             const order = ['Breads', 'Baking', 'Biscuits', 'Breakfast', 'Entree', 'Dinner', 'Filipino', 'Desserts', 'Sauces', 'Bistro', 'Other'];
+            
+            html += `<div class="sitemap-category"><h2>📂 By Category</h2>`;
             Object.keys(categories).sort((a,b) => (order.indexOf(a) - order.indexOf(b)) || a.localeCompare(b)).forEach(cat => {
-                html += `<div class="sitemap-category"><h2>📂 ${cat}</h2><ul class="sitemap-list">
-                    ${categories[cat].sort((a,b) => a.title.localeCompare(b.title)).map(r => `<li><a href="recipe.html?id=${r.id}">${r.emoji ? r.emoji + ' ' : ''}${r.title}</a></li>`).join('')}
-                </ul></div>`;
+                const sortedList = categories[cat].sort((a,b) => (a.title || "").localeCompare(b.title || ""));
+                html += `
+                <details class="sitemap-dropdown">
+                    <summary><span>${cat}</span> <span class="cuisine-tag">${sortedList.length}</span></summary>
+                    <ul class="sitemap-list">
+                        ${sortedList.map(r => `<li><a href="recipe.html?id=${r.id}">${r.emoji || ''} ${r.title || r.name}</a></li>`).join('')}
+                    </ul>
+                </details>`;
             });
-            
-            html += `<div class="sitemap-category"><h2>📚 Reference</h2><ul class="sitemap-list">
-                        <li><a href="measurement.html">📏 Measurements</a></li>
-                        <li><a href="culinaryterms.html">📖 Culinary Terms</a></li>
-                        <li><a href="ingredient_directory.html">🍎 Ingredient Glossary</a></li>
-                        <li><a href="breadtips.html">🍞 Bread Tips</a></li>
-                        <li><a href="puffpastrymethods.html">🥐 Puff Pastry Methods</a></li>
-                    </ul></div>`;
-            
-            document.getElementById('sitemapGrid').innerHTML = html;
+            html += `</div>`;
+
+            // --- 3. EXTRAS ---
+            html += `
+                <div class="sitemap-category">
+                    <h2>📚 Notebook Extras</h2>
+                    <details class="sitemap-dropdown">
+                        <summary>Technical Guides</summary>
+                        <ul class="sitemap-list">
+                            <li><a href="measurement.html">📏 Measurements</a></li>
+                            <li><a href="culinaryterms.html">📖 Culinary Terms</a></li>
+                            <li><a href="ingredient_directory.html">🍎 Ingredient Directory</a></li>
+                            <li><a href="breadtips.html">🍞 Bread Tips</a></li>
+                            <li><a href="tangzhongguide.html">🥖 Tangzhong Guide</a></li>
+                            <li><a href="puffpastrymethods.html">🥐 Puff Pastry Methods</a></li>
+                            <li><a href="gelatintips.html">🍮 Gelatine Blooming</a></li>
+                        </ul>
+                    </details>
+                    <details class="sitemap-dropdown">
+                        <summary>Site Tools</summary>
+                        <ul class="sitemap-list">
+                            <li><a href="search.html">🔍 Search Recipes</a></li>
+                            <li><a href="gallery.html">🖼️ Gallery</a></li>
+                            <li><a href="print-all.html">🖨️ Print All Recipes</a></li>
+                            <li><a href="friandstory.html">📖 The Friand Story</a></li>
+                            <li><a href="colophon.html">💻 Colophon</a></li>
+                        </ul>
+                    </details>
+                </div>
+            `;
+
+            grid.innerHTML = html;
             document.getElementById('recipeCount').textContent = recipes.length;
             document.getElementById('lastUpdated').textContent = new Date().toLocaleDateString('en-AU');
-        } catch(e) {
-            document.getElementById('sitemapGrid').innerHTML = '<p class="no-results">Could not load sitemap.</p>';
+
+        } catch (error) {
+            console.error("Sitemap failed to load:", error);
+            grid.innerHTML = `
+                <div class="note" style="border-color: var(--red);">
+                    <h4>Load Error</h4>
+                    <p>Failed to access recipe index. If you are viewing this locally, please ensure you are using a local server (e.g., Live Server).</p>
+                    <p><small>${error.message}</small></p>
+                </div>`;
         }
     }
-    loadSitemap();
+
+    document.addEventListener('DOMContentLoaded', loadSitemap);
     </script>
 </body>
 </html>

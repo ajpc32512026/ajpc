@@ -1,171 +1,171 @@
 {
-  "id": "classicaussiemeatpies",
-  "title": "Classic Aussie Meat Pies",
-  "emoji": "🥧",
-  "category": "Dinner",
-  "description": "True blue, unapologetically hearty, and as Australian as a sunburn at Christmas.",
-  "prepTime": "25 min",
-  "cookTime": "45 min",
-  "totalTime": "1 hr 10 min",
-  "servings": "4 pies",
-  "difficulty": "Intermediate",
-  "tags": [
-    "Australian",
-    "Baked",
-    "Beef",
-    "Classic",
-    "Dinner",
-    "Pastry",
-    "Savoury"
-  ],
-  "ingredients": [
-    {
-      "heading": "Filling"
-    },
-    {
-      "quantity": "500",
-      "unit": "g",
-      "item": "Beef Mince"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Brown Onion",
-      "notes": "diced"
-    },
-    {
-      "quantity": "30",
-      "unit": "g",
-      "item": "Plain Flour"
-    },
-    {
-      "quantity": "250",
-      "unit": "ml",
-      "item": "Beef Stock"
-    },
-    {
-      "quantity": "40",
-      "unit": "g",
-      "item": "Tomato Paste"
-    },
-    {
-      "quantity": "15",
-      "unit": "ml",
-      "item": "Worcestershire Sauce"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
-    },
-    {
-      "quantity": "2",
-      "unit": "g",
-      "item": "Black Pepper"
-    },
-    {
-      "heading": "Pastry"
-    },
-    {
-      "quantity": "2",
-      "unit": "sheets",
-      "item": "Shortcrust Pastry",
-      "notes": "for bases"
-    },
-    {
-      "quantity": "2",
-      "unit": "sheets",
-      "item": "Puff Pastry",
-      "notes": "for tops"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Eggs",
-      "notes": "beaten, for egg wash"
+    "id": "classicaussiemeatpies",
+    "title": "Classic Aussie Meat Pies",
+    "emoji": "🥧",
+    "category": "Dinner",
+    "description": "True blue, unapologetically hearty, and as Australian as a sunburn at Christmas.",
+    "prepTime": "25 min",
+    "cookTime": "45 min",
+    "totalTime": "1 hr 10 min",
+    "servings": "4 pies",
+    "difficulty": "Intermediate",
+    "tags": [
+        "Australian",
+        "Baked",
+        "Beef",
+        "Classic",
+        "Dinner",
+        "Pastry",
+        "Savoury"
+    ],
+    "ingredients": [
+        {
+            "heading": "Filling"
+        },
+        {
+            "quantity": "500",
+            "unit": "g",
+            "item": "Beef Mince"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Brown Onion",
+            "notes": "diced"
+        },
+        {
+            "quantity": "30",
+            "unit": "g",
+            "item": "Plain Flour"
+        },
+        {
+            "quantity": "250",
+            "unit": "ml",
+            "item": "Beef Stock"
+        },
+        {
+            "quantity": "40",
+            "unit": "g",
+            "item": "Tomato Paste"
+        },
+        {
+            "quantity": "15",
+            "unit": "ml",
+            "item": "Worcestershire Sauce"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Salt",
+            "notes": "to taste"
+        },
+        {
+            "quantity": "2",
+            "unit": "g",
+            "item": "Black Pepper"
+        },
+        {
+            "heading": "Pastry"
+        },
+        {
+            "quantity": "2",
+            "unit": "sheets",
+            "item": "Shortcrust Pastry",
+            "notes": "for bases"
+        },
+        {
+            "quantity": "2",
+            "unit": "sheets",
+            "item": "Puff Pastry",
+            "notes": "for tops"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Eggs",
+            "notes": "beaten, for egg wash"
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Preheat oven to 200°C. Grease 4 individual pie tins."
+        },
+        {
+            "step": 2,
+            "instruction": "In a large frying pan over medium heat, sauté onion until soft. Add beef mince and cook until browned, breaking up any lumps."
+        },
+        {
+            "step": 3,
+            "instruction": "Stir in flour and cook for 1 minute."
+        },
+        {
+            "step": 4,
+            "instruction": "Add beef stock, tomato paste, and Worcestershire sauce. Bring to a simmer and cook for 15–20 minutes until thick and reduced."
+        },
+        {
+            "step": 5,
+            "instruction": "Season with salt and pepper. Remove from heat and allow to cool slightly."
+        },
+        {
+            "step": 6,
+            "instruction": "Line pie tins with shortcrust pastry and fill generously with the meat mixture."
+        },
+        {
+            "step": 7,
+            "instruction": "Top with puff pastry, press edges to seal, and cut a small vent hole in the centre of each pie."
+        },
+        {
+            "step": 8,
+            "instruction": "Brush tops with beaten egg."
+        },
+        {
+            "step": 9,
+            "instruction": "Bake for 25–30 minutes until golden and puffed."
+        }
+    ],
+    "notes": [
+        {
+            "type": "variation",
+            "title": "Aussie Touch",
+            "content": "Add a teaspoon of Vegemite to the filling for deeper, proper Aussie savouriness."
+        },
+        {
+            "type": "storage",
+            "title": "Make Ahead",
+            "content": "Assemble pies unbaked and freeze for up to 2 months. Bake from frozen, adding 10–15 minutes to the cooking time."
+        }
+    ],
+    "related": [
+        {
+            "id": "sausageroll",
+            "title": "Classic Aussie Sausage Rolls"
+        },
+        {
+            "id": "chickenbaconpies",
+            "title": "Chicken, Mushroom & Bacon Pies"
+        },
+        {
+            "id": "puffpastry",
+            "title": "Puff Pastry"
+        },
+        {
+            "id": "beefstockpot",
+            "title": "Beef Stock Pot"
+        },
+        {
+            "id": "lasagne",
+            "title": "Classic Lasagne"
+        }
+    ],
+    "nutrition": {
+        "servings": 4,
+        "cal": 855,
+        "protein": 45,
+        "carbs": 60,
+        "fat": 50,
+        "fibre": 2,
+        "sodium": 1241,
+        "coverage": 100
     }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "Preheat oven to 200°C. Grease 4 individual pie tins."
-    },
-    {
-      "step": 2,
-      "instruction": "In a large frying pan over medium heat, sauté onion until soft. Add beef mince and cook until browned, breaking up any lumps."
-    },
-    {
-      "step": 3,
-      "instruction": "Stir in flour and cook for 1 minute."
-    },
-    {
-      "step": 4,
-      "instruction": "Add beef stock, tomato paste, and Worcestershire sauce. Bring to a simmer and cook for 15–20 minutes until thick and reduced."
-    },
-    {
-      "step": 5,
-      "instruction": "Season with salt and pepper. Remove from heat and allow to cool slightly."
-    },
-    {
-      "step": 6,
-      "instruction": "Line pie tins with shortcrust pastry and fill generously with the meat mixture."
-    },
-    {
-      "step": 7,
-      "instruction": "Top with puff pastry, press edges to seal, and cut a small vent hole in the centre of each pie."
-    },
-    {
-      "step": 8,
-      "instruction": "Brush tops with beaten egg."
-    },
-    {
-      "step": 9,
-      "instruction": "Bake for 25–30 minutes until golden and puffed."
-    }
-  ],
-  "notes": [
-    {
-      "type": "variation",
-      "title": "Aussie Touch",
-      "content": "Add a teaspoon of Vegemite to the filling for deeper, proper Aussie savouriness."
-    },
-    {
-      "type": "storage",
-      "title": "Make Ahead",
-      "content": "Assemble pies unbaked and freeze for up to 2 months. Bake from frozen, adding 10–15 minutes to the cooking time."
-    }
-  ],
-  "related": [
-    {
-      "id": "sausageroll",
-      "title": "Classic Aussie Sausage Rolls"
-    },
-    {
-      "id": "chickenbaconpies",
-      "title": "Chicken, Mushroom & Bacon Pies"
-    },
-    {
-      "id": "puffpastry",
-      "title": "Puff Pastry"
-    },
-    {
-      "id": "beefstockpot",
-      "title": "Beef Stock Pot"
-    },
-    {
-      "id": "lasagne",
-      "title": "Classic Lasagne"
-    }
-  ],
-  "nutrition": {
-    "servings": 4,
-    "cal": 855,
-    "protein": 45,
-    "carbs": 60,
-    "fat": 50,
-    "fibre": 2,
-    "sodium": 1241,
-    "coverage": 100
-  }
 }

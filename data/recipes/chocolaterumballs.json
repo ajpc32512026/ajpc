@@ -1,128 +1,128 @@
 {
-  "id": "chocolaterumballs",
-  "title": "Chocolate Rum Balls",
-  "emoji": "🍫",
-  "category": "Desserts",
-  "description": "Quick, fun, and dangerously delicious — the ultimate no-bake chocolate treat.",
-  "prepTime": "20 min",
-  "cookTime": "0 min",
-  "totalTime": "2 hr 20 min",
-  "servings": "24 balls",
-  "difficulty": "Beginner",
-  "tags": [
-    "Alcohol",
-    "Chocolate",
-    "Dessert",
-    "Make Ahead",
-    "No-Bake",
-    "Party",
-    "Rich",
-    "Sweet"
-  ],
-  "ingredients": [
-    {
-      "quantity": "300",
-      "unit": "g",
-      "item": "Cake Crumbs",
-      "notes": "plain, from leftover sponge or mud cake"
-    },
-    {
-      "quantity": "50",
-      "unit": "g",
-      "item": "Cocoa Powder"
-    },
-    {
-      "quantity": "80",
-      "unit": "g",
-      "item": "Apricot Jam",
-      "notes": "warmed"
-    },
-    {
-      "quantity": "60",
-      "unit": "ml",
-      "item": "Rum",
-      "notes": "dark"
-    },
-    {
-      "quantity": "30",
-      "unit": "ml",
-      "item": "Hot Water"
-    },
-    {
-      "quantity": "100",
-      "unit": "g",
-      "item": "Chocolate Sprinkles"
+    "id": "chocolaterumballs",
+    "title": "Chocolate Rum Balls",
+    "emoji": "🍫",
+    "category": "Desserts",
+    "description": "Quick, fun, and dangerously delicious — the ultimate no-bake chocolate treat.",
+    "prepTime": "20 min",
+    "cookTime": "0 min",
+    "totalTime": "2 hr 20 min",
+    "servings": "24 balls",
+    "difficulty": "Beginner",
+    "tags": [
+        "Alcohol",
+        "Chocolate",
+        "Dessert",
+        "Make Ahead",
+        "No-Bake",
+        "Party",
+        "Rich",
+        "Sweet"
+    ],
+    "ingredients": [
+        {
+            "quantity": "300",
+            "unit": "g",
+            "item": "Cake Crumbs",
+            "notes": "plain, from leftover sponge or mud cake"
+        },
+        {
+            "quantity": "50",
+            "unit": "g",
+            "item": "Cocoa Powder"
+        },
+        {
+            "quantity": "80",
+            "unit": "g",
+            "item": "Apricot Jam",
+            "notes": "warmed"
+        },
+        {
+            "quantity": "60",
+            "unit": "ml",
+            "item": "Rum",
+            "notes": "dark"
+        },
+        {
+            "quantity": "30",
+            "unit": "ml",
+            "item": "Hot Water"
+        },
+        {
+            "quantity": "100",
+            "unit": "g",
+            "item": "Chocolate Sprinkles"
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Place cake crumbs and cocoa powder into a large mixing bowl and combine."
+        },
+        {
+            "step": 2,
+            "instruction": "Add warmed apricot jam, dark rum, and hot water. Mix until the dough is sticky but firm enough to roll."
+        },
+        {
+            "step": 3,
+            "instruction": "Scoop approximately 2 teaspoons of mixture and roll into balls. Repeat until all dough is used."
+        },
+        {
+            "step": 4,
+            "instruction": "Roll each ball in chocolate sprinkles until fully coated."
+        },
+        {
+            "step": 5,
+            "instruction": "Chill in the refrigerator for at least 2 hours before serving to allow flavours to meld and the balls to firm up."
+        }
+    ],
+    "notes": [
+        {
+            "type": "technique",
+            "title": "Cake Crumbs",
+            "content": "Leftover chocolate mud cake or plain sponge works best. Day-old cake is ideal — it absorbs the rum and jam without going soggy. Blitz in a food processor for even crumbs."
+        },
+        {
+            "type": "variation",
+            "title": "Variations",
+            "content": "Substitute rum with brandy, Tia Maria, or Kahlua. Roll in desiccated coconut instead of sprinkles for a different finish."
+        },
+        {
+            "type": "storage",
+            "title": "Storage",
+            "content": "Keep refrigerated in an airtight container for up to 2 weeks. The flavour deepens after a day or two."
+        }
+    ],
+    "related": [
+        {
+            "id": "lamington",
+            "title": "Classic Lamingtons"
+        },
+        {
+            "id": "chocchipcookies",
+            "title": "Double Chocolate Chip Cookies"
+        },
+        {
+            "id": "chocolatemousse",
+            "title": "Chocolate Mousse"
+        },
+        {
+            "id": "theultimatechocolatemudcake",
+            "title": "The Ultimate Chocolate Mud Cake"
+        },
+        {
+            "id": "tiramisu",
+            "title": "Tiramisu Gateau"
+        }
+    ],
+    "nutrition": {
+        "servings": 24,
+        "cal": 70,
+        "protein": 1,
+        "carbs": 6,
+        "fat": 2,
+        "fibre": 1,
+        "sodium": 3,
+        "coverage": 100
     }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "Place cake crumbs and cocoa powder into a large mixing bowl and combine."
-    },
-    {
-      "step": 2,
-      "instruction": "Add warmed apricot jam, dark rum, and hot water. Mix until the dough is sticky but firm enough to roll."
-    },
-    {
-      "step": 3,
-      "instruction": "Scoop approximately 2 teaspoons of mixture and roll into balls. Repeat until all dough is used."
-    },
-    {
-      "step": 4,
-      "instruction": "Roll each ball in chocolate sprinkles until fully coated."
-    },
-    {
-      "step": 5,
-      "instruction": "Chill in the refrigerator for at least 2 hours before serving to allow flavours to meld and the balls to firm up."
-    }
-  ],
-  "notes": [
-    {
-      "type": "technique",
-      "title": "Cake Crumbs",
-      "content": "Leftover chocolate mud cake or plain sponge works best. Day-old cake is ideal — it absorbs the rum and jam without going soggy. Blitz in a food processor for even crumbs."
-    },
-    {
-      "type": "variation",
-      "title": "Variations",
-      "content": "Substitute rum with brandy, Tia Maria, or Kahlua. Roll in desiccated coconut instead of sprinkles for a different finish."
-    },
-    {
-      "type": "storage",
-      "title": "Storage",
-      "content": "Keep refrigerated in an airtight container for up to 2 weeks. The flavour deepens after a day or two."
-    }
-  ],
-  "related": [
-    {
-      "id": "lamington",
-      "title": "Classic Lamingtons"
-    },
-    {
-      "id": "chocchipcookies",
-      "title": "Double Chocolate Chip Cookies"
-    },
-    {
-      "id": "chocolatemousse",
-      "title": "Chocolate Mousse"
-    },
-    {
-      "id": "theultimatechocolatemudcake",
-      "title": "The Ultimate Chocolate Mud Cake"
-    },
-    {
-      "id": "tiramisu",
-      "title": "Tiramisu Gateau"
-    }
-  ],
-  "nutrition": {
-    "servings": 24,
-    "cal": 70,
-    "protein": 1,
-    "carbs": 6,
-    "fat": 2,
-    "fibre": 1,
-    "sodium": 3,
-    "coverage": 100
-  }
 }

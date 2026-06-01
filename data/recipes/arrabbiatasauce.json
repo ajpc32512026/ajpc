@@ -1,177 +1,177 @@
 {
-  "id": "arrabbiatasauce",
-  "title": "Arrabbiata Sauce",
-  "emoji": "🌶️",
-  "category": "Sauces",
-  "description": "A fiery Italian tomato sauce — bold, spicy, and full of passion. Not for the faint-hearted.",
-  "prepTime": "10 min",
-  "cookTime": "20 min",
-  "totalTime": "30 min",
-  "servings": "4 servings",
-  "difficulty": "Beginner",
-  "tags": [
-    "Italian",
-    "Sauce",
-    "Spicy",
-    "Tomato",
-    "Under 30 Minutes",
-    "Vegan",
-    "Vegetarian"
-  ],
-  "ingredients": [
-    {
-      "quantity": "500",
-      "unit": "g",
-      "item": "Tomatoes",
-      "notes": "peeled"
-    },
-    {
-      "quantity": "30",
-      "unit": "ml",
-      "item": "Olive Oil"
-    },
-    {
-      "quantity": "20",
-      "unit": "g",
-      "item": "Garlic Cloves",
-      "notes": "approx. 4 crushed"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Red Chilli Flakes"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Brown Onion"
-    },
-    {
-      "item": "Salt & Pepper",
-      "toTaste": true,
-      "notes": "Don't add too much all at once — you can't take it out once it's in."
-    }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "Heat olive oil in a pan over medium heat."
-    },
-    {
-      "step": 2,
-      "instruction": "Sauté onion until soft and translucent, about 5 minutes."
-    },
-    {
-      "step": 3,
-      "instruction": "Add garlic and red chilli, cook for 1 minute until fragrant."
-    },
-    {
-      "step": 4,
-      "instruction": "Add peeled tomatoes, crushing them by hand or with a spoon as they go in."
-    },
-    {
-      "step": 5,
-      "instruction": "Simmer on low heat for 15–20 minutes, stirring occasionally, until thickened."
-    },
-    {
-      "step": 6,
-      "instruction": "Season with salt and black pepper to taste."
-    },
-    {
-      "step": 7,
-      "instruction": "Serve hot with your favourite pasta."
-    }
-  ],
-  "notes": [
-    {
-      "type": "serving",
-      "title": "Serving Tip",
-      "content": "Perfect with penne pasta. Adjust chilli flakes to control the heat level. Pairs beautifully with a glass of red wine."
-    }
-  ],
-  "related": [
-    {
-      "id": "marinarasauce",
-      "title": "Marinara Sauce",
-      "matchingTags": [
-        "Classic",
+    "id": "arrabbiatasauce",
+    "title": "Arrabbiata Sauce",
+    "emoji": "🌶️",
+    "category": "Sauces",
+    "description": "A fiery Italian tomato sauce — bold, spicy, and full of passion. Not for the faint-hearted.",
+    "prepTime": "10 min",
+    "cookTime": "20 min",
+    "totalTime": "30 min",
+    "servings": "4 servings",
+    "difficulty": "Beginner",
+    "tags": [
         "Italian",
-        "Sauce",
-        "Tomato",
-        "Under 30 Minutes",
-        "Vegan",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "redsauce",
-      "title": "Red Sauce",
-      "matchingTags": [
-        "Classic",
-        "Italian",
-        "Sauce",
-        "Tomato",
-        "Under 30 Minutes",
-        "Vegan",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "alfredosauce",
-      "title": "Alfredo Sauce",
-      "matchingTags": [
-        "Cheese",
-        "Creamy",
-        "Italian",
-        "Rich",
-        "Sauce",
-        "Under 30 Minutes",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "pestosauce",
-      "title": "Pesto Sauce",
-      "matchingTags": [
-        "Italian",
-        "Sauce",
-        "Under 30 Minutes",
-        "Vegetarian",
-        "No Cook",
-        "Basil"
-      ]
-    },
-    {
-      "id": "sweetspicyorangesauce",
-      "title": "Sweet & Spicy Orange Sauce",
-      "matchingTags": [
-        "Orange",
         "Sauce",
         "Spicy",
-        "Sweet",
+        "Tomato",
         "Under 30 Minutes",
-        "Vegan"
-      ]
-    }
-  ],
-  "nutrition": {
-    "servings": 4,
-    "cal": 107,
-    "kj": 447,
-    "protein": 2,
-    "carbs": 7,
-    "sugars": 5,
-    "fat": 8,
-    "saturated_fat": 1,
-    "fiber": 3,
-    "sodium": 10,
-    "coverage": 83,
-    "calcium_mg": 23,
-    "iron_mg": 1,
-    "potassium_mg": 391,
-    "magnesium_mg": 20,
-    "vitamin_a_ug": 86,
-    "vitamin_c_mg": 20
-  },
-  "lastModified": "2026-05-31"
+        "Vegan",
+        "Vegetarian"
+    ],
+    "ingredients": [
+        {
+            "quantity": "500",
+            "unit": "g",
+            "item": "Tomatoes",
+            "notes": "peeled"
+        },
+        {
+            "quantity": "30",
+            "unit": "ml",
+            "item": "Olive Oil"
+        },
+        {
+            "quantity": "20",
+            "unit": "g",
+            "item": "Garlic Cloves",
+            "notes": "approx. 4 crushed"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Red Chilli Flakes"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Brown Onion"
+        },
+        {
+            "item": "Salt & Pepper",
+            "toTaste": true,
+            "notes": "Don't add too much all at once — you can't take it out once it's in."
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Heat olive oil in a pan over medium heat."
+        },
+        {
+            "step": 2,
+            "instruction": "Sauté onion until soft and translucent, about 5 minutes."
+        },
+        {
+            "step": 3,
+            "instruction": "Add garlic and red chilli, cook for 1 minute until fragrant."
+        },
+        {
+            "step": 4,
+            "instruction": "Add peeled tomatoes, crushing them by hand or with a spoon as they go in."
+        },
+        {
+            "step": 5,
+            "instruction": "Simmer on low heat for 15–20 minutes, stirring occasionally, until thickened."
+        },
+        {
+            "step": 6,
+            "instruction": "Season with salt and black pepper to taste."
+        },
+        {
+            "step": 7,
+            "instruction": "Serve hot with your favourite pasta."
+        }
+    ],
+    "notes": [
+        {
+            "type": "serving",
+            "title": "Serving Tip",
+            "content": "Perfect with penne pasta. Adjust chilli flakes to control the heat level. Pairs beautifully with a glass of red wine."
+        }
+    ],
+    "related": [
+        {
+            "id": "marinarasauce",
+            "title": "Marinara Sauce",
+            "matchingTags": [
+                "Classic",
+                "Italian",
+                "Sauce",
+                "Tomato",
+                "Under 30 Minutes",
+                "Vegan",
+                "Vegetarian"
+            ]
+        },
+        {
+            "id": "redsauce",
+            "title": "Red Sauce",
+            "matchingTags": [
+                "Classic",
+                "Italian",
+                "Sauce",
+                "Tomato",
+                "Under 30 Minutes",
+                "Vegan",
+                "Vegetarian"
+            ]
+        },
+        {
+            "id": "alfredosauce",
+            "title": "Alfredo Sauce",
+            "matchingTags": [
+                "Cheese",
+                "Creamy",
+                "Italian",
+                "Rich",
+                "Sauce",
+                "Under 30 Minutes",
+                "Vegetarian"
+            ]
+        },
+        {
+            "id": "pestosauce",
+            "title": "Pesto Sauce",
+            "matchingTags": [
+                "Italian",
+                "Sauce",
+                "Under 30 Minutes",
+                "Vegetarian",
+                "No Cook",
+                "Basil"
+            ]
+        },
+        {
+            "id": "sweetspicyorangesauce",
+            "title": "Sweet & Spicy Orange Sauce",
+            "matchingTags": [
+                "Orange",
+                "Sauce",
+                "Spicy",
+                "Sweet",
+                "Under 30 Minutes",
+                "Vegan"
+            ]
+        }
+    ],
+    "nutrition": {
+        "servings": 4,
+        "cal": 107,
+        "kj": 447,
+        "protein": 2,
+        "carbs": 7,
+        "sugars": 5,
+        "fat": 8,
+        "saturated_fat": 1,
+        "fiber": 3,
+        "sodium": 10,
+        "coverage": 83,
+        "calcium_mg": 23,
+        "iron_mg": 1,
+        "potassium_mg": 391,
+        "magnesium_mg": 20,
+        "vitamin_a_ug": 86,
+        "vitamin_c_mg": 20
+    },
+    "lastModified": "2026-05-31"
 }

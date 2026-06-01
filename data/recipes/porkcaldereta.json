@@ -1,220 +1,220 @@
 {
-  "id": "porkcaldereta",
-  "title": "Pork Caldereta",
-  "category": "Dinner",
-  "description": "A rich Filipino stew known for its tender meat and savoury, slightly spicy tomato-based sauce thickened with liver spread.",
-  "prepTime": "15 min",
-  "cookTime": "1 hr 15 min",
-  "totalTime": "1 hr 30 min",
-  "servings": "6 servings",
-  "difficulty": "Intermediate",
-  "tags": [
-    "Filipino",
-    "Pork",
-    "Stew",
-    "Savoury",
-    "Spicy",
-    "Rich",
-    "Dinner",
-    "Gluten-Free"
-  ],
-  "ingredients": [
-    {
-      "heading": "Meat"
-    },
-    {
-      "quantity": "1000",
-      "unit": "g",
-      "item": "Pork Shoulder",
-      "notes": "cut into 5 cm cubes"
-    },
-    {
-      "heading": "Aromatics"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Brown Onion",
-      "notes": "chopped"
-    },
-    {
-      "quantity": "4",
-      "unit": "cloves",
-      "item": "Garlic",
-      "notes": "minced"
-    },
-    {
-      "heading": "Base"
-    },
-    {
-      "quantity": "250",
-      "unit": "g",
-      "item": "Tomato Sauce"
-    },
-    {
-      "quantity": "500",
-      "unit": "ml",
-      "item": "Pork Stock"
-    },
-    {
-      "heading": "Thickener & Flavour"
-    },
-    {
-      "quantity": "85",
-      "unit": "g",
-      "item": "Liver Spread"
-    },
-    {
-      "heading": "Vegetables"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Potato",
-      "notes": "large, cubed"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Carrot",
-      "notes": "medium, cubed"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Red Capsicum",
-      "notes": "sliced"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Green Capsicum",
-      "notes": "sliced"
-    },
-    {
-      "heading": "Seasoning"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Pork Stock Cube"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
-    },
-    {
-      "quantity": "1",
-      "unit": "g",
-      "item": "Black Pepper",
-      "notes": "to taste"
-    },
-    {
-      "quantity": "2",
-      "unit": "",
-      "item": "Red Chilli",
-      "notes": "Thai, optional"
-    },
-    {
-      "heading": "Optional Extras"
-    },
-    {
-      "quantity": "75",
-      "unit": "g",
-      "item": "Green Olives",
-      "notes": "pitted"
-    },
-    {
-      "quantity": "50",
-      "unit": "g",
-      "item": "Tasty Cheese",
-      "notes": "shredded, for topping"
+    "id": "porkcaldereta",
+    "title": "Pork Caldereta",
+    "category": "Dinner",
+    "description": "A rich Filipino stew known for its tender meat and savoury, slightly spicy tomato-based sauce thickened with liver spread.",
+    "prepTime": "15 min",
+    "cookTime": "1 hr 15 min",
+    "totalTime": "1 hr 30 min",
+    "servings": "6 servings",
+    "difficulty": "Intermediate",
+    "tags": [
+        "Filipino",
+        "Pork",
+        "Stew",
+        "Savoury",
+        "Spicy",
+        "Rich",
+        "Dinner",
+        "Gluten-Free"
+    ],
+    "ingredients": [
+        {
+            "heading": "Meat"
+        },
+        {
+            "quantity": "1000",
+            "unit": "g",
+            "item": "Pork Shoulder",
+            "notes": "cut into 5 cm cubes"
+        },
+        {
+            "heading": "Aromatics"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Brown Onion",
+            "notes": "chopped"
+        },
+        {
+            "quantity": "4",
+            "unit": "cloves",
+            "item": "Garlic",
+            "notes": "minced"
+        },
+        {
+            "heading": "Base"
+        },
+        {
+            "quantity": "250",
+            "unit": "g",
+            "item": "Tomato Sauce"
+        },
+        {
+            "quantity": "500",
+            "unit": "ml",
+            "item": "Pork Stock"
+        },
+        {
+            "heading": "Thickener & Flavour"
+        },
+        {
+            "quantity": "85",
+            "unit": "g",
+            "item": "Liver Spread"
+        },
+        {
+            "heading": "Vegetables"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Potato",
+            "notes": "large, cubed"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Carrot",
+            "notes": "medium, cubed"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Red Capsicum",
+            "notes": "sliced"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Green Capsicum",
+            "notes": "sliced"
+        },
+        {
+            "heading": "Seasoning"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Pork Stock Cube"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Salt",
+            "notes": "to taste"
+        },
+        {
+            "quantity": "1",
+            "unit": "g",
+            "item": "Black Pepper",
+            "notes": "to taste"
+        },
+        {
+            "quantity": "2",
+            "unit": "",
+            "item": "Red Chilli",
+            "notes": "Thai, optional"
+        },
+        {
+            "heading": "Optional Extras"
+        },
+        {
+            "quantity": "75",
+            "unit": "g",
+            "item": "Green Olives",
+            "notes": "pitted"
+        },
+        {
+            "quantity": "50",
+            "unit": "g",
+            "item": "Tasty Cheese",
+            "notes": "shredded, for topping"
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Heat oil in a large pot over medium heat. Sauté garlic and onion until fragrant and the onion is translucent."
+        },
+        {
+            "step": 2,
+            "instruction": "Add pork cubes. Cook for 5–7 minutes, stirring occasionally, until the meat is lightly browned on all sides."
+        },
+        {
+            "step": 3,
+            "instruction": "Pour in tomato sauce and pork stock. Add the stock cube. Bring to a boil, then lower the heat and cover. Simmer for 45–60 minutes, or until the pork is fork-tender."
+        },
+        {
+            "step": 4,
+            "instruction": "Stir in liver spread until fully incorporated. If using chilli peppers, add them now."
+        },
+        {
+            "step": 5,
+            "instruction": "Add potatoes and carrots. Cover and cook for about 8–10 minutes until tender."
+        },
+        {
+            "step": 6,
+            "instruction": "Stir in capsicum and olives. Cook for another 3–5 minutes. Season with salt and pepper to taste."
+        },
+        {
+            "step": 7,
+            "instruction": "Transfer to a serving dish. If desired, top with shredded cheese while hot so it melts into the sauce."
+        }
+    ],
+    "notes": [
+        {
+            "type": "technique",
+            "title": "Crispy Vegetables",
+            "content": "To prevent the potatoes and carrots from going mushy, pan-fry them separately before adding to the stew at the end."
+        },
+        {
+            "type": "variation",
+            "title": "Creamier Version",
+            "content": "Adding a tablespoon of peanut butter or a splash of coconut milk creates a richer, more modern take on this dish."
+        },
+        {
+            "type": "technique",
+            "title": "Meat Choice",
+            "content": "Pork shoulder gives the best balance of tenderness and fat. Ribs add extra flavour but take longer to become fork-tender."
+        },
+        {
+            "type": "storage",
+            "title": "Leftovers",
+            "content": "Caldereta keeps well refrigerated for up to 3 days and the flavour deepens overnight. Reheat gently on the stovetop."
+        }
+    ],
+    "related": [
+        {
+            "id": "filipinonoodles",
+            "title": "Pancit (Filipino Stir-Fried Noodles)"
+        },
+        {
+            "id": "pancitbihon",
+            "title": "Pancit Bihon"
+        },
+        {
+            "id": "pancitcanton",
+            "title": "Pancit Canton"
+        },
+        {
+            "id": "bulalo",
+            "title": "Original Bulalo"
+        },
+        {
+            "id": "filipinoportoccino",
+            "title": "Filipino Pork Toccino"
+        }
+    ],
+    "nutrition": {
+        "servings": 6,
+        "cal": 722,
+        "protein": 58,
+        "carbs": 48,
+        "fat": 33,
+        "fibre": 5,
+        "sodium": 4229,
+        "coverage": 100
     }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "Heat oil in a large pot over medium heat. Sauté garlic and onion until fragrant and the onion is translucent."
-    },
-    {
-      "step": 2,
-      "instruction": "Add pork cubes. Cook for 5–7 minutes, stirring occasionally, until the meat is lightly browned on all sides."
-    },
-    {
-      "step": 3,
-      "instruction": "Pour in tomato sauce and pork stock. Add the stock cube. Bring to a boil, then lower the heat and cover. Simmer for 45–60 minutes, or until the pork is fork-tender."
-    },
-    {
-      "step": 4,
-      "instruction": "Stir in liver spread until fully incorporated. If using chilli peppers, add them now."
-    },
-    {
-      "step": 5,
-      "instruction": "Add potatoes and carrots. Cover and cook for about 8–10 minutes until tender."
-    },
-    {
-      "step": 6,
-      "instruction": "Stir in capsicum and olives. Cook for another 3–5 minutes. Season with salt and pepper to taste."
-    },
-    {
-      "step": 7,
-      "instruction": "Transfer to a serving dish. If desired, top with shredded cheese while hot so it melts into the sauce."
-    }
-  ],
-  "notes": [
-    {
-      "type": "technique",
-      "title": "Crispy Vegetables",
-      "content": "To prevent the potatoes and carrots from going mushy, pan-fry them separately before adding to the stew at the end."
-    },
-    {
-      "type": "variation",
-      "title": "Creamier Version",
-      "content": "Adding a tablespoon of peanut butter or a splash of coconut milk creates a richer, more modern take on this dish."
-    },
-    {
-      "type": "technique",
-      "title": "Meat Choice",
-      "content": "Pork shoulder gives the best balance of tenderness and fat. Ribs add extra flavour but take longer to become fork-tender."
-    },
-    {
-      "type": "storage",
-      "title": "Leftovers",
-      "content": "Caldereta keeps well refrigerated for up to 3 days and the flavour deepens overnight. Reheat gently on the stovetop."
-    }
-  ],
-  "related": [
-    {
-      "id": "filipinonoodles",
-      "title": "Pancit (Filipino Stir-Fried Noodles)"
-    },
-    {
-      "id": "pancitbihon",
-      "title": "Pancit Bihon"
-    },
-    {
-      "id": "pancitcanton",
-      "title": "Pancit Canton"
-    },
-    {
-      "id": "bulalo",
-      "title": "Original Bulalo"
-    },
-    {
-      "id": "filipinoportoccino",
-      "title": "Filipino Pork Toccino"
-    }
-  ],
-  "nutrition": {
-    "servings": 6,
-    "cal": 722,
-    "protein": 58,
-    "carbs": 48,
-    "fat": 33,
-    "fibre": 5,
-    "sodium": 4229,
-    "coverage": 100
-  }
 }

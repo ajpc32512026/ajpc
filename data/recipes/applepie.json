@@ -1,215 +1,216 @@
 {
-  "id": "applepie",
-  "title": "Apple Pie",
-  "emoji": "🍏",
-  "category": "Baking",
-  "description": "The kind of pie that disappears faster than good intentions — crisp pastry, soft spiced apples, and zero leftovers.",
-  "prepTime": "30 min",
-  "cookTime": "45 min",
-  "totalTime": "1 hr 15 min",
-  "servings": "8 servings",
-  "difficulty": "Beginner",
-  "tags": [
-    "Apple",
-    "Classic",
-    "Dessert",
-    "Make Ahead",
-    "Pastry",
-    "Rich",
-    "Sweet",
-    "Vegetarian"
-  ],
-  "ingredients": [
-    {
-      "heading": "Filling"
-    },
-    {
-      "quantity": "10",
-      "unit": "ea",
-      "item": "Granny Smith Apples",
-      "notes": "peeled, cored and sliced"
-    },
-    {
-      "quantity": "150",
-      "unit": "g",
-      "item": "White Sugar"
-    },
-    {
-      "quantity": "1",
-      "unit": "g",
-      "item": "Cloves",
-      "notes": "ground"
-    },
-    {
-      "quantity": "50",
-      "unit": "ml",
-      "item": "Water"
-    },
-    {
-      "heading": "Pastry"
-    },
-    {
-      "quantity": "200",
-      "unit": "g",
-      "item": "Plain Flour"
-    },
-    {
-      "quantity": "50",
-      "unit": "g",
-      "item": "Self-Raising Flour"
-    },
-    {
-      "quantity": "15",
-      "unit": "g",
-      "item": "Custard Powder"
-    },
-    {
-      "quantity": "125",
-      "unit": "g",
-      "item": "Unsalted Butter",
-      "notes": "chilled and diced"
-    },
-    {
-      "quantity": "60",
-      "unit": "ml",
-      "item": "Cold Water",
-      "notes": "chilled"
-    }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "Peel, core, and slice the apples evenly."
-    },
-    {
-      "step": 2,
-      "instruction": "Place apples, sugar, cloves, and water into a saucepan. Simmer gently over medium heat until apples are just tender, about 8–10 minutes. Set aside to cool completely."
-    },
-    {
-      "step": 3,
-      "instruction": "Sift plain flour, self-raising flour, and custard powder into a bowl. Rub in chilled butter until the mixture resembles fine breadcrumbs."
-    },
-    {
-      "step": 4,
-      "instruction": "Add cold water gradually, mixing until the dough just comes together. Do not overwork. Wrap and refrigerate for 15 minutes."
-    },
-    {
-      "step": 5,
-      "instruction": "Divide dough into two portions. Roll out one portion and line a greased 23cm pie tin."
-    },
-    {
-      "step": 6,
-      "instruction": "Fill with cooled apple mixture. Roll out remaining dough, cover pie, seal and crimp edges. Brush with a little milk or egg wash."
-    },
-    {
-      "step": 7,
-      "instruction": "Bake at 180°C for 40–45 minutes until golden and crisp. Rest for 10 minutes before slicing."
-    }
-  ],
-  "notes": [
-    {
-      "type": "serving",
-      "title": "Serving Tip",
-      "content": "Serve warm with cream, custard, or vanilla ice cream."
-    },
-    {
-      "type": "technique",
-      "title": "Pastry Tip",
-      "content": "Keep the butter cold and handle the dough as little as possible for a shorter, flakier pastry. A food processor makes this easier — pulse the butter into the flour until it resembles breadcrumbs, then add cold water gradually until the dough just comes together."
-    }
-  ],
-  "related": [
-    {
-      "id": "applecinnscrolls",
-      "title": "Apple & Cinnamon Scrolls",
-      "matchingTags": [
+    "id": "applepie",
+    "title": "Apple Pie",
+    "emoji": "🍏",
+    "category": "Baking",
+    "description": "The kind of pie that disappears faster than good intentions — crisp pastry, soft spiced apples, and zero leftovers.",
+    "prepTime": "30 min",
+    "cookTime": "45 min",
+    "totalTime": "1 hr 15 min",
+    "servings": "8 servings",
+    "difficulty": "Beginner",
+    "tags": [
         "Apple",
-        "Bread",
-        "Breakfast",
-        "Cinnamon",
-        "Creamy",
-        "Rich",
-        "Sweet",
-        "Under 1 Hour",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "apricotflan",
-      "title": "Apricot Flan",
-      "matchingTags": [
-        "Alcohol",
-        "Brandy",
         "Classic",
-        "Creamy",
         "Dessert",
+        "Make Ahead",
         "Pastry",
         "Rich",
         "Sweet",
         "Vegetarian"
-      ]
+    ],
+    "ingredients": [
+        {
+            "heading": "Filling"
+        },
+        {
+            "quantity": "10",
+            "unit": "ea",
+            "item": "Granny Smith Apples",
+            "notes": "peeled, cored and sliced"
+        },
+        {
+            "quantity": "150",
+            "unit": "g",
+            "item": "White Sugar"
+        },
+        {
+            "quantity": "1",
+            "unit": "g",
+            "item": "Cloves",
+            "notes": "ground"
+        },
+        {
+            "quantity": "50",
+            "unit": "ml",
+            "item": "Water"
+        },
+        {
+            "heading": "Pastry"
+        },
+        {
+            "quantity": "200",
+            "unit": "g",
+            "item": "Plain Flour"
+        },
+        {
+            "quantity": "50",
+            "unit": "g",
+            "item": "Self-Raising Flour"
+        },
+        {
+            "quantity": "15",
+            "unit": "g",
+            "item": "Custard Powder"
+        },
+        {
+            "quantity": "125",
+            "unit": "g",
+            "item": "Unsalted Butter",
+            "notes": "chilled and diced"
+        },
+        {
+            "quantity": "60",
+            "unit": "ml",
+            "item": "Cold Water",
+            "notes": "chilled"
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Peel, core, and slice the apples evenly."
+        },
+        {
+            "step": 2,
+            "instruction": "Place apples, sugar, cloves, and water into a saucepan. Simmer gently over medium heat until apples are just tender, about 8–10 minutes. Set aside to cool completely."
+        },
+        {
+            "step": 3,
+            "instruction": "Sift plain flour, self-raising flour, and custard powder into a bowl. Rub in chilled butter until the mixture resembles fine breadcrumbs."
+        },
+        {
+            "step": 4,
+            "instruction": "Add cold water gradually, mixing until the dough just comes together. Do not overwork. Wrap and refrigerate for 15 minutes."
+        },
+        {
+            "step": 5,
+            "instruction": "Divide dough into two portions. Roll out one portion and line a greased 23cm pie tin."
+        },
+        {
+            "step": 6,
+            "instruction": "Fill with cooled apple mixture. Roll out remaining dough, cover pie, seal and crimp edges. Brush with a little milk or egg wash."
+        },
+        {
+            "step": 7,
+            "instruction": "Bake at 180°C for 40–45 minutes until golden and crisp. Rest for 10 minutes before slicing."
+        }
+    ],
+    "notes": [
+        {
+            "type": "serving",
+            "title": "Serving Tip",
+            "content": "Serve warm with cream, custard, or vanilla ice cream."
+        },
+        {
+            "type": "technique",
+            "title": "Pastry Tip",
+            "content": "Keep the butter cold and handle the dough as little as possible for a shorter, flakier pastry. A food processor makes this easier — pulse the butter into the flour until it resembles breadcrumbs, then add cold water gradually until the dough just comes together."
+        }
+    ],
+    "related": [
+        {
+            "id": "applecinnscrolls",
+            "title": "Apple & Cinnamon Scrolls",
+            "matchingTags": [
+                "Apple",
+                "Bread",
+                "Breakfast",
+                "Cinnamon",
+                "Creamy",
+                "Rich",
+                "Sweet",
+                "Under 1 Hour",
+                "Vegetarian"
+            ]
+        },
+        {
+            "id": "apricotflan",
+            "title": "Apricot Flan",
+            "matchingTags": [
+                "Alcohol",
+                "Brandy",
+                "Classic",
+                "Creamy",
+                "Dessert",
+                "Pastry",
+                "Rich",
+                "Sweet",
+                "Vegetarian"
+            ]
+        },
+        {
+            "id": "lemonmeringuepie",
+            "title": "Lemon Meringue Pie",
+            "matchingTags": [
+                "Baked",
+                "Classic",
+                "Dessert",
+                "Lemon",
+                "Pastry",
+                "Sweet",
+                "Vegetarian"
+            ]
+        },
+        {
+            "id": "bananabread",
+            "title": "Banana Bread",
+            "matchingTags": [
+                "Banana",
+                "Bread",
+                "Breakfast",
+                "Classic",
+                "Make Ahead",
+                "Rich",
+                "Sweet",
+                "Vegetarian"
+            ]
+        },
+        {
+            "id": "plain-cheesecake",
+            "title": "Cheesecake — Plain",
+            "matchingTags": [
+                "Classic",
+                "Creamy",
+                "Dessert",
+                "Make Ahead",
+                "No-Bake",
+                "Rich",
+                "Sweet",
+                "Vegetarian"
+            ]
+        }
+    ],
+    "nutrition": {
+        "servings": 8,
+        "cal": 369,
+        "kj": 1542,
+        "protein": 4,
+        "carbs": 61,
+        "sugars": 33,
+        "fat": 14,
+        "saturated_fat": 9,
+        "fiber": 4,
+        "sodium": 61,
+        "coverage": 100,
+        "calcium_mg": 20,
+        "iron_mg": 1,
+        "potassium_mg": 191,
+        "magnesium_mg": 18,
+        "cholesterol_mg": 26,
+        "vitamin_a_ug": 138,
+        "vitamin_c_mg": 6
     },
-    {
-      "id": "lemonmeringuepie",
-      "title": "Lemon Meringue Pie",
-      "matchingTags": [
-        "Baked",
-        "Classic",
-        "Dessert",
-        "Lemon",
-        "Pastry",
-        "Sweet",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "bananabread",
-      "title": "Banana Bread",
-      "matchingTags": [
-        "Banana",
-        "Bread",
-        "Breakfast",
-        "Classic",
-        "Make Ahead",
-        "Rich",
-        "Sweet",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "plain-cheesecake",
-      "title": "Cheesecake — Plain",
-      "matchingTags": [
-        "Classic",
-        "Creamy",
-        "Dessert",
-        "Make Ahead",
-        "No-Bake",
-        "Rich",
-        "Sweet",
-        "Vegetarian"
-      ]
-    }
-  ],
-  "nutrition": {
-    "servings": 8,
-    "cal": 369,
-    "kj": 1542,
-    "protein": 4,
-    "carbs": 61,
-    "sugars": 33,
-    "fat": 14,
-    "saturated_fat": 9,
-    "fiber": 4,
-    "sodium": 61,
-    "coverage": 100,
-    "calcium_mg": 20,
-    "iron_mg": 1,
-    "potassium_mg": 191,
-    "magnesium_mg": 18,
-    "cholesterol_mg": 26,
-    "vitamin_a_ug": 138,
-    "vitamin_c_mg": 6
-  },
-  "lastModified": "2026-05-31"
+    "lastModified": "2026-05-31",
+    "cuisine": "British / Australian"
 }

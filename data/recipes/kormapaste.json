@@ -1,150 +1,150 @@
 {
-  "id": "homemadekormapaste",
-  "title": "Homemade Korma Paste",
-  "emoji": "🌿",
-  "category": "Sauces",
-  "description": "A rich, fragrant paste — the foundation for a proper korma curry.",
-  "prepTime": "10 min",
-  "cookTime": "2 min",
-  "totalTime": "12 min",
-  "servings": "1 batch",
-  "difficulty": "Beginner",
-  "tags": [
-    "Indian",
-    "Make Ahead",
-    "Savoury",
-    "Vegan",
-    "Gluten-Free"
-  ],
-  "ingredients": [
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Cumin Seeds"
-    },
-    {
-      "quantity": "10",
-      "unit": "g",
-      "item": "Coriander Seeds"
-    },
-    {
-      "quantity": "3",
-      "unit": "g",
-      "item": "Turmeric"
-    },
-    {
-      "quantity": "10",
-      "unit": "g",
-      "item": "Garam Masala"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Red Chilli Powder"
-    },
-    {
-      "quantity": "15",
-      "unit": "ml",
-      "item": "Vegetable Oil"
-    },
-    {
-      "quantity": "3",
-      "unit": "cloves",
-      "item": "Garlic"
-    },
-    {
-      "quantity": "15",
-      "unit": "g",
-      "item": "Ginger (Fresh)",
-      "notes": "roughly chopped"
-    },
-    {
-      "quantity": "20",
-      "unit": "g",
-      "item": "Tomato Paste"
-    },
-    {
-      "quantity": "20",
-      "unit": "g",
-      "item": "Desiccated Coconut"
-    },
-    {
-      "quantity": "30",
-      "unit": "g",
-      "item": "Cashews"
-    },
-    {
-      "quantity": "10",
-      "unit": "g",
-      "item": "Coriander (Fresh)",
-      "notes": "leaves"
+    "id": "homemadekormapaste",
+    "title": "Homemade Korma Paste",
+    "emoji": "🌿",
+    "category": "Sauces",
+    "description": "A rich, fragrant paste — the foundation for a proper korma curry.",
+    "prepTime": "10 min",
+    "cookTime": "2 min",
+    "totalTime": "12 min",
+    "servings": "1 batch",
+    "difficulty": "Beginner",
+    "tags": [
+        "Indian",
+        "Make Ahead",
+        "Savoury",
+        "Vegan",
+        "Gluten-Free"
+    ],
+    "ingredients": [
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Cumin Seeds"
+        },
+        {
+            "quantity": "10",
+            "unit": "g",
+            "item": "Coriander Seeds"
+        },
+        {
+            "quantity": "3",
+            "unit": "g",
+            "item": "Turmeric"
+        },
+        {
+            "quantity": "10",
+            "unit": "g",
+            "item": "Garam Masala"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Red Chilli Powder"
+        },
+        {
+            "quantity": "15",
+            "unit": "ml",
+            "item": "Vegetable Oil"
+        },
+        {
+            "quantity": "3",
+            "unit": "cloves",
+            "item": "Garlic"
+        },
+        {
+            "quantity": "15",
+            "unit": "g",
+            "item": "Ginger (Fresh)",
+            "notes": "roughly chopped"
+        },
+        {
+            "quantity": "20",
+            "unit": "g",
+            "item": "Tomato Paste"
+        },
+        {
+            "quantity": "20",
+            "unit": "g",
+            "item": "Desiccated Coconut"
+        },
+        {
+            "quantity": "30",
+            "unit": "g",
+            "item": "Cashews"
+        },
+        {
+            "quantity": "10",
+            "unit": "g",
+            "item": "Coriander (Fresh)",
+            "notes": "leaves"
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Place cumin seeds and coriander seeds in a small frying pan over low heat. Roast, stirring constantly, for 2 minutes or until slightly browned and fragrant. Remove from heat and let cool."
+        },
+        {
+            "step": 2,
+            "instruction": "Transfer roasted seeds to a food processor. Add turmeric, garam masala, red chilli powder, garlic, ginger, tomato paste, desiccated coconut, cashews, vegetable oil, and fresh coriander leaves."
+        },
+        {
+            "step": 3,
+            "instruction": "Grind to a smooth paste, scraping down the sides as needed. Add a small splash of water if the paste is too thick."
+        },
+        {
+            "step": 4,
+            "instruction": "Store in an airtight container in the refrigerator for up to 3 days, or freeze for up to 3 months."
+        }
+    ],
+    "notes": [
+        {
+            "type": "technique",
+            "title": "Dry Roasting",
+            "content": "Roasting the cumin and coriander seeds before grinding releases their essential oils and deepens the flavour. Do not skip this step — it is the difference between a good korma and a great one."
+        },
+        {
+            "type": "technique",
+            "title": "Yield",
+            "content": "This recipe makes approximately 120–150 g of korma paste — enough for 1 kg of meat or vegetables. Use the full batch for lamb or chicken korma."
+        },
+        {
+            "type": "acknowledgement",
+            "title": "Recipe Source",
+            "content": "Adapted from traditional Indian korma recipes."
+        }
+    ],
+    "related": [
+        {
+            "id": "lambkorma",
+            "title": "Lamb Korma"
+        },
+        {
+            "id": "vindaloopaste",
+            "title": "Vindaloo Paste"
+        },
+        {
+            "id": "butterchicken",
+            "title": "Restaurant-Style Butter Chicken"
+        },
+        {
+            "id": "roganjosh",
+            "title": "Lamb Rogan Josh"
+        },
+        {
+            "id": "beefvindaloo",
+            "title": "Beef Vindaloo"
+        }
+    ],
+    "nutrition": {
+        "servings": 1,
+        "cal": 999,
+        "protein": 31,
+        "carbs": 135,
+        "fat": 47,
+        "fibre": 19,
+        "sodium": 107,
+        "coverage": 100
     }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "Place cumin seeds and coriander seeds in a small frying pan over low heat. Roast, stirring constantly, for 2 minutes or until slightly browned and fragrant. Remove from heat and let cool."
-    },
-    {
-      "step": 2,
-      "instruction": "Transfer roasted seeds to a food processor. Add turmeric, garam masala, red chilli powder, garlic, ginger, tomato paste, desiccated coconut, cashews, vegetable oil, and fresh coriander leaves."
-    },
-    {
-      "step": 3,
-      "instruction": "Grind to a smooth paste, scraping down the sides as needed. Add a small splash of water if the paste is too thick."
-    },
-    {
-      "step": 4,
-      "instruction": "Store in an airtight container in the refrigerator for up to 3 days, or freeze for up to 3 months."
-    }
-  ],
-  "notes": [
-    {
-      "type": "technique",
-      "title": "Dry Roasting",
-      "content": "Roasting the cumin and coriander seeds before grinding releases their essential oils and deepens the flavour. Do not skip this step — it is the difference between a good korma and a great one."
-    },
-    {
-      "type": "technique",
-      "title": "Yield",
-      "content": "This recipe makes approximately 120–150 g of korma paste — enough for 1 kg of meat or vegetables. Use the full batch for lamb or chicken korma."
-    },
-    {
-      "type": "acknowledgement",
-      "title": "Recipe Source",
-      "content": "Adapted from traditional Indian korma recipes."
-    }
-  ],
-  "related": [
-    {
-      "id": "lambkorma",
-      "title": "Lamb Korma"
-    },
-    {
-      "id": "vindaloopaste",
-      "title": "Vindaloo Paste"
-    },
-    {
-      "id": "butterchicken",
-      "title": "Restaurant-Style Butter Chicken"
-    },
-    {
-      "id": "roganjosh",
-      "title": "Lamb Rogan Josh"
-    },
-    {
-      "id": "beefvindaloo",
-      "title": "Beef Vindaloo"
-    }
-  ],
-  "nutrition": {
-    "servings": 1,
-    "cal": 999,
-    "protein": 31,
-    "carbs": 135,
-    "fat": 47,
-    "fibre": 19,
-    "sodium": 107,
-    "coverage": 100
-  }
 }

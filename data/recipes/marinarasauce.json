@@ -1,133 +1,133 @@
 {
-  "id": "marinarasauce",
-  "title": "Marinara Sauce",
-  "emoji": "🍝",
-  "category": "Sauces",
-  "description": "A traditional Italian tomato sauce — fresh, herby, and full of character. Simple ingredients, perfect taste.",
-  "prepTime": "10 min",
-  "cookTime": "25 min",
-  "totalTime": "35 min",
-  "servings": "4 servings",
-  "difficulty": "Beginner",
-  "tags": [
-    "Classic",
-    "Italian",
-    "Sauce",
-    "Tomato",
-    "Under 30 Minutes",
-    "Vegan",
-    "Vegetarian"
-  ],
-  "ingredients": [
-    {
-      "quantity": "30",
-      "unit": "ml",
-      "item": "Olive Oil"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Brown Onion",
-      "notes": "chopped"
-    },
-    {
-      "quantity": "3",
-      "unit": "cloves",
-      "item": "Garlic",
-      "notes": "minced"
-    },
-    {
-      "quantity": "500",
-      "unit": "g",
-      "item": "Tomatoes",
-      "notes": "crushed"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Basil",
-      "notes": "dried"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Oregano",
-      "notes": "dried"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Salt"
-    },
-    {
-      "quantity": "2",
-      "unit": "g",
-      "item": "Black Pepper"
+    "id": "marinarasauce",
+    "title": "Marinara Sauce",
+    "emoji": "🍝",
+    "category": "Sauces",
+    "description": "A traditional Italian tomato sauce — fresh, herby, and full of character. Simple ingredients, perfect taste.",
+    "prepTime": "10 min",
+    "cookTime": "25 min",
+    "totalTime": "35 min",
+    "servings": "4 servings",
+    "difficulty": "Beginner",
+    "tags": [
+        "Classic",
+        "Italian",
+        "Sauce",
+        "Tomato",
+        "Under 30 Minutes",
+        "Vegan",
+        "Vegetarian"
+    ],
+    "ingredients": [
+        {
+            "quantity": "30",
+            "unit": "ml",
+            "item": "Olive Oil"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Brown Onion",
+            "notes": "chopped"
+        },
+        {
+            "quantity": "3",
+            "unit": "cloves",
+            "item": "Garlic",
+            "notes": "minced"
+        },
+        {
+            "quantity": "500",
+            "unit": "g",
+            "item": "Tomatoes",
+            "notes": "crushed"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Basil",
+            "notes": "dried"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Oregano",
+            "notes": "dried"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Salt"
+        },
+        {
+            "quantity": "2",
+            "unit": "g",
+            "item": "Black Pepper"
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Heat olive oil in a saucepan over medium heat."
+        },
+        {
+            "step": 2,
+            "instruction": "Sauté onion for 3–4 minutes until translucent."
+        },
+        {
+            "step": 3,
+            "instruction": "Add garlic and cook for 1 minute until fragrant."
+        },
+        {
+            "step": 4,
+            "instruction": "Add crushed tomatoes, basil, and oregano. Stir well."
+        },
+        {
+            "step": 5,
+            "instruction": "Bring to a gentle simmer and cook for 20–25 minutes, stirring occasionally, until thickened."
+        },
+        {
+            "step": 6,
+            "instruction": "Season with salt and pepper to taste."
+        }
+    ],
+    "notes": [
+        {
+            "type": "serving",
+            "title": "Serving Tip",
+            "content": "A versatile sauce perfect for pasta, pizza, or as a base for other dishes. Freezes beautifully for up to 3 months."
+        }
+    ],
+    "related": [
+        {
+            "id": "redsauce",
+            "title": "Red Sauce"
+        },
+        {
+            "id": "arrabbiatasauce",
+            "title": "Arrabbiata Sauce"
+        },
+        {
+            "id": "alfredosauce",
+            "title": "Alfredo Sauce"
+        },
+        {
+            "id": "pestosauce",
+            "title": "Pesto Sauce"
+        },
+        {
+            "id": "whitesauce",
+            "title": "White Sauce (Béchamel)"
+        }
+    ],
+    "nutrition": {
+        "servings": 4,
+        "cal": 215,
+        "protein": 6,
+        "carbs": 33,
+        "fat": 8,
+        "fibre": 4,
+        "sodium": 505,
+        "coverage": 100
     }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "Heat olive oil in a saucepan over medium heat."
-    },
-    {
-      "step": 2,
-      "instruction": "Sauté onion for 3–4 minutes until translucent."
-    },
-    {
-      "step": 3,
-      "instruction": "Add garlic and cook for 1 minute until fragrant."
-    },
-    {
-      "step": 4,
-      "instruction": "Add crushed tomatoes, basil, and oregano. Stir well."
-    },
-    {
-      "step": 5,
-      "instruction": "Bring to a gentle simmer and cook for 20–25 minutes, stirring occasionally, until thickened."
-    },
-    {
-      "step": 6,
-      "instruction": "Season with salt and pepper to taste."
-    }
-  ],
-  "notes": [
-    {
-      "type": "serving",
-      "title": "Serving Tip",
-      "content": "A versatile sauce perfect for pasta, pizza, or as a base for other dishes. Freezes beautifully for up to 3 months."
-    }
-  ],
-  "related": [
-    {
-      "id": "redsauce",
-      "title": "Red Sauce"
-    },
-    {
-      "id": "arrabbiatasauce",
-      "title": "Arrabbiata Sauce"
-    },
-    {
-      "id": "alfredosauce",
-      "title": "Alfredo Sauce"
-    },
-    {
-      "id": "pestosauce",
-      "title": "Pesto Sauce"
-    },
-    {
-      "id": "whitesauce",
-      "title": "White Sauce (Béchamel)"
-    }
-  ],
-  "nutrition": {
-    "servings": 4,
-    "cal": 215,
-    "protein": 6,
-    "carbs": 33,
-    "fat": 8,
-    "fibre": 4,
-    "sodium": 505,
-    "coverage": 100
-  }
 }

@@ -1,218 +1,218 @@
 {
-  "id": "carpetbagsteak",
-  "title": "Carpet Bag Steak",
-  "emoji": "🦪",
-  "category": "Bistro",
-  "description": "Scotch fillet stuffed with fresh oysters and Camembert cheese, finished with a red wine and demi glace sauce. The most theatrical dish on the menu.",
-  "prepTime": "10 min",
-  "cookTime": "8 min",
-  "totalTime": "18 min",
-  "servings": "1 serving",
-  "difficulty": "Intermediate",
-  "tags": [
-    "Alcohol",
-    "Australian",
-    "Beef",
-    "Cheese",
-    "Classic",
-    "Dinner",
-    "Rich",
-    "Seafood",
-    "Under 1 Hour"
-  ],
-  "ingredients": [
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Scotch Fillet",
-      "notes": "approximately 300g"
-    },
-    {
-      "quantity": "3",
-      "unit": "",
-      "item": "Fresh Oysters",
-      "notes": "shucked, liquor reserved"
-    },
-    {
-      "quantity": "50",
-      "unit": "g",
-      "item": "Camembert Cheese",
-      "notes": "cut into slices"
-    },
-    {
-      "quantity": "30",
-      "unit": "g",
-      "item": "Unsalted Butter"
-    },
-    {
-      "quantity": "60",
-      "unit": "ml",
-      "item": "Demi Glace"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Shallot",
-      "notes": "finely sliced"
-    },
-    {
-      "quantity": "60",
-      "unit": "ml",
-      "item": "Red Wine",
-      "notes": "full-bodied, like Shiraz or Cabernet"
-    },
-    {
-      "item": "Salt & Pepper",
-      "toTaste": true,
-      "notes": "Don't add too much all at once — you can't take it out once it's in."
-    }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "Cut a deep horizontal pocket in each scotch fillet, being careful not to pierce through the other side."
-    },
-    {
-      "step": 2,
-      "instruction": "Stuff each pocket with 3 oysters and slices of Camembert. Secure the opening with toothpicks."
-    },
-    {
-      "step": 3,
-      "instruction": "Season the outside with salt and pepper. Pan-fry in a hot skillet for 3–4 minutes per side for medium-rare, or until desired doneness. The Camembert will melt inside. Remove steaks and rest on a warm plate."
-    },
-    {
-      "step": 4,
-      "instruction": "In the same pan, melt butter over medium heat. Add diced shallot and cook until softened, about 1–2 minutes."
-    },
-    {
-      "step": 5,
-      "instruction": "Deglaze with red wine, scraping up any browned bits from the bottom. Reduce by half, about 1–2 minutes."
-    },
-    {
-      "step": 6,
-      "instruction": "Add demi glace and any reserved oyster liquor. Simmer until the sauce is glossy and coats the back of a spoon, about 2–3 minutes."
-    },
-    {
-      "step": 7,
-      "instruction": "Remove toothpicks from steaks. Plate and spoon the red wine demi glace sauce generously over the top."
-    },
-    {
-      "step": 8,
-      "instruction": "Add salt and pepper to season"
-    }
-  ],
-  "notes": [
-    {
-      "type": "technique",
-      "title": "The Magic Inside",
-      "content": "The Camembert melts into the oysters inside the steak while cooking — that is the signature of this dish. The cheese and oysters fuse together, creating a rich, briny, creamy centre."
-    },
-    {
-      "type": "tip",
-      "title": "Wine Choice",
-      "content": "Use a full-bodied red wine like Shiraz or Cabernet Sauvignon for deglazing. Avoid light reds — they won't stand up to the demi glace and beef."
-    },
-    {
-      "type": "technique",
-      "title": "Oyster Liquor",
-      "content": "Reserve the oyster liquor and add it to the sauce. It adds a subtle brininess that ties the surf and turf elements together beautifully."
-    }
-  ],
-  "related": [
-    {
-      "id": "bistro-reefandbeef",
-      "title": "Reef and Beef",
-      "matchingTags": [
+    "id": "carpetbagsteak",
+    "title": "Carpet Bag Steak",
+    "emoji": "🦪",
+    "category": "Bistro",
+    "description": "Scotch fillet stuffed with fresh oysters and Camembert cheese, finished with a red wine and demi glace sauce. The most theatrical dish on the menu.",
+    "prepTime": "10 min",
+    "cookTime": "8 min",
+    "totalTime": "18 min",
+    "servings": "1 serving",
+    "difficulty": "Intermediate",
+    "tags": [
+        "Alcohol",
         "Australian",
         "Beef",
+        "Cheese",
         "Classic",
-        "Creamy",
         "Dinner",
         "Rich",
-        "Savoury",
         "Seafood",
-        "Under 30 Minutes"
-      ]
+        "Under 1 Hour"
+    ],
+    "ingredients": [
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Scotch Fillet",
+            "notes": "approximately 300g"
+        },
+        {
+            "quantity": "3",
+            "unit": "",
+            "item": "Fresh Oysters",
+            "notes": "shucked, liquor reserved"
+        },
+        {
+            "quantity": "50",
+            "unit": "g",
+            "item": "Camembert Cheese",
+            "notes": "cut into slices"
+        },
+        {
+            "quantity": "30",
+            "unit": "g",
+            "item": "Unsalted Butter"
+        },
+        {
+            "quantity": "60",
+            "unit": "ml",
+            "item": "Demi Glace"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Shallot",
+            "notes": "finely sliced"
+        },
+        {
+            "quantity": "60",
+            "unit": "ml",
+            "item": "Red Wine",
+            "notes": "full-bodied, like Shiraz or Cabernet"
+        },
+        {
+            "item": "Salt & Pepper",
+            "toTaste": true,
+            "notes": "Don't add too much all at once — you can't take it out once it's in."
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Cut a deep horizontal pocket in each scotch fillet, being careful not to pierce through the other side."
+        },
+        {
+            "step": 2,
+            "instruction": "Stuff each pocket with 3 oysters and slices of Camembert. Secure the opening with toothpicks."
+        },
+        {
+            "step": 3,
+            "instruction": "Season the outside with salt and pepper. Pan-fry in a hot skillet for 3–4 minutes per side for medium-rare, or until desired doneness. The Camembert will melt inside. Remove steaks and rest on a warm plate."
+        },
+        {
+            "step": 4,
+            "instruction": "In the same pan, melt butter over medium heat. Add diced shallot and cook until softened, about 1–2 minutes."
+        },
+        {
+            "step": 5,
+            "instruction": "Deglaze with red wine, scraping up any browned bits from the bottom. Reduce by half, about 1–2 minutes."
+        },
+        {
+            "step": 6,
+            "instruction": "Add demi glace and any reserved oyster liquor. Simmer until the sauce is glossy and coats the back of a spoon, about 2–3 minutes."
+        },
+        {
+            "step": 7,
+            "instruction": "Remove toothpicks from steaks. Plate and spoon the red wine demi glace sauce generously over the top."
+        },
+        {
+            "step": 8,
+            "instruction": "Add salt and pepper to season"
+        }
+    ],
+    "notes": [
+        {
+            "type": "technique",
+            "title": "The Magic Inside",
+            "content": "The Camembert melts into the oysters inside the steak while cooking — that is the signature of this dish. The cheese and oysters fuse together, creating a rich, briny, creamy centre."
+        },
+        {
+            "type": "tip",
+            "title": "Wine Choice",
+            "content": "Use a full-bodied red wine like Shiraz or Cabernet Sauvignon for deglazing. Avoid light reds — they won't stand up to the demi glace and beef."
+        },
+        {
+            "type": "technique",
+            "title": "Oyster Liquor",
+            "content": "Reserve the oyster liquor and add it to the sauce. It adds a subtle brininess that ties the surf and turf elements together beautifully."
+        }
+    ],
+    "related": [
+        {
+            "id": "bistro-reefandbeef",
+            "title": "Reef and Beef",
+            "matchingTags": [
+                "Australian",
+                "Beef",
+                "Classic",
+                "Creamy",
+                "Dinner",
+                "Rich",
+                "Savoury",
+                "Seafood",
+                "Under 30 Minutes"
+            ]
+        },
+        {
+            "id": "bistro-filetmignon",
+            "title": "Filet Mignon",
+            "matchingTags": [
+                "Beef",
+                "Classic",
+                "Creamy",
+                "Dinner",
+                "Gluten-Free",
+                "Rich",
+                "Savoury",
+                "Under 30 Minutes"
+            ]
+        },
+        {
+            "id": "bistro-steakboston",
+            "title": "Steak Boston",
+            "matchingTags": [
+                "Alcohol",
+                "Beef",
+                "Classic",
+                "Dinner",
+                "Gluten-Free",
+                "Rich",
+                "Savoury",
+                "Under 30 Minutes"
+            ]
+        },
+        {
+            "id": "bistro-chickenpapion",
+            "title": "Chicken Papion",
+            "matchingTags": [
+                "Alcohol",
+                "Chicken",
+                "Classic",
+                "Creamy",
+                "Dinner",
+                "Rich",
+                "Savoury",
+                "Seafood",
+                "Under 30 Minutes"
+            ]
+        },
+        {
+            "id": "bistro-chickenriverina",
+            "title": "Chicken Riverina",
+            "matchingTags": [
+                "Australian",
+                "Chicken",
+                "Classic",
+                "Creamy",
+                "Dinner",
+                "Rich",
+                "Savoury",
+                "Under 30 Minutes"
+            ]
+        }
+    ],
+    "nutrition": {
+        "servings": 1,
+        "cal": 783,
+        "kj": 3276,
+        "protein": 68,
+        "carbs": 8,
+        "sugars": 5,
+        "fat": 47,
+        "saturated_fat": 28,
+        "fiber": 3,
+        "sodium": 2575,
+        "coverage": 88,
+        "calcium_mg": 974,
+        "iron_mg": 15,
+        "potassium_mg": 1465,
+        "magnesium_mg": 315,
+        "zinc_mg": 58,
+        "cholesterol_mg": 346,
+        "vitamin_a_ug": 583,
+        "vitamin_c_mg": 26,
+        "vitamin_d_ug": 2
     },
-    {
-      "id": "bistro-filetmignon",
-      "title": "Filet Mignon",
-      "matchingTags": [
-        "Beef",
-        "Classic",
-        "Creamy",
-        "Dinner",
-        "Gluten-Free",
-        "Rich",
-        "Savoury",
-        "Under 30 Minutes"
-      ]
-    },
-    {
-      "id": "bistro-steakboston",
-      "title": "Steak Boston",
-      "matchingTags": [
-        "Alcohol",
-        "Beef",
-        "Classic",
-        "Dinner",
-        "Gluten-Free",
-        "Rich",
-        "Savoury",
-        "Under 30 Minutes"
-      ]
-    },
-    {
-      "id": "bistro-chickenpapion",
-      "title": "Chicken Papion",
-      "matchingTags": [
-        "Alcohol",
-        "Chicken",
-        "Classic",
-        "Creamy",
-        "Dinner",
-        "Rich",
-        "Savoury",
-        "Seafood",
-        "Under 30 Minutes"
-      ]
-    },
-    {
-      "id": "bistro-chickenriverina",
-      "title": "Chicken Riverina",
-      "matchingTags": [
-        "Australian",
-        "Chicken",
-        "Classic",
-        "Creamy",
-        "Dinner",
-        "Rich",
-        "Savoury",
-        "Under 30 Minutes"
-      ]
-    }
-  ],
-  "nutrition": {
-    "servings": 1,
-    "cal": 783,
-    "kj": 3276,
-    "protein": 68,
-    "carbs": 8,
-    "sugars": 5,
-    "fat": 47,
-    "saturated_fat": 28,
-    "fiber": 3,
-    "sodium": 2575,
-    "coverage": 88,
-    "calcium_mg": 974,
-    "iron_mg": 15,
-    "potassium_mg": 1465,
-    "magnesium_mg": 315,
-    "zinc_mg": 58,
-    "cholesterol_mg": 346,
-    "vitamin_a_ug": 583,
-    "vitamin_c_mg": 26,
-    "vitamin_d_ug": 2
-  },
-  "lastModified": "2026-05-31"
+    "lastModified": "2026-05-31"
 }

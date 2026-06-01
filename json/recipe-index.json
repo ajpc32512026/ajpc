@@ -1793,7 +1793,7 @@
     ]
   },
   {
-    "category": "pastry",
+    "category": "Pastry",
     "description": "A smart compromise between traditional puff pastry and store-bought. Quick to make with excellent rise and flakiness.",
     "id": "puffpastryrough",
     "name": "Rough Puff Pastry",
@@ -1809,7 +1809,7 @@
     ]
   },
   {
-    "category": "pastry",
+    "category": "Pastry",
     "description": "The full classic method with butter block and multiple turns. Ultimate rise, ethereal flakiness, and deep satisfaction. A project worth the effort.",
     "id": "puffpastrytraditional",
     "name": "Traditional Puff Pastry",

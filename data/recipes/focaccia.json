@@ -1,181 +1,181 @@
 {
-  "id": "focaccia",
-  "title": "Focaccia",
-  "emoji": "🍞",
-  "category": "Baking",
-  "description": "A classic Italian flatbread studded with olives and rosemary, baked until golden and crisp.",
-  "prepTime": "50 min",
-  "cookTime": "25 min",
-  "totalTime": "2 hr 15 min",
-  "servings": "1 flat loaf",
-  "difficulty": "Intermediate",
-  "tags": [
-    "Bread",
-    "Italian",
-    "Make Ahead",
-    "Savoury",
-    "Vegetarian"
-  ],
-  "ingredients": [
-    {
-      "quantity": "7",
-      "unit": "g",
-      "item": "Yeast",
-      "notes": "instant dried"
-    },
-    {
-      "quantity": "250",
-      "unit": "ml",
-      "item": "Warm Water"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Caster Sugar"
-    },
-    {
-      "quantity": "30",
-      "unit": "ml",
-      "item": "Olive Oil"
-    },
-    {
-      "quantity": "405",
-      "unit": "g",
-      "item": "Plain Flour"
-    },
-    {
-      "quantity": "15",
-      "unit": "g",
-      "item": "Milk Powder",
-      "notes": "full-cream"
-    },
-    {
-      "quantity": "3",
-      "unit": "g",
-      "item": "Salt"
-    },
-    {
-      "heading": "Topping"
-    },
-    {
-      "quantity": "15",
-      "unit": "ml",
-      "item": "Olive Oil"
-    },
-    {
-      "quantity": "2",
-      "unit": "cloves",
-      "item": "Garlic",
-      "notes": "crushed"
-    },
-    {
-      "quantity": "12",
-      "unit": "",
-      "item": "Kalamata Olives",
-      "notes": "pitted"
-    },
-    {
-      "quantity": "2",
-      "unit": "sprigs",
-      "item": "Rosemary",
-      "notes": "fresh"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Oregano",
-      "notes": "dried"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Sea Salt Flakes"
+    "id": "focaccia",
+    "title": "Focaccia",
+    "emoji": "🍞",
+    "category": "Baking",
+    "description": "A classic Italian flatbread studded with olives and rosemary, baked until golden and crisp.",
+    "prepTime": "50 min",
+    "cookTime": "25 min",
+    "totalTime": "2 hr 15 min",
+    "servings": "1 flat loaf",
+    "difficulty": "Intermediate",
+    "tags": [
+        "Bread",
+        "Italian",
+        "Make Ahead",
+        "Savoury",
+        "Vegetarian"
+    ],
+    "ingredients": [
+        {
+            "quantity": "7",
+            "unit": "g",
+            "item": "Yeast",
+            "notes": "instant dried"
+        },
+        {
+            "quantity": "250",
+            "unit": "ml",
+            "item": "Warm Water"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Caster Sugar"
+        },
+        {
+            "quantity": "30",
+            "unit": "ml",
+            "item": "Olive Oil"
+        },
+        {
+            "quantity": "405",
+            "unit": "g",
+            "item": "Plain Flour"
+        },
+        {
+            "quantity": "15",
+            "unit": "g",
+            "item": "Milk Powder",
+            "notes": "full-cream"
+        },
+        {
+            "quantity": "3",
+            "unit": "g",
+            "item": "Salt"
+        },
+        {
+            "heading": "Topping"
+        },
+        {
+            "quantity": "15",
+            "unit": "ml",
+            "item": "Olive Oil"
+        },
+        {
+            "quantity": "2",
+            "unit": "cloves",
+            "item": "Garlic",
+            "notes": "crushed"
+        },
+        {
+            "quantity": "12",
+            "unit": "",
+            "item": "Kalamata Olives",
+            "notes": "pitted"
+        },
+        {
+            "quantity": "2",
+            "unit": "sprigs",
+            "item": "Rosemary",
+            "notes": "fresh"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Oregano",
+            "notes": "dried"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Sea Salt Flakes"
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Brush a rectangular baking tin with olive oil. Combine yeast, warm water, and sugar in a large bowl. Stir to dissolve the yeast, cover, and leave in a warm place for about 10 minutes until frothy."
+        },
+        {
+            "step": 2,
+            "instruction": "Add olive oil. Sift flour, milk powder, and salt into the yeast mixture. Beat with a wooden spoon until well combined, adding a little extra flour if needed to form a soft dough."
+        },
+        {
+            "step": 3,
+            "instruction": "Turn the dough onto a lightly floured surface and knead for 10 minutes until smooth and elastic."
+        },
+        {
+            "step": 4,
+            "instruction": "Place dough in a large lightly oiled bowl, brush the surface with oil, cover with plastic wrap, and leave in a warm place for 1 hour or until well risen."
+        },
+        {
+            "step": 5,
+            "instruction": "Punch down the dough and knead briefly. Roll out to fit the prepared tin. Cover and leave to rise for a further 20 minutes."
+        },
+        {
+            "step": 6,
+            "instruction": "Preheat oven to 180°C."
+        },
+        {
+            "step": 7,
+            "instruction": "Using the handle of a wooden spoon, press indentations into the dough at regular intervals."
+        },
+        {
+            "step": 8,
+            "instruction": "Combine olive oil and crushed garlic. Brush over the surface. Top with olives and rosemary, then sprinkle with oregano and sea salt flakes."
+        },
+        {
+            "step": 9,
+            "instruction": "Cover and leave to rise for a further 30 minutes until well risen."
+        },
+        {
+            "step": 10,
+            "instruction": "Bake for 20–25 minutes until golden and crisp. Cut into large squares and serve warm."
+        }
+    ],
+    "notes": [
+        {
+            "type": "technique",
+            "title": "Kneading",
+            "content": "Proper kneading develops the gluten structure that gives this focaccia its characteristic chewy texture. The dough should be smooth and elastic — if it tears easily, keep kneading."
+        },
+        {
+            "type": "acknowledgement",
+            "title": "Recipe Source",
+            "content": "Adapted from The Essential Vegetarian Cook Book, published by Murdoch Books."
+        }
+    ],
+    "related": [
+        {
+            "id": "focaccia-high",
+            "title": "High-Hydration Focaccia"
+        },
+        {
+            "id": "garlicbread",
+            "title": "Garlic Butter Crusty Bread"
+        },
+        {
+            "id": "pizzadough",
+            "title": "Pizza Dough"
+        },
+        {
+            "id": "turkishbread",
+            "title": "Traditional Turkish Bread"
+        },
+        {
+            "id": "darkrye",
+            "title": "Dark Rye Bread"
+        }
+    ],
+    "nutrition": {
+        "servings": 1,
+        "cal": 5430,
+        "protein": 91,
+        "carbs": 493,
+        "fat": 355,
+        "fibre": 87,
+        "sodium": 15855,
+        "coverage": 100
     }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "Brush a rectangular baking tin with olive oil. Combine yeast, warm water, and sugar in a large bowl. Stir to dissolve the yeast, cover, and leave in a warm place for about 10 minutes until frothy."
-    },
-    {
-      "step": 2,
-      "instruction": "Add olive oil. Sift flour, milk powder, and salt into the yeast mixture. Beat with a wooden spoon until well combined, adding a little extra flour if needed to form a soft dough."
-    },
-    {
-      "step": 3,
-      "instruction": "Turn the dough onto a lightly floured surface and knead for 10 minutes until smooth and elastic."
-    },
-    {
-      "step": 4,
-      "instruction": "Place dough in a large lightly oiled bowl, brush the surface with oil, cover with plastic wrap, and leave in a warm place for 1 hour or until well risen."
-    },
-    {
-      "step": 5,
-      "instruction": "Punch down the dough and knead briefly. Roll out to fit the prepared tin. Cover and leave to rise for a further 20 minutes."
-    },
-    {
-      "step": 6,
-      "instruction": "Preheat oven to 180°C."
-    },
-    {
-      "step": 7,
-      "instruction": "Using the handle of a wooden spoon, press indentations into the dough at regular intervals."
-    },
-    {
-      "step": 8,
-      "instruction": "Combine olive oil and crushed garlic. Brush over the surface. Top with olives and rosemary, then sprinkle with oregano and sea salt flakes."
-    },
-    {
-      "step": 9,
-      "instruction": "Cover and leave to rise for a further 30 minutes until well risen."
-    },
-    {
-      "step": 10,
-      "instruction": "Bake for 20–25 minutes until golden and crisp. Cut into large squares and serve warm."
-    }
-  ],
-  "notes": [
-    {
-      "type": "technique",
-      "title": "Kneading",
-      "content": "Proper kneading develops the gluten structure that gives this focaccia its characteristic chewy texture. The dough should be smooth and elastic — if it tears easily, keep kneading."
-    },
-    {
-      "type": "acknowledgement",
-      "title": "Recipe Source",
-      "content": "Adapted from The Essential Vegetarian Cook Book, published by Murdoch Books."
-    }
-  ],
-  "related": [
-    {
-      "id": "focaccia-high",
-      "title": "High-Hydration Focaccia"
-    },
-    {
-      "id": "garlicbread",
-      "title": "Garlic Butter Crusty Bread"
-    },
-    {
-      "id": "pizzadough",
-      "title": "Pizza Dough"
-    },
-    {
-      "id": "turkishbread",
-      "title": "Traditional Turkish Bread"
-    },
-    {
-      "id": "darkrye",
-      "title": "Dark Rye Bread"
-    }
-  ],
-  "nutrition": {
-    "servings": 1,
-    "cal": 5430,
-    "protein": 91,
-    "carbs": 493,
-    "fat": 355,
-    "fibre": 87,
-    "sodium": 15855,
-    "coverage": 100
-  }
 }

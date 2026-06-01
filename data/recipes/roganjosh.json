@@ -1,233 +1,233 @@
 {
-  "id": "lambroganjoshrestaurantstyle",
-  "title": "Lamb Rogan Josh – Restaurant Style",
-  "emoji": "🍛",
-  "category": "Dinner",
-  "description": "Succulent pieces of lamb cooked in a rich, flavourful sauce.",
-  "prepTime": "20 min",
-  "cookTime": "50 min",
-  "totalTime": "1 hr 10 min",
-  "servings": "4 servings",
-  "difficulty": "Intermediate",
-  "tags": [
-    "Curry",
-    "Dinner",
-    "Indian",
-    "Lamb",
-    "Rich",
-    "Savoury",
-    "Slow-Cooked",
-    "Spicy"
-  ],
-  "ingredients": [
-    {
-      "heading": "Pastes"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Brown Onion",
-      "notes": "large, blended to paste with water"
-    },
-    {
-      "quantity": "15",
-      "unit": "g",
-      "item": "Ginger (Fresh)",
-      "notes": "blended to paste with garlic"
-    },
-    {
-      "quantity": "5",
-      "unit": "cloves",
-      "item": "Garlic",
-      "notes": "blended to paste with ginger"
-    },
-    {
-      "heading": "Spice Mix"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Fennel Seeds"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Cumin Seeds"
-    },
-    {
-      "quantity": "15",
-      "unit": "g",
-      "item": "Coriander Seeds"
-    },
-    {
-      "quantity": "2",
-      "unit": "g",
-      "item": "Turmeric"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Garam Masala"
-    },
-    {
-      "quantity": "10",
-      "unit": "g",
-      "item": "Paprika"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Red Chilli Powder"
-    },
-    {
-      "heading": "Curry Base"
-    },
-    {
-      "quantity": "60",
-      "unit": "ml",
-      "item": "Vegetable Oil"
-    },
-    {
-      "quantity": "4",
-      "unit": "pods",
-      "item": "Green Cardamom Pods"
-    },
-    {
-      "quantity": "5",
-      "unit": "",
-      "item": "Cloves"
-    },
-    {
-      "quantity": "2",
-      "unit": "",
-      "item": "Bay Leaves"
-    },
-    {
-      "quantity": "20",
-      "unit": "g",
-      "item": "Tomato Paste"
-    },
-    {
-      "quantity": "40",
-      "unit": "g",
-      "item": "Tomato Paste"
-    },
-    {
-      "heading": "Meat & Finishing"
-    },
-    {
-      "quantity": "600",
-      "unit": "g",
-      "item": "Lamb",
-      "notes": "cut into cubes"
-    },
-    {
-      "quantity": "120",
-      "unit": "g",
-      "item": "Greek Yoghurt"
-    },
-    {
-      "quantity": "250",
-      "unit": "ml",
-      "item": "Hot Water"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Coriander (Fresh)",
-      "notes": "chopped, for garnish"
+    "id": "lambroganjoshrestaurantstyle",
+    "title": "Lamb Rogan Josh – Restaurant Style",
+    "emoji": "🍛",
+    "category": "Dinner",
+    "description": "Succulent pieces of lamb cooked in a rich, flavourful sauce.",
+    "prepTime": "20 min",
+    "cookTime": "50 min",
+    "totalTime": "1 hr 10 min",
+    "servings": "4 servings",
+    "difficulty": "Intermediate",
+    "tags": [
+        "Curry",
+        "Dinner",
+        "Indian",
+        "Lamb",
+        "Rich",
+        "Savoury",
+        "Slow-Cooked",
+        "Spicy"
+    ],
+    "ingredients": [
+        {
+            "heading": "Pastes"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Brown Onion",
+            "notes": "large, blended to paste with water"
+        },
+        {
+            "quantity": "15",
+            "unit": "g",
+            "item": "Ginger (Fresh)",
+            "notes": "blended to paste with garlic"
+        },
+        {
+            "quantity": "5",
+            "unit": "cloves",
+            "item": "Garlic",
+            "notes": "blended to paste with ginger"
+        },
+        {
+            "heading": "Spice Mix"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Fennel Seeds"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Cumin Seeds"
+        },
+        {
+            "quantity": "15",
+            "unit": "g",
+            "item": "Coriander Seeds"
+        },
+        {
+            "quantity": "2",
+            "unit": "g",
+            "item": "Turmeric"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Garam Masala"
+        },
+        {
+            "quantity": "10",
+            "unit": "g",
+            "item": "Paprika"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Red Chilli Powder"
+        },
+        {
+            "heading": "Curry Base"
+        },
+        {
+            "quantity": "60",
+            "unit": "ml",
+            "item": "Vegetable Oil"
+        },
+        {
+            "quantity": "4",
+            "unit": "pods",
+            "item": "Green Cardamom Pods"
+        },
+        {
+            "quantity": "5",
+            "unit": "",
+            "item": "Cloves"
+        },
+        {
+            "quantity": "2",
+            "unit": "",
+            "item": "Bay Leaves"
+        },
+        {
+            "quantity": "20",
+            "unit": "g",
+            "item": "Tomato Paste"
+        },
+        {
+            "quantity": "40",
+            "unit": "g",
+            "item": "Tomato Paste"
+        },
+        {
+            "heading": "Meat & Finishing"
+        },
+        {
+            "quantity": "600",
+            "unit": "g",
+            "item": "Lamb",
+            "notes": "cut into cubes"
+        },
+        {
+            "quantity": "120",
+            "unit": "g",
+            "item": "Greek Yoghurt"
+        },
+        {
+            "quantity": "250",
+            "unit": "ml",
+            "item": "Hot Water"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Salt",
+            "notes": "to taste"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Coriander (Fresh)",
+            "notes": "chopped, for garnish"
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Place onion in a food processor with a little water and blend to a smooth paste. Set aside."
+        },
+        {
+            "step": 2,
+            "instruction": "Place ginger and garlic in a food processor with a little water and blend to a coarse paste. Set aside."
+        },
+        {
+            "step": 3,
+            "instruction": "Heat a small frying pan over low heat. Add fennel seeds and cumin seeds. Roast for 2–3 minutes until aromatic. Allow to cool, then grind to a coarse powder."
+        },
+        {
+            "step": 4,
+            "instruction": "Combine the fennel-cumin mix with coriander, turmeric, garam masala, paprika, and red chilli powder in a small bowl. Set aside."
+        },
+        {
+            "step": 5,
+            "instruction": "Heat vegetable oil in a large heavy-based pot over medium-high heat. Stir-fry cardamom pods, cloves, and bay leaves for 1–2 minutes until fragrant."
+        },
+        {
+            "step": 6,
+            "instruction": "Add onion paste. Cook for 1–2 minutes until the raw smell disappears. Add ginger-garlic paste and cook for 2 minutes until fragrant."
+        },
+        {
+            "step": 7,
+            "instruction": "Stir in the spice mix. Cook for 1 minute until aromatic. Add both lots of tomato paste. Cook for 1–2 minutes, stirring often."
+        },
+        {
+            "step": 8,
+            "instruction": "Add lamb and season with salt. Cook for 10 minutes, stirring occasionally. Stir in yoghurt. Pour in hot water and bring to a boil."
+        },
+        {
+            "step": 9,
+            "instruction": "Reduce heat to medium-low. Cover and simmer, stirring occasionally, for 30–40 minutes until lamb is cooked through and tender."
+        },
+        {
+            "step": 10,
+            "instruction": "Sprinkle with fresh coriander and serve with naan bread, roti, or steamed rice."
+        }
+    ],
+    "notes": [
+        {
+            "type": "technique",
+            "title": "Spice Roasting",
+            "content": "Dry roasting the fennel and cumin seeds before grinding releases their essential oils and deepens the flavour. Do not skip this step."
+        },
+        {
+            "type": "acknowledgement",
+            "title": "Recipe Source",
+            "content": "Adapted from traditional Indian rogan josh recipes."
+        }
+    ],
+    "related": [
+        {
+            "id": "lambvindaloo",
+            "title": "Lamb Vindaloo"
+        },
+        {
+            "id": "lambkorma",
+            "title": "Lamb Korma"
+        },
+        {
+            "id": "beefvindaloo",
+            "title": "Beef Vindaloo"
+        },
+        {
+            "id": "butterchicken",
+            "title": "Restaurant-Style Butter Chicken"
+        },
+        {
+            "id": "vindaloopaste",
+            "title": "Vindaloo Paste"
+        }
+    ],
+    "nutrition": {
+        "servings": 4,
+        "cal": 1640,
+        "protein": 65,
+        "carbs": 240,
+        "fat": 79,
+        "fibre": 91,
+        "sodium": 1024,
+        "coverage": 100
     }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "Place onion in a food processor with a little water and blend to a smooth paste. Set aside."
-    },
-    {
-      "step": 2,
-      "instruction": "Place ginger and garlic in a food processor with a little water and blend to a coarse paste. Set aside."
-    },
-    {
-      "step": 3,
-      "instruction": "Heat a small frying pan over low heat. Add fennel seeds and cumin seeds. Roast for 2–3 minutes until aromatic. Allow to cool, then grind to a coarse powder."
-    },
-    {
-      "step": 4,
-      "instruction": "Combine the fennel-cumin mix with coriander, turmeric, garam masala, paprika, and red chilli powder in a small bowl. Set aside."
-    },
-    {
-      "step": 5,
-      "instruction": "Heat vegetable oil in a large heavy-based pot over medium-high heat. Stir-fry cardamom pods, cloves, and bay leaves for 1–2 minutes until fragrant."
-    },
-    {
-      "step": 6,
-      "instruction": "Add onion paste. Cook for 1–2 minutes until the raw smell disappears. Add ginger-garlic paste and cook for 2 minutes until fragrant."
-    },
-    {
-      "step": 7,
-      "instruction": "Stir in the spice mix. Cook for 1 minute until aromatic. Add both lots of tomato paste. Cook for 1–2 minutes, stirring often."
-    },
-    {
-      "step": 8,
-      "instruction": "Add lamb and season with salt. Cook for 10 minutes, stirring occasionally. Stir in yoghurt. Pour in hot water and bring to a boil."
-    },
-    {
-      "step": 9,
-      "instruction": "Reduce heat to medium-low. Cover and simmer, stirring occasionally, for 30–40 minutes until lamb is cooked through and tender."
-    },
-    {
-      "step": 10,
-      "instruction": "Sprinkle with fresh coriander and serve with naan bread, roti, or steamed rice."
-    }
-  ],
-  "notes": [
-    {
-      "type": "technique",
-      "title": "Spice Roasting",
-      "content": "Dry roasting the fennel and cumin seeds before grinding releases their essential oils and deepens the flavour. Do not skip this step."
-    },
-    {
-      "type": "acknowledgement",
-      "title": "Recipe Source",
-      "content": "Adapted from traditional Indian rogan josh recipes."
-    }
-  ],
-  "related": [
-    {
-      "id": "lambvindaloo",
-      "title": "Lamb Vindaloo"
-    },
-    {
-      "id": "lambkorma",
-      "title": "Lamb Korma"
-    },
-    {
-      "id": "beefvindaloo",
-      "title": "Beef Vindaloo"
-    },
-    {
-      "id": "butterchicken",
-      "title": "Restaurant-Style Butter Chicken"
-    },
-    {
-      "id": "vindaloopaste",
-      "title": "Vindaloo Paste"
-    }
-  ],
-  "nutrition": {
-    "servings": 4,
-    "cal": 1640,
-    "protein": 65,
-    "carbs": 240,
-    "fat": 79,
-    "fibre": 91,
-    "sodium": 1024,
-    "coverage": 100
-  }
 }

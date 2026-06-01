@@ -1,120 +1,120 @@
 {
-  "id": "chilligarlicoil",
-  "title": "Chilli Garlic Oil",
-  "emoji": "🧄",
-  "category": "Sauces",
-  "description": "A fragrant Asian condiment — fiery, aromatic, and incredibly versatile. Elevates everything it touches.",
-  "prepTime": "5 min",
-  "cookTime": "10 min",
-  "totalTime": "15 min",
-  "servings": "8 servings",
-  "difficulty": "Beginner",
-  "tags": [
-    "Condiment",
-    "Garlic",
-    "Make Ahead",
-    "Sauce",
-    "Spicy",
-    "Under 30 Minutes",
-    "Vegan"
-  ],
-  "ingredients": [
-    {
-      "quantity": "250",
-      "unit": "ml",
-      "item": "Vegetable Oil"
-    },
-    {
-      "quantity": "30",
-      "unit": "g",
-      "item": "Red Chilli Flakes"
-    },
-    {
-      "quantity": "1",
-      "unit": "bulb",
-      "item": "Garlic",
-      "notes": "minced"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Salt"
-    },
-    {
-      "quantity": "15",
-      "unit": "ml",
-      "item": "Soy Sauce"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "White Sugar"
+    "id": "chilligarlicoil",
+    "title": "Chilli Garlic Oil",
+    "emoji": "🧄",
+    "category": "Sauces",
+    "description": "A fragrant Asian condiment — fiery, aromatic, and incredibly versatile. Elevates everything it touches.",
+    "prepTime": "5 min",
+    "cookTime": "10 min",
+    "totalTime": "15 min",
+    "servings": "8 servings",
+    "difficulty": "Beginner",
+    "tags": [
+        "Condiment",
+        "Garlic",
+        "Make Ahead",
+        "Sauce",
+        "Spicy",
+        "Under 30 Minutes",
+        "Vegan"
+    ],
+    "ingredients": [
+        {
+            "quantity": "250",
+            "unit": "ml",
+            "item": "Vegetable Oil"
+        },
+        {
+            "quantity": "30",
+            "unit": "g",
+            "item": "Red Chilli Flakes"
+        },
+        {
+            "quantity": "1",
+            "unit": "bulb",
+            "item": "Garlic",
+            "notes": "minced"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Salt"
+        },
+        {
+            "quantity": "15",
+            "unit": "ml",
+            "item": "Soy Sauce"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "White Sugar"
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Heat vegetable oil in a small saucepan over low heat."
+        },
+        {
+            "step": 2,
+            "instruction": "Add minced garlic and cook gently until lightly golden, about 3–4 minutes. Do not let it brown or it will turn bitter."
+        },
+        {
+            "step": 3,
+            "instruction": "Add chilli flakes, salt, soy sauce, and sugar. Stir for 1–2 minutes until fragrant."
+        },
+        {
+            "step": 4,
+            "instruction": "Remove from heat and allow to cool completely."
+        },
+        {
+            "step": 5,
+            "instruction": "Transfer to a clean jar. Store in the refrigerator for up to 1 month."
+        }
+    ],
+    "notes": [
+        {
+            "type": "serving",
+            "title": "Serving Tip",
+            "content": "Drizzle over noodles, dumplings, or rice. Spoon over eggs, stir-fries, or grilled meats for an instant flavour boost."
+        },
+        {
+            "type": "technique",
+            "title": "Garlic Care",
+            "content": "Keep the heat low when cooking garlic. If it burns, start again — burnt garlic makes the oil bitter and unusable."
+        }
+    ],
+    "related": [
+        {
+            "id": "honeygarlicsauce",
+            "title": "Honey Garlic Sauce"
+        },
+        {
+            "id": "sweetchillisauce",
+            "title": "Sweet Chilli Sauce"
+        },
+        {
+            "id": "teriyakisauce",
+            "title": "Teriyaki Sauce"
+        },
+        {
+            "id": "sweetspicyorangesauce",
+            "title": "Sweet & Spicy Orange Sauce"
+        },
+        {
+            "id": "mongoliansauce",
+            "title": "Mongolian Sauce"
+        }
+    ],
+    "nutrition": {
+        "servings": 8,
+        "cal": 300,
+        "protein": 1,
+        "carbs": 5,
+        "fat": 31,
+        "fibre": 0,
+        "sodium": 352,
+        "coverage": 100
     }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "Heat vegetable oil in a small saucepan over low heat."
-    },
-    {
-      "step": 2,
-      "instruction": "Add minced garlic and cook gently until lightly golden, about 3–4 minutes. Do not let it brown or it will turn bitter."
-    },
-    {
-      "step": 3,
-      "instruction": "Add chilli flakes, salt, soy sauce, and sugar. Stir for 1–2 minutes until fragrant."
-    },
-    {
-      "step": 4,
-      "instruction": "Remove from heat and allow to cool completely."
-    },
-    {
-      "step": 5,
-      "instruction": "Transfer to a clean jar. Store in the refrigerator for up to 1 month."
-    }
-  ],
-  "notes": [
-    {
-      "type": "serving",
-      "title": "Serving Tip",
-      "content": "Drizzle over noodles, dumplings, or rice. Spoon over eggs, stir-fries, or grilled meats for an instant flavour boost."
-    },
-    {
-      "type": "technique",
-      "title": "Garlic Care",
-      "content": "Keep the heat low when cooking garlic. If it burns, start again — burnt garlic makes the oil bitter and unusable."
-    }
-  ],
-  "related": [
-    {
-      "id": "honeygarlicsauce",
-      "title": "Honey Garlic Sauce"
-    },
-    {
-      "id": "sweetchillisauce",
-      "title": "Sweet Chilli Sauce"
-    },
-    {
-      "id": "teriyakisauce",
-      "title": "Teriyaki Sauce"
-    },
-    {
-      "id": "sweetspicyorangesauce",
-      "title": "Sweet & Spicy Orange Sauce"
-    },
-    {
-      "id": "mongoliansauce",
-      "title": "Mongolian Sauce"
-    }
-  ],
-  "nutrition": {
-    "servings": 8,
-    "cal": 300,
-    "protein": 1,
-    "carbs": 5,
-    "fat": 31,
-    "fibre": 0,
-    "sodium": 352,
-    "coverage": 100
-  }
 }

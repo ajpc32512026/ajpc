@@ -1,177 +1,177 @@
 {
-  "id": "alfredosauce",
-  "title": "Alfredo Sauce",
-  "emoji": "🧈",
-  "category": "Sauces",
-  "description": "Rich, velvety, and unapologetically indulgent. A classic cream-based Alfredo that coats pasta like silk and demands to be eaten immediately.",
-  "prepTime": "5 min",
-  "cookTime": "10 min",
-  "totalTime": "15 min",
-  "servings": "4 servings",
-  "difficulty": "Beginner",
-  "tags": [
-    "Cheese",
-    "Creamy",
-    "Italian",
-    "Rich",
-    "Sauce",
-    "Under 30 Minutes",
-    "Vegetarian"
-  ],
-  "ingredients": [
-    {
-      "quantity": "45",
-      "unit": "g",
-      "item": "Unsalted Butter"
-    },
-    {
-      "quantity": "2",
-      "unit": "",
-      "item": "Garlic Cloves",
-      "notes": "finely minced"
-    },
-    {
-      "quantity": "250",
-      "unit": "ml",
-      "item": "Thickened Cream"
-    },
-    {
-      "quantity": "100",
-      "unit": "g",
-      "item": "Parmesan Cheese",
-      "notes": "freshly grated"
-    },
-    {
-      "item": "Salt & Pepper",
-      "toTaste": true,
-      "notes": "Don't add too much all at once — you can't take it out once it's in."
-    }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "Melt butter gently in a wide pan over low heat, taking care not to brown it."
-    },
-    {
-      "step": 2,
-      "instruction": "Add garlic and cook briefly until fragrant, about 30 seconds."
-    },
-    {
-      "step": 3,
-      "instruction": "Pour in cream and bring to a gentle simmer. Cook for 3–4 minutes until slightly thickened."
-    },
-    {
-      "step": 4,
-      "instruction": "Reduce heat to low and gradually stir in Parmesan until fully melted and smooth."
-    },
-    {
-      "step": 5,
-      "instruction": "Season with salt and black pepper, adjusting to taste."
-    },
-    {
-      "step": 6,
-      "instruction": "Serve immediately over hot pasta, loosening with a splash of pasta water if needed."
-    }
-  ],
-  "notes": [
-    {
-      "type": "serving",
-      "title": "Serving Tip",
-      "content": "Best paired with fettuccine. Add grilled chicken, prawns, or mushrooms for a complete dish."
-    },
-    {
-      "type": "technique",
-      "title": "Sauce Consistency",
-      "content": "If the sauce thickens too much, loosen gently with reserved pasta water rather than extra cream."
-    }
-  ],
-  "related": [
-    {
-      "id": "pestosauce",
-      "title": "Pesto Sauce",
-      "matchingTags": [
-        "Italian",
-        "Sauce",
-        "Under 30 Minutes",
-        "Vegetarian",
-        "No Cook",
-        "Basil"
-      ]
-    },
-    {
-      "id": "marinarasauce",
-      "title": "Marinara Sauce",
-      "matchingTags": [
-        "Classic",
-        "Italian",
-        "Sauce",
-        "Tomato",
-        "Under 30 Minutes",
-        "Vegan",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "redsauce",
-      "title": "Red Sauce",
-      "matchingTags": [
-        "Classic",
-        "Italian",
-        "Sauce",
-        "Tomato",
-        "Under 30 Minutes",
-        "Vegan",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "arrabbiatasauce",
-      "title": "Arrabbiata Sauce",
-      "matchingTags": [
-        "Italian",
-        "Sauce",
-        "Spicy",
-        "Tomato",
-        "Under 30 Minutes",
-        "Vegan",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "mornaysauce",
-      "title": "Mornay / Cheese Sauce",
-      "matchingTags": [
+    "id": "alfredosauce",
+    "title": "Alfredo Sauce",
+    "emoji": "🧈",
+    "category": "Sauces",
+    "description": "Rich, velvety, and unapologetically indulgent. A classic cream-based Alfredo that coats pasta like silk and demands to be eaten immediately.",
+    "prepTime": "5 min",
+    "cookTime": "10 min",
+    "totalTime": "15 min",
+    "servings": "4 servings",
+    "difficulty": "Beginner",
+    "tags": [
         "Cheese",
-        "Classic",
         "Creamy",
-        "French",
+        "Italian",
         "Rich",
         "Sauce",
         "Under 30 Minutes",
         "Vegetarian"
-      ]
-    }
-  ],
-  "nutrition": {
-    "servings": 4,
-    "cal": 432,
-    "kj": 1809,
-    "protein": 9,
-    "carbs": 7,
-    "sugars": 3,
-    "fat": 39,
-    "saturated_fat": 26,
-    "fiber": 8,
-    "sodium": 377,
-    "coverage": 80,
-    "calcium_mg": 201,
-    "iron_mg": 1,
-    "potassium_mg": 341,
-    "magnesium_mg": 23,
-    "zinc_mg": 1,
-    "cholesterol_mg": 105,
-    "vitamin_a_ug": 362,
-    "vitamin_c_mg": 6
-  },
-  "lastModified": "2026-05-31"
+    ],
+    "ingredients": [
+        {
+            "quantity": "45",
+            "unit": "g",
+            "item": "Unsalted Butter"
+        },
+        {
+            "quantity": "2",
+            "unit": "",
+            "item": "Garlic Cloves",
+            "notes": "finely minced"
+        },
+        {
+            "quantity": "250",
+            "unit": "ml",
+            "item": "Thickened Cream"
+        },
+        {
+            "quantity": "100",
+            "unit": "g",
+            "item": "Parmesan Cheese",
+            "notes": "freshly grated"
+        },
+        {
+            "item": "Salt & Pepper",
+            "toTaste": true,
+            "notes": "Don't add too much all at once — you can't take it out once it's in."
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Melt butter gently in a wide pan over low heat, taking care not to brown it."
+        },
+        {
+            "step": 2,
+            "instruction": "Add garlic and cook briefly until fragrant, about 30 seconds."
+        },
+        {
+            "step": 3,
+            "instruction": "Pour in cream and bring to a gentle simmer. Cook for 3–4 minutes until slightly thickened."
+        },
+        {
+            "step": 4,
+            "instruction": "Reduce heat to low and gradually stir in Parmesan until fully melted and smooth."
+        },
+        {
+            "step": 5,
+            "instruction": "Season with salt and black pepper, adjusting to taste."
+        },
+        {
+            "step": 6,
+            "instruction": "Serve immediately over hot pasta, loosening with a splash of pasta water if needed."
+        }
+    ],
+    "notes": [
+        {
+            "type": "serving",
+            "title": "Serving Tip",
+            "content": "Best paired with fettuccine. Add grilled chicken, prawns, or mushrooms for a complete dish."
+        },
+        {
+            "type": "technique",
+            "title": "Sauce Consistency",
+            "content": "If the sauce thickens too much, loosen gently with reserved pasta water rather than extra cream."
+        }
+    ],
+    "related": [
+        {
+            "id": "pestosauce",
+            "title": "Pesto Sauce",
+            "matchingTags": [
+                "Italian",
+                "Sauce",
+                "Under 30 Minutes",
+                "Vegetarian",
+                "No Cook",
+                "Basil"
+            ]
+        },
+        {
+            "id": "marinarasauce",
+            "title": "Marinara Sauce",
+            "matchingTags": [
+                "Classic",
+                "Italian",
+                "Sauce",
+                "Tomato",
+                "Under 30 Minutes",
+                "Vegan",
+                "Vegetarian"
+            ]
+        },
+        {
+            "id": "redsauce",
+            "title": "Red Sauce",
+            "matchingTags": [
+                "Classic",
+                "Italian",
+                "Sauce",
+                "Tomato",
+                "Under 30 Minutes",
+                "Vegan",
+                "Vegetarian"
+            ]
+        },
+        {
+            "id": "arrabbiatasauce",
+            "title": "Arrabbiata Sauce",
+            "matchingTags": [
+                "Italian",
+                "Sauce",
+                "Spicy",
+                "Tomato",
+                "Under 30 Minutes",
+                "Vegan",
+                "Vegetarian"
+            ]
+        },
+        {
+            "id": "mornaysauce",
+            "title": "Mornay / Cheese Sauce",
+            "matchingTags": [
+                "Cheese",
+                "Classic",
+                "Creamy",
+                "French",
+                "Rich",
+                "Sauce",
+                "Under 30 Minutes",
+                "Vegetarian"
+            ]
+        }
+    ],
+    "nutrition": {
+        "servings": 4,
+        "cal": 432,
+        "kj": 1809,
+        "protein": 9,
+        "carbs": 7,
+        "sugars": 3,
+        "fat": 39,
+        "saturated_fat": 26,
+        "fiber": 8,
+        "sodium": 377,
+        "coverage": 80,
+        "calcium_mg": 201,
+        "iron_mg": 1,
+        "potassium_mg": 341,
+        "magnesium_mg": 23,
+        "zinc_mg": 1,
+        "cholesterol_mg": 105,
+        "vitamin_a_ug": 362,
+        "vitamin_c_mg": 6
+    },
+    "lastModified": "2026-05-31"
 }

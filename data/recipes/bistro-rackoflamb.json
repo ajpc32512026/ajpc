@@ -1,149 +1,149 @@
 {
-  "id": "rackoflamb",
-  "title": "Rack of Lamb",
-  "emoji": "🍖",
-  "category": "Bistro",
-  "description": "French-trimmed rack of lamb oven-roasted and served with a spiced plum and demi glace sauce.",
-  "prepTime": "10 min",
-  "cookTime": "18 min",
-  "totalTime": "28 min",
-  "servings": "1 serving",
-  "difficulty": "Intermediate",
-  "tags": [
-    "Alcohol",
-    "Baked",
-    "Classic",
-    "Dinner",
-    "Lamb",
-    "Savoury",
-    "Under 1 Hour"
-  ],
-  "ingredients": [
-    {
-      "quantity": "1",
-      "unit": "rack",
-      "item": "Lamb Rack",
-      "notes": "French-trimmed"
+    "id": "rackoflamb",
+    "title": "Rack of Lamb",
+    "emoji": "🍖",
+    "category": "Bistro",
+    "description": "French-trimmed rack of lamb oven-roasted and served with a spiced plum and demi glace sauce.",
+    "prepTime": "10 min",
+    "cookTime": "18 min",
+    "totalTime": "28 min",
+    "servings": "1 serving",
+    "difficulty": "Intermediate",
+    "tags": [
+        "Alcohol",
+        "Baked",
+        "Classic",
+        "Dinner",
+        "Lamb",
+        "Savoury",
+        "Under 1 Hour"
+    ],
+    "ingredients": [
+        {
+            "quantity": "1",
+            "unit": "rack",
+            "item": "Lamb Rack",
+            "notes": "French-trimmed"
+        },
+        {
+            "quantity": "60",
+            "unit": "g",
+            "item": "Plum Jam"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Red Chilli",
+            "notes": "sliced, adjust to taste"
+        },
+        {
+            "quantity": "4",
+            "unit": "cloves",
+            "item": "Garlic",
+            "notes": "crushed"
+        },
+        {
+            "quantity": "15",
+            "unit": "ml",
+            "item": "Soy Sauce"
+        },
+        {
+            "quantity": "60",
+            "unit": "ml",
+            "item": "White Wine"
+        },
+        {
+            "quantity": "60",
+            "unit": "ml",
+            "item": "Demi Glace"
+        },
+        {
+            "item": "Salt & Pepper",
+            "toTaste": true,
+            "notes": "Don't add too much all at once — you can't take it out once it's in."
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Preheat oven to 200°C. Season the lamb rack generously with salt."
+        },
+        {
+            "step": 2,
+            "instruction": "Heat a little oil in an ovenproof pan over high heat. Sear the lamb rack on all sides until well browned, about 3–4 minutes total."
+        },
+        {
+            "step": 3,
+            "instruction": "Transfer the pan to the oven and roast for 15–18 minutes for medium-rare. Remove and rest on a warm plate for 5 minutes."
+        },
+        {
+            "step": 4,
+            "instruction": "For the sauce: in a small saucepan, combine plum jam, chilli, garlic, soy sauce, and white wine over medium heat. Stir until the jam melts and the mixture is smooth."
+        },
+        {
+            "step": 5,
+            "instruction": "Add demi glace and simmer for 3–4 minutes until reduced to a glossy, coating consistency. Taste and adjust — the soy and plum provide both salt and sweetness."
+        },
+        {
+            "step": 6,
+            "instruction": "Carve the rack into individual cutlets. Plate and spoon the spiced plum sauce over the top."
+        }
+    ],
+    "notes": [
+        {
+            "type": "technique",
+            "title": "Plum Sauce",
+            "content": "The sauce is made from plum jam melted with soy, garlic, chilli, wine and demi glace — not a commercial plum sauce. The heat level is adjustable: one chilli gives a gentle warmth that balances the sweet plum without overpowering the lamb."
+        },
+        {
+            "type": "technique",
+            "title": "Resting is Essential",
+            "content": "Rest the lamb for a full 5 minutes before carving. This allows the juices to redistribute throughout the meat rather than running out onto the plate."
+        }
+    ],
+    "related": [
+        {
+            "id": "bistro-lambcutlets",
+            "title": "Lamb Cutlets"
+        },
+        {
+            "id": "bistro-carpetbag",
+            "title": "Carpet Bag"
+        },
+        {
+            "id": "bistro-mediterraneansteak",
+            "title": "Mediterranean Steak"
+        },
+        {
+            "id": "bistro-filetmignon",
+            "title": "Filet Mignon"
+        },
+        {
+            "id": "bistro-reefandbeef",
+            "title": "Reef and Beef"
+        }
+    ],
+    "nutrition": {
+        "servings": 1,
+        "cal": 928,
+        "kj": 3883,
+        "protein": 51,
+        "carbs": 90,
+        "sugars": 53,
+        "fat": 19,
+        "saturated_fat": 6,
+        "fibre": 77,
+        "sodium": 752,
+        "coverage": 88,
+        "calcium_mg": 150,
+        "iron_mg": 10,
+        "potassium_mg": 2794,
+        "magnesium_mg": 158,
+        "zinc_mg": 7,
+        "cholesterol_mg": 67,
+        "vitamin_a_ug": 398,
+        "vitamin_c_mg": 221,
+        "vitamin_d_ug": 1
     },
-    {
-      "quantity": "60",
-      "unit": "g",
-      "item": "Plum Jam"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Red Chilli",
-      "notes": "sliced, adjust to taste"
-    },
-    {
-      "quantity": "4",
-      "unit": "cloves",
-      "item": "Garlic",
-      "notes": "crushed"
-    },
-    {
-      "quantity": "15",
-      "unit": "ml",
-      "item": "Soy Sauce"
-    },
-    {
-      "quantity": "60",
-      "unit": "ml",
-      "item": "White Wine"
-    },
-    {
-      "quantity": "60",
-      "unit": "ml",
-      "item": "Demi Glace"
-    },
-    {
-      "item": "Salt & Pepper",
-      "toTaste": true,
-      "notes": "Don't add too much all at once — you can't take it out once it's in."
-    }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "Preheat oven to 200°C. Season the lamb rack generously with salt."
-    },
-    {
-      "step": 2,
-      "instruction": "Heat a little oil in an ovenproof pan over high heat. Sear the lamb rack on all sides until well browned, about 3–4 minutes total."
-    },
-    {
-      "step": 3,
-      "instruction": "Transfer the pan to the oven and roast for 15–18 minutes for medium-rare. Remove and rest on a warm plate for 5 minutes."
-    },
-    {
-      "step": 4,
-      "instruction": "For the sauce: in a small saucepan, combine plum jam, chilli, garlic, soy sauce, and white wine over medium heat. Stir until the jam melts and the mixture is smooth."
-    },
-    {
-      "step": 5,
-      "instruction": "Add demi glace and simmer for 3–4 minutes until reduced to a glossy, coating consistency. Taste and adjust — the soy and plum provide both salt and sweetness."
-    },
-    {
-      "step": 6,
-      "instruction": "Carve the rack into individual cutlets. Plate and spoon the spiced plum sauce over the top."
-    }
-  ],
-  "notes": [
-    {
-      "type": "technique",
-      "title": "Plum Sauce",
-      "content": "The sauce is made from plum jam melted with soy, garlic, chilli, wine and demi glace — not a commercial plum sauce. The heat level is adjustable: one chilli gives a gentle warmth that balances the sweet plum without overpowering the lamb."
-    },
-    {
-      "type": "technique",
-      "title": "Resting is Essential",
-      "content": "Rest the lamb for a full 5 minutes before carving. This allows the juices to redistribute throughout the meat rather than running out onto the plate."
-    }
-  ],
-  "related": [
-    {
-      "id": "bistro-lambcutlets",
-      "title": "Lamb Cutlets"
-    },
-    {
-      "id": "bistro-carpetbag",
-      "title": "Carpet Bag"
-    },
-    {
-      "id": "bistro-mediterraneansteak",
-      "title": "Mediterranean Steak"
-    },
-    {
-      "id": "bistro-filetmignon",
-      "title": "Filet Mignon"
-    },
-    {
-      "id": "bistro-reefandbeef",
-      "title": "Reef and Beef"
-    }
-  ],
-  "nutrition": {
-    "servings": 1,
-    "cal": 928,
-    "kj": 3883,
-    "protein": 51,
-    "carbs": 90,
-    "sugars": 53,
-    "fat": 19,
-    "saturated_fat": 6,
-    "fibre": 77,
-    "sodium": 752,
-    "coverage": 88,
-    "calcium_mg": 150,
-    "iron_mg": 10,
-    "potassium_mg": 2794,
-    "magnesium_mg": 158,
-    "zinc_mg": 7,
-    "cholesterol_mg": 67,
-    "vitamin_a_ug": 398,
-    "vitamin_c_mg": 221,
-    "vitamin_d_ug": 1
-  },
-  "lastModified": "2026-05-24"
+    "lastModified": "2026-05-24"
 }

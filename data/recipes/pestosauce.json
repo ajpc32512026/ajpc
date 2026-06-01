@@ -1,183 +1,183 @@
 {
-  "id": "pestosauce",
-  "title": "Pesto Sauce",
-  "emoji": "🌿",
-  "category": "Sauces",
-  "description": "A vibrant Italian basil sauce — fresh, aromatic, and utterly delicious. Pure summer in a bowl.",
-  "prepTime": "10 min",
-  "cookTime": "0 min",
-  "totalTime": "10 min",
-  "servings": "4 servings",
-  "difficulty": "Beginner",
-  "tags": [
-    "Italian",
-    "Sauce",
-    "Under 30 Minutes",
-    "Vegetarian",
-    "No Cook",
-    "Basil"
-  ],
-  "ingredients": [
-    {
-      "quantity": "60",
-      "unit": "g",
-      "item": "Basil",
-      "notes": "fresh, packed"
-    },
-    {
-      "quantity": "50",
-      "unit": "g",
-      "item": "Pine Nuts",
-      "notes": "toasted"
-    },
-    {
-      "quantity": "50",
-      "unit": "g",
-      "item": "Parmesan",
-      "notes": "grated"
-    },
-    {
-      "quantity": "125",
-      "unit": "ml",
-      "item": "Olive Oil"
-    },
-    {
-      "quantity": "3",
-      "unit": "cloves",
-      "item": "Garlic"
-    },
-    {
-      "item": "Salt & Pepper",
-      "toTaste": true,
-      "notes": "Don't add too much all at once — you can't take it out once it's in."
-    }
-  ],
-  "youWillNeed": [
-    {
-      "item": "Blender"
-    },
-    {
-      "item": "Spatula"
-    }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "Place basil, pine nuts, garlic, and Parmesan into a food processor or blender."
-    },
-    {
-      "step": 2,
-      "instruction": "Pulse while slowly drizzling in the olive oil until the mixture reaches your desired consistency — smooth or slightly chunky."
-    },
-    {
-      "step": 3,
-      "instruction": "Season with salt and pepper to taste. Pulse briefly to combine."
-    },
-    {
-      "step": 4,
-      "instruction": "Use immediately or store in the refrigerator with a thin layer of olive oil on top to prevent browning."
-    }
-  ],
-  "notes": [
-    {
-      "type": "serving",
-      "title": "Serving Tip",
-      "content": "Toss with hot pasta, spread on bruschetta, or use as a marinade for chicken or fish. Stir through scrambled eggs or roasted vegetables."
-    },
-    {
-      "type": "storage",
-      "title": "Storage",
-      "content": "Keep refrigerated for up to 1 week with a thin layer of olive oil covering the surface to prevent oxidation. Freeze in ice cube trays for easy portions."
-    }
-  ],
-  "related": [
-    {
-      "id": "alfredosauce",
-      "title": "Alfredo Sauce",
-      "matchingTags": [
-        "Cheese",
-        "Creamy",
-        "Italian",
-        "Rich",
-        "Sauce",
-        "Under 30 Minutes",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "marinarasauce",
-      "title": "Marinara Sauce",
-      "matchingTags": [
-        "Classic",
+    "id": "pestosauce",
+    "title": "Pesto Sauce",
+    "emoji": "🌿",
+    "category": "Sauces",
+    "description": "A vibrant Italian basil sauce — fresh, aromatic, and utterly delicious. Pure summer in a bowl.",
+    "prepTime": "10 min",
+    "cookTime": "0 min",
+    "totalTime": "10 min",
+    "servings": "4 servings",
+    "difficulty": "Beginner",
+    "tags": [
         "Italian",
         "Sauce",
-        "Tomato",
         "Under 30 Minutes",
-        "Vegan",
-        "Vegetarian"
-      ]
+        "Vegetarian",
+        "No Cook",
+        "Basil"
+    ],
+    "ingredients": [
+        {
+            "quantity": "60",
+            "unit": "g",
+            "item": "Basil",
+            "notes": "fresh, packed"
+        },
+        {
+            "quantity": "50",
+            "unit": "g",
+            "item": "Pine Nuts",
+            "notes": "toasted"
+        },
+        {
+            "quantity": "50",
+            "unit": "g",
+            "item": "Parmesan",
+            "notes": "grated"
+        },
+        {
+            "quantity": "125",
+            "unit": "ml",
+            "item": "Olive Oil"
+        },
+        {
+            "quantity": "3",
+            "unit": "cloves",
+            "item": "Garlic"
+        },
+        {
+            "item": "Salt & Pepper",
+            "toTaste": true,
+            "notes": "Don't add too much all at once — you can't take it out once it's in."
+        }
+    ],
+    "youWillNeed": [
+        {
+            "item": "Blender"
+        },
+        {
+            "item": "Spatula"
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Place basil, pine nuts, garlic, and Parmesan into a food processor or blender."
+        },
+        {
+            "step": 2,
+            "instruction": "Pulse while slowly drizzling in the olive oil until the mixture reaches your desired consistency — smooth or slightly chunky."
+        },
+        {
+            "step": 3,
+            "instruction": "Season with salt and pepper to taste. Pulse briefly to combine."
+        },
+        {
+            "step": 4,
+            "instruction": "Use immediately or store in the refrigerator with a thin layer of olive oil on top to prevent browning."
+        }
+    ],
+    "notes": [
+        {
+            "type": "serving",
+            "title": "Serving Tip",
+            "content": "Toss with hot pasta, spread on bruschetta, or use as a marinade for chicken or fish. Stir through scrambled eggs or roasted vegetables."
+        },
+        {
+            "type": "storage",
+            "title": "Storage",
+            "content": "Keep refrigerated for up to 1 week with a thin layer of olive oil covering the surface to prevent oxidation. Freeze in ice cube trays for easy portions."
+        }
+    ],
+    "related": [
+        {
+            "id": "alfredosauce",
+            "title": "Alfredo Sauce",
+            "matchingTags": [
+                "Cheese",
+                "Creamy",
+                "Italian",
+                "Rich",
+                "Sauce",
+                "Under 30 Minutes",
+                "Vegetarian"
+            ]
+        },
+        {
+            "id": "marinarasauce",
+            "title": "Marinara Sauce",
+            "matchingTags": [
+                "Classic",
+                "Italian",
+                "Sauce",
+                "Tomato",
+                "Under 30 Minutes",
+                "Vegan",
+                "Vegetarian"
+            ]
+        },
+        {
+            "id": "redsauce",
+            "title": "Red Sauce",
+            "matchingTags": [
+                "Classic",
+                "Italian",
+                "Sauce",
+                "Tomato",
+                "Under 30 Minutes",
+                "Vegan",
+                "Vegetarian"
+            ]
+        },
+        {
+            "id": "arrabbiatasauce",
+            "title": "Arrabbiata Sauce",
+            "matchingTags": [
+                "Italian",
+                "Sauce",
+                "Spicy",
+                "Tomato",
+                "Under 30 Minutes",
+                "Vegan",
+                "Vegetarian"
+            ]
+        },
+        {
+            "id": "mornaysauce",
+            "title": "Mornay / Cheese Sauce",
+            "matchingTags": [
+                "Cheese",
+                "Classic",
+                "Creamy",
+                "French",
+                "Rich",
+                "Sauce",
+                "Under 30 Minutes",
+                "Vegetarian"
+            ]
+        }
+    ],
+    "nutrition": {
+        "servings": 4,
+        "cal": 507,
+        "kj": 2122,
+        "protein": 11,
+        "carbs": 8,
+        "sugars": 2,
+        "fat": 46,
+        "saturated_fat": 8,
+        "fibre": 14,
+        "sodium": 133,
+        "coverage": 83,
+        "calcium_mg": 175,
+        "iron_mg": 2,
+        "potassium_mg": 533,
+        "magnesium_mg": 61,
+        "zinc_mg": 2,
+        "cholesterol_mg": 11,
+        "vitamin_a_ug": 119,
+        "vitamin_c_mg": 9
     },
-    {
-      "id": "redsauce",
-      "title": "Red Sauce",
-      "matchingTags": [
-        "Classic",
-        "Italian",
-        "Sauce",
-        "Tomato",
-        "Under 30 Minutes",
-        "Vegan",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "arrabbiatasauce",
-      "title": "Arrabbiata Sauce",
-      "matchingTags": [
-        "Italian",
-        "Sauce",
-        "Spicy",
-        "Tomato",
-        "Under 30 Minutes",
-        "Vegan",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "mornaysauce",
-      "title": "Mornay / Cheese Sauce",
-      "matchingTags": [
-        "Cheese",
-        "Classic",
-        "Creamy",
-        "French",
-        "Rich",
-        "Sauce",
-        "Under 30 Minutes",
-        "Vegetarian"
-      ]
-    }
-  ],
-  "nutrition": {
-    "servings": 4,
-    "cal": 507,
-    "kj": 2122,
-    "protein": 11,
-    "carbs": 8,
-    "sugars": 2,
-    "fat": 46,
-    "saturated_fat": 8,
-    "fibre": 14,
-    "sodium": 133,
-    "coverage": 83,
-    "calcium_mg": 175,
-    "iron_mg": 2,
-    "potassium_mg": 533,
-    "magnesium_mg": 61,
-    "zinc_mg": 2,
-    "cholesterol_mg": 11,
-    "vitamin_a_ug": 119,
-    "vitamin_c_mg": 9
-  },
-  "lastModified": "2026-05-25"
+    "lastModified": "2026-05-25"
 }

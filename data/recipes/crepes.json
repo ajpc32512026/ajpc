@@ -1,160 +1,160 @@
 {
-  "id": "crepeswithmaplesyrupbutter",
-  "title": "Crepes with Maple Syrup & Butter",
-  "emoji": "🥞",
-  "category": "Desserts",
-  "description": "Golden, versatile crepes perfect for sweet or savoury cravings. Serve warm — simple is best.",
-  "prepTime": "5 min",
-  "cookTime": "15 min",
-  "totalTime": "20 min",
-  "servings": "12 crepes",
-  "difficulty": "Beginner",
-  "tags": [
-    "Breakfast",
-    "Dessert",
-    "French",
-    "Sweet",
-    "Under 30 Minutes",
-    "Vegetarian"
-  ],
-  "ingredients": [
-    {
-      "heading": "Crepe Batter"
-    },
-    {
-      "quantity": "6",
-      "unit": "",
-      "item": "Eggs"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "White Sugar"
-    },
-    {
-      "quantity": "30",
-      "unit": "ml",
-      "item": "Vegetable Oil"
-    },
-    {
-      "quantity": "500",
-      "unit": "ml",
-      "item": "Whole Milk"
-    },
-    {
-      "quantity": "250",
-      "unit": "g",
-      "item": "Plain Flour"
-    },
-    {
-      "heading": "Toppings"
-    },
-    {
-      "quantity": "30",
-      "unit": "g",
-      "item": "Nutella"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Banana",
-      "notes": "sliced"
-    },
-    {
-      "quantity": "100",
-      "unit": "g",
-      "item": "Strawberries",
-      "notes": "sliced"
-    },
-    {
-      "quantity": "15",
-      "unit": "ml",
-      "item": "Honey"
-    },
-    {
-      "quantity": "30",
-      "unit": "ml",
-      "item": "Golden Syrup"
-    },
-    {
-      "quantity": "60",
-      "unit": "ml",
-      "item": "Thickened Cream"
-    },
-    {
-      "quantity": "30",
-      "unit": "ml",
-      "item": "Maple Syrup"
+    "id": "crepeswithmaplesyrupbutter",
+    "title": "Crepes with Maple Syrup & Butter",
+    "emoji": "🥞",
+    "category": "Desserts",
+    "description": "Golden, versatile crepes perfect for sweet or savoury cravings. Serve warm — simple is best.",
+    "prepTime": "5 min",
+    "cookTime": "15 min",
+    "totalTime": "20 min",
+    "servings": "12 crepes",
+    "difficulty": "Beginner",
+    "tags": [
+        "Breakfast",
+        "Dessert",
+        "French",
+        "Sweet",
+        "Under 30 Minutes",
+        "Vegetarian"
+    ],
+    "ingredients": [
+        {
+            "heading": "Crepe Batter"
+        },
+        {
+            "quantity": "6",
+            "unit": "",
+            "item": "Eggs"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "White Sugar"
+        },
+        {
+            "quantity": "30",
+            "unit": "ml",
+            "item": "Vegetable Oil"
+        },
+        {
+            "quantity": "500",
+            "unit": "ml",
+            "item": "Whole Milk"
+        },
+        {
+            "quantity": "250",
+            "unit": "g",
+            "item": "Plain Flour"
+        },
+        {
+            "heading": "Toppings"
+        },
+        {
+            "quantity": "30",
+            "unit": "g",
+            "item": "Nutella"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Banana",
+            "notes": "sliced"
+        },
+        {
+            "quantity": "100",
+            "unit": "g",
+            "item": "Strawberries",
+            "notes": "sliced"
+        },
+        {
+            "quantity": "15",
+            "unit": "ml",
+            "item": "Honey"
+        },
+        {
+            "quantity": "30",
+            "unit": "ml",
+            "item": "Golden Syrup"
+        },
+        {
+            "quantity": "60",
+            "unit": "ml",
+            "item": "Thickened Cream"
+        },
+        {
+            "quantity": "30",
+            "unit": "ml",
+            "item": "Maple Syrup"
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "In a large bowl, whisk together eggs, sugar, oil, milk, and flour until smooth and lump-free. The batter should be thin — the consistency of pouring cream."
+        },
+        {
+            "step": 2,
+            "instruction": "Heat a non-stick pan over medium heat. Lightly oil the surface, then wipe off excess with paper towel."
+        },
+        {
+            "step": 3,
+            "instruction": "Pour in a ladle of batter and swirl quickly to coat the pan thinly and evenly."
+        },
+        {
+            "step": 4,
+            "instruction": "Cook until the edges lift and the top looks dry, about 30 seconds, then flip and cook the second side for 15–30 seconds."
+        },
+        {
+            "step": 5,
+            "instruction": "Stack cooked crepes on a plate and cover with a clean tea towel to keep warm while you finish the batch."
+        },
+        {
+            "step": 6,
+            "instruction": "Serve warm with your choice of toppings — Nutella, sliced banana, strawberries, honey, golden syrup, cream, or maple syrup."
+        }
+    ],
+    "notes": [
+        {
+            "type": "technique",
+            "title": "The First Crepe",
+            "content": "The first crepe is almost never perfect — it is the one that seasons the pan and helps you gauge the heat. Consider it a cook's snack and carry on."
+        },
+        {
+            "type": "technique",
+            "title": "Batter Consistency",
+            "content": "The batter should be very thin, like pouring cream. If it is too thick, add a splash of milk. Letting the batter rest for 30 minutes improves the texture but is not essential."
+        }
+    ],
+    "related": [
+        {
+            "id": "chouxpastry",
+            "title": "Choux Pastry (Profiteroles)"
+        },
+        {
+            "id": "puffpastry",
+            "title": "Puff Pastry"
+        },
+        {
+            "id": "bananabread",
+            "title": "Banana Bread"
+        },
+        {
+            "id": "blueberrymuffins",
+            "title": "Heavenly Blueberry Muffins"
+        },
+        {
+            "id": "applecinnscrolls",
+            "title": "Apple & Cinnamon Scrolls"
+        }
+    ],
+    "nutrition": {
+        "servings": 12,
+        "cal": 261,
+        "protein": 10,
+        "carbs": 28,
+        "fat": 12,
+        "fibre": 1,
+        "sodium": 93,
+        "coverage": 100
     }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "In a large bowl, whisk together eggs, sugar, oil, milk, and flour until smooth and lump-free. The batter should be thin — the consistency of pouring cream."
-    },
-    {
-      "step": 2,
-      "instruction": "Heat a non-stick pan over medium heat. Lightly oil the surface, then wipe off excess with paper towel."
-    },
-    {
-      "step": 3,
-      "instruction": "Pour in a ladle of batter and swirl quickly to coat the pan thinly and evenly."
-    },
-    {
-      "step": 4,
-      "instruction": "Cook until the edges lift and the top looks dry, about 30 seconds, then flip and cook the second side for 15–30 seconds."
-    },
-    {
-      "step": 5,
-      "instruction": "Stack cooked crepes on a plate and cover with a clean tea towel to keep warm while you finish the batch."
-    },
-    {
-      "step": 6,
-      "instruction": "Serve warm with your choice of toppings — Nutella, sliced banana, strawberries, honey, golden syrup, cream, or maple syrup."
-    }
-  ],
-  "notes": [
-    {
-      "type": "technique",
-      "title": "The First Crepe",
-      "content": "The first crepe is almost never perfect — it is the one that seasons the pan and helps you gauge the heat. Consider it a cook's snack and carry on."
-    },
-    {
-      "type": "technique",
-      "title": "Batter Consistency",
-      "content": "The batter should be very thin, like pouring cream. If it is too thick, add a splash of milk. Letting the batter rest for 30 minutes improves the texture but is not essential."
-    }
-  ],
-  "related": [
-    {
-      "id": "chouxpastry",
-      "title": "Choux Pastry (Profiteroles)"
-    },
-    {
-      "id": "puffpastry",
-      "title": "Puff Pastry"
-    },
-    {
-      "id": "bananabread",
-      "title": "Banana Bread"
-    },
-    {
-      "id": "blueberrymuffins",
-      "title": "Heavenly Blueberry Muffins"
-    },
-    {
-      "id": "applecinnscrolls",
-      "title": "Apple & Cinnamon Scrolls"
-    }
-  ],
-  "nutrition": {
-    "servings": 12,
-    "cal": 261,
-    "protein": 10,
-    "carbs": 28,
-    "fat": 12,
-    "fibre": 1,
-    "sodium": 93,
-    "coverage": 100
-  }
 }

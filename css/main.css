@@ -1977,6 +1977,26 @@ footer {
     color: var(--copper-pale);
 }
 
+.stat-tag {
+    display: inline-block;
+    font-size: 0.72rem;
+    padding: 0.25rem 0.65rem;
+    background: var(--surface-2);
+    border: 1px solid var(--border-dim);
+    border-radius: 3px;
+    color: var(--cream-muted);
+    text-decoration: none;
+    transition: all var(--t-fast);
+}
+
+.stat-tag:hover {
+    background: var(--slate-mid);
+    color: var(--copper-warm);
+    border-color: var(--border-copper);
+    transform: translateY(-1px);
+}
+
+
 /* Back to Top */
 .back-to-top {
     position: fixed;
@@ -4626,4 +4646,122 @@ body.light-mode .nav-header {
     font-family: var(--font-mono);
     font-size: 0.8rem;
     color: var(--copper-pale);
+}
+
+/* =========================================================
+   SITEMAP & NAVIGATION DIRECTORY
+========================================================= */
+.sitemap-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--sp-xl);
+    margin-top: var(--sp-2xl);
+}
+
+.sitemap-category {
+    background: var(--surface-card);
+    border: 1px solid var(--border-dim);
+    border-radius: var(--r-lg);
+    padding: var(--sp-lg);
+    margin-bottom: var(--sp-md);
+}
+
+.sitemap-category h2 {
+    font-size: 0.85rem;
+    font-weight: 600;
+    font-family: var(--font-body);
+    color: var(--copper);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: var(--sp-md);
+    padding-bottom: var(--sp-xs);
+    border-bottom: 2px solid var(--border-mid);
+}
+
+/* --- THE DROPDOWN (DETAILS) --- */
+.sitemap-dropdown {
+    border-bottom: 1px solid var(--border-dim);
+    transition: background var(--t-fast);
+}
+
+.sitemap-dropdown:last-child {
+    border-bottom: none;
+}
+
+.sitemap-dropdown summary {
+    display: grid;
+    /* Column 1: Name (flexible) | Column 2: Number (fixed) | Column 3: Icon (fixed) */
+    grid-template-columns: 1fr 45px 20px;
+    gap: var(--sp-sm);
+    align-items: center;
+    padding: var(--sp-sm) 0;
+    cursor: pointer;
+    list-style: none;
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    color: var(--cream-dim);
+    transition: color var(--t-fast);
+}
+
+.sitemap-dropdown summary::-webkit-details-marker {
+    display: none; /* Hide default arrow */
+}
+
+.sitemap-dropdown summary:hover {
+    color: var(--copper-warm);
+}
+
+/* Custom indicator icon pinned to the right */
+.sitemap-dropdown summary::after {
+    content: '+';
+    justify-self: end;
+    font-family: var(--font-mono);
+    color: var(--copper);
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.sitemap-dropdown[open] summary {
+    color: var(--cream);
+    border-bottom: 1px dashed var(--border-dim);
+}
+
+.sitemap-dropdown[open] summary::after {
+    content: '−';
+}
+
+/* Recipe count badge - Centered in its own vertical column */
+.cuisine-tag {
+    justify-self: center;
+    font-size: 0.65rem;
+    font-family: var(--font-mono);
+    padding: 2px 6px;
+    background: rgba(201, 125, 62, 0.12);
+    border-radius: 3px;
+    color: var(--copper-warm);
+    min-width: 24px;
+    text-align: center;
+}
+
+/* Inner List */
+.sitemap-list {
+    list-style: none;
+    padding: var(--sp-md) var(--sp-sm) var(--sp-md) var(--sp-md);
+    margin: 0;
+}
+
+.sitemap-list li {
+    margin-bottom: 6px;
+}
+
+.sitemap-list a {
+    color: var(--cream-dim);
+    font-size: 0.85rem;
+    text-decoration: none;
+    transition: color var(--t-fast);
+}
+
+.sitemap-list a:hover {
+    color: var(--copper-warm);
+    padding-left: 4px; /* Subtle movement on hover */
 }

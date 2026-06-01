@@ -1,246 +1,247 @@
 {
-  "id": "bakedcheesecake",
-  "title": "Baked Cheesecake",
-  "emoji": "🧀",
-  "category": "Desserts",
-  "description": "A classic baked cheesecake with a creamy, dense filling and crisp biscuit base. Rich, smooth, and far more forgiving than its reputation suggests.",
-  "prepTime": "20 min",
-  "cookTime": "55 min",
-  "totalTime": "75 min + overnight chilling",
-  "servings": "8 serves",
-  "difficulty": "Intermediate",
-  "tags": [
-    "Baked",
-    "Cheese",
-    "Classic",
-    "Creamy",
-    "Dessert",
-    "Make Ahead",
-    "Overnight",
-    "Party",
-    "Rich",
-    "Sweet",
-    "Vegetarian"
-  ],
-  "ingredients": [
-    {
-      "quantity": "250",
-      "unit": "g",
-      "item": "Arnotts Nice Biscuits",
-      "notes": "crushed to fine crumbs"
-    },
-    {
-      "quantity": "120",
-      "unit": "g",
-      "item": "Unsalted Butter",
-      "notes": "melted"
-    },
-    {
-      "quantity": "750",
-      "unit": "g",
-      "item": "Philadelphia Cream Cheese",
-      "notes": "room temperature"
-    },
-    {
-      "quantity": "200",
-      "unit": "g",
-      "item": "White Sugar"
-    },
-    {
-      "quantity": "3",
-      "unit": "",
-      "item": "Eggs",
-      "notes": "room temperature"
-    },
-    {
-      "quantity": "10",
-      "unit": "ml",
-      "item": "Vanilla Extract"
-    },
-    {
-      "quantity": "40",
-      "unit": "ml",
-      "item": "Lemon Juice",
-      "notes": "freshly squeezed"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Lemon Zest"
-    },
-    {
-      "quantity": "200",
-      "unit": "g",
-      "item": "Pure Cream"
-    }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "Preheat oven to 160°C. Grease a 20cm springform tin and line the base with baking paper."
-    },
-    {
-      "step": 2,
-      "instruction": "Combine crushed biscuits with melted butter and mix until the crumbs are evenly coated. Press firmly into the base of the tin and slightly up the sides. Refrigerate while you prepare the filling."
-    },
-    {
-      "step": 3,
-      "instruction": "Beat cream cheese and caster sugar together on medium speed until smooth and creamy — about 3 minutes. Scrape down the bowl well. Do not over-beat as this incorporates too much air."
-    },
-    {
-      "step": 4,
-      "instruction": "Add eggs one at a time, beating on low speed after each addition just until combined. Over-mixing at this stage causes cracking."
-    },
-    {
-      "step": 5,
-      "instruction": "Add vanilla essence, lemon juice, lemon zest, and sour cream. Mix on low until just combined and smooth."
-    },
-    {
-      "step": 6,
-      "instruction": "Pour filling over the chilled base. Tap the tin gently on the bench a few times to release any air bubbles."
-    },
-    {
-      "step": 7,
-      "instruction": "Bake at 160°C for 50-55 minutes. The edges should be set but the centre should still have a slight wobble — it will firm up as it cools. Do not overbake."
-    },
-    {
-      "step": 8,
-      "instruction": "Turn the oven off and leave the cheesecake inside with the door ajar for 1 hour. This prevents the top cracking from a sudden temperature change."
-    },
-    {
-      "step": 9,
-      "instruction": "Remove from oven, run a thin knife around the edge to release from the tin, then cool completely at room temperature before refrigerating overnight."
-    }
-  ],
-  "notes": [
-    {
-      "type": "technique",
-      "title": "Why it cracks",
-      "content": "Cracking is caused by over-beating (too much air), overbaking, or cooling too quickly. Follow steps 3, 4, and 8 carefully and you will get a smooth, crack-free top every time."
-    },
-    {
-      "type": "technique",
-      "title": "Room temperature ingredients",
-      "content": "Cold cream cheese and cold eggs are the most common cause of a lumpy filling. Take everything out of the fridge at least an hour before you start."
-    },
-    {
-      "type": "serving",
-      "title": "Serving",
-      "content": "Serve chilled, plain or with fresh berries and a dusting of icing sugar. A berry coulis alongside works beautifully."
-    },
-    {
-      "type": "variation",
-      "title": "Passionfruit",
-      "content": "Replace lemon juice and zest with 80ml fresh passionfruit pulp. Spoon extra pulp over the top just before serving."
-    },
-    {
-      "type": "variation",
-      "title": "Mango",
-      "content": "Replace lemon juice and zest with 100ml fresh mango puree blended smooth. Top with thinly sliced fresh mango just before serving."
-    },
-    {
-      "type": "variation",
-      "title": "Strawberry",
-      "content": "Replace lemon juice and zest with 100ml fresh strawberry puree. Decorate with halved fresh strawberries on top."
-    },
-    {
-      "type": "variation",
-      "title": "Orange",
-      "content": "Replace lemon juice and zest with the juice and zest of 1 large orange. Works beautifully with a dark chocolate drizzle on top."
-    },
-    {
-      "type": "variation",
-      "title": "Chocolate",
-      "content": "Melt 200g dark chocolate and allow to cool slightly. Fold into the filling at step 5 after the sour cream. Keep all other ingredients the same — do not reduce the eggs or sour cream."
-    },
-    {
-      "type": "storage",
-      "title": "Storage",
-      "content": "Covered in the refrigerator for up to 5 days."
-    },
-    {
-      "type": "storage",
-      "title": "Freeze",
-      "content": "Suitable. Freeze whole or in slices, well wrapped. Thaw overnight in the refrigerator."
-    }
-  ],
-  "related": [
-    {
-      "id": "plain-cheesecake",
-      "title": "Plain Cheesecake (Classic No Bake)",
-      "matchingTags": [
+    "id": "bakedcheesecake",
+    "title": "Baked Cheesecake",
+    "emoji": "🧀",
+    "category": "Desserts",
+    "description": "A classic baked cheesecake with a creamy, dense filling and crisp biscuit base. Rich, smooth, and far more forgiving than its reputation suggests.",
+    "prepTime": "20 min",
+    "cookTime": "55 min",
+    "totalTime": "75 min + overnight chilling",
+    "servings": "8 serves",
+    "difficulty": "Intermediate",
+    "tags": [
+        "Baked",
+        "Cheese",
         "Classic",
         "Creamy",
         "Dessert",
         "Make Ahead",
-        "No-Bake",
-        "Rich",
-        "Sweet",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "tiramisu",
-      "title": "Chef-Style Tiramisu Gateau",
-      "matchingTags": [
-        "Alcohol",
-        "Classic",
-        "Coffee",
-        "Creamy",
-        "Dessert",
-        "Italian",
-        "Make Ahead",
-        "Rich",
-        "Sweet",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "sourdoughcinnrolls",
-      "title": "Soft Sourdough Cinnamon Rolls",
-      "matchingTags": [
-        "Bread",
-        "Breakfast",
-        "Cinnamon",
         "Overnight",
+        "Party",
         "Rich",
         "Sweet",
         "Vegetarian"
-      ]
+    ],
+    "ingredients": [
+        {
+            "quantity": "250",
+            "unit": "g",
+            "item": "Arnotts Nice Biscuits",
+            "notes": "crushed to fine crumbs"
+        },
+        {
+            "quantity": "120",
+            "unit": "g",
+            "item": "Unsalted Butter",
+            "notes": "melted"
+        },
+        {
+            "quantity": "750",
+            "unit": "g",
+            "item": "Philadelphia Cream Cheese",
+            "notes": "room temperature"
+        },
+        {
+            "quantity": "200",
+            "unit": "g",
+            "item": "White Sugar"
+        },
+        {
+            "quantity": "3",
+            "unit": "",
+            "item": "Eggs",
+            "notes": "room temperature"
+        },
+        {
+            "quantity": "10",
+            "unit": "ml",
+            "item": "Vanilla Extract"
+        },
+        {
+            "quantity": "40",
+            "unit": "ml",
+            "item": "Lemon Juice",
+            "notes": "freshly squeezed"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Lemon Zest"
+        },
+        {
+            "quantity": "200",
+            "unit": "g",
+            "item": "Pure Cream"
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Preheat oven to 160°C. Grease a 20cm springform tin and line the base with baking paper."
+        },
+        {
+            "step": 2,
+            "instruction": "Combine crushed biscuits with melted butter and mix until the crumbs are evenly coated. Press firmly into the base of the tin and slightly up the sides. Refrigerate while you prepare the filling."
+        },
+        {
+            "step": 3,
+            "instruction": "Beat cream cheese and caster sugar together on medium speed until smooth and creamy — about 3 minutes. Scrape down the bowl well. Do not over-beat as this incorporates too much air."
+        },
+        {
+            "step": 4,
+            "instruction": "Add eggs one at a time, beating on low speed after each addition just until combined. Over-mixing at this stage causes cracking."
+        },
+        {
+            "step": 5,
+            "instruction": "Add vanilla essence, lemon juice, lemon zest, and sour cream. Mix on low until just combined and smooth."
+        },
+        {
+            "step": 6,
+            "instruction": "Pour filling over the chilled base. Tap the tin gently on the bench a few times to release any air bubbles."
+        },
+        {
+            "step": 7,
+            "instruction": "Bake at 160°C for 50-55 minutes. The edges should be set but the centre should still have a slight wobble — it will firm up as it cools. Do not overbake."
+        },
+        {
+            "step": 8,
+            "instruction": "Turn the oven off and leave the cheesecake inside with the door ajar for 1 hour. This prevents the top cracking from a sudden temperature change."
+        },
+        {
+            "step": 9,
+            "instruction": "Remove from oven, run a thin knife around the edge to release from the tin, then cool completely at room temperature before refrigerating overnight."
+        }
+    ],
+    "notes": [
+        {
+            "type": "technique",
+            "title": "Why it cracks",
+            "content": "Cracking is caused by over-beating (too much air), overbaking, or cooling too quickly. Follow steps 3, 4, and 8 carefully and you will get a smooth, crack-free top every time."
+        },
+        {
+            "type": "technique",
+            "title": "Room temperature ingredients",
+            "content": "Cold cream cheese and cold eggs are the most common cause of a lumpy filling. Take everything out of the fridge at least an hour before you start."
+        },
+        {
+            "type": "serving",
+            "title": "Serving",
+            "content": "Serve chilled, plain or with fresh berries and a dusting of icing sugar. A berry coulis alongside works beautifully."
+        },
+        {
+            "type": "variation",
+            "title": "Passionfruit",
+            "content": "Replace lemon juice and zest with 80ml fresh passionfruit pulp. Spoon extra pulp over the top just before serving."
+        },
+        {
+            "type": "variation",
+            "title": "Mango",
+            "content": "Replace lemon juice and zest with 100ml fresh mango puree blended smooth. Top with thinly sliced fresh mango just before serving."
+        },
+        {
+            "type": "variation",
+            "title": "Strawberry",
+            "content": "Replace lemon juice and zest with 100ml fresh strawberry puree. Decorate with halved fresh strawberries on top."
+        },
+        {
+            "type": "variation",
+            "title": "Orange",
+            "content": "Replace lemon juice and zest with the juice and zest of 1 large orange. Works beautifully with a dark chocolate drizzle on top."
+        },
+        {
+            "type": "variation",
+            "title": "Chocolate",
+            "content": "Melt 200g dark chocolate and allow to cool slightly. Fold into the filling at step 5 after the sour cream. Keep all other ingredients the same — do not reduce the eggs or sour cream."
+        },
+        {
+            "type": "storage",
+            "title": "Storage",
+            "content": "Covered in the refrigerator for up to 5 days."
+        },
+        {
+            "type": "storage",
+            "title": "Freeze",
+            "content": "Suitable. Freeze whole or in slices, well wrapped. Thaw overnight in the refrigerator."
+        }
+    ],
+    "related": [
+        {
+            "id": "plain-cheesecake",
+            "title": "Plain Cheesecake (Classic No Bake)",
+            "matchingTags": [
+                "Classic",
+                "Creamy",
+                "Dessert",
+                "Make Ahead",
+                "No-Bake",
+                "Rich",
+                "Sweet",
+                "Vegetarian"
+            ]
+        },
+        {
+            "id": "tiramisu",
+            "title": "Chef-Style Tiramisu Gateau",
+            "matchingTags": [
+                "Alcohol",
+                "Classic",
+                "Coffee",
+                "Creamy",
+                "Dessert",
+                "Italian",
+                "Make Ahead",
+                "Rich",
+                "Sweet",
+                "Vegetarian"
+            ]
+        },
+        {
+            "id": "sourdoughcinnrolls",
+            "title": "Soft Sourdough Cinnamon Rolls",
+            "matchingTags": [
+                "Bread",
+                "Breakfast",
+                "Cinnamon",
+                "Overnight",
+                "Rich",
+                "Sweet",
+                "Vegetarian"
+            ]
+        },
+        {
+            "id": "chocolatemudcake",
+            "title": "The Ultimate Chocolate Mud Cake",
+            "matchingTags": [
+                "Chocolate",
+                "Cake",
+                "Dessert",
+                "Rich",
+                "Sweet"
+            ]
+        }
+    ],
+    "nutrition": {
+        "servings": 8,
+        "cal": 791,
+        "kj": 3308,
+        "protein": 11,
+        "carbs": 52,
+        "sugars": 40,
+        "fat": 61,
+        "saturated_fat": 38,
+        "fiber": 1,
+        "sodium": 101,
+        "coverage": 100,
+        "calcium_mg": 108,
+        "iron_mg": 1,
+        "potassium_mg": 228,
+        "magnesium_mg": 29,
+        "zinc_mg": 1,
+        "cholesterol_mg": 295,
+        "vitamin_a_ug": 517,
+        "vitamin_c_mg": 3,
+        "vitamin_d_ug": 1
     },
-    {
-      "id": "chocolatemudcake",
-      "title": "The Ultimate Chocolate Mud Cake",
-      "matchingTags": [
-        "Chocolate",
-        "Cake",
-        "Dessert",
-        "Rich",
-        "Sweet"
-      ]
-    }
-  ],
-  "nutrition": {
-    "servings": 8,
-    "cal": 791,
-    "kj": 3308,
-    "protein": 11,
-    "carbs": 52,
-    "sugars": 40,
-    "fat": 61,
-    "saturated_fat": 38,
-    "fiber": 1,
-    "sodium": 101,
-    "coverage": 100,
-    "calcium_mg": 108,
-    "iron_mg": 1,
-    "potassium_mg": 228,
-    "magnesium_mg": 29,
-    "zinc_mg": 1,
-    "cholesterol_mg": 295,
-    "vitamin_a_ug": 517,
-    "vitamin_c_mg": 3,
-    "vitamin_d_ug": 1
-  },
-  "lastModified": "2026-05-31"
+    "lastModified": "2026-05-31",
+    "cuisine": "American / Modern"
 }

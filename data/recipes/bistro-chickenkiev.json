@@ -1,251 +1,252 @@
 {
-  "id": "chickenkiev",
-  "title": "Chicken Kiev",
-  "emoji": "🍗",
-  "category": "Bistro",
-  "description": "Golden crumbed chicken breast stuffed with garlic butter, served with a simple tomato cream sauce. A showstopper from the bistro era.",
-  "prepTime": "20 min",
-  "cookTime": "8 min",
-  "totalTime": "28 min",
-  "servings": "1 serving",
-  "difficulty": "Intermediate",
-  "tags": [
-    "Alcohol",
-    "Chicken",
-    "Classic",
-    "Creamy",
-    "Deep-Fried",
-    "Dinner",
-    "Garlic",
-    "Rich",
-    "Savoury"
-  ],
-  "ingredients": [
-    {
-      "heading": "Chicken"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Chicken Breast",
-      "notes": "large, pocket cut"
-    },
-    {
-      "quantity": "125",
-      "unit": "g",
-      "item": "Unsalted Butter",
-      "notes": "softened, for garlic butter log"
-    },
-    {
-      "quantity": "4",
-      "unit": "cloves",
-      "item": "Garlic",
-      "notes": "crushed"
-    },
-    {
-      "quantity": "10",
-      "unit": "g",
-      "item": "Parsley",
-      "notes": "fresh, chopped"
-    },
-    {
-      "heading": "Tomato Cream Sauce"
-    },
-    {
-      "quantity": "15",
-      "unit": "g",
-      "item": "Unsalted Butter"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Brown Onion",
-      "notes": "diced"
-    },
-    {
-      "quantity": "2",
-      "unit": "",
-      "item": "Tomatoes",
-      "notes": "diced"
-    },
-    {
-      "quantity": "60",
-      "unit": "ml",
-      "item": "Thickened Cream"
-    },
-    {
-      "quantity": "15",
-      "unit": "ml",
-      "item": "Tomato Sauce"
-    },
-    {
-      "item": "Salt & Pepper",
-      "toTaste": true,
-      "notes": "Don't add too much all at once — you can't take it out once it's in."
-    }
-  ],
-  "youWillNeed": [
-    {
-      "item": "Plain Flour",
-      "note": "for dusting the chicken"
-    },
-    {
-      "item": "Eggs",
-      "note": "beaten, for egg wash"
-    },
-    {
-      "item": "Breadcrumbs",
-      "note": "for crumbing"
-    },
-    {
-      "item": "Vegetable Oil",
-      "note": "for deep frying"
-    }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "Mix softened butter with crushed garlic and chopped parsley. Shape into a log, wrap in plastic wrap, and freeze until firm — at least 30 minutes."
-    },
-    {
-      "step": 2,
-      "instruction": "Cut a deep pocket into the side of each chicken breast, being careful not to cut through. Insert a portion of the frozen garlic butter log and seal the edges firmly by pressing the meat together."
-    },
-    {
-      "step": 3,
-      "instruction": "Dust each stuffed breast lightly with flour, dip in beaten egg, and coat thoroughly with breadcrumbs. For extra security, repeat the egg and breadcrumb step for a double crumb."
-    },
-    {
-      "step": 4,
-      "instruction": "Heat vegetable oil to 180°C. Deep-fry crumbed chicken for 8–10 minutes until deep golden and cooked through. The frozen butter melts inside, keeping the chicken moist."
-    },
-    {
-      "step": 5,
-      "instruction": "For the sauce: melt butter in a small pan over medium heat. Add diced onion and cook until translucent, about 3–4 minutes."
-    },
-    {
-      "step": 6,
-      "instruction": "Add diced tomato and cook for 2 minutes until softened."
-    },
-    {
-      "step": 7,
-      "instruction": "Pour in thickened cream and tomato sauce. Stir and simmer for 2–3 minutes until the sauce thickens to a light coating consistency. Season with salt."
-    },
-    {
-      "step": 8,
-      "instruction": "Plate the chicken and spoon the tomato cream sauce over to serve."
-    }
-  ],
-  "notes": [
-    {
-      "type": "technique",
-      "title": "Frozen Butter Log",
-      "content": "The garlic butter must be frozen solid before inserting. This prevents it from leaking out during crumbing and ensures it melts inside the chicken as it cooks, basting it from within."
-    },
-    {
-      "type": "technique",
-      "title": "Double Crumb",
-      "content": "Double crumbing (flour, egg, breadcrumbs, egg, breadcrumbs again) gives a better seal and a thicker, crunchier crust that holds the butter in during frying."
-    }
-  ],
-  "related": [
-    {
-      "id": "bistro-chickenpicante",
-      "title": "Chicken Picante",
-      "matchingTags": [
+    "id": "chickenkiev",
+    "title": "Chicken Kiev",
+    "emoji": "🍗",
+    "category": "Bistro",
+    "description": "Golden crumbed chicken breast stuffed with garlic butter, served with a simple tomato cream sauce. A showstopper from the bistro era.",
+    "prepTime": "20 min",
+    "cookTime": "8 min",
+    "totalTime": "28 min",
+    "servings": "1 serving",
+    "difficulty": "Intermediate",
+    "tags": [
         "Alcohol",
         "Chicken",
-        "Classic",
-        "Creamy",
-        "Dinner",
-        "French",
-        "Gluten-Free",
-        "Rich",
-        "Savoury",
-        "Under 30 Minutes"
-      ]
-    },
-    {
-      "id": "bistro-chickenriverina",
-      "title": "Chicken Riverina",
-      "matchingTags": [
-        "Australian",
-        "Chicken",
-        "Classic",
-        "Creamy",
-        "Dinner",
-        "Rich",
-        "Savoury",
-        "Under 30 Minutes"
-      ]
-    },
-    {
-      "id": "bistro-chickenpapion",
-      "title": "Chicken Papion",
-      "matchingTags": [
-        "Alcohol",
-        "Chicken",
-        "Classic",
-        "Creamy",
-        "Dinner",
-        "Rich",
-        "Savoury",
-        "Seafood",
-        "Under 30 Minutes"
-      ]
-    },
-    {
-      "id": "bistro-vealcordonbleu",
-      "title": "Veal Cordon Bleu",
-      "matchingTags": [
-        "Alcohol",
         "Classic",
         "Creamy",
         "Deep-Fried",
         "Dinner",
-        "French",
-        "Pork",
-        "Savoury",
-        "Under 30 Minutes"
-      ]
-    },
-    {
-      "id": "bistro-carpetbag",
-      "title": "Carpet Bag",
-      "matchingTags": [
-        "Alcohol",
-        "Australian",
-        "Beef",
-        "Cheese",
-        "Classic",
-        "Dinner",
+        "Garlic",
         "Rich",
-        "Seafood",
-        "Under 1 Hour"
-      ]
-    }
-  ],
-  "nutrition": {
-    "servings": 1,
-    "cal": 1920,
-    "kj": 8035,
-    "protein": 54,
-    "carbs": 59,
-    "sugars": 20,
-    "fat": 150,
-    "saturated_fat": 97,
-    "fiber": 73,
-    "sodium": 187,
-    "coverage": 90,
-    "calcium_mg": 244,
-    "iron_mg": 8,
-    "potassium_mg": 3259,
-    "magnesium_mg": 179,
-    "zinc_mg": 5,
-    "cholesterol_mg": 369,
-    "vitamin_a_ug": 1539,
-    "vitamin_c_mg": 96,
-    "vitamin_d_ug": 2
-  },
-  "lastModified": "2026-05-31"
+        "Savoury"
+    ],
+    "ingredients": [
+        {
+            "heading": "Chicken"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Chicken Breast",
+            "notes": "large, pocket cut"
+        },
+        {
+            "quantity": "125",
+            "unit": "g",
+            "item": "Unsalted Butter",
+            "notes": "softened, for garlic butter log"
+        },
+        {
+            "quantity": "4",
+            "unit": "cloves",
+            "item": "Garlic",
+            "notes": "crushed"
+        },
+        {
+            "quantity": "10",
+            "unit": "g",
+            "item": "Parsley",
+            "notes": "fresh, chopped"
+        },
+        {
+            "heading": "Tomato Cream Sauce"
+        },
+        {
+            "quantity": "15",
+            "unit": "g",
+            "item": "Unsalted Butter"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Brown Onion",
+            "notes": "diced"
+        },
+        {
+            "quantity": "2",
+            "unit": "",
+            "item": "Tomatoes",
+            "notes": "diced"
+        },
+        {
+            "quantity": "60",
+            "unit": "ml",
+            "item": "Thickened Cream"
+        },
+        {
+            "quantity": "15",
+            "unit": "ml",
+            "item": "Tomato Sauce"
+        },
+        {
+            "item": "Salt & Pepper",
+            "toTaste": true,
+            "notes": "Don't add too much all at once — you can't take it out once it's in."
+        }
+    ],
+    "youWillNeed": [
+        {
+            "item": "Plain Flour",
+            "note": "for dusting the chicken"
+        },
+        {
+            "item": "Eggs",
+            "note": "beaten, for egg wash"
+        },
+        {
+            "item": "Breadcrumbs",
+            "note": "for crumbing"
+        },
+        {
+            "item": "Vegetable Oil",
+            "note": "for deep frying"
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Mix softened butter with crushed garlic and chopped parsley. Shape into a log, wrap in plastic wrap, and freeze until firm — at least 30 minutes."
+        },
+        {
+            "step": 2,
+            "instruction": "Cut a deep pocket into the side of each chicken breast, being careful not to cut through. Insert a portion of the frozen garlic butter log and seal the edges firmly by pressing the meat together."
+        },
+        {
+            "step": 3,
+            "instruction": "Dust each stuffed breast lightly with flour, dip in beaten egg, and coat thoroughly with breadcrumbs. For extra security, repeat the egg and breadcrumb step for a double crumb."
+        },
+        {
+            "step": 4,
+            "instruction": "Heat vegetable oil to 180°C. Deep-fry crumbed chicken for 8–10 minutes until deep golden and cooked through. The frozen butter melts inside, keeping the chicken moist."
+        },
+        {
+            "step": 5,
+            "instruction": "For the sauce: melt butter in a small pan over medium heat. Add diced onion and cook until translucent, about 3–4 minutes."
+        },
+        {
+            "step": 6,
+            "instruction": "Add diced tomato and cook for 2 minutes until softened."
+        },
+        {
+            "step": 7,
+            "instruction": "Pour in thickened cream and tomato sauce. Stir and simmer for 2–3 minutes until the sauce thickens to a light coating consistency. Season with salt."
+        },
+        {
+            "step": 8,
+            "instruction": "Plate the chicken and spoon the tomato cream sauce over to serve."
+        }
+    ],
+    "notes": [
+        {
+            "type": "technique",
+            "title": "Frozen Butter Log",
+            "content": "The garlic butter must be frozen solid before inserting. This prevents it from leaking out during crumbing and ensures it melts inside the chicken as it cooks, basting it from within."
+        },
+        {
+            "type": "technique",
+            "title": "Double Crumb",
+            "content": "Double crumbing (flour, egg, breadcrumbs, egg, breadcrumbs again) gives a better seal and a thicker, crunchier crust that holds the butter in during frying."
+        }
+    ],
+    "related": [
+        {
+            "id": "bistro-chickenpicante",
+            "title": "Chicken Picante",
+            "matchingTags": [
+                "Alcohol",
+                "Chicken",
+                "Classic",
+                "Creamy",
+                "Dinner",
+                "French",
+                "Gluten-Free",
+                "Rich",
+                "Savoury",
+                "Under 30 Minutes"
+            ]
+        },
+        {
+            "id": "bistro-chickenriverina",
+            "title": "Chicken Riverina",
+            "matchingTags": [
+                "Australian",
+                "Chicken",
+                "Classic",
+                "Creamy",
+                "Dinner",
+                "Rich",
+                "Savoury",
+                "Under 30 Minutes"
+            ]
+        },
+        {
+            "id": "bistro-chickenpapion",
+            "title": "Chicken Papion",
+            "matchingTags": [
+                "Alcohol",
+                "Chicken",
+                "Classic",
+                "Creamy",
+                "Dinner",
+                "Rich",
+                "Savoury",
+                "Seafood",
+                "Under 30 Minutes"
+            ]
+        },
+        {
+            "id": "bistro-vealcordonbleu",
+            "title": "Veal Cordon Bleu",
+            "matchingTags": [
+                "Alcohol",
+                "Classic",
+                "Creamy",
+                "Deep-Fried",
+                "Dinner",
+                "French",
+                "Pork",
+                "Savoury",
+                "Under 30 Minutes"
+            ]
+        },
+        {
+            "id": "bistro-carpetbag",
+            "title": "Carpet Bag",
+            "matchingTags": [
+                "Alcohol",
+                "Australian",
+                "Beef",
+                "Cheese",
+                "Classic",
+                "Dinner",
+                "Rich",
+                "Seafood",
+                "Under 1 Hour"
+            ]
+        }
+    ],
+    "nutrition": {
+        "servings": 1,
+        "cal": 1920,
+        "kj": 8035,
+        "protein": 54,
+        "carbs": 59,
+        "sugars": 20,
+        "fat": 150,
+        "saturated_fat": 97,
+        "fiber": 73,
+        "sodium": 187,
+        "coverage": 90,
+        "calcium_mg": 244,
+        "iron_mg": 8,
+        "potassium_mg": 3259,
+        "magnesium_mg": 179,
+        "zinc_mg": 5,
+        "cholesterol_mg": 369,
+        "vitamin_a_ug": 1539,
+        "vitamin_c_mg": 96,
+        "vitamin_d_ug": 2
+    },
+    "lastModified": "2026-05-31",
+    "cuisine": "French"
 }

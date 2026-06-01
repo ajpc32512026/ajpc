@@ -1,219 +1,220 @@
 {
-  "id": "apricotflan",
-  "title": "Apricot Flan",
-  "emoji": "🍑",
-  "category": "Baking",
-  "description": "Not just dessert — this is the one that makes the room go quiet. Soft custard, buttery pastry, and apricots that know their job.",
-  "prepTime": "40 min",
-  "cookTime": "35 min",
-  "totalTime": "1 hr 15 min",
-  "servings": "8 servings",
-  "difficulty": "Intermediate",
-  "tags": [
-    "Alcohol",
-    "Brandy",
-    "Classic",
-    "Creamy",
-    "Dessert",
-    "Pastry",
-    "Rich",
-    "Sweet",
-    "Vegetarian"
-  ],
-  "ingredients": [
-    {
-      "heading": "Base"
-    },
-    {
-      "quantity": "200",
-      "unit": "g",
-      "item": "Flour"
-    },
-    {
-      "quantity": "100",
-      "unit": "g",
-      "item": "Sugar"
-    },
-    {
-      "quantity": "50",
-      "unit": "g",
-      "item": "Almonds"
-    },
-    {
-      "quantity": "125",
-      "unit": "g",
-      "item": "Butter"
-    },
-    {
-      "heading": "Filling"
-    },
-    {
-      "quantity": "2",
-      "unit": "",
-      "item": "Eggs"
-    },
-    {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Vanilla"
-    },
-    {
-      "quantity": "250",
-      "unit": "ml",
-      "item": "Milk"
-    },
-    {
-      "heading": "Topping"
-    },
-    {
-      "quantity": "150",
-      "unit": "ml",
-      "item": "Cream"
-    },
-    {
-      "quantity": "6–8",
-      "unit": "",
-      "item": "Apricot"
-    },
-    {
-      "quantity": "3",
-      "unit": "tbsp",
-      "item": "Apricot Jam"
-    },
-    {
-      "quantity": "1",
-      "unit": "tbsp",
-      "item": "Brandy"
-    },
-    {
-      "quantity": "30",
-      "unit": "g",
-      "item": "Almonds"
-    }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "Combine flour, sugar, ground almonds, and butter. Rub together until crumbly, then bring together into a dough. Chill for 30 minutes."
-    },
-    {
-      "step": 2,
-      "instruction": "Roll pastry out and line a flan tin. Blind bake until lightly golden, then cool completely."
-    },
-    {
-      "step": 3,
-      "instruction": "Beat egg yolks with sugar and vanilla. Gradually add warm milk, then cook gently until thickened. Cool slightly and fold through whipped cream."
-    },
-    {
-      "step": 4,
-      "instruction": "Fill cooled pastry shell with custard. Arrange apricot halves over the top."
-    },
-    {
-      "step": 5,
-      "instruction": "Warm apricot jam with brandy and brush over fruit. Finish with flaked almonds and chill until set."
-    }
-  ],
-  "notes": [
-    {
-      "type": "tip",
-      "title": "Make Ahead",
-      "content": "The pastry shell can be baked a day in advance. Assemble the flan on the day of serving to keep the base crisp."
-    },
-    {
-      "type": "technique",
-      "title": "Brandy",
-      "content": "To retain alcohol content, remove the pan from heat before adding. If the recipe calls for flambéing, that's intentional — but for sauces and braises where you want the flavour without burning off the alcohol, keep the heat low and never boil after adding."
-    }
-  ],
-  "related": [
-    {
-      "id": "applepie",
-      "title": "Apple Pie",
-      "matchingTags": [
-        "Apple",
+    "id": "apricotflan",
+    "title": "Apricot Flan",
+    "emoji": "🍑",
+    "category": "Baking",
+    "description": "Not just dessert — this is the one that makes the room go quiet. Soft custard, buttery pastry, and apricots that know their job.",
+    "prepTime": "40 min",
+    "cookTime": "35 min",
+    "totalTime": "1 hr 15 min",
+    "servings": "8 servings",
+    "difficulty": "Intermediate",
+    "tags": [
+        "Alcohol",
+        "Brandy",
         "Classic",
+        "Creamy",
         "Dessert",
-        "Make Ahead",
         "Pastry",
         "Rich",
         "Sweet",
         "Vegetarian"
-      ]
+    ],
+    "ingredients": [
+        {
+            "heading": "Base"
+        },
+        {
+            "quantity": "200",
+            "unit": "g",
+            "item": "Flour"
+        },
+        {
+            "quantity": "100",
+            "unit": "g",
+            "item": "Sugar"
+        },
+        {
+            "quantity": "50",
+            "unit": "g",
+            "item": "Almonds"
+        },
+        {
+            "quantity": "125",
+            "unit": "g",
+            "item": "Butter"
+        },
+        {
+            "heading": "Filling"
+        },
+        {
+            "quantity": "2",
+            "unit": "",
+            "item": "Eggs"
+        },
+        {
+            "quantity": "1",
+            "unit": "tsp",
+            "item": "Vanilla"
+        },
+        {
+            "quantity": "250",
+            "unit": "ml",
+            "item": "Milk"
+        },
+        {
+            "heading": "Topping"
+        },
+        {
+            "quantity": "150",
+            "unit": "ml",
+            "item": "Cream"
+        },
+        {
+            "quantity": "6–8",
+            "unit": "",
+            "item": "Apricot"
+        },
+        {
+            "quantity": "3",
+            "unit": "tbsp",
+            "item": "Apricot Jam"
+        },
+        {
+            "quantity": "1",
+            "unit": "tbsp",
+            "item": "Brandy"
+        },
+        {
+            "quantity": "30",
+            "unit": "g",
+            "item": "Almonds"
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Combine flour, sugar, ground almonds, and butter. Rub together until crumbly, then bring together into a dough. Chill for 30 minutes."
+        },
+        {
+            "step": 2,
+            "instruction": "Roll pastry out and line a flan tin. Blind bake until lightly golden, then cool completely."
+        },
+        {
+            "step": 3,
+            "instruction": "Beat egg yolks with sugar and vanilla. Gradually add warm milk, then cook gently until thickened. Cool slightly and fold through whipped cream."
+        },
+        {
+            "step": 4,
+            "instruction": "Fill cooled pastry shell with custard. Arrange apricot halves over the top."
+        },
+        {
+            "step": 5,
+            "instruction": "Warm apricot jam with brandy and brush over fruit. Finish with flaked almonds and chill until set."
+        }
+    ],
+    "notes": [
+        {
+            "type": "tip",
+            "title": "Make Ahead",
+            "content": "The pastry shell can be baked a day in advance. Assemble the flan on the day of serving to keep the base crisp."
+        },
+        {
+            "type": "technique",
+            "title": "Brandy",
+            "content": "To retain alcohol content, remove the pan from heat before adding. If the recipe calls for flambéing, that's intentional — but for sauces and braises where you want the flavour without burning off the alcohol, keep the heat low and never boil after adding."
+        }
+    ],
+    "related": [
+        {
+            "id": "applepie",
+            "title": "Apple Pie",
+            "matchingTags": [
+                "Apple",
+                "Classic",
+                "Dessert",
+                "Make Ahead",
+                "Pastry",
+                "Rich",
+                "Sweet",
+                "Vegetarian"
+            ]
+        },
+        {
+            "id": "chocchipcookies",
+            "title": "Double Chocolate Chip Cookies",
+            "matchingTags": [
+                "Chocolate",
+                "Classic",
+                "Make Ahead",
+                "Rich",
+                "Snack",
+                "Sweet",
+                "Vegetarian",
+                "Cookies"
+            ]
+        },
+        {
+            "id": "anzacbiscuits",
+            "title": "Traditional ANZAC Biscuits",
+            "matchingTags": [
+                "Australian",
+                "Classic",
+                "Make Ahead",
+                "Rich",
+                "Sweet",
+                "Vegetarian",
+                "Cookies",
+                "Coconut"
+            ]
+        },
+        {
+            "id": "blueberrymuffins",
+            "title": "Heavenly Blueberry Muffins",
+            "matchingTags": [
+                "Baked",
+                "Breakfast",
+                "Sweet",
+                "Under 1 Hour",
+                "Vegetarian"
+            ]
+        },
+        {
+            "id": "bananabread",
+            "title": "Banana Bread",
+            "matchingTags": [
+                "Banana",
+                "Bread",
+                "Breakfast",
+                "Classic",
+                "Make Ahead",
+                "Rich",
+                "Sweet",
+                "Vegetarian"
+            ]
+        }
+    ],
+    "nutrition": {
+        "servings": 8,
+        "cal": 621,
+        "kj": 2598,
+        "protein": 12,
+        "carbs": 70,
+        "sugars": 51,
+        "fat": 29,
+        "saturated_fat": 15,
+        "fiber": 8,
+        "sodium": 69,
+        "coverage": 100,
+        "calcium_mg": 139,
+        "iron_mg": 3,
+        "potassium_mg": 1294,
+        "magnesium_mg": 82,
+        "zinc_mg": 2,
+        "cholesterol_mg": 143,
+        "vitamin_a_ug": 519,
+        "vitamin_d_ug": 1
     },
-    {
-      "id": "chocchipcookies",
-      "title": "Double Chocolate Chip Cookies",
-      "matchingTags": [
-        "Chocolate",
-        "Classic",
-        "Make Ahead",
-        "Rich",
-        "Snack",
-        "Sweet",
-        "Vegetarian",
-        "Cookies"
-      ]
-    },
-    {
-      "id": "anzacbiscuits",
-      "title": "Traditional ANZAC Biscuits",
-      "matchingTags": [
-        "Australian",
-        "Classic",
-        "Make Ahead",
-        "Rich",
-        "Sweet",
-        "Vegetarian",
-        "Cookies",
-        "Coconut"
-      ]
-    },
-    {
-      "id": "blueberrymuffins",
-      "title": "Heavenly Blueberry Muffins",
-      "matchingTags": [
-        "Baked",
-        "Breakfast",
-        "Sweet",
-        "Under 1 Hour",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "bananabread",
-      "title": "Banana Bread",
-      "matchingTags": [
-        "Banana",
-        "Bread",
-        "Breakfast",
-        "Classic",
-        "Make Ahead",
-        "Rich",
-        "Sweet",
-        "Vegetarian"
-      ]
-    }
-  ],
-  "nutrition": {
-    "servings": 8,
-    "cal": 621,
-    "kj": 2598,
-    "protein": 12,
-    "carbs": 70,
-    "sugars": 51,
-    "fat": 29,
-    "saturated_fat": 15,
-    "fiber": 8,
-    "sodium": 69,
-    "coverage": 100,
-    "calcium_mg": 139,
-    "iron_mg": 3,
-    "potassium_mg": 1294,
-    "magnesium_mg": 82,
-    "zinc_mg": 2,
-    "cholesterol_mg": 143,
-    "vitamin_a_ug": 519,
-    "vitamin_d_ug": 1
-  },
-  "lastModified": "2026-05-31"
+    "lastModified": "2026-05-31",
+    "cuisine": "French"
 }

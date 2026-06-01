@@ -1,199 +1,199 @@
 {
-  "id": "mongolianlamb",
-  "title": "Mongolian Lamb",
-  "emoji": "🥢",
-  "category": "Dinner",
-  "description": "A sweet and savoury stir-fry with tender lamb, Chinese Five Spice, and Hoisin — even better than many restaurant versions.",
-  "prepTime": "15 min",
-  "cookTime": "10 min",
-  "totalTime": "2 hr 25 min",
-  "servings": "2 servings",
-  "difficulty": "Intermediate",
-  "tags": [
-    "Alcohol",
-    "Chinese",
-    "Dinner",
-    "Lamb",
-    "Savoury",
-    "Sweet"
-  ],
-  "ingredients": [
-    {
-      "heading": "Lamb & Marinade"
-    },
-    {
-      "quantity": "350",
-      "unit": "g",
-      "item": "Lamb",
-      "notes": "sliced thinly against the grain"
-    },
-    {
-      "quantity": "2",
-      "unit": "g",
-      "item": "Bi-Carb Soda"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Cornflour"
-    },
-    {
-      "quantity": "15",
-      "unit": "ml",
-      "item": "Light Soy Sauce"
-    },
-    {
-      "quantity": "15",
-      "unit": "ml",
-      "item": "Chinese Rice Wine"
-    },
-    {
-      "heading": "Sauce"
-    },
-    {
-      "quantity": "15",
-      "unit": "g",
-      "item": "Cornflour"
-    },
-    {
-      "quantity": "10",
-      "unit": "ml",
-      "item": "Dark Soy Sauce"
-    },
-    {
-      "quantity": "5",
-      "unit": "ml",
-      "item": "Light Soy Sauce"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Sambal Oelek"
-    },
-    {
-      "quantity": "45",
-      "unit": "ml",
-      "item": "Hoisin Sauce"
-    },
-    {
-      "quantity": "30",
-      "unit": "ml",
-      "item": "Chinese Rice Wine"
-    },
-    {
-      "quantity": "2",
-      "unit": "g",
-      "item": "Chinese Five Spice"
-    },
-    {
-      "quantity": "185",
-      "unit": "ml",
-      "item": "Water"
-    },
-    {
-      "heading": "Stir-Fry"
-    },
-    {
-      "quantity": "5",
-      "unit": "ml",
-      "item": "Sesame Oil"
-    },
-    {
-      "quantity": "30",
-      "unit": "ml",
-      "item": "Vegetable Oil"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Brown Onion",
-      "notes": "sliced"
-    },
-    {
-      "quantity": "2",
-      "unit": "cloves",
-      "item": "Garlic",
-      "notes": "crushed"
-    },
-    {
-      "quantity": "4",
-      "unit": "",
-      "item": "Spring Onion",
-      "notes": "sliced, green parts only"
+    "id": "mongolianlamb",
+    "title": "Mongolian Lamb",
+    "emoji": "🥢",
+    "category": "Dinner",
+    "description": "A sweet and savoury stir-fry with tender lamb, Chinese Five Spice, and Hoisin — even better than many restaurant versions.",
+    "prepTime": "15 min",
+    "cookTime": "10 min",
+    "totalTime": "2 hr 25 min",
+    "servings": "2 servings",
+    "difficulty": "Intermediate",
+    "tags": [
+        "Alcohol",
+        "Chinese",
+        "Dinner",
+        "Lamb",
+        "Savoury",
+        "Sweet"
+    ],
+    "ingredients": [
+        {
+            "heading": "Lamb & Marinade"
+        },
+        {
+            "quantity": "350",
+            "unit": "g",
+            "item": "Lamb",
+            "notes": "sliced thinly against the grain"
+        },
+        {
+            "quantity": "2",
+            "unit": "g",
+            "item": "Bi-Carb Soda"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Cornflour"
+        },
+        {
+            "quantity": "15",
+            "unit": "ml",
+            "item": "Light Soy Sauce"
+        },
+        {
+            "quantity": "15",
+            "unit": "ml",
+            "item": "Chinese Rice Wine"
+        },
+        {
+            "heading": "Sauce"
+        },
+        {
+            "quantity": "15",
+            "unit": "g",
+            "item": "Cornflour"
+        },
+        {
+            "quantity": "10",
+            "unit": "ml",
+            "item": "Dark Soy Sauce"
+        },
+        {
+            "quantity": "5",
+            "unit": "ml",
+            "item": "Light Soy Sauce"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Sambal Oelek"
+        },
+        {
+            "quantity": "45",
+            "unit": "ml",
+            "item": "Hoisin Sauce"
+        },
+        {
+            "quantity": "30",
+            "unit": "ml",
+            "item": "Chinese Rice Wine"
+        },
+        {
+            "quantity": "2",
+            "unit": "g",
+            "item": "Chinese Five Spice"
+        },
+        {
+            "quantity": "185",
+            "unit": "ml",
+            "item": "Water"
+        },
+        {
+            "heading": "Stir-Fry"
+        },
+        {
+            "quantity": "5",
+            "unit": "ml",
+            "item": "Sesame Oil"
+        },
+        {
+            "quantity": "30",
+            "unit": "ml",
+            "item": "Vegetable Oil"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Brown Onion",
+            "notes": "sliced"
+        },
+        {
+            "quantity": "2",
+            "unit": "cloves",
+            "item": "Garlic",
+            "notes": "crushed"
+        },
+        {
+            "quantity": "4",
+            "unit": "",
+            "item": "Spring Onion",
+            "notes": "sliced, green parts only"
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Combine lamb with bi-carb soda, cornflour, light soy sauce, and Chinese rice wine. Mix very well, cover, and refrigerate. For tender cuts, marinate 2 hours. For economical cuts, marinate 6–24 hours."
+        },
+        {
+            "step": 2,
+            "instruction": "Mix cornflour with dark soy sauce and light soy sauce until smooth, then stir in sambal oelek, hoisin sauce, Chinese rice wine, five spice, and water. Set sauce aside."
+        },
+        {
+            "step": 3,
+            "instruction": "Heat vegetable oil and sesame oil in a wok over high heat until smoking."
+        },
+        {
+            "step": 4,
+            "instruction": "Stir-fry onion for 30 seconds until starting to colour. Add garlic and toss quickly for 10 seconds until fragrant."
+        },
+        {
+            "step": 5,
+            "instruction": "Add lamb and cook for approximately 3 minutes until mostly brown with some golden edges."
+        },
+        {
+            "step": 6,
+            "instruction": "Add green parts of spring onion, stir for 30 seconds, then pour in the sauce. Simmer for 1–2 minutes until thickened."
+        },
+        {
+            "step": 7,
+            "instruction": "Serve immediately with steamed rice."
+        }
+    ],
+    "notes": [
+        {
+            "type": "technique",
+            "title": "Bi-Carb Soda Tenderising",
+            "content": "The bi-carb soda in the marinade is a classic Chinese restaurant technique that tenderises the meat and gives it that signature silky texture."
+        },
+        {
+            "type": "technique",
+            "title": "Marinating Time",
+            "content": "Tender cuts like lamb backstrap need only 2 hours. Economical cuts benefit from an overnight marinade — the longer the better."
+        }
+    ],
+    "related": [
+        {
+            "id": "mongolianbeef",
+            "title": "Mongolian Beef Stir-Fry"
+        },
+        {
+            "id": "mongoliansauce",
+            "title": "Mongolian Stir-Fry Sauce"
+        },
+        {
+            "id": "sweetsourpork",
+            "title": "Sweet & Sour Pork"
+        },
+        {
+            "id": "chickenshawarma",
+            "title": "Chicken Shawarma"
+        },
+        {
+            "id": "beefstockpot",
+            "title": "Beef Stock Pot"
+        }
+    ],
+    "nutrition": {
+        "servings": 2,
+        "cal": 1008,
+        "protein": 48,
+        "carbs": 74,
+        "fat": 58,
+        "fibre": 9,
+        "sodium": 1984,
+        "coverage": 100
     }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "Combine lamb with bi-carb soda, cornflour, light soy sauce, and Chinese rice wine. Mix very well, cover, and refrigerate. For tender cuts, marinate 2 hours. For economical cuts, marinate 6–24 hours."
-    },
-    {
-      "step": 2,
-      "instruction": "Mix cornflour with dark soy sauce and light soy sauce until smooth, then stir in sambal oelek, hoisin sauce, Chinese rice wine, five spice, and water. Set sauce aside."
-    },
-    {
-      "step": 3,
-      "instruction": "Heat vegetable oil and sesame oil in a wok over high heat until smoking."
-    },
-    {
-      "step": 4,
-      "instruction": "Stir-fry onion for 30 seconds until starting to colour. Add garlic and toss quickly for 10 seconds until fragrant."
-    },
-    {
-      "step": 5,
-      "instruction": "Add lamb and cook for approximately 3 minutes until mostly brown with some golden edges."
-    },
-    {
-      "step": 6,
-      "instruction": "Add green parts of spring onion, stir for 30 seconds, then pour in the sauce. Simmer for 1–2 minutes until thickened."
-    },
-    {
-      "step": 7,
-      "instruction": "Serve immediately with steamed rice."
-    }
-  ],
-  "notes": [
-    {
-      "type": "technique",
-      "title": "Bi-Carb Soda Tenderising",
-      "content": "The bi-carb soda in the marinade is a classic Chinese restaurant technique that tenderises the meat and gives it that signature silky texture."
-    },
-    {
-      "type": "technique",
-      "title": "Marinating Time",
-      "content": "Tender cuts like lamb backstrap need only 2 hours. Economical cuts benefit from an overnight marinade — the longer the better."
-    }
-  ],
-  "related": [
-    {
-      "id": "mongolianbeef",
-      "title": "Mongolian Beef Stir-Fry"
-    },
-    {
-      "id": "mongoliansauce",
-      "title": "Mongolian Stir-Fry Sauce"
-    },
-    {
-      "id": "sweetsourpork",
-      "title": "Sweet & Sour Pork"
-    },
-    {
-      "id": "chickenshawarma",
-      "title": "Chicken Shawarma"
-    },
-    {
-      "id": "beefstockpot",
-      "title": "Beef Stock Pot"
-    }
-  ],
-  "nutrition": {
-    "servings": 2,
-    "cal": 1008,
-    "protein": 48,
-    "carbs": 74,
-    "fat": 58,
-    "fibre": 9,
-    "sodium": 1984,
-    "coverage": 100
-  }
 }

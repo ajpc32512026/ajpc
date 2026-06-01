@@ -1,255 +1,256 @@
 {
-  "id": "demiglace",
-  "title": "Demi-Glace",
-  "emoji": "🥩",
-  "category": "Sauces",
-  "description": "Deep, rich, concentrated beef sauce. Makes about 2-3 litres.",
-  "prepTime": "20 min",
-  "cookTime": "8-10 hours",
-  "totalTime": "8.5-10.5 hours",
-  "servings": "Makes approx 2-3 litres",
-  "difficulty": "Intermediate",
-  "tags": [
-    "Foundation",
-    "Bistro",
-    "Make Ahead",
-    "Freezer Friendly",
-    "Worth It"
-  ],
-  "ingredients": [
-    {
-      "quantity": "2",
-      "unit": "kg",
-      "item": "Beef Bones",
-      "notes": "knuckle, marrow, or oxtail - ask your butcher"
+    "id": "demiglace",
+    "title": "Demi-Glace",
+    "emoji": "🥩",
+    "category": "Sauces",
+    "description": "Deep, rich, concentrated beef sauce. Makes about 2-3 litres.",
+    "prepTime": "20 min",
+    "cookTime": "8-10 hours",
+    "totalTime": "8.5-10.5 hours",
+    "servings": "Makes approx 2-3 litres",
+    "difficulty": "Intermediate",
+    "tags": [
+        "Foundation",
+        "Bistro",
+        "Make Ahead",
+        "Freezer Friendly",
+        "Worth It"
+    ],
+    "ingredients": [
+        {
+            "quantity": "2",
+            "unit": "kg",
+            "item": "Beef Bones",
+            "notes": "knuckle, marrow, or oxtail - ask your butcher"
+        },
+        {
+            "quantity": "500",
+            "unit": "g",
+            "item": "Beef Scraps",
+            "notes": "trimmings saved in the freezer"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Onion",
+            "notes": "rough chop, skin on for colour"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Carrot",
+            "notes": "rough chop"
+        },
+        {
+            "quantity": "2",
+            "unit": "stalks",
+            "item": "Celery",
+            "notes": "rough chop"
+        },
+        {
+            "quantity": "2",
+            "unit": "",
+            "item": "Bay Leaves"
+        },
+        {
+            "quantity": "1",
+            "unit": "tsp",
+            "item": "Black Peppercorns"
+        },
+        {
+            "quantity": "4",
+            "unit": "L",
+            "item": "Cold Water",
+            "notes": "or enough to cover bones by 5cm"
+        },
+        {
+            "item": "Salt",
+            "toTaste": true,
+            "notes": "Add at the end. Don't add too much all at once - you can't take it out."
+        }
+    ],
+    "youWillNeed": [
+        {
+            "item": "Demi-glace Powder",
+            "note": "Commercial base - mixed to a thick paste - follow directions on pack."
+        },
+        {
+            "item": "Large stockpot",
+            "note": "8-10 litre capacity"
+        },
+        {
+            "item": "Roasting tray",
+            "note": "for bones"
+        },
+        {
+            "item": "Fine mesh strainer or chinois"
+        },
+        {
+            "item": "Container with lid",
+            "note": "2-3 litre capacity for storage"
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Preheat oven to 200°C. Roast beef bones and scraps on a tray until deeply browned - about 45 minutes. Don't rush this. Brown equals flavour."
+        },
+        {
+            "step": 2,
+            "instruction": "Transfer roasted bones and scraps to your stockpot. Add onion, carrot, celery, bay leaves, and peppercorns."
+        },
+        {
+            "step": 3,
+            "instruction": "Cover with 4 litres of cold water. Bring to a simmer - not a rolling boil. Skim foam off the top regularly."
+        },
+        {
+            "step": 4,
+            "instruction": "Simmer gently for 6-8 hours. Top up with water if bones become exposed. Low and slow wins here."
+        },
+        {
+            "step": 5,
+            "instruction": "Strain stock through a fine mesh strainer lined with cheesecloth into a clean pot. Discard solids."
+        },
+        {
+            "step": 6,
+            "instruction": "Return stock to heat. Simmer and reduce until you have about 2-3 litres of concentrated, silky liquid - roughly 1-2 more hours."
+        },
+        {
+            "step": 7,
+            "instruction": "Mix demi-glace powder with a small amount of cold water to form a smooth, thick paste. Whisk into hot stock until dissolved. Start with about 50g powder per litre and adjust. You can always add more. You cannot take it back."
+        },
+        {
+            "step": 8,
+            "instruction": "Taste. Add a pinch of salt if needed. Remember: this will concentrate further when used in other dishes."
+        },
+        {
+            "step": 9,
+            "instruction": "Pour into storage containers. Leave headspace. Cool slightly before refrigerating."
+        },
+        {
+            "step": 10,
+            "instruction": "Refrigerate overnight. Fat will rise and solidify. Skim it off completely and discard."
+        },
+        {
+            "step": 11,
+            "instruction": "Use within 1 week, or freeze for up to 3 months. Portion into smaller containers for easy grabbing."
+        }
+    ],
+    "notes": [
+        {
+            "type": "technique",
+            "title": "The Powder Ratio",
+            "content": "Start with 50g demi-glace powder per 1 litre of reduced stock. Mix to a paste first. Whisk in. Simmer 5 minutes. Taste. Add more if you want it thicker or richer. The right consistency should coat the back of a spoon like slow velvet."
+        },
+        {
+            "type": "storage",
+            "title": "Skim That Fat",
+            "content": "After a night in the fridge, the fat cap will be solid. Peel it off. Throw it away. That fat is not flavour - it's just bone grease. Your sauce should be silky, not oily."
+        },
+        {
+            "type": "acknowledgement",
+            "title": "Chef's Note",
+            "content": "Demi-glace is what separates bistro cooking from home cooking. You don't need much - a ladleful transforms a pan sauce. Make a batch. Freeze it in portions. Thank yourself later."
+        }
+    ],
+    "related": [
+        {
+            "id": "vealscaloppine",
+            "title": "Veal Scaloppine",
+            "matchingTags": [
+                "Classic",
+                "Creamy",
+                "Dinner",
+                "Italian",
+                "Rich",
+                "Savoury",
+                "Under 30 Minutes"
+            ]
+        },
+        {
+            "id": "bistro-mediterraneansteak",
+            "title": "Mediterranean Steak",
+            "matchingTags": [
+                "Alcohol",
+                "Beef",
+                "Classic",
+                "Creamy",
+                "Dinner",
+                "Gluten-Free",
+                "Rich",
+                "Savoury",
+                "Seafood",
+                "Under 30 Minutes"
+            ]
+        },
+        {
+            "id": "filetmignon",
+            "title": "Filet Mignon",
+            "matchingTags": [
+                "Beef",
+                "Classic",
+                "Creamy",
+                "Dinner",
+                "Gluten-Free",
+                "Rich",
+                "Savoury",
+                "Under 30 Minutes"
+            ]
+        },
+        {
+            "id": "brandymustardsteak",
+            "title": "Brandy Mustard Steak",
+            "matchingTags": [
+                "Alcohol",
+                "Beef",
+                "Brandy",
+                "Classic",
+                "Cream",
+                "Creamy",
+                "Dinner",
+                "Gluten-Free",
+                "Rich",
+                "Savoury",
+                "Under 30 Minutes"
+            ]
+        },
+        {
+            "id": "lambcutlets",
+            "title": "Lamb Cutlets",
+            "matchingTags": [
+                "Alcohol",
+                "Australian",
+                "Classic",
+                "Dinner",
+                "Lamb",
+                "Rich",
+                "Savoury",
+                "Under 1 Hour"
+            ]
+        }
+    ],
+    "nutrition": {
+        "servings": 1,
+        "cal": 4398,
+        "kj": 18400,
+        "protein": 202,
+        "carbs": 759,
+        "sugars": 69,
+        "fat": 65,
+        "saturated_fat": 15,
+        "fibre": 92,
+        "sodium": 2816,
+        "coverage": 88,
+        "calcium_mg": 333,
+        "iron_mg": 20,
+        "potassium_mg": 4779,
+        "magnesium_mg": 378,
+        "zinc_mg": 33,
+        "cholesterol_mg": 325,
+        "vitamin_a_ug": 2117,
+        "vitamin_c_mg": 143,
+        "vitamin_d_ug": 5
     },
-    {
-      "quantity": "500",
-      "unit": "g",
-      "item": "Beef Scraps",
-      "notes": "trimmings saved in the freezer"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Onion",
-      "notes": "rough chop, skin on for colour"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Carrot",
-      "notes": "rough chop"
-    },
-    {
-      "quantity": "2",
-      "unit": "stalks",
-      "item": "Celery",
-      "notes": "rough chop"
-    },
-    {
-      "quantity": "2",
-      "unit": "",
-      "item": "Bay Leaves"
-    },
-    {
-      "quantity": "1",
-      "unit": "tsp",
-      "item": "Black Peppercorns"
-    },
-    {
-      "quantity": "4",
-      "unit": "L",
-      "item": "Cold Water",
-      "notes": "or enough to cover bones by 5cm"
-    },
-    {
-      "item": "Salt",
-      "toTaste": true,
-      "notes": "Add at the end. Don't add too much all at once - you can't take it out."
-    }
-  ],
-  "youWillNeed": [
-    {
-      "item": "Demi-glace Powder",
-      "note": "Commercial base - mixed to a thick paste - follow directions on pack."
-    },
-    {
-      "item": "Large stockpot",
-      "note": "8-10 litre capacity"
-    },
-    {
-      "item": "Roasting tray",
-      "note": "for bones"
-    },
-    {
-      "item": "Fine mesh strainer or chinois"
-    },
-    {
-      "item": "Container with lid",
-      "note": "2-3 litre capacity for storage"
-    }
-  ],
-  "method": [
-    {
-      "step": 1,
-      "instruction": "Preheat oven to 200°C. Roast beef bones and scraps on a tray until deeply browned - about 45 minutes. Don't rush this. Brown equals flavour."
-    },
-    {
-      "step": 2,
-      "instruction": "Transfer roasted bones and scraps to your stockpot. Add onion, carrot, celery, bay leaves, and peppercorns."
-    },
-    {
-      "step": 3,
-      "instruction": "Cover with 4 litres of cold water. Bring to a simmer - not a rolling boil. Skim foam off the top regularly."
-    },
-    {
-      "step": 4,
-      "instruction": "Simmer gently for 6-8 hours. Top up with water if bones become exposed. Low and slow wins here."
-    },
-    {
-      "step": 5,
-      "instruction": "Strain stock through a fine mesh strainer lined with cheesecloth into a clean pot. Discard solids."
-    },
-    {
-      "step": 6,
-      "instruction": "Return stock to heat. Simmer and reduce until you have about 2-3 litres of concentrated, silky liquid - roughly 1-2 more hours."
-    },
-    {
-      "step": 7,
-      "instruction": "Mix demi-glace powder with a small amount of cold water to form a smooth, thick paste. Whisk into hot stock until dissolved. Start with about 50g powder per litre and adjust. You can always add more. You cannot take it back."
-    },
-    {
-      "step": 8,
-      "instruction": "Taste. Add a pinch of salt if needed. Remember: this will concentrate further when used in other dishes."
-    },
-    {
-      "step": 9,
-      "instruction": "Pour into storage containers. Leave headspace. Cool slightly before refrigerating."
-    },
-    {
-      "step": 10,
-      "instruction": "Refrigerate overnight. Fat will rise and solidify. Skim it off completely and discard."
-    },
-    {
-      "step": 11,
-      "instruction": "Use within 1 week, or freeze for up to 3 months. Portion into smaller containers for easy grabbing."
-    }
-  ],
-  "notes": [
-    {
-      "type": "technique",
-      "title": "The Powder Ratio",
-      "content": "Start with 50g demi-glace powder per 1 litre of reduced stock. Mix to a paste first. Whisk in. Simmer 5 minutes. Taste. Add more if you want it thicker or richer. The right consistency should coat the back of a spoon like slow velvet."
-    },
-    {
-      "type": "storage",
-      "title": "Skim That Fat",
-      "content": "After a night in the fridge, the fat cap will be solid. Peel it off. Throw it away. That fat is not flavour - it's just bone grease. Your sauce should be silky, not oily."
-    },
-    {
-      "type": "acknowledgement",
-      "title": "Chef's Note",
-      "content": "Demi-glace is what separates bistro cooking from home cooking. You don't need much - a ladleful transforms a pan sauce. Make a batch. Freeze it in portions. Thank yourself later."
-    }
-  ],
-  "related": [
-    {
-      "id": "vealscaloppine",
-      "title": "Veal Scaloppine",
-      "matchingTags": [
-        "Classic",
-        "Creamy",
-        "Dinner",
-        "Italian",
-        "Rich",
-        "Savoury",
-        "Under 30 Minutes"
-      ]
-    },
-    {
-      "id": "bistro-mediterraneansteak",
-      "title": "Mediterranean Steak",
-      "matchingTags": [
-        "Alcohol",
-        "Beef",
-        "Classic",
-        "Creamy",
-        "Dinner",
-        "Gluten-Free",
-        "Rich",
-        "Savoury",
-        "Seafood",
-        "Under 30 Minutes"
-      ]
-    },
-    {
-      "id": "filetmignon",
-      "title": "Filet Mignon",
-      "matchingTags": [
-        "Beef",
-        "Classic",
-        "Creamy",
-        "Dinner",
-        "Gluten-Free",
-        "Rich",
-        "Savoury",
-        "Under 30 Minutes"
-      ]
-    },
-    {
-      "id": "brandymustardsteak",
-      "title": "Brandy Mustard Steak",
-      "matchingTags": [
-        "Alcohol",
-        "Beef",
-        "Brandy",
-        "Classic",
-        "Cream",
-        "Creamy",
-        "Dinner",
-        "Gluten-Free",
-        "Rich",
-        "Savoury",
-        "Under 30 Minutes"
-      ]
-    },
-    {
-      "id": "lambcutlets",
-      "title": "Lamb Cutlets",
-      "matchingTags": [
-        "Alcohol",
-        "Australian",
-        "Classic",
-        "Dinner",
-        "Lamb",
-        "Rich",
-        "Savoury",
-        "Under 1 Hour"
-      ]
-    }
-  ],
-  "nutrition": {
-    "servings": 1,
-    "cal": 4398,
-    "kj": 18400,
-    "protein": 202,
-    "carbs": 759,
-    "sugars": 69,
-    "fat": 65,
-    "saturated_fat": 15,
-    "fibre": 92,
-    "sodium": 2816,
-    "coverage": 88,
-    "calcium_mg": 333,
-    "iron_mg": 20,
-    "potassium_mg": 4779,
-    "magnesium_mg": 378,
-    "zinc_mg": 33,
-    "cholesterol_mg": 325,
-    "vitamin_a_ug": 2117,
-    "vitamin_c_mg": 143,
-    "vitamin_d_ug": 5
-  },
-  "lastModified": "2026-05-24"
+    "lastModified": "2026-05-24",
+    "cuisine": "French"
 }
