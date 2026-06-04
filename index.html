@@ -5,60 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Ana and John's Kitchen Notebook — real recipes, written down so they don't get lost.">
     <meta name="theme-color" content="#16161a">
-    <title>Ana & John's Kitchen Notebook</title>
+    <title>Ana &amp; John's Kitchen Notebook</title>
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2316161a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='28' font-weight='bold' fill='%23c97d3e'%3EAJ%3C/text%3E%3C/svg%3E">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
-    <!-- Scroll Progress Bar -->
     <div class="scroll-progress" id="scrollProgress"></div>
-
-    <!-- Navigation -->
     <div id="nav-placeholder"></div>
 
-    <!-- Main Content -->
     <div class="content-wrapper">
         <main>
 
             <!-- SECTION: Hero -->
             <section class="hero-section animate-in">
-                <p class="hero-eyebrow">Est. 2025 &mdash; Sydney, Australia</p>
+                <p class="hero-eyebrow">Est. 2025 &mdash; NSW, Australia</p>
                 <div class="hero-rule"></div>
                 <h1>Ana &amp; John's<br><em>Kitchen Notebook</em></h1>
                 <p class="hero-tagline">Not a blog, not a brand &mdash; just the recipes we actually cook, written down so they don't get lost to time or temperamental memory.</p>
             </section>
 
-            <!-- SECTION: Stats (Corrected & Single) -->
+            <!-- SECTION: Stats -->
             <div class="stats-container animate-in animate-in-delay-1">
                 <div class="stats-card">
                     <div class="stats-number">
-                        <!-- Leave as ---; the script at the bottom of the file fills this automatically -->
                         <span id="recipeCount">---</span>
                     </div>
                     <div class="stats-label">Recipes in the notebook</div>
-                    
+
                     <hr class="stats-divider">
-                    
+
                     <div class="stats-covers">
                         <div class="stats-covers-label">Major Collections</div>
                         <div class="stats-tags">
-                            <a href="search.html?q=bread" class="stat-tag">Artisan Bread</a>
-                            <a href="search.html?q=pastry" class="stat-tag">Laminated Pastry</a>
-                            <a href="search.html?q=filipino" class="stat-tag">Filipino Heritage</a>
-                            <a href="search.html?q=bistro" class="stat-tag">Bistro Classics</a>
-                            <a href="search.html?q=dessert" class="stat-tag">Cold-Set Desserts</a>
-                            <a href="search.html?q=sauces" class="stat-tag">Mother Sauces</a>
-                            <a href="search.html?q=biscuits" class="stat-tag">Tea Biscuits</a>
-                            <a href="search.html?q=reference" class="stat-tag">Technical Reference</a>
+                            <a href="search.html?q=bread"      class="stat-tag">Artisan Bread</a>
+                            <a href="search.html?q=pastry"     class="stat-tag">Laminated Pastry</a>
+                            <a href="search.html?q=filipino"   class="stat-tag">Filipino Heritage</a>
+                            <a href="search.html?q=bistro"     class="stat-tag">Bistro Classics</a>
+                            <a href="search.html?q=dessert"    class="stat-tag">Cold-Set Desserts</a>
+                            <a href="search.html?q=sauces"     class="stat-tag">Mother Sauces</a>
+                            <a href="search.html?q=biscuits"   class="stat-tag">Tea Biscuits</a>
+                            <a href="search.html?q=reference"  class="stat-tag">Technical Reference</a>
                         </div>
                     </div>
-                    
+
                     <hr class="stats-divider">
-                    
+
+                    <div class="stats-quick-links">
+                        <a href="tags.html"           class="stats-quick-link">Tag Cloud</a>
+                        <a href="collections.html"    class="stats-quick-link">Collections</a>
+                        <a href="daily-tracker.html"  class="stats-quick-link">Daily Tracker</a>
+                    </div>
+
+                    <hr class="stats-divider">
+
                     <a href="search.html" class="stats-button">Browse all recipes &rarr;</a>
                 </div>
             </div>
+
+            <!-- SECTION: Recently Viewed -->
+            <section class="recently-viewed-section animate-in animate-in-delay-2" id="recentlyViewedSection" style="display:none;">
+                <div class="section-header">
+                    <span class="section-label">Recently Viewed</span>
+                    <button class="section-clear-btn" id="clearRecentBtn">Clear</button>
+                </div>
+                <div class="recently-viewed-list" id="recentlyViewedList"></div>
+            </section>
 
             <!-- SECTION: Featured Recipes -->
             <section class="featured-section animate-in animate-in-delay-2">
@@ -66,7 +78,6 @@
                     <span class="section-label">Featured This Week</span>
                     <span class="section-note">Changes every Monday</span>
                 </div>
-                <!-- Populated via JS -->
                 <div class="recipe-grid"></div>
             </section>
 
@@ -75,7 +86,6 @@
         <footer>
             <div class="footer-inner">
                 <span class="footer-brand">AJPC</span>
-                
                 <div class="footer-links">
                     <a href="about.html">About</a>
                     <a href="sitemap.html">Sitemap</a>
@@ -83,40 +93,78 @@
                     <a href="search.html">All Recipes</a>
                     <a href="gallery.html">Gallery</a>
                     <a href="measurement.html">Measurements</a>
+                    <a href="tags.html">Tags</a>
+                    <a href="collections.html">Collections</a>
+                    <a href="daily-tracker.html">Daily Tracker</a>
                 </div>
-                
-                <p class="footer-copy">&copy; 2026 Ana &amp; John's Kitchen Notebook. Built with ☕ and patience.</p>
+                <p class="footer-copy">&copy; 2026 Ana &amp; John's Kitchen Notebook. Built with &#9749; and patience.</p>
             </div>
         </footer>
     </div>
 
-    <!-- UI Components -->
     <button class="back-to-top" id="backToTop" aria-label="Back to top">&#8593;</button>
 
     <script src="js/nav-loader.js"></script>
+    <script src="js/user-prefs.js"></script>
     <script src="js/featured-recipes-rotator.js"></script>
-    
+
     <script>
     (function() {
+        // Recipe count
         async function updateRecipeCount() {
             try {
-                const res = await fetch('json/recipe-index.json?t=' + Date.now());
+                var res = await fetch('json/recipe-index.json?t=' + Date.now());
                 if (res.ok) {
-                    const recipes = await res.json();
-                    const countSpan = document.getElementById('recipeCount');
-                    if (countSpan) countSpan.textContent = recipes.length;
+                    var recipes = await res.json();
+                    var el = document.getElementById('recipeCount');
+                    if (el) el.textContent = recipes.length;
                 }
             } catch(e) {
-                console.warn('Could not load recipe count:', e);
-                const countSpan = document.getElementById('recipeCount');
-                if (countSpan) countSpan.textContent = '?';
+                var el = document.getElementById('recipeCount');
+                if (el) el.textContent = '125';
             }
         }
-        
+
+        // Recently viewed
+        function renderRecentlyViewed() {
+            if (!window.AJPC || !window.AJPC.RecentlyViewed) return;
+            var recent  = window.AJPC.RecentlyViewed.getAll().slice(0, 8);
+            var section = document.getElementById('recentlyViewedSection');
+            var list    = document.getElementById('recentlyViewedList');
+            if (!section || !list || !recent.length) return;
+
+            list.innerHTML = recent.map(function(r) {
+                return '<a href="recipe.html?id=' + encodeURIComponent(r.id) + '" class="recently-viewed-chip">' +
+                    escHtml(r.name || r.id) +
+                    (r.category ? '<span class="recently-viewed-cat">' + escHtml(r.category) + '</span>' : '') +
+                '</a>';
+            }).join('');
+
+            section.style.display = 'block';
+        }
+
+        // Clear recently viewed
+        var clearBtn = document.getElementById('clearRecentBtn');
+        if (clearBtn) {
+            clearBtn.addEventListener('click', function() {
+                if (window.AJPC) window.AJPC.RecentlyViewed.clear();
+                var section = document.getElementById('recentlyViewedSection');
+                if (section) section.style.display = 'none';
+            });
+        }
+
+        function escHtml(str) {
+            return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+        }
+
         if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', updateRecipeCount);
+            document.addEventListener('DOMContentLoaded', function() {
+                updateRecipeCount();
+                renderRecentlyViewed();
+            });
         } else {
             updateRecipeCount();
+            renderRecentlyViewed();
         }
     })();
     </script>

@@ -99,7 +99,7 @@
                 <details class="sitemap-dropdown">
                     <summary><span>${c}</span> <span class="cuisine-tag">${cuisineGroups[c].length}</span></summary>
                     <ul class="sitemap-list">
-                        ${cuisineGroups[c].map(r => `<li><a href="recipe.html?id=${r.id}">${r.emoji || '🍽️'} ${r.title || r.name}</a></li>`).join('')}
+                        ${cuisineGroups[c].map(r => `<li><a href="recipe.html?id=${r.id}">${r.title || r.name}</a></li>`).join('')}
                     </ul>
                 </details>`;
             });
@@ -122,7 +122,7 @@
                 <details class="sitemap-dropdown">
                     <summary><span>${cat}</span> <span class="cuisine-tag">${sortedList.length}</span></summary>
                     <ul class="sitemap-list">
-                        ${sortedList.map(r => `<li><a href="recipe.html?id=${r.id}">${r.emoji || ''} ${r.title || r.name}</a></li>`).join('')}
+                        ${sortedList.map(r => `<li><a href="recipe.html?id=${r.id}">${r.title || r.name}</a></li>`).join('')}
                     </ul>
                 </details>`;
             });
@@ -135,23 +135,26 @@
                     <details class="sitemap-dropdown">
                         <summary>Technical Guides</summary>
                         <ul class="sitemap-list">
-                            <li><a href="measurement.html">📏 Measurements</a></li>
-                            <li><a href="culinaryterms.html">📖 Culinary Terms</a></li>
-                            <li><a href="ingredient_directory.html">🍎 Ingredient Directory</a></li>
-                            <li><a href="breadtips.html">🍞 Bread Tips</a></li>
-                            <li><a href="tangzhongguide.html">🥖 Tangzhong Guide</a></li>
-                            <li><a href="puffpastrymethods.html">🥐 Puff Pastry Methods</a></li>
-                            <li><a href="gelatintips.html">🍮 Gelatine Blooming</a></li>
+                            <li><a href="measurement.html">Measurements</a></li>
+                            <li><a href="culinaryterms.html">Culinary Terms</a></li>
+                            <li><a href="ingredient_directory.html">Ingredient Directory</a></li>
+                            <li><a href="breadtips.html">Bread Tips</a></li>
+                            <li><a href="tangzhongguide.html">Tangzhong Guide</a></li>
+                            <li><a href="puffpastrymethods.html">Puff Pastry Methods</a></li>
+                            <li><a href="gelatin-blooming-guide.html">Gelatine Blooming</a></li>
                         </ul>
                     </details>
                     <details class="sitemap-dropdown">
                         <summary>Site Tools</summary>
                         <ul class="sitemap-list">
-                            <li><a href="search.html">🔍 Search Recipes</a></li>
-                            <li><a href="gallery.html">🖼️ Gallery</a></li>
-                            <li><a href="print-all.html">🖨️ Print All Recipes</a></li>
-                            <li><a href="friandstory.html">📖 The Friand Story</a></li>
-                            <li><a href="colophon.html">💻 Colophon</a></li>
+                            <li><a href="search.html">Search Recipes</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="print-all.html">Print All Recipes</a></li>
+                            <li><a href="friandstory.html">The Friand Story</a></li>
+                            <li><a href="colophon.html">Colophon</a></li>
+                            <li><a href="tags.html">Tag Cloud</a></li>
+                            <li><a href="collections.html">Collections</a></li>
+                            <li><a href="daily-tracker.html">Daily Tracker</a></li>
                         </ul>
                     </details>
                 </div>
@@ -164,7 +167,7 @@
         } catch (error) {
             console.error("Sitemap failed to load:", error);
             grid.innerHTML = `
-                <div class="note" style="border-color: var(--red);">
+                <div class="note" style="border-color: var(--red-err);">
                     <h4>Load Error</h4>
                     <p>Failed to access recipe index. If you are viewing this locally, please ensure you are using a local server (e.g., Live Server).</p>
                     <p><small>${error.message}</small></p>

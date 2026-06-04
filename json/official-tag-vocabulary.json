@@ -5,7 +5,7 @@
     "Amaretto",
     "American",
     "Anchovy",
-    "Appetizer",
+    "Appetiser",
     "Apple",
     "Australian",
     "Avocado",
@@ -375,6 +375,7 @@
       "Thyme",
       "Tomato",
       "Tuna",
+      "Turkish",
       "Turmeric",
       "Vanilla",
       "Vinegar",
@@ -382,7 +383,7 @@
       "Zucchini"
     ],
     "mealType": [
-      "Appetizer",
+      "Appetiser",
       "Bread",
       "Breakfast",
       "Condiment",

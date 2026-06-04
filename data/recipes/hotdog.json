@@ -1,136 +1,125 @@
 {
-    "id": "wendysstylehotdogbuns",
-    "title": "Wendy's-Style Hot Dog Buns",
-    "emoji": "🌭",
-    "category": "Baking",
-    "description": "Soft, golden buns made for loading up with your favourite hot dogs — eight generously sised rolls.",
-    "prepTime": "25 min",
-    "cookTime": "18 min",
-    "totalTime": "2 hr 28 min",
-    "servings": "8 buns",
-    "difficulty": "Intermediate",
-    "tags": [
-        "American",
-        "Baked",
-        "Bread",
-        "Savoury",
-        "Vegetarian"
-    ],
-    "ingredients": [
-        {
-            "quantity": "600",
-            "unit": "g",
-            "item": "Bread Flour"
-        },
-        {
-            "quantity": "360",
-            "unit": "ml",
-            "item": "Whole Milk",
-            "notes": "lukewarm"
-        },
-        {
-            "quantity": "35",
-            "unit": "g",
-            "item": "White Sugar"
-        },
-        {
-            "quantity": "10",
-            "unit": "g",
-            "item": "Salt"
-        },
-        {
-            "quantity": "8",
-            "unit": "g",
-            "item": "Yeast",
-            "notes": "instant dried"
-        },
-        {
-            "quantity": "50",
-            "unit": "g",
-            "item": "Unsalted Butter",
-            "notes": "melted"
-        }
-    ],
-    "method": [
-        {
-            "step": 1,
-            "instruction": "In a large bowl, combine lukewarm milk, sugar, and yeast. Let sit for 5 minutes until foamy."
-        },
-        {
-            "step": 2,
-            "instruction": "Add bread flour, salt, and melted butter. Mix until a rough dough forms."
-        },
-        {
-            "step": 3,
-            "instruction": "Knead for 8–10 minutes until the dough is smooth, soft, and springy."
-        },
-        {
-            "step": 4,
-            "instruction": "Place dough in a lightly oiled bowl, cover with a damp tea towel, and let rise in a warm place for approximately 1 hour until doubled in sise."
-        },
-        {
-            "step": 5,
-            "instruction": "Divide dough into 8 equal pieces, approximately 105–110 g each. Roll each into a 25 cm log and pinch seams underneath."
-        },
-        {
-            "step": 6,
-            "instruction": "Place shaped buns on a lined baking tray, cover, and rest for 30–45 minutes until puffed."
-        },
-        {
-            "step": 7,
-            "instruction": "Preheat oven to 180°C fan-forced."
-        },
-        {
-            "step": 8,
-            "instruction": "Bake for 15–18 minutes until pale golden."
-        },
-        {
-            "step": 9,
-            "instruction": "Cool completely on a wire rack before slicing."
-        }
-    ],
-    "notes": [
-        {
-            "type": "technique",
-            "title": "Shaping",
-            "content": "Use slightly floured hands and work surface for easier shaping. Pinch the seams firmly underneath to prevent the buns from unrolling during baking."
-        },
-        {
-            "type": "storage",
-            "title": "Storage",
-            "content": "Store in an airtight container for 2–3 days, or freeze for up to 2 months. Thaw and warm before using."
-        }
-    ],
-    "related": [
-        {
-            "id": "hamburger",
-            "title": "Hamburger Buns"
-        },
-        {
-            "id": "sub",
-            "title": "Homemade Sub Buns"
-        },
-        {
-            "id": "garlicbread",
-            "title": "Garlic Butter Crusty Bread"
-        },
-        {
-            "id": "swbtm",
-            "title": "Soft White Bread (Tangzhong Method)"
-        },
-        {
-            "id": "turkishbread",
-            "title": "Traditional Turkish Bread"
-        }
-    ],
-    "nutrition": {
-        "servings": 8,
-        "cal": 363,
-        "protein": 11,
-        "carbs": 61,
-        "fat": 8,
-        "fibre": 2,
-        "sodium": 507,
-        "coverage": 100
+  "id": "wendysstylehotdogbuns",
+  "title": "Wendy's-Style Hot Dog Buns",
+  "emoji": "🌭",
+  "category": "Baking",
+  "difficulty": "Intermediate",
+  "description": "Soft, golden buns made for loading up with your favourite hot dogs — eight generously sized rolls.",
+  "prepTime": "25 min",
+  "cookTime": "18 min",
+  "totalTime": "2 hr 28 min",
+  "servings": "8 buns",
+  "tags": [
+    "American",
+    "Baked",
+    "Bread",
+    "Savoury",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "quantity": "600",
+      "unit": "g",
+      "item": "Bread Flour"
+    },
+    {
+      "quantity": "360",
+      "unit": "ml",
+      "item": "Milk",
+      "notes": "lukewarm"
+    },
+    {
+      "quantity": "35",
+      "unit": "g",
+      "item": "White Sugar"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Salt"
+    },
+    {
+      "quantity": "8",
+      "unit": "g",
+      "item": "Yeast",
+      "notes": "instant dried"
+    },
+    {
+      "quantity": "50",
+      "unit": "g",
+      "item": "Unsalted Butter",
+      "notes": "melted"
     }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "In a large bowl, combine lukewarm milk, sugar, and yeast. Let sit for 5 minutes until foamy."
+    },
+    {
+      "step": 2,
+      "instruction": "Add bread flour, salt, and melted butter. Mix until a rough dough forms."
+    },
+    {
+      "step": 3,
+      "instruction": "Knead for 8–10 minutes until the dough is smooth, soft, and springy."
+    },
+    {
+      "step": 4,
+      "instruction": "Place dough in a lightly oiled bowl, cover with a damp tea towel, and let rise in a warm place for approximately 1 hour until doubled in size."
+    },
+    {
+      "step": 5,
+      "instruction": "Divide dough into 8 equal pieces, approximately 105–110 g each. Roll each into a 25 cm log and pinch seams underneath."
+    },
+    {
+      "step": 6,
+      "instruction": "Place shaped buns on a lined baking tray, cover, and rest for 30–45 minutes until puffed."
+    },
+    {
+      "step": 7,
+      "instruction": "Preheat oven to 180°C fan-forced."
+    },
+    {
+      "step": 8,
+      "instruction": "Bake for 15–18 minutes until pale golden."
+    },
+    {
+      "step": 9,
+      "instruction": "Cool completely on a wire rack before slicing."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Shaping",
+      "content": "Use slightly floured hands and work surface for easier shaping. Pinch the seams firmly underneath to prevent the buns from unrolling during baking."
+    },
+    {
+      "type": "storage",
+      "title": "Storage",
+      "content": "Store in an airtight container for 2–3 days, or freeze for up to 2 months. Thaw and warm before using."
+    }
+  ],
+  "nutrition": {
+    "servings": 8,
+    "cal": 359,
+    "kj": 1503,
+    "protein": 11,
+    "carbs": 60,
+    "sugars": 9,
+    "fat": 8,
+    "saturated_fat": 4.8,
+    "fiber": 2,
+    "sodium": 125,
+    "coverage": 100,
+    "calcium_mg": 66,
+    "iron_mg": 1,
+    "potassium_mg": 215,
+    "magnesium_mg": 34,
+    "zinc_mg": 1,
+    "cholesterol_mg": 15,
+    "vitamin_a_ug": 74
+  },
+  "lastModified": "2026-06-04"
 }

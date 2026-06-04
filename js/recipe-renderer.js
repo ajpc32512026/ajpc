@@ -259,6 +259,7 @@
             '</div>';
     }
 
+    // (Remaining template rendering and event attachment helpers unmodified)
     function renderHeader(r) {
         return (r.category ? '<span class="recipe-category-badge">' + escHtml(r.category) + '</span>' : '') +
             '<h1 class="recipe-title">' + escHtml(r.title || r.id || 'Recipe') + '</h1>' +
@@ -522,7 +523,7 @@
             var cleaned = notes;
             cleaned = cleaned.replace(/\s*-\s*\*\*/g, '');
             cleaned = cleaned.replace(/\*\*/g, '');
-            cleaned = cleaned.replace(/(Texture & Flavor:|Usage Tips:|Substitutions:|Usage:|Tips:|Storage:|Pairings:)/g, '<br><strong>$1</strong>');
+            cleaned = cleaned.replace(/(Texture & Flavour:|Usage Tips:|Substitutions:|Usage:|Tips:|Storage:|Pairings:)/g, '<br><strong>$1</strong>');
             cleaned = cleaned.replace(/Usage\s+Tips:/g, 'Usage Tips:');
             cleaned = cleaned.replace(/Storage:\s*/g, '');
             cleaned = cleaned.replace(/\.([A-Z])/g, '. $1');
@@ -577,8 +578,6 @@
                     ingredientsList.push(ingredientName);
                 }
             });
-
-            console.log('Detected ingredients:', ingredientsList);
 
             var matches = [];
             for (var i = 0; i < ingredientsList.length; i++) {

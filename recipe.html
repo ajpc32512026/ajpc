@@ -4,27 +4,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#16161a">
-    <meta name="description" content="View recipe from Ana & John's Kitchen Notebook.">
+    <meta name="description" content="View recipe from Ana &amp; John's Kitchen Notebook.">
     <title>Recipe | AJPC Kitchen Notebook</title>
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2316161a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='28' font-weight='bold' fill='%23c97d3e'%3EAJ%3C/text%3E%3C/svg%3E">
     <link rel="stylesheet" href="css/main.css">
-    
 </head>
 <body>
 
-    <!-- Scroll Progress Bar -->
     <div class="scroll-progress" id="scrollProgress"></div>
-
-    <!-- Navigation -->
     <div id="nav-placeholder"></div>
 
-    <!-- Main Content -->
     <div class="content-wrapper">
         <main id="recipe-container">
-            <!-- Dynamically populated by recipe-renderer.js -->
             <div class="loading-state">
                 <div class="loading-spinner"></div>
-                <p>Retrieving recipe data...</p>
+                <p>Retrieving recipe data…</p>
             </div>
         </main>
 
@@ -37,20 +31,17 @@
         </footer>
     </div>
 
-    <!-- UI Components -->
     <button class="back-to-top" id="backToTop" aria-label="Back to top">&#8593;</button>
 
-    <!-- Shopping List Modal (Legacy fallback) -->
+    <!-- Shopping List Modal -->
     <div id="shopping-modal" class="shopping-modal">
         <div class="shopping-modal-content">
             <div class="shopping-modal-header">
                 <h2>Shopping List</h2>
-                <button class="shopping-modal-close" onclick="closeShoppingModal()" aria-label="Close modal">&times;</button>
+                <button class="shopping-modal-close" onclick="closeShoppingModal()" aria-label="Close">&times;</button>
             </div>
             <div id="shopping-list-content" class="shopping-list-body">
-                <div class="loading-state">
-                    <p>Calculating requirements...</p>
-                </div>
+                <div class="loading-state"><p>Calculating requirements…</p></div>
             </div>
             <div class="shopping-modal-footer">
                 <button class="btn-print-shopping" onclick="printShoppingList()">Print List</button>
@@ -59,9 +50,17 @@
         </div>
     </div>
 
-    <!-- Scripts -->
+    <!-- Load order matters:
+         1. nav-loader   — navigation
+         2. user-prefs   — AJPC.* API (must be before enhancements)
+         3. recipe-renderer — renders recipe, fires recipeRendered event
+         4. recipe-shopping — shopping list modal
+         5. recipe-enhancements — listens for recipeRendered, injects new features
+    -->
     <script src="js/nav-loader.js"></script>
+    <script src="js/user-prefs.js"></script>
     <script src="js/recipe-renderer.js"></script>
     <script src="js/recipe-shopping.js"></script>
+    <script src="js/recipe-enhancements.js"></script>
 </body>
 </html>

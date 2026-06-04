@@ -34,7 +34,7 @@
                 priceDatabase = JSON.parse(cached);
                 console.log('[ShoppingList] Loaded from cache, items:', Object.keys(priceDatabase).length);
                 return priceDatabase;
-            } catch(e) {
+            } catch (e) {
                 console.log('Cache parse failed, fetching fresh');
             }
         }
@@ -80,7 +80,7 @@
         const result = {};
         for (const key in flatDB) {
             const item = flatDB[key];
-            const section = item.section || 'uncategorized';
+            const section = item.section || 'uncategorised';
             const displayKey = item.originalKey || key;
             if (!result[section]) result[section] = {};
             result[section][displayKey] = {
@@ -102,7 +102,9 @@
         const jsonToSave = rebuildJsonStructure(priceDatabase);
         const jsonString = JSON.stringify(jsonToSave, null, 2);
 
-        const blob = new Blob([jsonString], { type: 'application/json' });
+        const blob = new Blob([jsonString], {
+            type: 'application/json'
+        });
         const a = document.createElement('a');
         a.href = URL.createObjectURL(blob);
         a.download = 'recipe-prices.json';
@@ -124,7 +126,7 @@
             unit: unit,
             price: parseFloat(price),
             brand: brand || '',
-            section: section || 'uncategorized',
+            section: section || 'uncategorised',
             originalKey: itemName
         };
         await savePriceDatabase();
@@ -170,7 +172,10 @@
                 notes = text.substring(parenIndex + 1, closeParen).trim();
             }
         }
-        return { ingredient, notes };
+        return {
+            ingredient,
+            notes
+        };
     }
 
     function escapeHtml(str) {
@@ -208,17 +213,22 @@
     function itemExistsInDB(itemName) {
         const key = itemName.toLowerCase().trim();
         if (priceDatabase && priceDatabase[key]) {
-            return { exists: true, data: priceDatabase[key] };
+            return {
+                exists: true,
+                data: priceDatabase[key]
+            };
         }
-        return { exists: false };
+        return {
+            exists: false
+        };
     }
 
     function getActionButton(itemName, existsInDB, existingData) {
         const safeName = escapeHtml(itemName).replace(/"/g, '&quot;');
         if (existsInDB) {
-            return `<button class="action-btn update-btn" data-item="${safeName}" data-action="update" data-section="${existingData?.section || 'uncategorized'}" data-size="${existingData?.size || ''}" data-unit="${existingData?.unit || 'g'}" data-price="${existingData?.price || ''}" data-brand="${existingData?.brand || ''}">🔄 Update</button>`;
+            return `<button class="action-btn update-btn" data-item="${safeName}" data-action="update" data-section="${existingData?.section || 'uncategorised'}" data-size="${existingData?.size || ''}" data-unit="${existingData?.unit || 'g'}" data-price="${existingData?.price || ''}" data-brand="${existingData?.brand || ''}">🔄 Update</button>`;
         } else {
-            return `<button class="action-btn new-btn" data-item="${safeName}" data-action="new" data-section="uncategorized">✨ New</button>`;
+            return `<button class="action-btn new-btn" data-item="${safeName}" data-action="new" data-section="uncategorised">✨ New</button>`;
         }
     }
 
@@ -262,7 +272,10 @@
         let totalMakeCost = 0;
 
         ingredients.forEach(function(ing) {
-            const { exists, data } = itemExistsInDB(ing.name);
+            const {
+                exists,
+                data
+            } = itemExistsInDB(ing.name);
 
             if (!exists) {
                 shoppingItems.push({
@@ -297,14 +310,21 @@
             const makeCost = neededInPackageUnits * pricePerUnit;
             totalMakeCost += makeCost;
 
+            const totalPurchasedQty = packagesNeeded * data.size;
+            const remainingQty = totalPurchasedQty - neededInPackageUnits;
+            const remainingValue = remainingQty * pricePerUnit;
+
             shoppingItems.push({
                 name: ing.displayName,
                 needed: formatQuantity(ing.qty, ing.unit),
+                neededCost: makeCost.toFixed(2),
                 packagesNeeded: packagesNeeded,
                 packageSize: data.size + data.unit,
                 packagePrice: data.price.toFixed(2),
                 brand: data.brand,
                 buyCost: buyCost.toFixed(2),
+                remainingQty: formatQuantity(remainingQty, data.unit),
+                remainingValue: remainingValue.toFixed(2),
                 hasPrice: true,
                 existsInDB: true,
                 existingData: data
@@ -341,9 +361,20 @@
                 inner += '<div class="shopping-item-name">' + escapeHtml(item.name) + '</div>';
                 inner += '<div class="shopping-price-details">';
                 if (item.hasPrice && item.brand) inner += '<div class="shopping-brand">' + escapeHtml(item.brand) + '</div>';
-                inner += '<div class="shopping-needed">Needs: ' + item.needed + '</div>';
+                
+                if (item.hasPrice) {
+                    inner += '<div class="shopping-needed">Needs: ' + item.needed + ' = $' + item.neededCost + '</div>';
+                } else {
+                    inner += '<div class="shopping-needed">Needs: ' + item.needed + '</div>';
+                }
+
                 if (item.hasPrice) {
                     inner += '<div class="shopping-package">Buy: ' + item.packagesNeeded + ' × ' + item.packageSize + ' @ $' + item.packagePrice + '</div>';
+                    
+                    if (parseFloat(item.remainingValue) > 0) {
+                        inner += '<div class="shopping-remaining">Leftover: ' + item.remainingQty + ' ($' + item.remainingValue + ')</div>';
+                    }
+                    
                     inner += '<div class="shopping-cost"><strong>$' + item.buyCost + '</strong></div>';
                 } else if (item.existsInDB) {
                     inner += '<div class="shopping-no-price">⚠️ Missing price/size — click Update</div>';
@@ -363,21 +394,193 @@
         document.getElementById('shoppingSelectAll')?.addEventListener('click', function() {
             const checkboxes = panel.querySelectorAll('.shopping-checkbox');
             let allChecked = true;
-            checkboxes.forEach(cb => { if (!cb.checked) allChecked = false; });
-            checkboxes.forEach(cb => { cb.checked = !allChecked; });
+            checkboxes.forEach(cb => {
+                if (!cb.checked) allChecked = false;
+            });
+            checkboxes.forEach(cb => {
+                cb.checked = !allChecked;
+            });
             this.textContent = allChecked ? 'Select All' : 'Deselect All';
         });
 
         document.getElementById('shoppingPrintBtn')?.addEventListener('click', function() {
-            const checked = [];
-            panel.querySelectorAll('.shopping-checkbox:checked').forEach(cb => {
-                const nameEl = cb.closest('.shopping-item')?.querySelector('.shopping-item-name');
-                if (nameEl) checked.push(nameEl.textContent);
+            const checkboxes = panel.querySelectorAll('.shopping-checkbox');
+            const isAnyChecked = panel.querySelectorAll('.shopping-checkbox:checked').length > 0;
+            
+            const selectedItems = [];
+            let printTotal = 0;
+
+            checkboxes.forEach((cb, idx) => {
+                if (!isAnyChecked || cb.checked) {
+                    const itemData = shoppingItems[idx];
+                    selectedItems.push(itemData);
+                    if (itemData.hasPrice) {
+                        printTotal += parseFloat(itemData.buyCost || 0);
+                    }
+                }
             });
-            const items = checked.length ? checked : Array.from(panel.querySelectorAll('.shopping-item-name')).map(el => el.textContent);
-            if (!items.length) return alert('Nothing to print.');
+
+            if (!selectedItems.length) return alert('Nothing to print.');
+
             const win = window.open('', '_blank');
-            win.document.write(`<!DOCTYPE html><html><head><title>Shopping List</title><style>body{font-family:sans-serif;padding:20px;}h1{font-size:18px;}ul{list-style:none;padding:0;}li{padding:8px 0;border-bottom:1px solid #eee;}</style></head><body><h1>🛒 Shopping List</h1><div>${escapeHtml(recipe.title || '')}</div>${multiplier > 1 ? `<div>📏 Scaled ${multiplier}x — Serves: ${scaledServings}</div>` : ''}<ul>${items.map(i => `<li><input type="checkbox"> ${escapeHtml(i)}</li>`).join('')}</ul><div class="disclaimer">Prices are estimates</div></body></html>`);
+            win.document.write(`
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <title>Shopping List</title>
+                    <style>
+                        @page {
+                            margin: 0.3in;
+                        }
+                        body { 
+                            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+                            font-size: 11px;
+                            line-height: 1.3;
+                            color: #000; 
+                            background: #fff;
+                            margin: 0; 
+                            padding: 0; 
+                            max-width: 400px; /* Constrains list to a compact, receipt-like layout aligned top-left */
+                        }
+                        .header-container {
+                            border-bottom: 2px solid #000;
+                            padding-bottom: 5px;
+                            margin-bottom: 10px;
+                        }
+                        h1 { 
+                            font-size: 14px; 
+                            text-transform: uppercase;
+                            margin: 0 0 2px 0; 
+                            color: #000; 
+                            letter-spacing: 0.02em;
+                        }
+                        .subtitle { 
+                            font-size: 10px; 
+                            font-weight: bold;
+                            color: #333; 
+                            margin: 0;
+                            text-transform: uppercase;
+                        }
+                        .scale { 
+                            font-size: 10px; 
+                            color: #555; 
+                            margin-top: 2px;
+                            font-style: italic;
+                        }
+                        ul { 
+                            list-style: none; 
+                            padding: 0; 
+                            margin: 0; 
+                        }
+                        li { 
+                            padding: 5px 0; 
+                            border-bottom: 1px dashed #bbb; 
+                            display: flex; 
+                            justify-content: space-between; 
+                            align-items: flex-start; 
+                        }
+                        .item-left { 
+                            display: flex; 
+                            align-items: flex-start; 
+                            gap: 6px; 
+                        }
+                        .checkbox { 
+                            font-family: monospace;
+                            font-size: 12px; 
+                            font-weight: bold;
+                            color: #000; 
+                            user-select: none; 
+                        }
+                        .item-text {
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        .item-name { 
+                            font-weight: bold; 
+                            font-size: 11px; 
+                        }
+                        .brand { 
+                            color: #555; 
+                            font-size: 10px; 
+                            font-weight: normal;
+                            font-style: italic;
+                        }
+                        .sub-details { 
+                            font-size: 10px; 
+                            color: #444; 
+                            margin-top: 1px; 
+                        }
+                        .item-cost { 
+                            font-weight: bold; 
+                            font-size: 11px; 
+                            text-align: right; 
+                            white-space: nowrap;
+                            padding-left: 8px;
+                        }
+                        .no-price { 
+                            color: #777; 
+                            font-weight: normal; 
+                            font-size: 10px; 
+                        }
+                        .total-row { 
+                            margin-top: 15px; 
+                            padding-top: 6px; 
+                            border-top: 2px solid #000; 
+                            display: flex; 
+                            justify-content: space-between; 
+                            align-items: center; 
+                            font-size: 12px; 
+                            font-weight: bold; 
+                        }
+                        .disclaimer { 
+                            margin-top: 25px; 
+                            font-size: 8px; 
+                            color: #666; 
+                            text-align: left; 
+                            border-top: 1px solid #ddd; 
+                            padding-top: 6px; 
+                        }
+                        @media print {
+                            body { margin: 0; padding: 0; }
+                        }
+                    </style>
+                </head>
+                <body>
+                    <div class="header-container">
+                        <h1>🛒 Shopping List</h1>
+                        <div class="subtitle">${escapeHtml(recipe.title || '')}</div>
+                        ${multiplier > 1 ? `<div class="scale">📏 Scaled ${multiplier}x — Serves: ${scaledServings}</div>` : ''}
+                    </div>
+                    <ul>
+                        ${selectedItems.map(item => `
+                            <li>
+                                <div class="item-left">
+                                    <span class="checkbox">[ ]</span>
+                                    <div class="item-text">
+                                        <div>
+                                            <span class="item-name">${escapeHtml(item.name)}</span>
+                                            ${item.brand ? `<span class="brand">(${escapeHtml(item.brand)})</span>` : ''}
+                                        </div>
+                                        <div class="sub-details">
+                                            Needs: ${escapeHtml(item.needed)} ${item.hasPrice ? `= $${item.neededCost}` : ''}
+                                            ${item.hasPrice ? ` | Buy: ${item.packagesNeeded} × ${item.packageSize} @ $${item.packagePrice}` : ''}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-cost">
+                                    ${item.hasPrice ? `$${item.buyCost}` : '<span class="no-price">—</span>'}
+                                </div>
+                            </li>
+                        `).join('')}
+                    </ul>
+                    <div class="total-row">
+                        <span>Total Purchase Cost:</span>
+                        <span>$${printTotal.toFixed(2)}</span>
+                    </div>
+                    <div class="disclaimer">Generated via AJPC Kitchen Notebook.</div>
+                </body>
+                </html>
+            `);
             win.document.close();
             win.print();
         });
@@ -400,10 +603,10 @@
                 li.innerHTML = `<div class="price-edit-form">
                     <div class="edit-status-note ${action === 'new' ? 'new-note' : 'update-note'}">${action === 'new' ? '✨ NEW ITEM' : '🔄 UPDATE ITEM'}: "${escapeHtml(itemName)}"</div>
                     <div class="edit-field"><label>Package Size</label><input type="number" id="size-${uniqueId}" value="${existingSize || ''}" step="any" placeholder="e.g. 500"></div>
-                    <div class="edit-field"><label>Unit</label><select id="unit-${uniqueId}"><option value="g"${existingUnit === 'g' ? ' selected' : ''}>grams (g)</option><option value="kg"${existingUnit === 'kg' ? ' selected' : ''}>kilograms (kg)</option><option value="ml"${existingUnit === 'ml' ? ' selected' : ''}>milliliters (ml)</option><option value="l"${existingUnit === 'l' ? ' selected' : ''}>liters (L)</option><option value="each"${existingUnit === 'each' ? ' selected' : ''}>each</option></select></div>
+                    <div class="edit-field"><label>Unit</label><select id="unit-${uniqueId}"><option value="g"${existingUnit === 'g' ? ' selected' : ''}>grams (g)</option><option value="kg"${existingUnit === 'kg' ? ' selected' : ''}>kilograms (kg)</option><option value="ml"${existingUnit === 'ml' ? ' selected' : ''}>millilitres (ml)</option><option value="l"${existingUnit === 'l' ? ' selected' : ''}>litres (L)</option><option value="each"${existingUnit === 'each' ? ' selected' : ''}>each</option></select></div>
                     <div class="edit-field"><label>Price ($AUD)</label><input type="number" id="price-${uniqueId}" value="${existingPrice || ''}" step="0.01" placeholder="e.g. 4.50"></div>
                     <div class="edit-field"><label>Brand</label><input type="text" id="brand-${uniqueId}" value="${existingBrand || ''}" placeholder="Brand name"></div>
-                    <div class="edit-field"><label>Section</label><select id="section-${uniqueId}"><option value="uncategorized"${existingSection === 'uncategorized' ? ' selected' : ''}>Uncategorized</option><option value="flour_baking"${existingSection === 'flour_baking' ? ' selected' : ''}>Flour & Baking</option><option value="sugar_sweeteners"${existingSection === 'sugar_sweeteners' ? ' selected' : ''}>Sugar & Sweeteners</option><option value="eggs"${existingSection === 'eggs' ? ' selected' : ''}>Eggs</option><option value="butter_dairy"${existingSection === 'butter_dairy' ? ' selected' : ''}>Butter & Dairy</option><option value="milk_cream"${existingSection === 'milk_cream' ? ' selected' : ''}>Milk & Cream</option><option value="cheese"${existingSection === 'cheese' ? ' selected' : ''}>Cheese</option><option value="oils"${existingSection === 'oils' ? ' selected' : ''}>Oils</option><option value="rice_grains"${existingSection === 'rice_grains' ? ' selected' : ''}>Rice & Grains</option><option value="pasta_noodles"${existingSection === 'pasta_noodles' ? ' selected' : ''}>Pasta & Noodles</option><option value="canned_tomatoes"${existingSection === 'canned_tomatoes' ? ' selected' : ''}>Canned Tomatoes</option><option value="canned_fish_seafood"${existingSection === 'canned_fish_seafood' ? ' selected' : ''}>Canned Fish & Seafood</option><option value="canned_fruit"${existingSection === 'canned_fruit' ? ' selected' : ''}>Canned Fruit</option><option value="sauces_condiments"${existingSection === 'sauces_condiments' ? ' selected' : ''}>Sauces & Condiments</option><option value="spreads"${existingSection === 'spreads' ? ' selected' : ''}>Spreads</option><option value="spices_seasonings"${existingSection === 'spices_seasonings' ? ' selected' : ''}>Spices & Seasonings</option><option value="meat_poultry"${existingSection === 'meat_poultry' ? ' selected' : ''}>Meat & Poultry</option><option value="fresh_vegetables"${existingSection === 'fresh_vegetables' ? ' selected' : ''}>Fresh Vegetables</option><option value="fresh_fruit"${existingSection === 'fresh_fruit' ? ' selected' : ''}>Fresh Fruit</option></select></div>
+                    <div class="edit-field"><label>Section</label><select id="section-${uniqueId}"><option value="uncategorised"${existingSection === 'uncategorised' ? ' selected' : ''}>Uncategorised</option><option value="flour_baking"${existingSection === 'flour_baking' ? ' selected' : ''}>Flour & Baking</option><option value="sugar_sweeteners"${existingSection === 'sugar_sweeteners' ? ' selected' : ''}>Sugar & Sweeteners</option><option value="eggs"${existingSection === 'eggs' ? ' selected' : ''}>Eggs</option><option value="butter_dairy"${existingSection === 'butter_dairy' ? ' selected' : ''}>Butter & Dairy</option><option value="milk_cream"${existingSection === 'milk_cream' ? ' selected' : ''}>Milk & Cream</option><option value="cheese"${existingSection === 'cheese' ? ' selected' : ''}>Cheese</option><option value="oils"${existingSection === 'oils' ? ' selected' : ''}>Oils</option><option value="rice_grains"${existingSection === 'rice_grains' ? ' selected' : ''}>Rice & Grains</option><option value="pasta_noodles"${existingSection === 'pasta_noodles' ? ' selected' : ''}>Pasta & Noodles</option><option value="canned_tomatoes"${existingSection === 'canned_tomatoes' ? ' selected' : ''}>Canned Tomatoes</option><option value="canned_fish_seafood"${existingSection === 'canned_fish_seafood' ? ' selected' : ''}>Canned Fish & Seafood</option><option value="canned_fruit"${existingSection === 'canned_fruit' ? ' selected' : ''}>Canned Fruit</option><option value="sauces_condiments"${existingSection === 'sauces_condiments' ? ' selected' : ''}>Sauces & Condiments</option><option value="spreads"${existingSection === 'spreads' ? ' selected' : ''}>Spreads</option><option value="spices_seasonings"${existingSection === 'spices_seasonings' ? ' selected' : ''}>Spices & Seasonings</option><option value="meat_poultry"${existingSection === 'meat_poultry' ? ' selected' : ''}>Meat & Poultry</option><option value="fresh_vegetables"${existingSection === 'fresh_vegetables' ? ' selected' : ''}>Fresh Vegetables</option><option value="fresh_fruit"${existingSection === 'fresh_fruit' ? ' selected' : ''}>Fresh Fruit</option></select></div>
                     <div class="edit-actions"><button class="save-price-btn" data-item="${escapeHtml(itemName).replace(/"/g, '&quot;')}" data-action="${action}" data-unique="${uniqueId}">Save</button><button class="cancel-edit-btn">Cancel</button></div>
                 </div>`;
 

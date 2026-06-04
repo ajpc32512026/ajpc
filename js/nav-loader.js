@@ -54,6 +54,9 @@
                     <a href="index.html" class="nav-direct">Home</a>
                     <a href="search.html" class="nav-direct">Search</a>
                     <a href="gallery.html" class="nav-direct">Gallery</a>
+                    <a href="tags.html" class="nav-direct">Tags</a>
+                    <a href="collections.html" class="nav-direct">Collections</a>
+                    <a href="daily-tracker.html" class="nav-direct">Tracker</a>
                 </nav>
             </div>
         </header>`;
@@ -192,7 +195,7 @@
                 dropdown.innerHTML = matches.map(function(r) {
                     return '<a href="recipe.html?id=' + encodeURIComponent(r.id) + '" class="search-result-item" role="option">' +
                         '<strong>' + highlightMatch(r.title || r.id, q) + '</strong>' +
-                        (r.category ? '<span style="font-size:0.78rem;color:var(--cream-muted);margin-left:0.5rem;">' + escHtml(r.category) + '</span>' : '') +
+                        (r.category ? '<span class="nav-search-cat">' + escHtml(r.category) + '</span>' : '') +
                     '</a>';
                 }).join('');
             }
@@ -215,7 +218,7 @@
         var idx = safe.toLowerCase().indexOf(query.toLowerCase());
         if (idx === -1) return safe;
         return safe.slice(0, idx)
-            + '<mark style="background:rgba(201,125,62,0.25);color:var(--cream);border-radius:2px;">'
+            + '<mark class="search-highlight">'
             + safe.slice(idx, idx + query.length)
             + '</mark>'
             + safe.slice(idx + query.length);
@@ -364,6 +367,12 @@
             breadcrumbHtml += `<span>Reference</span> <span>/</span> <span>Bread Tips</span>`;
         } else if (page === 'gallery') {
             breadcrumbHtml += `<span>Gallery</span>`;
+        } else if (page === 'tags') {
+            breadcrumbHtml += `<span>Discovery</span> <span>/</span> <span>Tag Cloud</span>`;
+        } else if (page === 'collections') {
+            breadcrumbHtml += `<span>Organisation</span> <span>/</span> <span>Collections</span>`;
+        } else if (page === 'daily-tracker') {
+            breadcrumbHtml += `<span>Nutrition</span> <span>/</span> <span>Daily Tracker</span>`;
         } else if (page === 'recipe-builder') {
             breadcrumbHtml += `<span>Recipe Builder</span>`;
         } else if (page === 'print-all' || page === 'print-all-recipes') {

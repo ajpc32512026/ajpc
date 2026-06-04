@@ -1,188 +1,176 @@
 {
-    "id": "softwhitebread2tangzhong",
-    "title": "Soft White Bread 2 (Tangzhong)",
-    "emoji": "🍞",
-    "category": "Baking",
-    "description": "A soft, airy loaf with a tender crumb, made using tangzhong and hand-rolled sections for perfect pull-apart texture.",
-    "prepTime": "30 min",
-    "cookTime": "30 min",
-    "totalTime": "3 hr",
-    "servings": "1 loaf",
-    "difficulty": "Intermediate",
-    "tags": [
-        "Bread",
-        "Make Ahead",
-        "Savoury",
-        "Vegetarian"
-    ],
-    "ingredients": [
-        {
-            "heading": "Tangzhong"
-        },
-        {
-            "quantity": "30",
-            "unit": "g",
-            "item": "Bread Flour"
-        },
-        {
-            "quantity": "190",
-            "unit": "ml",
-            "item": "Water"
-        },
-        {
-            "heading": "Main Dough"
-        },
-        {
-            "quantity": "560",
-            "unit": "g",
-            "item": "Bread Flour"
-        },
-        {
-            "quantity": "180",
-            "unit": "ml",
-            "item": "Water"
-        },
-        {
-            "quantity": "20",
-            "unit": "ml",
-            "item": "Vegetable Oil"
-        },
-        {
-            "quantity": "10",
-            "unit": "g",
-            "item": "Salt"
-        },
-        {
-            "quantity": "5",
-            "unit": "g",
-            "item": "Bread Improver"
-        },
-        {
-            "quantity": "10",
-            "unit": "g",
-            "item": "Yeast",
-            "notes": "instant dried"
-        },
-        {
-            "quantity": "10",
-            "unit": "g",
-            "item": "White Sugar"
-        },
-        {
-            "quantity": "60",
-            "unit": "ml",
-            "item": "Whole Milk",
-            "notes": "for brushing before baking"
-        },
-        {
-            "quantity": "30",
-            "unit": "g",
-            "item": "Unsalted Butter",
-            "notes": "melted, for brushing after baking"
-        }
-    ],
-    "method": [
-        {
-            "step": 1,
-            "instruction": "Make the tangzhong: in a small saucepan, combine 30 g bread flour and 190 ml water. Cook over medium heat, whisking constantly, until thickened to approximately 65°C. Remove from heat and let cool to room temperature."
-        },
-        {
-            "step": 2,
-            "instruction": "In a large bowl, combine bread flour, salt, bread improver, yeast, and sugar."
-        },
-        {
-            "step": 3,
-            "instruction": "Add the cooled tangzhong, water, and vegetable oil. Mix until a rough dough forms, then knead for 10–12 minutes until smooth and elastic. Dust hands lightly if sticky, but avoid drying the dough out."
-        },
-        {
-            "step": 4,
-            "instruction": "Place dough in a lightly oiled bowl, cover, and let rise in a warm place until doubled in sise, about 1–1½ hours."
-        },
-        {
-            "step": 5,
-            "instruction": "Gently punch down the dough and knead briefly to redistribute air for a finer crumb."
-        },
-        {
-            "step": 6,
-            "instruction": "Divide dough into three equal portions. Roll each into a ball, then cup in one hand and tuck edges underneath while rotating gently to create a smooth, taut dome."
-        },
-        {
-            "step": 7,
-            "instruction": "Place the balls snugly into a greased loaf tin approximately 8 cm × 18 cm, edges touching lightly."
-        },
-        {
-            "step": 8,
-            "instruction": "Cover loosely and let rise until puffed and slightly jiggly, about 45–60 minutes."
-        },
-        {
-            "step": 9,
-            "instruction": "Preheat oven to 180–185°C."
-        },
-        {
-            "step": 10,
-            "instruction": "Lightly brush the top of the dough with milk before baking."
-        },
-        {
-            "step": 11,
-            "instruction": "Bake for 25–30 minutes. If browning is slow, increase to 190°C for the last few minutes."
-        },
-        {
-            "step": 12,
-            "instruction": "Remove from oven and immediately brush the warm loaf with melted butter."
-        },
-        {
-            "step": 13,
-            "instruction": "Let the loaf rest for 5–10 minutes in the tin, then lift out and cool slightly before slicing."
-        }
-    ],
-    "notes": [
-        {
-            "type": "technique",
-            "title": "The Tension Trick",
-            "content": "Cupping each dough ball and tucking the edges underneath while rotating creates a taut surface that holds its shape during baking and prevents sagging sides."
-        },
-        {
-            "type": "technique",
-            "title": "Flour Choice",
-            "content": "Wallaby's bakers flour gives a softer, smoother dough and a better rise compared to plain flour. Bread flour with 12–14% protein is recommended."
-        },
-        {
-            "type": "technique",
-            "title": "Milk and Butter Finish",
-            "content": "Brushing with milk before baking gives a soft, golden crust. Brushing with melted butter after baking adds flavour and a glossy finish."
-        }
-    ],
-    "related": [
-        {
-            "id": "swbtm",
-            "title": "Soft White Bread (Tangzhong Method)"
-        },
-        {
-            "id": "tangzhongguide",
-            "title": "Tangzhong Guide"
-        },
-        {
-            "id": "cinnbun",
-            "title": "Bakery-Style Cinnamon Buns"
-        },
-        {
-            "id": "sub",
-            "title": "Homemade Sub Buns"
-        },
-        {
-            "id": "turkishbread",
-            "title": "Traditional Turkish Bread"
-        }
-    ],
-    "nutrition": {
-        "servings": 1,
-        "cal": 2647,
-        "protein": 78,
-        "carbs": 445,
-        "fat": 56,
-        "fibre": 17,
-        "sodium": 3930,
-        "coverage": 100
+  "id": "softwhitebread2tangzhong",
+  "title": "Soft White Bread 2 (Tangzhong)",
+  "emoji": "🍞",
+  "category": "Baking",
+  "difficulty": "Intermediate",
+  "description": "A soft, airy loaf with a tender crumb, made using tangzhong and hand-rolled sections for perfect pull-apart texture.",
+  "prepTime": "30 min",
+  "cookTime": "30 min",
+  "totalTime": "3 hr",
+  "servings": "1 loaf",
+  "tags": [
+    "Bread",
+    "Make Ahead",
+    "Savoury",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "heading": "Tangzhong"
     },
-    "cuisine": "Asian"
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Bread Flour"
+    },
+    {
+      "quantity": "190",
+      "unit": "ml",
+      "item": "Water"
+    },
+    {
+      "heading": "Main Dough"
+    },
+    {
+      "quantity": "560",
+      "unit": "g",
+      "item": "Bread Flour"
+    },
+    {
+      "quantity": "180",
+      "unit": "ml",
+      "item": "Water"
+    },
+    {
+      "quantity": "20",
+      "unit": "ml",
+      "item": "Vegetable Oil"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Salt"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Bread Improver"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Yeast",
+      "notes": "instant dried"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "White Sugar"
+    },
+    {
+      "quantity": "60",
+      "unit": "ml",
+      "item": "Milk",
+      "notes": "for brushing before baking"
+    },
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Unsalted Butter",
+      "notes": "melted, for brushing after baking"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Make the tangzhong: in a small saucepan, combine 30 g bread flour and 190 ml water. Cook over medium heat, whisking constantly, until thickened to approximately 65°C. Remove from heat and let cool to room temperature."
+    },
+    {
+      "step": 2,
+      "instruction": "In a large bowl, combine bread flour, salt, bread improver, yeast, and sugar."
+    },
+    {
+      "step": 3,
+      "instruction": "Add the cooled tangzhong, water, and vegetable oil. Mix until a rough dough forms, then knead for 10–12 minutes until smooth and elastic. Dust hands lightly if sticky, but avoid drying the dough out."
+    },
+    {
+      "step": 4,
+      "instruction": "Place dough in a lightly oiled bowl, cover, and let rise in a warm place until doubled in size, about 1–1½ hours."
+    },
+    {
+      "step": 5,
+      "instruction": "Gently punch down the dough and knead briefly to redistribute air for a finer crumb."
+    },
+    {
+      "step": 6,
+      "instruction": "Divide dough into three equal portions. Roll each into a ball, then cup in one hand and tuck edges underneath while rotating gently to create a smooth, taut dome."
+    },
+    {
+      "step": 7,
+      "instruction": "Place the balls snugly into a greased loaf tin approximately 8 cm × 18 cm, edges touching lightly."
+    },
+    {
+      "step": 8,
+      "instruction": "Cover loosely and let rise until puffed and slightly jiggly, about 45–60 minutes."
+    },
+    {
+      "step": 9,
+      "instruction": "Preheat oven to 180–185°C."
+    },
+    {
+      "step": 10,
+      "instruction": "Lightly brush the top of the dough with milk before baking."
+    },
+    {
+      "step": 11,
+      "instruction": "Bake for 25–30 minutes. If browning is slow, increase to 190°C for the last few minutes."
+    },
+    {
+      "step": 12,
+      "instruction": "Remove from oven and immediately brush the warm loaf with melted butter."
+    },
+    {
+      "step": 13,
+      "instruction": "Let the loaf rest for 5–10 minutes in the tin, then lift out and cool slightly before slicing."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "The Tension Trick",
+      "content": "Cupping each dough ball and tucking the edges underneath while rotating creates a taut surface that holds its shape during baking and prevents sagging sides."
+    },
+    {
+      "type": "technique",
+      "title": "Flour Choice",
+      "content": "Wallaby's bakers flour gives a softer, smoother dough and a better rise compared to plain flour. Bread flour with 12–14% protein is recommended."
+    },
+    {
+      "type": "technique",
+      "title": "Milk and Butter Finish",
+      "content": "Brushing with milk before baking gives a soft, golden crust. Brushing with melted butter after baking adds flavour and a glossy finish."
+    }
+  ],
+  "nutrition": {
+    "servings": 1,
+    "cal": 2603,
+    "kj": 10892,
+    "protein": 76,
+    "carbs": 432,
+    "sugars": 27,
+    "fat": 57,
+    "saturated_fat": 21.3,
+    "fiber": 18,
+    "sodium": 906,
+    "coverage": 100,
+    "calcium_mg": 208,
+    "iron_mg": 9,
+    "potassium_mg": 1303,
+    "magnesium_mg": 241,
+    "zinc_mg": 7,
+    "cholesterol_mg": 56,
+    "vitamin_a_ug": 285
+  },
+  "lastModified": "2026-06-04"
 }

@@ -1,185 +1,163 @@
 {
-    "id": "traditionalanzacbiscuits",
-    "title": "Traditional ANZAC Biscuits",
-    "emoji": "🥥",
-    "category": "Biscuits",
-    "description": "A classic Australian favourite — golden, chewy, and steeped in history. This version uses a higher oat-to-coconut ratio for better binding and a less greasy dough. Weigh each ball to 35g for consistent results every time.",
-    "prepTime": "15 min",
-    "cookTime": "20 min",
-    "totalTime": "35 min",
-    "servings": "20 biscuits",
-    "yieldPerBatch": "20",
-    "difficulty": "Beginner",
-    "tags": [
-        "Australian",
-        "Classic",
-        "Make Ahead",
-        "Rich",
-        "Sweet",
-        "Vegetarian",
-        "Cookies",
-        "Coconut"
-    ],
-    "ingredients": [
-        {
-            "quantity": "150",
-            "unit": "g",
-            "item": "Plain Flour"
-        },
-        {
-            "quantity": "110",
-            "unit": "g",
-            "item": "Rolled Oats",
-            "notes": "Uncle Tobys Traditional or similar"
-        },
-        {
-            "quantity": "75",
-            "unit": "g",
-            "item": "Desiccated Coconut",
-            "notes": "optional — increase oats by 75g if omitting"
-        },
-        {
-            "quantity": "100",
-            "unit": "g",
-            "item": "Brown Sugar"
-        },
-        {
-            "quantity": "55",
-            "unit": "g",
-            "item": "Caster Sugar"
-        },
-        {
-            "quantity": "125",
-            "unit": "g",
-            "item": "Unsalted Butter"
-        },
-        {
-            "quantity": "40",
-            "unit": "g",
-            "item": "Golden Syrup"
-        },
-        {
-            "quantity": "30",
-            "unit": "ml",
-            "item": "Water",
-            "notes": "boiling"
-        },
-        {
-            "quantity": "2.5",
-            "unit": "g",
-            "item": "Bi-Carb Soda"
-        }
-    ],
-    "youWillNeed": [
-        {
-            "item": "Digital Scales",
-            "note": "Weigh each portion to 35g — bake time depends on sise. Inconsistent balls mean inconsistent results."
-        },
-        {
-            "item": "Baking Paper",
-            "note": "For lining the trays."
-        }
-    ],
-    "method": [
-        {
-            "step": 1,
-            "instruction": "Preheat oven to 150°C. Line baking trays with baking paper."
-        },
-        {
-            "step": 2,
-            "instruction": "Combine flour, oats, coconut, brown sugar, and caster sugar in a large bowl."
-        },
-        {
-            "step": 3,
-            "instruction": "In a small saucepan, melt butter, golden syrup, and water over low heat until butter is fully melted. Remove from heat."
-        },
-        {
-            "step": 4,
-            "instruction": "Stir in bi-carb soda — the mixture will foam up immediately. Work quickly."
-        },
-        {
-            "step": 5,
-            "instruction": "Pour the wet mixture into the dry ingredients and stir until just combined."
-        },
-        {
-            "step": 6,
-            "instruction": "Weigh portions to 35g and roll into balls. Note: if using coconut the dough will feel oilier — this is normal. Place on trays 8cm apart and flatten slightly."
-        },
-        {
-            "step": 7,
-            "instruction": "Bake for 20 minutes until deep golden brown. For a crunchier biscuit, bake a further 2–3 minutes. Watch closely — they go from golden to burnt quickly."
-        },
-        {
-            "step": 8,
-            "instruction": "Cool on trays for 10 minutes — they will be fragile straight from the oven. Transfer to a wire rack. They firm up completely as they cool."
-        }
-    ],
-    "notes": [
-        {
-            "type": "tip",
-            "title": "Oily Hands When Rolling",
-            "content": "If using coconut, expect oilier hands — coconut releases butter as you roll. This is normal and doesn't affect the finished biscuit. If the dough is too soft to handle, chill it for 10 minutes before rolling."
-        },
-        {
-            "type": "tip",
-            "title": "Brown Sugar",
-            "content": "Brown sugar adds moisture and a deeper caramel flavour. The combination of brown and caster sugar gives the perfect balance of chew and crisp."
-        },
-        {
-            "type": "variation",
-            "title": "No Coconut",
-            "content": "Omit the coconut and increase oats by 75g. The dough will be less oily and slightly firmer — still delicious, just a different texture."
-        },
-        {
-            "type": "variation",
-            "title": "Double Batch",
-            "content": "For 40 biscuits, double all ingredients. Bake for 20 minutes, rotating trays halfway."
-        },
-        {
-            "type": "storage",
-            "title": "Storage",
-            "content": "Store in an airtight container for up to 2 weeks — if they last that long."
-        }
-    ],
-    "related": [
-        {
-            "id": "doublechocolatechipcookies",
-            "title": "Double Chocolate Chip Cookies"
-        },
-        {
-            "id": "applepie",
-            "title": "Apple Pie"
-        },
-        {
-            "id": "apricotflan",
-            "title": "Apricot Flan"
-        },
-        {
-            "id": "bananabread",
-            "title": "Banana Bread"
-        },
-        {
-            "id": "applecinnscrolls",
-            "title": "Apple & Cinnamon Scrolls"
-        }
-    ],
-    "nutrition": {
-        "servings": 20,
-        "cal": 153,
-        "kj": 639,
-        "protein": 2,
-        "carbs": 18,
-        "sugars": 10,
-        "fat": 8,
-        "saturated_fat": 6,
-        "fibre": 1,
-        "sodium": 39,
-        "coverage": 100,
-        "calcium_mg": 17,
-        "potassium_mg": 80,
-        "magnesium_mg": 13,
-        "cholesterol_mg": 10,
-        "vitamin_a_ug": 54
+  "id": "traditionalanzacbiscuits",
+  "title": "Traditional ANZAC Biscuits",
+  "emoji": "🥥",
+  "category": "Biscuits",
+  "difficulty": "Beginner",
+  "description": "A classic Australian favourite — golden, chewy, and steeped in history. This version uses a higher oat-to-coconut ratio for better binding and a less greasy dough. Weigh each ball to 35g for consistent results every time.",
+  "prepTime": "15 min",
+  "cookTime": "20 min",
+  "totalTime": "35 min",
+  "servings": "20 biscuits",
+  "yieldPerBatch": "20",
+  "tags": [
+    "Australian",
+    "Classic",
+    "Make Ahead",
+    "Rich",
+    "Sweet",
+    "Vegetarian",
+    "Cookies",
+    "Coconut"
+  ],
+  "ingredients": [
+    {
+      "quantity": "150",
+      "unit": "g",
+      "item": "Plain Flour"
     },
-    "cuisine": "British / Australian"
+    {
+      "quantity": "110",
+      "unit": "g",
+      "item": "Rolled Oats",
+      "notes": "Uncle Tobys Traditional or similar"
+    },
+    {
+      "quantity": "75",
+      "unit": "g",
+      "item": "Desiccated Coconut",
+      "notes": "optional — increase oats by 75g if omitting"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Brown Sugar"
+    },
+    {
+      "quantity": "55",
+      "unit": "g",
+      "item": "Caster Sugar"
+    },
+    {
+      "quantity": "125",
+      "unit": "g",
+      "item": "Unsalted Butter"
+    },
+    {
+      "quantity": "40",
+      "unit": "g",
+      "item": "Golden Syrup"
+    },
+    {
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Water",
+      "notes": "boiling"
+    },
+    {
+      "quantity": "2.5",
+      "unit": "g",
+      "item": "Bi-carb Soda"
+    }
+  ],
+  "youWillNeed": [
+    {
+      "item": "Digital Scales",
+      "note": "Weigh each portion to 35g — bake time depends on size. Inconsistent balls mean inconsistent results."
+    },
+    {
+      "item": "Baking Paper",
+      "note": "For lining the trays."
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 150°C. Line baking trays with baking paper."
+    },
+    {
+      "step": 2,
+      "instruction": "Combine flour, oats, coconut, brown sugar, and caster sugar in a large bowl."
+    },
+    {
+      "step": 3,
+      "instruction": "In a small saucepan, melt butter, golden syrup, and water over low heat until butter is fully melted. Remove from heat."
+    },
+    {
+      "step": 4,
+      "instruction": "Stir in bi-carb soda — the mixture will foam up immediately. Work quickly."
+    },
+    {
+      "step": 5,
+      "instruction": "Pour the wet mixture into the dry ingredients and stir until just combined."
+    },
+    {
+      "step": 6,
+      "instruction": "Weigh portions to 35g and roll into balls. Note: if using coconut the dough will feel oilier — this is normal. Place on trays 8cm apart and flatten slightly."
+    },
+    {
+      "step": 7,
+      "instruction": "Bake for 20 minutes until deep golden brown. For a crunchier biscuit, bake a further 2–3 minutes. Watch closely — they go from golden to burnt quickly."
+    },
+    {
+      "step": 8,
+      "instruction": "Cool on trays for 10 minutes — they will be fragile straight from the oven. Transfer to a wire rack. They firm up completely as they cool."
+    }
+  ],
+  "notes": [
+    {
+      "type": "tip",
+      "title": "Oily Hands When Rolling",
+      "content": "If using coconut, expect oilier hands — coconut releases butter as you roll. This is normal and doesn't affect the finished biscuit. If the dough is too soft to handle, chill it for 10 minutes before rolling."
+    },
+    {
+      "type": "tip",
+      "title": "Brown Sugar",
+      "content": "Brown sugar adds moisture and a deeper caramel flavour. The combination of brown and caster sugar gives the perfect balance of chew and crisp."
+    },
+    {
+      "type": "variation",
+      "title": "No Coconut",
+      "content": "Omit the coconut and increase oats by 75g. The dough will be less oily and slightly firmer — still delicious, just a different texture."
+    },
+    {
+      "type": "variation",
+      "title": "Double Batch",
+      "content": "For 40 biscuits, double all ingredients. Bake for 20 minutes, rotating trays halfway."
+    },
+    {
+      "type": "storage",
+      "title": "Storage",
+      "content": "Store in an airtight container for up to 2 weeks — if they last that long."
+    }
+  ],
+  "nutrition": {
+    "servings": 20,
+    "cal": 153,
+    "kj": 639,
+    "protein": 2,
+    "carbs": 18,
+    "sugars": 10,
+    "fat": 8,
+    "saturated_fat": 5.8,
+    "fiber": 1,
+    "sodium": 39,
+    "coverage": 100,
+    "calcium_mg": 17,
+    "potassium_mg": 80,
+    "magnesium_mg": 13,
+    "cholesterol_mg": 10,
+    "vitamin_a_ug": 54
+  },
+  "lastModified": "2026-06-04"
 }

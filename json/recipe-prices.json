@@ -54,11 +54,11 @@
       "price": 6,
       "brand": "Nestle"
     },
-    "food coloring": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
+    "food colouring": {
+      "size": 28,
+      "unit": "ml",
+      "price": 7.75,
+      "brand": "Queen"
     },
     "gelatine": {
       "size": 30,
@@ -149,10 +149,10 @@
       "brand": "Essentials"
     },
     "ghee": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
+      "size": 500,
+      "unit": "ml",
+      "price": 11.7,
+      "brand": "Coco Earth"
     },
     "salted butter": {
       "size": 500,
@@ -175,10 +175,10 @@
   },
   "canned_fish_seafood": {
     "anchovies": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
+      "size": 100,
+      "unit": "g",
+      "price": 6.5,
+      "brand": "Always Fresh"
     },
     "fish fillet": {
       "size": 500,
@@ -211,10 +211,10 @@
       "brand": "Ocean Harvest"
     },
     "sardines": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
+      "size": 125,
+      "unit": "g",
+      "price": 1.1,
+      "brand": "Deep Cove"
     },
     "seafood mix": {
       "size": 500,
@@ -248,6 +248,12 @@
       "price": 3,
       "brand": "Woolworths"
     },
+    "canned pineapple rings": {
+      "size": 822,
+      "unit": "g",
+      "price": 6.6,
+      "brand": "Dole"
+    },
     "crushed pineapple": {
       "size": 439,
       "unit": "g",
@@ -255,10 +261,10 @@
       "brand": "Dole"
     },
     "peach slices": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
+      "size": 825,
+      "unit": "g",
+      "price": 4,
+      "brand": "SPC"
     },
     "pineapple chunks": {
       "size": 432,
@@ -277,282 +283,14 @@
       "unit": "g",
       "price": 3.9,
       "brand": "Dole"
-    },
-    "Canned Pineapple Rings": {
-      "size": 822,
-      "unit": "g",
-      "price": 6.6,
-      "brand": "Dole"
-    },
-    "pineapple rings": {
-      "size": 822,
-      "unit": "g",
-      "price": 6.6,
-      "brand": "Dole"
-    },
-    "pineapple juice": {
-      "size": 850,
-      "unit": "ml",
-      "price": 3.5,
-      "brand": "Golden Circle"
-    }
-  },
-  "dried_fruit_nuts": {
-    "dried apricots": {
-      "size": 500,
-      "unit": "g",
-      "price": 5,
-      "brand": "Woolworths"
-    },
-    "almonds": {
-      "size": 500,
-      "unit": "g",
-      "price": 12,
-      "brand": "Woolworths"
-    },
-    "brazil nuts": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
-    },
-    "cashews": {
-      "size": 500,
-      "unit": "g",
-      "price": 14,
-      "brand": "Woolworths"
-    },
-    "cranberries": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
-    },
-    "dates": {
-      "size": 500,
-      "unit": "g",
-      "price": 3,
-      "brand": "Woolworths"
-    },
-    "hazelnuts": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
-    },
-    "macadamia nuts": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
-    },
-    "pecans": {
-      "size": 500,
-      "unit": "g",
-      "price": 16,
-      "brand": "Woolworths"
-    },
-    "pine nuts": {
-      "size": 100,
-      "unit": "g",
-      "price": 8,
-      "brand": "Woolworths"
-    },
-    "pistachios": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
-    },
-    "raisins": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
-    },
-    "sultanas": {
-      "size": 375,
-      "unit": "g",
-      "price": 4.2,
-      "brand": "Woolworths"
-    },
-    "walnuts": {
-      "size": 1000,
-      "unit": "g",
-      "price": 18,
-      "brand": "Woolworths"
-    }
-  },
-  "fresh_fruit": {
-    "pineapple": {
-      "size": 1,
-      "unit": "each",
-      "price": 4,
-      "brand": "Woolworths"
-    },
-    "apricot": {
-      "size": 1,
-      "unit": "each",
-      "price": 1.5,
-      "brand": "Woolworths"
-    },
-    "apple juice": {
-      "size": 2000,
-      "unit": "ml",
-      "price": 2.7,
-      "brand": "Golden Circle"
-    },
-    "apricot nectar": {
-      "size": 2000,
-      "unit": "ml",
-      "price": 3.5,
-      "brand": "Golden Circle"
-    },
-    "black grapes": {
-      "size": 950,
-      "unit": "g",
-      "price": 6,
-      "brand": "Woolworths"
-    },
-    "blackberries": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
-    },
-    "blueberries": {
-      "size": 125,
-      "unit": "g",
-      "price": 5,
-      "brand": "Woolworths"
-    },
-    "calamansi": {
-      "size": 100,
-      "unit": "g",
-      "price": 4,
-      "brand": "Woolworths"
-    },
-    "cherries": {
-      "size": 250,
-      "unit": "g",
-      "price": 6,
-      "brand": "Woolworths"
-    },
-    "dragon fruit": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
-    },
-    "grapes": {
-      "size": 900,
-      "unit": "g",
-      "price": 5.5,
-      "brand": "Woolworths"
-    },
-    "kiwi fruit": {
-      "size": 1,
-      "unit": "each",
-      "price": 1,
-      "brand": "Woolworths"
-    },
-    "kiwifruit": {
-      "size": 1,
-      "unit": "each",
-      "price": 1,
-      "brand": "Woolworths"
-    },
-    "mango": {
-      "size": 1,
-      "unit": "each",
-      "price": 3,
-      "brand": "Woolworths"
-    },
-    "mango nectar": {
-      "size": 2000,
-      "unit": "ml",
-      "price": 3.5,
-      "brand": "Golden Circle"
-    },
-    "nectarine": {
-      "size": 1,
-      "unit": "each",
-      "price": 1.5,
-      "brand": "Woolworths"
-    },
-    "orange": {
-      "size": 1,
-      "unit": "each",
-      "price": 1.2,
-      "brand": "Woolworths"
-    },
-    "orange juice": {
-      "size": 2000,
-      "unit": "ml",
-      "price": 7.8,
-      "brand": "Golden Circle"
-    },
-    "orange zest": {
-      "size": 1,
-      "unit": "each",
-      "price": 0.5,
-      "brand": "Woolworths"
-    },
-    "passionfruit": {
-      "size": 1,
-      "unit": "each",
-      "price": 1.2,
-      "brand": "Woolworths"
-    },
-    "peach": {
-      "size": 1,
-      "unit": "each",
-      "price": 1.5,
-      "brand": "Woolworths"
-    },
-    "pineapple juice": {
-      "size": 2000,
-      "unit": "ml",
-      "price": 6.5,
-      "brand": "Golden Circle"
-    },
-    "plum": {
-      "size": 1,
-      "unit": "each",
-      "price": 1.5,
-      "brand": "Woolworths"
-    },
-    "raspberries": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
-    },
-    "red grapes": {
-      "size": 900,
-      "unit": "g",
-      "price": 5.5,
-      "brand": "Woolworths"
-    },
-    "strawberries": {
-      "size": 250,
-      "unit": "g",
-      "price": 5,
-      "brand": "Woolworths"
-    },
-    "white grapes": {
-      "size": 900,
-      "unit": "g",
-      "price": 5.5,
-      "brand": "Woolworths"
     }
   },
   "canned_tomatoes": {
     "crushed tomatoes": {
-      "size": 400,
+      "size": 810,
       "unit": "g",
-      "price": null,
-      "brand": null
+      "price": 3.5,
+      "brand": "Ardmona"
     },
     "diced tomatoes": {
       "size": 400,
@@ -605,10 +343,16 @@
   },
   "cheese": {
     "blue cheese": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
+      "size": 150,
+      "unit": "g",
+      "price": 8.5,
+      "brand": "Castello"
+    },
+    "bocconcini": {
+      "size": 220,
+      "unit": "g",
+      "price": 5.5,
+      "brand": "Woolworths"
     },
     "camembert cheese": {
       "size": 250,
@@ -620,6 +364,12 @@
       "size": 500,
       "unit": "g",
       "price": 7.7,
+      "brand": "Woolworths"
+    },
+    "cottage cheese": {
+      "size": 250,
+      "unit": "g",
+      "price": 3.5,
       "brand": "Woolworths"
     },
     "cream cheese": {
@@ -635,10 +385,10 @@
       "brand": "Mainland"
     },
     "feta": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
+      "size": 100,
+      "unit": "g",
+      "price": 1.95,
+      "brand": "F Mayer"
     },
     "gruyere": {
       "size": 200,
@@ -647,10 +397,10 @@
       "brand": "Mainland"
     },
     "haloumi": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
+      "size": 180,
+      "unit": "g",
+      "price": 5.8,
+      "brand": "Riverina Dairy"
     },
     "mascarpone": {
       "size": 250,
@@ -694,6 +444,18 @@
       "price": 9,
       "brand": "Philadelphia"
     },
+    "ricotta": {
+      "size": 500,
+      "unit": "g",
+      "price": 5,
+      "brand": "Woolworths"
+    },
+    "ricotta cheese": {
+      "size": 500,
+      "unit": "g",
+      "price": 5,
+      "brand": "Woolworths"
+    },
     "shredded parmesan": {
       "size": 250,
       "unit": "g",
@@ -717,38 +479,100 @@
       "unit": "g",
       "price": 11.8,
       "brand": "Mainland"
-    },
-    "ricotta": {
+    }
+  },
+  "dried_fruit_nuts": {
+    "almonds": {
       "size": 500,
       "unit": "g",
-      "price": 5.0,
+      "price": 12,
       "brand": "Woolworths"
     },
-    "ricotta cheese": {
+    "brazil nuts": {
+      "size": 400,
+      "unit": "g",
+      "price": 20,
+      "brand": "Woolworths"
+    },
+    "cashews": {
       "size": 500,
       "unit": "g",
-      "price": 5.0,
+      "price": 14,
       "brand": "Woolworths"
     },
-    "bocconcini": {
-      "size": 220,
+    "cranberries": {
+      "size": 150,
       "unit": "g",
-      "price": 5.5,
+      "price": 2.75,
       "brand": "Woolworths"
     },
-    "cottage cheese": {
-      "size": 250,
+    "dates": {
+      "size": 500,
       "unit": "g",
-      "price": 3.5,
+      "price": 3,
+      "brand": "Woolworths"
+    },
+    "dried apricots": {
+      "size": 500,
+      "unit": "g",
+      "price": 5,
+      "brand": "Woolworths"
+    },
+    "hazelnuts": {
+      "size": 150,
+      "unit": "g",
+      "price": 7.5,
+      "brand": "Woolworths"
+    },
+    "macadamia nuts": {
+      "size": 400,
+      "unit": "g",
+      "price": 18,
+      "brand": "Coles"
+    },
+    "pecans": {
+      "size": 500,
+      "unit": "g",
+      "price": 16,
+      "brand": "Woolworths"
+    },
+    "pine nuts": {
+      "size": 100,
+      "unit": "g",
+      "price": 8,
+      "brand": "Woolworths"
+    },
+    "pistachios": {
+      "size": 80,
+      "unit": "g",
+      "price": 7.2,
+      "brand": "Woolworths"
+    },
+    "raisins": {
+      "size": 375,
+      "unit": "g",
+      "price": 3.75,
+      "brand": "Woolworths"
+    },
+    "sultanas": {
+      "size": 375,
+      "unit": "g",
+      "price": 4.2,
+      "brand": "Woolworths"
+    },
+    "walnuts": {
+      "size": 1000,
+      "unit": "g",
+      "price": 18,
       "brand": "Woolworths"
     }
   },
   "drinks_alcohol": {
     "beer": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
+      "size": 24,
+      "unit": "each",
+      "price": 48.99,
+      "brand": "Tooheys"
     },
     "brandy": {
       "size": 700,
@@ -768,17 +592,11 @@
       "price": 14.5,
       "brand": "Nescafe"
     },
-    "espresso": {
-      "size": 50,
-      "unit": "ml",
-      "price": 2,
-      "brand": "Nescafe"
-    },
     "gin": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
+      "size": 1000,
+      "unit": "ml",
+      "price": 61.95,
+      "brand": "Gordon's"
     },
     "grand marnier": {
       "size": 700,
@@ -811,288 +629,22 @@
       "brand": "Tia Maria"
     },
     "vodka": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
+      "size": 1000,
+      "unit": "ml",
+      "price": 61.95,
+      "brand": "Smirnoff"
     },
     "whiskey": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
+      "size": 700,
+      "unit": "ml",
+      "price": 59.99,
+      "brand": "Hogs 3"
     },
     "white wine": {
       "size": 750,
       "unit": "ml",
       "price": 12,
       "brand": "Lindeman's"
-    }
-  },
-  "sauces_condiments": {
-    "mirin": {
-      "size": 500,
-      "unit": "ml",
-      "price": 8,
-      "brand": "Mizkan"
-    },
-    "apricot jam": {
-      "size": 375,
-      "unit": "g",
-      "price": 3.8,
-      "brand": "Cottee's"
-    },
-    "australian mustard": {
-      "size": 175,
-      "unit": "g",
-      "price": 4.5,
-      "brand": "MasterFoods"
-    },
-    "barbecue sauce": {
-      "size": 500,
-      "unit": "ml",
-      "price": 3.2,
-      "brand": "Eta"
-    },
-    "chilli garlic sauce": {
-      "size": 250,
-      "unit": "ml",
-      "price": 4,
-      "brand": "Sriracha"
-    },
-    "dark soy sauce": {
-      "size": 500,
-      "unit": "ml",
-      "price": 5.5,
-      "brand": "Kikkoman"
-    },
-    "demi glace": {
-      "size": 200,
-      "unit": "g",
-      "price": 5,
-      "brand": "Continental"
-    },
-    "dijon mustard": {
-      "size": 170,
-      "unit": "g",
-      "price": 4.5,
-      "brand": "MasterFoods"
-    },
-    "fish sauce": {
-      "size": 500,
-      "unit": "ml",
-      "price": 5.5,
-      "brand": "Squid"
-    },
-    "hoisin sauce": {
-      "size": 210,
-      "unit": "ml",
-      "price": 4,
-      "brand": "Ayam"
-    },
-    "hot english mustard": {
-      "size": 175,
-      "unit": "g",
-      "price": 4.5,
-      "brand": "MasterFoods"
-    },
-    "kalamata olives": {
-      "size": 670,
-      "unit": "g",
-      "price": 8.45,
-      "brand": "Always Fresh"
-    },
-    "light soy sauce": {
-      "size": 500,
-      "unit": "ml",
-      "price": 5.5,
-      "brand": "Kikkoman"
-    },
-    "mayonnaise": {
-      "size": 490,
-      "unit": "g",
-      "price": 4.5,
-      "brand": "Praise"
-    },
-    "mild english mustard": {
-      "size": 175,
-      "unit": "g",
-      "price": 4.5,
-      "brand": "MasterFoods"
-    },
-    "mint sauce": {
-      "size": 250,
-      "unit": "ml",
-      "price": 3.8,
-      "brand": "Fountain"
-    },
-    "mustard": {
-      "size": 250,
-      "unit": "g",
-      "price": 4.2,
-      "brand": "MasterFoods"
-    },
-    "oyster sauce": {
-      "size": 210,
-      "unit": "ml",
-      "price": 4,
-      "brand": "Ayam"
-    },
-    "pesto": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
-    },
-    "plum jam": {
-      "size": 375,
-      "unit": "g",
-      "price": 3.8,
-      "brand": "Cottee's"
-    },
-    "sambal oelek": {
-      "size": 250,
-      "unit": "ml",
-      "price": 4,
-      "brand": "Ayam"
-    },
-    "seafood cocktail sauce": {
-      "size": 260,
-      "unit": "g",
-      "price": 3.8,
-      "brand": "MasterFoods"
-    },
-    "soy sauce": {
-      "size": 1000,
-      "unit": "ml",
-      "price": 10.2,
-      "brand": "Kikkoman"
-    },
-    "sweet & sour sauce": {
-      "size": 270,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "sweet chilli sauce": {
-      "size": 730,
-      "unit": "ml",
-      "price": 5.5,
-      "brand": "Trident"
-    },
-    "tartare sauce": {
-      "size": 220,
-      "unit": "g",
-      "price": 3.8,
-      "brand": "MasterFoods"
-    },
-    "tomato sauce": {
-      "size": 2000,
-      "unit": "ml",
-      "price": 5,
-      "brand": "Woolworths"
-    },
-    "wholegrain mustard": {
-      "size": 175,
-      "unit": "g",
-      "price": 4.5,
-      "brand": "MasterFoods"
-    },
-    "worcestershire sauce": {
-      "size": 290,
-      "unit": "ml",
-      "price": 4,
-      "brand": "Lea & Perrins"
-    },
-    "miso paste": {
-      "size": 500,
-      "unit": "g",
-      "price": 7.5,
-      "brand": "Obento"
-    },
-    "sriracha": {
-      "size": 455,
-      "unit": "ml",
-      "price": 5.0,
-      "brand": "Huy Fong"
-    },
-    "rice vinegar": {
-      "size": 500,
-      "unit": "ml",
-      "price": 4.0,
-      "brand": "Obento"
-    },
-    "apple cider vinegar": {
-      "size": 500,
-      "unit": "ml",
-      "price": 4.5,
-      "brand": "Bragg"
-    },
-    "white vinegar": {
-      "size": 750,
-      "unit": "ml",
-      "price": 2.0,
-      "brand": "Woolworths"
-    },
-    "balsamic vinegar": {
-      "size": 500,
-      "unit": "ml",
-      "price": 5.5,
-      "brand": "Woolworths"
-    },
-    "vinegar": {
-      "size": 750,
-      "unit": "ml",
-      "price": 2.0,
-      "brand": "Woolworths"
-    },
-    "curry paste": {
-      "size": 185,
-      "unit": "g",
-      "price": 4.0,
-      "brand": "Ayam"
-    },
-    "red curry paste": {
-      "size": 185,
-      "unit": "g",
-      "price": 4.0,
-      "brand": "Ayam"
-    },
-    "green curry paste": {
-      "size": 185,
-      "unit": "g",
-      "price": 4.0,
-      "brand": "Ayam"
-    },
-    "tomato ketchup": {
-      "size": 500,
-      "unit": "ml",
-      "price": 2.5,
-      "brand": "Woolworths"
-    },
-    "bbq sauce": {
-      "size": 500,
-      "unit": "ml",
-      "price": 3.2,
-      "brand": "Eta"
-    },
-    "sriracha sauce": {
-      "size": 455,
-      "unit": "ml",
-      "price": 5.0,
-      "brand": "Huy Fong"
-    },
-    "kecap manis": {
-      "size": 250,
-      "unit": "ml",
-      "price": 4.5,
-      "brand": "Ayam"
-    },
-    "chilli sauce": {
-      "size": 250,
-      "unit": "ml",
-      "price": 4.0,
-      "brand": "Sriracha"
     }
   },
   "eggs": {
@@ -1201,7 +753,257 @@
       "brand": "Laucke"
     }
   },
+  "fresh_fruit": {
+    "apple juice": {
+      "size": 2000,
+      "unit": "ml",
+      "price": 2.7,
+      "brand": "Golden Circle"
+    },
+    "apricot": {
+      "size": 1,
+      "unit": "each",
+      "price": 1.5,
+      "brand": "Woolworths"
+    },
+    "apricot nectar": {
+      "size": 2000,
+      "unit": "ml",
+      "price": 3.5,
+      "brand": "Golden Circle"
+    },
+    "black grapes": {
+      "size": 950,
+      "unit": "g",
+      "price": 6,
+      "brand": "Woolworths"
+    },
+    "blackberries": {
+      "size": 500,
+      "unit": "g",
+      "price": 6.5,
+      "brand": "Woolworths"
+    },
+    "blueberries": {
+      "size": 125,
+      "unit": "g",
+      "price": 5,
+      "brand": "Woolworths"
+    },
+    "calamansi": {
+      "size": 100,
+      "unit": "g",
+      "price": 4,
+      "brand": "Woolworths"
+    },
+    "cherries": {
+      "size": 250,
+      "unit": "g",
+      "price": 6,
+      "brand": "Woolworths"
+    },
+    "dragon fruit": {
+      "size": 400,
+      "unit": "g",
+      "price": 6,
+      "brand": "Creative Gourmet"
+    },
+    "grapes": {
+      "size": 900,
+      "unit": "g",
+      "price": 5.5,
+      "brand": "Woolworths"
+    },
+    "kiwi fruit": {
+      "size": 1,
+      "unit": "each",
+      "price": 1,
+      "brand": "Woolworths"
+    },
+    "kiwifruit": {
+      "size": 1,
+      "unit": "each",
+      "price": 1,
+      "brand": "Woolworths"
+    },
+    "mango": {
+      "size": 1,
+      "unit": "each",
+      "price": 3,
+      "brand": "Woolworths"
+    },
+    "mango nectar": {
+      "size": 2000,
+      "unit": "ml",
+      "price": 3.5,
+      "brand": "Golden Circle"
+    },
+    "nectarine": {
+      "size": 1,
+      "unit": "each",
+      "price": 1.5,
+      "brand": "Woolworths"
+    },
+    "orange": {
+      "size": 1,
+      "unit": "each",
+      "price": 1.2,
+      "brand": "Woolworths"
+    },
+    "orange juice": {
+      "size": 2000,
+      "unit": "ml",
+      "price": 7.8,
+      "brand": "Golden Circle"
+    },
+    "orange zest": {
+      "size": 1,
+      "unit": "each",
+      "price": 0.5,
+      "brand": "Woolworths"
+    },
+    "passionfruit": {
+      "size": 1,
+      "unit": "each",
+      "price": 1.2,
+      "brand": "Woolworths"
+    },
+    "peach": {
+      "size": 1,
+      "unit": "each",
+      "price": 1.5,
+      "brand": "Woolworths"
+    },
+    "pineapple": {
+      "size": 1,
+      "unit": "each",
+      "price": 4,
+      "brand": "Woolworths"
+    },
+    "pineapple juice": {
+      "size": 2000,
+      "unit": "ml",
+      "price": 6.5,
+      "brand": "Golden Circle"
+    },
+    "plum": {
+      "size": 1,
+      "unit": "each",
+      "price": 1.5,
+      "brand": "Woolworths"
+    },
+    "raspberries": {
+      "size": 500,
+      "unit": "g",
+      "price": 8,
+      "brand": "Woolworths"
+    },
+    "red grapes": {
+      "size": 900,
+      "unit": "g",
+      "price": 5.5,
+      "brand": "Woolworths"
+    },
+    "strawberries": {
+      "size": 250,
+      "unit": "g",
+      "price": 5,
+      "brand": "Woolworths"
+    },
+    "white grapes": {
+      "size": 900,
+      "unit": "g",
+      "price": 5.5,
+      "brand": "Woolworths"
+    }
+  },
+  "fresh_herbs": {
+    "coriander leaves": {
+      "size": 1,
+      "unit": "bunch",
+      "price": 2.5,
+      "brand": "Woolworths"
+    },
+    "fresh_herbs": {
+      "size": 1,
+      "unit": "bunch",
+      "price": 2.5,
+      "brand": "Woolworths"
+    },
+    "fresh chives": {
+      "size": 1,
+      "unit": "bunch",
+      "price": 2.5,
+      "brand": "Woolworths"
+    },
+    "fresh coriander": {
+      "size": 1,
+      "unit": "bunch",
+      "price": 2.5,
+      "brand": "Woolworths"
+    },
+    "fresh dill": {
+      "size": 1,
+      "unit": "bunch",
+      "price": 2.5,
+      "brand": "Woolworths"
+    },
+    "fresh mint": {
+      "size": 1,
+      "unit": "bunch",
+      "price": 2.5,
+      "brand": "Woolworths"
+    },
+    "fresh oregano": {
+      "size": 1,
+      "unit": "bunch",
+      "price": 2.5,
+      "brand": "Woolworths"
+    },
+    "fresh parsley": {
+      "size": 1,
+      "unit": "bunch",
+      "price": 2.5,
+      "brand": "Woolworths"
+    },
+    "fresh rosemary": {
+      "size": 1,
+      "unit": "bunch",
+      "price": 2.5,
+      "brand": "Woolworths"
+    },
+    "fresh sage": {
+      "size": 1,
+      "unit": "bunch",
+      "price": 2.5,
+      "brand": "Woolworths"
+    },
+    "fresh thyme": {
+      "size": 1,
+      "unit": "bunch",
+      "price": 2.5,
+      "brand": "Woolworths"
+    },
+    "parsley leaves": {
+      "size": 1,
+      "unit": "bunch",
+      "price": 2.5,
+      "brand": "Woolworths"
+    }
+  },
   "fresh_vegetables": {
+    "Brown Onions": {
+      "size": 1,
+      "unit": "each",
+      "price": 1.9,
+      "brand": "Woolworths"
+    },
+    "Ginger": {
+      "size": 99,
+      "unit": "g",
+      "price": 3.3,
+      "brand": "Woolworths"
+    },
     "apple": {
       "size": 1,
       "unit": "each",
@@ -1382,12 +1184,6 @@
       "price": 2.9,
       "brand": "Woolworths"
     },
-    "ginger": {
-      "size": 1000,
-      "unit": "g",
-      "price": 33,
-      "brand": "Woolworths"
-    },
     "gourmet tomato": {
       "size": 1,
       "unit": "each",
@@ -1418,13 +1214,49 @@
       "price": 1.98,
       "brand": "Woolworths"
     },
+    "green chilli": {
+      "size": 1,
+      "unit": "each",
+      "price": 0.6,
+      "brand": "Woolworths"
+    },
+    "green chillies": {
+      "size": 1,
+      "unit": "each",
+      "price": 0.6,
+      "brand": "Woolworths"
+    },
     "iceberg lettuce": {
       "size": 1,
       "unit": "each",
       "price": 2.5,
       "brand": "Woolworths"
     },
+    "jalapeno": {
+      "size": 1,
+      "unit": "each",
+      "price": 1.01,
+      "brand": "Woolworths"
+    },
     "jalapeno chilli": {
+      "size": 1,
+      "unit": "each",
+      "price": 1.01,
+      "brand": "Woolworths"
+    },
+    "jalapenos": {
+      "size": 1,
+      "unit": "each",
+      "price": 1.01,
+      "brand": "Woolworths"
+    },
+    "jalapeño": {
+      "size": 1,
+      "unit": "each",
+      "price": 1.01,
+      "brand": "Woolworths"
+    },
+    "jalapeños": {
       "size": 1,
       "unit": "each",
       "price": 1.01,
@@ -1472,6 +1304,18 @@
       "price": 2.5,
       "brand": "Woolworths"
     },
+    "long green chilli": {
+      "size": 1,
+      "unit": "each",
+      "price": 0.6,
+      "brand": "Woolworths"
+    },
+    "long red chilli": {
+      "size": 1,
+      "unit": "each",
+      "price": 0.6,
+      "brand": "Woolworths"
+    },
     "mandarin": {
       "size": 1,
       "unit": "each",
@@ -1501,6 +1345,18 @@
       "unit": "g",
       "price": 1.9,
       "brand": "Woolworths"
+    },
+    "pickled jalapenos": {
+      "size": 215,
+      "unit": "g",
+      "price": 4.5,
+      "brand": "La Morena"
+    },
+    "pickled jalapeños": {
+      "size": 215,
+      "unit": "g",
+      "price": 4.5,
+      "brand": "La Morena"
     },
     "pink lady apple": {
       "size": 1,
@@ -1610,6 +1466,12 @@
       "price": 3.9,
       "brand": "Woolworths"
     },
+    "tomato": {
+      "size": 1,
+      "unit": "each",
+      "price": 0.9,
+      "brand": "Woolworths"
+    },
     "truss tomatoes": {
       "size": 1,
       "unit": "each",
@@ -1634,74 +1496,20 @@
       "price": 1.18,
       "brand": "Woolworths"
     },
-    "tomato": {
-      "size": 1,
-      "unit": "each",
-      "price": 0.9,
-      "brand": "Woolworths"
-    },
-    "green chilli": {
-      "size": 1,
-      "unit": "each",
-      "price": 0.6,
-      "brand": "Woolworths"
-    },
-    "green chillies": {
-      "size": 1,
-      "unit": "each",
-      "price": 0.6,
-      "brand": "Woolworths"
-    },
-    "long green chilli": {
-      "size": 1,
-      "unit": "each",
-      "price": 0.6,
-      "brand": "Woolworths"
-    },
-    "long red chilli": {
-      "size": 1,
-      "unit": "each",
-      "price": 0.6,
-      "brand": "Woolworths"
-    },
-    "jalapeño": {
-      "size": 1,
-      "unit": "each",
-      "price": 1.01,
-      "brand": "Woolworths"
-    },
-    "jalapeno": {
-      "size": 1,
-      "unit": "each",
-      "price": 1.01,
-      "brand": "Woolworths"
-    },
-    "jalapeños": {
-      "size": 1,
-      "unit": "each",
-      "price": 1.01,
-      "brand": "Woolworths"
-    },
-    "jalapenos": {
-      "size": 1,
-      "unit": "each",
-      "price": 1.01,
-      "brand": "Woolworths"
-    },
-    "pickled jalapeños": {
-      "size": 215,
+    "basil leaves": {
+      "size": 15,
       "unit": "g",
-      "price": 4.5,
-      "brand": "La Morena"
-    },
-    "pickled jalapenos": {
-      "size": 215,
-      "unit": "g",
-      "price": 4.5,
-      "brand": "La Morena"
+      "price": 3.2,
+      "brand": "Woolworths"
     }
   },
   "meat_poultry": {
+    "Chicken Drum Sticks": {
+      "size": 999,
+      "unit": "g",
+      "price": 4.3,
+      "brand": "Woolworths"
+    },
     "bacon": {
       "size": 1000,
       "unit": "g",
@@ -1987,10 +1795,10 @@
   },
   "milk_cream": {
     "buttermilk": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
+      "size": 600,
+      "unit": "ml",
+      "price": 3.2,
+      "brand": "Dairy Farmers"
     },
     "coconut cream": {
       "size": 400,
@@ -2016,17 +1824,17 @@
       "price": 5.2,
       "brand": "Woolworths"
     },
-    "milk": {
-      "size": 3000,
-      "unit": "ml",
-      "price": 5.15,
-      "brand": "Woolworths"
-    },
     "heavy cream": {
       "size": 500,
       "unit": "ml",
       "price": 6.8,
       "brand": "Dairy Farmers"
+    },
+    "milk": {
+      "size": 3000,
+      "unit": "ml",
+      "price": 5.15,
+      "brand": "Woolworths"
     },
     "milk powder": {
       "size": 1000,
@@ -2060,17 +1868,17 @@
       "price": 4.4,
       "brand": "Only Organic"
     },
-    "Olive Oil": {
+    "olive oil": {
       "size": 750,
       "unit": "ml",
       "price": 25,
       "brand": "Cobram Estate"
     },
     "peanut oil": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
+      "size": 750,
+      "unit": "ml",
+      "price": 8,
+      "brand": "Crisco"
     },
     "sesame oil": {
       "size": 150,
@@ -2079,22 +1887,16 @@
       "brand": "Ayam"
     },
     "sunflower oil": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
+      "size": 750,
+      "unit": "ml",
+      "price": 6,
+      "brand": "Crisco"
     },
     "vegetable oil": {
       "size": 2000,
       "unit": "ml",
       "price": 6,
       "brand": "Woolworths"
-    },
-    "olive oil": {
-      "size": 750,
-      "unit": "ml",
-      "price": 25.0,
-      "brand": "Cobram Estate"
     }
   },
   "pasta_noodles": {
@@ -2161,16 +1963,16 @@
   },
   "rice_grains": {
     "arborio rice": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
+      "size": 750,
+      "unit": "g",
+      "price": 3.05,
+      "brand": "Sunrice"
     },
     "basmati rice": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
+      "size": 1000,
+      "unit": "g",
+      "price": 6.9,
+      "brand": "Sunrice"
     },
     "black quinoa": {
       "size": 500,
@@ -2219,6 +2021,266 @@
       "unit": "g",
       "price": 3,
       "brand": "Woolworths"
+    }
+  },
+  "sauces_condiments": {
+    "apple cider vinegar": {
+      "size": 500,
+      "unit": "ml",
+      "price": 4.5,
+      "brand": "Bragg"
+    },
+    "apricot jam": {
+      "size": 375,
+      "unit": "g",
+      "price": 3.8,
+      "brand": "Cottee's"
+    },
+    "australian mustard": {
+      "size": 175,
+      "unit": "g",
+      "price": 4.5,
+      "brand": "MasterFoods"
+    },
+    "balsamic vinegar": {
+      "size": 500,
+      "unit": "ml",
+      "price": 5.5,
+      "brand": "Woolworths"
+    },
+    "barbecue sauce": {
+      "size": 500,
+      "unit": "ml",
+      "price": 3.2,
+      "brand": "Eta"
+    },
+    "bbq sauce": {
+      "size": 500,
+      "unit": "ml",
+      "price": 3.2,
+      "brand": "Eta"
+    },
+    "chilli garlic sauce": {
+      "size": 250,
+      "unit": "ml",
+      "price": 4,
+      "brand": "Sriracha"
+    },
+    "chilli sauce": {
+      "size": 250,
+      "unit": "ml",
+      "price": 4,
+      "brand": "Sriracha"
+    },
+    "curry paste": {
+      "size": 185,
+      "unit": "g",
+      "price": 4,
+      "brand": "Ayam"
+    },
+    "dark soy sauce": {
+      "size": 500,
+      "unit": "ml",
+      "price": 5.5,
+      "brand": "Kikkoman"
+    },
+    "demi glace": {
+      "size": 200,
+      "unit": "g",
+      "price": 5,
+      "brand": "Continental"
+    },
+    "dijon mustard": {
+      "size": 170,
+      "unit": "g",
+      "price": 4.5,
+      "brand": "MasterFoods"
+    },
+    "fish sauce": {
+      "size": 500,
+      "unit": "ml",
+      "price": 5.5,
+      "brand": "Squid"
+    },
+    "green curry paste": {
+      "size": 185,
+      "unit": "g",
+      "price": 4,
+      "brand": "Ayam"
+    },
+    "hoisin sauce": {
+      "size": 210,
+      "unit": "ml",
+      "price": 4,
+      "brand": "Ayam"
+    },
+    "hot english mustard": {
+      "size": 175,
+      "unit": "g",
+      "price": 4.5,
+      "brand": "MasterFoods"
+    },
+    "kalamata olives": {
+      "size": 670,
+      "unit": "g",
+      "price": 8.45,
+      "brand": "Always Fresh"
+    },
+    "kecap manis": {
+      "size": 250,
+      "unit": "ml",
+      "price": 4.5,
+      "brand": "Ayam"
+    },
+    "light soy sauce": {
+      "size": 500,
+      "unit": "ml",
+      "price": 5.5,
+      "brand": "Kikkoman"
+    },
+    "mayonnaise": {
+      "size": 490,
+      "unit": "g",
+      "price": 4.5,
+      "brand": "Praise"
+    },
+    "mild english mustard": {
+      "size": 175,
+      "unit": "g",
+      "price": 4.5,
+      "brand": "MasterFoods"
+    },
+    "mint sauce": {
+      "size": 250,
+      "unit": "ml",
+      "price": 3.8,
+      "brand": "Fountain"
+    },
+    "mirin": {
+      "size": 500,
+      "unit": "ml",
+      "price": 8,
+      "brand": "Mizkan"
+    },
+    "miso paste": {
+      "size": 500,
+      "unit": "g",
+      "price": 7.5,
+      "brand": "Obento"
+    },
+    "mustard": {
+      "size": 250,
+      "unit": "g",
+      "price": 4.2,
+      "brand": "MasterFoods"
+    },
+    "oyster sauce": {
+      "size": 210,
+      "unit": "ml",
+      "price": 4,
+      "brand": "Ayam"
+    },
+    "plum jam": {
+      "size": 375,
+      "unit": "g",
+      "price": 3.8,
+      "brand": "Cottee's"
+    },
+    "red curry paste": {
+      "size": 185,
+      "unit": "g",
+      "price": 4,
+      "brand": "Ayam"
+    },
+    "rice vinegar": {
+      "size": 500,
+      "unit": "ml",
+      "price": 4,
+      "brand": "Obento"
+    },
+    "sambal oelek": {
+      "size": 250,
+      "unit": "ml",
+      "price": 4,
+      "brand": "Ayam"
+    },
+    "seafood cocktail sauce": {
+      "size": 260,
+      "unit": "g",
+      "price": 3.8,
+      "brand": "MasterFoods"
+    },
+    "soy sauce": {
+      "size": 1000,
+      "unit": "ml",
+      "price": 10.2,
+      "brand": "Kikkoman"
+    },
+    "sriracha": {
+      "size": 455,
+      "unit": "ml",
+      "price": 5,
+      "brand": "Huy Fong"
+    },
+    "sriracha sauce": {
+      "size": 455,
+      "unit": "ml",
+      "price": 5,
+      "brand": "Huy Fong"
+    },
+    "sweet & sour sauce": {
+      "size": 270,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "sweet chilli sauce": {
+      "size": 730,
+      "unit": "ml",
+      "price": 5.5,
+      "brand": "Trident"
+    },
+    "tartare sauce": {
+      "size": 220,
+      "unit": "g",
+      "price": 3.8,
+      "brand": "MasterFoods"
+    },
+    "tomato ketchup": {
+      "size": 1000,
+      "unit": "g",
+      "price": 6.6,
+      "brand": "Heinz"
+    },
+    "tomato sauce": {
+      "size": 2000,
+      "unit": "ml",
+      "price": 5,
+      "brand": "Woolworths"
+    },
+    "vinegar": {
+      "size": 750,
+      "unit": "ml",
+      "price": 2,
+      "brand": "Woolworths"
+    },
+    "white vinegar": {
+      "size": 750,
+      "unit": "ml",
+      "price": 2,
+      "brand": "Woolworths"
+    },
+    "wholegrain mustard": {
+      "size": 175,
+      "unit": "g",
+      "price": 4.5,
+      "brand": "MasterFoods"
+    },
+    "worcestershire sauce": {
+      "size": 290,
+      "unit": "ml",
+      "price": 4,
+      "brand": "Lea & Perrins"
     }
   },
   "seeds_superfoods": {
@@ -2339,16 +2401,16 @@
       "brand": "Arnott's"
     },
     "oreos": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
+      "size": 140,
+      "unit": "g",
+      "price": 3.2,
+      "brand": "Oreo"
     },
     "tim tams": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
+      "size": 200,
+      "unit": "g",
+      "price": 6,
+      "brand": "Arnott's"
     }
   },
   "spices_seasonings": {
@@ -2358,17 +2420,23 @@
       "price": 4,
       "brand": "Hoyt's"
     },
+    "allspice": {
+      "size": 28,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
     "baking powder": {
       "size": 125,
       "unit": "g",
       "price": 2.85,
       "brand": "McKenzie's"
     },
-    "basil": {
-      "size": 10,
+    "baking soda": {
+      "size": 500,
       "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
+      "price": 3.1,
+      "brand": "McKenzie's"
     },
     "bay leaves": {
       "size": 5,
@@ -2383,6 +2451,12 @@
       "brand": "McKenzie's"
     },
     "bicarb soda": {
+      "size": 500,
+      "unit": "g",
+      "price": 3.1,
+      "brand": "McKenzie's"
+    },
+    "bicarbonate of soda": {
       "size": 500,
       "unit": "g",
       "price": 3.1,
@@ -2418,6 +2492,12 @@
       "price": 3.5,
       "brand": "MasterFoods"
     },
+    "cardamom pods": {
+      "size": 20,
+      "unit": "g",
+      "price": 4,
+      "brand": "Hoyt's"
+    },
     "cayenne pepper": {
       "size": 30,
       "unit": "g",
@@ -2442,6 +2522,12 @@
       "price": 5,
       "brand": "Hoyt's"
     },
+    "chilli flakes": {
+      "size": 100,
+      "unit": "g",
+      "price": 5,
+      "brand": "Hoyt's"
+    },
     "chilli powder": {
       "size": 27,
       "unit": "g",
@@ -2456,6 +2542,12 @@
     },
     "chinese five spice": {
       "size": 30,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "chives": {
+      "size": 10,
       "unit": "g",
       "price": 3.5,
       "brand": "MasterFoods"
@@ -2526,6 +2618,12 @@
       "price": 3.7,
       "brand": "McKenzie's"
     },
+    "dill": {
+      "size": 10,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
     "fennel seeds": {
       "size": 26,
       "unit": "g",
@@ -2568,6 +2666,18 @@
       "price": 5,
       "brand": "Hoyt's"
     },
+    "ground coriander": {
+      "size": 25,
+      "unit": "g",
+      "price": 2.5,
+      "brand": "Woolworths"
+    },
+    "ground cumin": {
+      "size": 28,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
     "ground ginger": {
       "size": 25,
       "unit": "g",
@@ -2588,6 +2698,12 @@
     },
     "italian herbs": {
       "size": 35,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "mint leaves": {
+      "size": 10,
       "unit": "g",
       "price": 3.5,
       "brand": "MasterFoods"
@@ -2655,7 +2771,7 @@
     "red chilli flakes": {
       "size": 100,
       "unit": "g",
-      "price": 5.0,
+      "price": 5,
       "brand": "Hoyt's"
     },
     "red chilli powder": {
@@ -2671,10 +2787,16 @@
       "brand": "MasterFoods"
     },
     "saffron": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
+      "size": 250,
+      "unit": "mg",
+      "price": 14.9,
+      "brand": "MasterFoods"
+    },
+    "sage": {
+      "size": 10,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
     },
     "salt": {
       "size": 750,
@@ -2701,10 +2823,10 @@
       "brand": "MasterFoods"
     },
     "star anise": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
+      "size": 12,
+      "unit": "g",
+      "price": 2.6,
+      "brand": "Hoyt's"
     },
     "steak seasoning": {
       "size": 45,
@@ -2723,6 +2845,12 @@
       "unit": "g",
       "price": 2.7,
       "brand": "Old El Paso"
+    },
+    "thyme": {
+      "size": 10,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
     },
     "thyme leaves": {
       "size": 10,
@@ -2747,99 +2875,9 @@
       "unit": "g",
       "price": 6,
       "brand": "Tandaco"
-    },
-    "chilli flakes": {
-      "size": 100,
-      "unit": "g",
-      "price": 5.0,
-      "brand": "Hoyt's"
-    },
-    "chili flakes": {
-      "size": 100,
-      "unit": "g",
-      "price": 5.0,
-      "brand": "Hoyt's"
-    },
-    "red chili flakes": {
-      "size": 100,
-      "unit": "g",
-      "price": 5.0,
-      "brand": "Hoyt's"
-    },
-    "bicarbonate of soda": {
-      "size": 500,
-      "unit": "g",
-      "price": 3.1,
-      "brand": "McKenzie's"
-    },
-    "baking soda": {
-      "size": 500,
-      "unit": "g",
-      "price": 3.1,
-      "brand": "McKenzie's"
-    },
-    "thyme": {
-      "size": 10,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "sage": {
-      "size": 10,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "chives": {
-      "size": 10,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "dill": {
-      "size": 10,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "mint leaves": {
-      "size": 10,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "allspice": {
-      "size": 28,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "cardamom pods": {
-      "size": 20,
-      "unit": "g",
-      "price": 4.0,
-      "brand": "Hoyt's"
-    },
-    "ground coriander": {
-      "size": 25,
-      "unit": "g",
-      "price": 2.5,
-      "brand": "Woolworths"
-    },
-    "ground cumin": {
-      "size": 28,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
     }
   },
   "spreads": {
-    "hazelnut spread": {
-      "size": null,
-      "unit": null,
-      "price": null,
-      "brand": null
-    },
     "liver spread": {
       "size": 120,
       "unit": "g",
@@ -3008,12 +3046,6 @@
       "price": 4.9,
       "brand": "Farmers Union"
     },
-    "yogurt": {
-      "size": 500,
-      "unit": "g",
-      "price": 4.9,
-      "brand": "Farmers Union"
-    },
     "greek yogurt": {
       "size": 500,
       "unit": "g",
@@ -3031,91 +3063,16 @@
       "unit": "g",
       "price": 4.9,
       "brand": "Farmers Union"
+    },
+    "yogurt": {
+      "size": 500,
+      "unit": "g",
+      "price": 4.9,
+      "brand": "Farmers Union"
     }
   },
   "_meta": {
-    "lastUpdated": "2026-05-31",
-    "version": "1.0",
-    "totalEntries": 510
-  },
-  "fresh_herbs": {
-    "fresh basil": {
-      "size": 1,
-      "unit": "bunch",
-      "price": 2.5,
-      "brand": "Woolworths"
-    },
-    "fresh coriander": {
-      "size": 1,
-      "unit": "bunch",
-      "price": 2.5,
-      "brand": "Woolworths"
-    },
-    "fresh parsley": {
-      "size": 1,
-      "unit": "bunch",
-      "price": 2.5,
-      "brand": "Woolworths"
-    },
-    "fresh mint": {
-      "size": 1,
-      "unit": "bunch",
-      "price": 2.5,
-      "brand": "Woolworths"
-    },
-    "fresh thyme": {
-      "size": 1,
-      "unit": "bunch",
-      "price": 2.5,
-      "brand": "Woolworths"
-    },
-    "fresh rosemary": {
-      "size": 1,
-      "unit": "bunch",
-      "price": 2.5,
-      "brand": "Woolworths"
-    },
-    "fresh chives": {
-      "size": 1,
-      "unit": "bunch",
-      "price": 2.5,
-      "brand": "Woolworths"
-    },
-    "fresh dill": {
-      "size": 1,
-      "unit": "bunch",
-      "price": 2.5,
-      "brand": "Woolworths"
-    },
-    "fresh sage": {
-      "size": 1,
-      "unit": "bunch",
-      "price": 2.5,
-      "brand": "Woolworths"
-    },
-    "fresh oregano": {
-      "size": 1,
-      "unit": "bunch",
-      "price": 2.5,
-      "brand": "Woolworths"
-    },
-    "basil leaves": {
-      "size": 1,
-      "unit": "bunch",
-      "price": 2.5,
-      "brand": "Woolworths"
-    },
-    "coriander leaves": {
-      "size": 1,
-      "unit": "bunch",
-      "price": 2.5,
-      "brand": "Woolworths"
-    },
-    "parsley leaves": {
-      "size": 1,
-      "unit": "bunch",
-      "price": 2.5,
-      "brand": "Woolworths"
-    }
+    "lastUpdated": "2026-06-04",
+    "version": "1.0"
   }
 }

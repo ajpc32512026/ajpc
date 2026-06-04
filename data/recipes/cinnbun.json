@@ -1,192 +1,181 @@
 {
-    "id": "bakerystylecinnamonbuns",
-    "title": "Bakery-Style Cinnamon Buns",
-    "emoji": "🍯",
-    "category": "Baking",
-    "description": "Soft, pillowy, buttery, and swirled with cinnamon sugar — just like your favourite bakery.",
-    "prepTime": "30 min",
-    "cookTime": "25 min",
-    "totalTime": "2 hr 25 min",
-    "servings": "10 buns",
-    "difficulty": "Intermediate",
-    "tags": [
-        "Baked",
-        "Bread",
-        "Breakfast",
-        "Cinnamon",
-        "Rich",
-        "Sweet",
-        "Vegetarian"
-    ],
-    "ingredients": [
-        {
-            "heading": "Dough"
-        },
-        {
-            "quantity": "250",
-            "unit": "ml",
-            "item": "Whole Milk",
-            "notes": "warm"
-        },
-        {
-            "quantity": "10",
-            "unit": "g",
-            "item": "Yeast"
-        },
-        {
-            "quantity": "75",
-            "unit": "g",
-            "item": "White Sugar"
-        },
-        {
-            "quantity": "500",
-            "unit": "g",
-            "item": "Plain Flour"
-        },
-        {
-            "quantity": "7",
-            "unit": "g",
-            "item": "Salt"
-        },
-        {
-            "quantity": "75",
-            "unit": "g",
-            "item": "Unsalted Butter",
-            "notes": "melted"
-        },
-        {
-            "quantity": "1",
-            "unit": "",
-            "item": "Eggs",
-            "notes": "large"
-        },
-        {
-            "heading": "Filling"
-        },
-        {
-            "quantity": "75",
-            "unit": "g",
-            "item": "Unsalted Butter",
-            "notes": "melted, for brushing"
-        },
-        {
-            "quantity": "100",
-            "unit": "g",
-            "item": "Brown Sugar",
-            "notes": "packed"
-        },
-        {
-            "quantity": "10",
-            "unit": "g",
-            "item": "Cinnamon",
-            "notes": "ground"
-        },
-        {
-            "heading": "Glaze"
-        },
-        {
-            "quantity": "125",
-            "unit": "g",
-            "item": "Icing Sugar"
-        },
-        {
-            "quantity": "30",
-            "unit": "ml",
-            "item": "Whole Milk"
-        },
-        {
-            "quantity": "2",
-            "unit": "ml",
-            "item": "Vanilla Extract"
-        },
-        {
-            "quantity": "1",
-            "unit": "g",
-            "item": "Salt"
-        }
-    ],
-    "method": [
-        {
-            "step": 1,
-            "instruction": "In a large bowl, combine warm milk, yeast, and sugar. Let sit for 5 minutes until foamy."
-        },
-        {
-            "step": 2,
-            "instruction": "Add flour, salt, melted butter, and egg. Mix until a smooth, slightly sticky dough forms. Knead for 8–10 minutes until elastic."
-        },
-        {
-            "step": 3,
-            "instruction": "Cover and let dough rise in a warm place until doubled, about 1–1½ hours."
-        },
-        {
-            "step": 4,
-            "instruction": "Roll dough into a rectangle approximately 30 cm × 40 cm. Brush with melted butter and sprinkle evenly with brown sugar and cinnamon."
-        },
-        {
-            "step": 5,
-            "instruction": "Roll the dough tightly into a log starting from the long edge. Pinch the seam to seal. Cut into 10 even slices."
-        },
-        {
-            "step": 6,
-            "instruction": "Place buns in a greased tin with space between each. Cover and let rise for 30–45 minutes until puffy."
-        },
-        {
-            "step": 7,
-            "instruction": "Preheat oven to 180°C. Bake buns for 20–25 minutes until golden brown."
-        },
-        {
-            "step": 8,
-            "instruction": "Whisk together icing sugar, milk, vanilla extract, and salt until smooth. Drizzle over warm buns."
-        }
-    ],
-    "notes": [
-        {
-            "type": "technique",
-            "title": "Warm Milk",
-            "content": "Milk should be warm to the touch, not hot — approximately 40°C. Too hot and it will kill the yeast. If you can comfortably hold your finger in it, it is the right temperature."
-        },
-        {
-            "type": "technique",
-            "title": "Clean Cuts",
-            "content": "Use unflavoured dental floss to cut the dough log — slide it under, cross the ends, and pull. It gives clean cuts without squashing the spirals."
-        },
-        {
-            "type": "serving",
-            "title": "Serving Tip",
-            "content": "Best eaten warm on the day they are baked. Reheat leftover buns in the microwave for 20–30 seconds to soften the glaze."
-        }
-    ],
-    "related": [
-        {
-            "id": "sourdoughcinnrolls",
-            "title": "Sourdough Cinnamon Rolls"
-        },
-        {
-            "id": "cinntwists",
-            "title": "Cinnamon Twists"
-        },
-        {
-            "id": "applecinnscrolls",
-            "title": "Apple & Cinnamon Scrolls"
-        },
-        {
-            "id": "swbtm",
-            "title": "Soft White Bread (Tangzhong Method)"
-        },
-        {
-            "id": "swbtm2",
-            "title": "Soft White Bread 2 (Tangzhong)"
-        }
-    ],
-    "nutrition": {
-        "servings": 10,
-        "cal": 444,
-        "protein": 8,
-        "carbs": 71,
-        "fat": 15,
-        "fibre": 2,
-        "sodium": 343,
-        "coverage": 100
+  "id": "bakerystylecinnamonbuns",
+  "title": "Bakery-Style Cinnamon Buns",
+  "emoji": "🍯",
+  "category": "Baking",
+  "difficulty": "Intermediate",
+  "description": "Soft, pillowy, buttery, and swirled with cinnamon sugar — just like your favourite bakery.",
+  "prepTime": "30 min",
+  "cookTime": "25 min",
+  "totalTime": "2 hr 25 min",
+  "servings": "10 buns",
+  "tags": [
+    "Baked",
+    "Bread",
+    "Breakfast",
+    "Cinnamon",
+    "Rich",
+    "Sweet",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "heading": "Dough"
     },
-    "cuisine": "American / Modern"
+    {
+      "quantity": "250",
+      "unit": "ml",
+      "item": "Milk",
+      "notes": "warm"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Yeast"
+    },
+    {
+      "quantity": "75",
+      "unit": "g",
+      "item": "White Sugar"
+    },
+    {
+      "quantity": "500",
+      "unit": "g",
+      "item": "Plain Flour"
+    },
+    {
+      "quantity": "7",
+      "unit": "g",
+      "item": "Salt"
+    },
+    {
+      "quantity": "75",
+      "unit": "g",
+      "item": "Unsalted Butter",
+      "notes": "melted"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Eggs",
+      "notes": "large"
+    },
+    {
+      "heading": "Filling"
+    },
+    {
+      "quantity": "75",
+      "unit": "g",
+      "item": "Unsalted Butter",
+      "notes": "melted, for brushing"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Brown Sugar",
+      "notes": "packed"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Cinnamon",
+      "notes": "ground"
+    },
+    {
+      "heading": "Glaze"
+    },
+    {
+      "quantity": "125",
+      "unit": "g",
+      "item": "Icing Sugar"
+    },
+    {
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Milk"
+    },
+    {
+      "quantity": "2",
+      "unit": "ml",
+      "item": "Vanilla Extract"
+    },
+    {
+      "quantity": "1",
+      "unit": "g",
+      "item": "Salt"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "In a large bowl, combine warm milk, yeast, and sugar. Let sit for 5 minutes until foamy."
+    },
+    {
+      "step": 2,
+      "instruction": "Add flour, salt, melted butter, and egg. Mix until a smooth, slightly sticky dough forms. Knead for 8–10 minutes until elastic."
+    },
+    {
+      "step": 3,
+      "instruction": "Cover and let dough rise in a warm place until doubled, about 1–1½ hours."
+    },
+    {
+      "step": 4,
+      "instruction": "Roll dough into a rectangle approximately 30 cm × 40 cm. Brush with melted butter and sprinkle evenly with brown sugar and cinnamon."
+    },
+    {
+      "step": 5,
+      "instruction": "Roll the dough tightly into a log starting from the long edge. Pinch the seam to seal. Cut into 10 even slices."
+    },
+    {
+      "step": 6,
+      "instruction": "Place buns in a greased tin with space between each. Cover and let rise for 30–45 minutes until puffy."
+    },
+    {
+      "step": 7,
+      "instruction": "Preheat oven to 180°C. Bake buns for 20–25 minutes until golden brown."
+    },
+    {
+      "step": 8,
+      "instruction": "Whisk together icing sugar, milk, vanilla extract, and salt until smooth. Drizzle over warm buns."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Warm Milk",
+      "content": "Milk should be warm to the touch, not hot — approximately 40°C. Too hot and it will kill the yeast. If you can comfortably hold your finger in it, it is the right temperature."
+    },
+    {
+      "type": "technique",
+      "title": "Clean Cuts",
+      "content": "Use unflavoured dental floss to cut the dough log — slide it under, cross the ends, and pull. It gives clean cuts without squashing the spirals."
+    },
+    {
+      "type": "serving",
+      "title": "Serving Tip",
+      "content": "Best eaten warm on the day they are baked. Reheat leftover buns in the microwave for 20–30 seconds to soften the glaze."
+    }
+  ],
+  "nutrition": {
+    "servings": 10,
+    "cal": 450,
+    "kj": 1881,
+    "protein": 9,
+    "carbs": 65,
+    "sugars": 29,
+    "fat": 17,
+    "saturated_fat": 10.5,
+    "fiber": 2,
+    "sodium": 124,
+    "coverage": 100,
+    "calcium_mg": 71,
+    "iron_mg": 1,
+    "potassium_mg": 235,
+    "magnesium_mg": 31,
+    "zinc_mg": 1,
+    "cholesterol_mg": 127,
+    "vitamin_a_ug": 182,
+    "vitamin_d_ug": 1
+  },
+  "lastModified": "2026-06-04"
 }

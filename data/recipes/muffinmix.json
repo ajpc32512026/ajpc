@@ -1,205 +1,195 @@
 {
-    "id": "basicmuffinmix",
-    "title": "Basic Muffin Mix",
-    "emoji": "🧁",
-    "category": "Baking",
-    "description": "A simple, dependable base recipe — sweet or savoury, load it up any way you like.",
-    "prepTime": "10 min",
-    "cookTime": "20 min",
-    "totalTime": "30 min",
-    "servings": "12 muffins",
-    "difficulty": "Beginner",
-    "tags": [
-        "Baked",
-        "Breakfast",
-        "Snack",
-        "Sweet",
-        "Under 30 Minutes",
-        "Vegetarian"
-    ],
-    "ingredients": [
-        {
-            "heading": "Muffin Base"
-        },
-        {
-            "quantity": "150",
-            "unit": "g",
-            "item": "Self-Raising Flour"
-        },
-        {
-            "quantity": "150",
-            "unit": "g",
-            "item": "Plain Flour"
-        },
-        {
-            "quantity": "100",
-            "unit": "g",
-            "item": "White Sugar",
-            "notes": "omit for savoury"
-        },
-        {
-            "quantity": "60",
-            "unit": "ml",
-            "item": "Vegetable Oil"
-        },
-        {
-            "quantity": "250",
-            "unit": "ml",
-            "item": "Whole Milk"
-        },
-        {
-            "quantity": "1",
-            "unit": "",
-            "item": "Eggs"
-        },
-        {
-            "quantity": "2.5",
-            "unit": "g",
-            "item": "Salt"
-        },
-        {
-            "quantity": "5",
-            "unit": "ml",
-            "item": "Vanilla Extract",
-            "notes": "omit for savoury"
-        },
-        {
-            "heading": "Sweet Options (choose one or combine)"
-        },
-        {
-            "quantity": "100",
-            "unit": "g",
-            "item": "Dark Chocolate Chips",
-            "notes": "toss in flour to prevent sinking"
-        },
-        {
-            "quantity": "80",
-            "unit": "g",
-            "item": "Sultanas"
-        },
-        {
-            "quantity": "100",
-            "unit": "g",
-            "item": "Blueberries",
-            "notes": "fresh or frozen"
-        },
-        {
-            "quantity": "1",
-            "unit": "",
-            "item": "Apple",
-            "notes": "grated, plus 5 g cinnamon"
-        },
-        {
-            "quantity": "20",
-            "unit": "g",
-            "item": "Cocoa Powder",
-            "notes": "replace 20 g plain flour with cocoa"
-        },
-        {
-            "heading": "Savoury Options (choose one or combine, omit sugar and vanilla)"
-        },
-        {
-            "quantity": "50",
-            "unit": "g",
-            "item": "Tasty Cheese",
-            "notes": "grated, plus 50 g cooked bacon, drained"
-        },
-        {
-            "quantity": "80",
-            "unit": "g",
-            "item": "Spinach",
-            "notes": "chopped, plus 80 g crumbled feta"
-        },
-        {
-            "quantity": "80",
-            "unit": "g",
-            "item": "Pumpkin",
-            "notes": "roasted and diced, plus 20 g pumpkin seeds"
-        }
-    ],
-    "method": [
-        {
-            "step": 1,
-            "instruction": "Preheat oven to 180°C. Grease a 12-cup muffin tin or line with paper liners."
-        },
-        {
-            "step": 2,
-            "instruction": "In a large bowl, mix the self-raising flour, plain flour, sugar, and salt. Add your chosen additions and stir to combine."
-        },
-        {
-            "step": 3,
-            "instruction": "In a separate bowl, whisk together the oil, egg, and milk until well combined. Add vanilla extract if making sweet muffins."
-        },
-        {
-            "step": 4,
-            "instruction": "Pour the wet ingredients into the dry ingredients. Mix gently with a spatula until just combined — the batter should be slightly lumpy. Do not overmix or the muffins will be tough."
-        },
-        {
-            "step": 5,
-            "instruction": "Divide the mixture evenly between the muffin cups, filling each about three-quarters full."
-        },
-        {
-            "step": 6,
-            "instruction": "Bake for 18–22 minutes, or until a skewer inserted into the centre comes out clean and the tops are golden and spring back when lightly touched."
-        },
-        {
-            "step": 7,
-            "instruction": "Cool in the tin for 5 minutes, then transfer to a wire rack. Serve warm or at room temperature."
-        }
-    ],
-    "notes": [
-        {
-            "type": "technique",
-            "title": "Don't Overmix",
-            "content": "The secret to tender muffins is gentle mixing. Lumpy batter is perfect — overmixing develops gluten and makes muffins tough and dense."
-        },
-        {
-            "type": "technique",
-            "title": "Chocolate Chip Trick",
-            "content": "Toss chocolate chips in a little plain flour before adding to the batter. This prevents them from sinking to the bottom during baking."
-        },
-        {
-            "type": "serving",
-            "title": "Serving Tip",
-            "content": "Microwave for 10–20 seconds before serving for that fresh-from-the-oven warmth."
-        },
-        {
-            "type": "storage",
-            "title": "Storage",
-            "content": "Store in an airtight container for 2–3 days, or freeze for up to 2 months."
-        }
-    ],
-    "related": [
-        {
-            "id": "blueberrymuffins",
-            "title": "Heavenly Blueberry Muffins"
-        },
-        {
-            "id": "chocmuffins",
-            "title": "Chocolate Muffins with Ganache"
-        },
-        {
-            "id": "bananabread",
-            "title": "Banana Bread"
-        },
-        {
-            "id": "scones",
-            "title": "Scones"
-        },
-        {
-            "id": "applecinnscrolls",
-            "title": "Apple & Cinnamon Scrolls"
-        }
-    ],
-    "nutrition": {
-        "servings": 12,
-        "cal": 291,
-        "protein": 7,
-        "carbs": 42,
-        "fat": 11,
-        "fibre": 3,
-        "sodium": 185,
-        "coverage": 100
+  "id": "basicmuffinmix",
+  "title": "Basic Muffin Mix",
+  "emoji": "🧁",
+  "category": "Baking",
+  "difficulty": "Beginner",
+  "description": "A simple, dependable base recipe — sweet or savoury, load it up any way you like.",
+  "prepTime": "10 min",
+  "cookTime": "20 min",
+  "totalTime": "30 min",
+  "servings": "12 muffins",
+  "tags": [
+    "Baked",
+    "Breakfast",
+    "Snack",
+    "Sweet",
+    "Under 30 Minutes",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "heading": "Muffin Base"
     },
-    "cuisine": "American / Modern"
+    {
+      "quantity": "150",
+      "unit": "g",
+      "item": "Self-raising Flour"
+    },
+    {
+      "quantity": "150",
+      "unit": "g",
+      "item": "Plain Flour"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "White Sugar",
+      "notes": "omit for savoury"
+    },
+    {
+      "quantity": "60",
+      "unit": "ml",
+      "item": "Vegetable Oil"
+    },
+    {
+      "quantity": "250",
+      "unit": "ml",
+      "item": "Milk"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Egg"
+    },
+    {
+      "quantity": "2.5",
+      "unit": "g",
+      "item": "Salt"
+    },
+    {
+      "quantity": "5",
+      "unit": "ml",
+      "item": "Vanilla Extract",
+      "notes": "omit for savoury"
+    },
+    {
+      "heading": "Sweet Options (choose one or combine)"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Dark Chocolate Chips",
+      "notes": "toss in flour to prevent sinking"
+    },
+    {
+      "quantity": "80",
+      "unit": "g",
+      "item": "Sultanas"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Blueberries",
+      "notes": "fresh or frozen"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Apple",
+      "notes": "grated, plus 5 g cinnamon"
+    },
+    {
+      "quantity": "20",
+      "unit": "g",
+      "item": "Cocoa Powder",
+      "notes": "replace 20 g plain flour with cocoa"
+    },
+    {
+      "heading": "Savoury Options (choose one or combine, omit sugar and vanilla)"
+    },
+    {
+      "quantity": "50",
+      "unit": "g",
+      "item": "Tasty Cheese",
+      "notes": "grated, plus 50 g cooked bacon, drained"
+    },
+    {
+      "quantity": "80",
+      "unit": "g",
+      "item": "Spinach",
+      "notes": "chopped, plus 80 g crumbled feta"
+    },
+    {
+      "quantity": "80",
+      "unit": "g",
+      "item": "Pumpkin",
+      "notes": "roasted and diced, plus 20 g pumpkin seeds"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 180°C. Grease a 12-cup muffin tin or line with paper liners."
+    },
+    {
+      "step": 2,
+      "instruction": "In a large bowl, mix the self-raising flour, plain flour, sugar, and salt. Add your chosen additions and stir to combine."
+    },
+    {
+      "step": 3,
+      "instruction": "In a separate bowl, whisk together the oil, egg, and milk until well combined. Add vanilla extract if making sweet muffins."
+    },
+    {
+      "step": 4,
+      "instruction": "Pour the wet ingredients into the dry ingredients. Mix gently with a spatula until just combined — the batter should be slightly lumpy. Do not overmix or the muffins will be tough."
+    },
+    {
+      "step": 5,
+      "instruction": "Divide the mixture evenly between the muffin cups, filling each about three-quarters full."
+    },
+    {
+      "step": 6,
+      "instruction": "Bake for 18–22 minutes, or until a skewer inserted into the centre comes out clean and the tops are golden and spring back when lightly touched."
+    },
+    {
+      "step": 7,
+      "instruction": "Cool in the tin for 5 minutes, then transfer to a wire rack. Serve warm or at room temperature."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Don't Overmix",
+      "content": "The secret to tender muffins is gentle mixing. Lumpy batter is perfect — overmixing develops gluten and makes muffins tough and dense."
+    },
+    {
+      "type": "technique",
+      "title": "Chocolate Chip Trick",
+      "content": "Toss chocolate chips in a little plain flour before adding to the batter. This prevents them from sinking to the bottom during baking."
+    },
+    {
+      "type": "serving",
+      "title": "Serving Tip",
+      "content": "Microwave for 10–20 seconds before serving for that fresh-from-the-oven warmth."
+    },
+    {
+      "type": "storage",
+      "title": "Storage",
+      "content": "Store in an airtight container for 2–3 days, or freeze for up to 2 months."
+    }
+  ],
+  "nutrition": {
+    "servings": 12,
+    "cal": 325,
+    "kj": 1359,
+    "protein": 8,
+    "carbs": 45,
+    "sugars": 23,
+    "fat": 12,
+    "saturated_fat": 3.9,
+    "fiber": 3,
+    "sodium": 265,
+    "coverage": 100,
+    "calcium_mg": 82,
+    "iron_mg": 2,
+    "potassium_mg": 334,
+    "magnesium_mg": 36,
+    "zinc_mg": 1,
+    "cholesterol_mg": 96,
+    "vitamin_a_ug": 89,
+    "vitamin_c_mg": 3,
+    "vitamin_d_ug": 1
+  },
+  "lastModified": "2026-06-04"
 }
