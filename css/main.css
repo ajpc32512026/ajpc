@@ -11,6 +11,7 @@
    CSS VARIABLES
 ========================================================= */
 :root {
+	--nav-height: 110px; /* approximate height of both nav rows */
     /* Core Palette */
     --ink: #16161a;
     --ink-soft: #1e1e24;
@@ -106,6 +107,7 @@ html {
 }
 
 body {
+	padding-top: var(--nav-height, 110px); /* offset for fixed nav */
     font-family: var(--font-body);
     font-weight: 400;
     line-height: 1.75;
@@ -230,8 +232,11 @@ li {
    NAVIGATION
 ========================================================= */
 .nav-header {
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
     background: rgba(22, 22, 26, 0.96);
     border-bottom: 1px solid var(--border-mid);
     backdrop-filter: blur(12px);
