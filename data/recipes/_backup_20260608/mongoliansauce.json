@@ -1,0 +1,131 @@
+{
+    "id": "mongolianstirfrysauce",
+    "title": "Mongolian Stir-Fry Sauce",
+    "emoji": "🐂",
+    "category": "Sauces",
+    "description": "A rich, sticky, savoury-sweet sauce perfect with beef, chicken, or vegetables.",
+    "prepTime": "5 min",
+    "cookTime": "3 min",
+    "totalTime": "8 min",
+    "servings": "1 batch",
+    "difficulty": "Beginner",
+    "tags": [
+        "Alcohol",
+        "Chinese",
+        "Make Ahead",
+        "Sauce",
+        "Savoury",
+        "Sweet",
+        "Under 30 Minutes",
+        "Vegan"
+    ],
+    "ingredients": [
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Cornflour"
+        },
+        {
+            "quantity": "10",
+            "unit": "ml",
+            "item": "Dark Soy Sauce"
+        },
+        {
+            "quantity": "5",
+            "unit": "ml",
+            "item": "Light Soy Sauce"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Sambal Oelek"
+        },
+        {
+            "quantity": "15",
+            "unit": "ml",
+            "item": "Hoisin Sauce"
+        },
+        {
+            "quantity": "15",
+            "unit": "ml",
+            "item": "Chinese Rice Wine"
+        },
+        {
+            "quantity": "2",
+            "unit": "g",
+            "item": "Chinese Five Spice"
+        },
+        {
+            "quantity": "60",
+            "unit": "ml",
+            "item": "Water"
+        },
+        {
+            "quantity": "5",
+            "unit": "ml",
+            "item": "Sesame Oil"
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "In a small bowl, mix cornflour with dark soy sauce and light soy sauce until smooth."
+        },
+        {
+            "step": 2,
+            "instruction": "Add sambal oelek, hoisin sauce, Chinese rice wine, five spice, water, and sesame oil. Stir well to combine."
+        },
+        {
+            "step": 3,
+            "instruction": "Pour into a small saucepan or wok and heat gently, stirring, until the sauce thickens, about 2–3 minutes."
+        },
+        {
+            "step": 4,
+            "instruction": "Use immediately over cooked meat or vegetables, or cool and store in an airtight container in the refrigerator for up to 1 week."
+        }
+    ],
+    "notes": [
+        {
+            "type": "technique",
+            "title": "Make Ahead",
+            "content": "This sauce can be made in advance and stored in the refrigerator. Reheat gently before using — it will thicken when cold."
+        },
+        {
+            "type": "acknowledgement",
+            "title": "Recipe Inspiration",
+            "content": "Adapted from traditional Chinese stir-fry sauces, balancing heat, sweetness, and umami."
+        }
+    ],
+    "related": [
+        {
+            "id": "mongolianbeef",
+            "title": "Mongolian Beef Stir-Fry"
+        },
+        {
+            "id": "mongolianlamb",
+            "title": "Mongolian Lamb"
+        },
+        {
+            "id": "sweetsoursauce_quick",
+            "title": "Sweet & Sour — Quick"
+        },
+        {
+            "id": "honeygarlicsauce",
+            "title": "Honey Garlic Sauce"
+        },
+        {
+            "id": "teriyakisauce",
+            "title": "Teriyaki Sauce"
+        }
+    ],
+    "nutrition": {
+        "servings": 1,
+        "cal": 131,
+        "protein": 2,
+        "carbs": 14,
+        "fat": 6,
+        "fibre": 1,
+        "sodium": 1302,
+        "coverage": 100
+    }
+}

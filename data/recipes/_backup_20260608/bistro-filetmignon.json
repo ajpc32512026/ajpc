@@ -1,0 +1,137 @@
+{
+    "id": "filetmignon",
+    "title": "Filet Mignon",
+    "emoji": "🥩",
+    "category": "Bistro",
+    "description": "Scotch fillet wrapped in bacon with a mushroom and demi glace cream sauce. Simple, rich, and timeless.",
+    "prepTime": "5 min",
+    "cookTime": "8 min",
+    "totalTime": "13 min",
+    "servings": "1 serving",
+    "difficulty": "Intermediate",
+    "tags": [
+        "Beef",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+    ],
+    "ingredients": [
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Beef, Scotch Fillet",
+            "notes": "approximately 300 g"
+        },
+        {
+            "quantity": "1",
+            "unit": "rasher",
+            "item": "Bacon",
+            "notes": "for wrapping"
+        },
+        {
+            "quantity": "50",
+            "unit": "g",
+            "item": "Mushrooms",
+            "notes": "sliced"
+        },
+        {
+            "quantity": "30",
+            "unit": "g",
+            "item": "Unsalted Butter"
+        },
+        {
+            "quantity": "60",
+            "unit": "ml",
+            "item": "Demi Glace"
+        },
+        {
+            "quantity": "60",
+            "unit": "ml",
+            "item": "Thickened Cream"
+        },
+        {
+            "item": "Salt & Pepper",
+            "toTaste": true,
+            "notes": "Don't add too much all at once — you can't take it out once it's in."
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Wrap a rasher of bacon around each scotch fillet and secure with a toothpick or kitchen twine."
+        },
+        {
+            "step": 2,
+            "instruction": "Pan-fry or grill over high heat to desired doneness, about 3–4 minutes per side for medium-rare. Remove and rest on a warm plate. Remove the toothpick."
+        },
+        {
+            "step": 3,
+            "instruction": "In the same pan, melt butter over medium heat. Add diced onion and cook until softened, about 2–3 minutes. Add mushrooms and cook until golden, about 3–4 minutes."
+        },
+        {
+            "step": 4,
+            "instruction": "Pour in demi glace and thickened cream. Stir and reduce for 2–3 minutes until the sauce is rich and glossy. Season with salt."
+        },
+        {
+            "step": 5,
+            "instruction": "Plate the bacon-wrapped filet and spoon the mushroom cream sauce generously over the top."
+        }
+    ],
+    "notes": [
+        {
+            "type": "technique",
+            "title": "Demi-Forward Sauce",
+            "content": "The sauce is demi glace-forward with cream added for richness and body — not a cream-dominant sauce. The demi carries the beefy depth while the cream smooths and enriches."
+        }
+    ],
+    "related": [
+        {
+            "id": "bistro-mediterraneansteak",
+            "title": "Mediterranean Steak"
+        },
+        {
+            "id": "bistro-brandymustardsteak",
+            "title": "Brandy Mustard Steak"
+        },
+        {
+            "id": "bistro-steakboston",
+            "title": "Steak Boston"
+        },
+        {
+            "id": "bistro-carpetbag",
+            "title": "Carpet Bag"
+        },
+        {
+            "id": "bistro-reefandbeef",
+            "title": "Reef and Beef"
+        }
+    ],
+    "nutrition": {
+        "servings": 1,
+        "cal": 882,
+        "kj": 3692,
+        "protein": 25,
+        "carbs": 54,
+        "sugars": 8,
+        "fat": 62,
+        "saturated_fat": 37,
+        "fibre": 4,
+        "sodium": 927,
+        "coverage": 86,
+        "calcium_mg": 119,
+        "iron_mg": 2,
+        "potassium_mg": 578,
+        "magnesium_mg": 45,
+        "zinc_mg": 2,
+        "cholesterol_mg": 241,
+        "vitamin_a_ug": 483,
+        "vitamin_c_mg": 4,
+        "vitamin_d_ug": 3
+    },
+    "lastModified": "2026-05-24",
+    "cuisine": "French"
+}

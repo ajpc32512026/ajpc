@@ -1,291 +1,274 @@
 {
-    "id": "pineappleupsidedowncake",
-    "title": "Pineapple Upside-Down Cake",
-    "emoji": "🍍",
-    "category": "Baking",
-    "description": "Sticky, caramelised pineapple upside-down cake. Built from pantry staples, baked in a water tray for a moist, even crumb, flipped warm, and it didn't stick. Looks awesome. Tastes even better.",
-    "prepTime": "15 min",
-    "cookTime": "45 min",
-    "totalTime": "1 hr",
-    "servings": "10 servings",
-    "difficulty": "Beginner",
-    "tags": [
-        "Baking",
-        "Beginner Friendly",
-        "Caramel",
-        "Fruit Dessert",
-        "Pantry Recipe",
-        "Pineapple",
-        "Upside-Down Cake",
-        "Vegetarian"
-    ],
-    "ingredients": [
-        {
-            "heading": "Caramel Topping"
-        },
-        {
-            "quantity": "90",
-            "unit": "g",
-            "item": "Brown Sugar",
-            "notes": "packed"
-        },
-        {
-            "quantity": "45",
-            "unit": "ml",
-            "item": "Pineapple Juice",
-            "notes": "from the can"
-        },
-        {
-            "quantity": "5",
-            "unit": "",
-            "item": "Canned Pineapple Rings",
-            "notes": "patted dry"
-        },
-        {
-            "heading": "Cake Batter"
-        },
-        {
-            "quantity": "200",
-            "unit": "g",
-            "item": "Plain Flour"
-        },
-        {
-            "quantity": "10",
-            "unit": "g",
-            "item": "Baking Powder"
-        },
-        {
-            "quantity": "2",
-            "unit": "g",
-            "item": "Salt"
-        },
-        {
-            "quantity": "160",
-            "unit": "g",
-            "item": "White Sugar"
-        },
-        {
-            "quantity": "110",
-            "unit": "ml",
-            "item": "Vegetable Oil"
-        },
-        {
-            "quantity": "2",
-            "unit": "",
-            "item": "Eggs",
-            "notes": "large eggs"
-        },
-        {
-            "quantity": "120",
-            "unit": "ml",
-            "item": "Pineapple Juice",
-            "notes": "from can"
-        }
-    ],
-    "youWillNeed": [
-        {
-            "item": "20 cm round cake tin",
-            "note": "at least 6 cm deep"
-        },
-        {
-            "item": "Deep roasting tray",
-            "note": "for the water bath — filled with 2–3 cm boiling water"
-        },
-        {
-            "item": "Large mixing bowl"
-        },
-        {
-            "item": "Small bowl",
-            "note": "for the caramel paste"
-        },
-        {
-            "item": "Whisk or hand mixer"
-        },
-        {
-            "item": "Skewer or toothpick",
-            "note": "for doneness test"
-        },
-        {
-            "item": "Serving plate or board",
-            "note": "wider than the tin for the flip"
-        }
-    ],
-    "method": [
-        {
-            "step": 1,
-            "instruction": "Preheat oven to 175°C (350°F). Grease a 20 cm round cake tin well and line the base with baking paper."
-        },
-        {
-            "step": 2,
-            "instruction": "Place a deep roasting tray on the bottom rack of the oven and fill with 2–3 cm of boiling water. This is your steam tray — it stays in the oven the whole time."
-        },
-        {
-            "step": 3,
-            "instruction": "In a small bowl, mix 90 g brown sugar with 45 ml pineapple juice until a thick paste forms. Spread evenly across the base of the tin."
-        },
-        {
-            "step": 4,
-            "instruction": "Pat the pineapple rings dry with paper towel, then arrange them on top of the caramel paste in a single layer."
-        },
-        {
-            "step": 5,
-            "instruction": "In a large bowl, whisk together 160 g white sugar, 110 ml vegetable oil, and the eggs until pale and slightly thickened — about 2 minutes."
-        },
-        {
-            "step": 6,
-            "instruction": "Sift in 200 g plain flour, 10 g baking powder, and 2 g salt. Fold gently until just combined."
-        },
-        {
-            "step": 7,
-            "instruction": "Pour in 120 ml pineapple juice and fold through until the batter is smooth and uniform. Do not overmix."
-        },
-        {
-            "step": 8,
-            "instruction": "Pour the batter over the pineapple topping and spread level with a spatula."
-        },
-        {
-            "step": 9,
-            "instruction": "Place the cake tin on the middle rack, directly above the water tray. Bake for 40–45 minutes until deep golden and a skewer inserted in the centre comes out clean."
-        },
-        {
-            "step": 10,
-            "instruction": "Remove from oven and rest in the tin for exactly 5 minutes — no more. This is the window: too soon and it falls apart, too late and the caramel sets and glues to the tin."
-        },
-        {
-            "step": 11,
-            "instruction": "Run a thin knife around the edge of the tin. Place a serving plate face-down over the tin, hold both firmly, and flip in one confident motion."
-        },
-        {
-            "step": 12,
-            "instruction": "Lift the tin straight up. If any fruit sticks, peel it off and press it back into place. Cool for 15 minutes before slicing. Serve warm or at room temperature."
-        }
-    ],
-    "notes": [
-        {
-            "type": "technique",
-            "title": "The 5-Minute Flip Window",
-            "content": "5 minutes out of the oven is non-negotiable. Too soon — the batter hasn't set fully and the cake splits. Too late — the caramel cools, hardens, and welds the fruit to the tin. Set a timer."
-        },
-        {
-            "type": "technique",
-            "title": "Why Plain Flour + Baking Powder",
-            "content": "Self-raising flour has baking powder baked in at a fixed ratio you can't control. Using plain flour and measured baking powder (10 g per 200 g flour) gives consistent lift every time. No bi-carb needed — there's no strong acid in the batter to activate it."
-        },
-        {
-            "type": "technique",
-            "title": "Water Tray in the Oven",
-            "content": "A tray of boiling water on the bottom rack creates steam throughout the bake. This keeps the crumb moist and tender, slows the top from over-browning, and prevents the surface from cracking. It's a small step that makes a noticeable difference."
-        },
-        {
-            "type": "technique",
-            "title": "Caramel Without Butter",
-            "content": "Brown sugar dissolved in pineapple juice forms a sticky, glossy caramel topping with no dairy required. Patting the rings dry first stops the caramel from watering down and ensures good colour."
-        },
-        {
-            "type": "serving",
-            "title": "Serving",
-            "content": "Best served warm, about 15 minutes after flipping. A spoonful of thickened cream or vanilla ice cream alongside is not optional."
-        },
-        {
-            "type": "storage",
-            "title": "Storage",
-            "content": "Cover and refrigerate for up to 3 days. Best within 24 hours. Reheat individual slices in the microwave for 10–12 seconds to restore the sticky caramel texture."
-        }
-    ],
-    "journal": [
-        {
-            "date": "2026-05-30",
-            "content": "Made with 86 g brown sugar and 150 ml pineapple juice at the time. Used a water basin — added 10 minutes to bake time. Flipped at exactly 5 minutes. Didn't stick. Looked awesome. Dish pig survived."
-        }
-    ],
-    "related": [
-        {
-            "id": "chefstyletiramisugateau",
-            "title": "Chef-Style Tiramisu Gateau",
-            "matchingTags": [
-                "Alcohol",
-                "Classic",
-                "Coffee",
-                "Creamy",
-                "Dessert",
-                "Italian",
-                "Make Ahead",
-                "Rich",
-                "Sweet",
-                "Vegetarian"
-            ]
-        },
-        {
-            "id": "theultimatechocolatemudcake",
-            "title": "The Ultimate Chocolate Mud Cake",
-            "matchingTags": [
-                "Chocolate",
-                "Cake",
-                "Dessert",
-                "Rich",
-                "Sweet"
-            ]
-        },
-        {
-            "id": "plaincheesecakeclassicnobake",
-            "title": "Plain Cheesecake (Classic No Bake)",
-            "matchingTags": [
-                "Classic",
-                "Creamy",
-                "Dessert",
-                "Make Ahead",
-                "No-Bake",
-                "Rich",
-                "Sweet",
-                "Vegetarian"
-            ]
-        },
-        {
-            "id": "bananacake",
-            "title": "Banana Cake with Lemon Frosting",
-            "matchingTags": [
-                "Banana",
-                "Cake",
-                "Citrus",
-                "Sweet",
-                "Vegetarian"
-            ]
-        },
-        {
-            "id": "cherrycoconutcake",
-            "title": "Cherry and Coconut Cake",
-            "matchingTags": [
-                "Baking",
-                "Cake",
-                "Cherry",
-                "Coconut",
-                "Dessert",
-                "Pound Cake",
-                "Sweet"
-            ]
-        }
-    ],
-    "nutrition": {
-        "servings": 10,
-        "cal": 327,
-        "kj": 1368,
-        "protein": 5,
-        "carbs": 47,
-        "sugars": 32,
-        "fat": 13,
-        "saturated_fat": 1,
-        "fiber": 2,
-        "sodium": 177,
-        "coverage": 100,
-        "calcium_mg": 31,
-        "iron_mg": 1,
-        "potassium_mg": 245,
-        "magnesium_mg": 16,
-        "cholesterol_mg": 98,
-        "vitamin_a_ug": 26,
-        "vitamin_c_mg": 1,
-        "vitamin_d_ug": 1
+  "id": "pineappleupsidedowncake",
+  "title": "Pineapple Upside-Down Cake",
+  "category": "Baking",
+  "description": "Sticky, caramelised pineapple upside-down cake. Built from pantry staples, baked in a water tray for a moist, even crumb, flipped warm, and it didn't stick. Looks awesome. Tastes even better.",
+  "prepTime": "15 min",
+  "cookTime": "45 min",
+  "totalTime": "1 hr",
+  "servings": "10 servings",
+  "difficulty": "Beginner",
+  "tags": [
+    "Baking",
+    "Beginner Friendly",
+    "Caramel",
+    "Fruit Dessert",
+    "Pantry Recipe",
+    "Pineapple",
+    "Upside-Down Cake",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "heading": "Caramel Topping"
     },
-    "lastModified": "2026-05-31",
-    "cuisine": "American / Modern"
+    {
+      "quantity": "90",
+      "unit": "g",
+      "item": "Brown Sugar",
+      "notes": "packed"
+    },
+    {
+      "quantity": "45",
+      "unit": "ml",
+      "item": "Pineapple Juice",
+      "notes": "from the can"
+    },
+    {
+      "quantity": "5",
+      "unit": "",
+      "item": "Canned Pineapple Rings",
+      "notes": "patted dry"
+    },
+    {
+      "heading": "Cake Batter"
+    },
+    {
+      "quantity": "200",
+      "unit": "g",
+      "item": "Plain Flour"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Baking Powder"
+    },
+    {
+      "quantity": "2",
+      "unit": "g",
+      "item": "Salt"
+    },
+    {
+      "quantity": "160",
+      "unit": "g",
+      "item": "White Sugar"
+    },
+    {
+      "quantity": "110",
+      "unit": "ml",
+      "item": "Vegetable Oil"
+    },
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Eggs",
+      "notes": "large eggs"
+    },
+    {
+      "quantity": "120",
+      "unit": "ml",
+      "item": "Pineapple Juice",
+      "notes": "from can"
+    }
+  ],
+  "youWillNeed": [
+    {
+      "item": "20 cm round cake tin",
+      "note": "at least 6 cm deep"
+    },
+    {
+      "item": "Deep roasting tray",
+      "note": "for the water bath — filled with 2–3 cm boiling water"
+    },
+    {
+      "item": "Large mixing bowl"
+    },
+    {
+      "item": "Small bowl",
+      "note": "for the caramel paste"
+    },
+    {
+      "item": "Whisk or hand mixer"
+    },
+    {
+      "item": "Skewer or toothpick",
+      "note": "for doneness test"
+    },
+    {
+      "item": "Serving plate or board",
+      "note": "wider than the tin for the flip"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 175°C (350°F). Grease a 20 cm round cake tin well and line the base with baking paper."
+    },
+    {
+      "step": 2,
+      "instruction": "Place a deep roasting tray on the bottom rack of the oven and fill with 2–3 cm of boiling water. This is your steam tray — it stays in the oven the whole time."
+    },
+    {
+      "step": 3,
+      "instruction": "In a small bowl, mix 90 g brown sugar with 45 ml pineapple juice until a thick paste forms. Spread evenly across the base of the tin."
+    },
+    {
+      "step": 4,
+      "instruction": "Pat the pineapple rings dry with paper towel, then arrange them on top of the caramel paste in a single layer."
+    },
+    {
+      "step": 5,
+      "instruction": "In a large bowl, whisk together 160 g white sugar, 110 ml vegetable oil, and the eggs until pale and slightly thickened — about 2 minutes."
+    },
+    {
+      "step": 6,
+      "instruction": "Sift in 200 g plain flour, 10 g baking powder, and 2 g salt. Fold gently until just combined."
+    },
+    {
+      "step": 7,
+      "instruction": "Pour in 120 ml pineapple juice and fold through until the batter is smooth and uniform. Do not overmix."
+    },
+    {
+      "step": 8,
+      "instruction": "Pour the batter over the pineapple topping and spread level with a spatula."
+    },
+    {
+      "step": 9,
+      "instruction": "Place the cake tin on the middle rack, directly above the water tray. Bake for 40–45 minutes until deep golden and a skewer inserted in the centre comes out clean."
+    },
+    {
+      "step": 10,
+      "instruction": "Remove from oven and rest in the tin for exactly 5 minutes — no more. This is the window: too soon and it falls apart, too late and the caramel sets and glues to the tin."
+    },
+    {
+      "step": 11,
+      "instruction": "Run a thin knife around the edge of the tin. Place a serving plate face-down over the tin, hold both firmly, and flip in one confident motion."
+    },
+    {
+      "step": 12,
+      "instruction": "Lift the tin straight up. If any fruit sticks, peel it off and press it back into place. Cool for 15 minutes before slicing. Serve warm or at room temperature."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "The 5-Minute Flip Window",
+      "content": "5 minutes out of the oven is non-negotiable. Too soon — the batter hasn't set fully and the cake splits. Too late — the caramel cools, hardens, and welds the fruit to the tin. Set a timer."
+    },
+    {
+      "type": "technique",
+      "title": "Why Plain Flour + Baking Powder",
+      "content": "Self-raising flour has baking powder baked in at a fixed ratio you can't control. Using plain flour and measured baking powder (10 g per 200 g flour) gives consistent lift every time. No bi-carb needed — there's no strong acid in the batter to activate it."
+    },
+    {
+      "type": "technique",
+      "title": "Water Tray in the Oven",
+      "content": "A tray of boiling water on the bottom rack creates steam throughout the bake. This keeps the crumb moist and tender, slows the top from over-browning, and prevents the surface from cracking. It's a small step that makes a noticeable difference."
+    },
+    {
+      "type": "technique",
+      "title": "Caramel Without Butter",
+      "content": "Brown sugar dissolved in pineapple juice forms a sticky, glossy caramel topping with no dairy required. Patting the rings dry first stops the caramel from watering down and ensures good colour."
+    },
+    {
+      "type": "serving",
+      "title": "Serving",
+      "content": "Best served warm, about 15 minutes after flipping. A spoonful of thickened cream or vanilla ice cream alongside is not optional."
+    },
+    {
+      "type": "storage",
+      "title": "Storage",
+      "content": "Cover and refrigerate for up to 3 days. Best within 24 hours. Reheat individual slices in the microwave for 10–12 seconds to restore the sticky caramel texture."
+    }
+  ],
+  "journal": [
+    {
+      "date": "2026-05-30",
+      "content": "Made with 86 g brown sugar and 150 ml pineapple juice at the time. Used a water basin — added 10 minutes to bake time. Flipped at exactly 5 minutes. Didn't stick. Looked awesome. Dish pig survived."
+    }
+  ],
+  "related": [
+    {
+      "id": "theultimatechocolatemudcake",
+      "title": "The Ultimate Chocolate Mud Cake",
+      "matchingTags": [
+        "Chocolate",
+        "Cake",
+        "Dessert",
+        "Rich",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "plaincheesecakeclassicnobake",
+      "title": "Plain Cheesecake (Classic No Bake)",
+      "matchingTags": [
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Make Ahead",
+        "No-Bake",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bananacake",
+      "title": "Banana Cake with Lemon Frosting",
+      "matchingTags": [
+        "Banana",
+        "Cake",
+        "Citrus",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "cherrycoconutcake",
+      "title": "Cherry and Coconut Cake",
+      "matchingTags": [
+        "Baking",
+        "Cake",
+        "Cherry",
+        "Coconut",
+        "Dessert",
+        "Pound Cake",
+        "Sweet"
+      ]
+    }
+  ],
+  "nutrition": {
+    "servings": 10,
+    "cal": 327,
+    "kj": 1368,
+    "protein": 5,
+    "carbs": 47,
+    "sugars": 32,
+    "fat": 13,
+    "saturated_fat": 1,
+    "fiber": 2,
+    "sodium": 177,
+    "coverage": 100,
+    "calcium_mg": 31,
+    "iron_mg": 1,
+    "potassium_mg": 245,
+    "magnesium_mg": 16,
+    "cholesterol_mg": 98,
+    "vitamin_a_ug": 26,
+    "vitamin_c_mg": 1,
+    "vitamin_d_ug": 1
+  },
+  "lastModified": "2026-05-31",
+  "cuisine": "American / Modern"
 }

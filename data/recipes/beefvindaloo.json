@@ -1,241 +1,240 @@
 {
-    "id": "beefvindaloo",
-    "title": "Beef Vindaloo",
-    "emoji": "🔥",
-    "category": "Dinner",
-    "description": "An authentic, fiery, melt-in-your-mouth beef curry that doesn't muck around.",
-    "prepTime": "15 min",
-    "cookTime": "1 hr",
-    "totalTime": "1 hr 15 min",
-    "servings": "4 servings",
-    "difficulty": "Intermediate",
-    "tags": [
-        "Beef",
+  "id": "beefvindaloo",
+  "title": "Beef Vindaloo",
+  "category": "Dinner",
+  "description": "An authentic, fiery, melt-in-your-mouth beef curry that doesn't muck around.",
+  "prepTime": "15 min",
+  "cookTime": "1 hr",
+  "totalTime": "1 hr 15 min",
+  "servings": "4 servings",
+  "difficulty": "Intermediate",
+  "tags": [
+    "Beef",
+    "Curry",
+    "Dinner",
+    "Indian",
+    "Make Ahead",
+    "Rich",
+    "Savoury",
+    "Slow-Cooked",
+    "Spicy"
+  ],
+  "ingredients": [
+    {
+      "quantity": "1",
+      "unit": "kg",
+      "item": "Beef",
+      "notes": "cut into 2.5 cm cubes"
+    },
+    {
+      "quantity": "45",
+      "unit": "ml",
+      "item": "Vegetable Oil"
+    },
+    {
+      "quantity": "300",
+      "unit": "g",
+      "item": "Brown Onion",
+      "notes": "chopped"
+    },
+    {
+      "quantity": "3",
+      "unit": "cloves",
+      "item": "Garlic",
+      "notes": "chopped"
+    },
+    {
+      "quantity": "3",
+      "unit": "g",
+      "item": "Turmeric"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Red Chilli Powder"
+    },
+    {
+      "quantity": "250",
+      "unit": "g",
+      "item": "Tomatoes",
+      "notes": "chopped"
+    },
+    {
+      "quantity": "40",
+      "unit": "g",
+      "item": "Tomato Paste"
+    },
+    {
+      "quantity": "30",
+      "unit": "ml",
+      "item": "White Vinegar"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "White Sugar"
+    },
+    {
+      "quantity": "250",
+      "unit": "ml",
+      "item": "Hot Water"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Coriander (Fresh)",
+      "notes": "for garnish"
+    },
+    {
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Prepare 1 batch of [[vindaloopaste|Vindaloo Paste]] according to the recipe. Set aside."
+    },
+    {
+      "step": 2,
+      "instruction": "Place beef in a large bowl. Add the vindaloo paste and toss to coat evenly. Cover and marinate at least 1 hour at room temperature, or refrigerate overnight for deeper flavour."
+    },
+    {
+      "step": 3,
+      "instruction": "Heat vegetable oil in a large heavy-based pot over medium-high heat. Add onions and sauté 2–3 minutes until soft. Add garlic and sauté 1 minute until fragrant."
+    },
+    {
+      "step": 4,
+      "instruction": "Add turmeric, chilli powder, chopped tomatoes, tomato paste, and white vinegar. Cook 2–3 minutes until tomatoes break down."
+    },
+    {
+      "step": 5,
+      "instruction": "Add marinated beef and sugar. Season with salt. Cook for 10 minutes, stirring occasionally."
+    },
+    {
+      "step": 6,
+      "instruction": "Pour in hot water, bring to the boil, reduce heat to low, cover, and simmer for 1 hour or until beef is tender and sauce has thickened."
+    },
+    {
+      "step": 7,
+      "instruction": "If sauce is too thin, uncover and simmer for a further 5–10 minutes to reduce."
+    },
+    {
+      "step": 8,
+      "instruction": "Garnish with fresh coriander and serve with steamed rice."
+    }
+  ],
+  "notes": [
+    {
+      "type": "substitution",
+      "title": "Vinegar Substitute",
+      "content": "You can substitute white vinegar with apple cider vinegar, rice wine vinegar, or lemon juice for similar acidity and flavour."
+    },
+    {
+      "type": "technique",
+      "title": "Overnight Marinade",
+      "content": "For the deepest flavour, marinate the beef overnight in the refrigerator. The vinegar and spices will tenderise the meat while infusing it with flavour."
+    },
+    {
+      "type": "technique",
+      "title": "Paste Yield",
+      "content": "The vindaloo paste recipe yields approximately 80–100 g — exactly the right amount for 1 kg of beef. Use the full batch."
+    }
+  ],
+  "related": [
+    {
+      "id": "vindaloopaste",
+      "title": "Vindaloo Paste",
+      "matchingTags": [
+        "Indian",
+        "Make Ahead",
+        "Savoury",
+        "Spicy",
+        "Vegan",
+        "Gluten-Free"
+      ]
+    },
+    {
+      "id": "lambvindaloo",
+      "title": "Lamb Vindaloo",
+      "matchingTags": [
         "Curry",
         "Dinner",
         "Indian",
+        "Lamb",
         "Make Ahead",
         "Rich",
         "Savoury",
         "Slow-Cooked",
         "Spicy"
-    ],
-    "ingredients": [
-        {
-            "quantity": "1",
-            "unit": "kg",
-            "item": "Beef",
-            "notes": "cut into 2.5 cm cubes"
-        },
-        {
-            "quantity": "45",
-            "unit": "ml",
-            "item": "Vegetable Oil"
-        },
-        {
-            "quantity": "300",
-            "unit": "g",
-            "item": "Brown Onion",
-            "notes": "chopped"
-        },
-        {
-            "quantity": "3",
-            "unit": "cloves",
-            "item": "Garlic",
-            "notes": "chopped"
-        },
-        {
-            "quantity": "3",
-            "unit": "g",
-            "item": "Turmeric"
-        },
-        {
-            "quantity": "5",
-            "unit": "g",
-            "item": "Red Chilli Powder"
-        },
-        {
-            "quantity": "250",
-            "unit": "g",
-            "item": "Tomatoes",
-            "notes": "chopped"
-        },
-        {
-            "quantity": "40",
-            "unit": "g",
-            "item": "Tomato Paste"
-        },
-        {
-            "quantity": "30",
-            "unit": "ml",
-            "item": "White Vinegar"
-        },
-        {
-            "quantity": "5",
-            "unit": "g",
-            "item": "White Sugar"
-        },
-        {
-            "quantity": "250",
-            "unit": "ml",
-            "item": "Hot Water"
-        },
-        {
-            "quantity": "5",
-            "unit": "g",
-            "item": "Coriander (Fresh)",
-            "notes": "for garnish"
-        },
-        {
-            "item": "Salt & Pepper",
-            "toTaste": true,
-            "notes": "Don't add too much all at once — you can't take it out once it's in."
-        }
-    ],
-    "method": [
-        {
-            "step": 1,
-            "instruction": "Prepare 1 batch of [[vindaloopaste|Vindaloo Paste]] according to the recipe. Set aside."
-        },
-        {
-            "step": 2,
-            "instruction": "Place beef in a large bowl. Add the vindaloo paste and toss to coat evenly. Cover and marinate at least 1 hour at room temperature, or refrigerate overnight for deeper flavour."
-        },
-        {
-            "step": 3,
-            "instruction": "Heat vegetable oil in a large heavy-based pot over medium-high heat. Add onions and sauté 2–3 minutes until soft. Add garlic and sauté 1 minute until fragrant."
-        },
-        {
-            "step": 4,
-            "instruction": "Add turmeric, chilli powder, chopped tomatoes, tomato paste, and white vinegar. Cook 2–3 minutes until tomatoes break down."
-        },
-        {
-            "step": 5,
-            "instruction": "Add marinated beef and sugar. Season with salt. Cook for 10 minutes, stirring occasionally."
-        },
-        {
-            "step": 6,
-            "instruction": "Pour in hot water, bring to the boil, reduce heat to low, cover, and simmer for 1 hour or until beef is tender and sauce has thickened."
-        },
-        {
-            "step": 7,
-            "instruction": "If sauce is too thin, uncover and simmer for a further 5–10 minutes to reduce."
-        },
-        {
-            "step": 8,
-            "instruction": "Garnish with fresh coriander and serve with steamed rice."
-        }
-    ],
-    "notes": [
-        {
-            "type": "substitution",
-            "title": "Vinegar Substitute",
-            "content": "You can substitute white vinegar with apple cider vinegar, rice wine vinegar, or lemon juice for similar acidity and flavour."
-        },
-        {
-            "type": "technique",
-            "title": "Overnight Marinade",
-            "content": "For the deepest flavour, marinate the beef overnight in the refrigerator. The vinegar and spices will tenderise the meat while infusing it with flavour."
-        },
-        {
-            "type": "technique",
-            "title": "Paste Yield",
-            "content": "The vindaloo paste recipe yields approximately 80–100 g — exactly the right amount for 1 kg of beef. Use the full batch."
-        }
-    ],
-    "related": [
-        {
-            "id": "vindaloopaste",
-            "title": "Vindaloo Paste",
-            "matchingTags": [
-                "Indian",
-                "Make Ahead",
-                "Savoury",
-                "Spicy",
-                "Vegan",
-                "Gluten-Free"
-            ]
-        },
-        {
-            "id": "lambvindaloo",
-            "title": "Lamb Vindaloo",
-            "matchingTags": [
-                "Curry",
-                "Dinner",
-                "Indian",
-                "Lamb",
-                "Make Ahead",
-                "Rich",
-                "Savoury",
-                "Slow-Cooked",
-                "Spicy"
-            ]
-        },
-        {
-            "id": "roganjosh",
-            "title": "Lamb Rogan Josh – Restaurant Style",
-            "matchingTags": [
-                "Curry",
-                "Dinner",
-                "Indian",
-                "Lamb",
-                "Rich",
-                "Savoury",
-                "Slow-Cooked",
-                "Spicy"
-            ]
-        },
-        {
-            "id": "butterchicken",
-            "title": "Restaurant-Style Butter Chicken",
-            "matchingTags": [
-                "Chicken",
-                "Creamy",
-                "Curry",
-                "Dinner",
-                "Indian",
-                "Rich",
-                "Savoury",
-                "Under 1 Hour"
-            ]
-        },
-        {
-            "id": "beefstockpot",
-            "title": "Beef Stock Pot",
-            "matchingTags": [
-                "Alcohol",
-                "Beef",
-                "Dinner",
-                "French",
-                "Hearty",
-                "Rich",
-                "Sauce",
-                "Savoury",
-                "Under 30 Minutes"
-            ]
-        }
-    ],
-    "nutrition": {
-        "servings": 4,
-        "cal": 617,
-        "kj": 2580,
-        "protein": 25,
-        "carbs": 77,
-        "sugars": 15,
-        "fat": 19,
-        "saturated_fat": 3,
-        "fiber": 20,
-        "sodium": 333,
-        "coverage": 92,
-        "calcium_mg": 77,
-        "iron_mg": 4,
-        "potassium_mg": 1166,
-        "magnesium_mg": 77,
-        "zinc_mg": 4,
-        "cholesterol_mg": 33,
-        "vitamin_a_ug": 85,
-        "vitamin_c_mg": 34,
-        "vitamin_d_ug": 1
+      ]
     },
-    "lastModified": "2026-05-31"
+    {
+      "id": "roganjosh",
+      "title": "Lamb Rogan Josh – Restaurant Style",
+      "matchingTags": [
+        "Curry",
+        "Dinner",
+        "Indian",
+        "Lamb",
+        "Rich",
+        "Savoury",
+        "Slow-Cooked",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "butterchicken",
+      "title": "Restaurant-Style Butter Chicken",
+      "matchingTags": [
+        "Chicken",
+        "Creamy",
+        "Curry",
+        "Dinner",
+        "Indian",
+        "Rich",
+        "Savoury",
+        "Under 1 Hour"
+      ]
+    },
+    {
+      "id": "beefstockpot",
+      "title": "Beef Stock Pot",
+      "matchingTags": [
+        "Alcohol",
+        "Beef",
+        "Dinner",
+        "French",
+        "Hearty",
+        "Rich",
+        "Sauce",
+        "Savoury",
+        "Under 30 Minutes"
+      ]
+    }
+  ],
+  "nutrition": {
+    "servings": 4,
+    "cal": 617,
+    "kj": 2580,
+    "protein": 25,
+    "carbs": 77,
+    "sugars": 15,
+    "fat": 19,
+    "saturated_fat": 3,
+    "fiber": 20,
+    "sodium": 333,
+    "coverage": 92,
+    "calcium_mg": 77,
+    "iron_mg": 4,
+    "potassium_mg": 1166,
+    "magnesium_mg": 77,
+    "zinc_mg": 4,
+    "cholesterol_mg": 33,
+    "vitamin_a_ug": 85,
+    "vitamin_c_mg": 34,
+    "vitamin_d_ug": 1
+  },
+  "lastModified": "2026-05-31"
 }

@@ -15,7 +15,7 @@ function buildJSON() {
     const obj = { id, title };
 
     // Optional top-level fields — only include if they have values
-    const optFields = ['emoji','category','difficulty','description',
+    const optFields = ['category','difficulty','description',
                        'prepTime','cookTime','totalTime','servings','yieldPerBatch'];
     optFields.forEach(f => { const v = val(f); if (v) obj[f] = v; });
 
@@ -133,7 +133,7 @@ async function openJSONFile() {
             currentFilename = file.name.replace(/\.json$/i, '');
             populateForm(JSON.parse(await file.text()));
             document.getElementById('mode-label').textContent = 'Editing: ' + file.name;
-            document.getElementById('mode-label').style.color = 'var(--gold)';
+            document.getElementById('mode-label').style.color = 'var(--copper)';
             toast('Loaded: ' + file.name);
         } catch(e) { /* User cancelled */ }
     } else {
@@ -151,7 +151,7 @@ function loadJSONFile(event) {
             currentFilename = file.name.replace(/\.json$/i, '');
             populateForm(data);
             document.getElementById('mode-label').textContent = 'Editing: ' + file.name;
-            document.getElementById('mode-label').style.color = 'var(--gold)';
+            document.getElementById('mode-label').style.color = 'var(--copper)';
             toast('Loaded: ' + file.name);
         } catch(err) { alert('Could not parse JSON: ' + err.message); }
     };
@@ -185,7 +185,6 @@ function populateForm(data) {
     });
 
     // Emoji
-    if (data.emoji) pickEmoji(data.emoji);
 
     // Tags
     if (Array.isArray(data.tags)) { tags = [...data.tags]; renderTags(); }
@@ -214,6 +213,12 @@ function populateForm(data) {
     // Journal
     (data.journal || []).forEach(j => addJournalEntry(j.date || '', j.content || ''));
 
+ (data.related || []).forEach(r => {
+        if (typeof window.loadRelatedRecipe === 'function') {
+            // Note: handles both 'matchingTags' and old 'tags' key
+            window.loadRelatedRecipe(r.id, r.title || r.name || r.id, r.matchingTags || r.tags || []);
+        }
+    });
     window.scrollTo(0, 0);
     update();
 

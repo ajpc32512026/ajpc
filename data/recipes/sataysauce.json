@@ -1,113 +1,113 @@
 {
-    "id": "sataysauce",
-    "title": "Satay Sauce",
-    "emoji": "🥜",
-    "category": "Sauces",
-    "description": "Rich, creamy, slightly spicy, and perfect for chicken, beef, lamb, veggies — or eaten straight from the pan when no one's watching.",
-    "prepTime": "5 min",
-    "cookTime": "10 min",
-    "totalTime": "15 min",
-    "servings": "4 servings",
-    "difficulty": "Beginner",
-    "tags": [
-        "Coconut",
-        "Gluten-Free",
-        "Make Ahead",
-        "Sauce",
-        "Savoury",
-        "Spicy",
-        "Vegan"
-    ],
-    "ingredients": [
-        {
-            "quantity": "250",
-            "unit": "g",
-            "item": "Peanut Butter",
-            "notes": "crunchy or smooth"
-        },
-        {
-            "quantity": "60",
-            "unit": "ml",
-            "item": "Soy Sauce"
-        },
-        {
-            "quantity": "10",
-            "unit": "g",
-            "item": "Curry Powder"
-        },
-        {
-            "quantity": "250",
-            "unit": "ml",
-            "item": "Coconut Milk"
-        },
-        {
-            "quantity": "60",
-            "unit": "ml",
-            "item": "Water",
-            "notes": "add gradually to thin as needed"
-        }
-    ],
-    "method": [
-        {
-            "step": 1,
-            "instruction": "Combine peanut butter, soy sauce, curry powder, and coconut milk in a small saucepan."
-        },
-        {
-            "step": 2,
-            "instruction": "Warm gently over low heat, stirring patiently until smooth and well combined. Do not let it boil."
-        },
-        {
-            "step": 3,
-            "instruction": "Add water a splash at a time until the sauce reaches your desired consistency — thick enough to coat, thin enough to pour."
-        },
-        {
-            "step": 4,
-            "instruction": "Taste and adjust: add more curry powder for heat, a splash more soy sauce for depth, or a squeeze of lime for brightness."
-        }
-    ],
-    "notes": [
-        {
-            "type": "technique",
-            "title": "Curry Powder",
-            "content": "Add curry powder gradually and taste as you go — you can always add more, but too much will overpower the peanut flavour. Keen's curry powder works well here."
-        },
-        {
-            "type": "serving",
-            "title": "Serving Tip",
-            "content": "Serve warm over grilled chicken skewers, beef strips, lamb, or roasted vegetables. Also excellent as a dipping sauce for spring rolls or satay skewers."
-        }
-    ],
-    "related": [
-        {
-            "id": "kormapaste",
-            "title": "Homemade Korma Paste"
-        },
-        {
-            "id": "vindaloopaste",
-            "title": "Vindaloo Paste"
-        },
-        {
-            "id": "mongoliansauce",
-            "title": "Mongolian Stir-Fry Sauce"
-        },
-        {
-            "id": "honeygarlicsauce",
-            "title": "Honey Garlic Sauce"
-        },
-        {
-            "id": "sweetchillisauce",
-            "title": "Sweet Chilli Sauce"
-        }
-    ],
-    "nutrition": {
-        "servings": 4,
-        "cal": 527,
-        "protein": 19,
-        "carbs": 18,
-        "fat": 46,
-        "fibre": 6,
-        "sodium": 1134,
-        "coverage": 100
+  "id": "sataysauce",
+  "title": "Satay Sauce",
+  "category": "Sauces",
+  "description": "Rich, creamy, slightly spicy, and perfect for chicken, beef, lamb, veggies — or eaten straight from the pan when no one's watching.",
+  "prepTime": "5 min",
+  "cookTime": "10 min",
+  "totalTime": "15 min",
+  "servings": "4 servings",
+  "difficulty": "Beginner",
+  "tags": [
+    "Coconut",
+    "Gluten-Free",
+    "Make Ahead",
+    "Sauce",
+    "Savoury",
+    "Spicy",
+    "Vegan"
+  ],
+  "ingredients": [
+    {
+      "quantity": "250",
+      "unit": "g",
+      "item": "Peanut Butter",
+      "notes": "crunchy or smooth"
     },
-    "cuisine": "Asian"
+    {
+      "quantity": "60",
+      "unit": "ml",
+      "item": "Soy Sauce"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Curry Powder"
+    },
+    {
+      "quantity": "250",
+      "unit": "ml",
+      "item": "Coconut Milk"
+    },
+    {
+      "quantity": "60",
+      "unit": "ml",
+      "item": "Water",
+      "notes": "add gradually to thin as needed"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Combine peanut butter, soy sauce, curry powder, and coconut milk in a small saucepan."
+    },
+    {
+      "step": 2,
+      "instruction": "Warm gently over low heat, stirring patiently until smooth and well combined. Do not let it boil."
+    },
+    {
+      "step": 3,
+      "instruction": "Add water a splash at a time until the sauce reaches your desired consistency — thick enough to coat, thin enough to pour."
+    },
+    {
+      "step": 4,
+      "instruction": "Taste and adjust: add more curry powder for heat, a splash more soy sauce for depth, or a squeeze of lime for brightness."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Curry Powder",
+      "content": "Add curry powder gradually and taste as you go — you can always add more, but too much will overpower the peanut flavour. Keen's curry powder works well here."
+    },
+    {
+      "type": "serving",
+      "title": "Serving Tip",
+      "content": "Serve warm over grilled chicken skewers, beef strips, lamb, or roasted vegetables. Also excellent as a dipping sauce for spring rolls or satay skewers."
+    }
+  ],
+  "related": [
+    {
+      "id": "kormapaste",
+      "title": "Homemade Korma Paste"
+    },
+    {
+      "id": "vindaloopaste",
+      "title": "Vindaloo Paste"
+    },
+    {
+      "id": "mongoliansauce",
+      "title": "Mongolian Stir-Fry Sauce"
+    },
+    {
+      "id": "honeygarlicsauce",
+      "title": "Honey Garlic Sauce"
+    },
+    {
+      "id": "sweetchillisauce",
+      "title": "Sweet Chilli Sauce"
+    }
+  ],
+  "nutrition": {
+    "servings": 4,
+    "cal": 527,
+    "protein": 19,
+    "carbs": 18,
+    "fat": 46,
+    "fibre": 6,
+    "sodium": 1134,
+    "coverage": 100
+  },
+  "cuisine": "Asian",
+  "lastModified": "2026-06-08"
 }

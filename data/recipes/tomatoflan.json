@@ -1,210 +1,205 @@
 {
-    "id": "tomatoandoliveflan",
-    "title": "Tomato and Olive Flan",
-    "emoji": "🍅",
-    "category": "Entree",
-    "description": "A savoury baked flan filled with tomatoes, olives, basil, and Gruyère cheese.",
-    "prepTime": "30 min",
-    "cookTime": "35 min",
-    "totalTime": "1 hr 35 min",
-    "servings": "4 servings",
-    "difficulty": "Intermediate",
-    "tags": [
-        "Baked",
-        "Dinner",
-        "French",
-        "Pastry",
-        "Rich",
-        "Savoury",
-        "Tomato",
-        "Vegetarian"
-    ],
-    "ingredients": [
-        {
-            "heading": "Pastry"
-        },
-        {
-            "quantity": "250",
-            "unit": "g",
-            "item": "Plain Flour"
-        },
-        {
-            "quantity": "90",
-            "unit": "g",
-            "item": "Unsalted Butter",
-            "notes": "chilled and cubed"
-        },
-        {
-            "quantity": "1",
-            "unit": "",
-            "item": "Egg Yolk"
-        },
-        {
-            "quantity": "15",
-            "unit": "ml",
-            "item": "Water",
-            "notes": "cold"
-        },
-        {
-            "heading": "Filling"
-        },
-        {
-            "quantity": "30",
-            "unit": "ml",
-            "item": "Olive Oil"
-        },
-        {
-            "quantity": "10",
-            "unit": "g",
-            "item": "Dijon Mustard"
-        },
-        {
-            "quantity": "15",
-            "unit": "g",
-            "item": "Unsalted Butter"
-        },
-        {
-            "quantity": "6",
-            "unit": "",
-            "item": "Tomatoes",
-            "notes": "small, chopped"
-        },
-        {
-            "quantity": "3",
-            "unit": "",
-            "item": "Brown Onion",
-            "notes": "large, sliced"
-        },
-        {
-            "quantity": "5",
-            "unit": "g",
-            "item": "White Sugar"
-        },
-        {
-            "quantity": "10",
-            "unit": "g",
-            "item": "Basil",
-            "notes": "fresh, chopped"
-        },
-        {
-            "quantity": "150",
-            "unit": "g",
-            "item": "Kalamata Olives",
-            "notes": "pitted"
-        },
-        {
-            "quantity": "120",
-            "unit": "g",
-            "item": "Gruyere",
-            "notes": "grated"
-        }
-    ],
-    "method": [
-        {
-            "step": 1,
-            "instruction": "Preheat oven to 210°C. Brush a 20 cm deep flan tin with butter or oil and lightly flour the base and sides."
-        },
-        {
-            "step": 2,
-            "instruction": "Place flour and chilled butter in a food processor and process until the mixture resembles fine crumbs."
-        },
-        {
-            "step": 3,
-            "instruction": "Add egg yolk and cold water. Process until the dough just comes together."
-        },
-        {
-            "step": 4,
-            "instruction": "Turn out onto a lightly floured surface, wrap, and refrigerate for 30 minutes."
-        },
-        {
-            "step": 5,
-            "instruction": "Roll pastry to fit the prepared tin. Line with baking paper and fill with dried beans."
-        },
-        {
-            "step": 6,
-            "instruction": "Bake for 15 minutes. Remove paper and beans and allow the pastry shell to cool slightly."
-        },
-        {
-            "step": 7,
-            "instruction": "Mix olive oil and Dijon mustard to a smooth paste and spread evenly over the pastry base."
-        },
-        {
-            "step": 8,
-            "instruction": "Heat butter in a pan and cook tomatoes and onions until soft. Drain off excess liquid."
-        },
-        {
-            "step": 9,
-            "instruction": "Spoon the tomato mixture evenly over the pastry base."
-        },
-        {
-            "step": 10,
-            "instruction": "Combine sugar, basil, and olives. Scatter over the tomatoes."
-        },
-        {
-            "step": 11,
-            "instruction": "Top with grated Gruyère cheese."
-        },
-        {
-            "step": 12,
-            "instruction": "Bake for 20 minutes or until the pastry is crisp and the cheese is golden."
-        }
-    ],
-    "notes": [
-        {
-            "type": "technique",
-            "title": "Olives",
-            "content": "Use good-quality olives such as Kalamata or Niçoise for best flavour."
-        },
-        {
-            "type": "acknowledgement",
-            "title": "Recipe Source",
-            "content": "Adapted from The Essential Vegetarian Cook Book, published by Murdoch Books."
-        }
-    ],
-    "related": [
-        {
-            "id": "chouxpastry",
-            "title": "Choux Pastry (Profiteroles)"
-        },
-        {
-            "id": "mushroomcups",
-            "title": "Mushrooms with Herb Nut Butter"
-        },
-        {
-            "id": "garlicbread",
-            "title": "Garlic Butter Crusty Bread"
-        },
-        {
-            "id": "potatognocchi",
-            "title": "Potato Gnocchi with Tomato Sauce"
-        },
-        {
-            "id": "puffpastrymethods",
-            "title": "Puff Pastry Methods"
-        }
-    ],
-    "nutrition": {
-        "servings": 4,
-        "cal": 887,
-        "kj": 3712,
-        "protein": 25,
-        "carbs": 65,
-        "sugars": 20,
-        "fat": 57,
-        "saturated_fat": 26,
-        "fibre": 10,
-        "sodium": 730,
-        "coverage": 100,
-        "calcium_mg": 454,
-        "iron_mg": 9,
-        "potassium_mg": 1156,
-        "magnesium_mg": 105,
-        "zinc_mg": 3,
-        "cholesterol_mg": 332,
-        "vitamin_a_ug": 430,
-        "vitamin_c_mg": 16,
-        "vitamin_d_ug": 5
+  "id": "tomatoflan",
+  "title": "Tomato and Olive Flan",
+  "category": "Entree",
+  "description": "A savoury baked flan filled with tomatoes, olives, basil, and Gruyère cheese.",
+  "prepTime": "30 min",
+  "cookTime": "35 min",
+  "totalTime": "1 hr 35 min",
+  "servings": "4 servings",
+  "difficulty": "Intermediate",
+  "tags": [
+    "Baked",
+    "Dinner",
+    "French",
+    "Pastry",
+    "Rich",
+    "Savoury",
+    "Tomato",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "heading": "Pastry"
     },
-    "lastModified": "2026-05-24",
-    "cuisine": "French"
+    {
+      "quantity": "250",
+      "unit": "g",
+      "item": "Plain Flour"
+    },
+    {
+      "quantity": "90",
+      "unit": "g",
+      "item": "Unsalted Butter",
+      "notes": "chilled and cubed"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Egg Yolk"
+    },
+    {
+      "quantity": "15",
+      "unit": "ml",
+      "item": "Water",
+      "notes": "cold"
+    },
+    {
+      "heading": "Filling"
+    },
+    {
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Olive Oil"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Dijon Mustard"
+    },
+    {
+      "quantity": "15",
+      "unit": "g",
+      "item": "Unsalted Butter"
+    },
+    {
+      "quantity": "6",
+      "unit": "",
+      "item": "Tomatoes",
+      "notes": "small, chopped"
+    },
+    {
+      "quantity": "3",
+      "unit": "",
+      "item": "Brown Onion",
+      "notes": "large, sliced"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "White Sugar"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Basil",
+      "notes": "fresh, chopped"
+    },
+    {
+      "quantity": "150",
+      "unit": "g",
+      "item": "Kalamata Olives",
+      "notes": "pitted"
+    },
+    {
+      "quantity": "120",
+      "unit": "g",
+      "item": "Gruyere",
+      "notes": "grated"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 210°C. Brush a 20 cm deep flan tin with butter or oil and lightly flour the base and sides."
+    },
+    {
+      "step": 2,
+      "instruction": "Place flour and chilled butter in a food processor and process until the mixture resembles fine crumbs."
+    },
+    {
+      "step": 3,
+      "instruction": "Add egg yolk and cold water. Process until the dough just comes together."
+    },
+    {
+      "step": 4,
+      "instruction": "Turn out onto a lightly floured surface, wrap, and refrigerate for 30 minutes."
+    },
+    {
+      "step": 5,
+      "instruction": "Roll pastry to fit the prepared tin. Line with baking paper and fill with dried beans."
+    },
+    {
+      "step": 6,
+      "instruction": "Bake for 15 minutes. Remove paper and beans and allow the pastry shell to cool slightly."
+    },
+    {
+      "step": 7,
+      "instruction": "Mix olive oil and Dijon mustard to a smooth paste and spread evenly over the pastry base."
+    },
+    {
+      "step": 8,
+      "instruction": "Heat butter in a pan and cook tomatoes and onions until soft. Drain off excess liquid."
+    },
+    {
+      "step": 9,
+      "instruction": "Spoon the tomato mixture evenly over the pastry base."
+    },
+    {
+      "step": 10,
+      "instruction": "Combine sugar, basil, and olives. Scatter over the tomatoes."
+    },
+    {
+      "step": 11,
+      "instruction": "Top with grated Gruyère cheese."
+    },
+    {
+      "step": 12,
+      "instruction": "Bake for 20 minutes or until the pastry is crisp and the cheese is golden."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Olives",
+      "content": "Use good-quality olives such as Kalamata or Niçoise for best flavour."
+    },
+    {
+      "type": "acknowledgement",
+      "title": "Recipe Source",
+      "content": "Adapted from The Essential Vegetarian Cook Book, published by Murdoch Books."
+    }
+  ],
+  "related": [
+    {
+      "id": "chouxpastry",
+      "title": "Choux Pastry (Profiteroles)"
+    },
+    {
+      "id": "mushroomcups",
+      "title": "Mushrooms with Herb Nut Butter"
+    },
+    {
+      "id": "garlicbread",
+      "title": "Garlic Butter Crusty Bread"
+    },
+    {
+      "id": "potatognocchi",
+      "title": "Potato Gnocchi with Tomato Sauce"
+    }
+  ],
+  "nutrition": {
+    "servings": 4,
+    "cal": 887,
+    "kj": 3712,
+    "protein": 25,
+    "carbs": 65,
+    "sugars": 20,
+    "fat": 57,
+    "saturated_fat": 26,
+    "fibre": 10,
+    "sodium": 730,
+    "coverage": 100,
+    "calcium_mg": 454,
+    "iron_mg": 9,
+    "potassium_mg": 1156,
+    "magnesium_mg": 105,
+    "zinc_mg": 3,
+    "cholesterol_mg": 332,
+    "vitamin_a_ug": 430,
+    "vitamin_c_mg": 16,
+    "vitamin_d_ug": 5
+  },
+  "lastModified": "2026-05-24",
+  "cuisine": "French"
 }

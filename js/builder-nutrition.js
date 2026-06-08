@@ -40,9 +40,12 @@ function computeNutrition(ingredients, servingsNum) {
 
     let foundCount = 0;
     let totalCount = 0;
+    const unmatchedItems = [];
 
     ingredients.forEach(ing => {
-        if (ing.heading) return;
+        // Skip headings and "To Taste" items entirely from nutrition calculations
+        if (ing.heading || ing.toTaste) return;
+        
         const itemName = (ing.item || '').toLowerCase().trim();
         if (!itemName || SKIP_ITEMS.includes(itemName)) return;
 
@@ -60,7 +63,18 @@ function computeNutrition(ingredients, servingsNum) {
                 }
             }
         }
-        if (!nd || !qty) return;
+        
+        // If not found in database, mark as unmatched
+        if (!nd) {
+            unmatchedItems.push(ing.item || ing.name || itemName);
+            return;
+        }
+        
+        // If found but has no quantity, we can't calculate it
+        if (!qty) {
+            unmatchedItems.push(ing.item || ing.name || itemName);
+            return;
+        }
 
         foundCount++;
 
@@ -91,7 +105,10 @@ function computeNutrition(ingredients, servingsNum) {
         saturated_fat: perF(total.saturated_fat),
         fiber:         per(total.fiber),
         sodium:        per(total.sodium),
-        coverage
+        coverage,
+        foundCount,
+        totalCount,
+        unmatchedItems
     };
 
     // Only include micros with a non-zero value
@@ -119,8 +136,8 @@ function calculateNutrition() {
     }
 
     const row = (label, value, indent=false) =>
-        `<div style="display:flex;justify-content:space-between;padding:0.25rem 0${indent?' 0.25rem 1rem':''};border-bottom:1px solid var(--border);color:var(--text-dim);">
-            <span${indent?'':' style="font-weight:600;"'}>${label}</span><span>${value}</span>
+        `<div class="nf-row${indent ? ' nf-row-indent' : ''}">
+            <span class="${indent ? '' : 'nf-row-bold'}">${label}</span><span>${value}</span>
         </div>`;
 
     const micros = [
@@ -135,15 +152,19 @@ function calculateNutrition() {
         ['Vitamin D',   n.vitamin_d_ug,  'mcg'],
     ].filter(([,v]) => v).map(([label, v, unit]) => row(label, v + unit));
 
+    // Safety check for the HTML escaper function
+    // Safety check for the HTML escaper function
+    const esc = typeof escHtml === 'function' ? escHtml : s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+
     out.innerHTML = `
-        <div style="border:2px solid var(--border);border-radius:8px;padding:1rem;max-width:400px;font-family:var(--sans);">
-            <div style="font-weight:600;font-size:1.2rem;border-bottom:4px solid var(--text);padding-bottom:0.5rem;margin-bottom:0.5rem;color:var(--text);">Nutrition Facts</div>
-            <div style="font-size:0.85rem;margin-bottom:0.5rem;color:var(--text-dim);">Per serving (1 of ${n.servings})</div>
-            <div style="display:flex;justify-content:space-between;font-weight:600;font-size:1.1rem;margin-bottom:0.1rem;color:var(--text);">
+        <div class="nf-box">
+            <div class="nf-title">Nutrition Facts</div>
+            <div class="nf-serving">Per serving (1 of ${n.servings})</div>
+            <div class="nf-calories">
                 <span>Calories</span><span>${n.cal}</span>
             </div>
-            <div style="font-size:0.8rem;color:var(--text-dim);margin-bottom:0.5rem;">${n.kj} kJ</div>
-            <div style="border-top:4px solid var(--text);margin:0.5rem 0;"></div>
+            <div class="nf-kj">${n.kj} kJ</div>
+            <div class="nf-divider"></div>
             ${row('Protein',         n.protein       + 'g')}
             ${row('Total Carbs',     n.carbs         + 'g')}
             ${row('— Sugars',        n.sugars        + 'g', true)}
@@ -151,10 +172,15 @@ function calculateNutrition() {
             ${row('Total Fat',       n.fat           + 'g')}
             ${row('— Saturated Fat', n.saturated_fat + 'g', true)}
             ${row('Sodium',          n.sodium        + 'mg')}
-            ${micros.length ? `<div style="border-top:4px solid var(--text);margin:0.5rem 0;"></div>${micros.join('')}` : ''}
-            <div style="margin-top:0.75rem;font-size:0.72rem;color:var(--text-dim);font-style:italic;">
-                Estimates only — ${n.coverage}% ingredient coverage.
+            ${micros.length ? `<div class="nf-divider"></div>${micros.join('')}` : ''}
+            <div class="nf-footnote">
+                Estimates only — ${n.foundCount}/${n.totalCount} ingredients matched (${n.coverage}% coverage).
             </div>
+            ${n.unmatchedItems && n.unmatchedItems.length > 0 ? `
+                <div class="nf-missing">
+                    Missing from database: <strong>${n.unmatchedItems.map(esc).join(', ')}</strong>
+                </div>
+            ` : ''}
         </div>
     `;
     box.style.display = 'block';

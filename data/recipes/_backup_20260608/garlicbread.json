@@ -1,0 +1,174 @@
+{
+  "id": "garlicbuttercrustybread",
+  "title": "Garlic Butter Crusty Bread",
+  "emoji": "🧄",
+  "category": "Baking",
+  "difficulty": "Intermediate",
+  "description": "Soft, golden bread with a crispy crust and a rich garlic butter topping — perfect for any meal.",
+  "prepTime": "20 min",
+  "cookTime": "20 min",
+  "totalTime": "2 hr 40 min",
+  "servings": "1 loaf",
+  "tags": [
+    "Baked",
+    "Bread",
+    "Garlic",
+    "Savoury",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "heading": "Dough"
+    },
+    {
+      "quantity": "300",
+      "unit": "g",
+      "item": "Bread Flour"
+    },
+    {
+      "quantity": "165",
+      "unit": "ml",
+      "item": "Milk",
+      "notes": "lukewarm"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Eggs",
+      "notes": "large"
+    },
+    {
+      "quantity": "15",
+      "unit": "g",
+      "item": "White Sugar"
+    },
+    {
+      "quantity": "3",
+      "unit": "g",
+      "item": "Yeast",
+      "notes": "instant dried"
+    },
+    {
+      "quantity": "4.5",
+      "unit": "g",
+      "item": "Salt"
+    },
+    {
+      "quantity": "15",
+      "unit": "g",
+      "item": "Unsalted Butter"
+    },
+    {
+      "heading": "Garlic Butter Topping"
+    },
+    {
+      "quantity": "20",
+      "unit": "g",
+      "item": "Unsalted Butter",
+      "notes": "softened"
+    },
+    {
+      "quantity": "8",
+      "unit": "g",
+      "item": "Garlic",
+      "notes": "minced"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Honey"
+    },
+    {
+      "quantity": "2",
+      "unit": "g",
+      "item": "Salt"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Parsley",
+      "notes": "fresh, chopped"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "In a large bowl, combine lukewarm milk, sugar, and yeast. Let sit for 5 minutes until slightly foamy."
+    },
+    {
+      "step": 2,
+      "instruction": "Add the egg, bread flour, and salt. Mix until a rough dough forms."
+    },
+    {
+      "step": 3,
+      "instruction": "Add 15 g butter and knead for 8–10 minutes until the dough is smooth, elastic, and no longer sticky."
+    },
+    {
+      "step": 4,
+      "instruction": "Place dough in a lightly oiled bowl, cover with a damp tea towel, and let rise in a warm place for 1–1½ hours or until doubled in size."
+    },
+    {
+      "step": 5,
+      "instruction": "Punch down the dough and shape into a tight oval or log. Place in a greased loaf tin or on a lined baking tray."
+    },
+    {
+      "step": 6,
+      "instruction": "Cover and let rise for another 45–60 minutes until puffy."
+    },
+    {
+      "step": 7,
+      "instruction": "Preheat oven to 180°C."
+    },
+    {
+      "step": 8,
+      "instruction": "Meanwhile, make the garlic butter: mix softened butter, minced garlic, honey, salt, and chopped parsley until well combined."
+    },
+    {
+      "step": 9,
+      "instruction": "Bake for 18–22 minutes until golden brown and the loaf sounds hollow when tapped on the bottom."
+    },
+    {
+      "step": 10,
+      "instruction": "Remove from oven and immediately brush the hot loaf generously with the garlic butter mixture."
+    },
+    {
+      "step": 11,
+      "instruction": "Let cool for 10 minutes before slicing. Serve warm."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Garlic Butter Timing",
+      "content": "Brush the garlic butter on while the loaf is hot from the oven — it melts into the crust and soaks into the bread. Doing it cold will leave butter sitting on top."
+    },
+    {
+      "type": "serving",
+      "title": "Serving Tip",
+      "content": "Serve warm with extra garlic butter on the side for dipping, or alongside pasta, soups, or salads."
+    }
+  ],
+  "nutrition": {
+    "servings": 1,
+    "cal": 1788,
+    "kj": 7480,
+    "protein": 68,
+    "carbs": 244,
+    "sugars": 40,
+    "fat": 57,
+    "saturated_fat": 29.1,
+    "fiber": 11,
+    "sodium": 938,
+    "coverage": 100,
+    "calcium_mg": 362,
+    "iron_mg": 9,
+    "potassium_mg": 1230,
+    "magnesium_mg": 166,
+    "zinc_mg": 6,
+    "cholesterol_mg": 1051,
+    "vitamin_a_ug": 704,
+    "vitamin_c_mg": 19,
+    "vitamin_d_ug": 12
+  },
+  "lastModified": "2026-06-04"
+}

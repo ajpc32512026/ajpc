@@ -1,0 +1,159 @@
+{
+  "id": "homemadesubbuns",
+  "title": "Homemade Sub Buns",
+  "emoji": "🥖",
+  "category": "Baking",
+  "difficulty": "Intermediate",
+  "description": "Soft, sturdy sandwich rolls perfect for loaded subs, hoagies, or heroes.",
+  "prepTime": "20 min",
+  "cookTime": "18 min",
+  "totalTime": "2 hr 35 min",
+  "servings": "8 buns",
+  "tags": [
+    "Baked",
+    "Bread",
+    "Savoury",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "quantity": "180",
+      "unit": "ml",
+      "item": "Milk",
+      "notes": "lukewarm"
+    },
+    {
+      "quantity": "13",
+      "unit": "g",
+      "item": "White Sugar"
+    },
+    {
+      "quantity": "7",
+      "unit": "g",
+      "item": "Yeast",
+      "notes": "instant dried"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Eggs",
+      "notes": "large"
+    },
+    {
+      "quantity": "15",
+      "unit": "ml",
+      "item": "Vegetable Oil"
+    },
+    {
+      "quantity": "120",
+      "unit": "ml",
+      "item": "Water",
+      "notes": "lukewarm"
+    },
+    {
+      "quantity": "3",
+      "unit": "g",
+      "item": "Salt"
+    },
+    {
+      "quantity": "470",
+      "unit": "g",
+      "item": "Bread Flour"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Eggs",
+      "notes": "beaten, for egg wash"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "In a large bowl, combine lukewarm milk, sugar, and yeast. Let stand for 5 minutes until foamy."
+    },
+    {
+      "step": 2,
+      "instruction": "Add egg, vegetable oil, lukewarm water, and salt. Stir to combine."
+    },
+    {
+      "step": 3,
+      "instruction": "Gradually add bread flour, starting with 440 g. Mix until a soft dough forms. Add more flour if the dough is too sticky, up to 500 g total."
+    },
+    {
+      "step": 4,
+      "instruction": "Knead for 8–10 minutes by hand or 5–6 minutes in a stand mixer until smooth and elastic."
+    },
+    {
+      "step": 5,
+      "instruction": "Place dough in a lightly oiled bowl, cover with a damp tea towel, and let rise in a warm place for 1–1½ hours until doubled in size."
+    },
+    {
+      "step": 6,
+      "instruction": "Punch down the dough and divide into 8 portions, approximately 120–130 g each. For larger subs, divide into 5 portions at approximately 200–225 g each."
+    },
+    {
+      "step": 7,
+      "instruction": "Shape each portion into an oval torpedo shape by rolling under your palms with firm, even pressure. Taper the ends slightly."
+    },
+    {
+      "step": 8,
+      "instruction": "Place shaped rolls on a lined baking tray, leaving space between each. Cover and let rise for 30–45 minutes until puffy."
+    },
+    {
+      "step": 9,
+      "instruction": "Preheat oven to 190°C."
+    },
+    {
+      "step": 10,
+      "instruction": "Brush rolls with beaten egg wash. Sprinkle with sesame seeds or grated cheese if desired."
+    },
+    {
+      "step": 11,
+      "instruction": "Bake for 12–15 minutes until golden brown and hollow-sounding when tapped on the bottom."
+    },
+    {
+      "step": 12,
+      "instruction": "Cool on a wire rack before slicing horizontally for sandwiches."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Shape Matters",
+      "content": "For an authentic sub shape, roll firmly with steady pressure to create an even cylinder. Tapered ends give that classic torpedo look."
+    },
+    {
+      "type": "variation",
+      "title": "Toppings",
+      "content": "Try sesame seeds, poppy seeds, everything bagel seasoning, or garlic butter brushed on after baking."
+    },
+    {
+      "type": "storage",
+      "title": "Storage",
+      "content": "Store in an airtight container for 2–3 days, or freeze for up to 2 months. Thaw and warm before using."
+    }
+  ],
+  "nutrition": {
+    "servings": 8,
+    "cal": 310,
+    "kj": 1296,
+    "protein": 14,
+    "carbs": 44,
+    "sugars": 4,
+    "fat": 8,
+    "saturated_fat": 1.9,
+    "fiber": 2,
+    "sodium": 118,
+    "coverage": 100,
+    "calcium_mg": 60,
+    "iron_mg": 2,
+    "potassium_mg": 217,
+    "magnesium_mg": 31,
+    "zinc_mg": 1,
+    "cholesterol_mg": 246,
+    "vitamin_a_ug": 75,
+    "vitamin_d_ug": 3
+  },
+  "lastModified": "2026-06-04"
+}

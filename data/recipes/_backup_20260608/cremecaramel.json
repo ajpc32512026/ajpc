@@ -1,0 +1,152 @@
+{
+  "id": "cremecaramel",
+  "title": "Crème Caramel",
+  "emoji": "🍮",
+  "category": "Desserts",
+  "difficulty": "Intermediate",
+  "description": "A French classic — silky custard topped with a thin layer of amber caramel. Made possible with the LG Kitchen collection.",
+  "prepTime": "20 min",
+  "cookTime": "40 min",
+  "totalTime": "1 hour",
+  "servings": "8",
+  "yieldPerBatch": "8 serves",
+  "tags": [
+    "French",
+    "Dessert",
+    "Baked",
+    "Make Ahead",
+    "Creamy",
+    "Rich",
+    "Classic"
+  ],
+  "ingredients": [
+    {
+      "quantity": "165",
+      "unit": "g",
+      "item": "Caster Sugar",
+      "notes": "for caramel"
+    },
+    {
+      "quantity": "125",
+      "unit": "ml",
+      "item": "Water",
+      "notes": "for caramel"
+    },
+    {
+      "quantity": "300",
+      "unit": "ml",
+      "item": "Thickened Cream"
+    },
+    {
+      "quantity": "430",
+      "unit": "ml",
+      "item": "Milk"
+    },
+    {
+      "quantity": "6",
+      "unit": "",
+      "item": "Eggs"
+    },
+    {
+      "quantity": "5",
+      "unit": "ml",
+      "item": "Vanilla Extract"
+    },
+    {
+      "quantity": "75",
+      "unit": "g",
+      "item": "Caster Sugar",
+      "notes": "for custard"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 160°C (140°C fan-forced) on top and bottom heat. Line a roasting tray with a clean tea towel."
+    },
+    {
+      "step": 2,
+      "instruction": "Place 165g caster sugar and 125ml water in a medium heavy-based saucepan. Place pan on medium heat and cook, stirring, until sugar dissolves without boiling."
+    },
+    {
+      "step": 3,
+      "instruction": "Bring to the boil without stirring until mixture turns a deep amber caramel colour. Remove from heat and allow bubbles to subside. Carefully pour caramel into a deep 20cm round cake pan, tilting to coat the base evenly."
+    },
+    {
+      "step": 4,
+      "instruction": "In a separate saucepan, bring thickened cream and milk almost to the boil over medium heat."
+    },
+    {
+      "step": 5,
+      "instruction": "Meanwhile, in a large heatproof bowl, whisk eggs, vanilla extract, and 75g caster sugar until well combined."
+    },
+    {
+      "step": 6,
+      "instruction": "Whisking continuously, slowly pour the hot cream and milk mixture into the egg mixture. Strain the custard through a fine-mesh sieve into the cake pan over the set caramel."
+    },
+    {
+      "step": 7,
+      "instruction": "Place the cake pan in the prepared roasting tray. Fill a kettle or saucepan with water and bring just to the boil."
+    },
+    {
+      "step": 8,
+      "instruction": "Place roasting tray in the oven. Carefully pour enough boiling water into the tray to come halfway up the side of the cake pan."
+    },
+    {
+      "step": 9,
+      "instruction": "Bake for 40-45 minutes, or until the custard is set but still has a slight wobble in the centre."
+    },
+    {
+      "step": 10,
+      "instruction": "Remove the cake pan from the roasting tray. Allow to cool completely, then cover and refrigerate overnight."
+    },
+    {
+      "step": 11,
+      "instruction": "To serve, run a thin knife around the edge of the pan. Invert onto a deep-sided serving plate. The caramel will form a golden sauce. Serve with fresh raspberries if desired."
+    }
+  ],
+  "notes": [
+    {
+      "type": "tip",
+      "title": "Make Ahead",
+      "content": "Crème caramel needs to be refrigerated overnight to set properly. Start this recipe a day before serving."
+    },
+    {
+      "type": "technique",
+      "title": "Caramel Colour",
+      "content": "Do not use a saucepan with a dark interior when making caramel — it will be very hard to gauge the depth of colour. The caramel will continue to darken slightly off the heat, so remove it just before it reaches your desired colour."
+    },
+    {
+      "type": "technique",
+      "title": "Water Bath",
+      "content": "The water bath (bain-marie) ensures gentle, even cooking. The tea towel in the roasting tray prevents the cake pan from sliding and helps distribute heat evenly."
+    },
+    {
+      "type": "tip",
+      "title": "Straining is Essential",
+      "content": "Straining the custard removes any bits of cooked egg and ensures a perfectly smooth, silky texture."
+    }
+  ],
+  "nutrition": {
+    "servings": 8,
+    "cal": 468,
+    "kj": 1959,
+    "protein": 21,
+    "carbs": 34,
+    "sugars": 34,
+    "fat": 28,
+    "saturated_fat": 13.5,
+    "fiber": 0,
+    "sodium": 254,
+    "coverage": 100,
+    "calcium_mg": 150,
+    "iron_mg": 3,
+    "potassium_mg": 318,
+    "magnesium_mg": 26,
+    "zinc_mg": 2,
+    "cholesterol_mg": 779,
+    "vitamin_a_ug": 324,
+    "vitamin_d_ug": 9
+  },
+  "lastModified": "2026-06-04"
+}

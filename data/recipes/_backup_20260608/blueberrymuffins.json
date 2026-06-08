@@ -1,0 +1,154 @@
+{
+  "id": "heavenlyblueberrymuffins",
+  "title": "Heavenly Blueberry Muffins",
+  "emoji": "🫐",
+  "category": "Baking",
+  "difficulty": "Beginner",
+  "description": "Light, fluffy muffins crowned with a crisp crumble and bursting with juicy blueberries — built for quiet mornings and empty plates.",
+  "prepTime": "20 min",
+  "cookTime": "25 min",
+  "totalTime": "45 min",
+  "servings": "12 muffins",
+  "tags": [
+    "Baked",
+    "Breakfast",
+    "Sweet",
+    "Under 1 Hour",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "heading": "Muffin Batter"
+    },
+    {
+      "quantity": "240",
+      "unit": "g",
+      "item": "Plain Flour"
+    },
+    {
+      "quantity": "160",
+      "unit": "ml",
+      "item": "Milk"
+    },
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Eggs",
+      "notes": "large"
+    },
+    {
+      "quantity": "100",
+      "unit": "ml",
+      "item": "Vegetable Oil"
+    },
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Milk Powder"
+    },
+    {
+      "quantity": "90",
+      "unit": "g",
+      "item": "White Sugar"
+    },
+    {
+      "quantity": "9",
+      "unit": "g",
+      "item": "Baking Powder"
+    },
+    {
+      "quantity": "150",
+      "unit": "g",
+      "item": "Blueberries",
+      "notes": "fresh or frozen"
+    },
+    {
+      "heading": "Crumble Topping"
+    },
+    {
+      "quantity": "20",
+      "unit": "g",
+      "item": "Plain Flour"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Unsalted Butter",
+      "notes": "softened"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "White Sugar"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 175°C and line a 12-hole muffin tray with paper cases."
+    },
+    {
+      "step": 2,
+      "instruction": "Whisk milk and eggs together in a bowl. Gradually whisk in vegetable oil until emulsified."
+    },
+    {
+      "step": 3,
+      "instruction": "Add sugar and mix until dissolved."
+    },
+    {
+      "step": 4,
+      "instruction": "Sift in plain flour, milk powder, and baking powder. Mix gently until just combined — do not overmix."
+    },
+    {
+      "step": 5,
+      "instruction": "Prepare the crumble topping by rubbing flour, butter, and sugar together until coarse crumbs form."
+    },
+    {
+      "step": 6,
+      "instruction": "Spoon batter into muffin cases, filling about three-quarters full."
+    },
+    {
+      "step": 7,
+      "instruction": "Scatter blueberries over the batter and finish with crumble topping."
+    },
+    {
+      "step": 8,
+      "instruction": "Bake for 25 minutes, or until golden and a skewer inserted into the centre comes out clean."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Light Muffins",
+      "content": "Mix the batter gently and stop as soon as it comes together — overmixing develops gluten and makes muffins tough."
+    },
+    {
+      "type": "serving",
+      "title": "Serving Tip",
+      "content": "Best eaten warm on the day, but excellent toasted lightly the next morning."
+    }
+  ],
+  "nutrition": {
+    "servings": 12,
+    "cal": 255,
+    "kj": 1067,
+    "protein": 8,
+    "carbs": 28,
+    "sugars": 12,
+    "fat": 13,
+    "saturated_fat": 2.2,
+    "fiber": 1,
+    "sodium": 118,
+    "coverage": 100,
+    "calcium_mg": 64,
+    "iron_mg": 1,
+    "potassium_mg": 220,
+    "magnesium_mg": 17,
+    "zinc_mg": 1,
+    "cholesterol_mg": 166,
+    "vitamin_a_ug": 57,
+    "vitamin_c_mg": 1,
+    "vitamin_d_ug": 2
+  },
+  "lastModified": "2026-06-04"
+}

@@ -1,153 +1,152 @@
 {
-    "id": "vindaloopaste",
-    "title": "Vindaloo Paste",
-    "emoji": "🌶️",
-    "category": "Sauces",
-    "description": "A bold, tangy, fire-forward paste — the beating heart of a proper vindaloo.",
-    "prepTime": "5 min",
-    "cookTime": "2 min",
-    "totalTime": "7 min",
-    "servings": "1 batch",
-    "difficulty": "Beginner",
-    "tags": [
-        "Indian",
-        "Make Ahead",
-        "Savoury",
-        "Spicy",
-        "Vegan",
-        "Gluten-Free"
-    ],
-    "ingredients": [
-        {
-            "quantity": "20",
-            "unit": "g",
-            "item": "Ginger (Fresh)",
-            "notes": "chopped"
-        },
-        {
-            "quantity": "3",
-            "unit": "cloves",
-            "item": "Garlic",
-            "notes": "chopped"
-        },
-        {
-            "quantity": "10",
-            "unit": "",
-            "item": "Dried Red Chillies"
-        },
-        {
-            "quantity": "5",
-            "unit": "g",
-            "item": "Coriander Seeds"
-        },
-        {
-            "quantity": "2",
-            "unit": "g",
-            "item": "Fenugreek Seeds"
-        },
-        {
-            "quantity": "3",
-            "unit": "g",
-            "item": "Cumin Seeds"
-        },
-        {
-            "quantity": "6",
-            "unit": "pods",
-            "item": "Green Cardamom Pods"
-        },
-        {
-            "quantity": "6",
-            "unit": "",
-            "item": "Cloves"
-        },
-        {
-            "quantity": "1",
-            "unit": "stick",
-            "item": "Cinnamon Stick"
-        },
-        {
-            "quantity": "1",
-            "unit": "g",
-            "item": "Black Peppercorns"
-        },
-        {
-            "quantity": "45",
-            "unit": "ml",
-            "item": "Lemon Juice"
-        }
-    ],
-    "method": [
-        {
-            "step": 1,
-            "instruction": "Dry roast the dried chillies, coriander seeds, cumin seeds, fenugreek seeds, cardamom pods, cloves, cinnamon stick, and black peppercorns over low heat until aromatic, about 2 minutes."
-        },
-        {
-            "step": 2,
-            "instruction": "Remove from heat and allow spices to cool slightly."
-        },
-        {
-            "step": 3,
-            "instruction": "Transfer spices to a grinder and grind to a fine powder."
-        },
-        {
-            "step": 4,
-            "instruction": "Add ginger, garlic, and lemon juice. Process to a smooth paste, adding a little water if needed."
-        }
-    ],
-    "notes": [
-        {
-            "type": "substitution",
-            "title": "Lemon Juice Substitute",
-            "content": "Lemon juice can be replaced with tamarind paste for a more traditional sour note."
-        },
-        {
-            "type": "technique",
-            "title": "Yield",
-            "content": "This recipe makes approximately 80–100 g of vindaloo paste — enough for 1 kg of meat. Use the full batch for beef or lamb vindaloo."
-        }
-    ],
-    "related": [
-        {
-            "id": "beefvindaloo",
-            "title": "Beef Vindaloo"
-        },
-        {
-            "id": "lambvindaloo",
-            "title": "Lamb Vindaloo"
-        },
-        {
-            "id": "kormapaste",
-            "title": "Homemade Korma Paste"
-        },
-        {
-            "id": "butterchicken",
-            "title": "Restaurant-Style Butter Chicken"
-        },
-        {
-            "id": "roganjosh",
-            "title": "Lamb Rogan Josh"
-        }
-    ],
-    "nutrition": {
-        "servings": 1,
-        "cal": 5080,
-        "kj": 21256,
-        "protein": 141,
-        "carbs": 569,
-        "sugars": 178,
-        "fat": 138,
-        "saturated_fat": 51,
-        "fibre": 521,
-        "sodium": 1908,
-        "coverage": 100,
-        "calcium_mg": 6489,
-        "iron_mg": 174,
-        "potassium_mg": 17676,
-        "magnesium_mg": 3235,
-        "zinc_mg": 65,
-        "cholesterol_mg": 18,
-        "vitamin_a_ug": 3872,
-        "vitamin_c_mg": 1896
+  "id": "vindaloopaste",
+  "title": "Vindaloo Paste",
+  "category": "Sauces",
+  "description": "A bold, tangy, fire-forward paste — the beating heart of a proper vindaloo.",
+  "prepTime": "5 min",
+  "cookTime": "2 min",
+  "totalTime": "7 min",
+  "servings": "1 batch",
+  "difficulty": "Beginner",
+  "tags": [
+    "Indian",
+    "Make Ahead",
+    "Savoury",
+    "Spicy",
+    "Vegan",
+    "Gluten-Free"
+  ],
+  "ingredients": [
+    {
+      "quantity": "20",
+      "unit": "g",
+      "item": "Ginger (Fresh)",
+      "notes": "chopped"
     },
-    "lastModified": "2026-05-23"
+    {
+      "quantity": "3",
+      "unit": "cloves",
+      "item": "Garlic",
+      "notes": "chopped"
+    },
+    {
+      "quantity": "10",
+      "unit": "",
+      "item": "Dried Red Chillies"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Coriander Seeds"
+    },
+    {
+      "quantity": "2",
+      "unit": "g",
+      "item": "Fenugreek Seeds"
+    },
+    {
+      "quantity": "3",
+      "unit": "g",
+      "item": "Cumin Seeds"
+    },
+    {
+      "quantity": "6",
+      "unit": "pods",
+      "item": "Green Cardamom Pods"
+    },
+    {
+      "quantity": "6",
+      "unit": "",
+      "item": "Cloves"
+    },
+    {
+      "quantity": "1",
+      "unit": "stick",
+      "item": "Cinnamon Stick"
+    },
+    {
+      "quantity": "1",
+      "unit": "g",
+      "item": "Black Peppercorns"
+    },
+    {
+      "quantity": "45",
+      "unit": "ml",
+      "item": "Lemon Juice"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Dry roast the dried chillies, coriander seeds, cumin seeds, fenugreek seeds, cardamom pods, cloves, cinnamon stick, and black peppercorns over low heat until aromatic, about 2 minutes."
+    },
+    {
+      "step": 2,
+      "instruction": "Remove from heat and allow spices to cool slightly."
+    },
+    {
+      "step": 3,
+      "instruction": "Transfer spices to a grinder and grind to a fine powder."
+    },
+    {
+      "step": 4,
+      "instruction": "Add ginger, garlic, and lemon juice. Process to a smooth paste, adding a little water if needed."
+    }
+  ],
+  "notes": [
+    {
+      "type": "substitution",
+      "title": "Lemon Juice Substitute",
+      "content": "Lemon juice can be replaced with tamarind paste for a more traditional sour note."
+    },
+    {
+      "type": "technique",
+      "title": "Yield",
+      "content": "This recipe makes approximately 80–100 g of vindaloo paste — enough for 1 kg of meat. Use the full batch for beef or lamb vindaloo."
+    }
+  ],
+  "related": [
+    {
+      "id": "beefvindaloo",
+      "title": "Beef Vindaloo"
+    },
+    {
+      "id": "lambvindaloo",
+      "title": "Lamb Vindaloo"
+    },
+    {
+      "id": "kormapaste",
+      "title": "Homemade Korma Paste"
+    },
+    {
+      "id": "butterchicken",
+      "title": "Restaurant-Style Butter Chicken"
+    },
+    {
+      "id": "roganjosh",
+      "title": "Lamb Rogan Josh"
+    }
+  ],
+  "nutrition": {
+    "servings": 1,
+    "cal": 5080,
+    "kj": 21256,
+    "protein": 141,
+    "carbs": 569,
+    "sugars": 178,
+    "fat": 138,
+    "saturated_fat": 51,
+    "fibre": 521,
+    "sodium": 1908,
+    "coverage": 100,
+    "calcium_mg": 6489,
+    "iron_mg": 174,
+    "potassium_mg": 17676,
+    "magnesium_mg": 3235,
+    "zinc_mg": 65,
+    "cholesterol_mg": 18,
+    "vitamin_a_ug": 3872,
+    "vitamin_c_mg": 1896
+  },
+  "lastModified": "2026-05-23"
 }

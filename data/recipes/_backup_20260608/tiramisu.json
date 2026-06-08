@@ -1,0 +1,344 @@
+{
+  "id": "chefstyletiramisugateau",
+  "title": "Chef-Style Tiramisu Gateau",
+  "emoji": "🍰",
+  "category": "Desserts",
+  "description": "Luscious layers. Boozy brilliance. A dessert that whispers Italian and screams, \"I'm extra.\"",
+  "prepTime": "1 hr",
+  "cookTime": "25 min",
+  "totalTime": "7 hr 25 min",
+  "servings": "10 servings",
+  "difficulty": "Advanced",
+  "tags": [
+    "Alcohol",
+    "Classic",
+    "Coffee",
+    "Creamy",
+    "Dessert",
+    "Italian",
+    "Make Ahead",
+    "Rich",
+    "Sweet",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "heading": "Sponge Cake Base (Genoise Style)"
+    },
+    {
+      "quantity": "4",
+      "unit": "",
+      "item": "Eggs",
+      "notes": "room temperature"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Caster Sugar"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Plain Flour",
+      "notes": "sifted"
+    },
+    {
+      "quantity": "25",
+      "unit": "g",
+      "item": "Cornflour"
+    },
+    {
+      "quantity": "1",
+      "unit": "g",
+      "item": "Salt"
+    },
+    {
+      "quantity": "5",
+      "unit": "ml",
+      "item": "Vanilla Extract"
+    },
+    {
+      "heading": "Liqueur Coffee Soak"
+    },
+    {
+      "quantity": "180",
+      "unit": "ml",
+      "item": "Coffee",
+      "notes": "instant"
+    },
+    {
+      "quantity": "90",
+      "unit": "g",
+      "item": "White Sugar",
+      "notes": "dissolved into hot coffee"
+    },
+    {
+      "quantity": "60",
+      "unit": "ml",
+      "item": "Tia Maria"
+    },
+    {
+      "quantity": "60",
+      "unit": "ml",
+      "item": "Grand Marnier"
+    },
+    {
+      "heading": "Mascarpone Cream Filling"
+    },
+    {
+      "quantity": "500",
+      "unit": "g",
+      "item": "Mascarpone",
+      "notes": "room temperature"
+    },
+    {
+      "quantity": "300",
+      "unit": "ml",
+      "item": "Thickened Cream"
+    },
+    {
+      "quantity": "4",
+      "unit": "",
+      "item": "Eggs",
+      "notes": "separated"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Caster Sugar"
+    },
+    {
+      "quantity": "5",
+      "unit": "ml",
+      "item": "Vanilla Extract"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Orange Zest"
+    },
+    {
+      "heading": "Topping"
+    },
+    {
+      "quantity": "60",
+      "unit": "ml",
+      "item": "Thickened Cream",
+      "notes": "whipped, for rosettes"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Strawberries",
+      "notes": "fresh, halved"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "White Chocolate",
+      "notes": "curls optional, to garnish"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 180°C. Line a 23 cm round cake tin with baking paper."
+    },
+    {
+      "step": 2,
+      "instruction": "Place eggs and sugar in a heatproof bowl over a pot of simmering water. Whisk until warm and frothy."
+    },
+    {
+      "step": 3,
+      "instruction": "Remove from heat and beat with an electric mixer until thick, pale, and ribbony."
+    },
+    {
+      "step": 4,
+      "instruction": "Gently fold in sifted plain flour, cornflour, salt, and vanilla extract. Take your time — slow and gentle keeps the air in."
+    },
+    {
+      "step": 5,
+      "instruction": "Pour into the prepared tin. Bake for 20–25 minutes until golden and springy to the touch."
+    },
+    {
+      "step": 6,
+      "instruction": "Cool completely in the tin, then slice into 2 or 3 even layers."
+    },
+    {
+      "step": 7,
+      "instruction": "Brew 180 ml of strong espresso. While still hot, dissolve 90 g white sugar into it and stir well."
+    },
+    {
+      "step": 8,
+      "instruction": "Reduce over low heat — barely a simmer — to approximately 200 ml total volume, about 5–8 minutes. Cool completely. Once cold, stir in Tia Maria and Grand Marnier gently."
+    },
+    {
+      "step": 9,
+      "instruction": "Gently whisk egg yolks and caster sugar together over a double boiler until thickened and pale — like a smooth custard. Remove from heat and cool completely."
+    },
+    {
+      "step": 10,
+      "instruction": "Fold the cooled yolk mixture into the mascarpone along with vanilla extract until smooth."
+    },
+    {
+      "step": 11,
+      "instruction": "In a separate bowl, whip thickened cream to soft peaks. Fold into the mascarpone mixture along with orange zest."
+    },
+    {
+      "step": 12,
+      "instruction": "Chill the mascarpone cream for 10 minutes before assembly."
+    },
+    {
+      "step": 13,
+      "instruction": "Line a springform pan with clear plastic strips for clean sides, or use baking paper."
+    },
+    {
+      "step": 14,
+      "instruction": "Place the first sponge layer in the base. Brush generously with the coffee soak — bold flavour, not a coffee swamp."
+    },
+    {
+      "step": 15,
+      "instruction": "Spread a thick layer of mascarpone cream over the sponge. Repeat: sponge, soak, cream."
+    },
+    {
+      "step": 16,
+      "instruction": "Finish with a final generous layer of cream on top. Cover and refrigerate for at least 4–6 hours. Overnight is best."
+    },
+    {
+      "step": 17,
+      "instruction": "Pipe whipped cream rosettes on top, arrange fresh strawberries, and finish with white chocolate curls if using."
+    },
+    {
+      "step": 18,
+      "instruction": "Use a hot, dry knife to slice cleanly. No dragging. No tears."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Coffee Soak",
+      "content": "Do not boil the coffee reduction hard — you are concentrating sugar, not cooking espresso. Cool completely before adding the alcohol or you will cook off the liqueurs."
+    },
+    {
+      "type": "technique",
+      "title": "Mascarpone Cream",
+      "content": "Fold, never beat. Once the cream goes in, stop as soon as it is combined — overworking it will break the texture and make it grainy."
+    },
+    {
+      "type": "technique",
+      "title": "Sponge Soaking",
+      "content": "Brush the soak on — do not flood it. You want bold coffee flavour in every bite, not a soggy mess."
+    },
+    {
+      "type": "technique",
+      "title": "Chilling",
+      "content": "Chill for at least 4 hours to set. Overnight is best for clean slices."
+    },
+    {
+      "type": "storage",
+      "title": "Storage",
+      "content": "Refrigerate covered for up to 3 days. Not suitable for freezing."
+    }
+  ],
+  "journal": [
+    {
+      "date": "2026-02-17",
+      "content": "Made double the amount of mascarpone cream mixture to give a better thickness and that WOW effect. Highly recommend."
+    }
+  ],
+  "related": [
+    {
+      "id": "chocolatemousse",
+      "title": "Chocolate Mousse",
+      "matchingTags": [
+        "Chocolate",
+        "Creamy",
+        "Dessert",
+        "French",
+        "Make Ahead",
+        "No-Bake",
+        "Rich",
+        "Sweet",
+        "Under 30 Minutes",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bistro-profiteroles",
+      "title": "Profiteroles",
+      "matchingTags": [
+        "Baked",
+        "Chocolate",
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "French",
+        "Pastry",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "plaincheesecakeclassicnobake",
+      "title": "Plain Cheesecake (Classic No Bake)",
+      "matchingTags": [
+        "Classic",
+        "Creamy",
+        "Dessert",
+        "Make Ahead",
+        "No-Bake",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "theultimatechocolatemudcake",
+      "title": "The Ultimate Chocolate Mud Cake",
+      "matchingTags": [
+        "Chocolate",
+        "Cake",
+        "Dessert",
+        "Rich",
+        "Sweet"
+      ]
+    },
+    {
+      "id": "lemonmeringuepie",
+      "title": "Lemon Meringue Pie",
+      "matchingTags": [
+        "Baked",
+        "Classic",
+        "Dessert",
+        "Lemon",
+        "Pastry",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
+  "nutrition": {
+    "servings": 10,
+    "cal": 731,
+    "kj": 3058,
+    "protein": 14,
+    "carbs": 60,
+    "sugars": 46,
+    "fat": 47,
+    "saturated_fat": 27,
+    "fiber": 1,
+    "sodium": 248,
+    "coverage": 100,
+    "calcium_mg": 110,
+    "iron_mg": 2,
+    "potassium_mg": 246,
+    "magnesium_mg": 25,
+    "zinc_mg": 2,
+    "cholesterol_mg": 422,
+    "vitamin_a_ug": 499,
+    "vitamin_c_mg": 8,
+    "vitamin_d_ug": 2
+  },
+  "lastModified": "2026-06-01"
+}

@@ -1,201 +1,201 @@
 {
-    "id": "originalbulalo",
-    "title": "Original Bulalo",
-    "category": "Dinner",
-    "description": "A rich, clear Filipino beef bone marrow soup from Batangas. Beef shanks are slow-boiled for hours until fall-off-the-bone tender, paired with corn, cabbage, and bok choy in a deeply flavourful broth.",
-    "prepTime": "15 min",
-    "cookTime": "3 hr 30 min",
-    "totalTime": "3 hr 45 min",
-    "servings": "4 servings",
-    "difficulty": "Intermediate",
-    "tags": [
-        "Filipino",
-        "Beef",
-        "Soup",
-        "Comfort Food",
-        "Gluten-Free",
-        "Dairy-Free",
-        "Dinner",
-        "Slow Cook"
-    ],
-    "ingredients": [
-        {
-            "heading": "Meat"
-        },
-        {
-            "quantity": "900",
-            "unit": "g",
-            "item": "Beef Shanks",
-            "notes": "with bone marrow"
-        },
-        {
-            "quantity": "450",
-            "unit": "g",
-            "item": "Beef Knuckles",
-            "notes": "optional, for a thicker broth"
-        },
-        {
-            "heading": "Aromatics"
-        },
-        {
-            "quantity": "1",
-            "unit": "",
-            "item": "Brown Onion",
-            "notes": "quartered"
-        },
-        {
-            "quantity": "10",
-            "unit": "g",
-            "item": "Black Peppercorns",
-            "notes": "whole"
-        },
-        {
-            "heading": "Vegetables"
-        },
-        {
-            "quantity": "3",
-            "unit": "",
-            "item": "Corn Cobs",
-            "notes": "cut into pieces"
-        },
-        {
-            "quantity": "1",
-            "unit": "",
-            "item": "Cabbage",
-            "notes": "or bok choy"
-        },
-        {
-            "quantity": "2",
-            "unit": "stalks",
-            "item": "Leek",
-            "notes": "or green onion"
-        },
-        {
-            "heading": "Seasoning"
-        },
-        {
-            "quantity": "30",
-            "unit": "ml",
-            "item": "Fish Sauce",
-            "notes": "to taste"
-        },
-        {
-            "heading": "Liquid"
-        },
-        {
-            "quantity": "2.5",
-            "unit": "litres",
-            "item": "Water",
-            "notes": "enough to cover the meat"
-        },
-        {
-            "heading": "Dipping Sauce"
-        },
-        {
-            "quantity": "30",
-            "unit": "ml",
-            "item": "Fish Sauce"
-        },
-        {
-            "quantity": "4",
-            "unit": "",
-            "item": "Calamansi",
-            "notes": "or lime wedges"
-        },
-        {
-            "quantity": "2",
-            "unit": "",
-            "item": "Red Chilli",
-            "notes": "sliced, optional"
-        }
-    ],
-    "method": [
-        {
-            "step": 1,
-            "instruction": "Wash the beef shanks thoroughly under cold running water to remove any bone shards or debris."
-        },
-        {
-            "step": 2,
-            "instruction": "Place the shanks in a large pot and cover with water. Bring to a boil and cook for 5–10 minutes, skimming off all the grey scum that rises to the surface. Remove the shanks, rinse them under cold water, and thoroughly wash the pot to remove all impurities. This step is crucial for a clear broth."
-        },
-        {
-            "step": 3,
-            "instruction": "Return the cleaned meat to the clean pot and cover with fresh water. Bring to a boil, then immediately reduce to the lowest possible heat. Add the quartered onion and whole peppercorns."
-        },
-        {
-            "step": 4,
-            "instruction": "Cover and simmer gently for 3–4 hours, or until the beef is very tender and the bone marrow is soft. Top up with water as needed to keep the meat submerged. Never let the broth boil rapidly or it will turn cloudy."
-        },
-        {
-            "step": 5,
-            "instruction": "Add the corn pieces and cook for 10–15 minutes. Stir in fish sauce to taste."
-        },
-        {
-            "step": 6,
-            "instruction": "Add the cabbage or bok choy and leeks. Simmer for another 2–3 minutes until the vegetables are just cooked but still vibrant."
-        },
-        {
-            "step": 7,
-            "instruction": "Transfer to a large serving bowl and serve hot with steamed rice. Mix fish sauce, calamansi, and chilli in a small dish on the side as a dipping sauce."
-        }
-    ],
-    "notes": [
-        {
-            "type": "technique",
-            "title": "Low and Slow",
-            "content": "Never rush Bulalo by boiling too hard. A rapid boil emulsifies the fat into the broth, making it cloudy and greasy while causing the meat to tighten up and toughen."
-        },
-        {
-            "type": "technique",
-            "title": "Blanching is Non-Negotiable",
-            "content": "The blanch-and-rinse step removes blood, impurities, and off-flavours. Skipping it results in a murky, gamey broth."
-        },
-        {
-            "type": "variation",
-            "title": "Pressure Cooker",
-            "content": "A pressure cooker reduces the tenderising time to 45 minutes to 1 hour. Release pressure naturally for best results, then add vegetables and finish on the stovetop."
-        },
-        {
-            "type": "variation",
-            "title": "Thicker Broth",
-            "content": "Adding beef knuckles alongside the shanks releases more collagen into the broth, giving it a richer, slightly thicker body."
-        },
-        {
-            "type": "storage",
-            "title": "Leftovers",
-            "content": "The broth keeps refrigerated for up to 4 days. The fat will solidify on top when cold — simply lift it off before reheating for a cleaner soup."
-        }
-    ],
-    "related": [
-        {
-            "id": "porkcaldereta",
-            "title": "Pork Caldereta"
-        },
-        {
-            "id": "filipinonoodles",
-            "title": "Pancit (Filipino Stir-Fried Noodles)"
-        },
-        {
-            "id": "pancitbihon",
-            "title": "Pancit Bihon"
-        },
-        {
-            "id": "filipinoportoccino",
-            "title": "Filipino Pork Toccino"
-        }
-    ],
-    "nutrition": {
-        "servings": 4,
-        "cal": 1016,
-        "kj": 4249,
-        "protein": 94,
-        "carbs": 41,
-        "sugars": 13,
-        "fat": 59,
-        "saturated_fat": 24,
-        "fibre": 8,
-        "sodium": 1413,
-        "coverage": 100
+  "id": "bulalo",
+  "title": "Original Bulalo",
+  "category": "Dinner",
+  "description": "A rich, clear Filipino beef bone marrow soup from Batangas. Beef shanks are slow-boiled for hours until fall-off-the-bone tender, paired with corn, cabbage, and bok choy in a deeply flavourful broth.",
+  "prepTime": "15 min",
+  "cookTime": "3 hr 30 min",
+  "totalTime": "3 hr 45 min",
+  "servings": "4 servings",
+  "difficulty": "Intermediate",
+  "tags": [
+    "Filipino",
+    "Beef",
+    "Soup",
+    "Comfort Food",
+    "Gluten-Free",
+    "Dairy-Free",
+    "Dinner",
+    "Slow Cook"
+  ],
+  "ingredients": [
+    {
+      "heading": "Meat"
     },
-    "lastModified": "2026-05-19"
+    {
+      "quantity": "900",
+      "unit": "g",
+      "item": "Beef Shanks",
+      "notes": "with bone marrow"
+    },
+    {
+      "quantity": "450",
+      "unit": "g",
+      "item": "Beef Knuckles",
+      "notes": "optional, for a thicker broth"
+    },
+    {
+      "heading": "Aromatics"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Brown Onion",
+      "notes": "quartered"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Black Peppercorns",
+      "notes": "whole"
+    },
+    {
+      "heading": "Vegetables"
+    },
+    {
+      "quantity": "3",
+      "unit": "",
+      "item": "Corn Cobs",
+      "notes": "cut into pieces"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Cabbage",
+      "notes": "or bok choy"
+    },
+    {
+      "quantity": "2",
+      "unit": "stalks",
+      "item": "Leek",
+      "notes": "or green onion"
+    },
+    {
+      "heading": "Seasoning"
+    },
+    {
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Fish Sauce",
+      "notes": "to taste"
+    },
+    {
+      "heading": "Liquid"
+    },
+    {
+      "quantity": "2.5",
+      "unit": "litres",
+      "item": "Water",
+      "notes": "enough to cover the meat"
+    },
+    {
+      "heading": "Dipping Sauce"
+    },
+    {
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Fish Sauce"
+    },
+    {
+      "quantity": "4",
+      "unit": "",
+      "item": "Calamansi",
+      "notes": "or lime wedges"
+    },
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Red Chilli",
+      "notes": "sliced, optional"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Wash the beef shanks thoroughly under cold running water to remove any bone shards or debris."
+    },
+    {
+      "step": 2,
+      "instruction": "Place the shanks in a large pot and cover with water. Bring to a boil and cook for 5–10 minutes, skimming off all the grey scum that rises to the surface. Remove the shanks, rinse them under cold water, and thoroughly wash the pot to remove all impurities. This step is crucial for a clear broth."
+    },
+    {
+      "step": 3,
+      "instruction": "Return the cleaned meat to the clean pot and cover with fresh water. Bring to a boil, then immediately reduce to the lowest possible heat. Add the quartered onion and whole peppercorns."
+    },
+    {
+      "step": 4,
+      "instruction": "Cover and simmer gently for 3–4 hours, or until the beef is very tender and the bone marrow is soft. Top up with water as needed to keep the meat submerged. Never let the broth boil rapidly or it will turn cloudy."
+    },
+    {
+      "step": 5,
+      "instruction": "Add the corn pieces and cook for 10–15 minutes. Stir in fish sauce to taste."
+    },
+    {
+      "step": 6,
+      "instruction": "Add the cabbage or bok choy and leeks. Simmer for another 2–3 minutes until the vegetables are just cooked but still vibrant."
+    },
+    {
+      "step": 7,
+      "instruction": "Transfer to a large serving bowl and serve hot with steamed rice. Mix fish sauce, calamansi, and chilli in a small dish on the side as a dipping sauce."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Low and Slow",
+      "content": "Never rush Bulalo by boiling too hard. A rapid boil emulsifies the fat into the broth, making it cloudy and greasy while causing the meat to tighten up and toughen."
+    },
+    {
+      "type": "technique",
+      "title": "Blanching is Non-Negotiable",
+      "content": "The blanch-and-rinse step removes blood, impurities, and off-flavours. Skipping it results in a murky, gamey broth."
+    },
+    {
+      "type": "variation",
+      "title": "Pressure Cooker",
+      "content": "A pressure cooker reduces the tenderising time to 45 minutes to 1 hour. Release pressure naturally for best results, then add vegetables and finish on the stovetop."
+    },
+    {
+      "type": "variation",
+      "title": "Thicker Broth",
+      "content": "Adding beef knuckles alongside the shanks releases more collagen into the broth, giving it a richer, slightly thicker body."
+    },
+    {
+      "type": "storage",
+      "title": "Leftovers",
+      "content": "The broth keeps refrigerated for up to 4 days. The fat will solidify on top when cold — simply lift it off before reheating for a cleaner soup."
+    }
+  ],
+  "related": [
+    {
+      "id": "porkcaldereta",
+      "title": "Pork Caldereta"
+    },
+    {
+      "id": "filipinonoodles",
+      "title": "Pancit (Filipino Stir-Fried Noodles)"
+    },
+    {
+      "id": "pancitbihon",
+      "title": "Pancit Bihon"
+    },
+    {
+      "id": "filipinoportoccino",
+      "title": "Filipino Pork Toccino"
+    }
+  ],
+  "nutrition": {
+    "servings": 4,
+    "cal": 1016,
+    "kj": 4249,
+    "protein": 94,
+    "carbs": 41,
+    "sugars": 13,
+    "fat": 59,
+    "saturated_fat": 24,
+    "fibre": 8,
+    "sodium": 1413,
+    "coverage": 100
+  },
+  "lastModified": "2026-05-19"
 }

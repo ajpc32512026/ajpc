@@ -1,160 +1,160 @@
 {
-    "id": "potatognocchiwithtomatosauce",
-    "title": "Potato Gnocchi with Tomato Sauce",
-    "emoji": "🥔",
-    "category": "Dinner",
-    "description": "Soft potato gnocchi served with a simple tomato and basil sauce.",
-    "prepTime": "30 min",
-    "cookTime": "35 min",
-    "totalTime": "1 hr 5 min",
-    "servings": "4 servings",
-    "difficulty": "Intermediate",
-    "tags": [
-        "Alcohol",
-        "Classic",
-        "Dinner",
-        "Italian",
-        "Rich",
-        "Savoury",
-        "Vegetarian"
-    ],
-    "ingredients": [
-        {
-            "heading": "Gnocchi"
-        },
-        {
-            "quantity": "500",
-            "unit": "g",
-            "item": "Potatoes",
-            "notes": "mashed"
-        },
-        {
-            "quantity": "30",
-            "unit": "g",
-            "item": "Plain Flour"
-        },
-        {
-            "quantity": "50",
-            "unit": "g",
-            "item": "Parmesan",
-            "notes": "grated"
-        },
-        {
-            "quantity": "30",
-            "unit": "g",
-            "item": "Unsalted Butter",
-            "notes": "melted"
-        },
-        {
-            "quantity": "3",
-            "unit": "g",
-            "item": "Salt"
-        },
-        {
-            "quantity": "1",
-            "unit": "g",
-            "item": "Black Pepper"
-        },
-        {
-            "heading": "Tomato Sauce"
-        },
-        {
-            "quantity": "1000",
-            "unit": "g",
-            "item": "Tomatoes",
-            "notes": "ripe, chopped"
-        },
-        {
-            "quantity": "2",
-            "unit": "cloves",
-            "item": "Garlic",
-            "notes": "crushed"
-        },
-        {
-            "quantity": "60",
-            "unit": "ml",
-            "item": "White Wine",
-            "notes": "dry"
-        },
-        {
-            "quantity": "10",
-            "unit": "g",
-            "item": "Basil",
-            "notes": "fresh, chopped"
-        }
-    ],
-    "method": [
-        {
-            "step": 1,
-            "instruction": "Cook potatoes in a pan of boiling water for 15–20 minutes until tender. Drain thoroughly and mash until smooth. Allow to cool slightly."
-        },
-        {
-            "step": 2,
-            "instruction": "Add flour, Parmesan, melted butter, salt, and pepper to the mashed potatoes. Using a flat-bladed knife, mix with a cutting motion to form a firm dough."
-        },
-        {
-            "step": 3,
-            "instruction": "Knead briefly on a lightly floured surface until smooth. Do not over-handle or the gnocchi will be tough."
-        },
-        {
-            "step": 4,
-            "instruction": "Roll heaped teaspoons of dough into oval shapes and indent one side with the back of a fork."
-        },
-        {
-            "step": 5,
-            "instruction": "Cook gnocchi in batches in rapidly boiling salted water for 3–5 minutes. When they float, they are cooked. Drain well and keep warm."
-        },
-        {
-            "step": 6,
-            "instruction": "For the sauce: combine tomatoes, garlic, wine, basil, salt, and pepper in a pan. Bring to the boil, then reduce heat and simmer gently for 15–20 minutes, stirring occasionally, until slightly thickened."
-        },
-        {
-            "step": 7,
-            "instruction": "Serve gnocchi in warmed bowls with tomato sauce and extra grated Parmesan."
-        }
-    ],
-    "notes": [
-        {
-            "type": "technique",
-            "title": "Basil Tip",
-            "content": "Fresh basil should be added at the end of cooking to preserve its flavour. Chop or tear just before using to prevent blackening."
-        },
-        {
-            "type": "acknowledgement",
-            "title": "Recipe Source",
-            "content": "Adapted from The Essential Vegetarian Cook Book, published by Murdoch Books."
-        }
-    ],
-    "related": [
-        {
-            "id": "lasagne",
-            "title": "Classic Lasagne"
-        },
-        {
-            "id": "chickencacciatore",
-            "title": "Chicken Cacciatore"
-        },
-        {
-            "id": "marinarasauce",
-            "title": "Marinara Sauce"
-        },
-        {
-            "id": "redsauce",
-            "title": "Red Sauce"
-        },
-        {
-            "id": "highhydraciab",
-            "title": "Airy High-Hydration Ciabatta"
-        }
-    ],
-    "nutrition": {
-        "servings": 4,
-        "cal": 364,
-        "protein": 14,
-        "carbs": 54,
-        "fat": 11,
-        "fibre": 7,
-        "sodium": 509,
-        "coverage": 100
+  "id": "potatognocchi",
+  "title": "Potato Gnocchi with Tomato Sauce",
+  "category": "Dinner",
+  "description": "Soft potato gnocchi served with a simple tomato and basil sauce.",
+  "prepTime": "30 min",
+  "cookTime": "35 min",
+  "totalTime": "1 hr 5 min",
+  "servings": "4 servings",
+  "difficulty": "Intermediate",
+  "tags": [
+    "Alcohol",
+    "Classic",
+    "Dinner",
+    "Italian",
+    "Rich",
+    "Savoury",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "heading": "Gnocchi"
+    },
+    {
+      "quantity": "500",
+      "unit": "g",
+      "item": "Potatoes",
+      "notes": "mashed"
+    },
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Plain Flour"
+    },
+    {
+      "quantity": "50",
+      "unit": "g",
+      "item": "Parmesan",
+      "notes": "grated"
+    },
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Unsalted Butter",
+      "notes": "melted"
+    },
+    {
+      "quantity": "3",
+      "unit": "g",
+      "item": "Salt"
+    },
+    {
+      "quantity": "1",
+      "unit": "g",
+      "item": "Black Pepper"
+    },
+    {
+      "heading": "Tomato Sauce"
+    },
+    {
+      "quantity": "1000",
+      "unit": "g",
+      "item": "Tomatoes",
+      "notes": "ripe, chopped"
+    },
+    {
+      "quantity": "2",
+      "unit": "cloves",
+      "item": "Garlic",
+      "notes": "crushed"
+    },
+    {
+      "quantity": "60",
+      "unit": "ml",
+      "item": "White Wine",
+      "notes": "dry"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Basil",
+      "notes": "fresh, chopped"
     }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Cook potatoes in a pan of boiling water for 15–20 minutes until tender. Drain thoroughly and mash until smooth. Allow to cool slightly."
+    },
+    {
+      "step": 2,
+      "instruction": "Add flour, Parmesan, melted butter, salt, and pepper to the mashed potatoes. Using a flat-bladed knife, mix with a cutting motion to form a firm dough."
+    },
+    {
+      "step": 3,
+      "instruction": "Knead briefly on a lightly floured surface until smooth. Do not over-handle or the gnocchi will be tough."
+    },
+    {
+      "step": 4,
+      "instruction": "Roll heaped teaspoons of dough into oval shapes and indent one side with the back of a fork."
+    },
+    {
+      "step": 5,
+      "instruction": "Cook gnocchi in batches in rapidly boiling salted water for 3–5 minutes. When they float, they are cooked. Drain well and keep warm."
+    },
+    {
+      "step": 6,
+      "instruction": "For the sauce: combine tomatoes, garlic, wine, basil, salt, and pepper in a pan. Bring to the boil, then reduce heat and simmer gently for 15–20 minutes, stirring occasionally, until slightly thickened."
+    },
+    {
+      "step": 7,
+      "instruction": "Serve gnocchi in warmed bowls with tomato sauce and extra grated Parmesan."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Basil Tip",
+      "content": "Fresh basil should be added at the end of cooking to preserve its flavour. Chop or tear just before using to prevent blackening."
+    },
+    {
+      "type": "acknowledgement",
+      "title": "Recipe Source",
+      "content": "Adapted from The Essential Vegetarian Cook Book, published by Murdoch Books."
+    }
+  ],
+  "related": [
+    {
+      "id": "lasagne",
+      "title": "Classic Lasagne"
+    },
+    {
+      "id": "chickencacciatore",
+      "title": "Chicken Cacciatore"
+    },
+    {
+      "id": "marinarasauce",
+      "title": "Marinara Sauce"
+    },
+    {
+      "id": "redsauce",
+      "title": "Red Sauce"
+    },
+    {
+      "id": "highhydraciab",
+      "title": "Airy High-Hydration Ciabatta"
+    }
+  ],
+  "nutrition": {
+    "servings": 4,
+    "cal": 364,
+    "protein": 14,
+    "carbs": 54,
+    "fat": 11,
+    "fibre": 7,
+    "sodium": 509,
+    "coverage": 100
+  },
+  "lastModified": "2026-06-08"
 }

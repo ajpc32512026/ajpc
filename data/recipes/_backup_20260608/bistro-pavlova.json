@@ -1,0 +1,146 @@
+{
+  "id": "pavlova",
+  "title": "Pavlova",
+  "emoji": "🍓",
+  "category": "Desserts",
+  "difficulty": "Intermediate",
+  "description": "Crisp-shelled meringue with a soft marshmallow centre, topped with whipped cream and fresh seasonal fruit. An Australian icon.",
+  "prepTime": "15 min",
+  "cookTime": "1 hr 30 min",
+  "totalTime": "1 hr 45 min",
+  "servings": "8 servings",
+  "tags": [
+    "Australian",
+    "Baked",
+    "Classic",
+    "Creamy",
+    "Dessert",
+    "Sweet",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "heading": "Meringue"
+    },
+    {
+      "quantity": "6",
+      "unit": "",
+      "item": "Egg Whites"
+    },
+    {
+      "quantity": "300",
+      "unit": "g",
+      "item": "Caster Sugar"
+    },
+    {
+      "quantity": "5",
+      "unit": "ml",
+      "item": "White Vinegar"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Cornflour"
+    },
+    {
+      "quantity": "5",
+      "unit": "ml",
+      "item": "Vanilla Extract"
+    },
+    {
+      "heading": "Topping"
+    },
+    {
+      "quantity": "200",
+      "unit": "ml",
+      "item": "Thickened Cream",
+      "notes": "whipped"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Strawberries",
+      "notes": "halved"
+    },
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Kiwi Fruit",
+      "notes": "sliced"
+    },
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Passionfruit",
+      "notes": "pulp only"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Mango",
+      "notes": "sliced"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 120°C. Draw a 22 cm circle on a sheet of baking paper and place on a baking tray, pencil side down."
+    },
+    {
+      "step": 2,
+      "instruction": "In a clean, grease-free bowl, whip egg whites to stiff peaks using an electric mixer."
+    },
+    {
+      "step": 3,
+      "instruction": "Gradually add caster sugar, a spoonful at a time, beating continuously until the mixture is very thick, glossy, and the sugar has completely dissolved — rub a little between your fingers to check."
+    },
+    {
+      "step": 4,
+      "instruction": "Gently fold in vinegar, cornflour, and vanilla extract until just combined."
+    },
+    {
+      "step": 5,
+      "instruction": "Mound the meringue onto the circle, shaping it into a nest with a slight dip in the centre and soft peaks around the edges."
+    },
+    {
+      "step": 6,
+      "instruction": "Bake for 90 minutes. Turn the oven off and leave the pavlova inside with the door closed to cool completely — ideally overnight."
+    },
+    {
+      "step": 7,
+      "instruction": "Just before serving, top with whipped cream and arrange fresh strawberries, kiwi, passionfruit pulp, and mango slices over the cream."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Sugar Dissolving",
+      "content": "The key to a successful pavlova is ensuring the sugar is fully dissolved before baking. Rub a little meringue between your fingers — if it feels grainy, keep beating. Undissolved sugar causes weeping beads on the surface during baking."
+    },
+    {
+      "type": "technique",
+      "title": "Cooling",
+      "content": "Leave the pavlova in the turned-off oven with the door closed until completely cool. Rapid temperature change causes cracking and collapse. Overnight cooling gives the best result."
+    }
+  ],
+  "nutrition": {
+    "servings": 8,
+    "cal": 343,
+    "kj": 1435,
+    "protein": 10,
+    "carbs": 54,
+    "sugars": 52,
+    "fat": 10,
+    "saturated_fat": 6,
+    "fiber": 4,
+    "sodium": 142,
+    "coverage": 100,
+    "calcium_mg": 33,
+    "potassium_mg": 309,
+    "magnesium_mg": 25,
+    "cholesterol_mg": 28,
+    "vitamin_a_ug": 111,
+    "vitamin_c_mg": 36
+  },
+  "lastModified": "2026-06-04"
+}

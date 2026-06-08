@@ -1,0 +1,230 @@
+{
+  "id": "multigrainseededbread",
+  "title": "Multigrain Seeded Bread",
+  "emoji": "🍞",
+  "category": "Breads",
+  "difficulty": "Intermediate",
+  "description": "A dense, nutrient-dense sandwich loaf packed with a variety of seeds, grains, and added dietary fibre. This recipe produces a hearty loaf suitable for daily slicing.",
+  "prepTime": "25 min",
+  "cookTime": "35 min",
+  "totalTime": "2 hr 30 min",
+  "servings": "12 slices",
+  "yieldPerBatch": "1 loaf",
+  "tags": [
+    "Bread",
+    "Multigrain",
+    "Seeded",
+    "Baking",
+    "Savory"
+  ],
+  "ingredients": [
+    {
+      "quantity": "590",
+      "unit": "g",
+      "item": "Bakers Flour"
+    },
+    {
+      "quantity": "430",
+      "unit": "ml",
+      "item": "Water",
+      "notes": "lukewarm; may need slight adjustment depending on flour absorption"
+    },
+    {
+      "quantity": "7",
+      "unit": "g",
+      "item": "Yeast"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Salt"
+    },
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Butter",
+      "notes": "softened"
+    },
+    {
+      "quantity": "20",
+      "unit": "g",
+      "item": "Sugar"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Bread Improver"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Sunflower Seeds"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Poppy Seeds"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Black Chia Seeds"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "White Chia Seeds"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Sesame Seeds"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Hemp Seeds"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Linseed"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Quinoa Tri Colour"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Hemp Seed Protein"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Flaxseed Meal"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Freekeh"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Bulgur Wheat"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Almond Meal"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Psyllium Husk"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Soy Lecithin"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Gentle Fibre"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Rolled Oats"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Pepitas"
+    }
+  ],
+  "youWillNeed": [
+    {
+      "item": "Loaf Pan",
+      "note": "Standard 23cm x 13cm (9x5 inch) pan, lightly greased."
+    },
+    {
+      "item": "Mixing Bowl",
+      "note": "Large bowl for mixing and initial rising."
+    },
+    {
+      "item": "Damp Cloth or Plastic Wrap",
+      "note": "To cover the dough while proofing."
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "In a large mixing bowl, combine the Bakers Flour, yeast, salt, sugar, bread improver, Macro chia seeds, and all the 5g seed and grain ingredients (poppy seeds, black and white chia, sesame, hemp, linseed, quinoa, hemp protein, flaxseed, freekeh, bulgur, almond meal, psyllium, lecithin, gentle fibre, and oats)."
+    },
+    {
+      "step": 2,
+      "instruction": "Add the softened butter and lukewarm water to the dry ingredients. Stir to combine until a rough dough forms."
+    },
+    {
+      "step": 3,
+      "instruction": "Turn dough onto a lightly floured surface and knead for 10 minutes (or 6–8 minutes in a stand mixer fitted with a dough hook) until the dough becomes smooth and elastic."
+    },
+    {
+      "step": 4,
+      "instruction": "Shape dough into a ball and place in a lightly greased bowl. Cover with a damp cloth and let rise in a warm, draft-free place for about 1 hour, or until it has doubled in size."
+    },
+    {
+      "step": 5,
+      "instruction": "Gently punch down the dough to release excess air. Shape into a log shape to fit your prepared loaf pan. Place dough in the pan, cover, and let rise again for 30–45 minutes."
+    },
+    {
+      "step": 6,
+      "instruction": "Preheat oven to 200°C (180°C fan-forced) during the final minutes of proofing."
+    },
+    {
+      "step": 7,
+      "instruction": "Bake for 30 to 35 minutes, or until the loaf is deep golden brown and sounds hollow when tapped on the bottom."
+    },
+    {
+      "step": 8,
+      "instruction": "Remove from the oven, turn the loaf out onto a wire rack, and allow to cool completely before slicing."
+    }
+  ],
+  "notes": [
+    {
+      "type": "tip",
+      "title": "Water Hydration",
+      "content": "Due to the high volume of seeds and absorbing ingredients like psyllium husk, flaxseed, and protein powders, the dough may require a small extra splash of water if it feels too dry during kneading."
+    },
+    {
+      "type": "storage",
+      "title": "Storage",
+      "content": "Store in a bread box or paper bag for up to 3 days, or slice and freeze for longer storage."
+    }
+  ],
+  "nutrition": {
+    "servings": 12,
+    "cal": 232,
+    "kj": 970,
+    "protein": 6,
+    "carbs": 40,
+    "sugars": 3,
+    "fat": 5,
+    "saturated_fat": 1.7,
+    "fiber": 3,
+    "sodium": 79,
+    "coverage": 88,
+    "calcium_mg": 31,
+    "iron_mg": 1,
+    "potassium_mg": 140,
+    "magnesium_mg": 34,
+    "zinc_mg": 1,
+    "cholesterol_mg": 4,
+    "vitamin_a_ug": 22
+  },
+  "lastModified": "2026-06-07"
+}

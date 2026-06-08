@@ -72,7 +72,7 @@
             
         } catch (err) {
             console.warn('[featured-rotator]', err);
-            grid.innerHTML = '<p style="color:var(--cream-muted);text-align:center;grid-column:1/-1;">Featured recipes unavailable.</p>';
+            grid.innerHTML = '<p class="featured-unavailable">Featured recipes unavailable.</p>';
         }
     }
 
@@ -82,7 +82,7 @@
         return `
             <a href="recipe.html?id=${recipe.id}" class="recipe-card">
                 <div class="recipe-card-tag">${recipe.category || 'Recipe'}</div>
-                <h3>${recipe.emoji ? recipe.emoji + ' ' : ''}${escapeHtml(recipeTitle)}</h3>
+                <h3>${escapeHtml(recipeTitle)}</h3>
                 <p>${recipe.description ? escapeHtml(recipe.description.substring(0, 100)) + '...' : ''}</p>
                 <span class="recipe-card-arrow">Read more →</span>
             </a>

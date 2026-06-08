@@ -40,7 +40,7 @@ async function importRecipeFile(event) {
         if (parsed && (parsed.ingredients?.length || parsed.method?.length)) {
             populateForm(parsed);
             document.getElementById('mode-label').textContent = 'Imported: ' + file.name;
-            document.getElementById('mode-label').style.color = 'var(--gold)';
+            document.getElementById('mode-label').style.color = 'var(--copper)';
             toast('Import complete! Please review and adjust.');
         } else {
             navigator.clipboard.writeText(text).catch(() => {});

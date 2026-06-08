@@ -1,0 +1,87 @@
+{
+  "id": "ultimatehomemadepizzadough",
+  "title": "Ultimate Homemade Pizza Dough",
+  "emoji": "🍕",
+  "category": "Baking",
+  "description": "A versatile dough that works beautifully for both pizza bases and bread rolls. Simple ingredients, minimal fuss, and results that are worth every minute of the knead.",
+  "prepTime": "20 min",
+  "totalTime": "2 hr 20 min",
+  "servings": "1",
+  "difficulty": "Beginner",
+  "tags": [
+    "Bread",
+    "Italian",
+    "Make Ahead",
+    "Savoury",
+    "Vegan",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "quantity": "590",
+      "unit": "g",
+      "item": "Bread Flour",
+      "notes": "plain flour works well too"
+    },
+    {
+      "quantity": "300",
+      "unit": "ml",
+      "item": "Water",
+      "notes": "cold or warm depending on the temperature of the kitchen..."
+    },
+    {
+      "quantity": "7",
+      "unit": "g",
+      "item": "Yeast",
+      "notes": "instant dried... 1 sachet"
+    },
+    {
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Olive Oil"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Salt"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Bread Improver",
+      "notes": "Wallaby bread improver available at Woolworths and Coles"
+    },
+    {
+      "quantity": "20",
+      "unit": "g",
+      "item": "White Sugar",
+      "notes": "optional... helps feed the yeast"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "In a large bowl, combine all ingredients and mix until a shaggy dough forms — note that salt can inhibit yeast activity, so try to keep them on opposite sides of the bowl before mixing. Tip out onto a lightly floured bench and knead for a full 15 minutes until smooth, elastic, and no longer sticky."
+    }
+  ],
+  "nutrition": {
+    "servings": 1,
+    "cal": 2480,
+    "kj": 10377,
+    "protein": 73,
+    "carbs": 442,
+    "sugars": 34,
+    "fat": 40,
+    "saturated_fat": 6,
+    "fiber": 18,
+    "sodium": 885,
+    "coverage": 100,
+    "calcium_mg": 138,
+    "iron_mg": 9,
+    "potassium_mg": 1167,
+    "magnesium_mg": 231,
+    "zinc_mg": 6,
+    "vitamin_a_ug": 2
+  },
+  "lastModified": "2026-06-03"
+}

@@ -81,7 +81,7 @@
     function updateFavBtn(btn) {
         if (!window.AJPC) return;
         var isFav = window.AJPC.Favourites.isFav(recipe.id);
-        btn.textContent = isFav ? '★ Favourited' : '☆ Favourite';
+        btn.textContent = isFav ? 'Favourited' : 'Favourite';
         btn.classList.toggle('active', isFav);
     }
 

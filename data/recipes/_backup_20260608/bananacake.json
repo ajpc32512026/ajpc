@@ -1,0 +1,242 @@
+{
+  "id": "bananacakewithlemonfrosting",
+  "title": "Banana Cake with Lemon Frosting",
+  "emoji": "🍌",
+  "category": "Baking",
+  "description": "A moist, tender banana cake made with oil — no mixer required. Crowned with a tangy lemon buttercream and toasted coconut.",
+  "prepTime": "20 min",
+  "cookTime": "45 min",
+  "totalTime": "1 hr 5 min",
+  "servings": "8 slices",
+  "difficulty": "Beginner",
+  "tags": [
+    "Banana",
+    "Cake",
+    "Citrus",
+    "Sweet",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "heading": "Cake"
+    },
+    {
+      "quantity": "125",
+      "unit": "ml",
+      "item": "Vegetable Oil"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "White Sugar"
+    },
+    {
+      "quantity": "50",
+      "unit": "g",
+      "item": "Brown Sugar"
+    },
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Eggs",
+      "notes": "lightly beaten"
+    },
+    {
+      "quantity": "5",
+      "unit": "ml",
+      "item": "Vanilla Extract"
+    },
+    {
+      "quantity": "4",
+      "unit": "",
+      "item": "Bananas",
+      "notes": "medium, ripe, mashed"
+    },
+    {
+      "quantity": "125",
+      "unit": "ml",
+      "item": "Milk"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Bi-Carb Soda"
+    },
+    {
+      "quantity": "3",
+      "unit": "g",
+      "item": "Cinnamon"
+    },
+    {
+      "quantity": "300",
+      "unit": "g",
+      "item": "Self-Raising Flour"
+    },
+    {
+      "heading": "Lemon Frosting"
+    },
+    {
+      "quantity": "125",
+      "unit": "g",
+      "item": "Unsalted Butter",
+      "notes": "softened"
+    },
+    {
+      "quantity": "110",
+      "unit": "g",
+      "item": "Icing Sugar",
+      "notes": "sifted"
+    },
+    {
+      "quantity": "15",
+      "unit": "ml",
+      "item": "Lemon Juice"
+    },
+    {
+      "heading": "Topping"
+    },
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Desiccated Coconut",
+      "notes": "toasted"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 180°C. Grease and line a 20 cm round cake tin with baking paper."
+    },
+    {
+      "step": 2,
+      "instruction": "In a large bowl, whisk together oil, both sugars, eggs, and vanilla extract until smooth and well combined."
+    },
+    {
+      "step": 3,
+      "instruction": "Add mashed bananas and milk. Stir until evenly mixed."
+    },
+    {
+      "step": 4,
+      "instruction": "Sprinkle bi-carb soda and cinnamon over the wet mixture, then sift in the self-raising flour. Fold gently until just combined — do not overmix."
+    },
+    {
+      "step": 5,
+      "instruction": "Pour batter into the prepared tin and smooth the surface."
+    },
+    {
+      "step": 6,
+      "instruction": "Bake for 40–45 minutes, or until a skewer inserted into the centre comes out clean. Cool in the tin for 10 minutes, then turn out onto a wire rack to cool completely."
+    },
+    {
+      "step": 7,
+      "instruction": "For the frosting: beat softened butter until pale and creamy. Gradually add sifted icing sugar, beating until light and fluffy. Add lemon juice and beat until smooth."
+    },
+    {
+      "step": 8,
+      "instruction": "Spread frosting over the cooled cake. Sprinkle with toasted coconut, pressing gently to adhere."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Oil-Based Mixing",
+      "content": "Oil keeps this cake exceptionally moist and tender. No creaming or mixer required — just a bowl, whisk, and spatula. The batter will be looser than a butter-based cake, which is correct."
+    },
+    {
+      "type": "technique",
+      "title": "Banana Ripeness",
+      "content": "The bananas should be very ripe — heavily speckled or even black. The more ripe they are, the sweeter and more flavourful the cake will be."
+    },
+    {
+      "type": "serving",
+      "title": "Serving Tip",
+      "content": "Best eaten within 2 days. Store in an airtight container in a cool place. The toasted coconut adds a lovely crunch and nutty contrast to the soft cake."
+    }
+  ],
+  "related": [
+    {
+      "id": "bananabread",
+      "title": "Banana Bread",
+      "matchingTags": [
+        "Banana",
+        "Bread",
+        "Breakfast",
+        "Classic",
+        "Make Ahead",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "hummingbird",
+      "title": "Hummingbird Cake — Cafe Style",
+      "matchingTags": [
+        "Banana",
+        "Party",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "classiccarrotcake",
+      "title": "Classic Carrot Cake",
+      "matchingTags": [
+        "Baked",
+        "Classic",
+        "Creamy",
+        "Party",
+        "Sweet",
+        "Vegetarian",
+        "Carrot"
+      ]
+    },
+    {
+      "id": "lemoncoconut",
+      "title": "Lemon Coconut Cake",
+      "matchingTags": [
+        "Coconut",
+        "Dessert",
+        "Lemon",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "orangepoppyseed",
+      "title": "Orange & Poppy Seed Cake",
+      "matchingTags": [
+        "Citrus",
+        "Dessert",
+        "Orange",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    }
+  ],
+  "nutrition": {
+    "servings": 8,
+    "cal": 624,
+    "kj": 2610,
+    "protein": 9,
+    "carbs": 69,
+    "sugars": 36,
+    "fat": 36,
+    "saturated_fat": 14,
+    "fiber": 3,
+    "sodium": 503,
+    "coverage": 100,
+    "calcium_mg": 69,
+    "iron_mg": 1,
+    "potassium_mg": 369,
+    "magnesium_mg": 39,
+    "zinc_mg": 1,
+    "cholesterol_mg": 123,
+    "vitamin_a_ug": 196,
+    "vitamin_c_mg": 5,
+    "vitamin_d_ug": 1
+  },
+  "lastModified": "2026-06-03"
+}

@@ -1,0 +1,204 @@
+{
+  "id": "cinnamontwists",
+  "title": "Cinnamon Twists",
+  "emoji": "🥨",
+  "category": "Baking",
+  "difficulty": "Intermediate",
+  "description": "A soft, buttery treat with a swirl of spiced sweetness — perfect for breakfast or afternoon tea.",
+  "prepTime": "30 min",
+  "cookTime": "15 min",
+  "totalTime": "2 hr 45 min",
+  "servings": "18 twists",
+  "tags": [
+    "Baked",
+    "Bread",
+    "Breakfast",
+    "Cinnamon",
+    "Sweet",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "heading": "Dough"
+    },
+    {
+      "quantity": "14",
+      "unit": "g",
+      "item": "Yeast"
+    },
+    {
+      "quantity": "600",
+      "unit": "g",
+      "item": "Plain Flour"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Salt"
+    },
+    {
+      "quantity": "50",
+      "unit": "g",
+      "item": "White Sugar"
+    },
+    {
+      "quantity": "240",
+      "unit": "ml",
+      "item": "Sour Cream",
+      "notes": "warmed"
+    },
+    {
+      "quantity": "125",
+      "unit": "ml",
+      "item": "Milk",
+      "notes": "warmed"
+    },
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Unsalted Butter",
+      "notes": "melted"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Eggs",
+      "notes": "beaten"
+    },
+    {
+      "heading": "Filling"
+    },
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Unsalted Butter",
+      "notes": "melted, for brushing"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Brown Sugar"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Cinnamon"
+    },
+    {
+      "heading": "Icing"
+    },
+    {
+      "quantity": "15",
+      "unit": "g",
+      "item": "Unsalted Butter",
+      "notes": "softened"
+    },
+    {
+      "quantity": "2",
+      "unit": "ml",
+      "item": "Vanilla Extract"
+    },
+    {
+      "quantity": "125",
+      "unit": "g",
+      "item": "Icing Sugar"
+    },
+    {
+      "quantity": "15",
+      "unit": "ml",
+      "item": "Milk"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "In a large bowl, combine flour, yeast, salt, and sugar."
+    },
+    {
+      "step": 2,
+      "instruction": "In a separate bowl, mix warmed sour cream, warmed milk, melted butter, and beaten egg."
+    },
+    {
+      "step": 3,
+      "instruction": "Pour wet ingredients into dry ingredients and mix until a soft dough forms."
+    },
+    {
+      "step": 4,
+      "instruction": "Knead on a lightly floured surface for 8–10 minutes until smooth and elastic."
+    },
+    {
+      "step": 5,
+      "instruction": "Place dough in a lightly greased bowl, cover with a damp tea towel, and let rise in a warm place for 1–1½ hours or until doubled in size."
+    },
+    {
+      "step": 6,
+      "instruction": "Punch down the dough and roll out into a large rectangle approximately 30 cm × 40 cm."
+    },
+    {
+      "step": 7,
+      "instruction": "Brush the surface with melted butter."
+    },
+    {
+      "step": 8,
+      "instruction": "In a small bowl, mix brown sugar and cinnamon. Sprinkle evenly over the buttered dough."
+    },
+    {
+      "step": 9,
+      "instruction": "Fold the dough in half lengthwise, then cut into strips approximately 2 cm wide."
+    },
+    {
+      "step": 10,
+      "instruction": "Twist each strip gently and place on a lined baking tray, leaving space between each."
+    },
+    {
+      "step": 11,
+      "instruction": "Cover and let rise for 30 minutes."
+    },
+    {
+      "step": 12,
+      "instruction": "Preheat oven to 180°C. Bake twists for 12–15 minutes until golden brown."
+    },
+    {
+      "step": 13,
+      "instruction": "While twists cool slightly, make the icing: beat together butter, vanilla extract, icing sugar, and milk until smooth and glossy."
+    },
+    {
+      "step": 14,
+      "instruction": "Drizzle icing over warm twists and serve."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Sour Cream Dough",
+      "content": "The sour cream creates an exceptionally soft, tender dough. Warming the dairy before adding helps activate the yeast faster — aim for approximately 40°C."
+    },
+    {
+      "type": "serving",
+      "title": "Best Served",
+      "content": "These are best enjoyed fresh and warm on the day they are baked. Store leftovers in an airtight container for up to 2 days. Reheat briefly in the microwave to soften."
+    }
+  ],
+  "nutrition": {
+    "servings": 18,
+    "cal": 273,
+    "kj": 1142,
+    "protein": 6,
+    "carbs": 38,
+    "sugars": 15,
+    "fat": 11,
+    "saturated_fat": 6.4,
+    "fiber": 1,
+    "sodium": 55,
+    "coverage": 100,
+    "calcium_mg": 38,
+    "iron_mg": 1,
+    "potassium_mg": 140,
+    "magnesium_mg": 19,
+    "zinc_mg": 1,
+    "cholesterol_mg": 75,
+    "vitamin_a_ug": 108,
+    "vitamin_d_ug": 1
+  },
+  "lastModified": "2026-06-04"
+}

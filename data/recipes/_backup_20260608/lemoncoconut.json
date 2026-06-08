@@ -1,0 +1,165 @@
+{
+  "id": "lemoncoconutcake",
+  "title": "Lemon Coconut Cake",
+  "emoji": "🍋",
+  "category": "Baking",
+  "difficulty": "Beginner",
+  "description": "A simple old-school favourite — bright lemon, soft crumb, and that warm coconut finish.",
+  "prepTime": "15 min",
+  "cookTime": "40 min",
+  "totalTime": "55 min",
+  "servings": "12 slices",
+  "tags": [
+    "Coconut",
+    "Dessert",
+    "Lemon",
+    "Sweet",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "heading": "Cake"
+    },
+    {
+      "quantity": "150",
+      "unit": "g",
+      "item": "Plain Flour"
+    },
+    {
+      "quantity": "150",
+      "unit": "g",
+      "item": "White Sugar"
+    },
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Eggs"
+    },
+    {
+      "quantity": "125",
+      "unit": "g",
+      "item": "Unsalted Butter"
+    },
+    {
+      "quantity": "125",
+      "unit": "ml",
+      "item": "Milk"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Desiccated Coconut"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Lemon Zest"
+    },
+    {
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Lemon Juice"
+    },
+    {
+      "heading": "Lemon Icing"
+    },
+    {
+      "quantity": "150",
+      "unit": "g",
+      "item": "Icing Sugar"
+    },
+    {
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Lemon Juice"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Lemon Zest"
+    },
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Desiccated Coconut",
+      "notes": "for decoration"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 180°C. Grease and line a 28 cm round cake tin."
+    },
+    {
+      "step": 2,
+      "instruction": "In a saucepan over medium heat, combine milk and butter. Stir until the butter is melted. Remove from heat."
+    },
+    {
+      "step": 3,
+      "instruction": "Add sifted flour and sugar to the milk mixture. Stir gently until the sugar dissolves."
+    },
+    {
+      "step": 4,
+      "instruction": "Add eggs one at a time, mixing between additions. Add lemon juice, lemon zest, and desiccated coconut. Stir until just combined — do not overmix."
+    },
+    {
+      "step": 5,
+      "instruction": "Pour the mixture into the prepared tin and smooth the surface."
+    },
+    {
+      "step": 6,
+      "instruction": "Bake for 35–40 minutes or until a skewer inserted into the centre comes out clean."
+    },
+    {
+      "step": 7,
+      "instruction": "Cool completely on a wire rack before icing."
+    },
+    {
+      "step": 8,
+      "instruction": "For the icing: sift icing sugar into a bowl. Add lemon juice slowly, mixing until a thick, spreadable paste forms."
+    },
+    {
+      "step": 9,
+      "instruction": "Spread icing over the cooled cake."
+    },
+    {
+      "step": 10,
+      "instruction": "Sprinkle with lemon zest and desiccated coconut to decorate."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Gentle Mixing",
+      "content": "Stir only until just combined after adding the eggs and coconut. Overmixing develops gluten and makes the cake tough rather than tender."
+    },
+    {
+      "type": "technique",
+      "title": "Icing Consistency",
+      "content": "Add lemon juice a little at a time — the icing should be thick enough to spread but not runny. If it becomes too thin, add more sifted icing sugar."
+    }
+  ],
+  "nutrition": {
+    "servings": 12,
+    "cal": 337,
+    "kj": 1408,
+    "protein": 7,
+    "carbs": 32,
+    "sugars": 23,
+    "fat": 20,
+    "saturated_fat": 14,
+    "fiber": 2,
+    "sodium": 67,
+    "coverage": 100,
+    "calcium_mg": 36,
+    "iron_mg": 1,
+    "potassium_mg": 185,
+    "magnesium_mg": 22,
+    "zinc_mg": 1,
+    "cholesterol_mg": 183,
+    "vitamin_a_ug": 152,
+    "vitamin_c_mg": 3,
+    "vitamin_d_ug": 2
+  },
+  "lastModified": "2026-06-04"
+}

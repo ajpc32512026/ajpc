@@ -1,200 +1,200 @@
 {
-    "id": "mongolianbeefstirfry",
-    "title": "Mongolian Beef Stir-Fry",
-    "emoji": "🥢",
-    "category": "Dinner",
-    "description": "Serve this sizzling stir-fry in a cast-iron pan for full restaurant-style drama — the sizzling, spitting finish brings the flavour alive.",
-    "prepTime": "15 min",
-    "cookTime": "10 min",
-    "totalTime": "1 hr 25 min",
-    "servings": "2 servings",
-    "difficulty": "Intermediate",
-    "tags": [
-        "Alcohol",
-        "Beef",
-        "Chinese",
-        "Dinner",
-        "Savoury",
-        "Stir-Fried",
-        "Sweet"
-    ],
-    "ingredients": [
-        {
-            "heading": "Beef & Marinade"
-        },
-        {
-            "quantity": "350",
-            "unit": "g",
-            "item": "Beef",
-            "notes": "sliced thinly against the grain"
-        },
-        {
-            "quantity": "2",
-            "unit": "g",
-            "item": "Bi-Carb Soda"
-        },
-        {
-            "quantity": "5",
-            "unit": "g",
-            "item": "Cornflour"
-        },
-        {
-            "quantity": "15",
-            "unit": "ml",
-            "item": "Light Soy Sauce"
-        },
-        {
-            "quantity": "15",
-            "unit": "ml",
-            "item": "Chinese Rice Wine"
-        },
-        {
-            "heading": "Sauce"
-        },
-        {
-            "quantity": "5",
-            "unit": "g",
-            "item": "Cornflour"
-        },
-        {
-            "quantity": "10",
-            "unit": "ml",
-            "item": "Dark Soy Sauce"
-        },
-        {
-            "quantity": "5",
-            "unit": "ml",
-            "item": "Light Soy Sauce"
-        },
-        {
-            "quantity": "5",
-            "unit": "g",
-            "item": "Sambal Oelek"
-        },
-        {
-            "quantity": "15",
-            "unit": "ml",
-            "item": "Oyster Sauce"
-        },
-        {
-            "quantity": "15",
-            "unit": "ml",
-            "item": "Chinese Rice Wine"
-        },
-        {
-            "quantity": "2",
-            "unit": "g",
-            "item": "Chinese Five Spice"
-        },
-        {
-            "quantity": "60",
-            "unit": "ml",
-            "item": "Water"
-        },
-        {
-            "heading": "Stir-Fry"
-        },
-        {
-            "quantity": "5",
-            "unit": "ml",
-            "item": "Sesame Oil"
-        },
-        {
-            "quantity": "45",
-            "unit": "ml",
-            "item": "Vegetable Oil"
-        },
-        {
-            "quantity": "1",
-            "unit": "",
-            "item": "Brown Onion",
-            "notes": "sliced"
-        },
-        {
-            "quantity": "3",
-            "unit": "",
-            "item": "Spring Onion",
-            "notes": "white and green parts separated, sliced"
-        },
-        {
-            "quantity": "2",
-            "unit": "cloves",
-            "item": "Garlic",
-            "notes": "crushed"
-        }
-    ],
-    "method": [
-        {
-            "step": 1,
-            "instruction": "Combine beef with bi-carb soda, cornflour, light soy sauce, and Chinese rice wine. Mix well, cover, and set aside for 1 hour to marinate."
-        },
-        {
-            "step": 2,
-            "instruction": "Mix cornflour with dark soy sauce and light soy sauce until smooth, then stir in sambal oelek, oyster sauce, Chinese rice wine, five spice, and water. Set sauce aside."
-        },
-        {
-            "step": 3,
-            "instruction": "Heat vegetable oil and sesame oil in a wok over high heat until smoking."
-        },
-        {
-            "step": 4,
-            "instruction": "Stir-fry onion and the white parts of spring onion for 1 minute. Add garlic and cook for 10 seconds until fragrant."
-        },
-        {
-            "step": 5,
-            "instruction": "Add marinated beef and stir-fry until no longer red, about 2 minutes."
-        },
-        {
-            "step": 6,
-            "instruction": "Pour in the sauce and cook until reduced and caramelised, about 3 minutes."
-        },
-        {
-            "step": 7,
-            "instruction": "Toss through the green parts of spring onion until just wilted. Serve immediately — ideally in a hot cast-iron pan for a sizzling effect."
-        }
-    ],
-    "notes": [
-        {
-            "type": "technique",
-            "title": "Bi-Carb Soda Tenderising",
-            "content": "The bi-carb soda in the marinade is a classic Chinese restaurant technique that tenderises the beef and gives it that signature silky texture. Do not skip it."
-        },
-        {
-            "type": "acknowledgement",
-            "title": "Recipe Inspiration",
-            "content": "This Mongolian Beef Stir-Fry draws inspiration from traditional Chinese banquet cooking methods."
-        }
-    ],
-    "related": [
-        {
-            "id": "mongoliansauce",
-            "title": "Mongolian Stir-Fry Sauce"
-        },
-        {
-            "id": "mongolianlamb",
-            "title": "Mongolian Lamb"
-        },
-        {
-            "id": "sweetsourpork",
-            "title": "Sweet & Sour Pork"
-        },
-        {
-            "id": "beefstockpot",
-            "title": "Beef Stock Pot"
-        },
-        {
-            "id": "chickenteriyaki",
-            "title": "Chicken Teriyaki"
-        }
-    ],
-    "nutrition": {
-        "servings": 2,
-        "cal": 932,
-        "protein": 57,
-        "carbs": 57,
-        "fat": 56,
-        "fibre": 7,
-        "sodium": 1577,
-        "coverage": 100
+  "id": "mongolianbeef",
+  "title": "Mongolian Beef Stir-Fry",
+  "category": "Dinner",
+  "description": "Serve this sizzling stir-fry in a cast-iron pan for full restaurant-style drama — the sizzling, spitting finish brings the flavour alive.",
+  "prepTime": "15 min",
+  "cookTime": "10 min",
+  "totalTime": "1 hr 25 min",
+  "servings": "2 servings",
+  "difficulty": "Intermediate",
+  "tags": [
+    "Alcohol",
+    "Beef",
+    "Chinese",
+    "Dinner",
+    "Savoury",
+    "Stir-Fried",
+    "Sweet"
+  ],
+  "ingredients": [
+    {
+      "heading": "Beef & Marinade"
+    },
+    {
+      "quantity": "350",
+      "unit": "g",
+      "item": "Beef",
+      "notes": "sliced thinly against the grain"
+    },
+    {
+      "quantity": "2",
+      "unit": "g",
+      "item": "Bi-Carb Soda"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Cornflour"
+    },
+    {
+      "quantity": "15",
+      "unit": "ml",
+      "item": "Light Soy Sauce"
+    },
+    {
+      "quantity": "15",
+      "unit": "ml",
+      "item": "Chinese Rice Wine"
+    },
+    {
+      "heading": "Sauce"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Cornflour"
+    },
+    {
+      "quantity": "10",
+      "unit": "ml",
+      "item": "Dark Soy Sauce"
+    },
+    {
+      "quantity": "5",
+      "unit": "ml",
+      "item": "Light Soy Sauce"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Sambal Oelek"
+    },
+    {
+      "quantity": "15",
+      "unit": "ml",
+      "item": "Oyster Sauce"
+    },
+    {
+      "quantity": "15",
+      "unit": "ml",
+      "item": "Chinese Rice Wine"
+    },
+    {
+      "quantity": "2",
+      "unit": "g",
+      "item": "Chinese Five Spice"
+    },
+    {
+      "quantity": "60",
+      "unit": "ml",
+      "item": "Water"
+    },
+    {
+      "heading": "Stir-Fry"
+    },
+    {
+      "quantity": "5",
+      "unit": "ml",
+      "item": "Sesame Oil"
+    },
+    {
+      "quantity": "45",
+      "unit": "ml",
+      "item": "Vegetable Oil"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Brown Onion",
+      "notes": "sliced"
+    },
+    {
+      "quantity": "3",
+      "unit": "",
+      "item": "Spring Onion",
+      "notes": "white and green parts separated, sliced"
+    },
+    {
+      "quantity": "2",
+      "unit": "cloves",
+      "item": "Garlic",
+      "notes": "crushed"
     }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Combine beef with bi-carb soda, cornflour, light soy sauce, and Chinese rice wine. Mix well, cover, and set aside for 1 hour to marinate."
+    },
+    {
+      "step": 2,
+      "instruction": "Mix cornflour with dark soy sauce and light soy sauce until smooth, then stir in sambal oelek, oyster sauce, Chinese rice wine, five spice, and water. Set sauce aside."
+    },
+    {
+      "step": 3,
+      "instruction": "Heat vegetable oil and sesame oil in a wok over high heat until smoking."
+    },
+    {
+      "step": 4,
+      "instruction": "Stir-fry onion and the white parts of spring onion for 1 minute. Add garlic and cook for 10 seconds until fragrant."
+    },
+    {
+      "step": 5,
+      "instruction": "Add marinated beef and stir-fry until no longer red, about 2 minutes."
+    },
+    {
+      "step": 6,
+      "instruction": "Pour in the sauce and cook until reduced and caramelised, about 3 minutes."
+    },
+    {
+      "step": 7,
+      "instruction": "Toss through the green parts of spring onion until just wilted. Serve immediately — ideally in a hot cast-iron pan for a sizzling effect."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Bi-Carb Soda Tenderising",
+      "content": "The bi-carb soda in the marinade is a classic Chinese restaurant technique that tenderises the beef and gives it that signature silky texture. Do not skip it."
+    },
+    {
+      "type": "acknowledgement",
+      "title": "Recipe Inspiration",
+      "content": "This Mongolian Beef Stir-Fry draws inspiration from traditional Chinese banquet cooking methods."
+    }
+  ],
+  "related": [
+    {
+      "id": "mongoliansauce",
+      "title": "Mongolian Stir-Fry Sauce"
+    },
+    {
+      "id": "mongolianlamb",
+      "title": "Mongolian Lamb"
+    },
+    {
+      "id": "sweetsourpork",
+      "title": "Sweet & Sour Pork"
+    },
+    {
+      "id": "beefstockpot",
+      "title": "Beef Stock Pot"
+    },
+    {
+      "id": "chickenteriyaki",
+      "title": "Chicken Teriyaki"
+    }
+  ],
+  "nutrition": {
+    "servings": 2,
+    "cal": 932,
+    "protein": 57,
+    "carbs": 57,
+    "fat": 56,
+    "fibre": 7,
+    "sodium": 1577,
+    "coverage": 100
+  },
+  "lastModified": "2026-06-08"
 }

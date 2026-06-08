@@ -1,126 +1,126 @@
 {
-    "id": "honeygarlicsauce",
-    "title": "Honey Garlic Sauce",
-    "emoji": "🍯",
-    "category": "Sauces",
-    "description": "A sweet and savoury Asian glaze — sticky, garlicky, and impossible to resist. A family favourite.",
-    "prepTime": "5 min",
-    "cookTime": "5 min",
-    "totalTime": "10 min",
-    "servings": "4 servings",
-    "difficulty": "Beginner",
-    "tags": [
-        "Garlic",
-        "Sauce",
-        "Savoury",
-        "Sweet",
-        "Under 30 Minutes",
-        "Vegan"
-    ],
-    "ingredients": [
-        {
-            "quantity": "80",
-            "unit": "ml",
-            "item": "Honey"
-        },
-        {
-            "quantity": "60",
-            "unit": "ml",
-            "item": "Light Soy Sauce"
-        },
-        {
-            "quantity": "4",
-            "unit": "cloves",
-            "item": "Garlic",
-            "notes": "minced"
-        },
-        {
-            "quantity": "15",
-            "unit": "ml",
-            "item": "White Vinegar"
-        },
-        {
-            "quantity": "5",
-            "unit": "g",
-            "item": "Cornflour"
-        },
-        {
-            "quantity": "15",
-            "unit": "ml",
-            "item": "Water"
-        },
-        {
-            "quantity": "5",
-            "unit": "g",
-            "item": "Sesame Seeds",
-            "notes": "optional, for garnish"
-        }
-    ],
-    "method": [
-        {
-            "step": 1,
-            "instruction": "In a small bowl, whisk together cornflour and water to form a smooth slurry. Set aside."
-        },
-        {
-            "step": 2,
-            "instruction": "Combine honey, soy sauce, minced garlic, and vinegar in a small saucepan over medium heat."
-        },
-        {
-            "step": 3,
-            "instruction": "Bring to a gentle simmer, stirring constantly."
-        },
-        {
-            "step": 4,
-            "instruction": "Add the cornflour slurry and continue stirring until the sauce thickens to a glossy glaze, about 1–2 minutes."
-        },
-        {
-            "step": 5,
-            "instruction": "Remove from heat and sprinkle with sesame seeds if desired."
-        }
-    ],
-    "notes": [
-        {
-            "type": "serving",
-            "title": "Serving Tip",
-            "content": "Perfect glaze for chicken wings, salmon, or stir-fried vegetables. Brush on during the last few minutes of cooking for a sticky finish."
-        },
-        {
-            "type": "storage",
-            "title": "Storage",
-            "content": "Store in an airtight container in the refrigerator for up to 1 week. Reheat gently — the sauce will thicken when cold."
-        }
-    ],
-    "related": [
-        {
-            "id": "chilligarlicoil",
-            "title": "Chilli Garlic Oil"
-        },
-        {
-            "id": "sweetchillisauce",
-            "title": "Sweet Chilli Sauce"
-        },
-        {
-            "id": "teriyakisauce",
-            "title": "Teriyaki Sauce"
-        },
-        {
-            "id": "sweetspicyorangesauce",
-            "title": "Sweet & Spicy Orange Sauce"
-        },
-        {
-            "id": "mongoliansauce",
-            "title": "Mongolian Sauce"
-        }
-    ],
-    "nutrition": {
-        "servings": 4,
-        "cal": 229,
-        "protein": 8,
-        "carbs": 51,
-        "fat": 1,
-        "fibre": 2,
-        "sodium": 948,
-        "coverage": 100
+  "id": "honeygarlicsauce",
+  "title": "Honey Garlic Sauce",
+  "category": "Sauces",
+  "description": "A sweet and savoury Asian glaze — sticky, garlicky, and impossible to resist. A family favourite.",
+  "prepTime": "5 min",
+  "cookTime": "5 min",
+  "totalTime": "10 min",
+  "servings": "4 servings",
+  "difficulty": "Beginner",
+  "tags": [
+    "Garlic",
+    "Sauce",
+    "Savoury",
+    "Sweet",
+    "Under 30 Minutes",
+    "Vegan"
+  ],
+  "ingredients": [
+    {
+      "quantity": "80",
+      "unit": "ml",
+      "item": "Honey"
     },
-    "cuisine": "Asian"
+    {
+      "quantity": "60",
+      "unit": "ml",
+      "item": "Light Soy Sauce"
+    },
+    {
+      "quantity": "4",
+      "unit": "cloves",
+      "item": "Garlic",
+      "notes": "minced"
+    },
+    {
+      "quantity": "15",
+      "unit": "ml",
+      "item": "White Vinegar"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Cornflour"
+    },
+    {
+      "quantity": "15",
+      "unit": "ml",
+      "item": "Water"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Sesame Seeds",
+      "notes": "optional, for garnish"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "In a small bowl, whisk together cornflour and water to form a smooth slurry. Set aside."
+    },
+    {
+      "step": 2,
+      "instruction": "Combine honey, soy sauce, minced garlic, and vinegar in a small saucepan over medium heat."
+    },
+    {
+      "step": 3,
+      "instruction": "Bring to a gentle simmer, stirring constantly."
+    },
+    {
+      "step": 4,
+      "instruction": "Add the cornflour slurry and continue stirring until the sauce thickens to a glossy glaze, about 1–2 minutes."
+    },
+    {
+      "step": 5,
+      "instruction": "Remove from heat and sprinkle with sesame seeds if desired."
+    }
+  ],
+  "notes": [
+    {
+      "type": "serving",
+      "title": "Serving Tip",
+      "content": "Perfect glaze for chicken wings, salmon, or stir-fried vegetables. Brush on during the last few minutes of cooking for a sticky finish."
+    },
+    {
+      "type": "storage",
+      "title": "Storage",
+      "content": "Store in an airtight container in the refrigerator for up to 1 week. Reheat gently — the sauce will thicken when cold."
+    }
+  ],
+  "related": [
+    {
+      "id": "chilligarlicoil",
+      "title": "Chilli Garlic Oil"
+    },
+    {
+      "id": "sweetchillisauce",
+      "title": "Sweet Chilli Sauce"
+    },
+    {
+      "id": "teriyakisauce",
+      "title": "Teriyaki Sauce"
+    },
+    {
+      "id": "sweetspicyorangesauce",
+      "title": "Sweet & Spicy Orange Sauce"
+    },
+    {
+      "id": "mongoliansauce",
+      "title": "Mongolian Sauce"
+    }
+  ],
+  "nutrition": {
+    "servings": 4,
+    "cal": 229,
+    "protein": 8,
+    "carbs": 51,
+    "fat": 1,
+    "fibre": 2,
+    "sodium": 948,
+    "coverage": 100
+  },
+  "cuisine": "Asian",
+  "lastModified": "2026-06-08"
 }

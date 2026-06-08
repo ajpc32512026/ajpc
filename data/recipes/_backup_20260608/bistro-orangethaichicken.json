@@ -1,0 +1,155 @@
+{
+    "id": "orangethaichicken",
+    "title": "Orange Thai Chicken",
+    "emoji": "🍊",
+    "category": "Bistro",
+    "description": "The Thai Chicken's sibling — same ginger and chilli base but brightened with fresh orange juice for a citrus-forward cream sauce.",
+    "prepTime": "5 min",
+    "cookTime": "8 min",
+    "totalTime": "13 min",
+    "servings": "1 serving",
+    "difficulty": "Intermediate",
+    "tags": [
+        "Chicken",
+        "Citrus",
+        "Creamy",
+        "Dinner",
+        "Gluten-Free",
+        "Orange",
+        "Rich",
+        "Savoury",
+        "Spicy",
+        "Thai",
+        "Under 30 Minutes"
+    ],
+    "ingredients": [
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Chicken Breast",
+            "notes": "pan-fried"
+        },
+        {
+            "quantity": "10",
+            "unit": "g",
+            "item": "Ginger (Fresh)",
+            "notes": "finely grated"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Red Chilli",
+            "notes": "fresh, finely sliced"
+        },
+        {
+            "quantity": "30",
+            "unit": "ml",
+            "item": "Orange Juice",
+            "notes": "freshly squeezed"
+        },
+        {
+            "quantity": "60",
+            "unit": "ml",
+            "item": "Thickened Cream"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Orange Zest"
+        },
+        {
+            "quantity": "30",
+            "unit": "g",
+            "item": "Unsalted Butter"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Brown Onion",
+            "notes": "diced"
+        },
+        {
+            "item": "Salt & Pepper",
+            "toTaste": true,
+            "notes": "Don't add too much all at once — you can't take it out once it's in."
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Melt half the butter in a frying pan over medium-high heat. Pan-fry chicken breast for 3–4 minutes per side until golden and cooked through. Remove and rest on a warm plate."
+        },
+        {
+            "step": 2,
+            "instruction": "In the same pan, add remaining butter. Add diced onion and grated ginger and cook until softened and fragrant, about 2–3 minutes."
+        },
+        {
+            "step": 3,
+            "instruction": "Add fresh chilli and cook briefly for 30 seconds until aromatic."
+        },
+        {
+            "step": 4,
+            "instruction": "Deglaze the pan with fresh orange juice. Let it reduce by half, about 1–2 minutes."
+        },
+        {
+            "step": 5,
+            "instruction": "Pour in thickened cream and reduce for 2–3 minutes until the sauce coats the back of a spoon. Season with salt."
+        },
+        {
+            "step": 6,
+            "instruction": "Stir in orange zest just before serving. Plate the chicken and spoon the citrus-cream sauce generously over the top."
+        }
+    ],
+    "notes": [
+        {
+            "type": "technique",
+            "title": "Orange Forward",
+            "content": "The orange juice and zest lead this sauce — it should be distinctly citrus-forward with the cream providing body and richness rather than dominating. The ginger and chilli add warmth without overpowering the orange. No demi glace is used."
+        }
+    ],
+    "related": [
+        {
+            "id": "bistro-thaichicken",
+            "title": "Thai Chicken"
+        },
+        {
+            "id": "bistro-chickenpicante",
+            "title": "Chicken Picante"
+        },
+        {
+            "id": "bistro-chickenriverina",
+            "title": "Chicken Riverina"
+        },
+        {
+            "id": "bistro-chickenpapion",
+            "title": "Chicken Papion"
+        },
+        {
+            "id": "bistro-chickenkiev",
+            "title": "Chicken Kiev"
+        }
+    ],
+    "nutrition": {
+        "servings": 1,
+        "cal": 648,
+        "kj": 2709,
+        "protein": 28,
+        "carbs": 18,
+        "sugars": 16,
+        "fat": 50,
+        "saturated_fat": 32,
+        "fibre": 11,
+        "sodium": 115,
+        "coverage": 89,
+        "calcium_mg": 89,
+        "iron_mg": 2,
+        "potassium_mg": 997,
+        "magnesium_mg": 71,
+        "zinc_mg": 1,
+        "cholesterol_mg": 193,
+        "vitamin_a_ug": 820,
+        "vitamin_c_mg": 198,
+        "vitamin_d_ug": 2
+    },
+    "lastModified": "2026-05-24"
+}

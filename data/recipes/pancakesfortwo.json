@@ -1,184 +1,183 @@
 {
-    "id": "pancakesfortwo",
-    "title": "Pancakes for Two",
-    "emoji": "🥞",
-    "category": "Breakfast",
-    "description": "Light, fluffy pancakes made from scratch — perfect for a weekend breakfast. Simple ingredients, no electric mixer needed.",
-    "prepTime": "5 min",
-    "cookTime": "15 min",
-    "totalTime": "20 min",
-    "servings": "2",
-    "yieldPerBatch": "6-8 pancakes",
-    "difficulty": "Beginner",
-    "tags": [
-        "Breakfast",
-        "Easy",
-        "Make Ahead",
-        "Vegetarian",
-        "Under 30 Minutes"
-    ],
-    "ingredients": [
-        {
-            "quantity": "185",
-            "unit": "ml",
-            "item": "Milk"
-        },
-        {
-            "quantity": "1",
-            "unit": "",
-            "item": "Egg",
-            "notes": "room temperature"
-        },
-        {
-            "quantity": "5",
-            "unit": "ml",
-            "item": "Vanilla Essence"
-        },
-        {
-            "quantity": "150",
-            "unit": "g",
-            "item": "Self-Raising Flour"
-        },
-        {
-            "quantity": "5",
-            "unit": "g",
-            "item": "Baking Powder"
-        },
-        {
-            "quantity": "50",
-            "unit": "g",
-            "item": "Caster Sugar"
-        },
-        {
-            "quantity": "15",
-            "unit": "g",
-            "item": "Unsalted Butter",
-            "notes": "melted, plus extra for brushing"
-        }
-    ],
-    "method": [
-        {
-            "step": 1,
-            "instruction": "In a large bowl, whisk milk, egg, and vanilla extract together until well combined and slightly frothy, about 1 minute."
-        },
-        {
-            "step": 2,
-            "instruction": "Sift self-raising flour and baking powder into the wet ingredients. Add caster sugar. Whisk gently until just combined — small lumps are fine, do not overmix."
-        },
-        {
-            "step": 3,
-            "instruction": "Stir in melted butter until incorporated. The batter should be thick but pourable."
-        },
-        {
-            "step": 4,
-            "instruction": "Heat a large non-stick frying pan over medium heat. Lightly brush with butter."
-        },
-        {
-            "step": 5,
-            "instruction": "Pour 60ml (1/4 cup) of batter per pancake into the pan (2-3 pancakes at a time, depending on pan size), leaving space between for spreading."
-        },
-        {
-            "step": 6,
-            "instruction": "Cook for 2-3 minutes or until bubbles appear on the surface and the edges look set."
-        },
-        {
-            "step": 7,
-            "instruction": "Flip and cook for another 1-2 minutes until golden brown and cooked through."
-        },
-        {
-            "step": 8,
-            "instruction": "Transfer to a plate and cover loosely with foil to keep warm. Repeat with remaining batter, brushing the pan with butter between batches."
-        },
-        {
-            "step": 9,
-            "instruction": "Serve pancakes topped with vanilla yoghurt, mixed berries, and a drizzle of golden syrup."
-        }
-    ],
-    "notes": [
-        {
-            "type": "technique",
-            "title": "Better by Hand",
-            "content": "For fluffier pancakes, whisk the wet ingredients (milk, egg, vanilla) first until frothy before adding dry ingredients. This incorporates air without overmixing the flour."
-        },
-        {
-            "type": "technique",
-            "title": "Don't Overmix",
-            "content": "Overmixing develops gluten, resulting in tough, rubbery pancakes. Stir until flour is just incorporated — a few small lumps are fine."
-        },
-        {
-            "type": "tip",
-            "title": "Test the Pan",
-            "content": "Flick a drop of water onto the pan — if it sizzles and evaporates immediately, the pan is ready."
-        },
-        {
-            "type": "storage",
-            "title": "Keep Warm",
-            "content": "Place cooked pancakes on a baking sheet in a 100°C oven while you finish the batch."
-        },
-        {
-            "type": "variation",
-            "title": "Add-ins",
-            "content": "Fold in 50g chocolate chips, fresh blueberries, or sliced banana after mixing the batter."
-        }
-    ],
-    "related": [
-        {
-            "id": "crepes",
-            "title": "Crepes",
-            "matchingTags": [
-                "Breakfast",
-                "Dessert",
-                "French",
-                "Sweet",
-                "Under 30 Minutes",
-                "Vegetarian"
-            ]
-        },
-        {
-            "id": "bananabread",
-            "title": "Banana Bread",
-            "matchingTags": [
-                "Banana",
-                "Bread",
-                "Breakfast",
-                "Classic",
-                "Make Ahead",
-                "Rich",
-                "Sweet",
-                "Vegetarian"
-            ]
-        },
-        {
-            "id": "cinnbun",
-            "title": "Cinnamon Buns"
-        },
-        {
-            "id": "muffinmix",
-            "title": "Plain Muffin Mix",
-            "matchingTags": [
-                "Baked",
-                "Breakfast",
-                "Snack",
-                "Sweet",
-                "Under 30 Minutes",
-                "Vegetarian"
-            ]
-        },
-        {
-            "id": "blueberrymuffins",
-            "title": "Blueberry Muffins"
-        }
-    ],
-    "nutrition": {
-        "servings": 2,
-        "cal": 555,
-        "protein": 16,
-        "carbs": 86,
-        "fat": 16,
-        "fibre": 2,
-        "sodium": 662,
-        "coverage": 100
+  "id": "pancakesfortwo",
+  "title": "Pancakes for Two",
+  "category": "Breakfast",
+  "description": "Light, fluffy pancakes made from scratch — perfect for a weekend breakfast. Simple ingredients, no electric mixer needed.",
+  "prepTime": "5 min",
+  "cookTime": "15 min",
+  "totalTime": "20 min",
+  "servings": "2",
+  "yieldPerBatch": "6-8 pancakes",
+  "difficulty": "Beginner",
+  "tags": [
+    "Breakfast",
+    "Easy",
+    "Make Ahead",
+    "Vegetarian",
+    "Under 30 Minutes"
+  ],
+  "ingredients": [
+    {
+      "quantity": "185",
+      "unit": "ml",
+      "item": "Milk"
     },
-    "lastModified": "2026-05-11",
-    "cuisine": "American / Modern"
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Egg",
+      "notes": "room temperature"
+    },
+    {
+      "quantity": "5",
+      "unit": "ml",
+      "item": "Vanilla Essence"
+    },
+    {
+      "quantity": "150",
+      "unit": "g",
+      "item": "Self-Raising Flour"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Baking Powder"
+    },
+    {
+      "quantity": "50",
+      "unit": "g",
+      "item": "Caster Sugar"
+    },
+    {
+      "quantity": "15",
+      "unit": "g",
+      "item": "Unsalted Butter",
+      "notes": "melted, plus extra for brushing"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "In a large bowl, whisk milk, egg, and vanilla extract together until well combined and slightly frothy, about 1 minute."
+    },
+    {
+      "step": 2,
+      "instruction": "Sift self-raising flour and baking powder into the wet ingredients. Add caster sugar. Whisk gently until just combined — small lumps are fine, do not overmix."
+    },
+    {
+      "step": 3,
+      "instruction": "Stir in melted butter until incorporated. The batter should be thick but pourable."
+    },
+    {
+      "step": 4,
+      "instruction": "Heat a large non-stick frying pan over medium heat. Lightly brush with butter."
+    },
+    {
+      "step": 5,
+      "instruction": "Pour 60ml (1/4 cup) of batter per pancake into the pan (2-3 pancakes at a time, depending on pan size), leaving space between for spreading."
+    },
+    {
+      "step": 6,
+      "instruction": "Cook for 2-3 minutes or until bubbles appear on the surface and the edges look set."
+    },
+    {
+      "step": 7,
+      "instruction": "Flip and cook for another 1-2 minutes until golden brown and cooked through."
+    },
+    {
+      "step": 8,
+      "instruction": "Transfer to a plate and cover loosely with foil to keep warm. Repeat with remaining batter, brushing the pan with butter between batches."
+    },
+    {
+      "step": 9,
+      "instruction": "Serve pancakes topped with vanilla yoghurt, mixed berries, and a drizzle of golden syrup."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Better by Hand",
+      "content": "For fluffier pancakes, whisk the wet ingredients (milk, egg, vanilla) first until frothy before adding dry ingredients. This incorporates air without overmixing the flour."
+    },
+    {
+      "type": "technique",
+      "title": "Don't Overmix",
+      "content": "Overmixing develops gluten, resulting in tough, rubbery pancakes. Stir until flour is just incorporated — a few small lumps are fine."
+    },
+    {
+      "type": "tip",
+      "title": "Test the Pan",
+      "content": "Flick a drop of water onto the pan — if it sizzles and evaporates immediately, the pan is ready."
+    },
+    {
+      "type": "storage",
+      "title": "Keep Warm",
+      "content": "Place cooked pancakes on a baking sheet in a 100°C oven while you finish the batch."
+    },
+    {
+      "type": "variation",
+      "title": "Add-ins",
+      "content": "Fold in 50g chocolate chips, fresh blueberries, or sliced banana after mixing the batter."
+    }
+  ],
+  "related": [
+    {
+      "id": "crepes",
+      "title": "Crepes",
+      "matchingTags": [
+        "Breakfast",
+        "Dessert",
+        "French",
+        "Sweet",
+        "Under 30 Minutes",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "bananabread",
+      "title": "Banana Bread",
+      "matchingTags": [
+        "Banana",
+        "Bread",
+        "Breakfast",
+        "Classic",
+        "Make Ahead",
+        "Rich",
+        "Sweet",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "cinnbun",
+      "title": "Cinnamon Buns"
+    },
+    {
+      "id": "muffinmix",
+      "title": "Plain Muffin Mix",
+      "matchingTags": [
+        "Baked",
+        "Breakfast",
+        "Snack",
+        "Sweet",
+        "Under 30 Minutes",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "blueberrymuffins",
+      "title": "Blueberry Muffins"
+    }
+  ],
+  "nutrition": {
+    "servings": 2,
+    "cal": 555,
+    "protein": 16,
+    "carbs": 86,
+    "fat": 16,
+    "fibre": 2,
+    "sodium": 662,
+    "coverage": 100
+  },
+  "lastModified": "2026-05-11",
+  "cuisine": "American / Modern"
 }

@@ -1,0 +1,200 @@
+{
+    "id": "lemonmeringuepie",
+    "title": "Lemon Meringue Pie",
+    "emoji": "🍋",
+    "category": "Desserts",
+    "description": "A classic tart with buttery pastry, tangy lemon filling, and light fluffy meringue topping.",
+    "prepTime": "45 min",
+    "cookTime": "25 min",
+    "totalTime": "1 hr 10 min",
+    "servings": "8 servings",
+    "difficulty": "Intermediate",
+    "tags": [
+        "Baked",
+        "Classic",
+        "Dessert",
+        "Lemon",
+        "Pastry",
+        "Sweet",
+        "Vegetarian"
+    ],
+    "ingredients": [
+        {
+            "heading": "Pastry"
+        },
+        {
+            "quantity": "225",
+            "unit": "g",
+            "item": "Plain Flour",
+            "notes": "sifted"
+        },
+        {
+            "quantity": "15",
+            "unit": "g",
+            "item": "Icing Sugar"
+        },
+        {
+            "quantity": "140",
+            "unit": "g",
+            "item": "Unsalted Butter",
+            "notes": "cold, cubed"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Egg Yolk"
+        },
+        {
+            "quantity": "30",
+            "unit": "ml",
+            "item": "Cold Water",
+            "notes": "approximately"
+        },
+        {
+            "heading": "Filling"
+        },
+        {
+            "quantity": "60",
+            "unit": "g",
+            "item": "Cornflour"
+        },
+        {
+            "quantity": "200",
+            "unit": "g",
+            "item": "Caster Sugar"
+        },
+        {
+            "quantity": "125",
+            "unit": "ml",
+            "item": "Lemon Juice"
+        },
+        {
+            "quantity": "310",
+            "unit": "ml",
+            "item": "Water"
+        },
+        {
+            "quantity": "10",
+            "unit": "g",
+            "item": "Lemon Zest"
+        },
+        {
+            "quantity": "3",
+            "unit": "",
+            "item": "Egg Yolks"
+        },
+        {
+            "quantity": "60",
+            "unit": "g",
+            "item": "Unsalted Butter"
+        },
+        {
+            "heading": "Meringue"
+        },
+        {
+            "quantity": "3",
+            "unit": "",
+            "item": "Egg Whites"
+        },
+        {
+            "quantity": "100",
+            "unit": "g",
+            "item": "Caster Sugar"
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Lightly grease a 24 cm flan tin."
+        },
+        {
+            "step": 2,
+            "instruction": "Sift flour and icing sugar into a bowl. Rub in butter until the mixture resembles fine breadcrumbs."
+        },
+        {
+            "step": 3,
+            "instruction": "Add egg yolk and enough cold water to make the ingredients cling together. Press dough into a ball, knead gently on a lightly floured surface until smooth. Cover and refrigerate for 30 minutes."
+        },
+        {
+            "step": 4,
+            "instruction": "Roll dough on a lightly floured surface large enough to line the prepared tin. Trim edges. Place tin on an oven tray, line pastry with baking paper and fill with rice or dried beans."
+        },
+        {
+            "step": 5,
+            "instruction": "Bake in a moderately hot oven at 190°C for 10 minutes. Remove paper and beans, bake for a further 10 minutes until pastry is lightly browned. Cool to room temperature."
+        },
+        {
+            "step": 6,
+            "instruction": "For the filling: combine cornflour and caster sugar in a saucepan. Gradually stir in lemon juice and water until smooth."
+        },
+        {
+            "step": 7,
+            "instruction": "Stir over medium heat until the mixture boils and thickens — it should be very thick. Reduce heat, quickly stir in lemon zest, egg yolks, and butter. Stir until butter is melted. Cover and cool to room temperature."
+        },
+        {
+            "step": 8,
+            "instruction": "Spread cooled filling into the cooled pastry case."
+        },
+        {
+            "step": 9,
+            "instruction": "For the meringue: beat egg whites in a small bowl with an electric mixer until soft peaks form. Gradually add caster sugar, beating well between additions until the sugar dissolves and the mixture is thick and glossy."
+        },
+        {
+            "step": 10,
+            "instruction": "Spread meringue over the lemon filling, sealing to the edges of the pastry."
+        },
+        {
+            "step": 11,
+            "instruction": "Bake in a moderate oven at 180°C for about 5 minutes or until meringue is lightly browned. Serve hot or cold."
+        }
+    ],
+    "notes": [
+        {
+            "type": "technique",
+            "title": "Meringue Tips",
+            "content": "Add sugar gradually while beating — dissolving it completely between additions ensures a glossy, stable meringue that will not weep or shrink."
+        },
+        {
+            "type": "storage",
+            "title": "Storage",
+            "content": "Can be made a day ahead. Keep covered in the refrigerator. Not suitable for freezing or microwaving."
+        },
+        {
+            "type": "acknowledgement",
+            "title": "Recipe Source",
+            "content": "The Australian Women's Weekly Home Library — Sweet Old-Fashioned Favourites, page 71."
+        }
+    ],
+    "related": [
+        {
+            "id": "plain-cheesecake",
+            "title": "Plain Cheesecake (Classic No Bake)"
+        },
+        {
+            "id": "bistro-profiteroles",
+            "title": "Profiteroles"
+        },
+        {
+            "id": "lemoncoconut",
+            "title": "Lemon Coconut Cake"
+        },
+        {
+            "id": "roulade",
+            "title": "Strawberry Meringue Roulade"
+        },
+        {
+            "id": "tiramisu",
+            "title": "Tiramisu Gateau"
+        }
+    ],
+    "nutrition": {
+        "servings": 8,
+        "cal": 586,
+        "protein": 14,
+        "carbs": 70,
+        "fat": 28,
+        "fibre": 1,
+        "sodium": 125,
+        "coverage": 100
+    }
+}

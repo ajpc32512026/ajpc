@@ -1,0 +1,186 @@
+{
+    "id": "vealmadagascar",
+    "title": "Veal Madagascar",
+    "category": "Bistro",
+    "description": "Veal in a rich cream and demi glace sauce with bacon, capsicum, tomato, onion, garlic, and green peppercorns. Served hot or mild — the customer's choice.",
+    "prepTime": "10 min",
+    "cookTime": "10 min",
+    "totalTime": "20 min",
+    "servings": "1 serving",
+    "difficulty": "Intermediate",
+    "tags": [
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+    ],
+    "ingredients": [
+        {
+            "quantity": "180",
+            "unit": "g",
+            "item": "Veal",
+            "notes": "escalopes"
+        },
+        {
+            "quantity": "2",
+            "unit": "rashers",
+            "item": "Bacon",
+            "notes": "diced"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Green Capsicum",
+            "notes": "sliced"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Brown Onion",
+            "notes": "sliced"
+        },
+        {
+            "quantity": "2",
+            "unit": "",
+            "item": "Tomatoes",
+            "notes": "diced"
+        },
+        {
+            "quantity": "4",
+            "unit": "cloves",
+            "item": "Garlic",
+            "notes": "crushed"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Green Peppercorns"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Red Chilli",
+            "notes": "sliced, optional — for hot version"
+        },
+        {
+            "quantity": "60",
+            "unit": "ml",
+            "item": "Thickened Cream"
+        },
+        {
+            "quantity": "60",
+            "unit": "ml",
+            "item": "Demi Glace"
+        },
+        {
+            "quantity": "30",
+            "unit": "g",
+            "item": "Unsalted Butter"
+        },
+        {
+            "item": "Salt & Pepper",
+            "toTaste": true,
+            "notes": "Don't add too much all at once — you can't take it out once it's in."
+        }
+    ],
+    "youWillNeed": [
+        {
+            "item": "Plain Flour",
+            "note": "Dusting"
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Pan-fry veal in a little butter over medium-high heat until just cooked through, about 1–2 minutes per side. Remove and rest — veal toughens quickly if overdone."
+        },
+        {
+            "step": 2,
+            "instruction": "In the same pan, fry bacon until beginning to crisp."
+        },
+        {
+            "step": 3,
+            "instruction": "Add onion and capsicum and cook until softened, about 3–4 minutes."
+        },
+        {
+            "step": 4,
+            "instruction": "Add garlic and chilli if making the hot version. Cook for 30 seconds until fragrant."
+        },
+        {
+            "step": 5,
+            "instruction": "Add diced tomato and cook down for 2–3 minutes until softened."
+        },
+        {
+            "step": 6,
+            "instruction": "Pour in demi glace and thickened cream. Stir and reduce for 2–3 minutes until the sauce is rich and coats the back of a spoon."
+        },
+        {
+            "step": 7,
+            "instruction": "Add green peppercorns and stir through. Return veal to the pan briefly to warm through."
+        },
+        {
+            "step": 8,
+            "instruction": "Plate the veal and spoon the sauce generously over the top."
+        }
+    ],
+    "notes": [
+        {
+            "type": "technique",
+            "title": "Hot or Mild",
+            "content": "This dish is made to order — add chilli for the hot version, omit for mild. The green peppercorns provide a gentle warmth regardless, so the chilli determines the heat level."
+        },
+        {
+            "type": "technique",
+            "title": "Sauce Ratio",
+            "content": "Equal parts cream to demi glace gives a balanced, rich sauce. No red wine is used in this preparation — the depth comes from the demi glace, bacon, and peppercorns."
+        }
+    ],
+    "related": [
+        {
+            "id": "bistro-vealscaloppine",
+            "title": "Veal Scaloppine"
+        },
+        {
+            "id": "bistro-vealoscar",
+            "title": "Veal Oscar"
+        },
+        {
+            "id": "bistro-vealmozzarella",
+            "title": "Veal Mozzarella"
+        },
+        {
+            "id": "bistro-mediterraneansteak",
+            "title": "Mediterranean Steak"
+        },
+        {
+            "id": "bistro-chickenpicante",
+            "title": "Chicken Picante"
+        }
+    ],
+    "nutrition": {
+        "servings": 1,
+        "cal": 1960,
+        "kj": 8201,
+        "protein": 95,
+        "carbs": 132,
+        "sugars": 45,
+        "fat": 97,
+        "saturated_fat": 48,
+        "fibre": 91,
+        "sodium": 1688,
+        "coverage": 92,
+        "calcium_mg": 488,
+        "iron_mg": 35,
+        "potassium_mg": 4879,
+        "magnesium_mg": 295,
+        "zinc_mg": 18,
+        "cholesterol_mg": 712,
+        "vitamin_a_ug": 25004,
+        "vitamin_c_mg": 438,
+        "vitamin_d_ug": 5
+    },
+    "lastModified": "2026-05-24",
+    "cuisine": "French"
+}

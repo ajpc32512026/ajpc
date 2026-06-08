@@ -94,8 +94,8 @@ for (const [name, data] of Object.entries(ingredients)) {
 // Save the new structured file
 fs.writeFileSync('json/ingredient_inventory_v7.json', JSON.stringify(structured, null, 2), 'utf8');
 
-console.log('✅ Done! Created ingredient_inventory_v7.json');
-console.log(`📊 Processed ${Object.keys(structured).length} ingredients`);
+console.log('Done! Created ingredient_inventory_v7.json');
+console.log(`Processed ${Object.keys(structured).length} ingredients`);
 
 // Summary statistics
 let storageCount = 0, subCount = 0, usageCount = 0;
@@ -105,7 +105,7 @@ for (const ing of Object.values(structured)) {
     if (ing.usageTips) usageCount++;
 }
 
-console.log(`\n📈 Extraction stats:`);
-console.log(`   - Storage extracted: ${storageCount} ingredients`);
-console.log(`   - Substitutes extracted: ${subCount} ingredients`);
-console.log(`   - Usage tips extracted: ${usageCount} ingredients`);
+console.log('\nExtraction stats:');
+console.log('  Storage extracted: ${storageCount} ingredients`);
+console.log('  Substitutes extracted: ${subCount} ingredients`);
+console.log('  Usage tips extracted: ${usageCount} ingredients`);

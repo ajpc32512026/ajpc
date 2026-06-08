@@ -128,7 +128,7 @@
                 <div class="print-recipe-block">
                     ${r.category ? `<span class="print-bulk-category">${esc(r.category)}</span>` : ''}
                     <div class="print-bulk-title">${esc(r.title || r.id)}</div>
-                    <p style="font-size:8pt; font-style:italic; margin-bottom:10pt;">${esc(r.description || '')}</p>
+                    <p class="print-bulk-desc">${esc(r.description || '')}</p>
                     <div class="print-bulk-meta">
                         ${r.prepTime ? `<div><small>PREP</small><br><b>${esc(r.prepTime)}</b></div>` : ''}
                         ${r.cookTime ? `<div><small>COOK</small><br><b>${esc(r.cookTime)}</b></div>` : ''}

@@ -1,154 +1,153 @@
 {
-    "id": "vealscaloppine",
-    "title": "Veal Scaloppine",
-    "emoji": "🍄",
-    "category": "Bistro",
-    "description": "Thin pan-fried veal with a creamy onion and mushroom sauce. Quick, simple, and deeply satisfying.",
-    "prepTime": "5 min",
-    "cookTime": "8 min",
-    "totalTime": "13 min",
-    "servings": "1 serving",
-    "difficulty": "Intermediate",
-    "tags": [
-        "Classic",
-        "Creamy",
-        "Dinner",
-        "Italian",
-        "Rich",
-        "Savoury",
-        "Under 30 Minutes"
-    ],
-    "ingredients": [
-        {
-            "quantity": "180",
-            "unit": "g",
-            "item": "Veal",
-            "notes": "escalopes, gently pounded thin"
-        },
-        {
-            "quantity": "30",
-            "unit": "g",
-            "item": "Unsalted Butter"
-        },
-        {
-            "quantity": "2",
-            "unit": "",
-            "item": "Shallots",
-            "notes": "finely sliced"
-        },
-        {
-            "quantity": "80",
-            "unit": "g",
-            "item": "Mushrooms",
-            "notes": "sliced"
-        },
-        {
-            "quantity": "60",
-            "unit": "ml",
-            "item": "Thickened Cream"
-        },
-        {
-            "quantity": "60",
-            "unit": "ml",
-            "item": "Demi Glace"
-        },
-        {
-            "item": "Salt & Pepper",
-            "toTaste": true,
-            "notes": "Don't add too much all at once — you can't take it out once it's in."
-        }
-    ],
-    "youWillNeed": [
-        {
-            "item": "Plain flour",
-            "note": "For dusting"
-        },
-        {
-            "item": "Fresh parsley",
-            "note": "For garnish"
-        }
-    ],
-    "method": [
-        {
-            "step": 1,
-            "instruction": "Pound veal escalopes until thin and even. Dust lightly with flour, shaking off excess."
-        },
-        {
-            "step": 2,
-            "instruction": "Heat butter in a frying pan over medium-high heat. Pan-fry veal quickly for 1–2 minutes per side until golden. Remove and rest on a warm plate."
-        },
-        {
-            "step": 3,
-            "instruction": "In the same pan, add a little more butter if needed. Soften onion until golden, about 3–4 minutes."
-        },
-        {
-            "step": 4,
-            "instruction": "Add mushrooms and cook until golden and tender, about 3 minutes."
-        },
-        {
-            "step": 5,
-            "instruction": "Pour in demi glace and thickened cream. Stir and reduce for 2–3 minutes until the sauce coats the back of a spoon."
-        },
-        {
-            "step": 6,
-            "instruction": "Season with salt. Plate the veal, pour the sauce over, and garnish with fresh parsley."
-        }
-    ],
-    "notes": [
-        {
-            "type": "technique",
-            "title": "Flour-Dusted Only",
-            "content": "The veal is lightly dusted with flour — not crumbed. This gives a delicate golden finish and helps the sauce cling, without the heaviness of a schnitzel coating."
-        },
-        {
-            "type": "technique",
-            "title": "Demi Glace",
-            "content": "Demi glace is the backbone of this sauce. If using commercial base, prepare according to packet instructions before adding. A good quality beef stock reduction can substitute in a pinch."
-        }
-    ],
-    "related": [
-        {
-            "id": "bistro-mediterraneansteak",
-            "title": "Mediterranean Steak"
-        },
-        {
-            "id": "bistro-vealmozzarella",
-            "title": "Veal Mozzarella"
-        },
-        {
-            "id": "bistro-vealmadagascar",
-            "title": "Veal Madagascar"
-        },
-        {
-            "id": "bistro-vealoscar",
-            "title": "Veal Oscar"
-        },
-        {
-            "id": "potatognocchi",
-            "title": "Potato Gnocchi with Tomato Sauce"
-        }
-    ],
-    "nutrition": {
-        "servings": 1,
-        "cal": 768,
-        "kj": 3213,
-        "protein": 42,
-        "carbs": 16,
-        "sugars": 9,
-        "fat": 58,
-        "saturated_fat": 35,
-        "fibre": 7,
-        "sodium": 378,
-        "coverage": 86,
-        "calcium_mg": 244,
-        "iron_mg": 17,
-        "potassium_mg": 1571,
-        "magnesium_mg": 118,
-        "zinc_mg": 12,
-        "cholesterol_mg": 487,
-        "vitamin_a_ug": 24655,
-        "vitamin_c_mg": 75,
-        "vitamin_d_ug": 4
+  "id": "bistro-vealscaloppine",
+  "title": "Veal Scaloppine",
+  "category": "Bistro",
+  "description": "Thin pan-fried veal with a creamy onion and mushroom sauce. Quick, simple, and deeply satisfying.",
+  "prepTime": "5 min",
+  "cookTime": "8 min",
+  "totalTime": "13 min",
+  "servings": "1 serving",
+  "difficulty": "Intermediate",
+  "tags": [
+    "Classic",
+    "Creamy",
+    "Dinner",
+    "Italian",
+    "Rich",
+    "Savoury",
+    "Under 30 Minutes"
+  ],
+  "ingredients": [
+    {
+      "quantity": "180",
+      "unit": "g",
+      "item": "Veal",
+      "notes": "escalopes, gently pounded thin"
     },
-    "lastModified": "2026-05-24"
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Unsalted Butter"
+    },
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Shallots",
+      "notes": "finely sliced"
+    },
+    {
+      "quantity": "80",
+      "unit": "g",
+      "item": "Mushrooms",
+      "notes": "sliced"
+    },
+    {
+      "quantity": "60",
+      "unit": "ml",
+      "item": "Thickened Cream"
+    },
+    {
+      "quantity": "60",
+      "unit": "ml",
+      "item": "Demi Glace"
+    },
+    {
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
+    }
+  ],
+  "youWillNeed": [
+    {
+      "item": "Plain flour",
+      "note": "For dusting"
+    },
+    {
+      "item": "Fresh parsley",
+      "note": "For garnish"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Pound veal escalopes until thin and even. Dust lightly with flour, shaking off excess."
+    },
+    {
+      "step": 2,
+      "instruction": "Heat butter in a frying pan over medium-high heat. Pan-fry veal quickly for 1–2 minutes per side until golden. Remove and rest on a warm plate."
+    },
+    {
+      "step": 3,
+      "instruction": "In the same pan, add a little more butter if needed. Soften onion until golden, about 3–4 minutes."
+    },
+    {
+      "step": 4,
+      "instruction": "Add mushrooms and cook until golden and tender, about 3 minutes."
+    },
+    {
+      "step": 5,
+      "instruction": "Pour in demi glace and thickened cream. Stir and reduce for 2–3 minutes until the sauce coats the back of a spoon."
+    },
+    {
+      "step": 6,
+      "instruction": "Season with salt. Plate the veal, pour the sauce over, and garnish with fresh parsley."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Flour-Dusted Only",
+      "content": "The veal is lightly dusted with flour — not crumbed. This gives a delicate golden finish and helps the sauce cling, without the heaviness of a schnitzel coating."
+    },
+    {
+      "type": "technique",
+      "title": "Demi Glace",
+      "content": "Demi glace is the backbone of this sauce. If using commercial base, prepare according to packet instructions before adding. A good quality beef stock reduction can substitute in a pinch."
+    }
+  ],
+  "related": [
+    {
+      "id": "bistro-mediterraneansteak",
+      "title": "Mediterranean Steak"
+    },
+    {
+      "id": "bistro-vealmozzarella",
+      "title": "Veal Mozzarella"
+    },
+    {
+      "id": "bistro-vealmadagascar",
+      "title": "Veal Madagascar"
+    },
+    {
+      "id": "bistro-vealoscar",
+      "title": "Veal Oscar"
+    },
+    {
+      "id": "potatognocchi",
+      "title": "Potato Gnocchi with Tomato Sauce"
+    }
+  ],
+  "nutrition": {
+    "servings": 1,
+    "cal": 768,
+    "kj": 3213,
+    "protein": 42,
+    "carbs": 16,
+    "sugars": 9,
+    "fat": 58,
+    "saturated_fat": 35,
+    "fibre": 7,
+    "sodium": 378,
+    "coverage": 86,
+    "calcium_mg": 244,
+    "iron_mg": 17,
+    "potassium_mg": 1571,
+    "magnesium_mg": 118,
+    "zinc_mg": 12,
+    "cholesterol_mg": 487,
+    "vitamin_a_ug": 24655,
+    "vitamin_c_mg": 75,
+    "vitamin_d_ug": 4
+  },
+  "lastModified": "2026-05-24"
 }

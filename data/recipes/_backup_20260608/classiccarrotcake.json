@@ -1,0 +1,228 @@
+{
+    "id": "classiccarrotcake",
+    "title": "Classic Carrot Cake",
+    "emoji": "🥕",
+    "category": "Baking",
+    "description": "A hearty old-fashioned carrot cake — dense, moist, deeply spiced, and sturdy enough to slice for days without apology.",
+    "prepTime": "30 min",
+    "cookTime": "2 hr 45 min",
+    "totalTime": "3 hr 15 min",
+    "servings": "14 slices",
+    "difficulty": "Beginner",
+    "tags": [
+        "Baked",
+        "Classic",
+        "Creamy",
+        "Party",
+        "Sweet",
+        "Vegetarian",
+        "Carrot"
+    ],
+    "ingredients": [
+        {
+            "heading": "Cake"
+        },
+        {
+            "quantity": "6",
+            "unit": "",
+            "item": "Eggs"
+        },
+        {
+            "quantity": "400",
+            "unit": "g",
+            "item": "White Sugar"
+        },
+        {
+            "quantity": "375",
+            "unit": "g",
+            "item": "Self-Raising Flour"
+        },
+        {
+            "quantity": "15",
+            "unit": "ml",
+            "item": "Vanilla Extract"
+        },
+        {
+            "quantity": "180",
+            "unit": "ml",
+            "item": "Vegetable Oil"
+        },
+        {
+            "quantity": "15",
+            "unit": "g",
+            "item": "Baking Powder"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Salt"
+        },
+        {
+            "quantity": "15",
+            "unit": "g",
+            "item": "Cinnamon",
+            "notes": "ground"
+        },
+        {
+            "quantity": "6",
+            "unit": "",
+            "item": "Carrots",
+            "notes": "finely grated, do not drain"
+        },
+        {
+            "quantity": "300",
+            "unit": "g",
+            "item": "Sultanas"
+        },
+        {
+            "quantity": "50",
+            "unit": "g",
+            "item": "Walnuts",
+            "notes": "chopped"
+        },
+        {
+            "heading": "Cream Cheese Frosting"
+        },
+        {
+            "quantity": "500",
+            "unit": "g",
+            "item": "Cream Cheese",
+            "notes": "softened at room temperature for 2 hours"
+        },
+        {
+            "quantity": "200",
+            "unit": "g",
+            "item": "Icing Sugar",
+            "notes": "added gradually, to taste"
+        },
+        {
+            "quantity": "30",
+            "unit": "ml",
+            "item": "Lemon Juice",
+            "notes": "added a little at a time"
+        },
+        {
+            "quantity": "5",
+            "unit": "ml",
+            "item": "Vanilla Extract",
+            "notes": "to taste"
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Preheat oven to 150°C. Grease a 28 cm round cake tin with butter or margarine. Line the base and sides with baking paper and grease the paper as well."
+        },
+        {
+            "step": 2,
+            "instruction": "In the bowl of a stand mixer, combine eggs, sugar, self-raising flour, vanilla extract, oil, baking powder, salt, and cinnamon. Mix with the whisk attachment until the mixture is fairly thick and stiff."
+        },
+        {
+            "step": 3,
+            "instruction": "Transfer mixture to a large stainless steel bowl."
+        },
+        {
+            "step": 4,
+            "instruction": "Add finely grated carrots, sultanas, and chopped walnuts. Mix in with a wooden spoon until evenly combined. Do not drain the carrots — their natural moisture keeps the cake tender."
+        },
+        {
+            "step": 5,
+            "instruction": "Pour mixture into the prepared tin and smooth the surface."
+        },
+        {
+            "step": 6,
+            "instruction": "Place a deep tray of water on the lower oven rack to create moisture and prevent the bottom from burning."
+        },
+        {
+            "step": 7,
+            "instruction": "Bake for 2½–3 hours, or until a skewer inserted into the centre comes out clean."
+        },
+        {
+            "step": 8,
+            "instruction": "Cool in the tin for 10 minutes, then turn out onto a wire rack and cool completely."
+        },
+        {
+            "step": 9,
+            "instruction": "For the frosting: allow cream cheese to soften at room temperature for at least 2 hours. Beat with an electric mixer until smooth, scraping down the bottom and sides of the bowl."
+        },
+        {
+            "step": 10,
+            "instruction": "Add icing sugar gradually, about ¼ cup at a time, mixing until the mixture becomes smooth and paste-like."
+        },
+        {
+            "step": 11,
+            "instruction": "Add lemon juice a little at a time — do not add too much. Mix until combined."
+        },
+        {
+            "step": 12,
+            "instruction": "Add vanilla extract to taste and mix to finish."
+        },
+        {
+            "step": 13,
+            "instruction": "Spread frosting generously over the cooled cake."
+        }
+    ],
+    "notes": [
+        {
+            "type": "technique",
+            "title": "Slow Bake",
+            "content": "The low temperature and long bake produce a dense, moist crumb that improves over the next day. The water tray creates steam to prevent the surface from drying out and stops the bottom from burning."
+        },
+        {
+            "type": "technique",
+            "title": "Carrot Moisture",
+            "content": "Do not squeeze or drain the grated carrots. Their natural moisture is essential to the cake's texture — it releases slowly during the long bake, keeping the crumb tender."
+        },
+        {
+            "type": "technique",
+            "title": "Wooden Spoon Mixing",
+            "content": "Mix the carrots, sultanas, and walnuts in by hand with a wooden spoon. The batter is thick and stiff — folding gently by hand prevents overworking the gluten."
+        },
+        {
+            "type": "technique",
+            "title": "Frosting Consistency",
+            "content": "Add lemon juice slowly — too much will make the frosting runny. The mixture should go like paste before adding vanilla. Soften the cream cheese for a full 2 hours for the smoothest result."
+        },
+        {
+            "type": "serving",
+            "title": "Serving Tip",
+            "content": "Keeps well for several days refrigerated. Bring to room temperature before serving. The flavour deepens overnight."
+        }
+    ],
+    "related": [
+        {
+            "id": "hummingbird",
+            "title": "Hummingbird Cake — Cafe Style"
+        },
+        {
+            "id": "blueberrymuffins",
+            "title": "Heavenly Blueberry Muffins"
+        },
+        {
+            "id": "chocmuffins",
+            "title": "Chocolate Muffins with Ganache"
+        },
+        {
+            "id": "bananabread",
+            "title": "Banana Bread"
+        },
+        {
+            "id": "applecinnscrolls",
+            "title": "Apple & Cinnamon Scrolls"
+        }
+    ],
+    "nutrition": {
+        "servings": 14,
+        "cal": 675,
+        "kj": 2824,
+        "protein": 12,
+        "carbs": 87,
+        "sugars": 62,
+        "fat": 33,
+        "saturated_fat": 11,
+        "fibre": 4,
+        "sodium": 559,
+        "coverage": 100
+    },
+    "lastModified": "2026-05-18"
+}

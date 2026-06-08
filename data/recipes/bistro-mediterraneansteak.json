@@ -1,157 +1,156 @@
 {
-    "id": "mediterraneansteak",
-    "title": "Mediterranean Steak",
-    "emoji": "🦐",
-    "category": "Bistro",
-    "description": "Scotch fillet in a rich cream sauce with king prawns and green peppercorns. Surf and turf done properly — the bistro way.",
-    "prepTime": "5 min",
-    "cookTime": "8 min",
-    "totalTime": "13 min",
-    "servings": "1 serving",
-    "difficulty": "Intermediate",
-    "tags": [
-        "Alcohol",
-        "Beef",
-        "Classic",
-        "Creamy",
-        "Dinner",
-        "Gluten-Free",
-        "Rich",
-        "Savoury",
-        "Seafood",
-        "Under 30 Minutes"
-    ],
-    "ingredients": [
-        {
-            "quantity": "1",
-            "unit": "",
-            "item": "Beef, Scotch Fillet",
-            "notes": "approximately 180 g each"
-        },
-        {
-            "quantity": "150",
-            "unit": "g",
-            "item": "Prawns",
-            "notes": "king, peeled and deveined"
-        },
-        {
-            "quantity": "10",
-            "unit": "g",
-            "item": "Green Peppercorns",
-            "notes": "brined"
-        },
-        {
-            "quantity": "60",
-            "unit": "ml",
-            "item": "Thickened Cream"
-        },
-        {
-            "quantity": "60",
-            "unit": "ml",
-            "item": "Demi Glace"
-        },
-        {
-            "quantity": "30",
-            "unit": "g",
-            "item": "Unsalted Butter"
-        },
-        {
-            "quantity": "1",
-            "unit": "",
-            "item": "Brown Onion",
-            "notes": "diced"
-        },
-        {
-            "quantity": "30",
-            "unit": "ml",
-            "item": "Brandy"
-        },
-        {
-            "item": "Salt & Pepper",
-            "toTaste": true,
-            "notes": "Don't add too much all at once — you can't take it out once it's in."
-        }
-    ],
-    "method": [
-        {
-            "step": 1,
-            "instruction": "Grill or pan-fry scotch fillets over high heat to desired doneness. Remove and rest on a warm plate."
-        },
-        {
-            "step": 2,
-            "instruction": "Melt butter in the same pan over medium heat. Add diced onion and cook until softened, about 2–3 minutes."
-        },
-        {
-            "step": 3,
-            "instruction": "Add prawns and cook for 1–2 minutes until just pink — they will finish in the sauce."
-        },
-        {
-            "step": 4,
-            "instruction": "Deglaze the pan with brandy. Let it reduce by half, about 1 minute."
-        },
-        {
-            "step": 5,
-            "instruction": "Add demi glace and thickened cream. Stir and reduce for 2–3 minutes until the sauce is rich and coats the back of a spoon."
-        },
-        {
-            "step": 6,
-            "instruction": "Add green peppercorns and stir through. Season with salt."
-        },
-        {
-            "step": 7,
-            "instruction": "Plate the steak, arrange prawns around and over, and spoon the sauce generously over everything."
-        }
-    ],
-    "notes": [
-        {
-            "type": "technique",
-            "title": "Prawn Timing",
-            "content": "Prawns finish cooking in the sauce — do not overcook them in the initial sear or they will become tough. Brandy is the correct alcohol for the deglaze, giving a warmer, richer note than white wine."
-        }
-    ],
-    "related": [
-        {
-            "id": "bistro-reefandbeef",
-            "title": "Reef and Beef"
-        },
-        {
-            "id": "bistro-brandymustardsteak",
-            "title": "Brandy Mustard Steak"
-        },
-        {
-            "id": "bistro-filetmignon",
-            "title": "Filet Mignon"
-        },
-        {
-            "id": "bistro-fishoftheday",
-            "title": "Fish of the Day"
-        },
-        {
-            "id": "bistro-carpetbag",
-            "title": "Carpet Bag"
-        }
-    ],
-    "nutrition": {
-        "servings": 1,
-        "cal": 845,
-        "kj": 3534,
-        "protein": 44,
-        "carbs": 34,
-        "sugars": 11,
-        "fat": 52,
-        "saturated_fat": 33,
-        "fibre": 4,
-        "sodium": 880,
-        "coverage": 89,
-        "calcium_mg": 182,
-        "iron_mg": 1,
-        "potassium_mg": 867,
-        "magnesium_mg": 98,
-        "zinc_mg": 4,
-        "cholesterol_mg": 740,
-        "vitamin_a_ug": 449,
-        "vitamin_c_mg": 11,
-        "vitamin_d_ug": 1
+  "id": "bistro-mediterraneansteak",
+  "title": "Mediterranean Steak",
+  "category": "Bistro",
+  "description": "Scotch fillet in a rich cream sauce with king prawns and green peppercorns. Surf and turf done properly — the bistro way.",
+  "prepTime": "5 min",
+  "cookTime": "8 min",
+  "totalTime": "13 min",
+  "servings": "1 serving",
+  "difficulty": "Intermediate",
+  "tags": [
+    "Alcohol",
+    "Beef",
+    "Classic",
+    "Creamy",
+    "Dinner",
+    "Gluten-Free",
+    "Rich",
+    "Savoury",
+    "Seafood",
+    "Under 30 Minutes"
+  ],
+  "ingredients": [
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Beef, Scotch Fillet",
+      "notes": "approximately 180 g each"
     },
-    "lastModified": "2026-05-24"
+    {
+      "quantity": "150",
+      "unit": "g",
+      "item": "Prawns",
+      "notes": "king, peeled and deveined"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Green Peppercorns",
+      "notes": "brined"
+    },
+    {
+      "quantity": "60",
+      "unit": "ml",
+      "item": "Thickened Cream"
+    },
+    {
+      "quantity": "60",
+      "unit": "ml",
+      "item": "Demi Glace"
+    },
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Unsalted Butter"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Brown Onion",
+      "notes": "diced"
+    },
+    {
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Brandy"
+    },
+    {
+      "item": "Salt & Pepper",
+      "toTaste": true,
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Grill or pan-fry scotch fillets over high heat to desired doneness. Remove and rest on a warm plate."
+    },
+    {
+      "step": 2,
+      "instruction": "Melt butter in the same pan over medium heat. Add diced onion and cook until softened, about 2–3 minutes."
+    },
+    {
+      "step": 3,
+      "instruction": "Add prawns and cook for 1–2 minutes until just pink — they will finish in the sauce."
+    },
+    {
+      "step": 4,
+      "instruction": "Deglaze the pan with brandy. Let it reduce by half, about 1 minute."
+    },
+    {
+      "step": 5,
+      "instruction": "Add demi glace and thickened cream. Stir and reduce for 2–3 minutes until the sauce is rich and coats the back of a spoon."
+    },
+    {
+      "step": 6,
+      "instruction": "Add green peppercorns and stir through. Season with salt."
+    },
+    {
+      "step": 7,
+      "instruction": "Plate the steak, arrange prawns around and over, and spoon the sauce generously over everything."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Prawn Timing",
+      "content": "Prawns finish cooking in the sauce — do not overcook them in the initial sear or they will become tough. Brandy is the correct alcohol for the deglaze, giving a warmer, richer note than white wine."
+    }
+  ],
+  "related": [
+    {
+      "id": "bistro-reefandbeef",
+      "title": "Reef and Beef"
+    },
+    {
+      "id": "bistro-brandymustardsteak",
+      "title": "Brandy Mustard Steak"
+    },
+    {
+      "id": "bistro-filetmignon",
+      "title": "Filet Mignon"
+    },
+    {
+      "id": "bistro-fishoftheday",
+      "title": "Fish of the Day"
+    },
+    {
+      "id": "bistro-carpetbag",
+      "title": "Carpet Bag"
+    }
+  ],
+  "nutrition": {
+    "servings": 1,
+    "cal": 845,
+    "kj": 3534,
+    "protein": 44,
+    "carbs": 34,
+    "sugars": 11,
+    "fat": 52,
+    "saturated_fat": 33,
+    "fibre": 4,
+    "sodium": 880,
+    "coverage": 89,
+    "calcium_mg": 182,
+    "iron_mg": 1,
+    "potassium_mg": 867,
+    "magnesium_mg": 98,
+    "zinc_mg": 4,
+    "cholesterol_mg": 740,
+    "vitamin_a_ug": 449,
+    "vitamin_c_mg": 11,
+    "vitamin_d_ug": 1
+  },
+  "lastModified": "2026-05-24"
 }

@@ -1,127 +1,127 @@
 {
-    "id": "redsauce",
-    "title": "Red Sauce",
-    "emoji": "🍅",
-    "category": "Sauces",
-    "description": "A simple tomato-based sauce — rich, aromatic, and perfect for pasta. Quick to make, full of flavour.",
-    "prepTime": "10 min",
-    "cookTime": "20 min",
-    "totalTime": "30 min",
-    "servings": "4 servings",
-    "difficulty": "Beginner",
-    "tags": [
-        "Classic",
-        "Italian",
-        "Sauce",
-        "Tomato",
-        "Under 30 Minutes",
-        "Vegan",
-        "Vegetarian"
-    ],
-    "ingredients": [
-        {
-            "quantity": "500",
-            "unit": "g",
-            "item": "Tomatoes",
-            "notes": "pureed"
-        },
-        {
-            "quantity": "1",
-            "unit": "",
-            "item": "Brown Onion",
-            "notes": "finely chopped"
-        },
-        {
-            "quantity": "3",
-            "unit": "cloves",
-            "item": "Garlic",
-            "notes": "minced"
-        },
-        {
-            "quantity": "30",
-            "unit": "ml",
-            "item": "Olive Oil"
-        },
-        {
-            "quantity": "5",
-            "unit": "g",
-            "item": "Italian Herbs"
-        },
-        {
-            "quantity": "5",
-            "unit": "g",
-            "item": "Salt"
-        },
-        {
-            "quantity": "2",
-            "unit": "g",
-            "item": "Black Pepper",
-            "notes": "fresh cracked"
-        }
-    ],
-    "method": [
-        {
-            "step": 1,
-            "instruction": "Heat olive oil in a saucepan over medium heat."
-        },
-        {
-            "step": 2,
-            "instruction": "Sauté onion for 3–4 minutes until soft and translucent."
-        },
-        {
-            "step": 3,
-            "instruction": "Add garlic and cook for 30 seconds until fragrant."
-        },
-        {
-            "step": 4,
-            "instruction": "Add pureed tomatoes and Italian herbs. Stir well."
-        },
-        {
-            "step": 5,
-            "instruction": "Simmer on low heat for 15–20 minutes, stirring occasionally, until thickened."
-        },
-        {
-            "step": 6,
-            "instruction": "Season with salt and pepper. Cool slightly before using or storing."
-        }
-    ],
-    "notes": [
-        {
-            "type": "serving",
-            "title": "Serving Tip",
-            "content": "Great with any pasta shape. Can be stored in the refrigerator for up to 5 days or frozen for up to 3 months."
-        }
-    ],
-    "related": [
-        {
-            "id": "marinarasauce",
-            "title": "Marinara Sauce"
-        },
-        {
-            "id": "arrabbiatasauce",
-            "title": "Arrabbiata Sauce"
-        },
-        {
-            "id": "alfredosauce",
-            "title": "Alfredo Sauce"
-        },
-        {
-            "id": "pestosauce",
-            "title": "Pesto Sauce"
-        },
-        {
-            "id": "whitesauce",
-            "title": "White Sauce (Béchamel)"
-        }
-    ],
-    "nutrition": {
-        "servings": 4,
-        "cal": 215,
-        "protein": 6,
-        "carbs": 33,
-        "fat": 8,
-        "fibre": 4,
-        "sodium": 505,
-        "coverage": 100
+  "id": "redsauce",
+  "title": "Red Sauce",
+  "category": "Sauces",
+  "description": "A simple tomato-based sauce — rich, aromatic, and perfect for pasta. Quick to make, full of flavour.",
+  "prepTime": "10 min",
+  "cookTime": "20 min",
+  "totalTime": "30 min",
+  "servings": "4 servings",
+  "difficulty": "Beginner",
+  "tags": [
+    "Classic",
+    "Italian",
+    "Sauce",
+    "Tomato",
+    "Under 30 Minutes",
+    "Vegan",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "quantity": "500",
+      "unit": "g",
+      "item": "Tomatoes",
+      "notes": "pureed"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Brown Onion",
+      "notes": "finely chopped"
+    },
+    {
+      "quantity": "3",
+      "unit": "cloves",
+      "item": "Garlic",
+      "notes": "minced"
+    },
+    {
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Olive Oil"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Italian Herbs"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Salt"
+    },
+    {
+      "quantity": "2",
+      "unit": "g",
+      "item": "Black Pepper",
+      "notes": "fresh cracked"
     }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Heat olive oil in a saucepan over medium heat."
+    },
+    {
+      "step": 2,
+      "instruction": "Sauté onion for 3–4 minutes until soft and translucent."
+    },
+    {
+      "step": 3,
+      "instruction": "Add garlic and cook for 30 seconds until fragrant."
+    },
+    {
+      "step": 4,
+      "instruction": "Add pureed tomatoes and Italian herbs. Stir well."
+    },
+    {
+      "step": 5,
+      "instruction": "Simmer on low heat for 15–20 minutes, stirring occasionally, until thickened."
+    },
+    {
+      "step": 6,
+      "instruction": "Season with salt and pepper. Cool slightly before using or storing."
+    }
+  ],
+  "notes": [
+    {
+      "type": "serving",
+      "title": "Serving Tip",
+      "content": "Great with any pasta shape. Can be stored in the refrigerator for up to 5 days or frozen for up to 3 months."
+    }
+  ],
+  "related": [
+    {
+      "id": "marinarasauce",
+      "title": "Marinara Sauce"
+    },
+    {
+      "id": "arrabbiatasauce",
+      "title": "Arrabbiata Sauce"
+    },
+    {
+      "id": "alfredosauce",
+      "title": "Alfredo Sauce"
+    },
+    {
+      "id": "pestosauce",
+      "title": "Pesto Sauce"
+    },
+    {
+      "id": "whitesauce",
+      "title": "White Sauce (Béchamel)"
+    }
+  ],
+  "nutrition": {
+    "servings": 4,
+    "cal": 215,
+    "protein": 6,
+    "carbs": 33,
+    "fat": 8,
+    "fibre": 4,
+    "sodium": 505,
+    "coverage": 100
+  },
+  "lastModified": "2026-06-08"
 }

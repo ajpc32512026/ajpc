@@ -1,0 +1,193 @@
+{
+  "id": "theultimatechocolatemudcake",
+  "title": "The Ultimate Chocolate Mud Cake",
+  "emoji": "🍫",
+  "category": "Desserts",
+  "difficulty": "Intermediate",
+  "description": "A decadent, dense, and fudgy masterpiece topped with silky chocolate ganache — the ultimate indulgence.",
+  "prepTime": "20 min",
+  "cookTime": "1 hr 20 min",
+  "totalTime": "1 hr 40 min",
+  "servings": "10 servings",
+  "tags": [
+    "Chocolate",
+    "Cake",
+    "Dessert",
+    "Rich",
+    "Sweet"
+  ],
+  "ingredients": [
+    {
+      "heading": "Cake"
+    },
+    {
+      "quantity": "250",
+      "unit": "g",
+      "item": "Unsalted Butter",
+      "notes": "roughly chopped"
+    },
+    {
+      "quantity": "200",
+      "unit": "g",
+      "item": "Dark Chocolate",
+      "notes": "roughly chopped"
+    },
+    {
+      "quantity": "240",
+      "unit": "g",
+      "item": "Caster Sugar"
+    },
+    {
+      "quantity": "220",
+      "unit": "g",
+      "item": "Brown Sugar",
+      "notes": "lightly packed"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Coffee",
+      "notes": "instant"
+    },
+    {
+      "quantity": "375",
+      "unit": "ml",
+      "item": "Milk"
+    },
+    {
+      "quantity": "3",
+      "unit": "",
+      "item": "Eggs",
+      "notes": "large"
+    },
+    {
+      "quantity": "15",
+      "unit": "ml",
+      "item": "Vanilla Extract"
+    },
+    {
+      "quantity": "225",
+      "unit": "g",
+      "item": "Plain Flour"
+    },
+    {
+      "quantity": "50",
+      "unit": "g",
+      "item": "Cocoa Powder"
+    },
+    {
+      "quantity": "16",
+      "unit": "g",
+      "item": "Baking Powder"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Salt"
+    },
+    {
+      "heading": "Ganache"
+    },
+    {
+      "quantity": "60",
+      "unit": "ml",
+      "item": "Thickened Cream"
+    },
+    {
+      "quantity": "60",
+      "unit": "ml",
+      "item": "Milk"
+    },
+    {
+      "quantity": "200",
+      "unit": "g",
+      "item": "Dark Chocolate",
+      "notes": "finely chopped"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 150°C fan-forced or 160°C standard. Grease and line a 23 cm springform cake tin, extending the baking paper 5 cm above the rim."
+    },
+    {
+      "step": 2,
+      "instruction": "Place butter and chocolate in a heatproof bowl. Microwave for 1 minute on high, stir, then microwave in 30-second bursts, stirring between each, until smooth and glossy."
+    },
+    {
+      "step": 3,
+      "instruction": "Add both sugars and coffee. Stir in milk, eggs, and vanilla extract until combined."
+    },
+    {
+      "step": 4,
+      "instruction": "Sift in flour, cocoa powder, baking powder, and salt. Stir until smooth and fully combined."
+    },
+    {
+      "step": 5,
+      "instruction": "Pour batter into the prepared tin and bake for 80–90 minutes, or until a skewer inserted into the centre comes out with moist crumbs. Avoid opening the oven door early."
+    },
+    {
+      "step": 6,
+      "instruction": "Cool in the tin for 20 minutes, then transfer to a wire rack to cool completely."
+    },
+    {
+      "step": 7,
+      "instruction": "For the ganache: combine milk and cream in a jug and microwave for approximately 1 minute until hot but not boiling."
+    },
+    {
+      "step": 8,
+      "instruction": "Pour over the finely chopped chocolate. Let sit for 5 minutes, then stir until smooth. Reheat briefly in 10-second bursts if needed."
+    },
+    {
+      "step": 9,
+      "instruction": "Level the cooled cake with a serrated knife if needed, then pour ganache over the top and spread evenly."
+    },
+    {
+      "step": 10,
+      "instruction": "Refrigerate for approximately 2 hours or until the ganache is firm. Can also set at room temperature if cool enough."
+    },
+    {
+      "step": 11,
+      "instruction": "Slice and serve — the cake is even fudgier on the second day."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Mud Cake Texture",
+      "content": "The skewer should come out with moist crumbs, not clean. A clean skewer means the cake is overbaked and will be dry rather than fudgy. Do not open the oven door during the first hour of baking."
+    },
+    {
+      "type": "technique",
+      "title": "Tall Parchment",
+      "content": "Extending the baking paper 6 cm above the tin rim prevents the crust from burning during the long bake and makes lifting the cake out easier."
+    },
+    {
+      "type": "serving",
+      "title": "Serving Tip",
+      "content": "This cake improves with time. Make it a day ahead — the crumb becomes denser and more fudgy overnight in the refrigerator."
+    }
+  ],
+  "nutrition": {
+    "servings": 10,
+    "cal": 773,
+    "kj": 3234,
+    "protein": 15,
+    "carbs": 78,
+    "sugars": 59,
+    "fat": 46,
+    "saturated_fat": 28.4,
+    "fiber": 2,
+    "sodium": 389,
+    "coverage": 100,
+    "calcium_mg": 145,
+    "iron_mg": 4,
+    "potassium_mg": 710,
+    "magnesium_mg": 74,
+    "zinc_mg": 2,
+    "cholesterol_mg": 408,
+    "vitamin_a_ug": 413,
+    "vitamin_d_ug": 5
+  },
+  "lastModified": "2026-06-04"
+}

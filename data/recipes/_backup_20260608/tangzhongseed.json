@@ -1,0 +1,270 @@
+{
+    "id": "tangzhonggrainseedbread",
+    "title": "Tangzhong Grain & Seed Bread",
+    "emoji": "🍞",
+    "category": "Baking",
+    "description": "A soft, generous loaf with the soul of old-world baking — built on modern tangzhong and a hearty, soaked grain-and-seed mix that gives depth without stealing moisture.",
+    "prepTime": "45 min",
+    "cookTime": "35 min",
+    "totalTime": "3 hr 30 min",
+    "servings": "1 large loaf",
+    "difficulty": "Intermediate",
+    "tags": [
+        "Bread",
+        "Make Ahead",
+        "Savoury",
+        "Vegan"
+    ],
+    "ingredients": [
+        {
+            "heading": "Tangzhong"
+        },
+        {
+            "quantity": "30",
+            "unit": "g",
+            "item": "Bread Flour"
+        },
+        {
+            "quantity": "190",
+            "unit": "g",
+            "item": "Water",
+            "notes": "for tangzhong"
+        },
+        {
+            "heading": "Main Dough"
+        },
+        {
+            "quantity": "560",
+            "unit": "g",
+            "item": "Bread Flour"
+        },
+        {
+            "quantity": "180",
+            "unit": "ml",
+            "item": "Water"
+        },
+        {
+            "quantity": "20",
+            "unit": "ml",
+            "item": "Vegetable Oil"
+        },
+        {
+            "quantity": "10",
+            "unit": "g",
+            "item": "Salt"
+        },
+        {
+            "quantity": "10",
+            "unit": "g",
+            "item": "White Sugar"
+        },
+        {
+            "quantity": "7",
+            "unit": "g",
+            "item": "Yeast",
+            "notes": "instant dried"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Bread Improver"
+        },
+        {
+            "heading": "Seed & Grain Mix (total ~145 g)"
+        },
+        {
+            "quantity": "15",
+            "unit": "g",
+            "item": "Rolled Oats"
+        },
+        {
+            "quantity": "10",
+            "unit": "g",
+            "item": "Flaxseed Meal"
+        },
+        {
+            "quantity": "10",
+            "unit": "g",
+            "item": "Linseed"
+        },
+        {
+            "quantity": "10",
+            "unit": "g",
+            "item": "Sesame Seeds"
+        },
+        {
+            "quantity": "10",
+            "unit": "g",
+            "item": "White Quinoa"
+        },
+        {
+            "quantity": "10",
+            "unit": "g",
+            "item": "Black Quinoa"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Black Chia Seeds"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "White Chia Seeds"
+        },
+        {
+            "quantity": "10",
+            "unit": "g",
+            "item": "Sunflower Seeds"
+        },
+        {
+            "quantity": "10",
+            "unit": "g",
+            "item": "Pumpkin Seeds"
+        },
+        {
+            "quantity": "10",
+            "unit": "g",
+            "item": "Bulgur Wheat"
+        },
+        {
+            "quantity": "10",
+            "unit": "g",
+            "item": "Freekeh"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Poppy Seeds"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Hemp Protein Powder"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Hemp Seeds"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Psyllium Husk"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Bran"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Soy Lecithin"
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Make the tangzhong: in a small saucepan, combine 30 g bread flour and 190 g water. Cook over medium heat, whisking constantly, until it thickens into a paste at approximately 65°C. Remove from heat and let cool to room temperature."
+        },
+        {
+            "step": 2,
+            "instruction": "Prepare the seed and grain mix: combine all seeds, grains, and add-ins in a bowl. Cover with hot water and let soak for 20–30 minutes. Drain thoroughly and squeeze out excess moisture."
+        },
+        {
+            "step": 3,
+            "instruction": "In a large bowl, combine bread flour, salt, sugar, yeast, and bread improver."
+        },
+        {
+            "step": 4,
+            "instruction": "Add the cooled tangzhong, water, vegetable oil, and the drained seed mixture."
+        },
+        {
+            "step": 5,
+            "instruction": "Mix until a rough dough forms. The dough will feel firm initially — this is normal."
+        },
+        {
+            "step": 6,
+            "instruction": "Knead for 12–15 minutes by hand or 8–10 minutes in a stand mixer until the dough becomes smooth and elastic. It will relax and become more pliable as you knead."
+        },
+        {
+            "step": 7,
+            "instruction": "Place dough in a lightly oiled bowl, cover with a damp tea towel, and let rise in a warm place for 1½–2 hours until doubled in size. The seeds make this dough denser, so it may rise more slowly."
+        },
+        {
+            "step": 8,
+            "instruction": "Punch down the dough and shape into a loaf. Place in a greased loaf tin approximately 20–22 cm × 10–12 cm."
+        },
+        {
+            "step": 9,
+            "instruction": "Cover and let rise for another 60–90 minutes until the dough has risen about 2 cm above the rim of the tin."
+        },
+        {
+            "step": 10,
+            "instruction": "Preheat oven to 180°C."
+        },
+        {
+            "step": 11,
+            "instruction": "Optional: brush the top with water or milk and sprinkle with extra oats, sesame seeds, or sunflower seeds."
+        },
+        {
+            "step": 12,
+            "instruction": "Bake for 32–38 minutes until the top is deep golden brown and the loaf sounds hollow when tapped on the bottom."
+        },
+        {
+            "step": 13,
+            "instruction": "Remove from tin immediately and cool on a wire rack for at least 45 minutes before slicing."
+        }
+    ],
+    "notes": [
+        {
+            "type": "technique",
+            "title": "Why Soaking Matters",
+            "content": "The grain-and-seed mix is soaked because oats, bran, bulgur, freekeh, flax, chia, psyllium, and hemp absorb moisture. Soaking ensures the dough stays hydrated and the loaf rises tall with a tender crumb."
+        },
+        {
+            "type": "technique",
+            "title": "Tangzhong + Seeds",
+            "content": "The tangzhong keeps the loaf soft for days, while the soaked seeds add hearty flavour and nutrition without weighing it down or stealing moisture from the dough."
+        },
+        {
+            "type": "variation",
+            "title": "Customise Your Mix",
+            "content": "Do not worry if you are missing some seeds — use what you have. The total seed and grain weight should be around 145–150 g. Popular combinations include oats, sunflower, pumpkin, flax, and chia."
+        }
+    ],
+    "related": [
+        {
+            "id": "tangzhongguide",
+            "title": "Tangzhong Guide"
+        },
+        {
+            "id": "swbtm",
+            "title": "Soft White Bread (Tangzhong Method)"
+        },
+        {
+            "id": "darkrye",
+            "title": "Dark Rye Bread"
+        },
+        {
+            "id": "turkishbread",
+            "title": "Traditional Turkish Bread"
+        },
+        {
+            "id": "sub",
+            "title": "Homemade Sub Buns"
+        }
+    ],
+    "nutrition": {
+        "servings": 1,
+        "cal": 3045,
+        "protein": 99,
+        "carbs": 503,
+        "fat": 68,
+        "fibre": 40,
+        "sodium": 3925,
+        "coverage": 100
+    },
+    "cuisine": "Asian"
+}

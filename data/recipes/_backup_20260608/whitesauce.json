@@ -1,0 +1,101 @@
+{
+  "id": "whitesaucebchamel",
+  "title": "White Sauce (Béchamel)",
+  "emoji": "🥛",
+  "category": "Sauces",
+  "difficulty": "Beginner",
+  "description": "A classic French white sauce — smooth, creamy, and versatile. The foundation of countless dishes.",
+  "prepTime": "5 min",
+  "cookTime": "10 min",
+  "totalTime": "15 min",
+  "servings": "4 servings",
+  "tags": [
+    "Classic",
+    "Creamy",
+    "French",
+    "Rich",
+    "Sauce",
+    "Under 30 Minutes",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Unsalted Butter"
+    },
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Plain Flour"
+    },
+    {
+      "quantity": "500",
+      "unit": "ml",
+      "item": "Milk"
+    },
+    {
+      "quantity": "3",
+      "unit": "g",
+      "item": "Salt"
+    },
+    {
+      "quantity": "1",
+      "unit": "g",
+      "item": "White Pepper"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Melt butter in a saucepan over medium heat."
+    },
+    {
+      "step": 2,
+      "instruction": "Add flour and whisk continuously for 1–2 minutes to cook out the raw flour taste. The roux should be pale golden, not browned."
+    },
+    {
+      "step": 3,
+      "instruction": "Slowly add milk while whisking constantly to prevent lumps from forming."
+    },
+    {
+      "step": 4,
+      "instruction": "Continue whisking over medium heat until the sauce thickens and becomes smooth, about 5–7 minutes."
+    },
+    {
+      "step": 5,
+      "instruction": "Season with salt and white pepper. Use immediately or cover with plastic wrap pressed directly onto the surface to prevent a skin forming."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Lump-Free Sauce",
+      "content": "Warm the milk before adding it to the roux for the smoothest result. Cold milk works but takes longer and requires more vigorous whisking."
+    },
+    {
+      "type": "serving",
+      "title": "Uses",
+      "content": "The foundation for lasagne, gratins, creamy pasta dishes, and as a base for cheese sauce. Add grated cheese for an instant Mornay sauce."
+    }
+  ],
+  "nutrition": {
+    "servings": 4,
+    "cal": 164,
+    "kj": 688,
+    "protein": 5,
+    "carbs": 13,
+    "sugars": 7,
+    "fat": 11,
+    "saturated_fat": 7.1,
+    "fiber": 0,
+    "sodium": 108,
+    "coverage": 100,
+    "calcium_mg": 137,
+    "potassium_mg": 200,
+    "magnesium_mg": 17,
+    "cholesterol_mg": 25,
+    "vitamin_a_ug": 120
+  },
+  "lastModified": "2026-06-04"
+}

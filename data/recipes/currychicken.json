@@ -1,208 +1,207 @@
 {
-    "id": "currychickenwithcoconutcream",
-    "title": "Curry Chicken with Coconut Cream",
-    "emoji": "🍛",
-    "category": "Dinner",
-    "description": "Tender chicken in a rich, creamy coconut curry sauce. Simple, comforting, and packed with flavour.",
-    "prepTime": "15 min",
-    "cookTime": "25 min",
-    "totalTime": "40 min",
-    "servings": "2",
-    "difficulty": "Beginner",
-    "tags": [
-        "Asian",
-        "Chicken",
-        "Creamy",
+  "id": "currychicken",
+  "title": "Curry Chicken with Coconut Cream",
+  "category": "Dinner",
+  "description": "Tender chicken in a rich, creamy coconut curry sauce. Simple, comforting, and packed with flavour.",
+  "prepTime": "15 min",
+  "cookTime": "25 min",
+  "totalTime": "40 min",
+  "servings": "2",
+  "difficulty": "Beginner",
+  "tags": [
+    "Asian",
+    "Chicken",
+    "Creamy",
+    "Curry",
+    "Dinner",
+    "Easy",
+    "Make Ahead"
+  ],
+  "ingredients": [
+    {
+      "quantity": "600",
+      "unit": "g",
+      "item": "Chicken Thigh Fillets",
+      "notes": "or breast fillets, both cut into bite-sized pieces"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Brown Onion",
+      "notes": "finely diced"
+    },
+    {
+      "quantity": "2",
+      "unit": "cloves",
+      "item": "Garlic",
+      "notes": "minced"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Ginger",
+      "notes": "grated"
+    },
+    {
+      "quantity": "15",
+      "unit": "ml",
+      "item": "Vegetable Oil"
+    },
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Curry Powder",
+      "notes": "adjust to taste"
+    },
+    {
+      "quantity": "1",
+      "unit": "",
+      "item": "Chicken Stock Cube",
+      "notes": "crumbled"
+    },
+    {
+      "quantity": "350",
+      "unit": "ml",
+      "item": "Water"
+    },
+    {
+      "quantity": "150",
+      "unit": "ml",
+      "item": "Coconut Cream"
+    },
+    {
+      "quantity": "3",
+      "unit": "g",
+      "item": "Salt",
+      "notes": "to taste"
+    },
+    {
+      "quantity": "2",
+      "unit": "g",
+      "item": "Cornflour",
+      "notes": "optional, mixed with 30ml water for thicker sauce"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Heat oil in a large frying pan or Dutch oven over medium-high heat."
+    },
+    {
+      "step": 2,
+      "instruction": "Add chicken pieces and cook until browned on all sides. If using thigh, cook for 5-6 minutes. If using breast, cook for 2-3 minutes only — just to brown, not cook through. Remove chicken and set aside."
+    },
+    {
+      "step": 3,
+      "instruction": "In the same pan, add onion, garlic, and ginger. Cook for 2-3 minutes until softened."
+    },
+    {
+      "step": 4,
+      "instruction": "Add curry powder and cook for 1 minute until fragrant."
+    },
+    {
+      "step": 5,
+      "instruction": "Pour in water, crumble in the stock cube, and stir to dissolve. Bring to a simmer."
+    },
+    {
+      "step": 6,
+      "instruction": "Return chicken to the pan. If using thigh, cover and simmer for 15 minutes. If using breast, simmer for 5-8 minutes only — breast overcooks quickly."
+    },
+    {
+      "step": 7,
+      "instruction": "Stir in coconut cream and simmer for another 5 minutes until the sauce thickens slightly."
+    },
+    {
+      "step": 8,
+      "instruction": "Season with salt to taste. For a thicker sauce, add cornflour slurry and stir until thickened."
+    },
+    {
+      "step": 9,
+      "instruction": "Serve hot with steamed rice."
+    }
+  ],
+  "notes": [
+    {
+      "type": "tip",
+      "title": "Thigh vs Breast",
+      "content": "Thighs are more forgiving and stay tender with longer cooking. Breast requires shorter cooking time — brown quickly and simmer for only 5-8 minutes to avoid drying out."
+    },
+    {
+      "type": "tip",
+      "title": "Curry Powder Strength",
+      "content": "Start with 2 tablespoons of curry powder and add more to taste. Different brands vary in heat and flavour intensity."
+    },
+    {
+      "type": "tip",
+      "title": "Coconut Cream vs Coconut Milk",
+      "content": "Coconut cream gives a richer, thicker sauce. You can substitute with coconut milk for a lighter version."
+    },
+    {
+      "type": "storage",
+      "title": "Leftovers",
+      "content": "Store in an airtight container in the fridge for up to 3 days. The flavours deepen overnight."
+    },
+    {
+      "type": "variation",
+      "title": "Add Vegetables",
+      "content": "Add diced potato, carrot, or peas during the last 10 minutes of cooking for a heartier meal."
+    },
+    {
+      "type": "serving",
+      "title": "Black Pepper",
+      "content": "Add ground black pepper to taste when serving."
+    }
+  ],
+  "related": [
+    {
+      "id": "butterchicken",
+      "title": "Butter Chicken"
+    },
+    {
+      "id": "beefvindaloo",
+      "title": "Beef Vindaloo",
+      "matchingTags": [
+        "Beef",
         "Curry",
         "Dinner",
-        "Easy",
-        "Make Ahead"
-    ],
-    "ingredients": [
-        {
-            "quantity": "600",
-            "unit": "g",
-            "item": "Chicken Thigh Fillets",
-            "notes": "or breast fillets, both cut into bite-sized pieces"
-        },
-        {
-            "quantity": "1",
-            "unit": "",
-            "item": "Brown Onion",
-            "notes": "finely diced"
-        },
-        {
-            "quantity": "2",
-            "unit": "cloves",
-            "item": "Garlic",
-            "notes": "minced"
-        },
-        {
-            "quantity": "5",
-            "unit": "g",
-            "item": "Ginger",
-            "notes": "grated"
-        },
-        {
-            "quantity": "15",
-            "unit": "ml",
-            "item": "Vegetable Oil"
-        },
-        {
-            "quantity": "30",
-            "unit": "g",
-            "item": "Curry Powder",
-            "notes": "adjust to taste"
-        },
-        {
-            "quantity": "1",
-            "unit": "",
-            "item": "Chicken Stock Cube",
-            "notes": "crumbled"
-        },
-        {
-            "quantity": "350",
-            "unit": "ml",
-            "item": "Water"
-        },
-        {
-            "quantity": "150",
-            "unit": "ml",
-            "item": "Coconut Cream"
-        },
-        {
-            "quantity": "3",
-            "unit": "g",
-            "item": "Salt",
-            "notes": "to taste"
-        },
-        {
-            "quantity": "2",
-            "unit": "g",
-            "item": "Cornflour",
-            "notes": "optional, mixed with 30ml water for thicker sauce"
-        }
-    ],
-    "method": [
-        {
-            "step": 1,
-            "instruction": "Heat oil in a large frying pan or Dutch oven over medium-high heat."
-        },
-        {
-            "step": 2,
-            "instruction": "Add chicken pieces and cook until browned on all sides. If using thigh, cook for 5-6 minutes. If using breast, cook for 2-3 minutes only — just to brown, not cook through. Remove chicken and set aside."
-        },
-        {
-            "step": 3,
-            "instruction": "In the same pan, add onion, garlic, and ginger. Cook for 2-3 minutes until softened."
-        },
-        {
-            "step": 4,
-            "instruction": "Add curry powder and cook for 1 minute until fragrant."
-        },
-        {
-            "step": 5,
-            "instruction": "Pour in water, crumble in the stock cube, and stir to dissolve. Bring to a simmer."
-        },
-        {
-            "step": 6,
-            "instruction": "Return chicken to the pan. If using thigh, cover and simmer for 15 minutes. If using breast, simmer for 5-8 minutes only — breast overcooks quickly."
-        },
-        {
-            "step": 7,
-            "instruction": "Stir in coconut cream and simmer for another 5 minutes until the sauce thickens slightly."
-        },
-        {
-            "step": 8,
-            "instruction": "Season with salt to taste. For a thicker sauce, add cornflour slurry and stir until thickened."
-        },
-        {
-            "step": 9,
-            "instruction": "Serve hot with steamed rice."
-        }
-    ],
-    "notes": [
-        {
-            "type": "tip",
-            "title": "Thigh vs Breast",
-            "content": "Thighs are more forgiving and stay tender with longer cooking. Breast requires shorter cooking time — brown quickly and simmer for only 5-8 minutes to avoid drying out."
-        },
-        {
-            "type": "tip",
-            "title": "Curry Powder Strength",
-            "content": "Start with 2 tablespoons of curry powder and add more to taste. Different brands vary in heat and flavour intensity."
-        },
-        {
-            "type": "tip",
-            "title": "Coconut Cream vs Coconut Milk",
-            "content": "Coconut cream gives a richer, thicker sauce. You can substitute with coconut milk for a lighter version."
-        },
-        {
-            "type": "storage",
-            "title": "Leftovers",
-            "content": "Store in an airtight container in the fridge for up to 3 days. The flavours deepen overnight."
-        },
-        {
-            "type": "variation",
-            "title": "Add Vegetables",
-            "content": "Add diced potato, carrot, or peas during the last 10 minutes of cooking for a heartier meal."
-        },
-        {
-            "type": "serving",
-            "title": "Black Pepper",
-            "content": "Add ground black pepper to taste when serving."
-        }
-    ],
-    "related": [
-        {
-            "id": "butterchicken",
-            "title": "Butter Chicken"
-        },
-        {
-            "id": "beefvindaloo",
-            "title": "Beef Vindaloo",
-            "matchingTags": [
-                "Beef",
-                "Curry",
-                "Dinner",
-                "Indian",
-                "Make Ahead",
-                "Rich",
-                "Savoury",
-                "Slow-Cooked",
-                "Spicy"
-            ]
-        },
-        {
-            "id": "lambkorma",
-            "title": "Lamb Korma",
-            "matchingTags": [
-                "Curry",
-                "Dinner",
-                "Indian",
-                "Lamb",
-                "Rich",
-                "Savoury"
-            ]
-        },
-        {
-            "id": "roganjosh",
-            "title": "Rogan Josh"
-        },
-        {
-            "id": "kormapaste",
-            "title": "Korma Paste"
-        }
-    ],
-    "nutrition": {
-        "servings": 2,
-        "cal": 1380,
-        "protein": 106,
-        "carbs": 54,
-        "fat": 84,
-        "fibre": 10,
-        "sodium": 887,
-        "coverage": 100
+        "Indian",
+        "Make Ahead",
+        "Rich",
+        "Savoury",
+        "Slow-Cooked",
+        "Spicy"
+      ]
     },
-    "lastModified": "2026-05-12"
+    {
+      "id": "lambkorma",
+      "title": "Lamb Korma",
+      "matchingTags": [
+        "Curry",
+        "Dinner",
+        "Indian",
+        "Lamb",
+        "Rich",
+        "Savoury"
+      ]
+    },
+    {
+      "id": "roganjosh",
+      "title": "Rogan Josh"
+    },
+    {
+      "id": "kormapaste",
+      "title": "Korma Paste"
+    }
+  ],
+  "nutrition": {
+    "servings": 2,
+    "cal": 1380,
+    "protein": 106,
+    "carbs": 54,
+    "fat": 84,
+    "fibre": 10,
+    "sodium": 887,
+    "coverage": 100
+  },
+  "lastModified": "2026-05-12"
 }

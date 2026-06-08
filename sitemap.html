@@ -30,7 +30,7 @@
             </div>
 
             <div class="sitemap-note">
-                📍 Total recipes: <span id="recipeCount">---</span> | Last updated: <span id="lastUpdated"></span>
+                Total recipes: <span id="recipeCount">---</span> | Last updated: <span id="lastUpdated"></span>
             </div>
         </main>
     </div>
@@ -93,7 +93,7 @@
                 cuisineGroups[c].push(r);
             });
 
-            html += `<div class="sitemap-category"><h2>🌍 By Cuisine</h2>`;
+            html += `<div class="sitemap-category"><h2>By Cuisine</h2>`;
             Object.keys(cuisineGroups).sort().forEach(c => {
                 html += `
                 <details class="sitemap-dropdown">
@@ -115,7 +115,7 @@
 
             const order = ['Breads', 'Baking', 'Biscuits', 'Breakfast', 'Entree', 'Dinner', 'Filipino', 'Desserts', 'Sauces', 'Bistro', 'Other'];
             
-            html += `<div class="sitemap-category"><h2>📂 By Category</h2>`;
+            html += `<div class="sitemap-category"><h2>By Category</h2>`;
             Object.keys(categories).sort((a,b) => (order.indexOf(a) - order.indexOf(b)) || a.localeCompare(b)).forEach(cat => {
                 const sortedList = categories[cat].sort((a,b) => (a.title || "").localeCompare(b.title || ""));
                 html += `
@@ -131,7 +131,7 @@
             // --- 3. EXTRAS ---
             html += `
                 <div class="sitemap-category">
-                    <h2>📚 Notebook Extras</h2>
+                    <h2>Notebook Extras</h2>
                     <details class="sitemap-dropdown">
                         <summary>Technical Guides</summary>
                         <ul class="sitemap-list">
@@ -167,8 +167,7 @@
         } catch (error) {
             console.error("Sitemap failed to load:", error);
             grid.innerHTML = `
-                <div class="note" style="border-color: var(--red-err);">
-                    <h4>Load Error</h4>
+                <div class="note note-error">                    <h4>Load Error</h4>
                     <p>Failed to access recipe index. If you are viewing this locally, please ensure you are using a local server (e.g., Live Server).</p>
                     <p><small>${error.message}</small></p>
                 </div>`;

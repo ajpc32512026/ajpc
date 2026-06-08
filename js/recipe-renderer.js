@@ -173,7 +173,7 @@
         if (warnings.length > 0) {
             console.warn('[recipe-validator] ' + recipe.title + ' (' + id + '):');
             warnings.forEach(function(w) {
-                console.warn('  ⚠ ' + w);
+                console.warn('Warning: ' + w);
             });
         }
 
@@ -228,7 +228,7 @@
             const formattedDate = date.toLocaleDateString('en-AU', { year: 'numeric', month: 'long', day: 'numeric' });
             const lastUpdatedDiv = document.createElement('div');
             lastUpdatedDiv.className = 'recipe-last-updated';
-            lastUpdatedDiv.innerHTML = '📝 Last updated: ' + formattedDate;
+            lastUpdatedDiv.innerHTML = 'Last updated: ' + formattedDate;
             container.querySelector('.recipe-page-wrapper').appendChild(lastUpdatedDiv);
         }
 
@@ -366,7 +366,7 @@
             var noteText = entry.note || entry.notes || '';
             var notePart = noteText ? '<span class="equipment-notes"> — ' + escHtml(noteText) + '</span>' : '';
             return '<li class="you-will-need-item">' +
-                '<span class="you-will-need-checkbox">☐</span>' +
+                '<span class="you-will-need-checkbox"></span>' +
                 '<span class="you-will-need-text">' + escHtml(entry.item) + notePart + '</span>' +
                 '</li>';
         }).join('');
@@ -501,13 +501,13 @@
         if (!recipe.ingredients) return '';
 
         return '<div class="recipe-tip-box" id="recipeTipBox">' +
-            '<div class="tip-box-header">💡 Did You Know?</div>' +
+            '<div class="tip-box-header">Did You Know?</div>' +
             '<div class="tip-box-content" id="tipBoxContent">' +
             '<div class="tip-loading">Loading kitchen wisdom...</div>' +
             '</div>' +
             '<div class="tip-box-footer">' +
-            '<button class="tip-box-refresh" onclick="window.loadRandomTip()">🔄 Another Tip</button>' +
-            '<button class="tip-box-save" onclick="window.saveCurrentTip()">📌 Save to My Notebook</button>' +
+            '<button class="tip-box-refresh" onclick="window.loadRandomTip()">Another Tip</button>' +
+            '<button class="tip-box-save" onclick="window.saveCurrentTip()">Save to Notebook</button>' +
             '</div>' +
             '</div>';
     }
@@ -597,28 +597,28 @@
             var random = matches[Math.floor(Math.random() * matches.length)];
             currentTipData = random;
 
-            var html = '<div class="tip-ingredient">🍽️ <strong>' + escHtmlForTip(random.name) + '</strong>';
+            var html = '<div class="tip-ingredient"><strong>' + escHtmlForTip(random.name) + '</strong>';
             if (random.data.aka && random.data.aka.length) {
                 html += ' <span class="tip-aka">(' + random.data.aka.join(', ') + ')</span>';
             }
             html += '</div>';
 
             if (random.data.purpose) {
-                html += '<div class="tip-purpose"><strong>🎯 Purpose:</strong> ' + escHtmlForTip(random.data.purpose) + '</div>';
+                html += '<div class="tip-purpose"><strong>Purpose:</strong> ' + escHtmlForTip(random.data.purpose) + '</div>';
             }
 
             if (random.data.usageTips) {
                 var cleanUsage = random.data.usageTips.replace(/\*\*/g, '').replace(/Usage:/g, '').trim();
-                html += '<div class="tip-usage"><strong>💡 Usage:</strong> ' + escHtmlForTip(cleanUsage) + '</div>';
+                html += '<div class="tip-usage"><strong>Usage:</strong> ' + escHtmlForTip(cleanUsage) + '</div>';
             }
 
             if (random.data.storage) {
                 var cleanStorage = random.data.storage.replace(/\*\*/g, '').replace(/Storage:/i, '').trim();
-                html += '<div class="tip-storage"><strong>📦 Storage:</strong> ' + escHtmlForTip(cleanStorage) + '</div>';
+                html += '<div class="tip-storage"><strong>Storage:</strong> ' + escHtmlForTip(cleanStorage) + '</div>';
             }
 
             if (random.data.substitutes) {
-                html += '<div class="tip-substitutes"><strong>🔄 Substitute:</strong> ' + escHtmlForTip(random.data.substitutes) + '</div>';
+                html += '<div class="tip-substitutes"><strong>Substitute:</strong> ' + escHtmlForTip(random.data.substitutes) + '</div>';
             }
 
             if (random.data.notes && random.data.notes.trim()) {
@@ -628,7 +628,7 @@
                     cleanNote = cleanNote.replace(/^is\s+|^are\s+/, '');
                 }
                 cleanNote = cleanNote.charAt(0).toUpperCase() + cleanNote.slice(1);
-                html += '<div class="tip-notes"><strong>📝 Notes:</strong> ' + cleanNote + '</div>';
+                html += '<div class="tip-notes"><strong>Notes:</strong> ' + cleanNote + '</div>';
             }
 
             container.innerHTML = html;
@@ -840,10 +840,10 @@
                         infoHtml += '• Total cook time: <strong>~' + totalBatchCookMin + ' min</strong><br>';
                         infoHtml += '• Total time: <strong>~' + totalBatchTimeMin + ' min</strong>';
                         if (Math.abs(totalDiff) >= 5) {
-                            infoHtml += ' <span style="color:var(--copper-warm);">(' + (totalDiff > 0 ? '+' : '') + totalDiff + ' min)</span>';
+                            infoHtml += ' <span class="time-diff">(' + (totalDiff > 0 ? '+' : '') + totalDiff + ' min)</span>';
                         }
                         infoHtml += '<br>';
-                        infoHtml += '<span style="font-size:0.75rem;color:var(--cream-muted);">Batch cooking — per-batch time stays the same. Total time scales with number of batches.</span><br>';
+                        infoHtml += '<span class="scaling-note">Batch cooking — per-batch time stays the same. Total time scales with number of batches.</span><br>';
 
                     } else if (baseCookMinutes > 0) {
                         var isBaked = !isBatchBaked && recipe.tags && recipe.tags.some(function(t) {
@@ -857,20 +857,20 @@
 
                         infoHtml += '• Cook time: <strong>~' + scaledCookMin + ' min</strong>';
                         if (Math.abs(cookDiff) >= 5) {
-                            infoHtml += ' <span style="color:var(--copper-warm);">(' + (cookDiff > 0 ? '+' : '') + cookDiff + ' min)</span>';
+                            infoHtml += ' <span class="time-diff">(' + (cookDiff > 0 ? '+' : '') + cookDiff + ' min)</span>';
                         }
                         infoHtml += '<br>';
 
                         if (baseTotalMinutes > 0) {
                             infoHtml += '• Total time: <strong>~' + scaledTotalMin + ' min</strong>';
                             if (Math.abs(totalDiff) >= 5) {
-                                infoHtml += ' <span style="color:var(--copper-warm);">(' + (totalDiff > 0 ? '+' : '') + totalDiff + ' min)</span>';
+                                infoHtml += ' <span class="time-diff">(' + (totalDiff > 0 ? '+' : '') + totalDiff + ' min)</span>';
                             }
                             infoHtml += '<br>';
                         }
                     }
 
-                    infoHtml += '<span style="font-size:0.75rem;color:var(--cream-muted);">Check for doneness — scaled times are a guide only.</span>';
+                    infoHtml += '<span class="scaling-note">Check for doneness — scaled times are a guide only.</span>';
                     scalerInfo.innerHTML = infoHtml;
                     scalerInfo.style.display = 'block';
                     scalerInfo.classList.remove('no-print-hide');

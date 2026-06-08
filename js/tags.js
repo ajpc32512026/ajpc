@@ -51,7 +51,7 @@
             var weight = count >= maxCnt * 0.7 ? '600' : '400';
             return '<a href="search.html?q=' + encodeURIComponent(tag) + '" ' +
                 'class="tag-cloud-item" ' +
-                'style="font-size:' + size.toFixed(2) + 'rem;font-weight:' + weight + '" ' +
+                'style="--tag-size:' + size.toFixed(2) + 'rem" data-weight="' + weight + '"' +
                 'title="' + count + ' recipe' + (count !== 1 ? 's' : '') + '" ' +
                 'data-count="' + count + '">' +
                 escHtml(tag) +
@@ -107,7 +107,7 @@
             var size  = minSize + ((count - minCnt) / (Math.max(maxCnt - minCnt, 1))) * (maxSize - minSize);
             return '<a href="search.html?q=' + encodeURIComponent(tag) + '" ' +
                 'class="tag-cloud-item" ' +
-                'style="font-size:' + size.toFixed(2) + 'rem" ' +
+                'style="--tag-size:' + size.toFixed(2) + 'rem"' +
                 'title="' + count + ' recipe' + (count !== 1 ? 's' : '') + '">' +
                 escHtml(tag) +
                 '<span class="tag-cloud-count">' + count + '</span>' +

@@ -21,9 +21,9 @@ function generateTimeline() {
     const stepGap  = totalMins / steps.length;
 
     let html = `
-        <div style="display:grid;grid-template-columns:80px 1fr;gap:0.5rem;margin-bottom:0.75rem;align-items:center;">
-            <span style="font-family:var(--mono);color:var(--green);font-size:0.8rem;">${formatTime(now)}</span>
-            <span style="font-weight:600;color:var(--green);">Start cooking</span>
+        <div class="tl-row tl-row-start">
+            <span class="tl-time tl-time-start">${formatTime(now)}</span>
+            <span class="tl-label tl-label-start">Start cooking</span>
         </div>
     `;
 
@@ -33,17 +33,17 @@ function generateTimeline() {
             ? s.instruction.substring(0, 70) + '…'
             : s.instruction;
         html += `
-            <div style="display:grid;grid-template-columns:80px 1fr;gap:0.5rem;margin-bottom:0.5rem;align-items:start;">
-                <span style="font-family:var(--mono);color:var(--gold-dim);font-size:0.8rem;padding-top:0.1rem;">${formatTime(t)}</span>
-                <span style="line-height:1.5;">${i + 1}. ${preview}</span>
+            <div class="tl-row">
+                <span class="tl-time">${formatTime(t)}</span>
+                <span class="tl-step">${i + 1}. ${preview}</span>
             </div>
         `;
     });
 
     html += `
-        <div style="display:grid;grid-template-columns:80px 1fr;gap:0.5rem;margin-top:0.75rem;align-items:center;border-top:1px solid var(--border);padding-top:0.75rem;">
-            <span style="font-family:var(--mono);color:var(--gold);font-size:0.8rem;">${formatTime(endTime)}</span>
-            <span style="font-weight:600;color:var(--gold);">Ready to serve</span>
+        <div class="tl-row tl-row-end">
+            <span class="tl-time tl-time-end">${formatTime(endTime)}</span>
+            <span class="tl-label tl-label-end">Ready to serve</span>
         </div>
     `;
 

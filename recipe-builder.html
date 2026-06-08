@@ -21,7 +21,7 @@
         <div class="header-actions">
             <button class="btn" onclick="openJSONFile()">Load JSON</button>
             <input type="file" id="load-file" accept=".json" style="display:none" onchange="loadJSONFile(event)">
-            <button class="btn" onclick="duplicateRecipe()" id="duplicate-btn">📋 Duplicate</button>
+            <button class="btn" onclick="duplicateRecipe()" id="duplicate-btn">Duplicate</button>
             <button class="btn" onclick="document.getElementById('import-file').click()">Import Recipe</button>
             <input type="file" id="import-file" accept=".pdf,.html,.htm,.docx,.doc" style="display:none" onchange="importRecipeFile(event)">
             <button class="btn" onclick="clearForm()">Clear</button>
@@ -39,15 +39,6 @@
             <label>Recipe Title <span class="required-star">*</span></label>
             <input type="text" id="title" placeholder="e.g. Sourdough Bread" oninput="update()">
             <div id="duplicate-id-warning"></div>
-        </div>
-        <div class="emoji-field">
-            <label>Emoji</label>
-            <input type="hidden" id="emoji">
-            <div class="emoji-trigger" onclick="openEmojiModal()">
-                <span class="emoji-preview" id="emoji-preview">＋</span>
-                <span class="emoji-trigger-text" id="emoji-trigger-text">Choose an emoji…</span>
-                <span class="emoji-trigger-arrow">▼</span>
-            </div>
         </div>
         <div class="row row-2">
             <div class="field">
@@ -87,9 +78,9 @@
         </div>
         <div class="field">
             <label>Description <span class="required-star">*</span></label>
-            <div style="position: relative;">
+            <div class="textarea-wrapper">
                 <textarea id="description" placeholder="A short description of the recipe…" oninput="update()"></textarea>
-                <button class="btn" style="position: absolute; bottom: 0.5rem; right: 0.5rem; padding: 0.3rem 0.6rem; font-size: 0.7rem; border-color: var(--copper-dark);" onclick="insertParagraphBreak(); return false;" title="Insert paragraph break">¶ Break</button>
+                <button class="btn btn-para-break" onclick="insertParagraphBreak(); return false;" title="Insert paragraph break">Break</button>
             </div>
         </div>
 
@@ -144,7 +135,7 @@
             <div class="section-title">You Will Also Need <span class="section-hint">(extra ingredients, tools, supplies — type and press Enter)</span></div>
             <div class="dynamic-list" id="equipment-list"></div>
             <div class="field">
-                <div class="autocomplete-wrapper" style="position:relative;">
+                <div class="autocomplete-wrapper">
                     <input type="text" id="equipment-input" placeholder="Type to search items — add a note with | e.g. Plain Flour | for dusting"
                         onkeydown="handleEquipmentEnter(event); handleEquipmentAutocompleteKeydown(event, this)"
                         oninput="handleEquipmentAutocompleteInput(this)"
@@ -213,16 +204,16 @@
         <div class="preview-box" id="timeline-box" style="display:none;">
             <div class="preview-header">
                 <div>
-                    <div class="preview-label">⏰ Cooking Timeline</div>
-                    <div style="font-size:0.7rem;color:var(--cream-muted);margin-top:0.25rem;">When to start each step</div>
+                    <div class="preview-label">Cooking Timeline</div>
+                    <div class="preview-subtitle">When to start each step</div>
                 </div>
                 <div class="preview-actions">
-                    <button class="btn" onclick="generateTimeline()">🔄 Regenerate</button>
-                    <button class="btn" onclick="copyTimeline()">📋 Copy</button>
+                    <button class="btn" onclick="generateTimeline()">Regenerate</button>
+                    <button class="btn" onclick="copyTimeline()">Copy</button>
                 </div>
             </div>
-            <div class="preview-content" id="timeline-output" style="font-family: var(--font-body); line-height: 1.8;">
-                <p style="color:var(--cream-muted);font-style:italic;">Add prep/cook times and method steps to generate a timeline</p>
+            <div class="preview-content preview-content-timeline" id="timeline-output">
+                <p class="preview-placeholder">Add prep/cook times and method steps to generate a timeline</p>
             </div>
         </div>
 
@@ -230,16 +221,16 @@
         <div class="preview-box" id="nutrition-box" style="display:none;">
             <div class="preview-header">
                 <div>
-                    <div class="preview-label">📊 Nutrition Facts</div>
-                    <div style="font-size:0.7rem;color:var(--cream-muted);margin-top:0.25rem;">Estimated per serving</div>
+                    <div class="preview-label">Nutrition Facts</div>
+                    <div class="preview-subtitle">Estimated per serving</div>
                 </div>
                 <div class="preview-actions">
-                    <button class="btn" onclick="calculateNutrition()">🔄 Recalculate</button>
-                    <button class="btn" onclick="copyNutrition()">📋 Copy</button>
+                    <button class="btn" onclick="calculateNutrition()">Recalculate</button>
+                    <button class="btn" onclick="copyNutrition()">Copy</button>
                 </div>
             </div>
-            <div class="preview-content" id="nutrition-output" style="font-family: var(--font-body);">
-                <p style="color:var(--cream-muted);font-style:italic;">Add ingredients with quantities to calculate nutrition</p>
+            <div class="preview-content" id="nutrition-output">
+                <p class="preview-placeholder">Add ingredients with quantities to calculate nutrition</p>
             </div>
         </div>
 
@@ -248,14 +239,14 @@
             <div class="preview-header">
                 <div>
                     <div class="preview-label">Nav Snippet</div>
-                    <div style="font-size:0.7rem;color:var(--cream-muted);margin-top:0.25rem;" id="nav-note">Fill in Title and Category to generate the nav snippet.</div>
+                    <div class="preview-subtitle" id="nav-note">Fill in Title and Category to generate the nav snippet.</div>
                 </div>
                 <div class="preview-actions">
                     <button class="btn" onclick="copyNav()">Copy Link</button>
                 </div>
             </div>
             <div class="preview-content">
-                <pre id="nav-output"><span style="color:var(--cream-muted);font-style:italic">— waiting for title & category —</span></pre>
+                <pre id="nav-output"><span class="nav-waiting">— waiting for title &amp; category —</span></pre>
             </div>
         </div>
 
@@ -271,34 +262,21 @@
                 </div>
             </div>
             <div class="preview-content" id="diff-output">
-                <p style="color:var(--cream-muted);font-style:italic;">Load a recipe then click Show Diff to compare changes.</p>
+                <p class="preview-placeholder">Load a recipe then click Show Diff to compare changes.</p>
             </div>
         </div>
     </div>
 
-    <!-- ── EMOJI MODAL ── -->
-    <div id="emoji-modal" onclick="closeEmojiIfOutside(event)">
-        <div class="emoji-modal-box">
-            <div class="emoji-modal-header">
-                <span>Choose Emoji</span>
-                <button class="emoji-modal-close" onclick="closeEmojiModal()">×</button>
-            </div>
-            <div class="emoji-modal-search">
-                <input type="text" id="emoji-search" placeholder="Search…" oninput="filterEmoji(this.value)">
-            </div>
-            <div class="emoji-modal-body" id="emoji-modal-body"></div>
-        </div>
-    </div>
 
     <div id="toast">Copied!</div>
 
     <!-- ── LOADING MODAL ── -->
     <div id="loading-modal" style="display:none;position:fixed;inset:0;z-index:300;align-items:center;justify-content:center;background:rgba(0,0,0,0.85);">
-        <div style="background:var(--surface-1);border:1px solid var(--border-mid);border-radius:6px;padding:2rem 3rem;text-align:center;max-width:400px;">
-            <div style="font-family:var(--font-mono);font-size:0.75rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--copper);margin-bottom:1rem;">Processing Recipe</div>
-            <div style="color:var(--cream-dim);font-size:0.9rem;line-height:1.6;" id="loading-message">Reading file...</div>
-            <div style="margin-top:1.5rem;height:3px;background:var(--border-dim);border-radius:2px;overflow:hidden;">
-                <div style="height:100%;width:30%;background:var(--copper);animation:slide 1.5s ease-in-out infinite;"></div>
+        <div class="loading-modal-box">
+            <div class="loading-modal-label">Processing Recipe</div>
+            <div class="loading-modal-message" id="loading-message">Reading file...</div>
+            <div class="loading-modal-track">
+                <div class="loading-modal-fill"></div>
             </div>
         </div>
     </div>
@@ -308,11 +286,11 @@
         <div class="tag-picker-content">
             <!-- Sticky header — always visible -->
             <div class="tag-picker-sticky-header">
-                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.6rem;">
-                    <h3 style="margin:0;">Select Tags</h3>
-                    <div style="display:flex;gap:0.5rem;">
-                        <button class="btn" onclick="confirmTagSelection()" style="padding:0.4rem 1.1rem;font-size:0.85rem;">✓ Done</button>
-                        <button class="btn" onclick="closeTagPicker()" style="background:var(--red-err);padding:0.4rem 0.75rem;font-size:0.85rem;">✕</button>
+                <div class="tag-picker-header-row">
+                    <h3 class="tag-picker-title">Select Tags</h3>
+                    <div class="tag-picker-actions">
+                        <button class="btn btn-tag-done" onclick="confirmTagSelection()">Done</button>
+                        <button class="btn btn-tag-close" onclick="closeTagPicker()">✕</button>
                     </div>
                 </div>
 
@@ -320,14 +298,14 @@
                 <input type="text" id="tag-search" placeholder="Search tags…" class="tag-search-input" oninput="filterTagPicker(this.value)">
 
                 <!-- Copy tags from another recipe — auto-applies on select -->
-                <div style="display:flex;gap:0.5rem;margin-bottom:0.75rem;align-items:center;">
+                <div class="tag-picker-search-row">
                     <select id="copy-tags-from" onchange="copyTagsFromRecipe()" class="copy-tags-select">
-                        <option value="">📋 Copy tags from another recipe...</option>
+                        <option value="">Copy tags from another recipe...</option>
                     </select>
                 </div>
 
                 <!-- Category filter tabs -->
-                <div style="display:flex;gap:0.4rem;flex-wrap:wrap;margin-bottom:0.5rem;font-size:0.75rem;">
+                <div class="tag-picker-category-row">
                     <button class="tag-category-btn active" onclick="filterTagCategory('all', event)">All</button>
                     <button class="tag-category-btn" onclick="filterTagCategory('cuisine', event)">Cuisine</button>
                     <button class="tag-category-btn" onclick="filterTagCategory('cookingMethod', event)">Method</button>
@@ -358,15 +336,15 @@
     }
     </style>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
-    <script src="js/recipe-builder.js"></script>
+    <!-- REMOVED monolithic js/recipe-builder.js to prevent conflicts -->
     <script src="js/builder-ui.js"></script>
-<script src="js/builder-data.js"></script>
-<script src="js/builder-parser.js"></script>
-<script src="js/builder-nutrition.js"></script>
-<script src="js/builder-timeline.js"></script>
-<script src="js/builder-main.js"></script>
-<script src="js/builder-checks.js"></script>
+    <script src="js/builder-data.js"></script>
+    <script src="js/builder-parser.js"></script>
+    <script src="js/builder-nutrition.js"></script>
+    <script src="js/builder-timeline.js"></script>
+    <script src="js/builder-main.js"></script>
+    <script src="js/builder-checks.js"></script>
 </body>
 </html>

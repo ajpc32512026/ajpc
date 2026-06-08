@@ -1,0 +1,199 @@
+{
+    "id": "chickenpapion",
+    "title": "Chicken Papion",
+    "emoji": "🦪",
+    "category": "Bistro",
+    "description": "Pan-fried chicken breast with fresh oysters folded into a cream sauce. Unusual, elegant, and utterly of its era.",
+    "prepTime": "10 min",
+    "cookTime": "8 min",
+    "totalTime": "18 min",
+    "servings": "1 serving",
+    "difficulty": "Intermediate",
+    "tags": [
+        "Alcohol",
+        "Chicken",
+        "Classic",
+        "Creamy",
+        "Dinner",
+        "Rich",
+        "Savoury",
+        "Seafood",
+        "Under 30 Minutes"
+    ],
+    "ingredients": [
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Chicken Breast",
+            "notes": "pan-fried"
+        },
+        {
+            "quantity": "6",
+            "unit": "",
+            "item": "Oysters",
+            "notes": "fresh, shucked"
+        },
+        {
+            "quantity": "60",
+            "unit": "ml",
+            "item": "Thickened Cream"
+        },
+        {
+            "quantity": "30",
+            "unit": "g",
+            "item": "Unsalted Butter"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Brown Onion",
+            "notes": "diced"
+        },
+        {
+            "quantity": "60",
+            "unit": "ml",
+            "item": "White Wine"
+        },
+        {
+            "item": "Salt & Pepper",
+            "toTaste": true,
+            "notes": "Don't add too much all at once — you can't take it out once it's in."
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Melt half the butter in a frying pan over medium-high heat. Pan-fry chicken breast for 3–4 minutes per side until golden and cooked through. Remove and rest on a warm plate."
+        },
+        {
+            "step": 2,
+            "instruction": "In the same pan, add remaining butter. Add diced onion and cook until softened, about 2–3 minutes."
+        },
+        {
+            "step": 3,
+            "instruction": "Deglaze the pan with white wine. Let it bubble and reduce by half, about 1–2 minutes."
+        },
+        {
+            "step": 4,
+            "instruction": "Pour in thickened cream and stir. Reduce for 2–3 minutes until the sauce coats the back of a spoon. Season with salt."
+        },
+        {
+            "step": 5,
+            "instruction": "Add oysters to the sauce in the last 30–60 seconds — just enough to warm through. Do not overcook or they will become rubbery."
+        },
+        {
+            "step": 6,
+            "instruction": "Return chicken to the pan briefly to warm. Plate and spoon the sauce and oysters generously over the chicken."
+        }
+    ],
+    "notes": [
+        {
+            "type": "technique",
+            "title": "Oyster Timing",
+            "content": "The oysters go in at the very last moment — 30–60 seconds in the warm cream sauce only. Overcooking makes them rubbery and ruins the delicate texture that defines this dish. No demi glace is used."
+        }
+    ],
+    "related": [
+        {
+            "id": "bistro-chickenpicante",
+            "title": "Chicken Picante",
+            "matchingTags": [
+                "Alcohol",
+                "Chicken",
+                "Classic",
+                "Creamy",
+                "Dinner",
+                "French",
+                "Gluten-Free",
+                "Rich",
+                "Savoury",
+                "Under 30 Minutes"
+            ]
+        },
+        {
+            "id": "bistro-chickenriverina",
+            "title": "Chicken Riverina",
+            "matchingTags": [
+                "Australian",
+                "Chicken",
+                "Classic",
+                "Creamy",
+                "Dinner",
+                "Rich",
+                "Savoury",
+                "Under 30 Minutes"
+            ]
+        },
+        {
+            "id": "bistro-fishoftheday",
+            "title": "Fish of the Day",
+            "matchingTags": [
+                "Alcohol",
+                "Classic",
+                "Creamy",
+                "Dinner",
+                "Fish",
+                "Gluten-Free",
+                "Lemon",
+                "Rich",
+                "Savoury",
+                "Seafood",
+                "Under 30 Minutes"
+            ]
+        },
+        {
+            "id": "bistro-reefandbeef",
+            "title": "Reef and Beef",
+            "matchingTags": [
+                "Australian",
+                "Beef",
+                "Classic",
+                "Creamy",
+                "Dinner",
+                "Rich",
+                "Savoury",
+                "Seafood",
+                "Under 30 Minutes"
+            ]
+        },
+        {
+            "id": "bistro-chickenkiev",
+            "title": "Chicken Kiev",
+            "matchingTags": [
+                "Alcohol",
+                "Chicken",
+                "Classic",
+                "Creamy",
+                "Deep-Fried",
+                "Dinner",
+                "Garlic",
+                "Rich",
+                "Savoury"
+            ]
+        }
+    ],
+    "nutrition": {
+        "servings": 1,
+        "cal": 980,
+        "kj": 4101,
+        "protein": 86,
+        "carbs": 11,
+        "sugars": 7,
+        "fat": 61,
+        "saturated_fat": 34,
+        "fiber": 2,
+        "sodium": 3286,
+        "coverage": 86,
+        "calcium_mg": 1213,
+        "iron_mg": 25,
+        "potassium_mg": 2011,
+        "magnesium_mg": 520,
+        "zinc_mg": 105,
+        "cholesterol_mg": 592,
+        "vitamin_a_ug": 573,
+        "vitamin_c_mg": 13,
+        "vitamin_d_ug": 3
+    },
+    "lastModified": "2026-05-31",
+    "cuisine": "French"
+}

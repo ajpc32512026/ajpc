@@ -1,0 +1,189 @@
+{
+    "id": "vealcordonbleu",
+    "title": "Veal Cordon Bleu",
+    "emoji": "🧀",
+    "category": "Bistro",
+    "description": "Thin veal escalopes wrapped around smoked ham and Swiss cheese, crumbed and deep-fried to golden perfection. Served with a Dijon cream sauce.",
+    "prepTime": "15 min",
+    "cookTime": "5 min",
+    "totalTime": "20 min",
+    "servings": "1 serving",
+    "difficulty": "Intermediate",
+    "tags": [
+        "Alcohol",
+        "Classic",
+        "Creamy",
+        "Deep-Fried",
+        "Dinner",
+        "French",
+        "Pork",
+        "Savoury",
+        "Under 30 Minutes"
+    ],
+    "ingredients": [
+        {
+            "heading": "Veal"
+        },
+        {
+            "quantity": "180",
+            "unit": "g",
+            "item": "Veal",
+            "notes": "escalopes, pounded thin"
+        },
+        {
+            "quantity": "60",
+            "unit": "g",
+            "item": "Ham",
+            "notes": "smoked, thinly sliced"
+        },
+        {
+            "quantity": "50",
+            "unit": "g",
+            "item": "Gruyere",
+            "notes": "sliced"
+        },
+        {
+            "heading": "Dijon Cream Sauce"
+        },
+        {
+            "quantity": "15",
+            "unit": "g",
+            "item": "Unsalted Butter"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Brown Onion",
+            "notes": "diced"
+        },
+        {
+            "quantity": "60",
+            "unit": "ml",
+            "item": "White Wine"
+        },
+        {
+            "quantity": "60",
+            "unit": "ml",
+            "item": "Thickened Cream"
+        },
+        {
+            "quantity": "15",
+            "unit": "g",
+            "item": "Dijon Mustard"
+        },
+        {
+            "item": "Salt & Pepper",
+            "toTaste": true,
+            "notes": "Don't add too much all at once — you can't take it out once it's in."
+        }
+    ],
+    "youWillNeed": [
+        {
+            "item": "Plain Flour",
+            "note": "Dusting before egg wash."
+        },
+        {
+            "item": "Milk & Eggs",
+            "note": "For egg wash — use 1 egg per 250ml full cream milk. Whisk well before using."
+        },
+        {
+            "item": "Bread Crumbs",
+            "note": "Crumbing — panko gives a lighter, crunchier crust."
+        },
+        {
+            "item": "Oil",
+            "note": "For deep frying — use a high smoke point oil such as cottonseed, sunflower, canola, or peanut oil."
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Pound veal escalopes thin between two sheets of plastic wrap until even."
+        },
+        {
+            "step": 2,
+            "instruction": "Lay ham and Gruyère on one half of each escalope. Fold the veal over to encase the filling and press the edges firmly to seal."
+        },
+        {
+            "step": 3,
+            "instruction": "Dust each parcel lightly with flour, dip in egg wash, and coat thoroughly with breadcrumbs. Press the crumbs on firmly."
+        },
+        {
+            "step": 4,
+            "instruction": "Heat oil to 180°C. Deep-fry crumbed veal for 2–3 minutes until deep golden and cooked through. Drain on paper towels."
+        },
+        {
+            "step": 5,
+            "instruction": "For the sauce: melt butter in a small saucepan over medium heat. Add diced onion and cook until softened, about 2–3 minutes."
+        },
+        {
+            "step": 6,
+            "instruction": "Deglaze with white wine and reduce by half, about 1–2 minutes."
+        },
+        {
+            "step": 7,
+            "instruction": "Add thickened cream and Dijon mustard. Stir and reduce for 2–3 minutes until the sauce coats the back of a spoon. Season with salt."
+        },
+        {
+            "step": 8,
+            "instruction": "Plate the veal and serve the sauce alongside — not poured over — to preserve the crisp crumb."
+        }
+    ],
+    "notes": [
+        {
+            "type": "technique",
+            "title": "Sauce on the Side",
+            "content": "The Dijon cream sauce is served alongside rather than poured over the crumbed veal. This preserves the crisp texture of the crumb — pouring sauce over would soften it. No demi glace is used in this dish."
+        },
+        {
+            "type": "technique",
+            "title": "Gruyère Choice",
+            "content": "Gruyère is the classic choice for Cordon Bleu — it melts smoothly without splitting or becoming greasy. Swiss cheese or Emmental can substitute."
+        }
+    ],
+    "related": [
+        {
+            "id": "bistro-chickenkiev",
+            "title": "Chicken Kiev"
+        },
+        {
+            "id": "bistro-chickenpicante",
+            "title": "Chicken Picante"
+        },
+        {
+            "id": "bistro-vealscaloppine",
+            "title": "Veal Scaloppine"
+        },
+        {
+            "id": "bistro-vealoscar",
+            "title": "Veal Oscar"
+        },
+        {
+            "id": "bistro-vealmozzarella",
+            "title": "Veal Mozzarella"
+        }
+    ],
+    "nutrition": {
+        "servings": 1,
+        "cal": 975,
+        "kj": 4079,
+        "protein": 65,
+        "carbs": 17,
+        "sugars": 9,
+        "fat": 67,
+        "saturated_fat": 37,
+        "fibre": 4,
+        "sodium": 1139,
+        "coverage": 89,
+        "calcium_mg": 549,
+        "iron_mg": 18,
+        "potassium_mg": 1268,
+        "magnesium_mg": 137,
+        "zinc_mg": 14,
+        "cholesterol_mg": 547,
+        "vitamin_a_ug": 24509,
+        "vitamin_c_mg": 39,
+        "vitamin_d_ug": 3
+    },
+    "lastModified": "2026-05-24"
+}

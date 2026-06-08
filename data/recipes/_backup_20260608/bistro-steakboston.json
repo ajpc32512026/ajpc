@@ -1,0 +1,174 @@
+{
+    "id": "steakboston",
+    "title": "Steak Boston",
+    "emoji": "🌶️",
+    "category": "Bistro",
+    "description": "Scotch fillet coated in Creole spice and served with a red wine butter sauce. Bold, spiced, and full of character.",
+    "prepTime": "5 min",
+    "cookTime": "6 min",
+    "totalTime": "11 min",
+    "servings": "1 serving",
+    "difficulty": "Intermediate",
+    "tags": [
+        "Alcohol",
+        "Beef",
+        "Classic",
+        "Dinner",
+        "Gluten-Free",
+        "Rich",
+        "Savoury",
+        "Under 30 Minutes"
+    ],
+    "ingredients": [
+        {
+            "heading": "Creole Spice Blend"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Paprika"
+        },
+        {
+            "quantity": "2",
+            "unit": "g",
+            "item": "Red Chilli Powder"
+        },
+        {
+            "quantity": "3",
+            "unit": "g",
+            "item": "Garlic Powder"
+        },
+        {
+            "quantity": "3",
+            "unit": "g",
+            "item": "Onion Powder"
+        },
+        {
+            "quantity": "2",
+            "unit": "g",
+            "item": "Oregano",
+            "notes": "dried"
+        },
+        {
+            "quantity": "2",
+            "unit": "g",
+            "item": "Thyme",
+            "notes": "dried"
+        },
+        {
+            "heading": "Steak"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Beef, Scotch Fillet",
+            "notes": "approximately 180 g each"
+        },
+        {
+            "heading": "Red Wine Sauce"
+        },
+        {
+            "quantity": "30",
+            "unit": "g",
+            "item": "Unsalted Butter"
+        },
+        {
+            "quantity": "1",
+            "unit": "",
+            "item": "Brown Onion",
+            "notes": "diced"
+        },
+        {
+            "quantity": "60",
+            "unit": "ml",
+            "item": "Red Wine"
+        },
+        {
+            "item": "Salt & Pepper",
+            "toTaste": true,
+            "notes": "Don't add too much all at once — you can't take it out once it's in."
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Mix paprika, chilli powder, garlic powder, onion powder, oregano, and thyme into a Creole spice blend."
+        },
+        {
+            "step": 2,
+            "instruction": "Coat both sides of the scotch fillets generously with the spice blend, pressing it on firmly."
+        },
+        {
+            "step": 3,
+            "instruction": "Heat a heavy-based pan or grill over high heat. Cook fillets for 2–3 minutes per side for medium-rare, or to desired doneness. Remove and rest on a warm plate."
+        },
+        {
+            "step": 4,
+            "instruction": "For the sauce: melt half the butter in the same pan over medium heat. Add diced onion and cook until softened, about 2–3 minutes."
+        },
+        {
+            "step": 5,
+            "instruction": "Deglaze with red wine, scraping up any spice residue and browned bits from the steak. Let it reduce by half, about 1–2 minutes."
+        },
+        {
+            "step": 6,
+            "instruction": "Remove from heat and swirl in the remaining butter until melted and glossy. Season with salt."
+        },
+        {
+            "step": 7,
+            "instruction": "Plate the steak and spoon the red wine butter sauce over the top."
+        }
+    ],
+    "notes": [
+        {
+            "type": "technique",
+            "title": "Creole Spice",
+            "content": "The Creole spice blend is the signature of this dish — a dry coating that forms a flavourful, slightly blackened crust when seared. No demi glace is used. The sauce is a simple red wine and butter reduction that deglazes the pan and captures the spice residue from the steak."
+        }
+    ],
+    "related": [
+        {
+            "id": "bistro-mediterraneansteak",
+            "title": "Mediterranean Steak"
+        },
+        {
+            "id": "bistro-brandymustardsteak",
+            "title": "Brandy Mustard Steak"
+        },
+        {
+            "id": "bistro-filetmignon",
+            "title": "Filet Mignon"
+        },
+        {
+            "id": "bistro-carpetbag",
+            "title": "Carpet Bag"
+        },
+        {
+            "id": "bistro-reefandbeef",
+            "title": "Reef and Beef"
+        }
+    ],
+    "nutrition": {
+        "servings": 1,
+        "cal": 488,
+        "kj": 2041,
+        "protein": 11,
+        "carbs": 35,
+        "sugars": 9,
+        "fat": 28,
+        "saturated_fat": 18,
+        "fibre": 8,
+        "sodium": 122,
+        "coverage": 91,
+        "calcium_mg": 122,
+        "iron_mg": 5,
+        "potassium_mg": 583,
+        "magnesium_mg": 53,
+        "zinc_mg": 2,
+        "cholesterol_mg": 63,
+        "vitamin_a_ug": 508,
+        "vitamin_c_mg": 16
+    },
+    "lastModified": "2026-05-24",
+    "cuisine": "American / Modern"
+}

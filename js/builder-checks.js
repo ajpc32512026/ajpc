@@ -20,7 +20,6 @@
     }
 
     // ── Duplicate ID Detection ────────────────────────────
-    // Called from builder-main.js update() hook — attach to title input
     function checkDuplicate() {
         var title    = (typeof val === 'function') ? val('title') : '';
         var id       = title.toLowerCase().replace(/[^a-z0-9]/g, '').trim();
@@ -28,7 +27,6 @@
 
         if (!id || !warnEl) return;
 
-        // If we're editing an existing file, its own ID is not a duplicate
         var editingId = (typeof currentFilename !== 'undefined') ? currentFilename.toLowerCase().replace(/[^a-z0-9]/g, '') : '';
         var isDup = recipeIndex.some(function (r) {
             return r.id === id && r.id !== editingId;
@@ -36,17 +34,15 @@
 
         warnEl.style.display = isDup ? 'block' : 'none';
         warnEl.textContent   = isDup
-            ? '⚠ A recipe with this ID already exists in the notebook: "' + id + '"'
+            ? 'Warning: A recipe with this ID already exists in the notebook: "' + id + '"'
             : '';
     }
 
     // ── Diff View ─────────────────────────────────────────
-    // Store a snapshot of the JSON when a file is loaded
     function snapshotLoaded(data) {
         loadedJSON = JSON.parse(JSON.stringify(data));
     }
 
-    // Generate a diff between the loaded state and current form state
     function generateDiff() {
         if (!loadedJSON) {
             showDiff('<p class="diff-note">No file loaded — diff requires loading an existing recipe first.</p>');
@@ -57,7 +53,7 @@
         var changes = [];
 
         // Compare flat fields
-        var flatFields = ['title','emoji','category','difficulty','description',
+        var flatFields = ['title','category','difficulty','description',
                           'prepTime','cookTime','totalTime','servings'];
         flatFields.forEach(function (field) {
             var oldVal = loadedJSON[field] || '';
@@ -120,7 +116,11 @@
         var output = document.getElementById('diff-output');
         if (!output) return;
         output.innerHTML = html;
-        if (panel) panel.style.display = 'block';
+        if (panel) {
+            panel.style.display = 'block';
+            // Smoothly scroll the diff panel into view on the right-hand panel
+            panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
     }
 
     function closeDiff() {
@@ -128,9 +128,8 @@
         if (panel) panel.style.display = 'none';
     }
 
-    // ── Hook into builder events ──────────────────────────
-    // Wire up after DOM loads — builder-main.js fires DOMContentLoaded first
-    document.addEventListener('DOMContentLoaded', function () {
+    // ── Safe Initialization ────────────────────────────────
+    function initChecks() {
         loadIndex();
 
         // Watch title input for duplicate checking
@@ -139,15 +138,26 @@
             titleInput.addEventListener('input', checkDuplicate);
         }
 
-        // Diff button
+        // Diff button click handlers
         var diffBtn = document.getElementById('show-diff-btn');
-        if (diffBtn) diffBtn.addEventListener('click', generateDiff);
+        if (diffBtn) {
+            diffBtn.addEventListener('click', generateDiff);
+        }
 
         var closeDiffBtn = document.getElementById('close-diff-btn');
-        if (closeDiffBtn) closeDiffBtn.addEventListener('click', closeDiff);
-    });
+        if (closeDiffBtn) {
+            closeDiffBtn.addEventListener('click', closeDiff);
+        }
+    }
 
-    // Expose for builder-data.js to call after populateForm()
+    // Prevents DOMContentLoaded race condition
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initChecks);
+    } else {
+        initChecks();
+    }
+
+    // Expose API
     window.BuilderChecks = {
         snapshotLoaded: snapshotLoaded,
         checkDuplicate: checkDuplicate,

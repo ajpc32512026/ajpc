@@ -1,0 +1,208 @@
+{
+    "id": "anaschiavanillapudding",
+    "title": "Ana's Chia Vanilla Pudding",
+    "emoji": "🥄",
+    "category": "Breakfast",
+    "description": "A creamy, no-cook pudding that finally puts chia seeds to good use. Sweetened with honey and scented with vanilla — the redemption arc after the ANZAC disaster.",
+    "prepTime": "5 min",
+    "cookTime": "0 min",
+    "totalTime": "4 hours 5 min",
+    "servings": "1",
+    "difficulty": "Beginner",
+    "tags": [
+        "No Bake",
+        "Make Ahead",
+        "Breakfast",
+        "Dessert",
+        "Healthy",
+        "Vegetarian",
+        "Gluten Free",
+        "Honey",
+        "Chia Seeds"
+    ],
+    "ingredients": [
+        {
+            "quantity": "180",
+            "unit": "ml",
+            "item": "Milk",
+            "notes": "Full cream or any milk"
+        },
+        {
+            "quantity": "30",
+            "unit": "ml",
+            "item": "Coconut Cream",
+            "notes": "For richness"
+        },
+        {
+            "quantity": "40",
+            "unit": "g",
+            "item": "Chia Seeds"
+        },
+        {
+            "quantity": "20",
+            "unit": "g",
+            "item": "Rolled Oats",
+            "notes": "2 tbsp, finely ground in coffee grinder"
+        },
+        {
+            "quantity": "20",
+            "unit": "g",
+            "item": "Honey"
+        },
+        {
+            "quantity": "5",
+            "unit": "ml",
+            "item": "Vanilla Extract"
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Combine milk, honey, and vanilla extract in a microwave-safe bowl or jar."
+        },
+        {
+            "step": 2,
+            "instruction": "Microwave on high for 50 seconds (1350W) or until warm but not boiling."
+        },
+        {
+            "step": 3,
+            "instruction": "Stir well to dissolve the honey completely."
+        },
+        {
+            "step": 4,
+            "instruction": "Cover and allow to cool on the counter for 5-10 minutes, stirring once or twice to prevent a skin from forming."
+        },
+        {
+            "step": 5,
+            "instruction": "Add chia seeds and stir immediately to combine."
+        },
+        {
+            "step": 6,
+            "instruction": "Wait 5 minutes, then stir again vigorously to break up any clumps."
+        },
+        {
+            "step": 7,
+            "instruction": "Cover and refrigerate for at least 4 hours, or overnight."
+        },
+        {
+            "step": 8,
+            "instruction": "Stir before serving. Top with fruit, coconut, or nuts if desired."
+        }
+    ],
+    "notes": [
+        {
+            "type": "tip",
+            "title": "Watch the Microwave",
+            "content": "At 1350W, 50 seconds gives warm milk. For lower wattage, increase time. For higher, decrease. Warm is perfect — hot can create a skin."
+        },
+        {
+            "type": "tip",
+            "title": "Don't Skip the Second Stir",
+            "content": "Stirring at 5 minutes prevents clumps and ensures every seed hydrates evenly."
+        },
+        {
+            "type": "variation",
+            "title": "Coconut Chia Pudding",
+            "content": "Replace half the milk with coconut milk and add 1 tbsp desiccated coconut."
+        },
+        {
+            "type": "variation",
+            "title": "Chocolate Chia Pudding",
+            "content": "Add 1 tbsp cocoa powder and an extra 1 tbsp honey."
+        },
+        {
+            "type": "storage",
+            "title": "Storage",
+            "content": "Keeps in the fridge for up to 5 days in a sealed container."
+        }
+    ],
+    "related": [
+        {
+            "id": "traditionalanzacbiscuits",
+            "title": "Traditional ANZAC Biscuits",
+            "matchingTags": [
+                "Australian",
+                "Classic",
+                "Make Ahead",
+                "Rich",
+                "Sweet",
+                "Vegetarian",
+                "Cookies",
+                "Coconut"
+            ]
+        },
+        {
+            "id": "bananabread",
+            "title": "Banana Bread",
+            "matchingTags": [
+                "Banana",
+                "Bread",
+                "Breakfast",
+                "Classic",
+                "Make Ahead",
+                "Rich",
+                "Sweet",
+                "Vegetarian"
+            ]
+        },
+        {
+            "id": "chocolatemousse",
+            "title": "Chocolate Mousse",
+            "matchingTags": [
+                "Chocolate",
+                "Creamy",
+                "Dessert",
+                "French",
+                "Make Ahead",
+                "No-Bake",
+                "Rich",
+                "Sweet",
+                "Under 30 Minutes",
+                "Vegetarian"
+            ]
+        },
+        {
+            "id": "blueberrymuffins",
+            "title": "Blueberry Muffins",
+            "matchingTags": [
+                "Baked",
+                "Breakfast",
+                "Sweet",
+                "Under 1 Hour",
+                "Vegetarian"
+            ]
+        },
+        {
+            "id": "lemoncoconut",
+            "title": "Lemon Coconut",
+            "matchingTags": [
+                "Coconut",
+                "Dessert",
+                "Lemon",
+                "Sweet",
+                "Vegetarian"
+            ]
+        }
+    ],
+    "nutrition": {
+        "servings": 1,
+        "cal": 489,
+        "kj": 2045,
+        "protein": 18,
+        "carbs": 37,
+        "sugars": 26,
+        "fat": 27,
+        "saturated_fat": 11,
+        "fiber": 15,
+        "sodium": 70,
+        "coverage": 100,
+        "calcium_mg": 413,
+        "iron_mg": 6,
+        "potassium_mg": 658,
+        "magnesium_mg": 197,
+        "zinc_mg": 3,
+        "cholesterol_mg": 18,
+        "vitamin_a_ug": 79
+    },
+    "lastModified": "2026-05-31"
+}

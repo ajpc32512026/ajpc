@@ -1,192 +1,191 @@
 {
-    "id": "lambvindaloo",
-    "title": "Lamb Vindaloo",
-    "emoji": "🔥",
-    "category": "Dinner",
-    "description": "Succulent lamb cooked low and slow in a classic, fiery vindaloo sauce.",
-    "prepTime": "15 min",
-    "cookTime": "1 hr 15 min",
-    "totalTime": "1 hr 30 min",
-    "servings": "4 servings",
-    "difficulty": "Intermediate",
-    "tags": [
-        "Curry",
-        "Dinner",
-        "Indian",
-        "Lamb",
-        "Make Ahead",
-        "Rich",
-        "Savoury",
-        "Slow-Cooked",
-        "Spicy"
-    ],
-    "ingredients": [
-        {
-            "quantity": "1",
-            "unit": "kg",
-            "item": "Lamb",
-            "notes": "cut into 2.5 cm cubes"
-        },
-        {
-            "quantity": "30",
-            "unit": "ml",
-            "item": "Vegetable Oil"
-        },
-        {
-            "quantity": "300",
-            "unit": "g",
-            "item": "Brown Onion",
-            "notes": "chopped"
-        },
-        {
-            "quantity": "3",
-            "unit": "cloves",
-            "item": "Garlic",
-            "notes": "chopped"
-        },
-        {
-            "quantity": "3",
-            "unit": "g",
-            "item": "Turmeric"
-        },
-        {
-            "quantity": "5",
-            "unit": "g",
-            "item": "Red Chilli Powder"
-        },
-        {
-            "quantity": "40",
-            "unit": "g",
-            "item": "Tomato Paste"
-        },
-        {
-            "quantity": "250",
-            "unit": "g",
-            "item": "Tomatoes",
-            "notes": "chopped"
-        },
-        {
-            "quantity": "30",
-            "unit": "ml",
-            "item": "White Vinegar"
-        },
-        {
-            "quantity": "5",
-            "unit": "g",
-            "item": "White Sugar"
-        },
-        {
-            "quantity": "250",
-            "unit": "ml",
-            "item": "Hot Water"
-        },
-        {
-            "quantity": "5",
-            "unit": "g",
-            "item": "Salt",
-            "notes": "to taste"
-        },
-        {
-            "quantity": "5",
-            "unit": "g",
-            "item": "Coriander (Fresh)",
-            "notes": "chopped, for garnish"
-        }
-    ],
-    "method": [
-        {
-            "step": 1,
-            "instruction": "Prepare 1 batch of [[vindaloopaste|Vindaloo Paste]] according to the vindaloo paste recipe. Set aside."
-        },
-        {
-            "step": 2,
-            "instruction": "Place lamb in a large bowl. Add vindaloo paste and toss to coat evenly. Cover and marinate in the refrigerator for at least 1 hour, or overnight for deeper flavour."
-        },
-        {
-            "step": 3,
-            "instruction": "Heat vegetable oil in a large heavy-based pot over medium-high heat. Add onions and sauté 2–3 minutes until soft and translucent. Add garlic and sauté 1 minute until fragrant."
-        },
-        {
-            "step": 4,
-            "instruction": "Add turmeric, chilli powder, tomato paste, chopped tomatoes, and vinegar. Cook 2–3 minutes until tomatoes break down."
-        },
-        {
-            "step": 5,
-            "instruction": "Add marinated lamb and sugar. Season with salt. Cook for 10 minutes, stirring occasionally."
-        },
-        {
-            "step": 6,
-            "instruction": "Pour in hot water, bring to a boil, reduce heat to low, cover, and simmer for 1 hour or until lamb is tender and sauce has thickened."
-        },
-        {
-            "step": 7,
-            "instruction": "If sauce is too thin, uncover and simmer for a further 5–10 minutes to reduce."
-        },
-        {
-            "step": 8,
-            "instruction": "Garnish with fresh coriander and serve with steamed rice."
-        }
-    ],
-    "notes": [
-        {
-            "type": "technique",
-            "title": "Overnight Marinade",
-            "content": "For the deepest flavour, marinate the lamb overnight in the refrigerator. The vinegar and spices will tenderise the meat while infusing it with flavour."
-        },
-        {
-            "type": "technique",
-            "title": "Paste Yield",
-            "content": "The vindaloo paste recipe yields approximately 80–100 g — exactly the right amount for 1 kg of lamb. Use the full batch."
-        },
-        {
-            "type": "acknowledgement",
-            "title": "Recipe Source",
-            "content": "Adapted from traditional Indian vindaloo recipes."
-        }
-    ],
-    "related": [
-        {
-            "id": "vindaloopaste",
-            "title": "Vindaloo Paste"
-        },
-        {
-            "id": "beefvindaloo",
-            "title": "Beef Vindaloo"
-        },
-        {
-            "id": "roganjosh",
-            "title": "Lamb Rogan Josh – Restaurant Style"
-        },
-        {
-            "id": "lambkorma",
-            "title": "Lamb Korma"
-        },
-        {
-            "id": "butterchicken",
-            "title": "Restaurant-Style Butter Chicken"
-        }
-    ],
-    "nutrition": {
-        "servings": 4,
-        "cal": 604,
-        "kj": 2528,
-        "protein": 59,
-        "carbs": 21,
-        "sugars": 14,
-        "fat": 28,
-        "saturated_fat": 7,
-        "fibre": 18,
-        "sodium": 336,
-        "coverage": 100,
-        "calcium_mg": 129,
-        "iron_mg": 9,
-        "potassium_mg": 1669,
-        "magnesium_mg": 109,
-        "zinc_mg": 11,
-        "cholesterol_mg": 150,
-        "vitamin_a_ug": 59,
-        "vitamin_c_mg": 22,
-        "vitamin_d_ug": 2
+  "id": "lambvindaloo",
+  "title": "Lamb Vindaloo",
+  "category": "Dinner",
+  "description": "Succulent lamb cooked low and slow in a classic, fiery vindaloo sauce.",
+  "prepTime": "15 min",
+  "cookTime": "1 hr 15 min",
+  "totalTime": "1 hr 30 min",
+  "servings": "4 servings",
+  "difficulty": "Intermediate",
+  "tags": [
+    "Curry",
+    "Dinner",
+    "Indian",
+    "Lamb",
+    "Make Ahead",
+    "Rich",
+    "Savoury",
+    "Slow-Cooked",
+    "Spicy"
+  ],
+  "ingredients": [
+    {
+      "quantity": "1",
+      "unit": "kg",
+      "item": "Lamb",
+      "notes": "cut into 2.5 cm cubes"
     },
-    "lastModified": "2026-05-23"
+    {
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Vegetable Oil"
+    },
+    {
+      "quantity": "300",
+      "unit": "g",
+      "item": "Brown Onion",
+      "notes": "chopped"
+    },
+    {
+      "quantity": "3",
+      "unit": "cloves",
+      "item": "Garlic",
+      "notes": "chopped"
+    },
+    {
+      "quantity": "3",
+      "unit": "g",
+      "item": "Turmeric"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Red Chilli Powder"
+    },
+    {
+      "quantity": "40",
+      "unit": "g",
+      "item": "Tomato Paste"
+    },
+    {
+      "quantity": "250",
+      "unit": "g",
+      "item": "Tomatoes",
+      "notes": "chopped"
+    },
+    {
+      "quantity": "30",
+      "unit": "ml",
+      "item": "White Vinegar"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "White Sugar"
+    },
+    {
+      "quantity": "250",
+      "unit": "ml",
+      "item": "Hot Water"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Salt",
+      "notes": "to taste"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Coriander (Fresh)",
+      "notes": "chopped, for garnish"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Prepare 1 batch of [[vindaloopaste|Vindaloo Paste]] according to the vindaloo paste recipe. Set aside."
+    },
+    {
+      "step": 2,
+      "instruction": "Place lamb in a large bowl. Add vindaloo paste and toss to coat evenly. Cover and marinate in the refrigerator for at least 1 hour, or overnight for deeper flavour."
+    },
+    {
+      "step": 3,
+      "instruction": "Heat vegetable oil in a large heavy-based pot over medium-high heat. Add onions and sauté 2–3 minutes until soft and translucent. Add garlic and sauté 1 minute until fragrant."
+    },
+    {
+      "step": 4,
+      "instruction": "Add turmeric, chilli powder, tomato paste, chopped tomatoes, and vinegar. Cook 2–3 minutes until tomatoes break down."
+    },
+    {
+      "step": 5,
+      "instruction": "Add marinated lamb and sugar. Season with salt. Cook for 10 minutes, stirring occasionally."
+    },
+    {
+      "step": 6,
+      "instruction": "Pour in hot water, bring to a boil, reduce heat to low, cover, and simmer for 1 hour or until lamb is tender and sauce has thickened."
+    },
+    {
+      "step": 7,
+      "instruction": "If sauce is too thin, uncover and simmer for a further 5–10 minutes to reduce."
+    },
+    {
+      "step": 8,
+      "instruction": "Garnish with fresh coriander and serve with steamed rice."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Overnight Marinade",
+      "content": "For the deepest flavour, marinate the lamb overnight in the refrigerator. The vinegar and spices will tenderise the meat while infusing it with flavour."
+    },
+    {
+      "type": "technique",
+      "title": "Paste Yield",
+      "content": "The vindaloo paste recipe yields approximately 80–100 g — exactly the right amount for 1 kg of lamb. Use the full batch."
+    },
+    {
+      "type": "acknowledgement",
+      "title": "Recipe Source",
+      "content": "Adapted from traditional Indian vindaloo recipes."
+    }
+  ],
+  "related": [
+    {
+      "id": "vindaloopaste",
+      "title": "Vindaloo Paste"
+    },
+    {
+      "id": "beefvindaloo",
+      "title": "Beef Vindaloo"
+    },
+    {
+      "id": "roganjosh",
+      "title": "Lamb Rogan Josh – Restaurant Style"
+    },
+    {
+      "id": "lambkorma",
+      "title": "Lamb Korma"
+    },
+    {
+      "id": "butterchicken",
+      "title": "Restaurant-Style Butter Chicken"
+    }
+  ],
+  "nutrition": {
+    "servings": 4,
+    "cal": 604,
+    "kj": 2528,
+    "protein": 59,
+    "carbs": 21,
+    "sugars": 14,
+    "fat": 28,
+    "saturated_fat": 7,
+    "fibre": 18,
+    "sodium": 336,
+    "coverage": 100,
+    "calcium_mg": 129,
+    "iron_mg": 9,
+    "potassium_mg": 1669,
+    "magnesium_mg": 109,
+    "zinc_mg": 11,
+    "cholesterol_mg": 150,
+    "vitamin_a_ug": 59,
+    "vitamin_c_mg": 22,
+    "vitamin_d_ug": 2
+  },
+  "lastModified": "2026-05-23"
 }

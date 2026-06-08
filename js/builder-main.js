@@ -9,22 +9,10 @@ let currentFileHandle = null;
 let currentFilename   = '';
 let tags              = [];
 let recipeIndex       = [];
-let selectedEmoji     = '';
 
 // NUTRITION_DB lives here — builder-nutrition.js reads this variable
 // It is populated async by loadNutritionDB()
 let NUTRITION_DB = {};
-
-// ── Emoji Data ────────────────────────────────────────────
-const EMOJI_GROUPS = [
-  { label: 'Bread & Baked',    emojis: ['🍞','🥖','🥐','🫓','🥨','🥯','🧁','🍰','🎂','🍮','🥧','🫕','🥞','🧇'] },
-  { label: 'Biscuits & Sweets',emojis: ['🍪','🍩','🍫','🍬','🍭','🍮','🍯','🧆','🍡','🍢','🍧','🍨','🍦'] },
-  { label: 'Meat & Poultry',   emojis: ['🥩','🍖','🍗','🥓','🌭','🍔','🍟','🌮','🌯','🫔','🥚','🍳'] },
-  { label: 'Seafood',          emojis: ['🦐','🦞','🦀','🦑','🐙','🦈','🐟','🐠','🐡','🦪','🍣','🍤','🍱'] },
-  { label: 'Vegetables',       emojis: ['🥦','🥕','🌽','🍅','🧅','🧄','🥔','🍆','🫑','🌶️','🥑','🥒','🫒','🍄','🥬','🥗','🫛','🌿'] },
-  { label: 'Fruits',           emojis: ['🍎','🍊','🍋','🍇','🍓','🫐','🍈','🍑','🍒','🥭','🍍','🥥','🍌','🍉','🍏','🍐'] },
-  { label: 'Misc Food',        emojis: ['🍝','🍜','🍲','🍛','🍚','🍙','🍘','🥟','🥠','🫕','🥘','🥙','🧆','🥗','🥪','🫔','🍱','🥡','🍿','🧂','🍽️'] }
-];
 
 // ── Init ──────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', async () => {
@@ -40,7 +28,7 @@ async function loadNutritionDB() {
         const res = await fetch('data/nutrition-db.json');
         if (res.ok) {
             NUTRITION_DB = await res.json();
-            console.log('✅ Nutrition DB loaded:', Object.keys(NUTRITION_DB).length, 'items');
+            console.log('Nutrition DB loaded:', Object.keys(NUTRITION_DB).length, 'items');
         }
     } catch(e) { console.warn('Could not load nutrition-db.json — nutrition estimates disabled'); }
 }
@@ -75,7 +63,7 @@ function update() {
     const navNote = document.getElementById('nav-note');
     const navOut  = document.getElementById('nav-output');
     if (navNote) navNote.innerHTML = note ? `<strong>${note}</strong>` : 'Fill in Title &amp; Category to generate the nav snippet.';
-    if (navOut)  navOut.innerHTML  = snippet ? highlightHTML(snippet) : '<em style="color:var(--text-dim)">— waiting for title &amp; category —</em>';
+    if (navOut)  navOut.innerHTML  = snippet ? highlightHTML(snippet) : '<em class="nav-waiting">— waiting for title &amp; category —</em>';
 
     // 4. Nutrition box — driven by builder-nutrition.js
     calculateNutrition();

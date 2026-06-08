@@ -3072,5 +3072,207 @@
         });
         checkScrollPosition();
     }
+	
+	// Database list of tools, equipment, or extra supplies
+const equipmentDatabase = [
+    "Baking Sheet", "Mixing Bowl", "Whisk", "Rolling Pin", "Parchment Paper",
+    "Spatula", "Saucepan", "Frying Pan", "Chef's Knife", "Cutting Board",
+    "Measuring Cups", "Measuring Spoons", "Colander", "Sieve", "Grater"
+];
+
+// Array to hold the user's selected equipment
+let equipmentList = [];
+let currentEquipmentFocusIndex = -1;
+
+/**
+ * Adds an item to the list and updates the DOM
+ */
+function addEquipment(value) {
+    const trimmedValue = value.trim();
+    if (trimmedValue && !equipmentList.includes(trimmedValue)) {
+        equipmentList.push(trimmedValue);
+        renderEquipmentList();
+    }
+}
+
+/**
+ * Removes an item from the list
+ */
+function removeEquipment(index) {
+    equipmentList.splice(index, 1);
+    renderEquipmentList();
+}
+
+/**
+ * Renders the chosen equipment list items to the DOM
+ */
+function renderEquipmentList() {
+    const listContainer = document.getElementById('equipment-list');
+    if (!listContainer) return;
+    
+    listContainer.innerHTML = '';
+    
+    equipmentList.forEach((item, index) => {
+        const itemDiv = document.createElement('div');
+        itemDiv.className = 'dynamic-list-item';
+        
+        // Handle names that have notes separated by "|"
+        const parts = item.split('|');
+        const name = parts[0].trim();
+        const note = parts[1] ? ` (${parts[1].trim()})` : '';
+
+        itemDiv.innerHTML = `
+            <span>${name}${note}</span>
+            <span class="remove-btn" onclick="removeEquipment(${index})" style="margin-left: 8px; cursor: pointer; color: red;">&times;</span>
+        `;
+        listContainer.appendChild(itemDiv);
+    });
+}
+
+/**
+ * Handles the Enter key on the input field
+ */
+function handleEquipmentEnter(event) {
+    if (event.key === 'Enter') {
+        event.preventDefault();
+        
+        const dropdown = event.target.nextElementSibling;
+        const items = dropdown ? dropdown.querySelectorAll('.autocomplete-item') : [];
+        
+        // If an item in the autocomplete dropdown is highlighted, select it
+        if (currentEquipmentFocusIndex > -1 && items[currentEquipmentFocusIndex]) {
+            items[currentEquipmentFocusIndex].click();
+            return;
+        }
+        
+        // Otherwise, add what the user has typed directly
+        const value = event.target.value.trim();
+        if (value) {
+            addEquipment(value);
+            event.target.value = '';
+            closeEquipmentDropdown(event.target);
+        }
+    }
+}
+
+/**
+ * Handles keyboard navigation (Up, Down, Escape) within the dropdown
+ */
+function handleEquipmentAutocompleteKeydown(event, inputElement) {
+    const dropdown = inputElement.nextElementSibling;
+    if (!dropdown || dropdown.style.display === 'none') return;
+
+    const items = dropdown.querySelectorAll('.autocomplete-item');
+    if (!items.length) return;
+
+    if (event.key === 'ArrowDown') {
+        event.preventDefault();
+        currentEquipmentFocusIndex++;
+        if (currentEquipmentFocusIndex >= items.length) currentEquipmentFocusIndex = 0;
+        setActiveEquipmentItem(items);
+    } else if (event.key === 'ArrowUp') {
+        event.preventDefault();
+        currentEquipmentFocusIndex--;
+        if (currentEquipmentFocusIndex < 0) currentEquipmentFocusIndex = items.length - 1;
+        setActiveEquipmentItem(items);
+    } else if (event.key === 'Escape') {
+        closeEquipmentDropdown(inputElement);
+    }
+}
+
+/**
+ * Helper to update visual styling of the active/selected dropdown item
+ */
+function setActiveEquipmentItem(items) {
+    items.forEach((item, index) => {
+        if (index === currentEquipmentFocusIndex) {
+            item.classList.add('autocomplete-active');
+            item.style.backgroundColor = '#e9e9e9'; // fallback styling
+        } else {
+            item.classList.remove('autocomplete-active');
+            item.style.backgroundColor = '';
+        }
+    });
+}
+
+/**
+ * Handles text entry and filters suggestions
+ */
+function handleEquipmentAutocompleteInput(inputElement) {
+    const rawValue = inputElement.value;
+    const dropdown = inputElement.nextElementSibling;
+    if (!dropdown) return;
+
+    dropdown.innerHTML = '';
+    currentEquipmentFocusIndex = -1;
+
+    // Split at '|' to only filter suggestions based on the equipment name,
+    // keeping any notes after '|' intact for when they hit enter
+    const namePart = rawValue.split('|')[0].trim().toLowerCase();
+
+    if (!namePart) {
+        dropdown.style.display = 'none';
+        return;
+    }
+
+    const matches = equipmentDatabase.filter(item => 
+        item.toLowerCase().includes(namePart)
+    );
+
+    if (matches.length === 0) {
+        dropdown.style.display = 'none';
+        return;
+    }
+
+    matches.forEach(match => {
+        const itemDiv = document.createElement('div');
+        itemDiv.className = 'autocomplete-item';
+        itemDiv.textContent = match;
+        itemDiv.style.padding = '8px';
+        itemDiv.style.cursor = 'pointer';
+        
+        // Handle click on suggestions
+        itemDiv.onmousedown = () => {
+            const notePart = rawValue.split('|')[1];
+            const note = notePart ? ` | ${notePart.trim()}` : '';
+            addEquipment(match + note);
+            inputElement.value = '';
+            dropdown.style.display = 'none';
+        };
+
+        dropdown.appendChild(itemDiv);
+    });
+
+    dropdown.style.display = 'block';
+}
+
+/**
+ * Shows dropdown on focus if input has text
+ */
+function handleEquipmentAutocompleteFocus(inputElement) {
+    if (inputElement.value.trim()) {
+        handleEquipmentAutocompleteInput(inputElement);
+    }
+}
+
+/**
+ * Closes the dropdown when focus is lost (with slight delay to allow clicks to register)
+ */
+function handleEquipmentAutocompleteBlur(inputElement) {
+    setTimeout(() => {
+        closeEquipmentDropdown(inputElement);
+    }, 200);
+}
+
+/**
+ * Utility to close dropdown
+ */
+function closeEquipmentDropdown(inputElement) {
+    const dropdown = inputElement.nextElementSibling;
+    if (dropdown) {
+        dropdown.style.display = 'none';
+    }
+    currentEquipmentFocusIndex = -1;
+}
 
 })();

@@ -1,6 +1,6 @@
 /* =========================================================
    BUILDER UI — Row Management, Modals, Drag-and-Drop
-   Depends on globals: tags, selectedEmoji, EMOJI_GROUPS (builder-main.js)
+   Depends on globals: tags, recipeIndex (builder-main.js)
 ========================================================= */
 
 // ── Ingredients ───────────────────────────────────────────
@@ -34,7 +34,7 @@ function addToTaste(item='', notes='') {
         <div class="drag-handle">⋮⋮</div>
         <span class="ingredient-totaste-badge">To Taste</span>
         <input type="text" placeholder="e.g. Salt &amp; Pepper" value="${escHtml(item)}" oninput="update()">
-        <input type="text" placeholder="Note (optional)" value="${escHtml(notes)}" oninput="update()" style="font-style:italic;color:var(--text-dim);">
+        <input type="text" placeholder="Note (optional)" value="${escHtml(notes)}" oninput="update()" class="notes-input">
         <button class="btn danger" onclick="removeRow(this)">✕</button>
     `;
     setupDragEvents(row, 'ingredients-list');
@@ -70,7 +70,7 @@ function addEquipmentItem(item='', notes='') {
     row.innerHTML = `
         <div class="drag-handle">⋮⋮</div>
         <input type="text" value="${escHtml(item)}"  placeholder="Item" oninput="update()">
-        <input type="text" value="${escHtml(notes)}" placeholder="Note (optional)" oninput="update()" style="font-style:italic;color:var(--text-dim);">
+        <input type="text" value="${escHtml(notes)}" placeholder="Note (optional)" oninput="update()" class="notes-input">
         <button class="btn danger" onclick="removeRow(this); update()">✕</button>
     `;
     setupDragEvents(row, 'equipment-list');
@@ -211,69 +211,6 @@ function renderTags() {
 
 function removeTag(i) { tags.splice(i, 1); renderTags(); update(); }
 
-// ── Emoji Modal ───────────────────────────────────────────
-function openEmojiModal() {
-    const modal = document.getElementById('emoji-modal');
-    const body  = document.getElementById('emoji-modal-content');
-    if (!modal || !body) return;
-
-    let html = `
-        <div class="emoji-modal-header">
-            <span>Choose Emoji</span>
-            <button class="emoji-modal-close" onclick="closeEmojiModal()">×</button>
-        </div>
-        <div class="emoji-modal-search">
-            <input type="text" id="emoji-search" placeholder="Search…" oninput="filterEmoji(this.value)">
-        </div>
-        <div class="emoji-modal-body" id="emoji-modal-body">
-    `;
-    EMOJI_GROUPS.forEach(g => {
-        html += `<div class="emoji-group-label">${g.label}</div><div class="emoji-grid">`;
-        g.emojis.forEach(e => {
-            html += `<button class="emoji-btn${e === selectedEmoji ? ' selected' : ''}" onclick="pickEmoji('${e}')">${e}</button>`;
-        });
-        html += '</div>';
-    });
-    html += '</div>';
-    body.innerHTML = html;
-    modal.classList.add('open');
-    setTimeout(() => document.getElementById('emoji-search')?.focus(), 50);
-}
-
-function filterEmoji(query) {
-    const q = query.toLowerCase();
-    const body = document.getElementById('emoji-modal-body');
-    if (!body) return;
-    let html = '';
-    EMOJI_GROUPS.forEach(g => {
-        const matches = q ? g.emojis : g.emojis;
-        if (!matches.length) return;
-        html += `<div class="emoji-group-label">${g.label}</div><div class="emoji-grid">`;
-        matches.forEach(e => {
-            html += `<button class="emoji-btn${e === selectedEmoji ? ' selected' : ''}" onclick="pickEmoji('${e}')">${e}</button>`;
-        });
-        html += '</div>';
-    });
-    body.innerHTML = html;
-}
-
-function closeEmojiModal() { document.getElementById('emoji-modal')?.classList.remove('open'); }
-
-function closeEmojiIfOutside(e) {
-    if (e.target === document.getElementById('emoji-modal')) closeEmojiModal();
-}
-
-function pickEmoji(e) {
-    selectedEmoji = e;
-    document.getElementById('emoji').value = e;
-    const preview = document.getElementById('emoji-preview');
-    const text    = document.getElementById('emoji-trigger-text');
-    if (preview) preview.textContent = e;
-    if (text) { text.textContent = e + ' — click to change'; text.style.color = 'var(--text)'; }
-    closeEmojiModal();
-    update();
-}
-
 // ── Duplication & Form Management ─────────────────────────
 function duplicateRecipe() {
     const dupe = JSON.parse(JSON.stringify(buildJSON().obj));
@@ -282,7 +219,7 @@ function duplicateRecipe() {
     clearForm(true);
     populateForm(dupe);
     document.getElementById('mode-label').textContent = 'Duplicated — Edit & Save';
-    document.getElementById('mode-label').style.color = 'var(--gold)';
+    document.getElementById('mode-label').style.color = 'var(--copper)';
     toast('Recipe duplicated!');
     document.getElementById('title').focus();
     document.getElementById('title').select();
@@ -299,19 +236,13 @@ function clearForm(skipConfirm=false) {
     document.querySelectorAll('input[type="text"], input[type="number"], textarea').forEach(i => i.value = '');
     document.querySelectorAll('select').forEach(s => s.selectedIndex = 0);
     document.querySelectorAll('.dynamic-list').forEach(l => l.innerHTML = '');
-    selectedEmoji = '';
-    document.getElementById('emoji').value = '';
-    const preview = document.getElementById('emoji-preview');
-    const text    = document.getElementById('emoji-trigger-text');
-    if (preview) preview.textContent = '＋';
-    if (text) { text.textContent = 'Choose an emoji…'; text.style.color = ''; }
     tags = []; renderTags();
     currentFilename   = '';
     currentFileHandle = null;
     document.getElementById('mode-label').textContent = 'New Recipe';
     document.getElementById('mode-label').style.color = '';
-    document.getElementById('nutrition-box').style.display = 'none';
-    document.getElementById('timeline-box').style.display  = 'none';
+    const nb = document.getElementById('nutrition-box'); if(nb) nb.style.display = 'none';
+    const tb = document.getElementById('timeline-box'); if(tb) tb.style.display = 'none';
     update();
 }
 
@@ -375,7 +306,7 @@ function setupDragEvents(el, listId, callback) {
 
 // Attach dragover+drop to each list container once
 function initDragDrop() {
-    ['ingredients-list','equipment-list','steps-list','notes-list','journal-list'].forEach(listId => {
+    ['ingredients-list','equipment-list','steps-list','notes-list','journal-list','related-list'].forEach(listId => {
         const list = document.getElementById(listId);
         if (!list) return;
         list.addEventListener('dragover', e => {
@@ -396,5 +327,108 @@ function getDragAfterElement(container, y) {
         return (offset < 0 && offset > closest.offset) ? { offset, element: child } : closest;
     }, { offset: Number.NEGATIVE_INFINITY }).element;
 }
+
+// ── RELATED RECIPES HELPERS ──────────────────────────────
+
+// Populates the select dropdown with alphabetical recipes from index
+window.populateRelatedRecipeDropdown = function() {
+    const select = document.getElementById('related-recipe-select');
+    if (!select) return;
+    
+    if (!recipeIndex || recipeIndex.length === 0) {
+        select.innerHTML = '<option value="">No recipes found in index</option>';
+        return;
+    }
+    
+    // Sort recipes alphabetically by title
+    const sortedRecipes = [...recipeIndex].sort((a, b) => (a.title || '').localeCompare(b.title || ''));
+    
+    select.innerHTML = '<option value="">— Select a recipe —</option>' + 
+        sortedRecipes.map(r => `<option value="${r.id}">${escHtml(r.title || r.name || r.id)}</option>`).join('');
+};
+
+// Handles clicking "＋ Add" button next to the dropdown
+window.addRelatedRecipe = function() {
+    const select = document.getElementById('related-recipe-select');
+    if (!select || !select.value) return;
+    const id = select.value;
+    const entry = recipeIndex.find(r => r.id === id);
+    if (!entry) return;
+    
+    // Avoid duplicates
+    const exists = Array.from(document.querySelectorAll('#related-list .related-row'))
+        .some(row => row.dataset.id === id);
+    if (exists) { 
+        toast('Recipe already added'); 
+        return; 
+    }
+    
+    loadRelatedRecipe(id, entry.title || entry.name || id, entry.tags || []);
+    select.selectedIndex = 0;
+    update();
+};
+
+// Creates a draggable row for a related recipe inside the list
+window.loadRelatedRecipe = function(id, title, matchingTags) {
+    const list = document.getElementById('related-list');
+    if (!list) return;
+    
+    const row = document.createElement('div');
+    row.className = 'related-row';
+    row.draggable = true;
+    row.dataset.id = id;
+    row.dataset.title = title;
+    row.dataset.tags = JSON.stringify(matchingTags);
+
+    const tagHtml = (matchingTags || []).map(t => 
+        `<span class="tag-pill" onclick="removeTagFromRelated(this, '${t}')">${t}</span>`
+    ).join('');
+    
+    row.innerHTML = `
+        <div class="drag-handle">⋮⋮</div>
+        <div class="related-row-info">
+            <div class="related-row-title">${title}</div>
+            <div class="related-row-id">${id}</div>
+        </div>
+        <div class="tag-container">
+            ${tagHtml}
+        </div>
+        <button class="btn danger" onclick="removeRow(this); update();">✕</button>
+    `;
+    
+    setupDragEvents(row, 'related-list');
+    list.appendChild(row);
+}; // <--- ADDED: This closing brace was missing
+
+// Removes a tag pill from a related recipe row
+window.removeTagFromRelated = function(span, tag) {
+    const row = span.closest('.related-row');
+    if (!row) return;
+    try {
+        const currentTags = JSON.parse(row.dataset.tags || '[]');
+        const updatedTags = currentTags.filter(t => t !== tag);
+        row.dataset.tags = JSON.stringify(updatedTags);
+        span.remove();
+        update();
+    } catch (e) {
+        console.warn('Could not parse related tags:', e);
+    }
+};
+
+// Opens the tag picker modal for a related recipe row
+window.openTagPicker = function(row) {
+    // Stores which row we are actively editing
+    window._activeRelatedRow = row;
+    
+    const savedTags = JSON.parse(row.dataset.tags || '[]');
+    window.tagPickerSelections = new Set(savedTags);
+    
+    // Renders and displays your tag picker modal
+    const modal = document.getElementById('tag-picker-modal');
+    if (modal) {
+        renderTagPickerGrid();
+        modal.style.display = 'flex';
+    }
+};
 
 document.addEventListener('DOMContentLoaded', initDragDrop);

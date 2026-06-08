@@ -1,0 +1,189 @@
+{
+    "id": "roughpuffpastry",
+    "title": "Rough Puff Pastry",
+    "emoji": "🥐",
+    "category": "Pastry",
+    "description": "A smart compromise between traditional puff pastry and store-bought. Quick to make with excellent rise and flakiness — the perfect everyday laminated dough. Keep everything cold and don't overwork it.",
+    "prepTime": "15 min",
+    "cookTime": "0 min",
+    "totalTime": "~1 hour",
+    "servings": "1 batch",
+    "difficulty": "Intermediate",
+    "tags": [
+        "Puff Pastry",
+        "Rough Puff",
+        "Quick Puff",
+        "Pastry Dough",
+        "Butter",
+        "Flaky",
+        "Make Ahead",
+        "Freezer Friendly"
+    ],
+    "ingredients": [
+        {
+            "quantity": "500",
+            "unit": "g",
+            "item": "Plain Flour",
+            "notes": "plus extra for dusting"
+        },
+        {
+            "quantity": "400",
+            "unit": "g",
+            "item": "Unsalted Butter",
+            "notes": "very cold, cut into 1–1.5 cm cubes"
+        },
+        {
+            "quantity": "250",
+            "unit": "ml",
+            "item": "Ice-Cold Water"
+        },
+        {
+            "quantity": "5",
+            "unit": "g",
+            "item": "Salt",
+            "notes": "about 1 tsp"
+        }
+    ],
+    "youWillNeed": [
+        {
+            "item": "Bench Scraper",
+            "note": "For lifting and turning sticky dough"
+        },
+        {
+            "item": "Rolling Pin",
+            "note": "Preferably chilled"
+        },
+        {
+            "item": "Plastic Wrap",
+            "note": "For resting between turns"
+        }
+    ],
+    "method": [
+        {
+            "step": 1,
+            "instruction": "Mix flour and salt in a large bowl."
+        },
+        {
+            "step": 2,
+            "instruction": "Add cold butter cubes and lightly rub them into the flour, leaving visible pea-sized pieces. Do not overwork – the chunks of butter create the flaky layers."
+        },
+        {
+            "step": 3,
+            "instruction": "Add ice-cold water and mix with a fork until a rough, shaggy dough forms. The dough should be just combined, not smooth."
+        },
+        {
+            "step": 4,
+            "instruction": "Turn dough onto a lightly floured surface. Pat into a rough rectangle, then roll into a 1 cm thick rectangle (about 20 × 40 cm)."
+        },
+        {
+            "step": 5,
+            "instruction": "Fold the dough into thirds like a letter. Wrap in plastic and chill for 20 minutes."
+        },
+        {
+            "step": 6,
+            "instruction": "Repeat the rolling and folding process for a total of 3–4 turns, chilling 20 minutes between each turn. Rotate the dough 90° before each roll to keep it even."
+        },
+        {
+            "step": 7,
+            "instruction": "After the final turn, wrap tightly and chill for at least 30 minutes before using, or up to 2 days."
+        },
+        {
+            "step": 8,
+            "instruction": "For longer storage, wrap well and freeze for up to 3 months. Thaw overnight in the refrigerator before using."
+        }
+    ],
+    "notes": [
+        {
+            "type": "tip",
+            "title": "Temperature is Everything",
+            "content": "Keep everything COLD. If butter softens at any point, stop and chill before continuing. Warm butter melts into the dough instead of creating layers."
+        },
+        {
+            "type": "tip",
+            "title": "Don't Overwork",
+            "content": "The visible butter chunks are what create flakiness – don't blend them in completely. A shaggy, rough dough is exactly what you want. Minimal handling = better layers."
+        },
+        {
+            "type": "tip",
+            "title": "Use Immediately or Freeze",
+            "content": "Use dough after the final chill for best rise. It will keep for 2 days in the fridge, but fresh is best. Freezes beautifully for up to 3 months."
+        },
+        {
+            "type": "variation",
+            "title": "Extra Flaky",
+            "content": "For even more dramatic rise, do 4 full turns instead of 3. The additional lamination creates more layers without significantly increasing difficulty."
+        },
+        {
+            "type": "storage",
+            "title": "Storage",
+            "content": "Wrap tightly in plastic wrap and refrigerate for up to 2 days, or freeze for up to 3 months. Thaw frozen dough overnight in the refrigerator before using."
+        }
+    ],
+    "related": [
+        {
+            "id": "puffpastrytraditional",
+            "title": "Traditional Puff Pastry",
+            "matchingTags": [
+                "puff pastry",
+                "traditional puff",
+                "feuilletage",
+                "classic pastry",
+                "butter block",
+                "lamination",
+                "French pastry",
+                "advanced"
+            ]
+        },
+        {
+            "id": "meatpie",
+            "title": "Classic Aussie Meat Pies",
+            "matchingTags": [
+                "Australian",
+                "Baked",
+                "Beef",
+                "Classic",
+                "Dinner",
+                "Pastry",
+                "Savoury"
+            ]
+        },
+        {
+            "id": "sausageroll",
+            "title": "Classic Aussie Sausage Rolls",
+            "matchingTags": [
+                "Australian",
+                "Baked",
+                "Classic",
+                "Dinner",
+                "Make Ahead",
+                "Pastry",
+                "Pork",
+                "Savoury",
+                "Snack"
+            ]
+        }
+    ],
+    "nutrition": {
+        "servings": 1,
+        "cal": 4712,
+        "kj": 19714,
+        "protein": 55,
+        "carbs": 370,
+        "sugars": 14,
+        "fat": 335,
+        "saturated_fat": 229,
+        "fibre": 11,
+        "sodium": 475,
+        "coverage": 75,
+        "calcium_mg": 180,
+        "iron_mg": 7,
+        "potassium_mg": 973,
+        "magnesium_mg": 194,
+        "zinc_mg": 4,
+        "cholesterol_mg": 668,
+        "vitamin_a_ug": 3432,
+        "vitamin_d_ug": 3
+    },
+    "lastModified": "2026-05-25",
+    "cuisine": "French"
+}
