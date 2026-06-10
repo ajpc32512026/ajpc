@@ -32,8 +32,8 @@
     </style>
 </head>
 <body>
-    <h1>🔍 SCAN YOUR RECIPES FOLDER - NO HARDCODED LISTS</h1>
-    <button id="scanBtn">📁 CLICK HERE - SELECT YOUR recipes FOLDER</button>
+    <h1>SCAN YOUR RECIPES FOLDER - NO HARDCODED LISTS</h1>
+    <button id="scanBtn">CLICK HERE - SELECT YOUR recipes FOLDER</button>
     <div id="output">Ready. Click the button and navigate to: D:\mysites\ajpc\data\recipes</div>
 
     <script>
@@ -44,7 +44,7 @@
             try {
                 // Let user pick the folder
                 const dirHandle = await window.showDirectoryPicker();
-                output.innerHTML = '🔍 SCANNING EVERY FILE IN: ' + dirHandle.name + '\n\n';
+                output.innerHTML = 'SCANNING EVERY FILE IN: ' + dirHandle.name + '\n\n';
                 
                 const allRecipes = [];
                 let fileCount = 0;
@@ -57,7 +57,7 @@
                         const file = await entry.getFile();
                         const id = entry.name.replace('.json', '');
                         
-                        output.innerHTML += `📄 FOUND: ${entry.name}\n`;
+                        output.innerHTML += `FOUND: ${entry.name}\n`;
                         
                         try {
                             const content = await file.text();
@@ -71,9 +71,9 @@
                                 description: recipe.description || ''
                             });
                             
-                            output.innerHTML += `   ✅ SUCCESS: ${id}\n`;
+                            output.innerHTML += `   OK: ${id}\n`;
                         } catch (err) {
-                            output.innerHTML += `   ❌ ERROR: ${id} - ${err.message}\n`;
+                            output.innerHTML += `   ERROR: ${id} - ${err.message}\n`;
                         }
                         
                         // Scroll to bottom
@@ -82,8 +82,8 @@
                 }
                 
                 output.innerHTML += `\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n`;
-                output.innerHTML += `📊 TOTAL JSON FILES FOUND: ${fileCount}\n`;
-                output.innerHTML += `✅ SUCCESSFULLY PARSED: ${allRecipes.length}\n`;
+                output.innerHTML += `TOTAL JSON FILES FOUND: ${fileCount}\n`;
+                output.innerHTML += `SUCCESSFULLY PARSED: ${allRecipes.length}\n`;
                 output.innerHTML += `━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n`;
                 
                 if (allRecipes.length > 0) {
@@ -97,11 +97,11 @@
                     a.click();
                     URL.revokeObjectURL(url);
                     
-                    output.innerHTML += `🎉 DOWNLOADED: recipe-index.json with ${allRecipes.length} recipes\n`;
-                    output.innerHTML += `💾 Save this to: D:\\mysites\\ajpc\\data\\json\\recipe-index.json\n`;
+                    output.innerHTML += `DOWNLOADED: recipe-index.json with ${allRecipes.length} recipes\n`;
+                    output.innerHTML += `Save this to: D:\\mysites\\ajpc\\data\\json\\recipe-index.json\n`;
                     
                     // List all found recipes
-                    output.innerHTML += `\n📋 ALL RECIPES FOUND:\n`;
+                    output.innerHTML += `\nALL RECIPES FOUND:\n`;
                     allRecipes.forEach(r => {
                         output.innerHTML += `   - ${r.id}\n`;
                     });
@@ -109,9 +109,9 @@
                 
             } catch (err) {
                 if (err.name !== 'AbortError') {
-                    output.innerHTML += `\n❌ ERROR: ${err.message}\n`;
-                    output.innerHTML += `\n💡 USE: Chrome, Edge, or Opera browser\n`;
-                    output.innerHTML += `💡 Click ALLOW when prompted\n`;
+                    output.innerHTML += `\nERROR: ${err.message}\n`;
+                    output.innerHTML += `\nTIP: USE: Chrome, Edge, or Opera browser\n`;
+                    output.innerHTML += `TIP: Click ALLOW when prompted\n`;
                 }
             }
         });
