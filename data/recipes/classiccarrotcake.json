@@ -2,12 +2,12 @@
   "id": "classiccarrotcake",
   "title": "Classic Carrot Cake",
   "category": "Baking",
+  "difficulty": "Beginner",
   "description": "A hearty old-fashioned carrot cake — dense, moist, deeply spiced, and sturdy enough to slice for days without apology.",
   "prepTime": "30 min",
   "cookTime": "2 hr 45 min",
   "totalTime": "3 hr 15 min",
   "servings": "14 slices",
-  "difficulty": "Beginner",
   "tags": [
     "Baked",
     "Classic",
@@ -15,7 +15,8 @@
     "Party",
     "Sweet",
     "Vegetarian",
-    "Carrot"
+    "Carrot",
+    "Cake"
   ],
   "ingredients": [
     {
@@ -34,7 +35,8 @@
     {
       "quantity": "375",
       "unit": "g",
-      "item": "Self-Raising Flour"
+      "item": "Self-raising Flour",
+      "notes": "sifted"
     },
     {
       "quantity": "15",
@@ -69,7 +71,7 @@
       "notes": "finely grated, do not drain"
     },
     {
-      "quantity": "300",
+      "quantity": "100",
       "unit": "g",
       "item": "Sultanas"
     },
@@ -186,42 +188,37 @@
       "type": "serving",
       "title": "Serving Tip",
       "content": "Keeps well for several days refrigerated. Bring to room temperature before serving. The flavour deepens overnight."
-    }
-  ],
-  "related": [
-    {
-      "id": "hummingbird",
-      "title": "Hummingbird Cake — Cafe Style"
     },
     {
-      "id": "blueberrymuffins",
-      "title": "Heavenly Blueberry Muffins"
-    },
-    {
-      "id": "chocmuffins",
-      "title": "Chocolate Muffins with Ganache"
-    },
-    {
-      "id": "bananabread",
-      "title": "Banana Bread"
-    },
-    {
-      "id": "applecinnscrolls",
-      "title": "Apple & Cinnamon Scrolls"
+      "type": "technique",
+      "title": "Tin Size",
+      "content": "If you half this recipe use a smaller tin. a 20cm by 5cm tin will do just fine."
     }
   ],
   "nutrition": {
     "servings": 14,
-    "cal": 675,
-    "kj": 2824,
-    "protein": 12,
-    "carbs": 87,
-    "sugars": 62,
-    "fat": 33,
-    "saturated_fat": 11,
-    "fibre": 4,
-    "sodium": 559,
-    "coverage": 100
+    "cal": 651,
+    "kj": 2725,
+    "protein": 18,
+    "carbs": 69,
+    "sugars": 50,
+    "fat": 34,
+    "saturated_fat": 10.2,
+    "fiber": 3,
+    "sodium": 949,
+    "coverage": 100,
+    "foundCount": 15,
+    "totalCount": 15,
+    "unmatchedItems": [],
+    "calcium_mg": 364,
+    "iron_mg": 3,
+    "potassium_mg": 500,
+    "magnesium_mg": 40,
+    "zinc_mg": 2,
+    "cholesterol_mg": 452,
+    "vitamin_a_ug": 914,
+    "vitamin_c_mg": 2,
+    "vitamin_d_ug": 5
   },
-  "lastModified": "2026-05-18"
+  "lastModified": "2026-06-12"
 }

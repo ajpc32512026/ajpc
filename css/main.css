@@ -591,6 +591,22 @@ li {
     a.nav-direct.accent {
         display: none;
     }
+
+    /* Mobile menu open: allow the fixed nav header to scroll
+       internally so all menu items are reachable */
+    .nav-header:has(.recipe-nav.mobile-open) {
+        max-height: 100vh;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* Fallback for browsers without :has() support —
+       JS toggles this class on .nav-header alongside .mobile-open */
+    .nav-header.menu-open {
+        max-height: 100vh;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
 }
 
 /* =========================================================

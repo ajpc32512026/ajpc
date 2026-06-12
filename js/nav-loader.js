@@ -132,12 +132,14 @@
     function initMobileMenu() {
         var toggle = document.getElementById('mobileMenuToggle');
         var nav = document.getElementById('mainNav');
+        var header = document.querySelector('.nav-header');
         if (!toggle || !nav) return;
 
         toggle.addEventListener('click', function() {
             var isOpen = nav.classList.toggle('mobile-open');
             toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
             toggle.textContent = isOpen ? 'Close' : 'Menu';
+            if (header) header.classList.toggle('menu-open', isOpen);
         });
     }
 
