@@ -1,0 +1,122 @@
+{
+  "id": "sultanabread",
+  "title": "Sultana Bread",
+  "category": "Baking",
+  "difficulty": "Beginner",
+  "description": "A warmly spiced, tender sultana loaf built on a trusted bread base. Brown sugar and allspice give it depth, spreadable butter keeps the crumb soft, and plump sultanas folded in at the end make every slice worth it.",
+  "prepTime": "30 min",
+  "totalTime": "2 hr 30 min",
+  "servings": "1",
+  "tags": [
+    "Bread",
+    "Sweet Bread",
+    "Fruit Loaf",
+    "Make Ahead",
+    "Baking"
+  ],
+  "ingredients": [
+    {
+      "quantity": "590",
+      "unit": "g",
+      "item": "Bread Flour",
+      "notes": "plain flour works well too"
+    },
+    {
+      "quantity": "300",
+      "unit": "ml",
+      "item": "Water",
+      "notes": "cold or warm depending on the temperature of the kitchen..."
+    },
+    {
+      "quantity": "7",
+      "unit": "g",
+      "item": "Yeast",
+      "notes": "instant dried... 1 sachet"
+    },
+    {
+      "quantity": "30",
+      "unit": "g",
+      "item": "Spreadable Butter",
+      "notes": "softened slightly before adding — replaces olive oil"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Salt"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Bread Improver",
+      "notes": "Wallaby bread improver available at Woolworths and Coles"
+    },
+    {
+      "quantity": "45",
+      "unit": "g",
+      "item": "Brown Sugar",
+      "notes": "replaces white sugar — adds warmth and depth to complement the fruit"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Ground Allspice",
+      "notes": "adjust to taste — 4g is subtle, 6g is more pronounced"
+    },
+    {
+      "quantity": "135",
+      "unit": "g",
+      "item": "Sultanas",
+      "notes": "soaked in warm water for 10 minutes, drained and patted dry before use"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Place sultanas in a bowl, cover with warm water and soak for 10 minutes. Drain well and pat dry with paper towel. Set aside."
+    },
+    {
+      "step": 2,
+      "instruction": "In a large bowl, combine bread flour, yeast, bread improver, brown sugar, ground allspice, and softened spreadable butter. Add water. Keep salt on the opposite side of the bowl from the yeast before mixing — salt can inhibit yeast activity. Mix until a shaggy dough forms."
+    },
+    {
+      "step": 3,
+      "instruction": "Tip out onto a lightly floured bench and knead for 12 minutes until smooth and elastic. In the final 2 to 3 minutes of kneading, fold in the drained sultanas gradually — work them in gently so they stay whole and distribute evenly without tearing the dough."
+    },
+    {
+      "step": 4,
+      "instruction": "Shape the dough into a ball, place in a lightly oiled bowl, cover with a damp cloth or plastic wrap, and allow to prove in a warm spot for 1 hour or until doubled in size."
+    },
+    {
+      "step": 5,
+      "instruction": "Knock back the dough, shape into a loaf and place into a greased loaf tin. Cover and allow to prove for a further 30 to 45 minutes until risen above the tin edge."
+    },
+    {
+      "step": 6,
+      "instruction": "Preheat oven to 190 degrees Celsius fan-forced. Bake for 30 to 35 minutes until deep golden brown and the loaf sounds hollow when tapped on the base. Cool on a wire rack before slicing."
+    }
+  ],
+  "nutrition": {
+    "servings": 1,
+    "cal": 2961,
+    "kj": 12388,
+    "protein": 77,
+    "carbs": 571,
+    "sugars": 158,
+    "fat": 36,
+    "saturated_fat": 18.6,
+    "fiber": 23,
+    "sodium": 909,
+    "coverage": 100,
+    "foundCount": 8,
+    "totalCount": 8,
+    "unmatchedItems": [],
+    "calcium_mg": 282,
+    "iron_mg": 11,
+    "potassium_mg": 2533,
+    "magnesium_mg": 288,
+    "zinc_mg": 7,
+    "cholesterol_mg": 50,
+    "vitamin_a_ug": 258
+  },
+  "lastModified": "2026-06-14"
+}

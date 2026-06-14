@@ -2772,6 +2772,33 @@ body.light-mode .search-examples code {
         print-color-adjust: exact;
     }
 
+    /* ── Override ALL dark CSS variables for print ──────
+       This fixes every element using var(--surface-*)
+       without needing individual !important overrides    */
+    :root {
+        --ink:          white;
+        --ink-soft:     white;
+        --ink-medium:   #f0ece5;
+        --slate:        #d8d0c4;
+        --surface-0:    white;
+        --surface-1:    white;
+        --surface-2:    #f5f2ee;
+        --surface-3:    #ece8e2;
+        --surface-card: white;
+        --surface-raised: #f5f2ee;
+        --cream:        #1c1a16;
+        --cream-dim:    #3c3830;
+        --cream-muted:  #6e6558;
+        --cream-faint:  #9e9488;
+        --border-dim:   rgba(28, 26, 22, 0.12);
+        --border-mid:   rgba(28, 26, 22, 0.20);
+        --border-bright:rgba(28, 26, 22, 0.30);
+        --copper:       #b86830;
+        --copper-warm:  #cc7838;
+        --copper-dark:  #8a4e22;
+        --copper-pale:  #f0c090;
+    }
+
     /* Hide screen chrome — recipe layout handled by print.css */
     .nav-header,
     .scroll-progress,
@@ -2806,6 +2833,24 @@ body.light-mode .search-examples code {
     }
 
     body::before { display: none; }
+
+    /* Force metadata table to horizontal regardless of viewport width */
+    .recipe-metadata-table {
+        flex-direction: row !important;
+    }
+
+    .meta-cell {
+        border-right: 1px solid #d8d0c4 !important;
+        border-bottom: none !important;
+        text-align: center !important;
+        display: block !important;
+        justify-content: unset !important;
+    }
+
+    .meta-cell:last-child {
+        border-right: none !important;
+        border-bottom: none !important;
+    }
 
     .content-wrapper,
     .recipe-page-wrapper {

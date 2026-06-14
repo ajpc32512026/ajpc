@@ -55,6 +55,12 @@
     .cost-per-serving-box,
     .nutrition-coverage,
     #shoppingPanel,
+    #toast,
+    .toolbar-btn,
+    .recipe-toolbar,
+    .enh-modal-overlay,
+    .recently-viewed-section,
+    .featured-section,
     footer,
     .footer {
         display: none !important;
@@ -104,37 +110,41 @@
 
     /* ── Metadata row ──────────────────────────────────── */
     .recipe-metadata-table {
-        display: flex;
-        gap: 0;
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 0 !important;
         border: 1px solid #d8d0c4 !important;
-        border-radius: 3pt;
-        margin-bottom: 8pt;
-        overflow: hidden;
+        border-radius: 3pt !important;
+        margin-bottom: 8pt !important;
+        overflow: hidden !important;
         page-break-inside: avoid;
     }
 
     .meta-cell {
-        flex: 1;
-        padding: 4pt 6pt;
+        flex: 1 !important;
+        padding: 4pt 6pt !important;
         border-right: 1px solid #d8d0c4 !important;
-        text-align: center;
+        border-bottom: none !important;
+        text-align: center !important;
+        display: block !important;
     }
 
     .meta-cell:last-child { border-right: none !important; }
 
     .meta-label {
-        font-size: 5.5pt;
-        letter-spacing: 0.12em;
-        text-transform: uppercase;
+        font-size: 5.5pt !important;
+        letter-spacing: 0.12em !important;
+        text-transform: uppercase !important;
         color: #b86830 !important;
-        display: block;
-        margin-bottom: 1pt;
+        display: block !important;
+        margin-bottom: 1pt !important;
     }
 
     .meta-value {
-        font-size: 8pt;
-        font-weight: 600;
+        font-size: 8pt !important;
+        font-weight: 600 !important;
         color: #1c1a16 !important;
+        font-family: 'DM Sans', sans-serif !important;
     }
 
     /* ── Two-column layout ─────────────────────────────── */
@@ -335,29 +345,33 @@
         display: none !important;
     }
 
-    /* ── Page 2: Notes + Nutrition ──────────────────────── */
-    /* .recipe-notes is inside .print-col-right (grid col 2).
-       We break it out by making the grid NOT contain it visually:
-       grid has 2 rows, col-right spans rows 1-2 for method+notes.
-       For page 2 layout we let notes be full-width after the grid
-       and put nutrition alongside it. */
+    /* ── Page 2: Notes + Nutrition side by side ─────── */
+    /* Notes is inside .print-col-right (right grid column).
+       Nutrition is after .print-columns in the DOM.
+       We make the right col narrower to leave room, then
+       float nutrition into the right space after the grid. */
+
+    .recipe-notes {
+        margin-top: 8pt;
+        page-break-before: auto;
+        page-break-inside: avoid;
+    }
 
     /* Override note box dark screen styles */
     .note {
-        background: white !important;
-        border-left: 2pt solid #b86830 !important;
+        background: var(--surface-card);
+        border-left: 2pt solid var(--copper) !important;
         border-radius: 0 2pt 2pt 0 !important;
         padding: 4pt 8pt !important;
         margin-bottom: 5pt !important;
         page-break-inside: avoid;
-        color: #1c1a16 !important;
     }
 
     .note h4 {
         font-size: 6pt !important;
         color: #b86830 !important;
-        text-transform: uppercase;
-        letter-spacing: 0.08em;
+        text-transform: uppercase !important;
+        letter-spacing: 0.08em !important;
         margin-bottom: 2pt !important;
         font-weight: 700 !important;
     }
@@ -374,124 +388,21 @@
         margin: 2pt 0 0 0 !important;
     }
 
-    /* Notes — inside grid col-right, let it flow naturally */
-    .recipe-notes {
-        margin-top: 8pt;
-        page-break-before: auto;
-        page-break-inside: avoid;
-    }
-
-    /* Nutrition — after the grid columns, full available width */
-    /* ── Nutrition Facts box ──────────────────────────── */
-    /* Override ALL dark screen styles explicitly */
+    /* Nutrition — compact block after columns */
     .recipe-nutrition {
-        margin-top: 6pt;
+        margin-top: 8pt;
         page-break-inside: avoid;
-        page-break-before: avoid;
+        page-break-before: auto;
+        clear: both;
+        max-width: 200pt;
     }
 
-    .recipe-nutrition h2 {
-        display: none; /* "Nutrition Facts" h2 is redundant with label title */
-    }
-
-    .nutrition-label {
-        background: white !important;
-        border: 1.5pt solid #1c1a16 !important;
-        border-radius: 3pt !important;
-        padding: 6pt 8pt !important;
-        max-width: 200pt !important;
-        font-family: 'DM Sans', sans-serif !important;
-        color: #1c1a16 !important;
-    }
-
-    .nutrition-header {
-        border-bottom: 6pt solid #1c1a16 !important;
-        padding-bottom: 3pt !important;
-        margin-bottom: 3pt !important;
-    }
-
-    .nutrition-title {
-        font-size: 14pt !important;
-        font-weight: 700 !important;
-        color: #1c1a16 !important;
-        display: block !important;
-        font-family: 'DM Sans', sans-serif !important;
-        line-height: 1.1 !important;
-    }
-
-    .nutrition-serving {
-        font-size: 6.5pt !important;
-        color: #6e6558 !important;
-        display: block !important;
-    }
-
-    .nutrition-calories {
-        display: flex !important;
-        justify-content: space-between !important;
-        font-weight: 700 !important;
-        font-size: 9pt !important;
-        color: #1c1a16 !important;
-        padding: 2pt 0 !important;
-    }
-
-    .nutrition-kj {
-        display: flex !important;
-        justify-content: space-between !important;
-        font-size: 7pt !important;
-        color: #6e6558 !important;
-        padding: 1pt 0 2pt !important;
-    }
-
-    .nutrition-divider {
-        border-top: 0.5pt solid #d8d0c4 !important;
-        margin: 2pt 0 !important;
-        border-width: 0.5pt !important;
-    }
-
-    .nutrition-divider.thick {
-        border-top: 4pt solid #1c1a16 !important;
-        border-width: 4pt !important;
-        margin: 2pt 0 !important;
-    }
-
-    .nutrition-row {
-        display: flex !important;
-        justify-content: space-between !important;
-        font-size: 7pt !important;
-        color: #1c1a16 !important;
-        padding: 1.5pt 0 !important;
-        border-bottom: 0.5pt solid #e4ddd2 !important;
-    }
-
-    .nutrition-row.indent {
-        padding-left: 8pt !important;
-        color: #6e6558 !important;
-    }
-
-    .nutrition-row.micronutrient {
-        font-size: 6.5pt !important;
-        color: #6e6558 !important;
-    }
-
-    .nutrition-row.micronutrient strong {
-        color: #1c1a16 !important;
-    }
-
-    .nutrition-coverage {
-        display: none !important;
-    }
-
-    /* Last updated */
+    /* Last updated below everything */
     .recipe-last-updated {
         clear: both;
         margin-top: 6pt;
-    }
-
-    /* ── Last updated line ─────────────────────────────── */
-    .recipe-last-updated {
         font-size: 6.5pt;
         color: #9e9488 !important;
-        margin-top: 6pt;
         font-style: italic;
     }
 

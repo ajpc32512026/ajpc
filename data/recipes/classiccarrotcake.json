@@ -5,9 +5,9 @@
   "difficulty": "Beginner",
   "description": "A hearty old-fashioned carrot cake — dense, moist, deeply spiced, and sturdy enough to slice for days without apology.",
   "prepTime": "30 min",
-  "cookTime": "2 hr 45 min",
-  "totalTime": "3 hr 15 min",
-  "servings": "14 slices",
+  "cookTime": "1 hr",
+  "totalTime": "1 hr 30 min",
+  "servings": "8 slices",
   "tags": [
     "Baked",
     "Classic",
@@ -23,55 +23,55 @@
       "heading": "Cake"
     },
     {
-      "quantity": "6",
+      "quantity": "3",
       "unit": "",
       "item": "Eggs"
     },
     {
-      "quantity": "400",
+      "quantity": "200",
       "unit": "g",
       "item": "White Sugar"
     },
     {
-      "quantity": "375",
+      "quantity": "187.5",
       "unit": "g",
       "item": "Self-raising Flour",
       "notes": "sifted"
     },
     {
-      "quantity": "15",
+      "quantity": "7.5",
       "unit": "ml",
-      "item": "Vanilla Extract"
+      "item": "Natural Vanilla Extract"
     },
     {
-      "quantity": "180",
+      "quantity": "90",
       "unit": "ml",
       "item": "Vegetable Oil"
     },
     {
-      "quantity": "15",
+      "quantity": "7.5",
       "unit": "g",
       "item": "Baking Powder"
     },
     {
-      "quantity": "5",
+      "quantity": "3",
       "unit": "g",
       "item": "Salt"
     },
     {
-      "quantity": "15",
+      "quantity": "7.5",
       "unit": "g",
       "item": "Cinnamon",
       "notes": "ground"
     },
     {
-      "quantity": "6",
+      "quantity": "3",
       "unit": "",
       "item": "Carrots",
       "notes": "finely grated, do not drain"
     },
     {
-      "quantity": "100",
+      "quantity": "50",
       "unit": "g",
       "item": "Sultanas"
     },
@@ -85,34 +85,34 @@
       "heading": "Cream Cheese Frosting"
     },
     {
-      "quantity": "500",
+      "quantity": "250",
       "unit": "g",
       "item": "Cream Cheese",
       "notes": "softened at room temperature for 2 hours"
     },
     {
-      "quantity": "200",
+      "quantity": "100",
       "unit": "g",
       "item": "Icing Sugar",
       "notes": "added gradually, to taste"
     },
     {
-      "quantity": "30",
+      "quantity": "7.5",
       "unit": "ml",
       "item": "Lemon Juice",
       "notes": "added a little at a time"
     },
     {
-      "quantity": "5",
+      "quantity": "2.5",
       "unit": "ml",
-      "item": "Vanilla Extract",
+      "item": "Natural Vanilla Extract",
       "notes": "to taste"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Preheat oven to 150°C. Grease a 28 cm round cake tin with butter or margarine. Line the base and sides with baking paper and grease the paper as well."
+      "instruction": "Preheat oven to 150°C. Grease a 20 cm round cake tin with butter or margarine. Line the base and sides with baking paper and grease the paper as well."
     },
     {
       "step": 2,
@@ -136,11 +136,11 @@
     },
     {
       "step": 7,
-      "instruction": "Bake for 2½–3 hours, or until a skewer inserted into the centre comes out clean."
+      "instruction": "Bake for 1 hour, or until a skewer inserted into the centre comes out clean."
     },
     {
       "step": 8,
-      "instruction": "Cool in the tin for 10 minutes, then turn out onto a wire rack and cool completely."
+      "instruction": "Cool in the tin for 5 minutes, then turn out onto a wire rack and cool completely."
     },
     {
       "step": 9,
@@ -192,33 +192,33 @@
     {
       "type": "technique",
       "title": "Tin Size",
-      "content": "If you half this recipe use a smaller tin. a 20cm by 5cm tin will do just fine."
+      "content": "This recipe is written for a 20cm round tin. If doubling the ingredients, use either two 20cm round tins or one deep 28cm tin (at least 8cm high)."
     }
   ],
   "nutrition": {
-    "servings": 14,
-    "cal": 651,
-    "kj": 2725,
-    "protein": 18,
-    "carbs": 69,
-    "sugars": 50,
-    "fat": 34,
-    "saturated_fat": 10.2,
+    "servings": 8,
+    "cal": 592,
+    "kj": 2475,
+    "protein": 16,
+    "carbs": 61,
+    "sugars": 44,
+    "fat": 32,
+    "saturated_fat": 9.1,
     "fiber": 3,
-    "sodium": 949,
+    "sodium": 835,
     "coverage": 100,
     "foundCount": 15,
     "totalCount": 15,
     "unmatchedItems": [],
-    "calcium_mg": 364,
-    "iron_mg": 3,
-    "potassium_mg": 500,
+    "calcium_mg": 321,
+    "iron_mg": 2,
+    "potassium_mg": 451,
     "magnesium_mg": 40,
     "zinc_mg": 2,
-    "cholesterol_mg": 452,
-    "vitamin_a_ug": 914,
-    "vitamin_c_mg": 2,
-    "vitamin_d_ug": 5
+    "cholesterol_mg": 396,
+    "vitamin_a_ug": 800,
+    "vitamin_c_mg": 1,
+    "vitamin_d_ug": 4
   },
-  "lastModified": "2026-06-12"
+  "lastModified": "2026-06-14"
 }

@@ -84,10 +84,16 @@
       "price": 4,
       "brand": "Queen"
     },
-    "vanilla extract": {
+    "natural vanilla extract": {
+      "size": 150,
+      "unit": "ml",
+      "price": 10,
+      "brand": "Queen"
+    },
+	"organic vanilla extract": {
       "size": 50,
       "unit": "ml",
-      "price": 6,
+      "price": 4,
       "brand": "Queen"
     },
     "white chocolate": {
@@ -561,9 +567,9 @@
       "brand": "Woolworths"
     },
     "walnuts": {
-      "size": 1000,
+      "size": 450,
       "unit": "g",
-      "price": 18,
+      "price": 10.4,
       "brand": "Woolworths"
     }
   },
@@ -1053,10 +1059,16 @@
       "brand": "Woolworths"
     },
     "beetroot": {
-      "size": 1,
+      "size": 825,
       "unit": "bunch",
-      "price": 3.5,
-      "brand": "Woolworths"
+      "price": 3.8,
+      "brand": "Edgell"
+    },
+	"sliced beetroot": {
+      "size": 825,
+      "unit": "bunch",
+      "price": 3.8,
+      "brand": "Edgell"
     },
     "bravo apple": {
       "size": 1,
@@ -1103,13 +1115,13 @@
     "carrot": {
       "size": 1000,
       "unit": "g",
-      "price": 1.7,
+      "price": 2.4,
       "brand": "Woolworths"
     },
     "carrots": {
       "size": 1000,
       "unit": "g",
-      "price": 1.7,
+      "price": 2.4,
       "brand": "Woolworths"
     },
     "cauliflower": {
@@ -2553,10 +2565,10 @@
       "brand": "MasterFoods"
     },
     "cinnamon": {
-      "size": 28,
+      "size": 150,
       "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
+      "price": 4.95,
+      "brand": "Hoyt's"
     },
     "cinnamon stick": {
       "size": 10,
