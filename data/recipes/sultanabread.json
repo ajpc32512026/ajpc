@@ -1,17 +1,17 @@
 {
-  "id": "sultanabread",
-  "title": "Sultana Bread",
+  "id": "sultanarollswithsugarglaze",
+  "title": "Sultana Rolls with Sugar Glaze",
   "category": "Baking",
   "difficulty": "Beginner",
-  "description": "A warmly spiced, tender sultana loaf built on a trusted bread base. Brown sugar and allspice give it depth, spreadable butter keeps the crumb soft, and plump sultanas folded in at the end make every slice worth it.",
+  "description": "Warmly spiced, tender sultana rolls portioned into individual buns. Ground allspice and brown sugar provide depth, spreadable butter keeps the crumb soft, and a shiny sugar glaze made with glucose syrup to prevent crystallization is brushed on top after baking.",
   "prepTime": "30 min",
-  "totalTime": "2 hr 30 min",
-  "servings": "1",
+  "totalTime": "2 hr 15 min",
+  "servings": "9",
   "tags": [
     "Bread",
     "Sweet Bread",
     "Fruit Loaf",
-    "Make Ahead",
+    "Buns",
     "Baking"
   ],
   "ingredients": [
@@ -67,6 +67,27 @@
       "unit": "g",
       "item": "Sultanas",
       "notes": "soaked in warm water for 10 minutes, drained and patted dry before use"
+    },
+    {
+      "heading": "Glaze"
+    },
+    {
+      "quantity": "50",
+      "unit": "g",
+      "item": "Caster Sugar",
+      "notes": "for the glaze"
+    },
+    {
+      "quantity": "50",
+      "unit": "ml",
+      "item": "Water",
+      "notes": "for the glaze"
+    },
+    {
+      "quantity": "15",
+      "unit": "g",
+      "item": "Glucose Syrup",
+      "notes": "or light corn syrup — prevents crystallization and adds shine to the glaze"
     }
   ],
   "method": [
@@ -88,35 +109,43 @@
     },
     {
       "step": 5,
-      "instruction": "Knock back the dough, shape into a loaf and place into a greased loaf tin. Cover and allow to prove for a further 30 to 45 minutes until risen above the tin edge."
+      "instruction": "Knock back the dough and divide into 9 equal portions (approximately 125g each). Shape each portion into a smooth round roll and place onto a baking tray lined with baking paper, leaving roughly 2-3cm of space between them. Cover and allow to prove for a further 30 to 45 minutes until risen and touching slightly."
     },
     {
       "step": 6,
-      "instruction": "Preheat oven to 190 degrees Celsius fan-forced. Bake for 30 to 35 minutes until deep golden brown and the loaf sounds hollow when tapped on the base. Cool on a wire rack before slicing."
+      "instruction": "Preheat oven to 190 degrees Celsius fan-forced. Bake the rolls for 15 to 18 minutes until golden brown."
+    },
+    {
+      "step": 7,
+      "instruction": "While the rolls are baking, prepare the glaze. In a small saucepan, combine the caster sugar, water, and glucose syrup. Heat gently over low heat, stirring continuously until the sugar and syrup are completely dissolved. Bring to a brief boil for 1 minute without stirring, then remove from heat."
+    },
+    {
+      "step": 8,
+      "instruction": "Brush the warm sugar glaze generously over the hot rolls immediately as they come out of the oven. Transfer the rolls to a wire rack to cool before serving."
     }
   ],
   "nutrition": {
-    "servings": 1,
-    "cal": 2961,
-    "kj": 12388,
-    "protein": 77,
-    "carbs": 571,
-    "sugars": 158,
-    "fat": 36,
-    "saturated_fat": 18.6,
-    "fiber": 23,
-    "sodium": 909,
+    "servings": 9,
+    "cal": 355,
+    "kj": 1486,
+    "protein": 9,
+    "carbs": 70,
+    "sugars": 24,
+    "fat": 4,
+    "saturated_fat": 2.1,
+    "fiber": 3,
+    "sodium": 104,
     "coverage": 100,
-    "foundCount": 8,
-    "totalCount": 8,
+    "foundCount": 10,
+    "totalCount": 10,
     "unmatchedItems": [],
-    "calcium_mg": 282,
-    "iron_mg": 11,
-    "potassium_mg": 2533,
-    "magnesium_mg": 288,
-    "zinc_mg": 7,
-    "cholesterol_mg": 50,
-    "vitamin_a_ug": 258
+    "calcium_mg": 32,
+    "iron_mg": 1,
+    "potassium_mg": 282,
+    "magnesium_mg": 32,
+    "zinc_mg": 1,
+    "cholesterol_mg": 6,
+    "vitamin_a_ug": 29
   },
-  "lastModified": "2026-06-14"
+  "lastModified": "2026-06-15"
 }

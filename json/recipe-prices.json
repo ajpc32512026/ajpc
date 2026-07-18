@@ -2996,6 +2996,12 @@
       "price": 3.5,
       "brand": "Nestle"
     },
+	"glucos syrup": {
+      "size": 500,
+      "unit": "g",
+      "price": 4.9,
+      "brand": "Queen"
+    },
     "golden syrup": {
       "size": 850,
       "unit": "g",

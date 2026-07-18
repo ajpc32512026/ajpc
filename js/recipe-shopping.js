@@ -149,7 +149,7 @@
         URL.revokeObjectURL(a.href);
 
         sessionStorage.setItem(CACHE_KEY, JSON.stringify(priceDatabase));
-        toast(' File downloaded — replace in D:\\mysites\\ajpc\\json\\');
+        toast('File downloaded — replace in D:\\mysites\\ajpc\\json\\');
         return true;
     }
 
@@ -255,7 +255,7 @@
         if (existsInDB) {
             return `<button class="action-btn update-btn" data-item="${safeName}" data-action="update" data-section="${existingData?.section || 'uncategorized'}" data-size="${existingData?.size || ''}" data-unit="${existingData?.unit || 'g'}" data-price="${existingData?.price || ''}" data-brand="${existingData?.brand || ''}">Update</button>`;
         } else {
-            return `<button class="action-btn new-btn" data-item="${safeName}" data-action="new" data-section="uncategorized"> New</button>`;
+            return `<button class="action-btn new-btn" data-item="${safeName}" data-action="new" data-section="uncategorized">New</button>`;
         }
     }
 
@@ -353,18 +353,66 @@
         inner += '<div class="recipe-title-small">' + escapeHtml(recipe.title || recipe.name || '') + '</div>';
 
         if (multiplier > 1) {
-            inner += '<div class="scale-indicator"> Scaled ' + multiplier + 'x — Serves: <strong>' + scaledServings + '</strong> (from ' + currentBaseServings + ')</div>';
+            inner += '<div class="scale-indicator">Scaled ' + multiplier + 'x — Serves: <strong>' + scaledServings + '</strong> (from ' + currentBaseServings + ')</div>';
         }
 
         if (shoppingItems.length === 0) {
             inner += '<p class="shopping-empty">No ingredients found.</p>';
         } else {
+            // ── Pantry check ──────────────────────────────
+            if (window.AJPC && window.AJPC.Pantry) {
+                const pantryResult = window.AJPC.Pantry.analyseRecipe(recipe.ingredients || []);
+                const hasAnyPantryData = window.AJPC.Pantry.list().length > 0;
+
+                if (hasAnyPantryData && (pantryResult.have.length || pantryResult.low.length || pantryResult.subs.length)) {
+                    inner += '<div class="pantry-check-section">';
+                    inner += '<div class="pantry-check-header">Pantry Check</div>';
+
+                    if (pantryResult.have.length) {
+                        pantryResult.have.forEach(function(ing) {
+                            inner += '<div class="pantry-check-row">';
+                            inner += '<span class="pantry-have-dot"></span>';
+                            inner += '<span>' + escapeHtml(ing.item || ing.name || '') + '</span>';
+                            inner += '<span style="margin-left:auto;font-size:0.72rem;color:var(--cream-muted)">Have it</span>';
+                            inner += '</div>';
+                        });
+                    }
+
+                    if (pantryResult.low.length) {
+                        pantryResult.low.forEach(function(entry) {
+                            inner += '<div class="pantry-check-row">';
+                            inner += '<span class="pantry-low-dot"></span>';
+                            inner += '<span>' + escapeHtml(entry.ing.item || entry.ing.name || '') + '</span>';
+                            inner += '<span class="pantry-sub-note">Running ' + entry.level.toLowerCase() + ' — buy more</span>';
+                            inner += '</div>';
+                        });
+                    }
+
+                    if (pantryResult.subs.length) {
+                        pantryResult.subs.forEach(function(sub) {
+                            inner += '<div class="pantry-check-row">';
+                            inner += '<span class="pantry-have-dot" style="background:var(--copper)"></span>';
+                            inner += '<span>' + escapeHtml(sub.ingredient) + '</span>';
+                            inner += '<span class="pantry-sub-note">Use ' + escapeHtml(sub.useInstead) + ' — ' + escapeHtml(sub.note) + '</span>';
+                            inner += '</div>';
+                        });
+                    }
+
+                    inner += '</div>';
+                } else if (!hasAnyPantryData) {
+                    inner += '<div class="pantry-check-section">';
+                    inner += '<div class="pantry-check-header">Pantry</div>';
+                    inner += '<p style="font-size:0.8rem;color:var(--cream-muted);margin:0">Set up your <a href="pantry.html" style="color:var(--copper)">pantry</a> to see what you already have.</p>';
+                    inner += '</div>';
+                }
+            }
+            // ── Cost summary ──────────────────────────────
             const savings = totalBuyCost - totalMakeCost;
             inner += '<div class="cost-summary">';
             inner += '<div class="cost-row"><span>Cost to MAKE:</span><span>$' + totalMakeCost.toFixed(2) + '</span></div>';
             inner += '<div class="cost-row"><span>Cost to BUY:</span><span>$' + totalBuyCost.toFixed(2) + '</span></div>';
             if (savings > 0) inner += '<div class="cost-row savings"><span>Leftover value:</span><span>$' + savings.toFixed(2) + '</span></div>';
-            inner += '<div class="cost-row serving"><span>️ Serves (scaled):</span><span><strong>' + scaledServings + '</strong></span></div>';
+            inner += '<div class="cost-row serving"><span>Serves (scaled):</span><span><strong>' + scaledServings + '</strong></span></div>';
             if (scaledServings > 0) inner += '<div class="cost-row serving"><span>Cost per serving:</span><span><strong>$' + (totalMakeCost / scaledServings).toFixed(2) + '</strong></span></div>';
             inner += '</div><ul class="shopping-items-list">';
 
@@ -383,12 +431,12 @@
                 } else if (item.existsInDB) {
                     inner += '<div class="shopping-no-price">Missing price/size — click Update</div>';
                 } else {
-                    inner += '<div class="shopping-no-price"> Not in database — click New</div>';
+                    inner += '<div class="shopping-no-price">Not in database — click New</div>';
                 }
                 inner += '</div>' + actionButton + '</div></div></li>';
             });
 
-            inner += '</ul><div class="shopping-panel-footer"><button id="shoppingSelectAll">Select All</button><button id="shoppingPrintBtn">️ Print</button></div>';
+            inner += '</ul><div class="shopping-panel-footer"><button id="shoppingSelectAll">Select All</button><button id="shoppingPrintBtn">Print</button></div>';
         }
 
         panel.innerHTML = inner;
@@ -412,7 +460,7 @@
             const items = checked.length ? checked : Array.from(panel.querySelectorAll('.shopping-item-name')).map(el => el.textContent);
             if (!items.length) return alert('Nothing to print.');
             const win = window.open('', '_blank');
-            win.document.write(`<!DOCTYPE html><html><head><title>Shopping List</title><style>body{font-family:sans-serif;padding:20px;}h1{font-size:18px;}ul{list-style:none;padding:0;}li{padding:8px 0;border-bottom:1px solid #eee;}</style></head><body><h1>Shopping List</h1><div>${escapeHtml(recipe.title || '')}</div>${multiplier > 1 ? `<div> Scaled ${multiplier}x — Serves: ${scaledServings}</div>` : ''}<ul>${items.map(i => `<li><input type="checkbox"> ${escapeHtml(i)}</li>`).join('')}</ul><div class="disclaimer">Prices are estimates</div></body></html>`);
+            win.document.write(`<!DOCTYPE html><html><head><title>Shopping List</title><style>body{font-family:sans-serif;padding:20px;}h1{font-size:18px;}ul{list-style:none;padding:0;}li{padding:8px 0;border-bottom:1px solid #eee;}</style></head><body><h1>Shopping List</h1><div>${escapeHtml(recipe.title || '')}</div>${multiplier > 1 ? `<div>Scaled ${multiplier}x — Serves: ${scaledServings}</div>` : ''}<ul>${items.map(i => `<li><input type="checkbox"> ${escapeHtml(i)}</li>`).join('')}</ul><div class="disclaimer">Prices are estimates</div></body></html>`);
             win.document.close();
             win.print();
         });
@@ -433,7 +481,7 @@
                 const uniqueId = Date.now() + '-' + Math.random().toString(36).substr(2, 6);
 
                 li.innerHTML = `<div class="price-edit-form">
-                    <div class="edit-status-note ${action === 'new' ? 'new-note' : 'update-note'}">${action === 'new' ? ' NEW ITEM' : 'UPDATE ITEM'}: "${escapeHtml(itemName)}"</div>
+                    <div class="edit-status-note ${action === 'new' ? 'new-note' : 'update-note'}">${action === 'new' ? 'NEW ITEM' : 'UPDATE ITEM'}: "${escapeHtml(itemName)}"</div>
                     <div class="edit-field"><label>Package Size</label><input type="number" id="size-${uniqueId}" value="${existingSize || ''}" step="any" placeholder="e.g. 500"></div>
                     <div class="edit-field"><label>Unit</label><select id="unit-${uniqueId}"><option value="g"${existingUnit === 'g' ? ' selected' : ''}>grams (g)</option><option value="kg"${existingUnit === 'kg' ? ' selected' : ''}>kilograms (kg)</option><option value="ml"${existingUnit === 'ml' ? ' selected' : ''}>milliliters (ml)</option><option value="l"${existingUnit === 'l' ? ' selected' : ''}>liters (L)</option><option value="each"${existingUnit === 'each' ? ' selected' : ''}>each</option></select></div>
                     <div class="edit-field"><label>Price ($AUD)</label><input type="number" id="price-${uniqueId}" value="${existingPrice || ''}" step="0.01" placeholder="e.g. 4.50"></div>
@@ -456,7 +504,7 @@
                     }
                     if (act === 'new') {
                         await addNewItem(itemName, size, unit, price, brand, section);
-                        toast(' Added: ' + itemName);
+                        toast('Added: ' + itemName);
                     } else {
                         await updatePrice(itemName, size, unit, price, brand, section);
                         toast('Updated: ' + itemName);
