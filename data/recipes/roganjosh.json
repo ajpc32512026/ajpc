@@ -1,13 +1,13 @@
 {
-  "id": "roganjosh",
+  "id": "lambroganjoshrestaurantstyle",
   "title": "Lamb Rogan Josh – Restaurant Style",
   "category": "Dinner",
+  "difficulty": "Intermediate",
   "description": "Succulent pieces of lamb cooked in a rich, flavourful sauce.",
   "prepTime": "20 min",
   "cookTime": "50 min",
   "totalTime": "1 hr 10 min",
   "servings": "4 servings",
-  "difficulty": "Intermediate",
   "tags": [
     "Curry",
     "Dinner",
@@ -197,37 +197,33 @@
       "content": "Adapted from traditional Indian rogan josh recipes."
     }
   ],
-  "related": [
-    {
-      "id": "lambvindaloo",
-      "title": "Lamb Vindaloo"
-    },
-    {
-      "id": "lambkorma",
-      "title": "Lamb Korma"
-    },
-    {
-      "id": "beefvindaloo",
-      "title": "Beef Vindaloo"
-    },
-    {
-      "id": "butterchicken",
-      "title": "Restaurant-Style Butter Chicken"
-    },
-    {
-      "id": "vindaloopaste",
-      "title": "Vindaloo Paste"
-    }
-  ],
   "nutrition": {
     "servings": 4,
-    "cal": 1640,
-    "protein": 65,
-    "carbs": 240,
-    "fat": 79,
-    "fibre": 91,
-    "sodium": 1024,
-    "coverage": 100
+    "cal": 1444,
+    "kj": 6042,
+    "protein": 63,
+    "carbs": 131,
+    "sugars": 14,
+    "fat": 59,
+    "saturated_fat": 16.3,
+    "fiber": 110,
+    "sodium": 694,
+    "coverage": 90,
+    "foundCount": 18,
+    "totalCount": 20,
+    "unmatchedItems": [
+      "Red Chilli Powder",
+      "Greek Yoghurt"
+    ],
+    "calcium_mg": 1304,
+    "iron_mg": 37,
+    "potassium_mg": 3805,
+    "magnesium_mg": 655,
+    "zinc_mg": 18,
+    "cholesterol_mg": 93,
+    "vitamin_a_ug": 184,
+    "vitamin_c_mg": 40,
+    "vitamin_d_ug": 1
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

@@ -1,13 +1,13 @@
 {
-  "id": "sweetsoursauce_flex",
+  "id": "sweetsoursaucehomechefflex",
   "title": "Sweet & Sour Sauce – Home Chef Flex",
   "category": "Sauces",
+  "difficulty": "Beginner",
   "description": "Tangy, sweet, and versatile — adjust sweetness, tang, or add heat. Perfect for home cooking and fridge-friendly storage.",
   "prepTime": "5 min",
   "cookTime": "10 min",
   "totalTime": "15 min",
   "servings": "1 batch",
-  "difficulty": "Beginner",
   "tags": [
     "Chinese",
     "Make Ahead",
@@ -91,37 +91,29 @@
       "content": "Perfect for sweet and sour pork, chicken stir-fries, spring rolls, or as a dipping sauce for fried appetisers."
     }
   ],
-  "related": [
-    {
-      "id": "sweetsoursauce_quick",
-      "title": "Sweet & Sour Sauce – Quick Takeout Style"
-    },
-    {
-      "id": "sweetsourpork",
-      "title": "Better Than Takeaway Sweet & Sour Pork"
-    },
-    {
-      "id": "teriyakisauce",
-      "title": "Teriyaki Sauce"
-    },
-    {
-      "id": "sweetchillisauce",
-      "title": "Sweet Chilli Sauce"
-    },
-    {
-      "id": "sweetspicyorangesauce",
-      "title": "Sweet & Spicy Orange Sauce"
-    }
-  ],
   "nutrition": {
     "servings": 1,
-    "cal": 591,
-    "protein": 3,
-    "carbs": 144,
-    "fat": 0,
-    "fibre": 2,
-    "sodium": 1379,
-    "coverage": 100
+    "cal": 642,
+    "kj": 2684,
+    "protein": 9,
+    "carbs": 140,
+    "sugars": 118,
+    "fat": 5,
+    "saturated_fat": 1.2,
+    "fiber": 3,
+    "sodium": 545,
+    "coverage": 100,
+    "foundCount": 6,
+    "totalCount": 6,
+    "unmatchedItems": [],
+    "calcium_mg": 202,
+    "iron_mg": 3,
+    "potassium_mg": 678,
+    "magnesium_mg": 64,
+    "zinc_mg": 1,
+    "cholesterol_mg": 9,
+    "vitamin_a_ug": 33,
+    "vitamin_c_mg": 8
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

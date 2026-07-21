@@ -2,12 +2,12 @@
   "id": "chickenmushroombaconpies",
   "title": "Chicken, Mushroom & Bacon Pies",
   "category": "Dinner",
+  "difficulty": "Intermediate",
   "description": "Golden, flaky, and stuffed with comfort — a proper home-baked classic where pub fare meets homemade love.",
   "prepTime": "30 min",
   "cookTime": "45 min",
   "totalTime": "1 hr 15 min",
   "servings": "4 individual pies",
-  "difficulty": "Intermediate",
   "tags": [
     "Baked",
     "Chicken",
@@ -170,36 +170,30 @@
       "content": "Adapted from Taste.com.au — Chicken, Mushroom & Bacon Pies, with mascarpone replacing cooking cream for a richer, silkier filling."
     }
   ],
-  "related": [
-    {
-      "id": "meatpie",
-      "title": "Aussie Meat Pie"
-    },
-    {
-      "id": "sausageroll",
-      "title": "Aussie Sausage Roll"
-    },
-    {
-      "id": "bistro-chickenriverina",
-      "title": "Chicken Riverina"
-    },
-    {
-      "id": "bistro-chickenkiev",
-      "title": "Chicken Kiev"
-    }
-  ],
   "nutrition": {
     "servings": 4,
-    "cal": 1300,
-    "kj": 5441,
-    "protein": 83,
-    "carbs": 71,
-    "sugars": 5,
-    "fat": 76,
-    "saturated_fat": 28,
-    "fibre": 6,
-    "sodium": 1888,
-    "coverage": 100
+    "cal": 928,
+    "kj": 3884,
+    "protein": 60,
+    "carbs": 60,
+    "sugars": 11,
+    "fat": 46,
+    "saturated_fat": 19.2,
+    "fiber": 16,
+    "sodium": 964,
+    "coverage": 100,
+    "foundCount": 15,
+    "totalCount": 15,
+    "unmatchedItems": [],
+    "calcium_mg": 132,
+    "iron_mg": 5,
+    "potassium_mg": 1428,
+    "magnesium_mg": 112,
+    "zinc_mg": 5,
+    "cholesterol_mg": 509,
+    "vitamin_a_ug": 354,
+    "vitamin_c_mg": 38,
+    "vitamin_d_ug": 7
   },
-  "lastModified": "2026-05-20"
+  "lastModified": "2026-07-21"
 }

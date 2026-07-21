@@ -1,13 +1,13 @@
 {
-  "id": "darkrye",
+  "id": "darkryebread",
   "title": "Dark Rye Bread",
   "category": "Baking",
+  "difficulty": "Intermediate",
   "description": "Full credit to bakers who perfected this rich, flavourful loaf — dense, dark, and deeply satisfying.",
   "prepTime": "25 min",
   "cookTime": "40 min",
   "totalTime": "3 hr 45 min",
   "servings": "1 large loaf",
-  "difficulty": "Intermediate",
   "tags": [
     "Bread",
     "Make Ahead",
@@ -134,37 +134,27 @@
       "content": "Excellent toasted with butter, or served with smoked fish, pickles, and cream cheese for a traditional pairing."
     }
   ],
-  "related": [
-    {
-      "id": "turkishbread",
-      "title": "Traditional Turkish Bread"
-    },
-    {
-      "id": "focaccia-high",
-      "title": "High-Hydration Focaccia"
-    },
-    {
-      "id": "pizzadough",
-      "title": "Pizza Dough"
-    },
-    {
-      "id": "garlicbread",
-      "title": "Garlic Butter Crusty Bread"
-    },
-    {
-      "id": "swbtm",
-      "title": "Soft White Bread (Tangzhong Method)"
-    }
-  ],
   "nutrition": {
     "servings": 1,
-    "cal": 2415,
-    "protein": 112,
-    "carbs": 423,
+    "cal": 2348,
+    "kj": 9822,
+    "protein": 114,
+    "carbs": 368,
+    "sugars": 26,
     "fat": 33,
-    "fibre": 32,
-    "sodium": 3192,
-    "coverage": 100
+    "saturated_fat": 4.7,
+    "fiber": 50,
+    "sodium": 778,
+    "coverage": 100,
+    "foundCount": 9,
+    "totalCount": 9,
+    "unmatchedItems": [],
+    "calcium_mg": 302,
+    "iron_mg": 23,
+    "potassium_mg": 2750,
+    "magnesium_mg": 536,
+    "zinc_mg": 10,
+    "vitamin_a_ug": 4
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

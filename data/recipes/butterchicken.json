@@ -1,5 +1,5 @@
 {
-  "id": "butterchicken",
+  "id": "restaurantstylebutterchicken",
   "title": "Restaurant-Style Butter Chicken",
   "category": "Dinner",
   "difficulty": "Intermediate",
@@ -206,6 +206,12 @@
     "fiber": 31,
     "sodium": 409,
     "coverage": 89,
+    "foundCount": 17,
+    "totalCount": 19,
+    "unmatchedItems": [
+      "Red Chilli Powder",
+      "Greek Yoghurt"
+    ],
     "calcium_mg": 155,
     "iron_mg": 5,
     "potassium_mg": 1159,
@@ -216,5 +222,5 @@
     "vitamin_c_mg": 15,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-06-04"
+  "lastModified": "2026-07-21"
 }

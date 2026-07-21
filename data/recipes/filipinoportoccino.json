@@ -1,13 +1,13 @@
 {
-  "id": "filipinoportoccino",
+  "id": "filipinoporktoccino",
   "title": "Filipino Pork Toccino",
   "category": "Dinner",
+  "difficulty": "Beginner",
   "description": "Sweet, caramelised pork — juicy, tender, and perfect for a classic Filipino breakfast or dinner.",
   "prepTime": "10 min",
   "cookTime": "12 min",
   "totalTime": "24 hr 22 min",
   "servings": "4 servings",
-  "difficulty": "Beginner",
   "tags": [
     "Breakfast",
     "Dinner",
@@ -109,37 +109,30 @@
       "content": "Try chicken tocino for a lighter version. For natural colouring, use annatto powder or beet juice instead of food colouring."
     }
   ],
-  "related": [
-    {
-      "id": "filipinonoodles",
-      "title": "Pancit (Filipino Stir-Fried Noodles)"
-    },
-    {
-      "id": "sweetsourpork",
-      "title": "Sweet & Sour Pork"
-    },
-    {
-      "id": "porkcaldereta",
-      "title": "Pork Caldereta"
-    },
-    {
-      "id": "bulalo",
-      "title": "Original Bulalo"
-    },
-    {
-      "id": "pancitbihon",
-      "title": "Pancit Bihon"
-    }
-  ],
   "nutrition": {
     "servings": 4,
-    "cal": 629,
-    "protein": 41,
-    "carbs": 60,
+    "cal": 542,
+    "kj": 2269,
+    "protein": 29,
+    "carbs": 41,
+    "sugars": 31,
     "fat": 26,
-    "fibre": 2,
-    "sodium": 1229,
-    "coverage": 100
+    "saturated_fat": 7.3,
+    "fiber": 17,
+    "sodium": 544,
+    "coverage": 100,
+    "foundCount": 9,
+    "totalCount": 9,
+    "unmatchedItems": [],
+    "calcium_mg": 91,
+    "iron_mg": 4,
+    "potassium_mg": 1039,
+    "magnesium_mg": 60,
+    "zinc_mg": 4,
+    "cholesterol_mg": 83,
+    "vitamin_a_ug": 15,
+    "vitamin_c_mg": 12,
+    "vitamin_d_ug": 2
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

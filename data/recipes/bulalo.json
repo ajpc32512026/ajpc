@@ -1,13 +1,13 @@
 {
-  "id": "bulalo",
+  "id": "originalbulalo",
   "title": "Original Bulalo",
   "category": "Dinner",
+  "difficulty": "Intermediate",
   "description": "A rich, clear Filipino beef bone marrow soup from Batangas. Beef shanks are slow-boiled for hours until fall-off-the-bone tender, paired with corn, cabbage, and bok choy in a deeply flavourful broth.",
   "prepTime": "15 min",
   "cookTime": "3 hr 30 min",
   "totalTime": "3 hr 45 min",
   "servings": "4 servings",
-  "difficulty": "Intermediate",
   "tags": [
     "Filipino",
     "Beef",
@@ -166,36 +166,30 @@
       "content": "The broth keeps refrigerated for up to 4 days. The fat will solidify on top when cold — simply lift it off before reheating for a cleaner soup."
     }
   ],
-  "related": [
-    {
-      "id": "porkcaldereta",
-      "title": "Pork Caldereta"
-    },
-    {
-      "id": "filipinonoodles",
-      "title": "Pancit (Filipino Stir-Fried Noodles)"
-    },
-    {
-      "id": "pancitbihon",
-      "title": "Pancit Bihon"
-    },
-    {
-      "id": "filipinoportoccino",
-      "title": "Filipino Pork Toccino"
-    }
-  ],
   "nutrition": {
     "servings": 4,
-    "cal": 1016,
-    "kj": 4249,
-    "protein": 94,
-    "carbs": 41,
-    "sugars": 13,
-    "fat": 59,
-    "saturated_fat": 24,
-    "fibre": 8,
-    "sodium": 1413,
-    "coverage": 100
+    "cal": 783,
+    "kj": 3275,
+    "protein": 36,
+    "carbs": 118,
+    "sugars": 24,
+    "fat": 15,
+    "saturated_fat": 2.6,
+    "fiber": 29,
+    "sodium": 767,
+    "coverage": 100,
+    "foundCount": 11,
+    "totalCount": 11,
+    "unmatchedItems": [],
+    "calcium_mg": 210,
+    "iron_mg": 10,
+    "potassium_mg": 1784,
+    "magnesium_mg": 152,
+    "zinc_mg": 6,
+    "cholesterol_mg": 44,
+    "vitamin_a_ug": 1399,
+    "vitamin_c_mg": 68,
+    "vitamin_d_ug": 1
   },
-  "lastModified": "2026-05-19"
+  "lastModified": "2026-07-21"
 }

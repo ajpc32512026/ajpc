@@ -2,12 +2,12 @@
   "id": "beefvindaloo",
   "title": "Beef Vindaloo",
   "category": "Dinner",
+  "difficulty": "Intermediate",
   "description": "An authentic, fiery, melt-in-your-mouth beef curry that doesn't muck around.",
   "prepTime": "15 min",
   "cookTime": "1 hr",
   "totalTime": "1 hr 15 min",
   "servings": "4 servings",
-  "difficulty": "Intermediate",
   "tags": [
     "Beef",
     "Curry",
@@ -142,90 +142,23 @@
       "content": "The vindaloo paste recipe yields approximately 80–100 g — exactly the right amount for 1 kg of beef. Use the full batch."
     }
   ],
-  "related": [
-    {
-      "id": "vindaloopaste",
-      "title": "Vindaloo Paste",
-      "matchingTags": [
-        "Indian",
-        "Make Ahead",
-        "Savoury",
-        "Spicy",
-        "Vegan",
-        "Gluten-Free"
-      ]
-    },
-    {
-      "id": "lambvindaloo",
-      "title": "Lamb Vindaloo",
-      "matchingTags": [
-        "Curry",
-        "Dinner",
-        "Indian",
-        "Lamb",
-        "Make Ahead",
-        "Rich",
-        "Savoury",
-        "Slow-Cooked",
-        "Spicy"
-      ]
-    },
-    {
-      "id": "roganjosh",
-      "title": "Lamb Rogan Josh – Restaurant Style",
-      "matchingTags": [
-        "Curry",
-        "Dinner",
-        "Indian",
-        "Lamb",
-        "Rich",
-        "Savoury",
-        "Slow-Cooked",
-        "Spicy"
-      ]
-    },
-    {
-      "id": "butterchicken",
-      "title": "Restaurant-Style Butter Chicken",
-      "matchingTags": [
-        "Chicken",
-        "Creamy",
-        "Curry",
-        "Dinner",
-        "Indian",
-        "Rich",
-        "Savoury",
-        "Under 1 Hour"
-      ]
-    },
-    {
-      "id": "beefstockpot",
-      "title": "Beef Stock Pot",
-      "matchingTags": [
-        "Alcohol",
-        "Beef",
-        "Dinner",
-        "French",
-        "Hearty",
-        "Rich",
-        "Sauce",
-        "Savoury",
-        "Under 30 Minutes"
-      ]
-    }
-  ],
   "nutrition": {
     "servings": 4,
-    "cal": 617,
-    "kj": 2580,
+    "cal": 613,
+    "kj": 2566,
     "protein": 25,
-    "carbs": 77,
+    "carbs": 76,
     "sugars": 15,
     "fat": 19,
-    "saturated_fat": 3,
-    "fiber": 20,
-    "sodium": 333,
-    "coverage": 92,
+    "saturated_fat": 2.5,
+    "fiber": 19,
+    "sodium": 332,
+    "coverage": 91,
+    "foundCount": 10,
+    "totalCount": 11,
+    "unmatchedItems": [
+      "Red Chilli Powder"
+    ],
     "calcium_mg": 77,
     "iron_mg": 4,
     "potassium_mg": 1166,
@@ -236,5 +169,5 @@
     "vitamin_c_mg": 34,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-05-31"
+  "lastModified": "2026-07-21"
 }

@@ -2,12 +2,12 @@
   "id": "chickenshawarma",
   "title": "Chicken Shawarma",
   "category": "Dinner",
+  "difficulty": "Beginner",
   "description": "Quick stovetop Middle Eastern chicken, marinated with authentic spices and seared hot for charred, tender strips.",
   "prepTime": "15 min",
   "cookTime": "8 min",
   "totalTime": "1 hr 23 min",
   "servings": "4 servings",
-  "difficulty": "Beginner",
   "tags": [
     "Chicken",
     "Dinner",
@@ -113,37 +113,30 @@
       "content": "Inspired by traditional Middle Eastern shawarma techniques."
     }
   ],
-  "related": [
-    {
-      "id": "butterchicken",
-      "title": "Restaurant-Style Butter Chicken"
-    },
-    {
-      "id": "chickenteriyaki",
-      "title": "Chicken Teriyaki"
-    },
-    {
-      "id": "chickencacciatore",
-      "title": "Chicken Cacciatore"
-    },
-    {
-      "id": "mongolianbeef",
-      "title": "Mongolian Beef"
-    },
-    {
-      "id": "sweetsourpork",
-      "title": "Sweet & Sour Pork"
-    }
-  ],
   "nutrition": {
     "servings": 4,
-    "cal": 571,
-    "protein": 49,
-    "carbs": 52,
-    "fat": 21,
-    "fibre": 4,
-    "sodium": 471,
-    "coverage": 100
+    "cal": 454,
+    "kj": 1901,
+    "protein": 38,
+    "carbs": 16,
+    "sugars": 3,
+    "fat": 20,
+    "saturated_fat": 2.6,
+    "fiber": 26,
+    "sodium": 158,
+    "coverage": 100,
+    "foundCount": 10,
+    "totalCount": 10,
+    "unmatchedItems": [],
+    "calcium_mg": 62,
+    "iron_mg": 4,
+    "potassium_mg": 1306,
+    "magnesium_mg": 83,
+    "zinc_mg": 2,
+    "cholesterol_mg": 85,
+    "vitamin_a_ug": 39,
+    "vitamin_c_mg": 21,
+    "vitamin_d_ug": 1
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

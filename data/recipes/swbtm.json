@@ -1,13 +1,13 @@
 {
-  "id": "swbtm",
+  "id": "softwhitebreadtangzhongmethod",
   "title": "Soft White Bread (Tangzhong Method)",
   "category": "Baking",
+  "difficulty": "Intermediate",
   "description": "A soft, pale, everyday loaf that stays tender for days without milk, butter, or yellowing — thanks to the tangzhong technique.",
   "prepTime": "30 min",
   "cookTime": "30 min",
   "totalTime": "3 hr",
   "servings": "1 loaf",
-  "difficulty": "Intermediate",
   "tags": [
     "Bread",
     "Classic",
@@ -128,34 +128,27 @@
       "content": "For best results, weigh your tangzhong after cooking to ensure hydration is correct. It should weigh approximately 150–160 g."
     }
   ],
-  "related": [
-    {
-      "id": "swbtm2",
-      "title": "Soft White Bread 2 (Tangzhong)"
-    },
-    {
-      "id": "turkishbread",
-      "title": "Traditional Turkish Bread"
-    },
-    {
-      "id": "darkrye",
-      "title": "Dark Rye Bread"
-    },
-    {
-      "id": "sub",
-      "title": "Homemade Sub Buns"
-    }
-  ],
   "nutrition": {
     "servings": 1,
-    "cal": 2368,
-    "protein": 74,
-    "carbs": 441,
-    "fat": 27,
-    "fibre": 16,
-    "sodium": 3899,
-    "coverage": 100
+    "cal": 2319,
+    "kj": 9701,
+    "protein": 73,
+    "carbs": 428,
+    "sugars": 24,
+    "fat": 28,
+    "saturated_fat": 2.7,
+    "fiber": 18,
+    "sodium": 877,
+    "coverage": 100,
+    "foundCount": 7,
+    "totalCount": 7,
+    "unmatchedItems": [],
+    "calcium_mg": 138,
+    "iron_mg": 9,
+    "potassium_mg": 1167,
+    "magnesium_mg": 231,
+    "zinc_mg": 6,
+    "vitamin_a_ug": 1
   },
-  "cuisine": "Asian",
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

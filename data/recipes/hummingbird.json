@@ -1,13 +1,13 @@
 {
-  "id": "hummingbird",
+  "id": "hummingbirdcafestyle",
   "title": "Hummingbird — Cafe Style",
   "category": "Baking",
+  "difficulty": "Intermediate",
   "description": "A lush, old-fashioned Southern classic — moist, fragrant, packed with fruit, and crowned with cream cheese frosting.",
   "prepTime": "25 min",
   "cookTime": "1 hr 45 min",
   "totalTime": "2 hr 10 min",
   "servings": "16 slices",
-  "difficulty": "Intermediate",
   "tags": [
     "Banana",
     "Party",
@@ -38,7 +38,7 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Bi-Carb Soda"
+      "item": "Bi-carb Soda"
     },
     {
       "quantity": "6",
@@ -156,38 +156,30 @@
       "content": "Keep refrigerated due to the cream cheese frosting. Bring to room temperature before serving. The cake improves overnight as the flavours meld — it is even better on day two."
     }
   ],
-  "related": [
-    {
-      "id": "bananabread",
-      "title": "Banana Bread"
-    },
-    {
-      "id": "classiccarrotcake",
-      "title": "Classic Carrot Cake"
-    },
-    {
-      "id": "orangepoppyseed",
-      "title": "Orange & Poppy Seed Cake"
-    },
-    {
-      "id": "lemoncoconut",
-      "title": "Lemon Coconut Cake"
-    },
-    {
-      "id": "blueberrymuffins",
-      "title": "Heavenly Blueberry Muffins"
-    }
-  ],
   "nutrition": {
     "servings": 16,
-    "cal": 787,
-    "protein": 11,
-    "carbs": 74,
-    "fat": 52,
-    "fibre": 3,
-    "sodium": 242,
-    "coverage": 100
+    "cal": 977,
+    "kj": 4088,
+    "protein": 18,
+    "carbs": 78,
+    "sugars": 51,
+    "fat": 67,
+    "saturated_fat": 25.5,
+    "fiber": 5,
+    "sodium": 639,
+    "coverage": 100,
+    "foundCount": 14,
+    "totalCount": 14,
+    "unmatchedItems": [],
+    "calcium_mg": 313,
+    "iron_mg": 3,
+    "potassium_mg": 480,
+    "magnesium_mg": 69,
+    "zinc_mg": 2,
+    "cholesterol_mg": 410,
+    "vitamin_a_ug": 252,
+    "vitamin_c_mg": 4,
+    "vitamin_d_ug": 4
   },
-  "cuisine": "American / Modern",
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

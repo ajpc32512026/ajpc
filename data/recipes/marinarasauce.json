@@ -2,12 +2,12 @@
   "id": "marinarasauce",
   "title": "Marinara Sauce",
   "category": "Sauces",
+  "difficulty": "Beginner",
   "description": "A traditional Italian tomato sauce — fresh, herby, and full of character. Simple ingredients, perfect taste.",
   "prepTime": "10 min",
   "cookTime": "25 min",
   "totalTime": "35 min",
   "servings": "4 servings",
-  "difficulty": "Beginner",
   "tags": [
     "Classic",
     "Italian",
@@ -97,37 +97,28 @@
       "content": "A versatile sauce perfect for pasta, pizza, or as a base for other dishes. Freezes beautifully for up to 3 months."
     }
   ],
-  "related": [
-    {
-      "id": "redsauce",
-      "title": "Red Sauce"
-    },
-    {
-      "id": "arrabbiatasauce",
-      "title": "Arrabbiata Sauce"
-    },
-    {
-      "id": "alfredosauce",
-      "title": "Alfredo Sauce"
-    },
-    {
-      "id": "pestosauce",
-      "title": "Pesto Sauce"
-    },
-    {
-      "id": "whitesauce",
-      "title": "White Sauce (Béchamel)"
-    }
-  ],
   "nutrition": {
     "servings": 4,
-    "cal": 215,
+    "cal": 198,
+    "kj": 828,
     "protein": 6,
-    "carbs": 33,
-    "fat": 8,
-    "fibre": 4,
-    "sodium": 505,
-    "coverage": 100
+    "carbs": 15,
+    "sugars": 6,
+    "fat": 10,
+    "saturated_fat": 1.8,
+    "fiber": 16,
+    "sodium": 120,
+    "coverage": 100,
+    "foundCount": 8,
+    "totalCount": 8,
+    "unmatchedItems": [],
+    "calcium_mg": 67,
+    "iron_mg": 2,
+    "potassium_mg": 759,
+    "magnesium_mg": 42,
+    "zinc_mg": 1,
+    "vitamin_a_ug": 64,
+    "vitamin_c_mg": 27
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

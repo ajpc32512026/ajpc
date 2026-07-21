@@ -2,12 +2,12 @@
   "id": "honeygarlicsauce",
   "title": "Honey Garlic Sauce",
   "category": "Sauces",
+  "difficulty": "Beginner",
   "description": "A sweet and savoury Asian glaze — sticky, garlicky, and impossible to resist. A family favourite.",
   "prepTime": "5 min",
   "cookTime": "5 min",
   "totalTime": "10 min",
   "servings": "4 servings",
-  "difficulty": "Beginner",
   "tags": [
     "Garlic",
     "Sauce",
@@ -89,38 +89,28 @@
       "content": "Store in an airtight container in the refrigerator for up to 1 week. Reheat gently — the sauce will thicken when cold."
     }
   ],
-  "related": [
-    {
-      "id": "chilligarlicoil",
-      "title": "Chilli Garlic Oil"
-    },
-    {
-      "id": "sweetchillisauce",
-      "title": "Sweet Chilli Sauce"
-    },
-    {
-      "id": "teriyakisauce",
-      "title": "Teriyaki Sauce"
-    },
-    {
-      "id": "sweetspicyorangesauce",
-      "title": "Sweet & Spicy Orange Sauce"
-    },
-    {
-      "id": "mongoliansauce",
-      "title": "Mongolian Sauce"
-    }
-  ],
   "nutrition": {
     "servings": 4,
-    "cal": 229,
-    "protein": 8,
-    "carbs": 51,
-    "fat": 1,
-    "fibre": 2,
-    "sodium": 948,
-    "coverage": 100
+    "cal": 215,
+    "kj": 900,
+    "protein": 7,
+    "carbs": 32,
+    "sugars": 21,
+    "fat": 3,
+    "saturated_fat": 0.9,
+    "fiber": 17,
+    "sodium": 462,
+    "coverage": 100,
+    "foundCount": 6,
+    "totalCount": 6,
+    "unmatchedItems": [],
+    "calcium_mg": 33,
+    "iron_mg": 2,
+    "potassium_mg": 540,
+    "magnesium_mg": 30,
+    "zinc_mg": 1,
+    "vitamin_a_ug": 2,
+    "vitamin_c_mg": 11
   },
-  "cuisine": "Asian",
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

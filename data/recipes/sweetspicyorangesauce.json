@@ -2,12 +2,12 @@
   "id": "sweetspicyorangesauce",
   "title": "Sweet & Spicy Orange Sauce",
   "category": "Sauces",
+  "difficulty": "Beginner",
   "description": "A zesty Asian-inspired sauce — citrusy, fiery, and utterly moreish. Restaurant quality at home.",
   "prepTime": "5 min",
   "cookTime": "8 min",
   "totalTime": "13 min",
   "servings": "4 servings",
-  "difficulty": "Beginner",
   "tags": [
     "Orange",
     "Sauce",
@@ -78,38 +78,25 @@
       "content": "Adjust the chilli garlic sauce to taste. For milder heat, use half the amount. For extra fire, add a pinch of red chilli flakes."
     }
   ],
-  "related": [
-    {
-      "id": "sweetchillisauce",
-      "title": "Sweet Chilli Sauce"
-    },
-    {
-      "id": "teriyakisauce",
-      "title": "Teriyaki Sauce"
-    },
-    {
-      "id": "honeygarlicsauce",
-      "title": "Honey Garlic Sauce"
-    },
-    {
-      "id": "sweetsoursauce_quick",
-      "title": "Sweet & Sour Sauce – Quick Takeout Style"
-    },
-    {
-      "id": "chilligarlicoil",
-      "title": "Chilli Garlic Oil"
-    }
-  ],
   "nutrition": {
     "servings": 4,
-    "cal": 78,
+    "cal": 79,
+    "kj": 329,
     "protein": 1,
     "carbs": 19,
+    "sugars": 18,
     "fat": 0,
-    "fibre": 0,
-    "sodium": 500,
-    "coverage": 100
+    "saturated_fat": 0,
+    "fiber": 1,
+    "sodium": 228,
+    "coverage": 100,
+    "foundCount": 6,
+    "totalCount": 6,
+    "unmatchedItems": [],
+    "calcium_mg": 5,
+    "potassium_mg": 64,
+    "magnesium_mg": 4,
+    "vitamin_c_mg": 9
   },
-  "cuisine": "Asian",
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

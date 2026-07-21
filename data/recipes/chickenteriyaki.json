@@ -2,12 +2,12 @@
   "id": "chickenteriyaki",
   "title": "Chicken Teriyaki",
   "category": "Dinner",
+  "difficulty": "Beginner",
   "description": "Juicy, tender chicken marinated in a sweet-savoury teriyaki sauce — quick stovetop method for weeknights.",
   "prepTime": "15 min",
   "cookTime": "12 min",
   "totalTime": "1 hr 27 min",
   "servings": "2 servings",
-  "difficulty": "Beginner",
   "tags": [
     "Chicken",
     "Dinner",
@@ -108,37 +108,30 @@
       "content": "This also works on a hot grill or baked at 200°C for approximately 20 minutes. Brush reserved marinade during the last 5 minutes to create the glaze."
     }
   ],
-  "related": [
-    {
-      "id": "teriyakimarinade",
-      "title": "Teriyaki Marinade"
-    },
-    {
-      "id": "teriyakisauce",
-      "title": "Teriyaki Sauce"
-    },
-    {
-      "id": "bistro-thaichicken",
-      "title": "Thai Chicken"
-    },
-    {
-      "id": "mongolianbeef",
-      "title": "Mongolian Beef"
-    },
-    {
-      "id": "sweetsourpork",
-      "title": "Sweet & Sour Pork"
-    }
-  ],
   "nutrition": {
     "servings": 2,
-    "cal": 844,
-    "protein": 67,
-    "carbs": 108,
-    "fat": 17,
-    "fibre": 4,
-    "sodium": 2463,
-    "coverage": 100
+    "cal": 709,
+    "kj": 2967,
+    "protein": 49,
+    "carbs": 76,
+    "sugars": 60,
+    "fat": 15,
+    "saturated_fat": 2.6,
+    "fiber": 26,
+    "sodium": 1309,
+    "coverage": 100,
+    "foundCount": 8,
+    "totalCount": 8,
+    "unmatchedItems": [],
+    "calcium_mg": 60,
+    "iron_mg": 3,
+    "potassium_mg": 1479,
+    "magnesium_mg": 106,
+    "zinc_mg": 3,
+    "cholesterol_mg": 118,
+    "vitamin_a_ug": 13,
+    "vitamin_c_mg": 17,
+    "vitamin_d_ug": 2
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

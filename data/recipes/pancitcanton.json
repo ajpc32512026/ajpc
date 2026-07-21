@@ -2,12 +2,12 @@
   "id": "pancitcanton",
   "title": "Pancit Canton",
   "category": "Dinner",
+  "difficulty": "Intermediate",
   "description": "The chewy, savoury-sweet egg noodle version of Filipino Pancit. Richer than Bihon thanks to oyster sauce and Chinese sausage, with a satisfying bite from thick wheat noodles.",
   "prepTime": "15 min",
   "cookTime": "20 min",
   "totalTime": "35 min",
   "servings": "4 servings",
-  "difficulty": "Intermediate",
   "tags": [
     "Filipino",
     "Noodles",
@@ -166,33 +166,30 @@
       "content": "Combining half Bihon and half Canton noodles in one dish is popular and gives a great contrast of textures. Avoid cutting the noodles before serving — pancit symbolises long life."
     }
   ],
-  "related": [
-    {
-      "id": "pancitbihon",
-      "title": "Pancit Bihon"
-    },
-    {
-      "id": "filipinonoodles",
-      "title": "Pancit (Filipino Stir-Fried Noodles)"
-    },
-    {
-      "id": "porkcaldereta",
-      "title": "Pork Caldereta"
-    },
-    {
-      "id": "bulalo",
-      "title": "Original Bulalo"
-    }
-  ],
   "nutrition": {
     "servings": 4,
-    "cal": 843,
-    "protein": 53,
-    "carbs": 108,
+    "cal": 715,
+    "kj": 2992,
+    "protein": 39,
+    "carbs": 75,
+    "sugars": 27,
     "fat": 25,
-    "fibre": 11,
-    "sodium": 2435,
-    "coverage": 100
+    "saturated_fat": 8.2,
+    "fiber": 26,
+    "sodium": 2241,
+    "coverage": 100,
+    "foundCount": 15,
+    "totalCount": 15,
+    "unmatchedItems": [],
+    "calcium_mg": 137,
+    "iron_mg": 4,
+    "potassium_mg": 1241,
+    "magnesium_mg": 103,
+    "zinc_mg": 3,
+    "cholesterol_mg": 219,
+    "vitamin_a_ug": 561,
+    "vitamin_c_mg": 119,
+    "vitamin_d_ug": 1
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

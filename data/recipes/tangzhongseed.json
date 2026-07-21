@@ -1,13 +1,13 @@
 {
-  "id": "tangzhongseed",
+  "id": "tangzhonggrainseedbread",
   "title": "Tangzhong Grain & Seed Bread",
   "category": "Baking",
+  "difficulty": "Intermediate",
   "description": "A soft, generous loaf with the soul of old-world baking — built on modern tangzhong and a hearty, soaked grain-and-seed mix that gives depth without stealing moisture.",
   "prepTime": "45 min",
   "cookTime": "35 min",
   "totalTime": "3 hr 30 min",
   "servings": "1 large loaf",
-  "difficulty": "Intermediate",
   "tags": [
     "Bread",
     "Make Ahead",
@@ -233,34 +233,27 @@
       "content": "Do not worry if you are missing some seeds — use what you have. The total seed and grain weight should be around 145–150 g. Popular combinations include oats, sunflower, pumpkin, flax, and chia."
     }
   ],
-  "related": [
-    {
-      "id": "swbtm",
-      "title": "Soft White Bread (Tangzhong Method)"
-    },
-    {
-      "id": "darkrye",
-      "title": "Dark Rye Bread"
-    },
-    {
-      "id": "turkishbread",
-      "title": "Traditional Turkish Bread"
-    },
-    {
-      "id": "sub",
-      "title": "Homemade Sub Buns"
-    }
-  ],
   "nutrition": {
     "servings": 1,
-    "cal": 3045,
-    "protein": 99,
-    "carbs": 503,
-    "fat": 68,
-    "fibre": 40,
-    "sodium": 3925,
-    "coverage": 100
+    "cal": 2908,
+    "kj": 12166,
+    "protein": 96,
+    "carbs": 458,
+    "sugars": 30,
+    "fat": 66,
+    "saturated_fat": 7.9,
+    "fiber": 40,
+    "sodium": 954,
+    "coverage": 100,
+    "foundCount": 25,
+    "totalCount": 25,
+    "unmatchedItems": [],
+    "calcium_mg": 352,
+    "iron_mg": 16,
+    "potassium_mg": 1797,
+    "magnesium_mg": 509,
+    "zinc_mg": 10,
+    "vitamin_a_ug": 2
   },
-  "cuisine": "Asian",
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

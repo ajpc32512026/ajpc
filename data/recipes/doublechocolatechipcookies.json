@@ -2,13 +2,13 @@
   "id": "doublechocolatechipcookies",
   "title": "Double Chocolate Chip Cookies",
   "category": "Biscuits",
+  "difficulty": "Beginner",
   "description": "Because plain chocolate is for lightweights. Soft, fudgy, and packed with chocolate chips — perfect with a cold glass of milk.",
   "prepTime": "15 min",
   "cookTime": "12 min",
   "totalTime": "27 min",
   "servings": "24 cookies",
   "yieldPerBatch": "6",
-  "difficulty": "Beginner",
   "tags": [
     "Chocolate",
     "Classic",
@@ -61,7 +61,7 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Bi-Carb Soda"
+      "item": "Bi-carb Soda"
     },
     {
       "quantity": "3",
@@ -119,34 +119,29 @@
       "content": "Keep in an airtight container for up to 5 days. Cookie dough can be frozen in balls and baked from frozen — add 2 minutes to the baking time."
     }
   ],
-  "related": [
-    {
-      "id": "traditionalanzacbiscuits",
-      "title": "Traditional ANZAC Biscuits"
-    },
-    {
-      "id": "chocmuffins",
-      "title": "Chocolate Muffins with Ganache"
-    },
-    {
-      "id": "chocolaterumballs",
-      "title": "Chocolate Rum Balls"
-    },
-    {
-      "id": "bananabread",
-      "title": "Banana Bread"
-    }
-  ],
   "nutrition": {
     "servings": 24,
-    "cal": 315,
+    "cal": 312,
+    "kj": 1306,
     "protein": 4,
-    "carbs": 30,
-    "fat": 21,
-    "fibre": 2,
-    "sodium": 126,
-    "coverage": 100
+    "carbs": 25,
+    "sugars": 17,
+    "fat": 22,
+    "saturated_fat": 14,
+    "fiber": 1,
+    "sodium": 138,
+    "coverage": 100,
+    "foundCount": 11,
+    "totalCount": 11,
+    "unmatchedItems": [],
+    "calcium_mg": 29,
+    "iron_mg": 1,
+    "potassium_mg": 182,
+    "magnesium_mg": 25,
+    "zinc_mg": 1,
+    "cholesterol_mg": 130,
+    "vitamin_a_ug": 205,
+    "vitamin_d_ug": 1
   },
-  "cuisine": "American / Modern",
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

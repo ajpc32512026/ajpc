@@ -1,13 +1,13 @@
 {
-  "id": "focaccia-high",
+  "id": "highhydrationfocaccia",
   "title": "High-Hydration Focaccia",
   "category": "Baking",
+  "difficulty": "Beginner",
   "description": "A gloriously wet, no-knead focaccia with an open, airy crumb and crisp golden crust.",
   "prepTime": "20 min",
   "cookTime": "25 min",
   "totalTime": "3 hr 45 min",
   "servings": "8 slices",
-  "difficulty": "Beginner",
   "tags": [
     "Bread",
     "Italian",
@@ -113,37 +113,26 @@
       "content": "Focaccia is best on the day it is baked. Store leftovers in an airtight container for up to 2 days. Refresh in a warm oven to restore the crust."
     }
   ],
-  "related": [
-    {
-      "id": "focaccia",
-      "title": "Focaccia"
-    },
-    {
-      "id": "pizzadough",
-      "title": "Pizza Dough"
-    },
-    {
-      "id": "garlicbread",
-      "title": "Garlic Butter Crusty Bread"
-    },
-    {
-      "id": "darkrye",
-      "title": "Dark Rye Bread"
-    },
-    {
-      "id": "turkishbread",
-      "title": "Traditional Turkish Bread"
-    }
-  ],
   "nutrition": {
     "servings": 8,
-    "cal": 261,
+    "cal": 259,
+    "kj": 1083,
     "protein": 8,
-    "carbs": 45,
+    "carbs": 44,
+    "sugars": 2,
     "fat": 5,
-    "fibre": 2,
-    "sodium": 971,
-    "coverage": 100
+    "saturated_fat": 0.7,
+    "fiber": 2,
+    "sodium": 213,
+    "coverage": 100,
+    "foundCount": 6,
+    "totalCount": 6,
+    "unmatchedItems": [],
+    "calcium_mg": 17,
+    "iron_mg": 1,
+    "potassium_mg": 133,
+    "magnesium_mg": 26,
+    "zinc_mg": 1
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

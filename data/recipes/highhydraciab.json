@@ -1,13 +1,13 @@
 {
-  "id": "highhydraciab",
+  "id": "airyhighhydrationciabatta",
   "title": "Airy High-Hydration Ciabatta",
   "category": "Baking",
+  "difficulty": "Intermediate",
   "description": "Soft, open-crumb Italian bread using a liquid-dough method. Big holes, crisp crust, zero nonsense.",
   "prepTime": "30 min",
   "cookTime": "25 min",
   "totalTime": "3 hr 10 min",
   "servings": "6 rolls",
-  "difficulty": "Intermediate",
   "tags": [
     "Bread",
     "Italian",
@@ -130,37 +130,26 @@
       "content": "Do not punch down the dough when shaping. The large air bubbles are what give ciabatta its characteristic open crumb. Handle it gently and only fold, never knead."
     }
   ],
-  "related": [
-    {
-      "id": "focaccia-high",
-      "title": "High-Hydration Focaccia"
-    },
-    {
-      "id": "turkishbread",
-      "title": "Traditional Turkish Bread"
-    },
-    {
-      "id": "pizzadough",
-      "title": "Pizza Dough"
-    },
-    {
-      "id": "sub",
-      "title": "Homemade Sub Buns"
-    },
-    {
-      "id": "garlicbread",
-      "title": "Garlic Butter Crusty Bread"
-    }
-  ],
   "nutrition": {
     "servings": 6,
-    "cal": 713,
-    "protein": 21,
-    "carbs": 126,
+    "cal": 695,
+    "kj": 2908,
+    "protein": 20,
+    "carbs": 122,
+    "sugars": 6,
     "fat": 12,
-    "fibre": 4,
-    "sodium": 327,
-    "coverage": 100
+    "saturated_fat": 1.8,
+    "fiber": 5,
+    "sodium": 77,
+    "coverage": 100,
+    "foundCount": 7,
+    "totalCount": 7,
+    "unmatchedItems": [],
+    "calcium_mg": 37,
+    "iron_mg": 2,
+    "potassium_mg": 309,
+    "magnesium_mg": 64,
+    "zinc_mg": 2
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

@@ -1,13 +1,13 @@
 {
-  "id": "nachomince",
+  "id": "seasonedbeefmincenachostacos",
   "title": "Seasoned Beef Mince — Nachos & Tacos",
   "category": "Dinner",
+  "difficulty": "Beginner",
   "description": "The foundation of great nachos and tacos — a rich, deeply seasoned beef mince that holds its own under cheese, sour cream, and all the toppings.",
   "prepTime": "10 min",
   "cookTime": "20 min",
   "totalTime": "30 min",
   "servings": "4 servings",
-  "difficulty": "Beginner",
   "tags": [
     "Beef",
     "Dinner",
@@ -133,37 +133,30 @@
       "content": "The beef mince reheats beautifully. Make a double batch, refrigerate for up to 3 days, or freeze in portions for up to 3 months. Reheat in a pan with a splash of water to loosen."
     }
   ],
-  "related": [
-    {
-      "id": "tacoseasoning",
-      "title": "Taco Seasoning"
-    },
-    {
-      "id": "beefvindaloo",
-      "title": "Beef Vindaloo"
-    },
-    {
-      "id": "lasagne",
-      "title": "Classic Lasagne"
-    },
-    {
-      "id": "mongolianbeef",
-      "title": "Mongolian Beef Stir-Fry"
-    },
-    {
-      "id": "chickenshawarma",
-      "title": "Chicken Shawarma"
-    }
-  ],
   "nutrition": {
     "servings": 4,
-    "cal": 520,
-    "protein": 39,
-    "carbs": 35,
-    "fat": 27,
-    "fibre": 7,
-    "sodium": 2596,
-    "coverage": 100
+    "cal": 378,
+    "kj": 1582,
+    "protein": 35,
+    "carbs": 22,
+    "sugars": 7,
+    "fat": 15,
+    "saturated_fat": 4.3,
+    "fiber": 15,
+    "sodium": 2263,
+    "coverage": 100,
+    "foundCount": 9,
+    "totalCount": 9,
+    "unmatchedItems": [],
+    "calcium_mg": 46,
+    "iron_mg": 3,
+    "potassium_mg": 1082,
+    "magnesium_mg": 66,
+    "zinc_mg": 4,
+    "cholesterol_mg": 95,
+    "vitamin_a_ug": 65,
+    "vitamin_c_mg": 22,
+    "vitamin_d_ug": 2
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

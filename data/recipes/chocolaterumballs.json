@@ -2,12 +2,12 @@
   "id": "chocolaterumballs",
   "title": "Chocolate Rum Balls",
   "category": "Desserts",
+  "difficulty": "Beginner",
   "description": "Quick, fun, and dangerously delicious — the ultimate no-bake chocolate treat.",
   "prepTime": "20 min",
   "cookTime": "0 min",
   "totalTime": "2 hr 20 min",
   "servings": "24 balls",
-  "difficulty": "Beginner",
   "tags": [
     "Alcohol",
     "Chocolate",
@@ -92,33 +92,27 @@
       "content": "Keep refrigerated in an airtight container for up to 2 weeks. The flavour deepens after a day or two."
     }
   ],
-  "related": [
-    {
-      "id": "lamington",
-      "title": "Classic Lamingtons"
-    },
-    {
-      "id": "chocolatemousse",
-      "title": "Chocolate Mousse"
-    },
-    {
-      "id": "theultimatechocolatemudcake",
-      "title": "The Ultimate Chocolate Mud Cake"
-    },
-    {
-      "id": "tiramisu",
-      "title": "Tiramisu Gateau"
-    }
-  ],
   "nutrition": {
     "servings": 24,
-    "cal": 70,
-    "protein": 1,
-    "carbs": 6,
+    "cal": 90,
+    "kj": 375,
+    "protein": 3,
+    "carbs": 14,
+    "sugars": 4,
     "fat": 2,
-    "fibre": 1,
-    "sodium": 3,
-    "coverage": 100
+    "saturated_fat": 0.9,
+    "fiber": 1,
+    "sodium": 107,
+    "coverage": 100,
+    "foundCount": 5,
+    "totalCount": 5,
+    "unmatchedItems": [],
+    "calcium_mg": 25,
+    "iron_mg": 1,
+    "potassium_mg": 133,
+    "magnesium_mg": 21,
+    "cholesterol_mg": 3,
+    "vitamin_a_ug": 6
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

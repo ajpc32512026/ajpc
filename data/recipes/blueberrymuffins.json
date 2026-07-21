@@ -1,5 +1,5 @@
 {
-  "id": "blueberrymuffins",
+  "id": "heavenlyblueberrymuffins",
   "title": "Heavenly Blueberry Muffins",
   "category": "Baking",
   "difficulty": "Beginner",
@@ -139,6 +139,9 @@
     "fiber": 1,
     "sodium": 118,
     "coverage": 100,
+    "foundCount": 11,
+    "totalCount": 11,
+    "unmatchedItems": [],
     "calcium_mg": 64,
     "iron_mg": 1,
     "potassium_mg": 220,
@@ -149,5 +152,5 @@
     "vitamin_c_mg": 1,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-06-04"
+  "lastModified": "2026-07-21"
 }

@@ -1,13 +1,13 @@
 {
-  "id": "sausageroll",
+  "id": "classicaussiesausagerolls",
   "title": "Classic Aussie Sausage Rolls",
   "category": "Dinner",
+  "difficulty": "Beginner",
   "description": "The Aussie snack king — perfect for footy days, picnics, or anytime hunger strikes.",
   "prepTime": "20 min",
   "cookTime": "30 min",
   "totalTime": "50 min",
   "servings": "12 rolls",
-  "difficulty": "Beginner",
   "tags": [
     "Australian",
     "Baked",
@@ -110,29 +110,30 @@
       "content": "Assemble rolls unbaked and freeze on a tray. Once frozen, transfer to a bag. Bake from frozen, adding 10 minutes to the cooking time."
     }
   ],
-  "related": [
-    {
-      "id": "meatpie",
-      "title": "Classic Aussie Meat Pies"
-    },
-    {
-      "id": "sweetsourpork",
-      "title": "Sweet & Sour Pork"
-    },
-    {
-      "id": "nachomince",
-      "title": "Seasoned Beef Mince — Nachos & Tacos"
-    }
-  ],
   "nutrition": {
     "servings": 12,
-    "cal": 234,
-    "protein": 14,
-    "carbs": 14,
-    "fat": 13,
-    "fibre": 1,
-    "sodium": 291,
-    "coverage": 100
+    "cal": 192,
+    "kj": 804,
+    "protein": 13,
+    "carbs": 10,
+    "sugars": 2,
+    "fat": 11,
+    "saturated_fat": 5.1,
+    "fiber": 1,
+    "sodium": 130,
+    "coverage": 100,
+    "foundCount": 9,
+    "totalCount": 9,
+    "unmatchedItems": [],
+    "calcium_mg": 20,
+    "iron_mg": 1,
+    "potassium_mg": 220,
+    "magnesium_mg": 19,
+    "zinc_mg": 1,
+    "cholesterol_mg": 112,
+    "vitamin_a_ug": 195,
+    "vitamin_c_mg": 1,
+    "vitamin_d_ug": 2
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

@@ -2,12 +2,12 @@
   "id": "mongolianlamb",
   "title": "Mongolian Lamb",
   "category": "Dinner",
+  "difficulty": "Intermediate",
   "description": "A sweet and savoury stir-fry with tender lamb, Chinese Five Spice, and Hoisin — even better than many restaurant versions.",
   "prepTime": "15 min",
   "cookTime": "10 min",
   "totalTime": "2 hr 25 min",
   "servings": "2 servings",
-  "difficulty": "Intermediate",
   "tags": [
     "Alcohol",
     "Chinese",
@@ -29,7 +29,7 @@
     {
       "quantity": "2",
       "unit": "g",
-      "item": "Bi-Carb Soda"
+      "item": "Bi-carb Soda"
     },
     {
       "quantity": "5",
@@ -163,37 +163,30 @@
       "content": "Tender cuts like lamb backstrap need only 2 hours. Economical cuts benefit from an overnight marinade — the longer the better."
     }
   ],
-  "related": [
-    {
-      "id": "mongolianbeef",
-      "title": "Mongolian Beef Stir-Fry"
-    },
-    {
-      "id": "mongoliansauce",
-      "title": "Mongolian Stir-Fry Sauce"
-    },
-    {
-      "id": "sweetsourpork",
-      "title": "Sweet & Sour Pork"
-    },
-    {
-      "id": "chickenshawarma",
-      "title": "Chicken Shawarma"
-    },
-    {
-      "id": "beefstockpot",
-      "title": "Beef Stock Pot"
-    }
-  ],
   "nutrition": {
     "servings": 2,
-    "cal": 1008,
-    "protein": 48,
-    "carbs": 74,
-    "fat": 58,
-    "fibre": 9,
-    "sodium": 1984,
-    "coverage": 100
+    "cal": 749,
+    "kj": 3134,
+    "protein": 47,
+    "carbs": 48,
+    "sugars": 28,
+    "fat": 34,
+    "saturated_fat": 6.5,
+    "fiber": 23,
+    "sodium": 1529,
+    "coverage": 100,
+    "foundCount": 17,
+    "totalCount": 17,
+    "unmatchedItems": [],
+    "calcium_mg": 111,
+    "iron_mg": 6,
+    "potassium_mg": 1370,
+    "magnesium_mg": 91,
+    "zinc_mg": 8,
+    "cholesterol_mg": 105,
+    "vitamin_a_ug": 233,
+    "vitamin_c_mg": 79,
+    "vitamin_d_ug": 1
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

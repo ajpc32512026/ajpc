@@ -2,12 +2,12 @@
   "id": "lemonmeringuepie",
   "title": "Lemon Meringue Pie",
   "category": "Desserts",
+  "difficulty": "Intermediate",
   "description": "A classic tart with buttery pastry, tangy lemon filling, and light fluffy meringue topping.",
   "prepTime": "45 min",
   "cookTime": "25 min",
   "totalTime": "1 hr 10 min",
   "servings": "8 servings",
-  "difficulty": "Intermediate",
   "tags": [
     "Baked",
     "Classic",
@@ -164,33 +164,30 @@
       "content": "The Australian Women's Weekly Home Library — Sweet Old-Fashioned Favourites, page 71."
     }
   ],
-  "related": [
-    {
-      "id": "bistro-profiteroles",
-      "title": "Profiteroles"
-    },
-    {
-      "id": "lemoncoconut",
-      "title": "Lemon Coconut Cake"
-    },
-    {
-      "id": "roulade",
-      "title": "Strawberry Meringue Roulade"
-    },
-    {
-      "id": "tiramisu",
-      "title": "Tiramisu Gateau"
-    }
-  ],
   "nutrition": {
     "servings": 8,
-    "cal": 586,
-    "protein": 14,
-    "carbs": 70,
-    "fat": 28,
-    "fibre": 1,
-    "sodium": 125,
-    "coverage": 100
+    "cal": 616,
+    "kj": 2577,
+    "protein": 19,
+    "carbs": 66,
+    "sugars": 40,
+    "fat": 31,
+    "saturated_fat": 17.2,
+    "fiber": 1,
+    "sodium": 192,
+    "coverage": 100,
+    "foundCount": 12,
+    "totalCount": 12,
+    "unmatchedItems": [],
+    "calcium_mg": 65,
+    "iron_mg": 2,
+    "potassium_mg": 246,
+    "magnesium_mg": 27,
+    "zinc_mg": 1,
+    "cholesterol_mg": 539,
+    "vitamin_a_ug": 371,
+    "vitamin_c_mg": 7,
+    "vitamin_d_ug": 7
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

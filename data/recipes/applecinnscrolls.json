@@ -1,14 +1,14 @@
 {
-  "id": "applecinnscrolls",
+  "id": "applecinnamonscrolls",
   "title": "Apple & Cinnamon Scrolls",
   "category": "Baking",
+  "difficulty": "Intermediate",
   "description": "Golden, fragrant, and guaranteed to vanish fast. Best enjoyed warm and unapologetically drowned in icing.",
   "prepTime": "30 min",
   "cookTime": "25 min",
   "totalTime": "55 min",
   "servings": "12 scrolls",
   "yieldPerBatch": "12 Scrolls",
-  "difficulty": "Intermediate",
   "tags": [
     "Apple",
     "Bread",
@@ -183,92 +183,29 @@
       "content": "Walnuts can be swapped for pecans for a sweeter, softer crunch."
     }
   ],
-  "related": [
-    {
-      "id": "bananabread",
-      "title": "Banana Bread",
-      "matchingTags": [
-        "Baked",
-        "Breakfast",
-        "Vegetarian",
-        "Sweet",
-        "Snack",
-        "Banana",
-        "Bread",
-        "Classic",
-        "Make Ahead",
-        "Rich"
-      ]
-    },
-    {
-      "id": "applepie",
-      "title": "Apple Pie",
-      "matchingTags": [
-        "Apple",
-        "Classic",
-        "Dessert",
-        "Make Ahead",
-        "Pastry",
-        "Rich",
-        "Sweet",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "swbtm",
-      "title": "Soft White Bread (Tangzhong Method)",
-      "matchingTags": [
-        "Bread",
-        "Classic",
-        "Make Ahead",
-        "Vegan"
-      ]
-    },
-    {
-      "id": "blueberrymuffins",
-      "title": "Heavenly Blueberry Muffins",
-      "matchingTags": [
-        "Baked",
-        "Breakfast",
-        "Sweet",
-        "Under 1 Hour",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "chocmuffins",
-      "title": "Chocolate Muffins with Ganache",
-      "matchingTags": [
-        "Baked",
-        "Chocolate",
-        "Rich",
-        "Sweet",
-        "Under 1 Hour",
-        "Vegetarian"
-      ]
-    }
-  ],
   "nutrition": {
     "servings": 12,
-    "cal": 361,
-    "kj": 1509,
-    "protein": 8,
-    "carbs": 43,
-    "sugars": 18,
+    "cal": 439,
+    "kj": 1837,
+    "protein": 9,
+    "carbs": 59,
+    "sugars": 35,
     "fat": 18,
-    "saturated_fat": 7,
-    "fiber": 2,
-    "sodium": 116,
+    "saturated_fat": 7.3,
+    "fiber": 4,
+    "sodium": 153,
     "coverage": 100,
-    "calcium_mg": 59,
-    "iron_mg": 1,
-    "potassium_mg": 208,
-    "magnesium_mg": 28,
+    "foundCount": 20,
+    "totalCount": 20,
+    "unmatchedItems": [],
+    "calcium_mg": 69,
+    "iron_mg": 2,
+    "potassium_mg": 400,
+    "magnesium_mg": 36,
     "zinc_mg": 1,
-    "cholesterol_mg": 138,
-    "vitamin_a_ug": 139,
-    "vitamin_c_mg": 2,
+    "cholesterol_mg": 188,
+    "vitamin_a_ug": 151,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-05-31"
+  "lastModified": "2026-07-21"
 }

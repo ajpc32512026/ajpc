@@ -1,13 +1,13 @@
 {
-  "id": "sweetsoursauce_quick",
+  "id": "sweetsoursaucequicktakeoutstyle",
   "title": "Sweet & Sour Sauce – Quick Takeout Style",
   "category": "Sauces",
+  "difficulty": "Beginner",
   "description": "Fast, tangy, sweet, and irresistibly familiar — your shortcut to classic Chinese takeout flavour at home.",
   "prepTime": "5 min",
   "cookTime": "5 min",
   "totalTime": "10 min",
   "servings": "6 servings",
-  "difficulty": "Beginner",
   "tags": [
     "Chinese",
     "Sauce",
@@ -77,37 +77,27 @@
       "content": "Perfect with fried chicken, pork, or prawns. Also great as a dipping sauce for spring rolls or drizzled over stir-fried vegetables."
     }
   ],
-  "related": [
-    {
-      "id": "sweetsoursauce_flex",
-      "title": "Sweet & Sour Sauce – Home Chef Flex"
-    },
-    {
-      "id": "sweetsourpork",
-      "title": "Better Than Takeaway Sweet & Sour Pork"
-    },
-    {
-      "id": "teriyakisauce",
-      "title": "Teriyaki Sauce"
-    },
-    {
-      "id": "sweetchillisauce",
-      "title": "Sweet Chilli Sauce"
-    },
-    {
-      "id": "sweetspicyorangesauce",
-      "title": "Sweet & Spicy Orange Sauce"
-    }
-  ],
   "nutrition": {
     "servings": 6,
-    "cal": 91,
-    "protein": 0,
-    "carbs": 22,
+    "cal": 95,
+    "kj": 399,
+    "protein": 1,
+    "carbs": 23,
+    "sugars": 19,
     "fat": 0,
-    "fibre": 0,
-    "sodium": 207,
-    "coverage": 100
+    "saturated_fat": 0.1,
+    "fiber": 0,
+    "sodium": 99,
+    "coverage": 100,
+    "foundCount": 6,
+    "totalCount": 6,
+    "unmatchedItems": [],
+    "calcium_mg": 4,
+    "potassium_mg": 33,
+    "magnesium_mg": 4,
+    "cholesterol_mg": 1,
+    "vitamin_a_ug": 2,
+    "vitamin_c_mg": 1
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

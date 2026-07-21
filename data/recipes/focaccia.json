@@ -2,12 +2,12 @@
   "id": "focaccia",
   "title": "Focaccia",
   "category": "Baking",
+  "difficulty": "Intermediate",
   "description": "A classic Italian flatbread studded with olives and rosemary, baked until golden and crisp.",
   "prepTime": "50 min",
   "cookTime": "25 min",
   "totalTime": "2 hr 15 min",
   "servings": "1 flat loaf",
-  "difficulty": "Intermediate",
   "tags": [
     "Bread",
     "Italian",
@@ -145,37 +145,29 @@
       "content": "Adapted from The Essential Vegetarian Cook Book, published by Murdoch Books."
     }
   ],
-  "related": [
-    {
-      "id": "focaccia-high",
-      "title": "High-Hydration Focaccia"
-    },
-    {
-      "id": "garlicbread",
-      "title": "Garlic Butter Crusty Bread"
-    },
-    {
-      "id": "pizzadough",
-      "title": "Pizza Dough"
-    },
-    {
-      "id": "turkishbread",
-      "title": "Traditional Turkish Bread"
-    },
-    {
-      "id": "darkrye",
-      "title": "Dark Rye Bread"
-    }
-  ],
   "nutrition": {
     "servings": 1,
-    "cal": 5430,
-    "protein": 91,
-    "carbs": 493,
-    "fat": 355,
-    "fibre": 87,
-    "sodium": 15855,
-    "coverage": 100
+    "cal": 5319,
+    "kj": 22254,
+    "protein": 97,
+    "carbs": 376,
+    "sugars": 66,
+    "fat": 347,
+    "saturated_fat": 56.1,
+    "fiber": 171,
+    "sodium": 18396,
+    "coverage": 100,
+    "foundCount": 12,
+    "totalCount": 12,
+    "unmatchedItems": [],
+    "calcium_mg": 3550,
+    "iron_mg": 89,
+    "potassium_mg": 4919,
+    "magnesium_mg": 802,
+    "zinc_mg": 16,
+    "cholesterol_mg": 4,
+    "vitamin_a_ug": 689,
+    "vitamin_c_mg": 146
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

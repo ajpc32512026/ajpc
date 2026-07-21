@@ -2,13 +2,13 @@
   "id": "chocolatemugcake",
   "title": "Chocolate Mug Cake",
   "category": "Desserts",
+  "difficulty": "Beginner",
   "description": "A single-serve chocolate cake made in a mug, ready in under 2 minutes. Perfect for late-night cravings.",
   "prepTime": "2 min",
   "cookTime": "1 min 30 sec",
   "totalTime": "3 min 30 sec",
   "servings": "1",
   "yieldPerBatch": "1 large mug cake",
-  "difficulty": "Beginner",
   "tags": [
     "Chocolate",
     "Dessert",
@@ -105,29 +105,29 @@
       "content": "Omit the egg and increase milk to 60ml and oil to 30ml."
     }
   ],
-  "related": [
-    {
-      "id": "chocolatemousse",
-      "title": "Chocolate Mousse"
-    },
-    {
-      "id": "chocmuffins",
-      "title": "Chocolate Muffins"
-    },
-    {
-      "id": "theultimatechocolatemudcake",
-      "title": "The Ultimate Chocolate Mud Cake"
-    }
-  ],
   "nutrition": {
     "servings": 1,
-    "cal": 780,
-    "protein": 23,
-    "carbs": 102,
-    "fat": 35,
-    "fibre": 7,
-    "sodium": 374,
-    "coverage": 100
+    "cal": 828,
+    "kj": 3466,
+    "protein": 35,
+    "carbs": 85,
+    "sugars": 48,
+    "fat": 38,
+    "saturated_fat": 9.4,
+    "fiber": 5,
+    "sodium": 471,
+    "coverage": 100,
+    "foundCount": 9,
+    "totalCount": 9,
+    "unmatchedItems": [],
+    "calcium_mg": 182,
+    "iron_mg": 9,
+    "potassium_mg": 1264,
+    "magnesium_mg": 136,
+    "zinc_mg": 4,
+    "cholesterol_mg": 986,
+    "vitamin_a_ug": 310,
+    "vitamin_d_ug": 12
   },
-  "lastModified": "2026-05-13"
+  "lastModified": "2026-07-21"
 }

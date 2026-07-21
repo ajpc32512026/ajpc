@@ -2,12 +2,12 @@
   "id": "pancitbihon",
   "title": "Pancit Bihon",
   "category": "Dinner",
+  "difficulty": "Intermediate",
   "description": "The light, thin rice noodle version most people associate with Filipino Pancit. A birthday table staple symbolising long life, best served with a squeeze of calamansi.",
   "prepTime": "15 min",
   "cookTime": "20 min",
   "totalTime": "45 min",
   "servings": "4 servings",
-  "difficulty": "Intermediate",
   "tags": [
     "Filipino",
     "Noodles",
@@ -160,33 +160,30 @@
       "content": "You can use all pork, all chicken, or add small shrimp for variety. Leftover rotisserie chicken works well here."
     }
   ],
-  "related": [
-    {
-      "id": "pancitcanton",
-      "title": "Pancit Canton"
-    },
-    {
-      "id": "filipinonoodles",
-      "title": "Pancit (Filipino Stir-Fried Noodles)"
-    },
-    {
-      "id": "porkcaldereta",
-      "title": "Pork Caldereta"
-    },
-    {
-      "id": "bulalo",
-      "title": "Original Bulalo"
-    }
-  ],
   "nutrition": {
     "servings": 4,
-    "cal": 569,
-    "protein": 47,
-    "carbs": 75,
-    "fat": 11,
-    "fibre": 11,
-    "sodium": 1727,
-    "coverage": 100
+    "cal": 645,
+    "kj": 2698,
+    "protein": 34,
+    "carbs": 94,
+    "sugars": 22,
+    "fat": 10,
+    "saturated_fat": 2.9,
+    "fiber": 26,
+    "sodium": 1216,
+    "coverage": 100,
+    "foundCount": 14,
+    "totalCount": 14,
+    "unmatchedItems": [],
+    "calcium_mg": 110,
+    "iron_mg": 3,
+    "potassium_mg": 1378,
+    "magnesium_mg": 94,
+    "zinc_mg": 3,
+    "cholesterol_mg": 49,
+    "vitamin_a_ug": 545,
+    "vitamin_c_mg": 51,
+    "vitamin_d_ug": 1
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

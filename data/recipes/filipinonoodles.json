@@ -1,13 +1,13 @@
 {
-  "id": "filipinonoodles",
+  "id": "pancitfilipinostirfriednoodles",
   "title": "Pancit (Filipino Stir-Fried Noodles)",
   "category": "Dinner",
+  "difficulty": "Intermediate",
   "description": "A vibrant, savoury noodle dish with pork, chicken, and crisp vegetables — classic Filipino comfort food.",
   "prepTime": "20 min",
   "cookTime": "20 min",
   "totalTime": "40 min",
   "servings": "6 servings",
-  "difficulty": "Intermediate",
   "tags": [
     "Chicken",
     "Dairy-Free",
@@ -176,37 +176,30 @@
       "content": "For a more colourful dish, add capsicum or snow peas. Adjust seasoning with soy sauce or fish sauce to taste. Serve immediately for the best texture."
     }
   ],
-  "related": [
-    {
-      "id": "filipinoportoccino",
-      "title": "Filipino Pork Toccino"
-    },
-    {
-      "id": "pancitbihon",
-      "title": "Pancit Bihon"
-    },
-    {
-      "id": "pancitcanton",
-      "title": "Pancit Canton"
-    },
-    {
-      "id": "chickenshawarma",
-      "title": "Chicken Shawarma"
-    },
-    {
-      "id": "mongolianbeef",
-      "title": "Mongolian Beef"
-    }
-  ],
   "nutrition": {
     "servings": 6,
-    "cal": 643,
-    "protein": 40,
-    "carbs": 67,
-    "fat": 24,
-    "fibre": 5,
-    "sodium": 1824,
-    "coverage": 100
+    "cal": 485,
+    "kj": 2030,
+    "protein": 30,
+    "carbs": 36,
+    "sugars": 16,
+    "fat": 21,
+    "saturated_fat": 3.6,
+    "fiber": 16,
+    "sodium": 1423,
+    "coverage": 100,
+    "foundCount": 18,
+    "totalCount": 18,
+    "unmatchedItems": [],
+    "calcium_mg": 107,
+    "iron_mg": 3,
+    "potassium_mg": 1129,
+    "magnesium_mg": 78,
+    "zinc_mg": 3,
+    "cholesterol_mg": 98,
+    "vitamin_a_ug": 646,
+    "vitamin_c_mg": 38,
+    "vitamin_d_ug": 1
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

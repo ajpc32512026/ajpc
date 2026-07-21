@@ -2,12 +2,12 @@
   "id": "chocolatemousse",
   "title": "Chocolate Mousse",
   "category": "Desserts",
+  "difficulty": "Intermediate",
   "description": "The essence of a mousse is lightness, indicated by its French name meaning foam or froth. This favourite is delicate yet rich with cream and chocolate.",
   "prepTime": "10 min",
   "cookTime": "5 min",
   "totalTime": "15 min",
   "servings": "6 servings",
-  "difficulty": "Intermediate",
   "tags": [
     "Chocolate",
     "Creamy",
@@ -98,33 +98,29 @@
       "content": "Adapted from The Australian Women's Weekly Home Library — Sweet Old-Fashioned Favourites, page 34."
     }
   ],
-  "related": [
-    {
-      "id": "bistro-profiteroles",
-      "title": "Profiteroles"
-    },
-    {
-      "id": "tiramisu",
-      "title": "Tiramisu Gateau"
-    },
-    {
-      "id": "chocmuffins",
-      "title": "Chocolate Muffins with Ganache"
-    },
-    {
-      "id": "chocolaterumballs",
-      "title": "Chocolate Rum Balls"
-    }
-  ],
   "nutrition": {
     "servings": 6,
-    "cal": 465,
-    "protein": 10,
-    "carbs": 22,
-    "fat": 38,
-    "fibre": 2,
-    "sodium": 96,
-    "coverage": 100
+    "cal": 493,
+    "kj": 2063,
+    "protein": 15,
+    "carbs": 12,
+    "sugars": 10,
+    "fat": 44,
+    "saturated_fat": 25.1,
+    "fiber": 0,
+    "sodium": 261,
+    "coverage": 100,
+    "foundCount": 4,
+    "totalCount": 4,
+    "unmatchedItems": [],
+    "calcium_mg": 91,
+    "iron_mg": 3,
+    "potassium_mg": 261,
+    "magnesium_mg": 30,
+    "zinc_mg": 2,
+    "cholesterol_mg": 603,
+    "vitamin_a_ug": 383,
+    "vitamin_d_ug": 7
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

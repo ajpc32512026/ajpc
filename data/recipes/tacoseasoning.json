@@ -1,13 +1,13 @@
 {
-  "id": "tacoseasoning",
+  "id": "tacoseasoningoldelpasostylefromscratch",
   "title": "Taco Seasoning — Old El Paso Style (From Scratch)",
   "category": "Sauces",
+  "difficulty": "Beginner",
   "description": "A homemade taco seasoning that replicates the Old El Paso packet blend — but fresher, deeper, and completely under your control. One batch equals roughly one standard 35 g packet.",
   "prepTime": "5 min",
   "cookTime": "0 min",
   "totalTime": "5 min",
   "servings": "1 batch",
-  "difficulty": "Beginner",
   "tags": [
     "Make Ahead",
     "Mexican",
@@ -109,37 +109,30 @@
       "content": "To make a bulk jar, multiply everything by 4 or 6 and store. Use 2 heaped tablespoons per 500 g of mince — same as the packet instructions."
     }
   ],
-  "related": [
-    {
-      "id": "nachomince",
-      "title": "Seasoned Beef Mince — Nachos & Tacos"
-    },
-    {
-      "id": "chilligarlicoil",
-      "title": "Chilli Garlic Oil"
-    },
-    {
-      "id": "sweetchillisauce",
-      "title": "Sweet Chilli Sauce"
-    },
-    {
-      "id": "mongoliansauce",
-      "title": "Mongolian Stir-Fry Sauce"
-    },
-    {
-      "id": "honeygarlicsauce",
-      "title": "Honey Garlic Sauce"
-    }
-  ],
   "nutrition": {
     "servings": 1,
-    "cal": 110,
+    "cal": 112,
+    "kj": 470,
     "protein": 4,
-    "carbs": 22,
+    "carbs": 13,
+    "sugars": 3,
     "fat": 3,
-    "fibre": 8,
-    "sodium": 1960,
-    "coverage": 100
+    "saturated_fat": 0.4,
+    "fiber": 9,
+    "sodium": 439,
+    "coverage": 90,
+    "foundCount": 9,
+    "totalCount": 10,
+    "unmatchedItems": [
+      "Red Chilli Powder"
+    ],
+    "calcium_mg": 191,
+    "iron_mg": 8,
+    "potassium_mg": 416,
+    "magnesium_mg": 69,
+    "zinc_mg": 1,
+    "vitamin_a_ug": 235,
+    "vitamin_c_mg": 2
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

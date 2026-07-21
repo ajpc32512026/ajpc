@@ -1,13 +1,13 @@
 {
-  "id": "turkishbread",
+  "id": "traditionalturkishbread",
   "title": "Traditional Turkish Bread",
   "category": "Baking",
+  "difficulty": "Intermediate",
   "description": "Soft, slightly chewy, and baked to a golden finish with a traditional sesame and nigella seed topping.",
   "prepTime": "30 min",
   "cookTime": "15 min",
   "totalTime": "4 hr",
   "servings": "2 loaves",
-  "difficulty": "Intermediate",
   "tags": [
     "Bread",
     "Classic",
@@ -172,37 +172,26 @@
       "content": "Perfect for kebabs, doner wraps, or torn and served alongside dips like hummus, baba ganoush, or labneh."
     }
   ],
-  "related": [
-    {
-      "id": "darkrye",
-      "title": "Dark Rye Bread"
-    },
-    {
-      "id": "focaccia-high",
-      "title": "High-Hydration Focaccia"
-    },
-    {
-      "id": "pizzadough",
-      "title": "Ultimate Homemade Pizza Dough"
-    },
-    {
-      "id": "swbtm",
-      "title": "Soft White Bread (Tangzhong Method)"
-    },
-    {
-      "id": "garlicbread",
-      "title": "Garlic Butter Crusty Bread"
-    }
-  ],
   "nutrition": {
     "servings": 2,
-    "cal": 955,
-    "protein": 32,
-    "carbs": 175,
+    "cal": 934,
+    "kj": 3910,
+    "protein": 31,
+    "carbs": 168,
+    "sugars": 9,
     "fat": 12,
-    "fibre": 10,
-    "sodium": 1273,
-    "coverage": 100
+    "saturated_fat": 1.7,
+    "fiber": 9,
+    "sodium": 294,
+    "coverage": 100,
+    "foundCount": 10,
+    "totalCount": 10,
+    "unmatchedItems": [],
+    "calcium_mg": 128,
+    "iron_mg": 4,
+    "potassium_mg": 531,
+    "magnesium_mg": 122,
+    "zinc_mg": 3
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

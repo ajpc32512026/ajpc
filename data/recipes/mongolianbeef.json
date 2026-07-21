@@ -1,13 +1,13 @@
 {
-  "id": "mongolianbeef",
+  "id": "mongolianbeefstirfry",
   "title": "Mongolian Beef Stir-Fry",
   "category": "Dinner",
+  "difficulty": "Intermediate",
   "description": "Serve this sizzling stir-fry in a cast-iron pan for full restaurant-style drama — the sizzling, spitting finish brings the flavour alive.",
   "prepTime": "15 min",
   "cookTime": "10 min",
   "totalTime": "1 hr 25 min",
   "servings": "2 servings",
-  "difficulty": "Intermediate",
   "tags": [
     "Alcohol",
     "Beef",
@@ -30,7 +30,7 @@
     {
       "quantity": "2",
       "unit": "g",
-      "item": "Bi-Carb Soda"
+      "item": "Bi-carb Soda"
     },
     {
       "quantity": "5",
@@ -164,37 +164,29 @@
       "content": "This Mongolian Beef Stir-Fry draws inspiration from traditional Chinese banquet cooking methods."
     }
   ],
-  "related": [
-    {
-      "id": "mongoliansauce",
-      "title": "Mongolian Stir-Fry Sauce"
-    },
-    {
-      "id": "mongolianlamb",
-      "title": "Mongolian Lamb"
-    },
-    {
-      "id": "sweetsourpork",
-      "title": "Sweet & Sour Pork"
-    },
-    {
-      "id": "beefstockpot",
-      "title": "Beef Stock Pot"
-    },
-    {
-      "id": "chickenteriyaki",
-      "title": "Chicken Teriyaki"
-    }
-  ],
   "nutrition": {
     "servings": 2,
-    "cal": 932,
-    "protein": 57,
-    "carbs": 57,
-    "fat": 56,
-    "fibre": 7,
-    "sodium": 1577,
-    "coverage": 100
+    "cal": 737,
+    "kj": 3083,
+    "protein": 23,
+    "carbs": 74,
+    "sugars": 22,
+    "fat": 32,
+    "saturated_fat": 3.6,
+    "fiber": 23,
+    "sodium": 1253,
+    "coverage": 100,
+    "foundCount": 17,
+    "totalCount": 17,
+    "unmatchedItems": [],
+    "calcium_mg": 92,
+    "iron_mg": 4,
+    "potassium_mg": 1104,
+    "magnesium_mg": 75,
+    "zinc_mg": 4,
+    "cholesterol_mg": 23,
+    "vitamin_a_ug": 187,
+    "vitamin_c_mg": 70
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

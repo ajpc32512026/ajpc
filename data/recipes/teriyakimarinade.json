@@ -2,12 +2,12 @@
   "id": "teriyakimarinade",
   "title": "Teriyaki Marinade",
   "category": "Sauces",
+  "difficulty": "Beginner",
   "description": "A sweet-savoury marinade that makes chicken tender, juicy, and full of flavour. Perfect for grilling, baking, or stir-frying.",
   "prepTime": "5 min",
   "cookTime": "0 min",
   "totalTime": "5 min",
   "servings": "1 batch",
-  "difficulty": "Beginner",
   "tags": [
     "Japanese",
     "Make Ahead",
@@ -60,37 +60,28 @@
       "content": "This marinade works as both a marinade and a glaze. Always reserve half before adding raw chicken — never reuse marinade that has touched raw meat."
     }
   ],
-  "related": [
-    {
-      "id": "chickenteriyaki",
-      "title": "Chicken Teriyaki"
-    },
-    {
-      "id": "teriyakisauce",
-      "title": "Teriyaki Sauce"
-    },
-    {
-      "id": "mongoliansauce",
-      "title": "Mongolian Stir-Fry Sauce"
-    },
-    {
-      "id": "honeygarlicsauce",
-      "title": "Honey Garlic Sauce"
-    },
-    {
-      "id": "sataysauce",
-      "title": "Satay Sauce"
-    }
-  ],
   "nutrition": {
     "servings": 1,
-    "cal": 678,
-    "protein": 26,
-    "carbs": 149,
-    "fat": 2,
-    "fibre": 7,
-    "sodium": 4671,
-    "coverage": 100
+    "cal": 666,
+    "kj": 2788,
+    "protein": 20,
+    "carbs": 97,
+    "sugars": 66,
+    "fat": 9,
+    "saturated_fat": 2.5,
+    "fiber": 51,
+    "sodium": 2431,
+    "coverage": 100,
+    "foundCount": 4,
+    "totalCount": 4,
+    "unmatchedItems": [],
+    "calcium_mg": 98,
+    "iron_mg": 5,
+    "potassium_mg": 1613,
+    "magnesium_mg": 88,
+    "zinc_mg": 3,
+    "vitamin_a_ug": 6,
+    "vitamin_c_mg": 33
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

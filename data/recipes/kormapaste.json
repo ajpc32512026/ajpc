@@ -1,13 +1,13 @@
 {
-  "id": "kormapaste",
+  "id": "homemadekormapaste",
   "title": "Homemade Korma Paste",
   "category": "Sauces",
+  "difficulty": "Beginner",
   "description": "A rich, fragrant paste — the foundation for a proper korma curry.",
   "prepTime": "10 min",
   "cookTime": "2 min",
   "totalTime": "12 min",
   "servings": "1 batch",
-  "difficulty": "Beginner",
   "tags": [
     "Indian",
     "Make Ahead",
@@ -114,37 +114,31 @@
       "content": "Adapted from traditional Indian korma recipes."
     }
   ],
-  "related": [
-    {
-      "id": "lambkorma",
-      "title": "Lamb Korma"
-    },
-    {
-      "id": "vindaloopaste",
-      "title": "Vindaloo Paste"
-    },
-    {
-      "id": "butterchicken",
-      "title": "Restaurant-Style Butter Chicken"
-    },
-    {
-      "id": "roganjosh",
-      "title": "Lamb Rogan Josh"
-    },
-    {
-      "id": "beefvindaloo",
-      "title": "Beef Vindaloo"
-    }
-  ],
   "nutrition": {
     "servings": 1,
-    "cal": 999,
+    "cal": 1012,
+    "kj": 4236,
     "protein": 31,
-    "carbs": 135,
-    "fat": 47,
-    "fibre": 19,
-    "sodium": 107,
-    "coverage": 100
+    "carbs": 53,
+    "sugars": 14,
+    "fat": 60,
+    "saturated_fat": 19.4,
+    "fiber": 71,
+    "sodium": 232,
+    "coverage": 92,
+    "foundCount": 11,
+    "totalCount": 12,
+    "unmatchedItems": [
+      "Red Chilli Powder"
+    ],
+    "calcium_mg": 363,
+    "iron_mg": 18,
+    "potassium_mg": 2542,
+    "magnesium_mg": 290,
+    "zinc_mg": 7,
+    "cholesterol_mg": 14,
+    "vitamin_a_ug": 81,
+    "vitamin_c_mg": 41
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

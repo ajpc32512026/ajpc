@@ -1,13 +1,13 @@
 {
-  "id": "friandsop",
+  "id": "orangepoppyseedfriands",
   "title": "Orange & Poppyseed Friands",
   "category": "Baking",
+  "difficulty": "Intermediate",
   "description": "Fluffy little citrus pillows that taste like sunshine — and maybe just a bit of smug satisfaction.",
   "prepTime": "15 min",
   "cookTime": "25 min",
   "totalTime": "40 min",
   "servings": "12 friands",
-  "difficulty": "Intermediate",
   "tags": [
     "Dessert",
     "Orange",
@@ -110,38 +110,29 @@
       "content": "Pouring the batter into a jug before filling the tins gives you perfect control and minimises mess. It is a small step that makes a big difference."
     }
   ],
-  "related": [
-    {
-      "id": "orangepoppyseed",
-      "title": "Orange & Poppy Seed Cake"
-    },
-    {
-      "id": "lemoncoconut",
-      "title": "Lemon Coconut Cake"
-    },
-    {
-      "id": "blueberrymuffins",
-      "title": "Heavenly Blueberry Muffins"
-    },
-    {
-      "id": "bananabread",
-      "title": "Banana Bread"
-    },
-    {
-      "id": "crepes",
-      "title": "Crepes with Maple Syrup & Butter"
-    }
-  ],
   "nutrition": {
     "servings": 12,
-    "cal": 253,
+    "cal": 247,
+    "kj": 1032,
     "protein": 8,
-    "carbs": 19,
-    "fat": 16,
-    "fibre": 1,
-    "sodium": 86,
-    "coverage": 100
+    "carbs": 13,
+    "sugars": 10,
+    "fat": 18,
+    "saturated_fat": 9.7,
+    "fiber": 1,
+    "sodium": 100,
+    "coverage": 100,
+    "foundCount": 9,
+    "totalCount": 9,
+    "unmatchedItems": [],
+    "calcium_mg": 61,
+    "iron_mg": 1,
+    "potassium_mg": 174,
+    "magnesium_mg": 37,
+    "zinc_mg": 1,
+    "cholesterol_mg": 27,
+    "vitamin_a_ug": 143,
+    "vitamin_c_mg": 2
   },
-  "cuisine": "French",
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

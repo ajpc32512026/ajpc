@@ -1,13 +1,13 @@
 {
-  "id": "currychicken",
+  "id": "currychickenwithcoconutcream",
   "title": "Curry Chicken with Coconut Cream",
   "category": "Dinner",
+  "difficulty": "Beginner",
   "description": "Tender chicken in a rich, creamy coconut curry sauce. Simple, comforting, and packed with flavour.",
   "prepTime": "15 min",
   "cookTime": "25 min",
   "totalTime": "40 min",
   "servings": "2",
-  "difficulty": "Beginner",
   "tags": [
     "Asian",
     "Chicken",
@@ -152,56 +152,30 @@
       "content": "Add ground black pepper to taste when serving."
     }
   ],
-  "related": [
-    {
-      "id": "butterchicken",
-      "title": "Butter Chicken"
-    },
-    {
-      "id": "beefvindaloo",
-      "title": "Beef Vindaloo",
-      "matchingTags": [
-        "Beef",
-        "Curry",
-        "Dinner",
-        "Indian",
-        "Make Ahead",
-        "Rich",
-        "Savoury",
-        "Slow-Cooked",
-        "Spicy"
-      ]
-    },
-    {
-      "id": "lambkorma",
-      "title": "Lamb Korma",
-      "matchingTags": [
-        "Curry",
-        "Dinner",
-        "Indian",
-        "Lamb",
-        "Rich",
-        "Savoury"
-      ]
-    },
-    {
-      "id": "roganjosh",
-      "title": "Rogan Josh"
-    },
-    {
-      "id": "kormapaste",
-      "title": "Korma Paste"
-    }
-  ],
   "nutrition": {
     "servings": 2,
-    "cal": 1380,
-    "protein": 106,
-    "carbs": 54,
-    "fat": 84,
-    "fibre": 10,
-    "sodium": 887,
-    "coverage": 100
+    "cal": 963,
+    "kj": 4031,
+    "protein": 36,
+    "carbs": 101,
+    "sugars": 15,
+    "fat": 39,
+    "saturated_fat": 18.1,
+    "fiber": 30,
+    "sodium": 612,
+    "coverage": 100,
+    "foundCount": 10,
+    "totalCount": 10,
+    "unmatchedItems": [],
+    "calcium_mg": 153,
+    "iron_mg": 7,
+    "potassium_mg": 1375,
+    "magnesium_mg": 132,
+    "zinc_mg": 4,
+    "cholesterol_mg": 62,
+    "vitamin_a_ug": 65,
+    "vitamin_c_mg": 25,
+    "vitamin_d_ug": 1
   },
-  "lastModified": "2026-05-12"
+  "lastModified": "2026-07-21"
 }

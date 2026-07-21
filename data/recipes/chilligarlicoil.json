@@ -2,12 +2,12 @@
   "id": "chilligarlicoil",
   "title": "Chilli Garlic Oil",
   "category": "Sauces",
+  "difficulty": "Beginner",
   "description": "A fragrant Asian condiment — fiery, aromatic, and incredibly versatile. Elevates everything it touches.",
   "prepTime": "5 min",
   "cookTime": "10 min",
   "totalTime": "15 min",
   "servings": "8 servings",
-  "difficulty": "Beginner",
   "tags": [
     "Condiment",
     "Garlic",
@@ -84,37 +84,27 @@
       "content": "Keep the heat low when cooking garlic. If it burns, start again — burnt garlic makes the oil bitter and unusable."
     }
   ],
-  "related": [
-    {
-      "id": "honeygarlicsauce",
-      "title": "Honey Garlic Sauce"
-    },
-    {
-      "id": "sweetchillisauce",
-      "title": "Sweet Chilli Sauce"
-    },
-    {
-      "id": "teriyakisauce",
-      "title": "Teriyaki Sauce"
-    },
-    {
-      "id": "sweetspicyorangesauce",
-      "title": "Sweet & Spicy Orange Sauce"
-    },
-    {
-      "id": "mongoliansauce",
-      "title": "Mongolian Sauce"
-    }
-  ],
   "nutrition": {
     "servings": 8,
-    "cal": 300,
+    "cal": 310,
+    "kj": 1295,
     "protein": 1,
-    "carbs": 5,
-    "fat": 31,
-    "fibre": 0,
-    "sodium": 352,
-    "coverage": 100
+    "carbs": 3,
+    "sugars": 2,
+    "fat": 32,
+    "saturated_fat": 2.5,
+    "fiber": 3,
+    "sodium": 112,
+    "coverage": 100,
+    "foundCount": 6,
+    "totalCount": 6,
+    "unmatchedItems": [],
+    "calcium_mg": 15,
+    "iron_mg": 1,
+    "potassium_mg": 141,
+    "magnesium_mg": 11,
+    "vitamin_a_ug": 101,
+    "vitamin_c_mg": 4
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

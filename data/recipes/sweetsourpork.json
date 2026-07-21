@@ -1,13 +1,13 @@
 {
-  "id": "sweetsourpork",
+  "id": "betterthantakeawaysweetsourpork",
   "title": "Better Than Takeaway Sweet & Sour Pork",
   "category": "Dinner",
+  "difficulty": "Intermediate",
   "description": "Golden, crispy pork with a sticky, tangy sauce — exactly what you want when you skip the takeaway.",
   "prepTime": "20 min",
   "cookTime": "20 min",
   "totalTime": "40 min",
   "servings": "4 servings",
-  "difficulty": "Intermediate",
   "tags": [
     "Chinese",
     "Classic",
@@ -172,37 +172,30 @@
       "content": "Fresh or canned pineapple chunks add authentic sweetness and texture. Add them with the vegetables in step 6."
     }
   ],
-  "related": [
-    {
-      "id": "mongolianbeef",
-      "title": "Mongolian Beef Stir-Fry"
-    },
-    {
-      "id": "mongolianlamb",
-      "title": "Mongolian Lamb"
-    },
-    {
-      "id": "sweetsoursauce_quick",
-      "title": "Sweet & Sour Sauce – Quick"
-    },
-    {
-      "id": "sweetsoursauce_flex",
-      "title": "Sweet & Sour Sauce – Flex"
-    },
-    {
-      "id": "honeygarlicsauce",
-      "title": "Honey Garlic Sauce"
-    }
-  ],
   "nutrition": {
     "servings": 4,
-    "cal": 1849,
-    "protein": 44,
-    "carbs": 86,
-    "fat": 150,
-    "fibre": 4,
-    "sodium": 647,
-    "coverage": 100
+    "cal": 1790,
+    "kj": 7489,
+    "protein": 36,
+    "carbs": 70,
+    "sugars": 31,
+    "fat": 152,
+    "saturated_fat": 17.2,
+    "fiber": 11,
+    "sodium": 394,
+    "coverage": 100,
+    "foundCount": 16,
+    "totalCount": 16,
+    "unmatchedItems": [],
+    "calcium_mg": 127,
+    "iron_mg": 4,
+    "potassium_mg": 1068,
+    "magnesium_mg": 72,
+    "zinc_mg": 5,
+    "cholesterol_mg": 329,
+    "vitamin_a_ug": 501,
+    "vitamin_c_mg": 51,
+    "vitamin_d_ug": 5
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

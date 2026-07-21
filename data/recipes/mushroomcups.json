@@ -1,13 +1,13 @@
 {
-  "id": "mushroomcups",
+  "id": "mushroomswithherbnutbutter",
   "title": "Mushrooms with Herb Nut Butter",
   "category": "Entree",
+  "difficulty": "Beginner",
   "description": "Baked mushroom caps filled with a rich herb and almond butter, finished until golden and fragrant.",
   "prepTime": "10 min",
   "cookTime": "15 min",
   "totalTime": "25 min",
   "servings": "4 servings",
-  "difficulty": "Beginner",
   "tags": [
     "Baked",
     "Gluten-Free",
@@ -141,38 +141,30 @@
       "content": "Adapted from The Essential Vegetarian Cook Book, published by Murdoch Books."
     }
   ],
-  "related": [
-    {
-      "id": "tomatoflan",
-      "title": "Tomato and Olive Flan"
-    },
-    {
-      "id": "potatognocchi",
-      "title": "Potato Gnocchi with Tomato Sauce"
-    },
-    {
-      "id": "garlicbread",
-      "title": "Garlic Butter Crusty Bread"
-    },
-    {
-      "id": "muffinmix",
-      "title": "Basic Muffin Mix"
-    },
-    {
-      "id": "bistro-mediterraneansteak",
-      "title": "Mediterranean Steak"
-    }
-  ],
   "nutrition": {
     "servings": 4,
-    "cal": 345,
-    "protein": 14,
-    "carbs": 24,
-    "fat": 25,
-    "fibre": 6,
-    "sodium": 315,
-    "coverage": 100
+    "cal": 361,
+    "kj": 1508,
+    "protein": 11,
+    "carbs": 8,
+    "sugars": 6,
+    "fat": 28,
+    "saturated_fat": 12.4,
+    "fiber": 11,
+    "sodium": 95,
+    "coverage": 100,
+    "foundCount": 13,
+    "totalCount": 13,
+    "unmatchedItems": [],
+    "calcium_mg": 96,
+    "iron_mg": 4,
+    "potassium_mg": 1465,
+    "magnesium_mg": 75,
+    "zinc_mg": 2,
+    "cholesterol_mg": 31,
+    "vitamin_a_ug": 193,
+    "vitamin_c_mg": 12,
+    "vitamin_d_ug": 7
   },
-  "cuisine": "French",
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

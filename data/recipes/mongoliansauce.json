@@ -1,13 +1,13 @@
 {
-  "id": "mongoliansauce",
+  "id": "mongolianstirfrysauce",
   "title": "Mongolian Stir-Fry Sauce",
   "category": "Sauces",
+  "difficulty": "Beginner",
   "description": "A rich, sticky, savoury-sweet sauce perfect with beef, chicken, or vegetables.",
   "prepTime": "5 min",
   "cookTime": "3 min",
   "totalTime": "8 min",
   "servings": "1 batch",
-  "difficulty": "Beginner",
   "tags": [
     "Alcohol",
     "Chinese",
@@ -95,37 +95,25 @@
       "content": "Adapted from traditional Chinese stir-fry sauces, balancing heat, sweetness, and umami."
     }
   ],
-  "related": [
-    {
-      "id": "mongolianbeef",
-      "title": "Mongolian Beef Stir-Fry"
-    },
-    {
-      "id": "mongolianlamb",
-      "title": "Mongolian Lamb"
-    },
-    {
-      "id": "sweetsoursauce_quick",
-      "title": "Sweet & Sour — Quick"
-    },
-    {
-      "id": "honeygarlicsauce",
-      "title": "Honey Garlic Sauce"
-    },
-    {
-      "id": "teriyakisauce",
-      "title": "Teriyaki Sauce"
-    }
-  ],
   "nutrition": {
     "servings": 1,
-    "cal": 131,
-    "protein": 2,
-    "carbs": 14,
+    "cal": 148,
+    "kj": 618,
+    "protein": 1,
+    "carbs": 19,
+    "sugars": 12,
     "fat": 6,
-    "fibre": 1,
-    "sodium": 1302,
-    "coverage": 100
+    "saturated_fat": 0.9,
+    "fiber": 1,
+    "sodium": 941,
+    "coverage": 100,
+    "foundCount": 8,
+    "totalCount": 8,
+    "unmatchedItems": [],
+    "calcium_mg": 3,
+    "potassium_mg": 19,
+    "magnesium_mg": 4,
+    "vitamin_a_ug": 3
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

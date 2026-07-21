@@ -188,6 +188,9 @@
     "fiber": 17,
     "sodium": 617,
     "coverage": 100,
+    "foundCount": 15,
+    "totalCount": 15,
+    "unmatchedItems": [],
     "calcium_mg": 125,
     "iron_mg": 3,
     "potassium_mg": 1386,
@@ -198,5 +201,5 @@
     "vitamin_c_mg": 36,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-06-04"
+  "lastModified": "2026-07-21"
 }

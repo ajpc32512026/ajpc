@@ -1,13 +1,13 @@
 {
-  "id": "stickydates",
+  "id": "stickydatepuddingwithcaramelsauce",
   "title": "Sticky Date Pudding with Caramel Sauce",
   "category": "Desserts",
+  "difficulty": "Beginner",
   "description": "Microwave marvel — rich, sticky, and surprisingly fast.",
   "prepTime": "20 min",
   "cookTime": "15 min",
   "totalTime": "35 min",
   "servings": "8 servings",
-  "difficulty": "Beginner",
   "tags": [
     "Alcohol",
     "Baked",
@@ -49,7 +49,7 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Bi-Carb Soda"
+      "item": "Bi-carb Soda"
     },
     {
       "quantity": "100",
@@ -171,38 +171,30 @@
       "content": "Best served warm with the caramel sauce poured over generously and a dollop of whipped cream or vanilla ice cream on the side."
     }
   ],
-  "related": [
-    {
-      "id": "tiramisu",
-      "title": "Tiramisu Gateau"
-    },
-    {
-      "id": "plaincheesecakeclassicnobake",
-      "title": "Plain Cheesecake (Classic No Bake)"
-    },
-    {
-      "id": "baked-cheesecake",
-      "title": "Baked Cheesecake"
-    },
-    {
-      "id": "theultimatechocolatemudcake",
-      "title": "The Ultimate Chocolate Mud Cake"
-    },
-    {
-      "id": "bistro-profiteroles",
-      "title": "Profiteroles"
-    }
-  ],
   "nutrition": {
     "servings": 8,
-    "cal": 570,
-    "protein": 7,
-    "carbs": 84,
-    "fat": 24,
-    "fibre": 3,
-    "sodium": 232,
-    "coverage": 100
+    "cal": 620,
+    "kj": 2593,
+    "protein": 10,
+    "carbs": 87,
+    "sugars": 70,
+    "fat": 26,
+    "saturated_fat": 15.6,
+    "fiber": 4,
+    "sodium": 301,
+    "coverage": 100,
+    "foundCount": 14,
+    "totalCount": 14,
+    "unmatchedItems": [],
+    "calcium_mg": 99,
+    "iron_mg": 2,
+    "potassium_mg": 501,
+    "magnesium_mg": 38,
+    "zinc_mg": 1,
+    "cholesterol_mg": 294,
+    "vitamin_a_ug": 475,
+    "vitamin_c_mg": 2,
+    "vitamin_d_ug": 3
   },
-  "cuisine": "British / Australian",
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

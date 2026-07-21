@@ -2,12 +2,12 @@
   "id": "plaincheesecakeclassicnobake",
   "title": "Plain Cheesecake (Classic No Bake)",
   "category": "Desserts",
+  "difficulty": "Beginner",
   "description": "No-bake simplicity at its finest — smooth, sweet, and forever dependable. A real fridge-set classic.",
   "prepTime": "20 min",
   "cookTime": "0 min",
   "totalTime": "4 hr 20 min",
   "servings": "8 servings",
-  "difficulty": "Beginner",
   "tags": [
     "Classic",
     "Creamy",
@@ -93,38 +93,27 @@
       "content": "Sprinkle gelatine over cold water, let it bloom for 5 minutes, then gently heat until dissolved. Never add dry gelatine directly to the mixture. See the Gelatine Blooming Guide for full details."
     }
   ],
-  "related": [
-    {
-      "id": "baked-cheesecake",
-      "title": "Baked Cheesecake"
-    },
-    {
-      "id": "tiramisu",
-      "title": "Tiramisu Gateau"
-    },
-    {
-      "id": "chocolatemousse",
-      "title": "Chocolate Mousse"
-    },
-    {
-      "id": "lemonmeringuepie",
-      "title": "Lemon Meringue Pie"
-    },
-    {
-      "id": "theultimatechocolatemudcake",
-      "title": "The Ultimate Chocolate Mud Cake"
-    }
-  ],
   "nutrition": {
     "servings": 8,
-    "cal": 490,
-    "protein": 9,
-    "carbs": 38,
-    "fat": 34,
-    "fibre": 0,
-    "sodium": 304,
-    "coverage": 100
+    "cal": 452,
+    "kj": 1890,
+    "protein": 12,
+    "carbs": 39,
+    "sugars": 34,
+    "fat": 28,
+    "saturated_fat": 18.2,
+    "fiber": 0,
+    "sodium": 912,
+    "coverage": 100,
+    "foundCount": 5,
+    "totalCount": 5,
+    "unmatchedItems": [],
+    "calcium_mg": 642,
+    "potassium_mg": 236,
+    "magnesium_mg": 26,
+    "zinc_mg": 1,
+    "cholesterol_mg": 83,
+    "vitamin_a_ug": 248
   },
-  "cuisine": "American / Modern",
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

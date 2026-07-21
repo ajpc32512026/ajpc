@@ -2,12 +2,12 @@
   "id": "sataysauce",
   "title": "Satay Sauce",
   "category": "Sauces",
+  "difficulty": "Beginner",
   "description": "Rich, creamy, slightly spicy, and perfect for chicken, beef, lamb, veggies — or eaten straight from the pan when no one's watching.",
   "prepTime": "5 min",
   "cookTime": "10 min",
   "totalTime": "15 min",
   "servings": "4 servings",
-  "difficulty": "Beginner",
   "tags": [
     "Coconut",
     "Gluten-Free",
@@ -76,38 +76,29 @@
       "content": "Serve warm over grilled chicken skewers, beef strips, lamb, or roasted vegetables. Also excellent as a dipping sauce for spring rolls or satay skewers."
     }
   ],
-  "related": [
-    {
-      "id": "kormapaste",
-      "title": "Homemade Korma Paste"
-    },
-    {
-      "id": "vindaloopaste",
-      "title": "Vindaloo Paste"
-    },
-    {
-      "id": "mongoliansauce",
-      "title": "Mongolian Stir-Fry Sauce"
-    },
-    {
-      "id": "honeygarlicsauce",
-      "title": "Honey Garlic Sauce"
-    },
-    {
-      "id": "sweetchillisauce",
-      "title": "Sweet Chilli Sauce"
-    }
-  ],
   "nutrition": {
     "servings": 4,
-    "cal": 527,
-    "protein": 19,
-    "carbs": 18,
-    "fat": 46,
-    "fibre": 6,
-    "sodium": 1134,
-    "coverage": 100
+    "cal": 324,
+    "kj": 1354,
+    "protein": 8,
+    "carbs": 30,
+    "sugars": 8,
+    "fat": 18,
+    "saturated_fat": 10.3,
+    "fiber": 4,
+    "sodium": 727,
+    "coverage": 100,
+    "foundCount": 4,
+    "totalCount": 4,
+    "unmatchedItems": [],
+    "calcium_mg": 74,
+    "iron_mg": 2,
+    "potassium_mg": 276,
+    "magnesium_mg": 60,
+    "zinc_mg": 1,
+    "cholesterol_mg": 4,
+    "vitamin_a_ug": 33,
+    "vitamin_c_mg": 1
   },
-  "cuisine": "Asian",
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

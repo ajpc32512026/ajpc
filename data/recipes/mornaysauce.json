@@ -1,5 +1,5 @@
 {
-  "id": "mornaysauce",
+  "id": "mornaycheesesauce",
   "title": "Mornay / Cheese Sauce",
   "category": "Sauces",
   "difficulty": "Beginner",
@@ -113,9 +113,12 @@
     "fiber": 0,
     "sodium": 4,
     "coverage": 100,
+    "foundCount": 6,
+    "totalCount": 6,
+    "unmatchedItems": [],
     "calcium_mg": 3,
     "potassium_mg": 2,
     "vitamin_a_ug": 2
   },
-  "lastModified": "2026-06-04"
+  "lastModified": "2026-07-21"
 }

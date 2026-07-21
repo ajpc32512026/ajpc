@@ -2,13 +2,13 @@
   "id": "honeysoychicken",
   "title": "Honey Soy Chicken",
   "category": "Dinner",
+  "difficulty": "Beginner",
   "description": "Chicken thigh fillets marinated in honey, soy, garlic, and ginger. Pan-fried until sticky and caramelised. Serve with rice and vegetables.",
   "prepTime": "10 min",
   "cookTime": "15 min",
   "totalTime": "25 min + marinade time",
   "servings": "2",
   "yieldPerBatch": "2 serves",
-  "difficulty": "Beginner",
   "tags": [
     "Asian",
     "Chicken",
@@ -107,40 +107,32 @@
       "content": "Garnish with sliced spring onion and sesame seeds before serving."
     }
   ],
-  "related": [
-    {
-      "id": "chickenteriyaki",
-      "title": "Chicken Teriyaki"
-    },
-    {
-      "id": "apricotchicken",
-      "title": "Apricot Chicken"
-    },
-    {
-      "id": "butterchicken",
-      "title": "Butter Chicken"
-    },
-    {
-      "id": "honeygarlicsauce",
-      "title": "Honey Garlic Sauce"
-    },
-    {
-      "id": "teriyakimarinade",
-      "title": "Teriyaki Marinade"
-    }
-  ],
   "nutrition": {
     "servings": 2,
-    "cal": 839,
-    "kj": 3511,
-    "protein": 65,
-    "carbs": 67,
-    "sugars": 18,
-    "fat": 36,
-    "saturated_fat": 9,
-    "fibre": 3,
-    "sodium": 1314,
-    "coverage": 83
+    "cal": 646,
+    "kj": 2702,
+    "protein": 24,
+    "carbs": 85,
+    "sugars": 27,
+    "fat": 17,
+    "saturated_fat": 3,
+    "fiber": 28,
+    "sodium": 869,
+    "coverage": 83,
+    "foundCount": 5,
+    "totalCount": 6,
+    "unmatchedItems": [
+      "Fresh Ginger"
+    ],
+    "calcium_mg": 64,
+    "iron_mg": 3,
+    "potassium_mg": 1078,
+    "magnesium_mg": 67,
+    "zinc_mg": 3,
+    "cholesterol_mg": 34,
+    "vitamin_a_ug": 37,
+    "vitamin_c_mg": 23,
+    "vitamin_d_ug": 1
   },
-  "lastModified": "2026-05-17"
+  "lastModified": "2026-07-21"
 }

@@ -1,13 +1,13 @@
 {
-  "id": "potatognocchi",
+  "id": "potatognocchiwithtomatosauce",
   "title": "Potato Gnocchi with Tomato Sauce",
   "category": "Dinner",
+  "difficulty": "Intermediate",
   "description": "Soft potato gnocchi served with a simple tomato and basil sauce.",
   "prepTime": "30 min",
   "cookTime": "35 min",
   "totalTime": "1 hr 5 min",
   "servings": "4 servings",
-  "difficulty": "Intermediate",
   "tags": [
     "Alcohol",
     "Classic",
@@ -124,37 +124,29 @@
       "content": "Adapted from The Essential Vegetarian Cook Book, published by Murdoch Books."
     }
   ],
-  "related": [
-    {
-      "id": "lasagne",
-      "title": "Classic Lasagne"
-    },
-    {
-      "id": "chickencacciatore",
-      "title": "Chicken Cacciatore"
-    },
-    {
-      "id": "marinarasauce",
-      "title": "Marinara Sauce"
-    },
-    {
-      "id": "redsauce",
-      "title": "Red Sauce"
-    },
-    {
-      "id": "highhydraciab",
-      "title": "Airy High-Hydration Ciabatta"
-    }
-  ],
   "nutrition": {
     "servings": 4,
-    "cal": 364,
-    "protein": 14,
-    "carbs": 54,
-    "fat": 11,
-    "fibre": 7,
-    "sodium": 509,
-    "coverage": 100
+    "cal": 647,
+    "kj": 2707,
+    "protein": 10,
+    "carbs": 114,
+    "sugars": 8,
+    "fat": 12,
+    "saturated_fat": 7.3,
+    "fiber": 19,
+    "sodium": 217,
+    "coverage": 100,
+    "foundCount": 10,
+    "totalCount": 10,
+    "unmatchedItems": [],
+    "calcium_mg": 188,
+    "iron_mg": 2,
+    "potassium_mg": 953,
+    "magnesium_mg": 58,
+    "zinc_mg": 2,
+    "cholesterol_mg": 24,
+    "vitamin_a_ug": 214,
+    "vitamin_c_mg": 40
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }

@@ -1,13 +1,13 @@
 {
-  "id": "meatpie",
+  "id": "classicaussiemeatpies",
   "title": "Classic Aussie Meat Pies",
   "category": "Dinner",
+  "difficulty": "Intermediate",
   "description": "True blue, unapologetically hearty, and as Australian as a sunburn at Christmas.",
   "prepTime": "25 min",
   "cookTime": "45 min",
   "totalTime": "1 hr 10 min",
   "servings": "4 pies",
-  "difficulty": "Intermediate",
   "tags": [
     "Australian",
     "Baked",
@@ -135,29 +135,30 @@
       "content": "Assemble pies unbaked and freeze for up to 2 months. Bake from frozen, adding 10–15 minutes to the cooking time."
     }
   ],
-  "related": [
-    {
-      "id": "sausageroll",
-      "title": "Classic Aussie Sausage Rolls"
-    },
-    {
-      "id": "beefstockpot",
-      "title": "Beef Stock Pot"
-    },
-    {
-      "id": "lasagne",
-      "title": "Classic Lasagne"
-    }
-  ],
   "nutrition": {
     "servings": 4,
-    "cal": 855,
-    "protein": 45,
-    "carbs": 60,
-    "fat": 50,
-    "fibre": 2,
-    "sodium": 1241,
-    "coverage": 100
+    "cal": 662,
+    "kj": 2771,
+    "protein": 43,
+    "carbs": 47,
+    "sugars": 5,
+    "fat": 32,
+    "saturated_fat": 15.1,
+    "fiber": 6,
+    "sodium": 891,
+    "coverage": 100,
+    "foundCount": 11,
+    "totalCount": 11,
+    "unmatchedItems": [],
+    "calcium_mg": 63,
+    "iron_mg": 4,
+    "potassium_mg": 768,
+    "magnesium_mg": 68,
+    "zinc_mg": 4,
+    "cholesterol_mg": 371,
+    "vitamin_a_ug": 159,
+    "vitamin_c_mg": 3,
+    "vitamin_d_ug": 5
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-07-21"
 }
