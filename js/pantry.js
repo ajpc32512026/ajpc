@@ -1,5 +1,5 @@
 /* =========================================================
-   PANTRY — AJPC Kitchen Notebook
+   PANTRY — KitchenNotebook Kitchen Notebook
    Tracks pantry stock at two levels:
      Level 1: Have it / Don't have it (all ingredients)
      Level 2: Stock level for key ingredients
@@ -10,7 +10,7 @@
      - Substitution suggestions
      - Running low warnings
 
-   Storage: localStorage via window.AJPC.Pantry API
+   Storage: localStorage via window.KitchenNotebook.Pantry API
    Depends on: user-prefs.js
 ========================================================= */
 
@@ -289,8 +289,8 @@
         LEVEL_TRACK: LEVEL_TRACK
     };
 
-    // ── Attach to AJPC namespace ──────────────────────────
-    window.AJPC = window.AJPC || {};
-    window.AJPC.Pantry = Pantry;
+    // ── Attach to KitchenNotebook namespace ──────────────────────────
+    window.KitchenNotebook = window.KitchenNotebook || {};
+    window.KitchenNotebook.Pantry = Pantry;
 
 })();

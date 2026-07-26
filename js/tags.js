@@ -1,5 +1,5 @@
 /* =========================================================
-   TAGS — AJPC Kitchen Notebook
+   TAGS — KitchenNotebook Kitchen Notebook
    Renders a tag cloud sized by frequency.
    All tags link to search.html?q=tag
 ========================================================= */

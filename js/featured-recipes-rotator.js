@@ -1,5 +1,5 @@
 /* =========================================================
-   FEATURED RECIPES ROTATOR — AJPC Kitchen Notebook
+   FEATURED RECIPES ROTATOR — KitchenNotebook Kitchen Notebook
    Loads from recipe-index.json, rotates weekly.
    Display order:
      Row 1: Dinner | Dessert | Baking

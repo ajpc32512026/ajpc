@@ -1,0 +1,46 @@
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sync tool artifacts (FreeFileSync etc.)
+sync.ffs_db
+*.ffs_db
+
+# Logs
+*.log
+
+# Backups
+*_backup_*
+*.bak
+
+# Node (in case tooling is added later)
+node_modules/
+npm-debug.log*
+
+# Env / secrets
+.env
+.env.local
+
+# Misc stray files
+git
+
+# Project-specific ignores
+rebuild-index.html
+recipe-builder.html
+audit-recipes.js
+fix-recipes.js
+fix-tags.js
+patch-vocab.js

@@ -1254,6 +1254,24 @@
     "description": "Serve this sizzling stir-fry in a cast-iron pan for full restaurant-style drama — the sizzling, spitting finish brings the flavour alive."
   },
   {
+    "id": "mockcreamtraditionalmethod",
+    "name": "Mock Cream (Traditional Method)",
+    "category": "Baking",
+    "tags": [
+      "Traditional",
+      "Bakery-style",
+      "Australian",
+      "Vegetarian",
+      "Gluten-free",
+      "Make-ahead",
+      "No-bake",
+      "Cake Filling",
+      "Frosting",
+      "Pastry Filling"
+    ],
+    "description": "A traditional bakery-style mock cream with a small amount of gelatine added for stability, from Tracy Rutherford's Taste.com.au recipe."
+  },
+  {
     "id": "mongolianlamb",
     "name": "Mongolian Lamb",
     "category": "Dinner",
@@ -1656,7 +1674,7 @@
     "description": "Fast, tangy, sweet, and irresistibly familiar — your shortcut to classic Chinese takeout flavour at home."
   },
   {
-    "id": "sweetchilisauce",
+    "id": "sweetchillisauce",
     "name": "Sweet Chilli Sauce",
     "category": "Sauces",
     "tags": [

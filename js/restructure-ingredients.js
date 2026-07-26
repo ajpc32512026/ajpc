@@ -106,6 +106,6 @@ for (const ing of Object.values(structured)) {
 }
 
 console.log('\nExtraction stats:');
-console.log('  Storage extracted: ${storageCount} ingredients`);
-console.log('  Substitutes extracted: ${subCount} ingredients`);
-console.log('  Usage tips extracted: ${usageCount} ingredients`);
+console.log(`  Storage extracted: ${storageCount} ingredients`);
+console.log(`  Substitutes extracted: ${subCount} ingredients`);
+console.log(`  Usage tips extracted: ${usageCount} ingredients`);

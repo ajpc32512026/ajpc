@@ -1,5 +1,5 @@
 /* =========================================================
-   RECIPE BUILDER LOGIC — AJPC Kitchen Notebook
+   RECIPE BUILDER LOGIC — KitchenNotebook Kitchen Notebook
    Splits from monolithic HTML June 02, 2026
 ========================================================= */
 

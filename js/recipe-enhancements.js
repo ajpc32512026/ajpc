@@ -1,9 +1,9 @@
 /* =========================================================
-   RECIPE ENHANCEMENTS — AJPC Kitchen Notebook
+   RECIPE ENHANCEMENTS — KitchenNotebook Kitchen Notebook
    Listens for 'recipeRendered' from recipe-renderer.js
    Adds: favourites, recently viewed, collections,
          daily tracker, cost per serving, voice read cook mode
-   Depends on: user-prefs.js (window.AJPC)
+   Depends on: user-prefs.js (window.KitchenNotebook)
 ========================================================= */
 
 (function () {
@@ -19,8 +19,8 @@
         if (!recipe) return;
 
         // Track recently viewed
-        if (window.AJPC && window.AJPC.RecentlyViewed) {
-            window.AJPC.RecentlyViewed.add(recipe.id, recipe.title || recipe.name, recipe.category);
+        if (window.KitchenNotebook && window.KitchenNotebook.RecentlyViewed) {
+            window.KitchenNotebook.RecentlyViewed.add(recipe.id, recipe.title || recipe.name, recipe.category);
         }
 
         injectToolbarButtons();
@@ -40,8 +40,8 @@
         favBtn.id = 'favouriteBtn';
         updateFavBtn(favBtn);
         favBtn.addEventListener('click', function () {
-            if (!window.AJPC) return;
-            var added = window.AJPC.Favourites.toggle(recipe.id);
+            if (!window.KitchenNotebook) return;
+            var added = window.KitchenNotebook.Favourites.toggle(recipe.id);
             updateFavBtn(favBtn);
             toast(added ? 'Added to favourites' : 'Removed from favourites');
         });
@@ -79,8 +79,8 @@
     }
 
     function updateFavBtn(btn) {
-        if (!window.AJPC) return;
-        var isFav = window.AJPC.Favourites.isFav(recipe.id);
+        if (!window.KitchenNotebook) return;
+        var isFav = window.KitchenNotebook.Favourites.isFav(recipe.id);
         btn.textContent = isFav ? 'Favourited' : 'Favourite';
         btn.classList.toggle('active', isFav);
     }
@@ -270,8 +270,8 @@
 
     // ── Collection Modal ──────────────────────────────────
     function openCollectionModal() {
-        if (!window.AJPC) return;
-        var cols = window.AJPC.Collections.getAll();
+        if (!window.KitchenNotebook) return;
+        var cols = window.KitchenNotebook.Collections.getAll();
 
         var modal = getOrCreateModal('collection-modal');
         modal.innerHTML =
@@ -302,21 +302,21 @@
     }
 
     window.enhToggleCollection = function (colId, recipeId, recipeName) {
-        if (!window.AJPC) return;
-        var col  = window.AJPC.Collections.get(colId);
+        if (!window.KitchenNotebook) return;
+        var col  = window.KitchenNotebook.Collections.get(colId);
         var inCol = col && col.recipes.some(function (r) { return r.id === recipeId; });
-        if (inCol) window.AJPC.Collections.removeRecipe(colId, recipeId);
-        else        window.AJPC.Collections.addRecipe(colId, recipeId, recipeName);
+        if (inCol) window.KitchenNotebook.Collections.removeRecipe(colId, recipeId);
+        else        window.KitchenNotebook.Collections.addRecipe(colId, recipeId, recipeName);
         openCollectionModal();
     };
 
     window.enhCreateCollection = function () {
         var input = document.getElementById('newCollectionName');
         if (!input || !input.value.trim()) return;
-        if (!window.AJPC) return;
-        window.AJPC.Collections.create(input.value.trim());
-        window.AJPC.Collections.addRecipe(
-            window.AJPC.Collections.getAll().slice(-1)[0].id,
+        if (!window.KitchenNotebook) return;
+        window.KitchenNotebook.Collections.create(input.value.trim());
+        window.KitchenNotebook.Collections.addRecipe(
+            window.KitchenNotebook.Collections.getAll().slice(-1)[0].id,
             recipe.id,
             recipe.title || recipe.name
         );
@@ -387,8 +387,8 @@
     };
 
     window.enhAddToTracker = function () {
-        if (!window.AJPC) return;
-        var ok = window.AJPC.DailyTracker.addEntry(recipe, window._trackerServings || 1);
+        if (!window.KitchenNotebook) return;
+        var ok = window.KitchenNotebook.DailyTracker.addEntry(recipe, window._trackerServings || 1);
         document.getElementById('tracker-modal').style.display = 'none';
         toast(ok ? 'Added to today\'s intake' : 'No nutrition data to track');
     };

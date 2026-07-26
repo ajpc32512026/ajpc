@@ -1,5 +1,5 @@
 /* =========================================================
-   RECIPE RENDERER — AJPC Kitchen Notebook
+   RECIPE RENDERER — KitchenNotebook Kitchen Notebook
    Core rendering engine: cook mode, scaler, tip box, related recipes
    Shopping list functionality moved to recipe-shopping.js
 ========================================================= */
@@ -182,11 +182,11 @@
 
     function renderRecipe(r, container, recipeIndex) {
         const title = r.title || r.id || 'Recipe';
-        document.title = title + ' | AJPC Kitchen';
+        document.title = title + ' | KitchenNotebook Kitchen';
 
         var metaDesc = document.querySelector('meta[name="description"]');
         if (metaDesc) {
-            metaDesc.setAttribute('content', (r.description || r.title || 'Recipe') + " — Ana & John's Kitchen Notebook.");
+            metaDesc.setAttribute('content', (r.description || r.title || 'Recipe') + " — The Kitchen Notebook.");
         }
 
         validateRecipe(r, r.id || '');

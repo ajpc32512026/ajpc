@@ -1,5 +1,5 @@
 Recipe Builder — Documentation
-The Recipe Builder (recipe-builder.html) is a standalone tool for creating, editing, and importing recipe JSON files for the AJPC Kitchen Notebook. It runs entirely in the browser with no server dependencies (except for the optional recipe-api-server.py for direct server saves).
+The Recipe Builder (recipe-builder.html) is a standalone tool for creating, editing, and importing recipe JSON files for The Kitchen Notebook. It runs entirely in the browser with no server dependencies (except for the optional recipe-api-server.py for direct server saves).
 
 Table of Contents
 Browser Compatibility
@@ -346,5 +346,5 @@ Google Fonts — Playfair Display, IBM Plex Mono, DM Sans
 
 No other external dependencies
 
-Documentation for AJPC Kitchen Notebook Recipe Builder — last updated May 2026
+Documentation for The Kitchen Notebook Recipe Builder — last updated May 2026
 [file content end]

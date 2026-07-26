@@ -1,5 +1,5 @@
 /* =========================================================
-   PANTRY STAPLES — AJPC Kitchen Notebook
+   PANTRY STAPLES — KitchenNotebook Kitchen Notebook
    Auto-generated from recipe-prices.json
    505 ingredients across 27 categories
 ========================================================= */

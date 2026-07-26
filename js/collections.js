@@ -1,5 +1,5 @@
 /* =========================================================
-   COLLECTIONS — AJPC Kitchen Notebook
+   COLLECTIONS — KitchenNotebook Kitchen Notebook
    Renders user collections, allows create/delete/rename,
    view recipes in each, and generates combined shopping list.
    Depends on: user-prefs.js
@@ -25,7 +25,7 @@
             createBtn.addEventListener('click', function () {
                 var name = nameInput.value.trim();
                 if (!name) return;
-                if (window.AJPC) window.AJPC.Collections.create(name);
+                if (window.KitchenNotebook) window.KitchenNotebook.Collections.create(name);
                 nameInput.value = '';
                 renderCollections();
             });
@@ -37,9 +37,9 @@
 
     function renderCollections() {
         var container = document.getElementById('collectionsContainer');
-        if (!container || !window.AJPC) return;
+        if (!container || !window.KitchenNotebook) return;
 
-        var cols = window.AJPC.Collections.getAll();
+        var cols = window.KitchenNotebook.Collections.getAll();
 
         if (!cols.length) {
             container.innerHTML =
@@ -90,28 +90,28 @@
     // ── Actions ───────────────────────────────────────────
     window.deleteCollection = function (colId) {
         if (!confirm('Delete this collection?')) return;
-        if (window.AJPC) window.AJPC.Collections.delete(colId);
+        if (window.KitchenNotebook) window.KitchenNotebook.Collections.delete(colId);
         renderCollections();
     };
 
     window.renameCollection = function (colId) {
-        var col = window.AJPC && window.AJPC.Collections.get(colId);
+        var col = window.KitchenNotebook && window.KitchenNotebook.Collections.get(colId);
         if (!col) return;
         var name = prompt('Rename collection:', col.name);
         if (!name || !name.trim()) return;
-        window.AJPC.Collections.rename(colId, name.trim());
+        window.KitchenNotebook.Collections.rename(colId, name.trim());
         renderCollections();
     };
 
     window.removeFromCollection = function (colId, recipeId) {
-        if (!window.AJPC) return;
-        window.AJPC.Collections.removeRecipe(colId, recipeId);
+        if (!window.KitchenNotebook) return;
+        window.KitchenNotebook.Collections.removeRecipe(colId, recipeId);
         renderCollections();
     };
 
     // ── Combined Shopping List ────────────────────────────
     window.openCombinedShopping = async function (colId) {
-        var col = window.AJPC && window.AJPC.Collections.get(colId);
+        var col = window.KitchenNotebook && window.KitchenNotebook.Collections.get(colId);
         if (!col || !col.recipes.length) return;
 
         var modal = getOrCreateModal('combined-shopping-modal');

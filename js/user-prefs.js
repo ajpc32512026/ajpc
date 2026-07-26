@@ -1,5 +1,5 @@
 /* =========================================================
-   USER PREFS — AJPC Kitchen Notebook
+   USER PREFS — KitchenNotebook Kitchen Notebook
    Single source of truth for all user localStorage data:
    - Favourites
    - Recently Viewed
@@ -28,7 +28,7 @@
 
     function save(key, value) {
         try { localStorage.setItem(key, JSON.stringify(value)); return true; }
-        catch(e) { console.warn('AJPC storage write failed:', key, e); return false; }
+        catch(e) { console.warn('KitchenNotebook storage write failed:', key, e); return false; }
     }
 
     // ══════════════════════════════════════════════════════
@@ -205,10 +205,10 @@
     // ══════════════════════════════════════════════════════
     // PUBLIC API
     // ══════════════════════════════════════════════════════
-    window.AJPC = window.AJPC || {};
-    window.AJPC.Favourites    = Favourites;
-    window.AJPC.RecentlyViewed = RecentlyViewed;
-    window.AJPC.Collections   = Collections;
-    window.AJPC.DailyTracker  = DailyTracker;
+    window.KitchenNotebook = window.KitchenNotebook || {};
+    window.KitchenNotebook.Favourites    = Favourites;
+    window.KitchenNotebook.RecentlyViewed = RecentlyViewed;
+    window.KitchenNotebook.Collections   = Collections;
+    window.KitchenNotebook.DailyTracker  = DailyTracker;
 
 })();

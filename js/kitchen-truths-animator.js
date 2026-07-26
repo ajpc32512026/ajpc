@@ -1,5 +1,5 @@
 /* =========================================================
-   KITCHEN TRUTHS ANIMATOR — AJPC Kitchen Notebook
+   KITCHEN TRUTHS ANIMATOR — KitchenNotebook Kitchen Notebook
    Cycles through truths with fade transitions.
    Fixed: encapsulated, no global pollution, accessible.
 ========================================================= */

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /* =========================================================
-   TAG FIX SCRIPT — AJPC Kitchen Notebook
+   TAG FIX SCRIPT — The Kitchen Notebook
    Run from your project root:
      node fix-tags.js
 
@@ -140,7 +140,7 @@ files.forEach(file => {
 
 // ── Report ────────────────────────────────────────────────
 console.log('\n╔══════════════════════════════════════════════════════╗');
-console.log(  '║         AJPC TAG FIX REPORT                         ║');
+console.log(  '║         TAG FIX REPORT                         ║');
 console.log(  '╚══════════════════════════════════════════════════════╝\n');
 console.log(`Vocabulary tags added   : ${vocabAdded}`);
 console.log(`Recipes modified        : ${stats.fixed}`);

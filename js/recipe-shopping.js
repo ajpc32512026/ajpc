@@ -1,4 +1,4 @@
-// recipe-shopping.js - AJPC Kitchen Notebook
+// recipe-shopping.js - KitchenNotebook Kitchen Notebook
 // Loads price database via HTTP once, caches in sessionStorage
 // No file picker, no prompts, no "Load Price DB" button
 // Saves by downloading the file (you replace manually)
@@ -360,9 +360,9 @@
             inner += '<p class="shopping-empty">No ingredients found.</p>';
         } else {
             // ── Pantry check ──────────────────────────────
-            if (window.AJPC && window.AJPC.Pantry) {
-                const pantryResult = window.AJPC.Pantry.analyseRecipe(recipe.ingredients || []);
-                const hasAnyPantryData = window.AJPC.Pantry.list().length > 0;
+            if (window.KitchenNotebook && window.KitchenNotebook.Pantry) {
+                const pantryResult = window.KitchenNotebook.Pantry.analyseRecipe(recipe.ingredients || []);
+                const hasAnyPantryData = window.KitchenNotebook.Pantry.list().length > 0;
 
                 if (hasAnyPantryData && (pantryResult.have.length || pantryResult.low.length || pantryResult.subs.length)) {
                     inner += '<div class="pantry-check-section">';
@@ -460,7 +460,7 @@
             const items = checked.length ? checked : Array.from(panel.querySelectorAll('.shopping-item-name')).map(el => el.textContent);
             if (!items.length) return alert('Nothing to print.');
             const win = window.open('', '_blank');
-            win.document.write(`<!DOCTYPE html><html><head><title>Shopping List</title><style>body{font-family:sans-serif;padding:20px;}h1{font-size:18px;}ul{list-style:none;padding:0;}li{padding:8px 0;border-bottom:1px solid #eee;}</style></head><body><h1>Shopping List</h1><div>${escapeHtml(recipe.title || '')}</div>${multiplier > 1 ? `<div>Scaled ${multiplier}x — Serves: ${scaledServings}</div>` : ''}<ul>${items.map(i => `<li><input type="checkbox"> ${escapeHtml(i)}</li>`).join('')}</ul><div class="disclaimer">Prices are estimates</div></body></html>`);
+            win.document.write(`<!DOCTYPE html><html><head><title>Shopping List</title><link rel="stylesheet" href="css/shopping-list-print.css"></head><body><h1>Shopping List</h1><div>${escapeHtml(recipe.title || '')}</div>${multiplier > 1 ? `<div>Scaled ${multiplier}x — Serves: ${scaledServings}</div>` : ''}<ul>${items.map(i => `<li><input type="checkbox"> ${escapeHtml(i)}</li>`).join('')}</ul><div class="disclaimer">Prices are estimates</div></body></html>`);
             win.document.close();
             win.print();
         });

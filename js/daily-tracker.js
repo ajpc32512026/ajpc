@@ -1,5 +1,5 @@
 /* =========================================================
-   DAILY TRACKER — AJPC Kitchen Notebook
+   DAILY TRACKER — KitchenNotebook Kitchen Notebook
    Renders today's intake log, running totals, RDI bars,
    and 7-day history. Depends on user-prefs.js
 ========================================================= */
@@ -40,7 +40,7 @@
         if (clearBtn) {
             clearBtn.addEventListener('click', function () {
                 if (!confirm('Clear today\'s entire log?')) return;
-                if (window.AJPC) window.AJPC.DailyTracker.clearToday();
+                if (window.KitchenNotebook) window.KitchenNotebook.DailyTracker.clearToday();
                 renderToday();
                 renderWeekHistory();
             });
@@ -51,9 +51,9 @@
     function renderToday() {
         var container = document.getElementById('todayLog');
         var totalsEl  = document.getElementById('todayTotals');
-        if (!container || !window.AJPC) return;
+        if (!container || !window.KitchenNotebook) return;
 
-        var day = window.AJPC.DailyTracker.getToday();
+        var day = window.KitchenNotebook.DailyTracker.getToday();
 
         // Totals bar
         if (totalsEl) totalsEl.innerHTML = renderTotals(day.totals);
@@ -113,8 +113,8 @@
     }
 
     window.enhRemoveEntry = function (ts) {
-        if (!window.AJPC) return;
-        window.AJPC.DailyTracker.removeEntry(ts);
+        if (!window.KitchenNotebook) return;
+        window.KitchenNotebook.DailyTracker.removeEntry(ts);
         renderToday();
         renderWeekHistory();
     };
@@ -122,9 +122,9 @@
     // ── 7-Day History ─────────────────────────────────────
     function renderWeekHistory() {
         var container = document.getElementById('weekHistory');
-        if (!container || !window.AJPC) return;
+        if (!container || !window.KitchenNotebook) return;
 
-        var week = window.AJPC.DailyTracker.getWeek();
+        var week = window.KitchenNotebook.DailyTracker.getWeek();
         var maxCal = Math.max.apply(null, week.map(function (d) {
             return d.data ? d.data.totals.cal : 0;
         })) || RDI.cal;

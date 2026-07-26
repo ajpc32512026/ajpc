@@ -1,0 +1,108 @@
+{
+  "id": "mockcreamtraditionalmethod",
+  "title": "Mock Cream (Traditional Method)",
+  "category": "Baking",
+  "difficulty": "Beginner",
+  "description": "A traditional bakery-style mock cream with a small amount of gelatine added for stability, from Tracy Rutherford's Taste.com.au recipe.",
+  "prepTime": "10",
+  "cookTime": "15",
+  "totalTime": "25",
+  "servings": "1",
+  "tags": [
+    "Traditional",
+    "Bakery-style",
+    "Australian",
+    "Vegetarian",
+    "Gluten-free",
+    "Make-ahead",
+    "No-bake",
+    "Cake Filling",
+    "Frosting",
+    "Pastry Filling"
+  ],
+  "ingredients": [
+    {
+      "quantity": "140",
+      "unit": "g",
+      "item": "Castor Sugar"
+    },
+    {
+      "quantity": "40",
+      "unit": "ml",
+      "item": "Milk"
+    },
+    {
+      "quantity": "80",
+      "unit": "ml",
+      "item": "Water"
+    },
+    {
+      "quantity": "2",
+      "unit": "g",
+      "item": "Geletine"
+    },
+    {
+      "quantity": "185",
+      "unit": "g",
+      "item": "Unsalted Butter",
+      "notes": "sofened and chopped"
+    },
+    {
+      "quantity": "10",
+      "unit": "ml",
+      "item": "Vanilla Extract"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Dissolve the sugar: Combine 140 grams caster sugar, 40 milliliters milk, and 80 milliliters water in a small saucepan. Heat gently over low heat, stirring constantly, until the sugar has completely dissolved. Do not allow the mixture to boil."
+    },
+    {
+      "step": 2,
+      "instruction": "Add the gelatine: Sprinkle 1.5 grams powdered gelatine evenly over the warm sugar mixture. Stir until fully dissolved. Remove from heat and set aside to cool to room temperature, allowing it to thicken slightly."
+    },
+    {
+      "step": 3,
+      "instruction": "Beat and combine: Using electric beaters, beat 185 grams unsalted butter, softened and chopped and 10 milliliters vanilla extract in a bowl until very pale and creamy. With the mixer running, gradually add the cooled milk mixture, beating continuously until the mixture is light, pale, and smooth."
+    }
+  ],
+  "notes": [
+    {
+      "type": "tip",
+      "title": "Tip",
+      "content": "Use immediately, or refrigerate briefly before using to fill pastries or spread between layers of sponge cake."
+    },
+    {
+      "type": "tip",
+      "title": "Tip",
+      "content": "1.5 g gelatine is roughly the equivalent of the traditional 1/2 tsp measure, weighed for accuracy."
+    }
+  ],
+  "nutrition": {
+    "servings": 1,
+    "cal": 1388,
+    "kj": 5809,
+    "protein": 3,
+    "carbs": 5,
+    "sugars": 5,
+    "fat": 153,
+    "saturated_fat": 106.2,
+    "fiber": 0,
+    "sodium": 33,
+    "coverage": 60,
+    "foundCount": 3,
+    "totalCount": 5,
+    "unmatchedItems": [
+      "Castor Sugar",
+      "Geletine"
+    ],
+    "calcium_mg": 74,
+    "potassium_mg": 99,
+    "magnesium_mg": 8,
+    "cholesterol_mg": 313,
+    "vitamin_a_ug": 1605,
+    "vitamin_d_ug": 1
+  },
+  "lastModified": "2026-07-25"
+}

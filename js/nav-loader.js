@@ -1,5 +1,5 @@
 /* =========================================================
-   NAV LOADER — AJPC Kitchen Notebook
+   NAV LOADER — The Kitchen Notebook
    Fixed: graceful fallback if fetch fails (file:// protocol),
    proper search integration, no phantom errors.
    Added: active page highlighting for nav pills and links,
@@ -36,7 +36,7 @@
         return `<header class="nav-header">
             <div class="nav-container">
                 <div class="nav-top-row">
-                    <a href="index.html" class="nav-brand">Ana <span>&</span> John's Kitchen</a>
+                    <a href="index.html" class="nav-brand">The Kitchen Notebook</a>
                     <div class="nav-search">
                         <svg class="search-icon" width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true">
                             <circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="2"/>
@@ -157,7 +157,7 @@
         async function loadIndex() {
             if (recipeIndex) return recipeIndex;
             try {
-                var r = await fetch('json/recipe-index.json');
+                var r = await fetch('json/recipe-index.json?t=' + Date.now());
                 if (r.ok) recipeIndex = await r.json();
             } catch(e) { recipeIndex = []; }
             return recipeIndex || [];
@@ -306,7 +306,8 @@
 
         // Highlight recipe in dropdowns
         if (currentId) {
-            var recipeLinks = document.querySelectorAll('.dropdown a[href="recipe.html?id=' + currentId + '"]');
+            var safeId = (window.CSS && CSS.escape) ? CSS.escape(currentId) : currentId.replace(/(["\\\]\[])/g, '\\$1');
+            var recipeLinks = document.querySelectorAll('.dropdown a[href="recipe.html?id=' + safeId + '"]');
             recipeLinks.forEach(function(link) {
                 link.style.color = 'var(--copper-warm)';
                 link.style.fontWeight = '600';
@@ -357,7 +358,10 @@
     function generateBreadcrumb() {
         const path = window.location.pathname;
         const page = path.split('/').pop().replace('.html', '');
-        const pageName = page.charAt(0).toUpperCase() + page.slice(1);
+        const pageName = page
+            .split(/[-_]/)
+            .map(function(word) { return word.charAt(0).toUpperCase() + word.slice(1); })
+            .join(' ');
         
         let breadcrumbHtml = '<div class="breadcrumb">';
         breadcrumbHtml += '<a href="index.html">Home</a> <span>/</span> ';
@@ -366,12 +370,30 @@
             const query = new URLSearchParams(window.location.search).get('q');
             breadcrumbHtml += `<span>Search</span>`;
             if (query) breadcrumbHtml += ` <span>/</span> <span>${escHtml(query)}</span>`;
-        } else if (page === 'measurements') {
+        } else if (page === 'measurement') {
             breadcrumbHtml += `<span>Reference</span> <span>/</span> <span>Measurements</span>`;
-        } else if (page === 'culinary-terms') {
+        } else if (page === 'culinaryterms') {
             breadcrumbHtml += `<span>Reference</span> <span>/</span> <span>Culinary Terms</span>`;
         } else if (page === 'breadtips') {
             breadcrumbHtml += `<span>Reference</span> <span>/</span> <span>Bread Tips</span>`;
+        } else if (page === 'cheesesaucetips') {
+            breadcrumbHtml += `<span>Reference</span> <span>/</span> <span>Cheese Sauce Tips</span>`;
+        } else if (page === 'tangzhongguide') {
+            breadcrumbHtml += `<span>Reference</span> <span>/</span> <span>Tangzhong Guide</span>`;
+        } else if (page === 'puffpastrymethods') {
+            breadcrumbHtml += `<span>Reference</span> <span>/</span> <span>Puff Pastry Methods</span>`;
+        } else if (page === 'gelatin-blooming-guide') {
+            breadcrumbHtml += `<span>Reference</span> <span>/</span> <span>Gelatine Blooming</span>`;
+        } else if (page === 'ingredient_directory') {
+            breadcrumbHtml += `<span>Reference</span> <span>/</span> <span>Ingredient Directory</span>`;
+        } else if (page === 'about') {
+            breadcrumbHtml += `<span>About</span>`;
+        } else if (page === 'colophon') {
+            breadcrumbHtml += `<span>Colophon</span>`;
+        } else if (page === 'friandstory') {
+            breadcrumbHtml += `<span>The Friand Story</span>`;
+        } else if (page === 'sitemap') {
+            breadcrumbHtml += `<span>Sitemap</span>`;
         } else if (page === 'gallery') {
             breadcrumbHtml += `<span>Gallery</span>`;
         } else if (page === 'tags') {
@@ -384,6 +406,8 @@
             breadcrumbHtml += `<span>Recipe Builder</span>`;
         } else if (page === 'print-all' || page === 'print-all-recipes') {
             breadcrumbHtml += `<span>Print All</span>`;
+        } else if (page === '404') {
+            breadcrumbHtml = '<div class="breadcrumb"><span>Page Not Found</span></div>';
         } else if (page === '' || page === 'index') {
             breadcrumbHtml = '<div class="breadcrumb"><span>Home</span></div>';
         } else {

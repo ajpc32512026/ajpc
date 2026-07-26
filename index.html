@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ana and John's Kitchen Notebook — real recipes, written down so they don't get lost.">
+    <meta name="description" content="The Kitchen Notebook — real recipes, written down so they don't get lost.">
     <meta name="theme-color" content="#16161a">
-    <title>Ana &amp; John's Kitchen Notebook</title>
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2316161a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='28' font-weight='bold' fill='%23c97d3e'%3EAJ%3C/text%3E%3C/svg%3E">
+    <title>The Kitchen Notebook</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2316161a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='28' font-weight='bold' fill='%23c97d3e'%3EKN%3C/text%3E%3C/svg%3E">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -21,7 +21,7 @@
             <section class="hero-section animate-in">
                 <p class="hero-eyebrow">Est. 2025 &mdash; NSW, Australia</p>
                 <div class="hero-rule"></div>
-                <h1>Ana &amp; John's<br><em>Kitchen Notebook</em></h1>
+                <h1>The<br><em>Kitchen Notebook</em></h1>
                 <p class="hero-tagline">Not a blog, not a brand &mdash; just the recipes we actually cook, written down so they don't get lost to time or temperamental memory.</p>
             </section>
 
@@ -85,7 +85,7 @@
 
         <footer>
             <div class="footer-inner">
-                <span class="footer-brand">AJPC</span>
+                <span class="footer-brand">The Kitchen Notebook</span>
                 <div class="footer-links">
                     <a href="about.html">About</a>
                     <a href="sitemap.html">Sitemap</a>
@@ -97,7 +97,7 @@
                     <a href="collections.html">Collections</a>
                     <a href="daily-tracker.html">Daily Tracker</a>
                 </div>
-                <p class="footer-copy">&copy; 2026 Ana &amp; John's Kitchen Notebook. Built with &#9749; and patience.</p>
+                <p class="footer-copy">&copy; 2026 The Kitchen Notebook. Built with &#9749; and patience.</p>
 				<p class="footer-copy">If you walk away after failure, why bother starting at all?</p>
             </div>
         </footer>
@@ -128,8 +128,8 @@
 
         // Recently viewed
         function renderRecentlyViewed() {
-            if (!window.AJPC || !window.AJPC.RecentlyViewed) return;
-            var recent  = window.AJPC.RecentlyViewed.getAll().slice(0, 8);
+            if (!window.KitchenNotebook || !window.KitchenNotebook.RecentlyViewed) return;
+            var recent  = window.KitchenNotebook.RecentlyViewed.getAll().slice(0, 8);
             var section = document.getElementById('recentlyViewedSection');
             var list    = document.getElementById('recentlyViewedList');
             if (!section || !list || !recent.length) return;
@@ -148,7 +148,7 @@
         var clearBtn = document.getElementById('clearRecentBtn');
         if (clearBtn) {
             clearBtn.addEventListener('click', function() {
-                if (window.AJPC) window.AJPC.RecentlyViewed.clear();
+                if (window.KitchenNotebook) window.KitchenNotebook.RecentlyViewed.clear();
                 var section = document.getElementById('recentlyViewedSection');
                 if (section) section.style.display = 'none';
             });

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /* =========================================================
-   RECIPE FIX SCRIPT — AJPC Kitchen Notebook
+   RECIPE FIX SCRIPT — The Kitchen Notebook
    Run from your project root:
      node fix-recipes.js
 
@@ -119,7 +119,7 @@ files.forEach(file => {
 
 // ── Report ────────────────────────────────────────────────
 console.log('\n╔══════════════════════════════════════════════════════╗');
-console.log(  '║         AJPC RECIPE FIX REPORT                      ║');
+console.log(  '║         RECIPE FIX REPORT                      ║');
 console.log(  '╚══════════════════════════════════════════════════════╝\n');
 console.log(`Total recipes processed : ${stats.total}`);
 console.log(`Emoji fields removed    : ${stats.emojiRemoved}`);

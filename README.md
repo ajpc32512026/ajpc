@@ -1,7 +1,7 @@
 
-# AJPC Kitchen Notebook
+# The Kitchen Notebook
 
-A personal recipe collection and kitchen utility for Ana & John's kitchen. It contains over 110 kitchen-tested recipes spanning bread, pastry, baking, dinner, sauces, Filipino heritage cooking, and desserts, written down to ensure they are not lost to memory.
+A personal recipe collection and kitchen utility, built to run entirely as static files with no backend. It ships with over 110 kitchen-tested recipes spanning bread, pastry, baking, dinner, sauces, Filipino heritage cooking, and desserts as example content — fork it, swap in your own recipes, and it's ready to go.
 
 ---
 
@@ -126,4 +126,4 @@ To maintain consistency and accuracy:
 All weights are defined in grams (g) or kilograms (kg).
 All liquids are measured in millilitres (ml) or litres (L).
 Standard Australian spoon measurements are noted where weights are impractical (e.g., a standard tablespoon is equivalent to 20 ml in Australian kitchen standards).
-Ana & John's Kitchen Notebook — Sydney, Australia
+The Kitchen Notebook

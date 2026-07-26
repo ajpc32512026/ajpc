@@ -1,5 +1,5 @@
 /* =========================================================
-   SEARCH ENGINE LOGIC — AJPC Kitchen Notebook
+   SEARCH ENGINE LOGIC — KitchenNotebook Kitchen Notebook
    Word-Boundary Tag Matcher (Headings and descriptions excluded).
    Matches typed terms against recipe tags. Standalone words
    match, but partial character matches inside larger words are ignored.

@@ -1,7 +1,7 @@
-# AJPC Recipe Maintenance Tools
+# Recipe Maintenance Tools
 
 Three Node.js scripts for keeping the recipe collection clean and consistent.
-Run from the project root (`D:\mysites\ajpc\`).
+Run from the project root.
 
 ---
 
@@ -84,4 +84,4 @@ node fix-tags.js
 
 ---
 
-*These scripts require Node.js. Run all commands from `D:\mysites\ajpc\`.*
+*These scripts require Node.js. Run all commands from the project root.*

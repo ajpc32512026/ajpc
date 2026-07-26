@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /* =========================================================
-   RECIPE AUDIT SCRIPT — AJPC Kitchen Notebook
+   RECIPE AUDIT SCRIPT — The Kitchen Notebook
    Run from your project root:
      node audit-recipes.js
 
@@ -157,7 +157,7 @@ files.forEach(file => {
 
 // ── Report ────────────────────────────────────────────────
 console.log('\n╔══════════════════════════════════════════════════════╗');
-console.log(  '║         AJPC RECIPE AUDIT REPORT                    ║');
+console.log(  '║         RECIPE AUDIT REPORT                    ║');
 console.log(  '╚══════════════════════════════════════════════════════╝\n');
 
 console.log(`Total recipes scanned : ${files.length}`);
