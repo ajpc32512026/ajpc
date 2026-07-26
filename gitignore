@@ -38,10 +38,4 @@ npm-debug.log*
 git
 
 # Project-specific ignores
-rebuild-index.html
-recipe-builder.html
-audit-recipes.js
-fix-recipes.js
-fix-tags.js
-patch-vocab.js
-sync.ffs_db
+
