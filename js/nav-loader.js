@@ -390,8 +390,6 @@
             breadcrumbHtml += `<span>About</span>`;
         } else if (page === 'colophon') {
             breadcrumbHtml += `<span>Colophon</span>`;
-        } else if (page === 'friandstory') {
-            breadcrumbHtml += `<span>The Friand Story</span>`;
         } else if (page === 'sitemap') {
             breadcrumbHtml += `<span>Sitemap</span>`;
         } else if (page === 'gallery') {

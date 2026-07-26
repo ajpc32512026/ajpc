@@ -19,7 +19,6 @@ ajpc/
 ├── cheesesaucetips.html # Guide to smooth, split-free cheese sauces
 ├── tangzhongguide.html # Technical guide to water roux lamination
 ├── gelatin-blooming-guide.html # Guide to smooth, cold-set gelatine desserts
-├── friandstory.html # Narrative on resilience in the kitchen
 ├── 404.html # Missing page fallback
 │
 ├── css/
