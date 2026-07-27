@@ -3,6 +3,37 @@
 
 A personal recipe collection and kitchen utility, built to run entirely as static files with no backend. It ships with over 110 kitchen-tested recipes spanning bread, pastry, baking, dinner, sauces, Filipino heritage cooking, and desserts as example content — fork it, swap in your own recipes, and it's ready to go.
 
+## A Note From the Author
+
+This project grew over several months, feature by feature, mostly to solve my own kitchen problems. It's held together well, but with this much going on — recipe parsing, search, tagging, nutrition estimates, a builder tool, and more — there are almost certainly a few rough edges or bugs still hiding somewhere.
+
+I'm sharing it as-is because I think it's more useful out in the open than sitting on my own machine. If you find something broken, or see a way to make it better, pull requests and issues are genuinely welcome — this is exactly the kind of project that gets better with more hands on it.
+
+---
+
+## License
+
+MIT — see [LICENSE](LICENSE). Use it, fork it, adapt it.
+
+**Exception:** the nutrition data in `data/nutrition-db.json` is not covered by the MIT license above — see below.
+
+---
+
+## Where the Nutrition Data Comes From
+
+Nutrition estimates throughout this site (per-recipe nutrition panels, the daily tracker) are calculated from `data/nutrition-db.json`, a per-ingredient nutrient reference file built from **AUSNUT 2023** (the Australian Food, Supplement and Nutrient Database), published by **Food Standards Australia New Zealand (FSANZ)**.
+
+The values in `nutrition-db.json` were extracted and matched against this project's ingredient list from the official AUSNUT 2023 data files (Food details, Food nutrient profiles) using a small Python script, then simplified down to the handful of nutrients this site actually displays (calories, protein, carbs, fat, fibre, sugars, sodium, and a few key vitamins/minerals per ingredient).
+
+**Attribution & licensing:** AUSNUT 2023 is released by FSANZ under their own [Data User Licence Agreement](https://www.foodstandards.gov.au/science-data/monitoringnutrients/afcd/datauserlicenceagreement) — not MIT. That licence permits copying, adapting, and redistributing the data, provided that:
+- FSANZ is correctly attributed as the source,
+- any derivative work (like `nutrition-db.json`) is distributed under the same licence terms, not a different one,
+- changes made to the original data are clearly identified.
+
+In line with that: `data/nutrition-db.json` is a **derivative work of AUSNUT 2023, © FSANZ**, adapted by extracting and simplifying a subset of values for this project's ingredient list. If you reuse or redistribute that file specifically, the same AUSNUT licence terms apply to it, separate from this repo's MIT license.
+
+**Limitation of Data Statement (as required by FSANZ):** There are limitations associated with food composition databases. Food composition data used in this database may represent an average of the nutrient content of a particular sample of foods and ingredients, determined at a particular time. Nutrition figures on this site are estimates only and should not be relied on for medical, clinical, or precise dietary purposes.
+
 ---
 
 ## Directory Structure
