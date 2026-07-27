@@ -7,7 +7,7 @@ A personal recipe collection and kitchen utility, built to run entirely as stati
 
 This project grew over several months, feature by feature, mostly to solve my own kitchen problems. It's held together well, but with this much going on — recipe parsing, search, tagging, nutrition estimates, a builder tool, and more — there are almost certainly a few rough edges or bugs still hiding somewhere.
 
-I'm sharing it as-is because I think it's more useful out in the open than sitting on my own machine. If you find something broken, or see a way to make it better, pull requests and issues are genuinely welcome — this is exactly the kind of project that gets better with more hands on it.
+I'm sharing it as-is because I think it's more useful out in the open than sitting on my own machine. If you find something broken, or see a way to make it better, pull requests and issues are genuinely welcome — this is exactly the kind of project that gets better with more hands on it. See [CONTRIBUTING.md](CONTRIBUTING.md) for how to get started.
 
 ---
 
@@ -91,7 +91,7 @@ When a user visits `recipe.html?id=recipeid`, client-side JavaScript (`recipe-re
 
 ```json
 {
-  "id": "your-recipe-id",
+  "id": "yourrecipeid",
   "title": "Recipe Title",
   "category": "Dinner",
   "description": "Short description of the dish.",
@@ -116,18 +116,18 @@ When a user visits `recipe.html?id=recipeid`, client-side JavaScript (`recipe-re
 }
 Section Headers: To group items within ingredients or method steps, use { "heading": "Section Name" } instead of an ingredient object.
 Adding a New Recipe
-Write a valid JSON file following the schema and save it to data/recipes/your-recipe-id.json.
+Write a valid JSON file following the schema and save it to data/recipes/yourrecipeid.json. IDs are lowercase with no spaces or hyphens (e.g. tiramisu, sweetchillisauce) — this must match the filename and the id used in the index below.
 Add a reference block to the master index in json/recipe-index.json:
 code
 JSON
 {
-  "id": "your-recipe-id",
+  "id": "yourrecipeid",
   "title": "Your Recipe Title",
   "category": "Category",
   "description": "Short description of the dish.",
   "tags": ["Tag1", "Tag2"]
 }
-The recipe will immediately become discoverable via search and viewable at recipe.html?id=your-recipe-id.
+The recipe will immediately become discoverable via search and viewable at recipe.html?id=yourrecipeid.
 Technical Features
 Advanced Search Engine: Supports standard text queries, category filtering, tag filtering, and dynamic multi-ingredient matching (comma-separated, e.g. chicken, cream, mushrooms).
 Dynamic Scaling: Real-time quantity calculator scales ingredients up to 20×, converting decimals to clean fractions (e.g., 0.25 to 1/4) for ease of reading in the kitchen.
