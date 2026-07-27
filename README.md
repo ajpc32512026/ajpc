@@ -9,6 +9,8 @@ This project grew over several months, feature by feature, mostly to solve my ow
 
 I'm sharing it as-is because I think it's more useful out in the open than sitting on my own machine. If you find something broken, or see a way to make it better, pull requests and issues are genuinely welcome — this is exactly the kind of project that gets better with more hands on it. See [CONTRIBUTING.md](CONTRIBUTING.md) for how to get started.
 
+If someone wants to run with this and take it much further than I have — fork it, maintain it, build it into something bigger — go for it, the MIT license already gives you that freedom, no permission needed. The one thing I'd genuinely appreciate, just as a courtesy and not a condition of the license: if you take it somewhere new, send me a copy of what you've built or point me to your fork. I'd love to see where it ends up.
+
 ---
 
 ## License
