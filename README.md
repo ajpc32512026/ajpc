@@ -39,6 +39,7 @@ In line with that: `data/nutrition-db.json` is a **derivative work of AUSNUT 202
 ---
 
 ## Directory Structure
+```text
 ajpc/
 ├── index.html # Homepage with weekly rotating features
 ├── recipe.html # Dynamic recipe viewer (?id=recipeid)
@@ -55,31 +56,31 @@ ajpc/
 ├── 404.html # Missing page fallback
 │
 ├── css/
-│ └── main.css # Centralised site-wide stylesheet
+│   └── main.css # Centralised site-wide stylesheet
 │
 ├── js/
-│ ├── nav-loader.js # Navigation loading, dynamic header, and dark mode toggling
-│ ├── recipe-renderer.js # Decodes and renders recipe JSON files
-│ ├── featured-recipes-rotator.js # Weekly seeded rotating recipe selector
-│ ├── kitchen-truths-animator.js # Dynamic home quotes animator
-│ └── search.js # Multi-parameter search logic
+│   ├── nav-loader.js # Navigation loading, dynamic header, and dark mode toggling
+│   ├── recipe-renderer.js # Decodes and renders recipe JSON files
+│   ├── featured-recipes-rotator.js # Weekly seeded rotating recipe selector
+│   ├── kitchen-truths-animator.js # Dynamic home quotes animator
+│   └── search.js # Multi-parameter search logic
 │
 ├── components/
-│ └── nav.html # Shared navigation menu markup
+│   └── nav.html # Shared navigation menu markup
 │
 ├── data/
-│ └── recipes/ # Individual flat-file recipe JSON documents
-│ └── *.json
+│   └── recipes/ # Individual flat-file recipe JSON documents
+│       └── *.json
 │
 ├── json/
-│ ├── recipe-index.json # Master dynamic index of all recipes
-│ ├── ingredient_inventory_v7.json # Database of ingredient notes and substitutes
-│ ├── official-tag-vocabulary.json # Controlled tags for recipe categorisation
-│ └── reference-index.json # Technical reference indexing
+│   ├── recipe-index.json # Master dynamic index of all recipes
+│   ├── ingredient_inventory_v7.json # Database of ingredient notes and substitutes
+│   ├── official-tag-vocabulary.json # Controlled tags for recipe categorisation
+│   └── reference-index.json # Technical reference indexing
 │
 └── assets/
-└── images/ # Gallery photographs and media assets
-code
+    └── images/ # Gallery photographs and media assets
+```
 Code
 ---
 
