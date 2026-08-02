@@ -2,8 +2,9 @@
    PANTRY — KitchenNotebook Kitchen Notebook
    Tracks pantry stock at two levels:
      Level 1: Have it / Don't have it (all ingredients)
-     Level 2: Stock level for key ingredients
-              Full | Half | Low | Empty
+     Level 2: Stock level — Full | Half | Low | Empty
+              (every ingredient supports this, not just a
+              fixed shortlist)
    
    Integrates with recipe-shopping.js to show:
      - What you need to buy vs already have
@@ -27,7 +28,10 @@
         EMPTY: { label: 'Empty', desc: 'Out of stock', icon: '0' }
     };
 
-    // ── Ingredients that benefit from level tracking ──────
+    // ── Legacy shortlist ────────────────────────────────
+    // No longer used to gate which items can have a stock level — every
+    // ingredient supports Full/Half/Low/Empty now. Kept exported in case
+    // anything external still references it.
     var LEVEL_TRACK = new Set([
         'plain flour','self-raising flour','bread flour','bakers flour',
         'wholemeal flour','almond meal','cornflour','rice flour',
@@ -157,7 +161,9 @@
             return p[key] ? (p[key].level || 'FULL') : null;
         },
 
-        // Set ingredient — have=true, level optional
+        // Set ingredient — have=true, level optional. Every item gets a
+        // stock level by default (FULL) so any ingredient can be tracked
+        // Full/Half/Low/Empty, not just a fixed shortlist.
         set: function(name, have, level) {
             var key = (name || '').toLowerCase().trim();
             if (!key) return;
@@ -167,7 +173,7 @@
             } else {
                 p[key] = {
                     have: true,
-                    level: level || (LEVEL_TRACK.has(key) ? 'FULL' : null),
+                    level: level || 'FULL',
                     updated: new Date().toISOString().split('T')[0]
                 };
             }
@@ -178,7 +184,7 @@
         toggle: function(name) {
             var key = (name || '').toLowerCase().trim();
             var has = this.has(key);
-            this.set(key, !has, has ? null : (LEVEL_TRACK.has(key) ? 'FULL' : null));
+            this.set(key, !has, has ? null : 'FULL');
             return !has;
         },
 
@@ -268,7 +274,7 @@
                 if (!p[key]) {
                     p[key] = {
                         have: true,
-                        level: LEVEL_TRACK.has(key) ? 'FULL' : null,
+                        level: 'FULL',
                         updated: new Date().toISOString().split('T')[0]
                     };
                 }

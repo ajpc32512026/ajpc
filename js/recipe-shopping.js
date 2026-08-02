@@ -108,16 +108,104 @@
         'oz': 28, 'lb': 454
     };
 
-    function convertToPackageUnits(qty, recipeUnit, pkgUnit) {
-        const ru = (recipeUnit || '').toLowerCase().trim();
-        const pu = (pkgUnit  || '').toLowerCase().trim();
+    // Normalises spelling/plural variants so "ea", blank, "clove" etc. all
+    // resolve to the same canonical word before we look anything up.
+    const UNIT_SYNONYMS = {
+        '': 'each', 'ea': 'each', 'each': 'each',
+        'clove': 'cloves', 'cloves': 'cloves',
+        'sheet': 'sheets', 'sheets': 'sheets',
+        'sprig': 'sprigs', 'sprigs': 'sprigs',
+        'rasher': 'rashers', 'rashers': 'rashers',
+        'stalk': 'stalks', 'stalks': 'stalks',
+        'pod': 'pods', 'pods': 'pods',
+        'packet': 'pack', 'pack': 'pack'
+    };
+    function normaliseUnit(u) {
+        const x = (u || '').toLowerCase().trim();
+        return UNIT_SYNONYMS.hasOwnProperty(x) ? UNIT_SYNONYMS[x] : x;
+    }
+
+    // What ONE physical unit (1 clove, 1 sheet, 1 medium onion...) weighs,
+    // in grams (or ml for liquids) — used only when the recipe's unit and
+    // the price-database's unit don't match directly (e.g. recipe says
+    // "3 cloves", price is per 70g pack; recipe says "1 Brown Onion",
+    // price is per 1000g bag). Keyed by the matched price-database item
+    // name (lowercase). Each line states plainly what "1 unit" is assumed
+    // to be — edit the number directly if your usual size runs bigger or
+    // smaller; nothing else in the code needs to change.
+    const AVG_UNIT_WEIGHT = {
+        'garlic':                 { bulb: 45, cloves: 5 },   // 1 bulb ≈ 45g · 1 clove ≈ 5g
+        'garlic cloves':          { cloves: 5 },              // 1 clove ≈ 5g
+        'brown onion':            { each: 150 },              // 1 medium onion ≈ 150g
+        'onion':                  { each: 150 },              // 1 medium onion ≈ 150g
+        'carrot':                 { each: 70 },               // 1 medium carrot ≈ 70g
+        'carrots':                { each: 70 },               // 1 medium carrot ≈ 70g
+        'celery':                 { bunch: 500, stalks: 40 }, // 1 bunch ≈ 500g · 1 stalk ≈ 40g
+        'leek':                   { each: 150, stalks: 150 }, // 1 leek ≈ 150g
+        'spring onion':           { bunch: 60, each: 10 },    // 1 bunch ≈ 60g · 1 stalk ≈ 10g
+        'tomatoes':               { each: 120 },              // 1 medium tomato ≈ 120g
+        'apples':                 { each: 150 },              // 1 medium apple ≈ 150g
+        'granny smith apples':    { each: 150 },              // 1 medium apple ≈ 150g
+        'bananas':                { each: 120 },              // 1 medium banana ≈ 120g
+        'pineapple':              { each: 1000 },             // 1 whole pineapple ≈ 1000g
+        'asparagus':              { bunch: 250 },             // 1 bunch ≈ 250g
+        'lemon zest':             { each: 5 },                // zest yield from 1 lemon ≈ 5g
+        'orange zest':            { each: 8 },                // zest yield from 1 orange ≈ 8g
+        'chicken breast':         { each: 200 },              // 1 medium chicken breast ≈ 200g
+        'chicken breasts':        { each: 200 },              // 1 medium chicken breast ≈ 200g
+        'chicken thigh fillets':  { each: 150 },              // 1 chicken thigh fillet ≈ 150g
+        'chicken drum sticks':    { each: 120 },              // 1 chicken drumstick ≈ 120g
+        'beef, scotch fillet':    { each: 250 },               // 1 steak-cut portion ≈ 250g
+        'scotch fillet':          { each: 250 },               // 1 steak-cut portion ≈ 250g
+        'lamb cutlets':           { each: 100 },               // 1 lamb cutlet ≈ 100g
+        'lamb rack':              { rack: 600 },               // 1 rack ≈ 600g
+        'fish fillet':            { each: 180 },               // 1 fish fillet ≈ 180g
+        'bacon':                  { rashers: 30 },              // 1 rasher ≈ 30g
+        'bay leaves':             { each: 0.15 },               // 1 dried bay leaf ≈ 0.15g
+        'cinnamon stick':         { stick: 3 },                 // 1 cinnamon stick ≈ 3g
+        'cloves':                 { each: 0.06 },               // 1 whole spice clove ≈ 0.06g
+        'green cardamom pods':    { pods: 0.3 },                // 1 pod ≈ 0.3g
+        'dried red chilli':       { each: 1 },                  // 1 dried chilli ≈ 1g
+        'dried red chillies':     { each: 1 },                  // 1 dried chilli ≈ 1g
+        'puff pastry':            { sheets: 150 },              // 1 sheet ≈ 150g
+        'shortcrust pastry':      { sheets: 150 },              // 1 sheet ≈ 150g
+        'cabbage':                { each: 1000 },               // 1 whole cabbage ≈ 1000g
+        'potato':                 { each: 180 },                // 1 medium potato ≈ 180g
+        'calamansi':              { each: 15 },                 // 1 calamansi ≈ 15g
+        'mushrooms':              { each: 20 },                 // 1 medium button mushroom ≈ 20g
+        'chinese sausage':        { each: 45 },                 // 1 lap cheong link ≈ 45g
+        'kalamata olives':        { each: 5 },                  // 1 olive ≈ 5g
+        'rosemary':               { sprigs: 1 },                // 1 sprig ≈ 1g
+        'thyme':                  { sprigs: 1 },                // 1 sprig ≈ 1g
+        'oregano':                { sprigs: 1 },                // 1 sprig ≈ 1g
+        'taco seasoning':         { batch: 30 }                 // 1 homemade batch ≈ 1 packet ≈ 30g
+    };
+
+    function convertToPackageUnits(qty, recipeUnit, pkgUnit, itemKey) {
+        const ru = normaliseUnit(recipeUnit);
+        const pu = normaliseUnit(pkgUnit);
         if (ru === pu) return qty;
+
         const rb = UNIT_TO_BASE[ru];
         const pb = UNIT_TO_BASE[pu];
         if (rb && pb) return (qty * rb) / pb;
+
+        // One side is weight/volume, the other is a countable unit (or both
+        // are different countable units) — bridge them via AVG_UNIT_WEIGHT
+        // when we have data for this specific item.
+        const avg = itemKey ? AVG_UNIT_WEIGHT[itemKey] : null;
+        const ruGrams = rb ? rb : (avg && avg[ru] != null ? avg[ru] : null);
+        const puGrams = pb ? pb : (avg && avg[pu] != null ? avg[pu] : null);
+        if (ruGrams != null && puGrams != null) {
+            return (qty * ruGrams) / puGrams;
+        }
+
         // Countable: no unit in recipe, price stored per-each
-        if ((!ru || ru === 'each') && pu === 'each') return qty;
-        // Can't convert — return raw qty (same as before)
+        if (ru === 'each' && pu === 'each') return qty;
+        // No conversion data available — fall back to raw qty (old
+        // behaviour). This can still be wrong, but only for combinations
+        // we don't have weight data for yet; extend AVG_UNIT_WEIGHT above
+        // to fix a specific ingredient.
         return qty;
     }
 
@@ -212,6 +300,18 @@
         return { ingredient, notes };
     }
 
+    // Expresses a package's price as a simple rate: per kg/L for large
+    // weight/volume packs, per g/ml for small ones, or per each/bulb/
+    // bunch/etc for countable items — whatever reads most naturally.
+    function formatUnitPrice(price, size, unit) {
+        const u = (unit || '').toLowerCase();
+        if (u === 'g' && size >= 1000) return '$' + (price / (size / 1000)).toFixed(2) + '/kg';
+        if (u === 'ml' && size >= 1000) return '$' + (price / (size / 1000)).toFixed(2) + '/L';
+        if (u === 'g' || u === 'ml') return '$' + (price / size).toFixed(3) + '/' + u;
+        if (u === 'kg' || u === 'l') return '$' + (price / size).toFixed(2) + '/' + u;
+        return '$' + (price / size).toFixed(2) + '/' + (u || 'each');
+    }
+
     function escapeHtml(str) {
         if (!str) return '';
         return String(str)
@@ -300,13 +400,17 @@
 
         ingredients.forEach(function(ing) {
             const { exists, data } = lookupPrice(ing.name);
+            const pantryLevel = (window.KitchenNotebook && window.KitchenNotebook.Pantry)
+                ? window.KitchenNotebook.Pantry.getLevel(ing.name)
+                : null;
 
             if (!exists) {
                 shoppingItems.push({
                     name: ing.displayName,
                     needed: formatQuantity(ing.qty, ing.unit),
                     hasPrice: false,
-                    existsInDB: false
+                    existsInDB: false,
+                    pantryLevel: pantryLevel
                 });
                 return;
             }
@@ -318,12 +422,14 @@
                     needed: formatQuantity(ing.qty, ing.unit),
                     hasPrice: false,
                     existsInDB: true,
-                    existingData: data
+                    existingData: data,
+                    pantryLevel: pantryLevel
                 });
                 return;
             }
 
-            const neededInPackageUnits = convertToPackageUnits(ing.qty, ing.unit, data.unit);
+            const itemKey = (data.originalKey || ing.name || '').toLowerCase().trim();
+            const neededInPackageUnits = convertToPackageUnits(ing.qty, ing.unit, data.unit, itemKey);
 
             const pricePerUnit = data.price / data.size;
             const packagesNeeded = Math.ceil(neededInPackageUnits / data.size);
@@ -338,11 +444,14 @@
                 packagesNeeded: packagesNeeded,
                 packageSize: data.size + data.unit,
                 packagePrice: data.price.toFixed(2),
+                unitPrice: formatUnitPrice(data.price, data.size, data.unit),
+                makeCost: makeCost.toFixed(2),
                 brand: data.brand,
                 buyCost: buyCost.toFixed(2),
                 hasPrice: true,
                 existsInDB: true,
-                existingData: data
+                existingData: data,
+                pantryLevel: pantryLevel
             });
         });
 
@@ -350,6 +459,7 @@
         panel.id = 'shoppingPanel';
 
         let inner = '<div class="shopping-panel-header"><span>Shopping List</span><button class="shopping-panel-close" onclick="window.ShoppingList.closePanel()">&times;</button></div>';
+        inner += '<div class="shopping-panel-body">';
         inner += '<div class="recipe-title-small">' + escapeHtml(recipe.title || recipe.name || '') + '</div>';
 
         if (multiplier > 1) {
@@ -414,20 +524,39 @@
             if (savings > 0) inner += '<div class="cost-row savings"><span>Leftover value:</span><span>$' + savings.toFixed(2) + '</span></div>';
             inner += '<div class="cost-row serving"><span>Serves (scaled):</span><span><strong>' + scaledServings + '</strong></span></div>';
             if (scaledServings > 0) inner += '<div class="cost-row serving"><span>Cost per serving:</span><span><strong>$' + (totalMakeCost / scaledServings).toFixed(2) + '</strong></span></div>';
-            inner += '</div><ul class="shopping-items-list">';
+            inner += '</div>';
+            inner += '<div class="shopping-items-header">To Buy (' + shoppingItems.length + ' item' + (shoppingItems.length !== 1 ? 's' : '') + ')</div>';
+            inner += '<ul class="shopping-items-list">';
+
+            const LEVEL_FLAG = {
+                FULL:  { cls: 'shopping-item-lvl-full',  badge: 'FULL — have plenty' },
+                HALF:  { cls: 'shopping-item-lvl-half',  badge: 'HALF stock left' },
+                LOW:   { cls: 'shopping-item-lvl-low',   badge: 'LOW — running out' },
+                EMPTY: { cls: 'shopping-item-lvl-empty', badge: 'OUT — need it' }
+            };
 
             shoppingItems.forEach(function(item, idx) {
                 const actionButton = getActionButton(item.name, item.existsInDB, item.existingData);
-                inner += '<li class="shopping-item"><div class="shopping-item-content">';
-                inner += '<input type="checkbox" id="shop-' + idx + '" class="shopping-checkbox">';
+                const flag = item.pantryLevel ? LEVEL_FLAG[item.pantryLevel] : null;
+                const liClass = 'shopping-item' + (flag ? ' ' + flag.cls : '');
+                const isBlocked = item.pantryLevel === 'FULL';
+                const isPreChecked = item.pantryLevel === 'EMPTY';
+
+                inner += '<li class="' + liClass + '"><div class="shopping-item-content">';
+                inner += '<input type="checkbox" id="shop-' + idx + '" data-idx="' + idx + '" class="shopping-checkbox"'
+                    + (isBlocked ? ' disabled title="You already have plenty — untick pantry stock first if you still want to buy more."' : '')
+                    + (isPreChecked ? ' checked' : '') + '>';
                 inner += '<div class="shopping-item-details">';
                 inner += '<div class="shopping-item-name">' + escapeHtml(item.name) + '</div>';
+                if (flag) inner += '<span class="pantry-flag pantry-flag-' + item.pantryLevel.toLowerCase() + '">' + flag.badge + '</span>';
                 inner += '<div class="shopping-price-details">';
                 if (item.hasPrice && item.brand) inner += '<div class="shopping-brand">' + escapeHtml(item.brand) + '</div>';
                 inner += '<div class="shopping-needed">Needs: ' + item.needed + '</div>';
                 if (item.hasPrice) {
+                    inner += '<div class="shopping-unit-price">' + item.unitPrice + '</div>';
                     inner += '<div class="shopping-package">Buy: ' + item.packagesNeeded + ' × ' + item.packageSize + ' @ $' + item.packagePrice + '</div>';
-                    inner += '<div class="shopping-cost"><strong>$' + item.buyCost + '</strong></div>';
+                    inner += '<div class="shopping-make-cost">Cost for this recipe: $' + item.makeCost + '</div>';
+                    inner += '<div class="shopping-cost">Buy total: <strong>$' + item.buyCost + '</strong></div>';
                 } else if (item.existsInDB) {
                     inner += '<div class="shopping-no-price">Missing price/size — click Update</div>';
                 } else {
@@ -436,7 +565,12 @@
                 inner += '</div>' + actionButton + '</div></div></li>';
             });
 
-            inner += '</ul><div class="shopping-panel-footer"><button id="shoppingSelectAll">Select All</button><button id="shoppingPrintBtn">Print</button></div>';
+
+            inner += '</ul>';
+        }
+        inner += '</div>';
+        if (shoppingItems.length > 0) {
+            inner += '<div class="shopping-panel-footer"><button id="shoppingSelectAll">Select All</button><button id="shoppingPrintBtn">Print</button></div>';
         }
 
         panel.innerHTML = inner;
@@ -444,7 +578,7 @@
         currentPanel = panel;
 
         document.getElementById('shoppingSelectAll')?.addEventListener('click', function() {
-            const checkboxes = panel.querySelectorAll('.shopping-checkbox');
+            const checkboxes = panel.querySelectorAll('.shopping-checkbox:not(:disabled)');
             let allChecked = true;
             checkboxes.forEach(cb => { if (!cb.checked) allChecked = false; });
             checkboxes.forEach(cb => { cb.checked = !allChecked; });
@@ -452,15 +586,38 @@
         });
 
         document.getElementById('shoppingPrintBtn')?.addEventListener('click', function() {
-            const checked = [];
-            panel.querySelectorAll('.shopping-checkbox:checked').forEach(cb => {
-                const nameEl = cb.closest('.shopping-item')?.querySelector('.shopping-item-name');
-                if (nameEl) checked.push(nameEl.textContent);
-            });
-            const items = checked.length ? checked : Array.from(panel.querySelectorAll('.shopping-item-name')).map(el => el.textContent);
-            if (!items.length) return alert('Nothing to print.');
+            const allBoxes = Array.from(panel.querySelectorAll('.shopping-checkbox'));
+            let selectedBoxes = allBoxes.filter(cb => cb.checked);
+            if (!selectedBoxes.length) {
+                // Nothing manually picked — default to everything you don't
+                // already have plenty of, rather than literally everything.
+                selectedBoxes = allBoxes.filter(cb => !cb.disabled);
+            }
+            const printItems = selectedBoxes
+                .map(cb => shoppingItems[parseInt(cb.dataset.idx, 10)])
+                .filter(Boolean);
+
+            if (!printItems.length) return alert('Nothing to print.');
+
+            let estTotal = 0;
+            const rows = printItems.map(function(item) {
+                if (item.hasPrice) estTotal += parseFloat(item.buyCost);
+                let meta = 'Needs: ' + item.needed;
+                let priceLine = '';
+                if (item.hasPrice) {
+                    meta += ' &middot; ' + item.unitPrice;
+                    priceLine = '<div class="price">Buy: ' + item.packagesNeeded + ' × ' + item.packageSize
+                        + ' @ $' + item.packagePrice + ' — <strong>$' + item.buyCost + '</strong></div>';
+                } else {
+                    priceLine = '<div class="price no-price">No price on file</div>';
+                }
+                return '<li><label><input type="checkbox"> <strong>' + escapeHtml(item.name) + '</strong>'
+                    + (item.hasPrice && item.brand ? ' <span class="brand">(' + escapeHtml(item.brand) + ')</span>' : '')
+                    + '</label><div class="meta">' + meta + '</div>' + priceLine + '</li>';
+            }).join('');
+
             const win = window.open('', '_blank');
-            win.document.write(`<!DOCTYPE html><html><head><title>Shopping List</title><link rel="stylesheet" href="css/shopping-list-print.css"></head><body><h1>Shopping List</h1><div>${escapeHtml(recipe.title || '')}</div>${multiplier > 1 ? `<div>Scaled ${multiplier}x — Serves: ${scaledServings}</div>` : ''}<ul>${items.map(i => `<li><input type="checkbox"> ${escapeHtml(i)}</li>`).join('')}</ul><div class="disclaimer">Prices are estimates</div></body></html>`);
+            win.document.write(`<!DOCTYPE html><html><head><title>Shopping List</title><link rel="stylesheet" href="css/shopping-list-print.css"></head><body><h1>Shopping List</h1><div>${escapeHtml(recipe.title || '')}</div>${multiplier > 1 ? `<div>Scaled ${multiplier}x — Serves: ${scaledServings}</div>` : ''}<ul>${rows}</ul><div class="total-row">Estimated total: <strong>$${estTotal.toFixed(2)}</strong></div><div class="disclaimer">Prices are estimates</div></body></html>`);
             win.document.close();
             win.print();
         });

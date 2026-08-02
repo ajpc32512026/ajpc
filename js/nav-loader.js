@@ -58,6 +58,7 @@
                     <a href="gallery.html" class="nav-direct">Gallery</a>
                     <a href="tags.html" class="nav-direct">Tags</a>
                     <a href="collections.html" class="nav-direct">Collections</a>
+                    <a href="pantry.html" class="nav-direct">Pantry</a>
                     <a href="daily-tracker.html" class="nav-direct">Tracker</a>
                 </nav>
             </div>

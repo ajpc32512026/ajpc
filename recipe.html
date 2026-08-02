@@ -34,23 +34,6 @@
 
     <button class="back-to-top" id="backToTop" aria-label="Back to top">&#8593;</button>
 
-    <!-- Shopping List Modal -->
-    <div id="shopping-modal" class="shopping-modal">
-        <div class="shopping-modal-content">
-            <div class="shopping-modal-header">
-                <h2>Shopping List</h2>
-                <button class="shopping-modal-close" onclick="closeShoppingModal()" aria-label="Close">&times;</button>
-            </div>
-            <div id="shopping-list-content" class="shopping-list-body">
-                <div class="loading-state"><p>Calculating requirements…</p></div>
-            </div>
-            <div class="shopping-modal-footer">
-                <button class="btn-print-shopping" onclick="printShoppingList()">Print List</button>
-                <button class="btn-close-shopping" onclick="closeShoppingModal()">Close</button>
-            </div>
-        </div>
-    </div>
-
     <!-- Load order matters:
          1. nav-loader   — navigation
          2. user-prefs   — KitchenNotebook.* API (must be before enhancements)

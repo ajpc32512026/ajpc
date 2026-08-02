@@ -3290,7 +3290,7 @@ body.light-mode .search-examples code {
     position: fixed;
     top: 0;
     right: 0;
-    width: 380px;
+    width: 460px;
     max-width: 100vw;
     height: 100vh;
     background: var(--surface-card);
@@ -3301,6 +3301,12 @@ body.light-mode .search-examples code {
     flex-direction: column;
     overflow: hidden;
     animation: slideInPanel 0.25s ease;
+}
+
+.shopping-panel-body {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
 }
 
 @keyframes slideInPanel {
@@ -3381,17 +3387,82 @@ body.light-mode .search-examples code {
     font-size: 0.88rem;
 }
 
+.shopping-items-header {
+    padding: var(--sp-md) var(--sp-lg) var(--sp-xs);
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--copper-dark);
+}
+
 .shopping-items-list {
     list-style: none;
     padding: 0;
     margin: 0;
-    overflow-y: auto;
-    flex: 1;
 }
 
 .shopping-item {
     border-bottom: 1px solid var(--border-dim);
     padding: var(--sp-md) var(--sp-lg);
+}
+
+/* ── Pantry stock-level flags on shopping list items ───── */
+.pantry-flag {
+    display: inline-block;
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 0.08rem 0.4rem;
+    border-radius: 3px;
+    margin: 0.15rem 0 0.3rem;
+}
+
+.pantry-flag-full {
+    background: rgba(217, 83, 79, 0.15);
+    color: #e2726e;
+}
+
+.pantry-flag-half {
+    background: rgba(201, 125, 62, 0.15);
+    color: var(--copper-warm);
+}
+
+.pantry-flag-low {
+    background: rgba(122, 158, 138, 0.18);
+    color: var(--sage);
+}
+
+.pantry-flag-empty {
+    background: rgba(122, 158, 138, 0.28);
+    color: var(--sage);
+    font-weight: 700;
+}
+
+.shopping-item-lvl-full .shopping-item-name {
+    color: #e2726e;
+    text-decoration: line-through;
+    text-decoration-color: rgba(226, 114, 110, 0.6);
+}
+.shopping-item-lvl-full { opacity: 0.65; }
+.shopping-item-lvl-full .shopping-checkbox { cursor: not-allowed; }
+
+.shopping-item-lvl-half .shopping-item-name {
+    color: var(--copper-warm);
+    text-decoration: line-through;
+    text-decoration-color: rgba(224, 144, 80, 0.55);
+}
+
+.shopping-item-lvl-low .shopping-item-name {
+    color: var(--sage);
+    text-decoration: line-through;
+    text-decoration-color: rgba(122, 158, 138, 0.55);
+}
+
+.shopping-item-lvl-empty .shopping-item-name {
+    color: var(--sage);
+    font-weight: 700;
 }
 
 .shopping-item-content {
@@ -3435,6 +3506,15 @@ body.light-mode .search-examples code {
 }
 
 .shopping-package {
+    color: var(--cream-dim);
+}
+
+.shopping-unit-price {
+    color: var(--cream-faint);
+    font-size: 0.76rem;
+}
+
+.shopping-make-cost {
     color: var(--cream-dim);
 }
 
@@ -3695,24 +3775,6 @@ body.light-mode .search-examples code {
     border-radius: 6px;
     margin-bottom: 1rem;
     font-size: 0.8rem;
-    border-left: 3px solid var(--red);
-}
-
-.shopping-items-list {
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-}
-
-.shopping-item {
-    background: var(--surface-card);
-    padding: 0.85rem;
-    border-radius: 8px;
-    border: 1px solid var(--border-dim);
-    position: relative;
-}
-
-.shopping-item.missing-price {
     border-left: 3px solid var(--red);
 }
 
