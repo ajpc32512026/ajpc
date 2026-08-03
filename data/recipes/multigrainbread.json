@@ -47,7 +47,7 @@
     {
       "quantity": "20",
       "unit": "g",
-      "item": "Sugar"
+      "item": "White Sugar"
     },
     {
       "quantity": "10",
@@ -97,7 +97,7 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Hemp Seed Protein"
+      "item": "Hemp Protein Powder"
     },
     {
       "quantity": "5",
@@ -142,7 +142,7 @@
     {
       "quantity": "10",
       "unit": "g",
-      "item": "Pepitas"
+      "item": "Pumpkin Kernels"
     }
   ],
   "youWillNeed": [

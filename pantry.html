@@ -27,6 +27,7 @@
                 <button class="pantry-tab active" data-view="myitems">My Items</button>
                 <button class="pantry-tab" data-view="stocktake">Stocktake</button>
             </div>
+			
 
             <!-- ══════════════ MY ITEMS VIEW ══════════════ -->
             <div id="pantryMyItemsView">
@@ -41,7 +42,11 @@
                     <button class="btn-add-pantry" id="pantryAddBtn">Add to Pantry</button>
                 </div>
                 <div class="pantry-autocomplete" id="pantryAutocomplete"></div>
-
+<!-- Actions -->
+                <div class="pantry-actions">
+                    <button class="enh-btn" id="pantryImportBtn">Load from Recipe...</button>
+                    <button class="enh-btn enh-btn-remove" id="pantryClearBtn">Clear Pantry</button>
+                </div>
                 <!-- Stats -->
                 <div class="pantry-stats" id="pantryStats"></div>
 
@@ -59,11 +64,7 @@
                     <p>Your pantry is empty. Add ingredients above, use the Stocktake tab to check off what you have, or open any recipe and use the shopping list to load its ingredients.</p>
                 </div>
 
-                <!-- Actions -->
-                <div class="pantry-actions">
-                    <button class="enh-btn" id="pantryImportBtn">Load from Recipe...</button>
-                    <button class="enh-btn enh-btn-remove" id="pantryClearBtn">Clear Pantry</button>
-                </div>
+                
 
             </div>
 
@@ -110,8 +111,8 @@
 
     <footer>
         <div class="footer-inner">
-            <span class="footer-brand">AJPC</span>
-            <p class="footer-copy">&copy; 2026 Ana &amp; John's Kitchen Notebook.</p>
+		<span class="footer-brand">The Kitchen Notebook</span>
+            <p class="footer-copy">&copy; 2026 The Kitchen Notebook. Built with &#9749; and patience.</p>
         </div>
     </footer>
 

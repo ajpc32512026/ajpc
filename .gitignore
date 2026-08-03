@@ -45,3 +45,4 @@ fix-recipes.js
 fix-tags.js
 patch-vocab.js
 sync.ffs_db
+ingredient-standardizer.html

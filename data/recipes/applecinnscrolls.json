@@ -27,7 +27,7 @@
     {
       "quantity": "250",
       "unit": "ml",
-      "item": "Milk"
+      "item": "Milk Full-Cream"
     },
     {
       "quantity": "50",
@@ -54,17 +54,17 @@
     {
       "quantity": "7",
       "unit": "g",
-      "item": "Dried Yeast"
+      "item": "Yeast"
     },
     {
       "quantity": "1",
       "unit": "",
-      "item": "Egg"
+      "item": "Eggs"
     },
     {
       "quantity": "1",
       "unit": "",
-      "item": "Egg Yolk",
+      "item": "Egg Yolks",
       "notes": "extra for dough"
     },
     {
@@ -80,7 +80,7 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Cinnamon",
+      "item": "Ground Cinnamon",
       "notes": "ground"
     },
     {
@@ -111,7 +111,7 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Cinnamon",
+      "item": "Ground Cinnamon",
       "notes": "ground"
     },
     {
@@ -131,7 +131,7 @@
     {
       "quantity": "50",
       "unit": "ml",
-      "item": "Heavy Cream",
+      "item": "Thickened Cream",
       "notes": "thickened cream"
     },
     {

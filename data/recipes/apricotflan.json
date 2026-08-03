@@ -28,12 +28,12 @@
     {
       "quantity": "200",
       "unit": "g",
-      "item": "Flour"
+      "item": "Plain Flour"
     },
     {
       "quantity": "100",
       "unit": "g",
-      "item": "Sugar"
+      "item": "White Sugar"
     },
     {
       "quantity": "50",
@@ -56,12 +56,12 @@
     {
       "quantity": "1",
       "unit": "tsp",
-      "item": "Vanilla"
+      "item": "Natural Vanilla Extract"
     },
     {
       "quantity": "250",
       "unit": "ml",
-      "item": "Milk"
+      "item": "Milk Full-Cream"
     },
     {
       "heading": "Topping"
@@ -69,7 +69,7 @@
     {
       "quantity": "150",
       "unit": "ml",
-      "item": "Cream"
+      "item": "Pure Cream"
     },
     {
       "quantity": "6–8",

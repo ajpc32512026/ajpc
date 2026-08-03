@@ -1,5 +1,5 @@
 {
-  "id": "seasonedbeefmincenachostacos",
+  "id": "nachomince",
   "title": "Seasoned Beef Mince — Nachos & Tacos",
   "category": "Dinner",
   "difficulty": "Beginner",
@@ -47,7 +47,7 @@
     {
       "quantity": "400",
       "unit": "g",
-      "item": "Tomatoes",
+      "item": "Tomato",
       "notes": "canned, crushed"
     },
     {
@@ -115,7 +115,7 @@
     {
       "type": "serving",
       "title": "Nacho Assembly",
-      "content": "Spread corn chips on an oven tray. Spoon mince generously over the top. Cover with grated cheese. Bake at 200°C for 8–10 minutes until cheese is melted and golden. Top with sour cream, guacamole, jalapeños, and fresh salsa."
+      "content": "Spread corn chips on an oven tray. Spoon mince generously over the top. Cover with grated cheese. Bake at 200°C for 8–10 minutes until cheese is melted and golden. Top with sour cream, guacamole, jalapenos, and fresh salsa."
     },
     {
       "type": "serving",

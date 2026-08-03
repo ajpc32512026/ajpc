@@ -21,9 +21,10 @@ const VOCAB_ADDITIONS = {
     characteristics: [
         'Easy', 'Retro', 'Healthy', 'Freezer Friendly',
         'Beginner Friendly', 'No-Cook', 'Single Serve', 'Flaky',
+        'Bakery-Style', 'Cake Filling', 'Frosting', 'Pastry Filling'
     ],
     mealType: [
-        'Baking', 'Cookies',
+        'Baking', 'Cookies', 'Buns'
     ],
     keyIngredients: [
         'Apricot', 'Cherry', 'Pineapple', 'Caramel', 'Chia Seeds',
@@ -36,16 +37,19 @@ const VOCAB_ADDITIONS = {
     ],
     style: [
         'Cake', 'Pound Cake', 'Fruit Dessert', 'Pantry Recipe',
-        'Upside-Down Cake', 'Foundation', 'Bistro',
+        'Upside-Down Cake', 'Foundation', 'Bistro', 'Sweet Bread', 'Fruit Loaf'
     ],
 };
 
 // ── Tags to REPLACE in recipes (wrong → correct) ─────────
 const REPLACEMENTS = {
     'Gluten Free':  'Gluten-Free',
+    'Gluten-free':  'Gluten-Free', // Corrects lowercase f
     'Savory':       'Savoury',
     'No Bake':      'No-Bake',
-    'No-Bake':      'No-Bake',   // already correct, no-op
+    'No-bake':      'No-Bake',     // Corrects lowercase b
+    'Make-ahead':   'Make Ahead',  // Corrects hyphenated version
+    'Bakery-style': 'Bakery-Style' // Corrects lowercase s
 };
 
 // ── Tags to REMOVE from recipes entirely ─────────────────

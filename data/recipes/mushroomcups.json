@@ -1,5 +1,5 @@
 {
-  "id": "mushroomswithherbnutbutter",
+  "id": "mushroomcups",
   "title": "Mushrooms with Herb Nut Butter",
   "category": "Entree",
   "difficulty": "Beginner",
@@ -53,19 +53,19 @@
     {
       "quantity": "10",
       "unit": "g",
-      "item": "Parsley",
+      "item": "Fresh Parsley",
       "notes": "fresh, chopped"
     },
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Thyme",
+      "item": "Fresh Thyme",
       "notes": "fresh"
     },
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Rosemary",
+      "item": "Fresh Rosemary",
       "notes": "fresh"
     },
     {

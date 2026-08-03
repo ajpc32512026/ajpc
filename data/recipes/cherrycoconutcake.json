@@ -1,5 +1,5 @@
 {
-  "id": "cherryandcoconutcake",
+  "id": "cherrycoconutcake",
   "title": "Cherry and Coconut Cake",
   "category": "Baking",
   "difficulty": "Intermediate",
@@ -68,7 +68,7 @@
     {
       "quantity": "350",
       "unit": "g",
-      "item": "Cherries",
+      "item": "Glace Cherries",
       "notes": "frozen or canned, pitted and roughly chopped"
     },
     {

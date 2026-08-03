@@ -1,5 +1,5 @@
 {
-  "id": "homemadekormapaste",
+  "id": "kormapaste",
   "title": "Homemade Korma Paste",
   "category": "Sauces",
   "difficulty": "Beginner",
@@ -29,7 +29,7 @@
     {
       "quantity": "3",
       "unit": "g",
-      "item": "Turmeric"
+      "item": "Ground Turmeric"
     },
     {
       "quantity": "10",
@@ -39,7 +39,7 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Red Chilli Powder"
+      "item": "Ground Red Chilli"
     },
     {
       "quantity": "15",
@@ -54,7 +54,7 @@
     {
       "quantity": "15",
       "unit": "g",
-      "item": "Ginger (Fresh)",
+      "item": "Fresh Ginger",
       "notes": "roughly chopped"
     },
     {
@@ -75,7 +75,7 @@
     {
       "quantity": "10",
       "unit": "g",
-      "item": "Coriander (Fresh)",
+      "item": "Fresh Coriander",
       "notes": "leaves"
     }
   ],

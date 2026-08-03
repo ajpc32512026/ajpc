@@ -1,5 +1,5 @@
 {
-  "id": "currychickenwithcoconutcream",
+  "id": "currychicken",
   "title": "Curry Chicken with Coconut Cream",
   "category": "Dinner",
   "difficulty": "Beginner",
@@ -21,7 +21,7 @@
     {
       "quantity": "600",
       "unit": "g",
-      "item": "Chicken Thigh Fillets",
+      "item": "Chicken Thigh",
       "notes": "or breast fillets, both cut into bite-sized pieces"
     },
     {
@@ -39,7 +39,7 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Ginger",
+      "item": "Fresh Ginger",
       "notes": "grated"
     },
     {

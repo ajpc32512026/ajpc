@@ -24,7 +24,7 @@
     {
       "quantity": "250",
       "unit": "ml",
-      "item": "Milk",
+      "item": "Milk Full-Cream",
       "notes": "warm"
     },
     {
@@ -77,7 +77,7 @@
     {
       "quantity": "10",
       "unit": "g",
-      "item": "Cinnamon",
+      "item": "Ground Cinnamon",
       "notes": "ground"
     },
     {
@@ -91,7 +91,7 @@
     {
       "quantity": "30",
       "unit": "ml",
-      "item": "Milk"
+      "item": "Milk Full-Cream"
     },
     {
       "quantity": "2",

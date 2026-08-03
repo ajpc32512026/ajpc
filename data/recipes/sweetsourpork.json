@@ -1,5 +1,5 @@
 {
-  "id": "betterthantakeawaysweetsourpork",
+  "id": "sweetsourpork",
   "title": "Better Than Takeaway Sweet & Sour Pork",
   "category": "Dinner",
   "difficulty": "Intermediate",
@@ -101,7 +101,7 @@
     {
       "quantity": "1",
       "unit": "",
-      "item": "Carrot",
+      "item": "Carrots",
       "notes": "sliced, optional"
     },
     {

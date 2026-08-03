@@ -10,7 +10,6 @@
     'use strict';
 
     var recipe      = null;  // full recipe object, set on recipeRendered
-    var priceDB     = null;  // loaded once from recipe-prices.json
     var multiplier  = 1;     // tracks scaler state
 
     // ── Bootstrap ─────────────────────────────────────────
@@ -100,131 +99,18 @@
     }
 
     // ── Cost per Serving ──────────────────────────────────
+    // Delegates to window.ShoppingList.calculateCost() in recipe-shopping.js
+    // — the SAME pricing engine the shopping panel uses (unit conversion
+    // table, pantry-aware exclusions, all of it). This box used to run its
+    // own separate, simpler copy of that math, which quietly drifted out
+    // of sync and showed a different price than the shopping panel for
+    // the same recipe. Now there's exactly one place this logic lives.
     async function loadCostPerServing() {
         if (!recipe || !recipe.ingredients) return;
-        if (!priceDB) {
-            try {
-                var res = await fetch('json/recipe-prices.json');
-                if (!res.ok) return;
-                var raw = await res.json();
-                
-                // Flatten and standardise all sections into lowercase, trimmed keys
-                priceDB = {};
-                Object.keys(raw).forEach(function (section) {
-                    if (section === '_meta') return;
-                    Object.keys(raw[section]).forEach(function (key) {
-                        var itemData = raw[section][key];
-                        priceDB[key.toLowerCase().trim()] = {
-                            size: parseFloat(itemData.size),
-                            unit: (itemData.unit || '').toLowerCase().trim(),
-                            price: parseFloat(itemData.price),
-                            brand: itemData.brand || '',
-                            section: section,
-                            originalKey: key
-                        };
-                    });
-                });
-            } catch (e) { return; }
-        }
         renderCostBox();
     }
 
-    var UNIT_TO_BASE = {
-        'g': 1, 'gram': 1, 'grams': 1, 'kg': 1000,
-        'ml': 1, 'l': 1000,
-        'tsp': 5, 'tbsp': 15, 'cup': 240, 'cups': 240,
-        'oz': 28, 'lb': 454
-    };
-
-    function lookupPrice(itemName) {
-        if (!priceDB) return null;
-        var key = (itemName || '').toLowerCase().trim();
-        
-        // Exact lowercase match
-        if (priceDB[key]) return priceDB[key];
-        
-        // Substring matching (both keys are standardized lowercase)
-        for (var k in priceDB) {
-            if (key.includes(k) || k.includes(key)) return priceDB[k];
-        }
-        return null;
-    }
-
-    function splitIngredientAndNotes(raw) {
-        const text = raw.trim();
-        let ingredient = text;
-        const parenIndex = text.indexOf('(');
-        if (parenIndex !== -1) {
-            ingredient = text.substring(0, parenIndex).trim();
-        }
-        return ingredient;
-    }
-
-    function calcRecipeCost() {
-        if (!priceDB || !recipe || !recipe.ingredients) return null;
-        
-        // Pantry staples to exclude (perfectly aligned with recipe-shopping.js)
-        var excludeItems = ['water', 'hot water', 'cold water', 'warm water', 'boiling water', 'tap water', 'salt', 'pepper', 'black pepper', 'white pepper', 'to taste'];
-        
-        var totalBuyCost   = 0;
-        var totalMakeCost  = 0;
-        var matched = 0, total = 0;
-
-        recipe.ingredients.forEach(function (ing) {
-            if (ing.heading || ing.toTaste) return;
-            
-            var rawItem = (ing.item || ing.name || '').trim();
-            var itemNameClean = splitIngredientAndNotes(rawItem).toLowerCase().trim();
-            
-            // Skip pantry staples entirely
-            if (excludeItems.includes(itemNameClean)) return;
-            
-            total++;
-            var info = lookupPrice(itemNameClean);
-            if (!info) return;
-
-            var qty  = (parseFloat(ing.quantity) || 0) * multiplier;
-            var unit = (ing.unit || '').toLowerCase().trim();
-            var pkgUnit = (info.unit || '').toLowerCase().trim();
-
-            // Convert recipe qty to package unit (utilising shopping list scale math)
-            var neededInPkgUnits = qty;
-            if (unit === 'g' && pkgUnit === 'kg') neededInPkgUnits = qty / 1000;
-            if (unit === 'ml' && pkgUnit === 'l') neededInPkgUnits = qty / 1000;
-            
-            // Fallback to UNIT_TO_BASE conversion table if units are completely different
-            if (unit !== pkgUnit && !(unit === 'g' && pkgUnit === 'kg') && !(unit === 'ml' && pkgUnit === 'l')) {
-                var recipeBase = UNIT_TO_BASE[unit];
-                var pkgBase    = UNIT_TO_BASE[pkgUnit];
-                if (recipeBase && pkgBase) {
-                    neededInPkgUnits = (qty * recipeBase) / pkgBase;
-                }
-            }
-
-            var pkgsNeeded  = Math.ceil(neededInPkgUnits / info.size);
-            var buyCost     = pkgsNeeded * info.price;
-            var makeCost    = (neededInPkgUnits / info.size) * info.price;
-
-            totalBuyCost  += buyCost;
-            totalMakeCost += makeCost;
-            matched++;
-        });
-
-        if (!matched) return null;
-        var servingsNum = (parseInt(recipe.servings) || 1) * multiplier;
-        var coverage    = Math.round((matched / total) * 100);
-        return {
-            totalBuy:       totalBuyCost.toFixed(2),
-            totalMake:      totalMakeCost.toFixed(2),
-            buyPerServing:  (totalBuyCost / servingsNum).toFixed(2),
-            makePerServing: (totalMakeCost / servingsNum).toFixed(2),
-            coverage,
-            servings:       servingsNum
-        };
-    }
-
     function renderCostBox() {
-        // Insert below nutrition or below ingredients section
         var anchor = document.querySelector('.nutrition-section') ||
                      document.querySelector('.ingredients');
         if (!anchor) return;
@@ -239,10 +125,10 @@
         updateCostDisplay();
     }
 
-    function updateCostDisplay() {
+    async function updateCostDisplay() {
         var box = document.getElementById('cost-per-serving-box');
-        if (!box) return;
-        var c = calcRecipeCost();
+        if (!box || !window.ShoppingList || !window.ShoppingList.calculateCost) return;
+        var c = await window.ShoppingList.calculateCost(recipe, multiplier);
         if (!c) { box.style.display = 'none'; return; }
 
         var scalerNote = multiplier !== 1

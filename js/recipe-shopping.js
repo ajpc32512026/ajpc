@@ -19,8 +19,63 @@
         show: showShoppingList,
         updatePrice: updatePrice,
         addNewItem: addNewItem,
-        closePanel: closePanel
+        closePanel: closePanel,
+        calculateCost: calculateRecipeCost
     };
+
+    // Standalone cost summary — same pricing engine as the shopping panel
+    // (lookupPrice, convertToPackageUnits, AVG_UNIT_WEIGHT), but returns
+    // just the totals instead of building a panel. Used by the recipe
+    // page's "Estimated Cost" box so there's only ONE place this math
+    // lives — no more two scripts silently disagreeing on the price.
+    async function calculateRecipeCost(recipe, scale) {
+        await loadPriceDatabase();
+        if (!recipe || !recipe.ingredients) return null;
+
+        const multiplier = scale || 1;
+        const excludeItems = ['water', 'hot water', 'cold water', 'warm water', 'boiling water', 'tap water', 'ice-cold water', 'salt', 'pepper', 'black pepper', 'white pepper', 'to taste'];
+
+        let totalBuyCost = 0;
+        let totalMakeCost = 0;
+        let matched = 0;
+        let total = 0;
+
+        recipe.ingredients.forEach(function(ing) {
+            if (ing.heading || ing.toTaste) return;
+            const raw = parseFloat(ing.quantity);
+            const qty = (isNaN(raw) ? 0 : raw) * multiplier;
+            const unit = (ing.unit || '').toLowerCase();
+            const rawItem = (ing.item || ing.name || '').trim();
+            const parsed = splitIngredientAndNotes(rawItem);
+            const name = parsed.ingredient.toLowerCase();
+            if (!name || excludeItems.includes(name)) return;
+
+            total++;
+            const { exists, data } = lookupPrice(name);
+            const hasPriceData = exists && data && data.price > 0 && data.size > 0;
+            if (!hasPriceData) return;
+
+            const itemKey = (data.originalKey || name || '').toLowerCase().trim();
+            const neededInPackageUnits = convertToPackageUnits(qty, unit, data.unit, itemKey);
+            const pricePerUnit = data.price / data.size;
+            const packagesNeeded = Math.ceil(neededInPackageUnits / data.size);
+
+            totalBuyCost += packagesNeeded * data.price;
+            totalMakeCost += neededInPackageUnits * pricePerUnit;
+            matched++;
+        });
+
+        if (!matched) return null;
+        const servingsNum = (parseInt(recipe.servings) || 1) * multiplier;
+        return {
+            totalBuy: totalBuyCost.toFixed(2),
+            totalMake: totalMakeCost.toFixed(2),
+            buyPerServing: (totalBuyCost / servingsNum).toFixed(2),
+            makePerServing: (totalMakeCost / servingsNum).toFixed(2),
+            coverage: Math.round((matched / total) * 100),
+            servings: servingsNum
+        };
+    }
 
     // Load price database - from cache or fetch ONCE per session
     async function loadPriceDatabase() {

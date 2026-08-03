@@ -1,5 +1,5 @@
 {
-  "id": "highhydrationfocaccia",
+  "id": "focaccia-high",
   "title": "High-Hydration Focaccia",
   "category": "Baking",
   "difficulty": "Beginner",
@@ -55,7 +55,7 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Sea Salt Flakes"
+      "item": "Salt"
     }
   ],
   "method": [

@@ -47,19 +47,19 @@
     {
       "quantity": "2.5",
       "unit": "g",
-      "item": "Paprika",
+      "item": "Sweet Paprika",
       "notes": "ground"
     },
     {
       "quantity": "2",
       "unit": "g",
-      "item": "Cardamom",
+      "item": "Ground Cardamom",
       "notes": "ground"
     },
     {
       "quantity": "2",
       "unit": "g",
-      "item": "Cumin",
+      "item": "Ground Cumin",
       "notes": "ground"
     },
     {
@@ -70,7 +70,7 @@
     {
       "quantity": "0.5",
       "unit": "g",
-      "item": "Cinnamon",
+      "item": "Ground Cinnamon",
       "notes": "ground"
     }
   ],

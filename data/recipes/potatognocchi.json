@@ -1,5 +1,5 @@
 {
-  "id": "potatognocchiwithtomatosauce",
+  "id": "potatognocchi",
   "title": "Potato Gnocchi with Tomato Sauce",
   "category": "Dinner",
   "difficulty": "Intermediate",
@@ -24,7 +24,7 @@
     {
       "quantity": "500",
       "unit": "g",
-      "item": "Potatoes",
+      "item": "Potato",
       "notes": "mashed"
     },
     {
@@ -60,7 +60,7 @@
     {
       "quantity": "1000",
       "unit": "g",
-      "item": "Tomatoes",
+      "item": "Tomato",
       "notes": "ripe, chopped"
     },
     {
