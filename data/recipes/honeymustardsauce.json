@@ -1,0 +1,117 @@
+{
+  "id": "honeymustardsauce",
+  "title": "Honey Mustard Sauce",
+  "category": "Sauces",
+  "difficulty": "Beginner",
+  "description": "A sweet, tangy, and creamy honey mustard sauce. Using a Greek yogurt base keeps the sauce oil-free, while a combination of Dijon and yellow mustard provides a classic condiment flavor.",
+  "prepTime": "5 min",
+  "cookTime": "0 Min",
+  "totalTime": "5 Min",
+  "servings": "2",
+  "tags": [
+    "Sauce",
+    "Condiment",
+    "Honey Mustard",
+    "Oil Free",
+    "Fat Free",
+    "Easy Prep",
+    "Under 10 Minutes"
+  ],
+  "ingredients": [
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Fat-free Plain Greek Yogurt"
+    },
+    {
+      "quantity": "25",
+      "unit": "g",
+      "item": "Dijon Mustard",
+      "notes": "provides depth and warmth"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Yellow Mustard",
+      "notes": "adds a sharp tang and classic yellow color"
+    },
+    {
+      "quantity": "25",
+      "unit": "g",
+      "item": "Honey"
+    },
+    {
+      "quantity": "5",
+      "unit": "ml",
+      "item": "Apple Cider Vinegar",
+      "notes": "helps thin the yogurt and adds a crisp acidity"
+    },
+    {
+      "quantity": "0.5",
+      "unit": "g",
+      "item": "Garlic Powder"
+    },
+    {
+      "quantity": "0.5",
+      "unit": "g",
+      "item": "Fine Salt",
+      "notes": "balances the sweetness of the honey"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "In a small bowl, combine the Greek yogurt, Dijon mustard, yellow mustard, honey, apple cider vinegar, garlic powder, and salt."
+    },
+    {
+      "step": 2,
+      "instruction": "Whisk thoroughly until the ingredients are completely integrated and the sauce is smooth."
+    },
+    {
+      "step": 3,
+      "instruction": "Cover and chill in the refrigerator for at least 15 to 30 minutes before serving. This rest period allows the garlic powder to rehydrate and the mustard flavors to mellow into the yogurt."
+    }
+  ],
+  "notes": [
+    {
+      "type": "serving",
+      "title": "Pairing Suggestion:",
+      "content": "This sweet and tangy sauce functions as a light, creamy dipping sauce for [[crispyairfryercutlets|Crispy Cornflake Chicken Tenders]]."
+    },
+    {
+      "type": "tip",
+      "title": "Adjusting the Sweetness:",
+      "content": "Taste the sauce after whisking. If your Greek yogurt is particularly tart, you may want to add an extra teaspoon of honey to balance the acidity."
+    },
+    {
+      "type": "storage",
+      "title": "Storage:",
+      "content": "Keep stored in an airtight container in the refrigerator for up to 5 days. Stir well before using, as some minor separation may occur over time."
+    }
+  ],
+  "nutrition": {
+    "servings": 2,
+    "cal": 197,
+    "kj": 826,
+    "protein": 8,
+    "carbs": 15,
+    "sugars": 13,
+    "fat": 12,
+    "saturated_fat": 3.7,
+    "fiber": 1,
+    "sodium": 55,
+    "coverage": 100,
+    "foundCount": 7,
+    "totalCount": 7,
+    "unmatchedItems": [],
+    "calcium_mg": 105,
+    "iron_mg": 1,
+    "potassium_mg": 240,
+    "magnesium_mg": 63,
+    "zinc_mg": 1,
+    "cholesterol_mg": 23,
+    "vitamin_a_ug": 73,
+    "vitamin_c_mg": 1
+  },
+  "lastModified": "2026-08-13"
+}

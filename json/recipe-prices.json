@@ -710,7 +710,7 @@
       "price": 3.6,
       "brand": "Woolworths"
     },
-    "plain flour": {
+    "Plain Flour": {
       "size": 2000,
       "unit": "g",
       "price": 2.5,
@@ -888,12 +888,6 @@
       "price": 3.2,
       "brand": "Woolworths"
     },
-    "chives": {
-      "size": 15,
-      "unit": "g",
-      "price": 3.2,
-      "brand": "Woolworths"
-    },
     "coriander": {
       "size": 25,
       "unit": "g",
@@ -906,37 +900,7 @@
       "price": 2.5,
       "brand": "Woolworths"
     },
-    "dill": {
-      "size": 15,
-      "unit": "g",
-      "price": 3.2,
-      "brand": "Woolworths"
-    },
     "mint": {
-      "size": 15,
-      "unit": "g",
-      "price": 3.2,
-      "brand": "Woolworths"
-    },
-    "oregano": {
-      "size": 15,
-      "unit": "g",
-      "price": 3.2,
-      "brand": "Woolworths"
-    },
-    "parsley": {
-      "size": 15,
-      "unit": "g",
-      "price": 3.2,
-      "brand": "Woolworths"
-    },
-    "rosemary": {
-      "size": 15,
-      "unit": "g",
-      "price": 3.2,
-      "brand": "Woolworths"
-    },
-    "sage": {
       "size": 15,
       "unit": "g",
       "price": 3.2,
@@ -947,6 +911,392 @@
       "unit": "g",
       "price": 3.2,
       "brand": "Woolworths"
+    }
+  },
+  "spices_seasonings": {
+    "chives": {
+      "size": 10,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "dill": {
+      "size": 10,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "oregano": {
+      "size": 10,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "parsley": {
+      "size": 7,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "rosemary": {
+      "size": 18,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "sage": {
+      "size": 10,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "achiote powder": {
+      "size": 50,
+      "unit": "g",
+      "price": 4,
+      "brand": "Hoyt's"
+    },
+    "allspice": {
+      "size": 28,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "baking powder": {
+      "size": 125,
+      "unit": "g",
+      "price": 2.85,
+      "brand": "McKenzie's"
+    },
+    "bay leaves": {
+      "size": 5,
+      "unit": "g",
+      "price": 2,
+      "brand": "Hoyt's"
+    },
+    "bi-carb soda": {
+      "size": 500,
+      "unit": "g",
+      "price": 3.1,
+      "brand": "McKenzie's"
+    },
+    "black pepper": {
+      "size": 45,
+      "unit": "g",
+      "price": 4,
+      "brand": "McKenzie's"
+    },
+    "black peppercorns": {
+      "size": 45,
+      "unit": "g",
+      "price": 4,
+      "brand": "McKenzie's"
+    },
+    "cajun seasoning": {
+      "size": 35,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "cardamom pods": {
+      "size": 20,
+      "unit": "g",
+      "price": 4,
+      "brand": "Hoyt's"
+    },
+    "cayenne pepper": {
+      "size": 30,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "chicken salt": {
+      "size": 65,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "chicken seasoning": {
+      "size": 41,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "chilli dried crushed": {
+      "size": 100,
+      "unit": "g",
+      "price": 5,
+      "brand": "Hoyt's"
+    },
+    "chilli flakes": {
+      "size": 100,
+      "unit": "g",
+      "price": 5,
+      "brand": "Hoyt's"
+    },
+    "chilli powder": {
+      "size": 27,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "chinese five spice": {
+      "size": 30,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "cinnamon stick": {
+      "size": 10,
+      "unit": "g",
+      "price": 2,
+      "brand": "Hoyt's"
+    },
+    "cloves whole": {
+      "size": 20,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "coriander seeds": {
+      "size": 28,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "cumin seeds": {
+      "size": 28,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "curry powder": {
+      "size": 60,
+      "unit": "g",
+      "price": 4.3,
+      "brand": "Keen's"
+    },
+    "desiccated coconut": {
+      "size": 250,
+      "unit": "g",
+      "price": 3.7,
+      "brand": "McKenzie's"
+    },
+    "fennel seeds": {
+      "size": 26,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "fenugreek": {
+      "size": 30,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "fenugreek seeds": {
+      "size": 30,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "garam masala": {
+      "size": 30,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "garlic powder": {
+      "size": 45,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "green cardamom pods": {
+      "size": 20,
+      "unit": "g",
+      "price": 4,
+      "brand": "Hoyt's"
+    },
+    "green peppercorns": {
+      "size": 50,
+      "unit": "g",
+      "price": 5,
+      "brand": "Hoyt's"
+    },
+    "ground cardamom": {
+      "size": 25,
+      "unit": "g",
+      "price": 4,
+      "brand": "Hoyt's"
+    },
+    "ground cinnamon": {
+      "size": 42,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "ground cloves": {
+      "size": 25,
+      "unit": "g",
+      "price": 4,
+      "brand": "Hoyt's"
+    },
+    "ground coriander": {
+      "size": 25,
+      "unit": "g",
+      "price": 2.5,
+      "brand": "Woolworths"
+    },
+    "ground cumin": {
+      "size": 28,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "ground ginger": {
+      "size": 25,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "ground nutmeg": {
+      "size": 30,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "ground paprika": {
+      "size": 34,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "ground turmeric": {
+      "size": 45,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "italian herbs": {
+      "size": 35,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "mixed herbs": {
+      "size": 70,
+      "unit": "g",
+      "price": 3.4,
+      "brand": "Hoyt's"
+    },
+    "mixed spice": {
+      "size": 33,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "moroccan spice": {
+      "size": 52,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "nigella seeds": {
+      "size": 50,
+      "unit": "g",
+      "price": 4,
+      "brand": "Hoyt's"
+    },
+    "onion powder": {
+      "size": 44,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "poppy seeds": {
+      "size": 240,
+      "unit": "g",
+      "price": 5,
+      "brand": "Hoyt's"
+    },
+    "red chilli flakes": {
+      "size": 100,
+      "unit": "g",
+      "price": 5,
+      "brand": "Hoyt's"
+    },
+    "red chilli powder": {
+      "size": 27,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "saffron": {
+      "size": 250,
+      "unit": "mg",
+      "price": 14.9,
+      "brand": "MasterFoods"
+    },
+    "salt": {
+      "size": 750,
+      "unit": "g",
+      "price": 4.5,
+      "brand": "Saxa"
+    },
+    "sesame seeds": {
+      "size": 230,
+      "unit": "g",
+      "price": 5.2,
+      "brand": "Hoyt's"
+    },
+    "smoked paprika": {
+      "size": 35,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "star anise": {
+      "size": 12,
+      "unit": "g",
+      "price": 2.6,
+      "brand": "Hoyt's"
+    },
+    "steak seasoning": {
+      "size": 45,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "sweet paprika": {
+      "size": 34,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "taco seasoning": {
+      "size": 30,
+      "unit": "g",
+      "price": 2.7,
+      "brand": "Old El Paso"
+    },
+    "thyme leaves": {
+      "size": 10,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "white pepper": {
+      "size": 50,
+      "unit": "g",
+      "price": 3.9,
+      "brand": "McKenzie's"
+    },
+    "yeast": {
+      "size": 130,
+      "unit": "g",
+      "price": 6,
+      "brand": "Lowan"
     }
   },
   "fresh_vegetables": {
@@ -1665,6 +2015,12 @@
       "unit": "g",
       "price": 18,
       "brand": "Woolworths"
+    },
+    "Chicken Tenders": {
+      "size": 1000,
+      "unit": "g",
+      "price": 16.5,
+      "brand": "Woolworths"
     }
   },
   "milk_cream": {
@@ -1895,6 +2251,12 @@
       "unit": "g",
       "price": 3,
       "brand": "Woolworths"
+    },
+    "Cornflakes": {
+      "size": 890,
+      "unit": "g",
+      "price": 7.5,
+      "brand": "Kellogg's"
     }
   },
   "sauces_condiments": {
@@ -2251,392 +2613,6 @@
       "brand": "Arnott's"
     }
   },
-  "spices_seasonings": {
-    "achiote powder": {
-      "size": 50,
-      "unit": "g",
-      "price": 4,
-      "brand": "Hoyt's"
-    },
-    "allspice": {
-      "size": 28,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "baking powder": {
-      "size": 125,
-      "unit": "g",
-      "price": 2.85,
-      "brand": "McKenzie's"
-    },
-    "bay leaves": {
-      "size": 5,
-      "unit": "g",
-      "price": 2,
-      "brand": "Hoyt's"
-    },
-    "bi-carb soda": {
-      "size": 500,
-      "unit": "g",
-      "price": 3.1,
-      "brand": "McKenzie's"
-    },
-    "black pepper": {
-      "size": 45,
-      "unit": "g",
-      "price": 4,
-      "brand": "McKenzie's"
-    },
-    "black peppercorns": {
-      "size": 45,
-      "unit": "g",
-      "price": 4,
-      "brand": "McKenzie's"
-    },
-    "cajun seasoning": {
-      "size": 35,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "cardamom pods": {
-      "size": 20,
-      "unit": "g",
-      "price": 4,
-      "brand": "Hoyt's"
-    },
-    "cayenne pepper": {
-      "size": 30,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "chicken salt": {
-      "size": 65,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "chicken seasoning": {
-      "size": 41,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "chilli dried crushed": {
-      "size": 100,
-      "unit": "g",
-      "price": 5,
-      "brand": "Hoyt's"
-    },
-    "chilli flakes": {
-      "size": 100,
-      "unit": "g",
-      "price": 5,
-      "brand": "Hoyt's"
-    },
-    "chilli powder": {
-      "size": 27,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "chinese five spice": {
-      "size": 30,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "chives": {
-      "size": 10,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "cinnamon stick": {
-      "size": 10,
-      "unit": "g",
-      "price": 2,
-      "brand": "Hoyt's"
-    },
-    "cloves whole": {
-      "size": 20,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "coriander seeds": {
-      "size": 28,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "cumin seeds": {
-      "size": 28,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "curry powder": {
-      "size": 60,
-      "unit": "g",
-      "price": 4.3,
-      "brand": "Keen's"
-    },
-    "desiccated coconut": {
-      "size": 250,
-      "unit": "g",
-      "price": 3.7,
-      "brand": "McKenzie's"
-    },
-    "dill": {
-      "size": 10,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "fennel seeds": {
-      "size": 26,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "fenugreek": {
-      "size": 30,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "fenugreek seeds": {
-      "size": 30,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "garam masala": {
-      "size": 30,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "garlic powder": {
-      "size": 45,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "green cardamom pods": {
-      "size": 20,
-      "unit": "g",
-      "price": 4,
-      "brand": "Hoyt's"
-    },
-    "green peppercorns": {
-      "size": 50,
-      "unit": "g",
-      "price": 5,
-      "brand": "Hoyt's"
-    },
-    "ground cardamom": {
-      "size": 25,
-      "unit": "g",
-      "price": 4,
-      "brand": "Hoyt's"
-    },
-    "ground cinnamon": {
-      "size": 42,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "ground cloves": {
-      "size": 25,
-      "unit": "g",
-      "price": 4,
-      "brand": "Hoyt's"
-    },
-    "ground coriander": {
-      "size": 25,
-      "unit": "g",
-      "price": 2.5,
-      "brand": "Woolworths"
-    },
-    "ground cumin": {
-      "size": 28,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "ground ginger": {
-      "size": 25,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "ground nutmeg": {
-      "size": 30,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "ground paprika": {
-      "size": 34,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "ground turmeric": {
-      "size": 45,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "italian herbs": {
-      "size": 35,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "mixed herbs": {
-      "size": 70,
-      "unit": "g",
-      "price": 3.4,
-      "brand": "Hoyt's"
-    },
-    "mixed spice": {
-      "size": 33,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "moroccan spice": {
-      "size": 52,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "nigella seeds": {
-      "size": 50,
-      "unit": "g",
-      "price": 4,
-      "brand": "Hoyt's"
-    },
-    "onion powder": {
-      "size": 44,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "oregano": {
-      "size": 10,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "parsley": {
-      "size": 7,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "poppy seeds": {
-      "size": 240,
-      "unit": "g",
-      "price": 5,
-      "brand": "Hoyt's"
-    },
-    "red chilli flakes": {
-      "size": 100,
-      "unit": "g",
-      "price": 5,
-      "brand": "Hoyt's"
-    },
-    "red chilli powder": {
-      "size": 27,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "rosemary": {
-      "size": 18,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "saffron": {
-      "size": 250,
-      "unit": "mg",
-      "price": 14.9,
-      "brand": "MasterFoods"
-    },
-    "sage": {
-      "size": 10,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "salt": {
-      "size": 750,
-      "unit": "g",
-      "price": 4.5,
-      "brand": "Saxa"
-    },
-    "sesame seeds": {
-      "size": 230,
-      "unit": "g",
-      "price": 5.2,
-      "brand": "Hoyt's"
-    },
-    "smoked paprika": {
-      "size": 35,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "star anise": {
-      "size": 12,
-      "unit": "g",
-      "price": 2.6,
-      "brand": "Hoyt's"
-    },
-    "steak seasoning": {
-      "size": 45,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "sweet paprika": {
-      "size": 34,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "taco seasoning": {
-      "size": 30,
-      "unit": "g",
-      "price": 2.7,
-      "brand": "Old El Paso"
-    },
-    "thyme leaves": {
-      "size": 10,
-      "unit": "g",
-      "price": 3.5,
-      "brand": "MasterFoods"
-    },
-    "white pepper": {
-      "size": 50,
-      "unit": "g",
-      "price": 3.9,
-      "brand": "McKenzie's"
-    },
-    "yeast": {
-      "size": 130,
-      "unit": "g",
-      "price": 6,
-      "brand": "Lowan"
-    }
-  },
   "spreads": {
     "liver spread": {
       "size": 85,
@@ -2802,7 +2778,7 @@
     }
   },
   "_meta": {
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-12",
     "version": "1.0"
   }
 }

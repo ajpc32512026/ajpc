@@ -1,0 +1,141 @@
+{
+  "id": "smokybbqsauce",
+  "title": "Smoky BBQ Sauce",
+  "category": "Sauces",
+  "difficulty": "Beginner",
+  "description": "A quick, oil-free BBQ sauce with a deep, savory sweetness. Simmering the ingredients helps cook out the raw tomato taste, blending the smoked paprika with molasses and mustard for a traditional flavor profile.",
+  "prepTime": "5 min",
+  "cookTime": "5 Min",
+  "totalTime": "10 Min",
+  "servings": "2",
+  "tags": [
+    "Sauce",
+    "Condiment",
+    "BBQ",
+    "Oil Free",
+    "Fat Free",
+    "Easy Prep",
+    "Under 15 Minutes"
+  ],
+  "ingredients": [
+    {
+      "quantity": "50",
+      "unit": "g",
+      "item": "Tomato Paste"
+    },
+    {
+      "quantity": "70",
+      "unit": "ml",
+      "item": "Water",
+      "notes": "slightly increased to account for simmer reduction"
+    },
+    {
+      "quantity": "15",
+      "unit": "ml",
+      "item": "Apple Cider Vinegar"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Maple Syrup"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Molasses",
+      "notes": "essential for the traditional dark BBQ flavor"
+    },
+    {
+      "quantity": "5",
+      "unit": "ml",
+      "item": "Worcestershire Sauce",
+      "notes": "use a vegan version if keeping strictly plant-based"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Yellow Mustard",
+      "notes": "helps cut the tomato sweetness"
+    },
+    {
+      "quantity": "2",
+      "unit": "g",
+      "item": "Smoked Paprika"
+    },
+    {
+      "quantity": "1",
+      "unit": "g",
+      "item": "Garlic Powder"
+    },
+    {
+      "quantity": "1",
+      "unit": "g",
+      "item": "Onion Powder"
+    },
+    {
+      "quantity": "0.5",
+      "unit": "g",
+      "item": "Fine Salt"
+    },
+    {
+      "quantity": "0.2",
+      "unit": "g",
+      "item": "Black Pepper",
+      "notes": "a small pinch"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "In a small saucepan, whisk together all ingredients until smooth: tomato paste, water, apple cider vinegar, maple syrup, molasses, Worcestershire sauce, yellow mustard, and the spices."
+    },
+    {
+      "step": 2,
+      "instruction": "Place the saucepan over medium-low heat. Bring to a gentle simmer, stirring frequently to prevent scorching."
+    },
+    {
+      "step": 3,
+      "instruction": "Simmer gently for 4 to 5 minutes, or until the sauce thickens slightly and the raw tomato aroma dissipates. Remove from heat and let cool before serving."
+    }
+  ],
+  "notes": [
+    {
+      "type": "serving",
+      "title": "Pairing Suggestion:",
+      "content": "This savory, smoky sauce makes an excellent dipping companion for [[crispyairfryercutlets|Crispy Cornflake Chicken Tenders]]."
+    },
+    {
+      "type": "tip",
+      "title": "Adjusting Consistency:",
+      "content": "If the sauce becomes too thick during simmering, stir in an extra tablespoon of water to reach your preferred consistency."
+    },
+    {
+      "type": "storage",
+      "title": "Storage:",
+      "content": "Keep stored in an airtight container in the refrigerator for up to 5 days."
+    }
+  ],
+  "nutrition": {
+    "servings": 2,
+    "cal": 66,
+    "kj": 275,
+    "protein": 2,
+    "carbs": 11,
+    "sugars": 10,
+    "fat": 1,
+    "saturated_fat": 0.1,
+    "fiber": 2,
+    "sodium": 210,
+    "coverage": 100,
+    "foundCount": 11,
+    "totalCount": 11,
+    "unmatchedItems": [],
+    "calcium_mg": 28,
+    "iron_mg": 1,
+    "potassium_mg": 391,
+    "magnesium_mg": 32,
+    "vitamin_a_ug": 99,
+    "vitamin_c_mg": 4
+  },
+  "lastModified": "2026-08-13"
+}

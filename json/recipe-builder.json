@@ -1998,6 +1998,25 @@
     "sodium": 150,
     "sugars": 33
   },
+  "cornflakes": {
+    "cal": 378,
+    "calcium_mg": 4,
+    "carbs": 84,
+    "fat": 0.4,
+    "fiber": 3,
+    "iron_mg": 28.9,
+    "kj": 1582,
+    "magnesium_mg": 16,
+    "potassium_mg": 168,
+    "protein": 7,
+    "saturated_fat": 0.1,
+    "sodium": 729,
+    "sugars": 8,
+    "vitamin_a_ug": 540,
+    "vitamin_c_mg": 26,
+    "vitamin_d_ug": 4.2,
+    "zinc_mg": 1
+  },
   "cornflour": {
     "cal": 348.5,
     "calcium_mg": 3,
