@@ -2700,13 +2700,13 @@ footer {
    more terracotta so it reads well on pale backgrounds.
 ========================================================= */
 body.light-mode {
-    /* Surfaces — eggshell, not white */
-    --ink: #f2ede4;
-    --ink-soft: #ece6db;
-    --ink-medium: #e4ddd2;
-    --slate: #d8d0c4;
-    --slate-mid: #c8c0b2;
-    --slate-light: #b8afa0;
+    /* Surfaces — Bone White (zero pink/peach undertones, not blinding) */
+    --ink: #f4f5f3;          /* Soft, cool-neutral alabaster */
+    --ink-soft: #ebede9;     /* Slightly deeper stone shade */
+    --ink-medium: #e2e5e0;   /* Muted grey-stone */
+    --slate: #d3d8d0;        /* Cool neutral slate */
+    --slate-mid: #c3c8c0;    
+    --slate-light: #b3b8b0;  
 
     /* Text — deep charcoal ink on pale ground */
     --cream: #1c1a16;
@@ -2721,12 +2721,12 @@ body.light-mode {
     --copper-dark: #8a4e22;
 
     /* Surfaces */
-    --surface-0: #f2ede4;
-    --surface-1: #ece6db;
-    --surface-2: #e4ddd2;
-    --surface-3: #d8d0c4;
-    --surface-card: #ece6db;
-    --surface-raised: #e4ddd2;
+    --surface-0: #f4f5f3;
+    --surface-1: #ebede9;
+    --surface-2: #e2e5e0;
+    --surface-3: #d3d8d0;
+    --surface-card: #ebede9;
+    --surface-raised: #e2e5e0;
 
     /* Borders */
     --border-dim: rgba(28, 26, 22, 0.08);
@@ -2741,14 +2741,15 @@ body.light-mode {
     --shadow-copper: 0 8px 32px rgba(184, 104, 48, 0.12);
 }
 
+/* Updated to match the new #f4f5f3 background (RGB: 244, 245, 243) */
 body.light-mode .nav-header {
-    background: rgba(242, 237, 228, 0.96);
+    background: rgba(244, 245, 243, 0.96);
     border-bottom-color: rgba(28, 26, 22, 0.12);
 }
 
 body.light-mode body::selection {
     background: var(--copper);
-    color: #f2ede4;
+    color: #f4f5f3;
 }
 
 body.light-mode .search-examples code {

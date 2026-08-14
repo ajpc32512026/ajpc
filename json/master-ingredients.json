@@ -1,0 +1,5997 @@
+{
+  "cake crumbs": {
+    "name": "cake crumbs",
+    "displayName": "Cake Crumbs",
+    "category": "Baking Extras",
+    "aliases": [
+      "cake crumbs"
+    ],
+    "priceData": {
+      "size": 200,
+      "unit": "g",
+      "price": 3,
+      "brand": "Woolworths"
+    },
+    "wiki": {
+      "purpose": "Provides the base structure for no-bake confections. The existing flavour of the cake contributes to the final product; chocolate or plain butter cake works best for rum balls and truffles.",
+      "storage": "Storage:** Use within 2–3 days if made from fresh leftover cake.",
+      "substitutes": "",
+      "notes": "Cake crumbs are used as a base ingredient in confections such as rum balls, cake pops, and truffles. - **Source:** Can be made from leftover or slightly stale cake of any variety, or purchased as pre-made cake crumbs. - **Consistency:** Crumble or process cake into fine crumbs. Moisture content will vary depending on the cake type; adjust binding agents (rum, cream, condensed milk) accordingly. - **",
+      "nutrition": {
+        "calories": "Varies significantly by cake type",
+        "carbohydrates": "Varies",
+        "fat": "Varies",
+        "fiber": "Varies",
+        "protein": "Varies",
+        "vitamins_minerals": "Derived entirely from the source cake recipe."
+      }
+    }
+  },
+  "chocolate dark": {
+    "name": "chocolate dark",
+    "displayName": "Chocolate Dark",
+    "category": "Baking Extras",
+    "aliases": [
+      "chocolate dark"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "chocolate dark bits": {
+    "name": "chocolate dark bits",
+    "displayName": "Chocolate Dark Bits",
+    "category": "Baking Extras",
+    "aliases": [
+      "chocolate dark bits"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "chocolate dark chips": {
+    "name": "chocolate dark chips",
+    "displayName": "Chocolate Dark Chips",
+    "category": "Baking Extras",
+    "aliases": [
+      "chocolate dark chips"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "chocolate dark melts": {
+    "name": "chocolate dark melts",
+    "displayName": "Chocolate Dark Melts",
+    "category": "Baking Extras",
+    "aliases": [
+      "chocolate dark melts"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "chocolate milk bits": {
+    "name": "chocolate milk bits",
+    "displayName": "Chocolate Milk Bits",
+    "category": "Baking Extras",
+    "aliases": [
+      "chocolate milk bits"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "chocolate milk chips": {
+    "name": "chocolate milk chips",
+    "displayName": "Chocolate Milk Chips",
+    "category": "Baking Extras",
+    "aliases": [
+      "chocolate milk chips"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "chocolate sprinkles": {
+    "name": "chocolate sprinkles",
+    "displayName": "Chocolate Sprinkles",
+    "category": "Baking Extras",
+    "aliases": [
+      "chocolate sprinkles"
+    ],
+    "priceData": {
+      "size": 100,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "Dollar Sweets"
+    },
+    "wiki": null
+  },
+  "chocolate white": {
+    "name": "chocolate white",
+    "displayName": "Chocolate White",
+    "category": "Baking Extras",
+    "aliases": [
+      "chocolate white"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "chocolate white chips": {
+    "name": "chocolate white chips",
+    "displayName": "Chocolate White Chips",
+    "category": "Baking Extras",
+    "aliases": [
+      "chocolate white chips"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "cocoa powder": {
+    "name": "cocoa powder",
+    "displayName": "Cocoa Powder",
+    "category": "Baking Extras",
+    "aliases": [
+      "cocoa powder"
+    ],
+    "priceData": {
+      "size": 190,
+      "unit": "g",
+      "price": 8,
+      "brand": "Nestle"
+    },
+    "wiki": {
+      "purpose": "Provides deep chocolate flavour, dark colour, and bitterness without added sugar or fat. Used as a primary flavouring in cakes, biscuits, brownies, desserts, drinks, sauces, and dusting applications.",
+      "storage": "",
+      "substitutes": "",
+      "notes": "Finely ground powder made from cocoa solids after cocoa butter is removed. Unsweetened and highly concentrated. Types and behaviour: - **Natural Cocoa Powder:** Light brown, acidic, sharp chocolate flavour. Reacts with baking soda for leavening; used in traditional cakes, brownies, and older recipes. - **Dutch-Processed Cocoa:** Treated with alkali to neutralise acidity; darker colour, smoother and milder flavour. Does not react with baking soda—use baking powder instead. Cocoa powder absorbs liquid aggressively; sift before use to prevent clumping. Blooming cocoa in hot liquid or fat enhances flavour depth and colour. Store airtight, away from heat and moisture to preserve aroma.",
+      "nutrition": {
+        "calories": "220–240 per 100 g",
+        "carbohydrates": "50–58 g",
+        "fat": "12–14 g",
+        "fiber": "30–35 g",
+        "protein": "18–20 g",
+        "vitamins_minerals": "High in dietary fibre; rich in magnesium and iron. Contains polyphenols and flavonoids with antioxidant properties. Naturally contains small amounts of caffeine and theobromine."
+      }
+    }
+  },
+  "custard powder": {
+    "name": "custard powder",
+    "displayName": "Custard Powder",
+    "category": "Baking Extras",
+    "aliases": [
+      "custard powder"
+    ],
+    "priceData": {
+      "size": 350,
+      "unit": "g",
+      "price": 3.2,
+      "brand": "Foster Clark's"
+    },
+    "wiki": {
+      "purpose": "Thickens liquids into smooth custard; adds sweet vanilla flavour, creamy texture, and pale yellow colour. Acts as a convenient base for desserts and fillings.",
+      "storage": "Store in a cool, dry place; keep airtight to prevent moisture absorption and clumping.",
+      "substitutes": "",
+      "notes": "Powdered mix, typically cornstarch-based, often flavoured with vanilla and coloured with turmeric or food-grade colour. Forms and - **Preparation:** Usually mixed with a small amount of milk to form a slurry, then stirred into the remaining hot milk while cooking to avoid lumps. - **Applications:** Used in custard desserts, trifles, fillings, and as a base for cream sauces in sweets.",
+      "nutrition": {
+        "calories": "360 per 100 g (dry powder)",
+        "carbohydrates": "85 g",
+        "fat": "0–1 g",
+        "fiber": "0–1 g",
+        "protein": "2–3 g",
+        "vitamins_minerals": "Primarily a carbohydrate source; contains small amounts of iron and calcium depending on fortification. Nutritional impact per serving is modest due to small quantities used."
+      }
+    }
+  },
+  "food colouring": {
+    "name": "food colouring",
+    "displayName": "Food Colouring",
+    "category": "Baking Extras",
+    "aliases": [
+      "food colouring"
+    ],
+    "priceData": {
+      "size": 28,
+      "unit": "ml",
+      "price": 7.75,
+      "brand": "Queen"
+    },
+    "wiki": null
+  },
+  "gelatine leaves": {
+    "name": "gelatine leaves",
+    "displayName": "Gelatine Leaves",
+    "category": "Baking Extras",
+    "aliases": [
+      "gelatine leaves"
+    ],
+    "priceData": {
+      "size": 20,
+      "unit": "g",
+      "price": 9,
+      "brand": "Macphee's"
+    },
+    "wiki": null
+  },
+  "gelatine powder": {
+    "name": "gelatine powder",
+    "displayName": "Gelatine Powder",
+    "category": "Baking Extras",
+    "aliases": [
+      "gelatine powder"
+    ],
+    "priceData": {
+      "size": 100,
+      "unit": "g",
+      "price": 8,
+      "brand": "McKenzie's"
+    },
+    "wiki": null
+  },
+  "glucose syrup": {
+    "name": "glucose syrup",
+    "displayName": "Glucose Syrup",
+    "category": "Baking Extras",
+    "aliases": [
+      "glucose syrup"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "g",
+      "price": 6,
+      "brand": "Queen"
+    },
+    "wiki": {
+      "purpose": "Provides sweetness, moisture, and glossy finish. Stabilizes sugar-based confections, prevents crystallization, and enhances texture in cakes, icings, desserts, and pastries.",
+      "storage": "Storage:** Store in a sealed container at room temperature; refrigerate if using perishable additives or flavourings.",
+      "substitutes": "",
+      "notes": "Common forms and Prevents crystallization in candies, icings, and caramel. - **Flavoured or Liqueur-Infused Syrups:** Can be lightly flavoured with vanilla, fruit extracts, or liqueurs to enhance desserts. - **Simple Syrup:** Typically a 1:1 sugar-to-water ratio; used to moisten cakes, sweeten beverages, or brush onto pastries. - **Usage Tips:** Adjust quantity to avoid excessive sweetness or moisture. Heat gently if incorporating into hot mixtures. - **",
+      "nutrition": {
+        "calories": "300 per 100 g",
+        "carbohydrates": "75 g",
+        "fat": "0 g",
+        "fiber": "0 g",
+        "protein": "0 g",
+        "vitamins_minerals": "Minimal; primarily a source of sugars and energy. Does not contribute significant micronutrients."
+      }
+    }
+  },
+  "vanilla essence": {
+    "name": "vanilla essence",
+    "displayName": "Vanilla Essence",
+    "category": "Baking Extras",
+    "aliases": [
+      "vanilla essence"
+    ],
+    "priceData": {
+      "size": 125,
+      "unit": "ml",
+      "price": 4,
+      "brand": "Queen"
+    },
+    "wiki": null
+  },
+  "vanilla extract natural": {
+    "name": "vanilla extract natural",
+    "displayName": "Vanilla Extract Natural",
+    "category": "Baking Extras",
+    "aliases": [
+      "vanilla extract natural"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "bread naan": {
+    "name": "bread naan",
+    "displayName": "Bread Naan",
+    "category": "Bread Bakery",
+    "aliases": [
+      "bread naan"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "breadcrumbs": {
+    "name": "breadcrumbs",
+    "displayName": "Breadcrumbs",
+    "category": "Bread Bakery",
+    "aliases": [
+      "breadcrumbs"
+    ],
+    "priceData": {
+      "size": 750,
+      "unit": "g",
+      "price": 3,
+      "brand": "Essentials"
+    },
+    "wiki": {
+      "purpose": "Creates a crisp, golden outer crust on crumbed meats and vegetables. Binds ingredients in stuffings, meatballs, and patties. Adds texture as a topping on gratins and baked dishes.",
+      "storage": "Storage:** Keep dry breadcrumbs in an airtight container in the pantry for up to 3 months.",
+      "substitutes": "",
+      "notes": "Breadcrumbs are dried and finely ground bread used as coatings, binders, and toppings. - **Dry Breadcrumbs:** Fine texture; absorb moisture and create a thin, crisp coating. Standard for schnitzels, cutlets, and fried foods. - **Panko Breadcrumbs:** Japanese-style breadcrumbs; larger, flakier, and lighter. Creates a crunchier, airier coating than standard breadcrumbs. Preferred for bistro-style crumbed dishes. - **Fresh Breadcrumbs:** Made from day-old bread blended in a processor; soft and absorbs more moisture; used in stuffings, meatballs, and patties as a binder. - **Coating Technique:** Crumb using the standard sequence — flour → egg wash → breadcrumbs. Press crumbs firmly to adhere. Refrigerate 10–15 minutes before frying for better adhesion. - ** Panko keeps similarly.",
+      "nutrition": {
+        "calories": "395 per 100 g",
+        "carbohydrates": "72 g",
+        "fat": "5 g",
+        "fiber": "3.5 g",
+        "protein": "14 g",
+        "vitamins_minerals": "Provides iron, B vitamins, and calcium; nutritional value varies slightly between brands and types."
+      }
+    }
+  },
+  "pastry puff": {
+    "name": "pastry puff",
+    "displayName": "Pastry Puff",
+    "category": "Bread Bakery",
+    "aliases": [
+      "pastry puff"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "pastry puff frozen": {
+    "name": "pastry puff frozen",
+    "displayName": "Pastry Puff Frozen",
+    "category": "Bread Bakery",
+    "aliases": [
+      "pastry puff frozen"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "pastry shortcrust": {
+    "name": "pastry shortcrust",
+    "displayName": "Pastry Shortcrust",
+    "category": "Bread Bakery",
+    "aliases": [
+      "pastry shortcrust"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "sourdough starter": {
+    "name": "sourdough starter",
+    "displayName": "Sourdough Starter",
+    "category": "Bread Bakery",
+    "aliases": [
+      "sourdough starter"
+    ],
+    "priceData": {
+      "size": 200,
+      "unit": "g",
+      "price": 1,
+      "brand": "Homemade"
+    },
+    "wiki": {
+      "purpose": "Provides natural leavening and distinctive tangy flavour to sourdough breads and enriched doughs. Creates an open crumb structure and improved keeping quality through slow fermentation.",
+      "storage": "",
+      "substitutes": "",
+      "notes": "A living culture of wild yeast and lactobacilli bacteria cultivated in a mixture of flour and water. Used as the sole leavening agent in sourdough bread, replacing commercial yeast with a slower, more complex fermentation. Requires regular feeding with fresh flour and water to maintain activity. Before use, the starter should be fully risen, bubbly, and smell pleasantly sour and yeasty — not sharp or acetone-like. A stiff sweet starter (lower hydration, fed with sugar) produces a milder flavour suitable for enriched doughs like cinnamon rolls. Can be stored in the refrigerator between bakes and revived with a few feedings. Discard a portion before each feed to maintain health and volume.",
+      "nutrition": {
+        "calories": "250 per 100 g",
+        "carbohydrates": "50 g",
+        "fat": "1 g",
+        "fiber": "2 g",
+        "protein": "8 g"
+      }
+    }
+  },
+  "butter salted": {
+    "name": "butter salted",
+    "displayName": "Butter Salted",
+    "category": "Butter Dairy",
+    "aliases": [
+      "butter salted"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "butter spreadable": {
+    "name": "butter spreadable",
+    "displayName": "Butter Spreadable",
+    "category": "Butter Dairy",
+    "aliases": [
+      "butter spreadable"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "butter unsalted": {
+    "name": "butter unsalted",
+    "displayName": "Butter Unsalted",
+    "category": "Butter Dairy",
+    "aliases": [
+      "butter unsalted"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "ghee": {
+    "name": "ghee",
+    "displayName": "Ghee",
+    "category": "Butter Dairy",
+    "aliases": [
+      "ghee"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "ml",
+      "price": 11.7,
+      "brand": "Coco Earth"
+    },
+    "wiki": null
+  },
+  "anchovies": {
+    "name": "anchovies",
+    "displayName": "Anchovies",
+    "category": "Canned Fish Seafood",
+    "aliases": [
+      "anchovies"
+    ],
+    "priceData": {
+      "size": 100,
+      "unit": "g",
+      "price": 6.5,
+      "brand": "Always Fresh"
+    },
+    "wiki": null
+  },
+  "fish fillet": {
+    "name": "fish fillet",
+    "displayName": "Fish Fillet",
+    "category": "Canned Fish Seafood",
+    "aliases": [
+      "fish fillet"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "g",
+      "price": 12,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "oysters canned": {
+    "name": "oysters canned",
+    "displayName": "Oysters Canned",
+    "category": "Canned Fish Seafood",
+    "aliases": [
+      "oysters canned"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "oysters fresh": {
+    "name": "oysters fresh",
+    "displayName": "Oysters Fresh",
+    "category": "Canned Fish Seafood",
+    "aliases": [
+      "oysters fresh"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "prawns": {
+    "name": "prawns",
+    "displayName": "Prawns",
+    "category": "Canned Fish Seafood",
+    "aliases": [
+      "prawns"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "g",
+      "price": 14,
+      "brand": "Woolworths"
+    },
+    "wiki": {
+      "purpose": "Adds sweet, delicate seafood flavour and firm texture to stir-fries, noodle dishes, curries, and grilled preparations. Cooks quickly and pairs well with bold sauces and aromatics.",
+      "storage": "",
+      "substitutes": "",
+      "notes": "Shellfish with a sweet, delicate flavour and firm, slightly bouncy texture when cooked. Sold fresh or frozen, raw or cooked, shell-on or peeled. Green prawns are raw and turn pink-orange when cooked. For stir-fries and noodle dishes, peel and devein before cooking — the dark vein running along the back is the digestive tract. Cook quickly over high heat; they are done the moment they turn opaque and curl. Overcooking makes them rubbery. Store fresh prawns refrigerated and use within a day; frozen prawns can be thawed overnight in the refrigerator.",
+      "nutrition": {
+        "calories": "99 per 100 g",
+        "carbohydrates": "0.2 g",
+        "fat": "0.3 g",
+        "fiber": "0 g",
+        "protein": "24 g"
+      }
+    }
+  },
+  "salmon": {
+    "name": "salmon",
+    "displayName": "Salmon",
+    "category": "Canned Fish Seafood",
+    "aliases": [
+      "salmon"
+    ],
+    "priceData": {
+      "size": 415,
+      "unit": "g",
+      "price": 6.5,
+      "brand": "Ocean Harvest"
+    },
+    "wiki": null
+  },
+  "sardines": {
+    "name": "sardines",
+    "displayName": "Sardines",
+    "category": "Canned Fish Seafood",
+    "aliases": [
+      "sardines"
+    ],
+    "priceData": {
+      "size": 125,
+      "unit": "g",
+      "price": 1.1,
+      "brand": "Deep Cove"
+    },
+    "wiki": null
+  },
+  "seafood mix": {
+    "name": "seafood mix",
+    "displayName": "Seafood Mix",
+    "category": "Canned Fish Seafood",
+    "aliases": [
+      "seafood mix"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "g",
+      "price": 12,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "tuna in brine": {
+    "name": "tuna in brine",
+    "displayName": "Tuna In Brine",
+    "category": "Canned Fish Seafood",
+    "aliases": [
+      "tuna in brine"
+    ],
+    "priceData": {
+      "size": 425,
+      "unit": "g",
+      "price": 3.3,
+      "brand": "Essentials"
+    },
+    "wiki": null
+  },
+  "apple slices": {
+    "name": "apple slices",
+    "displayName": "Apple Slices",
+    "category": "Canned Fruit",
+    "aliases": [
+      "apple slices"
+    ],
+    "priceData": {
+      "size": 385,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "apricot halves": {
+    "name": "apricot halves",
+    "displayName": "Apricot Halves",
+    "category": "Canned Fruit",
+    "aliases": [
+      "apricot halves"
+    ],
+    "priceData": {
+      "size": 825,
+      "unit": "g",
+      "price": 3,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "pineapple slices": {
+    "name": "pineapple slices",
+    "displayName": "Pineapple Slices",
+    "category": "Canned Fruit",
+    "aliases": [
+      "pineapple chunks",
+      "pineapple crushed",
+      "pineapple pieces",
+      "pineapple rings",
+      "pineapple slices"
+    ],
+    "priceData": {
+      "size": 432,
+      "unit": "g",
+      "price": 3.9,
+      "brand": "Dole"
+    },
+    "wiki": null
+  },
+  "tomato crushed": {
+    "name": "tomato crushed",
+    "displayName": "Tomato Crushed",
+    "category": "Canned Tomatoes",
+    "aliases": [
+      "tomato crushed"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "tomato diced": {
+    "name": "tomato diced",
+    "displayName": "Tomato Diced",
+    "category": "Canned Tomatoes",
+    "aliases": [
+      "tomato diced"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "tomato passata": {
+    "name": "tomato passata",
+    "displayName": "Tomato Passata",
+    "category": "Canned Tomatoes",
+    "aliases": [
+      "tomato passata"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "tomato paste": {
+    "name": "tomato paste",
+    "displayName": "Tomato Paste",
+    "category": "Canned Tomatoes",
+    "aliases": [
+      "tomato paste"
+    ],
+    "priceData": {
+      "size": 140,
+      "unit": "g",
+      "price": 1.55,
+      "brand": "Leggo's"
+    },
+    "wiki": {
+      "purpose": "Adds concentrated tomato flavour, deep red colour, richness, and body to sauces, stews, and braises. Caramelises in hot oil to build a deep savoury base. Essential in Italian, Filipino, and many other cuisines.",
+      "storage": "Store in the refrigerator after opening — tubes keep longest.",
+      "substitutes": "",
+      "notes": "A thick, concentrated paste made from tomatoes that have been cooked down and strained to remove seeds and skins. Deep red with an intense, slightly sweet tomato flavour. Used to add depth, richness, and colour to sauces, stews, braises, and soups. A small amount goes a long way. Fry briefly in oil at the start of cooking to caramelise the sugars and deepen the flavour before adding liquids. Sold in small cans, jars, or tubes. Can be frozen in tablespoon portions for convenience.",
+      "nutrition": {
+        "calories": "82 per 100 g",
+        "carbohydrates": "18 g",
+        "fat": "0.5 g",
+        "fiber": "4.5 g",
+        "protein": "4.3 g"
+      }
+    }
+  },
+  "tomato peeled": {
+    "name": "tomato peeled",
+    "displayName": "Tomato Peeled",
+    "category": "Canned Tomatoes",
+    "aliases": [
+      "tomato peeled"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "tomato puree": {
+    "name": "tomato puree",
+    "displayName": "Tomato Puree",
+    "category": "Canned Tomatoes",
+    "aliases": [
+      "tomato puree"
+    ],
+    "priceData": {
+      "size": 690,
+      "unit": "g",
+      "price": 2,
+      "brand": "Annalisa"
+    },
+    "wiki": null
+  },
+  "tomato soup": {
+    "name": "tomato soup",
+    "displayName": "Tomato Soup",
+    "category": "Canned Tomatoes",
+    "aliases": [
+      "tomato soup"
+    ],
+    "priceData": {
+      "size": 420,
+      "unit": "g",
+      "price": 2.5,
+      "brand": "Heinz"
+    },
+    "wiki": null
+  },
+  "tomatoes": {
+    "name": "tomatoes",
+    "displayName": "Tomatoes",
+    "category": "Canned Tomatoes",
+    "aliases": [
+      "tomato whole",
+      "tomatoes"
+    ],
+    "priceData": null,
+    "wiki": {
+      "purpose": "Adds sweetness, acidity, colour, and body to curries, sauces, soups, and stews. Provides texture, depth, and concentrated flavour depending on tomato variety and form used.",
+      "storage": "",
+      "substitutes": "",
+      "notes": "Versatile tomato varieties for curries, sauces, stews, and general cooking. Choose the form based on recipe requirements and desired texture: * **Fresh Tomatoes:** Ripe and firm; ideal for salads, salsas, and fresh sauces. * **Roma:** Meaty, low in seeds; perfect for sauces, roasting, and cooking. * **Cherry / Grape Tomatoes:** Small, sweet, firm; great for roasting, salads, or quick sautés. * **Canned Tomatoes:** Peeled, diced, or crushed; excellent for long-simmered sauces and soups. * **Tomato Puree / Passata:** Smooth, liquid consistency; perfect for soups, sauces, and gravies where a silky texture is desired. * **Tomato Paste:** Concentrated tomato flavour; often caramelised slightly to deepen taste; use in small quantities for sauces, stews, and curries. For thicker consistency, drain excess liquid from canned tomatoes if needed. Store fresh tomatoes at room temperature (refrigerate only if very ripe). Canned, pureed, or paste forms should be stored in a cool, dry place and refrigerated after opening.",
+      "nutrition": {
+        "calories": "18 per 100 g",
+        "carbohydrates": "3.9 g",
+        "fat": "0.2 g",
+        "fiber": "1.2 g",
+        "protein": "0.9 g",
+        "vitamins_minerals": "Rich in vitamin C, vitamin A (from beta-carotene), potassium, folate, and antioxidants like lycopene. Supports immunity and heart health."
+      }
+    }
+  },
+  "cheese blue": {
+    "name": "cheese blue",
+    "displayName": "Cheese Blue",
+    "category": "Cheese",
+    "aliases": [
+      "cheese blue"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "cheese bocconcini": {
+    "name": "cheese bocconcini",
+    "displayName": "Cheese Bocconcini",
+    "category": "Cheese",
+    "aliases": [
+      "cheese bocconcini"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "cheese camembert": {
+    "name": "cheese camembert",
+    "displayName": "Cheese Camembert",
+    "category": "Cheese",
+    "aliases": [
+      "cheese camembert"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "cheddar": {
+    "name": "cheddar",
+    "displayName": "Cheddar",
+    "category": "Cheese",
+    "aliases": [
+      "cheddar",
+      "cheese cheddar",
+      "cheese cheddar vintage"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "cheese cottage": {
+    "name": "cheese cottage",
+    "displayName": "Cheese Cottage",
+    "category": "Cheese",
+    "aliases": [
+      "cheese cottage"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "cream cheese": {
+    "name": "cream cheese",
+    "displayName": "Cream Cheese",
+    "category": "Cheese",
+    "aliases": [
+      "cheese cream",
+      "cream cheese"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "cheese feta": {
+    "name": "cheese feta",
+    "displayName": "Cheese Feta",
+    "category": "Cheese",
+    "aliases": [
+      "cheese feta"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "cheese gruyere": {
+    "name": "cheese gruyere",
+    "displayName": "Cheese Gruyere",
+    "category": "Cheese",
+    "aliases": [
+      "cheese gruyere"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "cheese haloumi": {
+    "name": "cheese haloumi",
+    "displayName": "Cheese Haloumi",
+    "category": "Cheese",
+    "aliases": [
+      "cheese haloumi"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "cheese mascarpone": {
+    "name": "cheese mascarpone",
+    "displayName": "Cheese Mascarpone",
+    "category": "Cheese",
+    "aliases": [
+      "cheese mascarpone"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "mozzarella": {
+    "name": "mozzarella",
+    "displayName": "Mozzarella",
+    "category": "Cheese",
+    "aliases": [
+      "cheese mozzarella",
+      "mozzarella"
+    ],
+    "priceData": null,
+    "wiki": {
+      "purpose": "Provides mild, creamy flavour, excellent stretch, and golden browning when melted. Essential for pizza, lasagne, and baked pasta dishes where a smooth, even melt is desired.",
+      "storage": "",
+      "substitutes": "",
+      "notes": "A mild, white Italian cheese with a soft, elastic texture and excellent melting properties. Available fresh (packed in whey or water) or as low-moisture block cheese. Fresh mozzarella is soft, moist, and delicate — best torn and used in salads or on pizza where it melts into creamy pools. Low-moisture mozzarella is firmer, grates easily, and gives the classic stretchy, golden melt on pizzas, lasagne, and baked pasta dishes. For lasagne, use low-moisture mozzarella for even melting and browning. Store fresh mozzarella in its liquid; block mozzarella wrapped in the refrigerator.",
+      "nutrition": {
+        "calories": "280 per 100 g",
+        "carbohydrates": "2.2 g",
+        "fat": "20 g",
+        "fiber": "0 g",
+        "protein": "22 g"
+      }
+    }
+  },
+  "parmesan": {
+    "name": "parmesan",
+    "displayName": "Parmesan",
+    "category": "Cheese",
+    "aliases": [
+      "cheese parmesan",
+      "cheese parmesan shaved",
+      "cheese parmesan shredded",
+      "parmesan"
+    ],
+    "priceData": null,
+    "wiki": {
+      "purpose": "Adds intense umami, saltiness, and nutty depth to pasta, sauces, pesto, and baked dishes. Functions as both a cooking ingredient and a finishing cheese. A cornerstone of Italian cuisine.",
+      "storage": "",
+      "substitutes": "",
+      "notes": "A hard, granular Italian cheese made from cow's milk, aged for 12-36 months. Intensely savoury, nutty, and slightly crystalline with a granular texture that melts into sauces. A little goes a long way due to its concentrated flavour. Grate fresh from the block for the best flavour and melting quality — pre-grated Parmesan contains anti-caking agents and loses its aromatic oils quickly. Use in pasta, risotto, pesto, sauces, and as a finishing cheese. The rind can be added to soups and stocks for extra depth. Store wrapped in wax paper or cheese paper in the refrigerator.",
+      "nutrition": {
+        "calories": "431 per 100 g",
+        "carbohydrates": "4.1 g",
+        "fat": "29 g",
+        "fiber": "0 g",
+        "protein": "38 g"
+      }
+    }
+  },
+  "cheese ricotta": {
+    "name": "cheese ricotta",
+    "displayName": "Cheese Ricotta",
+    "category": "Cheese",
+    "aliases": [
+      "cheese ricotta"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "tasty cheese": {
+    "name": "tasty cheese",
+    "displayName": "Tasty Cheese",
+    "category": "Cheese",
+    "aliases": [
+      "cheese tasty",
+      "cheese tasty block",
+      "tasty cheese"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "apricots": {
+    "name": "apricots",
+    "displayName": "Apricots",
+    "category": "Dried Fruit Nuts",
+    "aliases": [
+      "apricot",
+      "apricots",
+      "apricots dried"
+    ],
+    "priceData": {
+      "size": 1,
+      "unit": "each",
+      "price": 1.5,
+      "brand": "Woolworths"
+    },
+    "wiki": {
+      "purpose": "Adds sweetness, moisture, soft texture, and bright fruity flavor; works well in desserts, baking, sauces, preserves, and cooked fruit dishes.",
+      "storage": "",
+      "substitutes": "",
+      "notes": "Used fresh, dried, or preserved. Canned apricots are most commonly sold as halves in syrup or juice and are soft and moist, making them suitable for baking, tarts, cakes, puddings, and compotes. Fresh apricots range from tart to sweet depending on ripeness and are ideal for eating raw, cooking, or preserving. Syrup-packed versions are sweeter and higher in sugar; juice-packed or drained options are lighter. Store fresh apricots refrigerated and use promptly; store unopened canned apricots in a cool, dry place and refrigerate after opening.",
+      "nutrition": {
+        "calories": "48 per 100 g",
+        "carbohydrates": "11 g",
+        "fat": "0.1 g",
+        "fiber": "2 g",
+        "protein": "1 g",
+        "vitamins_minerals": "Good source of vitamin A, vitamin C, potassium, and antioxidants"
+      }
+    }
+  },
+  "cranberries dried": {
+    "name": "cranberries dried",
+    "displayName": "Cranberries Dried",
+    "category": "Dried Fruit Nuts",
+    "aliases": [
+      "cranberries dried"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "dates": {
+    "name": "dates",
+    "displayName": "Dates",
+    "category": "Dried Fruit Nuts",
+    "aliases": [
+      "dates"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "g",
+      "price": 3,
+      "brand": "Woolworths"
+    },
+    "wiki": {
+      "purpose": "Adds natural sweetness, moisture, and chewy texture to desserts, baked goods, energy bars, and confections. Can also function as a natural binder or sugar substitute in healthier recipes.",
+      "storage": "Store in a cool, dry place; refrigerate or freeze for longer shelf life.",
+      "substitutes": "",
+      "notes": "Sweet dried fruit available whole, pitted, or chopped. Common varieties include Medjool (large, soft, very sweet) and Deglet Noor (smaller, firmer, subtly sweet). Forms and - **Chopped or Sliced:** Adds chewiness and natural sweetness to cakes, cookies, energy bars, and salads. - **Pureed:** Can be used as a natural sweetener or binding agent in desserts and baked goods.",
+      "nutrition": {
+        "calories": "277 per 100 g",
+        "carbohydrates": "75 g",
+        "fat": "0.2 g",
+        "fiber": "7 g",
+        "protein": "2 g",
+        "vitamins_minerals": "High in potassium and magnesium; contains small amounts of calcium, iron, and vitamin B6. Natural sugars provide quick energy."
+      }
+    }
+  },
+  "nuts almonds": {
+    "name": "nuts almonds",
+    "displayName": "Nuts Almonds",
+    "category": "Dried Fruit Nuts",
+    "aliases": [
+      "nuts almonds"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "nuts brazil": {
+    "name": "nuts brazil",
+    "displayName": "Nuts Brazil",
+    "category": "Dried Fruit Nuts",
+    "aliases": [
+      "nuts brazil"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "nuts cashews": {
+    "name": "nuts cashews",
+    "displayName": "Nuts Cashews",
+    "category": "Dried Fruit Nuts",
+    "aliases": [
+      "nuts cashews"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "nuts hazelnuts": {
+    "name": "nuts hazelnuts",
+    "displayName": "Nuts Hazelnuts",
+    "category": "Dried Fruit Nuts",
+    "aliases": [
+      "nuts hazelnuts"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "nuts macadamia": {
+    "name": "nuts macadamia",
+    "displayName": "Nuts Macadamia",
+    "category": "Dried Fruit Nuts",
+    "aliases": [
+      "nuts macadamia"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "nuts pecans": {
+    "name": "nuts pecans",
+    "displayName": "Nuts Pecans",
+    "category": "Dried Fruit Nuts",
+    "aliases": [
+      "nuts pecans"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "nuts pine": {
+    "name": "nuts pine",
+    "displayName": "Nuts Pine",
+    "category": "Dried Fruit Nuts",
+    "aliases": [
+      "nuts pine"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "nuts pistachios": {
+    "name": "nuts pistachios",
+    "displayName": "Nuts Pistachios",
+    "category": "Dried Fruit Nuts",
+    "aliases": [
+      "nuts pistachios"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "nuts walnuts": {
+    "name": "nuts walnuts",
+    "displayName": "Nuts Walnuts",
+    "category": "Dried Fruit Nuts",
+    "aliases": [
+      "nuts walnuts"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "raisins": {
+    "name": "raisins",
+    "displayName": "Raisins",
+    "category": "Dried Fruit Nuts",
+    "aliases": [
+      "raisins"
+    ],
+    "priceData": {
+      "size": 375,
+      "unit": "g",
+      "price": 3.75,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "sultanas": {
+    "name": "sultanas",
+    "displayName": "Sultanas",
+    "category": "Dried Fruit Nuts",
+    "aliases": [
+      "sultanas"
+    ],
+    "priceData": {
+      "size": 375,
+      "unit": "g",
+      "price": 4.2,
+      "brand": "Woolworths"
+    },
+    "wiki": {
+      "purpose": "Adds natural sweetness, chewiness, moisture, and texture to baked goods, desserts, and breakfast dishes. Enhances flavour complexity and visual appeal.",
+      "storage": "Storage:** Keep in an airtight container in a cool, dry place for several months; refrigeration extends shelf life.",
+      "substitutes": "",
+      "notes": "Golden or light raisins; can be soaked in water, juice, or alcohol to plump before baking. - **",
+      "nutrition": {
+        "calories": "299 per 100 g",
+        "carbohydrates": "79 g",
+        "fat": "0.5 g",
+        "fiber": "3.7 g",
+        "protein": "3.1 g",
+        "vitamins_minerals": "Good source of potassium, iron, and antioxidants. Contains small amounts of calcium, magnesium, and vitamin B6."
+      }
+    }
+  },
+  "beer": {
+    "name": "beer",
+    "displayName": "Beer",
+    "category": "Drinks Alcohol",
+    "aliases": [
+      "beer"
+    ],
+    "priceData": {
+      "size": 24,
+      "unit": "each",
+      "price": 48.99,
+      "brand": "Tooheys"
+    },
+    "wiki": null
+  },
+  "brandy": {
+    "name": "brandy",
+    "displayName": "Brandy",
+    "category": "Drinks Alcohol",
+    "aliases": [
+      "brandy"
+    ],
+    "priceData": {
+      "size": 700,
+      "unit": "ml",
+      "price": 30,
+      "brand": "St Remy"
+    },
+    "wiki": {
+      "purpose": "Adds depth, warmth, and subtle sweetness; functions as a flavour enhancer, aromatic ingredient, and component for flambé or preserved fruits.",
+      "storage": "Store in a cool, dark place with bottle tightly sealed to preserve quality.",
+      "substitutes": "",
+      "notes": "Distilled spirit made from fermented fruit juice, most commonly grapes. Adds warmth, aroma, and richness when used in cooking or baking. Often used in sauces, desserts, flambé dishes, and fruit macerations. Can enhance flavour in cakes, puddings, custards, and sauces. Use in moderation due to high alcohol content; alcohol mostly cooks off during heating but leaves concentrated flavour.",
+      "nutrition": {
+        "calories": "240 per 100 g",
+        "carbohydrates": "0 g",
+        "fat": "0 g",
+        "fiber": "0 g",
+        "protein": "0 g",
+        "vitamins_minerals": "Contains trace minerals from fruit base; high alcohol content; negligible nutritional contribution per serving"
+      }
+    }
+  },
+  "coffee": {
+    "name": "coffee",
+    "displayName": "Coffee",
+    "category": "Drinks Alcohol",
+    "aliases": [
+      "coffee"
+    ],
+    "priceData": {
+      "size": 150,
+      "unit": "g",
+      "price": 14.5,
+      "brand": "Nescafe"
+    },
+    "wiki": {
+      "purpose": "Adds roasted, slightly bitter, and aromatic coffee flavour. Enhances cakes, desserts, frostings, fillings, tiramisu, ice creams, beverages, and chocolate-based recipes.",
+      "storage": "",
+      "substitutes": "",
+      "notes": "Derived from roasted coffee beans, available as whole beans, ground, or instant/soluble form. Forms and - **Ground Coffee:** Used for brewing or infused in syrups, extracts, or desserts. - **Instant / Soluble Coffee:** Dissolves easily in liquids; ideal for quick incorporation into cakes, frostings, ganaches, and tiramisu. Coffee pairs exceptionally well with chocolate, caramel, cream, and spices like cinnamon and cardamom. Store airtight, away from heat, light, and moisture to preserve aroma and potency.",
+      "nutrition": {
+        "calories": "2 per 100 g brewed (unsweetened); 0–50 per 100 g instant powder depending on added ingredients",
+        "carbohydrates": "0–12 g",
+        "fat": "0–1 g",
+        "fiber": "0 g",
+        "protein": "0–1 g",
+        "vitamins_minerals": "Contains small amounts of potassium, magnesium, and niacin. Naturally contains caffeine; nutritional impact is minimal in typical culinary uses."
+      }
+    }
+  },
+  "coffee instant": {
+    "name": "coffee instant",
+    "displayName": "Coffee Instant",
+    "category": "Drinks Alcohol",
+    "aliases": [
+      "coffee instant"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "gin": {
+    "name": "gin",
+    "displayName": "Gin",
+    "category": "Drinks Alcohol",
+    "aliases": [
+      "gin"
+    ],
+    "priceData": {
+      "size": 1000,
+      "unit": "ml",
+      "price": 61.95,
+      "brand": "Gordon's"
+    },
+    "wiki": null
+  },
+  "grand marnier": {
+    "name": "grand marnier",
+    "displayName": "Grand Marnier",
+    "category": "Drinks Alcohol",
+    "aliases": [
+      "grand marnier"
+    ],
+    "priceData": {
+      "size": 700,
+      "unit": "ml",
+      "price": 55,
+      "brand": "Grand Marnier"
+    },
+    "wiki": {
+      "purpose": "Adds depth, citrusy sweetness, and complex aroma. Enhances flavour in cakes, sauces, desserts, cocktails, and chocolate-based dishes.",
+      "storage": "Storage:** Store upright in a cool, dark place away from heat and direct sunlight to preserve flavour and aroma.",
+      "substitutes": "",
+      "notes": "Grand Marnier is a premium French orange-flavoured liqueur made from a blend of Cognac, distilled spirits, and bitter orange essence. - ** Can be flambéed or added to custards, mousses, and ganache. - **Pairings:** Complements chocolate, cream, citrus desserts, and fruit-based pastries. - ** - **Substitutions:** Other orange liqueurs such as Cointreau or triple sec can be used with minor flavour differences.",
+      "nutrition": {
+        "calories": "250 per 100 ml",
+        "carbohydrates": "30 g",
+        "fat": "0 g",
+        "fiber": "0 g",
+        "protein": "0 g",
+        "vitamins_minerals": "Contains negligible vitamins or minerals; primarily a source of sugars and alcohol."
+      }
+    }
+  },
+  "rum": {
+    "name": "rum",
+    "displayName": "Rum",
+    "category": "Drinks Alcohol",
+    "aliases": [
+      "rum"
+    ],
+    "priceData": {
+      "size": 700,
+      "unit": "ml",
+      "price": 35,
+      "brand": "Bundaberg"
+    },
+    "wiki": {
+      "purpose": "Adds boozy flavour, warmth, and aromatic depth to desserts, puddings, cakes, sauces, and soaked fruits. Enhances richness and complexity in both cooking and beverages.",
+      "storage": "Storage:** Store upright in a cool, dark place to preserve flavour and aroma.",
+      "substitutes": "",
+      "notes": "Rum is a distilled spirit made from sugarcane by-products, such as molasses or sugarcane juice. - **Usage:** Use in baking, flambé, marinades, sauces, or cocktails. Alcohol can be cooked off if desired. - **Tips:** Dark and aged rums add richer, deeper flavours; light or white rum is milder and ideal for lighter desserts or cocktails. Spiced rum adds aromatic notes like vanilla, cinnamon, or cloves. - **",
+      "nutrition": {
+        "calories": "231 per 100 ml",
+        "carbohydrates": "0 g",
+        "fat": "0 g",
+        "fiber": "0 g",
+        "protein": "0 g",
+        "vitamins_minerals": "Contains negligible vitamins or minerals; primarily a source of sugars and alcohol."
+      }
+    }
+  },
+  "tia maria": {
+    "name": "tia maria",
+    "displayName": "Tia Maria",
+    "category": "Drinks Alcohol",
+    "aliases": [
+      "tia maria"
+    ],
+    "priceData": {
+      "size": 700,
+      "unit": "ml",
+      "price": 35,
+      "brand": "Tia Maria"
+    },
+    "wiki": {
+      "purpose": "Adds rich coffee-flavoured liqueur notes, sweetness, and depth to desserts, creams, and beverages. Enhances chocolate, vanilla, and cream-based recipes.",
+      "storage": "Storage:** Keep in a cool, dark place; refrigerate after opening for best quality.",
+      "substitutes": "",
+      "notes": "Can also be added to coffee or cocktails. - **",
+      "nutrition": {
+        "calories": "327 per 100 ml",
+        "carbohydrates": "27 g",
+        "fat": "0 g",
+        "fiber": "0 g",
+        "protein": "0 g",
+        "vitamins_minerals": "Contains negligible amounts of vitamins and minerals. Primarily provides sugar and alcohol content for flavouring purposes."
+      }
+    }
+  },
+  "vodka": {
+    "name": "vodka",
+    "displayName": "Vodka",
+    "category": "Drinks Alcohol",
+    "aliases": [
+      "vodka"
+    ],
+    "priceData": {
+      "size": 1000,
+      "unit": "ml",
+      "price": 61.95,
+      "brand": "Smirnoff"
+    },
+    "wiki": null
+  },
+  "whiskey": {
+    "name": "whiskey",
+    "displayName": "Whiskey",
+    "category": "Drinks Alcohol",
+    "aliases": [
+      "whiskey"
+    ],
+    "priceData": {
+      "size": 700,
+      "unit": "ml",
+      "price": 59.99,
+      "brand": "Hogs 3"
+    },
+    "wiki": null
+  },
+  "wine chinese rice": {
+    "name": "wine chinese rice",
+    "displayName": "Wine Chinese Rice",
+    "category": "Drinks Alcohol",
+    "aliases": [
+      "wine chinese rice"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "wine red": {
+    "name": "wine red",
+    "displayName": "Wine Red",
+    "category": "Drinks Alcohol",
+    "aliases": [
+      "wine red"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "wine white": {
+    "name": "wine white",
+    "displayName": "Wine White",
+    "category": "Drinks Alcohol",
+    "aliases": [
+      "wine white"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "eggs white": {
+    "name": "eggs white",
+    "displayName": "Eggs White",
+    "category": "Eggs",
+    "aliases": [
+      "eggs white"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "eggs whole": {
+    "name": "eggs whole",
+    "displayName": "Eggs Whole",
+    "category": "Eggs",
+    "aliases": [
+      "eggs whole"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "eggs yolk": {
+    "name": "eggs yolk",
+    "displayName": "Eggs Yolk",
+    "category": "Eggs",
+    "aliases": [
+      "eggs yolk"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "almond meal": {
+    "name": "almond meal",
+    "displayName": "Almond Meal",
+    "category": "Flour Baking",
+    "aliases": [
+      "almond meal"
+    ],
+    "priceData": {
+      "size": 400,
+      "unit": "g",
+      "price": 13.3,
+      "brand": "Macro"
+    },
+    "wiki": {
+      "purpose": "Adds moisture, richness, and a tender crumb to baked goods. Provides structure and nutty flavour in gluten-free baking. Essential for friands, orange and poppy seed cake, and French patisserie.",
+      "storage": "Store in an airtight container in the refrigerator or freezer to prevent the natural oils from going rancid.",
+      "substitutes": "",
+      "notes": "Finely ground blanched almonds with a soft, sandy texture and mild, sweet nutty flavour. Used in baking to add moisture, tenderness, and richness without the heaviness of wheat flour. Essential in friands, financiers, macarons, and many gluten-free baked goods. Can partially replace flour in cakes and pastries. Almond meal is not the same as almond flour — meal is coarser and made from whole almonds with skins, while flour is finely ground from blanched almonds. For best results in delicate baking, use blanched almond flour.",
+      "nutrition": {
+        "calories": "579 per 100 g",
+        "carbohydrates": "22 g",
+        "fat": "50 g",
+        "fiber": "12 g",
+        "protein": "21 g"
+      }
+    }
+  },
+  "bran": {
+    "name": "bran",
+    "displayName": "Bran",
+    "category": "Flour Baking",
+    "aliases": [
+      "bran"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "Woolworths"
+    },
+    "wiki": {
+      "purpose": "Provides dietary fibre, texture, and subtle nutty flavour; functions as a nutritional enhancer, textural component, or partial flour replacement in baked goods.",
+      "storage": "Store in a cool, dry place in an airtight container to prevent rancidity, especially for oat or rice bran which have higher fat content.",
+      "substitutes": "",
+      "notes": "Outer layers of cereal grains, typically wheat, oat, or rice, separated during milling. Adds coarse texture, nutty flavour, and substantial fibre to breads, muffins, cereals, and breakfast bars. Can be toasted lightly to enhance flavour. Absorbs liquid quickly, so recipes may require additional moisture when incorporated. Often used to boost dietary fibre and improve digestive health.",
+      "nutrition": {
+        "calories": "216 per 100 g",
+        "carbohydrates": "64 g",
+        "fat": "4 g",
+        "fiber": "42 g",
+        "protein": "16 g",
+        "vitamins_minerals": "Rich in iron, magnesium, phosphorus, and B vitamins; high fibre content supports digestive health"
+      }
+    }
+  },
+  "bread improver": {
+    "name": "bread improver",
+    "displayName": "Bread Improver",
+    "category": "Flour Baking",
+    "aliases": [
+      "bread improver"
+    ],
+    "priceData": {
+      "size": 125,
+      "unit": "g",
+      "price": 4.4,
+      "brand": "Wallaby"
+    },
+    "wiki": {
+      "purpose": "Enhances dough elasticity, rise, and final loaf texture; functions as a bread improver, dough conditioner, and volume enhancer in yeast-leavened baked goods.",
+      "storage": "Store in a cool, dry place away from moisture and strong odours.",
+      "substitutes": "",
+      "notes": "Commercial additive used in bread and yeast doughs to improve texture, volume, and shelf life. Typically contains a blend of enzymes, ascorbic acid (vitamin C), gluten, and sometimes emulsifiers. Strengthens gluten structure, accelerates fermentation, and helps retain moisture, resulting in lighter, more uniform loaves with improved crust and crumb. Used in small quantities according to recipe instructions.",
+      "nutrition": {
+        "calories": "5 per 100 g (negligible in typical use)",
+        "carbohydrates": "1 g",
+        "fat": "0 g",
+        "fiber": "0 g",
+        "protein": "0.5 g",
+        "vitamins_minerals": "Contains small amounts of vitamin C and gluten; negligible contribution per typical recipe portion"
+      }
+    }
+  },
+  "cornflour": {
+    "name": "cornflour",
+    "displayName": "Cornflour",
+    "category": "Flour Baking",
+    "aliases": [
+      "cornflour"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "g",
+      "price": 2.85,
+      "brand": "McKenzie's"
+    },
+    "wiki": null
+  },
+  "flour bakers": {
+    "name": "flour bakers",
+    "displayName": "Flour Bakers",
+    "category": "Flour Baking",
+    "aliases": [
+      "flour bakers"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "flour bread": {
+    "name": "flour bread",
+    "displayName": "Flour Bread",
+    "category": "Flour Baking",
+    "aliases": [
+      "flour bread"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "flour buckwheat": {
+    "name": "flour buckwheat",
+    "displayName": "Flour Buckwheat",
+    "category": "Flour Baking",
+    "aliases": [
+      "flour buckwheat"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "flour gluten free plain": {
+    "name": "flour gluten free plain",
+    "displayName": "Flour Gluten Free Plain",
+    "category": "Flour Baking",
+    "aliases": [
+      "flour gluten free plain"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "flour plain": {
+    "name": "flour plain",
+    "displayName": "Flour Plain",
+    "category": "Flour Baking",
+    "aliases": [
+      "flour plain"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "flour rye": {
+    "name": "flour rye",
+    "displayName": "Flour Rye",
+    "category": "Flour Baking",
+    "aliases": [
+      "flour rye"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "flour self-raising": {
+    "name": "flour self-raising",
+    "displayName": "Flour Self-Raising",
+    "category": "Flour Baking",
+    "aliases": [
+      "flour self-raising"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "flour tapioca": {
+    "name": "flour tapioca",
+    "displayName": "Flour Tapioca",
+    "category": "Flour Baking",
+    "aliases": [
+      "flour tapioca"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "vital wheat gluten": {
+    "name": "vital wheat gluten",
+    "displayName": "Vital Wheat Gluten",
+    "category": "Flour Baking",
+    "aliases": [
+      "vital wheat gluten"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "g",
+      "price": 12,
+      "brand": "Laucke"
+    },
+    "wiki": {
+      "purpose": "Enhances gluten development, dough elasticity, and gas retention for better volume and texture in yeast breads. Improves chewiness and structure in whole grain or gluten-weak doughs. Essential for achieving soft, airy crumb in artisan breads, rolls, bagels, and pizza bases, and forms the base for plant-based meat substitutes like seitan.",
+      "storage": "Store in a cool, dry place in airtight container to prevent moisture absorption.",
+      "substitutes": "",
+      "notes": "Powdered form of wheat gluten with very high protein content (~70–80%). Commonly added to low-gluten flours (like whole wheat, rye, or spelt) to improve elasticity, structure, and rise in bread. Typically used at 1–3% of flour weight; too much can result in dense, chewy, or rubbery bread. Can also be used to make seitan (vegetarian protein) by hydrating and kneading into a meat-like texture. Mix thoroughly with flour to distribute evenly.",
+      "nutrition": {
+        "calories": "370 per 100 g",
+        "carbohydrates": "14 g",
+        "fat": "1.5 g",
+        "fiber": "0.6 g",
+        "protein": "75 g",
+        "vitamins_minerals": "Contains small amounts of iron, magnesium, and selenium. Primarily contributes protein; low in fat and carbohydrates."
+      }
+    }
+  },
+  "apricot nectar": {
+    "name": "apricot nectar",
+    "displayName": "Apricot Nectar",
+    "category": "Fresh Fruit",
+    "aliases": [
+      "apricot nectar"
+    ],
+    "priceData": {
+      "size": 2000,
+      "unit": "ml",
+      "price": 3.5,
+      "brand": "Golden Circle"
+    },
+    "wiki": null
+  },
+  "blackberries": {
+    "name": "blackberries",
+    "displayName": "Blackberries",
+    "category": "Fresh Fruit",
+    "aliases": [
+      "blackberries"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "g",
+      "price": 6.5,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "blueberries": {
+    "name": "blueberries",
+    "displayName": "Blueberries",
+    "category": "Fresh Fruit",
+    "aliases": [
+      "blueberries"
+    ],
+    "priceData": {
+      "size": 125,
+      "unit": "g",
+      "price": 5,
+      "brand": "Woolworths"
+    },
+    "wiki": {
+      "purpose": "Adds natural sweetness, vibrant colour, moisture, and fruity flavour; functions as a main fruit ingredient, filling, or garnish in desserts.",
+      "storage": "",
+      "substitutes": "",
+      "notes": "Small, sweet-tart berries that can be used fresh, frozen, or dried. Ideal in muffins, cakes, pancakes, tarts, and sauces. Pair well with lemon, vanilla, cinnamon, or other berries. When using frozen, fold in gently to avoid colour bleed. Rich in natural sugars and moisture, they help keep baked goods soft and flavorful. Store fresh blueberries refrigerated and consume within a week; freeze for longer-term storage.",
+      "nutrition": {
+        "calories": "57 per 100 g",
+        "carbohydrates": "14 g",
+        "fat": "0.3 g",
+        "fiber": "2.4 g",
+        "protein": "0.7 g",
+        "vitamins_minerals": "High in vitamin C, vitamin K, and antioxidants; contains manganese"
+      }
+    }
+  },
+  "calamansi": {
+    "name": "calamansi",
+    "displayName": "Calamansi",
+    "category": "Fresh Fruit",
+    "aliases": [
+      "calamansi"
+    ],
+    "priceData": {
+      "size": 100,
+      "unit": "g",
+      "price": 4,
+      "brand": "Woolworths"
+    },
+    "wiki": {
+      "purpose": "Adds bright, tart acidity and a distinctive floral-citrus aroma. Used as a finishing acid for Filipino dishes including pancit, bulalo, grilled meats, and dipping sauces. Balances rich, savoury, and salty flavours.",
+      "storage": "",
+      "substitutes": "can be substituted with a mix of lemon and lime juice, though the flavour will not be identical.",
+      "notes": "Small, round citrus fruit native to the Philippines, about the size of a kumquat. Bright orange when ripe but typically used green. Extremely tart with a unique floral-citrus aroma that is distinct from both lemon and lime. Sold fresh, frozen, or as bottled juice in Asian grocers. To use: cut in half and squeeze the juice over finished dishes, or serve as wedges alongside grilled meats, noodles, and soups. The juice Store fresh calamansi refrigerated for up to 2 weeks; bottled juice keeps refrigerated for months.",
+      "nutrition": {
+        "calories": "29 per 100 g",
+        "carbohydrates": "9.3 g",
+        "fat": "0.3 g",
+        "fiber": "2.8 g",
+        "protein": "0.9 g",
+        "vitamins_minerals": "Excellent source of vitamin C; contains small amounts of potassium, calcium, and vitamin A"
+      }
+    }
+  },
+  "cherries": {
+    "name": "cherries",
+    "displayName": "Cherries",
+    "category": "Fresh Fruit",
+    "aliases": [
+      "cherries"
+    ],
+    "priceData": {
+      "size": 250,
+      "unit": "g",
+      "price": 6,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "dragon fruit": {
+    "name": "dragon fruit",
+    "displayName": "Dragon Fruit",
+    "category": "Fresh Fruit",
+    "aliases": [
+      "dragon fruit"
+    ],
+    "priceData": {
+      "size": 400,
+      "unit": "g",
+      "price": 6,
+      "brand": "Creative Gourmet"
+    },
+    "wiki": null
+  },
+  "grapes black": {
+    "name": "grapes black",
+    "displayName": "Grapes Black",
+    "category": "Fresh Fruit",
+    "aliases": [
+      "grapes black"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "grapes red": {
+    "name": "grapes red",
+    "displayName": "Grapes Red",
+    "category": "Fresh Fruit",
+    "aliases": [
+      "grapes red"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "grapes white": {
+    "name": "grapes white",
+    "displayName": "Grapes White",
+    "category": "Fresh Fruit",
+    "aliases": [
+      "grapes white"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "kiwifruit": {
+    "name": "kiwifruit",
+    "displayName": "Kiwifruit",
+    "category": "Fresh Fruit",
+    "aliases": [
+      "kiwifruit"
+    ],
+    "priceData": {
+      "size": 1,
+      "unit": "each",
+      "price": 1,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "mandarin": {
+    "name": "mandarin",
+    "displayName": "Mandarin",
+    "category": "Fresh Fruit",
+    "aliases": [
+      "mandarin"
+    ],
+    "priceData": {
+      "size": 1,
+      "unit": "each",
+      "price": 0.85,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "mango": {
+    "name": "mango",
+    "displayName": "Mango",
+    "category": "Fresh Fruit",
+    "aliases": [
+      "mango"
+    ],
+    "priceData": {
+      "size": 1,
+      "unit": "each",
+      "price": 3,
+      "brand": "Woolworths"
+    },
+    "wiki": {
+      "purpose": "Adds sweet, tropical flavor, color, and moisture to desserts, beverages, and sauces, enhancing both taste and presentation.",
+      "storage": "Storage:** Store unripe mangoes at room temperature until ripe; refrigerate ripe mangoes for 3–5 days.",
+      "substitutes": "",
+      "notes": "Mango is a tropical fruit with sweet, juicy flesh. - ** Can be pureed, sliced, or diced for desserts, smoothies, sauces, salsas, or salads. - **Pairings:** Complements coconut, lime, ginger, chili, yogurt, cream, berries, and other tropical fruits. - ** Peel before use. - **Substitutions:** Papaya or peach can be used as a substitute in texture and sweetness, though flavor differs.",
+      "nutrition": {
+        "calories": "60 per 100 g",
+        "carbohydrates": "15 g",
+        "fat": "0.4 g",
+        "fiber": "1.6 g",
+        "protein": "0.8 g",
+        "vitamins_minerals": "High in vitamin C, vitamin A, potassium, and antioxidants. Contains small amounts of B vitamins and magnesium."
+      }
+    }
+  },
+  "nectarine": {
+    "name": "nectarine",
+    "displayName": "Nectarine",
+    "category": "Fresh Fruit",
+    "aliases": [
+      "nectarine"
+    ],
+    "priceData": {
+      "size": 1,
+      "unit": "each",
+      "price": 1.5,
+      "brand": "Woolworths"
+    },
+    "wiki": {
+      "purpose": "Adds natural sweetness, aroma, and moisture. Enhances texture, flavor balance, and visual appeal in desserts and baked goods.",
+      "storage": "Storage:** Store at room temperature until ripe, then refrigerate to extend freshness.",
+      "substitutes": "",
+      "notes": "Nectarines are firm, juicy stone fruits with smooth edible skin. - ** Can be poached, roasted, or grilled to intensify flavor. - **Pairings:** Complements berries, stone fruits, cream, custard, almonds, cinnamon, and honey. - ** Handle gently to avoid bruising. - **Substitutions:** Peaches can be used as a similar alternative with slightly fuzzier texture.",
+      "nutrition": {
+        "calories": "44 per 100 g",
+        "carbohydrates": "11 g",
+        "fat": "0.3 g",
+        "fiber": "2 g",
+        "protein": "1 g",
+        "vitamins_minerals": "Good source of vitamin C, vitamin A, potassium, and antioxidants. Low in calories and fat while providing dietary fiber."
+      }
+    }
+  },
+  "orange": {
+    "name": "orange",
+    "displayName": "Orange",
+    "category": "Fresh Fruit",
+    "aliases": [
+      "orange"
+    ],
+    "priceData": {
+      "size": 1,
+      "unit": "each",
+      "price": 1.2,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "passionfruit": {
+    "name": "passionfruit",
+    "displayName": "Passionfruit",
+    "category": "Fresh Fruit",
+    "aliases": [
+      "passionfruit"
+    ],
+    "priceData": {
+      "size": 1,
+      "unit": "each",
+      "price": 1.2,
+      "brand": "Woolworths"
+    },
+    "wiki": {
+      "purpose": "Adds bright, tart, and aromatic tropical flavor; enhances aroma, acidity, and visual appeal in sweet and dessert dishes.",
+      "storage": "Storage:** Store whole fruit at room temperature until ripe; refrigerate after cutting.",
+      "substitutes": "",
+      "notes": "Passionfruit is a tropical fruit with aromatic pulp and crunchy seeds. - ** Can be used fresh or in purees. - **Pairings:** Complements cream, custards, chocolate, citrus, and tropical fruits. - ** Pulp can be frozen for later use. - **Substitutions:** Mango or kiwi can provide a similar tropical tang in certain recipes.",
+      "nutrition": {
+        "calories": "97 per 100 g",
+        "carbohydrates": "23 g",
+        "fat": "0.4 g",
+        "fiber": "10 g",
+        "protein": "2 g",
+        "vitamins_minerals": "Rich in vitamin C, vitamin A, and dietary fiber; provides antioxidants and natural sweetness."
+      }
+    }
+  },
+  "peach": {
+    "name": "peach",
+    "displayName": "Peach",
+    "category": "Fresh Fruit",
+    "aliases": [
+      "peach"
+    ],
+    "priceData": {
+      "size": 1,
+      "unit": "each",
+      "price": 1.5,
+      "brand": "Woolworths"
+    },
+    "wiki": {
+      "purpose": "Adds natural sweetness, juiciness, aroma, and color to desserts; enhances texture, moisture, and visual appeal.",
+      "storage": "Storage:** Store unripe peaches at room temperature to ripen; refrigerate ripe peaches and use within a few days.",
+      "substitutes": "",
+      "notes": "Peaches are juicy, aromatic fruits with sweet flesh and edible skin. - ** Peel optional. Slice, dice, or purée for tarts, pies, cobblers, jams, compotes, or desserts. Can also be roasted, poached, or grilled to intensify flavor. - **Pairings:** Complements cream, yogurt, nuts, spices like cinnamon or nutmeg, and other fruits. - ** Can be frozen or canned for longer storage. - **Substitutions:** Nectarine or apricot can be used as similar-tasting alternatives.",
+      "nutrition": {
+        "calories": "39 per 100 g",
+        "carbohydrates": "10 g",
+        "fat": "0.3 g",
+        "fiber": "1.5 g",
+        "protein": "0.9 g",
+        "vitamins_minerals": "Good source of vitamin C, vitamin A, potassium, and antioxidants; low in calories."
+      }
+    }
+  },
+  "pineapple": {
+    "name": "pineapple",
+    "displayName": "Pineapple",
+    "category": "Fresh Fruit",
+    "aliases": [
+      "pineapple"
+    ],
+    "priceData": {
+      "size": 1,
+      "unit": "each",
+      "price": 4,
+      "brand": "Woolworths"
+    },
+    "wiki": {
+      "purpose": "Adds natural sweetness, acidity, moisture, tropical aroma, and vibrant flavor to both sweet and savory dishes.",
+      "storage": "Storage:** Store fresh pineapple in a cool place until cut; refrigerate cut fruit and consume within a few days.",
+      "substitutes": "",
+      "notes": "Pineapple is a tropical fruit with sweet, tart, and juicy flesh. - ** Drain syrup if using canned and not needed. Tidbits are small, uniform pieces ideal for baking, salads, or toppings. Can be chopped, juiced, or folded into batters. - **Pairings:** Complements coconut, cream, rum, brown sugar, ginger, and other tropical fruits. - ** Canned pineapple can be stored unopened at room temperature; refrigerate after opening. - **Substitutions:** Mango, papaya, or peaches can be used for similar tropical sweetness in some recipes.",
+      "nutrition": {
+        "calories": "50 per 100 g",
+        "carbohydrates": "13 g",
+        "fat": "0.1 g",
+        "fiber": "1.4 g",
+        "protein": "0.5 g",
+        "vitamins_minerals": "Rich in vitamin C, manganese, and bromelain enzymes; low in fat and calories."
+      }
+    }
+  },
+  "plum": {
+    "name": "plum",
+    "displayName": "Plum",
+    "category": "Fresh Fruit",
+    "aliases": [
+      "plum"
+    ],
+    "priceData": {
+      "size": 1,
+      "unit": "each",
+      "price": 1.5,
+      "brand": "Woolworths"
+    },
+    "wiki": {
+      "purpose": "Adds balanced sweetness, acidity, moisture, and vibrant color; enhances flavor and visual appeal in desserts and preserves.",
+      "storage": "Storage:** Store unripe plums at room temperature to ripen; refrigerate ripe plums and use within a few days.",
+      "substitutes": "",
+      "notes": "Plums are sweet-tart stone fruits with smooth skin and juicy flesh. - ** Ideal for baking in tarts, cakes, crumbles, or stewing for sauces, jams, and preserves. Skin adds color and slight tartness. - **Pairings:** Complements cinnamon, nutmeg, ginger, almonds, citrus, and other stone fruits. - ** Can be frozen or canned for long-term storage. - **Substitutions:** Peaches, nectarines, or apricots can be used for similar texture and sweetness.",
+      "nutrition": {
+        "calories": "46 per 100 g",
+        "carbohydrates": "11 g",
+        "fat": "0.3 g",
+        "fiber": "1.4 g",
+        "protein": "0.7 g",
+        "vitamins_minerals": "Good source of vitamin C, vitamin K, potassium, and antioxidants; low in calories and fat."
+      }
+    }
+  },
+  "raspberries": {
+    "name": "raspberries",
+    "displayName": "Raspberries",
+    "category": "Fresh Fruit",
+    "aliases": [
+      "raspberries"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "g",
+      "price": 8,
+      "brand": "Woolworths"
+    },
+    "wiki": {
+      "purpose": "Adds bright, tart flavour and vibrant colour to desserts, breakfast dishes, and sauces.",
+      "storage": "Store in the refrigerator in a single layer, unwashed, for up to 2-3 days. Freeze in a single layer on a baking sheet, then transfer to a sealed bag.",
+      "substitutes": "Can substitute with blackberries, sliced strawberries, or frozen raspberries (thawed and drained).",
+      "notes": "Delicate, sweet-tart berries that pair beautifully with vanilla, chocolate, and cream desserts. Best used fresh or frozen. Do not wash until ready to use.",
+      "nutrition": null
+    }
+  },
+  "strawberries": {
+    "name": "strawberries",
+    "displayName": "Strawberries",
+    "category": "Fresh Fruit",
+    "aliases": [
+      "strawberries"
+    ],
+    "priceData": {
+      "size": 250,
+      "unit": "g",
+      "price": 5,
+      "brand": "Woolworths"
+    },
+    "wiki": {
+      "purpose": "Adds natural sweetness, bright colour, aroma, and moisture. Enhances texture and flavour in desserts, pastries, and beverages. Can be used fresh or cooked depending on recipe requirements.",
+      "storage": "Storage:** Refrigerate fresh berries for up to 3 days; freeze for longer storage.",
+      "substitutes": "",
+      "notes": "Use fresh or frozen; wash gently and hull before use. Common in desserts like cakes, tarts, pavlovas, smoothies, and as toppings for breakfast dishes. Frozen strawberries are best used in cooking or baking where texture is less critical. Can be macerated with sugar or paired with citrus to enhance natural sweetness. - ** Handle gently to avoid bruising.",
+      "nutrition": {
+        "calories": "32 per 100 g",
+        "carbohydrates": "7.7 g",
+        "fat": "0.3 g",
+        "fiber": "2 g",
+        "protein": "0.7 g",
+        "vitamins_minerals": "Rich in vitamin C, manganese, folate, and antioxidants. Provides potassium and small amounts of other vitamins and minerals."
+      }
+    }
+  },
+  "basil": {
+    "name": "basil",
+    "displayName": "Basil",
+    "category": "Fresh Herbs",
+    "aliases": [
+      "basil"
+    ],
+    "priceData": {
+      "size": 15,
+      "unit": "g",
+      "price": 3.2,
+      "brand": "Woolworths"
+    },
+    "wiki": {
+      "purpose": "Adds fresh, sweet herbal aroma and flavour; functions as a finishing herb, flavour accent, or primary aromatic in sauces and salads.",
+      "storage": "",
+      "substitutes": "",
+      "notes": "A tender, aromatic leafy herb with a sweet, slightly peppery and anise-like flavour. Best used fresh, as prolonged cooking quickly diminishes its aroma and can turn the leaves dark and bitter. Commonly added at the end of cooking or used raw in sauces, salads, and garnishes. Essential in Mediterranean cuisine, particularly Italian dishes such as pesto, tomato sauces, pasta, pizza, and caprese salads. Leaves bruise easily and are best torn rather than cut to avoid oxidation. Store refrigerated with stems in water or wrapped loosely in paper towel; basil is sensitive to cold and should not be stored for long periods.",
+      "nutrition": {
+        "calories": "23 per 100 g",
+        "carbohydrates": "2.7 g",
+        "fat": "0.6 g",
+        "fiber": "1.6 g",
+        "protein": "3.2 g",
+        "vitamins_minerals": "Rich in vitamin K; contains vitamin A, vitamin C, calcium, and iron"
+      }
+    }
+  },
+  "chives": {
+    "name": "chives",
+    "displayName": "Chives",
+    "category": "Fresh Herbs",
+    "aliases": [
+      "chives"
+    ],
+    "priceData": {
+      "size": 10,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "wiki": {
+      "purpose": "Adds mild oniony flavour, freshness, and vibrant green colour; functions as a garnish, seasoning, or aromatic accent in both cooked and raw dishes.",
+      "storage": "",
+      "substitutes": "",
+      "notes": "Mild, tender herb with a subtle onion and garlic flavour. Use fresh and finely chopped; add at the end of cooking or as a garnish to preserve aroma, colour, and delicate flavour. Common in soups, sauces, omelettes, salads, baked potatoes, and cream cheese spreads. Can be frozen chopped, but flavour is best fresh. Store unwashed in the refrigerator wrapped in a damp paper towel in a sealed container or glass.",
+      "nutrition": {
+        "calories": "30 per 100 g",
+        "carbohydrates": "4 g",
+        "fat": "0.7 g",
+        "fiber": "2.5 g",
+        "protein": "3.3 g",
+        "vitamins_minerals": "Good source of vitamin K, vitamin C, folate, and antioxidants"
+      }
+    }
+  },
+  "coriander": {
+    "name": "coriander",
+    "displayName": "Coriander",
+    "category": "Fresh Herbs",
+    "aliases": [
+      "coriander"
+    ],
+    "priceData": {
+      "size": 25,
+      "unit": "g",
+      "price": 2.5,
+      "brand": "Woolworths"
+    },
+    "wiki": {
+      "purpose": "Adds bright, citrusy freshness (leaves), earthy nutty warmth (seeds), and aromatic depth (ground) to curries, sauces, spice blends, and garnishes.",
+      "storage": "Storage: Keep seeds in an airtight container in a cool, dry place; refrigerate fresh leaves briefly or use immediately for best quality.",
+      "substitutes": "",
+      "notes": "Coriander is a versatile herb and spice with distinct uses depending on form: - **Leaves (Cilantro / Fresh Coriander):** Add at the end of cooking or as a garnish to preserve bright, citrusy aroma. Ideal in curries, stews, salads, salsas, and chutneys. - **Seeds:** Toast lightly before grinding to unlock warm, nutty, and citrusy flavour. Used in spice blends, pickles, marinades, sauces, and curries. - **Ground / Powder:** Best used freshly ground for maximum aroma and flavour. Pairs well with cumin, turmeric, chili, and other spices in curry powders, rubs, and sauces.",
+      "nutrition": {
+        "calories": "23 per 100 g (leaves), 298 per 100 g (seeds)",
+        "carbohydrates": "3.7 g (leaves), 55 g (seeds)",
+        "fat": "0.5 g (leaves), 17 g (seeds)",
+        "fiber": "2.8 g (leaves), 41 g (seeds)",
+        "protein": "2.1 g (leaves), 12 g (seeds)",
+        "vitamins_minerals": "Leaves are rich in vitamin C, vitamin K, and small amounts of calcium. Seeds are high in manganese, iron, and magnesium. Nutritional impact varies significantly depending on form and quantity used."
+      }
+    }
+  },
+  "dill": {
+    "name": "dill",
+    "displayName": "Dill",
+    "category": "Fresh Herbs",
+    "aliases": [
+      "dill"
+    ],
+    "priceData": {
+      "size": 10,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "wiki": null
+  },
+  "mint": {
+    "name": "mint",
+    "displayName": "Mint",
+    "category": "Fresh Herbs",
+    "aliases": [
+      "mint"
+    ],
+    "priceData": {
+      "size": 15,
+      "unit": "g",
+      "price": 3.2,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "oregano": {
+    "name": "oregano",
+    "displayName": "Oregano",
+    "category": "Fresh Herbs",
+    "aliases": [
+      "oregano"
+    ],
+    "priceData": {
+      "size": 10,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "wiki": {
+      "purpose": "Adds warm, aromatic, slightly bitter and peppery herb flavor to sauces, roasted vegetables, meats, and Mediterranean dishes.",
+      "storage": "Storage:** Store dried oregano in an airtight container in a cool, dark place; fresh oregano can be refrigerated or frozen.",
+      "substitutes": "",
+      "notes": "Oregano is a fragrant herb - **Usage:** Dried oregano is more potent than fresh; add early in cooking to allow flavor to bloom. Fresh oregano can be added toward the end for bright, aromatic notes. - **Pairings:** Complements tomato, garlic, olive oil, cheeses, meats, and vegetables. - ** - **Substitutions:** Marjoram or thyme can be used for a milder, similar flavor.",
+      "nutrition": {
+        "calories": "265 per 100 g",
+        "carbohydrates": "68 g",
+        "fat": "4 g",
+        "fiber": "42 g",
+        "protein": "9 g",
+        "vitamins_minerals": "Rich in vitamin K, iron, manganese, and antioxidants; primarily used in small amounts for flavor enhancement."
+      }
+    }
+  },
+  "parsley": {
+    "name": "parsley",
+    "displayName": "Parsley",
+    "category": "Fresh Herbs",
+    "aliases": [
+      "parsley"
+    ],
+    "priceData": {
+      "size": 7,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "wiki": {
+      "purpose": "Adds fresh, mild, slightly peppery flavor and bright green color to breads, pastries, sauces, and savory dishes.",
+      "storage": "Storage:** Store fresh parsley wrapped in damp paper towel in the refrigerator or freeze chopped for long-term use.",
+      "substitutes": "",
+      "notes": "Parsley is a fresh herb used for flavoring, garnishing, and enhancing baked goods. - ** Curly parsley is best for garnish and visual appeal. - **Pairings:** Complements garlic, lemon, butter, eggs, vegetables, and meats. - ** - **Substitutions:** Cilantro or chervil can be used for a similar fresh, green note depending on the dish.",
+      "nutrition": {
+        "calories": "36 per 100 g",
+        "carbohydrates": "6 g",
+        "fat": "0.8 g",
+        "fiber": "3 g",
+        "protein": "3 g",
+        "vitamins_minerals": "High in vitamin C, vitamin K, vitamin A, folate, and iron; provides antioxidants and minimal calories."
+      }
+    }
+  },
+  "rosemary": {
+    "name": "rosemary",
+    "displayName": "Rosemary",
+    "category": "Fresh Herbs",
+    "aliases": [
+      "rosemary"
+    ],
+    "priceData": {
+      "size": 18,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "wiki": {
+      "purpose": "Adds aromatic, pine-like flavour and subtle bitterness. Enhances breads, roasted vegetables, meats, and sauces with depth, fragrance, and visual appeal.",
+      "storage": "Storage:** Store dried rosemary in a cool, dark, airtight container; fresh rosemary can be wrapped in damp paper towel and refrigerated.",
+      "substitutes": "",
+      "notes": "Rosemary can be used fresh or dried. Remove woody stems before chopping. Adds aromatic, pine-like flavour to a wide range of dishes. - ** Can be infused in oils or marinades. - **Tips:** Crush leaves slightly to release essential oils. Dried rosemary is more potent; use sparingly. Pair with olive oil, garlic, lemon, or thyme for complementary flavour. - **",
+      "nutrition": {
+        "calories": "131 per 100 g",
+        "carbohydrates": "21 g",
+        "fat": "5.9 g",
+        "fiber": "14 g",
+        "protein": "3.3 g",
+        "vitamins_minerals": "Rich in vitamin C, vitamin A, calcium, iron, and antioxidants; supports digestion, immunity, and adds aromatic compounds."
+      }
+    }
+  },
+  "sage": {
+    "name": "sage",
+    "displayName": "Sage",
+    "category": "Fresh Herbs",
+    "aliases": [
+      "sage"
+    ],
+    "priceData": {
+      "size": 10,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "wiki": null
+  },
+  "thyme": {
+    "name": "thyme",
+    "displayName": "Thyme",
+    "category": "Fresh Herbs",
+    "aliases": [
+      "thyme"
+    ],
+    "priceData": {
+      "size": 15,
+      "unit": "g",
+      "price": 3.2,
+      "brand": "Woolworths"
+    },
+    "wiki": {
+      "purpose": "Adds earthy, slightly minty and floral aroma and flavour to dishes. Enhances savoury depth in sauces, soups, stews, roasts, and herb blends.",
+      "storage": "Storage:** Fresh thyme can be refrigerated for up to a week; dried thyme should be kept in an airtight container in a cool, dark place for up to a year.",
+      "substitutes": "",
+      "notes": "Use fresh or dried leaves; remove woody stems before serving. Ideal in stocks, soups, stews, sauces, roasted meats, and vegetables. - **",
+      "nutrition": {
+        "calories": "101 per 100 g (dried)",
+        "carbohydrates": "24 g",
+        "fat": "1.7 g",
+        "fiber": "14 g",
+        "protein": "5.6 g",
+        "vitamins_minerals": "Rich in vitamin C, vitamin A, iron, manganese, and antioxidants. Supports immune function, digestion, and adds trace minerals to dishes."
+      }
+    }
+  },
+  "apple bravo": {
+    "name": "apple bravo",
+    "displayName": "Apple Bravo",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "apple bravo"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "apple granny smith": {
+    "name": "apple granny smith",
+    "displayName": "Apple Granny Smith",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "apple granny smith"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "apple juice": {
+    "name": "apple juice",
+    "displayName": "Apple Juice",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "apple juice"
+    ],
+    "priceData": {
+      "size": 250,
+      "unit": "ml",
+      "price": 2,
+      "brand": "Golden Circle"
+    },
+    "wiki": null
+  },
+  "apple pink lady": {
+    "name": "apple pink lady",
+    "displayName": "Apple Pink Lady",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "apple pink lady"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "apples": {
+    "name": "apples",
+    "displayName": "Apples",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "apple whole",
+      "apples"
+    ],
+    "priceData": null,
+    "wiki": {
+      "purpose": "Adds sweetness, moisture, texture, and flavor; can be used for binding or topping in baking. Provides natural pectin for jams and jellies. Versatile for both sweet and savory applications.",
+      "storage": "Store in the refrigerator crisper drawer for longest freshness.",
+      "substitutes": "",
+      "notes": "Can be used fresh, cooked, or pureed; varieties vary in sweetness and firmness; pairs well in baking, salads, sauces, and preserves. Tart varieties (Granny Smith) are best for baking and cooking as they hold their shape. Sweet varieties (Fuji, Gala, Pink Lady) are ideal for fresh eating and salads. Pink Lady and Granny Smith are Australian-bred varieties. To prevent browning, toss cut apples in lemon juice. Australian apple season is typically February to May.",
+      "nutrition": {
+        "calories": "52 per medium apple",
+        "carbohydrates": "14 g",
+        "fat": "0.2 g",
+        "fiber": "2.4 g",
+        "protein": "0.3 g",
+        "vitamins_minerals": "Good source of vitamin C, potassium, and dietary fiber. Contains quercetin and other antioxidants, primarily in the skin."
+      }
+    }
+  },
+  "asparagus": {
+    "name": "asparagus",
+    "displayName": "Asparagus",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "asparagus"
+    ],
+    "priceData": {
+      "size": 1,
+      "unit": "bunch",
+      "price": 4,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "avocado": {
+    "name": "avocado",
+    "displayName": "Avocado",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "avocado"
+    ],
+    "priceData": {
+      "size": 1,
+      "unit": "each",
+      "price": 2.2,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "bananas": {
+    "name": "bananas",
+    "displayName": "Bananas",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "banana",
+      "banana cavendish",
+      "bananas"
+    ],
+    "priceData": {
+      "size": 1,
+      "unit": "each",
+      "price": 0.72,
+      "brand": "Woolworths"
+    },
+    "wiki": {
+      "purpose": "Adds natural sweetness, moisture, flavour, and body; functions as a fruit component, natural sweetener, and partial fat or egg substitute in baking.",
+      "storage": "",
+      "substitutes": "",
+      "notes": "Soft, sweet tropical fruit As bananas ripen, starches convert to sugars, increasing sweetness and aroma while softening the flesh. Ripe bananas are easily mashed and contribute significant moisture and natural binding to batters and doughs, making them ideal for banana bread, muffins, cakes, pancakes, and fritters. Sliced bananas are used fresh in desserts, tarts, and toppings, though they brown quickly when exposed to air; a light coating of lemon juice can reduce oxidation. Can be frozen whole or mashed for later baking use.",
+      "nutrition": {
+        "calories": "89 per 100 g",
+        "carbohydrates": "23 g",
+        "fat": "0.3 g",
+        "fiber": "2.6 g",
+        "protein": "1.1 g",
+        "vitamins_minerals": "Rich in potassium and vitamin B6; contains vitamin C and magnesium"
+      }
+    }
+  },
+  "beans green": {
+    "name": "beans green",
+    "displayName": "Beans Green",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "beans green"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "beetroot": {
+    "name": "beetroot",
+    "displayName": "Beetroot",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "beetroot"
+    ],
+    "priceData": {
+      "size": 825,
+      "unit": "bunch",
+      "price": 3.8,
+      "brand": "Edgell"
+    },
+    "wiki": null
+  },
+  "beetroot sliced": {
+    "name": "beetroot sliced",
+    "displayName": "Beetroot Sliced",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "beetroot sliced"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "broccoli": {
+    "name": "broccoli",
+    "displayName": "Broccoli",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "broccoli"
+    ],
+    "priceData": {
+      "size": 1000,
+      "unit": "g",
+      "price": 3.9,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "cabbage": {
+    "name": "cabbage",
+    "displayName": "Cabbage",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "cabbage"
+    ],
+    "priceData": {
+      "size": 1000,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "Woolworths"
+    },
+    "wiki": {
+      "purpose": "Adds bulk, mild flavour, and texture to dishes. Provides crunch in raw preparations or softens for soups and stews. Enhances stir-fries, braises, salads, and Filipino dishes by balancing stronger flavours and acting as a versatile filler.",
+      "storage": "Storage:** Keep in a cool, dry place or refrigerate in a perforated bag; lasts 1–2 weeks.",
+      "substitutes": "",
+      "notes": "Common forms and Shred, chop, or wedge depending on cooking method. - **Purple Cabbage:** Similar texture to green cabbage but with a slightly earthier flavour and vibrant colour. Excellent in salads, slaws, pickling, stir-fries, and braises. Colour may change with acidic ingredients. - **White Cabbage:** Mild-flavoured, firm leaves; excellent in stews, kimchi, slaws, and stir-fries. Holds shape well during cooking. - **Cooking Tips:** Cooks quickly; avoid overcooking to preserve colour, texture, and nutrients. Can be sautéed, boiled, steamed, fermented, or pickled. Outer leaves may be tougher—remove if desired. - **",
+      "nutrition": {
+        "calories": "25 per 100 g",
+        "carbohydrates": "6 g",
+        "fat": "0.1 g",
+        "fiber": "2.5 g",
+        "protein": "1.3 g",
+        "vitamins_minerals": "Excellent source of vitamin C and K; contains folate, calcium, and antioxidants; low-calorie, high-fibre vegetable"
+      }
+    }
+  },
+  "cabbage savoy": {
+    "name": "cabbage savoy",
+    "displayName": "Cabbage Savoy",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "cabbage savoy"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "capsicum green": {
+    "name": "capsicum green",
+    "displayName": "Capsicum Green",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "capsicum green"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "capsicum red": {
+    "name": "capsicum red",
+    "displayName": "Capsicum Red",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "capsicum red"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "carrots": {
+    "name": "carrots",
+    "displayName": "Carrots",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "carrot",
+      "carrot baby",
+      "carrots"
+    ],
+    "priceData": {
+      "size": 1000,
+      "unit": "g",
+      "price": 2.4,
+      "brand": "Woolworths"
+    },
+    "wiki": {
+      "purpose": "Adds natural sweetness, moisture, texture, and subtle earthy flavour; functions as a vegetable, dessert ingredient, and textural component in both sweet and savoury dishes.",
+      "storage": "Store in a cool, humid place or refrigerated to maintain freshness; remove tops to prolong shelf life.",
+      "substitutes": "",
+      "notes": "Root vegetable with sweet, earthy flavour and crisp texture. Can be grated, sliced, diced, or pureed depending on recipe. Provides natural sweetness and moisture, helping to tenderize baked goods. Can be roasted, steamed, boiled, or eaten raw.",
+      "nutrition": {
+        "calories": "41 per 100 g",
+        "carbohydrates": "10 g",
+        "fat": "0.2 g",
+        "fiber": "2.8 g",
+        "protein": "0.9 g",
+        "vitamins_minerals": "Excellent source of vitamin A (beta-carotene), vitamin K, and potassium; contains antioxidants and fibre"
+      }
+    }
+  },
+  "cauliflower": {
+    "name": "cauliflower",
+    "displayName": "Cauliflower",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "cauliflower"
+    ],
+    "priceData": {
+      "size": 1000,
+      "unit": "g",
+      "price": 5.5,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "celery": {
+    "name": "celery",
+    "displayName": "Celery",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "celery"
+    ],
+    "priceData": {
+      "size": 1,
+      "unit": "bunch",
+      "price": 3,
+      "brand": "Woolworths"
+    },
+    "wiki": {
+      "purpose": "Provides aromatic foundation, subtle bitterness, freshness, and light sweetness; adds body, depth, and texture to sauces, soups, stews, and vegetable-forward dishes.",
+      "storage": "Store in a cool, humid environment or refrigerate in a perforated bag; lasts 1–2 weeks.",
+      "substitutes": "",
+      "notes": "Crunchy, fibrous stalks used as a primary aromatic in mirepoix, soups, stews, and sauces. Dice finely for long-cooked dishes or slice larger for texture in stir-fries. Inner ribs are more tender and slightly sweeter, while outer ribs are stronger in flavour and higher in fibre. Leaves are edible and aromatic—ideal for garnishes, stocks, or flavour enhancement. Best when gently sweated or lightly sautéed to release natural sweetness.",
+      "nutrition": {
+        "calories": "16 per 100 g",
+        "carbohydrates": "3 g",
+        "fat": "0.2 g",
+        "fiber": "1.6 g",
+        "protein": "0.7 g",
+        "vitamins_minerals": "High in vitamin K, vitamin C, potassium, and folate; low-calorie, hydrating, and fibre-rich"
+      }
+    }
+  },
+  "chilli dried red": {
+    "name": "chilli dried red",
+    "displayName": "Chilli Dried Red",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "chilli dried red"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "chilli green": {
+    "name": "chilli green",
+    "displayName": "Chilli Green",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "chilli green"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "chilli long green": {
+    "name": "chilli long green",
+    "displayName": "Chilli Long Green",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "chilli long green"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "chilli long red": {
+    "name": "chilli long red",
+    "displayName": "Chilli Long Red",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "chilli long red"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "chilli red": {
+    "name": "chilli red",
+    "displayName": "Chilli Red",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "chilli red"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "chilli red cayenne": {
+    "name": "chilli red cayenne",
+    "displayName": "Chilli Red Cayenne",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "chilli red cayenne"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "corn cob": {
+    "name": "corn cob",
+    "displayName": "Corn Cob",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "corn cob"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "cucumber": {
+    "name": "cucumber",
+    "displayName": "Cucumber",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "cucumber"
+    ],
+    "priceData": {
+      "size": 1,
+      "unit": "each",
+      "price": 1.53,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "cucumber lebanese": {
+    "name": "cucumber lebanese",
+    "displayName": "Cucumber Lebanese",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "cucumber lebanese"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "garlic": {
+    "name": "garlic",
+    "displayName": "Garlic",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "garlic"
+    ],
+    "priceData": {
+      "size": 8,
+      "unit": "bulb",
+      "price": 1.2,
+      "brand": "Woolworths"
+    },
+    "wiki": {
+      "purpose": "Adds pungent, aromatic flavour and depth. Provides flexibility in intensity and texture depending on form: fresh for full-bodied aroma, paste for smooth blending, powder for convenience. Enhances sauces, soups, stews, curries, marinades, rubs, and roasted dishes; contributes both savoury complexity and subtle sweetness when caramelized.",
+      "storage": "",
+      "substitutes": "",
+      "notes": "Common forms and Adds pungent aroma and depth of flavour. Can brown quickly and turn bitter if overcooked; add early for robust flavour or later for milder aroma. - **Garlic Paste / Minced Garlic Paste:** Smooth, concentrated form; blends easily into sauces, marinades, and curries. Use sparingly. - **Garlic Powder / Granulated Garlic:** Dried and finely ground; convenient for seasoning mixes, rubs, and baked dishes. Add during cooking or at the end depending on desired intensity. - **Storage & Tips:** Fresh garlic keeps best in a cool, dark, dry place. Paste and powder should be airtight to preserve aroma and potency.",
+      "nutrition": {
+        "calories": "149 per 100 g (fresh cloves)",
+        "carbohydrates": "33 g",
+        "fat": "0.5 g",
+        "fiber": "2.1 g",
+        "protein": "6.4 g",
+        "vitamins_minerals": "Rich in vitamin C, vitamin B6, manganese, selenium, and small amounts of calcium, copper, and potassium. Contains sulfur compounds that contribute to flavour and potential health benefits."
+      }
+    }
+  },
+  "ginger fresh": {
+    "name": "ginger fresh",
+    "displayName": "Ginger Fresh",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "ginger fresh"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "jalapeno fresh": {
+    "name": "jalapeno fresh",
+    "displayName": "Jalapeno Fresh",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "jalapeno fresh"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "jalapenos": {
+    "name": "jalapenos",
+    "displayName": "Jalapenos",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "jalapeno pickled",
+      "jalapenos"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "leek": {
+    "name": "leek",
+    "displayName": "Leek",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "leek"
+    ],
+    "priceData": {
+      "size": 1,
+      "unit": "each",
+      "price": 2.5,
+      "brand": "Woolworths"
+    },
+    "wiki": {
+      "purpose": "Adds a gentle, sweet onion flavour without the sharpness of regular onions. Functions as an aromatic base in soups and stews, or as a vegetable component in Filipino dishes like bulalo.",
+      "storage": "",
+      "substitutes": "",
+      "notes": "A mild, sweet member of the onion family with a long white stalk that transitions to flat, dark green leaves. More delicate and less pungent than brown onions. The white and light green parts are tender and ideal for cooking; the dark green tops are tougher but excellent for stocks and broths. Must be thoroughly washed before use as soil gets trapped between the tightly packed layers — slice first, then rinse in a colander. Commonly sautéed as an aromatic base, braised as a side, or used in soups and stews. Store unwashed in the refrigerator for up to a week.",
+      "nutrition": {
+        "calories": "61 per 100 g",
+        "carbohydrates": "14 g",
+        "fat": "0.3 g",
+        "fiber": "1.8 g",
+        "protein": "1.5 g"
+      }
+    }
+  },
+  "lemon": {
+    "name": "lemon",
+    "displayName": "Lemon",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "lemon"
+    ],
+    "priceData": {
+      "size": 1,
+      "unit": "each",
+      "price": 1.56,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "lemon juice": {
+    "name": "lemon juice",
+    "displayName": "Lemon Juice",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "lemon juice"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "ml",
+      "price": 1.65,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "lettuce iceberg": {
+    "name": "lettuce iceberg",
+    "displayName": "Lettuce Iceberg",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "lettuce iceberg"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "lime juice": {
+    "name": "lime juice",
+    "displayName": "Lime Juice",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "lime juice"
+    ],
+    "priceData": {
+      "size": 250,
+      "unit": "ml",
+      "price": 2.5,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "mushrooms": {
+    "name": "mushrooms",
+    "displayName": "Mushrooms",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "mushrooms",
+      "mushrooms sliced"
+    ],
+    "priceData": {
+      "size": 200,
+      "unit": "g",
+      "price": 2.5,
+      "brand": "Woolworths"
+    },
+    "wiki": {
+      "purpose": "Adds umami, moisture, texture, and depth of flavor; versatile in sautés, sauces, soups, salads, roasting, grilling, and baking.",
+      "storage": "Storage:** Store in a cool, dry place, ideally in a paper bag in the refrigerator.",
+      "substitutes": "",
+      "notes": "Mushrooms are versatile fungi used fresh or cooked in a variety of dishes. - **Swiss Brown / Chestnut Mushrooms:** Firmer, slightly nuttier, holds shape well; ideal for sauces, roasting, or sautés. - **Button / White Mushrooms:** Mild flavor, versatile; good raw in salads or cooked in a wide range of dishes. - **Flat / Large / Portobello Mushrooms:** Meaty texture and earthy flavor; perfect for grilling, stuffing, or hearty recipes. - ** Cooking intensifies umami. Clean gently with a damp cloth; avoid soaking. - ** Use promptly for best texture and flavor. - **Substitutions:** Other edible mushrooms like shiitake, oyster, or cremini can be used depending on texture and flavor needs.",
+      "nutrition": {
+        "calories": "22 per 100 g",
+        "carbohydrates": "3.3 g",
+        "fat": "0.3 g",
+        "fiber": "1 g",
+        "protein": "3.1 g",
+        "vitamins_minerals": "Contains B vitamins (B2, B3, B5), selenium, potassium, copper, and antioxidants. Low in calories and fat while providing protein and fiber."
+      }
+    }
+  },
+  "onion brown": {
+    "name": "onion brown",
+    "displayName": "Onion Brown",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "onion brown"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "onion red spanish": {
+    "name": "onion red spanish",
+    "displayName": "Onion Red Spanish",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "onion red spanish"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "onion spring": {
+    "name": "onion spring",
+    "displayName": "Onion Spring",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "onion spring"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "peas snow": {
+    "name": "peas snow",
+    "displayName": "Peas Snow",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "peas snow"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "peas sugar snap": {
+    "name": "peas sugar snap",
+    "displayName": "Peas Sugar Snap",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "peas sugar snap"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "pineapple juice": {
+    "name": "pineapple juice",
+    "displayName": "Pineapple Juice",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "pineapple juice"
+    ],
+    "priceData": {
+      "size": 250,
+      "unit": "ml",
+      "price": 2.2,
+      "brand": "Golden Circle"
+    },
+    "wiki": null
+  },
+  "potato brushed": {
+    "name": "potato brushed",
+    "displayName": "Potato Brushed",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "potato brushed"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "potato roasting": {
+    "name": "potato roasting",
+    "displayName": "Potato Roasting",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "potato roasting"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "potato sweet": {
+    "name": "potato sweet",
+    "displayName": "Potato Sweet",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "potato sweet"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "potato white": {
+    "name": "potato white",
+    "displayName": "Potato White",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "potato white"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "pumpkin butternut": {
+    "name": "pumpkin butternut",
+    "displayName": "Pumpkin Butternut",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "pumpkin butternut"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "pumpkin kent": {
+    "name": "pumpkin kent",
+    "displayName": "Pumpkin Kent",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "pumpkin kent"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "pumpkin whole": {
+    "name": "pumpkin whole",
+    "displayName": "Pumpkin Whole",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "pumpkin whole"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "radish": {
+    "name": "radish",
+    "displayName": "Radish",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "radish"
+    ],
+    "priceData": {
+      "size": 1,
+      "unit": "bunch",
+      "price": 2.5,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "shallots": {
+    "name": "shallots",
+    "displayName": "Shallots",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "shallots"
+    ],
+    "priceData": {
+      "size": 1,
+      "unit": "each",
+      "price": 0.5,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "spinach": {
+    "name": "spinach",
+    "displayName": "Spinach",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "spinach"
+    ],
+    "priceData": {
+      "size": 120,
+      "unit": "g",
+      "price": 2.7,
+      "brand": "Woolworths"
+    },
+    "wiki": {
+      "purpose": "Adds vibrant green colour, mild flavour, and nutritional value to dishes. Provides moisture and texture in pastries, quiches, soups, and sautés. Enhances overall presentation and complements other ingredients without overpowering.",
+      "storage": "Storage:** Store fresh spinach in a cool, dry place or refrigerated in a sealed bag.",
+      "substitutes": "",
+      "notes": "Common types and - **Leaf Spinach:** Larger, slightly stronger-flavoured leaves; suitable for sautéing, baking, or adding to sauces and soups. - **Usage Tips:** Can be used fresh or frozen. Squeeze out excess water before incorporating into pastries, pies, or quiches to prevent sogginess. Pair well with eggs, cheese, cream, or garlic for enhanced flavour. - ** Use frozen spinach directly from freezer; avoid repeated thawing to preserve nutrients and texture.",
+      "nutrition": {
+        "calories": "23 per 100 g",
+        "carbohydrates": "3.6 g",
+        "fat": "0.4 g",
+        "fiber": "2.2 g",
+        "protein": "2.9 g",
+        "vitamins_minerals": "High in vitamin A, vitamin C, vitamin K1, folate, iron, calcium, and antioxidants; low in sodium and sugar."
+      }
+    }
+  },
+  "spinach baby": {
+    "name": "spinach baby",
+    "displayName": "Spinach Baby",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "spinach baby"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "tomato cherry": {
+    "name": "tomato cherry",
+    "displayName": "Tomato Cherry",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "tomato cherry"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "tomato gourmet": {
+    "name": "tomato gourmet",
+    "displayName": "Tomato Gourmet",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "tomato gourmet"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "tomato truss": {
+    "name": "tomato truss",
+    "displayName": "Tomato Truss",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "tomato truss"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "watermelon": {
+    "name": "watermelon",
+    "displayName": "Watermelon",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "watermelon"
+    ],
+    "priceData": {
+      "size": 1000,
+      "unit": "g",
+      "price": 2.5,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "zucchini": {
+    "name": "zucchini",
+    "displayName": "Zucchini",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "zucchini"
+    ],
+    "priceData": {
+      "size": 1,
+      "unit": "each",
+      "price": 1.18,
+      "brand": "Woolworths"
+    },
+    "wiki": {
+      "purpose": "Provides mild, tender flesh that absorbs flavours well. Adds texture, moisture, and subtle sweetness to dishes.",
+      "storage": "",
+      "substitutes": "",
+      "notes": "Best used young and firm for optimal texture. Can be eaten raw, grilled, baked, sautéed, or stuffed. Overcooking can cause excess moisture. Flowers are also edible. Store unwashed in the refrigerator for up to 5 days.",
+      "nutrition": {
+        "calories": "17 per 100 g",
+        "carbohydrates": "3.1 g",
+        "fat": "0.3 g",
+        "fiber": "1 g",
+        "protein": "1.2 g",
+        "vitamins_minerals": "Good source of vitamin C, vitamin A, potassium, and antioxidants. Provides hydration due to high water content."
+      }
+    }
+  },
+  "bacon middle": {
+    "name": "bacon middle",
+    "displayName": "Bacon Middle",
+    "category": "Meat Poultry",
+    "aliases": [
+      "bacon middle"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "beef bones": {
+    "name": "beef bones",
+    "displayName": "Beef Bones",
+    "category": "Meat Poultry",
+    "aliases": [
+      "beef bones"
+    ],
+    "priceData": {
+      "size": 1000,
+      "unit": "g",
+      "price": 5,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "beef diced": {
+    "name": "beef diced",
+    "displayName": "Beef Diced",
+    "category": "Meat Poultry",
+    "aliases": [
+      "beef diced"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "beef knuckles": {
+    "name": "beef knuckles",
+    "displayName": "Beef Knuckles",
+    "category": "Meat Poultry",
+    "aliases": [
+      "beef knuckles"
+    ],
+    "priceData": {
+      "size": 1000,
+      "unit": "g",
+      "price": 8,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "beef mince": {
+    "name": "beef mince",
+    "displayName": "Beef Mince",
+    "category": "Meat Poultry",
+    "aliases": [
+      "beef mince"
+    ],
+    "priceData": {
+      "size": 1000,
+      "unit": "g",
+      "price": 19.35,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "beef sausages": {
+    "name": "beef sausages",
+    "displayName": "Beef Sausages",
+    "category": "Meat Poultry",
+    "aliases": [
+      "beef sausages"
+    ],
+    "priceData": {
+      "size": 550,
+      "unit": "g",
+      "price": 6.5,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "beef scraps": {
+    "name": "beef scraps",
+    "displayName": "Beef Scraps",
+    "category": "Meat Poultry",
+    "aliases": [
+      "beef scraps"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "g",
+      "price": 6,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "beef shanks": {
+    "name": "beef shanks",
+    "displayName": "Beef Shanks",
+    "category": "Meat Poultry",
+    "aliases": [
+      "beef shanks"
+    ],
+    "priceData": {
+      "size": 1000,
+      "unit": "g",
+      "price": 12,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "beef steak rump": {
+    "name": "beef steak rump",
+    "displayName": "Beef Steak Rump",
+    "category": "Meat Poultry",
+    "aliases": [
+      "beef steak rump"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "beef steak scotch fillet": {
+    "name": "beef steak scotch fillet",
+    "displayName": "Beef Steak Scotch Fillet",
+    "category": "Meat Poultry",
+    "aliases": [
+      "beef steak scotch fillet"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "beef strips": {
+    "name": "beef strips",
+    "displayName": "Beef Strips",
+    "category": "Meat Poultry",
+    "aliases": [
+      "beef strips"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "g",
+      "price": 14,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "chicken breast": {
+    "name": "chicken breast",
+    "displayName": "Chicken Breast",
+    "category": "Meat Poultry",
+    "aliases": [
+      "chicken breast"
+    ],
+    "priceData": {
+      "size": 1500,
+      "unit": "g",
+      "price": 18.7,
+      "brand": "Woolworths RSPCA"
+    },
+    "wiki": null
+  },
+  "chicken drumsticks": {
+    "name": "chicken drumsticks",
+    "displayName": "Chicken Drumsticks",
+    "category": "Meat Poultry",
+    "aliases": [
+      "chicken drumsticks"
+    ],
+    "priceData": {
+      "size": 150,
+      "unit": "g",
+      "price": 4.8,
+      "brand": "Woolworths RSPCA"
+    },
+    "wiki": null
+  },
+  "chicken kebab": {
+    "name": "chicken kebab",
+    "displayName": "Chicken Kebab",
+    "category": "Meat Poultry",
+    "aliases": [
+      "chicken kebab"
+    ],
+    "priceData": {
+      "size": 1,
+      "unit": "each",
+      "price": 1,
+      "brand": "Woolworths RSPCA"
+    },
+    "wiki": null
+  },
+  "chicken maryland": {
+    "name": "chicken maryland",
+    "displayName": "Chicken Maryland",
+    "category": "Meat Poultry",
+    "aliases": [
+      "chicken maryland"
+    ],
+    "priceData": {
+      "size": 665,
+      "unit": "g",
+      "price": 7.2,
+      "brand": "Woolworths RSPCA"
+    },
+    "wiki": null
+  },
+  "chicken schnitzel": {
+    "name": "chicken schnitzel",
+    "displayName": "Chicken Schnitzel",
+    "category": "Meat Poultry",
+    "aliases": [
+      "chicken schnitzel"
+    ],
+    "priceData": {
+      "size": 1,
+      "unit": "each",
+      "price": 2.8,
+      "brand": "Chicken Sandwich"
+    },
+    "wiki": null
+  },
+  "chicken thigh": {
+    "name": "chicken thigh",
+    "displayName": "Chicken Thigh",
+    "category": "Meat Poultry",
+    "aliases": [
+      "chicken thigh"
+    ],
+    "priceData": {
+      "size": 1000,
+      "unit": "g",
+      "price": 15.5,
+      "brand": "Woolworths RSPCA"
+    },
+    "wiki": null
+  },
+  "chicken thigh cutlets": {
+    "name": "chicken thigh cutlets",
+    "displayName": "Chicken Thigh Cutlets",
+    "category": "Meat Poultry",
+    "aliases": [
+      "chicken thigh cutlets"
+    ],
+    "priceData": {
+      "size": 180,
+      "unit": "g",
+      "price": 8,
+      "brand": "Woolworths RSPCA"
+    },
+    "wiki": null
+  },
+  "chicken thigh fillets": {
+    "name": "chicken thigh fillets",
+    "displayName": "Chicken Thigh Fillets",
+    "category": "Meat Poultry",
+    "aliases": [
+      "chicken thigh fillets"
+    ],
+    "priceData": {
+      "size": 150,
+      "unit": "g",
+      "price": 8,
+      "brand": "Woolworths RSPCA"
+    },
+    "wiki": null
+  },
+  "frankfurts": {
+    "name": "frankfurts",
+    "displayName": "Frankfurts",
+    "category": "Meat Poultry",
+    "aliases": [
+      "frankfurts"
+    ],
+    "priceData": {
+      "size": 100,
+      "unit": "g",
+      "price": 8.5,
+      "brand": "Don"
+    },
+    "wiki": null
+  },
+  "frankfurts cocktail": {
+    "name": "frankfurts cocktail",
+    "displayName": "Frankfurts Cocktail",
+    "category": "Meat Poultry",
+    "aliases": [
+      "frankfurts cocktail"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "ham champagne": {
+    "name": "ham champagne",
+    "displayName": "Ham Champagne",
+    "category": "Meat Poultry",
+    "aliases": [
+      "ham champagne"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "ham leg": {
+    "name": "ham leg",
+    "displayName": "Ham Leg",
+    "category": "Meat Poultry",
+    "aliases": [
+      "ham leg"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "ham shredded": {
+    "name": "ham shredded",
+    "displayName": "Ham Shredded",
+    "category": "Meat Poultry",
+    "aliases": [
+      "ham shredded"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "hot dogs": {
+    "name": "hot dogs",
+    "displayName": "Hot Dogs",
+    "category": "Meat Poultry",
+    "aliases": [
+      "hot dogs"
+    ],
+    "priceData": {
+      "size": 1000,
+      "unit": "g",
+      "price": 6.9,
+      "brand": "Primo"
+    },
+    "wiki": null
+  },
+  "lamb cutlets": {
+    "name": "lamb cutlets",
+    "displayName": "Lamb Cutlets",
+    "category": "Meat Poultry",
+    "aliases": [
+      "lamb cutlets"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "g",
+      "price": 22,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "lamb diced": {
+    "name": "lamb diced",
+    "displayName": "Lamb Diced",
+    "category": "Meat Poultry",
+    "aliases": [
+      "lamb diced"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "lamb forequarter chops": {
+    "name": "lamb forequarter chops",
+    "displayName": "Lamb Forequarter Chops",
+    "category": "Meat Poultry",
+    "aliases": [
+      "lamb forequarter chops"
+    ],
+    "priceData": {
+      "size": 1050,
+      "unit": "g",
+      "price": 31.2,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "lamb leg roast": {
+    "name": "lamb leg roast",
+    "displayName": "Lamb Leg Roast",
+    "category": "Meat Poultry",
+    "aliases": [
+      "lamb leg roast"
+    ],
+    "priceData": {
+      "size": 1500,
+      "unit": "g",
+      "price": 39.6,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "lamb rack": {
+    "name": "lamb rack",
+    "displayName": "Lamb Rack",
+    "category": "Meat Poultry",
+    "aliases": [
+      "lamb rack"
+    ],
+    "priceData": {
+      "size": 600,
+      "unit": "g",
+      "price": 28,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "lamb strips": {
+    "name": "lamb strips",
+    "displayName": "Lamb Strips",
+    "category": "Meat Poultry",
+    "aliases": [
+      "lamb strips"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "g",
+      "price": 16,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "pepperoni": {
+    "name": "pepperoni",
+    "displayName": "Pepperoni",
+    "category": "Meat Poultry",
+    "aliases": [
+      "pepperoni"
+    ],
+    "priceData": {
+      "size": 100,
+      "unit": "g",
+      "price": 35,
+      "brand": "Don"
+    },
+    "wiki": null
+  },
+  "pork chops": {
+    "name": "pork chops",
+    "displayName": "Pork Chops",
+    "category": "Meat Poultry",
+    "aliases": [
+      "pork chops"
+    ],
+    "priceData": {
+      "size": 1200,
+      "unit": "g",
+      "price": 25,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "pork leg roast": {
+    "name": "pork leg roast",
+    "displayName": "Pork Leg Roast",
+    "category": "Meat Poultry",
+    "aliases": [
+      "pork leg roast"
+    ],
+    "priceData": {
+      "size": 1900,
+      "unit": "g",
+      "price": 31.2,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "pork mince": {
+    "name": "pork mince",
+    "displayName": "Pork Mince",
+    "category": "Meat Poultry",
+    "aliases": [
+      "pork mince"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "g",
+      "price": 6.5,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "pork shoulder": {
+    "name": "pork shoulder",
+    "displayName": "Pork Shoulder",
+    "category": "Meat Poultry",
+    "aliases": [
+      "pork shoulder"
+    ],
+    "priceData": {
+      "size": 1500,
+      "unit": "g",
+      "price": 18,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "pork strips": {
+    "name": "pork strips",
+    "displayName": "Pork Strips",
+    "category": "Meat Poultry",
+    "aliases": [
+      "pork strips"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "g",
+      "price": 9,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "prosciutto": {
+    "name": "prosciutto",
+    "displayName": "Prosciutto",
+    "category": "Meat Poultry",
+    "aliases": [
+      "prosciutto"
+    ],
+    "priceData": {
+      "size": 100,
+      "unit": "g",
+      "price": 8,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "salami": {
+    "name": "salami",
+    "displayName": "Salami",
+    "category": "Meat Poultry",
+    "aliases": [
+      "salami"
+    ],
+    "priceData": {
+      "size": 80,
+      "unit": "g",
+      "price": 3.95,
+      "brand": "Primo"
+    },
+    "wiki": null
+  },
+  "sausage chinese": {
+    "name": "sausage chinese",
+    "displayName": "Sausage Chinese",
+    "category": "Meat Poultry",
+    "aliases": [
+      "sausage chinese"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "veal": {
+    "name": "veal",
+    "displayName": "Veal",
+    "category": "Meat Poultry",
+    "aliases": [
+      "veal"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "g",
+      "price": 18,
+      "brand": "Woolworths"
+    },
+    "wiki": {
+      "purpose": "Mild, tender protein that absorbs sauces and seasonings readily. Ideal for elegant, restaurant-style dishes where delicate texture and clean flavour are desired.",
+      "storage": "",
+      "substitutes": "",
+      "notes": "Veal is the meat of young cattle, with a mild, delicate flavour and tender texture. - **Veal Escalopes / Schnitzel:** Thin cuts, usually from the leg, pounded flat. Cooks very quickly — 1–2 minutes per side. Ideal for crumbing, pan-frying, or topping with sauces (Cordon Bleu, Scaloppine, Oscar, Madagascar). - **Veal Medallions / Steaks:** Thicker cuts used whole; excellent for bistro-style dishes with cream or wine sauces. - **Cooking Notes:** Veal has less fat than beef so it can dry out quickly. Cook over medium-high heat and keep residual sauce or butter present. Do not overcook — aim for just cooked through. - **Classic Bistro Pairings:** Lemon-butter, mushroom cream, Marsala, Cordon Bleu (ham and cheese filling), Oscar (crab/seafood topping).",
+      "nutrition": {
+        "calories": "172 per 100 g (lean)",
+        "carbohydrates": "0 g",
+        "fat": "9 g",
+        "fiber": "0 g",
+        "protein": "21 g",
+        "vitamins_minerals": "Rich in B12, zinc, iron, and phosphorus; higher in protein and lower in fat than beef cuts."
+      }
+    }
+  },
+  "buttermilk": {
+    "name": "buttermilk",
+    "displayName": "Buttermilk",
+    "category": "Milk Cream",
+    "aliases": [
+      "buttermilk"
+    ],
+    "priceData": {
+      "size": 600,
+      "unit": "ml",
+      "price": 3.2,
+      "brand": "Dairy Farmers"
+    },
+    "wiki": null
+  },
+  "coconut cream": {
+    "name": "coconut cream",
+    "displayName": "Coconut Cream",
+    "category": "Milk Cream",
+    "aliases": [
+      "coconut cream"
+    ],
+    "priceData": {
+      "size": 400,
+      "unit": "ml",
+      "price": 1.7,
+      "brand": "Essentials"
+    },
+    "wiki": null
+  },
+  "coconut milk": {
+    "name": "coconut milk",
+    "displayName": "Coconut Milk",
+    "category": "Milk Cream",
+    "aliases": [
+      "coconut milk"
+    ],
+    "priceData": {
+      "size": 400,
+      "unit": "ml",
+      "price": 1.7,
+      "brand": "Essentials"
+    },
+    "wiki": null
+  },
+  "cooking cream": {
+    "name": "cooking cream",
+    "displayName": "Cooking Cream",
+    "category": "Milk Cream",
+    "aliases": [
+      "cooking cream",
+      "cream cooking"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "pure cream": {
+    "name": "pure cream",
+    "displayName": "Pure Cream",
+    "category": "Milk Cream",
+    "aliases": [
+      "cream pure",
+      "pure cream"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "sour cream": {
+    "name": "sour cream",
+    "displayName": "Sour Cream",
+    "category": "Milk Cream",
+    "aliases": [
+      "cream sour",
+      "sour cream"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "thickened cream": {
+    "name": "thickened cream",
+    "displayName": "Thickened Cream",
+    "category": "Milk Cream",
+    "aliases": [
+      "cream thickened",
+      "thickened cream"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "full-cream milk": {
+    "name": "full-cream milk",
+    "displayName": "Full-Cream Milk",
+    "category": "Milk Cream",
+    "aliases": [
+      "full-cream milk",
+      "milk full-cream",
+      "milk powder full-cream"
+    ],
+    "priceData": {
+      "size": 2000,
+      "unit": "ml",
+      "price": 3.6,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "skim milk": {
+    "name": "skim milk",
+    "displayName": "Skim Milk",
+    "category": "Milk Cream",
+    "aliases": [
+      "milk powder skim",
+      "milk skim",
+      "skim milk"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "g",
+      "price": 8,
+      "brand": "Woolworths"
+    },
+    "wiki": null
+  },
+  "coconut oil": {
+    "name": "coconut oil",
+    "displayName": "Coconut Oil",
+    "category": "Oils",
+    "aliases": [
+      "coconut oil",
+      "oil coconut"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "olive oil": {
+    "name": "olive oil",
+    "displayName": "Olive Oil",
+    "category": "Oils",
+    "aliases": [
+      "oil olive",
+      "olive oil"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "peanut oil": {
+    "name": "peanut oil",
+    "displayName": "Peanut Oil",
+    "category": "Oils",
+    "aliases": [
+      "oil peanut",
+      "peanut oil"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "sesame oil": {
+    "name": "sesame oil",
+    "displayName": "Sesame Oil",
+    "category": "Oils",
+    "aliases": [
+      "oil sesame",
+      "sesame oil"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "sunflower oil": {
+    "name": "sunflower oil",
+    "displayName": "Sunflower Oil",
+    "category": "Oils",
+    "aliases": [
+      "oil sunflower",
+      "sunflower oil"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "vegetable oil": {
+    "name": "vegetable oil",
+    "displayName": "Vegetable Oil",
+    "category": "Oils",
+    "aliases": [
+      "oil vegetable",
+      "vegetable oil"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "noodles bihon rice": {
+    "name": "noodles bihon rice",
+    "displayName": "Noodles Bihon Rice",
+    "category": "Pasta Noodles",
+    "aliases": [
+      "noodles bihon rice"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "noodles canton egg": {
+    "name": "noodles canton egg",
+    "displayName": "Noodles Canton Egg",
+    "category": "Pasta Noodles",
+    "aliases": [
+      "noodles canton egg"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "noodles egg": {
+    "name": "noodles egg",
+    "displayName": "Noodles Egg",
+    "category": "Pasta Noodles",
+    "aliases": [
+      "noodles egg"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "noodles instant": {
+    "name": "noodles instant",
+    "displayName": "Noodles Instant",
+    "category": "Pasta Noodles",
+    "aliases": [
+      "noodles instant"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "noodles mi goreng": {
+    "name": "noodles mi goreng",
+    "displayName": "Noodles Mi Goreng",
+    "category": "Pasta Noodles",
+    "aliases": [
+      "noodles mi goreng"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "noodles vermicelli rice": {
+    "name": "noodles vermicelli rice",
+    "displayName": "Noodles Vermicelli Rice",
+    "category": "Pasta Noodles",
+    "aliases": [
+      "noodles vermicelli rice"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "pasta elbows": {
+    "name": "pasta elbows",
+    "displayName": "Pasta Elbows",
+    "category": "Pasta Noodles",
+    "aliases": [
+      "pasta elbows"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "pasta fettuccine": {
+    "name": "pasta fettuccine",
+    "displayName": "Pasta Fettuccine",
+    "category": "Pasta Noodles",
+    "aliases": [
+      "pasta fettuccine"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "pasta lasagne sheets": {
+    "name": "pasta lasagne sheets",
+    "displayName": "Pasta Lasagne Sheets",
+    "category": "Pasta Noodles",
+    "aliases": [
+      "pasta lasagne sheets"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "pasta spaghetti": {
+    "name": "pasta spaghetti",
+    "displayName": "Pasta Spaghetti",
+    "category": "Pasta Noodles",
+    "aliases": [
+      "pasta spaghetti"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "bulgur wheat": {
+    "name": "bulgur wheat",
+    "displayName": "Bulgur Wheat",
+    "category": "Rice Grains",
+    "aliases": [
+      "bulgur wheat"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "g",
+      "price": 5.3,
+      "brand": "Macro"
+    },
+    "wiki": {
+      "purpose": "Provides texture, nutty flavour, and dietary fibre; functions as a partial flour substitute, cereal grain ingredient, or textural component in breads, flatbreads, and salads.",
+      "storage": "Store in an airtight container in a cool, dry place to preserve freshness.",
+      "substitutes": "",
+      "notes": "Whole wheat kernels that have been parboiled, dried, and cracked into smaller pieces. Quick-cooking and versatile, can be soaked, boiled, or added directly to breads, flatbreads, salads, and pilafs. Adds chewy texture, nutty flavour, and visual appeal. High in fibre and protein, it can be used to partially replace flour in bread or dough recipes, but may require additional hydration due to its water-absorbing properties.",
+      "nutrition": {
+        "calories": "342 per 100 g",
+        "carbohydrates": "76 g",
+        "fat": "1.3 g",
+        "fiber": "18 g",
+        "protein": "12 g",
+        "vitamins_minerals": "Good source of manganese, magnesium, and B vitamins; high in dietary fibre"
+      }
+    }
+  },
+  "freekeh": {
+    "name": "freekeh",
+    "displayName": "Freekeh",
+    "category": "Rice Grains",
+    "aliases": [
+      "freekeh"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "g",
+      "price": 7,
+      "brand": "Macro"
+    },
+    "wiki": null
+  },
+  "quinoa black": {
+    "name": "quinoa black",
+    "displayName": "Quinoa Black",
+    "category": "Rice Grains",
+    "aliases": [
+      "quinoa black"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "quinoa white": {
+    "name": "quinoa white",
+    "displayName": "Quinoa White",
+    "category": "Rice Grains",
+    "aliases": [
+      "quinoa white"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "rice arborio": {
+    "name": "rice arborio",
+    "displayName": "Rice Arborio",
+    "category": "Rice Grains",
+    "aliases": [
+      "rice arborio"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "rice basmati": {
+    "name": "rice basmati",
+    "displayName": "Rice Basmati",
+    "category": "Rice Grains",
+    "aliases": [
+      "rice basmati"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "rice jasmine": {
+    "name": "rice jasmine",
+    "displayName": "Rice Jasmine",
+    "category": "Rice Grains",
+    "aliases": [
+      "rice jasmine"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "rice white": {
+    "name": "rice white",
+    "displayName": "Rice White",
+    "category": "Rice Grains",
+    "aliases": [
+      "rice white"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "rolled oats": {
+    "name": "rolled oats",
+    "displayName": "Rolled Oats",
+    "category": "Rice Grains",
+    "aliases": [
+      "rolled oats"
+    ],
+    "priceData": {
+      "size": 1000,
+      "unit": "g",
+      "price": 6.5,
+      "brand": "Uncle Tobys"
+    },
+    "wiki": {
+      "purpose": "Adds texture, chewiness, and fibre to cereals, baked goods, and breakfast dishes. Acts as a binding agent in breads and cookies, and contributes mild, nutty flavour.",
+      "storage": "Storage:** Store in a cool, dry place in an airtight container to prevent rancidity and maintain freshness.",
+      "substitutes": "",
+      "notes": "Rolled oats are flattened, lightly steamed whole oat groats. - **Usage:** Use in cookies, muesli, granola, oat breads, or porridge. Can be ground into oat flour for baking. Adds bulk, texture, and nutty flavour. - **Tips:** Toast lightly to enhance aroma or soak overnight for easier digestion. Adjust liquid when substituting for flour. - **",
+      "nutrition": {
+        "calories": "389 per 100 g",
+        "carbohydrates": "66 g",
+        "fat": "7 g",
+        "fiber": "10 g",
+        "protein": "17 g",
+        "vitamins_minerals": "Contains manganese, phosphorus, magnesium, copper, iron, zinc, folate, and B vitamins. Supports heart health, digestion, and sustained energy."
+      }
+    }
+  },
+  "demi glace": {
+    "name": "demi glace",
+    "displayName": "Demi Glace",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "demi glace"
+    ],
+    "priceData": {
+      "size": 200,
+      "unit": "g",
+      "price": 5,
+      "brand": "Continental"
+    },
+    "wiki": {
+      "purpose": "Provides deep, concentrated savoury flavour and body to pan sauces, gravies, and bistro-style accompaniments. Essential for authentic French-inspired restaurant sauces.",
+      "storage": "Storage:** Commercial base keeps sealed in pantry; once opened, refrigerate.",
+      "substitutes": "",
+      "notes": "Demi glace is a rich, concentrated brown sauce that forms the base of many classic French and bistro-style sauces. - **Traditional Demi Glace:** Made by reducing equal parts espagnole sauce (brown sauce) and brown veal stock to a glossy, syrupy consistency. Intensely rich, deeply savoury, and complex. - **Commercial Demi Glace Base:** Available as powder or paste concentrate (brands like Major or Knorr Jus Lie). Dissolve per package instructions. Produces a consistent result suitable for high-volume or home cooking. - **Usage in Bistro Sauces:** Forms the backbone of many classic accompaniments — brandy mustard sauce, Madagascar green peppercorn sauce, Bordelaise, and Chasseur. Usually deglazed in the pan after cooking meat, then enriched with cream or butter. - **Substitutes:** A good quality beef stock reduced by 2/3 can approximate demi glace. Adding Worcestershire sauce and a small amount of butter improves depth. - ** Homemade demi glace freezes well in ice cube trays.",
+      "nutrition": {
+        "calories": "30–60 per 100 ml (liquid, varies by concentration)",
+        "carbohydrates": "2–5 g",
+        "fat": "1–3 g",
+        "fiber": "0 g",
+        "protein": "3–6 g",
+        "vitamins_minerals": "Contains sodium, potassium, and small amounts of iron from the concentrated meat stock."
+      }
+    }
+  },
+  "jam apricot": {
+    "name": "jam apricot",
+    "displayName": "Jam Apricot",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "jam apricot"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "jam plum": {
+    "name": "jam plum",
+    "displayName": "Jam Plum",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "jam plum"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "mayonnaise": {
+    "name": "mayonnaise",
+    "displayName": "Mayonnaise",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "mayonnaise"
+    ],
+    "priceData": {
+      "size": 490,
+      "unit": "g",
+      "price": 4.5,
+      "brand": "Praise"
+    },
+    "wiki": null
+  },
+  "mirin": {
+    "name": "mirin",
+    "displayName": "Mirin",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "mirin"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "ml",
+      "price": 8,
+      "brand": "Mizkan"
+    },
+    "wiki": {
+      "purpose": "Provides sweetness, umami, and a glossy finish to sauces, marinades, and stir-fries. Balances salty and savory elements, enhances caramelization, and softens strong flavors in Japanese and Asian dishes.",
+      "storage": "Storage:** Store in a cool, dark place.",
+      "substitutes": "",
+      "notes": "Mirin is a traditional Japanese sweet rice wine with low alcohol content. - ** Adds subtle sweetness and depth without overpowering other flavors. - **Pairings:** Complements soy sauce, sake, dashi, ginger, garlic, and sesame. - ** Once opened, refrigerate and use within a few months for best flavor. - **Substitutions:** Can be replaced with a mixture of sake and sugar or a mild rice vinegar with sugar if unavailable, though flavor will differ.",
+      "nutrition": {
+        "calories": "40 per 15 ml (1 tbsp)",
+        "carbohydrates": "10 g",
+        "fat": "0 g",
+        "fiber": "0 g",
+        "protein": "0 g",
+        "vitamins_minerals": "Contains trace amounts of minerals; primarily a source of sugars and minimal alcohol."
+      }
+    }
+  },
+  "miso paste": {
+    "name": "miso paste",
+    "displayName": "Miso Paste",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "miso paste"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "g",
+      "price": 7.5,
+      "brand": "Obento"
+    },
+    "wiki": null
+  },
+  "mustard american": {
+    "name": "mustard american",
+    "displayName": "Mustard American",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "mustard american"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "mustard australian": {
+    "name": "mustard australian",
+    "displayName": "Mustard Australian",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "mustard australian"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "mustard dijon": {
+    "name": "mustard dijon",
+    "displayName": "Mustard Dijon",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "mustard dijon"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "mustard hot english": {
+    "name": "mustard hot english",
+    "displayName": "Mustard Hot English",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "mustard hot english"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "mustard mild english": {
+    "name": "mustard mild english",
+    "displayName": "Mustard Mild English",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "mustard mild english"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "mustard wholegrain": {
+    "name": "mustard wholegrain",
+    "displayName": "Mustard Wholegrain",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "mustard wholegrain"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "olives green": {
+    "name": "olives green",
+    "displayName": "Olives Green",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "olives green"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "olives kalamata": {
+    "name": "olives kalamata",
+    "displayName": "Olives Kalamata",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "olives kalamata"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "red curry paste": {
+    "name": "red curry paste",
+    "displayName": "Red Curry Paste",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "red curry paste"
+    ],
+    "priceData": {
+      "size": 185,
+      "unit": "g",
+      "price": 4,
+      "brand": "Ayam"
+    },
+    "wiki": null
+  },
+  "sambal oelek": {
+    "name": "sambal oelek",
+    "displayName": "Sambal Oelek",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "sambal oelek"
+    ],
+    "priceData": {
+      "size": 250,
+      "unit": "ml",
+      "price": 4,
+      "brand": "Ayam"
+    },
+    "wiki": {
+      "purpose": "Provides heat, tang, and deep chili flavour; enhances complexity in sauces, marinades, stir-fries, and condiments.",
+      "storage": "Storage:** Store in a sealed container in the refrigerator to preserve freshness and colour.",
+      "substitutes": "",
+      "notes": "Sambal Oelek is a coarsely ground chili paste - **Usage:** Add directly to stir-fries, soups, sauces, marinades, or as a condiment. Adjust quantity according to desired heat level. - **Pairings:** Complements garlic, ginger, soy sauce, vinegar, lime, meats, seafood, and vegetables. - **",
+      "nutrition": {
+        "calories": "15 per 100 g",
+        "carbohydrates": "3 g",
+        "fat": "0.5 g",
+        "fiber": "1.5 g",
+        "protein": "0.8 g",
+        "vitamins_minerals": "Contains vitamin C, vitamin A, and small amounts of iron and potassium; primarily a source of spice and flavour."
+      }
+    }
+  },
+  "sauce barbecue": {
+    "name": "sauce barbecue",
+    "displayName": "Sauce Barbecue",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "sauce barbecue"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "sauce chilli": {
+    "name": "sauce chilli",
+    "displayName": "Sauce Chilli",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "sauce chilli"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "sauce fish": {
+    "name": "sauce fish",
+    "displayName": "Sauce Fish",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "sauce fish"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "sauce hoisin": {
+    "name": "sauce hoisin",
+    "displayName": "Sauce Hoisin",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "sauce hoisin"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "sauce kecap manis": {
+    "name": "sauce kecap manis",
+    "displayName": "Sauce Kecap Manis",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "sauce kecap manis"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "sauce mint": {
+    "name": "sauce mint",
+    "displayName": "Sauce Mint",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "sauce mint"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "sauce oyster": {
+    "name": "sauce oyster",
+    "displayName": "Sauce Oyster",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "sauce oyster"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "sauce seafood cocktail": {
+    "name": "sauce seafood cocktail",
+    "displayName": "Sauce Seafood Cocktail",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "sauce seafood cocktail"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "sauce soy": {
+    "name": "sauce soy",
+    "displayName": "Sauce Soy",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "sauce soy"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "sauce soy dark": {
+    "name": "sauce soy dark",
+    "displayName": "Sauce Soy Dark",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "sauce soy dark"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "sauce soy light": {
+    "name": "sauce soy light",
+    "displayName": "Sauce Soy Light",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "sauce soy light"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "sauce sweet & sour": {
+    "name": "sauce sweet & sour",
+    "displayName": "Sauce Sweet & Sour",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "sauce sweet & sour"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "sauce sweet chilli": {
+    "name": "sauce sweet chilli",
+    "displayName": "Sauce Sweet Chilli",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "sauce sweet chilli"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "sauce tartare": {
+    "name": "sauce tartare",
+    "displayName": "Sauce Tartare",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "sauce tartare"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "sauce tomato": {
+    "name": "sauce tomato",
+    "displayName": "Sauce Tomato",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "sauce tomato"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "sauce tomato ketchup": {
+    "name": "sauce tomato ketchup",
+    "displayName": "Sauce Tomato Ketchup",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "sauce tomato ketchup"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "sauce worcestershire": {
+    "name": "sauce worcestershire",
+    "displayName": "Sauce Worcestershire",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "sauce worcestershire"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "sriracha": {
+    "name": "sriracha",
+    "displayName": "Sriracha",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "sriracha"
+    ],
+    "priceData": {
+      "size": 455,
+      "unit": "ml",
+      "price": 5,
+      "brand": "Huy Fong"
+    },
+    "wiki": null
+  },
+  "vinegar apple cider": {
+    "name": "vinegar apple cider",
+    "displayName": "Vinegar Apple Cider",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "vinegar apple cider"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "vinegar balsamic": {
+    "name": "vinegar balsamic",
+    "displayName": "Vinegar Balsamic",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "vinegar balsamic"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "vinegar brown": {
+    "name": "vinegar brown",
+    "displayName": "Vinegar Brown",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "vinegar brown"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "vinegar rice wine": {
+    "name": "vinegar rice wine",
+    "displayName": "Vinegar Rice Wine",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "vinegar rice wine"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "vinegar white": {
+    "name": "vinegar white",
+    "displayName": "Vinegar White",
+    "category": "Sauces Condiments",
+    "aliases": [
+      "vinegar white"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "chia seeds black": {
+    "name": "chia seeds black",
+    "displayName": "Chia Seeds Black",
+    "category": "Seeds Superfoods",
+    "aliases": [
+      "chia seeds black"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "chia seeds white": {
+    "name": "chia seeds white",
+    "displayName": "Chia Seeds White",
+    "category": "Seeds Superfoods",
+    "aliases": [
+      "chia seeds white"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "flaxseed meal": {
+    "name": "flaxseed meal",
+    "displayName": "Flaxseed Meal",
+    "category": "Seeds Superfoods",
+    "aliases": [
+      "flaxseed meal"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "g",
+      "price": 6.3,
+      "brand": "Macro"
+    },
+    "wiki": null
+  },
+  "gentle fibre": {
+    "name": "gentle fibre",
+    "displayName": "Gentle Fibre",
+    "category": "Seeds Superfoods",
+    "aliases": [
+      "gentle fibre"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "g",
+      "price": 9,
+      "brand": "Laucke"
+    },
+    "wiki": null
+  },
+  "hemp protein powder": {
+    "name": "hemp protein powder",
+    "displayName": "Hemp Protein Powder",
+    "category": "Seeds Superfoods",
+    "aliases": [
+      "hemp protein powder"
+    ],
+    "priceData": {
+      "size": 200,
+      "unit": "g",
+      "price": 8.6,
+      "brand": "Macro"
+    },
+    "wiki": null
+  },
+  "hemp seeds": {
+    "name": "hemp seeds",
+    "displayName": "Hemp Seeds",
+    "category": "Seeds Superfoods",
+    "aliases": [
+      "hemp seeds"
+    ],
+    "priceData": {
+      "size": 200,
+      "unit": "g",
+      "price": 6.6,
+      "brand": "Macro"
+    },
+    "wiki": null
+  },
+  "linseed": {
+    "name": "linseed",
+    "displayName": "Linseed",
+    "category": "Seeds Superfoods",
+    "aliases": [
+      "linseed"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "g",
+      "price": 4.4,
+      "brand": "Macro"
+    },
+    "wiki": {
+      "purpose": "Adds fiber, omega-3 fatty acids, protein, and nutty flavor. Enhances texture and nutritional profile in breads and baked goods.",
+      "storage": "Storage:** Store in a cool, dark place in an airtight container.",
+      "substitutes": "",
+      "notes": "Linseed, also known as flaxseed, can be used whole or ground. - ** Ground linseed can help bind ingredients and improve moisture retention in gluten-free baking. - **Pairings:** Works well with oats, nuts, seeds, honey, fruits, and other flours. - ** Ground linseed is best refrigerated to prevent rancidity. - **Substitutions:** Chia seeds, hemp seeds, or sesame seeds can be used for similar texture and nutritional benefits.",
+      "nutrition": {
+        "calories": "534 per 100 g",
+        "carbohydrates": "29 g",
+        "fat": "42 g",
+        "fiber": "27 g",
+        "protein": "18 g",
+        "vitamins_minerals": "High in omega-3 fatty acids, lignans, magnesium, phosphorus, and manganese."
+      }
+    }
+  },
+  "psyllium husk": {
+    "name": "psyllium husk",
+    "displayName": "Psyllium Husk",
+    "category": "Seeds Superfoods",
+    "aliases": [
+      "psyllium husk"
+    ],
+    "priceData": {
+      "size": 250,
+      "unit": "g",
+      "price": 7,
+      "brand": "Macro"
+    },
+    "wiki": {
+      "purpose": "Adds dietary fibre, improves dough structure and elasticity in gluten-free baking, and helps retain moisture for better texture.",
+      "storage": "Storage:** Store in a cool, dry place in an airtight container to prevent moisture absorption.",
+      "substitutes": "",
+      "notes": "Psyllium husk is a soluble fiber derived from the seeds of Plantago ovata. - ** Can also be used as a thickener for sauces or smoothies. - **Pairings:** Works well with gluten-free flours such as rice, almond, buckwheat, and oat flour. Complements seeds, nuts, and grains. - ** - **Tips:** Start with small quantities; too much can make dough gummy or overly dense.",
+      "nutrition": {
+        "calories": "375 per 100 g",
+        "carbohydrates": "0 g (net carbs negligible, mostly fiber)",
+        "fat": "0.2 g",
+        "fiber": "88 g",
+        "protein": "2 g",
+        "vitamins_minerals": "Rich in soluble fiber; negligible vitamins or minerals; supports digestive health and can aid in cholesterol management."
+      }
+    }
+  },
+  "pumpkin kernels": {
+    "name": "pumpkin kernels",
+    "displayName": "Pumpkin Kernels",
+    "category": "Seeds Superfoods",
+    "aliases": [
+      "pumpkin kernels"
+    ],
+    "priceData": {
+      "size": 250,
+      "unit": "g",
+      "price": 5.7,
+      "brand": "Macro"
+    },
+    "wiki": null
+  },
+  "soy lecithin": {
+    "name": "soy lecithin",
+    "displayName": "Soy Lecithin",
+    "category": "Seeds Superfoods",
+    "aliases": [
+      "soy lecithin"
+    ],
+    "priceData": {
+      "size": 250,
+      "unit": "g",
+      "price": 10,
+      "brand": "Macro"
+    },
+    "wiki": {
+      "purpose": "Enhances dough elasticity, structure, and gas retention. Acts as an emulsifier to stabilize mixtures containing fat and water, improving texture and consistency. Extends shelf life and promotes even browning and soft crumb development in baked goods, chocolate, spreads, and sauces.",
+      "storage": "Store in a cool, dry, airtight container away from light.",
+      "substitutes": "",
+      "notes": "Common usage and benefits: - **Emulsifier:** Helps blend water and fat-based ingredients in doughs, chocolate, confections, sauces, and dressings. - **Dough Conditioner:** Improves elasticity, gas retention, and crumb structure in yeast breads, rolls, and enriched doughs. - **Shelf Life:** Slows staling, moisture loss, and improves softness; promotes even browning in baked goods. - **5–2% of flour weight in bread recipes. Use sparingly, as excess may affect flavour or dough handling.",
+      "nutrition": {
+        "calories": "550 per 100 g",
+        "carbohydrates": "7 g",
+        "fat": "50 g",
+        "fiber": "0 g",
+        "protein": "30 g",
+        "vitamins_minerals": "Contains choline (essential for liver and brain function), phosphatidylcholine, and phosphatidylinositol; naturally derived from soybeans. Minimal sugars and starch."
+      }
+    }
+  },
+  "sunflower seeds": {
+    "name": "sunflower seeds",
+    "displayName": "Sunflower Seeds",
+    "category": "Seeds Superfoods",
+    "aliases": [
+      "sunflower seeds"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "g",
+      "price": 5,
+      "brand": "Macro"
+    },
+    "wiki": {
+      "purpose": "Adds crunch, flavour, healthy fats, protein, and nutrition to breads and baked goods. Enhances texture, visual appeal, and satiety.",
+      "storage": "Storage:** Keep in an airtight container in a cool, dry place; refrigeration or freezing extends shelf life and prevents rancidity.",
+      "substitutes": "",
+      "notes": "Can be used raw, toasted, or incorporated into doughs and toppings. Adds texture and nutty flavour to breads, muffins, granola, and salads. - **",
+      "nutrition": {
+        "calories": "584 per 100 g",
+        "carbohydrates": "20 g",
+        "fat": "51 g",
+        "fiber": "9 g",
+        "protein": "21 g",
+        "vitamins_minerals": "Rich in vitamin E, magnesium, selenium, and B vitamins. Contains healthy polyunsaturated fats, antioxidants, and plant sterols."
+      }
+    }
+  },
+  "xanthan gum": {
+    "name": "xanthan gum",
+    "displayName": "Xanthan Gum",
+    "category": "Seeds Superfoods",
+    "aliases": [
+      "xanthan gum"
+    ],
+    "priceData": {
+      "size": 100,
+      "unit": "g",
+      "price": 5.5,
+      "brand": "Macro"
+    },
+    "wiki": {
+      "purpose": "Provides structure, elasticity, and cohesion in gluten-free doughs and batters, allowing improved rise, crumb, and chewiness. Enhances moisture retention and prevents crumbling in baked goods. Also acts as a thickening and stabilizing agent in sauces, dressings, and gluten-free mixtures.",
+      "storage": "Store in a cool, dry place in an airtight container to prevent clumping.",
+      "substitutes": "",
+      "notes": "A polysaccharide derived from bacterial fermentation of sugars, Typically added at 0.5–1% of flour weight (about 1/4–1/2 teaspoon per cup of flour). Helps bind ingredients, trap gas during rising, and improve moisture retention. Can be used in breads, muffins, cakes, and sauces as a stabilizer or thickener. Overuse can create gummy or dense texture. Dissolve in water or oil before mixing into dry ingredients for best results.",
+      "nutrition": {
+        "calories": "333 per 100 g",
+        "carbohydrates": "90–95 g",
+        "fat": "0 g",
+        "fiber": "85 g",
+        "protein": "0 g",
+        "vitamins_minerals": "Minimal micronutrients; mainly contributes soluble fiber, which can aid digestion and improve texture in recipes."
+      }
+    }
+  },
+  "biscuits nice arnotts": {
+    "name": "biscuits nice arnotts",
+    "displayName": "Biscuits Nice Arnotts",
+    "category": "Snacks Biscuits",
+    "aliases": [
+      "biscuits nice arnotts"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "biscuits tim tams": {
+    "name": "biscuits tim tams",
+    "displayName": "Biscuits Tim Tams",
+    "category": "Snacks Biscuits",
+    "aliases": [
+      "biscuits tim tams"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "cookies butternut snap arnotts": {
+    "name": "cookies butternut snap arnotts",
+    "displayName": "Cookies Butternut Snap Arnotts",
+    "category": "Snacks Biscuits",
+    "aliases": [
+      "cookies butternut snap arnotts"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "cookies oreos": {
+    "name": "cookies oreos",
+    "displayName": "Cookies Oreos",
+    "category": "Snacks Biscuits",
+    "aliases": [
+      "cookies oreos"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "achiote powder": {
+    "name": "achiote powder",
+    "displayName": "Achiote Powder",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "achiote powder"
+    ],
+    "priceData": {
+      "size": 50,
+      "unit": "g",
+      "price": 4,
+      "brand": "Hoyt's"
+    },
+    "wiki": {
+      "purpose": "Adds vibrant red-orange color and a subtle earthy, peppery flavor to dishes. Commonly used in marinades, rubs, sauces, and traditional Latin American recipes.",
+      "storage": "Store in a cool, dark place in an airtight container to preserve color and flavor.",
+      "substitutes": "Can be substituted with paprika if unavailable, though the color will be slightly less vibrant.",
+      "notes": "Can be rehydrated in warm water or oil before adding to recipes. Often used to color rice, stews, sauces, and marinades. Avoid exposure to moisture and direct sunlight, which can degrade both flavor and pigment.",
+      "nutrition": {
+        "calories": "5 per tsp",
+        "carbohydrates": "1 g",
+        "fat": "0.1 g",
+        "fiber": "0.5 g",
+        "protein": "0.1 g",
+        "vitamins_minerals": "Contains small amounts of iron and calcium"
+      }
+    }
+  },
+  "allspice": {
+    "name": "allspice",
+    "displayName": "Allspice",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "allspice"
+    ],
+    "priceData": {
+      "size": 28,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "wiki": {
+      "purpose": "Adds warm, sweet, and slightly peppery flavour; versatile in both savoury dishes like stews, marinades, and sauces, and sweet dishes like cakes, cookies, and pies.",
+      "storage": "Store in a cool, dry place for best aroma.",
+      "substitutes": "",
+      "notes": "Comes whole (berries) or ground. Whole berries are ideal for long-cooking dishes and can be removed before serving; ground is convenient for baking and spice blends. True allspice is not a blend, despite its name; flavour resembles a mix of cinnamon, nutmeg, and cloves.",
+      "nutrition": {
+        "calories": "6 per tsp",
+        "carbohydrates": "1.4 g",
+        "fat": "0.1 g",
+        "fiber": "0.6 g",
+        "protein": "0.2 g",
+        "vitamins_minerals": "Contains small amounts of manganese, iron, and calcium"
+      }
+    }
+  },
+  "baking powder": {
+    "name": "baking powder",
+    "displayName": "Baking Powder",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "baking powder"
+    ],
+    "priceData": {
+      "size": 125,
+      "unit": "g",
+      "price": 2.85,
+      "brand": "McKenzie's"
+    },
+    "wiki": {
+      "purpose": "Produces carbon dioxide to aerate and lighten baked goods; enables rapid and consistent rise without fermentation.",
+      "storage": "",
+      "substitutes": "",
+      "notes": "A dry chemical leavening agent composed of sodium bicarbonate combined with one or more acid salts and a moisture-absorbing starch. Most modern baking powders are double-acting, meaning they release carbon dioxide gas once when moistened and again when heated, providing a more reliable and even rise. Used in cakes, biscuits, muffins, scones, and quick breads where yeast fermentation is not desired. Must be measured accurately; excess can cause bitterness or a coarse crumb. Loses potency over time and should be stored in a cool, dry place in an airtight container.",
+      "nutrition": {
+        "calories": "53 per 100 g",
+        "carbohydrates": "28 g",
+        "fat": "0 g",
+        "fiber": "0 g",
+        "protein": "0 g",
+        "vitamins_minerals": "High in sodium; no significant vitamins or minerals; used in small quantities"
+      }
+    }
+  },
+  "bay leaves": {
+    "name": "bay leaves",
+    "displayName": "Bay Leaves",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "bay leaves"
+    ],
+    "priceData": {
+      "size": 5,
+      "unit": "g",
+      "price": 2,
+      "brand": "Hoyt's"
+    },
+    "wiki": {
+      "purpose": "Adds background herbal depth and aromatic complexity; functions as a slow-release flavouring agent in long-cooked savoury dishes.",
+      "storage": "",
+      "substitutes": "",
+      "notes": "Aromatic leaves from the bay laurel tree, used whole to gently infuse dishes during long cooking. Available fresh or dried, with dried bay leaves being more Added early in cooking to allow time for their subtle herbal, tea-like, and slightly woody notes to develop. Leaves remain tough and sharp even after cooking and must be removed before serving. Widely used in soups, stews, braises, sauces, rice dishes, curries, and stocks. Store dried bay leaves in an airtight container away from light to preserve aroma.",
+      "nutrition": {
+        "calories": "313 per 100 g",
+        "carbohydrates": "75 g",
+        "fat": "8 g",
+        "fiber": "26 g",
+        "protein": "8 g",
+        "vitamins_minerals": "Contains vitamin A, vitamin C, iron, calcium, and manganese; used in small quantities so nutritional impact per serving is minimal"
+      }
+    }
+  },
+  "bi-carb soda": {
+    "name": "bi-carb soda",
+    "displayName": "Bi-Carb Soda",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "bi-carb soda"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "g",
+      "price": 3.1,
+      "brand": "McKenzie's"
+    },
+    "wiki": {
+      "purpose": "Produces carbon dioxide when combined with acid and moisture, aerating baked goods and giving them lightness and volume; functions as a chemical leavening agent in baking.",
+      "storage": "Store in a cool, dry place in an airtight container to maintain potency.",
+      "substitutes": "",
+      "notes": "A fine, white crystalline powder used as a chemical leavening agent. Requires an acidic ingredient (e.g., buttermilk, yogurt, lemon juice, vinegar) to activate and produce carbon dioxide gas, which helps doughs and batters rise. Overuse can result in a soapy or bitter taste. Can also be used for tenderising meat, neutralising acidic sauces, or as a cleaning agent in small household quantities.",
+      "nutrition": {
+        "calories": "0 per 100 g",
+        "carbohydrates": "0 g",
+        "fat": "0 g",
+        "fiber": "0 g",
+        "protein": "0 g",
+        "vitamins_minerals": "High in sodium; negligible nutritional value per serving as it is used in small quantities"
+      }
+    }
+  },
+  "cardamom green pods": {
+    "name": "cardamom green pods",
+    "displayName": "Cardamom Green Pods",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "cardamom green pods"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "cardamom ground": {
+    "name": "cardamom ground",
+    "displayName": "Cardamom Ground",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "cardamom ground"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "cardamom pods": {
+    "name": "cardamom pods",
+    "displayName": "Cardamom Pods",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "cardamom pods"
+    ],
+    "priceData": {
+      "size": 20,
+      "unit": "g",
+      "price": 4,
+      "brand": "Hoyt's"
+    },
+    "wiki": null
+  },
+  "cayenne pepper": {
+    "name": "cayenne pepper",
+    "displayName": "Cayenne Pepper",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "cayenne pepper"
+    ],
+    "priceData": {
+      "size": 30,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "wiki": null
+  },
+  "chilli flakes": {
+    "name": "chilli flakes",
+    "displayName": "Chilli Flakes",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "chilli flakes"
+    ],
+    "priceData": {
+      "size": 100,
+      "unit": "g",
+      "price": 5,
+      "brand": "Hoyt's"
+    },
+    "wiki": null
+  },
+  "chilli powder": {
+    "name": "chilli powder",
+    "displayName": "Chilli Powder",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "chilli powder"
+    ],
+    "priceData": {
+      "size": 27,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "wiki": null
+  },
+  "chilli powder red": {
+    "name": "chilli powder red",
+    "displayName": "Chilli Powder Red",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "chilli powder red"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "chilli red flakes": {
+    "name": "chilli red flakes",
+    "displayName": "Chilli Red Flakes",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "chilli red flakes"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "chilli whole dried crushed": {
+    "name": "chilli whole dried crushed",
+    "displayName": "Chilli Whole Dried Crushed",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "chilli whole dried crushed"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "cinnamon ground": {
+    "name": "cinnamon ground",
+    "displayName": "Cinnamon Ground",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "cinnamon ground"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "cinnamon stick": {
+    "name": "cinnamon stick",
+    "displayName": "Cinnamon Stick",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "cinnamon stick"
+    ],
+    "priceData": {
+      "size": 10,
+      "unit": "g",
+      "price": 2,
+      "brand": "Hoyt's"
+    },
+    "wiki": null
+  },
+  "cloves ground": {
+    "name": "cloves ground",
+    "displayName": "Cloves Ground",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "cloves ground"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "cloves whole": {
+    "name": "cloves whole",
+    "displayName": "Cloves Whole",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "cloves whole"
+    ],
+    "priceData": {
+      "size": 20,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "wiki": null
+  },
+  "coconut desiccated": {
+    "name": "coconut desiccated",
+    "displayName": "Coconut Desiccated",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "coconut desiccated"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "coriander ground": {
+    "name": "coriander ground",
+    "displayName": "Coriander Ground",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "coriander ground"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "coriander seeds": {
+    "name": "coriander seeds",
+    "displayName": "Coriander Seeds",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "coriander seeds"
+    ],
+    "priceData": {
+      "size": 28,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "wiki": null
+  },
+  "cumin ground": {
+    "name": "cumin ground",
+    "displayName": "Cumin Ground",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "cumin ground"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "cumin whole": {
+    "name": "cumin whole",
+    "displayName": "Cumin Whole",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "cumin whole"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "curry powder": {
+    "name": "curry powder",
+    "displayName": "Curry Powder",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "curry powder"
+    ],
+    "priceData": {
+      "size": 60,
+      "unit": "g",
+      "price": 4.3,
+      "brand": "Keen's"
+    },
+    "wiki": {
+      "purpose": "Provides a convenient, balanced blend of warm spices for curries, sauces, and marinades. Adds colour, warmth, and savoury depth with a single ingredient.",
+      "storage": "Store in an airtight container away from light and heat.",
+      "substitutes": "",
+      "notes": "A blended spice mix typically containing turmeric, coriander, cumin, fenugreek, and chilli. Yellow-gold in colour with a warm, earthy, mildly spicy flavour. Keen's is the most common Australian brand. Used as a convenient all-in-one spice blend for curries, sauces, soups, and marinades. Fry briefly in oil at the start of cooking to bloom the spices and develop deeper flavour. Different brands and blends vary in heat and complexity — adjust quantity to taste.",
+      "nutrition": {
+        "calories": "325 per 100 g",
+        "carbohydrates": "56 g",
+        "fat": "14 g",
+        "fiber": "34 g",
+        "protein": "14 g"
+      }
+    }
+  },
+  "fennel seeds": {
+    "name": "fennel seeds",
+    "displayName": "Fennel Seeds",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "fennel seeds"
+    ],
+    "priceData": {
+      "size": 26,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "wiki": {
+      "purpose": "Adds sweet, aromatic, and licorice-like flavour to baked goods, spice blends, and savoury dishes. Enhances depth and aroma in breads, cookies, and pickled items.",
+      "storage": "Storage:** Store in an airtight container in a cool, dry place away from direct sunlight to preserve flavour.",
+      "substitutes": "",
+      "notes": "Fennel seeds are aromatic, slightly sweet, and licorice-flavoured. - **Forms:** Whole seeds or ground powder; lightly toast whole seeds to enhance aroma before adding to recipes. - ** - **Pairings:** Complements anise, caraway, cinnamon, cloves, and cardamom. Adds fragrance and subtle sweetness to both savoury and sweet baked goods. - **",
+      "nutrition": {
+        "calories": "345 per 100 g",
+        "carbohydrates": "52 g",
+        "fat": "14 g",
+        "fiber": "39 g",
+        "protein": "15 g",
+        "vitamins_minerals": "Rich in iron, calcium, magnesium, and manganese. Provides small amounts of potassium and vitamin C. Used in small quantities, so nutritional impact per serving is minor."
+      }
+    }
+  },
+  "fenugreek seeds": {
+    "name": "fenugreek seeds",
+    "displayName": "Fenugreek Seeds",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "fenugreek seeds"
+    ],
+    "priceData": {
+      "size": 30,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "wiki": null
+  },
+  "five spice chinese": {
+    "name": "five spice chinese",
+    "displayName": "Five Spice Chinese",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "five spice chinese"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "garam masala": {
+    "name": "garam masala",
+    "displayName": "Garam Masala",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "garam masala"
+    ],
+    "priceData": {
+      "size": 30,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "wiki": {
+      "purpose": "Adds warm, sweet-spicy, and complex aromatic flavour to curries, sauces, stews, and marinades. Enhances depth, balances other spices, and provides signature Indian flavour profiles.",
+      "storage": "Storage:** Store in an airtight container in a cool, dark place.",
+      "substitutes": "",
+      "notes": "Garam Masala is a blend of aromatic spices - **Composition:** Typically includes cumin, coriander, cardamom, cinnamon, cloves, nutmeg, and black pepper. Variations exist by region or household. - **Usage:** Usually added towards the end of cooking to preserve aroma. Can also be used as a rub for meats or sprinkled over finished dishes for extra flavour. Best used in curries, stews, sauces, lentils, and vegetable dishes. - ** Ground blends lose potency over time; use within 6–12 months for optimal flavour. - **Tips:** Toast whole spices before grinding for deeper aroma. Avoid cooking at high heat for long periods as aroma diminishes.",
+      "nutrition": {
+        "calories": "335 per 100 g",
+        "carbohydrates": "50 g",
+        "fat": "14 g",
+        "fiber": "25 g",
+        "protein": "12 g",
+        "vitamins_minerals": "Rich in iron, manganese, magnesium, and small amounts of calcium, potassium, and vitamin C. Used in small quantities, so contribution per serving is minimal."
+      }
+    }
+  },
+  "garlic powder": {
+    "name": "garlic powder",
+    "displayName": "Garlic Powder",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "garlic powder"
+    ],
+    "priceData": {
+      "size": 45,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "wiki": null
+  },
+  "ginger ground": {
+    "name": "ginger ground",
+    "displayName": "Ginger Ground",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "ginger ground"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "herbs italian": {
+    "name": "herbs italian",
+    "displayName": "Herbs Italian",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "herbs italian"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "herbs mixed": {
+    "name": "herbs mixed",
+    "displayName": "Herbs Mixed",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "herbs mixed"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "mixed spice": {
+    "name": "mixed spice",
+    "displayName": "Mixed Spice",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "mixed spice"
+    ],
+    "priceData": {
+      "size": 33,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "wiki": null
+  },
+  "moroccan spice": {
+    "name": "moroccan spice",
+    "displayName": "Moroccan Spice",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "moroccan spice"
+    ],
+    "priceData": {
+      "size": 52,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "wiki": null
+  },
+  "nigella seeds": {
+    "name": "nigella seeds",
+    "displayName": "Nigella Seeds",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "nigella seeds"
+    ],
+    "priceData": {
+      "size": 50,
+      "unit": "g",
+      "price": 4,
+      "brand": "Hoyt's"
+    },
+    "wiki": {
+      "purpose": "Adds a distinctively bitter, peppery, and slightly onion-like flavour as a topping or seasoning. Primarily used as a visual and aromatic garnish on flatbreads, naan, Turkish bread, and pastries. Lightly toasted seeds enhance flavour; used whole rather than ground in most applications.",
+      "storage": "Store in an airtight container away from heat and light for up to 2–3 years.",
+      "substitutes": "",
+      "notes": "Small matte-black seeds with a slightly bitter, peppery flavour and subtle onion, oregano, and nutty notes. Popular in Middle Eastern, Indian, and North African cuisines; sprinkled on flatbreads, naan, pastries, pickles, vegetables, and legumes. In Filipino cooking, less traditional but useful for bread, rice dishes, and spice blends. Toast briefly in a dry pan to release flavour, but avoid burning.",
+      "nutrition": {
+        "calories": "375 per 100 g",
+        "carbohydrates": "44 g",
+        "fat": "22 g",
+        "fiber": "11 g",
+        "protein": "18 g",
+        "vitamins_minerals": "Contains iron, calcium, potassium, magnesium, zinc, and antioxidants; traditionally valued for potential anti-inflammatory and digestive benefits"
+      }
+    }
+  },
+  "nutmeg ground": {
+    "name": "nutmeg ground",
+    "displayName": "Nutmeg Ground",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "nutmeg ground"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "onion powder": {
+    "name": "onion powder",
+    "displayName": "Onion Powder",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "onion powder"
+    ],
+    "priceData": {
+      "size": 44,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "wiki": null
+  },
+  "paprika ground": {
+    "name": "paprika ground",
+    "displayName": "Paprika Ground",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "paprika ground"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "paprika smoked": {
+    "name": "paprika smoked",
+    "displayName": "Paprika Smoked",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "paprika smoked"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "paprika sweet": {
+    "name": "paprika sweet",
+    "displayName": "Paprika Sweet",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "paprika sweet"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "pepper black ground": {
+    "name": "pepper black ground",
+    "displayName": "Pepper Black Ground",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "pepper black ground"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "pepper black peppercorns": {
+    "name": "pepper black peppercorns",
+    "displayName": "Pepper Black Peppercorns",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "pepper black peppercorns"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "pepper green peppercorns": {
+    "name": "pepper green peppercorns",
+    "displayName": "Pepper Green Peppercorns",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "pepper green peppercorns"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "pepper white ground": {
+    "name": "pepper white ground",
+    "displayName": "Pepper White Ground",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "pepper white ground"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "poppy seeds": {
+    "name": "poppy seeds",
+    "displayName": "Poppy Seeds",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "poppy seeds"
+    ],
+    "priceData": {
+      "size": 240,
+      "unit": "g",
+      "price": 5,
+      "brand": "Hoyt's"
+    },
+    "wiki": null
+  },
+  "saffron": {
+    "name": "saffron",
+    "displayName": "Saffron",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "saffron"
+    ],
+    "priceData": {
+      "size": 250,
+      "unit": "mg",
+      "price": 14.9,
+      "brand": "MasterFoods"
+    },
+    "wiki": null
+  },
+  "salt": {
+    "name": "salt",
+    "displayName": "Salt",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "salt"
+    ],
+    "priceData": {
+      "size": 750,
+      "unit": "g",
+      "price": 4.5,
+      "brand": "Saxa"
+    },
+    "wiki": {
+      "purpose": "Enhances natural flavours, balances sweetness, strengthens gluten in doughs, and controls yeast activity. Coarse salts add crunch, texture, and visual appeal when used as a finishing touch.",
+      "storage": "Store in a cool, dry place to prevent clumping.",
+      "substitutes": "",
+      "notes": "Salt is primarily sodium chloride and is essential for seasoning, baking, and preserving food. - ** Coarse salts such as sea salt or kosher salt provide texture and visual appeal; often used as finishing salts. - **Tips:** Adjust quantities according to type; coarse salts are less dense by volume than fine salts. - **Pairings:** Enhances the flavour of all foods, balances sweetness in baked goods, and improves texture in breads and pastries.",
+      "nutrition": {
+        "calories": "0 per 100 g",
+        "carbohydrates": "0 g",
+        "fat": "0 g",
+        "fiber": "0 g",
+        "protein": "0 g",
+        "vitamins_minerals": "Contains primarily sodium; essential for fluid balance, nerve, and muscle function. Excess intake may impact blood pressure."
+      }
+    }
+  },
+  "salt chicken": {
+    "name": "salt chicken",
+    "displayName": "Salt Chicken",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "salt chicken"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "seasoning cajun": {
+    "name": "seasoning cajun",
+    "displayName": "Seasoning Cajun",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "seasoning cajun"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "seasoning chicken": {
+    "name": "seasoning chicken",
+    "displayName": "Seasoning Chicken",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "seasoning chicken"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "seasoning steak": {
+    "name": "seasoning steak",
+    "displayName": "Seasoning Steak",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "seasoning steak"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "seasoning taco": {
+    "name": "seasoning taco",
+    "displayName": "Seasoning Taco",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "seasoning taco"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "sesame seeds": {
+    "name": "sesame seeds",
+    "displayName": "Sesame Seeds",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "sesame seeds"
+    ],
+    "priceData": {
+      "size": 230,
+      "unit": "g",
+      "price": 5.2,
+      "brand": "Hoyt's"
+    },
+    "wiki": {
+      "purpose": "Adds nutty flavour, crunch, texture, and visual appeal. Can be incorporated into breads, pastries, cookies, granolas, and coatings; ground forms contribute to pastes, sauces, and dressings.",
+      "storage": "Store in a cool, dry place in an airtight container to preserve freshness.",
+      "substitutes": "",
+      "notes": "Common types and - **Black Sesame Seeds:** Earthier, slightly bitter; used for visual contrast, flavour, or in Asian desserts and breads. - **Usage Tips:** Toast lightly to release oils and enhance aroma. Can be added whole, crushed, or ground.",
+      "nutrition": {
+        "calories": "573 per 100 g",
+        "carbohydrates": "23.5 g",
+        "fat": "50 g",
+        "fiber": "11.8 g",
+        "protein": "17 g",
+        "vitamins_minerals": "Rich in calcium, magnesium, iron, phosphorus, and B vitamins. Contains healthy polyunsaturated and monounsaturated fats, plus antioxidants such as sesamol."
+      }
+    }
+  },
+  "star anise": {
+    "name": "star anise",
+    "displayName": "Star Anise",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "star anise"
+    ],
+    "priceData": {
+      "size": 12,
+      "unit": "g",
+      "price": 2.6,
+      "brand": "Hoyt's"
+    },
+    "wiki": null
+  },
+  "thyme leaves": {
+    "name": "thyme leaves",
+    "displayName": "Thyme Leaves",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "thyme leaves"
+    ],
+    "priceData": {
+      "size": 10,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "MasterFoods"
+    },
+    "wiki": null
+  },
+  "turmeric ground": {
+    "name": "turmeric ground",
+    "displayName": "Turmeric Ground",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "turmeric ground"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "yeast": {
+    "name": "yeast",
+    "displayName": "Yeast",
+    "category": "Spices Seasonings",
+    "aliases": [
+      "yeast"
+    ],
+    "priceData": {
+      "size": 130,
+      "unit": "g",
+      "price": 6,
+      "brand": "Lowan"
+    },
+    "wiki": {
+      "purpose": "Ferments sugars to produce carbon dioxide and alcohol, causing dough to rise and developing flavor, structure, and aroma in baked goods.",
+      "storage": "Store in a cool, dry place; refrigerate or freeze unopened yeast for extended shelf life.",
+      "substitutes": "",
+      "notes": "Available as active dry, instant (rapid-rise), and fresh yeast. Active dry should be bloomed in warm liquid (about 38–43°C). Instant yeast can be mixed directly into dry ingredients. Fresh yeast is highly perishable but offers strong fermentation. Sensitive to heat and salt; water that is too hot will kill it. Essential for breads, pizza dough, rolls, brioche, and fermented doughs.",
+      "nutrition": {
+        "calories": "105 per 100 g (dry yeast)",
+        "carbohydrates": "14 g",
+        "fat": "0.5 g",
+        "fiber": "0 g",
+        "protein": "40 g",
+        "vitamins_minerals": "Rich in B-vitamins (B1, B2, B3, B6, B9), selenium, chromium, and protein; contributes nutrients and umami flavor to baked goods."
+      }
+    }
+  },
+  "jam raspberry": {
+    "name": "jam raspberry",
+    "displayName": "Jam Raspberry",
+    "category": "Spreads",
+    "aliases": [
+      "jam raspberry"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "jam strawberry": {
+    "name": "jam strawberry",
+    "displayName": "Jam Strawberry",
+    "category": "Spreads",
+    "aliases": [
+      "jam strawberry"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "spread liver": {
+    "name": "spread liver",
+    "displayName": "Spread Liver",
+    "category": "Spreads",
+    "aliases": [
+      "spread liver"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "spread nutella": {
+    "name": "spread nutella",
+    "displayName": "Spread Nutella",
+    "category": "Spreads",
+    "aliases": [
+      "spread nutella"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "spread peanut butter": {
+    "name": "spread peanut butter",
+    "displayName": "Spread Peanut Butter",
+    "category": "Spreads",
+    "aliases": [
+      "spread peanut butter"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "spread vegemite": {
+    "name": "spread vegemite",
+    "displayName": "Spread Vegemite",
+    "category": "Spreads",
+    "aliases": [
+      "spread vegemite"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "gravy mix": {
+    "name": "gravy mix",
+    "displayName": "Gravy Mix",
+    "category": "Stock Broth",
+    "aliases": [
+      "gravy mix"
+    ],
+    "priceData": {
+      "size": 425,
+      "unit": "g",
+      "price": 5.6,
+      "brand": "Gravox"
+    },
+    "wiki": null
+  },
+  "stock beef": {
+    "name": "stock beef",
+    "displayName": "Stock Beef",
+    "category": "Stock Broth",
+    "aliases": [
+      "stock beef"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "stock beef cube": {
+    "name": "stock beef cube",
+    "displayName": "Stock Beef Cube",
+    "category": "Stock Broth",
+    "aliases": [
+      "stock beef cube"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "stock chicken": {
+    "name": "stock chicken",
+    "displayName": "Stock Chicken",
+    "category": "Stock Broth",
+    "aliases": [
+      "stock chicken"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "stock chicken cube": {
+    "name": "stock chicken cube",
+    "displayName": "Stock Chicken Cube",
+    "category": "Stock Broth",
+    "aliases": [
+      "stock chicken cube"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "stock pork": {
+    "name": "stock pork",
+    "displayName": "Stock Pork",
+    "category": "Stock Broth",
+    "aliases": [
+      "stock pork"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "stock pork cube": {
+    "name": "stock pork cube",
+    "displayName": "Stock Pork Cube",
+    "category": "Stock Broth",
+    "aliases": [
+      "stock pork cube"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "condensed milk": {
+    "name": "condensed milk",
+    "displayName": "Condensed Milk",
+    "category": "Sugar Sweeteners",
+    "aliases": [
+      "condensed milk"
+    ],
+    "priceData": {
+      "size": 395,
+      "unit": "g",
+      "price": 3.5,
+      "brand": "Nestle"
+    },
+    "wiki": null
+  },
+  "honey": {
+    "name": "honey",
+    "displayName": "Honey",
+    "category": "Sugar Sweeteners",
+    "aliases": [
+      "honey"
+    ],
+    "priceData": {
+      "size": 680,
+      "unit": "g",
+      "price": 9.9,
+      "brand": "Archibald's"
+    },
+    "wiki": {
+      "purpose": "Provides natural sweetness, moisture, and aromatic complexity; enhances browning, caramelisation, and flavor depth in both sweet and savory dishes.",
+      "storage": "Storage:** Store in a cool, dry place in a tightly sealed container.",
+      "substitutes": "",
+      "notes": "Honey is a natural sweetener produced by bees from floral nectar. - ** Retains moisture and promotes browning and caramelisation in baked goods. Raw honey preserves more enzymes and aroma; processed honey is milder and more consistent. May require reduced oven temperature and liquid adjustments in recipes. - **Pairings:** Complements fruits, nuts, yogurt, tea, cereals, cheese, and baked goods. - ** Crystallization is natural; gently warm to liquefy if desired. - **Substitutions:** Maple syrup, agave nectar, or golden syrup can be used with minor flavor differences.",
+      "nutrition": {
+        "calories": "304 per 100 g",
+        "carbohydrates": "82 g",
+        "fat": "0 g",
+        "fiber": "0.2 g",
+        "protein": "0.3 g",
+        "vitamins_minerals": "Contains trace amounts of vitamin C, calcium, iron, magnesium, and antioxidants."
+      }
+    }
+  },
+  "malt powder": {
+    "name": "malt powder",
+    "displayName": "Malt Powder",
+    "category": "Sugar Sweeteners",
+    "aliases": [
+      "malt powder"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "g",
+      "price": 8,
+      "brand": "Malt-O-Milk"
+    },
+    "wiki": {
+      "purpose": "Adds sweetness, enhances yeast activity, improves dough texture, and contributes rich crust color and malt aroma in baked goods.",
+      "storage": "Storage:** Store in a cool, dry place in an airtight container to maintain potency.",
+      "substitutes": "",
+      "notes": "Malt powder is derived from sprouted barley and comes in diastatic and non-diastatic forms. - ** Non-diastatic malt powder adds sweetness and malt flavor without affecting rising. Use in breads, rolls, bagels, and other baked goods. - **Pairings:** Complements flour, yeast, honey, chocolate, nuts, and milk. - ** - **Substitutions:** Honey or brown sugar can replace malt powder for sweetness, though enzymatic activity will not be the same.",
+      "nutrition": {
+        "calories": "350 per 100 g",
+        "carbohydrates": "85 g",
+        "fat": "1 g",
+        "fiber": "3 g",
+        "protein": "7 g",
+        "vitamins_minerals": "Contains small amounts of iron, calcium, and B vitamins. Primarily a source of carbohydrates."
+      }
+    }
+  },
+  "molasses": {
+    "name": "molasses",
+    "displayName": "Molasses",
+    "category": "Sugar Sweeteners",
+    "aliases": [
+      "molasses"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "g",
+      "price": 5,
+      "brand": "CSR"
+    },
+    "wiki": {
+      "purpose": "Adds deep, robust sweetness, dark color, and moisture to baked goods and sauces. Enhances flavor complexity and richness, particularly in dense breads, spiced desserts, and savory glazes.",
+      "storage": "Storage:** Store in a cool, dry place in a sealed container to prevent crystallization.",
+      "substitutes": "",
+      "notes": "Molasses is a by-product of sugar refining, dark, thick, and robust in flavor. - ** Blackstrap molasses is stronger and more bitter than light or dark molasses; adjust quantity to taste. - **Pairings:** Complements spices like ginger, cinnamon, nutmeg, cloves, citrus, chocolate, and nuts. - ** Refrigeration can extend shelf life. - **Substitutions:** Light or dark molasses, honey, or brown sugar can replace molasses, though flavor intensity will differ.",
+      "nutrition": {
+        "calories": "290 per 100 g",
+        "carbohydrates": "74 g",
+        "fat": "0 g",
+        "fiber": "0 g",
+        "protein": "0 g",
+        "vitamins_minerals": "High in iron, calcium, magnesium, and potassium. Blackstrap molasses contains more minerals than lighter varieties."
+      }
+    }
+  },
+  "sugar brown": {
+    "name": "sugar brown",
+    "displayName": "Sugar Brown",
+    "category": "Sugar Sweeteners",
+    "aliases": [
+      "sugar brown"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "sugar caster": {
+    "name": "sugar caster",
+    "displayName": "Sugar Caster",
+    "category": "Sugar Sweeteners",
+    "aliases": [
+      "sugar caster"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "sugar icing": {
+    "name": "sugar icing",
+    "displayName": "Sugar Icing",
+    "category": "Sugar Sweeteners",
+    "aliases": [
+      "sugar icing"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "sugar white": {
+    "name": "sugar white",
+    "displayName": "Sugar White",
+    "category": "Sugar Sweeteners",
+    "aliases": [
+      "sugar white"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "syrup golden": {
+    "name": "syrup golden",
+    "displayName": "Syrup Golden",
+    "category": "Sugar Sweeteners",
+    "aliases": [
+      "syrup golden"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "syrup maple": {
+    "name": "syrup maple",
+    "displayName": "Syrup Maple",
+    "category": "Sugar Sweeteners",
+    "aliases": [
+      "syrup maple"
+    ],
+    "priceData": null,
+    "wiki": null
+  },
+  "treacle": {
+    "name": "treacle",
+    "displayName": "Treacle",
+    "category": "Sugar Sweeteners",
+    "aliases": [
+      "treacle"
+    ],
+    "priceData": {
+      "size": 500,
+      "unit": "g",
+      "price": 6.5,
+      "brand": "CSR"
+    },
+    "wiki": null
+  },
+  "yoghurt greek": {
+    "name": "yoghurt greek",
+    "displayName": "Yoghurt Greek",
+    "category": "Yoghurt",
+    "aliases": [
+      "yoghurt greek"
+    ],
+    "priceData": null,
+    "wiki": null
+  }
+}

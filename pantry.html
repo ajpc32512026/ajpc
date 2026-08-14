@@ -19,73 +19,47 @@
             <div class="reference-header">
                 <span class="reference-eyebrow">Kitchen</span>
                 <h1>My Pantry</h1>
-                <p class="reference-description">Track what you have so the shopping list only shows what you actually need to buy.</p>
+                <p class="reference-description">Search once to find or add anything — your own items and the full staples list live in the same place now.</p>
             </div>
 
-            <!-- View tabs -->
-            <div class="pantry-view-tabs">
-                <button class="pantry-tab active" data-view="myitems">My Items</button>
-                <button class="pantry-tab" data-view="stocktake">Stocktake</button>
-            </div>
-			
-
-            <!-- ══════════════ MY ITEMS VIEW ══════════════ -->
-            <div id="pantryMyItemsView">
-
-                <!-- Quick Add Bar -->
-                <div class="pantry-add-bar">
-                    <input type="text" id="pantrySearchInput"
-                        class="pantry-search-input"
-                        placeholder="Search or add an ingredient..."
-                        autocomplete="off"
-                        aria-label="Search or add ingredient">
-                    <button class="btn-add-pantry" id="pantryAddBtn">Add to Pantry</button>
-                </div>
-                <div class="pantry-autocomplete" id="pantryAutocomplete"></div>
-<!-- Actions -->
-                <div class="pantry-actions">
-                    <button class="enh-btn" id="pantryImportBtn">Load from Recipe...</button>
-                    <button class="enh-btn enh-btn-remove" id="pantryClearBtn">Clear Pantry</button>
-                </div>
-                <!-- Stats -->
-                <div class="pantry-stats" id="pantryStats"></div>
-
-                <!-- Filter tabs -->
-                <div class="pantry-filter-bar">
-                    <button class="pantry-filter-btn active" data-filter="all">All</button>
-                    <button class="pantry-filter-btn" data-filter="low">Running Low</button>
-                </div>
-
-                <!-- Pantry List -->
-                <div id="pantryList" class="pantry-list"></div>
-
-                <!-- Empty state -->
-                <div id="pantryEmpty" class="pantry-empty" style="display:none;">
-                    <p>Your pantry is empty. Add ingredients above, use the Stocktake tab to check off what you have, or open any recipe and use the shopping list to load its ingredients.</p>
-                </div>
-
-                
-
+            <!-- Search — filters everything below live, and doubles as "add new" -->
+            <div class="pantry-add-bar">
+                <input type="text" id="pantrySearchInput"
+                    class="pantry-search-input"
+                    placeholder="Search your pantry or the full ingredient list..."
+                    autocomplete="off"
+                    aria-label="Search pantry">
             </div>
 
-            <!-- ══════════════ STOCKTAKE VIEW ══════════════ -->
-            <div id="pantryStocktakeView" style="display:none;">
-
-                <div class="pantry-stocktake-bar">
-                    <span class="pantry-stocktake-note">Tick off anything you already have on hand.</span>
-                    <div class="pantry-stocktake-actions">
-                        <button class="enh-btn" id="stocktakeCheckAllBtn">Check All Visible</button>
-                        <button class="enh-btn enh-btn-remove" id="stocktakeUncheckAllBtn">Uncheck All Visible</button>
-                    </div>
-                </div>
-
-                <div class="pantry-category-filter" id="pantryCategoryFilter"></div>
-
-                <div id="pantryStocktakeList" class="pantry-stocktake-list"></div>
-
+            <!-- Actions -->
+            <div class="pantry-actions">
+                <button class="enh-btn" id="pantryImportBtn">Load from Recipe...</button>
+                <button class="enh-btn enh-btn-remove" id="pantryClearBtn">Clear Pantry</button>
             </div>
 
-            <!-- Import modal (shared) -->
+            <!-- Stats -->
+            <div class="pantry-stats" id="pantryStats"></div>
+
+            <!-- Status filter -->
+            <div class="pantry-filter-bar">
+                <button class="pantry-filter-btn active" data-filter="all">All</button>
+                <button class="pantry-filter-btn" data-filter="have">Have</button>
+                <button class="pantry-filter-btn" data-filter="need">Need to Buy</button>
+                <button class="pantry-filter-btn" data-filter="low">Running Low</button>
+            </div>
+
+            <!-- Category filter (only meaningful while not searching) -->
+            <div class="pantry-category-filter" id="pantryCategoryFilter"></div>
+
+            <!-- Unified list -->
+            <div id="pantryList" class="pantry-list"></div>
+
+            <!-- Empty state -->
+            <div id="pantryEmpty" class="pantry-empty" style="display:none;">
+                <p>Nothing matches the current filters. Try "All" above, or search for something to add it.</p>
+            </div>
+
+            <!-- Import modal -->
             <div id="pantryImportModal" class="enh-modal-overlay" style="display:none;">
                 <div class="enh-modal-box">
                     <div class="enh-modal-header">
@@ -111,7 +85,7 @@
 
     <footer>
         <div class="footer-inner">
-		<span class="footer-brand">The Kitchen Notebook</span>
+			<span class="footer-brand">The Kitchen Notebook</span>
             <p class="footer-copy">&copy; 2026 The Kitchen Notebook. Built with &#9749; and patience.</p>
         </div>
     </footer>
@@ -120,16 +94,20 @@
 
     <script src="js/nav-loader.js"></script>
     <script src="js/user-prefs.js"></script>
-    <script src="js/pantry-staples.js"></script>
     <script src="js/pantry.js"></script>
     <script>
     (function () {
         'use strict';
 
         var recipeIndex = [];
-        var currentFilter = 'all';
-        var currentView = 'myitems';
-        var stocktakeFilterCat = 'all';
+        var currentSearch = '';
+        var currentStatusFilter = 'all';
+        var currentCategoryFilter = 'all';
+
+        // key (lowercase staple name) -> category. Built once, since the
+        // staples catalog itself is static; custom items get 'Other'
+        // assigned the first time they're added.
+        var categoryLookup = {};
 
         function pantryApi() {
             return window.KitchenNotebook && window.KitchenNotebook.Pantry;
@@ -142,114 +120,269 @@
                 if (res.ok) recipeIndex = await res.json();
             } catch(e) {}
 
-            renderPantry();
-            renderStats();
+            try {
+                var staplesRes = await fetch('json/pantry-staples.json?t=' + Date.now());
+                if (staplesRes.ok) window.PANTRY_STAPLES = await staplesRes.json();
+            } catch(e) {
+                console.warn('Could not load pantry-staples.json:', e);
+            }
+
+            buildCategoryLookup();
+            initCategoryFilter();
+            initStatusFilters();
             initSearch();
-            initFilters();
             initListDelegation();
             initActions();
             initImportModal();
-            initTabs();
-            initStocktake();
+            renderUnified();
         }
 
-        // ── View tabs ─────────────────────────────────────
-        function initTabs() {
-            document.querySelectorAll('.pantry-tab').forEach(function(btn) {
-                btn.addEventListener('click', function() {
-                    document.querySelectorAll('.pantry-tab').forEach(function(b) { b.classList.remove('active'); });
-                    btn.classList.add('active');
-                    currentView = btn.dataset.view;
-                    document.getElementById('pantryMyItemsView').style.display = currentView === 'myitems' ? '' : 'none';
-                    document.getElementById('pantryStocktakeView').style.display = currentView === 'stocktake' ? '' : 'none';
-                    if (currentView === 'stocktake') renderStocktake();
+        function buildCategoryLookup() {
+            if (!window.PANTRY_STAPLES) return;
+            Object.keys(window.PANTRY_STAPLES).forEach(function(cat) {
+                window.PANTRY_STAPLES[cat].forEach(function(name) {
+                    categoryLookup[name.toLowerCase().trim()] = cat;
                 });
             });
         }
 
-        // ── Render pantry list (My Items) ─────────────────
-        function renderPantry() {
+        function getAllCategories() {
+            var cats = window.PANTRY_STAPLES ? Object.keys(window.PANTRY_STAPLES).sort() : [];
+            cats.push('Other');
+            return cats;
+        }
+
+        // Combined universe = every known staple + any custom pantry items
+        // that aren't in the staples catalog. This is the single source of
+        // truth for both searching and category browsing.
+        function getUniverse() {
+            var Pantry = pantryApi();
+            var pantry = Pantry ? Pantry.getAll() : {};
+            var seen = {};
+            var items = [];
+
+            Object.keys(categoryLookup).forEach(function(key) {
+                seen[key] = true;
+                items.push({ key: key, category: categoryLookup[key] });
+            });
+
+            Object.keys(pantry).forEach(function(key) {
+                if (!seen[key]) {
+                    items.push({ key: key, category: categoryLookup[key] || 'Other' });
+                    seen[key] = true;
+                }
+            });
+
+            return items;
+        }
+
+        // ── Category filter chips ──────────────────────────
+        function initCategoryFilter() {
+            var bar = document.getElementById('pantryCategoryFilter');
+            if (!bar) return;
+
+            var html = '<button class="pantry-cat-btn active" data-cat="all">All</button>';
+            getAllCategories().forEach(function(c) {
+                html += '<button class="pantry-cat-btn" data-cat="' + esc(c) + '">' + esc(c) + '</button>';
+            });
+            bar.innerHTML = html;
+
+            bar.addEventListener('click', function(e) {
+                var btn = e.target.closest('.pantry-cat-btn');
+                if (!btn) return;
+                bar.querySelectorAll('.pantry-cat-btn').forEach(function(b) { b.classList.remove('active'); });
+                btn.classList.add('active');
+                currentCategoryFilter = btn.dataset.cat;
+                renderUnified();
+            });
+        }
+
+        // ── Status filter chips (All / Have / Need to Buy / Running Low) ──
+        function initStatusFilters() {
+            document.querySelectorAll('.pantry-filter-btn').forEach(function(btn) {
+                btn.addEventListener('click', function() {
+                    document.querySelectorAll('.pantry-filter-btn').forEach(function(b) {
+                        b.classList.remove('active');
+                    });
+                    btn.classList.add('active');
+                    currentStatusFilter = btn.dataset.filter;
+                    renderUnified();
+                });
+            });
+        }
+
+        // ── Search — filters the list live, no separate autocomplete ──────
+        function initSearch() {
+            var input = document.getElementById('pantrySearchInput');
+            if (!input) return;
+
+            input.addEventListener('input', function() {
+                currentSearch = input.value;
+                renderUnified();
+            });
+
+            // Enter only acts when an "add as new" prompt is actually showing
+            // (i.e. the typed term has no exact match) - this avoids accidentally
+            // adding something while you're just browsing/searching.
+            input.addEventListener('keydown', function(e) {
+                if (e.key !== 'Enter') return;
+                e.preventDefault();
+                var addBtn = document.querySelector('.pantry-add-new-btn');
+                if (addBtn) addBtn.click();
+            });
+        }
+
+        // ── Unified render ──────────────────────────────────
+        function renderUnified() {
             var list = document.getElementById('pantryList');
             var empty = document.getElementById('pantryEmpty');
             var Pantry = pantryApi();
             if (!list || !Pantry) return;
 
             var pantry = Pantry.getAll();
-            var names = Object.keys(pantry).sort();
+            var query = currentSearch.trim().toLowerCase();
+            var universe = getUniverse();
 
-            // Apply filter
-            if (currentFilter === 'low') {
-                names = names.filter(function(n) { return pantry[n].level === 'LOW' || pantry[n].level === 'EMPTY'; });
+            // Status filter
+            universe = universe.filter(function(it) {
+                var entry = pantry[it.key];
+                var level = entry ? (entry.level || 'FULL') : null;
+                if (currentStatusFilter === 'have') return !!entry;
+                if (currentStatusFilter === 'need') return !entry || level === 'LOW' || level === 'EMPTY';
+                if (currentStatusFilter === 'low') return level === 'LOW' || level === 'EMPTY';
+                return true;
+            });
+
+            // Category filter
+            if (currentCategoryFilter !== 'all') {
+                universe = universe.filter(function(it) { return it.category === currentCategoryFilter; });
             }
 
-            if (!names.length) {
-                list.innerHTML = '';
-                empty.style.display = 'block';
+            // Search filter
+            if (query) {
+                universe = universe.filter(function(it) { return it.key.indexOf(query) !== -1; });
+            }
+
+            renderStats();
+
+            if (!universe.length) {
+                if (query) {
+                    list.innerHTML = renderAddNewRow(currentSearch.trim());
+                    empty.style.display = 'none';
+                } else {
+                    list.innerHTML = '';
+                    empty.style.display = 'block';
+                }
                 return;
             }
             empty.style.display = 'none';
 
-            var LEVELS = Pantry.STOCK_LEVELS;
-
-            // Group by first letter
-            var groups = {};
-            names.forEach(function(name) {
-                var l = name[0].toUpperCase();
-                if (!groups[l]) groups[l] = [];
-                groups[l].push(name);
-            });
-
             var html = '';
-            Object.keys(groups).sort().forEach(function(letter) {
+
+            if (query) {
+                // Flat, sorted list for fast scanning while searching
+                universe.sort(function(a, b) { return a.key.localeCompare(b.key); });
                 html += '<div class="pantry-group">';
-                html += '<div class="pantry-group-letter">' + letter + '</div>';
-                groups[letter].forEach(function(name) {
-                    var entry = pantry[name];
-                    var level = entry.level || null;
-                    var levelCls = level ? ' pantry-item-' + level.toLowerCase() : '';
+                universe.forEach(function(it) { html += renderItemRow(it, pantry); });
+                html += '</div>';
 
-                    html += '<div class="pantry-item' + levelCls + '" data-name="' + esc(name) + '">';
-                    html += '<span class="pantry-item-name">' + esc(cap(name)) + '</span>';
-                    html += '<div class="pantry-item-controls">';
-
-                    html += '<div class="pantry-level-btns">';
-                    Object.keys(LEVELS).forEach(function(lvl) {
-                        html += '<button class="pantry-level-btn' + (level === lvl ? ' active' : '') + '" '
-                            + 'data-name="' + esc(name) + '" data-level="' + lvl + '" '
-                            + 'title="' + LEVELS[lvl].desc + '">'
-                            + LEVELS[lvl].icon + '</button>';
-                    });
-                    html += '</div>';
-
-                    html += '<button class="pantry-remove-btn" data-name="' + esc(name) + '" aria-label="Remove from pantry">&times;</button>';
+                var exact = universe.some(function(it) { return it.key === query; });
+                if (!exact) {
+                    html += renderAddNewRow(currentSearch.trim());
+                }
+            } else {
+                // Grouped by category for browsing
+                var byCategory = {};
+                universe.forEach(function(it) {
+                    if (!byCategory[it.category]) byCategory[it.category] = [];
+                    byCategory[it.category].push(it);
+                });
+                Object.keys(byCategory).sort().forEach(function(cat) {
+                    var items = byCategory[cat].slice().sort(function(a, b) { return a.key.localeCompare(b.key); });
+                    html += '<div class="stocktake-category">';
+                    html += '<div class="stocktake-group-title">' + esc(cat) + '</div>';
+                    html += '<div class="pantry-group">';
+                    items.forEach(function(it) { html += renderItemRow(it, pantry); });
                     html += '</div></div>';
                 });
-                html += '</div>';
-            });
+            }
 
             list.innerHTML = html;
         }
 
-        // Event delegation for the pantry list — attached once, not
-        // re-attached on every render (list.innerHTML is rebuilt but the
-        // container node itself persists).
+        function renderItemRow(it, pantry) {
+            var Pantry = pantryApi();
+            var LEVELS = Pantry.STOCK_LEVELS;
+            var entry = pantry[it.key];
+            var level = entry ? (entry.level || 'FULL') : null;
+            var levelCls = level ? ' pantry-item-' + level.toLowerCase() : ' pantry-item-need';
+
+            var html = '<div class="pantry-item' + levelCls + '" data-name="' + esc(it.key) + '">';
+            html += '<span class="pantry-item-name">' + esc(cap(it.key)) + '</span>';
+            html += '<div class="pantry-item-controls">';
+
+            if (entry) {
+                html += '<div class="pantry-level-btns">';
+                Object.keys(LEVELS).forEach(function(lvl) {
+                    html += '<button class="pantry-level-btn' + (level === lvl ? ' active' : '') + '" '
+                        + 'data-name="' + esc(it.key) + '" data-level="' + lvl + '" '
+                        + 'title="' + LEVELS[lvl].desc + '">'
+                        + LEVELS[lvl].icon + '</button>';
+                });
+                html += '</div>';
+                html += '<button class="pantry-remove-btn" data-name="' + esc(it.key) + '" aria-label="Remove from pantry">&times;</button>';
+            } else {
+                html += '<button class="enh-btn pantry-have-btn" data-name="' + esc(it.key) + '">I have this</button>';
+            }
+
+            html += '</div></div>';
+            return html;
+        }
+
+        function renderAddNewRow(term) {
+            if (!term) return '';
+            return '<div class="pantry-item pantry-add-new-row" style="opacity:1;">'
+                + '<span class="pantry-item-name">No match for &ldquo;' + esc(term) + '&rdquo;</span>'
+                + '<div class="pantry-item-controls">'
+                + '<button class="enh-btn pantry-add-new-btn" data-name="' + esc(term) + '">Add &ldquo;' + esc(term) + '&rdquo; to pantry</button>'
+                + '</div></div>';
+        }
+
+        // Single delegated listener handles every control in the list -
+        // attached once, list.innerHTML is rebuilt but the container persists.
         function initListDelegation() {
             var list = document.getElementById('pantryList');
             if (!list) return;
             list.addEventListener('click', function(e) {
                 var Pantry = pantryApi();
                 if (!Pantry) return;
+
                 var removeBtn = e.target.closest('.pantry-remove-btn');
                 var levelBtn  = e.target.closest('.pantry-level-btn');
+                var haveBtn   = e.target.closest('.pantry-have-btn');
+                var addNewBtn = e.target.closest('.pantry-add-new-btn');
 
                 if (removeBtn) {
                     Pantry.set(removeBtn.dataset.name, false);
-                    renderPantry();
-                    renderStats();
+                    renderUnified();
                 }
                 if (levelBtn) {
                     Pantry.setLevel(levelBtn.dataset.name, levelBtn.dataset.level);
-                    renderPantry();
+                    renderUnified();
+                }
+                if (haveBtn) {
+                    Pantry.set(haveBtn.dataset.name, true, 'FULL');
+                    renderUnified();
+                }
+                if (addNewBtn) {
+                    var key = addNewBtn.dataset.name.toLowerCase().trim();
+                    if (!key) return;
+                    Pantry.set(key, true, 'FULL');
+                    if (!categoryLookup[key]) categoryLookup[key] = 'Other';
+                    var input = document.getElementById('pantrySearchInput');
+                    if (input) input.value = '';
+                    currentSearch = '';
+                    renderUnified();
                 }
             });
         }
@@ -269,91 +402,7 @@
                 + (empty ? '<span class="pantry-stat-empty">' + empty + ' empty</span>' : '');
         }
 
-        // ── Search / Add ──────────────────────────────────
-        function initSearch() {
-            var input = document.getElementById('pantrySearchInput');
-            var ac    = document.getElementById('pantryAutocomplete');
-            var btn   = document.getElementById('pantryAddBtn');
-            var Pantry = pantryApi();
-
-            // Build suggestion list from the full staples reference (505
-            // ingredients across 27 categories), not just the small
-            // stock-level-tracked set.
-            var suggestions = [];
-            try {
-                if (window.PANTRY_STAPLES) {
-                    var seen = {};
-                    Object.keys(window.PANTRY_STAPLES).forEach(function(cat) {
-                        window.PANTRY_STAPLES[cat].forEach(function(n) {
-                            var key = n.toLowerCase().trim();
-                            if (!seen[key]) { seen[key] = true; suggestions.push(key); }
-                        });
-                    });
-                }
-            } catch(e) {}
-
-            input.addEventListener('input', function() {
-                var val = input.value.trim().toLowerCase();
-                if (!val) { ac.innerHTML = ''; ac.style.display = 'none'; return; }
-
-                var matches = suggestions.filter(function(s) {
-                    return s.includes(val) && !(Pantry && Pantry.has(s));
-                }).slice(0, 8);
-
-                if (!matches.length) { ac.innerHTML = ''; ac.style.display = 'none'; return; }
-
-                ac.innerHTML = matches.map(function(m) {
-                    return '<div class="pantry-ac-item" data-val="' + esc(m) + '">' + esc(cap(m)) + '</div>';
-                }).join('');
-                ac.style.display = 'block';
-            });
-
-            ac.addEventListener('click', function(e) {
-                var item = e.target.closest('.pantry-ac-item');
-                if (!item) return;
-                input.value = item.dataset.val;
-                ac.innerHTML = ''; ac.style.display = 'none';
-            });
-
-            btn.addEventListener('click', addFromInput);
-            input.addEventListener('keydown', function(e) {
-                if (e.key === 'Enter') addFromInput();
-            });
-
-            document.addEventListener('click', function(e) {
-                if (!ac.contains(e.target) && e.target !== input) {
-                    ac.style.display = 'none';
-                }
-            });
-        }
-
-        function addFromInput() {
-            var input = document.getElementById('pantrySearchInput');
-            var Pantry = pantryApi();
-            var val = input.value.trim();
-            if (!val || !Pantry) return;
-            Pantry.set(val, true);
-            input.value = '';
-            document.getElementById('pantryAutocomplete').style.display = 'none';
-            renderPantry();
-            renderStats();
-        }
-
-        // ── Filter tabs (My Items) ─────────────────────────
-        function initFilters() {
-            document.querySelectorAll('.pantry-filter-btn').forEach(function(btn) {
-                btn.addEventListener('click', function() {
-                    document.querySelectorAll('.pantry-filter-btn').forEach(function(b) {
-                        b.classList.remove('active');
-                    });
-                    btn.classList.add('active');
-                    currentFilter = btn.dataset.filter;
-                    renderPantry();
-                });
-            });
-        }
-
-        // ── Actions ───────────────────────────────────────
+        // ── Actions (Load from Recipe / Clear Pantry) ──────
         function initActions() {
             var clearBtn = document.getElementById('pantryClearBtn');
             if (clearBtn) {
@@ -362,9 +411,7 @@
                     if (!Pantry) return;
                     if (!confirm('Clear your entire pantry? This cannot be undone.')) return;
                     Pantry.clear();
-                    renderPantry();
-                    renderStats();
-                    if (currentView === 'stocktake') renderStocktake();
+                    renderUnified();
                 });
             }
 
@@ -434,100 +481,10 @@
                 var recipe = await res.json();
                 if (Pantry) Pantry.loadFromRecipe(recipe.ingredients || []);
                 document.getElementById('pantryImportModal').style.display = 'none';
-                renderPantry();
-                renderStats();
-                if (currentView === 'stocktake') renderStocktake();
+                renderUnified();
             } catch(e) {
                 alert('Could not load recipe: ' + e.message);
             }
-        }
-
-        // ── Stocktake tab ───────────────────────────────────
-        function initStocktake() {
-            initCategoryFilter();
-
-            var list = document.getElementById('pantryStocktakeList');
-            if (list) {
-                list.addEventListener('change', function(e) {
-                    var cb = e.target.closest('.stocktake-cb');
-                    if (!cb) return;
-                    var Pantry = pantryApi();
-                    if (!Pantry) return;
-                    Pantry.set(cb.dataset.name, cb.checked);
-                    var row = cb.closest('.stocktake-item');
-                    if (row) row.classList.toggle('has-it', cb.checked);
-                    renderStats();
-                });
-            }
-
-            var checkAllBtn = document.getElementById('stocktakeCheckAllBtn');
-            var uncheckAllBtn = document.getElementById('stocktakeUncheckAllBtn');
-            if (checkAllBtn) checkAllBtn.addEventListener('click', function() { bulkSetVisible(true); });
-            if (uncheckAllBtn) uncheckAllBtn.addEventListener('click', function() { bulkSetVisible(false); });
-        }
-
-        function bulkSetVisible(have) {
-            var Pantry = pantryApi();
-            if (!Pantry) return;
-            document.querySelectorAll('#pantryStocktakeList .stocktake-cb').forEach(function(cb) {
-                Pantry.set(cb.dataset.name, have);
-            });
-            renderStocktake();
-            renderStats();
-            if (currentView !== 'stocktake') renderPantry();
-        }
-
-        function initCategoryFilter() {
-            var bar = document.getElementById('pantryCategoryFilter');
-            if (!bar || !window.PANTRY_STAPLES) return;
-
-            var cats = Object.keys(window.PANTRY_STAPLES).sort();
-            var html = '<button class="pantry-cat-btn active" data-cat="all">All</button>';
-            cats.forEach(function(c) {
-                html += '<button class="pantry-cat-btn" data-cat="' + esc(c) + '">' + esc(c) + '</button>';
-            });
-            bar.innerHTML = html;
-
-            bar.addEventListener('click', function(e) {
-                var btn = e.target.closest('.pantry-cat-btn');
-                if (!btn) return;
-                bar.querySelectorAll('.pantry-cat-btn').forEach(function(b) { b.classList.remove('active'); });
-                btn.classList.add('active');
-                stocktakeFilterCat = btn.dataset.cat;
-                renderStocktake();
-            });
-        }
-
-        function renderStocktake() {
-            var list = document.getElementById('pantryStocktakeList');
-            var Pantry = pantryApi();
-            if (!list || !Pantry || !window.PANTRY_STAPLES) return;
-
-            var cats = Object.keys(window.PANTRY_STAPLES).sort();
-            if (stocktakeFilterCat !== 'all') cats = cats.filter(function(c) { return c === stocktakeFilterCat; });
-
-            var html = '';
-            cats.forEach(function(cat) {
-                var items = window.PANTRY_STAPLES[cat].slice().sort(function(a, b) {
-                    return a.toLowerCase().localeCompare(b.toLowerCase());
-                });
-
-                html += '<div class="stocktake-category">';
-                html += '<div class="stocktake-group-title">' + esc(cat) + '</div>';
-                html += '<div class="stocktake-items">';
-                items.forEach(function(name) {
-                    var key = name.toLowerCase().trim();
-                    var has = Pantry.has(key);
-                    html += '<div class="stocktake-item' + (has ? ' has-it' : '') + '">';
-                    html += '<label class="stocktake-label">';
-                    html += '<input type="checkbox" class="stocktake-cb" data-name="' + esc(key) + '"' + (has ? ' checked' : '') + '>';
-                    html += '<span class="stocktake-name">' + esc(cap(name)) + '</span>';
-                    html += '</label></div>';
-                });
-                html += '</div></div>';
-            });
-
-            list.innerHTML = html || '<p class="pantry-no-results">No staples in this category.</p>';
         }
 
         // ── Helpers ───────────────────────────────────────
