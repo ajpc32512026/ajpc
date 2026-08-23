@@ -9,6 +9,7 @@
   "servings": "1 serving",
   "difficulty": "Intermediate",
   "tags": [
+    "Bistro",
     "Chicken",
     "Creamy",
     "Dinner",
@@ -55,8 +56,9 @@
       "notes": "diced"
     },
     {
+      "quantity": "",
+      "unit": "",
       "item": "Salt & Pepper",
-      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -133,5 +135,6 @@
     "vitamin_c_mg": 179,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-05-24"
+  "lastModified": "2026-05-24",
+  "yieldPerBatch": "1 serving"
 }

@@ -9,13 +9,14 @@
   "totalTime": "18 min",
   "servings": "1 serving",
   "tags": [
+    "Air Fryer",
     "Australian",
-    "Classic",
+    "Bistro",
+    "Deep-Fried",
     "Dinner",
     "Lamb",
-    "Rich",
-    "Savoury",
-    "Under 1 Hour"
+    "Lunch",
+    "Savoury"
   ],
   "ingredients": [
     {
@@ -65,8 +66,9 @@
       "notes": "diced"
     },
     {
+      "quantity": "",
+      "unit": "",
       "item": "Salt & Pepper",
-      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -125,5 +127,6 @@
     "vitamin_c_mg": 7,
     "vitamin_d_ug": 26
   },
-  "lastModified": "2026-06-04"
+  "lastModified": "2026-06-04",
+  "yieldPerBatch": "1 serving"
 }

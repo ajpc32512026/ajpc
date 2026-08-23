@@ -9,12 +9,15 @@
   "servings": "1 batch",
   "difficulty": "Beginner",
   "tags": [
+    "Condiment",
+    "Curry",
+    "Gluten-Free",
     "Indian",
     "Make Ahead",
     "Savoury",
     "Spicy",
     "Vegan",
-    "Gluten-Free"
+    "Vegetarian"
   ],
   "ingredients": [
     {
@@ -148,5 +151,6 @@
     "vitamin_a_ug": 3872,
     "vitamin_c_mg": 1896
   },
-  "lastModified": "2026-05-23"
+  "lastModified": "2026-05-23",
+  "yieldPerBatch": "1 batch"
 }

@@ -10,6 +10,7 @@
   "difficulty": "Intermediate",
   "tags": [
     "Alcohol",
+    "Bistro",
     "Chicken",
     "Classic",
     "Creamy",
@@ -60,8 +61,9 @@
       "item": "White Wine"
     },
     {
+      "quantity": "",
+      "unit": "",
       "item": "Salt & Pepper",
-      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in.(used 5x)"
     }
   ],
@@ -194,5 +196,6 @@
     "vitamin_c_mg": 8,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-05-31"
+  "lastModified": "2026-05-31",
+  "yieldPerBatch": "1 serving"
 }

@@ -7,9 +7,11 @@
   "cookTime": "35 min",
   "totalTime": "1 hr 35 min",
   "servings": "4 servings",
+  "yieldPerBatch": "1 flan",
   "difficulty": "Intermediate",
   "tags": [
     "Baked",
+    "Baking",
     "Dinner",
     "French",
     "Pastry",
@@ -20,18 +22,15 @@
   ],
   "ingredients": [
     {
-      "heading": "Pastry"
-    },
-    {
       "quantity": "250",
       "unit": "g",
       "item": "Plain Flour"
     },
     {
-      "quantity": "90",
+      "quantity": "105",
       "unit": "g",
       "item": "Unsalted Butter",
-      "notes": "chilled and cubed"
+      "notes": "divided: 90g for Pastry, 15g for Filling"
     },
     {
       "quantity": "1",
@@ -45,9 +44,6 @@
       "notes": "cold"
     },
     {
-      "heading": "Filling"
-    },
-    {
       "quantity": "30",
       "unit": "ml",
       "item": "Olive Oil"
@@ -56,11 +52,6 @@
       "quantity": "10",
       "unit": "g",
       "item": "Dijon Mustard"
-    },
-    {
-      "quantity": "15",
-      "unit": "g",
-      "item": "Unsalted Butter"
     },
     {
       "quantity": "6",
@@ -105,7 +96,7 @@
     },
     {
       "step": 2,
-      "instruction": "Place flour and chilled butter in a food processor and process until the mixture resembles fine crumbs."
+      "instruction": "Place 250 g plain flour and 90 g of the cold, cubed unsalted butter in a food processor and process until the mixture resembles fine crumbs."
     },
     {
       "step": 3,
@@ -129,7 +120,7 @@
     },
     {
       "step": 8,
-      "instruction": "Heat butter in a pan and cook tomatoes and onions until soft. Drain off excess liquid."
+      "instruction": "Heat the remaining 15 g of unsalted butter in a pan and cook tomatoes and onions until soft. Drain off excess liquid."
     },
     {
       "step": 9,
@@ -200,6 +191,5 @@
     "vitamin_c_mg": 16,
     "vitamin_d_ug": 5
   },
-  "lastModified": "2026-05-24",
-  "cuisine": "French"
+  "lastModified": "2026-08-19"
 }

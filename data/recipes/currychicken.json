@@ -15,7 +15,9 @@
     "Curry",
     "Dinner",
     "Easy",
-    "Make Ahead"
+    "Make Ahead",
+    "Savoury",
+    "Spicy"
   ],
   "ingredients": [
     {
@@ -177,5 +179,6 @@
     "vitamin_c_mg": 25,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-07-21",
+  "yieldPerBatch": "1 batch"
 }

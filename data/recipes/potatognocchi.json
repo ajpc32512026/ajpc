@@ -13,14 +13,12 @@
     "Classic",
     "Dinner",
     "Italian",
+    "Pasta",
     "Rich",
     "Savoury",
     "Vegetarian"
   ],
   "ingredients": [
-    {
-      "heading": "Gnocchi"
-    },
     {
       "quantity": "500",
       "unit": "g",
@@ -53,9 +51,6 @@
       "quantity": "1",
       "unit": "g",
       "item": "Black Pepper"
-    },
-    {
-      "heading": "Tomato Sauce"
     },
     {
       "quantity": "1000",
@@ -148,5 +143,6 @@
     "vitamin_a_ug": 214,
     "vitamin_c_mg": 40
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-07-21",
+  "yieldPerBatch": "4 servings"
 }

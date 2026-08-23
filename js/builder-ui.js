@@ -78,6 +78,89 @@ function addEquipmentItem(item='', notes='') {
     update();
 }
 
+// Handler when pressing Enter on the equipment input
+function handleEquipmentEnter(e) {
+    if (e.key === 'Enter') {
+        e.preventDefault();
+        const input = e.target;
+        const value = input.value.trim();
+        if (!value) return;
+
+        const parts = value.split('|');
+        const item = parts[0].trim();
+        const notes = parts[1] ? parts[1].trim() : '';
+
+        if (item) {
+            addEquipmentItem(item, notes);
+            input.value = '';
+            const dropdown = input.parentNode.querySelector('.autocomplete-dropdown');
+            if (dropdown) dropdown.style.display = 'none';
+        }
+    }
+}
+
+// Autocomplete Event Handlers
+function handleEquipmentAutocompleteInput(input) {
+    const query = input.value.toLowerCase().trim();
+    const dropdown = input.parentNode.querySelector('.autocomplete-dropdown');
+    if (!dropdown) return;
+
+    if (!query) {
+        dropdown.style.display = 'none';
+        return;
+    }
+
+    const commonEquipment = [
+        'baking paper', 'baking tray', 'rolling pin', 'parchment paper',
+        'mixing bowl', 'whisk', 'silicone spatula', 'wire rack', 'pie dish',
+        'cake tin', 'loaf pan', 'cling wrap', 'aluminum foil', 'pastry brush'
+    ];
+
+    const nutritionKeys = typeof NUTRITION_DB !== 'undefined' ? Object.keys(NUTRITION_DB) : [];
+    const allSuggestions = [...new Set([...commonEquipment, ...nutritionKeys])];
+
+    const matches = allSuggestions
+        .filter(item => item.toLowerCase().includes(query))
+        .slice(0, 5);
+
+    if (matches.length === 0) {
+        dropdown.style.display = 'none';
+        return;
+    }
+
+    dropdown.innerHTML = matches.map(m => {
+        const titleCaseName = typeof toTitleCase === 'function' ? toTitleCase(m) : m;
+        return `<div class="autocomplete-item" style="padding: 8px 12px; cursor: pointer; border-bottom: 1px solid rgba(255,255,255,0.05);" onmousedown="selectEquipmentAutocomplete('${escHtml(titleCaseName)}')">${escHtml(titleCaseName)}</div>`;
+    }).join('');
+    dropdown.style.display = 'block';
+}
+
+function selectEquipmentAutocomplete(value) {
+    const input = document.getElementById('equipment-input');
+    if (!input) return;
+    input.value = value + ' | ';
+    input.focus();
+    const dropdown = input.parentNode.querySelector('.autocomplete-dropdown');
+    if (dropdown) dropdown.style.display = 'none';
+}
+
+function handleEquipmentAutocompleteFocus(input) {
+    if (input.value.trim()) {
+        handleEquipmentAutocompleteInput(input);
+    }
+}
+
+function handleEquipmentAutocompleteBlur(input) {
+    setTimeout(() => {
+        const dropdown = input.parentNode.querySelector('.autocomplete-dropdown');
+        if (dropdown) dropdown.style.display = 'none';
+    }, 250);
+}
+
+function handleEquipmentAutocompleteKeydown(e, input) {
+    // Handled primary via handleEquipmentEnter
+}
+
 // ── Method ────────────────────────────────────────────────
 function addStep(text='', insertAfter=null) {
     const list = document.getElementById('steps-list');
@@ -231,6 +314,15 @@ function updateDuplicateButton() {
     if (btn) btn.style.display = (obj.title || (obj.ingredients && obj.ingredients.length)) ? '' : 'none';
 }
 
+// ── Utility Helpers ───────────────────────────────────────
+function removeRow(btn) {
+    const row = btn.parentElement;
+    if (row && row !== document.body) {
+        row.remove();
+        update();
+    }
+}
+
 function clearForm(skipConfirm=false) {
     if (!skipConfirm && !confirm('Clear everything and start fresh?')) return;
     document.querySelectorAll('input[type="text"], input[type="number"], textarea').forEach(i => i.value = '');
@@ -254,12 +346,6 @@ function insertParagraphBreak() {
     ta.selectionStart = ta.selectionEnd = pos + 2;
     ta.focus();
     update();
-}
-
-// ── Utility Helpers ───────────────────────────────────────
-function removeRow(btn) {
-    const row = btn.closest('[class]');
-    if (row && row !== document.body) { row.remove(); update(); }
 }
 
 function autoResize(el) {
@@ -301,7 +387,6 @@ function setupDragEvents(el, listId, callback) {
         if (callback) callback();
         else update();
     });
-    // The list itself handles dragover/drop (delegated in initDragDrop)
 }
 
 // Attach dragover+drop to each list container once
@@ -340,14 +425,12 @@ window.populateRelatedRecipeDropdown = function() {
         return;
     }
     
-    // Sort recipes alphabetically by title
     const sortedRecipes = [...recipeIndex].sort((a, b) => (a.title || '').localeCompare(b.title || ''));
     
     select.innerHTML = '<option value="">— Select a recipe —</option>' + 
         sortedRecipes.map(r => `<option value="${r.id}">${escHtml(r.title || r.name || r.id)}</option>`).join('');
 };
 
-// Handles clicking "＋ Add" button next to the dropdown
 window.addRelatedRecipe = function() {
     const select = document.getElementById('related-recipe-select');
     if (!select || !select.value) return;
@@ -355,7 +438,6 @@ window.addRelatedRecipe = function() {
     const entry = recipeIndex.find(r => r.id === id);
     if (!entry) return;
     
-    // Avoid duplicates
     const exists = Array.from(document.querySelectorAll('#related-list .related-row'))
         .some(row => row.dataset.id === id);
     if (exists) { 
@@ -368,7 +450,6 @@ window.addRelatedRecipe = function() {
     update();
 };
 
-// Creates a draggable row for a related recipe inside the list
 window.loadRelatedRecipe = function(id, title, matchingTags) {
     const list = document.getElementById('related-list');
     if (!list) return;
@@ -398,9 +479,8 @@ window.loadRelatedRecipe = function(id, title, matchingTags) {
     
     setupDragEvents(row, 'related-list');
     list.appendChild(row);
-}; // <--- ADDED: This closing brace was missing
+};
 
-// Removes a tag pill from a related recipe row
 window.removeTagFromRelated = function(span, tag) {
     const row = span.closest('.related-row');
     if (!row) return;
@@ -415,15 +495,10 @@ window.removeTagFromRelated = function(span, tag) {
     }
 };
 
-// Opens the tag picker modal for a related recipe row
 window.openTagPicker = function(row) {
-    // Stores which row we are actively editing
     window._activeRelatedRow = row;
-    
     const savedTags = JSON.parse(row.dataset.tags || '[]');
     window.tagPickerSelections = new Set(savedTags);
-    
-    // Renders and displays your tag picker modal
     const modal = document.getElementById('tag-picker-modal');
     if (modal) {
         renderTagPickerGrid();

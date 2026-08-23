@@ -2,12 +2,13 @@
   "id": "bistro-profiteroles",
   "title": "Profiteroles",
   "category": "Desserts",
+  "difficulty": "Intermediate",
   "description": "Light choux pastry puffs filled with whipped cream and drizzled with warm chocolate ganache. Served with fresh fruit.",
   "prepTime": "5 min",
   "cookTime": "25 min",
   "totalTime": "30 min",
   "servings": "1 serving",
-  "difficulty": "Intermediate",
+  "yieldPerBatch": "1 serving",
   "tags": [
     "Baked",
     "Chocolate",
@@ -22,28 +23,16 @@
   ],
   "ingredients": [
     {
-      "heading": "Filling"
-    },
-    {
-      "quantity": "60",
+      "quantity": "185",
       "unit": "ml",
       "item": "Thickened Cream",
-      "notes": "whipped to soft peaks"
-    },
-    {
-      "heading": "Ganache"
+      "notes": "divided: 60ml whipped to soft peaks (for Filling), 125ml (for Ganache)"
     },
     {
       "quantity": "200",
       "unit": "g",
       "item": "Dark Chocolate",
       "notes": "chopped"
-    },
-    {
-      "quantity": "125",
-      "unit": "ml",
-      "item": "Thickened Cream",
-      "notes": "heated"
     }
   ],
   "method": [
@@ -59,23 +48,23 @@
     },
     {
       "step": 2,
-      "instruction": "Bake choux puffs as per the choux pastry until golden and crisp. Cool completely on a wire rack."
+      "instruction": "Bake choux puffs as per the choux pastry recipe until golden and crisp. Cool completely on a wire rack."
     },
     {
       "step": 3,
-      "instruction": "Whip cream to soft peaks. Using a piping bag fitted with a small nozzle, fill each puff through a small hole in the base."
+      "instruction": "Whip 60 ml of the thickened cream to soft peaks. Using a piping bag fitted with a small nozzle, fill each cooled puff through a small hole made in the base."
     },
     {
       "step": 4,
-      "instruction": "For the ganache: heat cream in a small saucepan until just simmering — do not boil. Place chopped chocolate in a heatproof bowl and pour the hot cream over it."
+      "instruction": "For the ganache: heat the remaining 125 ml of thickened cream in a small saucepan over medium-low heat until just simmering — do not boil. Place 200 g of chopped dark chocolate in a heatproof bowl and pour the hot cream over it."
     },
     {
       "step": 5,
-      "instruction": "Let stand for 2 minutes, then stir gently until the chocolate is completely melted and the ganache is smooth and glossy."
+      "instruction": "Let the chocolate and cream mixture stand undisturbed for 2 minutes, then stir gently until the chocolate is completely melted and the ganache is smooth and glossy."
     },
     {
       "step": 6,
-      "instruction": "Dip the top of each filled puff into the warm ganache, or drizzle generously over the top."
+      "instruction": "Dip the top of each filled puff into the warm ganache, or drizzle it generously over the piled profiteroles."
     },
     {
       "step": 7,
@@ -184,5 +173,5 @@
     "vitamin_a_ug": 936,
     "vitamin_d_ug": 5
   },
-  "lastModified": "2026-05-25"
+  "lastModified": "2026-08-19"
 }

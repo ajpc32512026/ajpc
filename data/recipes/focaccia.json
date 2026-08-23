@@ -8,11 +8,14 @@
   "cookTime": "25 min",
   "totalTime": "2 hr 15 min",
   "servings": "1 flat loaf",
+  "yieldPerBatch": "1 flat loaf",
   "tags": [
+    "Baking",
     "Bread",
     "Italian",
     "Make Ahead",
     "Savoury",
+    "Vegan",
     "Vegetarian"
   ],
   "ingredients": [
@@ -33,9 +36,10 @@
       "item": "Caster Sugar"
     },
     {
-      "quantity": "30",
+      "quantity": "45",
       "unit": "ml",
-      "item": "Olive Oil"
+      "item": "Olive Oil",
+      "notes": "divided: 30ml for Dough, 15ml for Topping"
     },
     {
       "quantity": "405",
@@ -52,14 +56,6 @@
       "quantity": "3",
       "unit": "g",
       "item": "Salt"
-    },
-    {
-      "heading": "Topping"
-    },
-    {
-      "quantity": "15",
-      "unit": "ml",
-      "item": "Olive Oil"
     },
     {
       "quantity": "2",
@@ -98,7 +94,7 @@
     },
     {
       "step": 2,
-      "instruction": "Add olive oil. Sift flour, milk powder, and salt into the yeast mixture. Beat with a wooden spoon until well combined, adding a little extra flour if needed to form a soft dough."
+      "instruction": "Add 30 ml of the olive oil. Sift flour, milk powder, and salt into the yeast mixture. Beat with a wooden spoon until well combined, adding a little extra flour if needed to form a soft dough."
     },
     {
       "step": 3,
@@ -122,7 +118,7 @@
     },
     {
       "step": 8,
-      "instruction": "Combine olive oil and crushed garlic. Brush over the surface. Top with olives and rosemary, then sprinkle with oregano and sea salt flakes."
+      "instruction": "Combine the remaining 15 ml of olive oil and crushed garlic. Brush over the surface. Top with olives and rosemary, then sprinkle with oregano and sea salt flakes."
     },
     {
       "step": 9,
@@ -169,5 +165,5 @@
     "vitamin_a_ug": 689,
     "vitamin_c_mg": 146
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-08-19"
 }

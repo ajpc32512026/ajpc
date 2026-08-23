@@ -8,20 +8,21 @@
   "cookTime": "25 min",
   "totalTime": "55 min",
   "servings": "16 squares",
+  "yieldPerBatch": "16 squares",
   "tags": [
     "Australian",
     "Baked",
+    "Baking",
+    "Cake",
     "Chocolate",
     "Classic",
     "Coconut",
+    "Dessert",
     "Party",
     "Sweet",
     "Vegetarian"
   ],
   "ingredients": [
-    {
-      "heading": "Sponge"
-    },
     {
       "quantity": "4",
       "unit": "",
@@ -54,12 +55,10 @@
       "item": "Milk Full-Cream"
     },
     {
-      "quantity": "60",
+      "quantity": "75",
       "unit": "g",
-      "item": "Unsalted Butter"
-    },
-    {
-      "heading": "Chocolate Icing"
+      "item": "Unsalted Butter",
+      "notes": "divided: 60g for Sponge, 15g for Icing"
     },
     {
       "quantity": "375",
@@ -75,14 +74,6 @@
       "quantity": "180",
       "unit": "ml",
       "item": "Boiling Water"
-    },
-    {
-      "quantity": "15",
-      "unit": "g",
-      "item": "Unsalted Butter"
-    },
-    {
-      "heading": "Coating"
     },
     {
       "quantity": "200",
@@ -109,7 +100,7 @@
     },
     {
       "step": 5,
-      "instruction": "Heat milk and butter together until melted and warm. Mix a scoop of the batter into the milk mixture, then fold back into the main bowl until just combined."
+      "instruction": "Heat milk and 60 g of the unsalted butter together until melted and warm. Mix a scoop of the batter into the milk mixture, then fold back into the main bowl until just combined."
     },
     {
       "step": 6,
@@ -121,7 +112,7 @@
     },
     {
       "step": 8,
-      "instruction": "For the icing: sift icing sugar and cocoa powder into a bowl. Add boiling water and butter. Whisk until smooth. Keep warm while using."
+      "instruction": "For the icing: sift icing sugar and cocoa powder into a bowl. Add 180 ml boiling water and the remaining 15 g of unsalted butter. Whisk until smooth. Keep warm while using."
     },
     {
       "step": 9,
@@ -173,5 +164,5 @@
     "vitamin_a_ug": 136,
     "vitamin_d_ug": 3
   },
-  "lastModified": "2026-06-04"
+  "lastModified": "2026-08-19"
 }

@@ -10,6 +10,7 @@
   "difficulty": "Intermediate",
   "tags": [
     "Alcohol",
+    "Bistro",
     "Classic",
     "Creamy",
     "Deep-Fried",
@@ -17,12 +18,10 @@
     "French",
     "Pork",
     "Savoury",
-    "Under 30 Minutes"
+    "Under 30 Minutes",
+    "Veal"
   ],
   "ingredients": [
-    {
-      "heading": "Veal"
-    },
     {
       "quantity": "180",
       "unit": "g",
@@ -40,9 +39,6 @@
       "unit": "g",
       "item": "Gruyere",
       "notes": "sliced"
-    },
-    {
-      "heading": "Dijon Cream Sauce"
     },
     {
       "quantity": "15",
@@ -71,8 +67,9 @@
       "item": "Dijon Mustard"
     },
     {
+      "quantity": "",
+      "unit": "",
       "item": "Salt & Pepper",
-      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -184,5 +181,6 @@
     "vitamin_c_mg": 39,
     "vitamin_d_ug": 3
   },
-  "lastModified": "2026-05-24"
+  "lastModified": "2026-05-24",
+  "yieldPerBatch": "1 serving"
 }

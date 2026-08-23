@@ -9,25 +9,20 @@
   "servings": "6",
   "difficulty": "Beginner",
   "tags": [
-    "Apple",
-    "Strudel",
-    "Puff Pastry",
-    "Dessert",
+    "Austrian",
     "Baking",
-    "Sweet"
+    "Dessert",
+    "Fruit",
+    "Pastry",
+    "Sweet",
+    "Vegetarian"
   ],
   "ingredients": [
-    {
-      "heading": "For the Pastry"
-    },
     {
       "quantity": "490",
       "unit": "g",
       "item": "Frozen Puff Pastry",
       "notes": "2 sheets, thawed at room temperature"
-    },
-    {
-      "heading": "For the Filling"
     },
     {
       "quantity": "3",
@@ -229,5 +224,6 @@
     "vitamin_a_ug": 115,
     "vitamin_c_mg": 2
   },
-  "lastModified": "2026-05-31"
+  "lastModified": "2026-05-31",
+  "yieldPerBatch": "1 batch"
 }

@@ -9,9 +9,11 @@
   "servings": "8 servings",
   "difficulty": "Beginner",
   "tags": [
-    "Apple",
+    "American",
+    "Baking",
     "Classic",
     "Dessert",
+    "Fruit",
     "Make Ahead",
     "Pastry",
     "Rich",
@@ -19,9 +21,6 @@
     "Vegetarian"
   ],
   "ingredients": [
-    {
-      "heading": "Filling"
-    },
     {
       "quantity": "10",
       "unit": "ea",
@@ -43,9 +42,6 @@
       "quantity": "50",
       "unit": "ml",
       "item": "Water"
-    },
-    {
-      "heading": "Pastry"
     },
     {
       "quantity": "200",
@@ -197,5 +193,6 @@
     "vitamin_c_mg": 6
   },
   "lastModified": "2026-05-31",
-  "cuisine": "British / Australian"
+  "cuisine": "British / Australian",
+  "yieldPerBatch": "8 servings"
 }

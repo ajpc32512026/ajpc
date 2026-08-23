@@ -9,19 +9,19 @@
   "totalTime": "5 Min",
   "servings": "2",
   "tags": [
-    "Sauce",
+    "American",
     "Condiment",
-    "Honey Mustard",
-    "Oil Free",
-    "Fat Free",
-    "Easy Prep",
-    "Under 10 Minutes"
+    "Sauce",
+    "Savoury",
+    "Sweet",
+    "Under 10 Minutes",
+    "Vegetarian"
   ],
   "ingredients": [
     {
       "quantity": "100",
       "unit": "g",
-      "item": "Fat-free Plain Greek Yogurt"
+      "item": "Greek Yogurt"
     },
     {
       "quantity": "25",
@@ -32,7 +32,7 @@
     {
       "quantity": "10",
       "unit": "g",
-      "item": "Yellow Mustard",
+      "item": "American Mustard",
       "notes": "adds a sharp tang and classic yellow color"
     },
     {
@@ -54,7 +54,7 @@
     {
       "quantity": "0.5",
       "unit": "g",
-      "item": "Fine Salt",
+      "item": "Salt",
       "notes": "balances the sweetness of the honey"
     }
   ],
@@ -113,5 +113,6 @@
     "vitamin_a_ug": 73,
     "vitamin_c_mg": 1
   },
-  "lastModified": "2026-08-13"
+  "lastModified": "2026-08-18",
+  "yieldPerBatch": "1 batch"
 }

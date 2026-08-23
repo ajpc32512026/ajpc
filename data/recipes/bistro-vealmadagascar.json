@@ -9,12 +9,15 @@
   "servings": "1 serving",
   "difficulty": "Intermediate",
   "tags": [
+    "Bistro",
     "Classic",
     "Creamy",
     "Dinner",
+    "French",
     "Rich",
     "Savoury",
-    "Under 30 Minutes"
+    "Under 30 Minutes",
+    "Veal"
   ],
   "ingredients": [
     {
@@ -80,8 +83,9 @@
       "item": "Unsalted Butter"
     },
     {
+      "quantity": "",
+      "unit": "",
       "item": "Salt & Pepper",
-      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -182,5 +186,6 @@
     "vitamin_d_ug": 5
   },
   "lastModified": "2026-05-24",
-  "cuisine": "French"
+  "cuisine": "French",
+  "yieldPerBatch": "1 serving"
 }

@@ -8,20 +8,18 @@
   "cookTime": "3 hr 30 min",
   "totalTime": "3 hr 45 min",
   "servings": "4 servings",
+  "yieldPerBatch": "4 servings",
   "tags": [
-    "Filipino",
     "Beef",
-    "Soup",
     "Comfort Food",
-    "Gluten-Free",
     "Dairy-Free",
     "Dinner",
-    "Slow Cook"
+    "Filipino",
+    "Gluten-Free",
+    "Slow-Cooked",
+    "Soup"
   ],
   "ingredients": [
-    {
-      "heading": "Meat"
-    },
     {
       "quantity": "900",
       "unit": "g",
@@ -35,9 +33,6 @@
       "notes": "optional, for a thicker broth"
     },
     {
-      "heading": "Aromatics"
-    },
-    {
       "quantity": "1",
       "unit": "",
       "item": "Brown Onion",
@@ -48,9 +43,6 @@
       "unit": "g",
       "item": "Black Peppercorns",
       "notes": "whole"
-    },
-    {
-      "heading": "Vegetables"
     },
     {
       "quantity": "3",
@@ -71,30 +63,16 @@
       "notes": "or green onion"
     },
     {
-      "heading": "Seasoning"
-    },
-    {
-      "quantity": "30",
+      "quantity": "60",
       "unit": "ml",
       "item": "Fish Sauce",
-      "notes": "to taste"
-    },
-    {
-      "heading": "Liquid"
+      "notes": "divided: 30ml for Seasoning, 30ml for Dipping Sauce"
     },
     {
       "quantity": "2.5",
       "unit": "litres",
       "item": "Water",
       "notes": "enough to cover the meat"
-    },
-    {
-      "heading": "Dipping Sauce"
-    },
-    {
-      "quantity": "30",
-      "unit": "ml",
-      "item": "Fish Sauce"
     },
     {
       "quantity": "4",
@@ -128,7 +106,7 @@
     },
     {
       "step": 5,
-      "instruction": "Add the corn pieces and cook for 10–15 minutes. Stir in fish sauce to taste."
+      "instruction": "Add the corn pieces and cook for 10–15 minutes. Stir in 30 ml of the fish sauce to season."
     },
     {
       "step": 6,
@@ -136,7 +114,7 @@
     },
     {
       "step": 7,
-      "instruction": "Transfer to a large serving bowl and serve hot with steamed rice. Mix fish sauce, calamansi, and chilli in a small dish on the side as a dipping sauce."
+      "instruction": "Transfer to a large serving bowl and serve hot with steamed rice. Mix the remaining 30 ml of fish sauce, calamansi, and chilli in a small dish on the side as a dipping sauce."
     }
   ],
   "notes": [
@@ -191,5 +169,5 @@
     "vitamin_c_mg": 68,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-08-19"
 }

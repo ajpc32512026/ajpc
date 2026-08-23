@@ -9,7 +9,9 @@
   "totalTime": "30 min",
   "servings": "12 muffins",
   "tags": [
+    "American",
     "Baked",
+    "Baking",
     "Breakfast",
     "Snack",
     "Sweet",
@@ -17,9 +19,6 @@
     "Vegetarian"
   ],
   "ingredients": [
-    {
-      "heading": "Muffin Base"
-    },
     {
       "quantity": "150",
       "unit": "g",
@@ -63,9 +62,6 @@
       "notes": "omit for savoury"
     },
     {
-      "heading": "Sweet Options (choose one or combine)"
-    },
-    {
       "quantity": "100",
       "unit": "g",
       "item": "Dark Chocolate Chips",
@@ -93,9 +89,6 @@
       "unit": "g",
       "item": "Cocoa Powder",
       "notes": "replace 20 g plain flour with cocoa"
-    },
-    {
-      "heading": "Savoury Options (choose one or combine, omit sugar and vanilla)"
     },
     {
       "quantity": "50",
@@ -190,5 +183,6 @@
     "vitamin_c_mg": 3,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-06-04"
+  "lastModified": "2026-06-04",
+  "yieldPerBatch": "12 muffins"
 }

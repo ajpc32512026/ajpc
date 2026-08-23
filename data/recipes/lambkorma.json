@@ -9,12 +9,14 @@
   "totalTime": "55 min",
   "servings": "4 servings",
   "tags": [
+    "Classic",
     "Curry",
     "Dinner",
     "Indian",
     "Lamb",
     "Rich",
-    "Savoury"
+    "Savoury",
+    "Slow-Cooked"
   ],
   "ingredients": [
     {
@@ -179,5 +181,6 @@
     "vitamin_c_mg": 10,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-07-21",
+  "yieldPerBatch": "4 servings"
 }

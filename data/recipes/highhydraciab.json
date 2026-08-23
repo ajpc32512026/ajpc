@@ -8,7 +8,9 @@
   "cookTime": "25 min",
   "totalTime": "3 hr 10 min",
   "servings": "6 rolls",
+  "yieldPerBatch": "6 rolls",
   "tags": [
+    "Baking",
     "Bread",
     "Italian",
     "Savoury",
@@ -19,8 +21,7 @@
     {
       "quantity": "502",
       "unit": "ml",
-      "item": "Warm Water",
-      "notes": "divided"
+      "item": "Warm Water"
     },
     {
       "quantity": "15",
@@ -34,34 +35,21 @@
       "notes": "instant dried"
     },
     {
-      "quantity": "40",
+      "quantity": "55",
       "unit": "ml",
-      "item": "Olive Oil"
+      "item": "Olive Oil",
+      "notes": "divided: 40ml for Dough, 15ml for Shaping"
     },
     {
-      "quantity": "1000",
+      "quantity": "1030",
       "unit": "g",
-      "item": "Bread Flour"
+      "item": "Bread Flour",
+      "notes": "divided: 1000g for Dough, 30g for Shaping"
     },
     {
       "quantity": "5",
       "unit": "g",
       "item": "Salt"
-    },
-    {
-      "heading": "For Shaping"
-    },
-    {
-      "quantity": "15",
-      "unit": "ml",
-      "item": "Olive Oil",
-      "notes": "for hands"
-    },
-    {
-      "quantity": "30",
-      "unit": "g",
-      "item": "Bread Flour",
-      "notes": "for dusting"
     }
   ],
   "method": [
@@ -71,11 +59,11 @@
     },
     {
       "step": 2,
-      "instruction": "Add olive oil and 400 g of bread flour. Mix until smooth."
+      "instruction": "Add 40 ml of olive oil and 400 g of the bread flour. Mix until smooth."
     },
     {
       "step": 3,
-      "instruction": "Add remaining 252 ml of water and the remaining 600 g of flour. Add salt. Mix to a very wet, sticky dough."
+      "instruction": "Add the remaining 252 ml of water and the remaining 600 g of bread flour. Add salt. Mix to a very wet, sticky dough."
     },
     {
       "step": 4,
@@ -91,11 +79,11 @@
     },
     {
       "step": 7,
-      "instruction": "Oil hands and fold once more. Cover and let rise for 1 hour until bubbly and doubled in size."
+      "instruction": "Oil hands with the remaining 15 ml of olive oil and fold once more. Cover and let rise for 1 hour until bubbly and doubled in size."
     },
     {
       "step": 8,
-      "instruction": "Heavily flour the work surface. Turn out dough and dust lightly with flour. Do not punch down."
+      "instruction": "Heavily flour the work surface with the remaining 30 g of bread flour. Turn out dough and dust lightly. Do not punch down."
     },
     {
       "step": 9,
@@ -151,5 +139,5 @@
     "magnesium_mg": 64,
     "zinc_mg": 2
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-08-19"
 }

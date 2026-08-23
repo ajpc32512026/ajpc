@@ -7,10 +7,14 @@
   "cookTime": "0 min",
   "totalTime": "3+ hours",
   "servings": "1 batch",
+  "yieldPerBatch": "1 batch",
   "difficulty": "Advanced",
   "tags": [
-    "Puff Pastry",
-    "Lamination"
+    "Baking",
+    "Classic",
+    "French",
+    "Make Ahead",
+    "Pastry"
   ],
   "ingredients": [
     {
@@ -19,16 +23,10 @@
       "item": "Plain Flour"
     },
     {
-      "quantity": "350",
+      "quantity": "400",
       "unit": "g",
       "item": "Unsalted Butter",
-      "notes": "very cold, for the butter block"
-    },
-    {
-      "quantity": "50",
-      "unit": "g",
-      "item": "Unsalted Butter",
-      "notes": "softened, for the détrempe (dough)"
+      "notes": "divided: 350g for Butter Block, 50g for Base Dough"
     },
     {
       "quantity": "250",
@@ -66,11 +64,11 @@
   "method": [
     {
       "step": 1,
-      "instruction": "**Make the détrempe (base dough):** Mix flour, salt, and softened butter in a bowl. Gradually add ice-cold water while mixing until a smooth, cohesive dough forms. Do not overwork. Wrap in plastic and chill for 30 minutes."
+      "instruction": "**Make the détrempe (base dough):** Mix 500 g plain flour, 5 g salt, and 50 g of softened unsalted butter in a bowl. Gradually add ice-cold water while mixing until a smooth, cohesive dough forms. Do not overwork. Wrap in plastic and chill for 30 minutes."
     },
     {
       "step": 2,
-      "instruction": "**Prepare the butter block:** Place 350g cold butter between two sheets of baking paper. Pound with a rolling pin into a 15cm square (about 2cm thick). Keep chilled but pliable — not so cold it cracks, not so warm it smears."
+      "instruction": "**Prepare the butter block:** Place the remaining 350 g of cold unsalted butter between two sheets of baking paper. Pound with a rolling pin into a 15cm square (about 2cm thick). Keep chilled but pliable — not so cold it cracks, not so warm it smears."
     },
     {
       "step": 3,
@@ -189,6 +187,5 @@
     "vitamin_a_ug": 3432,
     "vitamin_d_ug": 3
   },
-  "lastModified": "2026-06-08",
-  "cuisine": "French"
+  "lastModified": "2026-08-19"
 }

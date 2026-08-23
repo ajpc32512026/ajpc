@@ -11,10 +11,12 @@
   "tags": [
     "Alcohol",
     "Beef",
+    "Bistro",
     "Classic",
     "Creamy",
     "Dinner",
     "Gluten-Free",
+    "Italian",
     "Rich",
     "Savoury",
     "Seafood",
@@ -66,8 +68,9 @@
       "item": "Brandy"
     },
     {
+      "quantity": "",
+      "unit": "",
       "item": "Salt & Pepper",
-      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -152,5 +155,6 @@
     "vitamin_c_mg": 11,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-05-24"
+  "lastModified": "2026-05-24",
+  "yieldPerBatch": "1 serving"
 }

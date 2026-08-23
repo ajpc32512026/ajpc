@@ -9,13 +9,14 @@
   "totalTime": "10 Min",
   "servings": "2",
   "tags": [
-    "Sauce",
+    "American",
     "Condiment",
-    "BBQ",
-    "Oil Free",
-    "Fat Free",
-    "Easy Prep",
-    "Under 15 Minutes"
+    "Sauce",
+    "Savoury",
+    "Sweet",
+    "Under 15 Minutes",
+    "Vegan",
+    "Vegetarian"
   ],
   "ingredients": [
     {
@@ -54,13 +55,14 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Yellow Mustard",
+      "item": "American Mustard",
       "notes": "helps cut the tomato sweetness"
     },
     {
       "quantity": "2",
       "unit": "g",
-      "item": "Smoked Paprika"
+      "item": "Smoked Paprika",
+      "notes": "can use sweet smoked paprika"
     },
     {
       "quantity": "1",
@@ -75,7 +77,8 @@
     {
       "quantity": "0.5",
       "unit": "g",
-      "item": "Fine Salt"
+      "item": "Salt",
+      "notes": "about 1/4 teaspoon"
     },
     {
       "quantity": "0.2",
@@ -137,5 +140,6 @@
     "vitamin_a_ug": 99,
     "vitamin_c_mg": 4
   },
-  "lastModified": "2026-08-13"
+  "lastModified": "2026-08-18",
+  "yieldPerBatch": "1 batch"
 }

@@ -10,10 +10,12 @@
   "difficulty": "Intermediate",
   "tags": [
     "Alcohol",
+    "Bistro",
     "Chicken",
     "Classic",
     "Creamy",
     "Dinner",
+    "French",
     "Rich",
     "Savoury",
     "Seafood",
@@ -54,8 +56,9 @@
       "item": "White Wine"
     },
     {
+      "quantity": "",
+      "unit": "",
       "item": "Salt & Pepper",
-      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -194,5 +197,6 @@
     "vitamin_d_ug": 3
   },
   "lastModified": "2026-05-31",
-  "cuisine": "French"
+  "cuisine": "French",
+  "yieldPerBatch": "1 serving"
 }

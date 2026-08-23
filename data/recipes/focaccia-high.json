@@ -8,7 +8,9 @@
   "cookTime": "25 min",
   "totalTime": "3 hr 45 min",
   "servings": "8 slices",
+  "yieldPerBatch": "1 flat loaf",
   "tags": [
+    "Baking",
     "Bread",
     "Italian",
     "Make Ahead",
@@ -29,9 +31,10 @@
       "item": "Warm Water"
     },
     {
-      "quantity": "15",
+      "quantity": "30",
       "unit": "ml",
-      "item": "Olive Oil"
+      "item": "Olive Oil",
+      "notes": "divided: 15ml for Dough, 15ml for Topping"
     },
     {
       "quantity": "500",
@@ -39,33 +42,20 @@
       "item": "Bread Flour"
     },
     {
-      "quantity": "15",
+      "quantity": "20",
       "unit": "g",
-      "item": "Salt"
-    },
-    {
-      "heading": "Topping"
-    },
-    {
-      "quantity": "15",
-      "unit": "ml",
-      "item": "Olive Oil",
-      "notes": "for drizzling"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Salt"
+      "item": "Salt",
+      "notes": "divided: 15g for Dough, 5g for Topping"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "In a large bowl, mix warm water, yeast, and olive oil until the yeast fully dissolves."
+      "instruction": "In a large bowl, mix warm water, yeast, and 15 ml of the olive oil until the yeast fully dissolves."
     },
     {
       "step": 2,
-      "instruction": "Add bread flour and salt directly into the bowl. Stir with a spatula or wet hands until everything comes together. The dough will be extremely wet — this is correct."
+      "instruction": "Add bread flour and 15 g of the salt directly into the bowl. Stir with a spatula or wet hands until everything comes together. The dough will be extremely wet — this is correct."
     },
     {
       "step": 3,
@@ -85,7 +75,7 @@
     },
     {
       "step": 7,
-      "instruction": "Just before baking, create more dimples with your fingertips, drizzle with olive oil, and sprinkle with sea salt flakes. Add rosemary, olives, or cherry tomatoes if desired."
+      "instruction": "Just before baking, create more dimples with your fingertips, drizzle with the remaining 15 ml of olive oil, and sprinkle with the remaining 5 g of salt (or sea salt flakes to taste). Add rosemary, olives, or cherry tomatoes if desired."
     },
     {
       "step": 8,
@@ -134,5 +124,5 @@
     "magnesium_mg": 26,
     "zinc_mg": 1
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-08-19"
 }

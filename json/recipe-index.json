@@ -4,10 +4,10 @@
     "name": "Alfredo Sauce",
     "category": "Sauces",
     "tags": [
-      "Cheese",
       "Creamy",
+      "Gluten-Free",
       "Italian",
-      "Rich",
+      "Pasta",
       "Sauce",
       "Under 30 Minutes",
       "Vegetarian"
@@ -15,30 +15,46 @@
     "description": "Rich, velvety, and unapologetically indulgent. A classic cream-based Alfredo that coats pasta like silk and demands to be eaten immediately."
   },
   {
-    "id": "ananaschiavanillapudding",
+    "id": "anaschiavanillapudding",
     "name": "Ana's Chia Vanilla Pudding",
     "category": "Breakfast",
     "tags": [
-      "No-Bake",
-      "Make Ahead",
+      "Australian",
       "Breakfast",
+      "Creamy",
       "Dessert",
-      "Healthy",
-      "Vegetarian",
       "Gluten-Free",
-      "Honey",
-      "Chia Seeds"
+      "Healthy",
+      "No-Bake",
+      "Vegetarian"
     ],
     "description": "A creamy, no-cook pudding that finally puts chia seeds to good use. Sweetened with honey and scented with vanilla — the redemption arc after the ANZAC disaster."
+  },
+  {
+    "id": "applecinnscrolls",
+    "name": "Apple & Cinnamon Scrolls",
+    "category": "Baking",
+    "tags": [
+      "Australian",
+      "Baking",
+      "Breakfast",
+      "Classic",
+      "Pastry",
+      "Sweet",
+      "Vegetarian"
+    ],
+    "description": "Golden, fragrant, and guaranteed to vanish fast. Best enjoyed warm and unapologetically drowned in icing."
   },
   {
     "id": "applepie",
     "name": "Apple Pie",
     "category": "Baking",
     "tags": [
-      "Apple",
+      "American",
+      "Baking",
       "Classic",
       "Dessert",
+      "Fruit",
       "Make Ahead",
       "Pastry",
       "Rich",
@@ -48,54 +64,19 @@
     "description": "The kind of pie that disappears faster than good intentions — crisp pastry, soft spiced apples, and zero leftovers."
   },
   {
-    "id": "applecinnscrolls",
-    "name": "Apple & Cinnamon Scrolls",
-    "category": "Baking",
-    "tags": [
-      "Apple",
-      "Bread",
-      "Breakfast",
-      "Cinnamon",
-      "Creamy",
-      "Rich",
-      "Sweet",
-      "Under 1 Hour",
-      "Vegetarian"
-    ],
-    "description": "Golden, fragrant, and guaranteed to vanish fast. Best enjoyed warm and unapologetically drowned in icing."
-  },
-  {
     "id": "applestrudel",
     "name": "Apple Strudel",
     "category": "Desserts",
     "tags": [
-      "Apple",
-      "Strudel",
-      "Puff Pastry",
-      "Dessert",
+      "Austrian",
       "Baking",
-      "Sweet"
+      "Dessert",
+      "Fruit",
+      "Pastry",
+      "Sweet",
+      "Vegetarian"
     ],
     "description": "Easy apple strudel recipe using store-bought puff pastry and staples like apples, walnuts, and cinnamon. Perfect for dessert or a sweet breakfast treat!"
-  },
-  {
-    "id": "apricotflan",
-    "name": "Apricot Flan",
-    "category": "Baking",
-    "tags": [
-      "Alcohol",
-      "Brandy",
-      "Classic",
-      "Creamy",
-      "Dessert",
-      "Pastry",
-      "Rich",
-      "Sweet",
-      "Vegetarian",
-      "Apricot",
-      "Australian"
-    ],
-    "description": "Not just dessert — this is the one that makes the room go quiet. Soft custard, buttery pastry, and apricots that know their job."
   },
   {
     "id": "apricotchicken",
@@ -108,28 +89,31 @@
       "Dinner",
       "Easy",
       "Retro",
+      "Savoury",
       "Sweet"
     ],
     "description": "Classic retro apricot chicken — sticky, sweet, savoury, and impossibly easy. Chicken thigh fillets baked in a glossy apricot glaze."
   },
   {
-    "id": "baked-cheesecake",
-    "name": "Baked Cheesecake",
-    "category": "Desserts",
+    "id": "apricotflan",
+    "name": "Apricot Flan",
+    "category": "Baking",
     "tags": [
-      "Baked",
-      "Cheese",
+      "Alcohol",
+      "Apricot",
+      "Australian",
+      "Baking",
+      "Brandy",
       "Classic",
       "Creamy",
       "Dessert",
-      "Make Ahead",
-      "Overnight",
-      "Party",
+      "French",
+      "Pastry",
       "Rich",
       "Sweet",
       "Vegetarian"
     ],
-    "description": "A classic baked cheesecake with a creamy, dense filling and crisp biscuit base. Rich, smooth, and far more forgiving than its reputation suggests."
+    "description": "Not just dessert — this is the one that makes the room go quiet. Soft custard, buttery pastry, and apricots that know their job."
   },
   {
     "id": "arrabbiatasauce",
@@ -147,35 +131,6 @@
     "description": "A fiery Italian tomato sauce — bold, spicy, and full of passion. Not for the faint-hearted."
   },
   {
-    "id": "bananabread",
-    "name": "Banana Bread",
-    "category": "Baking",
-    "tags": [
-      "Banana",
-      "Bread",
-      "Breakfast",
-      "Classic",
-      "Make Ahead",
-      "Rich",
-      "Sweet",
-      "Vegetarian"
-    ],
-    "description": "Like Nan used to make — moist, forgiving, and quietly better than it has any right to be."
-  },
-  {
-    "id": "bananacake",
-    "name": "Banana Cake with Lemon Frosting",
-    "category": "Baking",
-    "tags": [
-      "Banana",
-      "Cake",
-      "Citrus",
-      "Sweet",
-      "Vegetarian"
-    ],
-    "description": "A moist, tender banana cake made with oil — no mixer required. Crowned with a tangy lemon buttercream and toasted coconut."
-  },
-  {
     "id": "beefstockpot",
     "name": "20 Minute Beef Stock Pot",
     "category": "Dinner",
@@ -191,6 +146,22 @@
       "Under 30 Minutes"
     ],
     "description": "A fast, deeply flavoured beef stock base — perfect for rich stews, braises, and hearty sauces."
+  },
+  {
+    "id": "bananacake",
+    "name": "Banana Cake with Lemon Frosting",
+    "category": "Baking",
+    "tags": [
+      "Australian",
+      "Baking",
+      "Banana",
+      "Cake",
+      "Citrus",
+      "Dessert",
+      "Sweet",
+      "Vegetarian"
+    ],
+    "description": "A moist, tender banana cake made with oil — no mixer required. Crowned with a tangy lemon buttercream and toasted coconut."
   },
   {
     "id": "beefvindaloo",
@@ -231,17 +202,37 @@
     "tags": [
       "Alcohol",
       "Beef",
+      "Bistro",
       "Brandy",
       "Classic",
-      "Cream",
       "Creamy",
       "Dinner",
+      "French",
       "Gluten-Free",
       "Rich",
       "Savoury",
       "Under 30 Minutes"
     ],
     "description": "Scotch filet in a brandy and mustard cream sauce. Bold, warming, and exactly the kind of dish a 1990s bistro did best."
+  },
+  {
+    "id": "bananabread",
+    "name": "Banana Bread",
+    "category": "Baking",
+    "tags": [
+      "American",
+      "Baking",
+      "Banana",
+      "Bread",
+      "Breakfast",
+      "Cake",
+      "Classic",
+      "Make Ahead",
+      "Rich",
+      "Sweet",
+      "Vegetarian"
+    ],
+    "description": "Like Nan used to make — moist, forgiving, and quietly better than it has any right to be."
   },
   {
     "id": "bistro-carpetbag",
@@ -251,6 +242,7 @@
       "Alcohol",
       "Australian",
       "Beef",
+      "Bistro",
       "Cheese",
       "Classic",
       "Dinner",
@@ -265,14 +257,18 @@
     "name": "Chicken Kiev",
     "category": "Bistro",
     "tags": [
+      "Bistro",
       "Chicken",
       "Classic",
       "Creamy",
       "Deep-Fried",
       "Dinner",
+      "French",
       "Garlic",
+      "Main Course",
       "Rich",
-      "Savoury"
+      "Savoury",
+      "Ukrainian"
     ],
     "description": "Golden crumbed chicken breast stuffed with garlic butter, served with a simple tomato cream sauce. A showstopper from the bistro era."
   },
@@ -282,10 +278,12 @@
     "category": "Bistro",
     "tags": [
       "Alcohol",
+      "Bistro",
       "Chicken",
       "Classic",
       "Creamy",
       "Dinner",
+      "French",
       "Rich",
       "Savoury",
       "Seafood",
@@ -299,6 +297,7 @@
     "category": "Bistro",
     "tags": [
       "Alcohol",
+      "Bistro",
       "Chicken",
       "Classic",
       "Creamy",
@@ -317,6 +316,7 @@
     "category": "Bistro",
     "tags": [
       "Australian",
+      "Bistro",
       "Chicken",
       "Classic",
       "Creamy",
@@ -332,10 +332,12 @@
     "name": "Demi-Glace",
     "category": "Sauces",
     "tags": [
-      "Foundation",
       "Bistro",
+      "Classic",
+      "Freezer Friendly",
+      "French",
       "Make Ahead",
-      "Freezer Friendly"
+      "Sauce"
     ],
     "description": "Deep, rich, concentrated beef sauce. Makes about 2-3 litres."
   },
@@ -345,9 +347,11 @@
     "category": "Bistro",
     "tags": [
       "Beef",
+      "Bistro",
       "Classic",
       "Creamy",
       "Dinner",
+      "French",
       "Gluten-Free",
       "Rich",
       "Savoury",
@@ -361,10 +365,12 @@
     "category": "Bistro",
     "tags": [
       "Alcohol",
+      "Bistro",
       "Classic",
       "Creamy",
       "Dinner",
       "Fish",
+      "French",
       "Gluten-Free",
       "Lemon",
       "Rich",
@@ -375,16 +381,34 @@
     "description": "Grilled fresh fish fillet with a light lemon and white wine cream sauce. Simply done and always changing."
   },
   {
+    "id": "bistro-lambcutlets",
+    "name": "Lamb Cutlets",
+    "category": "Bistro",
+    "tags": [
+      "Air Fryer",
+      "Australian",
+      "Bistro",
+      "Deep-Fried",
+      "Dinner",
+      "Lamb",
+      "Lunch",
+      "Savoury"
+    ],
+    "description": "Crumbed lamb cutlets with crispy bacon and a rich demi glace gravy. Honest bistro comfort food."
+  },
+  {
     "id": "bistro-mediterraneansteak",
     "name": "Mediterranean Steak",
     "category": "Bistro",
     "tags": [
       "Alcohol",
       "Beef",
+      "Bistro",
       "Classic",
       "Creamy",
       "Dinner",
       "Gluten-Free",
+      "Italian",
       "Rich",
       "Savoury",
       "Seafood",
@@ -393,25 +417,11 @@
     "description": "Scotch fillet in a rich cream sauce with king prawns and green peppercorns. Surf and turf done properly — the bistro way."
   },
   {
-    "id": "bistro-lambcutlets",
-    "name": "Lamb Cutlets",
-    "category": "Bistro",
-    "tags": [
-      "Australian",
-      "Classic",
-      "Dinner",
-      "Lamb",
-      "Rich",
-      "Savoury",
-      "Under 1 Hour"
-    ],
-    "description": "Crumbed lamb cutlets with crispy bacon and a rich demi glace gravy. Honest bistro comfort food."
-  },
-  {
     "id": "bistro-orangethaichicken",
     "name": "Orange Thai Chicken",
     "category": "Bistro",
     "tags": [
+      "Bistro",
       "Chicken",
       "Citrus",
       "Creamy",
@@ -433,6 +443,7 @@
     "tags": [
       "Australian",
       "Baked",
+      "Baking",
       "Classic",
       "Creamy",
       "Dessert",
@@ -466,29 +477,15 @@
     "tags": [
       "Alcohol",
       "Baked",
+      "Bistro",
       "Classic",
       "Dinner",
+      "French",
       "Lamb",
       "Savoury",
       "Under 1 Hour"
     ],
     "description": "French-trimmed rack of lamb oven-roasted and served with a spiced plum and demi glace sauce."
-  },
-  {
-    "id": "bistro-steakboston",
-    "name": "Steak Boston",
-    "category": "Bistro",
-    "tags": [
-      "Alcohol",
-      "Beef",
-      "Classic",
-      "Dinner",
-      "Gluten-Free",
-      "Rich",
-      "Savoury",
-      "Under 30 Minutes"
-    ],
-    "description": "Scotch fillet coated in Creole spice and served with a red wine butter sauce. Bold, spiced, and full of character."
   },
   {
     "id": "bistro-reefandbeef",
@@ -497,6 +494,7 @@
     "tags": [
       "Australian",
       "Beef",
+      "Bistro",
       "Classic",
       "Creamy",
       "Dinner",
@@ -508,10 +506,29 @@
     "description": "Scotch fillet topped with a generous seafood Mornay sauce. The ultimate bistro surf and turf."
   },
   {
+    "id": "bistro-steakboston",
+    "name": "Steak Boston",
+    "category": "Bistro",
+    "tags": [
+      "Alcohol",
+      "American",
+      "Beef",
+      "Bistro",
+      "Classic",
+      "Dinner",
+      "Gluten-Free",
+      "Rich",
+      "Savoury",
+      "Under 30 Minutes"
+    ],
+    "description": "Scotch fillet coated in Creole spice and served with a red wine butter sauce. Bold, spiced, and full of character."
+  },
+  {
     "id": "bistro-thaichicken",
     "name": "Thai Chicken",
     "category": "Bistro",
     "tags": [
+      "Bistro",
       "Chicken",
       "Creamy",
       "Dinner",
@@ -530,6 +547,7 @@
     "category": "Bistro",
     "tags": [
       "Alcohol",
+      "Bistro",
       "Classic",
       "Creamy",
       "Deep-Fried",
@@ -537,37 +555,25 @@
       "French",
       "Pork",
       "Savoury",
-      "Under 30 Minutes"
+      "Under 30 Minutes",
+      "Veal"
     ],
     "description": "Thin veal escalopes wrapped around smoked ham and Swiss cheese, crumbed and deep-fried to golden perfection. Served with a Dijon cream sauce."
-  },
-  {
-    "id": "bistro-vealoscar",
-    "name": "Veal Oscar",
-    "category": "Bistro",
-    "tags": [
-      "Classic",
-      "Creamy",
-      "Deep-Fried",
-      "Dinner",
-      "Rich",
-      "Savoury",
-      "Seafood",
-      "Under 30 Minutes"
-    ],
-    "description": "Crumbed and deep-fried veal topped with blanched asparagus, seafood Mornay, and melted cheese — finished under the grill. A classic fine dining preparation."
   },
   {
     "id": "bistro-vealmadagascar",
     "name": "Veal Madagascar",
     "category": "Bistro",
     "tags": [
+      "Bistro",
       "Classic",
       "Creamy",
       "Dinner",
+      "French",
       "Rich",
       "Savoury",
-      "Under 30 Minutes"
+      "Under 30 Minutes",
+      "Veal"
     ],
     "description": "Veal in a rich cream and demi glace sauce with bacon, capsicum, tomato, onion, garlic, and green peppercorns. Served hot or mild — the customer's choice."
   },
@@ -577,36 +583,83 @@
     "category": "Bistro",
     "tags": [
       "Baked",
+      "Bistro",
       "Classic",
+      "Dinner",
+      "Italian",
+      "Rich",
+      "Savoury",
+      "Under 1 Hour",
+      "Veal"
+    ],
+    "description": "Veal wrapped with mushroom, bacon, and shallots in puff pastry, topped with melted mozzarella. A Wellington-style preparation from the bistro kitchen."
+  },
+  {
+    "id": "bistro-vealoscar",
+    "name": "Veal Oscar",
+    "category": "Bistro",
+    "tags": [
+      "Bistro",
+      "Classic",
+      "Creamy",
+      "Deep-Fried",
       "Dinner",
       "Rich",
       "Savoury",
-      "Under 1 Hour"
+      "Seafood",
+      "Swedish",
+      "Under 30 Minutes",
+      "Veal"
     ],
-    "description": "Veal wrapped with mushroom, bacon, and shallots in puff pastry, topped with melted mozzarella. A Wellington-style preparation from the bistro kitchen."
+    "description": "Crumbed and deep-fried veal topped with blanched asparagus, seafood Mornay, and melted cheese — finished under the grill. A classic fine dining preparation."
   },
   {
     "id": "bistro-vealscaloppine",
     "name": "Veal Scaloppine",
     "category": "Bistro",
     "tags": [
+      "Bistro",
       "Classic",
       "Creamy",
       "Dinner",
       "Italian",
       "Rich",
       "Savoury",
-      "Under 30 Minutes"
+      "Under 30 Minutes",
+      "Veal"
     ],
     "description": "Thin pan-fried veal with a creamy onion and mushroom sauce. Quick, simple, and deeply satisfying."
+  },
+  {
+    "id": "baked-cheesecake",
+    "name": "Baked Cheesecake",
+    "category": "Desserts",
+    "tags": [
+      "American",
+      "Baked",
+      "Baking",
+      "Classic",
+      "Creamy",
+      "Dessert",
+      "Make Ahead",
+      "Overnight",
+      "Party",
+      "Rich",
+      "Sweet",
+      "Vegetarian"
+    ],
+    "description": "A classic baked cheesecake with a creamy, dense filling and crisp biscuit base. Rich, smooth, and far more forgiving than its reputation suggests."
   },
   {
     "id": "blueberrymuffins",
     "name": "Heavenly Blueberry Muffins",
     "category": "Baking",
     "tags": [
+      "American",
       "Baked",
+      "Baking",
       "Breakfast",
+      "Muffins",
       "Sweet",
       "Under 1 Hour",
       "Vegetarian"
@@ -618,14 +671,14 @@
     "name": "Original Bulalo",
     "category": "Dinner",
     "tags": [
-      "Filipino",
       "Beef",
-      "Soup",
       "Comfort Food",
-      "Gluten-Free",
       "Dairy-Free",
       "Dinner",
-      "Slow Cook"
+      "Filipino",
+      "Gluten-Free",
+      "Slow-Cooked",
+      "Soup"
     ],
     "description": "A rich, clear Filipino beef bone marrow soup from Batangas. Beef shanks are slow-boiled for hours until fall-off-the-bone tender, paired with corn, cabbage, and bok choy in a deeply flavourful broth."
   },
@@ -646,33 +699,39 @@
     "description": "A rich, silky, full-flavoured classic — ready in just 40 minutes."
   },
   {
+    "id": "chefstyletiramisugateau",
+    "name": "Chef-Style Tiramisu Gateau",
+    "category": "Desserts",
+    "tags": [
+      "Alcohol",
+      "Cake",
+      "Classic",
+      "Coffee",
+      "Creamy",
+      "Dessert",
+      "Italian",
+      "Make Ahead",
+      "Rich",
+      "Sweet",
+      "Vegetarian"
+    ],
+    "description": "Luscious layers. Boozy brilliance. A dessert that whispers Italian and screams, \"I'm extra.\" \n\n***NOT FOR KIDS***"
+  },
+  {
     "id": "cherrycoconutcake",
     "name": "Cherry and Coconut Cake",
     "category": "Baking",
     "tags": [
+      "Australian",
+      "Baking",
       "Cake",
       "Cherry",
       "Coconut",
-      "Baking",
-      "Pound Cake",
       "Dessert",
-      "Sweet"
+      "Sweet",
+      "Vegetarian"
     ],
     "description": "A wonderful buttery, soft pound cake bursting with cherries in every bite! The flavour is out of this world, rich in coconut. Bake in a bundt pan or loaf pan."
-  },
-  {
-    "id": "chickenmushroombaconpies",
-    "name": "Chicken, Mushroom & Bacon Pies",
-    "category": "Dinner",
-    "tags": [
-      "Baked",
-      "Chicken",
-      "Creamy",
-      "Dinner",
-      "Pastry",
-      "Savoury"
-    ],
-    "description": "Golden, flaky, and stuffed with comfort — a proper home-baked classic where pub fare meets homemade love."
   },
   {
     "id": "chickencacciatore",
@@ -681,6 +740,7 @@
     "tags": [
       "Alcohol",
       "Chicken",
+      "Classic",
       "Dinner",
       "Italian",
       "Rich",
@@ -690,31 +750,50 @@
     "description": "A hearty Italian classic — tender chicken simmered in a rich tomato and olive sauce, perfect over jasmine rice."
   },
   {
-    "id": "chickenshawarma",
-    "name": "Chicken Shawarma",
+    "id": "chickenmushroombaconpies",
+    "name": "Chicken, Mushroom & Bacon Pies",
     "category": "Dinner",
     "tags": [
+      "Australian",
+      "Baked",
+      "Baking",
       "Chicken",
+      "Creamy",
       "Dinner",
-      "Middle Eastern",
-      "Savoury",
-      "Under 30 Minutes"
+      "Pastry",
+      "Savoury"
     ],
-    "description": "Quick stovetop Middle Eastern chicken, marinated with authentic spices and seared hot for charred, tender strips."
+    "description": "Golden, flaky, and stuffed with comfort — a proper home-baked classic where pub fare meets homemade love."
   },
   {
     "id": "chickenpineapple",
     "name": "Chicken Pineapple",
     "category": "Dinner",
     "tags": [
+      "Chicken",
+      "Dinner",
       "Filipino",
-      "Pineapple",
-      "Ginger",
-      "Sweet",
+      "Fruit",
+      "Savoury",
       "Spicy",
-      "Chicken"
+      "Sweet"
     ],
     "description": "A sweet and slightly spicy dish that deserves complimenting."
+  },
+  {
+    "id": "chickenshawarma",
+    "name": "Chicken Shawarma",
+    "category": "Dinner",
+    "tags": [
+      "Chicken",
+      "Classic",
+      "Dinner",
+      "Middle Eastern",
+      "Savoury",
+      "Spicy",
+      "Under 30 Minutes"
+    ],
+    "description": "Quick stovetop Middle Eastern chicken, marinated with authentic spices and seared hot for charred, tender strips."
   },
   {
     "id": "chickenteriyaki",
@@ -722,6 +801,7 @@
     "category": "Dinner",
     "tags": [
       "Chicken",
+      "Classic",
       "Dinner",
       "Japanese",
       "Savoury",
@@ -735,13 +815,15 @@
     "name": "Chilli Garlic Oil",
     "category": "Sauces",
     "tags": [
+      "Chinese",
       "Condiment",
       "Garlic",
       "Make Ahead",
       "Sauce",
       "Spicy",
       "Under 30 Minutes",
-      "Vegan"
+      "Vegan",
+      "Vegetarian"
     ],
     "description": "A fragrant Asian condiment — fiery, aromatic, and incredibly versatile. Elevates everything it touches."
   },
@@ -750,8 +832,12 @@
     "name": "Chocolate Muffins with Ganache",
     "category": "Baking",
     "tags": [
+      "American",
       "Baked",
+      "Baking",
+      "Breakfast",
       "Chocolate",
+      "Muffins",
       "Rich",
       "Sweet",
       "Under 1 Hour",
@@ -778,18 +864,37 @@
     "description": "The essence of a mousse is lightness, indicated by its French name meaning foam or froth. This favourite is delicate yet rich with cream and chocolate."
   },
   {
+    "id": "chocolatemugcake",
+    "name": "Chocolate Mug Cake",
+    "category": "Desserts",
+    "tags": [
+      "American",
+      "Chocolate",
+      "Dessert",
+      "Easy",
+      "Microwave",
+      "Single Serve",
+      "Sweet",
+      "Under 10 Minutes",
+      "Vegetarian"
+    ],
+    "description": "A single-serve chocolate cake made in a mug, ready in under 2 minutes. Perfect for late-night cravings."
+  },
+  {
     "id": "chocolaterumballs",
     "name": "Chocolate Rum Balls",
     "category": "Desserts",
     "tags": [
       "Alcohol",
+      "Australian",
       "Chocolate",
       "Dessert",
       "Make Ahead",
       "No-Bake",
       "Party",
       "Rich",
-      "Sweet"
+      "Sweet",
+      "Vegetarian"
     ],
     "description": "Quick, fun, and dangerously delicious — the ultimate no-bake chocolate treat."
   },
@@ -798,7 +903,9 @@
     "name": "Choux Pastry (Profiteroles)",
     "category": "Baking",
     "tags": [
+      "Baking",
       "Classic",
+      "Dessert",
       "French",
       "Pastry",
       "Sweet",
@@ -807,26 +914,13 @@
     "description": "Light, crisp, and ready to cradle cream — the classic French pastry that never goes out of style."
   },
   {
-    "id": "chocolatemugcake",
-    "name": "Chocolate Mug Cake",
-    "category": "Desserts",
-    "tags": [
-      "Chocolate",
-      "Dessert",
-      "Easy",
-      "Microwave",
-      "Single Serve",
-      "Under 10 Minutes",
-      "Vegetarian"
-    ],
-    "description": "A single-serve chocolate cake made in a mug, ready in under 2 minutes. Perfect for late-night cravings."
-  },
-  {
     "id": "cinnbun",
     "name": "Bakery-Style Cinnamon Buns",
     "category": "Baking",
     "tags": [
+      "American",
       "Baked",
+      "Baking",
       "Bread",
       "Breakfast",
       "Cinnamon",
@@ -841,10 +935,11 @@
     "name": "Cinnamon Twists",
     "category": "Baking",
     "tags": [
+      "American",
       "Baked",
+      "Baking",
       "Bread",
       "Breakfast",
-      "Cinnamon",
       "Sweet",
       "Vegetarian"
     ],
@@ -855,14 +950,17 @@
     "name": "Classic Carrot Cake",
     "category": "Baking",
     "tags": [
+      "American",
       "Baked",
+      "Baking",
+      "Cake",
+      "Carrot",
       "Classic",
       "Creamy",
+      "Dessert",
       "Party",
       "Sweet",
-      "Vegetarian",
-      "Carrot",
-      "Cake"
+      "Vegetarian"
     ],
     "description": "A hearty old-fashioned carrot cake — dense, moist, deeply spiced, and sturdy enough to slice for days without apology."
   },
@@ -871,13 +969,14 @@
     "name": "Crème Caramel",
     "category": "Desserts",
     "tags": [
-      "French",
-      "Dessert",
       "Baked",
-      "Make Ahead",
+      "Classic",
       "Creamy",
+      "Dessert",
+      "French",
+      "Make Ahead",
       "Rich",
-      "Classic"
+      "Vegetarian"
     ],
     "description": "A French classic — silky custard topped with a thin layer of amber caramel. Made possible with the LG Kitchen collection."
   },
@@ -887,6 +986,7 @@
     "category": "Desserts",
     "tags": [
       "Breakfast",
+      "Classic",
       "Dessert",
       "French",
       "Sweet",
@@ -896,21 +996,20 @@
     "description": "Golden, versatile crepes perfect for sweet or savoury cravings. Serve warm — simple is best."
   },
   {
-    "id": "crispyairfryercutlets",
-    "name": "Crispy Cornflake Chicken Tenders",
+    "id": "crispycornflakechicken",
+    "name": "Crispy Cornflake Chicken",
     "category": "Entree",
     "tags": [
+      "Air-Fried",
+      "American",
       "Chicken",
       "Crispy",
-      "Air-Fried",
-      "Tender",
-      "Entree",
-      "Easy Prep",
-      "Oil Free",
-      "Egg Free",
+      "Dinner",
+      "Easy",
+      "Savoury",
       "Under 30 Minutes"
     ],
-    "description": "This recipe delivers a shatteringly crisp chicken breast using an oil-free, egg-free cooking method in the air fryer. The chicken is deeply tenderised in a savory spiced milk marinade, coated in a simple flour slurry, and encrusted in finely crushed cornflakes. It bakes up to a beautiful golden-orange hue using only dry pantry spices, making it a wholesome, family-friendly meal with maximum crunch and zero added fat."
+    "description": "Chicken breast tenders tenderized in a spiced buttermilk marinade, coated in a simple flour-based slurry, and crusted with crushed cornflakes. Baked in the air fryer for a crispy texture without the need for deep frying. Serve alongside [[smokybbqsauce|Smoky BBQ Sauce]] or [[honeymustardsauce|Honey Mustard Sauce]]."
   },
   {
     "id": "currychicken",
@@ -923,7 +1022,9 @@
       "Curry",
       "Dinner",
       "Easy",
-      "Make Ahead"
+      "Make Ahead",
+      "Savoury",
+      "Spicy"
     ],
     "description": "Tender chicken in a rich, creamy coconut curry sauce. Simple, comforting, and packed with flavour."
   },
@@ -932,7 +1033,9 @@
     "name": "Dark Rye Bread",
     "category": "Baking",
     "tags": [
+      "Baking",
       "Bread",
+      "German",
       "Make Ahead",
       "Savoury",
       "Vegan",
@@ -945,32 +1048,33 @@
     "name": "Double Chocolate Chip Cookies",
     "category": "Biscuits",
     "tags": [
+      "American",
+      "Baking",
       "Chocolate",
       "Classic",
+      "Cookies",
       "Make Ahead",
       "Rich",
       "Snack",
       "Sweet",
-      "Vegetarian",
-      "Cookies"
+      "Vegetarian"
     ],
     "description": "Because plain chocolate is for lightweights. Soft, fudgy, and packed with chocolate chips — perfect with a cold glass of milk."
   },
   {
-    "id": "filipinonoodles",
-    "name": "Pancit (Filipino Stir-Fried Noodles)",
-    "category": "Dinner",
+    "id": "focaccia-high",
+    "name": "High-Hydration Focaccia",
+    "category": "Baking",
     "tags": [
-      "Chicken",
-      "Dairy-Free",
-      "Dinner",
-      "Filipino",
-      "Noodles",
-      "Pork",
+      "Baking",
+      "Bread",
+      "Italian",
+      "Make Ahead",
       "Savoury",
-      "Stir-Fried"
+      "Vegan",
+      "Vegetarian"
     ],
-    "description": "A vibrant, savoury noodle dish with pork, chicken, and crisp vegetables — classic Filipino comfort food."
+    "description": "A gloriously wet, no-knead focaccia with an open, airy crumb and crisp golden crust."
   },
   {
     "id": "filipinoportoccino",
@@ -988,28 +1092,16 @@
     "description": "Sweet, caramelised pork — juicy, tender, and perfect for a classic Filipino breakfast or dinner."
   },
   {
-    "id": "focaccia-high",
-    "name": "High-Hydration Focaccia",
+    "id": "focaccia",
+    "name": "Focaccia",
     "category": "Baking",
     "tags": [
+      "Baking",
       "Bread",
       "Italian",
       "Make Ahead",
       "Savoury",
       "Vegan",
-      "Vegetarian"
-    ],
-    "description": "A gloriously wet, no-knead focaccia with an open, airy crumb and crisp golden crust."
-  },
-  {
-    "id": "focaccia",
-    "name": "Focaccia",
-    "category": "Baking",
-    "tags": [
-      "Bread",
-      "Italian",
-      "Make Ahead",
-      "Savoury",
       "Vegetarian"
     ],
     "description": "A classic Italian flatbread studded with olives and rosemary, baked until golden and crisp."
@@ -1019,7 +1111,11 @@
     "name": "Orange & Poppyseed Friands",
     "category": "Baking",
     "tags": [
+      "Australian",
+      "Baking",
+      "Cake",
       "Dessert",
+      "French",
       "Orange",
       "Rich",
       "Sweet",
@@ -1033,8 +1129,11 @@
     "category": "Baking",
     "tags": [
       "Baked",
+      "Baking",
       "Bread",
+      "Classic",
       "Garlic",
+      "Italian",
       "Savoury",
       "Vegetarian"
     ],
@@ -1047,6 +1146,7 @@
     "tags": [
       "American",
       "Baked",
+      "Baking",
       "Bread",
       "Savoury",
       "Vegetarian"
@@ -1058,6 +1158,7 @@
     "name": "Airy High-Hydration Ciabatta",
     "category": "Baking",
     "tags": [
+      "Baking",
       "Bread",
       "Italian",
       "Savoury",
@@ -1071,12 +1172,14 @@
     "name": "Honey Garlic Sauce",
     "category": "Sauces",
     "tags": [
+      "Asian",
+      "Condiment",
       "Garlic",
       "Sauce",
       "Savoury",
       "Sweet",
       "Under 30 Minutes",
-      "Vegan"
+      "Vegetarian"
     ],
     "description": "A sweet and savoury Asian glaze — sticky, garlicky, and impossible to resist. A family favourite."
   },
@@ -1085,15 +1188,15 @@
     "name": "Honey Mustard Sauce",
     "category": "Sauces",
     "tags": [
-      "Sauce",
+      "American",
       "Condiment",
-      "Honey Mustard",
-      "Oil Free",
-      "Fat Free",
-      "Easy Prep",
-      "Under 10 Minutes"
+      "Sauce",
+      "Savoury",
+      "Sweet",
+      "Under 10 Minutes",
+      "Vegetarian"
     ],
-    "description": "This sauce is sweet, tangy, and thick. The yogurt base gives it a creamy texture without any mayonnaise or oil."
+    "description": "A sweet, tangy, and creamy honey mustard sauce. Using a Greek yogurt base keeps the sauce oil-free, while a combination of Dijon and yellow mustard provides a classic condiment flavor."
   },
   {
     "id": "honeysoychicken",
@@ -1105,6 +1208,7 @@
       "Dinner",
       "Easy",
       "Make Ahead",
+      "Savoury",
       "Sweet",
       "Under 1 Hour"
     ],
@@ -1117,6 +1221,7 @@
     "tags": [
       "American",
       "Baked",
+      "Baking",
       "Bread",
       "Savoury",
       "Vegetarian"
@@ -1124,15 +1229,36 @@
     "description": "Soft, golden buns made for loading up with your favourite hot dogs — eight generously sized rolls."
   },
   {
+    "id": "hummingbirdcafestyle",
+    "name": "Hummingbird — Cafe Style",
+    "category": "Baking",
+    "tags": [
+      "Baking",
+      "Cake",
+      "Dessert",
+      "Jamaican",
+      "Party",
+      "Rich",
+      "Southern",
+      "Sweet",
+      "Vegetarian"
+    ],
+    "description": "A lush, old-fashioned Southern classic — moist, fragrant, packed with fruit, and crowned with cream cheese frosting."
+  },
+  {
     "id": "kormapaste",
     "name": "Homemade Korma Paste",
     "category": "Sauces",
     "tags": [
+      "Condiment",
+      "Curry",
+      "Gluten-Free",
       "Indian",
       "Make Ahead",
       "Savoury",
+      "Spicy",
       "Vegan",
-      "Gluten-Free"
+      "Vegetarian"
     ],
     "description": "A rich, fragrant paste — the foundation for a proper korma curry."
   },
@@ -1141,12 +1267,14 @@
     "name": "Lamb Korma",
     "category": "Dinner",
     "tags": [
+      "Classic",
       "Curry",
       "Dinner",
       "Indian",
       "Lamb",
       "Rich",
-      "Savoury"
+      "Savoury",
+      "Slow-Cooked"
     ],
     "description": "A rich, fragrant lamb curry in a silky yoghurt-based sauce — deeply spiced and full of flavour."
   },
@@ -1174,9 +1302,12 @@
     "tags": [
       "Australian",
       "Baked",
+      "Baking",
+      "Cake",
       "Chocolate",
       "Classic",
       "Coconut",
+      "Dessert",
       "Party",
       "Sweet",
       "Vegetarian"
@@ -1194,6 +1325,7 @@
       "Dinner",
       "Italian",
       "Make Ahead",
+      "Pasta",
       "Rich",
       "Savoury"
     ],
@@ -1204,6 +1336,9 @@
     "name": "Lemon Coconut Cake",
     "category": "Baking",
     "tags": [
+      "Australian",
+      "Baking",
+      "Cake",
       "Coconut",
       "Dessert",
       "Lemon",
@@ -1217,7 +1352,9 @@
     "name": "Lemon Meringue Pie",
     "category": "Desserts",
     "tags": [
+      "American",
       "Baked",
+      "Baking",
       "Classic",
       "Dessert",
       "Lemon",
@@ -1249,6 +1386,7 @@
     "tags": [
       "Australian",
       "Baked",
+      "Baking",
       "Beef",
       "Classic",
       "Dinner",
@@ -1262,16 +1400,15 @@
     "name": "Mock Cream (Traditional Method)",
     "category": "Baking",
     "tags": [
-      "Traditional",
-      "Bakery-style",
       "Australian",
-      "Vegetarian",
-      "Gluten-free",
-      "Make-ahead",
-      "No-bake",
-      "Cake Filling",
-      "Frosting",
-      "Pastry Filling"
+      "Bakery-Style",
+      "Classic",
+      "Condiment",
+      "Gluten-Free",
+      "Make-Ahead",
+      "No-Bake",
+      "Sweet",
+      "Vegetarian"
     ],
     "description": "A traditional bakery-style mock cream with a small amount of gelatine added for stability, from Tracy Rutherford's Taste.com.au recipe."
   },
@@ -1300,6 +1437,7 @@
       "Dinner",
       "Lamb",
       "Savoury",
+      "Stir-Fried",
       "Sweet"
     ],
     "description": "A sweet and savoury stir-fry with tender lamb, Chinese Five Spice, and Hoisin — even better than many restaurant versions."
@@ -1311,83 +1449,16 @@
     "tags": [
       "Alcohol",
       "Chinese",
+      "Condiment",
       "Make Ahead",
       "Sauce",
       "Savoury",
       "Sweet",
       "Under 30 Minutes",
-      "Vegan"
+      "Vegan",
+      "Vegetarian"
     ],
     "description": "A rich, sticky, savoury-sweet sauce perfect with beef, chicken, or vegetables."
-  },
-  {
-    "id": "muffinmix",
-    "name": "Basic Muffin Mix",
-    "category": "Baking",
-    "tags": [
-      "Baked",
-      "Breakfast",
-      "Snack",
-      "Sweet",
-      "Under 30 Minutes",
-      "Vegetarian"
-    ],
-    "description": "A simple, dependable base recipe — sweet or savoury, load it up any way you like."
-  },
-  {
-    "id": "multigrainbread",
-    "name": "Multigrain Seeded Bread",
-    "category": "Breads",
-    "tags": [
-      "Bread",
-      "Multigrain",
-      "Seeded",
-      "Baking",
-      "Savoury"
-    ],
-    "description": "A dense, nutrient-dense sandwich loaf packed with a variety of seeds, grains, and added dietary fibre. This recipe produces a hearty loaf suitable for daily slicing."
-  },
-  {
-    "id": "mushroomcups",
-    "name": "Mushrooms with Herb Nut Butter",
-    "category": "Entree",
-    "tags": [
-      "Baked",
-      "Gluten-Free",
-      "Rich",
-      "Savoury",
-      "Under 30 Minutes",
-      "Vegetarian"
-    ],
-    "description": "Baked mushroom caps filled with a rich herb and almond butter, finished until golden and fragrant."
-  },
-  {
-    "id": "nachomince",
-    "name": "Seasoned Beef Mince — Nachos & Tacos",
-    "category": "Dinner",
-    "tags": [
-      "Beef",
-      "Dinner",
-      "Make Ahead",
-      "Mexican",
-      "Savoury",
-      "Under 30 Minutes"
-    ],
-    "description": "The foundation of great nachos and tacos — a rich, deeply seasoned beef mince that holds its own under cheese, sour cream, and all the toppings."
-  },
-  {
-    "id": "orangepoppyseed",
-    "name": "Orange & Poppy Seed Cake",
-    "category": "Baking",
-    "tags": [
-      "Citrus",
-      "Dessert",
-      "Orange",
-      "Rich",
-      "Sweet",
-      "Vegetarian"
-    ],
-    "description": "A bright, citrusy favourite — buttery, fragrant, and layered with a lush orange cream."
   },
   {
     "id": "mornaysauce",
@@ -1406,28 +1477,97 @@
     "description": "A smooth, creamy cheese sauce made the right way — starting with a proper roux, then béchamel, then cheese."
   },
   {
-    "id": "hummingbird",
-    "name": "Hummingbird — Cafe Style",
+    "id": "muffinmix",
+    "name": "Basic Muffin Mix",
     "category": "Baking",
     "tags": [
-      "Banana",
-      "Party",
+      "American",
+      "Baked",
+      "Baking",
+      "Breakfast",
+      "Snack",
+      "Sweet",
+      "Under 30 Minutes",
+      "Vegetarian"
+    ],
+    "description": "A simple, dependable base recipe — sweet or savoury, load it up any way you like."
+  },
+  {
+    "id": "multigrainbread",
+    "name": "Multigrain Seeded Bread",
+    "category": "Breads",
+    "tags": [
+      "Baking",
+      "Bread",
+      "British",
+      "Multigrain",
+      "Savoury",
+      "Seeded",
+      "Vegan",
+      "Vegetarian"
+    ],
+    "description": "A dense, nutrient-dense sandwich loaf packed with a variety of seeds, grains, and added dietary fibre. This recipe produces a hearty loaf suitable for daily slicing."
+  },
+  {
+    "id": "nachomince",
+    "name": "Seasoned Beef Mince — Nachos & Tacos",
+    "category": "Dinner",
+    "tags": [
+      "Beef",
+      "Dinner",
+      "Make Ahead",
+      "Mexican",
+      "Savoury",
+      "Spicy",
+      "Under 30 Minutes"
+    ],
+    "description": "The foundation of great nachos and tacos — a rich, deeply seasoned beef mince that holds its own under cheese, sour cream, and all the toppings."
+  },
+  {
+    "id": "mushroomcups",
+    "name": "Mushrooms with Herb Nut Butter",
+    "category": "Entree",
+    "tags": [
+      "Baked",
+      "Entree",
+      "French",
+      "Gluten-Free",
+      "Rich",
+      "Savoury",
+      "Under 30 Minutes",
+      "Vegetarian"
+    ],
+    "description": "Baked mushroom caps filled with a rich herb and almond butter, finished until golden and fragrant."
+  },
+  {
+    "id": "orangepoppyseed",
+    "name": "Orange & Poppy Seed Cake",
+    "category": "Baking",
+    "tags": [
+      "Australian",
+      "Baking",
+      "Cake",
+      "Citrus",
+      "Dessert",
+      "Orange",
       "Rich",
       "Sweet",
       "Vegetarian"
     ],
-    "description": "A lush, old-fashioned Southern classic — moist, fragrant, packed with fruit, and crowned with cream cheese frosting."
+    "description": "A bright, citrusy favourite — buttery, fragrant, and layered with a lush orange cream."
   },
   {
     "id": "pancakesfortwo",
     "name": "Pancakes for Two",
     "category": "Breakfast",
     "tags": [
+      "American",
       "Breakfast",
       "Easy",
       "Make Ahead",
-      "Vegetarian",
-      "Under 30 Minutes"
+      "Sweet",
+      "Under 30 Minutes",
+      "Vegetarian"
     ],
     "description": "Light, fluffy pancakes made from scratch — perfect for a weekend breakfast. Simple ingredients, no electric mixer needed."
   },
@@ -1436,14 +1576,14 @@
     "name": "Pancit Bihon",
     "category": "Dinner",
     "tags": [
+      "Chicken",
+      "Dairy-Free",
+      "Dinner",
       "Filipino",
       "Noodles",
       "Pork",
-      "Chicken",
       "Savoury",
-      "Stir-Fried",
-      "Dairy-Free",
-      "Dinner"
+      "Stir-Fried"
     ],
     "description": "The light, thin rice noodle version most people associate with Filipino Pancit. A birthday table staple symbolising long life, best served with a squeeze of calamansi."
   },
@@ -1452,28 +1592,45 @@
     "name": "Pancit Canton",
     "category": "Dinner",
     "tags": [
+      "Dairy-Free",
+      "Dinner",
       "Filipino",
       "Noodles",
       "Pork",
-      "Shrimp",
       "Savoury",
-      "Stir-Fried",
-      "Dairy-Free",
-      "Dinner"
+      "Seafood",
+      "Stir-Fried"
     ],
     "description": "The chewy, savoury-sweet egg noodle version of Filipino Pancit. Richer than Bihon thanks to oyster sauce and Chinese sausage, with a satisfying bite from thick wheat noodles."
+  },
+  {
+    "id": "pancitfilipinostirfriednoodles",
+    "name": "Pancit (Filipino Stir-Fried Noodles)",
+    "category": "Dinner",
+    "tags": [
+      "Chicken",
+      "Dairy-Free",
+      "Dinner",
+      "Filipino",
+      "Noodles",
+      "Pork",
+      "Savoury",
+      "Stir-Fried"
+    ],
+    "description": "A vibrant, savoury noodle dish with pork, chicken, and crisp vegetables — classic Filipino comfort food."
   },
   {
     "id": "pestosauce",
     "name": "Pesto Sauce",
     "category": "Sauces",
     "tags": [
+      "Classic",
+      "Condiment",
+      "Gluten-Free",
       "Italian",
       "Sauce",
       "Under 30 Minutes",
-      "Vegetarian",
-      "Basil",
-      "No-Cook"
+      "Vegetarian"
     ],
     "description": "A vibrant Italian basil sauce — fresh, aromatic, and utterly delicious. Pure summer in a bowl."
   },
@@ -1482,13 +1639,13 @@
     "name": "Pineapple Upside-Down Cake",
     "category": "Baking",
     "tags": [
+      "American",
       "Baking",
-      "Beginner Friendly",
+      "Cake",
       "Caramel",
-      "Fruit Dessert",
-      "Pantry Recipe",
-      "Pineapple",
-      "Upside-Down Cake",
+      "Dessert",
+      "Fruit",
+      "Sweet",
       "Vegetarian"
     ],
     "description": "Sticky, caramelised pineapple upside-down cake. Built from pantry staples, baked in a water tray for a moist, even crumb, flipped warm, and it didn't stick. Looks awesome. Tastes even better."
@@ -1498,7 +1655,9 @@
     "name": "Ultimate Homemade Pizza Dough",
     "category": "Baking",
     "tags": [
+      "Baking",
       "Bread",
+      "Classic",
       "Italian",
       "Make Ahead",
       "Savoury",
@@ -1512,6 +1671,7 @@
     "name": "Plain Cheesecake (Classic No Bake)",
     "category": "Desserts",
     "tags": [
+      "American",
       "Classic",
       "Creamy",
       "Dessert",
@@ -1528,44 +1688,43 @@
     "name": "Pork Caldereta",
     "category": "Dinner",
     "tags": [
+      "Dinner",
       "Filipino",
+      "Gluten-Free",
       "Pork",
-      "Stew",
+      "Rich",
       "Savoury",
       "Spicy",
-      "Rich",
-      "Dinner",
-      "Gluten-Free"
+      "Stew"
     ],
     "description": "A rich Filipino stew known for its tender meat and savoury, slightly spicy tomato-based sauce thickened with liver spread."
-  },
-  {
-    "id": "potatognocchi",
-    "name": "Potato Gnocchi with Tomato Sauce",
-    "category": "Dinner",
-    "tags": [
-      "Alcohol",
-      "Classic",
-      "Dinner",
-      "Italian",
-      "Rich",
-      "Savoury",
-      "Vegetarian"
-    ],
-    "description": "Soft potato gnocchi served with a simple tomato and basil sauce."
   },
   {
     "id": "puffpastryrough",
     "name": "Rough Puff Pastry",
     "category": "Pastry",
     "tags": [
-      "Puff Pastry",
-      "Butter",
-      "Flaky",
+      "Baking",
+      "Classic",
+      "Freezer Friendly",
+      "French",
       "Make Ahead",
-      "Freezer Friendly"
+      "Pastry"
     ],
     "description": "A smart compromise between traditional puff pastry and store-bought. Quick to make with excellent rise and flakiness — the perfect everyday laminated dough. Keep everything cold and don't overwork it."
+  },
+  {
+    "id": "puffpastrytraditional",
+    "name": "Traditional Puff Pastry",
+    "category": "Pastry",
+    "tags": [
+      "Baking",
+      "Classic",
+      "French",
+      "Make Ahead",
+      "Pastry"
+    ],
+    "description": "The full classic method with butter block and multiple turns. Ultimate rise, ethereal flakiness, and deep satisfaction. A project worth the effort — make this when pastry is the centrepiece and you have a Sunday afternoon."
   },
   {
     "id": "redsauce",
@@ -1581,16 +1740,6 @@
       "Vegetarian"
     ],
     "description": "A simple tomato-based sauce — rich, aromatic, and perfect for pasta. Quick to make, full of flavour."
-  },
-  {
-    "id": "puffpastrytraditional",
-    "name": "Traditional Puff Pastry",
-    "category": "Pastry",
-    "tags": [
-      "Puff Pastry",
-      "Lamination"
-    ],
-    "description": "The full classic method with butter block and multiple turns. Ultimate rise, ethereal flakiness, and deep satisfaction. A project worth the effort — make this when pastry is the centrepiece and you have a Sunday afternoon."
   },
   {
     "id": "roganjosh",
@@ -1609,12 +1758,29 @@
     "description": "Succulent pieces of lamb cooked in a rich, flavourful sauce."
   },
   {
+    "id": "potatognocchi",
+    "name": "Potato Gnocchi with Tomato Sauce",
+    "category": "Dinner",
+    "tags": [
+      "Alcohol",
+      "Classic",
+      "Dinner",
+      "Italian",
+      "Pasta",
+      "Rich",
+      "Savoury",
+      "Vegetarian"
+    ],
+    "description": "Soft potato gnocchi served with a simple tomato and basil sauce."
+  },
+  {
     "id": "roulade",
     "name": "Strawberry Meringue Roulade",
     "category": "Desserts",
     "tags": [
       "Australian",
       "Baked",
+      "Baking",
       "Classic",
       "Creamy",
       "Dessert",
@@ -1628,30 +1794,18 @@
     "name": "Satay Sauce",
     "category": "Sauces",
     "tags": [
+      "Asian",
       "Coconut",
+      "Condiment",
       "Gluten-Free",
       "Make Ahead",
       "Sauce",
       "Savoury",
       "Spicy",
-      "Vegan"
+      "Vegan",
+      "Vegetarian"
     ],
     "description": "Rich, creamy, slightly spicy, and perfect for chicken, beef, lamb, veggies — or eaten straight from the pan when no one's watching."
-  },
-  {
-    "id": "smokybbqsauce",
-    "name": "Smoky BBQ Sauce",
-    "category": "Sauces",
-    "tags": [
-      "Sauce",
-      "Condiment",
-      "BBQ",
-      "Oil Free",
-      "Fat Free",
-      "Easy Prep",
-      "Under 10 Minutes"
-    ],
-    "description": "A classic, rich BBQ sauce made without any oil or butter. It has a deep, savory sweetness that matches the smoky paprika in your chicken marinade."
   },
   {
     "id": "sausageroll",
@@ -1660,6 +1814,7 @@
     "tags": [
       "Australian",
       "Baked",
+      "Baking",
       "Classic",
       "Dinner",
       "Make Ahead",
@@ -1671,27 +1826,29 @@
     "description": "The Aussie snack king — perfect for footy days, picnics, or anytime hunger strikes."
   },
   {
-    "id": "stickydates",
-    "name": "Sticky Date Pudding with Caramel Sauce",
-    "category": "Desserts",
+    "id": "smokybbqsauce",
+    "name": "Smoky BBQ Sauce",
+    "category": "Sauces",
     "tags": [
-      "Alcohol",
-      "Baked",
-      "Classic",
-      "Creamy",
-      "Dessert",
-      "Rich",
+      "American",
+      "Condiment",
+      "Sauce",
+      "Savoury",
       "Sweet",
+      "Under 15 Minutes",
+      "Vegan",
       "Vegetarian"
     ],
-    "description": "Microwave marvel — rich, sticky, and surprisingly fast."
+    "description": "A quick, oil-free BBQ sauce with a deep, savory sweetness. Simmering the ingredients helps cook out the raw tomato taste, blending the smoked paprika with molasses and mustard for a traditional flavor profile."
   },
   {
     "id": "sub",
     "name": "Homemade Sub Buns",
     "category": "Baking",
     "tags": [
+      "American",
       "Baked",
+      "Baking",
       "Bread",
       "Savoury",
       "Vegetarian"
@@ -1703,37 +1860,44 @@
     "name": "Sultana Rolls with Sugar Glaze",
     "category": "Baking",
     "tags": [
+      "Australian",
+      "Baking",
       "Bread",
-      "Sweet Bread",
-      "Fruit Loaf",
-      "Buns",
-      "Baking"
-    ],
-    "description": "Warmly spiced, tender sultana rolls portioned into individual buns. Ground allspice and brown sugar provide depth, spreadable butter keeps the crumb soft, and a shiny sugar glaze made with glucose syrup to prevent crystallization is brushed on top after baking."
-  },
-  {
-    "id": "swbtm2",
-    "name": "Soft White Bread 2 (Tangzhong)",
-    "category": "Baking",
-    "tags": [
-      "Bread",
-      "Make Ahead",
-      "Savoury",
+      "Breakfast",
+      "Sweet",
       "Vegetarian"
     ],
-    "description": "A soft, airy loaf with a tender crumb, made using tangzhong and hand-rolled sections for perfect pull-apart texture."
+    "description": "Warmly spiced, tender sultana rolls portioned into individual buns. Ground allspice and brown sugar provide depth, spreadable butter keeps the crumb soft, and a shiny sugar glaze made with glucose syrup to prevent crystallization is brushed on top after baking."
   },
   {
     "id": "swbtm",
     "name": "Soft White Bread (Tangzhong Method)",
     "category": "Baking",
     "tags": [
+      "Asian",
+      "Baking",
       "Bread",
       "Classic",
       "Make Ahead",
-      "Vegan"
+      "Vegan",
+      "Vegetarian"
     ],
     "description": "A soft, pale, everyday loaf that stays tender for days without milk, butter, or yellowing — thanks to the tangzhong technique."
+  },
+  {
+    "id": "swbtm2",
+    "name": "Soft White Bread 2 (Tangzhong)",
+    "category": "Baking",
+    "tags": [
+      "Asian",
+      "Baking",
+      "Bread",
+      "Make Ahead",
+      "Savoury",
+      "Vegan",
+      "Vegetarian"
+    ],
+    "description": "A soft, airy loaf with a tender crumb, made using tangzhong and hand-rolled sections for perfect pull-apart texture."
   },
   {
     "id": "sweetchillisauce",
@@ -1745,8 +1909,10 @@
       "Sauce",
       "Spicy",
       "Sweet",
+      "Thai",
       "Under 30 Minutes",
-      "Vegan"
+      "Vegan",
+      "Vegetarian"
     ],
     "description": "A Thai-inspired sweet and spicy sauce — sticky, tangy, and addictive. Perfect as a dip or glaze."
   },
@@ -1770,11 +1936,13 @@
     "category": "Sauces",
     "tags": [
       "Chinese",
+      "Condiment",
       "Make Ahead",
       "Sauce",
       "Sweet",
       "Under 30 Minutes",
-      "Vegan"
+      "Vegan",
+      "Vegetarian"
     ],
     "description": "Tangy, sweet, and versatile — adjust sweetness, tang, or add heat. Perfect for home cooking and fridge-friendly storage."
   },
@@ -1784,10 +1952,12 @@
     "category": "Sauces",
     "tags": [
       "Chinese",
+      "Condiment",
       "Sauce",
       "Sweet",
       "Under 30 Minutes",
-      "Vegan"
+      "Vegan",
+      "Vegetarian"
     ],
     "description": "Fast, tangy, sweet, and irresistibly familiar — your shortcut to classic Chinese takeout flavour at home."
   },
@@ -1796,37 +1966,49 @@
     "name": "Sweet & Spicy Orange Sauce",
     "category": "Sauces",
     "tags": [
+      "Asian",
+      "Condiment",
       "Orange",
       "Sauce",
       "Spicy",
       "Sweet",
       "Under 30 Minutes",
-      "Vegan"
+      "Vegan",
+      "Vegetarian"
     ],
     "description": "A zesty Asian-inspired sauce — citrusy, fiery, and utterly moreish. Restaurant quality at home."
   },
   {
-    "id": "tacoseasoning",
-    "name": "Taco Seasoning — Old El Paso Style (From Scratch)",
-    "category": "Sauces",
+    "id": "stickydates",
+    "name": "Sticky Date Pudding with Caramel Sauce",
+    "category": "Desserts",
     "tags": [
-      "Make Ahead",
-      "Mexican",
-      "Sauce",
-      "Under 30 Minutes",
-      "Vegan"
+      "Alcohol",
+      "Australian",
+      "Baked",
+      "Baking",
+      "British",
+      "Classic",
+      "Creamy",
+      "Dessert",
+      "Rich",
+      "Sweet",
+      "Vegetarian"
     ],
-    "description": "A homemade taco seasoning that replicates the Old El Paso packet blend — but fresher, deeper, and completely under your control. One batch equals roughly one standard 35 g packet."
+    "description": "Microwave marvel — rich, sticky, and surprisingly fast."
   },
   {
     "id": "tangzhongseed",
     "name": "Tangzhong Grain & Seed Bread",
     "category": "Baking",
     "tags": [
+      "Asian",
+      "Baking",
       "Bread",
       "Make Ahead",
       "Savoury",
-      "Vegan"
+      "Vegan",
+      "Vegetarian"
     ],
     "description": "A soft, generous loaf with the soul of old-world baking — built on modern tangzhong and a hearty, soaked grain-and-seed mix that gives depth without stealing moisture."
   },
@@ -1835,26 +2017,44 @@
     "name": "Teriyaki Marinade",
     "category": "Sauces",
     "tags": [
+      "Condiment",
       "Japanese",
       "Make Ahead",
       "Sauce",
       "Savoury",
       "Sweet",
-      "Vegan"
+      "Vegan",
+      "Vegetarian"
     ],
     "description": "A sweet-savoury marinade that makes chicken tender, juicy, and full of flavour. Perfect for grilling, baking, or stir-frying."
+  },
+  {
+    "id": "tacoseasoning",
+    "name": "Taco Seasoning — Old El Paso Style (From Scratch)",
+    "category": "Sauces",
+    "tags": [
+      "Condiment",
+      "Make Ahead",
+      "Mexican",
+      "Under 30 Minutes",
+      "Vegan",
+      "Vegetarian"
+    ],
+    "description": "A homemade taco seasoning that replicates the Old El Paso packet blend — but fresher, deeper, and completely under your control. One batch equals roughly one standard 35 g packet."
   },
   {
     "id": "teriyakisauce",
     "name": "Teriyaki Sauce",
     "category": "Sauces",
     "tags": [
+      "Condiment",
       "Japanese",
       "Make Ahead",
       "Sauce",
       "Sweet",
       "Under 30 Minutes",
-      "Vegan"
+      "Vegan",
+      "Vegetarian"
     ],
     "description": "A classic Japanese glaze — sweet, umami-rich, and beautifully glossy. Authentic taste, simple method."
   },
@@ -1863,31 +2063,16 @@
     "name": "The Ultimate Chocolate Mud Cake",
     "category": "Desserts",
     "tags": [
-      "Chocolate",
+      "Australian",
+      "Baking",
       "Cake",
+      "Chocolate",
       "Dessert",
-      "Rich",
-      "Sweet"
-    ],
-    "description": "A decadent, dense, and fudgy masterpiece topped with silky chocolate ganache — the ultimate indulgence."
-  },
-  {
-    "id": "tiramisu",
-    "name": "Chef-Style Tiramisu Gateau",
-    "category": "Desserts",
-    "tags": [
-      "Alcohol",
-      "Classic",
-      "Coffee",
-      "Creamy",
-      "Dessert",
-      "Italian",
-      "Make Ahead",
       "Rich",
       "Sweet",
       "Vegetarian"
     ],
-    "description": "Luscious layers. Boozy brilliance. A dessert that whispers Italian and screams, \"I'm extra.\""
+    "description": "A decadent, dense, and fudgy masterpiece topped with silky chocolate ganache — the ultimate indulgence."
   },
   {
     "id": "tomatoflan",
@@ -1895,6 +2080,7 @@
     "category": "Entree",
     "tags": [
       "Baked",
+      "Baking",
       "Dinner",
       "French",
       "Pastry",
@@ -1911,13 +2097,14 @@
     "category": "Biscuits",
     "tags": [
       "Australian",
+      "Baking",
+      "Biscuits",
       "Classic",
+      "Coconut",
       "Make Ahead",
       "Rich",
       "Sweet",
-      "Vegetarian",
-      "Cookies",
-      "Coconut"
+      "Vegetarian"
     ],
     "description": "A classic Australian favourite — golden, chewy, and steeped in history. This version uses a higher oat-to-coconut ratio for better binding and a less greasy dough. Weigh each ball to 35g for consistent results every time."
   },
@@ -1926,29 +2113,17 @@
     "name": "Traditional Turkish Bread",
     "category": "Baking",
     "tags": [
+      "Baking",
       "Bread",
       "Classic",
       "Make Ahead",
       "Middle Eastern",
       "Savoury",
+      "Turkish",
       "Vegan",
       "Vegetarian"
     ],
     "description": "Soft, slightly chewy, and baked to a golden finish with a traditional sesame and nigella seed topping."
-  },
-  {
-    "id": "vindaloopaste",
-    "name": "Vindaloo Paste",
-    "category": "Sauces",
-    "tags": [
-      "Indian",
-      "Make Ahead",
-      "Savoury",
-      "Spicy",
-      "Vegan",
-      "Gluten-Free"
-    ],
-    "description": "A bold, tangy, fire-forward paste — the beating heart of a proper vindaloo."
   },
   {
     "id": "whitesauce",
@@ -1964,5 +2139,22 @@
       "Vegetarian"
     ],
     "description": "A classic French white sauce — smooth, creamy, and versatile. The foundation of countless dishes."
+  },
+  {
+    "id": "vindaloopaste",
+    "name": "Vindaloo Paste",
+    "category": "Sauces",
+    "tags": [
+      "Condiment",
+      "Curry",
+      "Gluten-Free",
+      "Indian",
+      "Make Ahead",
+      "Savoury",
+      "Spicy",
+      "Vegan",
+      "Vegetarian"
+    ],
+    "description": "A bold, tangy, fire-forward paste — the beating heart of a proper vindaloo."
   }
 ]

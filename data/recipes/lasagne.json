@@ -8,6 +8,7 @@
   "cookTime": "1 hr 45 min",
   "totalTime": "2 hr 15 min",
   "servings": "8 servings",
+  "yieldPerBatch": "8 servings",
   "tags": [
     "Baked",
     "Beef",
@@ -15,13 +16,12 @@
     "Dinner",
     "Italian",
     "Make Ahead",
+    "Pasta",
     "Rich",
-    "Savoury"
+    "Savoury",
+    "Lunch"
   ],
   "ingredients": [
-    {
-      "heading": "Ragù"
-    },
     {
       "quantity": "30",
       "unit": "ml",
@@ -67,17 +67,15 @@
       "notes": "dried"
     },
     {
-      "quantity": "5",
+      "quantity": "7",
       "unit": "g",
-      "item": "Salt"
+      "item": "Salt",
+      "notes": "divided: 5g for Ragù, 2g for Béchamel"
     },
     {
       "quantity": "2",
       "unit": "g",
       "item": "Black Pepper"
-    },
-    {
-      "heading": "Béchamel"
     },
     {
       "quantity": "50",
@@ -92,21 +90,13 @@
     {
       "quantity": "600",
       "unit": "ml",
-      "item": "Milk Full-Cream"
+      "item": "Milk Full-cream"
     },
     {
       "quantity": "2",
       "unit": "g",
       "item": "Nutmeg",
       "notes": "ground"
-    },
-    {
-      "quantity": "2",
-      "unit": "g",
-      "item": "Salt"
-    },
-    {
-      "heading": "Assembly"
     },
     {
       "quantity": "250",
@@ -138,7 +128,7 @@
     },
     {
       "step": 3,
-      "instruction": "Stir in tomato paste, then add crushed tomatoes, sugar, Italian herbs, salt, and pepper."
+      "instruction": "Stir in tomato paste, then add crushed tomatoes, sugar, Italian herbs, 5 g of the salt, and pepper."
     },
     {
       "step": 4,
@@ -154,7 +144,7 @@
     },
     {
       "step": 7,
-      "instruction": "Season béchamel with salt and nutmeg. Remove from heat."
+      "instruction": "Season béchamel with the remaining 2 g of salt and nutmeg. Remove from heat."
     },
     {
       "step": 8,
@@ -204,25 +194,28 @@
   ],
   "nutrition": {
     "servings": 8,
-    "cal": 459,
-    "kj": 1920,
-    "protein": 28,
-    "carbs": 39,
-    "sugars": 9,
-    "fat": 20,
-    "saturated_fat": 10,
+    "cal": 666,
+    "kj": 2785,
+    "protein": 27,
+    "carbs": 37,
+    "sugars": 7,
+    "fat": 45,
+    "saturated_fat": 25.9,
     "fiber": 7,
-    "sodium": 282,
+    "sodium": 276,
     "coverage": 100,
-    "calcium_mg": 221,
+    "foundCount": 17,
+    "totalCount": 17,
+    "unmatchedItems": [],
+    "calcium_mg": 186,
     "iron_mg": 2,
-    "potassium_mg": 845,
-    "magnesium_mg": 64,
+    "potassium_mg": 801,
+    "magnesium_mg": 61,
     "zinc_mg": 3,
-    "cholesterol_mg": 81,
-    "vitamin_a_ug": 173,
+    "cholesterol_mg": 156,
+    "vitamin_a_ug": 350,
     "vitamin_c_mg": 19,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-06-04"
+  "lastModified": "2026-08-22"
 }

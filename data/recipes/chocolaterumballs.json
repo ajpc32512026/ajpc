@@ -10,13 +10,15 @@
   "servings": "24 balls",
   "tags": [
     "Alcohol",
+    "Australian",
     "Chocolate",
     "Dessert",
     "Make Ahead",
     "No-Bake",
     "Party",
     "Rich",
-    "Sweet"
+    "Sweet",
+    "Vegetarian"
   ],
   "ingredients": [
     {
@@ -114,5 +116,6 @@
     "cholesterol_mg": 3,
     "vitamin_a_ug": 6
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-07-21",
+  "yieldPerBatch": "1 batch"
 }

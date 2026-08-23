@@ -8,28 +8,29 @@
   "cookTime": "30 min",
   "totalTime": "50 min",
   "servings": "12 rolls",
+  "yieldPerBatch": "12 rolls",
   "tags": [
     "Australian",
     "Baked",
+    "Baking",
     "Classic",
-    "Dinner",
     "Make Ahead",
     "Pastry",
-    "Pork",
     "Savoury",
-    "Snack"
+    "Snack",
+    "Lunch"
   ],
   "ingredients": [
     {
       "quantity": "500",
       "unit": "g",
-      "item": "Pork Mince"
+      "item": "Sausage Mince"
     },
     {
       "quantity": "1",
       "unit": "",
       "item": "Brown Onion",
-      "notes": "grated"
+      "notes": "finely diced"
     },
     {
       "quantity": "1",
@@ -42,17 +43,6 @@
       "unit": "g",
       "item": "Nutmeg",
       "notes": "ground"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
-    },
-    {
-      "quantity": "2",
-      "unit": "g",
-      "item": "Black Pepper"
     },
     {
       "quantity": "3",
@@ -70,6 +60,16 @@
       "quantity": "15",
       "unit": "g",
       "item": "Sesame Seeds"
+    },
+    {
+      "item": "Salt & Pepper",
+      "toTaste": true
+    }
+  ],
+  "youWillNeed": [
+    {
+      "item": "Baking Paper",
+      "note": "makes it easier to roll and prevents sticking to the bench."
     }
   ],
   "method": [
@@ -79,11 +79,11 @@
     },
     {
       "step": 2,
-      "instruction": "In a large bowl, combine pork mince, grated onion, grated carrot, nutmeg, salt, and pepper. Mix until well combined."
+      "instruction": "In a large bowl, combine sausage mince, diced onion, grated carrot, nutmeg, salt, and pepper. Mix until well combined."
     },
     {
       "step": 3,
-      "instruction": "Cut each puff pastry sheet in half lengthwise. Place the meat mixture along the long edge of each pastry strip and roll tightly, seam side down."
+      "instruction": "Cut each puff pastry sheet in half. Place the meat mixture along the long edge of each pastry strip and roll tightly, seam side down."
     },
     {
       "step": 4,
@@ -112,28 +112,28 @@
   ],
   "nutrition": {
     "servings": 12,
-    "cal": 192,
-    "kj": 804,
-    "protein": 13,
-    "carbs": 10,
+    "cal": 248,
+    "kj": 1037,
+    "protein": 8,
+    "carbs": 18,
     "sugars": 2,
-    "fat": 11,
-    "saturated_fat": 5.1,
-    "fiber": 1,
-    "sodium": 130,
+    "fat": 12,
+    "saturated_fat": 6.4,
+    "fiber": 18,
+    "sodium": 75,
     "coverage": 100,
-    "foundCount": 9,
-    "totalCount": 9,
+    "foundCount": 7,
+    "totalCount": 7,
     "unmatchedItems": [],
-    "calcium_mg": 20,
-    "iron_mg": 1,
-    "potassium_mg": 220,
-    "magnesium_mg": 19,
-    "zinc_mg": 1,
-    "cholesterol_mg": 112,
-    "vitamin_a_ug": 195,
-    "vitamin_c_mg": 1,
-    "vitamin_d_ug": 2
+    "calcium_mg": 704,
+    "iron_mg": 12,
+    "potassium_mg": 524,
+    "magnesium_mg": 188,
+    "zinc_mg": 2,
+    "cholesterol_mg": 90,
+    "vitamin_a_ug": 435,
+    "vitamin_c_mg": 14,
+    "vitamin_d_ug": 1
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-08-22"
 }

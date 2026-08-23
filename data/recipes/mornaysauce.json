@@ -1,5 +1,5 @@
 {
-  "id": "mornaycheesesauce",
+  "id": "mornaysauce",
   "title": "Mornay / Cheese Sauce",
   "category": "Sauces",
   "difficulty": "Beginner",
@@ -120,5 +120,6 @@
     "potassium_mg": 2,
     "vitamin_a_ug": 2
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-07-21",
+  "yieldPerBatch": "1 batch"
 }

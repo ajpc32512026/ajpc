@@ -9,8 +9,21 @@ function buildJSON() {
     const title = val('title');
     if (!title) return { obj: {}, id: '', title: '' };
 
-    // ID: lowercase, alphanumeric only (preserves spaces → stripped)
-    const id = title.toLowerCase().replace(/[^a-z0-9\s]/g, '').replace(/\s+/g, '').trim();
+    // Preserve the original loaded file's id whenever one exists, instead of
+    // recalculating from whatever's currently in the Title field. Without
+    // this, editing an existing recipe's title (even just fixing a typo)
+    // silently drifts the id field inside the saved JSON away from the
+    // file's actual name on disk - the file itself stays correctly named
+    // (saveJSON writes back to the original file handle regardless), but
+    // the id INSIDE that file no longer matches its own filename.
+    let id;
+    if (currentFilename) {
+        id = currentFilename;
+    } else {
+        // Brand-new recipe, nothing loaded yet - id has to come from
+        // somewhere, so it's generated live from the title as you type.
+        id = title.toLowerCase().replace(/[^a-z0-9\s]/g, '').replace(/\s+/g, '').trim();
+    }
 
     const obj = { id, title };
 
@@ -267,6 +280,18 @@ function highlightHTML(h) {
 }
 
 // ── Save / Download / Copy ────────────────────────────────
+// For a brand-new recipe (nothing loaded from disk yet), the id is
+// recalculated live from whatever's currently in the Title field every
+// time buildJSON() runs - there's no original filename to protect it.
+// This gives one last visible checkpoint before that id becomes a
+// permanent filename, so accidental/mid-typing text can't slip through
+// silently. Already-loaded recipes never see this - currentFilename
+// locks their id (see buildJSON above), so this always returns true then.
+function confirmNewRecipeId(id) {
+    if (currentFilename) return true;
+    return confirm(`This will create a NEW recipe file:\n\n${id || '(empty)'}.json\n\nIs this the correct id? (It's generated from the Title field above.)`);
+}
+
 async function saveJSON() {
     if (!checkRequiredFields()) return;
     const { obj, id } = buildJSON();
@@ -279,14 +304,16 @@ async function saveJSON() {
             toast('Saved to ' + currentFileHandle.name);
         } catch(e) { alert('Could not save: ' + e.message); }
     } else {
-        downloadJSON();
+        if (!confirmNewRecipeId(id)) return;
+        downloadJSON(true); // already confirmed above, don't ask twice
     }
 }
 
-function downloadJSON() {
+function downloadJSON(alreadyConfirmed) {
     if (!checkRequiredFields()) return;
     const { obj, id } = buildJSON();
     if (!obj.title) return;
+    if (!alreadyConfirmed && !confirmNewRecipeId(id)) return;
     const blob = new Blob([JSON.stringify(obj, null, 2)], { type: 'application/json' });
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);

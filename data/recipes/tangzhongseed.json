@@ -8,39 +8,28 @@
   "cookTime": "35 min",
   "totalTime": "3 hr 30 min",
   "servings": "1 large loaf",
+  "yieldPerBatch": "1 large loaf",
   "tags": [
+    "Asian",
+    "Baking",
     "Bread",
     "Make Ahead",
     "Savoury",
-    "Vegan"
+    "Vegan",
+    "Vegetarian"
   ],
   "ingredients": [
     {
-      "heading": "Tangzhong"
-    },
-    {
-      "quantity": "30",
+      "quantity": "590",
       "unit": "g",
-      "item": "Bread Flour"
+      "item": "Bread Flour",
+      "notes": "divided: 30g for Tangzhong, 560g for Main Dough"
     },
     {
-      "quantity": "190",
+      "quantity": "370",
       "unit": "g",
       "item": "Water",
-      "notes": "for tangzhong"
-    },
-    {
-      "heading": "Main Dough"
-    },
-    {
-      "quantity": "560",
-      "unit": "g",
-      "item": "Bread Flour"
-    },
-    {
-      "quantity": "180",
-      "unit": "ml",
-      "item": "Water"
+      "notes": "divided: 190g for Tangzhong, 180g for Main Dough"
     },
     {
       "quantity": "20",
@@ -67,9 +56,6 @@
       "quantity": "5",
       "unit": "g",
       "item": "Bread Improver"
-    },
-    {
-      "heading": "Seed & Grain Mix (total ~145 g)"
     },
     {
       "quantity": "15",
@@ -165,7 +151,7 @@
   "method": [
     {
       "step": 1,
-      "instruction": "Make the tangzhong: in a small saucepan, combine 30 g bread flour and 190 g water. Cook over medium heat, whisking constantly, until it thickens into a paste at approximately 65°C. Remove from heat and let cool to room temperature."
+      "instruction": "Make the tangzhong: in a small saucepan, combine 30 g of the bread flour and 190 g of the water. Cook over medium heat, whisking constantly, until it thickens into a paste at approximately 65°C. Remove from heat and let cool to room temperature."
     },
     {
       "step": 2,
@@ -173,11 +159,11 @@
     },
     {
       "step": 3,
-      "instruction": "In a large bowl, combine bread flour, salt, sugar, yeast, and bread improver."
+      "instruction": "In a large bowl, combine the remaining 560 g of bread flour, salt, sugar, yeast, and bread improver."
     },
     {
       "step": 4,
-      "instruction": "Add the cooled tangzhong, water, vegetable oil, and the drained seed mixture."
+      "instruction": "Add the cooled tangzhong, the remaining 180 g of water, vegetable oil, and the drained seed mixture."
     },
     {
       "step": 5,
@@ -255,5 +241,5 @@
     "zinc_mg": 10,
     "vitamin_a_ug": 2
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-08-19"
 }

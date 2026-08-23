@@ -2,24 +2,28 @@
   "id": "bistro-fishoftheday",
   "title": "Fish of the Day",
   "category": "Bistro",
+  "difficulty": "Intermediate",
   "description": "Grilled fresh fish fillet with a light lemon and white wine cream sauce. Simply done and always changing.",
   "prepTime": "5 min",
   "cookTime": "6 min",
   "totalTime": "11 min",
   "servings": "1 serving",
-  "difficulty": "Intermediate",
+  "yieldPerBatch": "1 serving",
   "tags": [
     "Alcohol",
+    "Bistro",
     "Classic",
     "Creamy",
     "Dinner",
     "Fish",
+    "French",
     "Gluten-Free",
     "Lemon",
     "Rich",
     "Savoury",
     "Seafood",
-    "Under 30 Minutes"
+    "Under 30 Minutes",
+    "Lunch"
   ],
   "ingredients": [
     {
@@ -56,8 +60,9 @@
       "notes": "fresh, chopped"
     },
     {
+      "quantity": "",
+      "unit": "",
       "item": "Salt & Pepper",
-      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -90,28 +95,6 @@
       "content": "No demi glace is used — this is a light cream, wine and lemon sauce designed to complement rather than overpower the fish. The fish variety changes with market availability, but the sauce and method remain the same."
     }
   ],
-  "related": [
-    {
-      "id": "bistro-mediterraneansteak",
-      "title": "Mediterranean Steak"
-    },
-    {
-      "id": "bistro-reefandbeef",
-      "title": "Reef and Beef"
-    },
-    {
-      "id": "bistro-chickenpapion",
-      "title": "Chicken Papion"
-    },
-    {
-      "id": "bistro-vealoscar",
-      "title": "Veal Oscar"
-    },
-    {
-      "id": "bistro-carpetbag",
-      "title": "Carpet Bag"
-    }
-  ],
   "nutrition": {
     "servings": 1,
     "cal": 599,
@@ -120,10 +103,15 @@
     "carbs": 2,
     "sugars": 2,
     "fat": 53,
-    "saturated_fat": 33,
-    "fibre": 1,
+    "saturated_fat": 32.8,
+    "fiber": 1,
     "sodium": 2026,
     "coverage": 86,
+    "foundCount": 6,
+    "totalCount": 7,
+    "unmatchedItems": [
+      "Salt & Pepper"
+    ],
     "calcium_mg": 84,
     "iron_mg": 1,
     "potassium_mg": 273,
@@ -134,5 +122,5 @@
     "vitamin_c_mg": 30,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-05-24"
+  "lastModified": "2026-08-22"
 }

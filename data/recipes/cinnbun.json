@@ -8,8 +8,11 @@
   "cookTime": "25 min",
   "totalTime": "2 hr 25 min",
   "servings": "10 buns",
+  "yieldPerBatch": "10 buns",
   "tags": [
+    "American",
     "Baked",
+    "Baking",
     "Bread",
     "Breakfast",
     "Cinnamon",
@@ -19,13 +22,10 @@
   ],
   "ingredients": [
     {
-      "heading": "Dough"
-    },
-    {
-      "quantity": "250",
+      "quantity": "280",
       "unit": "ml",
       "item": "Milk Full-Cream",
-      "notes": "warm"
+      "notes": "divided: 250ml for Dough, 30ml for Glaze"
     },
     {
       "quantity": "10",
@@ -43,30 +43,22 @@
       "item": "Plain Flour"
     },
     {
-      "quantity": "7",
+      "quantity": "8",
       "unit": "g",
-      "item": "Salt"
+      "item": "Salt",
+      "notes": "divided: 7g for Dough, 1g for Glaze"
     },
     {
-      "quantity": "75",
+      "quantity": "150",
       "unit": "g",
       "item": "Unsalted Butter",
-      "notes": "melted"
+      "notes": "divided: 75g for Dough, 75g for Filling"
     },
     {
       "quantity": "1",
       "unit": "",
       "item": "Eggs",
       "notes": "large"
-    },
-    {
-      "heading": "Filling"
-    },
-    {
-      "quantity": "75",
-      "unit": "g",
-      "item": "Unsalted Butter",
-      "notes": "melted, for brushing"
     },
     {
       "quantity": "100",
@@ -77,11 +69,7 @@
     {
       "quantity": "10",
       "unit": "g",
-      "item": "Ground Cinnamon",
-      "notes": "ground"
-    },
-    {
-      "heading": "Glaze"
+      "item": "Ground Cinnamon"
     },
     {
       "quantity": "125",
@@ -89,29 +77,19 @@
       "item": "Icing Sugar"
     },
     {
-      "quantity": "30",
-      "unit": "ml",
-      "item": "Milk Full-Cream"
-    },
-    {
       "quantity": "2",
       "unit": "ml",
       "item": "Vanilla Extract"
-    },
-    {
-      "quantity": "1",
-      "unit": "g",
-      "item": "Salt"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "In a large bowl, combine warm milk, yeast, and sugar. Let sit for 5 minutes until foamy."
+      "instruction": "In a large bowl, combine 250 ml of warm milk, yeast, and sugar. Let sit for 5 minutes until foamy."
     },
     {
       "step": 2,
-      "instruction": "Add flour, salt, melted butter, and egg. Mix until a smooth, slightly sticky dough forms. Knead for 8–10 minutes until elastic."
+      "instruction": "Add flour, 7 g of the salt, 75 g of melted unsalted butter, and egg. Mix until a smooth, slightly sticky dough forms. Knead for 8–10 minutes until elastic."
     },
     {
       "step": 3,
@@ -119,7 +97,7 @@
     },
     {
       "step": 4,
-      "instruction": "Roll dough into a rectangle approximately 30 cm × 40 cm. Brush with melted butter and sprinkle evenly with brown sugar and cinnamon."
+      "instruction": "Roll dough into a rectangle approximately 30 cm × 40 cm. Brush evenly with the remaining 75 g of melted unsalted butter, then sprinkle with brown sugar and cinnamon."
     },
     {
       "step": 5,
@@ -135,7 +113,7 @@
     },
     {
       "step": 8,
-      "instruction": "Whisk together icing sugar, milk, vanilla extract, and salt until smooth. Drizzle over warm buns."
+      "instruction": "Whisk together icing sugar, the remaining 30 ml of milk, vanilla extract, and the remaining 1 g of salt until smooth. Drizzle over warm buns."
     }
   ],
   "notes": [
@@ -176,5 +154,5 @@
     "vitamin_a_ug": 182,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-06-04"
+  "lastModified": "2026-08-19"
 }

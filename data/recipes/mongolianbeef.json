@@ -1,5 +1,5 @@
 {
-  "id": "mongolianbeefstirfry",
+  "id": "mongolianbeef",
   "title": "Mongolian Beef Stir-Fry",
   "category": "Dinner",
   "difficulty": "Intermediate",
@@ -8,6 +8,7 @@
   "cookTime": "10 min",
   "totalTime": "1 hr 25 min",
   "servings": "2 servings",
+  "yieldPerBatch": "2 servings",
   "tags": [
     "Alcohol",
     "Beef",
@@ -18,9 +19,6 @@
     "Sweet"
   ],
   "ingredients": [
-    {
-      "heading": "Beef & Marinade"
-    },
     {
       "quantity": "350",
       "unit": "g",
@@ -33,37 +31,27 @@
       "item": "Bi-carb Soda"
     },
     {
-      "quantity": "5",
+      "quantity": "10",
       "unit": "g",
-      "item": "Cornflour"
+      "item": "Cornflour",
+      "notes": "divided: 5g for Marinade, 5g for Sauce"
     },
     {
-      "quantity": "15",
+      "quantity": "20",
       "unit": "ml",
-      "item": "Light Soy Sauce"
+      "item": "Light Soy Sauce",
+      "notes": "divided: 15ml for Marinade, 5ml for Sauce"
     },
     {
-      "quantity": "15",
+      "quantity": "30",
       "unit": "ml",
-      "item": "Chinese Rice Wine"
-    },
-    {
-      "heading": "Sauce"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Cornflour"
+      "item": "Chinese Rice Wine",
+      "notes": "divided: 15ml for Marinade, 15ml for Sauce"
     },
     {
       "quantity": "10",
       "unit": "ml",
       "item": "Dark Soy Sauce"
-    },
-    {
-      "quantity": "5",
-      "unit": "ml",
-      "item": "Light Soy Sauce"
     },
     {
       "quantity": "5",
@@ -76,11 +64,6 @@
       "item": "Oyster Sauce"
     },
     {
-      "quantity": "15",
-      "unit": "ml",
-      "item": "Chinese Rice Wine"
-    },
-    {
       "quantity": "2",
       "unit": "g",
       "item": "Chinese Five Spice"
@@ -89,9 +72,6 @@
       "quantity": "60",
       "unit": "ml",
       "item": "Water"
-    },
-    {
-      "heading": "Stir-Fry"
     },
     {
       "quantity": "5",
@@ -125,11 +105,11 @@
   "method": [
     {
       "step": 1,
-      "instruction": "Combine beef with bi-carb soda, cornflour, light soy sauce, and Chinese rice wine. Mix well, cover, and set aside for 1 hour to marinate."
+      "instruction": "Combine beef strips with bi-carb soda, 5 g of the cornflour, 15 ml of the light soy sauce, and 15 ml of the Chinese rice wine. Mix well, cover, and set aside for 1 hour to marinate."
     },
     {
       "step": 2,
-      "instruction": "Mix cornflour with dark soy sauce and light soy sauce until smooth, then stir in sambal oelek, oyster sauce, Chinese rice wine, five spice, and water. Set sauce aside."
+      "instruction": "Mix the remaining 5 g of cornflour with dark soy sauce and the remaining 5 ml of light soy sauce until smooth, then stir in sambal oelek, oyster sauce, the remaining 15 ml of Chinese rice wine, five spice, and water. Set sauce aside."
     },
     {
       "step": 3,
@@ -188,5 +168,5 @@
     "vitamin_a_ug": 187,
     "vitamin_c_mg": 70
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-08-19"
 }

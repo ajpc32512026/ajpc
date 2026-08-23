@@ -9,12 +9,13 @@
   "servings": "4",
   "difficulty": "Beginner",
   "tags": [
+    "Chicken",
+    "Dinner",
     "Filipino",
-    "Pineapple",
-    "Ginger",
-    "Sweet",
+    "Fruit",
+    "Savoury",
     "Spicy",
-    "Chicken"
+    "Sweet"
   ],
   "ingredients": [
     {
@@ -80,8 +81,9 @@
       "notes": "1 can"
     },
     {
+      "quantity": "",
+      "unit": "",
       "item": "Salt & Pepper",
-      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -134,5 +136,7 @@
     "vitamin_c_mg": 34,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-06-02"
+  "lastModified": "2026-06-02",
+  "yieldPerBatch": "1 batch",
+  "notes": []
 }

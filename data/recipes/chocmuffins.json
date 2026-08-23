@@ -8,18 +8,20 @@
   "cookTime": "25 min",
   "totalTime": "45 min",
   "servings": "12 muffins",
+  "yieldPerBatch": "12 muffins",
   "tags": [
+    "American",
     "Baked",
+    "Baking",
+    "Breakfast",
     "Chocolate",
+    "Muffins",
     "Rich",
     "Sweet",
     "Under 1 Hour",
     "Vegetarian"
   ],
   "ingredients": [
-    {
-      "heading": "Muffins"
-    },
     {
       "quantity": "220",
       "unit": "g",
@@ -46,16 +48,16 @@
       "item": "Bi-carb Soda"
     },
     {
-      "quantity": "2",
+      "quantity": "4",
       "unit": "g",
       "item": "Coffee",
-      "notes": "instant"
+      "notes": "divided: 2g for Muffins, 2g for Ganache (instant)"
     },
     {
-      "quantity": "100",
+      "quantity": "125",
       "unit": "g",
       "item": "Unsalted Butter",
-      "notes": "melted"
+      "notes": "divided: 100g for Muffins, 25g for Ganache"
     },
     {
       "quantity": "60",
@@ -73,51 +75,22 @@
       "item": "Milk Full-Cream"
     },
     {
-      "quantity": "5",
+      "quantity": "10",
       "unit": "ml",
-      "item": "Vanilla Extract"
+      "item": "Vanilla Extract",
+      "notes": "divided: 5ml for Muffins, 5ml for Ganache"
     },
     {
-      "quantity": "60",
+      "quantity": "260",
       "unit": "ml",
-      "item": "Thickened Cream"
+      "item": "Thickened Cream",
+      "notes": "divided: 60ml for Muffins, 200ml for Ganache"
     },
     {
-      "quantity": "120",
+      "quantity": "320",
       "unit": "g",
       "item": "Dark Chocolate",
-      "notes": "70-80% cocoa, chips or chopped"
-    },
-    {
-      "heading": "Ganache"
-    },
-    {
-      "quantity": "200",
-      "unit": "g",
-      "item": "Dark Chocolate",
-      "notes": "70-80% cocoa, chopped"
-    },
-    {
-      "quantity": "200",
-      "unit": "ml",
-      "item": "Thickened Cream"
-    },
-    {
-      "quantity": "25",
-      "unit": "g",
-      "item": "Unsalted Butter",
-      "notes": "softened"
-    },
-    {
-      "quantity": "5",
-      "unit": "ml",
-      "item": "Vanilla Extract"
-    },
-    {
-      "quantity": "2",
-      "unit": "g",
-      "item": "Coffee",
-      "notes": "instant"
+      "notes": "divided: 120g for Muffins, 200g for Ganache"
     }
   ],
   "method": [
@@ -127,11 +100,11 @@
     },
     {
       "step": 2,
-      "instruction": "In a large bowl, whisk together flour, cocoa powder, sugar, baking powder, bi-carb soda, and instant coffee."
+      "instruction": "In a large bowl, whisk together plain flour, cocoa powder, sugar, baking powder, bi-carb soda, and 2 g of the instant coffee."
     },
     {
       "step": 3,
-      "instruction": "In another bowl, whisk together melted butter, oil, eggs, milk, cream, and vanilla extract until well combined."
+      "instruction": "In another bowl, whisk together 100 g melted unsalted butter, 60 ml vegetable oil, 2 eggs, 180 ml full-cream milk, 60 ml thickened cream, and 5 ml vanilla extract until well combined."
     },
     {
       "step": 4,
@@ -139,7 +112,7 @@
     },
     {
       "step": 5,
-      "instruction": "Fold in chocolate chips gently with a spatula."
+      "instruction": "Fold in 120 g dark chocolate chips gently with a spatula."
     },
     {
       "step": 6,
@@ -155,11 +128,11 @@
     },
     {
       "step": 9,
-      "instruction": "For the ganache: Heat cream in a small saucepan until steaming but not boiling."
+      "instruction": "For the ganache: Heat 200 ml thickened cream in a small saucepan over medium heat until steaming but not boiling."
     },
     {
       "step": 10,
-      "instruction": "Place chopped chocolate in a heatproof bowl and pour the hot cream over it."
+      "instruction": "Place 200 g chopped dark chocolate in a heatproof bowl and pour the hot cream over it."
     },
     {
       "step": 11,
@@ -167,7 +140,7 @@
     },
     {
       "step": 12,
-      "instruction": "Add softened butter and stir until fully incorporated and silky. Add vanilla extract and instant coffee if using."
+      "instruction": "Add the remaining 25 g of butter (softened) and stir until fully incorporated and silky. Add the remaining 5 ml vanilla extract and the remaining 2 g instant coffee."
     },
     {
       "step": 13,
@@ -215,5 +188,5 @@
     "vitamin_a_ug": 256,
     "vitamin_d_ug": 3
   },
-  "lastModified": "2026-06-04"
+  "lastModified": "2026-08-19"
 }

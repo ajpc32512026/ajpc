@@ -9,11 +9,12 @@
   "servings": "1 batch",
   "difficulty": "Intermediate",
   "tags": [
-    "Puff Pastry",
-    "Butter",
-    "Flaky",
+    "Baking",
+    "Classic",
+    "Freezer Friendly",
+    "French",
     "Make Ahead",
-    "Freezer Friendly"
+    "Pastry"
   ],
   "ingredients": [
     {
@@ -181,5 +182,6 @@
     "vitamin_d_ug": 3
   },
   "lastModified": "2026-06-08",
-  "cuisine": "French"
+  "cuisine": "French",
+  "yieldPerBatch": "1 batch"
 }

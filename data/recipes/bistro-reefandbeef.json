@@ -11,6 +11,7 @@
   "tags": [
     "Australian",
     "Beef",
+    "Bistro",
     "Classic",
     "Creamy",
     "Dinner",
@@ -61,8 +62,9 @@
       "notes": "ground"
     },
     {
+      "quantity": "",
+      "unit": "",
       "item": "Salt & Pepper",
-      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -121,5 +123,6 @@
     "vitamin_c_mg": 6,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-06-04"
+  "lastModified": "2026-06-04",
+  "yieldPerBatch": "1 serving"
 }

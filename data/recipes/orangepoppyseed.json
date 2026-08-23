@@ -8,7 +8,11 @@
   "cookTime": "45 min",
   "totalTime": "1 hr 15 min",
   "servings": "8 slices",
+  "yieldPerBatch": "1 cake",
   "tags": [
+    "Australian",
+    "Baking",
+    "Cake",
     "Citrus",
     "Dessert",
     "Orange",
@@ -17,9 +21,6 @@
     "Vegetarian"
   ],
   "ingredients": [
-    {
-      "heading": "Cake"
-    },
     {
       "quantity": "40",
       "unit": "g",
@@ -37,9 +38,10 @@
       "notes": "softened"
     },
     {
-      "quantity": "25",
+      "quantity": "40",
       "unit": "g",
-      "item": "Orange Zest"
+      "item": "Orange Zest",
+      "notes": "divided: 25g for Cake, 15g for Frosting"
     },
     {
       "quantity": "275",
@@ -67,12 +69,10 @@
       "item": "Almond Meal"
     },
     {
-      "quantity": "80",
+      "quantity": "95",
       "unit": "ml",
-      "item": "Orange Juice"
-    },
-    {
-      "heading": "Orange Cream Frosting"
+      "item": "Orange Juice",
+      "notes": "divided: 80ml for Cake, 15ml for Frosting"
     },
     {
       "quantity": "500",
@@ -86,20 +86,10 @@
       "item": "Sour Cream"
     },
     {
-      "quantity": "15",
-      "unit": "g",
-      "item": "Orange Zest"
-    },
-    {
       "quantity": "120",
       "unit": "g",
       "item": "Icing Sugar",
       "notes": "sifted"
-    },
-    {
-      "quantity": "15",
-      "unit": "ml",
-      "item": "Orange Juice"
     }
   ],
   "method": [
@@ -113,7 +103,7 @@
     },
     {
       "step": 3,
-      "instruction": "Cream butter, orange zest, and caster sugar with an electric mixer until light and fluffy."
+      "instruction": "Cream softened unsalted butter, 25 g of the orange zest, and caster sugar with an electric mixer until light and fluffy."
     },
     {
       "step": 4,
@@ -121,7 +111,7 @@
     },
     {
       "step": 5,
-      "instruction": "Transfer mixture to a large bowl. Stir in sifted flours, almond meal, poppy seed mixture, and orange juice. Mix until just combined."
+      "instruction": "Transfer mixture to a large bowl. Stir in sifted flours, 60 g almond meal, poppy seed mixture, and 80 ml of the orange juice. Mix until just combined."
     },
     {
       "step": 6,
@@ -133,11 +123,11 @@
     },
     {
       "step": 8,
-      "instruction": "For the frosting: beat softened cream cheese, sour cream, and orange zest in a medium bowl with an electric mixer until smooth."
+      "instruction": "For the frosting: beat softened cream cheese, sour cream, and the remaining 15 g of orange zest in a medium bowl with an electric mixer until smooth."
     },
     {
       "step": 9,
-      "instruction": "Add sifted icing sugar and orange juice. Beat until thick, glossy, and silky."
+      "instruction": "Add sifted icing sugar and the remaining 15 ml of orange juice. Beat until thick, glossy, and silky."
     },
     {
       "step": 10,
@@ -183,5 +173,5 @@
     "vitamin_c_mg": 9,
     "vitamin_d_ug": 5
   },
-  "lastModified": "2026-06-04"
+  "lastModified": "2026-08-19"
 }

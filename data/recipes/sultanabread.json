@@ -7,12 +7,14 @@
   "prepTime": "30 min",
   "totalTime": "2 hr 15 min",
   "servings": "9",
+  "yieldPerBatch": "9 rolls",
   "tags": [
+    "Australian",
+    "Baking",
     "Bread",
-    "Sweet Bread",
-    "Fruit Loaf",
-    "Buns",
-    "Baking"
+    "Breakfast",
+    "Sweet",
+    "Vegetarian"
   ],
   "ingredients": [
     {
@@ -22,22 +24,22 @@
       "notes": "plain flour works well too"
     },
     {
-      "quantity": "300",
+      "quantity": "350",
       "unit": "ml",
       "item": "Water",
-      "notes": "cold or warm depending on the temperature of the kitchen..."
+      "notes": "divided: 300ml for Dough, 50ml for Glaze"
     },
     {
       "quantity": "7",
       "unit": "g",
       "item": "Yeast",
-      "notes": "instant dried... 1 sachet"
+      "notes": "instant dried"
     },
     {
       "quantity": "30",
       "unit": "g",
       "item": "Spreadable Butter",
-      "notes": "softened slightly before adding — replaces olive oil"
+      "notes": "softened slightly"
     },
     {
       "quantity": "10",
@@ -48,46 +50,33 @@
       "quantity": "10",
       "unit": "g",
       "item": "Bread Improver",
-      "notes": "Wallaby bread improver available at Woolworths and Coles"
+      "notes": "Wallaby bread improver"
     },
     {
       "quantity": "45",
       "unit": "g",
-      "item": "Brown Sugar",
-      "notes": "replaces white sugar — adds warmth and depth to complement the fruit"
+      "item": "Brown Sugar"
     },
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Ground Allspice",
-      "notes": "adjust to taste — 4g is subtle, 6g is more pronounced"
+      "item": "Ground Allspice"
     },
     {
       "quantity": "135",
       "unit": "g",
       "item": "Sultanas",
-      "notes": "soaked in warm water for 10 minutes, drained and patted dry before use"
-    },
-    {
-      "heading": "Glaze"
+      "notes": "soaked in warm water for 10 minutes, drained and patted dry"
     },
     {
       "quantity": "50",
       "unit": "g",
-      "item": "Caster Sugar",
-      "notes": "for the glaze"
-    },
-    {
-      "quantity": "50",
-      "unit": "ml",
-      "item": "Water",
-      "notes": "for the glaze"
+      "item": "Caster Sugar"
     },
     {
       "quantity": "15",
       "unit": "g",
-      "item": "Glucose Syrup",
-      "notes": "or light corn syrup — prevents crystallization and adds shine to the glaze"
+      "item": "Glucose Syrup"
     }
   ],
   "method": [
@@ -97,7 +86,7 @@
     },
     {
       "step": 2,
-      "instruction": "In a large bowl, combine bread flour, yeast, bread improver, brown sugar, ground allspice, and softened spreadable butter. Add water. Keep salt on the opposite side of the bowl from the yeast before mixing — salt can inhibit yeast activity. Mix until a shaggy dough forms."
+      "instruction": "In a large bowl, combine bread flour, yeast, bread improver, brown sugar, ground allspice, and softened spreadable butter. Add 300 ml of the water. Keep salt on the opposite side of the bowl from the yeast before mixing. Mix until a shaggy dough forms."
     },
     {
       "step": 3,
@@ -117,11 +106,18 @@
     },
     {
       "step": 7,
-      "instruction": "While the rolls are baking, prepare the glaze. In a small saucepan, combine the caster sugar, water, and glucose syrup. Heat gently over low heat, stirring continuously until the sugar and syrup are completely dissolved. Bring to a brief boil for 1 minute without stirring, then remove from heat."
+      "instruction": "While the rolls are baking, prepare the glaze. In a small saucepan, combine 50 g caster sugar, the remaining 50 ml of water, and 15 g glucose syrup. Heat gently over low heat, stirring continuously until the sugar and syrup are completely dissolved. Bring to a brief boil for 1 minute without stirring, then remove from heat."
     },
     {
       "step": 8,
       "instruction": "Brush the warm sugar glaze generously over the hot rolls immediately as they come out of the oven. Transfer the rolls to a wire rack to cool before serving."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Soaking Sultanas",
+      "content": "Soaking sultanas in warm water before kneading prevents them from absorbing moisture from the dough itself, keeping the final baked rolls soft and tender."
     }
   ],
   "nutrition": {
@@ -136,9 +132,6 @@
     "fiber": 3,
     "sodium": 104,
     "coverage": 100,
-    "foundCount": 10,
-    "totalCount": 10,
-    "unmatchedItems": [],
     "calcium_mg": 32,
     "iron_mg": 1,
     "potassium_mg": 282,
@@ -147,5 +140,6 @@
     "cholesterol_mg": 6,
     "vitamin_a_ug": 29
   },
-  "lastModified": "2026-06-15"
+  "lastModified": "2026-08-19",
+  "cookTime": "0 min"
 }

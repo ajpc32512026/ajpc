@@ -8,19 +8,18 @@
   "cookTime": "1 hour",
   "totalTime": "1 hour 20 minutes",
   "servings": "10",
+  "yieldPerBatch": "1 cake",
   "tags": [
+    "Australian",
+    "Baking",
     "Cake",
     "Cherry",
     "Coconut",
-    "Baking",
-    "Pound Cake",
     "Dessert",
-    "Sweet"
+    "Sweet",
+    "Vegetarian"
   ],
   "ingredients": [
-    {
-      "heading": "The Cake Batter"
-    },
     {
       "quantity": "175",
       "unit": "g",
@@ -28,9 +27,10 @@
       "notes": "softened"
     },
     {
-      "quantity": "175",
+      "quantity": "235",
       "unit": "ml",
-      "item": "Coconut Milk"
+      "item": "Coconut Milk",
+      "notes": "divided: 175ml for Cake Batter, 60ml for Topping"
     },
     {
       "quantity": "290",
@@ -44,10 +44,10 @@
       "notes": "lightly beaten"
     },
     {
-      "quantity": "60",
+      "quantity": "80",
       "unit": "g",
       "item": "Desiccated Coconut",
-      "notes": "shredded sweetened coconut"
+      "notes": "divided: 60g for Cake Batter, 20g for Topping"
     },
     {
       "quantity": "225",
@@ -70,20 +70,6 @@
       "unit": "g",
       "item": "Glace Cherries",
       "notes": "frozen or canned, pitted and roughly chopped"
-    },
-    {
-      "heading": "The Topping"
-    },
-    {
-      "quantity": "60",
-      "unit": "ml",
-      "item": "Coconut Milk"
-    },
-    {
-      "quantity": "20",
-      "unit": "g",
-      "item": "Desiccated Coconut",
-      "notes": "for sprinkling"
     }
   ],
   "youWillNeed": [
@@ -124,7 +110,7 @@
     },
     {
       "step": 7,
-      "instruction": "Add half the coconut milk with half of the flour, keeping the mixer on a slow speed. Once combined, add the shredded/desiccated coconut, and the rest of the coconut milk and flour."
+      "instruction": "Add half of the 175 ml coconut milk (for the cake batter) with half of the flour, keeping the mixer on a slow speed. Once combined, add the 60 g desiccated coconut (for the cake batter), and the rest of the 175 ml coconut milk and flour."
     },
     {
       "step": 8,
@@ -144,11 +130,11 @@
     },
     {
       "step": 12,
-      "instruction": "Whilst the cake is still hot, using a skewer, prick holes all over the top of the cake, pushing the skewer through to the bottom. Gently pour the coconut milk all over the surface, distributing evenly with a brush if needed. The liquid will be quickly absorbed by the cake."
+      "instruction": "Whilst the cake is still hot, using a skewer, prick holes all over the top of the cake, pushing the skewer through to the bottom. Gently pour the remaining 60 ml of coconut milk (for the topping) all over the surface, distributing evenly with a brush if needed. The liquid will be quickly absorbed by the cake."
     },
     {
       "step": 13,
-      "instruction": "Immediately sprinkle the dried coconut all over so it sticks. If using a loaf pan, do this before removing from the pan. If using a bundt pan, remove from the pan onto a plate and sprinkle the coconut. Use as much dried coconut as you wish."
+      "instruction": "Immediately sprinkle the remaining 20 g desiccated coconut (for the topping) all over the surface so it sticks to the hot cake. If using a loaf pan, do this before removing from the pan. If using a bundt pan, remove from the pan onto a plate and sprinkle the coconut."
     },
     {
       "step": 14,
@@ -201,5 +187,5 @@
     "vitamin_a_ug": 229,
     "vitamin_d_ug": 4
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-08-19"
 }

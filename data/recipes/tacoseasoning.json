@@ -1,5 +1,5 @@
 {
-  "id": "tacoseasoningoldelpasostylefromscratch",
+  "id": "tacoseasoning",
   "title": "Taco Seasoning — Old El Paso Style (From Scratch)",
   "category": "Sauces",
   "difficulty": "Beginner",
@@ -9,11 +9,12 @@
   "totalTime": "5 min",
   "servings": "1 batch",
   "tags": [
+    "Condiment",
     "Make Ahead",
     "Mexican",
-    "Sauce",
     "Under 30 Minutes",
-    "Vegan"
+    "Vegan",
+    "Vegetarian"
   ],
   "ingredients": [
     {
@@ -134,5 +135,6 @@
     "vitamin_a_ug": 235,
     "vitamin_c_mg": 2
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-07-21",
+  "yieldPerBatch": "1 batch"
 }

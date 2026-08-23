@@ -9,7 +9,9 @@
   "totalTime": "1 hr 15 min",
   "servings": "4 individual pies",
   "tags": [
+    "Australian",
     "Baked",
+    "Baking",
     "Chicken",
     "Creamy",
     "Dinner",
@@ -17,9 +19,6 @@
     "Savoury"
   ],
   "ingredients": [
-    {
-      "heading": "Filling"
-    },
     {
       "quantity": "15",
       "unit": "ml",
@@ -79,9 +78,6 @@
       "quantity": "80",
       "unit": "g",
       "item": "Mascarpone"
-    },
-    {
-      "heading": "Pastry"
     },
     {
       "quantity": "2",
@@ -195,5 +191,6 @@
     "vitamin_c_mg": 38,
     "vitamin_d_ug": 7
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-07-21",
+  "yieldPerBatch": "1 batch"
 }

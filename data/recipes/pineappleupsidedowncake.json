@@ -7,21 +7,19 @@
   "cookTime": "45 min",
   "totalTime": "1 hr",
   "servings": "10 servings",
+  "yieldPerBatch": "1 cake",
   "difficulty": "Beginner",
   "tags": [
+    "American",
     "Baking",
-    "Beginner Friendly",
+    "Cake",
     "Caramel",
-    "Fruit Dessert",
-    "Pantry Recipe",
-    "Pineapple",
-    "Upside-Down Cake",
+    "Dessert",
+    "Fruit",
+    "Sweet",
     "Vegetarian"
   ],
   "ingredients": [
-    {
-      "heading": "Caramel Topping"
-    },
     {
       "quantity": "90",
       "unit": "g",
@@ -29,19 +27,16 @@
       "notes": "packed"
     },
     {
-      "quantity": "45",
+      "quantity": "165",
       "unit": "ml",
       "item": "Pineapple Juice",
-      "notes": "from the can"
+      "notes": "divided: 45ml for Caramel Topping, 120ml for Cake Batter"
     },
     {
       "quantity": "5",
       "unit": "",
       "item": "Pineapple Rings",
       "notes": "patted dry"
-    },
-    {
-      "heading": "Cake Batter"
     },
     {
       "quantity": "200",
@@ -73,12 +68,6 @@
       "unit": "",
       "item": "Eggs",
       "notes": "large eggs"
-    },
-    {
-      "quantity": "120",
-      "unit": "ml",
-      "item": "Pineapple Juice",
-      "notes": "from can"
     }
   ],
   "youWillNeed": [
@@ -120,7 +109,7 @@
     },
     {
       "step": 3,
-      "instruction": "In a small bowl, mix 90 g brown sugar with 45 ml pineapple juice until a thick paste forms. Spread evenly across the base of the tin."
+      "instruction": "In a small bowl, mix 90 g brown sugar with 45 ml of the pineapple juice until a thick paste forms. Spread evenly across the base of the tin."
     },
     {
       "step": 4,
@@ -136,7 +125,7 @@
     },
     {
       "step": 7,
-      "instruction": "Pour in 120 ml pineapple juice and fold through until the batter is smooth and uniform. Do not overmix."
+      "instruction": "Pour in the remaining 120 ml of pineapple juice and fold through until the batter is smooth and uniform. Do not overmix."
     },
     {
       "step": 8,
@@ -269,6 +258,5 @@
     "vitamin_c_mg": 1,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-05-31",
-  "cuisine": "American / Modern"
+  "lastModified": "2026-08-19"
 }

@@ -8,38 +8,28 @@
   "cookTime": "30 min",
   "totalTime": "3 hr",
   "servings": "1 loaf",
+  "yieldPerBatch": "1 loaf",
   "tags": [
+    "Asian",
+    "Baking",
     "Bread",
     "Make Ahead",
     "Savoury",
+    "Vegan",
     "Vegetarian"
   ],
   "ingredients": [
     {
-      "heading": "Tangzhong"
-    },
-    {
-      "quantity": "30",
+      "quantity": "590",
       "unit": "g",
-      "item": "Bread Flour"
+      "item": "Bread Flour",
+      "notes": "divided: 30g for Tangzhong, 560g for Main Dough"
     },
     {
-      "quantity": "190",
+      "quantity": "370",
       "unit": "ml",
-      "item": "Water"
-    },
-    {
-      "heading": "Main Dough"
-    },
-    {
-      "quantity": "560",
-      "unit": "g",
-      "item": "Bread Flour"
-    },
-    {
-      "quantity": "180",
-      "unit": "ml",
-      "item": "Water"
+      "item": "Water",
+      "notes": "divided: 190ml for Tangzhong, 180ml for Main Dough"
     },
     {
       "quantity": "20",
@@ -83,15 +73,15 @@
   "method": [
     {
       "step": 1,
-      "instruction": "Make the tangzhong: in a small saucepan, combine 30 g bread flour and 190 ml water. Cook over medium heat, whisking constantly, until thickened to approximately 65°C. Remove from heat and let cool to room temperature."
+      "instruction": "Make the tangzhong: in a small saucepan, combine 30 g of the bread flour and 190 ml of the water. Cook over medium heat, whisking constantly, until thickened to approximately 65°C. Remove from heat and let cool to room temperature."
     },
     {
       "step": 2,
-      "instruction": "In a large bowl, combine bread flour, salt, bread improver, yeast, and sugar."
+      "instruction": "In a large bowl, combine the remaining 560 g of bread flour, salt, bread improver, yeast, and sugar."
     },
     {
       "step": 3,
-      "instruction": "Add the cooled tangzhong, water, and vegetable oil. Mix until a rough dough forms, then knead for 10–12 minutes until smooth and elastic. Dust hands lightly if sticky, but avoid drying the dough out."
+      "instruction": "Add the cooled tangzhong, the remaining 180 ml of water, and 20 ml of vegetable oil. Mix until a rough dough forms, then knead for 10–12 minutes until smooth and elastic. Dust hands lightly if sticky, but avoid drying the dough out."
     },
     {
       "step": 4,
@@ -119,7 +109,7 @@
     },
     {
       "step": 10,
-      "instruction": "Lightly brush the top of the dough with milk before baking."
+      "instruction": "Lightly brush the top of the dough with 60 ml full-cream milk before baking."
     },
     {
       "step": 11,
@@ -127,7 +117,7 @@
     },
     {
       "step": 12,
-      "instruction": "Remove from oven and immediately brush the warm loaf with melted butter."
+      "instruction": "Remove from oven and immediately brush the warm loaf with 30 g of melted unsalted butter."
     },
     {
       "step": 13,
@@ -171,5 +161,5 @@
     "cholesterol_mg": 56,
     "vitamin_a_ug": 285
   },
-  "lastModified": "2026-06-04"
+  "lastModified": "2026-08-19"
 }

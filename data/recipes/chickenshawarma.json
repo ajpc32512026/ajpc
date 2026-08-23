@@ -10,9 +10,11 @@
   "servings": "4 servings",
   "tags": [
     "Chicken",
+    "Classic",
     "Dinner",
     "Middle Eastern",
     "Savoury",
+    "Spicy",
     "Under 30 Minutes"
   ],
   "ingredients": [
@@ -138,5 +140,6 @@
     "vitamin_c_mg": 21,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-07-21",
+  "yieldPerBatch": "4 servings"
 }

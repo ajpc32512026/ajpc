@@ -10,6 +10,7 @@
   "difficulty": "Intermediate",
   "tags": [
     "Australian",
+    "Bistro",
     "Chicken",
     "Classic",
     "Creamy",
@@ -53,8 +54,9 @@
       "notes": "reserved juice from canned apricots, or soak dried apricots in hot water"
     },
     {
+      "quantity": "",
+      "unit": "",
       "item": "Salt & Pepper",
-      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in.(used 5x)"
     }
   ],
@@ -136,5 +138,6 @@
     "vitamin_c_mg": 6,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-05-24"
+  "lastModified": "2026-05-24",
+  "yieldPerBatch": "1 batch"
 }

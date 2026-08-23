@@ -8,39 +8,28 @@
   "cookTime": "30 min",
   "totalTime": "3 hr",
   "servings": "1 loaf",
+  "yieldPerBatch": "1 loaf",
   "tags": [
+    "Asian",
+    "Baking",
     "Bread",
     "Classic",
     "Make Ahead",
-    "Vegan"
+    "Vegan",
+    "Vegetarian"
   ],
   "ingredients": [
     {
-      "heading": "Tangzhong"
-    },
-    {
-      "quantity": "30",
+      "quantity": "590",
       "unit": "g",
-      "item": "Bread Flour"
+      "item": "Bread Flour",
+      "notes": "divided: 30g for Tangzhong, 560g for Main Dough"
     },
     {
-      "quantity": "190",
+      "quantity": "370",
       "unit": "g",
       "item": "Water",
-      "notes": "for tangzhong — increased to account for evaporation"
-    },
-    {
-      "heading": "Main Dough"
-    },
-    {
-      "quantity": "560",
-      "unit": "g",
-      "item": "Bread Flour"
-    },
-    {
-      "quantity": "180",
-      "unit": "g",
-      "item": "Water"
+      "notes": "divided: 190g for Tangzhong, 180g for Main Dough"
     },
     {
       "quantity": "18",
@@ -72,15 +61,15 @@
   "method": [
     {
       "step": 1,
-      "instruction": "Make the tangzhong: in a small saucepan, combine 30 g bread flour and 190 g water. Cook over medium heat, whisking constantly, until it thickens into a paste at approximately 65°C. Remove from heat and let cool to room temperature. It should weigh approximately 150–160 g after cooking."
+      "instruction": "Make the tangzhong: in a small saucepan, combine 30 g of the bread flour and 190 g of the water. Cook over medium heat, whisking constantly, until it thickens into a paste at approximately 65°C. Remove from heat and let cool to room temperature. It should weigh approximately 150–160 g after cooking."
     },
     {
       "step": 2,
-      "instruction": "In a large bowl, combine bread flour, salt, sugar, yeast, and bread improver."
+      "instruction": "In a large bowl, combine the remaining 560 g of bread flour, salt, sugar, yeast, and bread improver."
     },
     {
       "step": 3,
-      "instruction": "Add the cooled tangzhong, water, and vegetable oil to the dry ingredients."
+      "instruction": "Add the cooled tangzhong, the remaining 180 g of water, and 18 ml of vegetable oil to the dry ingredients."
     },
     {
       "step": 4,
@@ -150,5 +139,5 @@
     "zinc_mg": 6,
     "vitamin_a_ug": 1
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-08-19"
 }

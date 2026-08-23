@@ -11,6 +11,7 @@
   "tags": [
     "Australian",
     "Baked",
+    "Baking",
     "Classic",
     "Creamy",
     "Dessert",
@@ -121,5 +122,6 @@
     "vitamin_a_ug": 146,
     "vitamin_c_mg": 32
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-07-21",
+  "yieldPerBatch": "6 servings"
 }

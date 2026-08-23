@@ -9,8 +9,9 @@
   "servings": "8 serves",
   "difficulty": "Intermediate",
   "tags": [
+    "American",
     "Baked",
-    "Cheese",
+    "Baking",
     "Classic",
     "Creamy",
     "Dessert",
@@ -204,5 +205,6 @@
     "vitamin_d_ug": 1
   },
   "lastModified": "2026-05-31",
-  "cuisine": "American / Modern"
+  "cuisine": "American / Modern",
+  "yieldPerBatch": "1 batch"
 }

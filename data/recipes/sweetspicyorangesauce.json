@@ -9,12 +9,15 @@
   "totalTime": "13 min",
   "servings": "4 servings",
   "tags": [
+    "Asian",
+    "Condiment",
     "Orange",
     "Sauce",
     "Spicy",
     "Sweet",
     "Under 30 Minutes",
-    "Vegan"
+    "Vegan",
+    "Vegetarian"
   ],
   "ingredients": [
     {
@@ -98,5 +101,6 @@
     "magnesium_mg": 4,
     "vitamin_c_mg": 9
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-07-21",
+  "yieldPerBatch": "4 servings"
 }

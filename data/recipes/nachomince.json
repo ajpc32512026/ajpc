@@ -14,6 +14,7 @@
     "Make Ahead",
     "Mexican",
     "Savoury",
+    "Spicy",
     "Under 30 Minutes"
   ],
   "ingredients": [
@@ -158,5 +159,6 @@
     "vitamin_c_mg": 22,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-07-21",
+  "yieldPerBatch": "4 servings"
 }

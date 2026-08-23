@@ -9,12 +9,14 @@
   "totalTime": "5 min",
   "servings": "1 batch",
   "tags": [
+    "Condiment",
     "Japanese",
     "Make Ahead",
     "Sauce",
     "Savoury",
     "Sweet",
-    "Vegan"
+    "Vegan",
+    "Vegetarian"
   ],
   "ingredients": [
     {
@@ -83,5 +85,6 @@
     "vitamin_a_ug": 6,
     "vitamin_c_mg": 33
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-07-21",
+  "yieldPerBatch": "1 batch"
 }

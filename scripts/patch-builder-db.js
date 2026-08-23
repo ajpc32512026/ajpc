@@ -11,7 +11,7 @@
 const fs   = require('fs');
 const path = require('path');
 
-const DB_PATH = path.join(__dirname, 'json/recipe-builder.json');
+const DB_PATH = path.join(__dirname, '../json/recipe-builder.json');
 const TODAY   = new Date().toISOString().split('T')[0];
 
 if (!fs.existsSync(DB_PATH)) {

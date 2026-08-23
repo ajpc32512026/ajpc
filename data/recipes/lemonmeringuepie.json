@@ -8,8 +8,11 @@
   "cookTime": "25 min",
   "totalTime": "1 hr 10 min",
   "servings": "8 servings",
+  "yieldPerBatch": "1 pie",
   "tags": [
+    "American",
     "Baked",
+    "Baking",
     "Classic",
     "Dessert",
     "Lemon",
@@ -18,9 +21,6 @@
     "Vegetarian"
   ],
   "ingredients": [
-    {
-      "heading": "Pastry"
-    },
     {
       "quantity": "225",
       "unit": "g",
@@ -33,15 +33,16 @@
       "item": "Icing Sugar"
     },
     {
-      "quantity": "140",
+      "quantity": "200",
       "unit": "g",
       "item": "Unsalted Butter",
-      "notes": "cold, cubed"
+      "notes": "divided: 140g for Pastry, 60g for Filling"
     },
     {
-      "quantity": "1",
+      "quantity": "4",
       "unit": "",
-      "item": "Egg Yolks"
+      "item": "Egg Yolks",
+      "notes": "divided: 1 for Pastry, 3 for Filling"
     },
     {
       "quantity": "30",
@@ -50,17 +51,15 @@
       "notes": "approximately"
     },
     {
-      "heading": "Filling"
-    },
-    {
       "quantity": "60",
       "unit": "g",
       "item": "Cornflour"
     },
     {
-      "quantity": "200",
+      "quantity": "300",
       "unit": "g",
-      "item": "Caster Sugar"
+      "item": "Caster Sugar",
+      "notes": "divided: 200g for Filling, 100g for Meringue"
     },
     {
       "quantity": "125",
@@ -80,25 +79,7 @@
     {
       "quantity": "3",
       "unit": "",
-      "item": "Egg Yolks"
-    },
-    {
-      "quantity": "60",
-      "unit": "g",
-      "item": "Unsalted Butter"
-    },
-    {
-      "heading": "Meringue"
-    },
-    {
-      "quantity": "3",
-      "unit": "",
       "item": "Egg Whites"
-    },
-    {
-      "quantity": "100",
-      "unit": "g",
-      "item": "Caster Sugar"
     }
   ],
   "method": [
@@ -108,11 +89,11 @@
     },
     {
       "step": 2,
-      "instruction": "Sift flour and icing sugar into a bowl. Rub in butter until the mixture resembles fine breadcrumbs."
+      "instruction": "Sift flour and icing sugar into a bowl. Rub in 140 g of the cold, cubed unsalted butter until the mixture resembles fine breadcrumbs."
     },
     {
       "step": 3,
-      "instruction": "Add egg yolk and enough cold water to make the ingredients cling together. Press dough into a ball, knead gently on a lightly floured surface until smooth. Cover and refrigerate for 30 minutes."
+      "instruction": "Add 1 egg yolk and enough cold water to make the ingredients cling together. Press dough into a ball, knead gently on a lightly floured surface until smooth. Cover and refrigerate for 30 minutes."
     },
     {
       "step": 4,
@@ -124,11 +105,11 @@
     },
     {
       "step": 6,
-      "instruction": "For the filling: combine cornflour and caster sugar in a saucepan. Gradually stir in lemon juice and water until smooth."
+      "instruction": "For the filling: combine cornflour and 200 g of the caster sugar in a saucepan. Gradually stir in lemon juice and water until smooth."
     },
     {
       "step": 7,
-      "instruction": "Stir over medium heat until the mixture boils and thickens — it should be very thick. Reduce heat, quickly stir in lemon zest, egg yolks, and butter. Stir until butter is melted. Cover and cool to room temperature."
+      "instruction": "Stir over medium heat until the mixture boils and thickens — it should be very thick. Reduce heat, quickly stir in lemon zest, the remaining 3 egg yolks, and the remaining 60 g of cold, cubed unsalted butter. Stir until butter is melted. Cover and cool to room temperature."
     },
     {
       "step": 8,
@@ -136,7 +117,7 @@
     },
     {
       "step": 9,
-      "instruction": "For the meringue: beat egg whites in a small bowl with an electric mixer until soft peaks form. Gradually add caster sugar, beating well between additions until the sugar dissolves and the mixture is thick and glossy."
+      "instruction": "For the meringue: beat egg whites in a small bowl with an electric mixer until soft peaks form. Gradually add the remaining 100 g of caster sugar, beating well between additions until the sugar dissolves and the mixture is thick and glossy."
     },
     {
       "step": 10,
@@ -189,5 +170,5 @@
     "vitamin_c_mg": 7,
     "vitamin_d_ug": 7
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-08-19"
 }

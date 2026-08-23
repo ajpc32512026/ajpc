@@ -10,10 +10,10 @@ const path = require('path');
 
 // ── Config: Path structure set to read from the "json" folder ──
 const PATHS = {
-    STAPLES:   path.join(__dirname, 'json/pantry-staples.json'),
-    PRICES:    path.join(__dirname, 'json/recipe-prices.json'),
-    INVENTORY: path.join(__dirname, 'json/ingredient_inventory_v7.json'),
-    OUTPUT:    path.join(__dirname, 'json/master-ingredients.json')
+    STAPLES:   path.join(__dirname, '../json/pantry-staples.json'),
+    PRICES:    path.join(__dirname, '../json/recipe-prices.json'),
+    INVENTORY: path.join(__dirname, '../json/ingredient_inventory_v7.json'),
+    OUTPUT:    path.join(__dirname, '../json/master-ingredients.json')
 };
 
 // ── Merge Map: Defines which duplicates/variants merge into which targets ──

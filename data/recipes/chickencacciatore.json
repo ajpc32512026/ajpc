@@ -11,6 +11,7 @@
   "tags": [
     "Alcohol",
     "Chicken",
+    "Classic",
     "Dinner",
     "Italian",
     "Rich",
@@ -201,5 +202,6 @@
     "vitamin_c_mg": 36,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-07-21",
+  "yieldPerBatch": "4 servings"
 }

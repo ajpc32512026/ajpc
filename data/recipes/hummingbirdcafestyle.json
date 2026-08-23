@@ -1,0 +1,184 @@
+{
+  "id": "hummingbirdcafestyle",
+  "title": "Hummingbird — Cafe Style",
+  "category": "Baking",
+  "difficulty": "Intermediate",
+  "description": "A lush, old-fashioned Southern classic — moist, fragrant, packed with fruit, and crowned with cream cheese frosting.",
+  "prepTime": "25 min",
+  "cookTime": "1 hr 45 min",
+  "totalTime": "2 hr 10 min",
+  "servings": "16 slices",
+  "tags": [
+    "Baking",
+    "Cake",
+    "Dessert",
+    "Jamaican",
+    "Party",
+    "Rich",
+    "Southern",
+    "Sweet",
+    "Vegetarian"
+  ],
+  "ingredients": [
+    {
+      "quantity": "450",
+      "unit": "g",
+      "item": "Plain Flour",
+      "notes": "sifted"
+    },
+    {
+      "quantity": "400",
+      "unit": "g",
+      "item": "Caster Sugar"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Ground Cinnamon"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Bi-carb Soda"
+    },
+    {
+      "quantity": "6",
+      "unit": "",
+      "item": "Eggs",
+      "notes": "lightly beaten"
+    },
+    {
+      "quantity": "375",
+      "unit": "ml",
+      "item": "Vegetable Oil"
+    },
+    {
+      "quantity": "600",
+      "unit": "g",
+      "item": "Bananas",
+      "notes": "mashed, over-ripe, approximately 4 large"
+    },
+    {
+      "quantity": "180",
+      "unit": "g",
+      "item": "Pecans",
+      "notes": "chopped, or walnuts"
+    },
+    {
+      "quantity": "250",
+      "unit": "g",
+      "item": "Pineapple",
+      "notes": "crushed, undrained, in heavy syrup"
+    },
+    {
+      "quantity": "500",
+      "unit": "g",
+      "item": "Cream Cheese",
+      "notes": "softened"
+    },
+    {
+      "quantity": "150",
+      "unit": "ml",
+      "item": "Sour Cream"
+    },
+    {
+      "quantity": "60",
+      "unit": "g",
+      "item": "Unsalted Butter",
+      "notes": "softened"
+    },
+    {
+      "quantity": "10",
+      "unit": "ml",
+      "item": "Vanilla Extract"
+    },
+    {
+      "quantity": "200",
+      "unit": "g",
+      "item": "Icing Sugar",
+      "notes": "sifted"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 170°C. Grease a 28 cm round cake tin and dust with flour, shaking out any excess."
+    },
+    {
+      "step": 2,
+      "instruction": "Place all cake ingredients — sifted flour, caster sugar, cinnamon, bi-carb soda, eggs, oil, mashed bananas, pecans, and crushed pineapple with syrup — into the bowl of a stand mixer."
+    },
+    {
+      "step": 3,
+      "instruction": "Mix on low speed until just combined. Stop as soon as the dry ingredients disappear. Do not overmix."
+    },
+    {
+      "step": 4,
+      "instruction": "Pour batter into the prepared tin and level the top."
+    },
+    {
+      "step": 5,
+      "instruction": "Bake for approximately 1 hour 45 minutes, or until a skewer inserted into the centre comes out clean. If the top browns too quickly, cover loosely with foil after the first hour."
+    },
+    {
+      "step": 6,
+      "instruction": "Stand cake in the tin for 10 minutes, then turn out onto a wire rack to cool completely."
+    },
+    {
+      "step": 7,
+      "instruction": "For the frosting: place cream cheese, sour cream, butter, and vanilla extract into the stand mixer bowl. Beat with the paddle attachment until light and fluffy."
+    },
+    {
+      "step": 8,
+      "instruction": "Gradually add sifted icing sugar while mixing on low speed until thick and silky."
+    },
+    {
+      "step": 9,
+      "instruction": "Spread frosting thickly over the completely cooled cake."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "One-Bowl Method",
+      "content": "All cake ingredients go in together. Mix only until just combined on low speed — overmixing develops gluten and makes the cake tough. A few small streaks of flour are fine."
+    },
+    {
+      "type": "technique",
+      "title": "Long Bake",
+      "content": "This is a heavy, wet batter that needs time. If the top is browning too fast after the first hour, cover loosely with foil and continue baking until the skewer comes out clean."
+    },
+    {
+      "type": "storage",
+      "title": "Storage",
+      "content": "Keep refrigerated due to the cream cheese frosting. Bring to room temperature before serving. The cake improves overnight as the flavours meld — it is even better on day two."
+    }
+  ],
+  "nutrition": {
+    "servings": 16,
+    "cal": 977,
+    "kj": 4088,
+    "protein": 18,
+    "carbs": 78,
+    "sugars": 51,
+    "fat": 67,
+    "saturated_fat": 25.5,
+    "fiber": 5,
+    "sodium": 639,
+    "coverage": 100,
+    "foundCount": 14,
+    "totalCount": 14,
+    "unmatchedItems": [],
+    "calcium_mg": 313,
+    "iron_mg": 3,
+    "potassium_mg": 480,
+    "magnesium_mg": 69,
+    "zinc_mg": 2,
+    "cholesterol_mg": 410,
+    "vitamin_a_ug": 252,
+    "vitamin_c_mg": 4,
+    "vitamin_d_ug": 4
+  },
+  "lastModified": "2026-07-21",
+  "yieldPerBatch": "1 batch"
+}

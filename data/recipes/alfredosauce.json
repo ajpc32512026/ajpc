@@ -9,10 +9,10 @@
   "totalTime": "15 min",
   "servings": "4 servings",
   "tags": [
-    "Cheese",
     "Creamy",
+    "Gluten-Free",
     "Italian",
-    "Rich",
+    "Pasta",
     "Sauce",
     "Under 30 Minutes",
     "Vegetarian"
@@ -41,8 +41,9 @@
       "notes": "freshly grated"
     },
     {
+      "quantity": "",
+      "unit": "",
       "item": "Salt & Pepper",
-      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -108,5 +109,6 @@
     "vitamin_a_ug": 362,
     "vitamin_c_mg": 6
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-07-21",
+  "yieldPerBatch": "4 servings"
 }

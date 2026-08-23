@@ -8,18 +8,17 @@
   "cookTime": "10 min",
   "totalTime": "2 hr 25 min",
   "servings": "2 servings",
+  "yieldPerBatch": "2 servings",
   "tags": [
     "Alcohol",
     "Chinese",
     "Dinner",
     "Lamb",
     "Savoury",
+    "Stir-Fried",
     "Sweet"
   ],
   "ingredients": [
-    {
-      "heading": "Lamb & Marinade"
-    },
     {
       "quantity": "350",
       "unit": "g",
@@ -32,37 +31,27 @@
       "item": "Bi-carb Soda"
     },
     {
-      "quantity": "5",
+      "quantity": "20",
       "unit": "g",
-      "item": "Cornflour"
+      "item": "Cornflour",
+      "notes": "divided: 5g for Marinade, 15g for Sauce"
     },
     {
-      "quantity": "15",
+      "quantity": "20",
       "unit": "ml",
-      "item": "Light Soy Sauce"
+      "item": "Light Soy Sauce",
+      "notes": "divided: 15ml for Marinade, 5ml for Sauce"
     },
     {
-      "quantity": "15",
+      "quantity": "45",
       "unit": "ml",
-      "item": "Chinese Rice Wine"
-    },
-    {
-      "heading": "Sauce"
-    },
-    {
-      "quantity": "15",
-      "unit": "g",
-      "item": "Cornflour"
+      "item": "Chinese Rice Wine",
+      "notes": "divided: 15ml for Marinade, 30ml for Sauce"
     },
     {
       "quantity": "10",
       "unit": "ml",
       "item": "Dark Soy Sauce"
-    },
-    {
-      "quantity": "5",
-      "unit": "ml",
-      "item": "Light Soy Sauce"
     },
     {
       "quantity": "5",
@@ -75,11 +64,6 @@
       "item": "Hoisin Sauce"
     },
     {
-      "quantity": "30",
-      "unit": "ml",
-      "item": "Chinese Rice Wine"
-    },
-    {
       "quantity": "2",
       "unit": "g",
       "item": "Chinese Five Spice"
@@ -88,9 +72,6 @@
       "quantity": "185",
       "unit": "ml",
       "item": "Water"
-    },
-    {
-      "heading": "Stir-Fry"
     },
     {
       "quantity": "5",
@@ -124,11 +105,11 @@
   "method": [
     {
       "step": 1,
-      "instruction": "Combine lamb with bi-carb soda, cornflour, light soy sauce, and Chinese rice wine. Mix very well, cover, and refrigerate. For tender cuts, marinate 2 hours. For economical cuts, marinate 6–24 hours."
+      "instruction": "Combine lamb strips with bi-carb soda, 5 g of the cornflour, 15 ml of the light soy sauce, and 15 ml of the Chinese rice wine. Mix very well, cover, and refrigerate. For tender cuts, marinate 2 hours. For economical cuts, marinate 6–24 hours."
     },
     {
       "step": 2,
-      "instruction": "Mix cornflour with dark soy sauce and light soy sauce until smooth, then stir in sambal oelek, hoisin sauce, Chinese rice wine, five spice, and water. Set sauce aside."
+      "instruction": "Mix the remaining 15 g of cornflour with dark soy sauce and the remaining 5 ml of light soy sauce until smooth, then stir in sambal oelek, hoisin sauce, the remaining 30 ml of Chinese rice wine, five spice, and water. Set sauce aside."
     },
     {
       "step": 3,
@@ -188,5 +169,5 @@
     "vitamin_c_mg": 79,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-08-19"
 }

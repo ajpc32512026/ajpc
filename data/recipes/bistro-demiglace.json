@@ -9,10 +9,12 @@
   "servings": "Makes approx 2-3 litres",
   "difficulty": "Intermediate",
   "tags": [
-    "Foundation",
     "Bistro",
+    "Classic",
+    "Freezer Friendly",
+    "French",
     "Make Ahead",
-    "Freezer Friendly"
+    "Sauce"
   ],
   "ingredients": [
     {
@@ -62,8 +64,9 @@
       "notes": "or enough to cover bones by 5cm"
     },
     {
+      "quantity": "",
+      "unit": "",
       "item": "Salt",
-      "toTaste": true,
       "notes": "Add at the end. Don't add too much all at once - you can't take it out."
     }
   ],
@@ -192,5 +195,6 @@
     "vitamin_d_ug": 5
   },
   "lastModified": "2026-06-08",
-  "cuisine": "French"
+  "cuisine": "French",
+  "yieldPerBatch": "1 batch"
 }

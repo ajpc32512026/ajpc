@@ -1,5 +1,5 @@
 {
-  "id": "applecinnamonscrolls",
+  "id": "applecinnscrolls",
   "title": "Apple & Cinnamon Scrolls",
   "category": "Baking",
   "difficulty": "Intermediate",
@@ -10,29 +10,25 @@
   "servings": "12 scrolls",
   "yieldPerBatch": "12 Scrolls",
   "tags": [
-    "Apple",
-    "Bread",
+    "Australian",
+    "Baking",
     "Breakfast",
-    "Cinnamon",
-    "Creamy",
-    "Rich",
+    "Classic",
+    "Pastry",
     "Sweet",
-    "Under 1 Hour",
     "Vegetarian"
   ],
   "ingredients": [
-    {
-      "heading": "Dough"
-    },
     {
       "quantity": "250",
       "unit": "ml",
       "item": "Milk Full-Cream"
     },
     {
-      "quantity": "50",
+      "quantity": "80",
       "unit": "g",
-      "item": "Unsalted Butter"
+      "item": "Unsalted Butter",
+      "notes": "divided: 50g for Dough, 30g for Filling"
     },
     {
       "quantity": "40",
@@ -78,18 +74,15 @@
       "item": "Plain Flour"
     },
     {
-      "quantity": "5",
+      "quantity": "10",
       "unit": "g",
       "item": "Ground Cinnamon",
-      "notes": "ground"
+      "notes": "divided: 5g for Dough, 5g for Filling (ground)"
     },
     {
       "quantity": "2.5",
       "unit": "g",
       "item": "Salt"
-    },
-    {
-      "heading": "Filling"
     },
     {
       "quantity": "300",
@@ -104,24 +97,10 @@
       "notes": "packed"
     },
     {
-      "quantity": "30",
-      "unit": "g",
-      "item": "Unsalted Butter"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Ground Cinnamon",
-      "notes": "ground"
-    },
-    {
       "quantity": "50",
       "unit": "g",
       "item": "Walnuts",
       "notes": "chopped"
-    },
-    {
-      "heading": "Icing"
     },
     {
       "quantity": "100",

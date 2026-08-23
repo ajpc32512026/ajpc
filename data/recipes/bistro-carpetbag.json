@@ -12,6 +12,7 @@
     "Alcohol",
     "Australian",
     "Beef",
+    "Bistro",
     "Cheese",
     "Classic",
     "Dinner",
@@ -61,8 +62,9 @@
       "notes": "full-bodied, like Shiraz or Cabernet"
     },
     {
+      "quantity": "",
+      "unit": "",
       "item": "Salt & Pepper",
-      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -139,5 +141,6 @@
     "vitamin_c_mg": 26,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-06-04"
+  "lastModified": "2026-06-04",
+  "yieldPerBatch": "1 serving"
 }

@@ -8,19 +8,18 @@
   "cookTime": "45 min",
   "totalTime": "1 hr 10 min",
   "servings": "4 pies",
+  "yieldPerBatch": "1 batch",
   "tags": [
     "Australian",
     "Baked",
+    "Baking",
     "Beef",
     "Classic",
-    "Dinner",
     "Pastry",
-    "Savoury"
+    "Savoury",
+    "Lunch"
   ],
   "ingredients": [
-    {
-      "heading": "Filling"
-    },
     {
       "quantity": "500",
       "unit": "g",
@@ -62,9 +61,6 @@
       "quantity": "2",
       "unit": "g",
       "item": "Black Pepper"
-    },
-    {
-      "heading": "Pastry"
     },
     {
       "quantity": "2",
@@ -160,5 +156,5 @@
     "vitamin_c_mg": 3,
     "vitamin_d_ug": 5
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-08-22"
 }

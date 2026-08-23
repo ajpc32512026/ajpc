@@ -10,6 +10,8 @@
   "servings": "4 servings",
   "tags": [
     "Baked",
+    "Entree",
+    "French",
     "Gluten-Free",
     "Rich",
     "Savoury",
@@ -166,5 +168,6 @@
     "vitamin_c_mg": 12,
     "vitamin_d_ug": 7
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-07-21",
+  "yieldPerBatch": "4 servings"
 }

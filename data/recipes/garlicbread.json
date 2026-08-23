@@ -8,17 +8,18 @@
   "cookTime": "20 min",
   "totalTime": "2 hr 40 min",
   "servings": "1 loaf",
+  "yieldPerBatch": "1 loaf",
   "tags": [
     "Baked",
+    "Baking",
     "Bread",
+    "Classic",
     "Garlic",
+    "Italian",
     "Savoury",
     "Vegetarian"
   ],
   "ingredients": [
-    {
-      "heading": "Dough"
-    },
     {
       "quantity": "300",
       "unit": "g",
@@ -48,23 +49,16 @@
       "notes": "instant dried"
     },
     {
-      "quantity": "4.5",
+      "quantity": "6.5",
       "unit": "g",
-      "item": "Salt"
+      "item": "Salt",
+      "notes": "divided: 4.5g for Dough, 2g for Topping"
     },
     {
-      "quantity": "15",
-      "unit": "g",
-      "item": "Unsalted Butter"
-    },
-    {
-      "heading": "Garlic Butter Topping"
-    },
-    {
-      "quantity": "20",
+      "quantity": "35",
       "unit": "g",
       "item": "Unsalted Butter",
-      "notes": "softened"
+      "notes": "divided: 15g for Dough, 20g for Topping"
     },
     {
       "quantity": "8",
@@ -76,11 +70,6 @@
       "quantity": "10",
       "unit": "g",
       "item": "Honey"
-    },
-    {
-      "quantity": "2",
-      "unit": "g",
-      "item": "Salt"
     },
     {
       "quantity": "10",
@@ -96,11 +85,11 @@
     },
     {
       "step": 2,
-      "instruction": "Add the egg, bread flour, and salt. Mix until a rough dough forms."
+      "instruction": "Add the egg, 300 g bread flour, and 4.5 g of the salt. Mix until a rough dough forms."
     },
     {
       "step": 3,
-      "instruction": "Add 15 g butter and knead for 8–10 minutes until the dough is smooth, elastic, and no longer sticky."
+      "instruction": "Add 15 g of the unsalted butter and knead for 8–10 minutes until the dough is smooth, elastic, and no longer sticky."
     },
     {
       "step": 4,
@@ -120,7 +109,7 @@
     },
     {
       "step": 8,
-      "instruction": "Meanwhile, make the garlic butter: mix softened butter, minced garlic, honey, salt, and chopped parsley until well combined."
+      "instruction": "Meanwhile, make the garlic butter: mix the remaining 20 g of softened unsalted butter, minced garlic, honey, the remaining 2 g of salt, and chopped parsley until well combined."
     },
     {
       "step": 9,
@@ -169,5 +158,5 @@
     "vitamin_c_mg": 19,
     "vitamin_d_ug": 12
   },
-  "lastModified": "2026-06-04"
+  "lastModified": "2026-08-19"
 }

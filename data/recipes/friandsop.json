@@ -9,7 +9,11 @@
   "totalTime": "40 min",
   "servings": "12 friands",
   "tags": [
+    "Australian",
+    "Baking",
+    "Cake",
     "Dessert",
+    "French",
     "Orange",
     "Rich",
     "Sweet",
@@ -134,5 +138,6 @@
     "vitamin_a_ug": 143,
     "vitamin_c_mg": 2
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-07-21",
+  "yieldPerBatch": "1 batch"
 }

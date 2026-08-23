@@ -10,11 +10,14 @@
   "difficulty": "Intermediate",
   "tags": [
     "Baked",
+    "Bistro",
     "Classic",
     "Dinner",
+    "Italian",
     "Rich",
     "Savoury",
-    "Under 1 Hour"
+    "Under 1 Hour",
+    "Veal"
   ],
   "ingredients": [
     {
@@ -65,8 +68,9 @@
       "notes": "for filling and sauce"
     },
     {
+      "quantity": "",
+      "unit": "",
       "item": "Salt & Pepper",
-      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -162,5 +166,6 @@
     "vitamin_c_mg": 38,
     "vitamin_d_ug": 7
   },
-  "lastModified": "2026-05-24"
+  "lastModified": "2026-05-24",
+  "yieldPerBatch": "1 serving"
 }

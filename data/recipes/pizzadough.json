@@ -8,7 +8,9 @@
   "servings": "1",
   "difficulty": "Beginner",
   "tags": [
+    "Baking",
     "Bread",
+    "Classic",
     "Italian",
     "Make Ahead",
     "Savoury",
@@ -82,5 +84,8 @@
     "zinc_mg": 6,
     "vitamin_a_ug": 2
   },
-  "lastModified": "2026-06-03"
+  "lastModified": "2026-06-03",
+  "yieldPerBatch": "1 batch",
+  "cookTime": "0 min",
+  "notes": []
 }

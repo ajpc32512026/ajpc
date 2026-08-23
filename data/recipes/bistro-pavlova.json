@@ -11,6 +11,7 @@
   "tags": [
     "Australian",
     "Baked",
+    "Baking",
     "Classic",
     "Creamy",
     "Dessert",
@@ -18,9 +19,6 @@
     "Vegetarian"
   ],
   "ingredients": [
-    {
-      "heading": "Meringue"
-    },
     {
       "quantity": "6",
       "unit": "",
@@ -45,9 +43,6 @@
       "quantity": "5",
       "unit": "ml",
       "item": "Natural Vanilla Extract"
-    },
-    {
-      "heading": "Topping"
     },
     {
       "quantity": "200",
@@ -141,5 +136,6 @@
     "vitamin_a_ug": 111,
     "vitamin_c_mg": 36
   },
-  "lastModified": "2026-06-04"
+  "lastModified": "2026-06-04",
+  "yieldPerBatch": "8 servings"
 }

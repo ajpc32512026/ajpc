@@ -8,20 +8,21 @@
   "cookTime": "1 hr",
   "totalTime": "1 hr 30 min",
   "servings": "8 slices",
+  "yieldPerBatch": "1 cake",
   "tags": [
+    "American",
     "Baked",
+    "Baking",
+    "Cake",
+    "Carrot",
     "Classic",
     "Creamy",
+    "Dessert",
     "Party",
     "Sweet",
-    "Vegetarian",
-    "Carrot",
-    "Cake"
+    "Vegetarian"
   ],
   "ingredients": [
-    {
-      "heading": "Cake"
-    },
     {
       "quantity": "3",
       "unit": "",
@@ -39,9 +40,10 @@
       "notes": "sifted"
     },
     {
-      "quantity": "7.5",
+      "quantity": "10",
       "unit": "ml",
-      "item": "Natural Vanilla Extract"
+      "item": "Natural Vanilla Extract",
+      "notes": "divided: 7.5ml for Cake, 2.5ml for Frosting"
     },
     {
       "quantity": "90",
@@ -82,9 +84,6 @@
       "notes": "chopped"
     },
     {
-      "heading": "Cream Cheese Frosting"
-    },
-    {
       "quantity": "250",
       "unit": "g",
       "item": "Cream Cheese",
@@ -101,12 +100,6 @@
       "unit": "ml",
       "item": "Lemon Juice",
       "notes": "added a little at a time"
-    },
-    {
-      "quantity": "2.5",
-      "unit": "ml",
-      "item": "Natural Vanilla Extract",
-      "notes": "to taste"
     }
   ],
   "method": [
@@ -116,7 +109,7 @@
     },
     {
       "step": 2,
-      "instruction": "In the bowl of a stand mixer, combine eggs, sugar, self-raising flour, vanilla extract, oil, baking powder, salt, and cinnamon. Mix with the whisk attachment until the mixture is fairly thick and stiff."
+      "instruction": "In the bowl of a stand mixer, combine eggs, sugar, self-raising flour, 7.5 ml of the vanilla extract, oil, baking powder, salt, and cinnamon. Mix with the whisk attachment until the mixture is fairly thick and stiff."
     },
     {
       "step": 3,
@@ -156,7 +149,7 @@
     },
     {
       "step": 12,
-      "instruction": "Add vanilla extract to taste and mix to finish."
+      "instruction": "Add the remaining 2.5 ml of vanilla extract and mix to finish."
     },
     {
       "step": 13,
@@ -220,5 +213,5 @@
     "vitamin_c_mg": 1,
     "vitamin_d_ug": 4
   },
-  "lastModified": "2026-06-14"
+  "lastModified": "2026-08-19"
 }

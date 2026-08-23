@@ -8,7 +8,11 @@
   "cookTime": "40 min",
   "totalTime": "55 min",
   "servings": "12 slices",
+  "yieldPerBatch": "1 cake",
   "tags": [
+    "Australian",
+    "Baking",
+    "Cake",
     "Coconut",
     "Dessert",
     "Lemon",
@@ -16,9 +20,6 @@
     "Vegetarian"
   ],
   "ingredients": [
-    {
-      "heading": "Cake"
-    },
     {
       "quantity": "150",
       "unit": "g",
@@ -45,43 +46,27 @@
       "item": "Milk Full-Cream"
     },
     {
-      "quantity": "100",
+      "quantity": "130",
       "unit": "g",
-      "item": "Desiccated Coconut"
+      "item": "Desiccated Coconut",
+      "notes": "divided: 100g for Cake, 30g for Lemon Icing"
     },
     {
-      "quantity": "5",
+      "quantity": "10",
       "unit": "g",
-      "item": "Lemon Zest"
+      "item": "Lemon Zest",
+      "notes": "divided: 5g for Cake, 5g for Lemon Icing"
     },
     {
-      "quantity": "30",
+      "quantity": "60",
       "unit": "ml",
-      "item": "Lemon Juice"
-    },
-    {
-      "heading": "Lemon Icing"
+      "item": "Lemon Juice",
+      "notes": "divided: 30ml for Cake, 30ml for Lemon Icing"
     },
     {
       "quantity": "150",
       "unit": "g",
       "item": "Icing Sugar"
-    },
-    {
-      "quantity": "30",
-      "unit": "ml",
-      "item": "Lemon Juice"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Lemon Zest"
-    },
-    {
-      "quantity": "30",
-      "unit": "g",
-      "item": "Desiccated Coconut",
-      "notes": "for decoration"
     }
   ],
   "method": [
@@ -99,7 +84,7 @@
     },
     {
       "step": 4,
-      "instruction": "Add eggs one at a time, mixing between additions. Add lemon juice, lemon zest, and desiccated coconut. Stir until just combined — do not overmix."
+      "instruction": "Add eggs one at a time, mixing between additions. Add 30 ml of the lemon juice, 5 g of the lemon zest, and 100 g of the desiccated coconut. Stir until just combined — do not overmix."
     },
     {
       "step": 5,
@@ -115,7 +100,7 @@
     },
     {
       "step": 8,
-      "instruction": "For the icing: sift icing sugar into a bowl. Add lemon juice slowly, mixing until a thick, spreadable paste forms."
+      "instruction": "For the icing: sift icing sugar into a bowl. Add the remaining 30 ml of lemon juice slowly, mixing until a thick, spreadable paste forms."
     },
     {
       "step": 9,
@@ -123,7 +108,7 @@
     },
     {
       "step": 10,
-      "instruction": "Sprinkle with lemon zest and desiccated coconut to decorate."
+      "instruction": "Sprinkle with the remaining 5 g of lemon zest and the remaining 30 g of desiccated coconut to decorate."
     }
   ],
   "notes": [
@@ -160,5 +145,5 @@
     "vitamin_c_mg": 3,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-06-04"
+  "lastModified": "2026-08-19"
 }

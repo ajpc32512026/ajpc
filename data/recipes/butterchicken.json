@@ -1,5 +1,5 @@
 {
-  "id": "restaurantstylebutterchicken",
+  "id": "butterchicken",
   "title": "Restaurant-Style Butter Chicken",
   "category": "Dinner",
   "difficulty": "Intermediate",
@@ -20,16 +20,10 @@
   ],
   "ingredients": [
     {
-      "heading": "Chicken"
-    },
-    {
       "quantity": "500",
       "unit": "g",
       "item": "Chicken Thigh",
       "notes": "cut into cubes"
-    },
-    {
-      "heading": "For the Sauce"
     },
     {
       "quantity": "30",
@@ -113,9 +107,6 @@
       "unit": "g",
       "item": "Cashews",
       "notes": "ground"
-    },
-    {
-      "heading": "Finishing"
     },
     {
       "quantity": "30",
@@ -222,5 +213,6 @@
     "vitamin_c_mg": 15,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-07-21",
+  "yieldPerBatch": "4 servings"
 }

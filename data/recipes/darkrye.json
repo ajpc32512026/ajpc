@@ -9,7 +9,9 @@
   "totalTime": "3 hr 45 min",
   "servings": "1 large loaf",
   "tags": [
+    "Baking",
     "Bread",
+    "German",
     "Make Ahead",
     "Savoury",
     "Vegan",
@@ -19,7 +21,7 @@
     {
       "quantity": "310",
       "unit": "ml",
-      "item": "Warm Water"
+      "item": "Water"
     },
     {
       "quantity": "20",
@@ -156,5 +158,6 @@
     "zinc_mg": 10,
     "vitamin_a_ug": 4
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-07-21",
+  "yieldPerBatch": "1 loaf"
 }

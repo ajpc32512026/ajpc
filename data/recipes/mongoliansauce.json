@@ -11,12 +11,14 @@
   "tags": [
     "Alcohol",
     "Chinese",
+    "Condiment",
     "Make Ahead",
     "Sauce",
     "Savoury",
     "Sweet",
     "Under 30 Minutes",
-    "Vegan"
+    "Vegan",
+    "Vegetarian"
   ],
   "ingredients": [
     {
@@ -115,5 +117,6 @@
     "magnesium_mg": 4,
     "vitamin_a_ug": 3
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-07-21",
+  "yieldPerBatch": "1 batch"
 }

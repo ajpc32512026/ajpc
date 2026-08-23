@@ -9,13 +9,16 @@
   "totalTime": "15 min",
   "servings": "4 servings",
   "tags": [
+    "Asian",
     "Coconut",
+    "Condiment",
     "Gluten-Free",
     "Make Ahead",
     "Sauce",
     "Savoury",
     "Spicy",
-    "Vegan"
+    "Vegan",
+    "Vegetarian"
   ],
   "ingredients": [
     {
@@ -100,5 +103,6 @@
     "vitamin_a_ug": 33,
     "vitamin_c_mg": 1
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-07-21",
+  "yieldPerBatch": "4 servings"
 }

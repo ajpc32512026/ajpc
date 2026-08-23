@@ -15,6 +15,7 @@
     "Dinner",
     "Easy",
     "Retro",
+    "Savoury",
     "Sweet"
   ],
   "ingredients": [
@@ -204,5 +205,6 @@
     "vitamin_a_ug": 154,
     "vitamin_c_mg": 14
   },
-  "lastModified": "2026-05-31"
+  "lastModified": "2026-05-31",
+  "yieldPerBatch": "1 batch"
 }

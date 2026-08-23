@@ -9,7 +9,9 @@
   "totalTime": "2 hr 35 min",
   "servings": "8 buns",
   "tags": [
+    "American",
     "Baked",
+    "Baking",
     "Bread",
     "Savoury",
     "Vegetarian"
@@ -33,10 +35,10 @@
       "notes": "instant dried"
     },
     {
-      "quantity": "1",
+      "quantity": "2",
       "unit": "",
       "item": "Eggs",
-      "notes": "large"
+      "notes": "divided: 1, 1 (large)"
     },
     {
       "quantity": "15",
@@ -58,12 +60,6 @@
       "quantity": "470",
       "unit": "g",
       "item": "Bread Flour"
-    },
-    {
-      "quantity": "1",
-      "unit": "",
-      "item": "Eggs",
-      "notes": "beaten, for egg wash"
     }
   ],
   "method": [
@@ -154,5 +150,6 @@
     "vitamin_a_ug": 75,
     "vitamin_d_ug": 3
   },
-  "lastModified": "2026-06-04"
+  "lastModified": "2026-06-04",
+  "yieldPerBatch": "8 buns"
 }

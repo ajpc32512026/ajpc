@@ -46,8 +46,9 @@
       "item": "Brown Onion"
     },
     {
+      "quantity": "",
+      "unit": "",
       "item": "Salt & Pepper",
-      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -172,5 +173,6 @@
     "vitamin_a_ug": 86,
     "vitamin_c_mg": 20
   },
-  "lastModified": "2026-05-31"
+  "lastModified": "2026-05-31",
+  "yieldPerBatch": "4 servings"
 }

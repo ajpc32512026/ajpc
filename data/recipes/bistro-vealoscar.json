@@ -9,6 +9,7 @@
   "servings": "1 serving",
   "difficulty": "Intermediate",
   "tags": [
+    "Bistro",
     "Classic",
     "Creamy",
     "Deep-Fried",
@@ -16,12 +17,11 @@
     "Rich",
     "Savoury",
     "Seafood",
-    "Under 30 Minutes"
+    "Swedish",
+    "Under 30 Minutes",
+    "Veal"
   ],
   "ingredients": [
-    {
-      "heading": "Veal"
-    },
     {
       "quantity": "180",
       "unit": "g",
@@ -41,17 +41,15 @@
       "notes": "prawns, scallops, or crab"
     },
     {
-      "heading": "To Finish"
-    },
-    {
       "quantity": "50",
       "unit": "g",
       "item": "Tasty Cheese",
       "notes": "extra, grated, for topping"
     },
     {
+      "quantity": "",
+      "unit": "",
       "item": "Salt & Pepper",
-      "toTaste": true,
       "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
@@ -160,5 +158,6 @@
     "vitamin_d_ug": 2
   },
   "lastModified": "2026-05-24",
-  "cuisine": "American / Modern"
+  "cuisine": "American / Modern",
+  "yieldPerBatch": "1 serving"
 }

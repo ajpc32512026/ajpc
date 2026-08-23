@@ -10,11 +10,13 @@
   "servings": "1 batch",
   "tags": [
     "Chinese",
+    "Condiment",
     "Make Ahead",
     "Sauce",
     "Sweet",
     "Under 30 Minutes",
-    "Vegan"
+    "Vegan",
+    "Vegetarian"
   ],
   "ingredients": [
     {
@@ -115,5 +117,6 @@
     "vitamin_a_ug": 33,
     "vitamin_c_mg": 8
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-07-21",
+  "yieldPerBatch": "1 batch"
 }

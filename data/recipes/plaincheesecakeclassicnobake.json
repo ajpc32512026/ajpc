@@ -9,6 +9,7 @@
   "totalTime": "4 hr 20 min",
   "servings": "8 servings",
   "tags": [
+    "American",
     "Classic",
     "Creamy",
     "Dessert",
@@ -20,9 +21,6 @@
   ],
   "ingredients": [
     {
-      "heading": "Base"
-    },
-    {
       "quantity": "1",
       "unit": "packet",
       "item": "Arnotts Butternut Snap Cookies",
@@ -33,9 +31,6 @@
       "unit": "g",
       "item": "Unsalted Butter",
       "notes": "melted"
-    },
-    {
-      "heading": "Filling"
     },
     {
       "quantity": "500",
@@ -115,5 +110,6 @@
     "cholesterol_mg": 83,
     "vitamin_a_ug": 248
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-07-21",
+  "yieldPerBatch": "8 servings"
 }

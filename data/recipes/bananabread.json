@@ -9,9 +9,12 @@
   "servings": "9 slices",
   "difficulty": "Beginner",
   "tags": [
+    "American",
+    "Baking",
     "Banana",
     "Bread",
     "Breakfast",
+    "Cake",
     "Classic",
     "Make Ahead",
     "Rich",
@@ -199,5 +202,6 @@
     "vitamin_c_mg": 3
   },
   "lastModified": "2026-05-31",
-  "cuisine": "American / Modern"
+  "cuisine": "American / Modern",
+  "yieldPerBatch": "1 batch"
 }

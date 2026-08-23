@@ -16,7 +16,6 @@
     "gelatine leaves",
     "gelatine powder",
     "glucose syrup",
-    "vanilla essence",
     "vanilla extract natural"
   ],
   "Bread Bakery": [
@@ -42,7 +41,7 @@
     "salmon",
     "sardines",
     "seafood mix",
-    "tuna in brine"
+    "tuna in springwater"
   ],
   "Canned Fruit": [
     "apple slices",
@@ -50,8 +49,7 @@
     "pineapple chunks",
     "pineapple crushed",
     "pineapple pieces",
-    "pineapple rings",
-    "pineapple slices"
+    "pineapple rings"
   ],
   "Canned Tomatoes": [
     "tomato crushed",
@@ -80,13 +78,12 @@
     "cheese parmesan shaved",
     "cheese parmesan shredded",
     "cheese ricotta",
-    "cheese tasty",
-    "cheese tasty block"
+    "cheese tasty"
   ],
   "Dried Fruit Nuts": [
     "apricots dried",
     "cranberries dried",
-    "dates",
+    "dates dried",
     "nuts almonds",
     "nuts brazil",
     "nuts cashews",
@@ -103,7 +100,6 @@
     "beer",
     "brandy",
     "coffee",
-    "coffee instant",
     "gin",
     "grand marnier",
     "rum",
@@ -115,9 +111,7 @@
     "wine white"
   ],
   "Eggs": [
-    "eggs white",
-    "eggs whole",
-    "eggs yolk"
+    "eggs"
   ],
   "Flour Baking": [
     "almond meal",
@@ -125,7 +119,6 @@
     "bread improver",
     "cornflour",
     "flour bakers",
-    "flour bread",
     "flour buckwheat",
     "flour gluten free plain",
     "flour plain",
@@ -178,9 +171,8 @@
     "asparagus",
     "avocado",
     "banana",
-    "banana cavendish",
     "beans green",
-    "beetroot",
+    "beetroot whole",
     "beetroot sliced",
     "broccoli",
     "cabbage",
@@ -423,7 +415,7 @@
     "nigella seeds",
     "nutmeg ground",
     "onion powder",
-    "oregano",
+    "oregano dried",
     "paprika ground",
     "paprika smoked",
     "paprika sweet",

@@ -25,67 +25,89 @@
         "protein": "Varies",
         "vitamins_minerals": "Derived entirely from the source cake recipe."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
-  "chocolate dark": {
-    "name": "chocolate dark",
-    "displayName": "Chocolate Dark",
+  "dark chocolate": {
+    "name": "dark chocolate",
+    "displayName": "Dark Chocolate",
     "category": "Baking Extras",
     "aliases": [
       "chocolate dark"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "chocolate dark bits": {
-    "name": "chocolate dark bits",
-    "displayName": "Chocolate Dark Bits",
+  "dark chocolate bits": {
+    "name": "dark chocolate bits",
+    "displayName": "Dark Chocolate Bits",
     "category": "Baking Extras",
     "aliases": [
       "chocolate dark bits"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "chocolate dark chips": {
-    "name": "chocolate dark chips",
-    "displayName": "Chocolate Dark Chips",
+  "dark chocolate chips": {
+    "name": "dark chocolate chips",
+    "displayName": "Dark Chocolate Chips",
     "category": "Baking Extras",
     "aliases": [
       "chocolate dark chips"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "chocolate dark melts": {
-    "name": "chocolate dark melts",
-    "displayName": "Chocolate Dark Melts",
+  "dark chocolate melts": {
+    "name": "dark chocolate melts",
+    "displayName": "Dark Chocolate Melts",
     "category": "Baking Extras",
     "aliases": [
       "chocolate dark melts"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "chocolate milk bits": {
-    "name": "chocolate milk bits",
-    "displayName": "Chocolate Milk Bits",
+  "milk chocolate bits": {
+    "name": "milk chocolate bits",
+    "displayName": "Milk Chocolate Bits",
     "category": "Baking Extras",
     "aliases": [
       "chocolate milk bits"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "chocolate milk chips": {
-    "name": "chocolate milk chips",
-    "displayName": "Chocolate Milk Chips",
+  "milk chocolate chips": {
+    "name": "milk chocolate chips",
+    "displayName": "Milk Chocolate Chips",
     "category": "Baking Extras",
     "aliases": [
       "chocolate milk chips"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "chocolate sprinkles": {
     "name": "chocolate sprinkles",
@@ -100,27 +122,39 @@
       "price": 3.5,
       "brand": "Dollar Sweets"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "chocolate white": {
-    "name": "chocolate white",
-    "displayName": "Chocolate White",
+  "white chocolate": {
+    "name": "white chocolate",
+    "displayName": "White Chocolate",
     "category": "Baking Extras",
     "aliases": [
       "chocolate white"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "chocolate white chips": {
-    "name": "chocolate white chips",
-    "displayName": "Chocolate White Chips",
+  "white chocolate chips": {
+    "name": "white chocolate chips",
+    "displayName": "White Chocolate Chips",
     "category": "Baking Extras",
     "aliases": [
       "chocolate white chips"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "cocoa powder": {
     "name": "cocoa powder",
@@ -148,7 +182,8 @@
         "protein": "18–20 g",
         "vitamins_minerals": "High in dietary fibre; rich in magnesium and iron. Contains polyphenols and flavonoids with antioxidant properties. Naturally contains small amounts of caffeine and theobromine."
       }
-    }
+    },
+    "countable": false
   },
   "custard powder": {
     "name": "custard powder",
@@ -176,7 +211,8 @@
         "protein": "2–3 g",
         "vitamins_minerals": "Primarily a carbohydrate source; contains small amounts of iron and calcium depending on fortification. Nutritional impact per serving is modest due to small quantities used."
       }
-    }
+    },
+    "countable": false
   },
   "food colouring": {
     "name": "food colouring",
@@ -191,7 +227,8 @@
       "price": 7.75,
       "brand": "Queen"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "gelatine leaves": {
     "name": "gelatine leaves",
@@ -206,7 +243,8 @@
       "price": 9,
       "brand": "Macphee's"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "gelatine powder": {
     "name": "gelatine powder",
@@ -221,7 +259,8 @@
       "price": 8,
       "brand": "McKenzie's"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "glucose syrup": {
     "name": "glucose syrup",
@@ -249,7 +288,8 @@
         "protein": "0 g",
         "vitamins_minerals": "Minimal; primarily a source of sugars and energy. Does not contribute significant micronutrients."
       }
-    }
+    },
+    "countable": false
   },
   "vanilla essence": {
     "name": "vanilla essence",
@@ -264,27 +304,33 @@
       "price": 4,
       "brand": "Queen"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "vanilla extract natural": {
-    "name": "vanilla extract natural",
-    "displayName": "Vanilla Extract Natural",
+  "natural vanilla extract": {
+    "name": "natural vanilla extract",
+    "displayName": "Natural Vanilla Extract",
     "category": "Baking Extras",
     "aliases": [
       "vanilla extract natural"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "bread naan": {
-    "name": "bread naan",
-    "displayName": "Bread Naan",
+  "naan bread": {
+    "name": "naan bread",
+    "displayName": "Naan Bread",
     "category": "Bread Bakery",
     "aliases": [
       "bread naan"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "breadcrumbs": {
     "name": "breadcrumbs",
@@ -312,37 +358,53 @@
         "protein": "14 g",
         "vitamins_minerals": "Provides iron, B vitamins, and calcium; nutritional value varies slightly between brands and types."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
-  "pastry puff": {
-    "name": "pastry puff",
-    "displayName": "Pastry Puff",
+  "puff pastry": {
+    "name": "puff pastry",
+    "displayName": "Puff Pastry",
     "category": "Bread Bakery",
     "aliases": [
       "pastry puff"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "pastry puff frozen": {
-    "name": "pastry puff frozen",
-    "displayName": "Pastry Puff Frozen",
+  "frozen puff pastry": {
+    "name": "frozen puff pastry",
+    "displayName": "Frozen Puff Pastry",
     "category": "Bread Bakery",
     "aliases": [
       "pastry puff frozen"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "pastry shortcrust": {
-    "name": "pastry shortcrust",
-    "displayName": "Pastry Shortcrust",
+  "shortcrust pastry": {
+    "name": "shortcrust pastry",
+    "displayName": "Shortcrust Pastry",
     "category": "Bread Bakery",
     "aliases": [
       "pastry shortcrust"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "sourdough starter": {
     "name": "sourdough starter",
@@ -369,37 +431,41 @@
         "fiber": "2 g",
         "protein": "8 g"
       }
-    }
+    },
+    "countable": false
   },
-  "butter salted": {
-    "name": "butter salted",
-    "displayName": "Butter Salted",
+  "salted butter": {
+    "name": "salted butter",
+    "displayName": "Salted Butter",
     "category": "Butter Dairy",
     "aliases": [
       "butter salted"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "butter spreadable": {
-    "name": "butter spreadable",
-    "displayName": "Butter Spreadable",
+  "spreadable butter": {
+    "name": "spreadable butter",
+    "displayName": "Spreadable Butter",
     "category": "Butter Dairy",
     "aliases": [
       "butter spreadable"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "butter unsalted": {
-    "name": "butter unsalted",
-    "displayName": "Butter Unsalted",
+  "unsalted butter": {
+    "name": "unsalted butter",
+    "displayName": "Unsalted Butter",
     "category": "Butter Dairy",
     "aliases": [
       "butter unsalted"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "ghee": {
     "name": "ghee",
@@ -414,7 +480,11 @@
       "price": 11.7,
       "brand": "Coco Earth"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "anchovies": {
     "name": "anchovies",
@@ -429,7 +499,11 @@
       "price": 6.5,
       "brand": "Always Fresh"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "fish fillet": {
     "name": "fish fillet",
@@ -444,27 +518,39 @@
       "price": 12,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "oysters canned": {
-    "name": "oysters canned",
-    "displayName": "Oysters Canned",
+  "canned oysters": {
+    "name": "canned oysters",
+    "displayName": "Canned Oysters",
     "category": "Canned Fish Seafood",
     "aliases": [
       "oysters canned"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "oysters fresh": {
-    "name": "oysters fresh",
-    "displayName": "Oysters Fresh",
+  "fresh oysters": {
+    "name": "fresh oysters",
+    "displayName": "Fresh Oysters",
     "category": "Canned Fish Seafood",
     "aliases": [
       "oysters fresh"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "prawns": {
     "name": "prawns",
@@ -491,6 +577,10 @@
         "fiber": "0 g",
         "protein": "24 g"
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "salmon": {
@@ -506,7 +596,11 @@
       "price": 6.5,
       "brand": "Ocean Harvest"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "sardines": {
     "name": "sardines",
@@ -521,7 +615,11 @@
       "price": 1.1,
       "brand": "Deep Cove"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "seafood mix": {
     "name": "seafood mix",
@@ -536,7 +634,11 @@
       "price": 12,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "tuna in brine": {
     "name": "tuna in brine",
@@ -551,7 +653,11 @@
       "price": 3.3,
       "brand": "Essentials"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "apple slices": {
     "name": "apple slices",
@@ -566,7 +672,11 @@
       "price": 3.5,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "apricot halves": {
     "name": "apricot halves",
@@ -581,7 +691,11 @@
       "price": 3,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "pineapple slices": {
     "name": "pineapple slices",
@@ -600,27 +714,33 @@
       "price": 3.9,
       "brand": "Dole"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "tomato crushed": {
-    "name": "tomato crushed",
-    "displayName": "Tomato Crushed",
+  "crushed tomato": {
+    "name": "crushed tomato",
+    "displayName": "Crushed Tomato",
     "category": "Canned Tomatoes",
     "aliases": [
       "tomato crushed"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "tomato diced": {
-    "name": "tomato diced",
-    "displayName": "Tomato Diced",
+  "diced tomato": {
+    "name": "diced tomato",
+    "displayName": "Diced Tomato",
     "category": "Canned Tomatoes",
     "aliases": [
       "tomato diced"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "tomato passata": {
     "name": "tomato passata",
@@ -630,7 +750,8 @@
       "tomato passata"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "tomato paste": {
     "name": "tomato paste",
@@ -657,17 +778,22 @@
         "fiber": "4.5 g",
         "protein": "4.3 g"
       }
-    }
+    },
+    "countable": false
   },
-  "tomato peeled": {
-    "name": "tomato peeled",
-    "displayName": "Tomato Peeled",
+  "peeled tomato": {
+    "name": "peeled tomato",
+    "displayName": "Peeled Tomato",
     "category": "Canned Tomatoes",
     "aliases": [
       "tomato peeled"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "tomato puree": {
     "name": "tomato puree",
@@ -682,7 +808,8 @@
       "price": 2,
       "brand": "Annalisa"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "tomato soup": {
     "name": "tomato soup",
@@ -697,61 +824,41 @@
       "price": 2.5,
       "brand": "Heinz"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "tomatoes": {
-    "name": "tomatoes",
-    "displayName": "Tomatoes",
-    "category": "Canned Tomatoes",
-    "aliases": [
-      "tomato whole",
-      "tomatoes"
-    ],
-    "priceData": null,
-    "wiki": {
-      "purpose": "Adds sweetness, acidity, colour, and body to curries, sauces, soups, and stews. Provides texture, depth, and concentrated flavour depending on tomato variety and form used.",
-      "storage": "",
-      "substitutes": "",
-      "notes": "Versatile tomato varieties for curries, sauces, stews, and general cooking. Choose the form based on recipe requirements and desired texture: * **Fresh Tomatoes:** Ripe and firm; ideal for salads, salsas, and fresh sauces. * **Roma:** Meaty, low in seeds; perfect for sauces, roasting, and cooking. * **Cherry / Grape Tomatoes:** Small, sweet, firm; great for roasting, salads, or quick sautés. * **Canned Tomatoes:** Peeled, diced, or crushed; excellent for long-simmered sauces and soups. * **Tomato Puree / Passata:** Smooth, liquid consistency; perfect for soups, sauces, and gravies where a silky texture is desired. * **Tomato Paste:** Concentrated tomato flavour; often caramelised slightly to deepen taste; use in small quantities for sauces, stews, and curries. For thicker consistency, drain excess liquid from canned tomatoes if needed. Store fresh tomatoes at room temperature (refrigerate only if very ripe). Canned, pureed, or paste forms should be stored in a cool, dry place and refrigerated after opening.",
-      "nutrition": {
-        "calories": "18 per 100 g",
-        "carbohydrates": "3.9 g",
-        "fat": "0.2 g",
-        "fiber": "1.2 g",
-        "protein": "0.9 g",
-        "vitamins_minerals": "Rich in vitamin C, vitamin A (from beta-carotene), potassium, folate, and antioxidants like lycopene. Supports immunity and heart health."
-      }
-    }
-  },
-  "cheese blue": {
-    "name": "cheese blue",
-    "displayName": "Cheese Blue",
+  "blue cheese": {
+    "name": "blue cheese",
+    "displayName": "Blue Cheese",
     "category": "Cheese",
     "aliases": [
       "cheese blue"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "cheese bocconcini": {
-    "name": "cheese bocconcini",
-    "displayName": "Cheese Bocconcini",
+  "bocconcini cheese": {
+    "name": "bocconcini cheese",
+    "displayName": "Bocconcini Cheese",
     "category": "Cheese",
     "aliases": [
       "cheese bocconcini"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "cheese camembert": {
-    "name": "cheese camembert",
-    "displayName": "Cheese Camembert",
+  "camembert cheese": {
+    "name": "camembert cheese",
+    "displayName": "Camembert Cheese",
     "category": "Cheese",
     "aliases": [
       "cheese camembert"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "cheddar": {
     "name": "cheddar",
@@ -763,17 +870,22 @@
       "cheese cheddar vintage"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "cheese cottage": {
-    "name": "cheese cottage",
-    "displayName": "Cheese Cottage",
+  "cottage cheese": {
+    "name": "cottage cheese",
+    "displayName": "Cottage Cheese",
     "category": "Cheese",
     "aliases": [
       "cheese cottage"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "cream cheese": {
     "name": "cream cheese",
@@ -784,47 +896,52 @@
       "cream cheese"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "cheese feta": {
-    "name": "cheese feta",
-    "displayName": "Cheese Feta",
+  "feta cheese": {
+    "name": "feta cheese",
+    "displayName": "Feta Cheese",
     "category": "Cheese",
     "aliases": [
       "cheese feta"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "cheese gruyere": {
-    "name": "cheese gruyere",
-    "displayName": "Cheese Gruyere",
+  "gruyere cheese": {
+    "name": "gruyere cheese",
+    "displayName": "Gruyere Cheese",
     "category": "Cheese",
     "aliases": [
       "cheese gruyere"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "cheese haloumi": {
-    "name": "cheese haloumi",
-    "displayName": "Cheese Haloumi",
+  "haloumi cheese": {
+    "name": "haloumi cheese",
+    "displayName": "Haloumi Cheese",
     "category": "Cheese",
     "aliases": [
       "cheese haloumi"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "cheese mascarpone": {
-    "name": "cheese mascarpone",
-    "displayName": "Cheese Mascarpone",
+  "mascarpone cheese": {
+    "name": "mascarpone cheese",
+    "displayName": "Mascarpone Cheese",
     "category": "Cheese",
     "aliases": [
       "cheese mascarpone"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "mozzarella": {
     "name": "mozzarella",
@@ -847,6 +964,10 @@
         "fiber": "0 g",
         "protein": "22 g"
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "parmesan": {
@@ -872,17 +993,22 @@
         "fiber": "0 g",
         "protein": "38 g"
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
-  "cheese ricotta": {
-    "name": "cheese ricotta",
-    "displayName": "Cheese Ricotta",
+  "ricotta cheese": {
+    "name": "ricotta cheese",
+    "displayName": "Ricotta Cheese",
     "category": "Cheese",
     "aliases": [
       "cheese ricotta"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "tasty cheese": {
     "name": "tasty cheese",
@@ -894,7 +1020,8 @@
       "tasty cheese"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "apricots": {
     "name": "apricots",
@@ -924,17 +1051,26 @@
         "protein": "1 g",
         "vitamins_minerals": "Good source of vitamin A, vitamin C, potassium, and antioxidants"
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
-  "cranberries dried": {
-    "name": "cranberries dried",
-    "displayName": "Cranberries Dried",
+  "dried cranberries": {
+    "name": "dried cranberries",
+    "displayName": "Dried Cranberries",
     "category": "Dried Fruit Nuts",
     "aliases": [
       "cranberries dried"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "dried cranberry"
+    }
   },
   "dates": {
     "name": "dates",
@@ -962,97 +1098,143 @@
         "protein": "2 g",
         "vitamins_minerals": "High in potassium and magnesium; contains small amounts of calcium, iron, and vitamin B6. Natural sugars provide quick energy."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
-  "nuts almonds": {
-    "name": "nuts almonds",
-    "displayName": "Nuts Almonds",
+  "almonds": {
+    "name": "almonds",
+    "displayName": "Almonds",
     "category": "Dried Fruit Nuts",
     "aliases": [
       "nuts almonds"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "almond"
+    }
   },
-  "nuts brazil": {
-    "name": "nuts brazil",
-    "displayName": "Nuts Brazil",
+  "brazil nuts": {
+    "name": "brazil nuts",
+    "displayName": "Brazil Nuts",
     "category": "Dried Fruit Nuts",
     "aliases": [
       "nuts brazil"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "nuts cashews": {
-    "name": "nuts cashews",
-    "displayName": "Nuts Cashews",
+  "cashews": {
+    "name": "cashews",
+    "displayName": "Cashews",
     "category": "Dried Fruit Nuts",
     "aliases": [
       "nuts cashews"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "cashew"
+    }
   },
-  "nuts hazelnuts": {
-    "name": "nuts hazelnuts",
-    "displayName": "Nuts Hazelnuts",
+  "hazelnuts": {
+    "name": "hazelnuts",
+    "displayName": "Hazelnuts",
     "category": "Dried Fruit Nuts",
     "aliases": [
       "nuts hazelnuts"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "hazelnut"
+    }
   },
-  "nuts macadamia": {
-    "name": "nuts macadamia",
-    "displayName": "Nuts Macadamia",
+  "macadamia nuts": {
+    "name": "macadamia nuts",
+    "displayName": "Macadamia Nuts",
     "category": "Dried Fruit Nuts",
     "aliases": [
       "nuts macadamia"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "nuts pecans": {
-    "name": "nuts pecans",
-    "displayName": "Nuts Pecans",
+  "pecans": {
+    "name": "pecans",
+    "displayName": "Pecans",
     "category": "Dried Fruit Nuts",
     "aliases": [
       "nuts pecans"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "pecan"
+    }
   },
-  "nuts pine": {
-    "name": "nuts pine",
-    "displayName": "Nuts Pine",
+  "pine nuts": {
+    "name": "pine nuts",
+    "displayName": "Pine Nuts",
     "category": "Dried Fruit Nuts",
     "aliases": [
       "nuts pine"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "nuts pistachios": {
-    "name": "nuts pistachios",
-    "displayName": "Nuts Pistachios",
+  "pistachios": {
+    "name": "pistachios",
+    "displayName": "Pistachios",
     "category": "Dried Fruit Nuts",
     "aliases": [
       "nuts pistachios"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "pistachio"
+    }
   },
-  "nuts walnuts": {
-    "name": "nuts walnuts",
-    "displayName": "Nuts Walnuts",
+  "walnuts": {
+    "name": "walnuts",
+    "displayName": "Walnuts",
     "category": "Dried Fruit Nuts",
     "aliases": [
       "nuts walnuts"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "walnut"
+    }
   },
   "raisins": {
     "name": "raisins",
@@ -1067,7 +1249,12 @@
       "price": 3.75,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "raisin"
+    }
   },
   "sultanas": {
     "name": "sultanas",
@@ -1095,6 +1282,11 @@
         "protein": "3.1 g",
         "vitamins_minerals": "Good source of potassium, iron, and antioxidants. Contains small amounts of calcium, magnesium, and vitamin B6."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "sultana"
     }
   },
   "beer": {
@@ -1110,7 +1302,11 @@
       "price": 48.99,
       "brand": "Tooheys"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "brandy": {
     "name": "brandy",
@@ -1138,6 +1334,10 @@
         "protein": "0 g",
         "vitamins_minerals": "Contains trace minerals from fruit base; high alcohol content; negligible nutritional contribution per serving"
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "coffee": {
@@ -1166,17 +1366,25 @@
         "protein": "0–1 g",
         "vitamins_minerals": "Contains small amounts of potassium, magnesium, and niacin. Naturally contains caffeine; nutritional impact is minimal in typical culinary uses."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
-  "coffee instant": {
-    "name": "coffee instant",
-    "displayName": "Coffee Instant",
+  "instant coffee": {
+    "name": "instant coffee",
+    "displayName": "Instant Coffee",
     "category": "Drinks Alcohol",
     "aliases": [
       "coffee instant"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "gin": {
     "name": "gin",
@@ -1191,7 +1399,11 @@
       "price": 61.95,
       "brand": "Gordon's"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "grand marnier": {
     "name": "grand marnier",
@@ -1219,6 +1431,10 @@
         "protein": "0 g",
         "vitamins_minerals": "Contains negligible vitamins or minerals; primarily a source of sugars and alcohol."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "rum": {
@@ -1247,6 +1463,10 @@
         "protein": "0 g",
         "vitamins_minerals": "Contains negligible vitamins or minerals; primarily a source of sugars and alcohol."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "tia maria": {
@@ -1275,6 +1495,10 @@
         "protein": "0 g",
         "vitamins_minerals": "Contains negligible amounts of vitamins and minerals. Primarily provides sugar and alcohol content for flavouring purposes."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "vodka": {
@@ -1290,7 +1514,11 @@
       "price": 61.95,
       "brand": "Smirnoff"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "whiskey": {
     "name": "whiskey",
@@ -1305,67 +1533,53 @@
       "price": 59.99,
       "brand": "Hogs 3"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "wine chinese rice": {
-    "name": "wine chinese rice",
-    "displayName": "Wine Chinese Rice",
+  "chinese rice wine": {
+    "name": "chinese rice wine",
+    "displayName": "Chinese Rice Wine",
     "category": "Drinks Alcohol",
     "aliases": [
       "wine chinese rice"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "wine red": {
-    "name": "wine red",
-    "displayName": "Wine Red",
+  "red wine": {
+    "name": "red wine",
+    "displayName": "Red Wine",
     "category": "Drinks Alcohol",
     "aliases": [
       "wine red"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "wine white": {
-    "name": "wine white",
-    "displayName": "Wine White",
+  "white wine": {
+    "name": "white wine",
+    "displayName": "White Wine",
     "category": "Drinks Alcohol",
     "aliases": [
       "wine white"
     ],
     "priceData": null,
-    "wiki": null
-  },
-  "eggs white": {
-    "name": "eggs white",
-    "displayName": "Eggs White",
-    "category": "Eggs",
-    "aliases": [
-      "eggs white"
-    ],
-    "priceData": null,
-    "wiki": null
-  },
-  "eggs whole": {
-    "name": "eggs whole",
-    "displayName": "Eggs Whole",
-    "category": "Eggs",
-    "aliases": [
-      "eggs whole"
-    ],
-    "priceData": null,
-    "wiki": null
-  },
-  "eggs yolk": {
-    "name": "eggs yolk",
-    "displayName": "Eggs Yolk",
-    "category": "Eggs",
-    "aliases": [
-      "eggs yolk"
-    ],
-    "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "almond meal": {
     "name": "almond meal",
@@ -1392,7 +1606,8 @@
         "fiber": "12 g",
         "protein": "21 g"
       }
-    }
+    },
+    "countable": false
   },
   "bran": {
     "name": "bran",
@@ -1420,6 +1635,10 @@
         "protein": "16 g",
         "vitamins_minerals": "Rich in iron, magnesium, phosphorus, and B vitamins; high fibre content supports digestive health"
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "bread improver": {
@@ -1448,6 +1667,10 @@
         "protein": "0.5 g",
         "vitamins_minerals": "Contains small amounts of vitamin C and gluten; negligible contribution per typical recipe portion"
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "cornflour": {
@@ -1463,87 +1686,96 @@
       "price": 2.85,
       "brand": "McKenzie's"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "flour bakers": {
-    "name": "flour bakers",
-    "displayName": "Flour Bakers",
+  "bakers flour": {
+    "name": "bakers flour",
+    "displayName": "Bakers Flour",
     "category": "Flour Baking",
     "aliases": [
       "flour bakers"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "flour bread": {
-    "name": "flour bread",
-    "displayName": "Flour Bread",
+  "bread flour": {
+    "name": "bread flour",
+    "displayName": "Bread Flour",
     "category": "Flour Baking",
     "aliases": [
       "flour bread"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "flour buckwheat": {
-    "name": "flour buckwheat",
-    "displayName": "Flour Buckwheat",
+  "buckwheat flour": {
+    "name": "buckwheat flour",
+    "displayName": "Buckwheat Flour",
     "category": "Flour Baking",
     "aliases": [
       "flour buckwheat"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "flour gluten free plain": {
-    "name": "flour gluten free plain",
-    "displayName": "Flour Gluten Free Plain",
+  "gluten free plain flour": {
+    "name": "gluten free plain flour",
+    "displayName": "Gluten Free Plain Flour",
     "category": "Flour Baking",
     "aliases": [
       "flour gluten free plain"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "flour plain": {
-    "name": "flour plain",
-    "displayName": "Flour Plain",
+  "plain flour": {
+    "name": "plain flour",
+    "displayName": "Plain Flour",
     "category": "Flour Baking",
     "aliases": [
       "flour plain"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "flour rye": {
-    "name": "flour rye",
-    "displayName": "Flour Rye",
+  "rye flour": {
+    "name": "rye flour",
+    "displayName": "Rye Flour",
     "category": "Flour Baking",
     "aliases": [
       "flour rye"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "flour self-raising": {
-    "name": "flour self-raising",
-    "displayName": "Flour Self-Raising",
+  "self-raising flour": {
+    "name": "self-raising flour",
+    "displayName": "Self-Raising Flour",
     "category": "Flour Baking",
     "aliases": [
       "flour self-raising"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "flour tapioca": {
-    "name": "flour tapioca",
-    "displayName": "Flour Tapioca",
+  "tapioca flour": {
+    "name": "tapioca flour",
+    "displayName": "Tapioca Flour",
     "category": "Flour Baking",
     "aliases": [
       "flour tapioca"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "vital wheat gluten": {
     "name": "vital wheat gluten",
@@ -1571,6 +1803,10 @@
         "protein": "75 g",
         "vitamins_minerals": "Contains small amounts of iron, magnesium, and selenium. Primarily contributes protein; low in fat and carbohydrates."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "apricot nectar": {
@@ -1586,7 +1822,11 @@
       "price": 3.5,
       "brand": "Golden Circle"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "blackberries": {
     "name": "blackberries",
@@ -1601,7 +1841,11 @@
       "price": 6.5,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "blueberries": {
     "name": "blueberries",
@@ -1629,6 +1873,10 @@
         "protein": "0.7 g",
         "vitamins_minerals": "High in vitamin C, vitamin K, and antioxidants; contains manganese"
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "calamansi": {
@@ -1657,6 +1905,10 @@
         "protein": "0.9 g",
         "vitamins_minerals": "Excellent source of vitamin C; contains small amounts of potassium, calcium, and vitamin A"
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "cherries": {
@@ -1672,7 +1924,11 @@
       "price": 6,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "dragon fruit": {
     "name": "dragon fruit",
@@ -1687,37 +1943,56 @@
       "price": 6,
       "brand": "Creative Gourmet"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "grapes black": {
-    "name": "grapes black",
-    "displayName": "Grapes Black",
+  "black grapes": {
+    "name": "black grapes",
+    "displayName": "Black Grapes",
     "category": "Fresh Fruit",
     "aliases": [
       "grapes black"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "black grape"
+    }
   },
-  "grapes red": {
-    "name": "grapes red",
-    "displayName": "Grapes Red",
+  "red grapes": {
+    "name": "red grapes",
+    "displayName": "Red Grapes",
     "category": "Fresh Fruit",
     "aliases": [
       "grapes red"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "red grape"
+    }
   },
-  "grapes white": {
-    "name": "grapes white",
-    "displayName": "Grapes White",
+  "white grapes": {
+    "name": "white grapes",
+    "displayName": "White Grapes",
     "category": "Fresh Fruit",
     "aliases": [
       "grapes white"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "white grape"
+    }
   },
   "kiwifruit": {
     "name": "kiwifruit",
@@ -1732,7 +2007,11 @@
       "price": 1,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "mandarin": {
     "name": "mandarin",
@@ -1747,7 +2026,11 @@
       "price": 0.85,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "mango": {
     "name": "mango",
@@ -1775,6 +2058,10 @@
         "protein": "0.8 g",
         "vitamins_minerals": "High in vitamin C, vitamin A, potassium, and antioxidants. Contains small amounts of B vitamins and magnesium."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "nectarine": {
@@ -1803,6 +2090,10 @@
         "protein": "1 g",
         "vitamins_minerals": "Good source of vitamin C, vitamin A, potassium, and antioxidants. Low in calories and fat while providing dietary fiber."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "orange": {
@@ -1818,7 +2109,11 @@
       "price": 1.2,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "passionfruit": {
     "name": "passionfruit",
@@ -1846,6 +2141,10 @@
         "protein": "2 g",
         "vitamins_minerals": "Rich in vitamin C, vitamin A, and dietary fiber; provides antioxidants and natural sweetness."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "peach": {
@@ -1874,6 +2173,10 @@
         "protein": "0.9 g",
         "vitamins_minerals": "Good source of vitamin C, vitamin A, potassium, and antioxidants; low in calories."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "pineapple": {
@@ -1902,6 +2205,10 @@
         "protein": "0.5 g",
         "vitamins_minerals": "Rich in vitamin C, manganese, and bromelain enzymes; low in fat and calories."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "plum": {
@@ -1930,6 +2237,10 @@
         "protein": "0.7 g",
         "vitamins_minerals": "Good source of vitamin C, vitamin K, potassium, and antioxidants; low in calories and fat."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "raspberries": {
@@ -1951,6 +2262,10 @@
       "substitutes": "Can substitute with blackberries, sliced strawberries, or frozen raspberries (thawed and drained).",
       "notes": "Delicate, sweet-tart berries that pair beautifully with vanilla, chocolate, and cream desserts. Best used fresh or frozen. Do not wash until ready to use.",
       "nutrition": null
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "strawberries": {
@@ -1979,6 +2294,10 @@
         "protein": "0.7 g",
         "vitamins_minerals": "Rich in vitamin C, manganese, folate, and antioxidants. Provides potassium and small amounts of other vitamins and minerals."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "basil": {
@@ -2007,6 +2326,10 @@
         "protein": "3.2 g",
         "vitamins_minerals": "Rich in vitamin K; contains vitamin A, vitamin C, calcium, and iron"
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "chives": {
@@ -2035,6 +2358,10 @@
         "protein": "3.3 g",
         "vitamins_minerals": "Good source of vitamin K, vitamin C, folate, and antioxidants"
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "coriander": {
@@ -2063,6 +2390,10 @@
         "protein": "2.1 g (leaves), 12 g (seeds)",
         "vitamins_minerals": "Leaves are rich in vitamin C, vitamin K, and small amounts of calcium. Seeds are high in manganese, iron, and magnesium. Nutritional impact varies significantly depending on form and quantity used."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "dill": {
@@ -2078,7 +2409,11 @@
       "price": 3.5,
       "brand": "MasterFoods"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "mint": {
     "name": "mint",
@@ -2093,7 +2428,11 @@
       "price": 3.2,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "oregano": {
     "name": "oregano",
@@ -2121,6 +2460,10 @@
         "protein": "9 g",
         "vitamins_minerals": "Rich in vitamin K, iron, manganese, and antioxidants; primarily used in small amounts for flavor enhancement."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "parsley": {
@@ -2149,6 +2492,10 @@
         "protein": "3 g",
         "vitamins_minerals": "High in vitamin C, vitamin K, vitamin A, folate, and iron; provides antioxidants and minimal calories."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "rosemary": {
@@ -2177,6 +2524,10 @@
         "protein": "3.3 g",
         "vitamins_minerals": "Rich in vitamin C, vitamin A, calcium, iron, and antioxidants; supports digestion, immunity, and adds aromatic compounds."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "sage": {
@@ -2192,7 +2543,11 @@
       "price": 3.5,
       "brand": "MasterFoods"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "thyme": {
     "name": "thyme",
@@ -2220,27 +2575,39 @@
         "protein": "5.6 g",
         "vitamins_minerals": "Rich in vitamin C, vitamin A, iron, manganese, and antioxidants. Supports immune function, digestion, and adds trace minerals to dishes."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
-  "apple bravo": {
-    "name": "apple bravo",
-    "displayName": "Apple Bravo",
+  "bravo apple": {
+    "name": "bravo apple",
+    "displayName": "Bravo Apple",
     "category": "Fresh Vegetables",
     "aliases": [
       "apple bravo"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "apple granny smith": {
-    "name": "apple granny smith",
-    "displayName": "Apple Granny Smith",
+  "granny smith apple": {
+    "name": "granny smith apple",
+    "displayName": "Granny Smith Apple",
     "category": "Fresh Vegetables",
     "aliases": [
       "apple granny smith"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "apple juice": {
     "name": "apple juice",
@@ -2255,17 +2622,22 @@
       "price": 2,
       "brand": "Golden Circle"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "apple pink lady": {
-    "name": "apple pink lady",
-    "displayName": "Apple Pink Lady",
+  "pink lady apple": {
+    "name": "pink lady apple",
+    "displayName": "Pink Lady Apple",
     "category": "Fresh Vegetables",
     "aliases": [
       "apple pink lady"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "apples": {
     "name": "apples",
@@ -2289,6 +2661,10 @@
         "protein": "0.3 g",
         "vitamins_minerals": "Good source of vitamin C, potassium, and dietary fiber. Contains quercetin and other antioxidants, primarily in the skin."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "asparagus": {
@@ -2304,7 +2680,11 @@
       "price": 4,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "avocado": {
     "name": "avocado",
@@ -2319,7 +2699,11 @@
       "price": 2.2,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "bananas": {
     "name": "bananas",
@@ -2349,17 +2733,26 @@
         "protein": "1.1 g",
         "vitamins_minerals": "Rich in potassium and vitamin B6; contains vitamin C and magnesium"
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
-  "beans green": {
-    "name": "beans green",
-    "displayName": "Beans Green",
+  "green beans": {
+    "name": "green beans",
+    "displayName": "Green Beans",
     "category": "Fresh Vegetables",
     "aliases": [
       "beans green"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "green bean"
+    }
   },
   "beetroot": {
     "name": "beetroot",
@@ -2374,17 +2767,22 @@
       "price": 3.8,
       "brand": "Edgell"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "beetroot sliced": {
-    "name": "beetroot sliced",
-    "displayName": "Beetroot Sliced",
+  "sliced beetroot": {
+    "name": "sliced beetroot",
+    "displayName": "Sliced Beetroot",
     "category": "Fresh Vegetables",
     "aliases": [
       "beetroot sliced"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "broccoli": {
     "name": "broccoli",
@@ -2399,7 +2797,11 @@
       "price": 3.9,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "cabbage": {
     "name": "cabbage",
@@ -2427,37 +2829,53 @@
         "protein": "1.3 g",
         "vitamins_minerals": "Excellent source of vitamin C and K; contains folate, calcium, and antioxidants; low-calorie, high-fibre vegetable"
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
-  "cabbage savoy": {
-    "name": "cabbage savoy",
-    "displayName": "Cabbage Savoy",
+  "savoy cabbage": {
+    "name": "savoy cabbage",
+    "displayName": "Savoy Cabbage",
     "category": "Fresh Vegetables",
     "aliases": [
       "cabbage savoy"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "capsicum green": {
-    "name": "capsicum green",
-    "displayName": "Capsicum Green",
+  "green capsicum": {
+    "name": "green capsicum",
+    "displayName": "Green Capsicum",
     "category": "Fresh Vegetables",
     "aliases": [
       "capsicum green"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "capsicum red": {
-    "name": "capsicum red",
-    "displayName": "Capsicum Red",
+  "red capsicum": {
+    "name": "red capsicum",
+    "displayName": "Red Capsicum",
     "category": "Fresh Vegetables",
     "aliases": [
       "capsicum red"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "carrots": {
     "name": "carrots",
@@ -2487,6 +2905,10 @@
         "protein": "0.9 g",
         "vitamins_minerals": "Excellent source of vitamin A (beta-carotene), vitamin K, and potassium; contains antioxidants and fibre"
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "cauliflower": {
@@ -2502,7 +2924,11 @@
       "price": 5.5,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "celery": {
     "name": "celery",
@@ -2530,67 +2956,81 @@
         "protein": "0.7 g",
         "vitamins_minerals": "High in vitamin K, vitamin C, potassium, and folate; low-calorie, hydrating, and fibre-rich"
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
-  "chilli dried red": {
-    "name": "chilli dried red",
-    "displayName": "Chilli Dried Red",
+  "dried red chilli": {
+    "name": "dried red chilli",
+    "displayName": "Dried Red Chilli",
     "category": "Fresh Vegetables",
     "aliases": [
       "chilli dried red"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "chilli green": {
-    "name": "chilli green",
-    "displayName": "Chilli Green",
+  "green chilli": {
+    "name": "green chilli",
+    "displayName": "Green Chilli",
     "category": "Fresh Vegetables",
     "aliases": [
       "chilli green"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "chilli long green": {
-    "name": "chilli long green",
-    "displayName": "Chilli Long Green",
+  "long green chilli": {
+    "name": "long green chilli",
+    "displayName": "Long Green Chilli",
     "category": "Fresh Vegetables",
     "aliases": [
       "chilli long green"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "chilli long red": {
-    "name": "chilli long red",
-    "displayName": "Chilli Long Red",
+  "long red chilli": {
+    "name": "long red chilli",
+    "displayName": "Long Red Chilli",
     "category": "Fresh Vegetables",
     "aliases": [
       "chilli long red"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "chilli red": {
-    "name": "chilli red",
-    "displayName": "Chilli Red",
-    "category": "Fresh Vegetables",
-    "aliases": [
-      "chilli red"
-    ],
-    "priceData": null,
-    "wiki": null
-  },
-  "chilli red cayenne": {
-    "name": "chilli red cayenne",
-    "displayName": "Chilli Red Cayenne",
+  "red cayenne chilli": {
+    "name": "red cayenne chilli",
+    "displayName": "Red Cayenne Chilli",
     "category": "Fresh Vegetables",
     "aliases": [
       "chilli red cayenne"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "corn cob": {
     "name": "corn cob",
@@ -2600,7 +3040,11 @@
       "corn cob"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "cucumber": {
     "name": "cucumber",
@@ -2615,17 +3059,25 @@
       "price": 1.53,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "cucumber lebanese": {
-    "name": "cucumber lebanese",
-    "displayName": "Cucumber Lebanese",
+  "lebanese cucumber": {
+    "name": "lebanese cucumber",
+    "displayName": "Lebanese Cucumber",
     "category": "Fresh Vegetables",
     "aliases": [
       "cucumber lebanese"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "garlic": {
     "name": "garlic",
@@ -2653,27 +3105,39 @@
         "protein": "6.4 g",
         "vitamins_minerals": "Rich in vitamin C, vitamin B6, manganese, selenium, and small amounts of calcium, copper, and potassium. Contains sulfur compounds that contribute to flavour and potential health benefits."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
-  "ginger fresh": {
-    "name": "ginger fresh",
-    "displayName": "Ginger Fresh",
+  "fresh ginger": {
+    "name": "fresh ginger",
+    "displayName": "Fresh Ginger",
     "category": "Fresh Vegetables",
     "aliases": [
       "ginger fresh"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "jalapeno fresh": {
-    "name": "jalapeno fresh",
-    "displayName": "Jalapeno Fresh",
+  "fresh jalapeno": {
+    "name": "fresh jalapeno",
+    "displayName": "Fresh Jalapeno",
     "category": "Fresh Vegetables",
     "aliases": [
       "jalapeno fresh"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "jalapenos": {
     "name": "jalapenos",
@@ -2684,7 +3148,11 @@
       "jalapenos"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "leek": {
     "name": "leek",
@@ -2711,6 +3179,10 @@
         "fiber": "1.8 g",
         "protein": "1.5 g"
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "lemon": {
@@ -2726,7 +3198,11 @@
       "price": 1.56,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "lemon juice": {
     "name": "lemon juice",
@@ -2741,17 +3217,22 @@
       "price": 1.65,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "lettuce iceberg": {
-    "name": "lettuce iceberg",
-    "displayName": "Lettuce Iceberg",
+  "iceberg lettuce": {
+    "name": "iceberg lettuce",
+    "displayName": "Iceberg Lettuce",
     "category": "Fresh Vegetables",
     "aliases": [
       "lettuce iceberg"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "lime juice": {
     "name": "lime juice",
@@ -2766,7 +3247,8 @@
       "price": 2.5,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "mushrooms": {
     "name": "mushrooms",
@@ -2795,57 +3277,79 @@
         "protein": "3.1 g",
         "vitamins_minerals": "Contains B vitamins (B2, B3, B5), selenium, potassium, copper, and antioxidants. Low in calories and fat while providing protein and fiber."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
-  "onion brown": {
-    "name": "onion brown",
-    "displayName": "Onion Brown",
+  "brown onion": {
+    "name": "brown onion",
+    "displayName": "Brown Onion",
     "category": "Fresh Vegetables",
     "aliases": [
       "onion brown"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "onion red spanish": {
-    "name": "onion red spanish",
-    "displayName": "Onion Red Spanish",
+  "red spanish onion": {
+    "name": "red spanish onion",
+    "displayName": "Red Spanish Onion",
     "category": "Fresh Vegetables",
     "aliases": [
       "onion red spanish"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "onion spring": {
-    "name": "onion spring",
-    "displayName": "Onion Spring",
+  "spring onion": {
+    "name": "spring onion",
+    "displayName": "Spring Onion",
     "category": "Fresh Vegetables",
     "aliases": [
       "onion spring"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "peas snow": {
-    "name": "peas snow",
-    "displayName": "Peas Snow",
+  "snow peas": {
+    "name": "snow peas",
+    "displayName": "Snow Peas",
     "category": "Fresh Vegetables",
     "aliases": [
       "peas snow"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "snow pea"
+    }
   },
-  "peas sugar snap": {
-    "name": "peas sugar snap",
-    "displayName": "Peas Sugar Snap",
+  "sugar snap peas": {
+    "name": "sugar snap peas",
+    "displayName": "Sugar Snap Peas",
     "category": "Fresh Vegetables",
     "aliases": [
       "peas sugar snap"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "pineapple juice": {
     "name": "pineapple juice",
@@ -2860,77 +3364,103 @@
       "price": 2.2,
       "brand": "Golden Circle"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "potato brushed": {
-    "name": "potato brushed",
-    "displayName": "Potato Brushed",
+  "brushed potato": {
+    "name": "brushed potato",
+    "displayName": "Brushed Potato",
     "category": "Fresh Vegetables",
     "aliases": [
       "potato brushed"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "potato roasting": {
-    "name": "potato roasting",
-    "displayName": "Potato Roasting",
+  "roasting potato": {
+    "name": "roasting potato",
+    "displayName": "Roasting Potato",
     "category": "Fresh Vegetables",
     "aliases": [
       "potato roasting"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "potato sweet": {
-    "name": "potato sweet",
-    "displayName": "Potato Sweet",
+  "sweet potato": {
+    "name": "sweet potato",
+    "displayName": "Sweet Potato",
     "category": "Fresh Vegetables",
     "aliases": [
       "potato sweet"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "potato white": {
-    "name": "potato white",
-    "displayName": "Potato White",
+  "white potato": {
+    "name": "white potato",
+    "displayName": "White Potato",
     "category": "Fresh Vegetables",
     "aliases": [
       "potato white"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "pumpkin butternut": {
-    "name": "pumpkin butternut",
-    "displayName": "Pumpkin Butternut",
+  "butternut pumpkin": {
+    "name": "butternut pumpkin",
+    "displayName": "Butternut Pumpkin",
     "category": "Fresh Vegetables",
     "aliases": [
       "pumpkin butternut"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "pumpkin kent": {
-    "name": "pumpkin kent",
-    "displayName": "Pumpkin Kent",
+  "kent pumpkin": {
+    "name": "kent pumpkin",
+    "displayName": "Kent Pumpkin",
     "category": "Fresh Vegetables",
     "aliases": [
       "pumpkin kent"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "pumpkin whole": {
-    "name": "pumpkin whole",
-    "displayName": "Pumpkin Whole",
+  "whole pumpkin": {
+    "name": "whole pumpkin",
+    "displayName": "Whole Pumpkin",
     "category": "Fresh Vegetables",
     "aliases": [
       "pumpkin whole"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "radish": {
     "name": "radish",
@@ -2945,7 +3475,11 @@
       "price": 2.5,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "shallots": {
     "name": "shallots",
@@ -2960,7 +3494,11 @@
       "price": 0.5,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "spinach": {
     "name": "spinach",
@@ -2988,47 +3526,67 @@
         "protein": "2.9 g",
         "vitamins_minerals": "High in vitamin A, vitamin C, vitamin K1, folate, iron, calcium, and antioxidants; low in sodium and sugar."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
-  "spinach baby": {
-    "name": "spinach baby",
-    "displayName": "Spinach Baby",
+  "baby spinach": {
+    "name": "baby spinach",
+    "displayName": "Baby Spinach",
     "category": "Fresh Vegetables",
     "aliases": [
       "spinach baby"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "tomato cherry": {
-    "name": "tomato cherry",
-    "displayName": "Tomato Cherry",
+  "cherry tomato": {
+    "name": "cherry tomato",
+    "displayName": "Cherry Tomato",
     "category": "Fresh Vegetables",
     "aliases": [
       "tomato cherry"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "tomato gourmet": {
-    "name": "tomato gourmet",
-    "displayName": "Tomato Gourmet",
+  "gourmet tomato": {
+    "name": "gourmet tomato",
+    "displayName": "Gourmet Tomato",
     "category": "Fresh Vegetables",
     "aliases": [
       "tomato gourmet"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "tomato truss": {
-    "name": "tomato truss",
-    "displayName": "Tomato Truss",
+  "truss tomato": {
+    "name": "truss tomato",
+    "displayName": "Truss Tomato",
     "category": "Fresh Vegetables",
     "aliases": [
       "tomato truss"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "watermelon": {
     "name": "watermelon",
@@ -3043,7 +3601,8 @@
       "price": 2.5,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "zucchini": {
     "name": "zucchini",
@@ -3071,17 +3630,25 @@
         "protein": "1.2 g",
         "vitamins_minerals": "Good source of vitamin C, vitamin A, potassium, and antioxidants. Provides hydration due to high water content."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
-  "bacon middle": {
-    "name": "bacon middle",
-    "displayName": "Bacon Middle",
+  "middle bacon": {
+    "name": "middle bacon",
+    "displayName": "Middle Bacon",
     "category": "Meat Poultry",
     "aliases": [
       "bacon middle"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "beef bones": {
     "name": "beef bones",
@@ -3096,17 +3663,22 @@
       "price": 5,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "beef diced": {
-    "name": "beef diced",
-    "displayName": "Beef Diced",
+  "diced beef": {
+    "name": "diced beef",
+    "displayName": "Diced Beef",
     "category": "Meat Poultry",
     "aliases": [
       "beef diced"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "beef knuckles": {
     "name": "beef knuckles",
@@ -3121,7 +3693,11 @@
       "price": 8,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "beef mince": {
     "name": "beef mince",
@@ -3136,7 +3712,8 @@
       "price": 19.35,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "beef sausages": {
     "name": "beef sausages",
@@ -3151,7 +3728,11 @@
       "price": 6.5,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "beef scraps": {
     "name": "beef scraps",
@@ -3166,7 +3747,11 @@
       "price": 6,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "beef shanks": {
     "name": "beef shanks",
@@ -3181,27 +3766,39 @@
       "price": 12,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "beef steak rump": {
-    "name": "beef steak rump",
-    "displayName": "Beef Steak Rump",
+  "beef rump steak": {
+    "name": "beef rump steak",
+    "displayName": "Beef Rump Steak",
     "category": "Meat Poultry",
     "aliases": [
       "beef steak rump"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "beef steak scotch fillet": {
-    "name": "beef steak scotch fillet",
-    "displayName": "Beef Steak Scotch Fillet",
+  "beef scotch fillet": {
+    "name": "beef scotch fillet",
+    "displayName": "Beef Scotch Fillet",
     "category": "Meat Poultry",
     "aliases": [
       "beef steak scotch fillet"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "beef strips": {
     "name": "beef strips",
@@ -3216,7 +3813,11 @@
       "price": 14,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "chicken breast": {
     "name": "chicken breast",
@@ -3231,7 +3832,11 @@
       "price": 18.7,
       "brand": "Woolworths RSPCA"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "chicken drumsticks": {
     "name": "chicken drumsticks",
@@ -3246,7 +3851,11 @@
       "price": 4.8,
       "brand": "Woolworths RSPCA"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "chicken kebab": {
     "name": "chicken kebab",
@@ -3261,7 +3870,11 @@
       "price": 1,
       "brand": "Woolworths RSPCA"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "chicken maryland": {
     "name": "chicken maryland",
@@ -3276,7 +3889,11 @@
       "price": 7.2,
       "brand": "Woolworths RSPCA"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "chicken schnitzel": {
     "name": "chicken schnitzel",
@@ -3291,7 +3908,11 @@
       "price": 2.8,
       "brand": "Chicken Sandwich"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "chicken thigh": {
     "name": "chicken thigh",
@@ -3306,7 +3927,11 @@
       "price": 15.5,
       "brand": "Woolworths RSPCA"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "chicken thigh cutlets": {
     "name": "chicken thigh cutlets",
@@ -3321,7 +3946,11 @@
       "price": 8,
       "brand": "Woolworths RSPCA"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "chicken thigh fillets": {
     "name": "chicken thigh fillets",
@@ -3336,7 +3965,11 @@
       "price": 8,
       "brand": "Woolworths RSPCA"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "frankfurts": {
     "name": "frankfurts",
@@ -3351,47 +3984,64 @@
       "price": 8.5,
       "brand": "Don"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "frankfurts cocktail": {
-    "name": "frankfurts cocktail",
-    "displayName": "Frankfurts Cocktail",
+  "cocktail frankfurts": {
+    "name": "cocktail frankfurts",
+    "displayName": "Cocktail Frankfurts",
     "category": "Meat Poultry",
     "aliases": [
       "frankfurts cocktail"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "ham champagne": {
-    "name": "ham champagne",
-    "displayName": "Ham Champagne",
+  "champagne ham": {
+    "name": "champagne ham",
+    "displayName": "Champagne Ham",
     "category": "Meat Poultry",
     "aliases": [
       "ham champagne"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "ham leg": {
-    "name": "ham leg",
-    "displayName": "Ham Leg",
+  "leg ham": {
+    "name": "leg ham",
+    "displayName": "Leg Ham",
     "category": "Meat Poultry",
     "aliases": [
       "ham leg"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "ham shredded": {
-    "name": "ham shredded",
-    "displayName": "Ham Shredded",
+  "shredded ham": {
+    "name": "shredded ham",
+    "displayName": "Shredded Ham",
     "category": "Meat Poultry",
     "aliases": [
       "ham shredded"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "hot dogs": {
     "name": "hot dogs",
@@ -3406,7 +4056,11 @@
       "price": 6.9,
       "brand": "Primo"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "lamb cutlets": {
     "name": "lamb cutlets",
@@ -3421,17 +4075,22 @@
       "price": 22,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "lamb diced": {
-    "name": "lamb diced",
-    "displayName": "Lamb Diced",
+  "diced lamb": {
+    "name": "diced lamb",
+    "displayName": "Diced Lamb",
     "category": "Meat Poultry",
     "aliases": [
       "lamb diced"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "lamb forequarter chops": {
     "name": "lamb forequarter chops",
@@ -3446,7 +4105,11 @@
       "price": 31.2,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "lamb leg roast": {
     "name": "lamb leg roast",
@@ -3461,7 +4124,11 @@
       "price": 39.6,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "lamb rack": {
     "name": "lamb rack",
@@ -3476,7 +4143,11 @@
       "price": 28,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "lamb strips": {
     "name": "lamb strips",
@@ -3491,7 +4162,11 @@
       "price": 16,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "pepperoni": {
     "name": "pepperoni",
@@ -3506,7 +4181,8 @@
       "price": 35,
       "brand": "Don"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "pork chops": {
     "name": "pork chops",
@@ -3521,7 +4197,11 @@
       "price": 25,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "pork leg roast": {
     "name": "pork leg roast",
@@ -3536,7 +4216,11 @@
       "price": 31.2,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "pork mince": {
     "name": "pork mince",
@@ -3551,7 +4235,8 @@
       "price": 6.5,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "pork shoulder": {
     "name": "pork shoulder",
@@ -3566,7 +4251,11 @@
       "price": 18,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "pork strips": {
     "name": "pork strips",
@@ -3581,7 +4270,11 @@
       "price": 9,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "prosciutto": {
     "name": "prosciutto",
@@ -3596,7 +4289,8 @@
       "price": 8,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "salami": {
     "name": "salami",
@@ -3611,17 +4305,22 @@
       "price": 3.95,
       "brand": "Primo"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "sausage chinese": {
-    "name": "sausage chinese",
-    "displayName": "Sausage Chinese",
+  "chinese sausage": {
+    "name": "chinese sausage",
+    "displayName": "Chinese Sausage",
     "category": "Meat Poultry",
     "aliases": [
       "sausage chinese"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "veal": {
     "name": "veal",
@@ -3649,7 +4348,8 @@
         "protein": "21 g",
         "vitamins_minerals": "Rich in B12, zinc, iron, and phosphorus; higher in protein and lower in fat than beef cuts."
       }
-    }
+    },
+    "countable": false
   },
   "buttermilk": {
     "name": "buttermilk",
@@ -3664,7 +4364,8 @@
       "price": 3.2,
       "brand": "Dairy Farmers"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "coconut cream": {
     "name": "coconut cream",
@@ -3679,7 +4380,8 @@
       "price": 1.7,
       "brand": "Essentials"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "coconut milk": {
     "name": "coconut milk",
@@ -3694,7 +4396,8 @@
       "price": 1.7,
       "brand": "Essentials"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "cooking cream": {
     "name": "cooking cream",
@@ -3705,7 +4408,8 @@
       "cream cooking"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "pure cream": {
     "name": "pure cream",
@@ -3716,7 +4420,8 @@
       "pure cream"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "sour cream": {
     "name": "sour cream",
@@ -3727,7 +4432,8 @@
       "sour cream"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "thickened cream": {
     "name": "thickened cream",
@@ -3738,7 +4444,8 @@
       "thickened cream"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "full-cream milk": {
     "name": "full-cream milk",
@@ -3755,7 +4462,8 @@
       "price": 3.6,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "skim milk": {
     "name": "skim milk",
@@ -3772,7 +4480,8 @@
       "price": 8,
       "brand": "Woolworths"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "coconut oil": {
     "name": "coconut oil",
@@ -3783,7 +4492,8 @@
       "oil coconut"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "olive oil": {
     "name": "olive oil",
@@ -3794,7 +4504,8 @@
       "olive oil"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "peanut oil": {
     "name": "peanut oil",
@@ -3805,7 +4516,8 @@
       "peanut oil"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "sesame oil": {
     "name": "sesame oil",
@@ -3816,7 +4528,8 @@
       "sesame oil"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "sunflower oil": {
     "name": "sunflower oil",
@@ -3827,7 +4540,8 @@
       "sunflower oil"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "vegetable oil": {
     "name": "vegetable oil",
@@ -3838,107 +4552,148 @@
       "vegetable oil"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "noodles bihon rice": {
-    "name": "noodles bihon rice",
-    "displayName": "Noodles Bihon Rice",
+  "bihon rice noodles": {
+    "name": "bihon rice noodles",
+    "displayName": "Bihon Rice Noodles",
     "category": "Pasta Noodles",
     "aliases": [
       "noodles bihon rice"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "noodles canton egg": {
-    "name": "noodles canton egg",
-    "displayName": "Noodles Canton Egg",
+  "canton egg noodles": {
+    "name": "canton egg noodles",
+    "displayName": "Canton Egg Noodles",
     "category": "Pasta Noodles",
     "aliases": [
       "noodles canton egg"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "noodles egg": {
-    "name": "noodles egg",
-    "displayName": "Noodles Egg",
+  "egg noodles": {
+    "name": "egg noodles",
+    "displayName": "Egg Noodles",
     "category": "Pasta Noodles",
     "aliases": [
       "noodles egg"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "noodles instant": {
-    "name": "noodles instant",
-    "displayName": "Noodles Instant",
+  "instant noodles": {
+    "name": "instant noodles",
+    "displayName": "Instant Noodles",
     "category": "Pasta Noodles",
     "aliases": [
       "noodles instant"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "noodles mi goreng": {
-    "name": "noodles mi goreng",
-    "displayName": "Noodles Mi Goreng",
+  "mi goreng noodles": {
+    "name": "mi goreng noodles",
+    "displayName": "Mi Goreng Noodles",
     "category": "Pasta Noodles",
     "aliases": [
       "noodles mi goreng"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "noodles vermicelli rice": {
-    "name": "noodles vermicelli rice",
-    "displayName": "Noodles Vermicelli Rice",
+  "vermicelli rice noodles": {
+    "name": "vermicelli rice noodles",
+    "displayName": "Vermicelli Rice Noodles",
     "category": "Pasta Noodles",
     "aliases": [
       "noodles vermicelli rice"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "pasta elbows": {
-    "name": "pasta elbows",
-    "displayName": "Pasta Elbows",
+  "elbows pasta": {
+    "name": "elbows pasta",
+    "displayName": "Elbows Pasta",
     "category": "Pasta Noodles",
     "aliases": [
       "pasta elbows"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "pasta fettuccine": {
-    "name": "pasta fettuccine",
-    "displayName": "Pasta Fettuccine",
+  "fettuccine pasta": {
+    "name": "fettuccine pasta",
+    "displayName": "Fettuccine Pasta",
     "category": "Pasta Noodles",
     "aliases": [
       "pasta fettuccine"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "pasta lasagne sheets": {
-    "name": "pasta lasagne sheets",
-    "displayName": "Pasta Lasagne Sheets",
+  "lasagne sheets": {
+    "name": "lasagne sheets",
+    "displayName": "Lasagne Sheets",
     "category": "Pasta Noodles",
     "aliases": [
       "pasta lasagne sheets"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "pasta spaghetti": {
-    "name": "pasta spaghetti",
-    "displayName": "Pasta Spaghetti",
+  "spaghetti pasta": {
+    "name": "spaghetti pasta",
+    "displayName": "Spaghetti Pasta",
     "category": "Pasta Noodles",
     "aliases": [
       "pasta spaghetti"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "bulgur wheat": {
     "name": "bulgur wheat",
@@ -3966,6 +4721,10 @@
         "protein": "12 g",
         "vitamins_minerals": "Good source of manganese, magnesium, and B vitamins; high in dietary fibre"
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "freekeh": {
@@ -3981,67 +4740,95 @@
       "price": 7,
       "brand": "Macro"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "quinoa black": {
-    "name": "quinoa black",
-    "displayName": "Quinoa Black",
+  "black quinoa": {
+    "name": "black quinoa",
+    "displayName": "Black Quinoa",
     "category": "Rice Grains",
     "aliases": [
       "quinoa black"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "quinoa white": {
-    "name": "quinoa white",
-    "displayName": "Quinoa White",
+  "white quinoa": {
+    "name": "white quinoa",
+    "displayName": "White Quinoa",
     "category": "Rice Grains",
     "aliases": [
       "quinoa white"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "rice arborio": {
-    "name": "rice arborio",
-    "displayName": "Rice Arborio",
+  "arborio rice": {
+    "name": "arborio rice",
+    "displayName": "Arborio Rice",
     "category": "Rice Grains",
     "aliases": [
       "rice arborio"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "rice basmati": {
-    "name": "rice basmati",
-    "displayName": "Rice Basmati",
+  "basmati rice": {
+    "name": "basmati rice",
+    "displayName": "Basmati Rice",
     "category": "Rice Grains",
     "aliases": [
       "rice basmati"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "rice jasmine": {
-    "name": "rice jasmine",
-    "displayName": "Rice Jasmine",
+  "jasmine rice": {
+    "name": "jasmine rice",
+    "displayName": "Jasmine Rice",
     "category": "Rice Grains",
     "aliases": [
       "rice jasmine"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "rice white": {
-    "name": "rice white",
-    "displayName": "Rice White",
+  "white rice": {
+    "name": "white rice",
+    "displayName": "White Rice",
     "category": "Rice Grains",
     "aliases": [
       "rice white"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "rolled oats": {
     "name": "rolled oats",
@@ -4069,6 +4856,10 @@
         "protein": "17 g",
         "vitamins_minerals": "Contains manganese, phosphorus, magnesium, copper, iron, zinc, folate, and B vitamins. Supports heart health, digestion, and sustained energy."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "demi glace": {
@@ -4097,27 +4888,36 @@
         "protein": "3–6 g",
         "vitamins_minerals": "Contains sodium, potassium, and small amounts of iron from the concentrated meat stock."
       }
-    }
+    },
+    "countable": false
   },
-  "jam apricot": {
-    "name": "jam apricot",
-    "displayName": "Jam Apricot",
+  "apricot jam": {
+    "name": "apricot jam",
+    "displayName": "Apricot Jam",
     "category": "Sauces Condiments",
     "aliases": [
       "jam apricot"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "jam plum": {
-    "name": "jam plum",
-    "displayName": "Jam Plum",
+  "plum jam": {
+    "name": "plum jam",
+    "displayName": "Plum Jam",
     "category": "Sauces Condiments",
     "aliases": [
       "jam plum"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "mayonnaise": {
     "name": "mayonnaise",
@@ -4132,7 +4932,11 @@
       "price": 4.5,
       "brand": "Praise"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "mirin": {
     "name": "mirin",
@@ -4160,6 +4964,10 @@
         "protein": "0 g",
         "vitamins_minerals": "Contains trace amounts of minerals; primarily a source of sugars and minimal alcohol."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "miso paste": {
@@ -4175,87 +4983,104 @@
       "price": 7.5,
       "brand": "Obento"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "mustard american": {
-    "name": "mustard american",
-    "displayName": "Mustard American",
+  "american mustard": {
+    "name": "american mustard",
+    "displayName": "American Mustard",
     "category": "Sauces Condiments",
     "aliases": [
       "mustard american"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "mustard australian": {
-    "name": "mustard australian",
-    "displayName": "Mustard Australian",
+  "australian mustard": {
+    "name": "australian mustard",
+    "displayName": "Australian Mustard",
     "category": "Sauces Condiments",
     "aliases": [
       "mustard australian"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "mustard dijon": {
-    "name": "mustard dijon",
-    "displayName": "Mustard Dijon",
+  "dijon mustard": {
+    "name": "dijon mustard",
+    "displayName": "Dijon Mustard",
     "category": "Sauces Condiments",
     "aliases": [
       "mustard dijon"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "mustard hot english": {
-    "name": "mustard hot english",
-    "displayName": "Mustard Hot English",
+  "hot english mustard": {
+    "name": "hot english mustard",
+    "displayName": "Hot English Mustard",
     "category": "Sauces Condiments",
     "aliases": [
       "mustard hot english"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "mustard mild english": {
-    "name": "mustard mild english",
-    "displayName": "Mustard Mild English",
+  "mild english mustard": {
+    "name": "mild english mustard",
+    "displayName": "Mild English Mustard",
     "category": "Sauces Condiments",
     "aliases": [
       "mustard mild english"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "mustard wholegrain": {
-    "name": "mustard wholegrain",
-    "displayName": "Mustard Wholegrain",
+  "wholegrain mustard": {
+    "name": "wholegrain mustard",
+    "displayName": "Wholegrain Mustard",
     "category": "Sauces Condiments",
     "aliases": [
       "mustard wholegrain"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "olives green": {
-    "name": "olives green",
-    "displayName": "Olives Green",
+  "green olives": {
+    "name": "green olives",
+    "displayName": "Green Olives",
     "category": "Sauces Condiments",
     "aliases": [
       "olives green"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "green olive"
+    }
   },
-  "olives kalamata": {
-    "name": "olives kalamata",
-    "displayName": "Olives Kalamata",
+  "kalamata olives": {
+    "name": "kalamata olives",
+    "displayName": "Kalamata Olives",
     "category": "Sauces Condiments",
     "aliases": [
       "olives kalamata"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "kalamata olive"
+    }
   },
   "red curry paste": {
     "name": "red curry paste",
@@ -4270,7 +5095,8 @@
       "price": 4,
       "brand": "Ayam"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "sambal oelek": {
     "name": "sambal oelek",
@@ -4298,177 +5124,201 @@
         "protein": "0.8 g",
         "vitamins_minerals": "Contains vitamin C, vitamin A, and small amounts of iron and potassium; primarily a source of spice and flavour."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
-  "sauce barbecue": {
-    "name": "sauce barbecue",
-    "displayName": "Sauce Barbecue",
+  "barbecue sauce": {
+    "name": "barbecue sauce",
+    "displayName": "Barbecue Sauce",
     "category": "Sauces Condiments",
     "aliases": [
       "sauce barbecue"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "sauce chilli": {
-    "name": "sauce chilli",
-    "displayName": "Sauce Chilli",
+  "chilli sauce": {
+    "name": "chilli sauce",
+    "displayName": "Chilli Sauce",
     "category": "Sauces Condiments",
     "aliases": [
       "sauce chilli"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "sauce fish": {
-    "name": "sauce fish",
-    "displayName": "Sauce Fish",
+  "fish sauce": {
+    "name": "fish sauce",
+    "displayName": "Fish Sauce",
     "category": "Sauces Condiments",
     "aliases": [
       "sauce fish"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "sauce hoisin": {
-    "name": "sauce hoisin",
-    "displayName": "Sauce Hoisin",
+  "hoisin sauce": {
+    "name": "hoisin sauce",
+    "displayName": "Hoisin Sauce",
     "category": "Sauces Condiments",
     "aliases": [
       "sauce hoisin"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "sauce kecap manis": {
-    "name": "sauce kecap manis",
-    "displayName": "Sauce Kecap Manis",
+  "kecap manis": {
+    "name": "kecap manis",
+    "displayName": "Kecap Manis",
     "category": "Sauces Condiments",
     "aliases": [
       "sauce kecap manis"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "sauce mint": {
-    "name": "sauce mint",
-    "displayName": "Sauce Mint",
+  "mint sauce": {
+    "name": "mint sauce",
+    "displayName": "Mint Sauce",
     "category": "Sauces Condiments",
     "aliases": [
       "sauce mint"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "sauce oyster": {
-    "name": "sauce oyster",
-    "displayName": "Sauce Oyster",
+  "oyster sauce": {
+    "name": "oyster sauce",
+    "displayName": "Oyster Sauce",
     "category": "Sauces Condiments",
     "aliases": [
       "sauce oyster"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "sauce seafood cocktail": {
-    "name": "sauce seafood cocktail",
-    "displayName": "Sauce Seafood Cocktail",
+  "seafood cocktail sauce": {
+    "name": "seafood cocktail sauce",
+    "displayName": "Seafood Cocktail Sauce",
     "category": "Sauces Condiments",
     "aliases": [
       "sauce seafood cocktail"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "sauce soy": {
-    "name": "sauce soy",
-    "displayName": "Sauce Soy",
+  "soy sauce": {
+    "name": "soy sauce",
+    "displayName": "Soy Sauce",
     "category": "Sauces Condiments",
     "aliases": [
       "sauce soy"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "sauce soy dark": {
-    "name": "sauce soy dark",
-    "displayName": "Sauce Soy Dark",
+  "dark soy sauce": {
+    "name": "dark soy sauce",
+    "displayName": "Dark Soy Sauce",
     "category": "Sauces Condiments",
     "aliases": [
       "sauce soy dark"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "sauce soy light": {
-    "name": "sauce soy light",
-    "displayName": "Sauce Soy Light",
+  "light soy sauce": {
+    "name": "light soy sauce",
+    "displayName": "Light Soy Sauce",
     "category": "Sauces Condiments",
     "aliases": [
       "sauce soy light"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "sauce sweet & sour": {
-    "name": "sauce sweet & sour",
-    "displayName": "Sauce Sweet & Sour",
+  "sweet & sour sauce": {
+    "name": "sweet & sour sauce",
+    "displayName": "Sweet & Sour Sauce",
     "category": "Sauces Condiments",
     "aliases": [
       "sauce sweet & sour"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "sauce sweet chilli": {
-    "name": "sauce sweet chilli",
-    "displayName": "Sauce Sweet Chilli",
+  "sweet chilli sauce": {
+    "name": "sweet chilli sauce",
+    "displayName": "Sweet Chilli Sauce",
     "category": "Sauces Condiments",
     "aliases": [
       "sauce sweet chilli"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "sauce tartare": {
-    "name": "sauce tartare",
-    "displayName": "Sauce Tartare",
+  "tartare sauce": {
+    "name": "tartare sauce",
+    "displayName": "Tartare Sauce",
     "category": "Sauces Condiments",
     "aliases": [
       "sauce tartare"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "sauce tomato": {
-    "name": "sauce tomato",
-    "displayName": "Sauce Tomato",
+  "tomato sauce": {
+    "name": "tomato sauce",
+    "displayName": "Tomato Sauce",
     "category": "Sauces Condiments",
     "aliases": [
       "sauce tomato"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "sauce tomato ketchup": {
-    "name": "sauce tomato ketchup",
-    "displayName": "Sauce Tomato Ketchup",
+  "tomato ketchup": {
+    "name": "tomato ketchup",
+    "displayName": "Tomato Ketchup",
     "category": "Sauces Condiments",
     "aliases": [
       "sauce tomato ketchup"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "sauce worcestershire": {
-    "name": "sauce worcestershire",
-    "displayName": "Sauce Worcestershire",
+  "worcestershire sauce": {
+    "name": "worcestershire sauce",
+    "displayName": "Worcestershire Sauce",
     "category": "Sauces Condiments",
     "aliases": [
       "sauce worcestershire"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "sriracha": {
     "name": "sriracha",
@@ -4483,77 +5333,96 @@
       "price": 5,
       "brand": "Huy Fong"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "vinegar apple cider": {
-    "name": "vinegar apple cider",
-    "displayName": "Vinegar Apple Cider",
+  "apple cider vinegar": {
+    "name": "apple cider vinegar",
+    "displayName": "Apple Cider Vinegar",
     "category": "Sauces Condiments",
     "aliases": [
       "vinegar apple cider"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "vinegar balsamic": {
-    "name": "vinegar balsamic",
-    "displayName": "Vinegar Balsamic",
+  "balsamic vinegar": {
+    "name": "balsamic vinegar",
+    "displayName": "Balsamic Vinegar",
     "category": "Sauces Condiments",
     "aliases": [
       "vinegar balsamic"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "vinegar brown": {
-    "name": "vinegar brown",
-    "displayName": "Vinegar Brown",
+  "brown vinegar": {
+    "name": "brown vinegar",
+    "displayName": "Brown Vinegar",
     "category": "Sauces Condiments",
     "aliases": [
       "vinegar brown"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "vinegar rice wine": {
-    "name": "vinegar rice wine",
-    "displayName": "Vinegar Rice Wine",
+  "rice wine vinegar": {
+    "name": "rice wine vinegar",
+    "displayName": "Rice Wine Vinegar",
     "category": "Sauces Condiments",
     "aliases": [
       "vinegar rice wine"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "vinegar white": {
-    "name": "vinegar white",
-    "displayName": "Vinegar White",
+  "white vinegar": {
+    "name": "white vinegar",
+    "displayName": "White Vinegar",
     "category": "Sauces Condiments",
     "aliases": [
       "vinegar white"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "chia seeds black": {
-    "name": "chia seeds black",
-    "displayName": "Chia Seeds Black",
+  "black chia seeds": {
+    "name": "black chia seeds",
+    "displayName": "Black Chia Seeds",
     "category": "Seeds Superfoods",
     "aliases": [
       "chia seeds black"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "black chia seed"
+    }
   },
-  "chia seeds white": {
-    "name": "chia seeds white",
-    "displayName": "Chia Seeds White",
+  "white chia seeds": {
+    "name": "white chia seeds",
+    "displayName": "White Chia Seeds",
     "category": "Seeds Superfoods",
     "aliases": [
       "chia seeds white"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "white chia seed"
+    }
   },
   "flaxseed meal": {
     "name": "flaxseed meal",
@@ -4568,7 +5437,8 @@
       "price": 6.3,
       "brand": "Macro"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "gentle fibre": {
     "name": "gentle fibre",
@@ -4583,7 +5453,11 @@
       "price": 9,
       "brand": "Laucke"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "hemp protein powder": {
     "name": "hemp protein powder",
@@ -4598,7 +5472,8 @@
       "price": 8.6,
       "brand": "Macro"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "hemp seeds": {
     "name": "hemp seeds",
@@ -4613,7 +5488,12 @@
       "price": 6.6,
       "brand": "Macro"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "hemp seed"
+    }
   },
   "linseed": {
     "name": "linseed",
@@ -4641,6 +5521,10 @@
         "protein": "18 g",
         "vitamins_minerals": "High in omega-3 fatty acids, lignans, magnesium, phosphorus, and manganese."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "psyllium husk": {
@@ -4669,6 +5553,10 @@
         "protein": "2 g",
         "vitamins_minerals": "Rich in soluble fiber; negligible vitamins or minerals; supports digestive health and can aid in cholesterol management."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "pumpkin kernels": {
@@ -4684,7 +5572,11 @@
       "price": 5.7,
       "brand": "Macro"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "soy lecithin": {
     "name": "soy lecithin",
@@ -4712,6 +5604,10 @@
         "protein": "30 g",
         "vitamins_minerals": "Contains choline (essential for liver and brain function), phosphatidylcholine, and phosphatidylinositol; naturally derived from soybeans. Minimal sugars and starch."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "sunflower seeds": {
@@ -4740,6 +5636,11 @@
         "protein": "21 g",
         "vitamins_minerals": "Rich in vitamin E, magnesium, selenium, and B vitamins. Contains healthy polyunsaturated fats, antioxidants, and plant sterols."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "sunflower seed"
     }
   },
   "xanthan gum": {
@@ -4768,47 +5669,64 @@
         "protein": "0 g",
         "vitamins_minerals": "Minimal micronutrients; mainly contributes soluble fiber, which can aid digestion and improve texture in recipes."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
-  "biscuits nice arnotts": {
-    "name": "biscuits nice arnotts",
-    "displayName": "Biscuits Nice Arnotts",
+  "arnotts nice biscuits": {
+    "name": "arnotts nice biscuits",
+    "displayName": "Arnotts Nice Biscuits",
     "category": "Snacks Biscuits",
     "aliases": [
       "biscuits nice arnotts"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "biscuits tim tams": {
-    "name": "biscuits tim tams",
-    "displayName": "Biscuits Tim Tams",
+  "tim tams": {
+    "name": "tim tams",
+    "displayName": "Tim Tams",
     "category": "Snacks Biscuits",
     "aliases": [
       "biscuits tim tams"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "cookies butternut snap arnotts": {
-    "name": "cookies butternut snap arnotts",
-    "displayName": "Cookies Butternut Snap Arnotts",
+  "arnotts butternut snap cookies": {
+    "name": "arnotts butternut snap cookies",
+    "displayName": "Arnotts Butternut Snap Cookies",
     "category": "Snacks Biscuits",
     "aliases": [
       "cookies butternut snap arnotts"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "cookies oreos": {
-    "name": "cookies oreos",
-    "displayName": "Cookies Oreos",
+  "oreos cookies": {
+    "name": "oreos cookies",
+    "displayName": "Oreos Cookies",
     "category": "Snacks Biscuits",
     "aliases": [
       "cookies oreos"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "achiote powder": {
     "name": "achiote powder",
@@ -4836,7 +5754,8 @@
         "protein": "0.1 g",
         "vitamins_minerals": "Contains small amounts of iron and calcium"
       }
-    }
+    },
+    "countable": false
   },
   "allspice": {
     "name": "allspice",
@@ -4864,7 +5783,8 @@
         "protein": "0.2 g",
         "vitamins_minerals": "Contains small amounts of manganese, iron, and calcium"
       }
-    }
+    },
+    "countable": false
   },
   "baking powder": {
     "name": "baking powder",
@@ -4892,7 +5812,8 @@
         "protein": "0 g",
         "vitamins_minerals": "High in sodium; no significant vitamins or minerals; used in small quantities"
       }
-    }
+    },
+    "countable": false
   },
   "bay leaves": {
     "name": "bay leaves",
@@ -4920,6 +5841,11 @@
         "protein": "8 g",
         "vitamins_minerals": "Contains vitamin A, vitamin C, iron, calcium, and manganese; used in small quantities so nutritional impact per serving is minimal"
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "bay leaf"
     }
   },
   "bi-carb soda": {
@@ -4948,27 +5874,36 @@
         "protein": "0 g",
         "vitamins_minerals": "High in sodium; negligible nutritional value per serving as it is used in small quantities"
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
-  "cardamom green pods": {
-    "name": "cardamom green pods",
-    "displayName": "Cardamom Green Pods",
+  "green cardamom pods": {
+    "name": "green cardamom pods",
+    "displayName": "Green Cardamom Pods",
     "category": "Spices Seasonings",
     "aliases": [
       "cardamom green pods"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "cardamom ground": {
-    "name": "cardamom ground",
-    "displayName": "Cardamom Ground",
+  "ground cardamom": {
+    "name": "ground cardamom",
+    "displayName": "Ground Cardamom",
     "category": "Spices Seasonings",
     "aliases": [
       "cardamom ground"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "cardamom pods": {
     "name": "cardamom pods",
@@ -4983,7 +5918,11 @@
       "price": 4,
       "brand": "Hoyt's"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "cayenne pepper": {
     "name": "cayenne pepper",
@@ -4998,14 +5937,20 @@
       "price": 3.5,
       "brand": "MasterFoods"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "chilli flakes": {
     "name": "chilli flakes",
     "displayName": "Chilli Flakes",
     "category": "Spices Seasonings",
     "aliases": [
-      "chilli flakes"
+      "chilli flakes",
+      "chilli red flakes",
+      "red chilli flakes"
     ],
     "priceData": {
       "size": 100,
@@ -5013,14 +5958,17 @@
       "price": 5,
       "brand": "Hoyt's"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "chilli powder": {
     "name": "chilli powder",
     "displayName": "Chilli Powder",
     "category": "Spices Seasonings",
     "aliases": [
-      "chilli powder"
+      "chilli powder",
+      "chilli powder red",
+      "red chilli powder"
     ],
     "priceData": {
       "size": 27,
@@ -5028,27 +5976,8 @@
       "price": 3.5,
       "brand": "MasterFoods"
     },
-    "wiki": null
-  },
-  "chilli powder red": {
-    "name": "chilli powder red",
-    "displayName": "Chilli Powder Red",
-    "category": "Spices Seasonings",
-    "aliases": [
-      "chilli powder red"
-    ],
-    "priceData": null,
-    "wiki": null
-  },
-  "chilli red flakes": {
-    "name": "chilli red flakes",
-    "displayName": "Chilli Red Flakes",
-    "category": "Spices Seasonings",
-    "aliases": [
-      "chilli red flakes"
-    ],
-    "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "chilli whole dried crushed": {
     "name": "chilli whole dried crushed",
@@ -5058,17 +5987,19 @@
       "chilli whole dried crushed"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "cinnamon ground": {
-    "name": "cinnamon ground",
-    "displayName": "Cinnamon Ground",
+  "ground cinnamon": {
+    "name": "ground cinnamon",
+    "displayName": "Ground Cinnamon",
     "category": "Spices Seasonings",
     "aliases": [
       "cinnamon ground"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "cinnamon stick": {
     "name": "cinnamon stick",
@@ -5083,17 +6014,22 @@
       "price": 2,
       "brand": "Hoyt's"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "cloves ground": {
-    "name": "cloves ground",
-    "displayName": "Cloves Ground",
+  "ground cloves": {
+    "name": "ground cloves",
+    "displayName": "Ground Cloves",
     "category": "Spices Seasonings",
     "aliases": [
       "cloves ground"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "cloves whole": {
     "name": "cloves whole",
@@ -5108,27 +6044,33 @@
       "price": 3.5,
       "brand": "MasterFoods"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "coconut desiccated": {
-    "name": "coconut desiccated",
-    "displayName": "Coconut Desiccated",
+  "desiccated coconut": {
+    "name": "desiccated coconut",
+    "displayName": "Desiccated Coconut",
     "category": "Spices Seasonings",
     "aliases": [
       "coconut desiccated"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "coriander ground": {
-    "name": "coriander ground",
-    "displayName": "Coriander Ground",
+  "ground coriander": {
+    "name": "ground coriander",
+    "displayName": "Ground Coriander",
     "category": "Spices Seasonings",
     "aliases": [
       "coriander ground"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "coriander seeds": {
     "name": "coriander seeds",
@@ -5143,27 +6085,37 @@
       "price": 3.5,
       "brand": "MasterFoods"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "coriander seed"
+    }
   },
-  "cumin ground": {
-    "name": "cumin ground",
-    "displayName": "Cumin Ground",
+  "ground cumin": {
+    "name": "ground cumin",
+    "displayName": "Ground Cumin",
     "category": "Spices Seasonings",
     "aliases": [
       "cumin ground"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "cumin whole": {
-    "name": "cumin whole",
-    "displayName": "Cumin Whole",
+  "whole cumin": {
+    "name": "whole cumin",
+    "displayName": "Whole Cumin",
     "category": "Spices Seasonings",
     "aliases": [
       "cumin whole"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "curry powder": {
     "name": "curry powder",
@@ -5190,7 +6142,8 @@
         "fiber": "34 g",
         "protein": "14 g"
       }
-    }
+    },
+    "countable": false
   },
   "fennel seeds": {
     "name": "fennel seeds",
@@ -5218,6 +6171,11 @@
         "protein": "15 g",
         "vitamins_minerals": "Rich in iron, calcium, magnesium, and manganese. Provides small amounts of potassium and vitamin C. Used in small quantities, so nutritional impact per serving is minor."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "fennel seed"
     }
   },
   "fenugreek seeds": {
@@ -5233,17 +6191,23 @@
       "price": 3.5,
       "brand": "MasterFoods"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "fenugreek seed"
+    }
   },
-  "five spice chinese": {
-    "name": "five spice chinese",
-    "displayName": "Five Spice Chinese",
+  "chinese five spice": {
+    "name": "chinese five spice",
+    "displayName": "Chinese Five Spice",
     "category": "Spices Seasonings",
     "aliases": [
       "five spice chinese"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "garam masala": {
     "name": "garam masala",
@@ -5271,6 +6235,10 @@
         "protein": "12 g",
         "vitamins_minerals": "Rich in iron, manganese, magnesium, and small amounts of calcium, potassium, and vitamin C. Used in small quantities, so contribution per serving is minimal."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
   "garlic powder": {
@@ -5286,37 +6254,41 @@
       "price": 3.5,
       "brand": "MasterFoods"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "ginger ground": {
-    "name": "ginger ground",
-    "displayName": "Ginger Ground",
+  "ground ginger": {
+    "name": "ground ginger",
+    "displayName": "Ground Ginger",
     "category": "Spices Seasonings",
     "aliases": [
       "ginger ground"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "herbs italian": {
-    "name": "herbs italian",
-    "displayName": "Herbs Italian",
+  "italian herbs": {
+    "name": "italian herbs",
+    "displayName": "Italian Herbs",
     "category": "Spices Seasonings",
     "aliases": [
       "herbs italian"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "herbs mixed": {
-    "name": "herbs mixed",
-    "displayName": "Herbs Mixed",
+  "mixed herbs": {
+    "name": "mixed herbs",
+    "displayName": "Mixed Herbs",
     "category": "Spices Seasonings",
     "aliases": [
       "herbs mixed"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "mixed spice": {
     "name": "mixed spice",
@@ -5331,7 +6303,8 @@
       "price": 3.5,
       "brand": "MasterFoods"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "moroccan spice": {
     "name": "moroccan spice",
@@ -5346,7 +6319,8 @@
       "price": 3.5,
       "brand": "MasterFoods"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "nigella seeds": {
     "name": "nigella seeds",
@@ -5374,17 +6348,23 @@
         "protein": "18 g",
         "vitamins_minerals": "Contains iron, calcium, potassium, magnesium, zinc, and antioxidants; traditionally valued for potential anti-inflammatory and digestive benefits"
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "nigella seed"
     }
   },
-  "nutmeg ground": {
-    "name": "nutmeg ground",
-    "displayName": "Nutmeg Ground",
+  "ground nutmeg": {
+    "name": "ground nutmeg",
+    "displayName": "Ground Nutmeg",
     "category": "Spices Seasonings",
     "aliases": [
       "nutmeg ground"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "onion powder": {
     "name": "onion powder",
@@ -5399,77 +6379,105 @@
       "price": 3.5,
       "brand": "MasterFoods"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "paprika ground": {
-    "name": "paprika ground",
-    "displayName": "Paprika Ground",
+  "ground paprika": {
+    "name": "ground paprika",
+    "displayName": "Ground Paprika",
     "category": "Spices Seasonings",
     "aliases": [
       "paprika ground"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "paprika smoked": {
-    "name": "paprika smoked",
-    "displayName": "Paprika Smoked",
+  "smoked paprika": {
+    "name": "smoked paprika",
+    "displayName": "Smoked Paprika",
     "category": "Spices Seasonings",
     "aliases": [
       "paprika smoked"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "paprika sweet": {
-    "name": "paprika sweet",
-    "displayName": "Paprika Sweet",
+  "sweet paprika": {
+    "name": "sweet paprika",
+    "displayName": "Sweet Paprika",
     "category": "Spices Seasonings",
     "aliases": [
       "paprika sweet"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "pepper black ground": {
-    "name": "pepper black ground",
-    "displayName": "Pepper Black Ground",
+  "ground black pepper": {
+    "name": "ground black pepper",
+    "displayName": "Ground Black Pepper",
     "category": "Spices Seasonings",
     "aliases": [
       "pepper black ground"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "pepper black peppercorns": {
-    "name": "pepper black peppercorns",
-    "displayName": "Pepper Black Peppercorns",
+  "black peppercorns": {
+    "name": "black peppercorns",
+    "displayName": "Black Peppercorns",
     "category": "Spices Seasonings",
     "aliases": [
       "pepper black peppercorns"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "black peppercorn"
+    }
   },
-  "pepper green peppercorns": {
-    "name": "pepper green peppercorns",
-    "displayName": "Pepper Green Peppercorns",
+  "green peppercorns": {
+    "name": "green peppercorns",
+    "displayName": "Green Peppercorns",
     "category": "Spices Seasonings",
     "aliases": [
       "pepper green peppercorns"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "green peppercorn"
+    }
   },
-  "pepper white ground": {
-    "name": "pepper white ground",
-    "displayName": "Pepper White Ground",
+  "ground white pepper": {
+    "name": "ground white pepper",
+    "displayName": "Ground White Pepper",
     "category": "Spices Seasonings",
     "aliases": [
       "pepper white ground"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "poppy seeds": {
     "name": "poppy seeds",
@@ -5484,7 +6492,12 @@
       "price": 5,
       "brand": "Hoyt's"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "poppy seed"
+    }
   },
   "saffron": {
     "name": "saffron",
@@ -5499,7 +6512,11 @@
       "price": 14.9,
       "brand": "MasterFoods"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "salt": {
     "name": "salt",
@@ -5527,57 +6544,63 @@
         "protein": "0 g",
         "vitamins_minerals": "Contains primarily sodium; essential for fluid balance, nerve, and muscle function. Excess intake may impact blood pressure."
       }
-    }
+    },
+    "countable": false
   },
-  "salt chicken": {
-    "name": "salt chicken",
-    "displayName": "Salt Chicken",
+  "chicken salt": {
+    "name": "chicken salt",
+    "displayName": "Chicken Salt",
     "category": "Spices Seasonings",
     "aliases": [
       "salt chicken"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "seasoning cajun": {
-    "name": "seasoning cajun",
-    "displayName": "Seasoning Cajun",
+  "cajun seasoning": {
+    "name": "cajun seasoning",
+    "displayName": "Cajun Seasoning",
     "category": "Spices Seasonings",
     "aliases": [
       "seasoning cajun"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "seasoning chicken": {
-    "name": "seasoning chicken",
-    "displayName": "Seasoning Chicken",
+  "chicken seasoning": {
+    "name": "chicken seasoning",
+    "displayName": "Chicken Seasoning",
     "category": "Spices Seasonings",
     "aliases": [
       "seasoning chicken"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "seasoning steak": {
-    "name": "seasoning steak",
-    "displayName": "Seasoning Steak",
+  "steak seasoning": {
+    "name": "steak seasoning",
+    "displayName": "Steak Seasoning",
     "category": "Spices Seasonings",
     "aliases": [
       "seasoning steak"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "seasoning taco": {
-    "name": "seasoning taco",
-    "displayName": "Seasoning Taco",
+  "taco seasoning": {
+    "name": "taco seasoning",
+    "displayName": "Taco Seasoning",
     "category": "Spices Seasonings",
     "aliases": [
       "seasoning taco"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "sesame seeds": {
     "name": "sesame seeds",
@@ -5605,6 +6628,11 @@
         "protein": "17 g",
         "vitamins_minerals": "Rich in calcium, magnesium, iron, phosphorus, and B vitamins. Contains healthy polyunsaturated and monounsaturated fats, plus antioxidants such as sesamol."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "sesame seed"
     }
   },
   "star anise": {
@@ -5620,7 +6648,11 @@
       "price": 2.6,
       "brand": "Hoyt's"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "thyme leaves": {
     "name": "thyme leaves",
@@ -5635,17 +6667,23 @@
       "price": 3.5,
       "brand": "MasterFoods"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "thyme leaf"
+    }
   },
-  "turmeric ground": {
-    "name": "turmeric ground",
-    "displayName": "Turmeric Ground",
+  "ground turmeric": {
+    "name": "ground turmeric",
+    "displayName": "Ground Turmeric",
     "category": "Spices Seasonings",
     "aliases": [
       "turmeric ground"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "yeast": {
     "name": "yeast",
@@ -5673,67 +6711,92 @@
         "protein": "40 g",
         "vitamins_minerals": "Rich in B-vitamins (B1, B2, B3, B6, B9), selenium, chromium, and protein; contributes nutrients and umami flavor to baked goods."
       }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   },
-  "jam raspberry": {
-    "name": "jam raspberry",
-    "displayName": "Jam Raspberry",
+  "raspberry jam": {
+    "name": "raspberry jam",
+    "displayName": "Raspberry Jam",
     "category": "Spreads",
     "aliases": [
       "jam raspberry"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "jam strawberry": {
-    "name": "jam strawberry",
-    "displayName": "Jam Strawberry",
+  "strawberry jam": {
+    "name": "strawberry jam",
+    "displayName": "Strawberry Jam",
     "category": "Spreads",
     "aliases": [
       "jam strawberry"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "spread liver": {
-    "name": "spread liver",
-    "displayName": "Spread Liver",
+  "liver spread": {
+    "name": "liver spread",
+    "displayName": "Liver Spread",
     "category": "Spreads",
     "aliases": [
       "spread liver"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "spread nutella": {
-    "name": "spread nutella",
-    "displayName": "Spread Nutella",
+  "nutella": {
+    "name": "nutella",
+    "displayName": "Nutella",
     "category": "Spreads",
     "aliases": [
       "spread nutella"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
-  "spread peanut butter": {
-    "name": "spread peanut butter",
-    "displayName": "Spread Peanut Butter",
+  "peanut butter": {
+    "name": "peanut butter",
+    "displayName": "Peanut Butter",
     "category": "Spreads",
     "aliases": [
       "spread peanut butter"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "spread vegemite": {
-    "name": "spread vegemite",
-    "displayName": "Spread Vegemite",
+  "vegemite": {
+    "name": "vegemite",
+    "displayName": "Vegemite",
     "category": "Spreads",
     "aliases": [
       "spread vegemite"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   },
   "gravy mix": {
     "name": "gravy mix",
@@ -5748,67 +6811,74 @@
       "price": 5.6,
       "brand": "Gravox"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "stock beef": {
-    "name": "stock beef",
-    "displayName": "Stock Beef",
+  "beef stock": {
+    "name": "beef stock",
+    "displayName": "Beef Stock",
     "category": "Stock Broth",
     "aliases": [
       "stock beef"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "stock beef cube": {
-    "name": "stock beef cube",
-    "displayName": "Stock Beef Cube",
+  "beef stock cube": {
+    "name": "beef stock cube",
+    "displayName": "Beef Stock Cube",
     "category": "Stock Broth",
     "aliases": [
       "stock beef cube"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "stock chicken": {
-    "name": "stock chicken",
-    "displayName": "Stock Chicken",
+  "chicken stock": {
+    "name": "chicken stock",
+    "displayName": "Chicken Stock",
     "category": "Stock Broth",
     "aliases": [
       "stock chicken"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "stock chicken cube": {
-    "name": "stock chicken cube",
-    "displayName": "Stock Chicken Cube",
+  "chicken stock cube": {
+    "name": "chicken stock cube",
+    "displayName": "Chicken Stock Cube",
     "category": "Stock Broth",
     "aliases": [
       "stock chicken cube"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "stock pork": {
-    "name": "stock pork",
-    "displayName": "Stock Pork",
+  "pork stock": {
+    "name": "pork stock",
+    "displayName": "Pork Stock",
     "category": "Stock Broth",
     "aliases": [
       "stock pork"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "stock pork cube": {
-    "name": "stock pork cube",
-    "displayName": "Stock Pork Cube",
+  "pork stock cube": {
+    "name": "pork stock cube",
+    "displayName": "Pork Stock Cube",
     "category": "Stock Broth",
     "aliases": [
       "stock pork cube"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "condensed milk": {
     "name": "condensed milk",
@@ -5823,7 +6893,8 @@
       "price": 3.5,
       "brand": "Nestle"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "honey": {
     "name": "honey",
@@ -5851,7 +6922,8 @@
         "protein": "0.3 g",
         "vitamins_minerals": "Contains trace amounts of vitamin C, calcium, iron, magnesium, and antioxidants."
       }
-    }
+    },
+    "countable": false
   },
   "malt powder": {
     "name": "malt powder",
@@ -5879,7 +6951,8 @@
         "protein": "7 g",
         "vitamins_minerals": "Contains small amounts of iron, calcium, and B vitamins. Primarily a source of carbohydrates."
       }
-    }
+    },
+    "countable": false
   },
   "molasses": {
     "name": "molasses",
@@ -5907,67 +6980,74 @@
         "protein": "0 g",
         "vitamins_minerals": "High in iron, calcium, magnesium, and potassium. Blackstrap molasses contains more minerals than lighter varieties."
       }
-    }
+    },
+    "countable": false
   },
-  "sugar brown": {
-    "name": "sugar brown",
-    "displayName": "Sugar Brown",
+  "brown sugar": {
+    "name": "brown sugar",
+    "displayName": "Brown Sugar",
     "category": "Sugar Sweeteners",
     "aliases": [
       "sugar brown"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "sugar caster": {
-    "name": "sugar caster",
-    "displayName": "Sugar Caster",
+  "caster sugar": {
+    "name": "caster sugar",
+    "displayName": "Caster Sugar",
     "category": "Sugar Sweeteners",
     "aliases": [
       "sugar caster"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "sugar icing": {
-    "name": "sugar icing",
-    "displayName": "Sugar Icing",
+  "icing sugar": {
+    "name": "icing sugar",
+    "displayName": "Icing Sugar",
     "category": "Sugar Sweeteners",
     "aliases": [
       "sugar icing"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "sugar white": {
-    "name": "sugar white",
-    "displayName": "Sugar White",
+  "white sugar": {
+    "name": "white sugar",
+    "displayName": "White Sugar",
     "category": "Sugar Sweeteners",
     "aliases": [
       "sugar white"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "syrup golden": {
-    "name": "syrup golden",
-    "displayName": "Syrup Golden",
+  "golden syrup": {
+    "name": "golden syrup",
+    "displayName": "Golden Syrup",
     "category": "Sugar Sweeteners",
     "aliases": [
       "syrup golden"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "syrup maple": {
-    "name": "syrup maple",
-    "displayName": "Syrup Maple",
+  "maple syrup": {
+    "name": "maple syrup",
+    "displayName": "Maple Syrup",
     "category": "Sugar Sweeteners",
     "aliases": [
       "syrup maple"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
   "treacle": {
     "name": "treacle",
@@ -5982,16 +7062,83 @@
       "price": 6.5,
       "brand": "CSR"
     },
-    "wiki": null
+    "wiki": null,
+    "countable": false
   },
-  "yoghurt greek": {
-    "name": "yoghurt greek",
-    "displayName": "Yoghurt Greek",
+  "greek yoghurt": {
+    "name": "greek yoghurt",
+    "displayName": "Greek Yoghurt",
     "category": "Yoghurt",
     "aliases": [
       "yoghurt greek"
     ],
     "priceData": null,
-    "wiki": null
+    "wiki": null,
+    "countable": false
+  },
+  "eggs": {
+    "name": "eggs",
+    "displayName": "Eggs",
+    "category": "Eggs",
+    "aliases": [
+      "egg",
+      "egg whites",
+      "egg yolks",
+      "eggs white",
+      "eggs whole",
+      "eggs yolk",
+      "whole eggs"
+    ],
+    "priceData": null,
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "plural",
+      "singular": "egg"
+    }
+  },
+  "chilli": {
+    "name": "chilli",
+    "displayName": "Chilli",
+    "category": "Fresh Vegetables",
+    "aliases": [
+      "chilli red",
+      "red chilli"
+    ],
+    "priceData": null,
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
+  },
+  "tomato": {
+    "name": "tomato",
+    "displayName": "Tomato",
+    "category": "Canned Tomatoes",
+    "aliases": [
+      "tomato",
+      "tomato whole",
+      "tomatoes"
+    ],
+    "priceData": null,
+    "wiki": {
+      "purpose": "Adds sweetness, acidity, colour, and body to curries, sauces, soups, and stews. Provides texture, depth, and concentrated flavour depending on tomato variety and form used.",
+      "storage": "",
+      "substitutes": "",
+      "notes": "Versatile tomato varieties for curries, sauces, stews, and general cooking. Choose the form based on recipe requirements and desired texture: * **Fresh Tomatoes:** Ripe and firm; ideal for salads, salsas, and fresh sauces. * **Roma:** Meaty, low in seeds; perfect for sauces, roasting, and cooking. * **Cherry / Grape Tomatoes:** Small, sweet, firm; great for roasting, salads, or quick sautés. * **Canned Tomatoes:** Peeled, diced, or crushed; excellent for long-simmered sauces and soups. * **Tomato Puree / Passata:** Smooth, liquid consistency; perfect for soups, sauces, and gravies where a silky texture is desired. * **Tomato Paste:** Concentrated tomato flavour; often caramelised slightly to deepen taste; use in small quantities for sauces, stews, and curries. For thicker consistency, drain excess liquid from canned tomatoes if needed. Store fresh tomatoes at room temperature (refrigerate only if very ripe). Canned, pureed, or paste forms should be stored in a cool, dry place and refrigerated after opening.",
+      "nutrition": {
+        "calories": "18 per 100 g",
+        "carbohydrates": "3.9 g",
+        "fat": "0.2 g",
+        "fiber": "1.2 g",
+        "protein": "0.9 g",
+        "vitamins_minerals": "Rich in vitamin C, vitamin A (from beta-carotene), potassium, folate, and antioxidants like lycopene. Supports immunity and heart health."
+      }
+    },
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
   }
 }

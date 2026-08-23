@@ -1,5 +1,5 @@
 {
-  "id": "stickydatepuddingwithcaramelsauce",
+  "id": "stickydates",
   "title": "Sticky Date Pudding with Caramel Sauce",
   "category": "Desserts",
   "difficulty": "Beginner",
@@ -8,9 +8,13 @@
   "cookTime": "15 min",
   "totalTime": "35 min",
   "servings": "8 servings",
+  "yieldPerBatch": "8 servings",
   "tags": [
     "Alcohol",
+    "Australian",
     "Baked",
+    "Baking",
+    "British",
     "Classic",
     "Creamy",
     "Dessert",
@@ -19,9 +23,6 @@
     "Vegetarian"
   ],
   "ingredients": [
-    {
-      "heading": "Pudding"
-    },
     {
       "quantity": "1",
       "unit": "",
@@ -52,10 +53,10 @@
       "item": "Bi-carb Soda"
     },
     {
-      "quantity": "100",
+      "quantity": "140",
       "unit": "g",
       "item": "Unsalted Butter",
-      "notes": "softened"
+      "notes": "divided: 100g for Pudding, 40g for Caramel Sauce"
     },
     {
       "quantity": "150",
@@ -63,10 +64,10 @@
       "item": "White Sugar"
     },
     {
-      "quantity": "50",
+      "quantity": "200",
       "unit": "g",
       "item": "Brown Sugar",
-      "notes": "packed"
+      "notes": "divided: 50g for Pudding, 150g for Caramel Sauce"
     },
     {
       "quantity": "2",
@@ -82,19 +83,6 @@
       "quantity": "3",
       "unit": "g",
       "item": "Ground Cinnamon"
-    },
-    {
-      "heading": "Caramel Sauce"
-    },
-    {
-      "quantity": "150",
-      "unit": "g",
-      "item": "Brown Sugar"
-    },
-    {
-      "quantity": "40",
-      "unit": "g",
-      "item": "Unsalted Butter"
     },
     {
       "quantity": "150",
@@ -123,7 +111,7 @@
     },
     {
       "step": 4,
-      "instruction": "In a large bowl, cream butter and both sugars with an electric mixer on medium speed for about 3 minutes until light and fluffy."
+      "instruction": "In a large bowl, cream 100 g of the softened unsalted butter, 150 g white sugar, and 50 g of the brown sugar with an electric mixer on medium speed for about 3 minutes until light and fluffy."
     },
     {
       "step": 5,
@@ -131,7 +119,7 @@
     },
     {
       "step": 6,
-      "instruction": "Fold in the cooled date mixture, shredded carrot, apple, sifted flour, and cinnamon. Mix just until combined — do not overmix."
+      "instruction": "Fold in the cooled date mixture, shredded carrot, apple, sifted plain flour, and cinnamon. Mix just until combined — do not overmix."
     },
     {
       "step": 7,
@@ -143,7 +131,7 @@
     },
     {
       "step": 9,
-      "instruction": "For the caramel sauce: combine brown sugar, butter, cream, and Grand Marnier in a microwave-safe bowl. Cook on high for 5 minutes, stirring every minute."
+      "instruction": "For the caramel sauce: combine the remaining 150 g of brown sugar, the remaining 40 g of unsalted butter, cream, and Grand Marnier in a microwave-safe bowl. Cook on high for 5 minutes, stirring every minute."
     },
     {
       "step": 10,
@@ -183,9 +171,6 @@
     "fiber": 4,
     "sodium": 301,
     "coverage": 100,
-    "foundCount": 14,
-    "totalCount": 14,
-    "unmatchedItems": [],
     "calcium_mg": 99,
     "iron_mg": 2,
     "potassium_mg": 501,
@@ -196,5 +181,5 @@
     "vitamin_c_mg": 2,
     "vitamin_d_ug": 3
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-08-19"
 }

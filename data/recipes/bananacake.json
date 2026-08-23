@@ -9,16 +9,16 @@
   "servings": "8 slices",
   "difficulty": "Beginner",
   "tags": [
+    "Australian",
+    "Baking",
     "Banana",
     "Cake",
     "Citrus",
+    "Dessert",
     "Sweet",
     "Vegetarian"
   ],
   "ingredients": [
-    {
-      "heading": "Cake"
-    },
     {
       "quantity": "125",
       "unit": "ml",
@@ -72,9 +72,6 @@
       "item": "Self-Raising Flour"
     },
     {
-      "heading": "Lemon Frosting"
-    },
-    {
       "quantity": "125",
       "unit": "g",
       "item": "Unsalted Butter",
@@ -90,9 +87,6 @@
       "quantity": "15",
       "unit": "ml",
       "item": "Lemon Juice"
-    },
-    {
-      "heading": "Topping"
     },
     {
       "quantity": "30",
@@ -237,5 +231,6 @@
     "vitamin_c_mg": 5,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-06-03"
+  "lastModified": "2026-06-03",
+  "yieldPerBatch": "1 batch"
 }

@@ -1,5 +1,5 @@
 {
-  "id": "heavenlyblueberrymuffins",
+  "id": "blueberrymuffins",
   "title": "Heavenly Blueberry Muffins",
   "category": "Baking",
   "difficulty": "Beginner",
@@ -8,21 +8,23 @@
   "cookTime": "25 min",
   "totalTime": "45 min",
   "servings": "12 muffins",
+  "yieldPerBatch": "12 muffins",
   "tags": [
+    "American",
     "Baked",
+    "Baking",
     "Breakfast",
+    "Muffins",
     "Sweet",
     "Under 1 Hour",
     "Vegetarian"
   ],
   "ingredients": [
     {
-      "heading": "Muffin Batter"
-    },
-    {
-      "quantity": "240",
+      "quantity": "260",
       "unit": "g",
-      "item": "Plain Flour"
+      "item": "Plain Flour",
+      "notes": "divided: 240g for Muffin Batter, 20g for Crumble Topping"
     },
     {
       "quantity": "160",
@@ -46,9 +48,10 @@
       "item": "Milk Powder Full-Cream"
     },
     {
-      "quantity": "90",
+      "quantity": "100",
       "unit": "g",
-      "item": "White Sugar"
+      "item": "White Sugar",
+      "notes": "divided: 90g for Muffin Batter, 10g for Crumble Topping"
     },
     {
       "quantity": "9",
@@ -62,57 +65,44 @@
       "notes": "fresh or frozen"
     },
     {
-      "heading": "Crumble Topping"
-    },
-    {
-      "quantity": "20",
-      "unit": "g",
-      "item": "Plain Flour"
-    },
-    {
       "quantity": "10",
       "unit": "g",
       "item": "Unsalted Butter",
       "notes": "softened"
-    },
-    {
-      "quantity": "10",
-      "unit": "g",
-      "item": "White Sugar"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Preheat oven to 175°C and line a 12-hole muffin tray with paper cases."
+      "instruction": "Preheat your oven to 175°C and line a 12-hole muffin tray with paper cases."
     },
     {
       "step": 2,
-      "instruction": "Whisk milk and eggs together in a bowl. Gradually whisk in vegetable oil until emulsified."
+      "instruction": "In a bowl, whisk together 160 ml full-cream milk and 2 large eggs. Gradually pour and whisk in 100 ml vegetable oil until the wet mixture is emulsified."
     },
     {
       "step": 3,
-      "instruction": "Add sugar and mix until dissolved."
+      "instruction": "Add 90 g of white sugar to the wet mixture and stir until fully dissolved."
     },
     {
       "step": 4,
-      "instruction": "Sift in plain flour, milk powder, and baking powder. Mix gently until just combined — do not overmix."
+      "instruction": "Sift in 240 g of plain flour, 30 g milk powder, and 9 g baking powder. Mix gently with a spatula until just combined — do not overmix, as some lumps are fine."
     },
     {
       "step": 5,
-      "instruction": "Prepare the crumble topping by rubbing flour, butter, and sugar together until coarse crumbs form."
+      "instruction": "Prepare the crumble topping in a separate small bowl by rubbing the remaining 20 g plain flour, 10 g softened unsalted butter, and the remaining 10 g white sugar together with your fingertips until coarse, sandy crumbs form."
     },
     {
       "step": 6,
-      "instruction": "Spoon batter into muffin cases, filling about three-quarters full."
+      "instruction": "Spoon the muffin batter into the lined paper cases, filling each cavity about three-quarters full."
     },
     {
       "step": 7,
-      "instruction": "Scatter blueberries over the batter and finish with crumble topping."
+      "instruction": "Scatter 150 g blueberries evenly over the top of the batter in each cup, then finish by sprinkling the prepared crumble topping over the berries."
     },
     {
       "step": 8,
-      "instruction": "Bake for 25 minutes, or until golden and a skewer inserted into the centre comes out clean."
+      "instruction": "Bake for 25 minutes, or until the tops are golden brown and a skewer inserted into the centre of a muffin comes out clean. Cool in the tray for 5 minutes before transferring to a wire rack."
     }
   ],
   "notes": [
@@ -152,5 +142,5 @@
     "vitamin_c_mg": 1,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-08-19"
 }

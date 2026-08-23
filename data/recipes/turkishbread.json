@@ -8,65 +8,42 @@
   "cookTime": "15 min",
   "totalTime": "4 hr",
   "servings": "2 loaves",
+  "yieldPerBatch": "2 loaves",
   "tags": [
+    "Baking",
     "Bread",
     "Classic",
     "Make Ahead",
     "Middle Eastern",
     "Savoury",
+    "Turkish",
     "Vegan",
     "Vegetarian"
   ],
   "ingredients": [
     {
-      "heading": "Pre-Ferment (Poolish)"
-    },
-    {
-      "quantity": "225",
+      "quantity": "465",
       "unit": "g",
-      "item": "Bread Flour"
+      "item": "Bread Flour",
+      "notes": "divided: 225g for Pre-Ferment, 240g for Main Dough"
     },
     {
-      "quantity": "145",
+      "quantity": "310",
       "unit": "ml",
       "item": "Water",
-      "notes": "lukewarm"
+      "notes": "divided: 145ml for Pre-Ferment, 165ml for Main Dough"
     },
     {
-      "quantity": "1.5",
+      "quantity": "6.5",
       "unit": "g",
-      "item": "Salt"
+      "item": "Salt",
+      "notes": "divided: 1.5g for Pre-Ferment, 5g for Main Dough"
     },
     {
-      "quantity": "3",
-      "unit": "g",
-      "item": "Yeast",
-      "notes": "instant dried"
-    },
-    {
-      "heading": "Main Dough"
-    },
-    {
-      "quantity": "240",
-      "unit": "g",
-      "item": "Bread Flour"
-    },
-    {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Salt"
-    },
-    {
-      "quantity": "7",
+      "quantity": "10",
       "unit": "g",
       "item": "Yeast",
-      "notes": "instant dried"
-    },
-    {
-      "quantity": "165",
-      "unit": "ml",
-      "item": "Water",
-      "notes": "lukewarm"
+      "notes": "divided: 3g for Pre-Ferment, 7g for Main Dough"
     },
     {
       "quantity": "8",
@@ -77,9 +54,6 @@
       "quantity": "2",
       "unit": "g",
       "item": "Malt Powder"
-    },
-    {
-      "heading": "Topping"
     },
     {
       "quantity": "15",
@@ -95,15 +69,15 @@
   "method": [
     {
       "step": 1,
-      "instruction": "Make the pre-ferment: in a bowl, combine bread flour, lukewarm water, salt, and yeast. Mix until smooth. Cover and let rest at room temperature for 2–3 hours, or refrigerate overnight."
+      "instruction": "Make the pre-ferment: in a bowl, combine 225 g of the bread flour, 145 ml of the lukewarm water, 1.5 g of the salt, and 3 g of the yeast. Mix until smooth. Cover and let rest at room temperature for 2–3 hours, or refrigerate overnight."
     },
     {
       "step": 2,
-      "instruction": "In a large bowl, combine bread flour, salt, yeast, and malt powder."
+      "instruction": "In a large bowl, combine the remaining 240 g of bread flour, the remaining 5 g of salt, the remaining 7 g of yeast, and 2 g of malt powder."
     },
     {
       "step": 3,
-      "instruction": "Add the pre-ferment, lukewarm water, and olive oil."
+      "instruction": "Add the pre-ferment, the remaining 165 ml of lukewarm water, and 8 ml of olive oil."
     },
     {
       "step": 4,
@@ -193,5 +167,5 @@
     "magnesium_mg": 122,
     "zinc_mg": 3
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-08-19"
 }

@@ -11,6 +11,7 @@
   "tags": [
     "American",
     "Baked",
+    "Baking",
     "Bread",
     "Savoury",
     "Vegetarian"
@@ -120,5 +121,6 @@
     "cholesterol_mg": 15,
     "vitamin_a_ug": 74
   },
-  "lastModified": "2026-06-04"
+  "lastModified": "2026-06-04",
+  "yieldPerBatch": "8 buns"
 }

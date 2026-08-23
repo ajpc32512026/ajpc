@@ -8,6 +8,7 @@
   "cookTime": "20 min",
   "totalTime": "40 min",
   "servings": "4 servings",
+  "yieldPerBatch": "4 servings",
   "tags": [
     "Chinese",
     "Classic",
@@ -17,9 +18,6 @@
     "Sweet"
   ],
   "ingredients": [
-    {
-      "heading": "Pork & Marinade"
-    },
     {
       "quantity": "500",
       "unit": "g",
@@ -42,9 +40,6 @@
       "item": "Chinese Five Spice"
     },
     {
-      "heading": "Coating"
-    },
-    {
       "quantity": "1",
       "unit": "",
       "item": "Eggs",
@@ -59,9 +54,6 @@
       "quantity": "75",
       "unit": "g",
       "item": "Cornflour"
-    },
-    {
-      "heading": "Sauce"
     },
     {
       "quantity": "125",
@@ -79,12 +71,10 @@
       "item": "White Vinegar"
     },
     {
-      "heading": "Stir-Fry"
-    },
-    {
-      "quantity": "15",
+      "quantity": "515",
       "unit": "ml",
-      "item": "Vegetable Oil"
+      "item": "Vegetable Oil",
+      "notes": "divided: 15ml for Stir-Fry, 500ml for Deep Frying"
     },
     {
       "quantity": "1",
@@ -109,12 +99,6 @@
       "unit": "cloves",
       "item": "Garlic",
       "notes": "crushed"
-    },
-    {
-      "quantity": "500",
-      "unit": "ml",
-      "item": "Vegetable Oil",
-      "notes": "for deep frying"
     }
   ],
   "method": [
@@ -132,7 +116,7 @@
     },
     {
       "step": 4,
-      "instruction": "Heat oil for deep frying to 170–180°C. Fry pork in batches until golden and crispy, about 5–6 minutes per batch. Drain on paper towels."
+      "instruction": "Heat 500 ml of the vegetable oil for deep frying to 170–180°C in a wok or deep pan. Fry pork in batches until golden and crispy, about 5–6 minutes per batch. Drain on paper towels."
     },
     {
       "step": 5,
@@ -140,7 +124,7 @@
     },
     {
       "step": 6,
-      "instruction": "Heat vegetable oil in a wok or large frying pan over high heat. Stir-fry onion and capsicum for 2–3 minutes until slightly softened but still crisp."
+      "instruction": "Heat the remaining 15 ml of vegetable oil in a clean wok or large frying pan over high heat. Stir-fry onion and capsicum for 2–3 minutes until slightly softened but still crisp."
     },
     {
       "step": 7,
@@ -197,5 +181,5 @@
     "vitamin_c_mg": 51,
     "vitamin_d_ug": 5
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-08-19"
 }

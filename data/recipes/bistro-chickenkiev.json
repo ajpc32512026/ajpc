@@ -8,20 +8,22 @@
   "cookTime": "8 min",
   "totalTime": "28 min",
   "servings": "1 serving",
+  "yieldPerBatch": "1 serving",
   "tags": [
+    "Bistro",
     "Chicken",
     "Classic",
     "Creamy",
     "Deep-Fried",
     "Dinner",
+    "French",
     "Garlic",
+    "Main Course",
     "Rich",
-    "Savoury"
+    "Savoury",
+    "Ukrainian"
   ],
   "ingredients": [
-    {
-      "heading": "Chicken"
-    },
     {
       "quantity": "1",
       "unit": "",
@@ -29,10 +31,10 @@
       "notes": "large, pocket cut"
     },
     {
-      "quantity": "125",
+      "quantity": "140",
       "unit": "g",
       "item": "Unsalted Butter",
-      "notes": "softened, for garlic butter log"
+      "notes": "divided: 125g softened (for Chicken), 15g (for Tomato Cream Sauce)"
     },
     {
       "quantity": "4",
@@ -45,14 +47,6 @@
       "unit": "g",
       "item": "Fresh Parsley",
       "notes": "fresh, chopped"
-    },
-    {
-      "heading": "Tomato Cream Sauce"
-    },
-    {
-      "quantity": "15",
-      "unit": "g",
-      "item": "Unsalted Butter"
     },
     {
       "quantity": "1",
@@ -77,9 +71,10 @@
       "item": "Tomato Sauce"
     },
     {
+      "quantity": "",
+      "unit": "",
       "item": "Salt & Pepper",
-      "toTaste": true,
-      "notes": "Don't add too much all at once — you can't take it out once it's in."
+      "notes": "to taste"
     }
   ],
   "youWillNeed": [
@@ -103,35 +98,35 @@
   "method": [
     {
       "step": 1,
-      "instruction": "Mix softened butter with crushed garlic and chopped parsley. Shape into a log, wrap in plastic wrap, and freeze until firm — at least 30 minutes."
+      "instruction": "Mix 125 g of softened unsalted butter with 4 crushed garlic cloves and 10 g chopped fresh parsley. Shape the mixture into a compact log, wrap tightly in plastic wrap, and freeze until completely firm (at least 30 minutes)."
     },
     {
       "step": 2,
-      "instruction": "Cut a deep pocket into the side of each chicken breast, being careful not to cut through. Insert a portion of the frozen garlic butter log and seal the edges firmly by pressing the meat together."
+      "instruction": "Cut a deep pocket into the side of the chicken breast, being careful not to cut all the way through the meat. Insert the frozen garlic butter log into the pocket and seal the edges firmly by pressing the meat together."
     },
     {
       "step": 3,
-      "instruction": "Dust each stuffed breast lightly with flour, dip in beaten egg, and coat thoroughly with breadcrumbs. For extra security, repeat the egg and breadcrumb step for a double crumb."
+      "instruction": "Dust the stuffed breast lightly with plain flour, dip thoroughly in beaten egg, and coat with breadcrumbs. For extra security to prevent leaks, repeat the egg and breadcrumb steps to create a double crumb coating."
     },
     {
       "step": 4,
-      "instruction": "Heat vegetable oil to 180°C. Deep-fry crumbed chicken for 8–10 minutes until deep golden and cooked through. The frozen butter melts inside, keeping the chicken moist."
+      "instruction": "Heat vegetable oil in a deep fryer or deep pan to 180°C. Deep-fry the crumbed chicken for 8–10 minutes until deep golden brown and cooked through. The frozen butter will melt inside to baste the breast from within."
     },
     {
       "step": 5,
-      "instruction": "For the sauce: melt butter in a small pan over medium heat. Add diced onion and cook until translucent, about 3–4 minutes."
+      "instruction": "For the sauce: melt the remaining 15 g of unsalted butter in a small saucepan over medium heat. Add the diced brown onion and cook until translucent, about 3–4 minutes."
     },
     {
       "step": 6,
-      "instruction": "Add diced tomato and cook for 2 minutes until softened."
+      "instruction": "Add the diced tomatoes and cook for 2 minutes until softened."
     },
     {
       "step": 7,
-      "instruction": "Pour in thickened cream and tomato sauce. Stir and simmer for 2–3 minutes until the sauce thickens to a light coating consistency. Season with salt."
+      "instruction": "Pour in 60 ml thickened cream and 15 ml tomato sauce. Stir and simmer for 2–3 minutes until the sauce thickens slightly to a light coating consistency. Season to taste with salt and pepper."
     },
     {
       "step": 8,
-      "instruction": "Plate the chicken and spoon the tomato cream sauce over to serve."
+      "instruction": "Plate the cooked chicken breast and spoon the warm tomato cream sauce over it to serve immediately."
     }
   ],
   "notes": [
@@ -168,5 +163,5 @@
     "vitamin_c_mg": 96,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-06-04"
+  "lastModified": "2026-08-19"
 }

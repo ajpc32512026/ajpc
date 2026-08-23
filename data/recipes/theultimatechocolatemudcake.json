@@ -8,17 +8,18 @@
   "cookTime": "1 hr 20 min",
   "totalTime": "1 hr 40 min",
   "servings": "10 servings",
+  "yieldPerBatch": "1 cake",
   "tags": [
-    "Chocolate",
+    "Australian",
+    "Baking",
     "Cake",
+    "Chocolate",
     "Dessert",
     "Rich",
-    "Sweet"
+    "Sweet",
+    "Vegetarian"
   ],
   "ingredients": [
-    {
-      "heading": "Cake"
-    },
     {
       "quantity": "250",
       "unit": "g",
@@ -26,10 +27,10 @@
       "notes": "roughly chopped"
     },
     {
-      "quantity": "200",
+      "quantity": "400",
       "unit": "g",
       "item": "Dark Chocolate",
-      "notes": "roughly chopped"
+      "notes": "divided: 200g for Cake, 200g for Ganache"
     },
     {
       "quantity": "240",
@@ -49,9 +50,10 @@
       "notes": "instant"
     },
     {
-      "quantity": "375",
+      "quantity": "435",
       "unit": "ml",
-      "item": "Milk Full-Cream"
+      "item": "Milk Full-Cream",
+      "notes": "divided: 375ml for Cake, 60ml for Ganache"
     },
     {
       "quantity": "3",
@@ -85,23 +87,9 @@
       "item": "Salt"
     },
     {
-      "heading": "Ganache"
-    },
-    {
       "quantity": "60",
       "unit": "ml",
       "item": "Thickened Cream"
-    },
-    {
-      "quantity": "60",
-      "unit": "ml",
-      "item": "Milk Full-Cream"
-    },
-    {
-      "quantity": "200",
-      "unit": "g",
-      "item": "Dark Chocolate",
-      "notes": "finely chopped"
     }
   ],
   "method": [
@@ -111,15 +99,15 @@
     },
     {
       "step": 2,
-      "instruction": "Place butter and chocolate in a heatproof bowl. Microwave for 1 minute on high, stir, then microwave in 30-second bursts, stirring between each, until smooth and glossy."
+      "instruction": "Place 250 g unsalted butter and 200 g of the dark chocolate in a heatproof bowl. Microwave for 1 minute on high, stir, then microwave in 30-second bursts, stirring between each, until smooth and glossy."
     },
     {
       "step": 3,
-      "instruction": "Add both sugars and coffee. Stir in milk, eggs, and vanilla extract until combined."
+      "instruction": "Add both sugars and coffee. Stir in 375 ml of the full-cream milk, eggs, and vanilla extract until combined."
     },
     {
       "step": 4,
-      "instruction": "Sift in flour, cocoa powder, baking powder, and salt. Stir until smooth and fully combined."
+      "instruction": "Sift in plain flour, cocoa powder, baking powder, and salt. Stir until smooth and fully combined."
     },
     {
       "step": 5,
@@ -131,11 +119,11 @@
     },
     {
       "step": 7,
-      "instruction": "For the ganache: combine milk and cream in a jug and microwave for approximately 1 minute until hot but not boiling."
+      "instruction": "For the ganache: combine the remaining 60 ml of milk and 60 ml thickened cream in a jug and microwave for approximately 1 minute until hot but not boiling."
     },
     {
       "step": 8,
-      "instruction": "Pour over the finely chopped chocolate. Let sit for 5 minutes, then stir until smooth. Reheat briefly in 10-second bursts if needed."
+      "instruction": "Pour over the remaining 200 g of finely chopped dark chocolate. Let sit for 5 minutes, then stir until smooth. Reheat briefly in 10-second bursts if needed."
     },
     {
       "step": 9,
@@ -188,5 +176,5 @@
     "vitamin_a_ug": 413,
     "vitamin_d_ug": 5
   },
-  "lastModified": "2026-06-04"
+  "lastModified": "2026-08-19"
 }

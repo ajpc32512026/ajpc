@@ -10,6 +10,7 @@
   "servings": "2 servings",
   "tags": [
     "Chicken",
+    "Classic",
     "Dinner",
     "Japanese",
     "Savoury",
@@ -133,5 +134,6 @@
     "vitamin_c_mg": 17,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-07-21",
+  "yieldPerBatch": "2 servings"
 }

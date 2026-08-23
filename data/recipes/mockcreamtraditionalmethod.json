@@ -9,16 +9,15 @@
   "totalTime": "25",
   "servings": "1",
   "tags": [
-    "Traditional",
-    "Bakery-style",
     "Australian",
-    "Vegetarian",
-    "Gluten-free",
-    "Make-ahead",
-    "No-bake",
-    "Cake Filling",
-    "Frosting",
-    "Pastry Filling"
+    "Bakery-Style",
+    "Classic",
+    "Condiment",
+    "Gluten-Free",
+    "Make-Ahead",
+    "No-Bake",
+    "Sweet",
+    "Vegetarian"
   ],
   "ingredients": [
     {
@@ -104,5 +103,6 @@
     "vitamin_a_ug": 1605,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-07-25"
+  "lastModified": "2026-07-25",
+  "yieldPerBatch": "1 batch"
 }

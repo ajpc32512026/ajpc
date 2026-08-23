@@ -9,26 +9,20 @@
   "totalTime": "45 min",
   "servings": "4 servings",
   "tags": [
+    "Chicken",
+    "Dairy-Free",
+    "Dinner",
     "Filipino",
     "Noodles",
     "Pork",
-    "Chicken",
     "Savoury",
-    "Stir-Fried",
-    "Dairy-Free",
-    "Dinner"
+    "Stir-Fried"
   ],
   "ingredients": [
-    {
-      "heading": "Noodles"
-    },
     {
       "quantity": "225",
       "unit": "g",
       "item": "Bihon Rice Noodles"
-    },
-    {
-      "heading": "Meat"
     },
     {
       "quantity": "225",
@@ -41,9 +35,6 @@
       "unit": "g",
       "item": "Chicken Breast",
       "notes": "thinly sliced"
-    },
-    {
-      "heading": "Vegetables"
     },
     {
       "quantity": "1",
@@ -69,9 +60,6 @@
       "notes": "sliced"
     },
     {
-      "heading": "Aromatics"
-    },
-    {
       "quantity": "1",
       "unit": "",
       "item": "Brown Onion",
@@ -82,9 +70,6 @@
       "unit": "cloves",
       "item": "Garlic",
       "notes": "minced"
-    },
-    {
-      "heading": "Sauce & Liquid"
     },
     {
       "quantity": "500",
@@ -100,9 +85,6 @@
       "quantity": "15",
       "unit": "ml",
       "item": "Fish Sauce"
-    },
-    {
-      "heading": "Garnish"
     },
     {
       "quantity": "4",
@@ -185,5 +167,6 @@
     "vitamin_c_mg": 51,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-07-21",
+  "yieldPerBatch": "4 servings"
 }

@@ -1,0 +1,942 @@
+{
+  "databaseName": "Official Food Additives Function Registry",
+  "regionScope": "Australian (FSANZ) and International (INS/E-Number) Standards",
+  "additives": [
+    {
+      "code": "100(i)",
+      "eNumber": "E100(i)",
+      "name": "Curcumin",
+      "functionalClass": "Colour",
+      "primaryPurpose": "Provides a bright, oil-soluble orange-yellow hue.",
+      "commonFoodUsage": "Curry powders, margarines, mustards, baked goods, and processed cheeses.",
+      "notes": "Natural color extracted from the rhizomes of turmeric (Curcuma longa)."
+    },
+    {
+      "code": "102",
+      "eNumber": "E102",
+      "name": "Tartrazine",
+      "functionalClass": "Colour",
+      "primaryPurpose": "Provides a brilliant, water-soluble lemon-yellow color.",
+      "commonFoodUsage": "Soft drinks, pickles, cordials, ice creams, and confectionery.",
+      "notes": "An azo dye. Exceptionally stable under heat and acidic storage conditions."
+    },
+    {
+      "code": "104",
+      "eNumber": "E104",
+      "name": "Quinoline yellow",
+      "functionalClass": "Colour",
+      "primaryPurpose": "Provides a dull, greenish-yellow color.",
+      "commonFoodUsage": "Ice creams, soft drinks, throat lozenges, and smoked fish.",
+      "notes": "A synthetic coal-tar dye. Its use is banned in some countries but approved in Australia."
+    },
+    {
+      "code": "110",
+      "eNumber": "E110",
+      "name": "Sunset yellow FCF",
+      "functionalClass": "Colour",
+      "primaryPurpose": "Provides an orange-yellow to reddish-orange color.",
+      "commonFoodUsage": "Orange sodas, packet soups, cheese sauces, apricot jams, and breadcrumbs.",
+      "notes": "An azo dye. Often used in combination with red dyes to produce brown shades."
+    },
+    {
+      "code": "120",
+      "eNumber": "E120",
+      "name": "Carmines / Cochineal",
+      "functionalClass": "Colour",
+      "primaryPurpose": "Imparts a highly stable red, pink, or purple color.",
+      "commonFoodUsage": "Saveloys, frankfurters, fruit-flavored yogurts, and red velvet cake mixes.",
+      "notes": "Naturally derived from the dried bodies of female cochineal insects."
+    },
+    {
+      "code": "122",
+      "eNumber": "E122",
+      "name": "Azorubine (Carmoisine)",
+      "functionalClass": "Colour",
+      "primaryPurpose": "Imparts a dark red to maroon color.",
+      "commonFoodUsage": "Blancmange, jams, commercial jellies, and red-colored sauces.",
+      "notes": "A synthetic azo dye. Often used where heat preservation would destroy natural red colors."
+    },
+    {
+      "code": "123",
+      "eNumber": "E123",
+      "name": "Amaranth",
+      "functionalClass": "Colour",
+      "primaryPurpose": "Provides a dark reddish-brown to purple color.",
+      "commonFoodUsage": "Soft drinks, blackcurrant jams, cake mixes, and ice creams.",
+      "notes": "Not related to the amaranth grain. Banned in the USA but approved in Australia and Europe."
+    },
+    {
+      "code": "124",
+      "eNumber": "E124",
+      "name": "Ponceau 4R (Cochineal red A)",
+      "functionalClass": "Colour",
+      "primaryPurpose": "Provides a brilliant strawberry-red color.",
+      "commonFoodUsage": "Commercial canned fruits, red cherry fillings, dessert gels, and soups.",
+      "notes": "A synthetic azo dye that is highly resistant to heat, light, and sulfur dioxide."
+    },
+    {
+      "code": "127",
+      "eNumber": "E127",
+      "name": "Erythrosine",
+      "functionalClass": "Colour",
+      "primaryPurpose": "Provides a bright, cherry-pink color.",
+      "commonFoodUsage": "Glacé cherries, cocktail cherries, canned stone fruit, and decorated confectionery.",
+      "notes": "An organoiodine compound. In Australia, its use is heavily restricted to specific fruit products."
+    },
+    {
+      "code": "129",
+      "eNumber": "E129",
+      "name": "Allura red AC",
+      "functionalClass": "Colour",
+      "primaryPurpose": "Provides a bright, clean, stable orange-red color.",
+      "commonFoodUsage": "Soft drinks, commercial bakery products, gel desserts, and confectionery.",
+      "notes": "Introduced originally in the United States as a safer alternative to older red food dyes."
+    },
+    {
+      "code": "132",
+      "eNumber": "E132",
+      "name": "Indigotine (Indigo carmine)",
+      "functionalClass": "Colour",
+      "primaryPurpose": "Imparts a deep blue to violet-blue color.",
+      "commonFoodUsage": "Ice creams, baked goods, blue confectionery, and liqueurs.",
+      "notes": "Synthetic version of the natural plant indigo dye. Highly sensitive to light and oxidizing agents."
+    },
+    {
+      "code": "133",
+      "eNumber": "E133",
+      "name": "Brilliant blue FCF",
+      "functionalClass": "Colour",
+      "primaryPurpose": "Provides a vibrant, clear blue color.",
+      "commonFoodUsage": "Blue drinks, commercial cake icings, ice creams, and dairy desserts.",
+      "notes": "Frequently blended with yellow dyes (like 102) to produce stable green shades."
+    },
+    {
+      "code": "140",
+      "eNumber": "E140",
+      "name": "Chlorophylls",
+      "functionalClass": "Colour",
+      "primaryPurpose": "Provides an olive-green color.",
+      "commonFoodUsage": "Pasta, olive oils, green condiments, sage cheeses, and vegetable preserves.",
+      "notes": "Natural green pigment extracted from grass, alfalfa, or nettles."
+    },
+    {
+      "code": "150a",
+      "eNumber": "E150a",
+      "name": "Caramel I – plain caramel",
+      "functionalClass": "Colour",
+      "primaryPurpose": "Imparts a yellow-to-brown color and mild sweet-burnt flavor.",
+      "commonFoodUsage": "Soy sauces, oyster sauces, dark gravies, beers, and whiskeys.",
+      "notes": "Carbohydrates are heated under controlled conditions without chemical catalysts."
+    },
+    {
+      "code": "150b",
+      "eNumber": "E150b",
+      "name": "Caramel II - sulfite caramel",
+      "functionalClass": "Colour",
+      "primaryPurpose": "Imparts a warm reddish-brown color.",
+      "commonFoodUsage": "Vinegars, commercial cognacs, and some liqueurs.",
+      "notes": "Carbohydrates are heated in the presence of sulfite compounds to stabilize color in alcohol."
+    },
+    {
+      "code": "150c",
+      "eNumber": "E150c",
+      "name": "Caramel III - ammonia caramel",
+      "functionalClass": "Colour",
+      "primaryPurpose": "Imparts a rich, dark brown color.",
+      "commonFoodUsage": "Beers, gravies, brown sauces, pet foods, and baked goods.",
+      "notes": "Processed using ammonium compounds to build density suitable for yeast breads and gravies."
+    },
+    {
+      "code": "150d",
+      "eNumber": "E150d",
+      "name": "Caramel IV - sulfite ammonia caramel",
+      "functionalClass": "Colour",
+      "primaryPurpose": "Imparts an extremely dark, rich brown-to-black color.",
+      "commonFoodUsage": "Cola soft drinks, chocolate syrups, dark beers, and concentrated gravies.",
+      "notes": "The most widely used commercial caramel color. Formulated to resist acid in soft drinks."
+    },
+    {
+      "code": "151",
+      "eNumber": "E151",
+      "name": "Brilliant black (Black PN)",
+      "functionalClass": "Colour",
+      "primaryPurpose": "Imparts a deep black color with slight violet undertones.",
+      "commonFoodUsage": "Fish paste, imitation caviar, brown sauces, and black confectionery.",
+      "notes": "A synthetic diazo dye. Stable in heat and acid, making it useful in processed fish."
+    },
+    {
+      "code": "155",
+      "eNumber": "E155",
+      "name": "Brown HT",
+      "functionalClass": "Colour",
+      "primaryPurpose": "Provides a strong reddish-brown chocolate-like color.",
+      "commonFoodUsage": "Chocolate cakes, commercial biscuits, desserts, and brown sauces.",
+      "notes": "An alternative to caramel colors when a specific, warm cocoa-brown shade is required."
+    },
+    {
+      "code": "160b(i)",
+      "eNumber": "E160b(i)",
+      "name": "Annatto extracts, bixin-based",
+      "functionalClass": "Colour",
+      "primaryPurpose": "Imparts a yellow, peach, or orange color.",
+      "commonFoodUsage": "Margarines, butter, cheddar cheeses, snack food dustings, and custards.",
+      "notes": "Extracted from the seeds of the achiote tree (*Bixa orellana*)."
+    },
+    {
+      "code": "160c(ii)",
+      "eNumber": "E160c(ii)",
+      "name": "Paprika extract",
+      "functionalClass": "Colour",
+      "primaryPurpose": "Provides a deep orange-red color and mild warm flavor undertones.",
+      "commonFoodUsage": "Snack seasonings, marinades, salad dressings, and orange cheeses.",
+      "notes": "Naturally derived from red bell peppers (*Capsicum annuum*)."
+    },
+    {
+      "code": "162",
+      "eNumber": "E162",
+      "name": "Beet red",
+      "functionalClass": "Colour",
+      "primaryPurpose": "Provides a deep red-purplish color.",
+      "commonFoodUsage": "Yogurts, ice creams, tomato pastes, salad dressings, and fruit jellies.",
+      "notes": "Extracted from beetroot. Heat-sensitive; best used in cold or short-shelf-life products."
+    },
+    {
+      "code": "171",
+      "eNumber": "E171",
+      "name": "Titanium dioxide",
+      "functionalClass": "Colour",
+      "primaryPurpose": "Provides an opaque, bright white background.",
+      "commonFoodUsage": "Cake frostings, white chewing gums, powdered sugar, and dairy creamers.",
+      "notes": "An inorganic mineral pigment. Highly effective at scattering light to produce clean whites."
+    },
+    {
+      "code": "200",
+      "eNumber": "E200",
+      "name": "Sorbic acid",
+      "functionalClass": "Preservative",
+      "primaryPurpose": "An organic compound that prevents the growth of molds, yeasts, and fungi.",
+      "commonFoodUsage": "Grated cheeses, processed cheese spreads, baked goods, and dried fruits.",
+      "notes": "Highly effective at low levels. Safely halts fungal growth without affecting food aroma or flavor."
+    },
+    {
+      "code": "202",
+      "eNumber": "E202",
+      "name": "Potassium sorbate",
+      "functionalClass": "Preservative",
+      "primaryPurpose": "Inhibits molds and yeasts.",
+      "commonFoodUsage": "Mayonnaise, salad dressings, tomato sauce, cheese slices, dried fruits, and syrups.",
+      "notes": "The potassium salt of sorbic acid. Highly soluble and exceptionally effective in foods with a slightly acidic pH."
+    },
+    {
+      "code": "203",
+      "eNumber": "E203",
+      "name": "Calcium sorbate",
+      "functionalClass": "Preservative",
+      "primaryPurpose": "Calcium salt formulation used as an effective surface preservative against mold and yeast.",
+      "commonFoodUsage": "Pre-shredded/grated cheeses, cheese packaging wraps, and dry bakery glazes.",
+      "notes": "Frequently utilized in pre-grated cheeses because its physical structure disperses exceptionally evenly."
+    },
+    {
+      "code": "211",
+      "eNumber": "E211",
+      "name": "Sodium benzoate",
+      "functionalClass": "Preservative",
+      "primaryPurpose": "Controls bacterial and fungal growth in high-acid products.",
+      "commonFoodUsage": "Carbonated soft drinks, fruit salad bowls, marinades, pickles, and dressings.",
+      "notes": "Works best when the food pH is below 4.5. Commonly paired with potassium sorbate."
+    },
+    {
+      "code": "223",
+      "eNumber": "E223",
+      "name": "Sodium metabisulphite",
+      "functionalClass": "Preservative / Antioxidant",
+      "primaryPurpose": "Inhibits bacterial growth and browning in raw meat and dried foods.",
+      "commonFoodUsage": "Australian fresh sausages, sausage mince, burger patties, dried fruits, and white wines.",
+      "notes": "Highly standard across Australian butcher shops. Must be declared as it can affect asthma sufferers."
+    },
+    {
+      "code": "234(i)",
+      "eNumber": "E234(i)",
+      "name": "Nisin A",
+      "functionalClass": "Preservative",
+      "primaryPurpose": "A natural antimicrobial peptide that controls Gram-positive spoilage bacteria.",
+      "commonFoodUsage": "Processed cheeses, clotted creams, liquid egg products, and crumpets.",
+      "notes": "A bacteriocin produced by fermenting lactic acid bacteria (*Lactococcus lactis*)."
+    },
+    {
+      "code": "235",
+      "eNumber": "E235",
+      "name": "Natamycin (Pimaricin)",
+      "functionalClass": "Preservative",
+      "primaryPurpose": "An antifungal agent used to prevent mold and yeast growth on the surface of foods.",
+      "commonFoodUsage": "Surface treatment of cheese blocks, sliced cheeses, and dry cured salamis.",
+      "notes": "Naturally produced by *Streptomyces natalensis* soil bacteria. Does not penetrate deeply into food."
+    },
+    {
+      "code": "242",
+      "eNumber": "E242",
+      "name": "Dimethyl dicarbonate",
+      "functionalClass": "Preservative",
+      "primaryPurpose": "Sterilizes drinks during bottling by destroying yeast and spoilage bacteria.",
+      "commonFoodUsage": "Fruit juices, flavored iced teas, sports drinks, and dealcoholized wines.",
+      "notes": "Breaks down completely within hours of addition into trace amounts of carbon dioxide and methanol."
+    },
+    {
+      "code": "250",
+      "eNumber": "E250",
+      "name": "Sodium nitrite",
+      "functionalClass": "Preservative / Colour Fixative",
+      "primaryPurpose": "Prevents botulism spores from growing and cures meats to a stable pink color.",
+      "commonFoodUsage": "Bacon, cured ham, corned beef, salami, and cured deli meats.",
+      "notes": "Essential for curing safety. Interacts with muscle proteins to form a stable pink color."
+    },
+    {
+      "code": "260",
+      "eNumber": "E260",
+      "name": "Acetic acid, glacial",
+      "functionalClass": "Acidity Regulator / Preservative",
+      "primaryPurpose": "Lowers pH to prevent bacterial growth while introducing a sour vinegar flavor.",
+      "commonFoodUsage": "Commercial vinegars, pickles, salad dressings, mustard, tomato sauces, and chutneys.",
+      "notes": "Glacial represents highly concentrated acetic acid used for blending in commercial food factories."
+    },
+    {
+      "code": "261(i)",
+      "eNumber": "E261(i)",
+      "name": "Potassium acetate",
+      "functionalClass": "Acidity Regulator / Preservative",
+      "primaryPurpose": "Acts as an alternative to sodium acetate to lower sodium levels on food labels.",
+      "commonFoodUsage": "Reduced-sodium savory snacks, stock bases, and prepared soups.",
+      "notes": "Provides preservation benefits while offering potassium instead of sodium."
+    },
+    {
+      "code": "262(ii)",
+      "eNumber": "E262(ii)",
+      "name": "Sodium diacetate",
+      "functionalClass": "Acidity Regulator / Preservative",
+      "primaryPurpose": "Inhibits mold and bacteria while offering a dry vinegar/salt flavor profile.",
+      "commonFoodUsage": "Salt & Vinegar potato chips, processed snack coatings, and dry bakery pre-mixes.",
+      "notes": "A molecular compound of sodium acetate and acetic acid, providing a convenient dry form of vinegar flavor."
+    },
+    {
+      "code": "270",
+      "eNumber": "E270",
+      "name": "Lactic acid, L-, D- and DL-",
+      "functionalClass": "Acidity Regulator",
+      "primaryPurpose": "Provides a smooth, tangy dairy-like acidity and assists in preservation.",
+      "commonFoodUsage": "Mayonnaise, salad dressings, sourdough breads, cheeses, and confectionery.",
+      "notes": "Commercially synthesized from cornstarch or beet sugar for vegan-friendly compliance."
+    },
+    {
+      "code": "280",
+      "eNumber": "E280",
+      "name": "Propionic acid",
+      "functionalClass": "Preservative",
+      "primaryPurpose": "Controls mold growth on bread and cheese surfaces.",
+      "commonFoodUsage": "Commercial sandwich breads, bakery goods, and processed cheeses.",
+      "notes": "Naturally occurring organic acid. Highly active against molds while having little effect on baking yeast."
+    },
+    {
+      "code": "282",
+      "eNumber": "E282",
+      "name": "Calcium propionate",
+      "functionalClass": "Preservative",
+      "primaryPurpose": "Prevents mold and rope-bacteria spoilage in yeast-raised bakery items.",
+      "commonFoodUsage": "Sliced white breads, hamburger buns, flatbreads, and tortillas.",
+      "notes": "A naturally occurring organic salt. Extends shelf life significantly without interfering with bread yeast activity."
+    },
+    {
+      "code": "290",
+      "eNumber": "E290",
+      "name": "Carbon dioxide",
+      "functionalClass": "Propellant / Carbonating Agent",
+      "primaryPurpose": "Creates carbonation in beverages and serves as a packaging gas.",
+      "commonFoodUsage": "Sparkling mineral waters, sodas, beers, and modified-atmosphere salad bags.",
+      "notes": "Naturally produced by fermentation or generated industrially for pressurization."
+    },
+    {
+      "code": "296",
+      "eNumber": "E296",
+      "name": "Malic acid, DL-",
+      "functionalClass": "Acidity Regulator",
+      "primaryPurpose": "Provides a sharp, lingering tartness reminiscent of green apples.",
+      "commonFoodUsage": "Sour confectionery, fruit jellies, carbonated soft drinks, and apple wines.",
+      "notes": "Naturally occurs in apples. Has a stronger sour taste profile than citric acid."
+    },
+    {
+      "code": "297",
+      "eNumber": "E297",
+      "name": "Fumaric acid",
+      "functionalClass": "Acidity Regulator",
+      "primaryPurpose": "A highly concentrated dry acidulant that does not absorb moisture.",
+      "commonFoodUsage": "Tortillas, dry gelatin dessert mixes, baking powders, and sour candies.",
+      "notes": "Extremely economical due to its low molecular weight and high acidity yield per gram."
+    },
+    {
+      "code": "300",
+      "eNumber": "E300",
+      "name": "Ascorbic acid, L-",
+      "functionalClass": "Antioxidant / Flour Treatment Agent",
+      "primaryPurpose": "Prevents color loss from oxidation and improves dough gas retention.",
+      "commonFoodUsage": "Commercial bread flour, fruit juices, cured meats, and canned stone fruits.",
+      "notes": "Identical to natural Vitamin C. Acts as an oxygen scavenger to preserve color and freshness."
+    },
+    {
+      "code": "301",
+      "eNumber": "E301",
+      "name": "Sodium ascorbate",
+      "functionalClass": "Antioxidant",
+      "primaryPurpose": "Retains fresh color in raw meats and accelerates the curing process.",
+      "commonFoodUsage": "Cured meats, hams, bacon, sliced deli meats, and frozen minces.",
+      "notes": "The sodium salt of ascorbic acid. Speeds up the chemical reduction of nitrites to nitric oxide."
+    },
+    {
+      "code": "315",
+      "eNumber": "E315",
+      "name": "Erythorbic Acid (Isoascorbic acid)",
+      "functionalClass": "Antioxidant",
+      "primaryPurpose": "Acts as an antioxidant to prevent browning and stabilize color in fats.",
+      "commonFoodUsage": "Cured meats, cured fish, and processed fruit preparations.",
+      "notes": "A stereoisomer of ascorbic acid. It has minimal vitamin activity but identical antioxidant power."
+    },
+    {
+      "code": "316",
+      "eNumber": "E316",
+      "name": "Sodium erythorbate",
+      "functionalClass": "Antioxidant",
+      "primaryPurpose": "Prevents lipid rancidity and stabilizes cured pink color during exposure to display lights.",
+      "commonFoodUsage": "Frankfurters, salami, cured hams, and processed beef products.",
+      "notes": "Synthesized commercially. Highly effective at preventing oxidation during long storage cycles."
+    },
+    {
+      "code": "319",
+      "eNumber": "E319",
+      "name": "Tertiary butylhydroquinone (TBHQ)",
+      "functionalClass": "Antioxidant",
+      "primaryPurpose": "Prevents unsaturated vegetable oils and animal fats from oxidizing and developing off-flavors.",
+      "commonFoodUsage": "Frying oils, instant noodles, margarines, biscuits, and packaged snack foods.",
+      "notes": "Highly stable at elevated frying temperatures, extending oil lifecycle."
+    },
+    {
+      "code": "320",
+      "eNumber": "E320",
+      "name": "Butylated hydroxyanisole (BHA)",
+      "functionalClass": "Antioxidant",
+      "primaryPurpose": "Prevents fat-rich foods, shortenings, and oils from oxidizing.",
+      "commonFoodUsage": "Shortenings, lard, dry cereals, potato chips, and dry soup mixes.",
+      "notes": "Maintains stability at baking temperatures. Often paired with BHT."
+    },
+    {
+      "code": "321",
+      "eNumber": "E321",
+      "name": "Butylated hydroxytoluene (BHT)",
+      "functionalClass": "Antioxidant",
+      "primaryPurpose": "Synergizes with BHA to protect fat molecules from breaking down.",
+      "commonFoodUsage": "Breakfast cereals, vegetable oils, dry snacks, and chewing gums.",
+      "notes": "Highly soluble in fats. Helps retain the crispiness and freshness of cereal pack linings."
+    },
+    {
+      "code": "322(i)",
+      "eNumber": "E322(i)",
+      "name": "Lecithin",
+      "functionalClass": "Emulsifier",
+      "primaryPurpose": "Enables the smooth blending of oil and water phases; prevents chocolate bloom.",
+      "commonFoodUsage": "Chocolate blocks, margarines, instant infant formulas, and bakery doughs.",
+      "notes": "A naturally occurring phospholipid mixture extracted from soybeans or egg yolks."
+    },
+    {
+      "code": "330",
+      "eNumber": "E330",
+      "name": "Citric acid",
+      "functionalClass": "Acidity Regulator",
+      "primaryPurpose": "Provides a sharp, clean sourness and controls the pH of food products.",
+      "commonFoodUsage": "Soft drinks, jams, canned tomatoes, fruit preparations, and confectionery.",
+      "notes": "Commonly produced via sugar fermentation using Aspergillus niger mold."
+    },
+    {
+      "code": "392",
+      "eNumber": "E392",
+      "name": "Rosemary extract",
+      "functionalClass": "Antioxidant",
+      "primaryPurpose": "Deodorized natural antioxidant used to protect oils and fats from rancidity.",
+      "commonFoodUsage": "Pre-packaged sausages, processed poultry, pet foods, and frying oils.",
+      "notes": "Contains active carnosic acid and carnosol, offering a natural clean-label alternative to BHA."
+    },
+    {
+      "code": "401",
+      "eNumber": "E401",
+      "name": "Sodium alginate",
+      "functionalClass": "Gelling Agent / Thickener / Stabiliser",
+      "primaryPurpose": "Forms cold-set gel networks when exposed to calcium ions.",
+      "commonFoodUsage": "Reformed onion rings, reconstructed pimiento olives, and low-fat spreads.",
+      "notes": "Extracted from brown seaweed. Key ingredient used in culinary spherification."
+    },
+    {
+      "code": "406",
+      "eNumber": "E406",
+      "name": "Agar",
+      "functionalClass": "Gelling Agent / Thickener",
+      "primaryPurpose": "Forms firm, heat-resistant gels that stay solid at room temperature.",
+      "commonFoodUsage": "Pie fillings, ice creams, vegan confectionery, canned meats, and custard powders.",
+      "notes": "Extracted from red algae. Outstanding gel strength allows for egg-free structuring."
+    },
+    {
+      "code": "407",
+      "eNumber": "E407",
+      "name": "Carrageenan",
+      "functionalClass": "Gelling Agent / Thickener / Stabiliser",
+      "primaryPurpose": "Interacts with proteins to form weak gel networks, retaining water.",
+      "commonFoodUsage": "Processed deli hams, chocolate milks, ice creams, and plant-based milks.",
+      "notes": "Extracted from red seaweeds. Prevents liquid weeping in sliced deli meats."
+    },
+    {
+      "code": "407a",
+      "eNumber": "E407a",
+      "name": "Processed eucheuma seaweed (PES)",
+      "functionalClass": "Gelling Agent / Thickener / Stabiliser",
+      "primaryPurpose": "A less refined, more economical version of carrageenan used for water binding.",
+      "commonFoodUsage": "Commercial hams, processed poultry rolls, and pet foods.",
+      "notes": "Contains higher cellulose content than standard carrageenan but performs similarly in meat products."
+    },
+    {
+      "code": "410",
+      "eNumber": "E410",
+      "name": "Carob bean gum",
+      "functionalClass": "Thickener / Stabiliser",
+      "primaryPurpose": "Provides high viscosity and prevents ice crystal growth in frozen dairy.",
+      "commonFoodUsage": "Ice creams, cream cheeses, fruit preparations, and infant formulas.",
+      "notes": "Also known as Locust Bean Gum. Extracted from the seeds of the carob tree."
+    },
+    {
+      "code": "412",
+      "eNumber": "E412",
+      "name": "Guar gum",
+      "functionalClass": "Thickener / Stabiliser",
+      "primaryPurpose": "Hydrates rapidly in cold water to provide high viscosity.",
+      "commonFoodUsage": "Gravies, sauces, ice creams, salad dressings, and pastry fillings.",
+      "notes": "Extracted from guar beans. Helps prevent syneresis (water separation) in condiments."
+    },
+    {
+      "code": "414",
+      "eNumber": "E414",
+      "name": "Gum arabic (Acacia gum)",
+      "functionalClass": "Emulsifier / Stabiliser / Glazing Agent",
+      "primaryPurpose": "Encapsulates flavor oils and acts as a barrier coating in confectionery.",
+      "commonFoodUsage": "Soft drink flavor concentrates, jelly beans, sugar icings, and pan-coated candies.",
+      "notes": "Harvested as an exudate from wild Acacia trees in the African Sahel region."
+    },
+    {
+      "code": "415",
+      "eNumber": "E415",
+      "name": "Xanthan gum",
+      "functionalClass": "Thickener / Stabiliser",
+      "primaryPurpose": "Provides high viscosity at low concentrations with easy-pouring behavior.",
+      "commonFoodUsage": "Salad dressings, commercial sauces, gluten-free baking, and syrups.",
+      "notes": "Produced by fermenting glucose with the *Xanthomonas campestris* bacterium."
+    },
+    {
+      "code": "417",
+      "eNumber": "E417",
+      "name": "Tara gum",
+      "functionalClass": "Thickener / Stabiliser",
+      "primaryPurpose": "Provides a smooth, creamy texture; bridges the performance of guar gum and carob gum.",
+      "commonFoodUsage": "Ice creams, sherbets, cheese spreads, and low-calorie dairy desserts.",
+      "notes": "Derived from the seeds of the *Caesalpinia spinosa* shrub native to South America."
+    },
+    {
+      "code": "422",
+      "eNumber": "E422",
+      "name": "Glycerol",
+      "functionalClass": "Humectant / Solvent",
+      "primaryPurpose": "Maintains moisture and prevents confectionery from drying out or crystallizing.",
+      "commonFoodUsage": "Cake icings, soft candies, food color preparations, and energy bars.",
+      "notes": "Also known as glycerin. Helps maintain flexibility in edible decorations."
+    },
+    {
+      "code": "440",
+      "eNumber": "E440",
+      "name": "Pectins",
+      "functionalClass": "Gelling Agent / Thickener",
+      "primaryPurpose": "Forms stable gels when combined with sugar and high acid levels.",
+      "commonFoodUsage": "Jams, marmalades, fruit fillings, and yogurt fruit bases.",
+      "notes": "A soluble dietary fiber extracted from citrus peels or apple pomace."
+    },
+    {
+      "code": "460(i)",
+      "eNumber": "E460(i)",
+      "name": "Microcrystalline cellulose (Cellulose gel)",
+      "functionalClass": "Thickener / Stabiliser / Bulking Agent",
+      "primaryPurpose": "Improves texture and mimics the mouthfeel of fat in low-calorie foods.",
+      "commonFoodUsage": "Shredded cheeses (prevents clumping), low-fat dressings, and ice creams.",
+      "notes": "Derived from purified wood pulp. Completely inert and passes through the digestive tract."
+    },
+    {
+      "code": "466",
+      "eNumber": "E466",
+      "name": "Sodium carboxymethyl cellulose (Cellulose gum)",
+      "functionalClass": "Thickener / Stabiliser",
+      "primaryPurpose": "Forms highly viscous, clear solutions that stabilize proteins in acidic environments.",
+      "commonFoodUsage": "Diet milkshakes, instant beverages, gluten-free bread, and ice creams.",
+      "notes": "A modified cellulose derivative. Known for its ability to bind large quantities of water."
+    },
+    {
+      "code": "471",
+      "eNumber": "E471",
+      "name": "Mono- and di-glycerides of fatty acids",
+      "functionalClass": "Emulsifier",
+      "primaryPurpose": "Improves bread volume, extends softness, and stabilizes ice cream structures.",
+      "commonFoodUsage": "Margarines, commercial breads, cake batters, and ice creams.",
+      "notes": "Extracted from vegetable or animal fats. Helps distribute fat molecules uniformly."
+    },
+    {
+      "code": "475",
+      "eNumber": "E475",
+      "name": "Polyglycerol esters of fatty acids",
+      "functionalClass": "Emulsifier",
+      "primaryPurpose": "Aids in the aeration of cake batters and maintains fat crystallization in margarines.",
+      "commonFoodUsage": "Cake batters, sponge mixes, margarines, and whipped toppings.",
+      "notes": "Produced by esterifying polyglycerols with food-grade fatty acids."
+    },
+    {
+      "code": "476",
+      "eNumber": "E476",
+      "name": "Polyglycerol esters of interesterified ricinoleic acid",
+      "functionalClass": "Emulsifier",
+      "primaryPurpose": "Reduces the viscosity of chocolate during casting and molding processes.",
+      "commonFoodUsage": "Chocolate bars, confectionery coatings, and low-fat spreads.",
+      "notes": "Also known as PGPR. Enables chocolate makers to adjust flow properties with minimal cocoa butter."
+    },
+    {
+      "code": "500(i)",
+      "eNumber": "E500(i)",
+      "name": "Sodium carbonate",
+      "functionalClass": "Acidity Regulator / Mineral Salt",
+      "primaryPurpose": "Alkaline agent used to neutralize acid and stabilize protein structures.",
+      "commonFoodUsage": "Ramen noodles (alkaline salts), cocoa powders, and prepared batters.",
+      "notes": "Also known as soda ash. Vital for creating the yellow color and springy texture in ramen."
+    },
+    {
+      "code": "500(ii)",
+      "eNumber": "E500(ii)",
+      "name": "Sodium hydrogen carbonate",
+      "functionalClass": "Raising Agent / Acidity Regulator",
+      "primaryPurpose": "Reacts with acids to release carbon dioxide gas, causing doughs to rise.",
+      "commonFoodUsage": "Baking powders, self-raising flours, biscuits, cakes, and effervescent tablets.",
+      "notes": "Commonly known as baking soda or bicarbonate of soda."
+    },
+    {
+      "code": "501(i)",
+      "eNumber": "E501(i)",
+      "name": "Potassium carbonate",
+      "functionalClass": "Acidity Regulator / Raising Agent",
+      "primaryPurpose": "Alkalizing agent used in the Dutch processing of cocoa and to make alkaline noodles.",
+      "commonFoodUsage": "Cocoa powders, instant chocolate drinks, and ramen noodles.",
+      "notes": "Helps reduce the harsh acidity of natural raw cocoa beans."
+    },
+    {
+      "code": "503(ii)",
+      "eNumber": "E503(ii)",
+      "name": "Ammonium hydrogen carbonate",
+      "functionalClass": "Raising Agent",
+      "primaryPurpose": "Reacts under heat to produce gaseous leavening, creating airy, crisp textures.",
+      "commonFoodUsage": "Hard biscuits, crisp crackers, cream puffs, and gingerbread.",
+      "notes": "Commonly known as ammonium bicarbonate. Dissolves completely without leaving soapy residues."
+    },
+    {
+      "code": "508",
+      "eNumber": "E508",
+      "name": "Potassium chloride",
+      "functionalClass": "Gelling Agent / Flavour Enhancer",
+      "primaryPurpose": "Acts as a sodium-free salt substitute and assists in firming carrageenan gels.",
+      "commonFoodUsage": "Reduced-sodium table salts, sports drinks, and prepared canned meats.",
+      "notes": "Offers a salty taste but can develop a bitter or metallic aftertaste at high levels."
+    },
+    {
+      "code": "509",
+      "eNumber": "E509",
+      "name": "Calcium chloride",
+      "functionalClass": "Firming Agent",
+      "primaryPurpose": "Reacts with alginate and pectin to strengthen food matrices and preserve crispness.",
+      "commonFoodUsage": "Canned diced tomatoes, pickles, tofu curdling, and sports beverages.",
+      "notes": "Added to canned tomatoes to prevent them from becoming mushy during cooking."
+    },
+    {
+      "code": "551",
+      "eNumber": "E551",
+      "name": "Silicon dioxide, amorphous",
+      "functionalClass": "Anti-caking Agent",
+      "primaryPurpose": "Absorbs water and coats food particles to prevent dry powders from clumping.",
+      "commonFoodUsage": "Salt shakers, garlic powders, instant coffee mixes, and dry soup bases.",
+      "notes": "Synthetic amorphous silica. It is chemically inert and does not dissolve in water."
+    },
+    {
+      "code": "553(iii)",
+      "eNumber": "E553(iii)",
+      "name": "Talc",
+      "functionalClass": "Anti-caking Agent / Glazing Agent",
+      "primaryPurpose": "Prevents surfaces from sticking and provides a glossy finish on confectionery.",
+      "commonFoodUsage": "Chewing gums, polished rice grains, and pan-coated candies.",
+      "notes": "Commercially purified mineral talc. Formulated to be free from asbestos fibers."
+    },
+    {
+      "code": "620",
+      "eNumber": "E620",
+      "name": "Glutamic acid, L(+)-",
+      "functionalClass": "Flavour Enhancer",
+      "primaryPurpose": "Enhances savory flavor profiles; the chemical precursor to monosodium glutamate.",
+      "commonFoodUsage": "Savory snack seasonings, stock cubes, and protein extracts.",
+      "notes": "An amino acid found naturally in high levels in aged cheeses and soy sauce."
+    },
+    {
+      "code": "621",
+      "eNumber": "E621",
+      "name": "Monosodium L-glutamate",
+      "functionalClass": "Flavour Enhancer",
+      "primaryPurpose": "Stimulates umami taste receptors to intensify savory flavors.",
+      "commonFoodUsage": "Savory snack food seasonings, stock cubes, instant noodles, meat pies, and marinades.",
+      "notes": "Commonly known as MSG. Derived from fermented starches or sugar cane."
+    },
+    {
+      "code": "627",
+      "eNumber": "E627",
+      "name": "Disodium 5'-guanylate",
+      "functionalClass": "Flavour Enhancer",
+      "primaryPurpose": "Works synergistically with MSG to dramatically multiply the perception of umami flavor.",
+      "commonFoodUsage": "Instant noodle seasonings, snack coatings, and canned stews.",
+      "notes": "Naturally derived from yeast extracts or mushrooms. Often blended with 631."
+    },
+    {
+      "code": "631",
+      "eNumber": "E631",
+      "name": "Disodium 5'-inosinate",
+      "functionalClass": "Flavour Enhancer",
+      "primaryPurpose": "An intense savory flavor enhancer that works in combination with glutamates.",
+      "commonFoodUsage": "Packaged potato chips, dry gravy mixes, and processed meats.",
+      "notes": "Derived commercially from dried bonito fish or fermented starches."
+    },
+    {
+      "code": "635",
+      "eNumber": "E635",
+      "name": "Disodium 5'-ribonucleotides",
+      "functionalClass": "Flavour Enhancer",
+      "primaryPurpose": "Creates a strong savory synergy when combined with MSG.",
+      "commonFoodUsage": "Commercial seasoning blends, salted snack foods, instant soup bases, and gravies.",
+      "notes": "A balanced mix of disodium inosinate and disodium guanylate. Highly potent."
+    },
+    {
+      "code": "901",
+      "eNumber": "E901",
+      "name": "Beeswax",
+      "functionalClass": "Glazing Agent",
+      "primaryPurpose": "Provides a protective, glossy coating on candies and chocolate shells.",
+      "commonFoodUsage": "Jelly beans, chocolate buttons, and glazed fruit treats.",
+      "notes": "Harvested from honeycombs. Offers water resistance to prevent stickiness."
+    },
+    {
+      "code": "903",
+      "eNumber": "E903",
+      "name": "Carnauba wax",
+      "functionalClass": "Glazing Agent",
+      "primaryPurpose": "Provides a high-gloss, protective coating on dry candies and gums.",
+      "commonFoodUsage": "Chewing gums, candy-coated chocolates, and glazed donut drops.",
+      "notes": "Extracted from the leaves of the Brazilian carnauba palm (*Copernicia prunifera*)."
+    },
+    {
+      "code": "941",
+      "eNumber": "E941",
+      "name": "Nitrogen",
+      "functionalClass": "Propellant / Packaging Gas",
+      "primaryPurpose": "Displaces oxygen inside packaging to prevent food oxidation and package collapse.",
+      "commonFoodUsage": "Potato chip bags, ground coffee canisters, and beer kegs.",
+      "notes": "Prevents fragile foods from crushing during transit while keeping oils fresh."
+    },
+    {
+      "code": "942",
+      "eNumber": "E942",
+      "name": "Nitrous oxide",
+      "functionalClass": "Propellant",
+      "primaryPurpose": "Provides aerosol spray force and whips creams under pressure.",
+      "commonFoodUsage": "Aerosol whipped cream cans and cooking oil sprays.",
+      "notes": "Dissolves well in fat under pressure, creating a light, whipped texture upon release."
+    },
+    {
+      "code": "950",
+      "eNumber": "E950",
+      "name": "Acesulfame potassium",
+      "functionalClass": "Sweetener",
+      "primaryPurpose": "Provides intense sweetness roughly 200 times sweeter than sugar.",
+      "commonFoodUsage": "Diet soft drinks, sugar-free dairy, protein powders, and chewing gums.",
+      "notes": "Heat stable, allowing its use in commercial baking and pasteurization lines."
+    },
+    {
+      "code": "951",
+      "eNumber": "E951",
+      "name": "Aspartame",
+      "functionalClass": "Sweetener",
+      "primaryPurpose": "An intense, low-calorie sweetener approximately 200 times sweeter than sugar.",
+      "commonFoodUsage": "Diet soft drinks, sugar-free yogurts, tabletop sweeteners, and sugarless gums.",
+      "notes": "Composed of aspartic acid and phenylalanine. Degrades under high baking temperatures."
+    },
+    {
+      "code": "953",
+      "eNumber": "E953",
+      "name": "Isomalt (Hydrogenated isomaltulose)",
+      "functionalClass": "Sweetener / Bulking Agent",
+      "primaryPurpose": "A sugar alcohol that replaces the physical bulk of sugar with half the calories.",
+      "commonFoodUsage": "Sugar-free hard candies, cough drops, chewing gums, and cake decorations.",
+      "notes": "Highly resistant to moisture absorption, preventing hard candies from becoming sticky."
+    },
+    {
+      "code": "955",
+      "eNumber": "E955",
+      "name": "Sucralose",
+      "functionalClass": "Sweetener",
+      "primaryPurpose": "Provides high-intensity sweetness (600 times sweeter than sugar) with zero calories.",
+      "commonFoodUsage": "No-added-sugar syrups, carbonated soft drinks, baked goods, and canned fruits.",
+      "notes": "Highly stable under heat and across a wide pH spectrum."
+    },
+    {
+      "code": "956",
+      "eNumber": "E956",
+      "name": "Alitame",
+      "functionalClass": "Sweetener",
+      "primaryPurpose": "Provides an intense sweet taste roughly 2,000 times sweeter than sugar.",
+      "commonFoodUsage": "Sugar-free bakery goods, sweet drinks, and confectionery.",
+      "notes": "An aspartic acid-containing dipeptide. Excellent stability under baking heats."
+    },
+    {
+      "code": "957",
+      "eNumber": "E957",
+      "name": "Thaumatin",
+      "functionalClass": "Sweetener / Flavour Modifier",
+      "primaryPurpose": "An intense natural sweetening protein that modifies and lingeringly sweetens flavors.",
+      "commonFoodUsage": "Chewing gums, sugar-free dairy products, and flavoring preparations.",
+      "notes": "Extracted from the katemfe fruit (*Thaumatococcus daniellii*) native to West Africa."
+    },
+    {
+      "code": "961",
+      "eNumber": "E961",
+      "name": "Neotame",
+      "functionalClass": "Sweetener",
+      "primaryPurpose": "An ultra-high-intensity sweetener roughly 8,000 times sweeter than sucrose.",
+      "commonFoodUsage": "Diet soft drinks, sweet tabletop powders, and low-calorie baked goods.",
+      "notes": "A derivative of aspartame that is highly stable under commercial pasteurization and baking."
+    },
+    {
+      "code": "965(i)",
+      "eNumber": "E965(i)",
+      "name": "Maltitol",
+      "functionalClass": "Sweetener / Humectant",
+      "primaryPurpose": "Provides a clean, sugar-like sweetness (90% sweetness of sugar) with fewer calories.",
+      "commonFoodUsage": "Sugar-free chocolates, sugarless baked snacks, and chewing gums.",
+      "notes": "A sugar alcohol. Does not promote tooth decay and behaves similarly to sugar in confectionery."
+    },
+    {
+      "code": "967",
+      "eNumber": "E967",
+      "name": "Xylitol",
+      "functionalClass": "Sweetener / Humectant",
+      "primaryPurpose": "Provides equal sweetness to sugar with a distinct cooling sensation in the mouth.",
+      "commonFoodUsage": "Dental chewing gums, toothpastes, mints, and sugar-free throat drops.",
+      "notes": "A sugar alcohol with proven dental benefits, as mouth bacteria cannot ferment it."
+    },
+    {
+      "code": "968",
+      "eNumber": "E968",
+      "name": "Erythritol",
+      "functionalClass": "Sweetener / Humectant",
+      "primaryPurpose": "A non-caloric sugar alcohol used to dilute high-intensity sweeteners.",
+      "commonFoodUsage": "Diet sodas, sugar-free ice creams, monk fruit blends, and stevia table packs.",
+      "notes": "Naturally produced by fermenting corn starches. Has a very high digestive tolerance."
+    },
+    {
+      "code": "1200",
+      "eNumber": "E1200",
+      "name": "Polydextroses",
+      "functionalClass": "Bulking Agent / Humectant / Stabiliser",
+      "primaryPurpose": "Replaces the volume and texture of sugar while acting as a soluble dietary fiber.",
+      "commonFoodUsage": "Low-carb snack bars, sugar-free desserts, and reduced-calorie baked goods.",
+      "notes": "A highly branched synthetic polymer of glucose with minimal blood sugar impact."
+    },
+    {
+      "code": "1400",
+      "eNumber": "E1400",
+      "name": "Dextrins, roasted starch",
+      "functionalClass": "Thickener / Binder / Carrier",
+      "primaryPurpose": "Provides soluble solids and adhesive properties in food coatings.",
+      "commonFoodUsage": "Dry seasoning mixes, snack seasonings, pan-coated candies, and batter coatings.",
+      "notes": "Produced by dry-roasting starch under acidic conditions to break down molecular size."
+    },
+    {
+      "code": "1412",
+      "eNumber": "E1412",
+      "name": "Distarch phosphate",
+      "functionalClass": "Thickener / Stabiliser",
+      "primaryPurpose": "Resists structural breakdown during cooking and retort sterilization.",
+      "commonFoodUsage": "Canned soups, packaged gravies, frozen pies, and dessert puddings.",
+      "notes": "Starch chemically cross-linked with sodium trimetaphosphate."
+    },
+    {
+      "code": "1414",
+      "eNumber": "E1414",
+      "name": "Acetylated distarch phosphate",
+      "functionalClass": "Thickener / Stabiliser / Binder",
+      "primaryPurpose": "Provides outstanding freeze-thaw stability and resists retrogradation (water separation).",
+      "commonFoodUsage": "Frozen dinners, instant sauces, commercial salad dressings, and pie fillings.",
+      "notes": "Modified food starch that ensures frozen products do not become watery when thawed."
+    },
+    {
+      "code": "1422",
+      "eNumber": "E1422",
+      "name": "Acetylated distarch adipate",
+      "functionalClass": "Thickener / Stabiliser / Binder",
+      "primaryPurpose": "Modified starch that resists retrogradation (weeping), acid degradation, and high shear forces.",
+      "commonFoodUsage": "BBQ sauces, commercial gravies, fruit pie fillings, salad dressings, and mayonnaise.",
+      "notes": "Provides high stability in low-pH (highly acidic) sauces. Ensures the sauce does not separate during freezing or hot-holding cycles."
+    },
+    {
+      "code": "1442",
+      "eNumber": "E1442",
+      "name": "Hydroxypropyl distarch phosphate",
+      "functionalClass": "Thickener / Stabiliser",
+      "primaryPurpose": "Provides a smooth, creamy texture in dairy systems; resists acid and heat shearing.",
+      "commonFoodUsage": "Yogurts, sour creams, commercial custards, canned soups, and baby foods.",
+      "notes": "A modified starch widely favored in dairy processing for its clean taste and velvety mouthfeel."
+    },
+    {
+      "code": "1450",
+      "eNumber": "E1450",
+      "name": "Starch sodium octenyl succinate",
+      "functionalClass": "Emulsifier / Stabiliser",
+      "primaryPurpose": "Acts as a polymeric emulsifier to encapsulate oil-soluble flavors and vitamins.",
+      "commonFoodUsage": "Soft drink flavor emulsions, vitamin fortification powders, and salad dressings.",
+      "notes": "Modified to make the starch molecule partially hydrophobic (oil-attracting)."
+    },
+    {
+      "code": "1520",
+      "eNumber": "E1520",
+      "name": "Propylene glycol",
+      "functionalClass": "Humectant / Solvent / Carrier",
+      "primaryPurpose": "Dissolves oil-soluble flavor compounds and colors, allowing uniform dispersion.",
+      "commonFoodUsage": "Liquid food flavorings, liquid food colors, and confectionery coatings.",
+      "notes": "A clear, odorless liquid. Not to be confused with toxic ethylene glycol."
+    },
+    {
+      "code": "200",
+      "eNumber": "E200",
+      "name": "Sorbic acid",
+      "functionalClass": "Preservative",
+      "primaryPurpose": "An organic compound that prevents the growth of molds, yeasts, and fungi.",
+      "commonFoodUsage": "Grated cheeses, processed cheese spreads, baked goods, and dried fruits.",
+      "notes": "Highly effective at low levels. Safely halts fungal growth without affecting food aroma or flavor."
+    },
+    {
+      "code": "203",
+      "eNumber": "E203",
+      "name": "Calcium sorbate",
+      "functionalClass": "Preservative",
+      "primaryPurpose": "Calcium salt formulation used as an effective surface preservative against mold and yeast.",
+      "commonFoodUsage": "Pre-shredded/grated cheeses, cheese packaging wraps, and dry bakery glazes.",
+      "notes": "Frequently utilized in pre-grated cheeses because its physical structure disperses exceptionally evenly."
+    }
+  ]
+}

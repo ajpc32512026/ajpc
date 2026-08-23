@@ -9,12 +9,14 @@
   "totalTime": "10 min",
   "servings": "4 servings",
   "tags": [
+    "Asian",
+    "Condiment",
     "Garlic",
     "Sauce",
     "Savoury",
     "Sweet",
     "Under 30 Minutes",
-    "Vegan"
+    "Vegetarian"
   ],
   "ingredients": [
     {
@@ -112,5 +114,6 @@
     "vitamin_a_ug": 2,
     "vitamin_c_mg": 11
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-07-21",
+  "yieldPerBatch": "4 servings"
 }

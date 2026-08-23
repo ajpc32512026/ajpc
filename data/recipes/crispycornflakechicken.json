@@ -1,0 +1,160 @@
+{
+  "id": "crispycornflakechicken",
+  "title": "Crispy Cornflake Chicken",
+  "category": "Entree",
+  "difficulty": "Beginner",
+  "description": "Chicken breast tenders tenderized in a spiced buttermilk marinade, coated in a simple flour-based slurry, and crusted with crushed cornflakes. Baked in the air fryer for a crispy texture without the need for deep frying. Serve alongside [[smokybbqsauce|Smoky BBQ Sauce]] or [[honeymustardsauce|Honey Mustard Sauce]].",
+  "prepTime": "15 min",
+  "cookTime": "10 Min",
+  "totalTime": "25 Min",
+  "servings": "2",
+  "tags": [
+    "Air-Fried",
+    "American",
+    "Chicken",
+    "Crispy",
+    "Dinner",
+    "Easy",
+    "Savoury",
+    "Under 30 Minutes"
+  ],
+  "ingredients": [
+    {
+      "quantity": "500",
+      "unit": "g",
+      "item": "Chicken Tenders",
+      "notes": "gently flattened to an even thickness"
+    },
+    {
+      "quantity": "75",
+      "unit": "ml",
+      "item": "Buttermilk",
+      "notes": "whole milk can be used as an alternative"
+    },
+    {
+      "quantity": "20",
+      "unit": "g",
+      "item": "Plain Flour"
+    },
+    {
+      "quantity": "4",
+      "unit": "g",
+      "item": "Sweet Paprika"
+    },
+    {
+      "quantity": "3",
+      "unit": "g",
+      "item": "Garlic Powder"
+    },
+    {
+      "quantity": "3",
+      "unit": "g",
+      "item": "Onion Powder"
+    },
+    {
+      "quantity": "1",
+      "unit": "g",
+      "item": "Ground Turmeric",
+      "notes": "adds a warm, golden color to the coating"
+    },
+    {
+      "quantity": "4",
+      "unit": "g",
+      "item": "Salt"
+    },
+    {
+      "quantity": "1",
+      "unit": "g",
+      "item": "Black Pepper"
+    },
+    {
+      "quantity": "100",
+      "unit": "g",
+      "item": "Cornflakes",
+      "notes": "plain, unsweetened"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Prepare the Marinade Slurry\nIn a medium bowl, whisk together the buttermilk (or milk), plain flour, sweet paprika, garlic powder, onion powder, ground turmeric, salt, and black pepper. Whisk until the batter is smooth and free of flour lumps. It should have the consistency of a thin pancake batter."
+    },
+    {
+      "step": 2,
+      "instruction": "Marinate the Chicken\nAdd the chicken tenders to the bowl with the marinade. Turn each piece over to ensure they are fully coated by the mixture. Cover and refrigerate for 1 to 2 hours to allow the chicken to tenderize."
+    },
+    {
+      "step": 3,
+      "instruction": "Crush the Cornflakes\nPlace the cornflakes into a zip-lock bag. Gently roll over the bag with a rolling pin or crush with the bottom of a heavy mug. Aim for a mixture of fine crumbs and some slightly larger, flaky pieces to ensure good coverage and texture. Pour the crushed cornflakes into a wide, shallow dish."
+    },
+    {
+      "step": 4,
+      "instruction": "Coat the Tenders\nPreheat your air fryer to 200°C (390°F). Working with one tender at a time, lift it from the wet marinade, allowing the excess to drip off back into the bowl. Press the chicken firmly into the crushed cornflakes, turning to coat all sides. Use your hands to press the crumbs onto the chicken so they adhere well."
+    },
+    {
+      "step": 5,
+      "instruction": "Air Fry\nArrange the coated chicken tenders in a single layer in the air fryer basket, ensuring they do not overlap. Cook at 200°C (390°F) for 10 minutes, gently turning the tenders over halfway through the cooking time, until the chicken is cooked through and the coating is crisp."
+    }
+  ],
+  "notes": [
+    {
+      "type": "serving",
+      "title": "Serving Suggestion:",
+      "content": "These tenders pair well with homemade dipping sauces. Try them with the oil-free [[smokybbqsauce|Smoky BBQ Sauce]] or the sweet-and-tangy [[honeymustardsauce|Honey Mustard Sauce]]."
+    },
+    {
+      "type": "tip",
+      "title": "Slurry Consistency:",
+      "content": "The flour in the marinade acts as a binder to help the cornflakes stick without eggs. If the mixture seems too thin to cling to the chicken after marinating, whisk in an additional 5 grams of flour before coating."
+    },
+    {
+      "type": "tip",
+      "title": "Preventing Soggy Spots:",
+      "content": "To help the bottom of the tenders crisp evenly, ensure the air fryer basket is clean and not overcrowded, allowing air to circulate under the pieces. Flipping halfway through is necessary for even heat distribution."
+    },
+    {
+      "type": "tip",
+      "title": "Optional Cooking Spray:",
+      "content": "While this recipe is designed to be oil-free, a very light spray of olive oil or cooking spray on the cornflake coating just before cooking can assist with browning and reduce any dry, powdery texture."
+    },
+    {
+      "type": "storage",
+      "title": "Storage",
+      "content": "Store any leftovers in a single layer in an airtight container lined with a paper towel to absorb moisture. Keep in the refrigerator for up to 3 days."
+    },
+    {
+      "type": "technique",
+      "title": "Reheating:",
+      "content": "To maintain the texture, avoid the microwave when reheating. Place the leftovers back into the air fryer at 180°C (350°F) for 4 to 5 minutes until heated through."
+    }
+  ],
+  "nutrition": {
+    "servings": 2,
+    "cal": 458,
+    "kj": 1918,
+    "protein": 22,
+    "carbs": 72,
+    "sugars": 9,
+    "fat": 7,
+    "saturated_fat": 2.1,
+    "fiber": 4,
+    "sodium": 510,
+    "coverage": 90,
+    "foundCount": 9,
+    "totalCount": 10,
+    "unmatchedItems": [
+      "Cornflakes"
+    ],
+    "calcium_mg": 86,
+    "iron_mg": 2,
+    "potassium_mg": 526,
+    "magnesium_mg": 50,
+    "zinc_mg": 2,
+    "cholesterol_mg": 46,
+    "vitamin_a_ug": 137,
+    "vitamin_c_mg": 8,
+    "vitamin_d_ug": 1
+  },
+  "lastModified": "2026-08-18",
+  "yieldPerBatch": "1 batch"
+}

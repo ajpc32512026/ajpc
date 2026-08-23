@@ -8,23 +8,23 @@
   "cookTime": "35 min",
   "totalTime": "1 hr 15 min",
   "servings": "8 servings",
+  "yieldPerBatch": "1 flan",
   "tags": [
     "Alcohol",
+    "Apricot",
+    "Australian",
+    "Baking",
     "Brandy",
     "Classic",
     "Creamy",
     "Dessert",
+    "French",
     "Pastry",
     "Rich",
     "Sweet",
-    "Vegetarian",
-    "Apricot",
-    "Australian"
+    "Vegetarian"
   ],
   "ingredients": [
-    {
-      "heading": "Base"
-    },
     {
       "quantity": "200",
       "unit": "g",
@@ -33,25 +33,26 @@
     {
       "quantity": "100",
       "unit": "g",
-      "item": "White Sugar"
+      "item": "White Sugar",
+      "notes": "divided: 50g for Base, 50g for Custard"
     },
     {
-      "quantity": "50",
+      "quantity": "80",
       "unit": "g",
-      "item": "Almonds"
+      "item": "Almonds",
+      "notes": "divided: 50g ground (for Base), 30g flaked (for Topping)"
     },
     {
       "quantity": "125",
       "unit": "g",
-      "item": "Butter"
-    },
-    {
-      "heading": "Filling"
+      "item": "Butter",
+      "notes": "cold, cubed"
     },
     {
       "quantity": "2",
       "unit": "",
-      "item": "Eggs"
+      "item": "Eggs",
+      "notes": "separated (yolks used for custard)"
     },
     {
       "quantity": "1",
@@ -64,9 +65,6 @@
       "item": "Milk Full-Cream"
     },
     {
-      "heading": "Topping"
-    },
-    {
       "quantity": "150",
       "unit": "ml",
       "item": "Pure Cream"
@@ -74,7 +72,8 @@
     {
       "quantity": "6–8",
       "unit": "",
-      "item": "Apricot"
+      "item": "Apricot",
+      "notes": "halved"
     },
     {
       "quantity": "3",
@@ -85,33 +84,28 @@
       "quantity": "1",
       "unit": "tbsp",
       "item": "Brandy"
-    },
-    {
-      "quantity": "30",
-      "unit": "g",
-      "item": "Almonds"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Combine flour, sugar, ground almonds, and butter. Rub together until crumbly, then bring together into a dough. Chill for 30 minutes."
+      "instruction": "Combine 200 g plain flour, 50 g white sugar, and 50 g ground almonds in a bowl. Rub in 125 g cold, cubed butter with your fingertips until the mixture resembles fine breadcrumbs, then bind together into a smooth pastry dough. Wrap in plastic wrap and chill in the refrigerator for 30 minutes."
     },
     {
       "step": 2,
-      "instruction": "Roll pastry out and line a flan tin. Blind bake until lightly golden, then cool completely."
+      "instruction": "Roll the chilled pastry dough out on a lightly floured surface and use it to line a loose-bottomed flan tin. Blind bake in a preheated oven at 180°C until lightly golden, then remove from the oven and allow to cool completely."
     },
     {
       "step": 3,
-      "instruction": "Beat egg yolks with sugar and vanilla. Gradually add warm milk, then cook gently until thickened. Cool slightly and fold through whipped cream."
+      "instruction": "Separate the 2 eggs (reserve the whites for another use). In a heatproof bowl, beat the 2 egg yolks with the remaining 50 g white sugar and 1 tsp vanilla extract until pale. Gradually whisk in 250 ml of warm milk, then cook the mixture gently over a double boiler, stirring constantly, until thickened into a smooth custard. Remove from the heat, allow to cool slightly, then whip 150 ml pure cream to soft peaks and gently fold it through the custard."
     },
     {
       "step": 4,
-      "instruction": "Fill cooled pastry shell with custard. Arrange apricot halves over the top."
+      "instruction": "Fill the cooled pastry shell with the prepared cream custard. Arrange the 6–8 halved apricots cut-side down over the surface of the custard."
     },
     {
       "step": 5,
-      "instruction": "Warm apricot jam with brandy and brush over fruit. Finish with flaked almonds and chill until set."
+      "instruction": "Warm 3 tbsp apricot jam with 1 tbsp brandy in a small saucepan over low heat, then brush this glaze generously over the apricots. Finish by scattering the remaining 30 g flaked almonds over the top and chill the flan in the refrigerator until set."
     }
   ],
   "notes": [
@@ -151,5 +145,5 @@
     "vitamin_c_mg": 4,
     "vitamin_d_ug": 3
   },
-  "lastModified": "2026-06-05"
+  "lastModified": "2026-08-19"
 }
