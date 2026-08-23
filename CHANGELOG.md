@@ -6,6 +6,26 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## 2026-08-23
+
+### Added
+- **Food Additives Database** — Composed a comprehensive database (`food-function.json`) containing chemical classes, primary purposes, typical food groups, and background safety notes for 85+ of the most common commercial additives.
+- **Australian Products Additives Index** — Built an optimized local product database (`australian-products-additives.json`) containing retail food products sold in Australia and their associated additive ingredients lists.
+- **Off-line Large Dataset Processor** — Created a stream-based Python extraction tool (`extract_additives.py`) to safely process the 12.7 GB Open Food Facts global database and compress it into a lightweight localized JSON index without consuming excessive RAM.
+- **Directory Organizer Utility** — Designed a migration script (`organize-scripts.js`) to clean the project root directory and relocate all command-line utilities into a dedicated `scripts/` folder, featuring automated relative path patching and a `--undo` rollback flag.
+
+### Changed
+- **Overhauled Search Engine** — Upgraded `search.js` to search beyond recipes. The engine now performs fuzzy text matching across recipe titles, descriptions, and ingredients (instead of strict word-boundary matching solely on tags).
+- **Additive & Product Search Integration** — Integrated additives and retail products into the main search flow. Searching for a chemical code, name, or grocery product now brings up matching food additives and localized retail products.
+- **Interactive Additives Panel** — Re-engineered the product card layout to support inline interactive accordions. Users can now click on any additive badge to expand its full chemical details, typical usage, and safety notes in-place without scrolling or reloading.
+
+### Fixed
+- **Recipe Builder Row Deletion** — Resolved a bug in `builder-ui.js` where clicking the "✕" button next to an ingredient, method step, or equipment item mistakenly deleted the button itself rather than removing the parent container row.
+- **Builder Equipment Inputs** — Restored the missing autocomplete input, enter-key handlers, and dropdown elements for the "You Will Also Need" section inside the Recipe Builder.
+- **Additive Sub-class Resolution** — Patched the additive search and lookup engines to gracefully map simplified base codes (e.g., `160c` or `322`) to more specific sub-class listings (e.g., `160c(ii)` or `322(i)`) when exact matches are unavailable.
+
+---
+
 ## 2026-08-02
 
 ### Fixed
