@@ -1,7 +1,7 @@
 {
   "id": "sausageroll",
   "title": "Classic Aussie Sausage Rolls",
-  "category": "Dinner",
+  "category": "Lunch",
   "difficulty": "Beginner",
   "description": "The Aussie snack king — perfect for footy days, picnics, or anytime hunger strikes.",
   "prepTime": "20 min",
@@ -70,6 +70,10 @@
     {
       "item": "Baking Paper",
       "note": "makes it easier to roll and prevents sticking to the bench."
+    },
+    {
+      "item": "Large piping bag",
+      "note": "Makes portion control and even distribution much easier."
     }
   ],
   "method": [
@@ -83,11 +87,11 @@
     },
     {
       "step": 3,
-      "instruction": "Cut each puff pastry sheet in half. Place the meat mixture along the long edge of each pastry strip and roll tightly, seam side down."
+      "instruction": "Cut each puff pastry sheet in half. Place the meat mixture in a piping bag, pipe along the long edge of each pastry strip and roll tightly, seam side down."
     },
     {
       "step": 4,
-      "instruction": "Cut each roll into approximately 8–10 cm lengths. Place on the prepared trays."
+      "instruction": "Cut each roll into approximately 12-14 cm lengths. Place on the prepared trays."
     },
     {
       "step": 5,
@@ -135,5 +139,5 @@
     "vitamin_c_mg": 14,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-08-22"
+  "lastModified": "2026-08-24"
 }

@@ -1,13 +1,14 @@
 {
   "id": "bananacake",
   "title": "Banana Cake with Lemon Frosting",
-  "category": "Baking",
+  "category": "Cakes",
+  "difficulty": "Beginner",
   "description": "A moist, tender banana cake made with oil — no mixer required. Crowned with a tangy lemon buttercream and toasted coconut.",
   "prepTime": "20 min",
   "cookTime": "45 min",
   "totalTime": "1 hr 5 min",
   "servings": "8 slices",
-  "difficulty": "Beginner",
+  "yieldPerBatch": "1 batch",
   "tags": [
     "Australian",
     "Baking",
@@ -54,12 +55,12 @@
     {
       "quantity": "125",
       "unit": "ml",
-      "item": "Milk Full-Cream"
+      "item": "Milk Full-cream"
     },
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Bi-Carb Soda"
+      "item": "Bi-carb Soda"
     },
     {
       "quantity": "3",
@@ -69,7 +70,7 @@
     {
       "quantity": "300",
       "unit": "g",
-      "item": "Self-Raising Flour"
+      "item": "Self-raising Flour"
     },
     {
       "quantity": "125",
@@ -146,91 +147,30 @@
       "content": "Best eaten within 2 days. Store in an airtight container in a cool place. The toasted coconut adds a lovely crunch and nutty contrast to the soft cake."
     }
   ],
-  "related": [
-    {
-      "id": "bananabread",
-      "title": "Banana Bread",
-      "matchingTags": [
-        "Banana",
-        "Bread",
-        "Breakfast",
-        "Classic",
-        "Make Ahead",
-        "Rich",
-        "Sweet",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "hummingbird",
-      "title": "Hummingbird Cake — Cafe Style",
-      "matchingTags": [
-        "Banana",
-        "Party",
-        "Rich",
-        "Sweet",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "classiccarrotcake",
-      "title": "Classic Carrot Cake",
-      "matchingTags": [
-        "Baked",
-        "Classic",
-        "Creamy",
-        "Party",
-        "Sweet",
-        "Vegetarian",
-        "Carrot"
-      ]
-    },
-    {
-      "id": "lemoncoconut",
-      "title": "Lemon Coconut Cake",
-      "matchingTags": [
-        "Coconut",
-        "Dessert",
-        "Lemon",
-        "Sweet",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "orangepoppyseed",
-      "title": "Orange & Poppy Seed Cake",
-      "matchingTags": [
-        "Citrus",
-        "Dessert",
-        "Orange",
-        "Rich",
-        "Sweet",
-        "Vegetarian"
-      ]
-    }
-  ],
   "nutrition": {
     "servings": 8,
-    "cal": 624,
-    "kj": 2610,
-    "protein": 9,
-    "carbs": 69,
-    "sugars": 36,
-    "fat": 36,
-    "saturated_fat": 14,
-    "fiber": 3,
-    "sodium": 503,
+    "cal": 910,
+    "kj": 3806,
+    "protein": 12,
+    "carbs": 82,
+    "sugars": 47,
+    "fat": 60,
+    "saturated_fat": 32.5,
+    "fiber": 6,
+    "sodium": 544,
     "coverage": 100,
-    "calcium_mg": 69,
-    "iron_mg": 1,
-    "potassium_mg": 369,
-    "magnesium_mg": 39,
+    "foundCount": 14,
+    "totalCount": 14,
+    "unmatchedItems": [],
+    "calcium_mg": 79,
+    "iron_mg": 2,
+    "potassium_mg": 486,
+    "magnesium_mg": 66,
     "zinc_mg": 1,
-    "cholesterol_mg": 123,
-    "vitamin_a_ug": 196,
-    "vitamin_c_mg": 5,
-    "vitamin_d_ug": 1
+    "cholesterol_mg": 289,
+    "vitamin_a_ug": 263,
+    "vitamin_c_mg": 4,
+    "vitamin_d_ug": 3
   },
-  "lastModified": "2026-06-03",
-  "yieldPerBatch": "1 batch"
+  "lastModified": "2026-08-24"
 }

@@ -2021,6 +2021,12 @@
       "unit": "g",
       "price": 16.5,
       "brand": "Woolworths"
+    },
+    "Sausage Mince": {
+      "size": 1000,
+      "unit": "g",
+      "price": 11,
+      "brand": "Woolworths"
     }
   },
   "milk_cream": {
@@ -2778,7 +2784,7 @@
     }
   },
   "_meta": {
-    "lastUpdated": "2026-08-12",
+    "lastUpdated": "2026-08-23",
     "version": "1.0"
   }
 }

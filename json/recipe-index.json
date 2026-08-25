@@ -48,7 +48,7 @@
   {
     "id": "applepie",
     "name": "Apple Pie",
-    "category": "Baking",
+    "category": "Desserts",
     "tags": [
       "American",
       "Baking",
@@ -150,7 +150,7 @@
   {
     "id": "bananacake",
     "name": "Banana Cake with Lemon Frosting",
-    "category": "Baking",
+    "category": "Cakes",
     "tags": [
       "Australian",
       "Baking",
@@ -720,7 +720,7 @@
   {
     "id": "cherrycoconutcake",
     "name": "Cherry and Coconut Cake",
-    "category": "Baking",
+    "category": "Cakes",
     "tags": [
       "Australian",
       "Baking",
@@ -948,7 +948,7 @@
   {
     "id": "classiccarrotcake",
     "name": "Classic Carrot Cake",
-    "category": "Baking",
+    "category": "Cakes",
     "tags": [
       "American",
       "Baked",
@@ -1382,7 +1382,7 @@
   {
     "id": "meatpie",
     "name": "Classic Aussie Meat Pies",
-    "category": "Dinner",
+    "category": "Lunch",
     "tags": [
       "Australian",
       "Baked",
@@ -1690,7 +1690,6 @@
     "tags": [
       "Dinner",
       "Filipino",
-      "Gluten-Free",
       "Pork",
       "Rich",
       "Savoury",
@@ -1810,13 +1809,13 @@
   {
     "id": "sausageroll",
     "name": "Classic Aussie Sausage Rolls",
-    "category": "Dinner",
+    "category": "Lunch",
     "tags": [
       "Australian",
       "Baked",
       "Baking",
       "Classic",
-      "Dinner",
+      "Lunch",
       "Make Ahead",
       "Pastry",
       "Pork",
@@ -2061,7 +2060,7 @@
   {
     "id": "theultimatechocolatemudcake",
     "name": "The Ultimate Chocolate Mud Cake",
-    "category": "Desserts",
+    "category": "Cakes",
     "tags": [
       "Australian",
       "Baking",

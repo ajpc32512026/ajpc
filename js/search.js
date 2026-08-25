@@ -358,8 +358,34 @@
 
         var html = '';
 
-        // 1. Render Matching Food Additives
+        // 1. Render Matching Recipes (Moved to top)
+        if (recipeResults.length > 0) {
+            html += '<h2 class="section-title" style="color: var(--copper); margin-bottom:16px;">Matching Recipes</h2>';
+            html += '<ul class="search-result-list">';
+            recipeResults.forEach(function(item) {
+                var recipe = item.recipe;
+                html += '<li class="search-result-entry">';
+                html += '<h3><a href="recipe.html?id=' + encodeURIComponent(recipe.id) + '">' +
+                    escHtml(recipe.title || recipe.name || recipe.id) + '</a></h3>';
+                if (recipe.description) {
+                    html += '<p>' + escHtml(recipe.description.slice(0, 140)) + (recipe.description.length > 140 ? '…' : '') + '</p>';
+                }
+                if (recipe.tags && recipe.tags.length) {
+                    html += '<div class="search-result-tags">';
+                    recipe.tags.forEach(function(t) {
+                        html += '<a href="search.html?q=' + encodeURIComponent(t) + '" class="recipe-tag">#' + escHtml(t) + '</a>';
+                    });
+                    html += '</div>';
+                }
+                html += '</li>';
+            });
+            html += '</ul>';
+        }
+
+        // 2. Render Matching Food Additives
         if (additiveResults.length > 0) {
+            if (html) html += '<hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.1); margin: 24px 0;" />';
+            
             html += '<div class="additive-search-results">';
             html += '<h2 class="section-title" style="color: var(--copper); margin-bottom:16px;">Matching Food Additives</h2>';
             html += '<div class="additive-results-grid" style="display: grid; gap: 16px; margin-bottom: 30px;">';
@@ -379,7 +405,7 @@
             html += '</div></div>';
         }
 
-        // 2. Render Matching Australian Products & Additive Mappings
+        // 3. Render Matching Australian Products & Additive Mappings
         if (productResults.length > 0) {
             if (html) html += '<hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.1); margin: 24px 0;" />';
             
@@ -445,7 +471,7 @@
             html += '</div></div>';
         }
 
-        // 3. Update Result Count Text
+        // 4. Update Result Count Text
         if (countEl) {
             var filterNote = (activeFilters.category || activeFilters.tag || activeFilters.difficulty) ? ' (filtered)' : '';
             var countParts = [];
@@ -455,32 +481,6 @@
             
             var countText = countParts.length > 0 ? countParts.join(', ') + ' found' : '0 results';
             countEl.textContent = countText + ' for "' + escHtml(query) + '"' + filterNote;
-        }
-
-        // 4. Render Matching Recipes
-        if (recipeResults.length > 0) {
-            if (html) html += '<hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.1); margin: 24px 0;" />';
-            
-            html += '<h2 class="section-title" style="color: var(--copper); margin-bottom:16px;">Matching Recipes</h2>';
-            html += '<ul class="search-result-list">';
-            recipeResults.forEach(function(item) {
-                var recipe = item.recipe;
-                html += '<li class="search-result-entry">';
-                html += '<h3><a href="recipe.html?id=' + encodeURIComponent(recipe.id) + '">' +
-                    escHtml(recipe.title || recipe.name || recipe.id) + '</a></h3>';
-                if (recipe.description) {
-                    html += '<p>' + escHtml(recipe.description.slice(0, 140)) + (recipe.description.length > 140 ? '…' : '') + '</p>';
-                }
-                if (recipe.tags && recipe.tags.length) {
-                    html += '<div class="search-result-tags">';
-                    recipe.tags.forEach(function(t) {
-                        html += '<a href="search.html?q=' + encodeURIComponent(t) + '" class="recipe-tag">#' + escHtml(t) + '</a>';
-                    });
-                    html += '</div>';
-                }
-                html += '</li>';
-            });
-            html += '</ul>';
         }
 
         if (!recipeResults.length && !additiveResults.length && !productResults.length) {

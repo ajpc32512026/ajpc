@@ -244,12 +244,13 @@ function buildNavSnippet(id, title, category) {
     if (!id || !title || !category) return { snippet: '', note: '' };
     const groupMap = {
         'Breads': 'Bread', 'Pizza': 'Bread',
-        'Baking': 'Dessert', 'Desserts': 'Dessert', 'Biscuits': 'Dessert',
+        'Dessert': 'Dessert', 'Desserts': 'Dessert', 'Biscuits': 'Biscuits',
         'Sauces': 'Sauces',
-        'Pasta': 'Dinner', 'Dinner': 'Dinner', 'Mains': 'Dinner',
-        'Soups': 'Dinner', 'Salads': 'Dinner', 'Sides': 'Dinner',
-        'Snacks': 'Dinner', 'Bistro': 'Dinner', 'Entree': 'Dinner',
-        'Filipino': 'Filipino', 'Breakfast': 'Breakfast'
+        'Pasta': 'Pasta', 'Dinner': 'Dinner', 'Mains': 'Dinner',
+        'Soups': 'Soups', 'Salads': 'Salads', 'Sides': 'Sides',
+        'Snacks': 'Snacks', 'Bistro': 'Dinner', 'Entree': 'Entree',
+        'Filipino': 'Filipino', 'Breakfast': 'Breakfast',
+		'Lunch': 'Lunch'
     };
     const group = groupMap[category] || 'Other';
     const link  = `<a href="recipe.html?id=${id}" role="menuitem" aria-label="${title.replace(/"/g,'&quot;')} recipe">${title}</a>`;

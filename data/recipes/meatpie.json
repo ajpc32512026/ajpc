@@ -1,7 +1,7 @@
 {
   "id": "meatpie",
   "title": "Classic Aussie Meat Pies",
-  "category": "Dinner",
+  "category": "Lunch",
   "difficulty": "Intermediate",
   "description": "True blue, unapologetically hearty, and as Australian as a sunburn at Christmas.",
   "prepTime": "25 min",
@@ -156,5 +156,5 @@
     "vitamin_c_mg": 3,
     "vitamin_d_ug": 5
   },
-  "lastModified": "2026-08-22"
+  "lastModified": "2026-08-24"
 }
