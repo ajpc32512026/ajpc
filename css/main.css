@@ -6238,3 +6238,80 @@ mark.search-highlight {
         align-items: flex-start;
     }
 }
+
+/* =========================================================
+   PANTRY — CATEGORY SELECT / RECIPE IMPORT CHECKLIST
+   Native <select> dropdowns default to a light OS-rendered
+   popup with whatever text color is inherited, which reads as
+   near-invisible pale-on-white. Set background/color explicitly
+   on both the select and its options so the dropdown list itself
+   matches the dark editorial palette, not just the closed box.
+========================================================= */
+
+.pantry-category-select,
+.pantry-checklist-category {
+    background: var(--surface-2);
+    color: var(--cream);
+    border: 1px solid var(--border-dim);
+    border-radius: var(--r-md);
+    padding: 0.4rem 0.6rem;
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    outline: none;
+    transition: border-color 0.15s;
+}
+
+.pantry-category-select:focus,
+.pantry-checklist-category:focus {
+    border-color: var(--copper-dark);
+}
+
+.pantry-category-select:hover,
+.pantry-checklist-category:hover {
+    border-color: var(--border-mid);
+}
+
+.pantry-category-select option,
+.pantry-checklist-category option {
+    background: var(--surface-1);
+    color: var(--cream);
+}
+
+.pantry-recipe-checklist {
+    max-height: 320px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp-xs, 0.4rem);
+}
+
+.pantry-checklist-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--sp-md);
+    padding: 0.5rem 0.25rem;
+    border-bottom: 1px solid var(--border-dim);
+}
+
+.pantry-checklist-row:last-child { border-bottom: none; }
+
+.pantry-checklist-label {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-sm);
+    cursor: pointer;
+    flex: 1;
+    min-width: 0;
+    color: var(--cream-dim);
+    font-size: 0.85rem;
+}
+
+.pantry-checklist-check {
+    width: 15px;
+    height: 15px;
+    accent-color: var(--copper);
+    cursor: pointer;
+    flex-shrink: 0;
+}
+

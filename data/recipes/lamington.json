@@ -1,7 +1,7 @@
 {
   "id": "lamington",
   "title": "Classic Lamingtons",
-  "category": "Baking",
+  "category": "Snacks",
   "difficulty": "Intermediate",
   "description": "Aussie pride in a cake cube — built properly, with a real sponge that can hold its own.",
   "prepTime": "30 min",
@@ -52,7 +52,7 @@
     {
       "quantity": "125",
       "unit": "ml",
-      "item": "Milk Full-Cream"
+      "item": "Milk Full-cream"
     },
     {
       "quantity": "75",
@@ -145,24 +145,30 @@
   ],
   "nutrition": {
     "servings": 16,
-    "cal": 343,
-    "kj": 1435,
-    "protein": 9,
-    "carbs": 34,
-    "sugars": 30,
-    "fat": 20,
-    "saturated_fat": 12.9,
+    "cal": 338,
+    "kj": 1413,
+    "protein": 8,
+    "carbs": 33,
+    "sugars": 29,
+    "fat": 19,
+    "saturated_fat": 12.7,
     "fiber": 3,
-    "sodium": 113,
-    "coverage": 100,
-    "calcium_mg": 42,
+    "sodium": 110,
+    "coverage": 80,
+    "foundCount": 8,
+    "totalCount": 10,
+    "unmatchedItems": [
+      "Vanilla Extract",
+      "Milk Full-cream"
+    ],
+    "calcium_mg": 33,
     "iron_mg": 2,
-    "potassium_mg": 328,
-    "magnesium_mg": 38,
+    "potassium_mg": 317,
+    "magnesium_mg": 37,
     "zinc_mg": 1,
     "cholesterol_mg": 256,
-    "vitamin_a_ug": 136,
+    "vitamin_a_ug": 133,
     "vitamin_d_ug": 3
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-08-31"
 }

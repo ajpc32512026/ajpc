@@ -1,7 +1,7 @@
 {
   "id": "chocmuffins",
   "title": "Chocolate Muffins with Ganache",
-  "category": "Baking",
+  "category": "Snacks",
   "difficulty": "Intermediate",
   "description": "Tall domes like bakery royalty, fluffy like a hymn, dipped in butter-rich ganache — decadent perfection.",
   "prepTime": "20 min",
@@ -72,7 +72,7 @@
     {
       "quantity": "180",
       "unit": "ml",
-      "item": "Milk Full-Cream"
+      "item": "Milk Full-cream"
     },
     {
       "quantity": "10",
@@ -169,24 +169,30 @@
   ],
   "nutrition": {
     "servings": 12,
-    "cal": 491,
-    "kj": 2054,
-    "protein": 9,
-    "carbs": 35,
+    "cal": 481,
+    "kj": 2012,
+    "protein": 8,
+    "carbs": 34,
     "sugars": 19,
-    "fat": 36,
-    "saturated_fat": 19.4,
+    "fat": 35,
+    "saturated_fat": 19.1,
     "fiber": 1,
-    "sodium": 212,
-    "coverage": 100,
-    "calcium_mg": 66,
+    "sodium": 207,
+    "coverage": 85,
+    "foundCount": 11,
+    "totalCount": 13,
+    "unmatchedItems": [
+      "Milk Full-cream",
+      "Vanilla Extract"
+    ],
+    "calcium_mg": 50,
     "iron_mg": 2,
-    "potassium_mg": 338,
-    "magnesium_mg": 43,
+    "potassium_mg": 317,
+    "magnesium_mg": 42,
     "zinc_mg": 1,
-    "cholesterol_mg": 247,
-    "vitamin_a_ug": 256,
+    "cholesterol_mg": 245,
+    "vitamin_a_ug": 250,
     "vitamin_d_ug": 3
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-08-31"
 }

@@ -1,7 +1,7 @@
 {
   "id": "orangepoppyseed",
   "title": "Orange & Poppy Seed Cake",
-  "category": "Baking",
+  "category": "Cakes",
   "difficulty": "Intermediate",
   "description": "A bright, citrusy favourite — buttery, fragrant, and layered with a lush orange cream.",
   "prepTime": "30 min",
@@ -29,7 +29,7 @@
     {
       "quantity": "60",
       "unit": "ml",
-      "item": "Milk Full-Cream"
+      "item": "Milk Full-cream"
     },
     {
       "quantity": "185",
@@ -153,25 +153,30 @@
   ],
   "nutrition": {
     "servings": 8,
-    "cal": 862,
-    "kj": 3605,
-    "protein": 21,
-    "carbs": 70,
-    "sugars": 50,
+    "cal": 1553,
+    "kj": 6498,
+    "protein": 38,
+    "carbs": 207,
+    "sugars": 187,
     "fat": 56,
-    "saturated_fat": 31.1,
-    "fiber": 3,
-    "sodium": 1084,
-    "coverage": 100,
-    "calcium_mg": 662,
+    "saturated_fat": 31,
+    "fiber": 41,
+    "sodium": 1081,
+    "coverage": 92,
+    "foundCount": 12,
+    "totalCount": 13,
+    "unmatchedItems": [
+      "Milk Full-cream"
+    ],
+    "calcium_mg": 1057,
     "iron_mg": 3,
-    "potassium_mg": 365,
-    "magnesium_mg": 70,
-    "zinc_mg": 3,
-    "cholesterol_mg": 477,
-    "vitamin_a_ug": 516,
-    "vitamin_c_mg": 9,
+    "potassium_mg": 3466,
+    "magnesium_mg": 271,
+    "zinc_mg": 4,
+    "cholesterol_mg": 476,
+    "vitamin_a_ug": 630,
+    "vitamin_c_mg": 844,
     "vitamin_d_ug": 5
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-08-31"
 }

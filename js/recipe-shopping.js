@@ -8,8 +8,10 @@
 
     const CACHE_KEY = 'ajpc_price_database';
     const CACHE_TIMESTAMP_KEY = 'ajpc_price_timestamp';
+    const MASTER_CACHE_KEY = 'ajpc_ingredients_master_raw';
 
     let priceDatabase = null;
+    let fullIngredientsMaster = null; // the raw, complete ingredients-master.json — needed so saves can download the WHOLE file (aliases, nutrition, reference) intact, not just prices
     let currentRecipeData = null;
     let currentMultiplier = 1;
     let currentBaseServings = 1;
@@ -77,16 +79,22 @@
         };
     }
 
-    // Load price database - from cache or fetch ONCE per session
+    // Load price data - from cache or fetch ONCE per session.
+    // Source is now json/ingredients-master.json (the unified ingredient
+    // file) rather than a dedicated recipe-prices.json. Both the flattened
+    // price lookup AND the full raw object get cached, since saves need to
+    // download the whole file intact (see savePriceDatabase below).
     async function loadPriceDatabase() {
         if (priceDatabase) return priceDatabase;
 
-        const cached = sessionStorage.getItem(CACHE_KEY);
+        const cachedFlat = sessionStorage.getItem(CACHE_KEY);
+        const cachedFull = sessionStorage.getItem(MASTER_CACHE_KEY);
         const timestamp = sessionStorage.getItem(CACHE_TIMESTAMP_KEY);
 
-        if (cached && timestamp) {
+        if (cachedFlat && cachedFull && timestamp) {
             try {
-                priceDatabase = JSON.parse(cached);
+                priceDatabase = JSON.parse(cachedFlat);
+                fullIngredientsMaster = JSON.parse(cachedFull);
                 console.log('[ShoppingList] Loaded from cache, items:', Object.keys(priceDatabase).length);
                 return priceDatabase;
             } catch(e) {
@@ -95,61 +103,57 @@
         }
 
         try {
-            const response = await fetch('json/recipe-prices.json?t=' + Date.now());
+            const response = await fetch('json/ingredients-master.json?t=' + Date.now());
             if (!response.ok) throw new Error('Failed to load');
-            const jsonData = await response.json();
-            priceDatabase = flattenPriceDatabase(jsonData);
+            fullIngredientsMaster = await response.json();
+            priceDatabase = flattenPriceDatabase(fullIngredientsMaster);
 
             sessionStorage.setItem(CACHE_KEY, JSON.stringify(priceDatabase));
+            sessionStorage.setItem(MASTER_CACHE_KEY, JSON.stringify(fullIngredientsMaster));
             sessionStorage.setItem(CACHE_TIMESTAMP_KEY, Date.now().toString());
             console.log('[ShoppingList] Loaded from server, items:', Object.keys(priceDatabase).length);
             return priceDatabase;
 
         } catch (error) {
             console.error('[ShoppingList] Failed to load:', error);
-            toast('Could not load recipe-prices.json');
+            toast('Could not load ingredients-master.json');
             priceDatabase = {};
             return priceDatabase;
         }
     }
 
-    function flattenPriceDatabase(jsonData) {
+    // Flatten ingredients-master.json into { lowercaseName: {size,unit,price,brand,section,originalKey,canonicalKey} }
+    // Every alias gets its own flat entry pointing at the SAME price data as
+    // its canonical ingredient, so a recipe written with older/alias wording
+    // still prices correctly without needing fuzzy substring matching.
+    function flattenPriceDatabase(masterData) {
         const flatDB = {};
-        for (const section in jsonData) {
-            if (section === '_meta') continue;
-            for (const key in jsonData[section]) {
-                flatDB[key.toLowerCase().trim()] = {
-                    size: jsonData[section][key].size,
-                    unit: jsonData[section][key].unit,
-                    price: jsonData[section][key].price,
-                    brand: jsonData[section][key].brand,
-                    section: section,
-                    originalKey: key
-                };
-            }
+        for (const canonicalKey in masterData) {
+            const entry = masterData[canonicalKey];
+            if (!entry || !entry.priceData) continue; // no pricing yet (e.g. _needsPricing entries) - not shoppable
+            const record = {
+                size: entry.priceData.size,
+                unit: entry.priceData.unit,
+                price: entry.priceData.price,
+                brand: entry.priceData.brand,
+                section: entry.category,
+                originalKey: canonicalKey,
+                canonicalKey: canonicalKey
+            };
+            flatDB[canonicalKey.toLowerCase().trim()] = record;
+            (entry.aliases || []).forEach(alias => {
+                const aKey = alias.toLowerCase().trim();
+                if (!flatDB[aKey]) flatDB[aKey] = record; // canonical wins on collision
+            });
         }
         return flatDB;
     }
 
-    function rebuildJsonStructure(flatDB) {
-        const result = {};
-        for (const key in flatDB) {
-            const item = flatDB[key];
-            const section = item.section || 'uncategorized';
-            const displayKey = item.originalKey || key;
-            if (!result[section]) result[section] = {};
-            result[section][displayKey] = {
-                size: item.size,
-                unit: item.unit,
-                price: item.price,
-                brand: item.brand
-            };
-        }
-        if (!result._meta) result._meta = {};
-        result._meta.lastUpdated = new Date().toISOString().split('T')[0];
-        result._meta.version = '1.0';
-        return result;
-    }
+    // rebuildJsonStructure() removed - saves now patch fullIngredientsMaster
+    // directly and download the whole file (see savePriceDatabase below),
+    // instead of reconstructing a price-only category-nested file. A
+    // price-only rebuild would have silently wiped every alias, nutrition
+    // record, and reference note on every ingredient in the file.
 
 
     // Full unit conversion to package units
@@ -264,51 +268,72 @@
         return qty;
     }
 
-    // Fuzzy price lookup — exact first, then partial match
+    // Exact price lookup only — the old fuzzy substring fallback
+    // (`key.includes(k) || k.includes(key)`) is gone. It's no longer
+    // needed: flattenPriceDatabase() now gives every alias its own exact
+    // flat key pointing at the right price, and without generic bucket
+    // entries backing it, substring matching would just risk false
+    // positives (same reasoning as the fix in builder-nutrition.js).
     function lookupPrice(itemName) {
         if (!priceDatabase) return { exists: false };
         const key = (itemName || '').toLowerCase().trim();
         if (priceDatabase[key]) return { exists: true, data: priceDatabase[key] };
-        // Partial match
-        for (const k in priceDatabase) {
-            if (key.includes(k) || k.includes(key)) {
-                return { exists: true, data: priceDatabase[k] };
-            }
-        }
         return { exists: false };
     }
 
+    // Downloads the WHOLE ingredients-master.json, not just prices. Any
+    // price edit patches fullIngredientsMaster in place first (see
+    // updatePrice), so aliases/nutrition/reference/per on every other
+    // ingredient - and on this one - survive the round trip untouched.
     async function savePriceDatabase() {
-        if (!priceDatabase) return false;
+        if (!fullIngredientsMaster) return false;
 
-        const jsonToSave = rebuildJsonStructure(priceDatabase);
-        const jsonString = JSON.stringify(jsonToSave, null, 2);
-
+        const jsonString = JSON.stringify(fullIngredientsMaster, null, 2);
         const blob = new Blob([jsonString], { type: 'application/json' });
         const a = document.createElement('a');
         a.href = URL.createObjectURL(blob);
-        a.download = 'recipe-prices.json';
+        a.download = 'ingredients-master.json';
         a.click();
         URL.revokeObjectURL(a.href);
 
         sessionStorage.setItem(CACHE_KEY, JSON.stringify(priceDatabase));
+        sessionStorage.setItem(MASTER_CACHE_KEY, JSON.stringify(fullIngredientsMaster));
         toast('File downloaded — replace in D:\\mysites\\ajpc\\json\\');
         return true;
     }
 
+    // Updates or creates one ingredient's priceData on the full master
+    // object, then re-flattens and saves. Editing an existing ingredient
+    // (found via exact name or alias match) patches its priceData in place
+    // — its aliases, nutrition, and reference notes are left exactly as
+    // they were. A genuinely new ingredient name gets added as a new
+    // top-level entry with just the price fields, same as any other
+    // pricing-only addition would need review later.
     async function updatePrice(itemName, size, unit, price, brand, section) {
-        if (!priceDatabase) {
+        if (!fullIngredientsMaster) {
             await loadPriceDatabase();
         }
         const key = itemName.toLowerCase().trim();
-        priceDatabase[key] = {
+        const existingLookup = priceDatabase[key];
+        const targetKey = existingLookup ? existingLookup.canonicalKey : key;
+
+        if (!fullIngredientsMaster[targetKey]) {
+            fullIngredientsMaster[targetKey] = {
+                displayName: itemName,
+                category: section || 'Uncategorized',
+                aliases: [],
+                priceData: null
+            };
+        }
+        fullIngredientsMaster[targetKey].priceData = {
             size: parseFloat(size),
             unit: unit,
             price: parseFloat(price),
-            brand: brand || '',
-            section: section || 'uncategorized',
-            originalKey: itemName
+            brand: brand || ''
         };
+        delete fullIngredientsMaster[targetKey]._needsPricing;
+
+        priceDatabase = flattenPriceDatabase(fullIngredientsMaster);
         await savePriceDatabase();
         if (currentPanel && currentRecipeData) {
             closePanel();

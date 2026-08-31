@@ -1,7 +1,7 @@
 {
   "id": "lemoncoconut",
   "title": "Lemon Coconut Cake",
-  "category": "Baking",
+  "category": "Cakes",
   "difficulty": "Beginner",
   "description": "A simple old-school favourite — bright lemon, soft crumb, and that warm coconut finish.",
   "prepTime": "15 min",
@@ -43,7 +43,7 @@
     {
       "quantity": "125",
       "unit": "ml",
-      "item": "Milk Full-Cream"
+      "item": "Milk Full-cream"
     },
     {
       "quantity": "130",
@@ -125,25 +125,31 @@
   ],
   "nutrition": {
     "servings": 12,
-    "cal": 337,
-    "kj": 1408,
-    "protein": 7,
-    "carbs": 32,
-    "sugars": 23,
+    "cal": 352,
+    "kj": 1474,
+    "protein": 8,
+    "carbs": 31,
+    "sugars": 22,
     "fat": 20,
-    "saturated_fat": 14,
-    "fiber": 2,
-    "sodium": 67,
-    "coverage": 100,
-    "calcium_mg": 36,
-    "iron_mg": 1,
-    "potassium_mg": 185,
-    "magnesium_mg": 22,
+    "saturated_fat": 13.8,
+    "fiber": 11,
+    "sodium": 68,
+    "coverage": 78,
+    "foundCount": 7,
+    "totalCount": 9,
+    "unmatchedItems": [
+      "Milk Full-cream",
+      "Lemon Juice"
+    ],
+    "calcium_mg": 135,
+    "iron_mg": 2,
+    "potassium_mg": 295,
+    "magnesium_mg": 33,
     "zinc_mg": 1,
-    "cholesterol_mg": 183,
+    "cholesterol_mg": 182,
     "vitamin_a_ug": 152,
-    "vitamin_c_mg": 3,
+    "vitamin_c_mg": 108,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-08-31"
 }

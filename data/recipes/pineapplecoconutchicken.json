@@ -1,0 +1,241 @@
+{
+  "id": "pineapplecoconutchicken",
+  "title": "Pineapple Coconut Chicken",
+  "category": "Dinner",
+  "difficulty": "Intermediate",
+  "description": "Seared chicken finished in a sweet, salty, tangy pineapple-coconut sauce. Built for spooning generously over rice.",
+  "prepTime": "15 min",
+  "cookTime": "25 min",
+  "totalTime": "40 min",
+  "servings": "2 servings",
+  "yieldPerBatch": "1 batch",
+  "tags": [
+    "Asian",
+    "Chicken",
+    "Coconut",
+    "Dinner",
+    "Pineapple",
+    "Rice",
+    "Saucy",
+    "Savoury",
+    "Sweet"
+  ],
+  "ingredients": [
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Chicken Breasts",
+      "notes": "thawed, sliced into thick strips or bite-sized pieces"
+    },
+    {
+      "quantity": "3",
+      "unit": "g",
+      "item": "Salt"
+    },
+    {
+      "quantity": "1",
+      "unit": "g",
+      "item": "Ground White Pepper"
+    },
+    {
+      "quantity": "15",
+      "unit": "g",
+      "item": "Corn Flour",
+      "notes": "for dusting the chicken"
+    },
+    {
+      "quantity": "15",
+      "unit": "ml",
+      "item": "Vegetable Oil",
+      "notes": "for searing"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Fresh Garlic",
+      "notes": "minced"
+    },
+    {
+      "quantity": "10",
+      "unit": "g",
+      "item": "Fresh Ginger",
+      "notes": "grated"
+    },
+    {
+      "quantity": "220",
+      "unit": "g",
+      "item": "Pineapple Rings",
+      "notes": "drained, juice reserved"
+    },
+    {
+      "quantity": "165",
+      "unit": "ml",
+      "item": "Coconut Cream"
+    },
+    {
+      "quantity": "150",
+      "unit": "ml",
+      "item": "Chicken Stock",
+      "notes": "made from stock cube"
+    },
+    {
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Oyster Sauce"
+    },
+    {
+      "quantity": "15",
+      "unit": "ml",
+      "item": "Light Soy Sauce"
+    },
+    {
+      "quantity": "5",
+      "unit": "ml",
+      "item": "Dark Soy Sauce"
+    },
+    {
+      "quantity": "10",
+      "unit": "ml",
+      "item": "Fish Sauce"
+    },
+    {
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Mirin"
+    },
+    {
+      "quantity": "25",
+      "unit": "g",
+      "item": "Brown Sugar"
+    },
+    {
+      "quantity": "15",
+      "unit": "ml",
+      "item": "White Vinegar"
+    },
+    {
+      "quantity": "1",
+      "unit": "g",
+      "item": "Chilli Flakes"
+    },
+    {
+      "quantity": "15",
+      "unit": "g",
+      "item": "Corn Flour",
+      "notes": "for the slurry"
+    },
+    {
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Water",
+      "notes": "for the slurry"
+    },
+    {
+      "quantity": "400",
+      "unit": "g",
+      "item": "Cooked Rice",
+      "notes": "to serve"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Season the chicken with salt and white pepper, then toss lightly in corn flour to coat."
+    },
+    {
+      "step": 2,
+      "instruction": "Heat vegetable oil in a large pan or wok over medium-high heat. Sear the chicken for 2-3 minutes per side until golden but not fully cooked through. Remove and set aside."
+    },
+    {
+      "step": 3,
+      "instruction": "Lower the heat to medium. Add garlic and ginger and stir for about 30 seconds until fragrant — don't let it catch."
+    },
+    {
+      "step": 4,
+      "instruction": "Add the pineapple rings and let them caramelise lightly for 1-2 minutes, stirring occasionally."
+    },
+    {
+      "step": 5,
+      "instruction": "Pour in the coconut cream, chicken stock, oyster sauce, light soy, dark soy, fish sauce, mirin, brown sugar, white vinegar and chilli flakes. Stir well and bring to a gentle simmer."
+    },
+    {
+      "step": 6,
+      "instruction": "Return the seared chicken to the pan. Simmer gently for 6-7 minutes until the chicken is cooked through and the sauce has reduced slightly."
+    },
+    {
+      "step": 7,
+      "instruction": "Mix the remaining corn flour with the water to form a slurry. Stir it into the sauce and cook for 1-2 minutes until glossy and thickened enough to coat the back of a spoon."
+    },
+    {
+      "step": 8,
+      "instruction": "Spoon the chicken and plenty of sauce generously over cooked rice."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Searing",
+      "content": "Sear for colour only — the chicken finishes cooking in the sauce, so don't take it past golden at this stage or it will overcook by the time the sauce is done."
+    },
+    {
+      "type": "technique",
+      "title": "The Sauce",
+      "content": "Taste before thickening. It should hit sweet, salty and tangy in roughly equal measure — adjust with a touch more vinegar or brown sugar before you add the slurry, not after."
+    },
+    {
+      "type": "technique",
+      "title": "Thickening",
+      "content": "Add the slurry gradually while stirring. You want it coating a spoon, not gluey — stop as soon as it clings."
+    },
+    {
+      "type": "storage",
+      "title": "Storage",
+      "content": "Refrigerate covered for up to 3 days. Reheats well gently on the stove with a splash of water to loosen the sauce."
+    }
+  ],
+  "journal": [
+    {
+      "date": "2026-08-29",
+      "content": "Fantastic flavour - a winner. Cooked slightly differently to the method: seared the chicken separately as written, but combined all the dry and wet sauce ingredients together first, cooked the pineapple, then added the combined mix straight in to reduce, adding the slurry at the end. Simpler workflow, same result."
+    }
+  ],
+  "related": [
+    {
+      "id": "chickenpineapple",
+      "title": "Chicken Pineapple",
+      "matchingTags": [
+        "Chicken",
+        "Dinner",
+        "Fruit",
+        "Savoury",
+        "Sweet"
+      ]
+    }
+  ],
+  "nutrition": {
+    "servings": 2,
+    "cal": 610,
+    "kj": 2553,
+    "protein": 42,
+    "carbs": 58,
+    "sugars": 20,
+    "fat": 22,
+    "saturated_fat": 13,
+    "fiber": 2,
+    "sodium": 1450,
+    "coverage": 70,
+    "foundCount": 15,
+    "totalCount": 21,
+    "unmatchedItems": [],
+    "calcium_mg": 60,
+    "iron_mg": 3,
+    "potassium_mg": 780,
+    "magnesium_mg": 70,
+    "zinc_mg": 2,
+    "cholesterol_mg": 115,
+    "vitamin_a_ug": 40,
+    "vitamin_c_mg": 20,
+    "vitamin_d_ug": 0
+  },
+  "lastModified": "2026-08-29"
+}

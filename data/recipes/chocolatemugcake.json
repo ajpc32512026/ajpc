@@ -1,7 +1,7 @@
 {
   "id": "chocolatemugcake",
   "title": "Chocolate Mug Cake",
-  "category": "Desserts",
+  "category": "Snacks",
   "difficulty": "Beginner",
   "description": "A single-serve chocolate cake made in a mug, ready in under 2 minutes. Perfect for late-night cravings.",
   "prepTime": "2 min",
@@ -49,7 +49,7 @@
     {
       "quantity": "30",
       "unit": "ml",
-      "item": "Milk Full-Cream"
+      "item": "Milk Full-cream"
     },
     {
       "quantity": "15",
@@ -109,27 +109,30 @@
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 828,
-    "kj": 3466,
-    "protein": 35,
-    "carbs": 85,
-    "sugars": 48,
-    "fat": 38,
-    "saturated_fat": 9.4,
+    "cal": 808,
+    "kj": 3380,
+    "protein": 34,
+    "carbs": 84,
+    "sugars": 46,
+    "fat": 37,
+    "saturated_fat": 8.8,
     "fiber": 5,
-    "sodium": 471,
-    "coverage": 100,
-    "foundCount": 9,
+    "sodium": 461,
+    "coverage": 78,
+    "foundCount": 7,
     "totalCount": 9,
-    "unmatchedItems": [],
-    "calcium_mg": 182,
+    "unmatchedItems": [
+      "Milk Full-cream",
+      "Vanilla Extract"
+    ],
+    "calcium_mg": 150,
     "iron_mg": 9,
-    "potassium_mg": 1264,
-    "magnesium_mg": 136,
+    "potassium_mg": 1222,
+    "magnesium_mg": 133,
     "zinc_mg": 4,
-    "cholesterol_mg": 986,
-    "vitamin_a_ug": 310,
+    "cholesterol_mg": 983,
+    "vitamin_a_ug": 296,
     "vitamin_d_ug": 12
   },
-  "lastModified": "2026-07-21"
+  "lastModified": "2026-08-31"
 }

@@ -34,6 +34,7 @@
             <!-- Actions -->
             <div class="pantry-actions">
                 <button class="enh-btn" id="pantryImportBtn">Load from Recipe...</button>
+                <button class="enh-btn" id="pantryExportBtn">Export Pantry as JSON</button>
                 <button class="enh-btn enh-btn-remove" id="pantryClearBtn">Clear Pantry</button>
             </div>
 
@@ -63,19 +64,39 @@
             <div id="pantryImportModal" class="enh-modal-overlay" style="display:none;">
                 <div class="enh-modal-box">
                     <div class="enh-modal-header">
-                        <h3>Load Ingredients from Recipe</h3>
+                        <h3 id="pantryImportTitle">Load Ingredients from Recipe</h3>
                         <button class="enh-modal-close" id="pantryImportClose">&times;</button>
                     </div>
                     <div class="enh-modal-body">
-                        <p style="color:var(--cream-muted);font-size:0.85rem;margin-bottom:1rem;">
-                            Select a recipe to add all its ingredients to your pantry as items you currently have.
-                            Existing entries are not overwritten.
-                        </p>
-                        <input type="text" id="recipeSearchInput"
-                            class="pantry-search-input"
-                            placeholder="Search recipes..."
-                            autocomplete="off">
-                        <div id="recipeSearchResults" class="pantry-recipe-results"></div>
+
+                        <div id="recipeSearchStep">
+                            <p style="color:var(--cream-muted);font-size:0.85rem;margin-bottom:1rem;">
+                                Select a recipe to choose which ingredients to add to your pantry.
+                                Existing entries are not overwritten.
+                            </p>
+                            <input type="text" id="recipeSearchInput"
+                                class="pantry-search-input"
+                                placeholder="Search recipes..."
+                                autocomplete="off">
+                            <div id="recipeSearchResults" class="pantry-recipe-results"></div>
+                        </div>
+
+                        <div id="recipeChecklistStep" style="display:none;">
+                            <p style="color:var(--cream-muted);font-size:0.85rem;margin-bottom:0.75rem;">
+                                Tick what you want to add, and check the category on each — categories are
+                                auto-matched against your staples list, but you can change any of them.
+                            </p>
+                            <div style="display:flex;gap:0.5rem;margin-bottom:0.75rem;">
+                                <button class="enh-btn" id="recipeChecklistBack">&larr; Back to recipes</button>
+                                <button class="enh-btn" id="recipeChecklistSelectAll">Select All</button>
+                                <button class="enh-btn" id="recipeChecklistSelectNone">Select None</button>
+                            </div>
+                            <div id="recipeChecklistItems" class="pantry-recipe-checklist"></div>
+                            <div style="margin-top:1rem;">
+                                <button class="enh-btn" id="recipeChecklistAdd">Add Selected to Pantry</button>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -108,6 +129,7 @@
         // staples catalog itself is static; custom items get 'Other'
         // assigned the first time they're added.
         var categoryLookup = {};
+        var aliasLookup = {};
 
         function pantryApi() {
             return window.KitchenNotebook && window.KitchenNotebook.Pantry;
@@ -121,54 +143,150 @@
             } catch(e) {}
 
             try {
-                var staplesRes = await fetch('json/pantry-staples.json?t=' + Date.now());
-                if (staplesRes.ok) window.PANTRY_STAPLES = await staplesRes.json();
+                var masterRes = await fetch('json/ingredients-master.json?t=' + Date.now());
+                if (masterRes.ok) window.INGREDIENTS_MASTER = await masterRes.json();
             } catch(e) {
-                console.warn('Could not load pantry-staples.json:', e);
+                console.warn('Could not load ingredients-master.json:', e);
             }
 
-            buildCategoryLookup();
-            initCategoryFilter();
-            initStatusFilters();
-            initSearch();
-            initListDelegation();
-            initActions();
-            initImportModal();
-            renderUnified();
+            try {
+                buildCategoryLookup();
+                initCategoryFilter();
+                initStatusFilters();
+                initSearch();
+                initListDelegation();
+                initActions();
+                initImportModal();
+                renderUnified();
+            } catch(e) {
+                console.error('Pantry init failed:', e);
+                var el = document.createElement('div');
+                el.style.cssText = 'background:#4a2020;color:#f5d5d5;border:1px solid #a04040;'
+                    + 'border-radius:6px;padding:0.75rem 1rem;margin:1rem;font-size:0.85rem;';
+                el.textContent = 'Something went wrong loading the pantry (' + e.message + '). Your saved data is untouched — check the browser console for details.';
+                document.body.insertBefore(el, document.body.firstChild);
+            }
         }
 
+        // categoryLookup: every canonical name AND every alias -> category.
+        // aliasLookup: every alias -> its canonical name, so a pantry entry
+        // always gets stored/read under the one true key regardless of
+        // which wording variant was typed or matched.
         function buildCategoryLookup() {
-            if (!window.PANTRY_STAPLES) return;
-            Object.keys(window.PANTRY_STAPLES).forEach(function(cat) {
-                window.PANTRY_STAPLES[cat].forEach(function(name) {
-                    categoryLookup[name.toLowerCase().trim()] = cat;
+            if (!window.INGREDIENTS_MASTER) return;
+            var badEntries = [];
+
+            Object.keys(window.INGREDIENTS_MASTER).forEach(function(name) {
+                var entry = window.INGREDIENTS_MASTER[name];
+                if (!entry || typeof entry !== 'object' || !entry.category) {
+                    // Wrong shape - e.g. an old pantry-staples.json (category
+                    // -> array of names) or a pantry export got loaded here
+                    // by mistake instead of the real ingredients-master.json.
+                    badEntries.push(name);
+                    return;
+                }
+                var key = name.toLowerCase().trim();
+                categoryLookup[key] = entry.category;
+                aliasLookup[key] = key; // canonical name resolves to itself
+                (entry.aliases || []).forEach(function(alias) {
+                    var aKey = alias.toLowerCase().trim();
+                    categoryLookup[aKey] = entry.category;
+                    aliasLookup[aKey] = key;
                 });
             });
+
+            if (badEntries.length) {
+                console.warn('ingredients-master.json: ' + badEntries.length + ' entries had the wrong shape and were skipped:', badEntries.slice(0, 5));
+                showStaplesWarning(badEntries.length, Object.keys(window.INGREDIENTS_MASTER).length);
+            }
+        }
+
+        // Resolve any typed/matched name to its canonical form, so pantry
+        // entries never fragment across "chicken breast" vs an alias of it.
+        function resolveCanonical(name) {
+            var key = (name || '').toLowerCase().trim();
+            return aliasLookup[key] || key;
+        }
+
+        function showStaplesWarning(badCount, totalCount) {
+            var el = document.getElementById('pantryStaplesWarning');
+            if (!el) {
+                el = document.createElement('div');
+                el.id = 'pantryStaplesWarning';
+                el.style.cssText = 'background:#4a2020;color:#f5d5d5;border:1px solid #a04040;'
+                    + 'border-radius:6px;padding:0.75rem 1rem;margin:1rem 0;font-size:0.85rem;';
+                var container = document.querySelector('.pantry-page') || document.body;
+                container.insertBefore(el, container.firstChild);
+            }
+            el.textContent = 'ingredients-master.json looks wrong (' + badCount + ' of ' + totalCount + ' entries aren\'t valid ingredient records) — '
+                + 'this usually means the wrong file got saved to this path. Categories are being '
+                + 'skipped until it\'s fixed. Your saved pantry items in this browser are untouched.';
         }
 
         function getAllCategories() {
-            var cats = window.PANTRY_STAPLES ? Object.keys(window.PANTRY_STAPLES).sort() : [];
-            cats.push('Other');
-            return cats;
+            var Pantry = pantryApi();
+            var staticCats = [];
+            if (window.INGREDIENTS_MASTER) {
+                Object.keys(window.INGREDIENTS_MASTER).forEach(function(name) {
+                    var cat = window.INGREDIENTS_MASTER[name] && window.INGREDIENTS_MASTER[name].category;
+                    if (cat) staticCats.push(cat);
+                });
+            }
+            var customCats = Pantry ? Pantry.getCustomCategories() : [];
+            var all = staticCats.concat(customCats);
+            // de-dupe case-insensitively, keep first-seen casing
+            var seen = {};
+            var deduped = [];
+            all.forEach(function(c) {
+                var k = c.toLowerCase();
+                if (!seen[k]) { seen[k] = true; deduped.push(c); }
+            });
+            deduped.sort();
+            deduped.push('Other');
+            return deduped;
+        }
+
+        // Prompts for a new category name, saves it, and returns it - or
+        // null if the user cancelled/entered nothing. Shared by both the
+        // main pantry list dropdown and the recipe-checklist dropdown.
+        function promptNewCategory() {
+            var Pantry = pantryApi();
+            var name = window.prompt('New category name:');
+            if (!name || !name.trim()) return null;
+            name = name.trim();
+            if (Pantry) Pantry.addCustomCategory(name);
+            return name;
         }
 
         // Combined universe = every known staple + any custom pantry items
         // that aren't in the staples catalog. This is the single source of
-        // truth for both searching and category browsing.
+        // truth for both searching and category browsing. A category saved
+        // directly on a pantry entry (via the category dropdown, or picked
+        // during a recipe import) always wins over the static staples
+        // lookup, so edits actually stick.
         function getUniverse() {
             var Pantry = pantryApi();
             var pantry = Pantry ? Pantry.getAll() : {};
             var seen = {};
             var items = [];
 
-            Object.keys(categoryLookup).forEach(function(key) {
-                seen[key] = true;
-                items.push({ key: key, category: categoryLookup[key] });
-            });
+            // Browsable rows come from canonical ingredient names only -
+            // aliases live in categoryLookup/aliasLookup for search and
+            // resolution, but must never show up as their own row next to
+            // the canonical entry they point to.
+            if (window.INGREDIENTS_MASTER) {
+                Object.keys(window.INGREDIENTS_MASTER).forEach(function(key) {
+                    var entry = window.INGREDIENTS_MASTER[key];
+                    if (!entry || !entry.category) return;
+                    seen[key] = true;
+                    var override = pantry[key] && pantry[key].category;
+                    items.push({ key: key, category: override || entry.category });
+                });
+            }
 
             Object.keys(pantry).forEach(function(key) {
                 if (!seen[key]) {
-                    items.push({ key: key, category: categoryLookup[key] || 'Other' });
+                    items.push({ key: key, category: pantry[key].category || 'Other' });
                     seen[key] = true;
                 }
             });
@@ -322,6 +440,12 @@
             html += '<div class="pantry-item-controls">';
 
             if (entry) {
+                html += '<select class="pantry-category-select" data-name="' + esc(it.key) + '" title="Change category">';
+                getAllCategories().forEach(function(cat) {
+                    html += '<option value="' + esc(cat) + '"' + (it.category === cat ? ' selected' : '') + '>' + esc(cat) + '</option>';
+                });
+                html += '<option value="__new__">+ New category...</option>';
+                html += '</select>';
                 html += '<div class="pantry-level-btns">';
                 Object.keys(LEVELS).forEach(function(lvl) {
                     html += '<button class="pantry-level-btn' + (level === lvl ? ' active' : '') + '" '
@@ -375,13 +499,31 @@
                     renderUnified();
                 }
                 if (addNewBtn) {
-                    var key = addNewBtn.dataset.name.toLowerCase().trim();
+                    var key = resolveCanonical(addNewBtn.dataset.name);
                     if (!key) return;
                     Pantry.set(key, true, 'FULL');
                     if (!categoryLookup[key]) categoryLookup[key] = 'Other';
                     var input = document.getElementById('pantrySearchInput');
                     if (input) input.value = '';
                     currentSearch = '';
+                    renderUnified();
+                }
+            });
+
+            list.addEventListener('change', function(e) {
+                var Pantry = pantryApi();
+                if (!Pantry) return;
+                var catSelect = e.target.closest('.pantry-category-select');
+                if (catSelect) {
+                    if (catSelect.value === '__new__') {
+                        var newCat = promptNewCategory();
+                        if (newCat) Pantry.setCategory(catSelect.dataset.name, newCat);
+                        // if cancelled, fall through to re-render only - this
+                        // snaps the dropdown back to its actual stored value
+                        // rather than leaving it stuck on "+ New category..."
+                    } else {
+                        Pantry.setCategory(catSelect.dataset.name, catSelect.value);
+                    }
                     renderUnified();
                 }
             });
@@ -402,7 +544,7 @@
                 + (empty ? '<span class="pantry-stat-empty">' + empty + ' empty</span>' : '');
         }
 
-        // ── Actions (Load from Recipe / Clear Pantry) ──────
+        // ── Actions (Load from Recipe / Export / Clear Pantry) ──────
         function initActions() {
             var clearBtn = document.getElementById('pantryClearBtn');
             if (clearBtn) {
@@ -415,10 +557,30 @@
                 });
             }
 
+            var exportBtn = document.getElementById('pantryExportBtn');
+            if (exportBtn) {
+                exportBtn.addEventListener('click', function() {
+                    var Pantry = pantryApi();
+                    if (!Pantry) return;
+                    var json = Pantry.exportJSON();
+                    var blob = new Blob([json], { type: 'application/json' });
+                    var url = URL.createObjectURL(blob);
+                    var a = document.createElement('a');
+                    var stamp = new Date().toISOString().split('T')[0];
+                    a.href = url;
+                    a.download = 'pantry-export-' + stamp + '.json';
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                    URL.revokeObjectURL(url);
+                });
+            }
+
             var importBtn = document.getElementById('pantryImportBtn');
             if (importBtn) {
                 importBtn.addEventListener('click', function() {
                     document.getElementById('pantryImportModal').style.display = 'flex';
+                    showRecipeSearchStep();
                     document.getElementById('recipeSearchInput').focus();
                     renderRecipeSearch('');
                 });
@@ -426,6 +588,8 @@
         }
 
         // ── Import from recipe modal ──────────────────────
+        var pendingRecipeItems = []; // [{ name, category, checked }] for the checklist currently shown
+
         function initImportModal() {
             var modal = document.getElementById('pantryImportModal');
             var close = document.getElementById('pantryImportClose');
@@ -444,15 +608,35 @@
                     renderRecipeSearch(input.value.trim());
                 });
             }
+
+            initRecipeResultsDelegation();
+            initChecklistStep();
         }
 
+        function showRecipeSearchStep() {
+            document.getElementById('recipeSearchStep').style.display = 'block';
+            document.getElementById('recipeChecklistStep').style.display = 'none';
+            document.getElementById('pantryImportTitle').textContent = 'Load Ingredients from Recipe';
+        }
+
+        function showRecipeChecklistStep() {
+            document.getElementById('recipeSearchStep').style.display = 'none';
+            document.getElementById('recipeChecklistStep').style.display = 'block';
+        }
+
+        // Full recipe list, sorted A-Z so browsing without a search term is
+        // still predictable. No slice/cap here - the results panel scrolls,
+        // so every recipe in recipe-index.json is reachable, not just the
+        // first 20.
         function renderRecipeSearch(query) {
             var el = document.getElementById('recipeSearchResults');
             if (!el) return;
 
             var filtered = recipeIndex.filter(function(r) {
                 return !query || (r.title || r.name || '').toLowerCase().includes(query.toLowerCase());
-            }).slice(0, 20);
+            }).sort(function(a, b) {
+                return (a.title || a.name || '').localeCompare(b.title || b.name || '');
+            });
 
             if (!filtered.length) {
                 el.innerHTML = '<p class="pantry-no-results">No recipes found.</p>';
@@ -465,26 +649,127 @@
                     + '<span class="pantry-recipe-cat">' + esc(r.category || '') + '</span>'
                     + '</div>';
             }).join('');
+        }
 
+        // Single delegated listener bound once (not re-added on every
+        // keystroke like the old renderRecipeSearch-scoped listener was).
+        function initRecipeResultsDelegation() {
+            var el = document.getElementById('recipeSearchResults');
+            if (!el) return;
             el.addEventListener('click', async function(e) {
                 var item = e.target.closest('.pantry-recipe-item');
                 if (!item) return;
-                await loadRecipeIngredients(item.dataset.id);
-            }, { once: true });
+                await openRecipeChecklist(item.dataset.id, item.querySelector('span').textContent);
+            });
         }
 
-        async function loadRecipeIngredients(id) {
-            var Pantry = pantryApi();
+        // Fetch the full recipe, then show a checklist (not an immediate
+        // bulk-add) so the user can choose which ingredients to bring in
+        // and confirm/correct the category for each one.
+        async function openRecipeChecklist(id, displayName) {
+            var path = 'data/recipes/' + id + '.json';
             try {
-                var res = await fetch('data/recipes/' + id + '.json');
-                if (!res.ok) throw new Error('Not found');
+                var res = await fetch(path);
+                if (!res.ok) throw new Error('File not found at ' + path);
                 var recipe = await res.json();
-                if (Pantry) Pantry.loadFromRecipe(recipe.ingredients || []);
+                var ingredients = recipe.ingredients || [];
+                if (!ingredients.length) throw new Error('Recipe file has no ingredients array');
+
+                pendingRecipeItems = ingredients
+                    .filter(function(ing) { return !ing.heading && !ing.toTaste; })
+                    .map(function(ing) {
+                        var raw = (ing.item || ing.name || '').toLowerCase().trim();
+                        var name = resolveCanonical(raw);
+                        return {
+                            name: name,
+                            category: categoryLookup[name] || 'Other',
+                            checked: true
+                        };
+                    })
+                    .filter(function(it) { return it.name; });
+
+                document.getElementById('pantryImportTitle').textContent = displayName || 'Choose Ingredients';
+                renderChecklist();
+                showRecipeChecklistStep();
+            } catch(e) {
+                alert('Could not load "' + id + '": ' + e.message);
+            }
+        }
+
+        function renderChecklist() {
+            var el = document.getElementById('recipeChecklistItems');
+            if (!el) return;
+            el.innerHTML = pendingRecipeItems.map(function(it, idx) {
+                var html = '<div class="pantry-checklist-row" data-idx="' + idx + '">';
+                html += '<label class="pantry-checklist-label">';
+                html += '<input type="checkbox" class="pantry-checklist-check" data-idx="' + idx + '"' + (it.checked ? ' checked' : '') + '>';
+                html += '<span>' + esc(cap(it.name)) + '</span>';
+                html += '</label>';
+                html += '<select class="pantry-checklist-category" data-idx="' + idx + '">';
+                getAllCategories().forEach(function(cat) {
+                    html += '<option value="' + esc(cat) + '"' + (it.category === cat ? ' selected' : '') + '>' + esc(cat) + '</option>';
+                });
+                html += '<option value="__new__">+ New category...</option>';
+                html += '</select>';
+                html += '</div>';
+                return html;
+            }).join('');
+        }
+
+        function initChecklistStep() {
+            var backBtn = document.getElementById('recipeChecklistBack');
+            var allBtn = document.getElementById('recipeChecklistSelectAll');
+            var noneBtn = document.getElementById('recipeChecklistSelectNone');
+            var addBtn = document.getElementById('recipeChecklistAdd');
+            var itemsEl = document.getElementById('recipeChecklistItems');
+
+            if (backBtn) backBtn.addEventListener('click', function() {
+                showRecipeSearchStep();
+            });
+
+            if (allBtn) allBtn.addEventListener('click', function() {
+                pendingRecipeItems.forEach(function(it) { it.checked = true; });
+                renderChecklist();
+            });
+
+            if (noneBtn) noneBtn.addEventListener('click', function() {
+                pendingRecipeItems.forEach(function(it) { it.checked = false; });
+                renderChecklist();
+            });
+
+            if (itemsEl) {
+                itemsEl.addEventListener('change', function(e) {
+                    var check = e.target.closest('.pantry-checklist-check');
+                    var select = e.target.closest('.pantry-checklist-category');
+                    if (check) {
+                        pendingRecipeItems[+check.dataset.idx].checked = check.checked;
+                    }
+                    if (select) {
+                        if (select.value === '__new__') {
+                            var newCat = promptNewCategory();
+                            pendingRecipeItems[+select.dataset.idx].category = newCat || pendingRecipeItems[+select.dataset.idx].category;
+                            renderChecklist();
+                        } else {
+                            pendingRecipeItems[+select.dataset.idx].category = select.value;
+                        }
+                    }
+                });
+            }
+
+            if (addBtn) addBtn.addEventListener('click', function() {
+                var Pantry = pantryApi();
+                if (!Pantry) return;
+                var selected = pendingRecipeItems.filter(function(it) { return it.checked; });
+                if (!selected.length) {
+                    alert('Nothing selected — tick at least one ingredient first.');
+                    return;
+                }
+                Pantry.addItems(selected.map(function(it) {
+                    return { name: it.name, category: it.category };
+                }));
                 document.getElementById('pantryImportModal').style.display = 'none';
                 renderUnified();
-            } catch(e) {
-                alert('Could not load recipe: ' + e.message);
-            }
+            });
         }
 
         // ── Helpers ───────────────────────────────────────

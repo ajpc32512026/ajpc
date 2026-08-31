@@ -1,14 +1,14 @@
 {
   "id": "pineappleupsidedowncake",
   "title": "Pineapple Upside-Down Cake",
-  "category": "Baking",
+  "category": "Cakes",
+  "difficulty": "Beginner",
   "description": "Sticky, caramelised pineapple upside-down cake. Built from pantry staples, baked in a water tray for a moist, even crumb, flipped warm, and it didn't stick. Looks awesome. Tastes even better.",
   "prepTime": "15 min",
   "cookTime": "45 min",
   "totalTime": "1 hr",
   "servings": "10 servings",
   "yieldPerBatch": "1 cake",
-  "difficulty": "Beginner",
   "tags": [
     "American",
     "Baking",
@@ -186,77 +186,30 @@
       "content": "Made with 86 g brown sugar and 150 ml pineapple juice at the time. Used a water basin — added 10 minutes to bake time. Flipped at exactly 5 minutes. Didn't stick. Looked awesome. Dish pig survived."
     }
   ],
-  "related": [
-    {
-      "id": "theultimatechocolatemudcake",
-      "title": "The Ultimate Chocolate Mud Cake",
-      "matchingTags": [
-        "Chocolate",
-        "Cake",
-        "Dessert",
-        "Rich",
-        "Sweet"
-      ]
-    },
-    {
-      "id": "plaincheesecakeclassicnobake",
-      "title": "Plain Cheesecake (Classic No Bake)",
-      "matchingTags": [
-        "Classic",
-        "Creamy",
-        "Dessert",
-        "Make Ahead",
-        "No-Bake",
-        "Rich",
-        "Sweet",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "bananacake",
-      "title": "Banana Cake with Lemon Frosting",
-      "matchingTags": [
-        "Banana",
-        "Cake",
-        "Citrus",
-        "Sweet",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "cherrycoconutcake",
-      "title": "Cherry and Coconut Cake",
-      "matchingTags": [
-        "Baking",
-        "Cake",
-        "Cherry",
-        "Coconut",
-        "Dessert",
-        "Pound Cake",
-        "Sweet"
-      ]
-    }
-  ],
   "nutrition": {
     "servings": 10,
-    "cal": 327,
-    "kj": 1368,
-    "protein": 5,
-    "carbs": 47,
+    "cal": 349,
+    "kj": 1461,
+    "protein": 7,
+    "carbs": 48,
     "sugars": 32,
-    "fat": 13,
-    "saturated_fat": 1,
-    "fiber": 2,
-    "sodium": 177,
+    "fat": 15,
+    "saturated_fat": 1.8,
+    "fiber": 1,
+    "sodium": 154,
     "coverage": 100,
-    "calcium_mg": 31,
+    "foundCount": 9,
+    "totalCount": 9,
+    "unmatchedItems": [],
+    "calcium_mg": 44,
     "iron_mg": 1,
-    "potassium_mg": 245,
-    "magnesium_mg": 16,
-    "cholesterol_mg": 98,
-    "vitamin_a_ug": 26,
-    "vitamin_c_mg": 1,
-    "vitamin_d_ug": 1
+    "potassium_mg": 276,
+    "magnesium_mg": 22,
+    "zinc_mg": 1,
+    "cholesterol_mg": 195,
+    "vitamin_a_ug": 52,
+    "vitamin_c_mg": 6,
+    "vitamin_d_ug": 2
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-08-31"
 }

@@ -1,7 +1,7 @@
 {
   "id": "blueberrymuffins",
   "title": "Heavenly Blueberry Muffins",
-  "category": "Baking",
+  "category": "Snacks",
   "difficulty": "Beginner",
   "description": "Light, fluffy muffins crowned with a crisp crumble and bursting with juicy blueberries — built for quiet mornings and empty plates.",
   "prepTime": "20 min",
@@ -29,7 +29,7 @@
     {
       "quantity": "160",
       "unit": "ml",
-      "item": "Milk Full-Cream"
+      "item": "Milk Full-cream"
     },
     {
       "quantity": "2",
@@ -45,7 +45,7 @@
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Milk Powder Full-Cream"
+      "item": "Milk Powder Full-cream"
     },
     {
       "quantity": "100",
@@ -119,28 +119,29 @@
   ],
   "nutrition": {
     "servings": 12,
-    "cal": 255,
-    "kj": 1067,
-    "protein": 8,
-    "carbs": 28,
-    "sugars": 12,
+    "cal": 250,
+    "kj": 1045,
+    "protein": 7,
+    "carbs": 27,
+    "sugars": 11,
     "fat": 13,
-    "saturated_fat": 2.2,
+    "saturated_fat": 2.3,
     "fiber": 1,
-    "sodium": 118,
-    "coverage": 100,
-    "foundCount": 11,
-    "totalCount": 11,
-    "unmatchedItems": [],
-    "calcium_mg": 64,
+    "sodium": 112,
+    "coverage": 89,
+    "foundCount": 8,
+    "totalCount": 9,
+    "unmatchedItems": [
+      "Milk Full-cream"
+    ],
+    "calcium_mg": 22,
     "iron_mg": 1,
-    "potassium_mg": 220,
-    "magnesium_mg": 17,
+    "potassium_mg": 156,
+    "magnesium_mg": 13,
     "zinc_mg": 1,
-    "cholesterol_mg": 166,
-    "vitamin_a_ug": 57,
-    "vitamin_c_mg": 1,
+    "cholesterol_mg": 164,
+    "vitamin_a_ug": 50,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-08-31"
 }

@@ -19,6 +19,7 @@
     'use strict';
 
     var PANTRY_KEY = 'ajpc_pantry';
+    var CUSTOM_CATEGORY_KEY = 'ajpc_pantry_custom_categories';
 
     // ── Stock levels for quantity-sensitive ingredients ───
     var STOCK_LEVELS = {
@@ -141,6 +142,17 @@
         catch(e) { console.warn('Pantry save failed:', e); }
     }
 
+    function loadCustomCategories() {
+        try {
+            return JSON.parse(localStorage.getItem(CUSTOM_CATEGORY_KEY) || '[]');
+        } catch(e) { return []; }
+    }
+
+    function saveCustomCategories(cats) {
+        try { localStorage.setItem(CUSTOM_CATEGORY_KEY, JSON.stringify(cats)); }
+        catch(e) { console.warn('Custom category save failed:', e); }
+    }
+
     // ── Public API ────────────────────────────────────────
     var Pantry = {
 
@@ -161,19 +173,44 @@
             return p[key] ? (p[key].level || 'FULL') : null;
         },
 
-        // Set ingredient — have=true, level optional. Every item gets a
-        // stock level by default (FULL) so any ingredient can be tracked
+        // Get the category stored against this item, if any (null if the
+        // item isn't in the pantry, or was never assigned one - callers
+        // should fall back to the static pantry-staples.json lookup or
+        // 'Other' in that case).
+        getCategory: function(name) {
+            var key = (name || '').toLowerCase().trim();
+            var p = load();
+            return p[key] ? (p[key].category || null) : null;
+        },
+
+        // Set/change the category on an existing (or new) entry without
+        // touching its have/level state.
+        setCategory: function(name, category) {
+            var key = (name || '').toLowerCase().trim();
+            if (!key) return;
+            var p = load();
+            if (!p[key]) p[key] = { have: true, level: 'FULL' };
+            p[key].category = category || null;
+            p[key].updated = new Date().toISOString().split('T')[0];
+            save(p);
+        },
+
+        // Set ingredient — have=true, level optional, category optional.
+        // Every item gets a stock level by default (FULL) so any ingredient
+        // can be tracked Full/Half/Low/Empty, not just a fixed shortlist.
         // Full/Half/Low/Empty, not just a fixed shortlist.
-        set: function(name, have, level) {
+        set: function(name, have, level, category) {
             var key = (name || '').toLowerCase().trim();
             if (!key) return;
             var p = load();
             if (!have) {
                 delete p[key];
             } else {
+                var existing = p[key] || {};
                 p[key] = {
                     have: true,
-                    level: level || 'FULL',
+                    level: level || existing.level || 'FULL',
+                    category: category || existing.category || null,
                     updated: new Date().toISOString().split('T')[0]
                 };
             }
@@ -264,7 +301,10 @@
             return result;
         },
 
-        // Bulk add ingredients from a recipe (all as "have")
+        // Bulk add ingredients from a recipe (all as "have"). Kept for
+        // back-compat with any other caller — the recipe-import modal now
+        // uses addItems() below instead, since it lets the user pick which
+        // ingredients to add and what category each goes in.
         loadFromRecipe: function(ingredients) {
             var p = load();
             (ingredients || []).forEach(function(ing) {
@@ -280,6 +320,57 @@
                 }
             });
             save(p);
+        },
+
+        // Add a hand-picked set of items, each with its own category.
+        // items: [{ name, category }]. Existing entries are not
+        // overwritten, except that a missing category on an existing
+        // entry will be filled in if one is supplied here.
+        addItems: function(items) {
+            var p = load();
+            (items || []).forEach(function(it) {
+                var key = (it.name || '').toLowerCase().trim();
+                if (!key) return;
+                if (!p[key]) {
+                    p[key] = {
+                        have: true,
+                        level: 'FULL',
+                        category: it.category || null,
+                        updated: new Date().toISOString().split('T')[0]
+                    };
+                } else if (it.category && !p[key].category) {
+                    p[key].category = it.category;
+                    p[key].updated = new Date().toISOString().split('T')[0];
+                }
+            });
+            save(p);
+        },
+
+        // Serialise the whole pantry for export/download.
+        exportJSON: function() {
+            return JSON.stringify(load(), null, 2);
+        },
+
+        // User-created categories, persisted separately from the static
+        // pantry-staples.json catalog so they survive even though that
+        // file itself isn't being rewritten by the browser.
+        getCustomCategories: function() {
+            return loadCustomCategories();
+        },
+
+        // Add a new category name if it doesn't already exist (case-
+        // insensitive check, original casing preserved). Returns the
+        // updated list.
+        addCustomCategory: function(name) {
+            name = (name || '').trim();
+            if (!name) return loadCustomCategories();
+            var cats = loadCustomCategories();
+            var exists = cats.some(function(c) { return c.toLowerCase() === name.toLowerCase(); });
+            if (!exists) {
+                cats.push(name);
+                saveCustomCategories(cats);
+            }
+            return cats;
         },
 
         // Get all unique ingredient names from pantry sorted A-Z

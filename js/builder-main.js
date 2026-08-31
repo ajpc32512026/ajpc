@@ -10,8 +10,12 @@ let currentFilename   = '';
 let tags              = [];
 let recipeIndex       = [];
 
-// NUTRITION_DB lives here — builder-nutrition.js reads this variable
-// It is populated async by loadNutritionDB()
+// NUTRITION_DB lives here — builder-nutrition.js reads this variable.
+// It's now DERIVED from data/ingredients-master.json (the single unified
+// ingredient file) rather than loaded from its own separate file. Every
+// canonical name AND every alias gets its own entry pointing at the same
+// nutrition object, so exact-match lookups in builder-nutrition.js resolve
+// regardless of which wording variant a recipe happens to use.
 let NUTRITION_DB = {};
 
 // ── Init ──────────────────────────────────────────────────
@@ -25,12 +29,23 @@ document.addEventListener('DOMContentLoaded', async () => {
 // ── Async Loaders ─────────────────────────────────────────
 async function loadNutritionDB() {
     try {
-        const res = await fetch('data/nutrition-db.json');
-        if (res.ok) {
-            NUTRITION_DB = await res.json();
-            console.log('Nutrition DB loaded:', Object.keys(NUTRITION_DB).length, 'items');
-        }
-    } catch(e) { console.warn('Could not load nutrition-db.json — nutrition estimates disabled'); }
+        const res = await fetch('json/ingredients-master.json?t=' + Date.now());
+        if (!res.ok) return;
+        const master = await res.json();
+        const flat = {};
+        Object.keys(master).forEach(name => {
+            const entry = master[name];
+            if (!entry.nutrition) return; // no nutrition data for this ingredient - skip, don't fall back
+            const nd = Object.assign({}, entry.nutrition);
+            if (entry.per) nd.per = entry.per;
+            flat[name] = nd;
+            (entry.aliases || []).forEach(alias => {
+                if (!flat[alias]) flat[alias] = nd; // canonical name wins if an alias string collides
+            });
+        });
+        NUTRITION_DB = flat;
+        console.log('Nutrition DB derived from ingredients-master.json:', Object.keys(NUTRITION_DB).length, 'names/aliases with nutrition data');
+    } catch(e) { console.warn('Could not load json/ingredients-master.json — nutrition estimates disabled'); }
 }
 
 async function loadRecipeIndexForRelated() {

@@ -1,13 +1,14 @@
 {
   "id": "muffinmix",
   "title": "Basic Muffin Mix",
-  "category": "Baking",
+  "category": "Snacks",
   "difficulty": "Beginner",
   "description": "A simple, dependable base recipe — sweet or savoury, load it up any way you like.",
   "prepTime": "10 min",
   "cookTime": "20 min",
   "totalTime": "30 min",
   "servings": "12 muffins",
+  "yieldPerBatch": "12 muffins",
   "tags": [
     "American",
     "Baked",
@@ -43,7 +44,7 @@
     {
       "quantity": "250",
       "unit": "ml",
-      "item": "Milk Full-Cream"
+      "item": "Milk Full-cream"
     },
     {
       "quantity": "1",
@@ -163,26 +164,32 @@
   ],
   "nutrition": {
     "servings": 12,
-    "cal": 325,
-    "kj": 1359,
-    "protein": 8,
-    "carbs": 45,
-    "sugars": 23,
+    "cal": 299,
+    "kj": 1252,
+    "protein": 9,
+    "carbs": 38,
+    "sugars": 20,
     "fat": 12,
-    "saturated_fat": 3.9,
+    "saturated_fat": 2.6,
     "fiber": 3,
-    "sodium": 265,
-    "coverage": 100,
-    "calcium_mg": 82,
+    "sodium": 223,
+    "coverage": 81,
+    "foundCount": 13,
+    "totalCount": 16,
+    "unmatchedItems": [
+      "Milk Full-cream",
+      "Vanilla Extract",
+      "Dark Chocolate Chips"
+    ],
+    "calcium_mg": 56,
     "iron_mg": 2,
-    "potassium_mg": 334,
-    "magnesium_mg": 36,
+    "potassium_mg": 318,
+    "magnesium_mg": 64,
     "zinc_mg": 1,
-    "cholesterol_mg": 96,
-    "vitamin_a_ug": 89,
-    "vitamin_c_mg": 3,
+    "cholesterol_mg": 87,
+    "vitamin_a_ug": 64,
+    "vitamin_c_mg": 2,
     "vitamin_d_ug": 1
   },
-  "lastModified": "2026-06-04",
-  "yieldPerBatch": "12 muffins"
+  "lastModified": "2026-08-31"
 }

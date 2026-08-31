@@ -1,7 +1,7 @@
 {
   "id": "theultimatechocolatemudcake",
   "title": "The Ultimate Chocolate Mud Cake",
-  "category": "Desserts",
+  "category": "Cakes",
   "difficulty": "Intermediate",
   "description": "A decadent, dense, and fudgy masterpiece topped with silky chocolate ganache — the ultimate indulgence.",
   "prepTime": "20 min",
@@ -52,7 +52,7 @@
     {
       "quantity": "435",
       "unit": "ml",
-      "item": "Milk Full-Cream",
+      "item": "Milk Full-cream",
       "notes": "divided: 375ml for Cake, 60ml for Ganache"
     },
     {
@@ -157,24 +157,30 @@
   ],
   "nutrition": {
     "servings": 10,
-    "cal": 773,
-    "kj": 3234,
-    "protein": 15,
-    "carbs": 78,
-    "sugars": 59,
-    "fat": 46,
-    "saturated_fat": 28.4,
+    "cal": 744,
+    "kj": 3113,
+    "protein": 13,
+    "carbs": 76,
+    "sugars": 56,
+    "fat": 44,
+    "saturated_fat": 27.4,
     "fiber": 2,
-    "sodium": 389,
-    "coverage": 100,
-    "calcium_mg": 145,
+    "sodium": 373,
+    "coverage": 85,
+    "foundCount": 11,
+    "totalCount": 13,
+    "unmatchedItems": [
+      "Milk Full-cream",
+      "Vanilla Extract"
+    ],
+    "calcium_mg": 99,
     "iron_mg": 4,
-    "potassium_mg": 710,
-    "magnesium_mg": 74,
+    "potassium_mg": 648,
+    "magnesium_mg": 69,
     "zinc_mg": 2,
-    "cholesterol_mg": 408,
-    "vitamin_a_ug": 413,
+    "cholesterol_mg": 404,
+    "vitamin_a_ug": 394,
     "vitamin_d_ug": 5
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-08-31"
 }

@@ -1,0 +1,158 @@
+{
+  "id": "lemondijonbutterbasa",
+  "title": "Lemon Dijon Butter Basa",
+  "category": "Dinner",
+  "difficulty": "Beginner",
+  "description": "Pan-seared basa fillets finished in a glossy lemon, garlic and dijon butter sauce. Light, quick, and no cream needed.",
+  "prepTime": "10 min",
+  "cookTime": "10 min",
+  "totalTime": "20 min",
+  "servings": "2 servings",
+  "yieldPerBatch": "1 batch",
+  "tags": [
+    "European",
+    "Butter",
+    "Dinner",
+    "Fish",
+    "Lemon",
+    "Quick",
+    "Saucy",
+    "Savoury"
+  ],
+  "ingredients": [
+    {
+      "quantity": "2",
+      "unit": "",
+      "item": "Basa Fillets",
+      "notes": "skinless"
+    },
+    {
+      "quantity": "20",
+      "unit": "g",
+      "item": "Plain Flour",
+      "notes": "for dusting if required, read step 1 in the method"
+    },
+    {
+      "quantity": "3",
+      "unit": "g",
+      "item": "Salt"
+    },
+    {
+      "quantity": "1",
+      "unit": "g",
+      "item": "Ground White Pepper",
+      "notes": "about 1/4 tsp"
+    },
+    {
+      "quantity": "60",
+      "unit": "g",
+      "item": "Unsalted Butter",
+      "notes": "divided"
+    },
+    {
+      "quantity": "8",
+      "unit": "g",
+      "item": "Garlic",
+      "notes": "fresh, minced"
+    },
+    {
+      "quantity": "15",
+      "unit": "g",
+      "item": "Dijon Mustard"
+    },
+    {
+      "quantity": "30",
+      "unit": "ml",
+      "item": "Lemon Juice",
+      "notes": "fresh is best, bottled works well too"
+    },
+    {
+      "quantity": "100",
+      "unit": "ml",
+      "item": "Chicken Stock",
+      "notes": "made from stock cube"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Brown Sugar"
+    },
+    {
+      "quantity": "1",
+      "unit": "g",
+      "item": "Sweet Smoked Paprika",
+      "notes": "about 1/4 tsp"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "Pat the basa fillets dry and season with salt and white pepper. Choose your style now, before going further: Option 1: Leave the fillets whole, dust them lightly in the plain flour, shaking off excess, and continue to step 2. Option 2: Cut into pieces roughly 1 inch (2.5 cm) thick, skip the flour entirely and skip ahead to step 4."
+    },
+    {
+      "step": 2,
+      "instruction": "Melt half the butter in a pan over medium-high heat. Sear the basa for about 2 minutes per side until golden and just cooked through. Remove and set aside."
+    },
+    {
+      "step": 3,
+      "instruction": "If seared: lower the heat to medium and add the remaining butter to the same pan. If poaching from raw: melt all the butter in the pan over medium heat. Either way, add the garlic and stir for 30 seconds until fragrant."
+    },
+    {
+      "step": 4,
+      "instruction": "Stir in the dijon mustard, lemon juice, chicken stock, brown sugar and smoked paprika. Simmer for 2 to 3 minutes until slightly reduced and glossy - get it to the consistency you want now, as it won't reduce much further once the fish is in."
+    },
+    {
+      "step": 5,
+      "instruction": "If seared: return the basa to the pan, spooning the sauce over, and warm through for 1 minute without breaking up the pieces. If poaching from raw: gently lower the basa into the sauce, don't stir, and spoon sauce over the top to baste. Poach for 4 to 5 minutes until just opaque and flaking. Serve straight from the pan over rice."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Handling the Fish",
+      "content": "Basa cooks fast and flakes easily. If poaching, handle it gently once it's in the sauce - spoon liquid over rather than stirring or flipping, so the pieces hold together."
+    },
+    {
+      "type": "technique",
+      "title": "The Sauce",
+      "content": "Built in the same pan the fish was seared in (if going that route) so it picks up the browned bits - don't wipe the pan out."
+    },
+    {
+      "type": "serving",
+      "title": "Serving",
+      "content": "Good served over rice or with steamed greens, spooning the sauce over both."
+    },
+    {
+      "type": "storage",
+      "title": "Storage",
+      "content": "Best eaten fresh - the fish texture suffers on reheating. Refrigerate covered for up to 1 day if needed."
+    }
+  ],
+  "nutrition": {
+    "servings": 2,
+    "cal": 323,
+    "kj": 1352,
+    "protein": 4,
+    "carbs": 13,
+    "sugars": 4,
+    "fat": 28,
+    "saturated_fat": 17.3,
+    "fiber": 2,
+    "sodium": 301,
+    "coverage": 91,
+    "foundCount": 10,
+    "totalCount": 11,
+    "unmatchedItems": [
+      "Basa Fillets"
+    ],
+    "calcium_mg": 32,
+    "iron_mg": 1,
+    "potassium_mg": 149,
+    "magnesium_mg": 34,
+    "zinc_mg": 1,
+    "cholesterol_mg": 50,
+    "vitamin_a_ug": 280,
+    "vitamin_c_mg": 6
+  },
+  "lastModified": "2026-08-29"
+}

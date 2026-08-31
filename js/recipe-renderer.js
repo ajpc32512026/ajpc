@@ -539,10 +539,26 @@
         try {
             var tipInventory = window.tipInventory;
             if (!tipInventory) {
-                var res = await fetch('json/ingredient_inventory_v7.json');
-                if (!res.ok) throw new Error('Failed to load ingredient directory');
+                var res = await fetch('json/ingredients-master.json');
+                if (!res.ok) throw new Error('Failed to load ingredients directory');
                 tipInventory = await res.json();
                 window.tipInventory = tipInventory;
+            }
+
+            // Build an exact-match lookup: canonical name AND every alias
+            // both resolve to the same entry. Same reasoning as the
+            // nutrition/pricing fixes elsewhere - no fuzzy substring
+            // matching, since it has no generic-bucket safety net behind
+            // it anymore and would just risk matching the wrong ingredient.
+            var tipLookup = {};
+            for (var canonKey in tipInventory) {
+                var entry = tipInventory[canonKey];
+                if (!entry.reference) continue; // nothing to show for this one
+                tipLookup[canonKey.toLowerCase()] = { name: canonKey, data: entry };
+                (entry.aliases || []).forEach(function(alias) {
+                    var aKey = alias.toLowerCase();
+                    if (!tipLookup[aKey]) tipLookup[aKey] = { name: canonKey, data: entry };
+                });
             }
 
             var ingredientsList = [];
@@ -581,12 +597,8 @@
 
             var matches = [];
             for (var i = 0; i < ingredientsList.length; i++) {
-                for (var ing in tipInventory) {
-                    if (ing.toLowerCase().indexOf(ingredientsList[i]) !== -1 ||
-                        ingredientsList[i].indexOf(ing.toLowerCase()) !== -1) {
-                        matches.push({ name: ing, data: tipInventory[ing] });
-                    }
-                }
+                var hit = tipLookup[ingredientsList[i]];
+                if (hit) matches.push(hit);
             }
 
             if (matches.length === 0) {
@@ -596,33 +608,34 @@
 
             var random = matches[Math.floor(Math.random() * matches.length)];
             currentTipData = random;
+            var ref = random.data.reference || {};
 
             var html = '<div class="tip-ingredient"><strong>' + escHtmlForTip(random.name) + '</strong>';
-            if (random.data.aka && random.data.aka.length) {
-                html += ' <span class="tip-aka">(' + random.data.aka.join(', ') + ')</span>';
+            if (random.data.aliases && random.data.aliases.length) {
+                html += ' <span class="tip-aka">(' + random.data.aliases.join(', ') + ')</span>';
             }
             html += '</div>';
 
-            if (random.data.purpose) {
-                html += '<div class="tip-purpose"><strong>Purpose:</strong> ' + escHtmlForTip(random.data.purpose) + '</div>';
+            if (ref.purpose) {
+                html += '<div class="tip-purpose"><strong>Purpose:</strong> ' + escHtmlForTip(ref.purpose) + '</div>';
             }
 
-            if (random.data.usageTips) {
-                var cleanUsage = random.data.usageTips.replace(/\*\*/g, '').replace(/Usage:/g, '').trim();
+            if (ref.usageTips) {
+                var cleanUsage = ref.usageTips.replace(/\*\*/g, '').replace(/Usage:/g, '').trim();
                 html += '<div class="tip-usage"><strong>Usage:</strong> ' + escHtmlForTip(cleanUsage) + '</div>';
             }
 
-            if (random.data.storage) {
-                var cleanStorage = random.data.storage.replace(/\*\*/g, '').replace(/Storage:/i, '').trim();
+            if (ref.storage) {
+                var cleanStorage = ref.storage.replace(/\*\*/g, '').replace(/Storage:/i, '').trim();
                 html += '<div class="tip-storage"><strong>Storage:</strong> ' + escHtmlForTip(cleanStorage) + '</div>';
             }
 
-            if (random.data.substitutes) {
-                html += '<div class="tip-substitutes"><strong>Substitute:</strong> ' + escHtmlForTip(random.data.substitutes) + '</div>';
+            if (ref.substitutes) {
+                html += '<div class="tip-substitutes"><strong>Substitute:</strong> ' + escHtmlForTip(ref.substitutes) + '</div>';
             }
 
-            if (random.data.notes && random.data.notes.trim()) {
-                var cleanNote = cleanNotesText(random.data.notes);
+            if (ref.notes && ref.notes.trim()) {
+                var cleanNote = cleanNotesText(ref.notes);
                 if (cleanNote.indexOf(random.name.toLowerCase()) === 0) {
                     cleanNote = cleanNote.substring(random.name.length).trim();
                     cleanNote = cleanNote.replace(/^is\s+|^are\s+/, '');

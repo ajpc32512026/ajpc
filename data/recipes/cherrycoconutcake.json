@@ -1,7 +1,7 @@
 {
   "id": "cherrycoconutcake",
   "title": "Cherry and Coconut Cake",
-  "category": "Baking",
+  "category": "Cakes",
   "difficulty": "Intermediate",
   "description": "A wonderful buttery, soft pound cake bursting with cherries in every bite! The flavour is out of this world, rich in coconut. Bake in a bundt pan or loaf pan.",
   "prepTime": "20 minutes",
@@ -175,8 +175,8 @@
     "fiber": 2,
     "sodium": 169,
     "coverage": 100,
-    "foundCount": 11,
-    "totalCount": 11,
+    "foundCount": 9,
+    "totalCount": 9,
     "unmatchedItems": [],
     "calcium_mg": 58,
     "iron_mg": 2,
@@ -187,5 +187,5 @@
     "vitamin_a_ug": 229,
     "vitamin_d_ug": 4
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-08-31"
 }

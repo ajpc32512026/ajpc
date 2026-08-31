@@ -1,7 +1,7 @@
 {
   "id": "apricotflan",
   "title": "Apricot Flan",
-  "category": "Baking",
+  "category": "Desserts",
   "difficulty": "Intermediate",
   "description": "Not just dessert — this is the one that makes the room go quiet. Soft custard, buttery pastry, and apricots that know their job.",
   "prepTime": "40 min",
@@ -62,7 +62,7 @@
     {
       "quantity": "250",
       "unit": "ml",
-      "item": "Milk Full-Cream"
+      "item": "Milk Full-cream"
     },
     {
       "quantity": "150",
@@ -122,28 +122,30 @@
   ],
   "nutrition": {
     "servings": 8,
-    "cal": 508,
-    "kj": 2124,
-    "protein": 13,
-    "carbs": 43,
-    "sugars": 25,
-    "fat": 30,
-    "saturated_fat": 15.6,
-    "fiber": 3,
-    "sodium": 99,
-    "coverage": 100,
-    "foundCount": 12,
-    "totalCount": 12,
-    "unmatchedItems": [],
-    "calcium_mg": 131,
+    "cal": 648,
+    "kj": 2713,
+    "protein": 11,
+    "carbs": 86,
+    "sugars": 63,
+    "fat": 29,
+    "saturated_fat": 14.9,
+    "fiber": 2,
+    "sodium": 90,
+    "coverage": 82,
+    "foundCount": 9,
+    "totalCount": 11,
+    "unmatchedItems": [
+      "Natural Vanilla Extract",
+      "Milk Full-cream"
+    ],
+    "calcium_mg": 69,
     "iron_mg": 2,
-    "potassium_mg": 440,
-    "magnesium_mg": 57,
+    "potassium_mg": 211,
+    "magnesium_mg": 43,
     "zinc_mg": 1,
-    "cholesterol_mg": 294,
-    "vitamin_a_ug": 338,
-    "vitamin_c_mg": 4,
+    "cholesterol_mg": 291,
+    "vitamin_a_ug": 252,
     "vitamin_d_ug": 3
   },
-  "lastModified": "2026-08-19"
+  "lastModified": "2026-08-31"
 }

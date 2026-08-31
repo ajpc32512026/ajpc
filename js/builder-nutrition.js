@@ -53,16 +53,17 @@ function computeNutrition(ingredients, servingsNum) {
         const qty  = parseFloat(ing.quantity) || 0;
         const unit = (ing.unit || '').toLowerCase().trim();
 
-        // Exact match first, then fuzzy
-        let nd = NUTRITION_DB[itemName];
-        if (!nd) {
-            for (const key in NUTRITION_DB) {
-                if (itemName.includes(key) || key.includes(itemName)) {
-                    nd = NUTRITION_DB[key];
-                    break;
-                }
-            }
-        }
+        // Exact match only (canonical name or alias) — the old fuzzy
+        // substring fallback (`itemName.includes(key)`) existed because
+        // nutrition-db.json used to carry generic bucket entries ("cheese",
+        // "chicken", "beef"...) as a safety net. Those were deliberately
+        // dropped when this got unified into ingredients-master.json, so
+        // substring matching now has no safety net backing it and would
+        // just produce wrong matches (e.g. an unrelated ingredient whose
+        // text happens to contain another ingredient's canonical name).
+        // Ingredients not written using canonical wording simply won't
+        // match — that's the point, not a bug to work around here.
+        const nd = NUTRITION_DB[itemName];
         
         // If not found in database, mark as unmatched
         if (!nd) {

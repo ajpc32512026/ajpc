@@ -58,14 +58,14 @@
   {
     "title": "Ingredient Directory",
     "url": "ingredient_directory.html",
-    "emoji": "📦",
+    "emoji": "",
     "desc": "Browse all ingredients A-Z and by category",
     "content": "ingredient directory "
   },
   {
     "title": "Gallery",
     "url": "gallery.html",
-    "emoji": "🖼",
+    "emoji": "",
     "desc": "Photo gallery",
     "content": "gallery "
   }
