@@ -8,10 +8,9 @@
   "cookTime": "25 min",
   "totalTime": "40 min",
   "servings": "12 friands",
+  "yieldPerBatch": "1 batch",
   "tags": [
     "Australian",
-    "Baking",
-    "Cake",
     "Dessert",
     "French",
     "Orange",
@@ -116,28 +115,29 @@
   ],
   "nutrition": {
     "servings": 12,
-    "cal": 247,
-    "kj": 1032,
-    "protein": 8,
-    "carbs": 13,
-    "sugars": 10,
+    "cal": 401,
+    "kj": 1678,
+    "protein": 12,
+    "carbs": 44,
+    "sugars": 40,
     "fat": 18,
     "saturated_fat": 9.7,
-    "fiber": 1,
+    "fiber": 10,
     "sodium": 100,
-    "coverage": 100,
-    "foundCount": 9,
+    "coverage": 89,
+    "foundCount": 8,
     "totalCount": 9,
-    "unmatchedItems": [],
-    "calcium_mg": 61,
+    "unmatchedItems": [
+      "Natural Vanilla Extract"
+    ],
+    "calcium_mg": 150,
     "iron_mg": 1,
-    "potassium_mg": 174,
-    "magnesium_mg": 37,
+    "potassium_mg": 865,
+    "magnesium_mg": 82,
     "zinc_mg": 1,
     "cholesterol_mg": 27,
-    "vitamin_a_ug": 143,
-    "vitamin_c_mg": 2
+    "vitamin_a_ug": 170,
+    "vitamin_c_mg": 188
   },
-  "lastModified": "2026-07-21",
-  "yieldPerBatch": "1 batch"
+  "lastModified": "2026-08-31"
 }

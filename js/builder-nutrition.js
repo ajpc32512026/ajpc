@@ -21,6 +21,45 @@ const UNIT_TO_GRAMS = {
 
 const SKIP_ITEMS = ['water','hot water','cold water','warm water','boiling water','tap water'];
 
+// Ingredients where a bare item name is deliberately non-specific (per the
+// pantry naming rule: item = plain name, variety/prep goes in notes) but
+// still needs ONE sensible default when notes don't resolve to a specific
+// database entry. "Flour" with no more specific match defaults to Plain
+// Flour — Alex's stated assumption for the generic case.
+const GENERIC_ITEM_DEFAULTS = {
+    'flour': 'plain flour'
+};
+
+// ── Nutrition lookup ───────────────────────────────────────
+// Looks up an ingredient in NUTRITION_DB. Tries, in order:
+//   1. The bare item name (works for single-form ingredients like "Yeast", "Salt")
+//   2. "<item> <notes-segment>" for each comma-separated notes segment,
+//      e.g. item "Flour" + notes "bakers, remaining, for Main Dough"
+//      → tries "flour bakers" — which matches the "flour bakers" alias
+//      already used on entries like Bakers/Bread/Plain/Self-Raising Flour.
+//   3. "<notes-segment> <item>" the other word order, e.g. "bakers flour"
+//   4. A generic default for that item (see GENERIC_ITEM_DEFAULTS above),
+//      so a bare "Flour" with no matching notes still resolves sensibly
+//      instead of going unmatched.
+function findNutritionEntry(itemName, notesRaw) {
+    if (!itemName) return null;
+    if (NUTRITION_DB[itemName]) return NUTRITION_DB[itemName];
+
+    const notesName = (notesRaw || '').toLowerCase().trim();
+    if (notesName) {
+        const segments = notesName.split(',').map(s => s.trim()).filter(Boolean);
+        for (const seg of segments) {
+            if (NUTRITION_DB[`${itemName} ${seg}`]) return NUTRITION_DB[`${itemName} ${seg}`];
+            if (NUTRITION_DB[`${seg} ${itemName}`]) return NUTRITION_DB[`${seg} ${itemName}`];
+        }
+    }
+
+    const fallbackKey = GENERIC_ITEM_DEFAULTS[itemName];
+    if (fallbackKey && NUTRITION_DB[fallbackKey]) return NUTRITION_DB[fallbackKey];
+
+    return null;
+}
+
 const MICRO_FIELDS = [
     'calcium_mg','iron_mg','potassium_mg','magnesium_mg',
     'zinc_mg','cholesterol_mg','vitamin_a_ug','vitamin_c_mg','vitamin_d_ug'
@@ -53,17 +92,19 @@ function computeNutrition(ingredients, servingsNum) {
         const qty  = parseFloat(ing.quantity) || 0;
         const unit = (ing.unit || '').toLowerCase().trim();
 
-        // Exact match only (canonical name or alias) — the old fuzzy
-        // substring fallback (`itemName.includes(key)`) existed because
-        // nutrition-db.json used to carry generic bucket entries ("cheese",
-        // "chicken", "beef"...) as a safety net. Those were deliberately
-        // dropped when this got unified into ingredients-master.json, so
-        // substring matching now has no safety net backing it and would
-        // just produce wrong matches (e.g. an unrelated ingredient whose
-        // text happens to contain another ingredient's canonical name).
-        // Ingredients not written using canonical wording simply won't
-        // match — that's the point, not a bug to work around here.
-        const nd = NUTRITION_DB[itemName];
+        // Exact match only (canonical name, alias, or item+notes combo —
+        // see findNutritionEntry above) — the old fuzzy substring fallback
+        // (`itemName.includes(key)`) existed because nutrition-db.json used
+        // to carry generic bucket entries ("cheese", "chicken", "beef"...)
+        // as a safety net. Those were deliberately dropped when this got
+        // unified into ingredients-master.json, so substring matching now
+        // has no safety net backing it and would just produce wrong matches
+        // (e.g. an unrelated ingredient whose text happens to contain
+        // another ingredient's canonical name). Ingredients not written
+        // using canonical wording, and not resolvable via notes or a
+        // generic default, simply won't match — that's the point, not a
+        // bug to work around here.
+        const nd = findNutritionEntry(itemName, ing.notes);
         
         // If not found in database, mark as unmatched
         if (!nd) {

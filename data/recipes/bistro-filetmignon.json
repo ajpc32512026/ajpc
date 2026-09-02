@@ -58,7 +58,7 @@
       "quantity": "",
       "unit": "",
       "item": "Salt & Pepper",
-      "notes": "Don't add too much all at once — you can't take it out once it's in."
+      "notes": "Don't add too much all at once \u2014 you can't take it out once it's in."
     }
   ],
   "method": [
@@ -68,15 +68,15 @@
     },
     {
       "step": 2,
-      "instruction": "Pan-fry or grill over high heat to desired doneness, about 3–4 minutes per side for medium-rare. Remove and rest on a warm plate. Remove the toothpick."
+      "instruction": "Pan-fry or grill over high heat to desired doneness, about 3\u20134 minutes per side for medium-rare. Remove and rest on a warm plate. Remove the toothpick."
     },
     {
       "step": 3,
-      "instruction": "In the same pan, melt butter over medium heat. Add diced onion and cook until softened, about 2–3 minutes. Add mushrooms and cook until golden, about 3–4 minutes."
+      "instruction": "In the same pan, melt butter over medium heat. Add diced onion and cook until softened, about 2\u20133 minutes. Add mushrooms and cook until golden, about 3\u20134 minutes."
     },
     {
       "step": 4,
-      "instruction": "Pour in demi glace and thickened cream. Stir and reduce for 2–3 minutes until the sauce is rich and glossy. Season with salt."
+      "instruction": "Pour in demi glace and thickened cream. Stir and reduce for 2\u20133 minutes until the sauce is rich and glossy. Season with salt."
     },
     {
       "step": 5,
@@ -87,7 +87,7 @@
     {
       "type": "technique",
       "title": "Demi-Forward Sauce",
-      "content": "The sauce is demi glace-forward with cream added for richness and body — not a cream-dominant sauce. The demi carries the beefy depth while the cream smooths and enriches."
+      "content": "The sauce is demi glace-forward with cream added for richness and body \u2014 not a cream-dominant sauce. The demi carries the beefy depth while the cream smooths and enriches."
     }
   ],
   "related": [
@@ -135,6 +135,5 @@
     "vitamin_d_ug": 3
   },
   "lastModified": "2026-05-24",
-  "cuisine": "French",
   "yieldPerBatch": "1 serving"
 }

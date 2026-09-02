@@ -94,7 +94,7 @@
   "method": [
     {
       "step": 1,
-      "instruction": "Preheat oven to 200°C. Roast beef bones and scraps on a tray until deeply browned - about 45 minutes. Don't rush this. Brown equals flavour."
+      "instruction": "Preheat oven to 200\u00b0C. Roast beef bones and scraps on a tray until deeply browned - about 45 minutes. Don't rush this. Brown equals flavour."
     },
     {
       "step": 2,
@@ -195,6 +195,5 @@
     "vitamin_d_ug": 5
   },
   "lastModified": "2026-06-08",
-  "cuisine": "French",
   "yieldPerBatch": "1 batch"
 }

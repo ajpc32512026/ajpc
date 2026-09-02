@@ -1,0 +1,173 @@
+{
+  "id": "35hourcheatssourdough",
+  "title": "The \"35-Hour\" Cheat's Sourdough",
+  "category": "Breads",
+  "difficulty": "Intermediate",
+  "description": "White Artisan Loaf with a hard, crunchy crust and a tangy sourdough-style flavour. Uses a \"Poolish\" (overnight starter) and vinegar to mimic the flavour and crunch of store-bought sourdough without the hassle of a permanent starter.",
+  "prepTime": "2 hr 30 min active",
+  "cookTime": "40-45 min",
+  "totalTime": "approx. 35 hrs (incl. overnight ferment & cold rest)",
+  "servings": "1 loaf",
+  "yieldPerBatch": "1 loaf",
+  "tags": [
+    "Bread",
+    "Sourdough Style",
+    "Artisan",
+    "Crusty",
+    "Make Ahead",
+    "Vegetarian",
+    "No Oil",
+    "European"
+  ],
+  "ingredients": [
+    {
+      "heading": "Poolish"
+    },
+    {
+      "quantity": "200",
+      "unit": "g",
+      "item": "Bakers Flour"
+    },
+    {
+      "quantity": "200",
+      "unit": "ml",
+      "item": "Water",
+      "notes": "room temperature"
+    },
+    {
+      "quantity": "1",
+      "unit": "g",
+      "item": "Yeast",
+      "notes": "instant, specifically 1/4 tsp"
+    },
+    {
+      "heading": "Bread Dough"
+    },
+    {
+      "quantity": "390",
+      "unit": "g",
+      "item": "Bakers Flour"
+    },
+    {
+      "quantity": "200",
+      "unit": "ml",
+      "item": "Water",
+      "notes": "lukewarm"
+    },
+    {
+      "quantity": "20",
+      "unit": "ml",
+      "item": "White Vinegar",
+      "notes": "the \"sourdough hack\""
+    },
+    {
+      "quantity": "12",
+      "unit": "g",
+      "item": "Salt"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Yeast",
+      "notes": "instant, approx. 1 & 1/2 tsp — the rest of the yeast packet"
+    },
+    {
+      "quantity": "5",
+      "unit": "g",
+      "item": "Bread Improver",
+      "notes": "optional, if you have it"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "instruction": "The night before (approx. 8-12 hours before making the dough): mix the Poolish flour, water, and 1/4 tsp instant yeast in a small bowl until it looks like a thick paste. Cover with plastic wrap and leave on the kitchen counter overnight. It will be bubbly and smell fermented the next morning."
+    },
+    {
+      "step": 2,
+      "instruction": "The next morning, add the remaining flour, water, white vinegar, salt, the rest of the yeast packet, and bread improver (if using) directly into the bowl with the Poolish. NO oil, NO sugar, NO butter."
+    },
+    {
+      "step": 3,
+      "instruction": "The Mix: Mix all ingredients together until no dry flour remains. It will be stickier than a standard dough — do not add more flour. Let it rest in the bowl for 30 minutes."
+    },
+    {
+      "step": 4,
+      "instruction": "The Stretch and Fold (builds the crunch): Instead of heavy kneading, wet your hand, reach under one side of the dough, pull it up high, and fold it over into the centre. Rotate the bowl and repeat 4 times. Repeat this whole process every 30 minutes for 2 hours (4 times total). The dough will become strong and bouncy."
+    },
+    {
+      "step": 5,
+      "instruction": "Shaping & the Cold Sleep: Shape the dough into a smooth ball. Place it into a bowl lined with a heavily floured tea towel (or a proofing basket)."
+    },
+    {
+      "step": 6,
+      "instruction": "Cover and put it in the fridge for 12 to 24 hours. This long cold rest is what creates the \"35-hour\" sourdough flavour and the thin, crunchy crust."
+    },
+    {
+      "step": 7,
+      "instruction": "The Bake: Preheat the oven to 230°C (450°F) for at least 45 minutes before baking."
+    },
+    {
+      "step": 8,
+      "instruction": "If using a Dutch Oven (best): place the cold dough onto baking paper, score the top with a sharp knife, and drop it into the hot pot. Bake with the lid ON for 25 minutes, then lid OFF for 15-20 minutes until dark golden brown."
+    },
+    {
+      "step": 9,
+      "instruction": "If using a Baking Tray: place a shallow tray of boiling water on the bottom rack of the oven when you put the bread in — this steam creates the crunch. Bake for 45 minutes total, until dark golden brown."
+    },
+    {
+      "step": 10,
+      "instruction": "The Cooling: Do not cut the bread for at least 1 hour — it is still cooking inside. Cutting too early will leave it gummy. Place it on a wire rack so air can circulate under the bottom."
+    }
+  ],
+  "notes": [
+    {
+      "type": "technique",
+      "title": "Overnight Poolish",
+      "content": "Leave on the counter for 8-12 hours until visibly bubbly and fermented-smelling — this is the base of the flavour."
+    },
+    {
+      "type": "technique",
+      "title": "Stretch and Fold",
+      "content": "Wet hands prevent sticking. Repeat every 30 minutes, 4 times total over 2 hours, to build strength without heavy kneading."
+    },
+    {
+      "type": "technique",
+      "title": "Cold Sleep",
+      "content": "12-24 hours in the fridge is essential — this slow, cold fermentation is what builds the sourdough-style tang and the thin, crunchy crust."
+    },
+    {
+      "type": "technique",
+      "title": "Baking Tray Method",
+      "content": "45 minutes total in the oven with a tray of boiling water on the bottom rack, until dark golden brown."
+    },
+    {
+      "type": "technique",
+      "title": "Cooling",
+      "content": "Do not cut for at least 1 hour — the loaf is still cooking inside. Cool on a wire rack, not on a solid surface, so air circulates underneath."
+    }
+  ],
+  "nutrition": {
+    "servings": 1,
+    "cal": 2153,
+    "kj": 9008,
+    "protein": 71,
+    "carbs": 424,
+    "sugars": 5,
+    "fat": 7,
+    "saturated_fat": 1.2,
+    "fiber": 18,
+    "sodium": 1039,
+    "coverage": 100,
+    "foundCount": 7,
+    "totalCount": 7,
+    "unmatchedItems": [],
+    "calcium_mg": 141,
+    "iron_mg": 9,
+    "potassium_mg": 1166,
+    "magnesium_mg": 233,
+    "zinc_mg": 6,
+    "vitamin_a_ug": 1
+  },
+  "lastModified": "2026-09-01"
+}

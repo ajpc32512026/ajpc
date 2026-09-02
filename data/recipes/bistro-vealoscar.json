@@ -2,7 +2,7 @@
   "id": "bistro-vealoscar",
   "title": "Veal Oscar",
   "category": "Bistro",
-  "description": "Crumbed and deep-fried veal topped with blanched asparagus, seafood Mornay, and melted cheese — finished under the grill. A classic fine dining preparation.",
+  "description": "Crumbed and deep-fried veal topped with blanched asparagus, seafood Mornay, and melted cheese \u2014 finished under the grill. A classic fine dining preparation.",
   "prepTime": "10 min",
   "cookTime": "10 min",
   "totalTime": "20 min",
@@ -50,7 +50,7 @@
       "quantity": "",
       "unit": "",
       "item": "Salt & Pepper",
-      "notes": "Don't add too much all at once — you can't take it out once it's in."
+      "notes": "Don't add too much all at once \u2014 you can't take it out once it's in."
     }
   ],
   "youWillNeed": [
@@ -60,7 +60,7 @@
     },
     {
       "item": "Milk & Eggs",
-      "note": "For egg wash — use 1 egg per 250ml full cream milk. Whisk well before using."
+      "note": "For egg wash \u2014 use 1 egg per 250ml full cream milk. Whisk well before using."
     },
     {
       "item": "Bread Crumbs",
@@ -68,7 +68,7 @@
     },
     {
       "item": "Oil",
-      "note": "For deep frying — use a high smoke point oil such as cottonseed, sunflower, canola, or peanut oil."
+      "note": "For deep frying \u2014 use a high smoke point oil such as cottonseed, sunflower, canola, or peanut oil."
     },
     {
       "item": "Ovenproof Dish",
@@ -86,7 +86,7 @@
     },
     {
       "step": 3,
-      "instruction": "Heat oil to 170–180°C. Deep-fry crumbed veal for 2–3 minutes until golden and crisp. Drain on paper towels and place in an ovenproof dish."
+      "instruction": "Heat oil to 170\u2013180\u00b0C. Deep-fry crumbed veal for 2\u20133 minutes until golden and crisp. Drain on paper towels and place in an ovenproof dish."
     },
     {
       "step": 4,
@@ -98,19 +98,19 @@
     },
     {
       "step": 6,
-      "instruction": "Grill under a hot grill until the cheese is golden and bubbling, about 3–4 minutes. Serve immediately."
+      "instruction": "Grill under a hot grill until the cheese is golden and bubbling, about 3\u20134 minutes. Serve immediately."
     }
   ],
   "notes": [
     {
       "type": "technique",
       "title": "Crumbed and Fried",
-      "content": "The veal is crumbed and deep-fried — flour, egg wash, breadcrumbs. This gives a crisp, golden shell that holds up under the rich Mornay without going soggy."
+      "content": "The veal is crumbed and deep-fried \u2014 flour, egg wash, breadcrumbs. This gives a crisp, golden shell that holds up under the rich Mornay without going soggy."
     },
     {
       "type": "technique",
       "title": "Mornay Base",
-      "content": "The Mornay sauce is made separately — see [[mornaysauce|Mornay / Cheese Sauce]]. No demi glace is used in this dish — the richness comes entirely from the cheese and seafood."
+      "content": "The Mornay sauce is made separately \u2014 see [[mornaysauce|Mornay / Cheese Sauce]]. No demi glace is used in this dish \u2014 the richness comes entirely from the cheese and seafood."
     }
   ],
   "related": [
@@ -158,6 +158,5 @@
     "vitamin_d_ug": 2
   },
   "lastModified": "2026-05-24",
-  "cuisine": "American / Modern",
   "yieldPerBatch": "1 serving"
 }

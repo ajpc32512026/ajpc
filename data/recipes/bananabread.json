@@ -1,20 +1,20 @@
 {
   "id": "bananabread",
   "title": "Banana Bread",
-  "category": "Baking",
+  "category": "Snacks",
+  "difficulty": "Beginner",
   "description": "Like Nan used to make — moist, forgiving, and quietly better than it has any right to be.",
   "prepTime": "15 min",
   "cookTime": "55 min",
   "totalTime": "1 hr 10 min",
   "servings": "9 slices",
-  "difficulty": "Beginner",
+  "yieldPerBatch": "1 batch",
   "tags": [
     "American",
     "Baking",
     "Banana",
     "Bread",
     "Breakfast",
-    "Cake",
     "Classic",
     "Make Ahead",
     "Rich",
@@ -51,7 +51,7 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Bi-Carb Soda"
+      "item": "Bi-carb Soda"
     },
     {
       "quantity": "1",
@@ -61,12 +61,14 @@
     {
       "quantity": "190",
       "unit": "g",
-      "item": "Plain Flour"
+      "item": "Plain Flour",
+      "notes": "sifted"
     },
     {
       "quantity": "60",
       "unit": "g",
-      "item": "Walnuts"
+      "item": "Walnuts",
+      "notes": "chopped"
     }
   ],
   "method": [
@@ -112,96 +114,32 @@
       "content": "Cuts cleanly into 9 slices at approximately 25 mm thick. For thinner slices, slice at 20 mm for up to 12 serves."
     }
   ],
-  "related": [
-    {
-      "id": "classiccarrotcake",
-      "title": "Classic Carrot Cake",
-      "matchingTags": [
-        "Baked",
-        "Classic",
-        "Creamy",
-        "Party",
-        "Sweet",
-        "Vegetarian",
-        "Carrot"
-      ]
-    },
-    {
-      "id": "blueberrymuffins",
-      "title": "Heavenly Blueberry Muffins",
-      "matchingTags": [
-        "Baked",
-        "Breakfast",
-        "Sweet",
-        "Under 1 Hour",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "chocmuffins",
-      "title": "Chocolate Muffins with Ganache",
-      "matchingTags": [
-        "Baked",
-        "Chocolate",
-        "Rich",
-        "Sweet",
-        "Under 1 Hour",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "applecinnscrolls",
-      "title": "Apple & Cinnamon Scrolls",
-      "matchingTags": [
-        "Apple",
-        "Bread",
-        "Breakfast",
-        "Cinnamon",
-        "Creamy",
-        "Rich",
-        "Sweet",
-        "Under 1 Hour",
-        "Vegetarian"
-      ]
-    },
-    {
-      "id": "apricotflan",
-      "title": "Apricot Flan",
-      "matchingTags": [
-        "Alcohol",
-        "Brandy",
-        "Classic",
-        "Creamy",
-        "Dessert",
-        "Pastry",
-        "Rich",
-        "Sweet",
-        "Vegetarian"
-      ]
-    }
-  ],
   "nutrition": {
     "servings": 9,
-    "cal": 294,
-    "kj": 1229,
-    "protein": 5,
-    "carbs": 40,
-    "sugars": 21,
-    "fat": 13,
-    "saturated_fat": 6,
-    "fiber": 2,
-    "sodium": 216,
-    "coverage": 100,
-    "calcium_mg": 44,
+    "cal": 449,
+    "kj": 1880,
+    "protein": 7,
+    "carbs": 49,
+    "sugars": 29,
+    "fat": 25,
+    "saturated_fat": 15.6,
+    "fiber": 3,
+    "sodium": 202,
+    "coverage": 89,
+    "foundCount": 8,
+    "totalCount": 9,
+    "unmatchedItems": [
+      "Natural Vanilla Extract"
+    ],
+    "calcium_mg": 53,
     "iron_mg": 1,
-    "potassium_mg": 251,
-    "magnesium_mg": 32,
+    "potassium_mg": 328,
+    "magnesium_mg": 49,
     "zinc_mg": 1,
-    "cholesterol_mg": 56,
-    "vitamin_a_ug": 94,
-    "vitamin_c_mg": 3
+    "cholesterol_mg": 123,
+    "vitamin_a_ug": 108,
+    "vitamin_c_mg": 2,
+    "vitamin_d_ug": 1
   },
-  "lastModified": "2026-05-31",
-  "cuisine": "American / Modern",
-  "yieldPerBatch": "1 batch"
+  "lastModified": "2026-08-31"
 }

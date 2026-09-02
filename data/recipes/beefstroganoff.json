@@ -2,7 +2,7 @@
   "id": "beefstroganoff",
   "title": "Beef & Mushroom Stroganoff",
   "category": "Dinner",
-  "description": "Rich, creamy, and anchored by mushrooms — a classic dinner that works for weeknights or company.",
+  "description": "Rich, creamy, and anchored by mushrooms \u2014 a classic dinner that works for weeknights or company.",
   "prepTime": "10 min",
   "cookTime": "20 min",
   "totalTime": "30 min",
@@ -98,19 +98,19 @@
     },
     {
       "step": 2,
-      "instruction": "Heat olive oil in a large frying pan over medium-high heat. Add beef in batches and cook for 2–3 minutes until browned. Remove and set aside."
+      "instruction": "Heat olive oil in a large frying pan over medium-high heat. Add beef in batches and cook for 2\u20133 minutes until browned. Remove and set aside."
     },
     {
       "step": 3,
-      "instruction": "Reduce heat to medium. In the same pan, add the sliced onion and cook for 2–3 minutes until softened."
+      "instruction": "Reduce heat to medium. In the same pan, add the sliced onion and cook for 2\u20133 minutes until softened."
     },
     {
       "step": 4,
-      "instruction": "Add mushrooms and cook for 3–4 minutes until golden and tender."
+      "instruction": "Add mushrooms and cook for 3\u20134 minutes until golden and tender."
     },
     {
       "step": 5,
-      "instruction": "Add beef stock and Worcestershire sauce. Bring to a simmer and cook for 3–4 minutes to reduce slightly."
+      "instruction": "Add beef stock and Worcestershire sauce. Bring to a simmer and cook for 3\u20134 minutes to reduce slightly."
     },
     {
       "step": 6,
@@ -118,11 +118,11 @@
     },
     {
       "step": 7,
-      "instruction": "Reduce heat to low. Stir in sour cream gently and heat through without boiling — boiling will split the sauce."
+      "instruction": "Reduce heat to low. Stir in sour cream gently and heat through without boiling \u2014 boiling will split the sauce."
     },
     {
       "step": 8,
-      "instruction": "Meanwhile, steam green beans until just tender, about 3–4 minutes."
+      "instruction": "Meanwhile, steam green beans until just tender, about 3\u20134 minutes."
     },
     {
       "step": 9,
@@ -133,12 +133,12 @@
     {
       "type": "technique",
       "title": "Temperature Control",
-      "content": "Keep the heat gentle once the sour cream goes in. Boil it and the sauce will split — there is no fixing that."
+      "content": "Keep the heat gentle once the sour cream goes in. Boil it and the sauce will split \u2014 there is no fixing that."
     },
     {
       "type": "variation",
       "title": "Red Wine Addition",
-      "content": "Using dry red wine is optional — it adds richness but is not required for a classic stroganoff flavour. Add 60 ml with the stock if desired."
+      "content": "Using dry red wine is optional \u2014 it adds richness but is not required for a classic stroganoff flavour. Add 60 ml with the stock if desired."
     },
     {
       "type": "acknowledgement",
@@ -240,6 +240,5 @@
     "vitamin_d_ug": 2
   },
   "lastModified": "2026-05-31",
-  "cuisine": "American / Modern",
   "yieldPerBatch": "4 servings"
 }

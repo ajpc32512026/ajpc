@@ -2,16 +2,15 @@
   "id": "baked-cheesecake",
   "title": "Baked Cheesecake",
   "category": "Desserts",
+  "difficulty": "Intermediate",
   "description": "A classic baked cheesecake with a creamy, dense filling and crisp biscuit base. Rich, smooth, and far more forgiving than its reputation suggests.",
   "prepTime": "20 min",
   "cookTime": "55 min",
   "totalTime": "75 min + overnight chilling",
   "servings": "8 serves",
-  "difficulty": "Intermediate",
+  "yieldPerBatch": "1 batch",
   "tags": [
     "American",
-    "Baked",
-    "Baking",
     "Classic",
     "Creamy",
     "Dessert",
@@ -164,47 +163,33 @@
       "content": "Suitable. Freeze whole or in slices, well wrapped. Thaw overnight in the refrigerator."
     }
   ],
-  "related": [
-    {
-      "id": "tiramisu",
-      "title": "Chef-Style Tiramisu Gateau",
-      "matchingTags": [
-        "Alcohol",
-        "Classic",
-        "Coffee",
-        "Creamy",
-        "Dessert",
-        "Italian",
-        "Make Ahead",
-        "Rich",
-        "Sweet",
-        "Vegetarian"
-      ]
-    }
-  ],
   "nutrition": {
     "servings": 8,
-    "cal": 791,
-    "kj": 3308,
-    "protein": 11,
-    "carbs": 52,
-    "sugars": 40,
-    "fat": 61,
-    "saturated_fat": 38,
-    "fiber": 1,
-    "sodium": 101,
-    "coverage": 100,
-    "calcium_mg": 108,
-    "iron_mg": 1,
-    "potassium_mg": 228,
-    "magnesium_mg": 29,
+    "cal": 850,
+    "kj": 3558,
+    "protein": 20,
+    "carbs": 53,
+    "sugars": 37,
+    "fat": 62,
+    "saturated_fat": 16.3,
+    "fiber": 7,
+    "sodium": 140,
+    "coverage": 78,
+    "foundCount": 7,
+    "totalCount": 9,
+    "unmatchedItems": [
+      "Natural Vanilla Extract",
+      "Lemon Juice"
+    ],
+    "calcium_mg": 151,
+    "iron_mg": 2,
+    "potassium_mg": 298,
+    "magnesium_mg": 37,
     "zinc_mg": 1,
-    "cholesterol_mg": 295,
-    "vitamin_a_ug": 517,
-    "vitamin_c_mg": 3,
-    "vitamin_d_ug": 1
+    "cholesterol_mg": 419,
+    "vitamin_a_ug": 299,
+    "vitamin_c_mg": 81,
+    "vitamin_d_ug": 5
   },
-  "lastModified": "2026-05-31",
-  "cuisine": "American / Modern",
-  "yieldPerBatch": "1 batch"
+  "lastModified": "2026-08-31"
 }
