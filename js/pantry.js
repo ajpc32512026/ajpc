@@ -263,13 +263,44 @@
             return null;
         },
 
+        // Combines ingredient lines that share the same name (e.g. "Bakers
+        // Flour" appearing once in a Poolish section and again in a Bread
+        // Dough section) into one line with the summed quantity, so a
+        // recipe with multiple sections doesn't get evaluated as if the
+        // same ingredient were two separate ingredients. Quantities are
+        // only summed when both lines use the same unit — mismatched units
+        // (e.g. "1 cup" + "200 ml") are left as separate lines rather than
+        // guessing a conversion.
+        _mergeIngredientLines: function(ingredients) {
+            var order = [];
+            var indexByKey = {};
+            (ingredients || []).forEach(function(ing) {
+                if (ing.heading || ing.toTaste) { order.push(ing); return; }
+                var name = (ing.item || ing.name || '').toLowerCase().trim();
+                var unit = (ing.unit || '').toLowerCase().trim();
+                if (!name) { order.push(ing); return; }
+                var key = name + '|' + unit;
+                if (indexByKey.hasOwnProperty(key)) {
+                    var i = indexByKey[key];
+                    var prevQty = parseFloat(order[i].quantity) || 0;
+                    var thisQty = parseFloat(ing.quantity) || 0;
+                    order[i] = Object.assign({}, order[i], { quantity: prevQty + thisQty });
+                } else {
+                    indexByKey[key] = order.length;
+                    order.push(ing);
+                }
+            });
+            return order;
+        },
+
         // Analyse a full recipe ingredient list against pantry
         // Returns { buy: [], have: [], low: [], subs: [] }
         analyseRecipe: function(ingredients) {
             var result = { buy: [], have: [], low: [], subs: [] };
             var self = this;
+            var merged = self._mergeIngredientLines(ingredients);
 
-            (ingredients || []).forEach(function(ing) {
+            merged.forEach(function(ing) {
                 if (ing.heading || ing.toTaste) return;
                 var name = (ing.item || ing.name || '').toLowerCase().trim();
                 if (!name) return;

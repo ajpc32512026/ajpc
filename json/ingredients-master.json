@@ -17,7 +17,7 @@
     },
     "reference": {
       "purpose": "Provides the base structure for no-bake confections. The existing flavour of the cake contributes to the final product; chocolate or plain butter cake works best for rum balls and truffles.",
-      "storage": "Storage:** Use within 2\u20133 days if made from fresh leftover cake.",
+      "storage": "Storage:** Use within 2–3 days if made from fresh leftover cake.",
       "notes": "Cake crumbs are used as a base ingredient in confections such as rum balls, cake pops, and truffles. - **Source:** Can be made from leftover or slightly stale cake of any variety, or purchased as pre-made cake crumbs. - **Consistency:** Crumble or process cake into fine crumbs. Moisture content will vary depending on the cake type; adjust binding agents (rum, cream, condensed milk) accordingly. - **",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
@@ -101,7 +101,7 @@
     },
     "reference": {
       "purpose": "Provides deep chocolate flavour, dark colour, and bitterness without added sugar or fat. Used as a primary flavouring in cakes, biscuits, brownies, desserts, drinks, sauces, and dusting applications.",
-      "notes": "Finely ground powder made from cocoa solids after cocoa butter is removed. Unsweetened and highly concentrated. Types and behaviour: - **Natural Cocoa Powder:** Light brown, acidic, sharp chocolate flavour. Reacts with baking soda for leavening; used in traditional cakes, brownies, and older recipes. - **Dutch-Processed Cocoa:** Treated with alkali to neutralise acidity; darker colour, smoother and milder flavour. Does not react with baking soda\u2014use baking powder instead. Cocoa powder absorbs liquid aggressively; sift before use to prevent clumping. Blooming cocoa in hot liquid or fat enhances flavour depth and colour. Store airtight, away from heat and moisture to preserve aroma.",
+      "notes": "Finely ground powder made from cocoa solids after cocoa butter is removed. Unsweetened and highly concentrated. Types and behaviour: - **Natural Cocoa Powder:** Light brown, acidic, sharp chocolate flavour. Reacts with baking soda for leavening; used in traditional cakes, brownies, and older recipes. - **Dutch-Processed Cocoa:** Treated with alkali to neutralise acidity; darker colour, smoother and milder flavour. Does not react with baking soda—use baking powder instead. Cocoa powder absorbs liquid aggressively; sift before use to prevent clumping. Blooming cocoa in hot liquid or fat enhances flavour depth and colour. Store airtight, away from heat and moisture to preserve aroma.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -420,17 +420,17 @@
       "brand": "Essentials"
     },
     "nutrition": {
-      "cal": 395.0,
-      "carbs": 72.0,
-      "fat": 5.0,
+      "cal": 395,
+      "carbs": 72,
+      "fat": 5,
       "fiber": 3.5,
-      "protein": 14.0
+      "protein": 14
     },
     "_nutritionIncomplete": true,
     "reference": {
       "purpose": "Creates a crisp, golden outer crust on crumbed meats and vegetables. Binds ingredients in stuffings, meatballs, and patties. Adds texture as a topping on gratins and baked dishes.",
       "storage": "Storage:** Keep dry breadcrumbs in an airtight container in the pantry for up to 3 months.",
-      "notes": "Breadcrumbs are dried and finely ground bread used as coatings, binders, and toppings. - **Dry Breadcrumbs:** Fine texture; absorb moisture and create a thin, crisp coating. Standard for schnitzels, cutlets, and fried foods. - **Panko Breadcrumbs:** Japanese-style breadcrumbs; larger, flakier, and lighter. Creates a crunchier, airier coating than standard breadcrumbs. Preferred for bistro-style crumbed dishes. - **Fresh Breadcrumbs:** Made from day-old bread blended in a processor; soft and absorbs more moisture; used in stuffings, meatballs, and patties as a binder. - **Coating Technique:** Crumb using the standard sequence \u2014 flour \u2192 egg wash \u2192 breadcrumbs. Press crumbs firmly to adhere. Refrigerate 10\u201315 minutes before frying for better adhesion. - ** Panko keeps similarly.",
+      "notes": "Breadcrumbs are dried and finely ground bread used as coatings, binders, and toppings. - **Dry Breadcrumbs:** Fine texture; absorb moisture and create a thin, crisp coating. Standard for schnitzels, cutlets, and fried foods. - **Panko Breadcrumbs:** Japanese-style breadcrumbs; larger, flakier, and lighter. Creates a crunchier, airier coating than standard breadcrumbs. Preferred for bistro-style crumbed dishes. - **Fresh Breadcrumbs:** Made from day-old bread blended in a processor; soft and absorbs more moisture; used in stuffings, meatballs, and patties as a binder. - **Coating Technique:** Crumb using the standard sequence — flour → egg wash → breadcrumbs. Press crumbs firmly to adhere. Refrigerate 10–15 minutes before frying for better adhesion. - ** Panko keeps similarly.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -549,7 +549,7 @@
     },
     "reference": {
       "purpose": "Provides natural leavening and distinctive tangy flavour to sourdough breads and enriched doughs. Creates an open crumb structure and improved keeping quality through slow fermentation.",
-      "notes": "A living culture of wild yeast and lactobacilli bacteria cultivated in a mixture of flour and water. Used as the sole leavening agent in sourdough bread, replacing commercial yeast with a slower, more complex fermentation. Requires regular feeding with fresh flour and water to maintain activity. Before use, the starter should be fully risen, bubbly, and smell pleasantly sour and yeasty \u2014 not sharp or acetone-like. A stiff sweet starter (lower hydration, fed with sugar) produces a milder flavour suitable for enriched doughs like cinnamon rolls. Can be stored in the refrigerator between bakes and revived with a few feedings. Discard a portion before each feed to maintain health and volume.",
+      "notes": "A living culture of wild yeast and lactobacilli bacteria cultivated in a mixture of flour and water. Used as the sole leavening agent in sourdough bread, replacing commercial yeast with a slower, more complex fermentation. Requires regular feeding with fresh flour and water to maintain activity. Before use, the starter should be fully risen, bubbly, and smell pleasantly sour and yeasty — not sharp or acetone-like. A stiff sweet starter (lower hydration, fed with sugar) produces a milder flavour suitable for enriched doughs like cinnamon rolls. Can be stored in the refrigerator between bakes and revived with a few feedings. Discard a portion before each feed to maintain health and volume.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -585,7 +585,7 @@
       "zinc_mg": 0.06
     },
     "reference": {
-      "purpose": "Adds richness, flavour, moisture, tenderness, and mouthfeel; functions as a fat, leavening aid (when creamed), flavour enhancer, and textural component in baked goods, sauces, and saut\u00e9s.",
+      "purpose": "Adds richness, flavour, moisture, tenderness, and mouthfeel; functions as a fat, leavening aid (when creamed), flavour enhancer, and textural component in baked goods, sauces, and sautés.",
       "notes": "Made by churning cream to separate butterfat from buttermilk; available salted or unsalted. Unsalted butter is preferred in baking and precise cooking applications to control salt levels; salted butter is convenient for spreading and general cooking, with a slightly longer shelf life. Butter can be used cold, softened, or melted depending on technique. Creaming with sugar incorporates air for leavening in cakes and cookies. Burns easily due to milk solids; can be clarified into ghee for higher-heat cooking. Store refrigerated; freeze for long-term storage.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
@@ -790,7 +790,7 @@
     },
     "reference": {
       "purpose": "Adds sweet, delicate seafood flavour and firm texture to stir-fries, noodle dishes, curries, and grilled preparations. Cooks quickly and pairs well with bold sauces and aromatics.",
-      "notes": "Shellfish with a sweet, delicate flavour and firm, slightly bouncy texture when cooked. Sold fresh or frozen, raw or cooked, shell-on or peeled. Green prawns are raw and turn pink-orange when cooked. For stir-fries and noodle dishes, peel and devein before cooking \u2014 the dark vein running along the back is the digestive tract. Cook quickly over high heat; they are done the moment they turn opaque and curl. Overcooking makes them rubbery. Store fresh prawns refrigerated and use within a day; frozen prawns can be thawed overnight in the refrigerator.",
+      "notes": "Shellfish with a sweet, delicate flavour and firm, slightly bouncy texture when cooked. Sold fresh or frozen, raw or cooked, shell-on or peeled. Green prawns are raw and turn pink-orange when cooked. For stir-fries and noodle dishes, peel and devein before cooking — the dark vein running along the back is the digestive tract. Cook quickly over high heat; they are done the moment they turn opaque and curl. Overcooking makes them rubbery. Store fresh prawns refrigerated and use within a day; frozen prawns can be thawed overnight in the refrigerator.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -1102,7 +1102,7 @@
     },
     "reference": {
       "purpose": "Adds concentrated tomato flavour, deep red colour, richness, and body to sauces, stews, and braises. Caramelises in hot oil to build a deep savoury base. Essential in Italian, Filipino, and many other cuisines.",
-      "storage": "Store in the refrigerator after opening \u2014 tubes keep longest.",
+      "storage": "Store in the refrigerator after opening — tubes keep longest.",
       "notes": "A thick, concentrated paste made from tomatoes that have been cooked down and strained to remove seeds and skins. Deep red with an intense, slightly sweet tomato flavour. Used to add depth, richness, and colour to sauces, stews, braises, and soups. A small amount goes a long way. Fry briefly in oil at the start of cooking to caramelise the sugars and deepen the flavour before adding liquids. Sold in small cans, jars, or tubes. Can be frozen in tablespoon portions for convenience.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
@@ -1179,7 +1179,7 @@
     },
     "reference": {
       "purpose": "Adds sweetness, acidity, colour, and body to curries, sauces, soups, and stews. Provides texture, depth, and concentrated flavour depending on tomato variety and form used.",
-      "notes": "Versatile tomato varieties for curries, sauces, stews, and general cooking. Choose the form based on recipe requirements and desired texture: * **Fresh Tomatoes:** Ripe and firm; ideal for salads, salsas, and fresh sauces. * **Roma:** Meaty, low in seeds; perfect for sauces, roasting, and cooking. * **Cherry / Grape Tomatoes:** Small, sweet, firm; great for roasting, salads, or quick saut\u00e9s. * **Canned Tomatoes:** Peeled, diced, or crushed; excellent for long-simmered sauces and soups. * **Tomato Puree / Passata:** Smooth, liquid consistency; perfect for soups, sauces, and gravies where a silky texture is desired. * **Tomato Paste:** Concentrated tomato flavour; often caramelised slightly to deepen taste; use in small quantities for sauces, stews, and curries. For thicker consistency, drain excess liquid from canned tomatoes if needed. Store fresh tomatoes at room temperature (refrigerate only if very ripe). Canned, pureed, or paste forms should be stored in a cool, dry place and refrigerated after opening.",
+      "notes": "Versatile tomato varieties for curries, sauces, stews, and general cooking. Choose the form based on recipe requirements and desired texture: * **Fresh Tomatoes:** Ripe and firm; ideal for salads, salsas, and fresh sauces. * **Roma:** Meaty, low in seeds; perfect for sauces, roasting, and cooking. * **Cherry / Grape Tomatoes:** Small, sweet, firm; great for roasting, salads, or quick sautés. * **Canned Tomatoes:** Peeled, diced, or crushed; excellent for long-simmered sauces and soups. * **Tomato Puree / Passata:** Smooth, liquid consistency; perfect for soups, sauces, and gravies where a silky texture is desired. * **Tomato Paste:** Concentrated tomato flavour; often caramelised slightly to deepen taste; use in small quantities for sauces, stews, and curries. For thicker consistency, drain excess liquid from canned tomatoes if needed. Store fresh tomatoes at room temperature (refrigerate only if very ripe). Canned, pureed, or paste forms should be stored in a cool, dry place and refrigerated after opening.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -1360,7 +1360,7 @@
     },
     "reference": {
       "purpose": "Adds rich, nutty, savoury depth with excellent melting properties. Ideal for baked dishes where a smooth, even melt and golden finish are desired. Pairs well with eggs, pastry, vegetables, and white sauces.",
-      "notes": "A firm, aged Swiss cheese made from cow's milk with a dense, smooth texture and a complex flavour that ranges from nutty and sweet when young to earthy and slightly crystalline when aged. Melts beautifully without splitting, making it ideal for baking, gratins, quiches, and flans. Named after the town of Gruyeres in Switzerland. Grate fresh for the best flavour and melting quality \u2014 pre-shredded cheese contains anti-caking agents that affect texture. Store wrapped in wax paper or cheese paper in the refrigerator; bring to room temperature before using for best flavour.",
+      "notes": "A firm, aged Swiss cheese made from cow's milk with a dense, smooth texture and a complex flavour that ranges from nutty and sweet when young to earthy and slightly crystalline when aged. Melts beautifully without splitting, making it ideal for baking, gratins, quiches, and flans. Named after the town of Gruyeres in Switzerland. Grate fresh for the best flavour and melting quality — pre-shredded cheese contains anti-caking agents that affect texture. Store wrapped in wax paper or cheese paper in the refrigerator; bring to room temperature before using for best flavour.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -1412,7 +1412,7 @@
     },
     "reference": {
       "purpose": "Adds luxurious richness, creaminess, and a mild, sweet dairy flavour. Essential for authentic tiramisu. Used in both sweet desserts and savoury sauces for a silky texture.",
-      "notes": "A smooth, thick Italian cream cheese with a high fat content and a mild, slightly sweet flavour. Silky and spreadable straight from the refrigerator. Unlike regular cream cheese, mascarpone is made from cream rather than milk, giving it a richer, more luxurious texture. Used in both sweet and savoury dishes \u2014 essential in tiramisu, excellent in cheesecakes, and a wonderful addition to creamy pasta sauces and pie fillings where it melts into a velvety texture. Does not split when heated gently. Bring to room temperature before using for easier mixing. Store refrigerated and use within days of opening.",
+      "notes": "A smooth, thick Italian cream cheese with a high fat content and a mild, slightly sweet flavour. Silky and spreadable straight from the refrigerator. Unlike regular cream cheese, mascarpone is made from cream rather than milk, giving it a richer, more luxurious texture. Used in both sweet and savoury dishes — essential in tiramisu, excellent in cheesecakes, and a wonderful addition to creamy pasta sauces and pie fillings where it melts into a velvety texture. Does not split when heated gently. Bring to room temperature before using for easier mixing. Store refrigerated and use within days of opening.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -1451,7 +1451,7 @@
     },
     "reference": {
       "purpose": "Provides mild, creamy flavour, excellent stretch, and golden browning when melted. Essential for pizza, lasagne, and baked pasta dishes where a smooth, even melt is desired.",
-      "notes": "A mild, white Italian cheese with a soft, elastic texture and excellent melting properties. Available fresh (packed in whey or water) or as low-moisture block cheese. Fresh mozzarella is soft, moist, and delicate \u2014 best torn and used in salads or on pizza where it melts into creamy pools. Low-moisture mozzarella is firmer, grates easily, and gives the classic stretchy, golden melt on pizzas, lasagne, and baked pasta dishes. For lasagne, use low-moisture mozzarella for even melting and browning. Store fresh mozzarella in its liquid; block mozzarella wrapped in the refrigerator.",
+      "notes": "A mild, white Italian cheese with a soft, elastic texture and excellent melting properties. Available fresh (packed in whey or water) or as low-moisture block cheese. Fresh mozzarella is soft, moist, and delicate — best torn and used in salads or on pizza where it melts into creamy pools. Low-moisture mozzarella is firmer, grates easily, and gives the classic stretchy, golden melt on pizzas, lasagne, and baked pasta dishes. For lasagne, use low-moisture mozzarella for even melting and browning. Store fresh mozzarella in its liquid; block mozzarella wrapped in the refrigerator.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -1504,7 +1504,7 @@
     },
     "reference": {
       "purpose": "Adds intense umami, saltiness, and nutty depth to pasta, sauces, pesto, and baked dishes. Functions as both a cooking ingredient and a finishing cheese. A cornerstone of Italian cuisine.",
-      "notes": "A hard, granular Italian cheese made from cow's milk, aged for 12-36 months. Intensely savoury, nutty, and slightly crystalline with a granular texture that melts into sauces. A little goes a long way due to its concentrated flavour. Grate fresh from the block for the best flavour and melting quality \u2014 pre-grated Parmesan contains anti-caking agents and loses its aromatic oils quickly. Use in pasta, risotto, pesto, sauces, and as a finishing cheese. The rind can be added to soups and stocks for extra depth. Store wrapped in wax paper or cheese paper in the refrigerator.",
+      "notes": "A hard, granular Italian cheese made from cow's milk, aged for 12-36 months. Intensely savoury, nutty, and slightly crystalline with a granular texture that melts into sauces. A little goes a long way due to its concentrated flavour. Grate fresh from the block for the best flavour and melting quality — pre-grated Parmesan contains anti-caking agents and loses its aromatic oils quickly. Use in pasta, risotto, pesto, sauces, and as a finishing cheese. The rind can be added to soups and stocks for extra depth. Store wrapped in wax paper or cheese paper in the refrigerator.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -1544,11 +1544,11 @@
       "brand": "Philadelphia"
     },
     "nutrition": {
-      "cal": 342.0,
-      "carbs": 4.0,
-      "fat": 34.0,
-      "fiber": 0.0,
-      "protein": 6.0
+      "cal": 342,
+      "carbs": 4,
+      "fat": 34,
+      "fiber": 0,
+      "protein": 6
     },
     "_nutritionIncomplete": true,
     "reference": {
@@ -1957,7 +1957,7 @@
       "Pignoli",
       "Pignolia",
       "Pine Seeds",
-      "Pi\u00f1on Nuts",
+      "Piñon Nuts",
       "nuts pine"
     ],
     "priceData": {
@@ -1985,7 +1985,7 @@
     "reference": {
       "purpose": "Adds buttery, slightly sweet flavour and tender crunch. Essential in pesto; used to enrich pasta dishes, salads, and grain dishes. Toasted pine nuts provide a flavour and texture contrast as garnish.",
       "storage": "Storage:** High oil content makes pine nuts perishable.",
-      "notes": "Pine nuts are the edible seeds of pine trees, harvested from the cones. Small, elongated, and cream-coloured. - **Flavour:** Mild, sweet, and buttery with a slight resinous note. - **Toasting:** Dry-toast in a pan over medium heat, stirring constantly, until golden \u2014 3\u20134 minutes. Watch closely as they can burn very quickly. Toasting deepens flavour significantly. - **Common Uses:** Essential in traditional pesto, added to salads, pasta, pilafs, and baked goods. Used as garnish on dips and in Middle Eastern cooking. - ** Store in an airtight container in the fridge for up to 1 month, or freeze for up to 6 months.",
+      "notes": "Pine nuts are the edible seeds of pine trees, harvested from the cones. Small, elongated, and cream-coloured. - **Flavour:** Mild, sweet, and buttery with a slight resinous note. - **Toasting:** Dry-toast in a pan over medium heat, stirring constantly, until golden — 3–4 minutes. Watch closely as they can burn very quickly. Toasting deepens flavour significantly. - **Common Uses:** Essential in traditional pesto, added to salads, pasta, pilafs, and baked goods. Used as garnish on dips and in Middle Eastern cooking. - ** Store in an airtight container in the fridge for up to 1 month, or freeze for up to 6 months.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -2159,9 +2159,9 @@
       "sugars": 0.5
     },
     "reference": {
-      "purpose": "Adds depth, warmth, and subtle sweetness; functions as a flavour enhancer, aromatic ingredient, and component for flamb\u00e9 or preserved fruits.",
+      "purpose": "Adds depth, warmth, and subtle sweetness; functions as a flavour enhancer, aromatic ingredient, and component for flambé or preserved fruits.",
       "storage": "Store in a cool, dark place with bottle tightly sealed to preserve quality.",
-      "notes": "Distilled spirit made from fermented fruit juice, most commonly grapes. Adds warmth, aroma, and richness when used in cooking or baking. Often used in sauces, desserts, flamb\u00e9 dishes, and fruit macerations. Can enhance flavour in cakes, puddings, custards, and sauces. Use in moderation due to high alcohol content; alcohol mostly cooks off during heating but leaves concentrated flavour.",
+      "notes": "Distilled spirit made from fermented fruit juice, most commonly grapes. Adds warmth, aroma, and richness when used in cooking or baking. Often used in sauces, desserts, flambé dishes, and fruit macerations. Can enhance flavour in cakes, puddings, custards, and sauces. Use in moderation due to high alcohol content; alcohol mostly cooks off during heating but leaves concentrated flavour.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -2229,7 +2229,7 @@
     },
     "reference": {
       "purpose": "Adds intense, aromatic coffee flavour to desserts, particularly tiramisu and coffee-flavoured cakes and creams. Provides a bitter, roasted depth that balances sweet, creamy elements.",
-      "notes": "A concentrated coffee brewed by forcing hot water through finely-ground coffee beans under high pressure. Intensely flavoured, aromatic, and slightly syrupy with a layer of crema on top. Used in desserts to add deep coffee flavour \u2014 most famously in tiramisu where it soaks the sponge layers. Brew fresh for best results; instant coffee dissolved in minimal hot water can substitute in a pinch but lacks the richness and crema. Can be sweetened or left unsweetened depending on the recipe. Cool completely before using in desserts unless the recipe specifies otherwise.",
+      "notes": "A concentrated coffee brewed by forcing hot water through finely-ground coffee beans under high pressure. Intensely flavoured, aromatic, and slightly syrupy with a layer of crema on top. Used in desserts to add deep coffee flavour — most famously in tiramisu where it soaks the sponge layers. Brew fresh for best results; instant coffee dissolved in minimal hot water can substitute in a pinch but lacks the richness and crema. Can be sweetened or left unsweetened depending on the recipe. Cool completely before using in desserts unless the recipe specifies otherwise.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -2273,7 +2273,7 @@
       "purpose": "Adds citrus aroma, sweetness, and depth to desserts, sauces, pastries, and cocktails; enhances flavor complexity.",
       "usageTips": "Usage:** Use sparingly to flavor cakes, pastries, sauces, creams, and desserts.",
       "storage": "Storage:** Store upright in a cool, dark place away from heat and sunlight to preserve flavor and aroma.",
-      "notes": "Orange liqueurs are sweet, citrus-flavored alcoholic spirits. - ** Can be added to cocktails or used for flamb\u00e9. - **Pairings:** Complements chocolate, cream, citrus desserts, fruits, and nuts. - ** - **Substitutions:** Other orange liqueurs (Cointreau, Grand Marnier, or Triple Sec) can be used; flavors will vary slightly.",
+      "notes": "Orange liqueurs are sweet, citrus-flavored alcoholic spirits. - ** Can be added to cocktails or used for flambé. - **Pairings:** Complements chocolate, cream, citrus desserts, fruits, and nuts. - ** - **Substitutions:** Other orange liqueurs (Cointreau, Grand Marnier, or Triple Sec) can be used; flavors will vary slightly.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -2373,7 +2373,7 @@
       "purpose": "Adds boozy flavour, warmth, and aromatic depth to desserts, puddings, cakes, sauces, and soaked fruits. Enhances richness and complexity in both cooking and beverages.",
       "usageTips": "Commonly used in beverages, desserts, and cooking.",
       "storage": "Storage:** Store upright in a cool, dark place to preserve flavour and aroma.",
-      "notes": "Rum is a distilled spirit made from sugarcane by-products, such as molasses or sugarcane juice. - **Usage:** Use in baking, flamb\u00e9, marinades, sauces, or cocktails. Alcohol can be cooked off if desired. - **Tips:** Dark and aged rums add richer, deeper flavours; light or white rum is milder and ideal for lighter desserts or cocktails. Spiced rum adds aromatic notes like vanilla, cinnamon, or cloves. - **",
+      "notes": "Rum is a distilled spirit made from sugarcane by-products, such as molasses or sugarcane juice. - **Usage:** Use in baking, flambé, marinades, sauces, or cocktails. Alcohol can be cooked off if desired. - **Tips:** Dark and aged rums add richer, deeper flavours; light or white rum is milder and ideal for lighter desserts or cocktails. Spiced rum adds aromatic notes like vanilla, cinnamon, or cloves. - **",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -2510,15 +2510,15 @@
     },
     "per": "each",
     "nutrition": {
-      "cal": 322.0,
+      "cal": 322,
       "carbs": 3.6,
-      "fat": 27.0,
-      "fiber": 0.0,
-      "protein": 16.0
+      "fat": 27,
+      "fiber": 0,
+      "protein": 16
     },
     "_nutritionIncomplete": true,
     "reference": {
-      "purpose": "Same as Egg Yolk \u2014 adds richness, colour, tenderness, and emulsification in larger quantities.",
+      "purpose": "Same as Egg Yolk — adds richness, colour, tenderness, and emulsification in larger quantities.",
       "notes": "Multiple egg yolks. See Egg Yolk for full details.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
@@ -2572,7 +2572,7 @@
     "reference": {
       "purpose": "Adds structure, moisture, richness, and leavening in baked goods. Contributes emulsification in sauces, custards, and dressings. Duck eggs enhance richness and tenderness in recipes.",
       "storage": "Storage:** Keep refrigerated; use within recommended shelf life.",
-      "notes": "Available as chicken or duck eggs; can be used whole, separated (yolk or white), or beaten. - **Whole Eggs:** Provide structure, moisture, and richness in baking, custards, and quiches. - **Egg Whites:** Whip to incorporate air for meringues, souffl\u00e9s, and light batters. - **Egg Yolks:** Add richness, emulsification, and color to sauces, custards, and pastries. - **Duck Eggs:** Larger, richer, and higher in fat and protein than chicken eggs; ideal for richer baked goods. - ** Bring to room temperature before baking for better incorporation.",
+      "notes": "Available as chicken or duck eggs; can be used whole, separated (yolk or white), or beaten. - **Whole Eggs:** Provide structure, moisture, and richness in baking, custards, and quiches. - **Egg Whites:** Whip to incorporate air for meringues, soufflés, and light batters. - **Egg Yolks:** Add richness, emulsification, and color to sauces, custards, and pastries. - **Duck Eggs:** Larger, richer, and higher in fat and protein than chicken eggs; ideal for richer baked goods. - ** Bring to room temperature before baking for better incorporation.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -2609,7 +2609,7 @@
     "reference": {
       "purpose": "Adds moisture, richness, and a tender crumb to baked goods. Provides structure and nutty flavour in gluten-free baking. Essential for friands, orange and poppy seed cake, and French patisserie.",
       "storage": "Store in an airtight container in the refrigerator or freezer to prevent the natural oils from going rancid.",
-      "notes": "Finely ground blanched almonds with a soft, sandy texture and mild, sweet nutty flavour. Used in baking to add moisture, tenderness, and richness without the heaviness of wheat flour. Essential in friands, financiers, macarons, and many gluten-free baked goods. Can partially replace flour in cakes and pastries. Almond meal is not the same as almond flour \u2014 meal is coarser and made from whole almonds with skins, while flour is finely ground from blanched almonds. For best results in delicate baking, use blanched almond flour.",
+      "notes": "Finely ground blanched almonds with a soft, sandy texture and mild, sweet nutty flavour. Used in baking to add moisture, tenderness, and richness without the heaviness of wheat flour. Essential in friands, financiers, macarons, and many gluten-free baked goods. Can partially replace flour in cakes and pastries. Almond meal is not the same as almond flour — meal is coarser and made from whole almonds with skins, while flour is finely ground from blanched almonds. For best results in delicate baking, use blanched almond flour.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -2622,7 +2622,7 @@
     "priceData": {
       "size": 5000,
       "unit": "g",
-      "price": 8,
+      "price": 14,
       "brand": "Laucke"
     },
     "nutrition": {
@@ -2715,7 +2715,7 @@
     "priceData": {
       "size": 125,
       "unit": "g",
-      "price": 4.4,
+      "price": 4.5,
       "brand": "Wallaby"
     },
     "nutrition": {
@@ -2936,7 +2936,7 @@
     "reference": {
       "purpose": "Enhances gluten development, dough elasticity, and gas retention for better volume and texture in yeast breads. Improves chewiness and structure in whole grain or gluten-weak doughs. Essential for achieving soft, airy crumb in artisan breads, rolls, bagels, and pizza bases, and forms the base for plant-based meat substitutes like seitan.",
       "storage": "Store in a cool, dry place in airtight container to prevent moisture absorption.",
-      "notes": "Powdered form of wheat gluten with very high protein content (~70\u201380%). Commonly added to low-gluten flours (like whole wheat, rye, or spelt) to improve elasticity, structure, and rise in bread. Typically used at 1\u20133% of flour weight; too much can result in dense, chewy, or rubbery bread. Can also be used to make seitan (vegetarian protein) by hydrating and kneading into a meat-like texture. Mix thoroughly with flour to distribute evenly.",
+      "notes": "Powdered form of wheat gluten with very high protein content (~70–80%). Commonly added to low-gluten flours (like whole wheat, rye, or spelt) to improve elasticity, structure, and rise in bread. Typically used at 1–3% of flour weight; too much can result in dense, chewy, or rubbery bread. Can also be used to make seitan (vegetarian protein) by hydrating and kneading into a meat-like texture. Mix thoroughly with flour to distribute evenly.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -3257,7 +3257,7 @@
     "reference": {
       "purpose": "Adds sweet, tropical flavor, color, and moisture to desserts, beverages, and sauces, enhancing both taste and presentation.",
       "usageTips": "Usage:** Use ripe mangoes for best flavor.",
-      "storage": "Storage:** Store unripe mangoes at room temperature until ripe; refrigerate ripe mangoes for 3\u20135 days.",
+      "storage": "Storage:** Store unripe mangoes at room temperature until ripe; refrigerate ripe mangoes for 3–5 days.",
       "notes": "Mango is a tropical fruit with sweet, juicy flesh. - ** Can be pureed, sliced, or diced for desserts, smoothies, sauces, salsas, or salads. - **Pairings:** Complements coconut, lime, ginger, chili, yogurt, cream, berries, and other tropical fruits. - ** Peel before use. - **Substitutions:** Papaya or peach can be used as a substitute in texture and sweetness, though flavor differs.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
@@ -3277,11 +3277,11 @@
     },
     "per": "each",
     "nutrition": {
-      "cal": 44.0,
-      "carbs": 11.0,
+      "cal": 44,
+      "carbs": 11,
       "fat": 0.3,
-      "fiber": 2.0,
-      "protein": 1.0
+      "fiber": 2,
+      "protein": 1
     },
     "_nutritionIncomplete": true,
     "reference": {
@@ -3394,8 +3394,8 @@
     },
     "per": "each",
     "nutrition": {
-      "cal": 39.0,
-      "carbs": 10.0,
+      "cal": 39,
+      "carbs": 10,
       "fat": 0.3,
       "fiber": 1.5,
       "protein": 0.9
@@ -3405,7 +3405,7 @@
       "purpose": "Adds natural sweetness, juiciness, aroma, and color to desserts; enhances texture, moisture, and visual appeal.",
       "usageTips": "Usage:** Use ripe but firm fruit.",
       "storage": "Storage:** Store unripe peaches at room temperature to ripen; refrigerate ripe peaches and use within a few days.",
-      "notes": "Peaches are juicy, aromatic fruits with sweet flesh and edible skin. - ** Peel optional. Slice, dice, or pur\u00e9e for tarts, pies, cobblers, jams, compotes, or desserts. Can also be roasted, poached, or grilled to intensify flavor. - **Pairings:** Complements cream, yogurt, nuts, spices like cinnamon or nutmeg, and other fruits. - ** Can be frozen or canned for longer storage. - **Substitutions:** Nectarine or apricot can be used as similar-tasting alternatives.",
+      "notes": "Peaches are juicy, aromatic fruits with sweet flesh and edible skin. - ** Peel optional. Slice, dice, or purée for tarts, pies, cobblers, jams, compotes, or desserts. Can also be roasted, poached, or grilled to intensify flavor. - **Pairings:** Complements cream, yogurt, nuts, spices like cinnamon or nutmeg, and other fruits. - ** Can be frozen or canned for longer storage. - **Substitutions:** Nectarine or apricot can be used as similar-tasting alternatives.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -3466,8 +3466,8 @@
     },
     "per": "each",
     "nutrition": {
-      "cal": 46.0,
-      "carbs": 11.0,
+      "cal": 46,
+      "carbs": 11,
       "fat": 0.3,
       "fiber": 1.4,
       "protein": 0.7
@@ -3514,7 +3514,7 @@
     },
     "reference": {
       "purpose": "Adds bright, tart flavour and vibrant colour to desserts, breakfast dishes, and sauces.",
-      "usageTips": "Use fresh as a garnish, pur\u00e9e into sauces, fold into cake batters, or simmer into jams. Complements vanilla, chocolate, lemon, and cream.",
+      "usageTips": "Use fresh as a garnish, purée into sauces, fold into cake batters, or simmer into jams. Complements vanilla, chocolate, lemon, and cream.",
       "storage": "Store in the refrigerator in a single layer, unwashed, for up to 2-3 days. Freeze in a single layer on a baking sheet, then transfer to a sealed bag.",
       "substitutes": "Can substitute with blackberries, sliced strawberries, or frozen raspberries (thawed and drained).",
       "notes": "Delicate, sweet-tart berries that pair beautifully with vanilla, chocolate, and cream desserts. Best used fresh or frozen. Do not wash until ready to use.",
@@ -3892,8 +3892,8 @@
     },
     "per": "each",
     "nutrition": {
-      "cal": 52.0,
-      "carbs": 14.0,
+      "cal": 52,
+      "carbs": 14,
       "fat": 0.2,
       "fiber": 2.4,
       "protein": 0.3
@@ -4187,9 +4187,9 @@
     },
     "reference": {
       "purpose": "Adds bulk, mild flavour, and texture to dishes. Provides crunch in raw preparations or softens for soups and stews. Enhances stir-fries, braises, salads, and Filipino dishes by balancing stronger flavours and acting as a versatile filler.",
-      "usageTips": "usage:\n- **Green Cabbage:** Crisp, slightly peppery leaves; ideal for stir-fries, saut\u00e9s, soups, and braises.",
-      "storage": "Storage:** Keep in a cool, dry place or refrigerate in a perforated bag; lasts 1\u20132 weeks.",
-      "notes": "Common forms and Shred, chop, or wedge depending on cooking method. - **Purple Cabbage:** Similar texture to green cabbage but with a slightly earthier flavour and vibrant colour. Excellent in salads, slaws, pickling, stir-fries, and braises. Colour may change with acidic ingredients. - **White Cabbage:** Mild-flavoured, firm leaves; excellent in stews, kimchi, slaws, and stir-fries. Holds shape well during cooking. - **Cooking Tips:** Cooks quickly; avoid overcooking to preserve colour, texture, and nutrients. Can be saut\u00e9ed, boiled, steamed, fermented, or pickled. Outer leaves may be tougher\u2014remove if desired. - **",
+      "usageTips": "usage:\n- **Green Cabbage:** Crisp, slightly peppery leaves; ideal for stir-fries, sautés, soups, and braises.",
+      "storage": "Storage:** Keep in a cool, dry place or refrigerate in a perforated bag; lasts 1–2 weeks.",
+      "notes": "Common forms and Shred, chop, or wedge depending on cooking method. - **Purple Cabbage:** Similar texture to green cabbage but with a slightly earthier flavour and vibrant colour. Excellent in salads, slaws, pickling, stir-fries, and braises. Colour may change with acidic ingredients. - **White Cabbage:** Mild-flavoured, firm leaves; excellent in stews, kimchi, slaws, and stir-fries. Holds shape well during cooking. - **Cooking Tips:** Cooks quickly; avoid overcooking to preserve colour, texture, and nutrients. Can be sautéed, boiled, steamed, fermented, or pickled. Outer leaves may be tougher—remove if desired. - **",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -4209,16 +4209,16 @@
     },
     "per": "each",
     "nutrition": {
-      "cal": 31.0,
-      "carbs": 6.0,
+      "cal": 31,
+      "carbs": 6,
       "fat": 0.3,
       "fiber": 2.1,
-      "protein": 1.0
+      "protein": 1
     },
     "_nutritionIncomplete": true,
     "reference": {
       "purpose": "Adds vibrant colour, natural sweetness, crunch, and subtle aroma; functions as a main vegetable component, garnish, or textural accent in a wide range of dishes.",
-      "notes": "Mild-flavoured, crisp vegetable available in red, yellow, orange, and green varieties. Green capsicum is slightly more bitter, while red and yellow are sweeter and more aromatic. Seeds and membranes can be removed for smoother texture. Suitable for raw use in salads and crudit\u00e9s, or cooked in stir-fries, saut\u00e9s, curries, roasting, grilling, and stuffed preparations. Retains colour and crunch when briefly cooked; overcooking can dull flavour and texture. Store unwashed in the refrigerator crisper for up to 1 week.",
+      "notes": "Mild-flavoured, crisp vegetable available in red, yellow, orange, and green varieties. Green capsicum is slightly more bitter, while red and yellow are sweeter and more aromatic. Seeds and membranes can be removed for smoother texture. Suitable for raw use in salads and crudités, or cooked in stir-fries, sautés, curries, roasting, grilling, and stuffed preparations. Retains colour and crunch when briefly cooked; overcooking can dull flavour and texture. Store unwashed in the refrigerator crisper for up to 1 week.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -4271,8 +4271,8 @@
       "brand": "Woolworths"
     },
     "nutrition": {
-      "cal": 41.0,
-      "carbs": 10.0,
+      "cal": 41,
+      "carbs": 10,
       "fat": 0.2,
       "fiber": 2.8,
       "protein": 0.9
@@ -4362,8 +4362,8 @@
     },
     "reference": {
       "purpose": "Provides aromatic foundation, subtle bitterness, freshness, and light sweetness; adds body, depth, and texture to sauces, soups, stews, and vegetable-forward dishes.",
-      "storage": "Store in a cool, humid environment or refrigerate in a perforated bag; lasts 1\u20132 weeks.",
-      "notes": "Crunchy, fibrous stalks used as a primary aromatic in mirepoix, soups, stews, and sauces. Dice finely for long-cooked dishes or slice larger for texture in stir-fries. Inner ribs are more tender and slightly sweeter, while outer ribs are stronger in flavour and higher in fibre. Leaves are edible and aromatic\u2014ideal for garnishes, stocks, or flavour enhancement. Best when gently sweated or lightly saut\u00e9ed to release natural sweetness.",
+      "storage": "Store in a cool, humid environment or refrigerate in a perforated bag; lasts 1–2 weeks.",
+      "notes": "Crunchy, fibrous stalks used as a primary aromatic in mirepoix, soups, stews, and sauces. Dice finely for long-cooked dishes or slice larger for texture in stir-fries. Inner ribs are more tender and slightly sweeter, while outer ribs are stronger in flavour and higher in fibre. Leaves are edible and aromatic—ideal for garnishes, stocks, or flavour enhancement. Best when gently sweated or lightly sautéed to release natural sweetness.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -4589,17 +4589,17 @@
       "brand": "Woolworths"
     },
     "nutrition": {
-      "cal": 80.0,
-      "carbs": 18.0,
+      "cal": 80,
+      "carbs": 18,
       "fat": 0.8,
-      "fiber": 2.0,
+      "fiber": 2,
       "protein": 1.8
     },
     "_nutritionIncomplete": true,
     "reference": {
       "purpose": "Adds warm, pungent, and aromatic flavour and complexity. Enhances sauces, curries, stir-fries, marinades, and baked goods. Provides gentle heat, aromatic lift, and depth of flavour to both savoury and sweet dishes.",
       "usageTips": "usage:\n\n- **Fresh Ginger (Root):** Peel and slice, grate, mince, or julienne.",
-      "notes": "Common forms and Provides warm, pungent, and aromatic flavour. Ideal for saut\u00e9s, stir-fries, curries, soups, and marinades. - **Ginger Paste / Ground Ginger Paste:** Smooth, convenient form; can replace fresh ginger in cooking and marinades. Use sparingly as flavour is more concentrated. - **Ground/Dried Ginger:** Stronger, more pungent flavour; best for baking, spice blends, and longer-cooked dishes. - **Substitutions:** Fresh, paste, and ground forms are generally interchangeable, adjusting quantity to taste. - **Storage & Tips:** Fresh ginger can be stored in a cool, dry place or refrigerated; peel or slice before freezing for long-term storage. Paste should be refrigerated and used by the recommended date. Ground ginger stores best in an airtight container, away from light and heat.",
+      "notes": "Common forms and Provides warm, pungent, and aromatic flavour. Ideal for sautés, stir-fries, curries, soups, and marinades. - **Ginger Paste / Ground Ginger Paste:** Smooth, convenient form; can replace fresh ginger in cooking and marinades. Use sparingly as flavour is more concentrated. - **Ground/Dried Ginger:** Stronger, more pungent flavour; best for baking, spice blends, and longer-cooked dishes. - **Substitutions:** Fresh, paste, and ground forms are generally interchangeable, adjusting quantity to taste. - **Storage & Tips:** Fresh ginger can be stored in a cool, dry place or refrigerated; peel or slice before freezing for long-term storage. Paste should be refrigerated and used by the recommended date. Ground ginger stores best in an airtight container, away from light and heat.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -4666,7 +4666,7 @@
     },
     "reference": {
       "purpose": "Adds freshness, colour, mild sweetness, and crisp-tender texture. Functions as a side vegetable or supporting ingredient in mixed dishes, casseroles, and salads.",
-      "notes": "Tender, immature bean pods harvested before the seeds fully develop. Mildly sweet with a fresh, grassy flavour and crisp texture when properly cooked. Ends are typically trimmed before use; modern varieties are stringless. Best cooked briefly \u2014 steam, blanch, or saut\u00e9 until just tender to preserve colour, texture, and nutrients. Overcooking results in dull colour and mushiness. Often finished with butter, garlic, or almonds. Store refrigerated and use while firm and bright.",
+      "notes": "Tender, immature bean pods harvested before the seeds fully develop. Mildly sweet with a fresh, grassy flavour and crisp texture when properly cooked. Ends are typically trimmed before use; modern varieties are stringless. Best cooked briefly — steam, blanch, or sauté until just tender to preserve colour, texture, and nutrients. Overcooking results in dull colour and mushiness. Often finished with butter, garlic, or almonds. Store refrigerated and use while firm and bright.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -4854,7 +4854,7 @@
     },
     "reference": {
       "purpose": "Adds a gentle, sweet onion flavour without the sharpness of regular onions. Functions as an aromatic base in soups and stews, or as a vegetable component in Filipino dishes like bulalo.",
-      "notes": "A mild, sweet member of the onion family with a long white stalk that transitions to flat, dark green leaves. More delicate and less pungent than brown onions. The white and light green parts are tender and ideal for cooking; the dark green tops are tougher but excellent for stocks and broths. Must be thoroughly washed before use as soil gets trapped between the tightly packed layers \u2014 slice first, then rinse in a colander. Commonly saut\u00e9ed as an aromatic base, braised as a side, or used in soups and stews. Store unwashed in the refrigerator for up to a week.",
+      "notes": "A mild, sweet member of the onion family with a long white stalk that transitions to flat, dark green leaves. More delicate and less pungent than brown onions. The white and light green parts are tender and ideal for cooking; the dark green tops are tougher but excellent for stocks and broths. Must be thoroughly washed before use as soil gets trapped between the tightly packed layers — slice first, then rinse in a colander. Commonly sautéed as an aromatic base, braised as a side, or used in soups and stews. Store unwashed in the refrigerator for up to a week.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -4994,10 +4994,10 @@
       "zinc_mg": 0.3
     },
     "reference": {
-      "purpose": "Adds umami, moisture, texture, and depth of flavor; versatile in saut\u00e9s, sauces, soups, salads, roasting, grilling, and baking.",
+      "purpose": "Adds umami, moisture, texture, and depth of flavor; versatile in sautés, sauces, soups, salads, roasting, grilling, and baking.",
       "usageTips": "Usage Tips:** All mushrooms are Agaricus bisporus.",
       "storage": "Storage:** Store in a cool, dry place, ideally in a paper bag in the refrigerator.",
-      "notes": "Mushrooms are versatile fungi used fresh or cooked in a variety of dishes. - **Swiss Brown / Chestnut Mushrooms:** Firmer, slightly nuttier, holds shape well; ideal for sauces, roasting, or saut\u00e9s. - **Button / White Mushrooms:** Mild flavor, versatile; good raw in salads or cooked in a wide range of dishes. - **Flat / Large / Portobello Mushrooms:** Meaty texture and earthy flavor; perfect for grilling, stuffing, or hearty recipes. - ** Cooking intensifies umami. Clean gently with a damp cloth; avoid soaking. - ** Use promptly for best texture and flavor. - **Substitutions:** Other edible mushrooms like shiitake, oyster, or cremini can be used depending on texture and flavor needs.",
+      "notes": "Mushrooms are versatile fungi used fresh or cooked in a variety of dishes. - **Swiss Brown / Chestnut Mushrooms:** Firmer, slightly nuttier, holds shape well; ideal for sauces, roasting, or sautés. - **Button / White Mushrooms:** Mild flavor, versatile; good raw in salads or cooked in a wide range of dishes. - **Flat / Large / Portobello Mushrooms:** Meaty texture and earthy flavor; perfect for grilling, stuffing, or hearty recipes. - ** Cooking intensifies umami. Clean gently with a damp cloth; avoid soaking. - ** Use promptly for best texture and flavor. - **Substitutions:** Other edible mushrooms like shiitake, oyster, or cremini can be used depending on texture and flavor needs.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -5041,8 +5041,8 @@
       "zinc_mg": 0.13
     },
     "reference": {
-      "purpose": "Provides foundational flavor and aromatic base for sauces, soups, stews, saut\u00e9s, and roasted dishes; enhances sweetness, depth, and complexity.",
-      "usageTips": "Usage:** Brown onions provide depth and richness in soups, stews, and braises; white onions are sharper and ideal for saut\u00e9s, sauces, and raw preparations; Spanish onions are sweeter, perfect for caramelizing or salads.",
+      "purpose": "Provides foundational flavor and aromatic base for sauces, soups, stews, sautés, and roasted dishes; enhances sweetness, depth, and complexity.",
+      "usageTips": "Usage:** Brown onions provide depth and richness in soups, stews, and braises; white onions are sharper and ideal for sautés, sauces, and raw preparations; Spanish onions are sweeter, perfect for caramelizing or salads.",
       "storage": "Storage:** Store in a cool, dry, well-ventilated place.",
       "notes": "Onions are versatile aromatic vegetables used as a base in cooking. - ** - **Pairings:** Complements garlic, herbs, tomatoes, meats, and other vegetables. - ** Avoid refrigeration for whole onions; sliced onions should be refrigerated and used promptly. - **Substitutions:** Shallots or leeks can replace onions in certain recipes for milder flavor or aroma.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
@@ -5393,7 +5393,7 @@
       "brand": "Woolworths"
     },
     "nutrition": {
-      "cal": 42.0,
+      "cal": 42,
       "carbs": 7.6,
       "fat": 0.2,
       "fiber": 2.6,
@@ -5402,7 +5402,7 @@
     "_nutritionIncomplete": true,
     "reference": {
       "purpose": "Adds crisp texture, fresh sweetness, and vibrant green colour to stir-fries, noodle dishes, and salads. Provides visual contrast and a light, clean flavour that balances richer ingredients.",
-      "notes": "Flat, pale green pea pods with very small peas inside, harvested young before the peas develop. The entire pod is edible \u2014 crisp, sweet, and tender with a fresh, grassy flavour. Requires minimal cooking; briefly stir-fry, steam, or blanch for 1-2 minutes to retain crunch and bright colour. Overcooking makes them limp and dull. Trim the stem end and remove the string along the seam before cooking. Common in Asian stir-fries and as a crisp vegetable side. Store refrigerated and use within 3-4 days.",
+      "notes": "Flat, pale green pea pods with very small peas inside, harvested young before the peas develop. The entire pod is edible — crisp, sweet, and tender with a fresh, grassy flavour. Requires minimal cooking; briefly stir-fry, steam, or blanch for 1-2 minutes to retain crunch and bright colour. Overcooking makes them limp and dull. Trim the stem end and remove the string along the seam before cooking. Common in Asian stir-fries and as a crisp vegetable side. Store refrigerated and use within 3-4 days.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -5454,10 +5454,10 @@
       "zinc_mg": 0.8
     },
     "reference": {
-      "purpose": "Adds vibrant green colour, mild flavour, and nutritional value to dishes. Provides moisture and texture in pastries, quiches, soups, and saut\u00e9s. Enhances overall presentation and complements other ingredients without overpowering.",
+      "purpose": "Adds vibrant green colour, mild flavour, and nutritional value to dishes. Provides moisture and texture in pastries, quiches, soups, and sautés. Enhances overall presentation and complements other ingredients without overpowering.",
       "usageTips": "usage:\n\n- **Baby Spinach:** Tender, mild-flavoured leaves; ideal for fresh salads, smoothies, and as a filling in pastries or quiches.",
       "storage": "Storage:** Store fresh spinach in a cool, dry place or refrigerated in a sealed bag.",
-      "notes": "Common types and - **Leaf Spinach:** Larger, slightly stronger-flavoured leaves; suitable for saut\u00e9ing, baking, or adding to sauces and soups. - **Usage Tips:** Can be used fresh or frozen. Squeeze out excess water before incorporating into pastries, pies, or quiches to prevent sogginess. Pair well with eggs, cheese, cream, or garlic for enhanced flavour. - ** Use frozen spinach directly from freezer; avoid repeated thawing to preserve nutrients and texture.",
+      "notes": "Common types and - **Leaf Spinach:** Larger, slightly stronger-flavoured leaves; suitable for sautéing, baking, or adding to sauces and soups. - **Usage Tips:** Can be used fresh or frozen. Squeeze out excess water before incorporating into pastries, pies, or quiches to prevent sogginess. Pair well with eggs, cheese, cream, or garlic for enhanced flavour. - ** Use frozen spinach directly from freezer; avoid repeated thawing to preserve nutrients and texture.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -5533,8 +5533,8 @@
     "reference": {
       "purpose": "Adds natural sweetness, crunch, vibrant colour, and texture to stir-fries, salads, and vegetable medleys. Can be eaten raw or lightly cooked depending on recipe requirements.",
       "usageTips": "Commonly used in stir-fries, salads, and side dishes.",
-      "storage": "Storage:** Keep refrigerated in a perforated bag for up to 3\u20135 days; wash just before use to prevent moisture-related spoilage.",
-      "notes": "Eat whole pods; cook briefly to retain crispness and bright green colour. Can be blanched, steamed, or lightly saut\u00e9ed. - **",
+      "storage": "Storage:** Keep refrigerated in a perforated bag for up to 3–5 days; wash just before use to prevent moisture-related spoilage.",
+      "notes": "Eat whole pods; cook briefly to retain crispness and bright green colour. Can be blanched, steamed, or lightly sautéed. - **",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -5682,7 +5682,7 @@
     },
     "reference": {
       "purpose": "Provides mild, tender flesh that absorbs flavours well. Adds texture, moisture, and subtle sweetness to dishes.",
-      "notes": "Best used young and firm for optimal texture. Can be eaten raw, grilled, baked, saut\u00e9ed, or stuffed. Overcooking can cause excess moisture. Flowers are also edible. Store unwashed in the refrigerator for up to 5 days.",
+      "notes": "Best used young and firm for optimal texture. Can be eaten raw, grilled, baked, sautéed, or stuffed. Overcooking can cause excess moisture. Flowers are also edible. Store unwashed in the refrigerator for up to 5 days.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -6001,7 +6001,7 @@
     "reference": {
       "purpose": "Adds sweet-savoury depth, rich pork fat, and a firm, chewy texture. The rendered fat flavours the cooking oil and forms the flavour base for stir-fried noodle dishes and fried rice.",
       "usageTips": "Commonly used in Filipino pancit canton and other Asian dishes.",
-      "notes": "Dried, cured pork sausage with a sweet-savoury flavour and firm, slightly chewy texture. Made from pork and pork fat seasoned with sugar, soy sauce, and rice wine, then air-dried. Distinctive deep red colour. Does not require refrigeration before opening due to the curing process. To use: slice thinly on the diagonal and render in a hot pan or wok before adding other ingredients \u2014 the fat melts and creates a sweet, rich base for stir-fries and noodle dishes. Store unopened in a cool, dry place; refrigerate after opening.",
+      "notes": "Dried, cured pork sausage with a sweet-savoury flavour and firm, slightly chewy texture. Made from pork and pork fat seasoned with sugar, soy sauce, and rice wine, then air-dried. Distinctive deep red colour. Does not require refrigeration before opening due to the curing process. To use: slice thinly on the diagonal and render in a hot pan or wok before adding other ingredients — the fat melts and creates a sweet, rich base for stir-fries and noodle dishes. Store unopened in a cool, dry place; refrigerate after opening.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -6448,7 +6448,7 @@
     },
     "reference": {
       "purpose": "Adds rich flavour, succulence, and tenderness; functions as a premium steak or roasting cut.",
-      "notes": "Cut from the rib section; heavily marbled with fat, making it tender and juicy. Ideal for grilling, pan-searing, or roasting. Fat melts during cooking, imparting succulence. Best cooked medium-rare to medium. Minimal seasoning highlights natural flavour. Store refrigerated 2\u20133 days or freeze for 6\u201312 months.",
+      "notes": "Cut from the rib section; heavily marbled with fat, making it tender and juicy. Ideal for grilling, pan-searing, or roasting. Fat melts during cooking, imparting succulence. Best cooked medium-rare to medium. Minimal seasoning highlights natural flavour. Store refrigerated 2–3 days or freeze for 6–12 months.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -6503,7 +6503,7 @@
     },
     "reference": {
       "purpose": "Mild, tender protein that absorbs sauces and seasonings readily. Ideal for elegant, restaurant-style dishes where delicate texture and clean flavour are desired.",
-      "notes": "Veal is the meat of young cattle, with a mild, delicate flavour and tender texture. - **Veal Escalopes / Schnitzel:** Thin cuts, usually from the leg, pounded flat. Cooks very quickly \u2014 1\u20132 minutes per side. Ideal for crumbing, pan-frying, or topping with sauces (Cordon Bleu, Scaloppine, Oscar, Madagascar). - **Veal Medallions / Steaks:** Thicker cuts used whole; excellent for bistro-style dishes with cream or wine sauces. - **Cooking Notes:** Veal has less fat than beef so it can dry out quickly. Cook over medium-high heat and keep residual sauce or butter present. Do not overcook \u2014 aim for just cooked through. - **Classic Bistro Pairings:** Lemon-butter, mushroom cream, Marsala, Cordon Bleu (ham and cheese filling), Oscar (crab/seafood topping).",
+      "notes": "Veal is the meat of young cattle, with a mild, delicate flavour and tender texture. - **Veal Escalopes / Schnitzel:** Thin cuts, usually from the leg, pounded flat. Cooks very quickly — 1–2 minutes per side. Ideal for crumbing, pan-frying, or topping with sauces (Cordon Bleu, Scaloppine, Oscar, Madagascar). - **Veal Medallions / Steaks:** Thicker cuts used whole; excellent for bistro-style dishes with cream or wine sauces. - **Cooking Notes:** Veal has less fat than beef so it can dry out quickly. Cook over medium-high heat and keep residual sauce or butter present. Do not overcook — aim for just cooked through. - **Classic Bistro Pairings:** Lemon-butter, mushroom cream, Marsala, Cordon Bleu (ham and cheese filling), Oscar (crab/seafood topping).",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -6952,17 +6952,17 @@
       "brand": "Fantastic"
     },
     "nutrition": {
-      "cal": 360.0,
-      "carbs": 82.0,
+      "cal": 360,
+      "carbs": 82,
       "fat": 0.3,
-      "fiber": 1.0,
-      "protein": 6.0
+      "fiber": 1,
+      "protein": 6
     },
     "_nutritionIncomplete": true,
     "reference": {
       "purpose": "Provides a light, slightly chewy noodle base that absorbs surrounding flavours. Essential for Filipino pancit bihon and other stir-fried noodle dishes.",
       "storage": "Store in a cool, dry place; indefinite shelf life when kept sealed.",
-      "notes": "Thin, dried rice noodles made from rice flour and water. The standard noodle for Filipino pancit bihon. Soak in warm water for 10 minutes to soften before stir-frying \u2014 do not boil or oversoak as they will become mushy. Once softened, they absorb the flavours of the broth or sauce they are cooked in. Gluten-free.",
+      "notes": "Thin, dried rice noodles made from rice flour and water. The standard noodle for Filipino pancit bihon. Soak in warm water for 10 minutes to soften before stir-frying — do not boil or oversoak as they will become mushy. Once softened, they absorb the flavours of the broth or sauce they are cooked in. Gluten-free.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -7002,7 +7002,7 @@
     "reference": {
       "purpose": "Provides a chewy, substantial noodle base that absorbs sauces and broths during cooking. The defining noodle for Filipino pancit canton, giving the dish its characteristic texture and bite.",
       "storage": "Store in a cool, dry place; indefinite shelf life when kept sealed.",
-      "notes": "Thick, dried wheat-based noodles used in Filipino pancit canton. Chewier and heartier than bihon rice noodles, with a satisfying bite. Do not pre-soak \u2014 these noodles go directly into boiling broth where they soften and absorb flavour during stir-frying. Pre-soaking will make them mushy. Made from wheat flour and water, sometimes with egg added.",
+      "notes": "Thick, dried wheat-based noodles used in Filipino pancit canton. Chewier and heartier than bihon rice noodles, with a satisfying bite. Do not pre-soak — these noodles go directly into boiling broth where they soften and absorb flavour during stir-frying. Pre-soaking will make them mushy. Made from wheat flour and water, sometimes with egg added.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -7041,7 +7041,7 @@
     "reference": {
       "purpose": "Provides a tender, slightly chewy noodle with rich egg flavour. Pairs well with creamy sauces, beef dishes, and soups where the noodle needs to hold up without overpowering.",
       "storage": "keep in a cool, dry place indefinitely.",
-      "notes": "Wheat-based noodles made with egg, giving them a rich golden colour and tender, slightly chewy texture. Available fresh or dried in various widths from thin vermicelli to wide ribbons. Cook quickly in boiling water \u2014 fresh noodles need only 1-2 minutes, dried 3-5 minutes. Richer and more flavourful than plain wheat noodles. Ideal for buttered noodle sides, stroganoff, soups, and casseroles. Store fresh noodles refrigerated; dried noodles",
+      "notes": "Wheat-based noodles made with egg, giving them a rich golden colour and tender, slightly chewy texture. Available fresh or dried in various widths from thin vermicelli to wide ribbons. Cook quickly in boiling water — fresh noodles need only 1-2 minutes, dried 3-5 minutes. Richer and more flavourful than plain wheat noodles. Ideal for buttered noodle sides, stroganoff, soups, and casseroles. Store fresh noodles refrigerated; dried noodles",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -7473,10 +7473,10 @@
       "brand": "Cottee's"
     },
     "nutrition": {
-      "cal": 250.0,
-      "carbs": 65.0,
-      "fat": 0.0,
-      "fiber": 1.0,
+      "cal": 250,
+      "carbs": 65,
+      "fat": 0,
+      "fiber": 1,
       "protein": 0.5
     },
     "_nutritionIncomplete": true,
@@ -7626,7 +7626,7 @@
     "reference": {
       "purpose": "Adds deep colour, subtle sweetness, and a glossy sheen to stir-fries, braises, and sauces. Used for visual appeal and depth of flavour rather than salt content. Works alongside light soy sauce to build layered savoury flavour.",
       "storage": "Store in a cool, dry place; refrigerate after opening for longest freshness.",
-      "notes": "Aged longer than light soy sauce with added molasses or caramel, giving it a thicker, slightly syrupy consistency and a deep dark colour. Less salty than light soy sauce with a richer, slightly sweet flavour. Used primarily to add colour and a glossy finish to dishes rather than for saltiness. Essential in Chinese and Southeast Asian cooking for darkening stir-fries, braises, and noodle dishes. A small amount goes a long way \u2014 typically used alongside light soy sauce, not as a replacement.",
+      "notes": "Aged longer than light soy sauce with added molasses or caramel, giving it a thicker, slightly syrupy consistency and a deep dark colour. Less salty than light soy sauce with a richer, slightly sweet flavour. Used primarily to add colour and a glossy finish to dishes rather than for saltiness. Essential in Chinese and Southeast Asian cooking for darkening stir-fries, braises, and noodle dishes. A small amount goes a long way — typically used alongside light soy sauce, not as a replacement.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -7660,7 +7660,7 @@
     "reference": {
       "purpose": "Provides deep, concentrated savoury flavour and body to pan sauces, gravies, and bistro-style accompaniments. Essential for authentic French-inspired restaurant sauces.",
       "storage": "Storage:** Commercial base keeps sealed in pantry; once opened, refrigerate.",
-      "notes": "Demi glace is a rich, concentrated brown sauce that forms the base of many classic French and bistro-style sauces. - **Traditional Demi Glace:** Made by reducing equal parts espagnole sauce (brown sauce) and brown veal stock to a glossy, syrupy consistency. Intensely rich, deeply savoury, and complex. - **Commercial Demi Glace Base:** Available as powder or paste concentrate (brands like Major or Knorr Jus Lie). Dissolve per package instructions. Produces a consistent result suitable for high-volume or home cooking. - **Usage in Bistro Sauces:** Forms the backbone of many classic accompaniments \u2014 brandy mustard sauce, Madagascar green peppercorn sauce, Bordelaise, and Chasseur. Usually deglazed in the pan after cooking meat, then enriched with cream or butter. - **Substitutes:** A good quality beef stock reduced by 2/3 can approximate demi glace. Adding Worcestershire sauce and a small amount of butter improves depth. - ** Homemade demi glace freezes well in ice cube trays.",
+      "notes": "Demi glace is a rich, concentrated brown sauce that forms the base of many classic French and bistro-style sauces. - **Traditional Demi Glace:** Made by reducing equal parts espagnole sauce (brown sauce) and brown veal stock to a glossy, syrupy consistency. Intensely rich, deeply savoury, and complex. - **Commercial Demi Glace Base:** Available as powder or paste concentrate (brands like Major or Knorr Jus Lie). Dissolve per package instructions. Produces a consistent result suitable for high-volume or home cooking. - **Usage in Bistro Sauces:** Forms the backbone of many classic accompaniments — brandy mustard sauce, Madagascar green peppercorn sauce, Bordelaise, and Chasseur. Usually deglazed in the pan after cooking meat, then enriched with cream or butter. - **Substitutes:** A good quality beef stock reduced by 2/3 can approximate demi glace. Adding Worcestershire sauce and a small amount of butter improves depth. - ** Homemade demi glace freezes well in ice cube trays.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -7729,7 +7729,7 @@
     "reference": {
       "purpose": "Adds salty depth, umami, and savoury complexity. Functions as both a cooking ingredient and a finishing condiment. Balances sweet, sour, and spicy flavours in Southeast Asian dishes.",
       "storage": "Store in a cool, dry place; does not require refrigeration due to high salt content but keeps longest when refrigerated after opening.",
-      "notes": "A thin, amber-coloured liquid made from fermented anchovies and salt. Pungent and intensely savoury with a deep umami character. Used sparingly \u2014 a small amount adds depth and complexity without tasting fishy. Essential in Filipino, Thai, and Vietnamese cooking for dipping sauces, marinades, stir-fries, and soups. In Filipino cuisine it is both a cooking ingredient and a table condiment, often paired with calamansi as a dipping sauce.",
+      "notes": "A thin, amber-coloured liquid made from fermented anchovies and salt. Pungent and intensely savoury with a deep umami character. Used sparingly — a small amount adds depth and complexity without tasting fishy. Essential in Filipino, Thai, and Vietnamese cooking for dipping sauces, marinades, stir-fries, and soups. In Filipino cuisine it is both a cooking ingredient and a table condiment, often paired with calamansi as a dipping sauce.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -7790,7 +7790,7 @@
       "purpose": "Adds sweet-savoury depth, dark colour, and glossy body to stir-fries, glazes, and dipping sauces. Contributes the signature richness to Mongolian beef and lamb dishes.",
       "usageTips": "Commonly used in stir-fries, as a glaze for roasted meats, and as a dipping sauce.",
       "storage": "Store in the refrigerator after opening and use within 6 months.",
-      "notes": "A thick, dark brown Chinese sauce made from fermented soybean paste, sugar, garlic, vinegar, and spices. Sweet, salty, and slightly tangy with a complex umami depth. A key ingredient in Mongolian-style sauces where it adds body, sweetness, and a rich dark colour. Use sparingly \u2014 it is intensely flavoured.",
+      "notes": "A thick, dark brown Chinese sauce made from fermented soybean paste, sugar, garlic, vinegar, and spices. Sweet, salty, and slightly tangy with a complex umami depth. A key ingredient in Mongolian-style sauces where it adds body, sweetness, and a rich dark colour. Use sparingly — it is intensely flavoured.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -8291,7 +8291,7 @@
     "reference": {
       "purpose": "Adds sweetness, tang, and tomato flavour to sauces, glazes, marinades, and as a finishing condiment. Provides the sweet-tangy base in sweet and sour sauces and Filipino-style stews.",
       "storage": "Store in the pantry before opening; refrigerate after opening.",
-      "notes": "A smooth, sweet-tangy condiment made from tomatoes, vinegar, sugar, and spices. In Australian cooking, tomato sauce is the equivalent of ketchup \u2014 used as a table condiment and as an ingredient in sauces, glazes, and marinades. Adds sweetness, acidity, and a familiar savoury tomato flavour. In recipes, it can be used to build quick sweet-sour bases for stir-fries and dipping sauces.",
+      "notes": "A smooth, sweet-tangy condiment made from tomatoes, vinegar, sugar, and spices. In Australian cooking, tomato sauce is the equivalent of ketchup — used as a table condiment and as an ingredient in sauces, glazes, and marinades. Adds sweetness, acidity, and a familiar savoury tomato flavour. In recipes, it can be used to build quick sweet-sour bases for stir-fries and dipping sauces.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -8302,10 +8302,10 @@
       "vinegar white"
     ],
     "priceData": {
-      "size": 750,
+      "size": 2000,
       "unit": "ml",
-      "price": 2,
-      "brand": "Woolworths"
+      "price": 5,
+      "brand": "Cornwell's"
     },
     "nutrition": {
       "cal": 15.5,
@@ -8367,7 +8367,7 @@
     "reference": {
       "purpose": "Adds complex savoury depth, umami, and subtle tang. Enhances the meaty flavour of beef dishes, stews, pies, and sauces. A little goes a long way.",
       "storage": "Store in a cool, dry place; does not require refrigeration due to its fermented, high-acid nature.",
-      "notes": "A thin, dark brown fermented liquid condiment made from vinegar, molasses, anchovies, tamarind, and spices. Complex, savoury, and tangy with a deep umami character. Used sparingly \u2014 a few dashes add depth and complexity to meat dishes, stews, sauces, and marinades. Particularly good at enhancing beef.",
+      "notes": "A thin, dark brown fermented liquid condiment made from vinegar, molasses, anchovies, tamarind, and spices. Complex, savoury, and tangy with a deep umami character. Used sparingly — a few dashes add depth and complexity to meat dishes, stews, sauces, and marinades. Particularly good at enhancing beef.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -8641,7 +8641,7 @@
       "purpose": "Enhances dough elasticity, structure, and gas retention. Acts as an emulsifier to stabilize mixtures containing fat and water, improving texture and consistency. Extends shelf life and promotes even browning and soft crumb development in baked goods, chocolate, spreads, and sauces.",
       "usageTips": "Usage Tips:** Typically added at 0.",
       "storage": "Store in a cool, dry, airtight container away from light.",
-      "notes": "Common usage and benefits: - **Emulsifier:** Helps blend water and fat-based ingredients in doughs, chocolate, confections, sauces, and dressings. - **Dough Conditioner:** Improves elasticity, gas retention, and crumb structure in yeast breads, rolls, and enriched doughs. - **Shelf Life:** Slows staling, moisture loss, and improves softness; promotes even browning in baked goods. - **5\u20132% of flour weight in bread recipes. Use sparingly, as excess may affect flavour or dough handling.",
+      "notes": "Common usage and benefits: - **Emulsifier:** Helps blend water and fat-based ingredients in doughs, chocolate, confections, sauces, and dressings. - **Dough Conditioner:** Improves elasticity, gas retention, and crumb structure in yeast breads, rolls, and enriched doughs. - **Shelf Life:** Slows staling, moisture loss, and improves softness; promotes even browning in baked goods. - **5–2% of flour weight in bread recipes. Use sparingly, as excess may affect flavour or dough handling.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -8720,7 +8720,7 @@
       "purpose": "Provides structure, elasticity, and cohesion in gluten-free doughs and batters, allowing improved rise, crumb, and chewiness. Enhances moisture retention and prevents crumbling in baked goods. Also acts as a thickening and stabilizing agent in sauces, dressings, and gluten-free mixtures.",
       "usageTips": "commonly used in gluten-free baking to mimic the structure and elasticity of gluten.",
       "storage": "Store in a cool, dry place in an airtight container to prevent clumping.",
-      "notes": "A polysaccharide derived from bacterial fermentation of sugars, Typically added at 0.5\u20131% of flour weight (about 1/4\u20131/2 teaspoon per cup of flour). Helps bind ingredients, trap gas during rising, and improve moisture retention. Can be used in breads, muffins, cakes, and sauces as a stabilizer or thickener. Overuse can create gummy or dense texture. Dissolve in water or oil before mixing into dry ingredients for best results.",
+      "notes": "A polysaccharide derived from bacterial fermentation of sugars, Typically added at 0.5–1% of flour weight (about 1/4–1/2 teaspoon per cup of flour). Helps bind ingredients, trap gas during rising, and improve moisture retention. Can be used in breads, muffins, cakes, and sauces as a stabilizer or thickener. Overuse can create gummy or dense texture. Dissolve in water or oil before mixing into dry ingredients for best results.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -8809,8 +8809,8 @@
     "displayName": "Nice Biscuits",
     "category": "Snacks Biscuits",
     "aliases": [
-      "Arnott\u2019s Nice",
-      "Arnott\u2019s Nice Biscuits",
+      "Arnott’s Nice",
+      "Arnott’s Nice Biscuits",
       "Nice Time Biscuits"
     ],
     "priceData": {
@@ -8820,11 +8820,11 @@
       "brand": "Arnott's"
     },
     "nutrition": {
-      "cal": 470.0,
-      "carbs": 68.0,
-      "fat": 19.0,
-      "fiber": 2.0,
-      "protein": 6.0
+      "cal": 470,
+      "carbs": 68,
+      "fat": 19,
+      "fiber": 2,
+      "protein": 6
     },
     "_nutritionIncomplete": true,
     "reference": {
@@ -9395,7 +9395,7 @@
     "reference": {
       "purpose": "Provides a convenient, balanced blend of warm spices for curries, sauces, and marinades. Adds colour, warmth, and savoury depth with a single ingredient.",
       "storage": "Store in an airtight container away from light and heat.",
-      "notes": "A blended spice mix typically containing turmeric, coriander, cumin, fenugreek, and chilli. Yellow-gold in colour with a warm, earthy, mildly spicy flavour. Keen's is the most common Australian brand. Used as a convenient all-in-one spice blend for curries, sauces, soups, and marinades. Fry briefly in oil at the start of cooking to bloom the spices and develop deeper flavour. Different brands and blends vary in heat and complexity \u2014 adjust quantity to taste.",
+      "notes": "A blended spice mix typically containing turmeric, coriander, cumin, fenugreek, and chilli. Yellow-gold in colour with a warm, earthy, mildly spicy flavour. Keen's is the most common Australian brand. Used as a convenient all-in-one spice blend for curries, sauces, soups, and marinades. Fry briefly in oil at the start of cooking to bloom the spices and develop deeper flavour. Different brands and blends vary in heat and complexity — adjust quantity to taste.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -9569,7 +9569,7 @@
       "purpose": "Adds warm, sweet-spicy, and complex aromatic flavour to curries, sauces, stews, and marinades. Enhances depth, balances other spices, and provides signature Indian flavour profiles.",
       "usageTips": "commonly used in Indian cuisine.",
       "storage": "Storage:** Store in an airtight container in a cool, dark place.",
-      "notes": "Garam Masala is a blend of aromatic spices - **Composition:** Typically includes cumin, coriander, cardamom, cinnamon, cloves, nutmeg, and black pepper. Variations exist by region or household. - **Usage:** Usually added towards the end of cooking to preserve aroma. Can also be used as a rub for meats or sprinkled over finished dishes for extra flavour. Best used in curries, stews, sauces, lentils, and vegetable dishes. - ** Ground blends lose potency over time; use within 6\u201312 months for optimal flavour. - **Tips:** Toast whole spices before grinding for deeper aroma. Avoid cooking at high heat for long periods as aroma diminishes.",
+      "notes": "Garam Masala is a blend of aromatic spices - **Composition:** Typically includes cumin, coriander, cardamom, cinnamon, cloves, nutmeg, and black pepper. Variations exist by region or household. - **Usage:** Usually added towards the end of cooking to preserve aroma. Can also be used as a rub for meats or sprinkled over finished dishes for extra flavour. Best used in curries, stews, sauces, lentils, and vegetable dishes. - ** Ground blends lose potency over time; use within 6–12 months for optimal flavour. - **Tips:** Toast whole spices before grinding for deeper aroma. Avoid cooking at high heat for long periods as aroma diminishes.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -9624,16 +9624,16 @@
       "brand": "Hoyt's"
     },
     "nutrition": {
-      "cal": 311.0,
-      "carbs": 68.0,
-      "fat": 6.0,
-      "fiber": 28.0,
-      "protein": 11.0
+      "cal": 311,
+      "carbs": 68,
+      "fat": 6,
+      "fiber": 28,
+      "protein": 11
     },
     "_nutritionIncomplete": true,
     "reference": {
-      "purpose": "Adds distinctive sweet, floral, and aromatic flavour to curries, spice blends, rice dishes, desserts, and chai. Functions as a high-impact spice \u2014 a little goes a long way.",
-      "notes": "Small green pods containing tiny black seeds with an intense, sweet, floral aroma and a warm, slightly eucalyptus-like flavour. The pods can be used whole to infuse liquids, crushed to release the seeds, or the seeds can be ground into powder. Whole pods are preferred for slow-cooked dishes, curries, and rice \u2014 they release flavour gradually and are removed before serving. Ground cardamom loses potency quickly, so grinding seeds fresh from pods gives the best result. Widely used in Indian, Middle Eastern, and Scandinavian cooking for both savoury and sweet dishes. Store whole pods in an airtight container away from light and heat.",
+      "purpose": "Adds distinctive sweet, floral, and aromatic flavour to curries, spice blends, rice dishes, desserts, and chai. Functions as a high-impact spice — a little goes a long way.",
+      "notes": "Small green pods containing tiny black seeds with an intense, sweet, floral aroma and a warm, slightly eucalyptus-like flavour. The pods can be used whole to infuse liquids, crushed to release the seeds, or the seeds can be ground into powder. Whole pods are preferred for slow-cooked dishes, curries, and rice — they release flavour gradually and are removed before serving. Ground cardamom loses potency quickly, so grinding seeds fresh from pods gives the best result. Widely used in Indian, Middle Eastern, and Scandinavian cooking for both savoury and sweet dishes. Store whole pods in an airtight container away from light and heat.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -9862,11 +9862,11 @@
       "brand": "Hoyt's"
     },
     "nutrition": {
-      "cal": 250.0,
-      "carbs": 50.0,
-      "fat": 5.0,
-      "fiber": 30.0,
-      "protein": 15.0
+      "cal": 250,
+      "carbs": 50,
+      "fat": 5,
+      "fiber": 30,
+      "protein": 15
     },
     "_nutritionIncomplete": true,
     "reference": {
@@ -9938,7 +9938,7 @@
     "reference": {
       "purpose": "Adds a distinctively bitter, peppery, and slightly onion-like flavour as a topping or seasoning. Primarily used as a visual and aromatic garnish on flatbreads, naan, Turkish bread, and pastries. Lightly toasted seeds enhance flavour; used whole rather than ground in most applications.",
       "usageTips": "Commonly used whole or lightly toasted to enhance aroma.",
-      "storage": "Store in an airtight container away from heat and light for up to 2\u20133 years.",
+      "storage": "Store in an airtight container away from heat and light for up to 2–3 years.",
       "notes": "Small matte-black seeds with a slightly bitter, peppery flavour and subtle onion, oregano, and nutty notes. Popular in Middle Eastern, Indian, and North African cuisines; sprinkled on flatbreads, naan, pastries, pickles, vegetables, and legumes. In Filipino cooking, less traditional but useful for bread, rice dishes, and spice blends. Toast briefly in a dry pan to release flavour, but avoid burning.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
@@ -10038,7 +10038,7 @@
     },
     "reference": {
       "purpose": "Adds fresh, mild, slightly peppery flavor and bright green color to breads, pastries, sauces, and savory dishes.",
-      "usageTips": "Usage:** Use flat-leaf (Italian) parsley for stronger flavor in breads, savory pastries, sauces, and saut\u00e9s.",
+      "usageTips": "Usage:** Use flat-leaf (Italian) parsley for stronger flavor in breads, savory pastries, sauces, and sautés.",
       "storage": "Storage:** Store fresh parsley wrapped in damp paper towel in the refrigerator or freeze chopped for long-term use.",
       "notes": "Parsley is a fresh herb used for flavoring, garnishing, and enhancing baked goods. - ** Curly parsley is best for garnish and visual appeal. - **Pairings:** Complements garlic, lemon, butter, eggs, vegetables, and meats. - ** - **Substitutions:** Cilantro or chervil can be used for a similar fresh, green note depending on the dish.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
@@ -10354,7 +10354,7 @@
     "reference": {
       "purpose": "Delivers the signature Tex-Mex flavour profile to beef mince, chicken, and vegetables for tacos, nachos, burritos, and fajitas. A balanced blend of cumin, chili, paprika, garlic, onion, and oregano with a starch thickener.",
       "storage": "Storage:** Homemade blend keeps 6 months in an airtight jar.",
-      "notes": "**Commercial packet (Old El Paso):** Contains Corn Starch, Chili Pepper, Maltodextrin, Salt, Spice, Onion Powder \u2014 1 packet (35 g) per 500 g mince. **Homemade blend (see tacoseasoning recipe):** 2 tsp cumin, 2 tsp paprika, 1 tsp chili powder, 1 tsp garlic powder, 1 tsp onion powder, 1 tsp dried oregano, 1 tsp salt, 1/2 tsp black pepper, 1/2 tsp plain flour. Mix and use 2 heaped tbsp per 500 g mince. **Trevor's tip:** Toast whole cumin and coriander seeds in a dry pan first, then grind \u2014 transforms the depth of the blend completely. **",
+      "notes": "**Commercial packet (Old El Paso):** Contains Corn Starch, Chili Pepper, Maltodextrin, Salt, Spice, Onion Powder — 1 packet (35 g) per 500 g mince. **Homemade blend (see tacoseasoning recipe):** 2 tsp cumin, 2 tsp paprika, 1 tsp chili powder, 1 tsp garlic powder, 1 tsp onion powder, 1 tsp dried oregano, 1 tsp salt, 1/2 tsp black pepper, 1/2 tsp plain flour. Mix and use 2 heaped tbsp per 500 g mince. **Trevor's tip:** Toast whole cumin and coriander seeds in a dry pan first, then grind — transforms the depth of the blend completely. **",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -10410,10 +10410,10 @@
       "yeast"
     ],
     "priceData": {
-      "size": 130,
+      "size": 84,
       "unit": "g",
       "price": 6,
-      "brand": "Lowan"
+      "brand": "Tandaco"
     },
     "nutrition": {
       "cal": 269.1,
@@ -10433,7 +10433,7 @@
     "reference": {
       "purpose": "Ferments sugars to produce carbon dioxide and alcohol, causing dough to rise and developing flavor, structure, and aroma in baked goods.",
       "storage": "Store in a cool, dry place; refrigerate or freeze unopened yeast for extended shelf life.",
-      "notes": "Available as active dry, instant (rapid-rise), and fresh yeast. Active dry should be bloomed in warm liquid (about 38\u201343\u00b0C). Instant yeast can be mixed directly into dry ingredients. Fresh yeast is highly perishable but offers strong fermentation. Sensitive to heat and salt; water that is too hot will kill it. Essential for breads, pizza dough, rolls, brioche, and fermented doughs.",
+      "notes": "Available as active dry, instant (rapid-rise), and fresh yeast. Active dry should be bloomed in warm liquid (about 38–43°C). Instant yeast can be mixed directly into dry ingredients. Fresh yeast is highly perishable but offers strong fermentation. Sensitive to heat and salt; water that is too hot will kill it. Essential for breads, pizza dough, rolls, brioche, and fermented doughs.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },
@@ -10442,7 +10442,7 @@
     "category": "Spreads",
     "aliases": [
       "Canned Liver Paste",
-      "Liver P\u00e2t\u00e9",
+      "Liver Pâté",
       "Reno Liver Spread",
       "spread liver"
     ],
@@ -10835,7 +10835,7 @@
     },
     "reference": {
       "purpose": "Adds sweetness, creaminess, and moisture to desserts, puddings, caramel, and baked goods. Enhances texture, richness, and flavor balance.",
-      "notes": "Condensed milk is cow\u2019s milk with most water removed, available sweetened or unsweetened. - ** Sweetened condensed milk adds both moisture and sweetness; unsweetened (evaporated milk) can be used where sugar is added separately. - **Pairings:** Complements chocolate, coffee, caramel, fruits, and baked goods. - ** Refrigerate after opening and use within a few days. - **Substitutions:** Evaporated milk plus sugar can mimic sweetened condensed milk; coconut condensed milk can be used for dairy-free alternatives.",
+      "notes": "Condensed milk is cow’s milk with most water removed, available sweetened or unsweetened. - ** Sweetened condensed milk adds both moisture and sweetness; unsweetened (evaporated milk) can be used where sugar is added separately. - **Pairings:** Complements chocolate, coffee, caramel, fruits, and baked goods. - ** Refrigerate after opening and use within a few days. - **Substitutions:** Evaporated milk plus sugar can mimic sweetened condensed milk; coconut condensed milk can be used for dairy-free alternatives.",
       "_source": "ingredient_inventory_v7.json (unverified content, kept per user request)"
     }
   },

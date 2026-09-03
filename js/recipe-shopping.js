@@ -17,6 +17,62 @@
     let currentBaseServings = 1;
     let currentPanel = null;
 
+    // Single shared list — calculateRecipeCost and showShoppingList used to
+    // keep their own copies of this and had quietly drifted apart (one
+    // excluded "ice-cold water", the other didn't). One list now, used by
+    // both, so a recipe using either water phrasing is treated the same
+    // way everywhere on the site.
+    const EXCLUDE_ITEMS = ['water', 'hot water', 'cold water', 'warm water', 'boiling water', 'tap water', 'ice-cold water', 'salt', 'pepper', 'black pepper', 'white pepper', 'to taste'];
+
+    // Parses a recipe's raw ingredient lines into {name, displayName, qty,
+    // unit}, scaled by `multiplier` and filtered against EXCLUDE_ITEMS, then
+    // MERGES lines that share the same ingredient name — a recipe with
+    // multiple sections (e.g. "Bakers Flour" in both a Poolish and a Bread
+    // Dough section) would otherwise be priced and pantry-checked as if it
+    // were two separate ingredients, double-counting cost and rounding
+    // package quantities up twice instead of once. Quantities combine via
+    // UNIT_TO_BASE when the units differ but are both weight/volume; lines
+    // with incompatible units (e.g. "each" vs "g") are left as separate
+    // lines rather than guessing a conversion. Used by both
+    // calculateRecipeCost and showShoppingList so this logic lives in
+    // exactly one place.
+    function buildMergedIngredientList(recipe, multiplier) {
+        const raw = [];
+        (recipe.ingredients || []).forEach(function(ing) {
+            if (ing.heading || ing.toTaste) return;
+            const rawQty = parseFloat(ing.quantity);
+            const qtyVal = (isNaN(rawQty) ? 0 : rawQty) * multiplier;
+            const unit = (ing.unit || '').toLowerCase();
+            const rawItem = (ing.item || ing.name || '').trim();
+            const parsed = splitIngredientAndNotes(rawItem);
+            const name = parsed.ingredient.toLowerCase();
+            if (!name || EXCLUDE_ITEMS.includes(name)) return;
+            raw.push({ name: name, displayName: ing.item || ing.name || name, qty: qtyVal, unit: unit });
+        });
+
+        const merged = [];
+        const indexByName = {};
+        raw.forEach(function(ing) {
+            const idx = indexByName.hasOwnProperty(ing.name) ? indexByName[ing.name] : -1;
+            if (idx === -1) {
+                indexByName[ing.name] = merged.length;
+                merged.push(Object.assign({}, ing));
+                return;
+            }
+            const existing = merged[idx];
+            const eu = normaliseUnit(existing.unit);
+            const nu = normaliseUnit(ing.unit);
+            if (eu === nu) { existing.qty += ing.qty; return; }
+            const eb = UNIT_TO_BASE[eu];
+            const nb = UNIT_TO_BASE[nu];
+            if (eb && nb) { existing.qty = existing.qty + (ing.qty * nb) / eb; return; }
+            // No safe conversion — keep as its own line rather than guess
+            indexByName[ing.name + '|' + ing.unit] = merged.length;
+            merged.push(Object.assign({}, ing));
+        });
+        return merged;
+    }
+
     window.ShoppingList = {
         show: showShoppingList,
         updatePrice: updatePrice,
@@ -35,30 +91,21 @@
         if (!recipe || !recipe.ingredients) return null;
 
         const multiplier = scale || 1;
-        const excludeItems = ['water', 'hot water', 'cold water', 'warm water', 'boiling water', 'tap water', 'ice-cold water', 'salt', 'pepper', 'black pepper', 'white pepper', 'to taste'];
 
         let totalBuyCost = 0;
         let totalMakeCost = 0;
         let matched = 0;
-        let total = 0;
 
-        recipe.ingredients.forEach(function(ing) {
-            if (ing.heading || ing.toTaste) return;
-            const raw = parseFloat(ing.quantity);
-            const qty = (isNaN(raw) ? 0 : raw) * multiplier;
-            const unit = (ing.unit || '').toLowerCase();
-            const rawItem = (ing.item || ing.name || '').trim();
-            const parsed = splitIngredientAndNotes(rawItem);
-            const name = parsed.ingredient.toLowerCase();
-            if (!name || excludeItems.includes(name)) return;
+        const merged = buildMergedIngredientList(recipe, multiplier);
+        const total = merged.length;
 
-            total++;
-            const { exists, data } = lookupPrice(name);
+        merged.forEach(function(ing) {
+            const { exists, data } = lookupPrice(ing.name);
             const hasPriceData = exists && data && data.price > 0 && data.size > 0;
             if (!hasPriceData) return;
 
-            const itemKey = (data.originalKey || name || '').toLowerCase().trim();
-            const neededInPackageUnits = convertToPackageUnits(qty, unit, data.unit, itemKey);
+            const itemKey = (data.originalKey || ing.name || '').toLowerCase().trim();
+            const neededInPackageUnits = convertToPackageUnits(ing.qty, ing.unit, data.unit, itemKey);
             const pricePerUnit = data.price / data.size;
             const packagesNeeded = Math.ceil(neededInPackageUnits / data.size);
 
@@ -452,33 +499,15 @@
         currentBaseServings = parseInt(recipe.servings) || 1;
         const scaledServings = Math.round(currentBaseServings * currentMultiplier);
 
-        const excludeItems = ['water', 'hot water', 'cold water', 'warm water', 'boiling water', 'tap water', 'salt', 'pepper', 'black pepper', 'white pepper', 'to taste'];
         const multiplier = currentMultiplier;
 
-        const ingredients = [];
-        (recipe.ingredients || []).forEach(function(ing) {
-            if (ing.heading || ing.toTaste) return;
-            const raw = parseFloat(ing.quantity);
-            const qtyVal = isNaN(raw) ? 0 : raw * multiplier;
-            const unit = (ing.unit || '').toLowerCase();
-            const rawItem = (ing.item || ing.name || '').trim();
-            const parsed = splitIngredientAndNotes(rawItem);
-            const item = parsed.ingredient.toLowerCase();
-            if (!item) return;
-            if (excludeItems.includes(item)) return;
-            ingredients.push({
-                name: item,
-                displayName: ing.item || ing.name || item,
-                qty: qtyVal,
-                unit: unit
-            });
-        });
+        const mergedIngredients = buildMergedIngredientList(recipe, multiplier);
 
         const shoppingItems = [];
         let totalBuyCost = 0;
         let totalMakeCost = 0;
 
-        ingredients.forEach(function(ing) {
+        mergedIngredients.forEach(function(ing) {
             const { exists, data } = lookupPrice(ing.name);
             const pantryLevel = (window.KitchenNotebook && window.KitchenNotebook.Pantry)
                 ? window.KitchenNotebook.Pantry.getLevel(ing.name)

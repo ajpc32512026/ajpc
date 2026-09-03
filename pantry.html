@@ -339,14 +339,34 @@
                 renderUnified();
             });
 
-            // Enter only acts when an "add as new" prompt is actually showing
-            // (i.e. the typed term has no exact match) - this avoids accidentally
-            // adding something while you're just browsing/searching.
+            // Enter adds a new item when the typed term has no exact match
+            // (i.e. the "add as new" prompt is showing) — this avoids
+            // accidentally adding something while you're just browsing.
+            // When a match DOES already exist, Enter used to just do
+            // nothing (the exact-match case had no handling at all) —
+            // now it scrolls straight to the matching row instead, since
+            // the list can be scrolled well below the fold.
             input.addEventListener('keydown', function(e) {
                 if (e.key !== 'Enter') return;
                 e.preventDefault();
                 var addBtn = document.querySelector('.pantry-add-new-btn');
-                if (addBtn) addBtn.click();
+                if (addBtn) { addBtn.click(); return; }
+
+                var list = document.getElementById('pantryList');
+                var firstRow = list ? list.querySelector('.pantry-item') : null;
+                if (!firstRow) return;
+                firstRow.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                // Inline highlight rather than a CSS class, since that class
+                // would need adding to main.css separately — this works
+                // immediately without touching that file.
+                var prevTransition = firstRow.style.transition;
+                var prevBg = firstRow.style.backgroundColor;
+                firstRow.style.transition = 'background-color 0.2s ease';
+                firstRow.style.backgroundColor = 'rgba(201, 125, 62, 0.35)'; // matches the site's copper accent
+                setTimeout(function() {
+                    firstRow.style.backgroundColor = prevBg;
+                    setTimeout(function() { firstRow.style.transition = prevTransition; }, 300);
+                }, 900);
             });
         }
 
