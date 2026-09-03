@@ -147,6 +147,53 @@
       "content": "Do not cut for at least 1 hour — the loaf is still cooking inside. Cool on a wire rack, not on a solid surface, so air circulates underneath."
     }
   ],
+  "related": [
+    {
+      "id": "bananabread",
+      "title": "Banana Bread",
+      "matchingTags": [
+        "Bread",
+        "Make Ahead",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "darkrye",
+      "title": "Dark Rye Bread",
+      "matchingTags": [
+        "Bread",
+        "Make Ahead",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "focaccia",
+      "title": "Focaccia",
+      "matchingTags": [
+        "Bread",
+        "Make Ahead",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "focaccia-high",
+      "title": "High-Hydration Focaccia",
+      "matchingTags": [
+        "Bread",
+        "Make Ahead",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "swbtm",
+      "title": "Soft White Bread (Tangzhong Method)",
+      "matchingTags": [
+        "Bread",
+        "Make Ahead",
+        "Vegetarian"
+      ]
+    }
+  ],
   "nutrition": {
     "servings": 1,
     "cal": 2153,
@@ -169,5 +216,5 @@
     "zinc_mg": 6,
     "vitamin_a_ug": 1
   },
-  "lastModified": "2026-09-01"
+  "lastModified": "2026-09-03"
 }

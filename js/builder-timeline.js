@@ -65,3 +65,17 @@ function parseTimeToMinutes(str) {
 function formatTime(date) {
     return date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
 }
+
+// Called by the "Copy" button on the Cooking Timeline preview box.
+// Was referenced in recipe-builder.html but never defined here —
+// clicking it threw a ReferenceError and did nothing.
+function copyTimeline() {
+    const el = document.getElementById('timeline-output');
+    if (!el || !el.innerText.trim()) {
+        toast('Add prep/cook times and method steps first');
+        return;
+    }
+    navigator.clipboard.writeText(el.innerText)
+        .then(() => toast('Timeline copied!'))
+        .catch(() => toast('Copy failed'));
+}

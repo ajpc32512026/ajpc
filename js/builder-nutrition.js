@@ -227,3 +227,17 @@ function calculateNutrition() {
     `;
     box.style.display = 'block';
 }
+
+// Called by the "Copy" button on the Nutrition Facts preview box.
+// Was referenced in recipe-builder.html but never defined here —
+// clicking it threw a ReferenceError and did nothing.
+function copyNutrition() {
+    const el = document.getElementById('nutrition-output');
+    if (!el || !el.innerText.trim()) {
+        toast('Add ingredients with quantities first');
+        return;
+    }
+    navigator.clipboard.writeText(el.innerText)
+        .then(() => toast('Nutrition facts copied!'))
+        .catch(() => toast('Copy failed'));
+}

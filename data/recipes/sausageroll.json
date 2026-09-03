@@ -7,8 +7,8 @@
   "prepTime": "20 min",
   "cookTime": "30 min",
   "totalTime": "50 min",
-  "servings": "12 rolls",
-  "yieldPerBatch": "12 rolls",
+  "servings": "6 rolls",
+  "yieldPerBatch": "6 rolls",
   "tags": [
     "Australian",
     "Baked",
@@ -39,10 +39,10 @@
       "notes": "grated"
     },
     {
-      "quantity": "2",
+      "quantity": "1",
       "unit": "g",
       "item": "Nutmeg",
-      "notes": "ground"
+      "notes": "ground, about 1/4 tsp"
     },
     {
       "quantity": "3",
@@ -57,9 +57,10 @@
       "notes": "beaten, for egg wash"
     },
     {
-      "quantity": "15",
-      "unit": "g",
-      "item": "Sesame Seeds"
+      "quantity": "",
+      "unit": "",
+      "item": "Sesame Seeds",
+      "notes": "optional, decorate the top"
     },
     {
       "item": "Salt & Pepper",
@@ -112,32 +113,41 @@
       "type": "storage",
       "title": "Make Ahead",
       "content": "Assemble rolls unbaked and freeze on a tray. Once frozen, transfer to a bag. Bake from frozen, adding 10 minutes to the cooking time."
+    },
+    {
+      "type": "technique",
+      "title": "Piping Bag",
+      "content": "You can get a piping bag kit from woolworths for about $4. It contains 6 thick, strong bags and 4 tips... you do not need the tips for this. Just cut the bottom off."
     }
   ],
   "nutrition": {
-    "servings": 12,
-    "cal": 248,
-    "kj": 1037,
-    "protein": 8,
-    "carbs": 18,
+    "servings": 6,
+    "cal": 220,
+    "kj": 920,
+    "protein": 7,
+    "carbs": 19,
     "sugars": 2,
     "fat": 12,
-    "saturated_fat": 6.4,
-    "fiber": 18,
-    "sodium": 75,
-    "coverage": 100,
-    "foundCount": 7,
+    "saturated_fat": 6.7,
+    "fiber": 3,
+    "sodium": 131,
+    "coverage": 57,
+    "foundCount": 4,
     "totalCount": 7,
-    "unmatchedItems": [],
-    "calcium_mg": 704,
-    "iron_mg": 12,
-    "potassium_mg": 524,
-    "magnesium_mg": 188,
-    "zinc_mg": 2,
-    "cholesterol_mg": 90,
-    "vitamin_a_ug": 435,
-    "vitamin_c_mg": 14,
-    "vitamin_d_ug": 1
+    "unmatchedItems": [
+      "Sausage Mince",
+      "Nutmeg",
+      "Sesame Seeds"
+    ],
+    "calcium_mg": 26,
+    "iron_mg": 1,
+    "potassium_mg": 108,
+    "magnesium_mg": 13,
+    "zinc_mg": 1,
+    "cholesterol_mg": 180,
+    "vitamin_a_ug": 113,
+    "vitamin_c_mg": 1,
+    "vitamin_d_ug": 2
   },
-  "lastModified": "2026-08-24"
+  "lastModified": "2026-09-03"
 }

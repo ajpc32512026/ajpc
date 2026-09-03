@@ -52,17 +52,6 @@
       "item": "Worcestershire Sauce"
     },
     {
-      "quantity": "5",
-      "unit": "g",
-      "item": "Salt",
-      "notes": "to taste"
-    },
-    {
-      "quantity": "2",
-      "unit": "g",
-      "item": "Black Pepper"
-    },
-    {
       "quantity": "2",
       "unit": "sheets",
       "item": "Shortcrust Pastry",
@@ -79,6 +68,10 @@
       "unit": "",
       "item": "Eggs",
       "notes": "beaten, for egg wash"
+    },
+    {
+      "item": "Salt & Pepper",
+      "toTaste": true
     }
   ],
   "method": [
@@ -133,28 +126,28 @@
   ],
   "nutrition": {
     "servings": 4,
-    "cal": 662,
-    "kj": 2771,
+    "cal": 658,
+    "kj": 2754,
     "protein": 43,
-    "carbs": 47,
-    "sugars": 5,
+    "carbs": 46,
+    "sugars": 4,
     "fat": 32,
     "saturated_fat": 15.1,
     "fiber": 6,
-    "sodium": 891,
+    "sodium": 785,
     "coverage": 100,
-    "foundCount": 11,
-    "totalCount": 11,
+    "foundCount": 9,
+    "totalCount": 9,
     "unmatchedItems": [],
-    "calcium_mg": 63,
+    "calcium_mg": 59,
     "iron_mg": 4,
-    "potassium_mg": 768,
-    "magnesium_mg": 68,
+    "potassium_mg": 754,
+    "magnesium_mg": 65,
     "zinc_mg": 4,
     "cholesterol_mg": 371,
     "vitamin_a_ug": 159,
     "vitamin_c_mg": 3,
     "vitamin_d_ug": 5
   },
-  "lastModified": "2026-08-24"
+  "lastModified": "2026-09-03"
 }

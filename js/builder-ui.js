@@ -431,6 +431,55 @@ window.populateRelatedRecipeDropdown = function() {
         sortedRecipes.map(r => `<option value="${r.id}">${escHtml(r.title || r.name || r.id)}</option>`).join('');
 };
 
+// Scans the whole recipe index and proposes up to 5 related recipes,
+// scored by how many tags they share with the current recipe (2 points
+// each) plus a bonus point for matching category. Excludes the recipe
+// currently being edited and anything already added to the list. Ties
+// break alphabetically by title so results are stable, not random.
+window.suggestRelatedRecipes = function() {
+    if (!recipeIndex || !recipeIndex.length) {
+        toast('Recipe index not loaded yet');
+        return;
+    }
+
+    const currentTags = (tags || []).map(t => t.toLowerCase());
+    const currentCategory = val('category');
+    const currentId = (currentFilename || val('title').toLowerCase().replace(/[^a-z0-9]/g, '')).toLowerCase();
+
+    if (!currentTags.length && !currentCategory) {
+        toast('Add some tags or a category first so matches make sense');
+        return;
+    }
+
+    const alreadyAdded = new Set(
+        Array.from(document.querySelectorAll('#related-list .related-row')).map(row => row.dataset.id)
+    );
+
+    const scored = recipeIndex
+        .filter(r => r.id !== currentId && !alreadyAdded.has(r.id))
+        .map(r => {
+            const candidateTags = r.tags || [];
+            const shared = candidateTags.filter(t => currentTags.includes(t.toLowerCase()));
+            let score = shared.length * 2;
+            if (currentCategory && r.category === currentCategory) score += 1;
+            return { entry: r, score, shared };
+        })
+        .filter(s => s.score > 0)
+        .sort((a, b) => b.score - a.score || (a.entry.title || '').localeCompare(b.entry.title || ''))
+        .slice(0, 5);
+
+    if (!scored.length) {
+        toast('No matching recipes found — try adding more tags');
+        return;
+    }
+
+    scored.forEach(s => {
+        loadRelatedRecipe(s.entry.id, s.entry.title || s.entry.name || s.entry.id, s.shared);
+    });
+    update();
+    toast(`Added ${scored.length} suggested recipe${scored.length !== 1 ? 's' : ''}`);
+};
+
 window.addRelatedRecipe = function() {
     const select = document.getElementById('related-recipe-select');
     if (!select || !select.value) return;
@@ -492,17 +541,6 @@ window.removeTagFromRelated = function(span, tag) {
         update();
     } catch (e) {
         console.warn('Could not parse related tags:', e);
-    }
-};
-
-window.openTagPicker = function(row) {
-    window._activeRelatedRow = row;
-    const savedTags = JSON.parse(row.dataset.tags || '[]');
-    window.tagPickerSelections = new Set(savedTags);
-    const modal = document.getElementById('tag-picker-modal');
-    if (modal) {
-        renderTagPickerGrid();
-        modal.style.display = 'flex';
     }
 };
 

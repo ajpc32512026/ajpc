@@ -361,7 +361,13 @@
             var query = currentSearch.trim().toLowerCase();
             var universe = getUniverse();
 
-            // Status filter
+            // Status filter — this is a pantry-wide "what's not fully
+            // stocked" view, deliberately simpler than Pantry.needsToBuy()
+            // in pantry.js. needsToBuy() answers a different question —
+            // "is what I have enough for this specific recipe's quantity" —
+            // which needs a recipe's ingredient amount to evaluate. This
+            // filter has no recipe in scope, so it can't use that logic;
+            // it isn't a duplicate that drifted, it's a different question.
             universe = universe.filter(function(it) {
                 var entry = pantry[it.key];
                 var level = entry ? (entry.level || 'FULL') : null;

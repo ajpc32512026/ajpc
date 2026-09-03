@@ -91,6 +91,13 @@
             changes.push({ field: 'note count', old: oldNoteCount, new: newNoteCount });
         }
 
+        // Related recipe count
+        var oldRelatedCount = (loadedJSON.related || []).length;
+        var newRelatedCount = (current.related   || []).length;
+        if (oldRelatedCount !== newRelatedCount) {
+            changes.push({ field: 'related recipe count', old: oldRelatedCount, new: newRelatedCount });
+        }
+
         if (!changes.length) {
             showDiff('<p class="diff-note diff-clean">No changes detected from loaded state.</p>');
             return;

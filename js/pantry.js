@@ -22,33 +22,16 @@
     var CUSTOM_CATEGORY_KEY = 'ajpc_pantry_custom_categories';
 
     // ── Stock levels for quantity-sensitive ingredients ───
+    // NEEDS_BUY_THRESHOLD_G is the single source of truth for the "LOW but
+    // still enough" cutoff — the label below and needsToBuy() both read
+    // from it, so they can't drift out of sync again.
+    var NEEDS_BUY_THRESHOLD_G = 200;
     var STOCK_LEVELS = {
         FULL:  { label: 'Full',  desc: '1kg+ / unopened', icon: 'F' },
         HALF:  { label: 'Half',  desc: 'Roughly half left', icon: 'H' },
-        LOW:   { label: 'Low',   desc: 'Less than 250g/ml', icon: 'L' },
+        LOW:   { label: 'Low',   desc: 'Less than ' + NEEDS_BUY_THRESHOLD_G + 'g/ml', icon: 'L' },
         EMPTY: { label: 'Empty', desc: 'Out of stock', icon: '0' }
     };
-
-    // ── Legacy shortlist ────────────────────────────────
-    // No longer used to gate which items can have a stock level — every
-    // ingredient supports Full/Half/Low/Empty now. Kept exported in case
-    // anything external still references it.
-    var LEVEL_TRACK = new Set([
-        'plain flour','self-raising flour','bread flour','bakers flour',
-        'wholemeal flour','almond meal','cornflour','rice flour',
-        'caster sugar','white sugar','brown sugar','icing sugar',
-        'raw sugar','coconut sugar',
-        'unsalted butter','salted butter','butter',
-        'milk','full cream milk','skim milk','buttermilk',
-        'thickened cream','heavy cream','sour cream','cream',
-        'olive oil','vegetable oil','canola oil','coconut oil',
-        'baking powder','bicarbonate of soda','bi-carb soda','yeast',
-        'cocoa powder','dark chocolate','milk chocolate',
-        'rolled oats','breadcrumbs',
-        'honey','maple syrup','golden syrup',
-        'vanilla extract','vanilla bean paste',
-        'eggs','egg'
-    ]);
 
     // ── Common substitutions ──────────────────────────────
     var SUBSTITUTIONS = {
@@ -153,6 +136,19 @@
         catch(e) { console.warn('Custom category save failed:', e); }
     }
 
+    // ── Category merge (single source of truth) ────────────
+    // Every place that touches an entry's category goes through here,
+    // with an explicit mode instead of its own inline rule:
+    //   'always'   — replace it outright, even with null (setCategory)
+    //   'fill'     — only set it if the entry doesn't have one yet (addItems)
+    //   'preserve' — replace only if a real value was given, else keep
+    //                what's already there (set)
+    function mergeCategory(current, incoming, mode) {
+        if (mode === 'always') return incoming || null;
+        if (mode === 'fill')   return current || incoming || null;
+        return incoming || current || null; // 'preserve'
+    }
+
     // ── Public API ────────────────────────────────────────
     var Pantry = {
 
@@ -190,7 +186,7 @@
             if (!key) return;
             var p = load();
             if (!p[key]) p[key] = { have: true, level: 'FULL' };
-            p[key].category = category || null;
+            p[key].category = mergeCategory(p[key].category, category, 'always');
             p[key].updated = new Date().toISOString().split('T')[0];
             save(p);
         },
@@ -198,7 +194,6 @@
         // Set ingredient — have=true, level optional, category optional.
         // Every item gets a stock level by default (FULL) so any ingredient
         // can be tracked Full/Half/Low/Empty, not just a fixed shortlist.
-        // Full/Half/Low/Empty, not just a fixed shortlist.
         set: function(name, have, level, category) {
             var key = (name || '').toLowerCase().trim();
             if (!key) return;
@@ -210,7 +205,7 @@
                 p[key] = {
                     have: true,
                     level: level || existing.level || 'FULL',
-                    category: category || existing.category || null,
+                    category: mergeCategory(existing.category, category, 'preserve'),
                     updated: new Date().toISOString().split('T')[0]
                 };
             }
@@ -245,7 +240,7 @@
             // LOW — need to buy if recipe needs more than ~200g/ml
             var qty = parseFloat(neededQty) || 0;
             var unit = (neededUnit || '').toLowerCase();
-            if ((unit === 'g' || unit === 'ml') && qty > 200) return true;
+            if ((unit === 'g' || unit === 'ml') && qty > NEEDS_BUY_THRESHOLD_G) return true;
             if (unit === 'kg' || unit === 'l') return true;
             return false; // LOW but small amount — probably fine
         },
@@ -301,27 +296,6 @@
             return result;
         },
 
-        // Bulk add ingredients from a recipe (all as "have"). Kept for
-        // back-compat with any other caller — the recipe-import modal now
-        // uses addItems() below instead, since it lets the user pick which
-        // ingredients to add and what category each goes in.
-        loadFromRecipe: function(ingredients) {
-            var p = load();
-            (ingredients || []).forEach(function(ing) {
-                if (ing.heading || ing.toTaste) return;
-                var key = (ing.item || ing.name || '').toLowerCase().trim();
-                if (!key) return;
-                if (!p[key]) {
-                    p[key] = {
-                        have: true,
-                        level: 'FULL',
-                        updated: new Date().toISOString().split('T')[0]
-                    };
-                }
-            });
-            save(p);
-        },
-
         // Add a hand-picked set of items, each with its own category.
         // items: [{ name, category }]. Existing entries are not
         // overwritten, except that a missing category on an existing
@@ -338,9 +312,12 @@
                         category: it.category || null,
                         updated: new Date().toISOString().split('T')[0]
                     };
-                } else if (it.category && !p[key].category) {
-                    p[key].category = it.category;
-                    p[key].updated = new Date().toISOString().split('T')[0];
+                } else {
+                    var newCategory = mergeCategory(p[key].category, it.category, 'fill');
+                    if (newCategory !== p[key].category) {
+                        p[key].category = newCategory;
+                        p[key].updated = new Date().toISOString().split('T')[0];
+                    }
                 }
             });
             save(p);
@@ -382,8 +359,7 @@
         clear: function() { save({}); },
 
         // Expose constants for UI use
-        STOCK_LEVELS: STOCK_LEVELS,
-        LEVEL_TRACK: LEVEL_TRACK
+        STOCK_LEVELS: STOCK_LEVELS
     };
 
     // ── Attach to KitchenNotebook namespace ──────────────────────────

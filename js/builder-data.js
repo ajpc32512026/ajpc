@@ -117,6 +117,29 @@ function buildJSON() {
         if (!obj.journal.length) delete obj.journal;
     }
 
+    // ── Related Recipes ──
+    // Was previously never read back out of #related-list, so anything
+    // added via the Related Recipes UI was silently lost on save even
+    // though populateForm() (below) does read data.related back in when
+    // loading a file. Each row's id/title/matchingTags are stashed on
+    // its dataset by loadRelatedRecipe() in builder-ui.js.
+    const relatedRows = document.querySelectorAll('#related-list .related-row');
+    if (relatedRows.length) {
+        obj.related = [];
+        relatedRows.forEach(row => {
+            const id = row.dataset.id || '';
+            if (!id) return;
+            let matchingTags = [];
+            try { matchingTags = JSON.parse(row.dataset.tags || '[]'); } catch(e) { /* leave empty */ }
+            obj.related.push({
+                id,
+                title: row.dataset.title || id,
+                matchingTags
+            });
+        });
+        if (!obj.related.length) delete obj.related;
+    }
+
     // ── Nutrition ──
     // computeNutrition is defined in builder-nutrition.js.
     // It returns null if NUTRITION_DB is not yet loaded or no ingredients match.

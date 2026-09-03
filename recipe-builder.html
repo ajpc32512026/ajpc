@@ -173,13 +173,14 @@
 
         <!-- RELATED RECIPES -->
         <div class="section">
-            <div class="section-title">Related Recipes <span class="section-hint">(manually curate)</span></div>
+            <div class="section-title">Related Recipes <span class="section-hint">(manually curate, or auto-suggest from tags)</span></div>
             <div class="dynamic-list" id="related-list"></div>
             <div class="related-add-controls">
                 <select id="related-recipe-select" class="related-select">
                     <option value="">Loading recipes...</option>
                 </select>
                 <button class="btn" onclick="addRelatedRecipe()">＋ Add</button>
+                <button class="btn" onclick="suggestRelatedRecipes()" title="Scans the whole collection for recipes sharing tags or category">✦ Auto-Suggest 5</button>
             </div>
         </div>
     </div>
@@ -279,51 +280,6 @@
             <div class="loading-modal-track">
                 <div class="loading-modal-fill"></div>
             </div>
-        </div>
-    </div>
-
-    <!-- Tag Picker Modal -->
-    <div class="tag-picker-modal" id="tag-picker-modal" onclick="closeTagPickerIfOutside(event)">
-        <div class="tag-picker-content">
-            <!-- Sticky header — always visible -->
-            <div class="tag-picker-sticky-header">
-                <div class="tag-picker-header-row">
-                    <h3 class="tag-picker-title">Select Tags</h3>
-                    <div class="tag-picker-actions">
-                        <button class="btn btn-tag-done" onclick="confirmTagSelection()">Done</button>
-                        <button class="btn btn-tag-close" onclick="closeTagPicker()">✕</button>
-                    </div>
-                </div>
-
-                <!-- Search box -->
-                <input type="text" id="tag-search" placeholder="Search tags…" class="tag-search-input" oninput="filterTagPicker(this.value)">
-
-                <!-- Copy tags from another recipe — auto-applies on select -->
-                <div class="tag-picker-search-row">
-                    <select id="copy-tags-from" onchange="copyTagsFromRecipe()" class="copy-tags-select">
-                        <option value="">Copy tags from another recipe...</option>
-                    </select>
-                </div>
-
-                <!-- Category filter tabs -->
-                <div class="tag-picker-category-row">
-                    <button class="tag-category-btn active" onclick="filterTagCategory('all', event)">All</button>
-                    <button class="tag-category-btn" onclick="filterTagCategory('cuisine', event)">Cuisine</button>
-                    <button class="tag-category-btn" onclick="filterTagCategory('cookingMethod', event)">Method</button>
-                    <button class="tag-category-btn" onclick="filterTagCategory('dietary', event)">Dietary</button>
-                    <button class="tag-category-btn" onclick="filterTagCategory('time', event)">Time</button>
-                    <button class="tag-category-btn" onclick="filterTagCategory('mealType', event)">Meal</button>
-                    <button class="tag-category-btn" onclick="filterTagCategory('characteristics', event)">Style</button>
-                    <button class="tag-category-btn" onclick="filterTagCategory('protein', event)">Protein</button>
-                    <button class="tag-category-btn" onclick="filterTagCategory('keyIngredients', event)">Ingredients</button>
-                    <button class="tag-category-btn" onclick="filterTagCategory('specificCheeses', event)">Cheese</button>
-                    <button class="tag-category-btn" onclick="filterTagCategory('specificLiqueurs', event)">Liqueur</button>
-                    <button class="tag-category-btn" onclick="filterTagCategory('occasion', event)">Occasion</button>
-                </div>
-            </div>
-
-            <!-- Scrollable tag grid only -->
-            <div class="tag-picker-grid" id="tag-picker-grid"></div>
         </div>
     </div>
 
