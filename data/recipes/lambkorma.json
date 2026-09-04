@@ -9,9 +9,12 @@
   "totalTime": "55 min",
   "servings": "4 servings",
   "tags": [
+    "Chinese",
     "Classic",
     "Curry",
     "Dinner",
+    "Gluten-Free",
+    "Greek",
     "Indian",
     "Lamb",
     "Rich",
@@ -72,7 +75,7 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Nutmeg"
+      "item": "Ground Nutmeg"
     },
     {
       "quantity": "15",

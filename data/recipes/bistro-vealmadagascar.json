@@ -2,7 +2,7 @@
   "id": "bistro-vealmadagascar",
   "title": "Veal Madagascar",
   "category": "Bistro",
-  "description": "Veal in a rich cream and demi glace sauce with bacon, capsicum, tomato, onion, garlic, and green peppercorns. Served hot or mild \u2014 the customer's choice.",
+  "description": "Veal in a rich cream and demi glace sauce with bacon, capsicum, tomato, onion, garlic, and green peppercorns. Served hot or mild — the customer's choice.",
   "prepTime": "10 min",
   "cookTime": "10 min",
   "totalTime": "20 min",
@@ -10,10 +10,12 @@
   "difficulty": "Intermediate",
   "tags": [
     "Bistro",
+    "Chinese",
     "Classic",
     "Creamy",
     "Dinner",
     "French",
+    "Gluten-Free",
     "Rich",
     "Savoury",
     "Under 30 Minutes",
@@ -29,7 +31,7 @@
     {
       "quantity": "2",
       "unit": "rashers",
-      "item": "Bacon",
+      "item": "Middle Bacon",
       "notes": "diced"
     },
     {
@@ -65,7 +67,7 @@
       "quantity": "1",
       "unit": "",
       "item": "Red Chilli",
-      "notes": "sliced, optional \u2014 for hot version"
+      "notes": "sliced, optional — for hot version"
     },
     {
       "quantity": "60",
@@ -86,7 +88,7 @@
       "quantity": "",
       "unit": "",
       "item": "Salt & Pepper",
-      "notes": "Don't add too much all at once \u2014 you can't take it out once it's in."
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
   "youWillNeed": [
@@ -98,7 +100,7 @@
   "method": [
     {
       "step": 1,
-      "instruction": "Pan-fry veal in a little butter over medium-high heat until just cooked through, about 1\u20132 minutes per side. Remove and rest \u2014 veal toughens quickly if overdone."
+      "instruction": "Pan-fry veal in a little butter over medium-high heat until just cooked through, about 1–2 minutes per side. Remove and rest — veal toughens quickly if overdone."
     },
     {
       "step": 2,
@@ -106,7 +108,7 @@
     },
     {
       "step": 3,
-      "instruction": "Add onion and capsicum and cook until softened, about 3\u20134 minutes."
+      "instruction": "Add onion and capsicum and cook until softened, about 3–4 minutes."
     },
     {
       "step": 4,
@@ -114,11 +116,11 @@
     },
     {
       "step": 5,
-      "instruction": "Add diced tomato and cook down for 2\u20133 minutes until softened."
+      "instruction": "Add diced tomato and cook down for 2–3 minutes until softened."
     },
     {
       "step": 6,
-      "instruction": "Pour in demi glace and thickened cream. Stir and reduce for 2\u20133 minutes until the sauce is rich and coats the back of a spoon."
+      "instruction": "Pour in demi glace and thickened cream. Stir and reduce for 2–3 minutes until the sauce is rich and coats the back of a spoon."
     },
     {
       "step": 7,
@@ -133,12 +135,12 @@
     {
       "type": "technique",
       "title": "Hot or Mild",
-      "content": "This dish is made to order \u2014 add chilli for the hot version, omit for mild. The green peppercorns provide a gentle warmth regardless, so the chilli determines the heat level."
+      "content": "This dish is made to order — add chilli for the hot version, omit for mild. The green peppercorns provide a gentle warmth regardless, so the chilli determines the heat level."
     },
     {
       "type": "technique",
       "title": "Sauce Ratio",
-      "content": "Equal parts cream to demi glace gives a balanced, rich sauce. No red wine is used in this preparation \u2014 the depth comes from the demi glace, bacon, and peppercorns."
+      "content": "Equal parts cream to demi glace gives a balanced, rich sauce. No red wine is used in this preparation — the depth comes from the demi glace, bacon, and peppercorns."
     }
   ],
   "related": [

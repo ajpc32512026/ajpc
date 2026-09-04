@@ -17,12 +17,13 @@
     let currentBaseServings = 1;
     let currentPanel = null;
 
-    // Single shared list — calculateRecipeCost and showShoppingList used to
-    // keep their own copies of this and had quietly drifted apart (one
-    // excluded "ice-cold water", the other didn't). One list now, used by
-    // both, so a recipe using either water phrasing is treated the same
-    // way everywhere on the site.
-    const EXCLUDE_ITEMS = ['water', 'hot water', 'cold water', 'warm water', 'boiling water', 'tap water', 'ice-cold water', 'salt', 'pepper', 'black pepper', 'white pepper', 'to taste'];
+    // Single shared list — this used to be its own separate copy here (and
+    // in whatcanicook.js, and missing entirely from the pantry-import
+    // checklist) and had already drifted once. Now reads from pantry.js's
+    // Pantry.EXCLUDE_ITEMS, the one real source of truth; this local array
+    // is only a fallback for the unlikely case pantry.js hasn't loaded.
+    const EXCLUDE_ITEMS = (window.KitchenNotebook && window.KitchenNotebook.Pantry && window.KitchenNotebook.Pantry.EXCLUDE_ITEMS)
+        || ['water', 'hot water', 'cold water', 'warm water', 'boiling water', 'tap water', 'ice-cold water', 'salt', 'pepper', 'black pepper', 'white pepper', 'to taste'];
 
     // Parses a recipe's raw ingredient lines into {name, displayName, qty,
     // unit}, scaled by `multiplier` and filtered against EXCLUDE_ITEMS, then

@@ -14,11 +14,12 @@
     "Baked",
     "Baking",
     "Classic",
+    "Dessert",
+    "Lunch",
     "Make Ahead",
     "Pastry",
     "Savoury",
-    "Snack",
-    "Lunch"
+    "Snack"
   ],
   "ingredients": [
     {

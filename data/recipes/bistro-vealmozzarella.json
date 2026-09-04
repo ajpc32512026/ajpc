@@ -10,10 +10,13 @@
   "difficulty": "Intermediate",
   "tags": [
     "Baked",
+    "Baking",
     "Bistro",
     "Classic",
+    "Dessert",
     "Dinner",
     "Italian",
+    "Lunch",
     "Rich",
     "Savoury",
     "Under 1 Hour",
@@ -35,7 +38,7 @@
     {
       "quantity": "2",
       "unit": "rashers",
-      "item": "Bacon",
+      "item": "Middle Bacon",
       "notes": "diced"
     },
     {

@@ -33,6 +33,15 @@
         EMPTY: { label: 'Empty', desc: 'Out of stock', icon: '0' }
     };
 
+    // ── Items nobody shops for or tracks stock of ─────────
+    // Water is on tap, salt/pepper are assumed always on hand, "to taste"
+    // isn't a real ingredient. This used to be copied independently into
+    // recipe-shopping.js and whatcanicook.js (and was missing entirely from
+    // the pantry-import checklist, which is why Water kept showing up as
+    // something to add). One list now, exposed on the Pantry API, so every
+    // caller reads the same thing instead of drifting.
+    var EXCLUDE_ITEMS = ['water', 'hot water', 'cold water', 'warm water', 'boiling water', 'tap water', 'ice-cold water', 'salt', 'pepper', 'black pepper', 'white pepper', 'to taste'];
+
     // ── Common substitutions ──────────────────────────────
     var SUBSTITUTIONS = {
         'self-raising flour': {
@@ -390,7 +399,8 @@
         clear: function() { save({}); },
 
         // Expose constants for UI use
-        STOCK_LEVELS: STOCK_LEVELS
+        STOCK_LEVELS: STOCK_LEVELS,
+        EXCLUDE_ITEMS: EXCLUDE_ITEMS
     };
 
     // ── Attach to KitchenNotebook namespace ──────────────────────────

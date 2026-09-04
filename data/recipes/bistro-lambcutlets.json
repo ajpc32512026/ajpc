@@ -11,12 +11,14 @@
   "tags": [
     "Air Fryer",
     "Australian",
+    "Baking",
     "Bistro",
     "Deep-Fried",
     "Dinner",
     "Lamb",
     "Lunch",
-    "Savoury"
+    "Savoury",
+    "Side Dish"
   ],
   "ingredients": [
     {
@@ -46,7 +48,7 @@
     {
       "quantity": "2",
       "unit": "rashers",
-      "item": "Bacon",
+      "item": "Middle Bacon",
       "notes": "crispy"
     },
     {

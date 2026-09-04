@@ -9,8 +9,10 @@
   "servings": "4 servings",
   "difficulty": "Intermediate",
   "tags": [
+    "Chinese",
     "Curry",
     "Dinner",
+    "Gluten-Free",
     "Indian",
     "Lamb",
     "Make Ahead",
@@ -46,7 +48,7 @@
     {
       "quantity": "3",
       "unit": "g",
-      "item": "Turmeric"
+      "item": "Ground Turmeric"
     },
     {
       "quantity": "5",

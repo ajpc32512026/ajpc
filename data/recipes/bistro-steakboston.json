@@ -13,9 +13,13 @@
     "American",
     "Beef",
     "Bistro",
+    "Chinese",
     "Classic",
+    "Dessert",
     "Dinner",
+    "Drinks",
     "Gluten-Free",
+    "Italian",
     "Rich",
     "Savoury",
     "Under 30 Minutes"
@@ -79,7 +83,7 @@
       "quantity": "",
       "unit": "",
       "item": "Salt & Pepper",
-      "notes": "Don't add too much all at once \u2014 you can't take it out once it's in."
+      "notes": "Don't add too much all at once — you can't take it out once it's in."
     }
   ],
   "method": [
@@ -93,15 +97,15 @@
     },
     {
       "step": 3,
-      "instruction": "Heat a heavy-based pan or grill over high heat. Cook fillets for 2\u20133 minutes per side for medium-rare, or to desired doneness. Remove and rest on a warm plate."
+      "instruction": "Heat a heavy-based pan or grill over high heat. Cook fillets for 2–3 minutes per side for medium-rare, or to desired doneness. Remove and rest on a warm plate."
     },
     {
       "step": 4,
-      "instruction": "For the sauce: melt half the butter in the same pan over medium heat. Add diced onion and cook until softened, about 2\u20133 minutes."
+      "instruction": "For the sauce: melt half the butter in the same pan over medium heat. Add diced onion and cook until softened, about 2–3 minutes."
     },
     {
       "step": 5,
-      "instruction": "Deglaze with red wine, scraping up any spice residue and browned bits from the steak. Let it reduce by half, about 1\u20132 minutes."
+      "instruction": "Deglaze with red wine, scraping up any spice residue and browned bits from the steak. Let it reduce by half, about 1–2 minutes."
     },
     {
       "step": 6,
@@ -116,7 +120,7 @@
     {
       "type": "technique",
       "title": "Creole Spice",
-      "content": "The Creole spice blend is the signature of this dish \u2014 a dry coating that forms a flavourful, slightly blackened crust when seared. No demi glace is used. The sauce is a simple red wine and butter reduction that deglazes the pan and captures the spice residue from the steak."
+      "content": "The Creole spice blend is the signature of this dish — a dry coating that forms a flavourful, slightly blackened crust when seared. No demi glace is used. The sauce is a simple red wine and butter reduction that deglazes the pan and captures the spice residue from the steak."
     }
   ],
   "related": [

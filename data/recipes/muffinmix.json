@@ -14,6 +14,7 @@
     "Baked",
     "Baking",
     "Breakfast",
+    "Dessert",
     "Snack",
     "Sweet",
     "Under 30 Minutes",
@@ -59,7 +60,7 @@
     {
       "quantity": "5",
       "unit": "ml",
-      "item": "Vanilla Extract",
+      "item": "Natural Vanilla Extract",
       "notes": "omit for savoury"
     },
     {

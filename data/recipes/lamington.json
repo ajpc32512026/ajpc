@@ -12,12 +12,14 @@
   "tags": [
     "Australian",
     "Baked",
+    "Baking",
     "Cake",
     "Chocolate",
     "Classic",
     "Coconut",
     "Dessert",
     "Party",
+    "Stovetop",
     "Sweet",
     "Vegetarian"
   ],
@@ -36,7 +38,7 @@
     {
       "quantity": "5",
       "unit": "ml",
-      "item": "Vanilla Extract"
+      "item": "Natural Vanilla Extract"
     },
     {
       "quantity": "75",

@@ -339,34 +339,35 @@
                 renderUnified();
             });
 
-            // Enter adds a new item when the typed term has no exact match
-            // (i.e. the "add as new" prompt is showing) — this avoids
-            // accidentally adding something while you're just browsing.
-            // When a match DOES already exist, Enter used to just do
-            // nothing (the exact-match case had no handling at all) —
-            // now it scrolls straight to the matching row instead, since
-            // the list can be scrolled well below the fold.
+            // Enter's priority: scroll to a real match if one exists —
+            // previously it always fired the add-new button whenever it
+            // was present, which included the "partial matches exist but
+            // none is exact" case (e.g. searching "sugar"), silently
+            // adding a new "sugar" pantry entry instead of taking you to
+            // the 5 real sugar items already listed. Add-new only fires
+            // now when there's truly nothing else to jump to.
             input.addEventListener('keydown', function(e) {
                 if (e.key !== 'Enter') return;
                 e.preventDefault();
-                var addBtn = document.querySelector('.pantry-add-new-btn');
-                if (addBtn) { addBtn.click(); return; }
 
                 var list = document.getElementById('pantryList');
-                var firstRow = list ? list.querySelector('.pantry-item') : null;
-                if (!firstRow) return;
-                firstRow.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                // Inline highlight rather than a CSS class, since that class
-                // would need adding to main.css separately — this works
-                // immediately without touching that file.
-                var prevTransition = firstRow.style.transition;
-                var prevBg = firstRow.style.backgroundColor;
-                firstRow.style.transition = 'background-color 0.2s ease';
-                firstRow.style.backgroundColor = 'rgba(201, 125, 62, 0.35)'; // matches the site's copper accent
-                setTimeout(function() {
-                    firstRow.style.backgroundColor = prevBg;
-                    setTimeout(function() { firstRow.style.transition = prevTransition; }, 300);
-                }, 900);
+                var firstRow = list ? list.querySelector('.pantry-item:not(.pantry-add-new-row)') : null;
+
+                if (firstRow) {
+                    firstRow.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    var prevTransition = firstRow.style.transition;
+                    var prevBg = firstRow.style.backgroundColor;
+                    firstRow.style.transition = 'background-color 0.2s ease';
+                    firstRow.style.backgroundColor = 'rgba(201, 125, 62, 0.35)';
+                    setTimeout(function() {
+                        firstRow.style.backgroundColor = prevBg;
+                        setTimeout(function() { firstRow.style.transition = prevTransition; }, 300);
+                    }, 900);
+                    return;
+                }
+
+                var addBtn = document.querySelector('.pantry-add-new-btn');
+                if (addBtn) addBtn.click();
             });
         }
 
@@ -411,7 +412,7 @@
 
             if (!universe.length) {
                 if (query) {
-                    list.innerHTML = renderAddNewRow(currentSearch.trim());
+                    list.innerHTML = renderNoMatchRow(currentSearch.trim());
                     empty.style.display = 'none';
                 } else {
                     list.innerHTML = '';
@@ -432,7 +433,7 @@
 
                 var exact = universe.some(function(it) { return it.key === query; });
                 if (!exact) {
-                    html += renderAddNewRow(currentSearch.trim());
+                    html += renderAddDistinctRow(currentSearch.trim());
                 }
             } else {
                 // Grouped by category for browsing
@@ -489,12 +490,103 @@
             return html;
         }
 
+        // ── Fuzzy "Did you mean" suggestions ──────────────────
+        // Only runs when a search has ZERO substring matches — e.g. "Baylies"
+        // matches nothing via indexOf, but is one edit away from "bay leaves"
+        // via one of its aliases. Checks the typed term against every
+        // canonical name AND every alias in categoryLookup (not just
+        // canonical names, since a misspelled alias should still surface
+        // its canonical item). Threshold scales with the query's length so
+        // short queries don't match everything and long ones still tolerate
+        // a couple of typos.
+        function levenshtein(a, b) {
+            var m = a.length, n = b.length;
+            if (!m) return n;
+            if (!n) return m;
+            var prev = [];
+            for (var j = 0; j <= n; j++) prev[j] = j;
+            for (var i = 1; i <= m; i++) {
+                var cur = [i];
+                for (var k = 1; k <= n; k++) {
+                    var cost = a[i - 1] === b[k - 1] ? 0 : 1;
+                    cur[k] = Math.min(prev[k] + 1, cur[k - 1] + 1, prev[k - 1] + cost);
+                }
+                prev = cur;
+            }
+            return prev[n];
+        }
+
+        function findFuzzyMatches(query) {
+            if (!query || query.length < 3) return [];
+            // Threshold scales with query length: short queries need a tight
+            // threshold or almost everything matches by chance; longer
+            // queries can tolerate a couple of real typos.
+            var threshold = query.length <= 5 ? 1 : (query.length <= 8 ? 2 : 3);
+            var seenCanonical = {};
+
+            Object.keys(categoryLookup).forEach(function(key) {
+                var dist = levenshtein(query, key);
+                // Extra point of slack ONLY when comparing against a
+                // multi-word key with its spaces removed — someone typing
+                // "baylies" for "bay leaves" is one word mashed from two,
+                // which costs an extra edit that shouldn't be penalized
+                // the same as a genuine typo within a single word.
+                if (dist > threshold && key.indexOf(' ') !== -1) {
+                    var squished = key.replace(/\s+/g, '');
+                    var sd = levenshtein(query, squished);
+                    if (sd <= threshold + 1) dist = sd;
+                }
+                if (dist > threshold) return;
+                var canonical = resolveCanonical(key);
+                if (seenCanonical[canonical] === undefined || dist < seenCanonical[canonical]) {
+                    seenCanonical[canonical] = dist;
+                }
+            });
+
+            var scored = Object.keys(seenCanonical).map(function(k) {
+                return { key: k, dist: seenCanonical[k] };
+            });
+            scored.sort(function(a, b) { return a.dist - b.dist || a.key.localeCompare(b.key); });
+            return scored.slice(0, 3).map(function(s) { return s.key; });
+        }
+
         function renderAddNewRow(term) {
             if (!term) return '';
             return '<div class="pantry-item pantry-add-new-row" style="opacity:1;">'
                 + '<span class="pantry-item-name">No match for &ldquo;' + esc(term) + '&rdquo;</span>'
                 + '<div class="pantry-item-controls">'
                 + '<button class="enh-btn pantry-add-new-btn" data-name="' + esc(term) + '">Add &ldquo;' + esc(term) + '&rdquo; to pantry</button>'
+                + '</div></div>';
+        }
+
+        // Shown instead of renderAddNewRow's plain "no match" message when
+        // there ARE close-spelling suggestions to offer. Clicking a
+        // suggestion re-runs the search with that term instead of adding
+        // a possibly-misspelled new item.
+        function renderNoMatchRow(term) {
+            var suggestions = findFuzzyMatches(term.toLowerCase().trim());
+            if (!suggestions.length) return renderAddNewRow(term);
+
+            var chips = suggestions.map(function(s) {
+                return '<button class="enh-btn pantry-suggest-btn" data-suggest="' + esc(s) + '">' + esc(cap(s)) + '</button>';
+            }).join('');
+
+            return '<div class="pantry-item pantry-add-new-row" style="opacity:1;">'
+                + '<span class="pantry-item-name">No exact match for &ldquo;' + esc(term) + '&rdquo; — did you mean:</span>'
+                + '<div class="pantry-item-controls">' + chips + '</div></div>'
+                + renderAddNewRow(term);
+        }
+
+        // Shown above the add-new row when there ARE partial matches
+        // already listed (e.g. searching "sugar" and getting 5 sugar
+        // items) — the old message said "No match for X" even while
+        // matches were sitting right above it, which was just wrong.
+        function renderAddDistinctRow(term) {
+            if (!term) return '';
+            return '<div class="pantry-item pantry-add-new-row" style="opacity:1;">'
+                + '<span class="pantry-item-name">Don&rsquo;t see what you want above?</span>'
+                + '<div class="pantry-item-controls">'
+                + '<button class="enh-btn pantry-add-new-btn" data-name="' + esc(term) + '">Add &ldquo;' + esc(term) + '&rdquo; as a new item</button>'
                 + '</div></div>';
         }
 
@@ -507,10 +599,20 @@
                 var Pantry = pantryApi();
                 if (!Pantry) return;
 
-                var removeBtn = e.target.closest('.pantry-remove-btn');
-                var levelBtn  = e.target.closest('.pantry-level-btn');
-                var haveBtn   = e.target.closest('.pantry-have-btn');
-                var addNewBtn = e.target.closest('.pantry-add-new-btn');
+                var removeBtn  = e.target.closest('.pantry-remove-btn');
+                var levelBtn   = e.target.closest('.pantry-level-btn');
+                var haveBtn    = e.target.closest('.pantry-have-btn');
+                var addNewBtn  = e.target.closest('.pantry-add-new-btn');
+                var suggestBtn = e.target.closest('.pantry-suggest-btn');
+
+                if (suggestBtn) {
+                    var suggestion = suggestBtn.dataset.suggest;
+                    var searchInput = document.getElementById('pantrySearchInput');
+                    if (searchInput) searchInput.value = cap(suggestion);
+                    currentSearch = suggestion;
+                    renderUnified();
+                    return;
+                }
 
                 if (removeBtn) {
                     Pantry.set(removeBtn.dataset.name, false);
@@ -701,18 +803,30 @@
                 var ingredients = recipe.ingredients || [];
                 if (!ingredients.length) throw new Error('Recipe file has no ingredients array');
 
-                pendingRecipeItems = ingredients
+                var Pantry = pantryApi();
+                var exclude = (Pantry && Pantry.EXCLUDE_ITEMS) || [];
+
+                // One row per ingredient, not per line — "Bakers Flour" in
+                // a Poolish section and "Bakers Flour" again in a Bread
+                // Dough section is still just Bakers Flour. Dedupe by the
+                // resolved canonical name (the same resolution that
+                // collapses "1 cup milk" and "1 litre milk" onto one
+                // pantry entry), keeping the first category match seen.
+                var seen = {};
+                pendingRecipeItems = [];
+                ingredients
                     .filter(function(ing) { return !ing.heading && !ing.toTaste; })
-                    .map(function(ing) {
+                    .forEach(function(ing) {
                         var raw = (ing.item || ing.name || '').toLowerCase().trim();
                         var name = resolveCanonical(raw);
-                        return {
+                        if (!name || exclude.includes(name) || seen[name]) return;
+                        seen[name] = true;
+                        pendingRecipeItems.push({
                             name: name,
                             category: categoryLookup[name] || 'Other',
                             checked: true
-                        };
-                    })
-                    .filter(function(it) { return it.name; });
+                        });
+                    });
 
                 document.getElementById('pantryImportTitle').textContent = displayName || 'Choose Ingredients';
                 renderChecklist();

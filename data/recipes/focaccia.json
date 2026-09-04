@@ -10,8 +10,11 @@
   "servings": "1 flat loaf",
   "yieldPerBatch": "1 flat loaf",
   "tags": [
+    "Baked",
     "Baking",
     "Bread",
+    "Chinese",
+    "Greek",
     "Italian",
     "Make Ahead",
     "Savoury",
@@ -84,7 +87,7 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Sea Salt Flakes"
+      "item": "Salt"
     }
   ],
   "method": [

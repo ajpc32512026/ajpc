@@ -11,20 +11,26 @@
   "yieldPerBatch": "1 batch",
   "tags": [
     "Asian",
+    "Baking",
     "Chicken",
+    "Chinese",
     "Coconut",
+    "Dessert",
     "Dinner",
+    "Gluten-Free",
     "Pineapple",
     "Rice",
     "Saucy",
     "Savoury",
-    "Sweet"
+    "Stovetop",
+    "Sweet",
+    "Thai"
   ],
   "ingredients": [
     {
       "quantity": "2",
       "unit": "",
-      "item": "Chicken Breasts",
+      "item": "Chicken Breast",
       "notes": "thawed, sliced into thick strips or bite-sized pieces"
     },
     {
@@ -40,7 +46,7 @@
     {
       "quantity": "15",
       "unit": "g",
-      "item": "Corn Flour",
+      "item": "Cornflour",
       "notes": "for dusting the chicken"
     },
     {
@@ -52,7 +58,7 @@
     {
       "quantity": "10",
       "unit": "g",
-      "item": "Fresh Garlic",
+      "item": "Garlic",
       "notes": "minced"
     },
     {
@@ -121,7 +127,7 @@
     {
       "quantity": "15",
       "unit": "g",
-      "item": "Corn Flour",
+      "item": "Cornflour",
       "notes": "for the slurry"
     },
     {
@@ -133,7 +139,7 @@
     {
       "quantity": "400",
       "unit": "g",
-      "item": "Cooked Rice",
+      "item": "Rice",
       "notes": "to serve"
     }
   ],

@@ -16,6 +16,7 @@
     "Gluten-Free",
     "Healthy",
     "No-Bake",
+    "No-Cook",
     "Vegetarian"
   ],
   "ingredients": [
@@ -50,7 +51,7 @@
     {
       "quantity": "5",
       "unit": "ml",
-      "item": "Vanilla Extract"
+      "item": "Natural Vanilla Extract"
     }
   ],
   "method": [

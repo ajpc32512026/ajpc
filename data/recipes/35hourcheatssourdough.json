@@ -10,14 +10,17 @@
   "servings": "1 loaf",
   "yieldPerBatch": "1 loaf",
   "tags": [
-    "Bread",
-    "Sourdough Style",
     "Artisan",
+    "Baking",
+    "Bread",
     "Crusty",
+    "Dessert",
+    "European",
     "Make Ahead",
-    "Vegetarian",
     "No Oil",
-    "European"
+    "Sourdough Style",
+    "Vegan",
+    "Vegetarian"
   ],
   "ingredients": [
     {
@@ -26,7 +29,7 @@
     {
       "quantity": "200",
       "unit": "g",
-      "item": "Bakers Flour"
+      "item": "Bread Flour"
     },
     {
       "quantity": "200",
@@ -46,7 +49,7 @@
     {
       "quantity": "390",
       "unit": "g",
-      "item": "Bakers Flour"
+      "item": "Bread Flour"
     },
     {
       "quantity": "200",
@@ -196,15 +199,15 @@
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 2153,
-    "kj": 9008,
-    "protein": 71,
-    "carbs": 424,
-    "sugars": 5,
-    "fat": 7,
-    "saturated_fat": 1.2,
+    "cal": 2126,
+    "kj": 8894,
+    "protein": 72,
+    "carbs": 419,
+    "sugars": 15,
+    "fat": 10,
+    "saturated_fat": 1.4,
     "fiber": 18,
-    "sodium": 1039,
+    "sodium": 1044,
     "coverage": 100,
     "foundCount": 7,
     "totalCount": 7,
@@ -216,5 +219,5 @@
     "zinc_mg": 6,
     "vitamin_a_ug": 1
   },
-  "lastModified": "2026-09-03"
+  "lastModified": "2026-09-04"
 }

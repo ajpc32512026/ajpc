@@ -2,7 +2,7 @@
   "id": "puffpastryrough",
   "title": "Rough Puff Pastry",
   "category": "Pastry",
-  "description": "A smart compromise between traditional puff pastry and store-bought. Quick to make with excellent rise and flakiness \u2014 the perfect everyday laminated dough. Keep everything cold and don't overwork it.",
+  "description": "A smart compromise between traditional puff pastry and store-bought. Quick to make with excellent rise and flakiness — the perfect everyday laminated dough. Keep everything cold and don't overwork it.",
   "prepTime": "15 min",
   "cookTime": "0 min",
   "totalTime": "~1 hour",
@@ -11,10 +11,12 @@
   "tags": [
     "Baking",
     "Classic",
+    "Dessert",
     "Freezer Friendly",
     "French",
     "Make Ahead",
-    "Pastry"
+    "Pastry",
+    "Vegetarian"
   ],
   "ingredients": [
     {
@@ -27,7 +29,7 @@
       "quantity": "400",
       "unit": "g",
       "item": "Unsalted Butter",
-      "notes": "very cold, cut into 1\u20131.5 cm cubes"
+      "notes": "very cold, cut into 1–1.5 cm cubes"
     },
     {
       "quantity": "250",
@@ -62,7 +64,7 @@
     },
     {
       "step": 2,
-      "instruction": "Add cold butter cubes and lightly rub them into the flour, leaving visible pea-sized pieces. Do not overwork \u2013 the chunks of butter create the flaky layers."
+      "instruction": "Add cold butter cubes and lightly rub them into the flour, leaving visible pea-sized pieces. Do not overwork – the chunks of butter create the flaky layers."
     },
     {
       "step": 3,
@@ -70,7 +72,7 @@
     },
     {
       "step": 4,
-      "instruction": "Turn dough onto a lightly floured surface. Pat into a rough rectangle, then roll into a 1 cm thick rectangle (about 20 \u00d7 40 cm)."
+      "instruction": "Turn dough onto a lightly floured surface. Pat into a rough rectangle, then roll into a 1 cm thick rectangle (about 20 × 40 cm)."
     },
     {
       "step": 5,
@@ -78,7 +80,7 @@
     },
     {
       "step": 6,
-      "instruction": "Repeat the rolling and folding process for a total of 3\u20134 turns, chilling 20 minutes between each turn. Rotate the dough 90\u00b0 before each roll to keep it even."
+      "instruction": "Repeat the rolling and folding process for a total of 3–4 turns, chilling 20 minutes between each turn. Rotate the dough 90° before each roll to keep it even."
     },
     {
       "step": 7,
@@ -98,7 +100,7 @@
     {
       "type": "tip",
       "title": "Don't Overwork",
-      "content": "The visible butter chunks are what create flakiness \u2013 don't blend them in completely. A shaggy, rough dough is exactly what you want. Minimal handling = better layers."
+      "content": "The visible butter chunks are what create flakiness – don't blend them in completely. A shaggy, rough dough is exactly what you want. Minimal handling = better layers."
     },
     {
       "type": "tip",

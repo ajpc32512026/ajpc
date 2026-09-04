@@ -11,10 +11,13 @@
   "yieldPerBatch": "1 batch",
   "tags": [
     "Australian",
+    "Baking",
     "Banana",
+    "Breakfast",
     "Cake",
     "Citrus",
     "Dessert",
+    "Drinks",
     "Sweet",
     "Vegetarian"
   ],
@@ -43,7 +46,7 @@
     {
       "quantity": "5",
       "unit": "ml",
-      "item": "Vanilla Extract"
+      "item": "Natural Vanilla Extract"
     },
     {
       "quantity": "4",

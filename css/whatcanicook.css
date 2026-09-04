@@ -1,0 +1,89 @@
+/* =========================================================
+   WHAT CAN I COOK — styling for whatcanicook.html
+========================================================= */
+
+.cook-filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1rem 0 1.5rem;
+}
+
+.cook-filter-btn {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: inherit;
+    border-radius: 999px;
+    padding: 0.4rem 0.9rem;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+.cook-filter-btn.active {
+    background: #c97d3e;
+    border-color: #c97d3e;
+    color: #16161a;
+    font-weight: 600;
+}
+
+.cook-results {
+    display: grid;
+    gap: 0.75rem;
+}
+
+.cook-card {
+    display: block;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-left: 3px solid rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    padding: 0.9rem 1.1rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+.cook-card-ready  { border-left-color: #6fae6f; }
+.cook-card-close  { border-left-color: #c9a53e; }
+.cook-card-almost { border-left-color: #c97d3e; }
+.cook-card-far    { border-left-color: rgba(255, 255, 255, 0.15); }
+
+.cook-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+}
+
+.cook-card-title {
+    font-weight: 600;
+}
+
+.cook-card-badge {
+    font-size: 0.75rem;
+    white-space: nowrap;
+    opacity: 0.85;
+}
+
+.cook-card-badge-ready  { color: #6fae6f; }
+.cook-card-badge-close  { color: #c9a53e; }
+.cook-card-badge-almost,
+.cook-card-badge-far    { color: #c97d3e; }
+
+.cook-card-category {
+    font-size: 0.8rem;
+    opacity: 0.6;
+    margin-top: 0.2rem;
+}
+
+.cook-card-missing,
+.cook-card-subs {
+    font-size: 0.82rem;
+    opacity: 0.75;
+    margin-top: 0.4rem;
+}
+
+.cook-empty,
+.cook-loading {
+    opacity: 0.7;
+    padding: 1rem 0;
+}

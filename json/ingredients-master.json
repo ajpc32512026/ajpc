@@ -343,19 +343,6 @@
       "brand": "Queen"
     }
   },
-  "vanilla essence": {
-    "displayName": "Vanilla Essence",
-    "category": "Baking Extras",
-    "aliases": [
-      "vanilla essence"
-    ],
-    "priceData": {
-      "size": 125,
-      "unit": "ml",
-      "price": 4,
-      "brand": "Queen"
-    }
-  },
   "white chocolate": {
     "displayName": "White Chocolate",
     "category": "Baking Extras",
@@ -11125,6 +11112,66 @@
       "unit": "g",
       "price": 4.9,
       "brand": "Farmers Union"
+    }
+  },
+  "chicken drum sticks": {
+    "name": "chicken drum sticks",
+    "displayName": "Chicken Drum Sticks",
+    "category": "Chicken",
+    "aliases": [
+      "chicken drum sticks",
+      "chicken drum sticks"
+    ],
+    "priceData": null,
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
+  },
+  "greek yogurt": {
+    "name": "greek yogurt",
+    "displayName": "Greek Yogurt",
+    "category": "Dairy",
+    "aliases": [
+      "greek yogurt",
+      "greek yogurt"
+    ],
+    "priceData": null,
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
+  },
+  "sweet smoked paprika": {
+    "name": "sweet smoked paprika",
+    "displayName": "Sweet Smoked Paprika",
+    "category": "Spices",
+    "aliases": [
+      "sweet smoked paprika",
+      "sweet smoked paprika"
+    ],
+    "priceData": null,
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
+    }
+  },
+  "rice": {
+    "name": "rice",
+    "displayName": "Rice",
+    "category": "Grains",
+    "aliases": [
+      "rice",
+      "cooked rice"
+    ],
+    "priceData": null,
+    "wiki": null,
+    "countable": true,
+    "grammar": {
+      "stored": "singular"
     }
   }
 }

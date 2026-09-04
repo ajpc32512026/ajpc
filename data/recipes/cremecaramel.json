@@ -15,6 +15,7 @@
     "Creamy",
     "Dessert",
     "French",
+    "Gluten-Free",
     "Make Ahead",
     "Rich",
     "Vegetarian"
@@ -50,7 +51,7 @@
     {
       "quantity": "5",
       "unit": "ml",
-      "item": "Vanilla Extract"
+      "item": "Natural Vanilla Extract"
     }
   ],
   "method": [

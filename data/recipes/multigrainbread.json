@@ -10,9 +10,14 @@
   "servings": "12 slices",
   "yieldPerBatch": "1 loaf",
   "tags": [
+    "Baked",
     "Baking",
     "Bread",
+    "Breakfast",
     "British",
+    "Chinese",
+    "Gluten-Free",
+    "Lunch",
     "Multigrain",
     "Savoury",
     "Seeded",
@@ -95,7 +100,7 @@
     {
       "quantity": "5",
       "unit": "g",
-      "item": "Quinoa Tri Colour"
+      "item": "Quinoa"
     },
     {
       "quantity": "5",

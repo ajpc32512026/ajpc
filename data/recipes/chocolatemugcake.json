@@ -11,6 +11,7 @@
   "yieldPerBatch": "1 large mug cake",
   "tags": [
     "American",
+    "Baking",
     "Chocolate",
     "Dessert",
     "Easy",
@@ -59,7 +60,7 @@
     {
       "quantity": "2",
       "unit": "ml",
-      "item": "Vanilla Extract"
+      "item": "Natural Vanilla Extract"
     },
     {
       "quantity": "20",

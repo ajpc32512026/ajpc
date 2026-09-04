@@ -14,6 +14,7 @@
     "Baking",
     "Breakfast",
     "Classic",
+    "Drinks",
     "Pastry",
     "Sweet",
     "Vegetarian"
@@ -116,7 +117,7 @@
     {
       "quantity": "5",
       "unit": "ml",
-      "item": "Vanilla Extract"
+      "item": "Natural Vanilla Extract"
     }
   ],
   "method": [

@@ -10,6 +10,7 @@
   "servings": "1",
   "tags": [
     "Australian",
+    "Baked",
     "Bakery-Style",
     "Classic",
     "Condiment",
@@ -49,7 +50,7 @@
     {
       "quantity": "10",
       "unit": "ml",
-      "item": "Vanilla Extract"
+      "item": "Natural Vanilla Extract"
     }
   ],
   "method": [

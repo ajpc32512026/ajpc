@@ -10,6 +10,7 @@
   "servings": "16 slices",
   "yieldPerBatch": "1 batch",
   "tags": [
+    "Baking",
     "Cake",
     "Dessert",
     "Jamaican",
@@ -90,7 +91,7 @@
     {
       "quantity": "10",
       "unit": "ml",
-      "item": "Vanilla Extract"
+      "item": "Natural Vanilla Extract"
     },
     {
       "quantity": "200",

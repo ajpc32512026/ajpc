@@ -10,8 +10,12 @@
   "servings": "4 servings",
   "yieldPerBatch": "4 servings",
   "tags": [
+    "Chinese",
     "Curry",
+    "Dessert",
     "Dinner",
+    "Gluten-Free",
+    "Greek",
     "Indian",
     "Lamb",
     "Rich",
@@ -56,7 +60,7 @@
     {
       "quantity": "2",
       "unit": "g",
-      "item": "Turmeric"
+      "item": "Ground Turmeric"
     },
     {
       "quantity": "5",

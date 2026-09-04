@@ -11,9 +11,11 @@
   "yieldPerBatch": "1 cake",
   "tags": [
     "Australian",
+    "Baking",
     "Cake",
     "Chocolate",
     "Dessert",
+    "Drinks",
     "Rich",
     "Sweet",
     "Vegetarian"
@@ -63,7 +65,7 @@
     {
       "quantity": "15",
       "unit": "ml",
-      "item": "Vanilla Extract"
+      "item": "Natural Vanilla Extract"
     },
     {
       "quantity": "225",

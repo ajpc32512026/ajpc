@@ -15,9 +15,11 @@
     "Baking",
     "Beef",
     "Classic",
+    "Dessert",
+    "Dinner",
+    "Lunch",
     "Pastry",
-    "Savoury",
-    "Lunch"
+    "Savoury"
   ],
   "ingredients": [
     {
