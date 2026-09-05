@@ -49,7 +49,7 @@
     {
       "quantity": "30",
       "unit": "g",
-      "item": "Butter",
+      "item": "Unsalted Butter"d Butter",
       "notes": "softened"
     },
     {
@@ -215,23 +215,31 @@
   ],
   "nutrition": {
     "servings": 12,
-    "cal": 232,
-    "kj": 970,
-    "protein": 6,
-    "carbs": 40,
+    "cal": 229,
+    "kj": 959,
+    "protein": 7,
+    "carbs": 38,
     "sugars": 3,
-    "fat": 5,
+    "fat": 4,
     "saturated_fat": 1.7,
     "fiber": 3,
-    "sodium": 79,
+    "sodium": 78,
     "coverage": 88,
-    "calcium_mg": 31,
+    "foundCount": 21,
+    "totalCount": 24,
+    "unmatchedItems": [
+      "Black Chia Seeds",
+      "White Chia Seeds",
+      "Pumpkin Kernels"
+    ],
+    "noQuantityItems": [],
+    "calcium_mg": 24,
     "iron_mg": 1,
-    "potassium_mg": 140,
-    "magnesium_mg": 34,
+    "potassium_mg": 131,
+    "magnesium_mg": 31,
     "zinc_mg": 1,
     "cholesterol_mg": 4,
     "vitamin_a_ug": 22
   },
-  "lastModified": "2026-06-08"
+  "lastModified": "2026-09-05"
 }
