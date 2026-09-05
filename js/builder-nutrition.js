@@ -79,7 +79,8 @@ function computeNutrition(ingredients, servingsNum) {
 
     let foundCount = 0;
     let totalCount = 0;
-    const unmatchedItems = [];
+    const unmatchedItems = [];      // genuinely not in the database
+    const noQuantityItems = [];     // found in the database, but no usable quantity on this line
 
     ingredients.forEach(ing => {
         // Skip headings and "To Taste" items entirely from nutrition calculations
@@ -112,9 +113,14 @@ function computeNutrition(ingredients, servingsNum) {
             return;
         }
         
-        // If found but has no quantity, we can't calculate it
+        // Found in the database, but this line has no usable quantity
+        // (blank, "to taste", a non-numeric amount) — this is NOT the same
+        // problem as being missing from the database, and used to be
+        // reported as if it were ("Missing from database: Sesame Seeds"
+        // even when Sesame Seeds is right there with full nutrition data).
+        // The fix here is in the recipe's ingredient line, not the database.
         if (!qty) {
-            unmatchedItems.push(ing.item || ing.name || itemName);
+            noQuantityItems.push(ing.item || ing.name || itemName);
             return;
         }
 
@@ -150,7 +156,8 @@ function computeNutrition(ingredients, servingsNum) {
         coverage,
         foundCount,
         totalCount,
-        unmatchedItems
+        unmatchedItems,
+        noQuantityItems
     };
 
     // Only include micros with a non-zero value
@@ -221,6 +228,11 @@ function calculateNutrition() {
             ${n.unmatchedItems && n.unmatchedItems.length > 0 ? `
                 <div class="nf-missing">
                     Missing from database: <strong>${n.unmatchedItems.map(esc).join(', ')}</strong>
+                </div>
+            ` : ''}
+            ${n.noQuantityItems && n.noQuantityItems.length > 0 ? `
+                <div class="nf-missing">
+                    In database, but no usable quantity on this line: <strong>${n.noQuantityItems.map(esc).join(', ')}</strong> — add a quantity to include it.
                 </div>
             ` : ''}
         </div>

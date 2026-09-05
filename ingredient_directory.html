@@ -63,21 +63,31 @@
 
     <script src="js/nav-loader.js"></script>
     <script>
-    (function() {
-        'use strict';
-        let allIngredients = {};
-        let currentFilter = { type: 'all', value: null };
-        let searchQuery = '';
+(function() {
+    'use strict';
+    let allIngredients = {};
+    let currentFilter = { type: 'all', value: null };
+    let searchQuery = '';
 
-        async function init() {
-            try {
-                const res = await fetch('json/ingredient_inventory_v7.json');
-                if (!res.ok) throw new Error('Not found');
-                allIngredients = await res.json();
-            } catch(e) {
-                document.getElementById('dirContent').innerHTML = '<p class="no-results">Could not load ingredient directory.</p>';
-                return;
+    async function init() {
+        const dirContent = document.getElementById('dirContent');
+        try {
+            // Using your confirmed path
+            const res = await fetch('json/ingredients-master.json'); 
+            
+            if (!res.ok) {
+                throw new Error(`File not found (404) at json/ingredients-master.json`);
             }
+            
+            const text = await res.text(); // Get as text first to check for empty file
+            try {
+                allIngredients = JSON.parse(text);
+            } catch (jsonErr) {
+                throw new Error(`JSON syntax error: ${jsonErr.message}. Check your JSON file for missing commas or quotes.`);
+            }
+
+            console.log("Ingredients loaded:", Object.keys(allIngredients).length);
+
             buildAZ();
             buildCategories();
             render();
@@ -86,98 +96,124 @@
                 searchQuery = this.value.trim().toLowerCase();
                 render();
             });
+        } catch(e) {
+            console.error("Directory Error:", e);
+            dirContent.innerHTML = `
+                <div style="background: rgba(255,0,0,0.1); border: 1px solid red; padding: 20px; border-radius: 8px;">
+                    <p style="color: #ff4444; font-weight: bold; margin-bottom: 10px;">Directory Failed to Load</p>
+                    <p style="font-size: 0.9rem;">${e.message}</p>
+                    <p style="font-size: 0.8rem; margin-top: 10px; opacity: 0.8;">Open the browser console (F12) for technical details.</p>
+                </div>`;
         }
+    }
 
-        function buildAZ() {
-            const letters = [...new Set(Object.keys(allIngredients).map(k => k[0].toUpperCase()))].sort();
-            const allLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
-            const grid = document.getElementById('azGrid');
-            grid.innerHTML = allLetters.map(l => {
-                const has = letters.includes(l);
-                return `<button class="az-btn${has ? '' : ' disabled'}" data-letter="${l}">${l}</button>`;
-            }).join('');
-            grid.addEventListener('click', e => {
-                const btn = e.target.closest('.az-btn:not(.disabled)');
-                if (!btn) return;
-                searchQuery = '';
-                document.getElementById('dirSearch').value = '';
-                setFilter(currentFilter.type === 'letter' && currentFilter.value === btn.dataset.letter ? 'all' : 'letter', btn.dataset.letter);
-            });
-        }
+    function buildAZ() {
+        const keys = Object.keys(allIngredients);
+        const letters = [...new Set(keys.map(k => k[0].toUpperCase()))].sort();
+        const allLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+        const grid = document.getElementById('azGrid');
+        grid.innerHTML = allLetters.map(l => {
+            const has = letters.includes(l);
+            return `<button class="az-btn${has ? '' : ' disabled'}" data-letter="${l}">${l}</button>`;
+        }).join('');
+        grid.addEventListener('click', e => {
+            const btn = e.target.closest('.az-btn:not(.disabled)');
+            if (!btn) return;
+            searchQuery = '';
+            document.getElementById('dirSearch').value = '';
+            setFilter(currentFilter.type === 'letter' && currentFilter.value === btn.dataset.letter ? 'all' : 'letter', btn.dataset.letter);
+        });
+    }
 
-        function buildCategories() {
-            const cats = [...new Set(Object.values(allIngredients).map(v => v.category).filter(Boolean))].sort();
-            const list = document.getElementById('catList');
-            list.innerHTML = `<button class="cat-btn active" data-cat="all">All Categories</button>` +
-                cats.map(c => `<button class="cat-btn" data-cat="${esc(c)}">${esc(c)}</button>`).join('');
-            list.addEventListener('click', e => {
-                const btn = e.target.closest('.cat-btn');
-                if (!btn) return;
-                searchQuery = '';
-                document.getElementById('dirSearch').value = '';
-                const cat = btn.dataset.cat;
-                setFilter(cat === 'all' ? 'all' : 'category', cat === 'all' ? null : cat);
-            });
-        }
+    function buildCategories() {
+        const cats = [...new Set(Object.values(allIngredients).map(v => v.category).filter(Boolean))].sort();
+        const list = document.getElementById('catList');
+        list.innerHTML = `<button class="cat-btn active" data-cat="all">All Categories</button>` +
+            cats.map(c => `<button class="cat-btn" data-cat="${esc(c)}">${esc(c)}</button>`).join('');
+        list.addEventListener('click', e => {
+            const btn = e.target.closest('.cat-btn');
+            if (!btn) return;
+            searchQuery = '';
+            document.getElementById('dirSearch').value = '';
+            const cat = btn.dataset.cat;
+            setFilter(cat === 'all' ? 'all' : 'category', cat === 'all' ? null : cat);
+        });
+    }
 
-        function setFilter(type, value) {
-            currentFilter = { type, value };
-            document.querySelectorAll('.az-btn').forEach(b => b.classList.toggle('active', currentFilter.type === 'letter' && b.dataset.letter === currentFilter.value));
-            document.querySelectorAll('.cat-btn').forEach(b => b.classList.toggle('active', (currentFilter.type === 'all' && b.dataset.cat === 'all') || (currentFilter.type === 'category' && b.dataset.cat === currentFilter.value)));
-            render();
-        }
+    function setFilter(type, value) {
+        currentFilter = { type, value };
+        document.querySelectorAll('.az-btn').forEach(b => b.classList.toggle('active', currentFilter.type === 'letter' && b.dataset.letter === currentFilter.value));
+        document.querySelectorAll('.cat-btn').forEach(b => b.classList.toggle('active', (currentFilter.type === 'all' && b.dataset.cat === 'all') || (currentFilter.type === 'category' && b.dataset.cat === currentFilter.value)));
+        render();
+    }
 
-        function render() {
-            const entries = Object.entries(allIngredients).filter(([name, data]) => {
-                if (currentFilter.type === 'letter' && name[0].toUpperCase() !== currentFilter.value) return false;
-                if (currentFilter.type === 'category' && (data.category || '') !== currentFilter.value) return false;
-                if (searchQuery) {
-                    const haystack = [name, (data.aka || []).join(' ')].join(' ').toLowerCase();
-                    return haystack.split(/\s+/).some(word => word.indexOf(searchQuery.toLowerCase()) === 0);
-                }
-                return true;
-            }).sort(([a], [b]) => a.localeCompare(b));
-
-            document.getElementById('dirCount').textContent = `${entries.length} ingredient${entries.length !== 1 ? 's' : ''}`;
-            if (!entries.length) {
-                document.getElementById('dirContent').innerHTML = '<p class="no-results">No ingredients match your search.</p>';
-                return;
+    function render() {
+        const entries = Object.entries(allIngredients).filter(([name, data]) => {
+            if (currentFilter.type === 'letter' && name[0].toUpperCase() !== currentFilter.value) return false;
+            if (currentFilter.type === 'category' && (data.category || '') !== currentFilter.value) return false;
+            if (searchQuery) {
+                const aliases = data.aliases || [];
+                const haystack = [name, ...aliases].join(' ').toLowerCase();
+                return haystack.includes(searchQuery);
             }
+            return true;
+        }).sort(([a], [b]) => a.localeCompare(b));
 
-            const byLetter = {};
-            entries.forEach(([name, data]) => {
-                const l = name[0].toUpperCase();
-                if (!byLetter[l]) byLetter[l] = [];
-                byLetter[l].push([name, data]);
-            });
-
-            const usePageBreaks = currentFilter.type === 'all' && !searchQuery;
-            document.getElementById('dirContent').innerHTML = Object.entries(byLetter).map(([letter, group], i) => `
-                ${i > 0 && usePageBreaks ? '<div style="page-break-before:always;"></div>' : ''}
-                <div class="dir-group">
-                    <div class="dir-group-letter">${letter}</div>
-                    <div class="dir-group-cards">${group.map(([name, d]) => renderCard(name, d)).join('')}</div>
-                </div>`).join('');
+        document.getElementById('dirCount').textContent = `${entries.length} ingredient${entries.length !== 1 ? 's' : ''}`;
+        
+        if (!entries.length) {
+            document.getElementById('dirContent').innerHTML = '<p class="no-results">No ingredients match your search.</p>';
+            return;
         }
 
-        function renderCard(name, d) {
-            const aka = d.aka && d.aka.length ? `<span class="ingredient-aka">Also: ${d.aka.join(', ')}</span>` : '';
-            const badge = d.category ? `<span class="ingredient-cat-badge">${esc(d.category)}</span>` : '';
-            const notes = d.notes ? `<p class="ingredient-notes">${esc(d.notes)}</p>` : '';
-            const subs = [];
-            if (d.substitutes) subs.push(`<strong>Substitutes:</strong> ${[].concat(d.substitutes).map(esc).join(', ')}`);
-            if (d.storage) subs.push(`<strong>Storage:</strong> ${esc(d.storage.replace(/\*\*/g, ''))}`);
-            const subHtml = subs.length ? `<div class="ingredient-sub">${subs.join(' &nbsp;&bull;&nbsp; ')}</div>` : '';
+        const byLetter = {};
+        entries.forEach(([name, data]) => {
+            const l = name[0].toUpperCase();
+            if (!byLetter[l]) byLetter[l] = [];
+            byLetter[l].push([name, data]);
+        });
 
-            return `<div class="ingredient-card">
-                <div class="ingredient-card-top"><span class="ingredient-name">${esc(name)}</span>${aka}${badge}</div>
-                ${notes}${subHtml}
+        document.getElementById('dirContent').innerHTML = Object.entries(byLetter).map(([letter, group]) => `
+            <div class="dir-group">
+                <div class="dir-group-letter">${letter}</div>
+                <div class="dir-group-cards">${group.map(([name, d]) => renderCard(name, d)).join('')}</div>
+            </div>`).join('');
+    }
+
+    function renderCard(name, d) {
+        // Optional chaining (?.) ensures the code doesn't crash if reference is missing
+        const aliases = d.aliases?.length ? `<span class="ingredient-aka">Also: ${d.aliases.join(', ')}</span>` : '';
+        const badge = d.category ? `<span class="ingredient-cat-badge">${esc(d.category)}</span>` : '';
+        
+        const notes = d.reference?.notes ? `<p class="ingredient-notes">${esc(d.reference.notes)}</p>` : '';
+        const purpose = d.reference?.purpose ? `<p style="font-style: italic; opacity: 0.7; margin-bottom: 8px; font-size: 0.9rem;">${esc(d.reference.purpose)}</p>` : '';
+        
+        const details = [];
+        if (d.reference?.substitutes) details.push(`<strong>Substitutes:</strong> ${esc(d.reference.substitutes)}`);
+        if (d.reference?.storage) details.push(`<strong>Storage:</strong> ${esc(d.reference.storage)}`);
+        
+        const subHtml = details.length ? `<div class="ingredient-sub">${details.join(' &nbsp;&bull;&nbsp; ')}</div>` : '';
+
+        return `
+            <div class="ingredient-card">
+                <div class="ingredient-card-top">
+                    <span class="ingredient-name">${esc(d.displayName || name)}</span>
+                    ${aliases}
+                    ${badge}
+                </div>
+                ${purpose}
+                ${notes}
+                ${subHtml}
             </div>`;
-        }
+    }
 
-        function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
-        init();
-    })();
+    function esc(s) { 
+        if (!s) return '';
+        return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); 
+    }
+
+    init();
+})();
     </script>
 </body>
 </html>

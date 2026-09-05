@@ -7,8 +7,8 @@
   "prepTime": "20 min",
   "cookTime": "30 min",
   "totalTime": "50 min",
-  "servings": "6 rolls",
-  "yieldPerBatch": "6 rolls",
+  "servings": "12 rolls",
+  "yieldPerBatch": "12 rolls",
   "tags": [
     "Australian",
     "Baked",
@@ -25,7 +25,20 @@
     {
       "quantity": "500",
       "unit": "g",
-      "item": "Sausage Mince"
+      "item": "Mince Beef",
+      "notes": "lean or heart smart is best"
+    },
+    {
+      "quantity": "500",
+      "unit": "g",
+      "item": "Sausage Mince",
+      "notes": "best from a butcher"
+    },
+    {
+      "quantity": "125",
+      "unit": "g",
+      "item": "Breadcrumbs",
+      "notes": "dried/toasted"
     },
     {
       "quantity": "1",
@@ -42,7 +55,7 @@
     {
       "quantity": "1",
       "unit": "g",
-      "item": "Nutmeg",
+      "item": "Ground Nutmeg",
       "notes": "ground, about 1/4 tsp"
     },
     {
@@ -58,10 +71,10 @@
       "notes": "beaten, for egg wash"
     },
     {
-      "quantity": "",
-      "unit": "",
+      "quantity": "20",
+      "unit": "g",
       "item": "Sesame Seeds",
-      "notes": "optional, decorate the top"
+      "notes": "optional for decorating"
     },
     {
       "item": "Salt & Pepper",
@@ -70,8 +83,7 @@
   ],
   "youWillNeed": [
     {
-      "item": "Baking Paper",
-      "note": "makes it easier to roll and prevents sticking to the bench."
+      "item": "Baking Paper"
     },
     {
       "item": "Large piping bag",
@@ -85,11 +97,11 @@
     },
     {
       "step": 2,
-      "instruction": "In a large bowl, combine sausage mince, diced onion, grated carrot, nutmeg, salt, and pepper. Mix until well combined."
+      "instruction": "In a large bowl, combine beef & sausage mince, bread crumbs, diced onion, grated carrot, nutmeg, salt, and pepper. Mix until well combined."
     },
     {
       "step": 3,
-      "instruction": "Cut each puff pastry sheet in half. Place the meat mixture in a piping bag, pipe along the long edge of each pastry strip and roll tightly, seam side down."
+      "instruction": "Place the meat mixture in a piping bag, pipe along the edge of each pastry strip and roll tightly, seam side down. Cut off excess pastry."
     },
     {
       "step": 4,
@@ -106,6 +118,21 @@
   ],
   "notes": [
     {
+      "type": "tip",
+      "title": "Beef Mince",
+      "content": "Get the best mince you can afford... the less fat content the better."
+    },
+    {
+      "type": "tip",
+      "title": "Sausage Mince",
+      "content": "Buy from the butcher, tends to be less fatty than store bought."
+    },
+    {
+      "type": "tip",
+      "title": "Excess Pastry",
+      "content": "Can be used to make child sized Sausage Rolls."
+    },
+    {
       "type": "variation",
       "title": "Flavour Boost",
       "content": "Add grated cheese, a squirt of BBQ sauce, or a spoonful of chutney inside the rolls for an extra flavour kick."
@@ -121,34 +148,37 @@
       "content": "You can get a piping bag kit from woolworths for about $4. It contains 6 thick, strong bags and 4 tips... you do not need the tips for this. Just cut the bottom off."
     }
   ],
+  "journal": [
+    {
+      "date": "2026-09-04",
+      "content": "I used the Woolworths brand of Sausage Mince and found it was too fatty for my liking... The flavour is good and is what I expected. Keep an eye out for the next journal entry."
+    }
+  ],
   "nutrition": {
-    "servings": 6,
-    "cal": 220,
-    "kj": 920,
-    "protein": 7,
-    "carbs": 19,
+    "servings": 12,
+    "cal": 330,
+    "kj": 1380,
+    "protein": 21,
+    "carbs": 20,
     "sugars": 2,
-    "fat": 12,
-    "saturated_fat": 6.7,
-    "fiber": 3,
-    "sodium": 131,
-    "coverage": 57,
-    "foundCount": 4,
-    "totalCount": 7,
-    "unmatchedItems": [
-      "Sausage Mince",
-      "Nutmeg",
-      "Sesame Seeds"
-    ],
-    "calcium_mg": 26,
+    "fat": 18,
+    "saturated_fat": 8.1,
+    "fiber": 2,
+    "sodium": 304,
+    "coverage": 100,
+    "foundCount": 9,
+    "totalCount": 9,
+    "unmatchedItems": [],
+    "noQuantityItems": [],
+    "calcium_mg": 16,
     "iron_mg": 1,
-    "potassium_mg": 108,
-    "magnesium_mg": 13,
+    "potassium_mg": 201,
+    "magnesium_mg": 20,
     "zinc_mg": 1,
-    "cholesterol_mg": 180,
-    "vitamin_a_ug": 113,
+    "cholesterol_mg": 122,
+    "vitamin_a_ug": 56,
     "vitamin_c_mg": 1,
     "vitamin_d_ug": 2
   },
-  "lastModified": "2026-09-03"
+  "lastModified": "2026-09-04"
 }

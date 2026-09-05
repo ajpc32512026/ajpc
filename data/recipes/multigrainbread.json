@@ -28,7 +28,7 @@
     {
       "quantity": "590",
       "unit": "g",
-      "item": "Bakers Flour"
+      "item": "Bread Flour"
     },
     {
       "quantity": "430",
@@ -170,7 +170,7 @@
   "method": [
     {
       "step": 1,
-      "instruction": "In a large mixing bowl, combine the Bakers Flour, yeast, salt, sugar, bread improver, Macro chia seeds, and all the 5g seed and grain ingredients (poppy seeds, black and white chia, sesame, hemp, linseed, quinoa, hemp protein, flaxseed, freekeh, bulgur, almond meal, psyllium, lecithin, gentle fibre, and oats)."
+      "instruction": "In a large mixing bowl, combine the Flour, yeast, salt, sugar, bread improver, Macro chia seeds, and all the 5g seed and grain ingredients (poppy seeds, black and white chia, sesame, hemp, linseed, quinoa, hemp protein, flaxseed, freekeh, bulgur, almond meal, psyllium, lecithin, gentle fibre, and oats)."
     },
     {
       "step": 2,

@@ -139,14 +139,14 @@
     {
       "quantity": "400",
       "unit": "g",
-      "item": "Rice",
+      "item": "Jasmine Rice",
       "notes": "to serve"
     }
   ],
   "method": [
     {
       "step": 1,
-      "instruction": "Season the chicken with salt and white pepper, then toss lightly in corn flour to coat."
+      "instruction": "Season the chicken with salt and white pepper, then toss lightly in cornflour to coat."
     },
     {
       "step": 2,
@@ -170,7 +170,7 @@
     },
     {
       "step": 7,
-      "instruction": "Mix the remaining corn flour with the water to form a slurry. Stir it into the sauce and cook for 1-2 minutes until glossy and thickened enough to coat the back of a spoon."
+      "instruction": "Mix the remaining cornflour with the water to form a slurry. Stir it into the sauce and cook for 1-2 minutes until glossy and thickened enough to coat the back of a spoon."
     },
     {
       "step": 8,
