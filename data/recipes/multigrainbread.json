@@ -15,26 +15,27 @@
     "Bread",
     "Breakfast",
     "British",
-    "Chinese",
-    "Gluten-Free",
     "Lunch",
     "Multigrain",
     "Savoury",
     "Seeded",
-    "Vegan",
     "Vegetarian"
   ],
   "ingredients": [
     {
-      "quantity": "590",
-      "unit": "g",
-      "item": "Bread Flour"
+      "heading": "Dough"
     },
     {
-      "quantity": "430",
+      "quantity": "590",
+      "unit": "g",
+      "item": "Bread Flour",
+      "notes": "12%-14% protien"
+    },
+    {
+      "quantity": "330",
       "unit": "ml",
       "item": "Water",
-      "notes": "lukewarm; may need slight adjustment depending on flour absorption"
+      "notes": "lukewarm"
     },
     {
       "quantity": "7",
@@ -42,7 +43,7 @@
       "item": "Yeast"
     },
     {
-      "quantity": "10",
+      "quantity": "12",
       "unit": "g",
       "item": "Salt"
     },
@@ -50,7 +51,7 @@
       "quantity": "30",
       "unit": "g",
       "item": "Unsalted Butter",
-      "notes": "softened"
+      "notes": "softened or use olive oil"
     },
     {
       "quantity": "20",
@@ -61,6 +62,9 @@
       "quantity": "10",
       "unit": "g",
       "item": "Bread Improver"
+    },
+    {
+      "heading": "Seeds & Grains"
     },
     {
       "quantity": "10",
@@ -213,17 +217,23 @@
       "content": "Store in a bread box or paper bag for up to 3 days, or slice and freeze for longer storage."
     }
   ],
+  "journal": [
+    {
+      "date": "2026-09-05",
+      "content": "I have been experimenting using butter. The result is minimal although olive oil does enhance flavour. \n\nOlive Oil: \nI use Cobrams Olive Oil with the purple label. \"Medium\" $25 for 750ml or $65 for 3 Litres. \n*** Always check both Woolworths and Coles for when it's on special, sometimes it's half price... ***\n\nButter: \nI use Woolworths brand \"unsalted\" this is a good product for baking. I also have been trying Flora Spreadable Butter \"salted\" and it seems to be better than the \"unsalted\" Butter... \"Better in smooth consistancy\" \nI have also used Western Star salted Butter but I found it to be too expensive to continue to buy."
+    }
+  ],
   "nutrition": {
     "servings": 12,
-    "cal": 229,
-    "kj": 959,
+    "cal": 230,
+    "kj": 960,
     "protein": 7,
     "carbs": 38,
     "sugars": 3,
     "fat": 4,
     "saturated_fat": 1.7,
     "fiber": 3,
-    "sodium": 78,
+    "sodium": 92,
     "coverage": 88,
     "foundCount": 21,
     "totalCount": 24,
@@ -235,7 +245,7 @@
     "noQuantityItems": [],
     "calcium_mg": 24,
     "iron_mg": 1,
-    "potassium_mg": 131,
+    "potassium_mg": 132,
     "magnesium_mg": 31,
     "zinc_mg": 1,
     "cholesterol_mg": 4,

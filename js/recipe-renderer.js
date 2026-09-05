@@ -259,7 +259,6 @@
             '</div>';
     }
 
-    // (Remaining template rendering and event attachment helpers unmodified)
     function renderHeader(r) {
         return (r.category ? '<span class="recipe-category-badge">' + escHtml(r.category) + '</span>' : '') +
             '<h1 class="recipe-title">' + escHtml(r.title || r.id || 'Recipe') + '</h1>' +
@@ -378,7 +377,8 @@
     }
 
     function renderLinkedText(text) {
-        var safe = escHtml(text);
+        // Fix: Replace newline characters with HTML break tags
+        var safe = escHtml(text).replace(/\n/g, '<br>');
         return safe.replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, function(match, id, display) {
             return '<a href="recipe.html?id=' + encodeURIComponent(id.trim()) + '" class="recipe-inline-link">' + display.trim() + '</a>';
         });
@@ -410,7 +410,7 @@
         if (!notes || !notes.length) return '';
         var items = notes.map(function(note) {
             if (typeof note === 'string') {
-                return '<div class="note"><p>' + escHtml(note) + '</p></div>';
+                return '<div class="note"><p>' + escHtml(note).replace(/\n/g, '<br>') + '</p></div>';
             }
             var title = note.title || note.type || 'Note';
             var content = note.content || note.text || '';
@@ -431,9 +431,13 @@
             var dateStr = e.date
                 ? new Date(e.date).toLocaleDateString('en-AU', { day: 'numeric', month: 'long', year: 'numeric' })
                 : '';
+            
+            // Fix: Replace newline characters with HTML break tags
+            var contentHtml = escHtml(e.content || '').replace(/\n/g, '<br>');
+
             return '<div class="journal-entry">' +
                 (dateStr ? '<span class="journal-date">' + dateStr + '</span>' : '') +
-                '<p>' + escHtml(e.content || '') + '</p>' +
+                '<p>' + contentHtml + '</p>' +
                 '</div>';
         }).join('');
         return '<section class="recipe-journal"><h2>Recipe Journal</h2>' + entries + '</section>';
@@ -523,9 +527,9 @@
             var cleaned = notes;
             cleaned = cleaned.replace(/\s*-\s*\*\*/g, '');
             cleaned = cleaned.replace(/\*\*/g, '');
-            cleaned = cleaned.replace(/(Texture & Flavour:|Usage Tips:|Substitutions:|Usage:|Tips:|Storage:|Pairings:)/g, '<br><strong>$1</strong>');
-            cleaned = cleaned.replace(/Usage\s+Tips:/g, 'Usage Tips:');
-            cleaned = cleaned.replace(/Storage:\s*/g, '');
+            cleaned = cleaned.replace(/(Texture & Flavour:|Usage Tips:|Substitutions:|Usage:|Tips:|Storage:|Pairings:)/gi, '<br><strong>$1</strong>');
+            cleaned = cleaned.replace(/Usage\s+Tips:/gi, 'Usage Tips:');
+            cleaned = cleaned.replace(/Storage:\s*/gi, '');
             cleaned = cleaned.replace(/\.([A-Z])/g, '. $1');
             cleaned = cleaned.replace(/::/g, ':');
             cleaned = cleaned.replace(/\s+/g, ' ').trim();
@@ -545,15 +549,10 @@
                 window.tipInventory = tipInventory;
             }
 
-            // Build an exact-match lookup: canonical name AND every alias
-            // both resolve to the same entry. Same reasoning as the
-            // nutrition/pricing fixes elsewhere - no fuzzy substring
-            // matching, since it has no generic-bucket safety net behind
-            // it anymore and would just risk matching the wrong ingredient.
             var tipLookup = {};
             for (var canonKey in tipInventory) {
                 var entry = tipInventory[canonKey];
-                if (!entry.reference) continue; // nothing to show for this one
+                if (!entry.reference) continue; 
                 tipLookup[canonKey.toLowerCase()] = { name: canonKey, data: entry };
                 (entry.aliases || []).forEach(function(alias) {
                     var aKey = alias.toLowerCase();
@@ -581,16 +580,11 @@
                     text = text.replace(/^g\s|^ml\s|^kg\s|^cup\s|^tbsp\s|^tsp\s|^oz\s/i, '');
                     ingredientName = text.trim().toLowerCase();
                 }
-                ingredientName = ingredientName.replace(/[\(\)]/g, '').trim();
+                ingredientName = ingredientName.replace(/\(.*?\)/g, '').trim();
                 if (ingredientName.length < 3) return;
-                var isStaple = false;
-                for (var st = 0; st < PANTRY_STAPLES.length; st++) {
-                    if (PANTRY_STAPLES[st] === ingredientName || ingredientName.includes(PANTRY_STAPLES[st])) {
-                        isStaple = true;
-                        break;
-                    }
-                }
-                if (!isStaple && ingredientsList.indexOf(ingredientName) === -1) {
+
+                // Fix: Removed PANTRY_STAPLES exclusion so common ingredients can show tips
+                if (ingredientsList.indexOf(ingredientName) === -1) {
                     ingredientsList.push(ingredientName);
                 }
             });
@@ -621,12 +615,12 @@
             }
 
             if (ref.usageTips) {
-                var cleanUsage = ref.usageTips.replace(/\*\*/g, '').replace(/Usage:/g, '').trim();
+                var cleanUsage = ref.usageTips.replace(/\*\*/g, '').replace(/Usage:/gi, '').trim();
                 html += '<div class="tip-usage"><strong>Usage:</strong> ' + escHtmlForTip(cleanUsage) + '</div>';
             }
 
             if (ref.storage) {
-                var cleanStorage = ref.storage.replace(/\*\*/g, '').replace(/Storage:/i, '').trim();
+                var cleanStorage = ref.storage.replace(/\*\*/g, '').replace(/Storage:/gi, '').trim();
                 html += '<div class="tip-storage"><strong>Storage:</strong> ' + escHtmlForTip(cleanStorage) + '</div>';
             }
 
@@ -636,7 +630,7 @@
 
             if (ref.notes && ref.notes.trim()) {
                 var cleanNote = cleanNotesText(ref.notes);
-                if (cleanNote.indexOf(random.name.toLowerCase()) === 0) {
+                if (cleanNote.toLowerCase().indexOf(random.name.toLowerCase()) === 0) {
                     cleanNote = cleanNote.substring(random.name.length).trim();
                     cleanNote = cleanNote.replace(/^is\s+|^are\s+/, '');
                 }
