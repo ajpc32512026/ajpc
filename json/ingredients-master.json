@@ -787,42 +787,6 @@
       "storage": "Store tightly wrapped in the fridge. Raw bacon can be frozen, but it is best to freeze individual rashers for easy portioning."
     }
   },
-  "bread flour": {
-    "aliases": [
-      "flour bakers",
-      "flour (bread)",
-      "flour bread"
-    ],
-    "category": "Flour Baking",
-    "displayName": "Bread Flour",
-    "nutrition": {
-      "cal": 349.9,
-      "calcium_mg": 21,
-      "carbs": 69.6,
-      "fat": 1.7,
-      "fiber": 2.5,
-      "iron_mg": 1.2,
-      "magnesium_mg": 36,
-      "potassium_mg": 170,
-      "protein": 11.7,
-      "saturated_fat": 0.23,
-      "sodium": 3,
-      "sugars": 1.8,
-      "zinc_mg": 0.84
-    },
-    "priceData": {
-      "brand": "Laucke Wallaby",
-      "price": 14.6,
-      "size": 5000,
-      "unit": "g"
-    },
-    "reference": {
-      "purpose": "High-protein flour (12%+) specifically designed to create strong gluten networks for chewy, structured breads.",
-      "notes": "Also known as 'Strong' or 'Bakers' flour. The high protein content allows the dough to trap air bubbles during rising without collapsing.",
-      "usageTips": "Do not use bread flour for delicate cakes or biscuits; it will make them tough and rubbery. Use it only when you want a 'chew' or a 'stretch.'",
-      "storage": "Store airtight in a cool place. In humid climates, keeping it in the fridge prevents pantry moths."
-    }
-  },
   "baking powder": {
     "aliases": [
       "Bicarb and Acid Mix",
@@ -5333,99 +5297,6 @@
       ]
     }
   },
-  "flour": {
-    "_needsPricing": true,
-    "aliases": [
-      "All-Purpose Flour",
-      "Bakers Flour",
-      "Buckwheat Flour",
-      "Cake Flour",
-      "Corn Flour",
-      "Corn Starch",
-      "Cornstarch",
-      "Plain Flour",
-      "Rice Flour",
-      "Rye Flour",
-      "Rye Meal",
-      "Self-Raising Flour",
-      "Self-Rising Flour",
-      "Soft Flour",
-      "Soy Flour",
-      "Tapioca Flour",
-      "Tapioca Starch"
-    ],
-    "category": "Grain",
-    "displayName": "Flour",
-    "priceData": null,
-    "reference": {
-      "notes": "Flour comes in a wide variety, each suited to specific baking or cooking purposes: - **Plain / All-Purpose Flour:** Medium-protein flour suitable for most cakes, cookies, pastries, and breads; versatile but may need adjustments for delicate recipes. - **Self-Raising / Self-Rising Flour:** Contains baking powder; ideal for quick breads, cakes, and scones. Adjust added salt accordingly. - **Cake / Soft Flour:** Low-protein flour; produces light, tender crumb for cakes and pastries. Not a direct 1:1 substitute for all-purpose flour. - **Bakers / Bread Flour:** High-protein flour; provides gluten strength for chewy, structured breads and artisan loaves. - **Rye Flour / Rye Meal:** Adds density, earthy flavour, and darker colour to breads; often blended with wheat flour for better rise. - **Buckwheat Flour:** Gluten-free, nutty flavour; often combined with wheat or other gluten-free flours for baked goods. - **Corn / Cornstarch / Corn Flour:** Thickens sauces, custards, or soups; corn flour can be used in gluten-free baking. Mix with cold liquid before adding to hot mixtures. - **Rice Flour:** Gluten-free flour; adds lightness and structure, commonly blended with other flours for baked goods. - **Tapioca Flour / Tapioca Starch:** Adds elasticity, chewiness, and crispness in gluten-free breads; also used as a thickener. - **Soy / Soya Flour:** High in protein; improves dough structure, browning, and nutritional content; usually combined with wheat flour. ** Avoid moisture and pests. Whole-grain flours may go rancid faster; refrigerate if needed.",
-      "purpose": "Provides structure, bulk, texture, and chewiness in baked goods. Forms gluten when mixed with water, contributing to elasticity, rise, and crumb. Gluten-free flours add structure, moisture, and flavour in non-wheat recipes. Specialized flours (cake, bread, soy, rye, buckwheat, tapioca, rice) serve specific functions for tenderness, chewiness, or nutritional enhancement.",
-      "storage": "Storage:** Keep all flours in a cool, dry place in airtight containers.",
-      "usedIn": [
-        "applecinnscrolls",
-        "applepie",
-        "apricotflan",
-        "bananabread",
-        "beefstockpot",
-        "bistro-chickenkiev",
-        "bistro-lambcutlets",
-        "bistro-pavlova",
-        "bistro-reefandbeef",
-        "bistro-vealcordonbleu",
-        "bistro-vealoscar",
-        "bistro-vealscaloppine",
-        "blueberrymuffins",
-        "chickenbaconpies",
-        "chocmuffins",
-        "chouxpastry",
-        "cinnbun",
-        "cinntwists",
-        "classiccarrotcake",
-        "crepes",
-        "darkrye",
-        "focaccia",
-        "focaccia-high",
-        "friandsop",
-        "garlicbread",
-        "hamburger",
-        "highhydraciab",
-        "honeygarlicsauce",
-        "hotdog",
-        "hummingbird",
-        "lamington",
-        "lasagne",
-        "lemoncoconut",
-        "lemonmeringuepie",
-        "meatpie",
-        "mongolianbeef",
-        "mongolianlamb",
-        "mongoliansauce",
-        "mornaysauce",
-        "muffinmix",
-        "orangepoppyseed",
-        "pizzadough",
-        "potatognocchi",
-        "roulade",
-        "sourdoughcinnrolls",
-        "stickydates",
-        "sub",
-        "swbtm",
-        "swbtm2",
-        "sweetchillisauce",
-        "sweetsourpork",
-        "sweetsoursauce_flex",
-        "sweetsoursauce_quick",
-        "tacoseasoning",
-        "tangzhongseed",
-        "theultimatechocolatemudcake",
-        "tiramisu",
-        "tomatoflan",
-        "traditionalanzacbiscuits",
-        "turkishbread",
-        "whitesauce"
-      ]
-    }
-  },
   "food colouring": {
     "aliases": [
       "food colouring"
@@ -6672,7 +6543,9 @@
     "aliases": [
       "nutmeg ground",
       "nutmeg",
-      "Grated Nutmeg"
+      "Grated Nutmeg",
+      "Myristica fragrans",
+      "ground nutmeg"
     ],
     "category": "Spices Seasonings",
     "displayName": "Ground Nutmeg",
@@ -6707,7 +6580,9 @@
       "usedIn": [
         "sausageroll",
         "whitesauce",
-        "lasagne"
+        "lasagne",
+        "lambkorma",
+        "mornaysauce"
       ]
     }
   },
@@ -9069,32 +8944,6 @@
       "usageTips": "Usage:** Use as a spread on bread, toast, or pancakes; incorporate into baking, fillings, frostings, or as a topping for desserts.",
       "usedIn": [
         "crepes"
-      ]
-    }
-  },
-  "nutmeg": {
-    "aliases": [
-      "Myristica fragrans",
-      "ground nutmeg"
-    ],
-    "category": "Spice",
-    "displayName": "Nutmeg",
-    "priceData": {
-      "brand": "MasterFoods",
-      "price": 3.5,
-      "size": 30,
-      "unit": "g"
-    },
-    "reference": {
-      "notes": "Nutmeg is a warm, aromatic spice derived from the seed of Myristica fragrans. - ** Ground nutmeg can be added to curries, spice blends, baked goods, custards, sauces, and beverages. - **Pairings:** Complements cinnamon, cloves, allspice, vanilla, chocolate, cream, and nut-based desserts. - ** - **Substitutions:** Mace (the seed covering) can be used as a milder alternative; pre-ground nutmeg works but loses aroma faster.",
-      "purpose": "Adds warm, sweet-spicy, and aromatic flavor to both sweet and savory dishes; enhances curries, sauces, baked goods, desserts, and spice blends.",
-      "storage": "Storage:** Store whole or ground nutmeg in an airtight container in a cool, dark place to preserve aroma and potency.",
-      "usageTips": "Usage:** Grate fresh for best flavor; use sparingly.",
-      "usedIn": [
-        "lambkorma",
-        "lasagne",
-        "mornaysauce",
-        "sausageroll"
       ]
     }
   },
@@ -14868,6 +14717,43 @@
       "notes": "This is usually a blend of real butter and a small amount of vegetable oil (like canola) to keep it pliable at low temperatures.",
       "usageTips": "Because of the added oil and water content, do not use spreadable butter for making puff pastry or shortcrust. The oil prevents the layers from 'puffing' correctly. Stick to block butter for baking, and use spreadable for toast and sandwiches.",
       "storage": "Fridge."
+    }
+  },
+  "bread flour": {
+    "aliases": [
+      "flour bakers",
+      "flour (bread)",
+      "flour bread",
+      "bakers flour"
+    ],
+    "category": "Flour Baking",
+    "displayName": "Bread Flour",
+    "nutrition": {
+      "cal": 349.9,
+      "calcium_mg": 21,
+      "carbs": 69.6,
+      "fat": 1.7,
+      "fiber": 2.5,
+      "iron_mg": 1.2,
+      "magnesium_mg": 36,
+      "potassium_mg": 170,
+      "protein": 11.7,
+      "saturated_fat": 0.23,
+      "sodium": 3,
+      "sugars": 1.8,
+      "zinc_mg": 0.84
+    },
+    "priceData": {
+      "brand": "Laucke Wallaby",
+      "price": 14.6,
+      "size": 5000,
+      "unit": "g"
+    },
+    "reference": {
+      "purpose": "High-protein flour (12%+) specifically designed to create strong gluten networks for chewy, structured breads.",
+      "notes": "Also known as 'Strong' or 'Bakers' flour. The high protein content allows the dough to trap air bubbles during rising without collapsing.",
+      "usageTips": "Do not use bread flour for delicate cakes or biscuits; it will make them tough and rubbery. Use it only when you want a 'chew' or a 'stretch.'",
+      "storage": "Store airtight in a cool place. In humid climates, keeping it in the fridge prevents pantry moths."
     }
   }
 }

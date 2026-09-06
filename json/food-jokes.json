@@ -1,0 +1,46 @@
+[
+    { "category": "Cheese", "setup": "What cheese talks to itself?", "punchline": "Haloumi. (Hello me!)" },
+    { "category": "Cheese", "setup": "What cheese isn't yours?", "punchline": "Nacho cheese. (Not your cheese!)" },
+    { "category": "Cheese", "setup": "What cheese do you use to get a bear out of the woods?", "punchline": "Camembert. (Come here, bear!)" },
+    { "category": "Cheese", "setup": "What cheese do you use to hide a horse?", "punchline": "Mascarpone. (Mask a pony!)" },
+    { "category": "Cheese", "setup": "What cheese do you use to entice a horse?", "punchline": "Colby. (Come-on-boy!)" },
+    { "category": "Cheese", "setup": "What cheese is made backward?", "punchline": "Edam." },
+    { "category": "Cheese", "setup": "What do you call a cheese that is an expert at defense?", "punchline": "De-brie." },
+    { "category": "Cheese", "setup": "What do you call a cheese that isn't feeling well?", "punchline": "Provolone. (Poor old one.)" },
+    { "category": "Cheese", "setup": "What is a librarian's favorite cheese?", "punchline": "Shhh-arp Cheddar." },
+    { "category": "Cheese", "setup": "How do you handle dangerous cheese?", "punchline": "Caerphilly. (Carefully.)" },
+
+    { "category": "Breads & Grains", "setup": "Why was the loaf of bread so lazy?", "punchline": "It was always loafing around." },
+    { "category": "Breads & Grains", "setup": "What did the baker say when someone asked for his secret recipe?", "punchline": "\"I'm on a knead-to-know basis.\"" },
+    { "category": "Breads & Grains", "setup": "Why did the bread go to the doctor?", "punchline": "It was feeling crumby." },
+    { "category": "Breads & Grains", "setup": "What do you call a fake noodle?", "punchline": "An Impasta." },
+    { "category": "Breads & Grains", "setup": "What do you call a group of organized grains?", "punchline": "The Rice Squad." },
+    { "category": "Breads & Grains", "setup": "Why do you never tell a secret in a cornfield?", "punchline": "Because the corn has ears." },
+
+    { "category": "Meats & Eggs", "setup": "What do you call a cow with no legs?", "punchline": "Ground beef." },
+    { "category": "Meats & Eggs", "setup": "Why did the pig get hired at the restaurant?", "punchline": "Because he was good at bacon (baking)." },
+    { "category": "Meats & Eggs", "setup": "What did the butcher say to the guy who tried to steal a steak?", "punchline": "\"Stop! You're making a huge mis-steak.\"" },
+    { "category": "Meats & Eggs", "setup": "What do you call a funny egg?", "punchline": "A practical yolker." },
+    { "category": "Meats & Eggs", "setup": "Why can't you tease an egg?", "punchline": "Because it can't take a yolk." },
+    { "category": "Meats & Eggs", "setup": "What do you call a chicken that's afraid to cross the road?", "punchline": "A chicken." },
+
+    { "category": "Veggies & Fruits", "setup": "Why did the tomato turn red?", "punchline": "Because it saw the salad dressing!" },
+    { "category": "Veggies & Fruits", "setup": "What happens if you step on a grape?", "punchline": "It lets out a little wine." },
+    { "category": "Veggies & Fruits", "setup": "Why couldn't the green pepper practice archery?", "punchline": "Because he didn't haba-nero. (Have a narrow.)" },
+    { "category": "Veggies & Fruits", "setup": "What do you call a sad strawberry?", "punchline": "A blueberry." },
+    { "category": "Veggies & Fruits", "setup": "How do you fix a broken tomato?", "punchline": "With tomato paste." },
+    { "category": "Veggies & Fruits", "setup": "What did the baby corn say to the mama corn?", "punchline": "\"Where is Pop-corn?\"" },
+    { "category": "Veggies & Fruits", "setup": "Why did the onion go to the gym?", "punchline": "To get layered." },
+    { "category": "Veggies & Fruits", "setup": "What is a vegetable's favorite martial art?", "punchline": "Car-rot-ee." },
+
+    { "category": "Condiments & Herbs", "setup": "What did the salt say to the pepper?", "punchline": "\"Seasonings greetings!\"" },
+    { "category": "Condiments & Herbs", "setup": "What do you call a condiment that's in a hurry?", "punchline": "Russian dressing." },
+    { "category": "Condiments & Herbs", "setup": "What did the herb say when it arrived at the party?", "punchline": "\"About thyme!\"" },
+    { "category": "Condiments & Herbs", "setup": "How do you make a lemon drop?", "punchline": "Just let it fall." },
+    { "category": "Condiments & Herbs", "setup": "What is the most relaxing herb?", "punchline": "Chill-antro." },
+
+    { "category": "Asian Cuisine", "setup": "What did the noodle say to the soup?", "punchline": "\"Udon know how much I love you.\"" },
+    { "category": "Asian Cuisine", "setup": "Why did the man go to the doctor after eating stir-fry?", "punchline": "He had a case of \"Miso Hungry.\"" },
+    { "category": "Asian Cuisine", "setup": "What do you call a tofu-based superhero?", "punchline": "Soy-perman." },
+    { "category": "Asian Cuisine", "setup": "What is a ninja's favorite type of sauce?", "punchline": "Soy-ya!" }
+]

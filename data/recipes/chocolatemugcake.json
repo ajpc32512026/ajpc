@@ -1,12 +1,12 @@
 {
   "id": "chocolatemugcake",
-  "title": "Chocolate Mug Cake",
+  "title": "Eggless Chocolate Mug Muffin",
   "category": "Snacks",
   "difficulty": "Beginner",
-  "description": "A single-serve chocolate cake made in a mug, ready in under 2 minutes. Perfect for late-night cravings.",
+  "description": "A single-serve chocolate cake made in a mug without eggs. Richer and more brownie-like in texture, ready in about a minute.",
   "prepTime": "2 min",
-  "cookTime": "1 min 30 sec",
-  "totalTime": "3 min 30 sec",
+  "cookTime": "1 min",
+  "totalTime": "3 min",
   "servings": "1",
   "yieldPerBatch": "1 large mug cake",
   "tags": [
@@ -18,8 +18,9 @@
     "Microwave",
     "Single Serve",
     "Sweet",
-    "Under 10 Minutes",
-    "Vegetarian"
+    "Vegetarian",
+    "Egg-free",
+    "Under 5 Minutes"
   ],
   "ingredients": [
     {
@@ -43,17 +44,12 @@
       "item": "Baking Powder"
     },
     {
-      "quantity": "1",
-      "unit": "",
-      "item": "Eggs"
-    },
-    {
-      "quantity": "30",
+      "quantity": "60",
       "unit": "ml",
       "item": "Milk Full-cream"
     },
     {
-      "quantity": "15",
+      "quantity": "30",
       "unit": "ml",
       "item": "Vegetable Oil"
     },
@@ -76,7 +72,7 @@
     },
     {
       "step": 2,
-      "instruction": "Add egg, milk, vegetable oil, and vanilla extract. Stir with a fork until smooth and fully combined."
+      "instruction": "Add milk, vegetable oil, and vanilla extract. Stir with a fork until smooth and fully combined."
     },
     {
       "step": 3,
@@ -84,18 +80,18 @@
     },
     {
       "step": 4,
-      "instruction": "Microwave on high (800-1000W) for 75-90 seconds. The cake will rise and look slightly moist on top."
+      "instruction": "Microwave on high. For a 1350W microwave, start with 50-60 seconds. The cake should be risen and the top mostly set."
     },
     {
       "step": 5,
-      "instruction": "Let stand in the mug for 1 minute before eating. Serve directly from the mug."
+      "instruction": "Let stand in the mug for 1 minute before eating to allow carryover cooking to finish the center."
     }
   ],
   "notes": [
     {
       "type": "tip",
       "title": "Microwave Power",
-      "content": "Start with 75 seconds, then add 10 seconds if needed. Overcooking makes it dry."
+      "content": "Since this version has no egg, it is safe to eat slightly 'underdone'. High-wattage microwaves (1350W) cook significantly faster; avoid going over 60 seconds initially."
     },
     {
       "type": "technique",
@@ -104,36 +100,37 @@
     },
     {
       "type": "variation",
-      "title": "Eggless Version",
-      "content": "Omit the egg and increase milk to 60ml and oil to 30ml."
+      "title": "Dairy-free",
+      "content": "Substitute full-cream milk with oat or almond milk."
     }
   ],
   "nutrition": {
     "servings": 1,
-    "cal": 808,
-    "kj": 3380,
-    "protein": 34,
-    "carbs": 84,
-    "sugars": 46,
-    "fat": 37,
-    "saturated_fat": 8.8,
+    "cal": 533,
+    "kj": 2229,
+    "protein": 9,
+    "carbs": 43,
+    "sugars": 5,
+    "fat": 35,
+    "saturated_fat": 5.2,
     "fiber": 5,
-    "sodium": 461,
-    "coverage": 78,
-    "foundCount": 7,
-    "totalCount": 9,
+    "sodium": 161,
+    "coverage": 63,
+    "foundCount": 5,
+    "totalCount": 8,
     "unmatchedItems": [
+      "Caster Sugar",
       "Milk Full-cream",
-      "Vanilla Extract"
+      "Natural Vanilla Extract"
     ],
-    "calcium_mg": 150,
-    "iron_mg": 9,
-    "potassium_mg": 1222,
-    "magnesium_mg": 133,
-    "zinc_mg": 4,
-    "cholesterol_mg": 983,
-    "vitamin_a_ug": 296,
-    "vitamin_d_ug": 12
+    "noQuantityItems": [],
+    "calcium_mg": 56,
+    "iron_mg": 5,
+    "potassium_mg": 941,
+    "magnesium_mg": 109,
+    "zinc_mg": 2,
+    "cholesterol_mg": 7,
+    "vitamin_a_ug": 36
   },
-  "lastModified": "2026-08-31"
+  "lastModified": "2026-09-06"
 }

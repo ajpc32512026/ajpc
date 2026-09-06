@@ -516,6 +516,90 @@
             '</div>';
     }
 
+    // ── Tip deck: one shuffled bag per recipe page load, mixing real
+    // ingredient reference tips with food jokes. Both the automatic first
+    // load (line ~237 above) and every "Another Tip" click call the same
+    // loadRandomTip() function, so building the deck here covers both —
+    // the deck is built once per page, then this just advances through it.
+    // Reshuffles and starts over only once every item has been shown.
+    var tipDeck = null;
+    var tipDeckIndex = 0;
+
+    function shuffle(arr) {
+        var a = arr.slice();
+        for (var i = a.length - 1; i > 0; i--) {
+            var j = Math.floor(Math.random() * (i + 1));
+            var tmp = a[i]; a[i] = a[j]; a[j] = tmp;
+        }
+        return a;
+    }
+
+    async function buildTipDeck() {
+        var tipInventory = window.tipInventory;
+        if (!tipInventory) {
+            var res = await fetch('json/ingredients-master.json');
+            if (!res.ok) throw new Error('Failed to load ingredients directory');
+            tipInventory = await res.json();
+            window.tipInventory = tipInventory;
+        }
+
+        var tipLookup = {};
+        for (var canonKey in tipInventory) {
+            var entry = tipInventory[canonKey];
+            if (!entry.reference) continue;
+            tipLookup[canonKey.toLowerCase()] = { name: canonKey, data: entry };
+            (entry.aliases || []).forEach(function(alias) {
+                var aKey = alias.toLowerCase();
+                if (!tipLookup[aKey]) tipLookup[aKey] = { name: canonKey, data: entry };
+            });
+        }
+
+        var ingredientsList = [];
+        document.querySelectorAll('.ingredients li').forEach(function(li) {
+            if (li.classList.contains('ingredient-heading')) return;
+            var spans = li.querySelectorAll('span');
+            var ingredientName = '';
+            for (var s = 0; s < spans.length; s++) {
+                var spanText = spans[s].innerText || '';
+                if (spans[s].classList.contains('ingredient-quantity')) continue;
+                if (spans[s].classList.contains('ingredient-notes')) continue;
+                if (spanText.trim().length > 0) {
+                    ingredientName = spanText.trim().toLowerCase();
+                    break;
+                }
+            }
+            if (!ingredientName) {
+                var text = li.innerText || '';
+                text = text.replace(/^\d+[\d\/\s]*\s*/, '');
+                text = text.replace(/^g\s|^ml\s|^kg\s|^cup\s|^tbsp\s|^tsp\s|^oz\s/i, '');
+                ingredientName = text.trim().toLowerCase();
+            }
+            ingredientName = ingredientName.replace(/\(.*?\)/g, '').trim();
+            if (ingredientName.length < 3) return;
+            if (ingredientsList.indexOf(ingredientName) === -1) {
+                ingredientsList.push(ingredientName);
+            }
+        });
+
+        var deck = [];
+        for (var i = 0; i < ingredientsList.length; i++) {
+            var hit = tipLookup[ingredientsList[i]];
+            if (hit) deck.push({ type: 'ingredient', name: hit.name, data: hit.data });
+        }
+
+        try {
+            var jokeRes = await fetch('json/food-jokes.json');
+            if (jokeRes.ok) {
+                var jokes = await jokeRes.json();
+                jokes.forEach(function(j) { deck.push({ type: 'joke', setup: j.setup, punchline: j.punchline }); });
+            }
+        } catch (e) {
+            console.warn('Could not load food-jokes.json:', e);
+        }
+
+        return shuffle(deck);
+    }
+
     window.loadRandomTip = async function() {
         function escHtmlForTip(str) {
             if (!str) return '';
@@ -541,66 +625,34 @@
         if (!container) return;
 
         try {
-            var tipInventory = window.tipInventory;
-            if (!tipInventory) {
-                var res = await fetch('json/ingredients-master.json');
-                if (!res.ok) throw new Error('Failed to load ingredients directory');
-                tipInventory = await res.json();
-                window.tipInventory = tipInventory;
+            if (!tipDeck || !tipDeck.length) {
+                tipDeck = await buildTipDeck();
+                tipDeckIndex = 0;
             }
-
-            var tipLookup = {};
-            for (var canonKey in tipInventory) {
-                var entry = tipInventory[canonKey];
-                if (!entry.reference) continue; 
-                tipLookup[canonKey.toLowerCase()] = { name: canonKey, data: entry };
-                (entry.aliases || []).forEach(function(alias) {
-                    var aKey = alias.toLowerCase();
-                    if (!tipLookup[aKey]) tipLookup[aKey] = { name: canonKey, data: entry };
-                });
-            }
-
-            var ingredientsList = [];
-            document.querySelectorAll('.ingredients li').forEach(function(li) {
-                if (li.classList.contains('ingredient-heading')) return;
-                var spans = li.querySelectorAll('span');
-                var ingredientName = '';
-                for (var s = 0; s < spans.length; s++) {
-                    var spanText = spans[s].innerText || '';
-                    if (spans[s].classList.contains('ingredient-quantity')) continue;
-                    if (spans[s].classList.contains('ingredient-notes')) continue;
-                    if (spanText.trim().length > 0) {
-                        ingredientName = spanText.trim().toLowerCase();
-                        break;
-                    }
-                }
-                if (!ingredientName) {
-                    var text = li.innerText || '';
-                    text = text.replace(/^\d+[\d\/\s]*\s*/, '');
-                    text = text.replace(/^g\s|^ml\s|^kg\s|^cup\s|^tbsp\s|^tsp\s|^oz\s/i, '');
-                    ingredientName = text.trim().toLowerCase();
-                }
-                ingredientName = ingredientName.replace(/\(.*?\)/g, '').trim();
-                if (ingredientName.length < 3) return;
-
-                // Fix: Removed PANTRY_STAPLES exclusion so common ingredients can show tips
-                if (ingredientsList.indexOf(ingredientName) === -1) {
-                    ingredientsList.push(ingredientName);
-                }
-            });
-
-            var matches = [];
-            for (var i = 0; i < ingredientsList.length; i++) {
-                var hit = tipLookup[ingredientsList[i]];
-                if (hit) matches.push(hit);
-            }
-
-            if (matches.length === 0) {
+            if (!tipDeck.length) {
                 container.innerHTML = '<p class="tip-no-results">No tips available for ingredients in this recipe.</p>';
                 return;
             }
+            if (tipDeckIndex >= tipDeck.length) {
+                // Whole deck shown once — reshuffle and start over, per your
+                // "no repeats until the full list cycles" preference.
+                tipDeck = shuffle(tipDeck);
+                tipDeckIndex = 0;
+            }
 
-            var random = matches[Math.floor(Math.random() * matches.length)];
+            var picked = tipDeck[tipDeckIndex++];
+
+            if (picked.type === 'joke') {
+                currentTipData = picked;
+                var jokeHtml = '<div class="tip-joke">'
+                    + '<div class="tip-joke-setup">' + escHtmlForTip(picked.setup) + '</div>'
+                    + '<div class="tip-joke-punchline">' + escHtmlForTip(picked.punchline) + '</div>'
+                    + '</div>';
+                container.innerHTML = jokeHtml;
+                return;
+            }
+
+            var random = { name: picked.name, data: picked.data };
             currentTipData = random;
             var ref = random.data.reference || {};
 
@@ -652,16 +704,29 @@
             return;
         }
         var savedTips = JSON.parse(localStorage.getItem('ajpc_saved_tips') || '[]');
-        var newTip = {
-            id: Date.now(),
-            recipeId: currentRecipeId,
-            recipeTitle: currentRecipeTitle,
-            ingredient: currentTipData.name,
-            tip: currentTipData.data.notes ? currentTipData.data.notes.substring(0, 500) : '',
-            substitute: currentTipData.data.substitutes ? currentTipData.data.substitutes : '',
-            purpose: currentTipData.data.purpose ? currentTipData.data.purpose : '',
-            savedAt: new Date().toISOString().split('T')[0]
-        };
+        var newTip;
+
+        if (currentTipData.type === 'joke') {
+            newTip = {
+                id: Date.now(),
+                recipeId: currentRecipeId,
+                recipeTitle: currentRecipeTitle,
+                joke: currentTipData.setup + ' — ' + currentTipData.punchline,
+                savedAt: new Date().toISOString().split('T')[0]
+            };
+        } else {
+            newTip = {
+                id: Date.now(),
+                recipeId: currentRecipeId,
+                recipeTitle: currentRecipeTitle,
+                ingredient: currentTipData.name,
+                tip: currentTipData.data.notes ? currentTipData.data.notes.substring(0, 500) : '',
+                substitute: currentTipData.data.substitutes ? currentTipData.data.substitutes : '',
+                purpose: currentTipData.data.purpose ? currentTipData.data.purpose : '',
+                savedAt: new Date().toISOString().split('T')[0]
+            };
+        }
+
         savedTips.unshift(newTip);
         localStorage.setItem('ajpc_saved_tips', JSON.stringify(savedTips));
         alert('✓ Tip saved to your personal notebook!');
