@@ -4,67 +4,61 @@
    (meal, diet, cuisine, method, time, ingredient, style) so
    related tags sit together instead of one flat frequency list.
    All tags link to search.html?q=tag
+
+   The tag -> group classification used to be a hardcoded TAXONOMY
+   object here, maintained independently of official-tag-vocabulary.json
+   and the Master Maintenance Suite's own category list. Three
+   separate copies of "what group does this tag belong to" meant
+   they could silently drift apart. This now builds its classification
+   map at runtime from official-tag-vocabulary.json's own tagVocabulary
+   object, so there is exactly one place that decides tag groupings.
 ========================================================= */
 
 (function () {
     'use strict';
 
-    // ---- Taxonomy: tag (lowercase) -> group key --------------------
-    // Anything not listed here falls into the "other" group, so new
-    // tags never disappear — they just show up unsorted until added.
-    var TAXONOMY = {
-        // Diet
-        'vegetarian': 'diet', 'vegan': 'diet', 'gluten-free': 'diet', 'dairy-free': 'diet',
-
-        // Meal & dish type
-        'dinner': 'meal', 'lunch': 'meal', 'breakfast': 'meal', 'dessert': 'meal', 'snack': 'meal',
-        'main course': 'meal', 'entree': 'meal', 'soup': 'meal', 'condiment': 'meal', 'sauce': 'meal',
-        'bread': 'meal', 'cake': 'meal', 'pastry': 'meal', 'cookies': 'meal', 'curry': 'meal',
-        'noodles': 'meal', 'pasta': 'meal', 'muffins': 'meal', 'biscuits': 'meal',
-
-        // Cuisine
-        'australian': 'cuisine', 'french': 'cuisine', 'american': 'cuisine', 'italian': 'cuisine',
-        'asian': 'cuisine', 'chinese': 'cuisine', 'filipino': 'cuisine', 'indian': 'cuisine',
-        'japanese': 'cuisine', 'thai': 'cuisine', 'british': 'cuisine', 'european': 'cuisine',
-        'mexican': 'cuisine', 'middle eastern': 'cuisine', 'german': 'cuisine', 'jamaican': 'cuisine',
-        'russian': 'cuisine', 'swedish': 'cuisine', 'turkish': 'cuisine', 'ukrainian': 'cuisine',
-        'austrian': 'cuisine', 'bistro': 'cuisine',
-
-        // Cooking method
-        'baked': 'method', 'baking': 'method', 'slow-cooked': 'method', 'stir-fried': 'method',
-        'deep-fried': 'method', 'air-fried': 'method', 'air fryer': 'method', 'overnight': 'method',
-        'microwave': 'method', 'no-bake': 'method', 'make ahead': 'method', 'freezer friendly': 'method',
-        'no oil': 'method',
-        // 'Make Ahead' and 'Make-Ahead' both exist as separate tag strings in
-        // recipe-index.json (a data hygiene issue, not a code one — worth a
-        // find/replace across recipe JSON files to pick one spelling).
-        // Mapped here too so they at least group together meanwhile.
-        'make-ahead': 'method',
-
-        // Time — sorted by minutes below, not alphabetically
-        'under 10 minutes': 'time', 'under 15 minutes': 'time',
-        'under 30 minutes': 'time', 'under 1 hour': 'time',
-
-        // Main ingredient
-        'chicken': 'ingredient', 'beef': 'ingredient', 'pork': 'ingredient', 'seafood': 'ingredient',
-        'lamb': 'ingredient', 'veal': 'ingredient', 'fish': 'ingredient', 'coconut': 'ingredient',
-        'lemon': 'ingredient', 'orange': 'ingredient', 'citrus': 'ingredient', 'tomato': 'ingredient',
-        'garlic': 'ingredient', 'fruit': 'ingredient', 'chocolate': 'ingredient', 'banana': 'ingredient',
-        'pineapple': 'ingredient', 'cherry': 'ingredient', 'carrot': 'ingredient', 'cheese': 'ingredient',
-        'apricot': 'ingredient', 'rice': 'ingredient', 'multigrain': 'ingredient', 'cinnamon': 'ingredient',
-        'butter': 'ingredient', 'caramel': 'ingredient', 'coffee': 'ingredient',
-        'alcohol': 'ingredient', 'brandy': 'ingredient',
-
-        // Style, texture & occasion
-        'savoury': 'style', 'classic': 'style', 'sweet': 'style', 'rich': 'style', 'creamy': 'style',
-        'spicy': 'style', 'easy': 'style', 'party': 'style', 'crispy': 'style', 'crusty': 'style',
-        'comfort food': 'style', 'hearty': 'style', 'healthy': 'style', 'retro': 'style',
-        'seeded': 'style', 'single serve': 'style', 'sourdough style': 'style',
-        'bakery-style': 'style', 'artisan': 'style', 'quick': 'style', 'saucy': 'style'
+    // official-tag-vocabulary.json has 13 finer-grained groups
+    // (tagVocabulary keys); this page only has room for 8 broad visual
+    // buckets. GROUP_KEY_MAP folds the former into the latter. This is
+    // the one piece of grouping logic that still lives here rather than
+    // in the vocabulary file itself — it's about this page's layout, not
+    // about what a tag "is", so it stays close to the code that uses it.
+    var GROUP_KEY_MAP = {
+        mealType: 'meal',
+        style: 'meal',            // official "style" = dish/format words (Bread, Cake, Sauce, Pastry) — same bucket as mealType here
+        dietary: 'diet',
+        cuisine: 'cuisine',
+        cookingMethod: 'method',
+        technique: 'style',       // Lamination, Multigrain, Puff Pastry, Seeded
+        time: 'time',
+        keyIngredients: 'ingredient',
+        protein: 'ingredient',
+        specificCheeses: 'ingredient',
+        specificLiqueurs: 'ingredient',
+        characteristics: 'style',
+        occasion: 'style'
     };
 
-    TAXONOMY['southern'] = 'cuisine';
-    TAXONOMY['stew'] = 'meal';
+    // Built by buildTaxonomy() once official-tag-vocabulary.json loads.
+    // A tag not found here (used on a recipe but never added to the
+    // official vocabulary) falls into "other" — that's not a bug to
+    // patch around, it's the page surfacing real drift, the same drift
+    // the Master Maintenance Suite's orphan-tag check flags for fixing
+    // at the source.
+    var TAXONOMY = {};
+
+    function buildTaxonomy(vocabData) {
+        var map = {};
+        var groups = (vocabData && vocabData.tagVocabulary) || {};
+        Object.keys(groups).forEach(function (vocabKey) {
+            var bucket = GROUP_KEY_MAP[vocabKey];
+            if (!bucket) return; // an official group with nowhere mapped yet — falls to "other" rather than being silently dropped
+            (groups[vocabKey] || []).forEach(function (tag) {
+                map[String(tag).toLowerCase()] = bucket;
+            });
+        });
+        return map;
+    }
 
     var GROUPS = [
         { key: 'meal',       label: 'Meal & Dish Type' },
@@ -106,6 +100,16 @@
         } catch (e) {
             container.innerHTML = '<p class="tracker-empty">Could not load recipe index.</p>';
             return;
+        }
+
+        // The vocabulary drives the grouping, so a failure here shouldn't
+        // block the page — it just means every tag falls into "Other"
+        // instead of nothing rendering at all.
+        try {
+            var vocabRes = await fetch('json/official-tag-vocabulary.json?t=' + Date.now());
+            if (vocabRes.ok) TAXONOMY = buildTaxonomy(await vocabRes.json());
+        } catch (e) {
+            console.error('Could not load official-tag-vocabulary.json — tags will be ungrouped:', e);
         }
 
         window._tagIndex = index;

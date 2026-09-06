@@ -2789,49 +2789,6 @@
       "usageTips": "If you are making a cheese sauce, take the pan off the heat before stirring in the grated cheddar. If the cheese gets too hot too fast, it will become grainy and oily."
     }
   },
-  "cheese": {
-    "_needsPricing": true,
-    "aliases": [
-      "Brie",
-      "Camembert",
-      "Cheddar",
-      "Feta",
-      "Greek Feta",
-      "Gruyère",
-      "Mascarpone",
-      "Mozzarella",
-      "Parmesan",
-      "Parmigiano-Reggiano",
-      "Ricotta",
-      "Swiss Cheese",
-      "Tasty Australian Cheese",
-      "Tasty Cheese"
-    ],
-    "category": "Cheese",
-    "displayName": "Cheese",
-    "priceData": null,
-    "reference": {
-      "notes": "Common types and behaviour: - **Hard & Aged Cheeses (Cheddar, Tasty, Parmesan, Gruyère):** Low-moisture, high-umami cheeses with concentrated flavour. Grate for sauces, bakes, and gratins. Can split or become greasy if overheated; add gently or off heat. - **Semi-Soft / Melting Cheeses (Mozzarella):** Smooth melting and stretch. Ideal for pizzas, bakes, and layered dishes. Fresh mozzarella releases moisture; low-moisture versions brown and blister better. - **Soft & Fresh Cheeses (Mascarpone):** High-fat, creamy cheeses; do not melt or brown. Provide richness, body, and emulsification in desserts, fillings, and frostings. - **Brined Cheeses (Feta):** Salty, tangy, crumbly; does not melt but softens and lightly caramelises when baked. Adds sharp contrast to vegetables, eggs, and pastries. - **Milk Source:** Cow’s milk cheeses are mild to nutty; sheep and goat cheeses are tangier and aromatic. - **Seasoning Note:** Cheese contributes salt and umami—adjust added salt accordingly. - **",
-      "purpose": "Adds flavour, richness, salt, fat, and umami. Provides creaminess, stretch, crumble, or firmness depending on type. Functions as seasoning, structural element, or primary ingredient in sauces, baking, gratins, pizzas, pastries, and desserts. Enhances browning, body, mouthfeel, and binds ingredients together in both cooked and finished dishes.",
-      "storage": "Storage:** Wrap cheese but allow breathability to prevent drying; bring to room temperature before serving for best flavour.",
-      "usedIn": [
-        "alfredosauce",
-        "bistro-carpetbag",
-        "bistro-reefandbeef",
-        "bistro-vealcordonbleu",
-        "bistro-vealmozzarella",
-        "bistro-vealoscar",
-        "classiccarrotcake",
-        "hummingbird",
-        "mornaysauce",
-        "muffinmix",
-        "orangepoppyseed",
-        "plaincheesecakeclassicnobake",
-        "porkcaldereta",
-        "sourdoughcinnrolls"
-      ]
-    }
-  },
   "cherries": {
     "aliases": [
       "cherries",
@@ -5625,37 +5582,6 @@
       "usageTips": "The secret to puff pastry is keeping it **cold**. If it gets too warm, the butter melts into the dough and it won't puff. If it starts to feel sticky, put it back in the fridge for 10 minutes before continuing."
     }
   },
-  "fruit": {
-    "_needsPricing": true,
-    "aliases": [
-      "Canned Apricots",
-      "Canned Fruit",
-      "Canned Peaches",
-      "Dried Apricots",
-      "Fresh Fruit",
-      "Frozen Berries",
-      "Frozen Mango",
-      "Frozen Mixed Fruit",
-      "Mixed Dried Fruit",
-      "Preserved Fruit",
-      "Raisins",
-      "Seasonal Fruit",
-      "Sultanas",
-      "Tinned Fruit"
-    ],
-    "category": "Baking",
-    "displayName": "Fruit",
-    "priceData": null,
-    "reference": {
-      "notes": "Common types and Adds concentrated flavour, texture, and natural sweetness. - **Frozen Fruit (Berries, Mango, Mixed Tropical Fruit):** Retains fresh-like flavour and colour. Can be added directly to batters or fillings; may release juice during baking, so adjust liquid as needed. - **Canned / Tinned Fruit:** Stored in syrup, juice, or water. Drain syrup unless recipe requires liquid. Can be chopped, sliced, or pureed depending on use. - **Storage & Tips:** Keep dried fruit in airtight containers in a cool, dry place. Freeze fresh fruit if not using immediately. Store unopened canned fruit in a cool, dark pantry; refrigerate once opened.",
-      "purpose": "Adds sweetness, flavour, moisture, and texture to baked goods and desserts. Provides natural bursts of colour and visual appeal. Enhances crumb structure, acts as a natural sweetener, and adds chewiness or juiciness depending on type. Suitable for cakes, muffins, breads, tarts, pies, sauces, compotes, and confections.",
-      "usageTips": "usage:\n\n- **Dried Fruit (Raisins, Sultanas, Apricots, Mixed Fruit):** Naturally sweet and chewy; can be used directly in batters or soaked in water, juice, or alcohol to plump.",
-      "usedIn": [
-        "bistro-pavlova",
-        "bistro-vealoscar"
-      ]
-    }
-  },
   "garam masala": {
     "aliases": [
       "Ground Garam Masala",
@@ -6723,25 +6649,6 @@
       "purpose": "Adds rich, nutty, savoury depth with excellent melting properties. Ideal for baked dishes where a smooth, even melt and golden finish are desired. Pairs well with eggs, pastry, vegetables, and white sauces.",
       "usedIn": [
         "tomatoflan"
-      ]
-    }
-  },
-  "half and half": {
-    "_needsPricing": true,
-    "aliases": [
-      "Half Cream",
-      "Half Milk",
-      "Cream and Milk Blend"
-    ],
-    "category": "Dairy",
-    "displayName": "Half and Half",
-    "priceData": null,
-    "reference": {
-      "notes": "A dairy blend of equal parts whole milk and thickened cream, Not widely sold pre-mixed in Australia — easily made at home by combining equal measures of whole milk and thickened cream. Used in baking to add richness and tenderness without the heaviness of full cream, particularly in enriched doughs like cinnamon rolls where it is poured over the risen dough before baking. Store refrigerated and use within the same timeframe as the cream used to make it.",
-      "purpose": "Provides a lighter richness than full cream while adding more fat and tenderness than milk alone. Ideal for enriched doughs, scones, and baked goods where a balance of richness and lightness is needed.",
-      "usageTips": "commonly used in American recipes where a liquid with more richness than milk but less density than cream is needed.",
-      "usedIn": [
-        "sourdoughcinnrolls"
       ]
     }
   },
@@ -9018,92 +8925,6 @@
       ]
     }
   },
-  "oil": {
-    "_needsPricing": true,
-    "aliases": [
-      "Blended Vegetable Oil",
-      "Canola Oil",
-      "Cooking Oil",
-      "Corn Oil",
-      "Cottonseed Oil",
-      "Extra Virgin Olive Oil",
-      "Grapeseed Oil",
-      "Groundnut Oil",
-      "Maize Oil",
-      "Neutral Oil",
-      "Olive Oil",
-      "Peanut Oil",
-      "Rapeseed Oil",
-      "Rice Bran Oil",
-      "Roasted Sesame Oil",
-      "Sesame Oil",
-      "Sesame Seed Oil",
-      "Soy Oil",
-      "Soybean Oil",
-      "Soya Oil",
-      "Sunflower Oil",
-      "Toasted Sesame Oil",
-      "Vegetable Oil",
-      "Virgin Olive Oil"
-    ],
-    "category": "Oil",
-    "displayName": "Oil",
-    "priceData": null,
-    "reference": {
-      "notes": "Plant-based culinary oils with a wide range of **smoke points**, **flavour profiles**, and **applications**. - **Neutral oils:** Canola (rapeseed), corn, grapeseed, rice bran, soybean, sunflower, blended vegetable oil, and cottonseed oil. Very mild to neutral flavour; suitable for baking, roasting, sautéing, shallow frying, and deep frying. High smoke points allow even cooking without flavor interference. - **Peanut oil (groundnut oil):** High smoke point with a mild nutty aroma. Refined peanut oil is largely neutral and ideal for high-heat cooking; unrefined is more aromatic and flavour-forward. - **Rice bran oil:** Exceptionally high smoke point with a clean, neutral taste; excellent for sustained high-temperature cooking. - **Olive oil:** Varies by refinement. Extra virgin olive oil provides pronounced flavour, ideal for dressings and finishing; pure/refined olive oil better for frying and general cooking. - **Sesame oil:** Regular or toasted (roasted). Regular sesame oil suitable for light cooking; toasted sesame oil has strong aroma, best used sparingly as finishing oil or flavour accent. - **Cottonseed oil:** Mild flavor, light color; high smoke point makes it suitable for deep frying, sautéing, and general cooking. Often used in commercial frying and baking.",
-      "purpose": "Provides essential fat for cooking, baking, and frying.\n\n- Adds moisture and tenderness to baked goods.\n- Supports even heat transfer and cooking stability across low- to high-heat applications.\n- Promotes browning and crisping during frying and roasting.\n- Carries and distributes flavours without contributing its own when neutral oils are used.\n- Contributes richness, aroma, or nutty character when flavour-forward oils (such as olive oil or toasted sesame oil) are chosen.\n- Functions as a base oil in blends and as a finishing or seasoning element, depending on the oil type.",
-      "usedIn": [
-        "applecinnscrolls",
-        "arrabbiatasauce",
-        "beefstockpot",
-        "beefstroganoff",
-        "beefvindaloo",
-        "bistro-chickenkiev",
-        "bistro-vealcordonbleu",
-        "blueberrymuffins",
-        "butterchicken",
-        "chickenbaconpies",
-        "chickencacciatore",
-        "chickenshawarma",
-        "chickenteriyaki",
-        "chiligarlicoil",
-        "chocmuffins",
-        "classiccarrotcake",
-        "crepes",
-        "darkrye",
-        "filipinonoodles",
-        "filipinoportoccino",
-        "focaccia",
-        "focaccia-high",
-        "hamburger",
-        "highhydraciab",
-        "hummingbird",
-        "kormapaste",
-        "lambkorma",
-        "lambvindaloo",
-        "lamington",
-        "lasagne",
-        "marinarasauce",
-        "mongolianbeef",
-        "mongolianlamb",
-        "mongoliansauce",
-        "muffinmix",
-        "mushroomcups",
-        "nachomince",
-        "pestosauce",
-        "pizzadough",
-        "redsauce",
-        "roganjosh",
-        "sub",
-        "swbtm",
-        "swbtm2",
-        "sweetsourpork",
-        "tangzhongseed",
-        "tomatoflan",
-        "turkishbread"
-      ]
-    }
-  },
   "olive oil": {
     "aliases": [
       "oil olive",
@@ -9135,31 +8956,6 @@
       "purpose": "A foundational cooking fat. Extra Virgin (EVOO) is for flavor and dressings; 'Light' or 'Pure' is for general frying.",
       "storage": "Keep in a cool, dark cupboard. Do not store it next to the stove where it gets hot.",
       "usageTips": "Buy your olive oil in dark bottles or tins. Light and heat are the enemies of oil; they make it go rancid and taste like 'old crayons.'"
-    }
-  },
-  "olives": {
-    "_needsPricing": true,
-    "aliases": [
-      "Black Olives",
-      "Green Olives",
-      "Kalamata Olives",
-      "Spanish Olives",
-      "Table Olives"
-    ],
-    "category": "Vegetable",
-    "displayName": "Olives",
-    "priceData": null,
-    "reference": {
-      "notes": "Olives are cured fruits from the olive tree; can be black, green, or specialty varieties. - ** Can be marinated in herbs, oil, or brine for added flavour. - **Pairings:** Complements cheese, tomatoes, garlic, herbs, and Mediterranean ingredients. - ** - **Substitutions:** Capers or roasted peppers can substitute in some recipes for briny flavor.",
-      "purpose": "Adds briny, savory flavour, aroma, and texture to breads, pastries, and savory dishes; enhances Mediterranean-style baking and cooking.",
-      "storage": "Storage:** Store unopened jars or tins in a cool, dark place; refrigerate after opening in brine or oil to maintain freshness.",
-      "usageTips": "Usage:** Use whole, pitted, sliced, or chopped in breads, focaccias, pastries, salads, or tapenades.",
-      "usedIn": [
-        "chickencacciatore",
-        "focaccia",
-        "porkcaldereta",
-        "tomatoflan"
-      ]
     }
   },
   "onion": {
